@@ -22,6 +22,6 @@ $Sheet
 S 4900 4200 1500 850 
 U 5E8CCFC8
 F0 "Memory" 50
-F1 "memory" 50
+F1 "memory.sch" 50
 $EndSheet
 $EndSCHEMATC

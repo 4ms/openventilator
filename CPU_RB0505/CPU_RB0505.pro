@@ -1,4 +1,4 @@
-update=Wed 01 Apr 2020 10:59:44 AM PDT
+update=Thu 02 Apr 2020 10:39:39 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -256,11 +256,11 @@ dPairGap=0.254
 dPairViaGap=0.25
 [ModEditFrame]
 version=1
-[SchematicFrame]
-version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e8cc9df:
-2=00000000-0000-0000-0000-00005e8ccfc8:Memory
 [LibeditFrame]
 version=1
 PinnedItems1=CPU_RB0505
+[SchematicFrame]
+version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e855ebf:
+2=00000000-0000-0000-0000-00005e8ccfc8:Memory
