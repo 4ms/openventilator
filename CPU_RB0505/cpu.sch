@@ -18,56 +18,10 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Connection ~ 2300 2550
-Connection ~ 2300 2450
-Connection ~ 2350 2450
-Connection ~ 2300 2350
-Connection ~ 2350 2350
-Connection ~ 2350 1150
-Connection ~ 2300 1250
-Connection ~ 2350 1250
-Connection ~ 2300 1350
-Connection ~ 2350 1350
-Connection ~ 2300 1450
-Connection ~ 2350 1450
-Connection ~ 2300 1550
-Connection ~ 2300 1650
-Connection ~ 2300 1750
-Connection ~ 2300 1850
-Connection ~ 2300 1950
-Connection ~ 2300 2050
-Connection ~ 2300 2150
-Connection ~ 2300 2250
-Connection ~ 2350 1550
-Connection ~ 2350 1650
-Connection ~ 2350 1750
-Connection ~ 2350 1850
-Connection ~ 2350 1950
-Connection ~ 2350 2050
-Connection ~ 2350 2150
-Connection ~ 2350 2250
-Connection ~ 2300 3150
-Connection ~ 2300 3250
-Connection ~ 2300 3450
-Connection ~ 2300 4050
-Connection ~ 2300 3650
-Connection ~ 2300 4550
-Connection ~ 2300 3950
-Connection ~ 2300 4350
-Connection ~ 2300 3350
-Connection ~ 2300 3850
-Connection ~ 2300 3750
-Connection ~ 2300 4150
-Connection ~ 2300 4250
-Connection ~ 2300 3550
-Connection ~ 2300 6500
-Connection ~ 2300 6600
-Connection ~ 2300 6700
-Connection ~ 2300 6800
-Connection ~ 2300 6900
-Connection ~ 2300 7000
-Connection ~ 2300 7100
-Connection ~ 2300 7200
+Connection ~ 6250 2150
+Connection ~ 6350 1850
+Connection ~ 6450 1750
+NoConn ~ 6150 1650
 Entry Wire Line
 	2400 1150 2500 1050
 Entry Wire Line
@@ -141,65 +95,67 @@ Entry Wire Line
 Entry Wire Line
 	2400 5550 2500 5450
 Wire Wire Line
-	2250 1150 2350 1150
+	2250 1150 2400 1150
 Wire Wire Line
-	2250 1250 2300 1250
+	2250 1250 2400 1250
 Wire Wire Line
-	2250 1350 2300 1350
+	2250 1350 2400 1350
 Wire Wire Line
-	2250 1450 2300 1450
+	2250 1450 2400 1450
 Wire Wire Line
-	2250 1550 2300 1550
+	2250 1550 2400 1550
 Wire Wire Line
-	2250 1650 2300 1650
+	2250 1650 2400 1650
 Wire Wire Line
-	2250 1750 2300 1750
+	2250 1750 2400 1750
 Wire Wire Line
-	2250 1850 2300 1850
+	2250 1850 2400 1850
 Wire Wire Line
-	2250 1950 2300 1950
+	2250 1950 2400 1950
 Wire Wire Line
-	2250 2050 2300 2050
+	2250 2050 2400 2050
 Wire Wire Line
-	2250 2150 2300 2150
+	2250 2150 2400 2150
 Wire Wire Line
-	2250 2250 2300 2250
+	2250 2250 2400 2250
 Wire Wire Line
-	2250 2350 2300 2350
+	2250 2350 2400 2350
 Wire Wire Line
-	2250 2450 2300 2450
+	2250 2450 2400 2450
 Wire Wire Line
-	2250 2550 2300 2550
+	2250 2550 2400 2550
 Wire Wire Line
-	2250 3150 2300 3150
+	2250 2650 2400 2650
 Wire Wire Line
-	2250 3250 2300 3250
+	2250 3150 2400 3150
 Wire Wire Line
-	2250 3350 2300 3350
+	2250 3250 2400 3250
 Wire Wire Line
-	2250 3450 2300 3450
+	2250 3350 2400 3350
 Wire Wire Line
-	2250 3550 2300 3550
+	2250 3450 2400 3450
 Wire Wire Line
-	2250 3650 2300 3650
+	2250 3550 2400 3550
 Wire Wire Line
-	2250 3750 2300 3750
+	2250 3650 2400 3650
 Wire Wire Line
-	2250 3850 2300 3850
+	2250 3750 2400 3750
 Wire Wire Line
-	2250 3950 2300 3950
+	2250 3850 2400 3850
 Wire Wire Line
-	2250 4050 2300 4050
+	2250 3950 2400 3950
 Wire Wire Line
-	2250 4150 2300 4150
+	2250 4050 2400 4050
 Wire Wire Line
-	2250 4250 2300 4250
+	2250 4150 2400 4150
 Wire Wire Line
-	2250 4350 2300 4350
+	2250 4250 2400 4250
+Wire Wire Line
+	2250 4350 2400 4350
 Wire Wire Line
 	2250 4450 2400 4450
 Wire Wire Line
-	2250 4550 2300 4550
+	2250 4550 2400 4550
 Wire Wire Line
 	2250 4650 2400 4650
 Wire Wire Line
@@ -219,149 +175,97 @@ Wire Wire Line
 Wire Wire Line
 	2250 5950 2400 5950
 Wire Wire Line
-	2250 6500 2300 6500
+	2250 6500 2400 6500
 Wire Wire Line
-	2250 6600 2300 6600
+	2250 6600 2400 6600
 Wire Wire Line
-	2250 6700 2300 6700
+	2250 6700 2400 6700
 Wire Wire Line
-	2250 6800 2300 6800
+	2250 6800 2400 6800
 Wire Wire Line
-	2250 6900 2300 6900
+	2250 6900 2400 6900
 Wire Wire Line
-	2250 7000 2300 7000
+	2250 7000 2400 7000
 Wire Wire Line
-	2250 7100 2300 7100
+	2250 7100 2400 7100
 Wire Wire Line
-	2250 7200 2300 7200
+	2250 7200 2400 7200
 Wire Wire Line
-	2300 1250 2350 1250
+	5000 950  5250 950 
 Wire Wire Line
-	2300 1350 2350 1350
+	5000 1050 5250 1050
 Wire Wire Line
-	2300 1450 2350 1450
+	5000 1150 5250 1150
 Wire Wire Line
-	2300 1550 2350 1550
+	5000 1250 5250 1250
 Wire Wire Line
-	2300 1650 2350 1650
+	5000 1350 5250 1350
 Wire Wire Line
-	2300 1750 2350 1750
+	5000 1450 5250 1450
 Wire Wire Line
-	2300 1850 2350 1850
+	5000 1550 5250 1550
 Wire Wire Line
-	2300 1950 2350 1950
+	5000 1650 5250 1650
 Wire Wire Line
-	2300 2050 2350 2050
+	5000 1750 6450 1750
 Wire Wire Line
-	2300 2150 2350 2150
+	5000 1850 6350 1850
 Wire Wire Line
-	2300 2250 2350 2250
+	5000 1950 6750 1950
 Wire Wire Line
-	2300 2350 2350 2350
+	5000 2050 6750 2050
 Wire Wire Line
-	2300 2450 2350 2450
+	5000 2150 6250 2150
 Wire Wire Line
-	2300 2550 2400 2550
+	5000 2250 5250 2250
 Wire Wire Line
-	2300 3150 2400 3150
+	5000 2350 5250 2350
 Wire Wire Line
-	2300 3250 2400 3250
+	5000 2450 5250 2450
 Wire Wire Line
-	2300 3350 2400 3350
+	6150 1200 6150 1250
 Wire Wire Line
-	2300 3450 2400 3450
+	6250 1650 6250 2150
 Wire Wire Line
-	2300 3550 2400 3550
+	6250 2150 6750 2150
 Wire Wire Line
-	2300 3650 2400 3650
+	6350 1650 6350 1850
 Wire Wire Line
-	2300 3750 2400 3750
+	6350 1850 6750 1850
 Wire Wire Line
-	2300 3850 2400 3850
+	6450 1650 6450 1750
 Wire Wire Line
-	2300 3950 2400 3950
-Wire Wire Line
-	2300 4050 2400 4050
-Wire Wire Line
-	2300 4150 2400 4150
-Wire Wire Line
-	2300 4250 2400 4250
-Wire Wire Line
-	2300 4350 2400 4350
-Wire Wire Line
-	2300 4550 2400 4550
-Wire Wire Line
-	2300 6500 2400 6500
-Wire Wire Line
-	2300 6600 2400 6600
-Wire Wire Line
-	2300 6700 2400 6700
-Wire Wire Line
-	2300 6800 2400 6800
-Wire Wire Line
-	2300 6900 2400 6900
-Wire Wire Line
-	2300 7000 2400 7000
-Wire Wire Line
-	2300 7100 2400 7100
-Wire Wire Line
-	2300 7200 2400 7200
-Wire Wire Line
-	2350 1150 2400 1150
-Wire Wire Line
-	2350 1250 2400 1250
-Wire Wire Line
-	2350 1350 2400 1350
-Wire Wire Line
-	2350 1450 2400 1450
-Wire Wire Line
-	2350 1550 2400 1550
-Wire Wire Line
-	2350 1650 2400 1650
-Wire Wire Line
-	2350 1750 2400 1750
-Wire Wire Line
-	2350 1850 2400 1850
-Wire Wire Line
-	2350 1950 2400 1950
-Wire Wire Line
-	2350 2050 2400 2050
-Wire Wire Line
-	2350 2150 2400 2150
-Wire Wire Line
-	2350 2250 2400 2250
-Wire Wire Line
-	2350 2350 2400 2350
-Wire Wire Line
-	2350 2450 2400 2450
-Wire Wire Line
-	2350 2650 2400 2650
+	6450 1750 6750 1750
 Wire Bus Line
 	2500 1050 2500 1250
 Wire Bus Line
-	2500 1250 2500 1450
+	2500 1250 2500 1350
 Wire Bus Line
-	2500 1450 2500 1650
+	2500 1350 2500 1550
+Wire Bus Line
+	2500 1550 2500 1650
 Wire Bus Line
 	2500 1650 2500 1850
 Wire Bus Line
-	2500 1850 2500 2050
+	2500 1850 2500 1950
 Wire Bus Line
-	2500 2050 2500 2250
+	2500 1950 2500 2150
 Wire Bus Line
-	2500 2250 2500 2350
+	2500 2150 2500 2350
 Wire Bus Line
 	2500 2350 2500 2550
 Wire Bus Line
-	2500 3050 2500 3250
+	2500 3050 2500 3150
 Wire Bus Line
 	2500 3050 2600 3050
 Wire Bus Line
-	2500 3250 2500 3450
+	2500 3150 2500 3350
 Wire Bus Line
-	2500 3450 2500 3650
+	2500 3350 2500 3550
 Wire Bus Line
-	2500 3650 2500 3850
+	2500 3550 2500 3750
+Wire Bus Line
+	2500 3750 2500 3850
 Wire Bus Line
 	2500 3850 2500 4050
 Wire Bus Line
@@ -476,6 +380,60 @@ Text HLabel 2600 1050 2    50   Output ~ 0
 D[0..15]
 Text HLabel 2600 3050 2    50   Output ~ 0
 A[0..19]
+Text HLabel 5250 950  2    50   Input ~ 0
+SPEED_MEASURE
+Text HLabel 5250 1050 2    50   Output ~ 0
+BRAKE
+Text HLabel 5250 1150 2    50   Input ~ 0
+DEF-TURB
+Text HLabel 5250 1250 2    50   Output ~ 0
+ENABLE-TURB
+Text HLabel 5250 1350 2    50   Output ~ 0
+WDOG
+Text HLabel 5250 1450 2    50   Input ~ 0
++3.3V-FAILURE
+Text HLabel 5250 1550 2    50   Input ~ 0
++5VREF-FAILURE
+Text HLabel 5250 1650 2    50   Input ~ 0
++10VREF-FAILURE
+Text HLabel 5250 2250 2    50   Output ~ 0
+INV-STOP
+Text HLabel 5250 2350 2    50   Output ~ 0
+RAP-ALARM
+Text HLabel 5250 2450 2    50   Output ~ 0
+CMD_ME1
+Text HLabel 6750 1750 2    50   Input ~ 0
+BUSY-ME1
+Text HLabel 6750 1850 2    50   Input ~ 0
+BUSY-ME2
+Text HLabel 6750 1950 2    50   Input ~ 0
+USB_BUSY_E
+Text HLabel 6750 2050 2    50   Input ~ 0
+BUSY-AFF
+Text HLabel 6750 2150 2    50   Input ~ 0
+TEST-RAP-ALARM
+$Comp
+L power:+5V #PWR?
+U 1 1 5E900EF9
+P 6150 1200
+F 0 "#PWR?" H 6150 1050 50  0001 C CNN
+F 1 "+5V" H 6165 1373 50  0000 C CNN
+F 2 "" H 6150 1200 50  0001 C CNN
+F 3 "" H 6150 1200 50  0001 C CNN
+	1    6150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network04 RN?
+U 1 1 5E8FF62E
+P 6350 1450
+F 0 "RN?" H 6537 1495 50  0000 L CNN
+F 1 "R_Network04" H 6537 1405 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 6625 1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6350 1450 50  0001 C CNN
+	1    6350 1450
+	1    0    0    -1  
+$EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 8 1 5E9C336E
@@ -545,34 +503,34 @@ $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 4 1 5E9B3194
-P 4450 1950
-F 0 "U?" H 4533 3064 50  0000 C CNN
-F 1 "ST10F276Z5" H 4533 2973 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4500 2300 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2950 2300 50  0001 C CNN
-	4    4450 1950
+P 5250 4000
+F 0 "U?" H 5333 5114 50  0000 C CNN
+F 1 "ST10F276Z5" H 5333 5023 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 5300 4350 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 3750 4350 50  0001 C CNN
+	4    5250 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 6 1 5E9B9492
-P 4300 4850
-F 0 "U?" H 4358 5714 50  0000 C CNN
-F 1 "ST10F276Z5" H 4358 5623 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4350 5200 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2800 5200 50  0001 C CNN
-	6    4300 4850
+P 4300 3750
+F 0 "U?" H 4358 4614 50  0000 C CNN
+F 1 "ST10F276Z5" H 4358 4523 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4350 4100 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2800 4100 50  0001 C CNN
+	6    4300 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 3 1 5E9AF82E
-P 4600 7050
-F 0 "U?" H 4655 8114 50  0000 C CNN
-F 1 "ST10F276Z5" H 4655 8023 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4650 7400 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 3100 7400 50  0001 C CNN
-	3    4600 7050
+P 4200 1750
+F 0 "U?" H 4255 2814 50  0000 C CNN
+F 1 "ST10F276Z5" H 4255 2723 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4250 2100 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2700 2100 50  0001 C CNN
+	3    4200 1750
 	1    0    0    -1  
 $EndComp
 $Comp
