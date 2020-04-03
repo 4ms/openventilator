@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "10106052 PowerPack")(type Legacy)(uri "${KIPRJMOD}/10106052 PowerPack.lib")(options "")(descr ""))
+)
