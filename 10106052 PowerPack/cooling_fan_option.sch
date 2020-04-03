@@ -1,0 +1,110 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 5E8786CD
+P 5950 3000
+F 0 "J10" H 5922 2974 50  0000 R CNN
+F 1 "S2B-ZR-SM4A-TF" H 5922 2883 50  0000 R CNN
+F 2 "" H 5950 3000 50  0001 C CNN
+F 3 "~" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD T11
+U 1 1 5E878E90
+P 5400 3475
+F 0 "T11" H 5606 3521 50  0000 L CNN
+F 1 "SI2300DS-T1-GE3" H 5606 3430 50  0000 L CNN
+F 2 "" H 5600 3575 50  0001 C CNN
+F 3 "~" H 5400 3475 50  0001 C CNN
+	1    5400 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3275 5500 3100
+Wire Wire Line
+	5500 3100 5750 3100
+$Comp
+L Device:R R31
+U 1 1 5E87995B
+P 5000 3925
+F 0 "R31" H 5070 3971 50  0000 L CNN
+F 1 "22k" H 5070 3880 50  0000 L CNN
+F 2 "" V 4930 3925 50  0001 C CNN
+F 3 "~" H 5000 3925 50  0001 C CNN
+	1    5000 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5E879CA4
+P 5500 2625
+F 0 "R26" H 5570 2671 50  0000 L CNN
+F 1 "68" H 5570 2580 50  0000 L CNN
+F 2 "" V 5430 2625 50  0001 C CNN
+F 3 "~" H 5500 2625 50  0001 C CNN
+	1    5500 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 2775
+Wire Wire Line
+	5500 3675 5500 4275
+Wire Wire Line
+	5500 4275 5000 4275
+Wire Wire Line
+	5000 4275 5000 4075
+Wire Wire Line
+	5000 3775 5000 3475
+Wire Wire Line
+	5000 3475 5200 3475
+Wire Wire Line
+	5500 4325 5500 4275
+Connection ~ 5500 4275
+$Comp
+L power:GND #PWR?
+U 1 1 5E87A431
+P 5500 4325
+F 0 "#PWR?" H 5500 4075 50  0001 C CNN
+F 1 "GND" H 5500 4175 50  0000 C CNN
+F 2 "" H 5500 4325 50  0001 C CNN
+F 3 "" H 5500 4325 50  0001 C CNN
+	1    5500 4325
+	1    0    0    -1  
+$EndComp
+Text HLabel 4775 3475 0    50   Input ~ 0
+FAN_EN
+Wire Wire Line
+	4775 3475 5000 3475
+Connection ~ 5000 3475
+$Comp
+L power:+5V #PWR?
+U 1 1 5E87C1FF
+P 5500 2400
+F 0 "#PWR?" H 5500 2250 50  0001 C CNN
+F 1 "+5V" H 5515 2573 50  0000 C CNN
+F 2 "" H 5500 2400 50  0001 C CNN
+F 3 "" H 5500 2400 50  0001 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2400 5500 2475
+$EndSCHEMATC
