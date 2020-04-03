@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 811-S1-002-30-014101
+#
+DEF 811-S1-002-30-014101 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "811-S1-002-30-014101" 650 200 50 H V L CNN
+F2 "811S100230014101" 650 100 50 H I L CNN
+F3 "https://www.precidip.com/en/Products/Spring-Loaded-Connectors/pview/811-S1-NNN-30-014101.html" 650 0 50 H I L CNN
+F4 "CONN SPRING PISTON 2POS SMD" 650 -100 50 H I L CNN "Description"
+F5 "6" 650 -200 50 H I L CNN "Height"
+F6 "Preci-Dip" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "811-S1-002-30-014101" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 550 0 50 -899 899 0 1 0 N 550 -50 550 50
+A 550 -150 50 -899 899 1 1 0 N 550 -200 550 -100
+S 200 100 350 -250 0 1 0 N
+S 350 50 550 -50 0 1 0 N
+S 400 50 450 -50 0 1 0 N
+S 500 50 550 -50 0 1 0 N
+S 350 -100 550 -200 1 1 0 N
+S 400 -100 450 -200 1 1 0 N
+S 500 -100 550 -200 1 1 0 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -150 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Test_probe
+#
+DEF Test_probe J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "Test_probe" 650 200 50 H V L CNN
+F2 "GKS 913 305 230 A 15 02 S" 650 100 50 H I L CNN
+F3 "https://ingun.com/en/Products/Productfinder/GKS_SML/GKS-913%20Z/GKS-913-0008/view" 650 0 50 H I L CNN
+F4 "Test probe" 650 -100 50 H I L CNN "Description"
+F5 "6" 650 -200 50 H I L CNN "Height"
+F6 "Preci-Dip" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "811-S1-002-30-014101" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 550 0 50 -899 899 0 1 0 N 550 -50 550 50
+S 200 100 350 -100 0 1 0 N
+S 350 50 550 -50 0 1 0 N
+S 400 50 450 -50 0 1 0 N
+S 500 50 550 -50 0 1 0 N
+X 1 1 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
