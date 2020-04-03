@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 811-S1-002-30-014101
+D CONN SPRING PISTON 2POS SMD
+F https://www.precidip.com/en/Products/Spring-Loaded-Connectors/pview/811-S1-NNN-30-014101.html
+$ENDCMP
+#
+$CMP Test_probe
+D CONN SPRING PISTON 2POS SMD
+F https://www.precidip.com/en/Products/Spring-Loaded-Connectors/pview/811-S1-NNN-30-014101.html
+$ENDCMP
+#
+#End Doc Library
