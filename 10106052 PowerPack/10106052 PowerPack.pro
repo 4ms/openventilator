@@ -1,4 +1,4 @@
-update=Fri 03 Apr 2020 09:45:26 PM PDT
+update=Fri 19 Jul 2019 09:44:02 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -254,13 +254,3 @@ uViaDrill=0.3302
 dPairWidth=0.1524
 dPairGap=0.254
 dPairViaGap=0.25
-[sheetnames]
-1=00000000-0000-0000-0000-00005e88110e:
-2=00000000-0000-0000-0000-00005e87816a:Switching block
-3=00000000-0000-0000-0000-00005e87819a:+5V Power Supply
-4=00000000-0000-0000-0000-00005e8781f8:+3V Reference Voltage
-5=00000000-0000-0000-0000-00005e87821e:Cooling Fan option
-6=00000000-0000-0000-0000-00005e878241:Microcontroller block
-7=00000000-0000-0000-0000-00005e878266:Ambient temperature measurement
-[LibeditFrame]
-version=1
