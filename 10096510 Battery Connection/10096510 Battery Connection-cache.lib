@@ -1,4 +1,150 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# ChunkyTerminals_811-S1-002-30-014101
+#
+DEF ChunkyTerminals_811-S1-002-30-014101 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "ChunkyTerminals_811-S1-002-30-014101" 650 200 50 H V L CNN
+F2 "811S100230014101" 650 100 50 H I L CNN
+F3 "https://www.precidip.com/en/Products/Spring-Loaded-Connectors/pview/811-S1-NNN-30-014101.html" 650 0 50 H I L CNN
+F4 "CONN SPRING PISTON 2POS SMD" 650 -100 50 H I L CNN "Description"
+F5 "6" 650 -200 50 H I L CNN "Height"
+F6 "Preci-Dip" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "811-S1-002-30-014101" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 550 0 50 -899 899 0 1 0 N 550 -50 550 50
+A 550 -150 50 -899 899 1 1 0 N 550 -200 550 -100
+S 200 100 350 -250 0 1 0 N
+S 350 50 550 -50 0 1 0 N
+S 400 50 450 -50 0 1 0 N
+S 500 50 550 -50 0 1 0 N
+S 350 -100 550 -200 1 1 0 N
+S 400 -100 450 -200 1 1 0 N
+S 500 -100 550 -200 1 1 0 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -150 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ChunkyTerminals_Test_probe
+#
+DEF ChunkyTerminals_Test_probe J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "ChunkyTerminals_Test_probe" 650 200 50 H V L CNN
+F2 "GKS 913 305 230 A 15 02 S" 650 100 50 H I L CNN
+F3 "https://ingun.com/en/Products/Productfinder/GKS_SML/GKS-913%20Z/GKS-913-0008/view" 650 0 50 H I L CNN
+F4 "Test probe" 650 -100 50 H I L CNN "Description"
+F5 "6" 650 -200 50 H I L CNN "Height"
+F6 "Preci-Dip" 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "811-S1-002-30-014101" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 550 0 50 -899 899 0 1 0 N 550 -50 550 50
+S 200 100 350 -100 0 1 0 N
+S 350 50 550 -50 0 1 0 N
+S 400 50 450 -50 0 1 0 N
+S 500 50 550 -50 0 1 0 N
+X 1 1 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x05_Odd_Even
+#
+DEF Connector_Generic_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Ferrite_Bead
+#
+DEF Device_Ferrite_Bead FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "Device_Ferrite_Bead" 150 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# myParts_BNX002-01
+#
+DEF myParts_BNX002-01 FL 0 30 Y Y 1 F N
+F0 "FL" 950 300 50 H V L CNN
+F1 "myParts_BNX002-01" 950 200 50 H V L CNN
+F2 "BNX002-01" 950 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/0098/0900766b80098a8e.pdf" 950 0 50 H I L CNN
+F4 "PCB mount dc power filter,10A 50Vdc Murata BNX002 Series Wire-wound SMD Inductor 10A Idc" 950 -100 50 H I L CNN "Description"
+F5 "Murata Electronics" 950 -300 50 H I L CNN "Manufacturer_Name"
+F6 "BNX002-01" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "81-BNX002-01" 950 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BNX002-01" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "0209077P" 950 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/0209077P" 950 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X CG_1 1 0 0 200 R 50 50 0 0 P
+X PSG 2 0 -100 200 R 50 50 0 0 P
+X CG_2 3 0 -200 200 R 50 50 0 0 P
+X CB 4 1100 0 200 L 50 50 0 0 P
+X B 5 1100 -100 200 L 50 50 0 0 P
+X CG_3 6 1100 -200 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 #End Library

@@ -1,4 +1,4 @@
-update=Fri 19 Jul 2019 09:44:02 AM PDT
+update=04/04/2020 21:24:56
 version=1
 last_client=kicad
 [general]
@@ -18,14 +18,14 @@ PageLayoutDescrFile=default.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=default.kicad_wks
-LastNetListRead=
+LastNetListRead=10096510 Battery Connection.net
 CopperLayerCount=4
 BoardThickness=1.6002
 AllowMicroVias=0
@@ -247,6 +247,17 @@ Enabled=0
 Name=Default
 Clearance=0.1524
 TrackWidth=0.254
+ViaDiameter=0.6858
+ViaDrill=0.3302
+uViaDiameter=0.6858
+uViaDrill=0.3302
+dPairWidth=0.1524
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=HIGH CURRENT
+Clearance=0.1524
+TrackWidth=2
 ViaDiameter=0.6858
 ViaDrill=0.3302
 uViaDiameter=0.6858
