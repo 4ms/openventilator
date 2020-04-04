@@ -65,5 +65,6 @@ S 5250 2250 1000 750
 U 5E878266
 F0 "Ambient temperature measurement" 50
 F1 "ambient_temperature_measurement.sch" 50
+F2 "TEMP_MEAS" O R 6250 2500 50 
 $EndSheet
 $EndSCHEMATC
