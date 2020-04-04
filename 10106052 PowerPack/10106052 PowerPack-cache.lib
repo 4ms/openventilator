@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 10106052-PowerPack-rescue_BAT54C-7-F-dk_Diodes-Rectifiers-Arrays
+# 10106052_PowerPack_BAT54C-7-F-dk_Diodes-Rectifiers-Arrays
 #
-DEF 10106052-PowerPack-rescue_BAT54C-7-F-dk_Diodes-Rectifiers-Arrays D 0 1 Y Y 1 F N
+DEF 10106052_PowerPack_BAT54C-7-F-dk_Diodes-Rectifiers-Arrays D 0 1 Y Y 1 F N
 F0 "D" 0 250 60 H V C CNN
-F1 "10106052-PowerPack-rescue_BAT54C-7-F-dk_Diodes-Rectifiers-Arrays" 0 -200 60 H V C CNN
+F1 "10106052_PowerPack_BAT54C-7-F-dk_Diodes-Rectifiers-Arrays" 0 -200 60 H V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" 200 300 60 H I L CNN
 F4 "BAT54C-FDICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -26,6 +26,23 @@ P 4 1 1 0 50 100 150 100 150 -100 50 -100 N
 X ~ 1 -200 100 150 R 50 50 1 1 P
 X ~ 2 -200 -100 150 R 50 50 1 1 P
 X ~ 3 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10106052_PowerPack_NCV87722DT50RKG-10106052_PowerPack
+#
+DEF 10106052_PowerPack_NCV87722DT50RKG-10106052_PowerPack U 0 40 Y Y 1 F N
+F0 "U" -250 300 50 H V C CNN
+F1 "10106052_PowerPack_NCV87722DT50RKG-10106052_PowerPack" 400 300 50 H V C CNN
+F2 "" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+DRAW
+S -300 250 300 -250 0 1 0 f
+X Vin 1 -400 100 100 R 50 50 0 0 W
+X RO 2 400 -100 100 L 50 50 0 0 O
+X GND 3 0 -350 100 U 50 50 0 0 W
+X EN 4 -400 -100 100 R 50 50 0 0 I
+X Vout 5 400 100 100 L 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
@@ -94,7 +111,7 @@ DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
 F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -114,7 +131,7 @@ DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  C_*
 $ENDFPLIST
@@ -132,7 +149,7 @@ DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 DRAW
 C 65 0 110 0 1 10 N
 C 100 -70 10 0 1 0 F
@@ -160,7 +177,7 @@ DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
