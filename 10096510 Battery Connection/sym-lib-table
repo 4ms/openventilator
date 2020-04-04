@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name myParts)(type Legacy)(uri "F:/Users/Marc/Documents/KiCad/Open Ventilator/10096510 Battery Connection/myParts/BNX002-01.lib")(options "")(descr ""))
+  (lib (name ChunkyTerminals)(type Legacy)(uri "F:/Users/Marc/Documents/KiCad/Open Ventilator/10096510 Battery Connection/myParts/811-S1-002-30-014101.lib")(options "")(descr ""))
+  (lib (name HartingIDC)(type Legacy)(uri "F:/Users/Marc/Documents/KiCad/Open Ventilator/10096510 Battery Connection/myParts/09185107323.lib")(options "")(descr ""))
+)
