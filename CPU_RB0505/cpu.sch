@@ -21,6 +21,14 @@ $EndDescr
 Connection ~ 6250 2150
 Connection ~ 6350 1850
 Connection ~ 6450 1750
+Connection ~ 6150 1200
+Connection ~ 6250 1200
+Connection ~ 6350 1200
+Connection ~ 6150 2500
+Connection ~ 5850 3500
+Connection ~ 5950 3400
+Connection ~ 6050 3300
+Connection ~ 6150 3200
 NoConn ~ 6150 1650
 Entry Wire Line
 	2400 1150 2500 1050
@@ -223,31 +231,101 @@ Wire Wire Line
 Wire Wire Line
 	5000 2450 5250 2450
 Wire Wire Line
+	5000 2900 5250 2900
+Wire Wire Line
+	5000 3000 5250 3000
+Wire Wire Line
+	5000 3100 5250 3100
+Wire Wire Line
+	5000 3200 6150 3200
+Wire Wire Line
+	5000 3300 6050 3300
+Wire Wire Line
+	5000 3400 5950 3400
+Wire Wire Line
+	5000 3500 5850 3500
+Wire Wire Line
+	5000 3600 5250 3600
+Wire Wire Line
+	5000 3700 5250 3700
+Wire Wire Line
+	5000 3800 5250 3800
+Wire Wire Line
+	5000 3900 5250 3900
+Wire Wire Line
+	5000 4000 5250 4000
+Wire Wire Line
+	5000 4100 5250 4100
+Wire Wire Line
+	5000 4200 5250 4200
+Wire Wire Line
+	5000 4400 5250 4400
+Wire Wire Line
+	5850 2500 5850 2550
+Wire Wire Line
+	5850 2950 5850 3500
+Wire Wire Line
+	5850 3500 6200 3500
+Wire Wire Line
+	5950 2250 5950 2550
+Wire Wire Line
+	5950 2950 5950 3400
+Wire Wire Line
+	5950 3400 6200 3400
+Wire Wire Line
+	6050 2500 6150 2500
+Wire Wire Line
+	6050 2550 6050 2500
+Wire Wire Line
+	6050 2950 6050 3300
+Wire Wire Line
+	6050 3300 6200 3300
+Wire Wire Line
 	6150 1200 6150 1250
+Wire Wire Line
+	6150 1200 6250 1200
+Wire Wire Line
+	6150 2500 6150 2550
+Wire Wire Line
+	6150 2950 6150 3200
+Wire Wire Line
+	6150 3200 6200 3200
+Wire Wire Line
+	6250 1200 6250 1250
+Wire Wire Line
+	6250 1200 6350 1200
 Wire Wire Line
 	6250 1650 6250 2150
 Wire Wire Line
 	6250 2150 6750 2150
 Wire Wire Line
+	6350 1200 6350 1250
+Wire Wire Line
+	6350 1200 6450 1200
+Wire Wire Line
 	6350 1650 6350 1850
 Wire Wire Line
 	6350 1850 6750 1850
 Wire Wire Line
+	6450 1250 6450 1200
+Wire Wire Line
 	6450 1650 6450 1750
 Wire Wire Line
 	6450 1750 6750 1750
+Wire Wire Line
+	6450 2250 5950 2250
+Wire Wire Line
+	6450 2350 6450 2250
 Wire Bus Line
 	2500 1050 2500 1250
 Wire Bus Line
-	2500 1250 2500 1350
+	2500 1250 2500 1450
 Wire Bus Line
-	2500 1350 2500 1550
+	2500 1450 2500 1650
 Wire Bus Line
-	2500 1550 2500 1650
+	2500 1650 2500 1750
 Wire Bus Line
-	2500 1650 2500 1850
-Wire Bus Line
-	2500 1850 2500 1950
+	2500 1750 2500 1950
 Wire Bus Line
 	2500 1950 2500 2150
 Wire Bus Line
@@ -269,13 +347,13 @@ Wire Bus Line
 Wire Bus Line
 	2500 3850 2500 4050
 Wire Bus Line
-	2500 4050 2500 4250
+	2500 4050 2500 4150
 Wire Bus Line
-	2500 4250 2500 4450
+	2500 4150 2500 4350
 Wire Bus Line
-	2500 4450 2500 5150
+	2500 4350 2500 4550
 Wire Bus Line
-	2500 5150 2500 5250
+	2500 4550 2500 5250
 Wire Bus Line
 	2500 5250 2500 5450
 Wire Bus Line
@@ -414,6 +492,17 @@ Text HLabel 6750 2150 2    50   Input ~ 0
 TEST-RAP-ALARM
 $Comp
 L power:+5V #PWR?
+U 1 1 5E9112EF
+P 5850 2500
+F 0 "#PWR?" H 5850 2350 50  0001 C CNN
+F 1 "+5V" H 5865 2673 50  0000 C CNN
+F 2 "" H 5850 2500 50  0001 C CNN
+F 3 "" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
 U 1 1 5E900EF9
 P 6150 1200
 F 0 "#PWR?" H 6150 1050 50  0001 C CNN
@@ -424,25 +513,69 @@ F 3 "" H 6150 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network04 RN?
-U 1 1 5E8FF62E
+L power:+5V #PWR?
+U 1 1 5E9100BA
+P 6150 2500
+F 0 "#PWR?" H 6150 2350 50  0001 C CNN
+F 1 "+5V" H 6165 2673 50  0000 C CNN
+F 2 "" H 6150 2500 50  0001 C CNN
+F 3 "" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E911FD4
+P 6450 2350
+F 0 "#PWR?" H 6450 2100 50  0001 C CNN
+F 1 "GND" H 6455 2177 50  0000 C CNN
+F 2 "" H 6450 2350 50  0001 C CNN
+F 3 "" H 6450 2350 50  0001 C CNN
+	1    6450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5E90F641
+P 6050 2750
+F 0 "RN?" H 6237 2795 50  0000 L CNN
+F 1 "R_Pack04" H 6237 2705 50  0000 L CNN
+F 2 "" V 6325 2750 50  0001 C CNN
+F 3 "~" H 6050 2750 50  0001 C CNN
+	1    6050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5E90CE51
 P 6350 1450
 F 0 "RN?" H 6537 1495 50  0000 L CNN
-F 1 "R_Network04" H 6537 1405 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 6625 1450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6350 1450 50  0001 C CNN
+F 1 "R_Pack04" H 6537 1405 50  0000 L CNN
+F 2 "" V 6625 1450 50  0001 C CNN
+F 3 "~" H 6350 1450 50  0001 C CNN
 	1    6350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPU_RB0505:C_Pack04 CN?
+U 1 1 5E918C34
+P 6900 2750
+F 0 "CN?" H 7087 2795 50  0000 L CNN
+F 1 "C_Pack04" H 7087 2705 50  0000 L CNN
+F 2 "" V 7175 2750 50  0001 C CNN
+F 3 "" H 6900 2750 50  0001 C CNN
+	1    6900 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 8 1 5E9C336E
-P 6750 3000
-F 0 "U?" H 6758 3664 50  0000 C CNN
-F 1 "ST10F276Z5" H 6758 3573 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 6800 3350 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 5250 3350 50  0001 C CNN
-	8    6750 3000
+P 8800 1700
+F 0 "U?" H 8808 2364 50  0000 C CNN
+F 1 "ST10F276Z5" H 8808 2273 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 8850 2050 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 7300 2050 50  0001 C CNN
+	8    8800 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -459,12 +592,12 @@ $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 9 1 5E9C4E56
-P 6650 4500
-F 0 "U?" H 6550 3927 50  0000 C CNN
-F 1 "ST10F276Z5" H 6550 3836 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 6700 4850 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 5150 4850 50  0001 C CNN
-	9    6650 4500
+P 7500 5250
+F 0 "U?" H 7400 4677 50  0000 C CNN
+F 1 "ST10F276Z5" H 7400 4586 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 7550 5600 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 6000 5600 50  0001 C CNN
+	9    7500 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -503,23 +636,23 @@ $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 4 1 5E9B3194
-P 5250 4000
-F 0 "U?" H 5333 5114 50  0000 C CNN
-F 1 "ST10F276Z5" H 5333 5023 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 5300 4350 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 3750 4350 50  0001 C CNN
-	4    5250 4000
+P 4400 3700
+F 0 "U?" H 4483 4814 50  0000 C CNN
+F 1 "ST10F276Z5" H 4483 4723 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4450 4050 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2900 4050 50  0001 C CNN
+	4    4400 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 6 1 5E9B9492
-P 4300 3750
-F 0 "U?" H 4358 4614 50  0000 C CNN
-F 1 "ST10F276Z5" H 4358 4523 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4350 4100 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2800 4100 50  0001 C CNN
-	6    4300 3750
+P 4250 5650
+F 0 "U?" H 4308 6514 50  0000 C CNN
+F 1 "ST10F276Z5" H 4308 6423 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4300 6000 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2750 6000 50  0001 C CNN
+	6    4250 5650
 	1    0    0    -1  
 $EndComp
 $Comp
