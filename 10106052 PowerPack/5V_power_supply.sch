@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 10106052~PowerPack:NCV87722DT50RKG U1
+L 10106052-PowerPack-rescue:NCV87722DT50RKG-10106052~PowerPack U1
 U 1 1 5E87972E
 P 6900 3600
+AR Path="/5E87972E" Ref="U1"  Part="1" 
+AR Path="/5E87819A/5E87972E" Ref="U1"  Part="1" 
 F 0 "U1" H 6900 4015 50  0000 C CNN
 F 1 "NCV87722DT50RKG" H 6900 3924 50  0000 C CNN
 F 2 "" H 6900 3450 50  0001 C CNN
@@ -216,7 +218,7 @@ Connection ~ 4825 3700
 Wire Wire Line
 	4825 3700 4575 3700
 $Comp
-L dk_Diodes-Rectifiers-Arrays:BAT54C-7-F D5
+L 10106052-PowerPack-rescue:BAT54C-7-F-dk_Diodes-Rectifiers-Arrays D5
 U 1 1 5E884331
 P 4025 5000
 F 0 "D5" H 4075 5347 60  0000 C CNN
