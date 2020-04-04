@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BAT54C-7-F-dk_Diodes-Rectifiers-Arrays
+# BAT54C-7-F-dk_Diodes-Rectifiers-Arrays-10106052-PowerPack-rescue
 #
-DEF BAT54C-7-F-dk_Diodes-Rectifiers-Arrays D 0 1 Y Y 1 F N
+DEF BAT54C-7-F-dk_Diodes-Rectifiers-Arrays-10106052-PowerPack-rescue D 0 1 Y Y 1 F N
 F0 "D" 0 250 60 H V C CNN
-F1 "BAT54C-7-F-dk_Diodes-Rectifiers-Arrays" 0 -200 60 H V C CNN
+F1 "BAT54C-7-F-dk_Diodes-Rectifiers-Arrays-10106052-PowerPack-rescue" 0 -200 60 H V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" 200 300 60 H I L CNN
 F4 "BAT54C-FDICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -29,11 +29,11 @@ X ~ 3 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NCV87722DT50RKG-10106052_PowerPack
+# NCV87722DT50RKG-10106052_PowerPack-10106052-PowerPack-rescue
 #
-DEF NCV87722DT50RKG-10106052_PowerPack U 0 40 Y Y 1 F N
+DEF NCV87722DT50RKG-10106052_PowerPack-10106052-PowerPack-rescue U 0 40 Y Y 1 F N
 F0 "U" -250 300 50 H V C CNN
-F1 "NCV87722DT50RKG-10106052_PowerPack" 400 300 50 H V C CNN
+F1 "NCV87722DT50RKG-10106052_PowerPack-10106052-PowerPack-rescue" 400 300 50 H V C CNN
 F2 "" 0 -150 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 DRAW
