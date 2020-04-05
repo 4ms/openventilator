@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DiodeSchottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf
+$ENDCMP
+#
+$CMP DiodeSchottkyParallelPair
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/b7/c8/02/28/2f/f6/47/20/CD00002833.pdf/files/CD00002833.pdf/jcr:content/translations/en.CD00002833.pdf
+$ENDCMP
+#
+$CMP DiodeSchottkySeriesPair
+F https://www.mouser.com/datasheet/2/916/BAT54W_SER-1598288.pdf
+$ENDCMP
+#
+$CMP DiodeZener_15V_CheckFootprint
+F https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf
+$ENDCMP
+#
+$CMP DiodeZener_200V
+F https://www.onsemi.com/pub/Collateral/ES1D-D.PDF
+$ENDCMP
+#
+$CMP DiodeZener_30V
+F http://www.vishay.com/docs/86138/bzg03c-m-series.pdf
+$ENDCMP
+#
+$CMP HighSideDriver
+F https://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d
+$ENDCMP
+#
+$CMP LinearRegulator
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf
+$ENDCMP
+#
+$CMP MOSFET_NMOS_30V
+F https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f
+$ENDCMP
+#
+$CMP MOSFET_NMOS_55V
+F https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c
+$ENDCMP
+#
+$CMP MOSFET_PMOS_60V
+F http://www.vishay.com/docs/68940/sud50p06-15.pdf
+$ENDCMP
+#
+$CMP MotorDriver
+F https://www.onsemi.com/pub/Collateral/MC33035-D.PDF
+$ENDCMP
+#
+$CMP NE555D
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP Resistor_0R047
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf
+$ENDCMP
+#
+$CMP Resistor_0R100
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf
+$ENDCMP
+#
+$CMP Resistor_100R
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Resistor_100k
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP Resistor_10R
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Resistor_10k
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Resistor_1k
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Resistor_1k_0.5W
+F https://www.seielect.com/catalog/sei-rncp.pdf
+$ENDCMP
+#
+$CMP Resistor_22k
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP Resistor_4k7
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP Resistor_680R
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+$ENDCMP
+#
+#End Doc Library
