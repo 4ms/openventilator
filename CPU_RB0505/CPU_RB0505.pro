@@ -1,4 +1,4 @@
-update=Fri 03 Apr 2020 06:27:31 PM PDT
+update=Sun 05 Apr 2020 08:36:08 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -262,6 +262,6 @@ PinnedItems1=CPU_RB0505
 [SchematicFrame]
 version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e876abd:
+1=00000000-0000-0000-0000-00005e88d94a:
 2=00000000-0000-0000-0000-00005e99c9d4:CPU
 3=00000000-0000-0000-0000-00005e8ccfc8:Memory
