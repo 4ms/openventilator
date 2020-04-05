@@ -570,8 +570,6 @@ Wire Wire Line
 	13800 3800 14100 3800
 Wire Wire Line
 	14850 3800 15050 3800
-Text HLabel 13250 4350 0    50   Input ~ 0
-TOP-DR-C
 Wire Wire Line
 	14400 4200 14250 4200
 Wire Wire Line
@@ -659,10 +657,8 @@ Wire Wire Line
 	15850 4850 15950 4850
 Wire Wire Line
 	17350 4550 17500 4550
-Text HLabel 17500 4550 2    50   Input ~ 0
-OSC
 Wire Wire Line
-	13350 4350 13250 4350
+	13350 4350 12900 4350
 Connection ~ 13350 4350
 $Comp
 L Blower_Driver_Components:Resistor_10R R31
@@ -702,10 +698,8 @@ Wire Wire Line
 Wire Wire Line
 	18550 4650 18750 4650
 Wire Wire Line
-	18550 4650 18400 4650
+	18550 4650 18050 4650
 Connection ~ 18550 4650
-Text HLabel 18400 4650 0    50   Input ~ 0
-BOT-DR-C
 Wire Wire Line
 	19050 4050 19150 4050
 Wire Wire Line
@@ -719,9 +713,7 @@ Wire Wire Line
 	19750 4900 19450 4900
 Connection ~ 19450 4900
 Wire Wire Line
-	19450 4900 19450 5100
-Text HLabel 19450 5100 3    50   Input ~ 0
-ISENS
+	19450 4900 19450 5300
 Wire Wire Line
 	19750 4200 19750 4250
 Wire Wire Line
@@ -995,8 +987,6 @@ Wire Wire Line
 	13800 6600 14100 6600
 Wire Wire Line
 	14850 6600 15050 6600
-Text HLabel 13250 7150 0    50   Input ~ 0
-TOP-DR-B
 Wire Wire Line
 	14400 7000 14250 7000
 Wire Wire Line
@@ -1070,10 +1060,8 @@ Wire Wire Line
 	15850 7650 15950 7650
 Wire Wire Line
 	17350 7350 17500 7350
-Text HLabel 17500 7350 2    50   Input ~ 0
-OSC
 Wire Wire Line
-	13350 7150 13250 7150
+	13350 7150 12800 7150
 Connection ~ 13350 7150
 $Comp
 L Blower_Driver_Components:Resistor_10R R33
@@ -1113,10 +1101,8 @@ Wire Wire Line
 Wire Wire Line
 	18550 7450 18750 7450
 Wire Wire Line
-	18550 7450 18400 7450
+	18550 7450 18000 7450
 Connection ~ 18550 7450
-Text HLabel 18400 7450 0    50   Input ~ 0
-BOT-DR-B
 Wire Wire Line
 	19050 6850 19150 6850
 Wire Wire Line
@@ -1129,10 +1115,6 @@ Wire Wire Line
 Wire Wire Line
 	19750 7700 19450 7700
 Connection ~ 19450 7700
-Wire Wire Line
-	19450 7700 19450 7900
-Text HLabel 19450 7900 3    50   Input ~ 0
-ISENS
 Wire Wire Line
 	19750 7000 19750 7050
 Wire Wire Line
@@ -1408,8 +1390,6 @@ Wire Wire Line
 	13800 9500 14100 9500
 Wire Wire Line
 	14850 9500 15050 9500
-Text HLabel 13250 10050 0    50   Input ~ 0
-TOP-DR-A
 Wire Wire Line
 	14400 9900 14250 9900
 Wire Wire Line
@@ -1483,10 +1463,8 @@ Wire Wire Line
 	15850 10550 15950 10550
 Wire Wire Line
 	17350 10250 17500 10250
-Text HLabel 17500 10250 2    50   Input ~ 0
-OSC
 Wire Wire Line
-	13350 10050 13250 10050
+	13350 10050 12800 10050
 Connection ~ 13350 10050
 $Comp
 L Blower_Driver_Components:Resistor_10R R30
@@ -1526,10 +1504,8 @@ Wire Wire Line
 Wire Wire Line
 	18550 10350 18750 10350
 Wire Wire Line
-	18550 10350 18400 10350
+	18550 10350 18050 10350
 Connection ~ 18550 10350
-Text HLabel 18400 10350 0    50   Input ~ 0
-BOT-DR-A
 Wire Wire Line
 	19050 9750 19150 9750
 Wire Wire Line
@@ -1543,9 +1519,7 @@ Wire Wire Line
 	19750 10600 19450 10600
 Connection ~ 19450 10600
 Wire Wire Line
-	19450 10600 19450 10800
-Text HLabel 19450 10800 3    50   Input ~ 0
-ISENS
+	19450 10600 19450 11050
 Wire Wire Line
 	19750 9900 19750 9950
 Wire Wire Line
@@ -1727,8 +1701,6 @@ F 3 "" H 9700 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10600 7250 11050 7250
-Text HLabel 11050 7250 2    50   Input ~ 0
-OSC
 $Comp
 L power:GND #PWR0119
 U 1 1 5EA76E5C
@@ -1741,47 +1713,25 @@ F 3 "" H 8600 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 10900 9700 10900
+	9500 11050 10100 11050
 Wire Wire Line
-	9500 11050 9700 11050
+	9500 11150 10100 11150
 Wire Wire Line
-	9500 11150 9700 11150
+	9500 11250 10100 11250
 Wire Wire Line
-	9500 11250 9700 11250
+	9500 11400 10100 11400
 Wire Wire Line
-	9500 11400 9700 11400
+	9500 11500 10100 11500
 Wire Wire Line
-	9500 11500 9700 11500
+	9500 11600 10100 11600
 Wire Wire Line
-	9500 11600 9700 11600
+	9500 11750 10100 11750
 Wire Wire Line
-	9500 11750 9700 11750
+	9500 11850 10100 11850
 Wire Wire Line
-	9500 11850 9700 11850
+	9500 11950 10100 11950
 Wire Wire Line
-	9500 11950 9700 11950
-Text HLabel 9700 11050 2    50   Input ~ 0
-SENSOR1
-Text HLabel 9700 11150 2    50   Input ~ 0
-SENSOR2
-Text HLabel 9700 11250 2    50   Input ~ 0
-SENSOR3
-Text HLabel 9700 11400 2    50   Input ~ 0
-TOP-DR-A
-Text HLabel 9700 11500 2    50   Input ~ 0
-TOP-DR-B
-Text HLabel 9700 11600 2    50   Input ~ 0
-TOP-DR-C
-Text HLabel 9700 11750 2    50   Input ~ 0
-BOT-DR-A
-Text HLabel 9700 11850 2    50   Input ~ 0
-BOT-DR-B
-Text HLabel 9700 11950 2    50   Input ~ 0
-BOT-DR-C
-Wire Wire Line
-	9500 12100 9700 12100
-Text HLabel 9700 12100 2    50   Input ~ 0
-OUTPUT_ENABLE
+	9500 12100 10100 12100
 $Comp
 L Blower_Driver_Components:Capacitor_100nF C21
 U 1 1 5EB27884
@@ -1860,10 +1810,8 @@ Wire Wire Line
 Connection ~ 10800 12550
 Wire Wire Line
 	10800 12550 11150 12550
-Text HLabel 10800 12150 1    50   Input ~ 0
-ISENS
 Wire Wire Line
-	10800 12150 10800 12250
+	10800 11850 10800 12250
 Wire Wire Line
 	10800 12550 10800 12900
 $Comp
@@ -2101,12 +2049,10 @@ Wire Wire Line
 	7900 11550 7900 12400
 Connection ~ 7900 12400
 Wire Wire Line
-	7900 11250 7900 11100
+	7900 11250 7900 10850
 Connection ~ 7900 11250
 Wire Wire Line
 	7900 11250 8150 11250
-Text HLabel 7900 11100 1    50   Input ~ 0
-VREF-M
 Wire Wire Line
 	8400 10550 8400 10750
 Wire Wire Line
@@ -2175,8 +2121,6 @@ F 3 "" H 7050 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 13750
-Text HLabel 7400 13750 2    50   Input ~ 0
-OUTPUT_ENABLE
 Wire Wire Line
 	7050 13750 7400 13750
 $Comp
@@ -2194,15 +2138,11 @@ F 5 "4k7" H 6920 10305 50  0000 L CNN "Resistance"
 $EndComp
 Wire Wire Line
 	6850 10500 6850 10550
-Text HLabel 6950 10100 2    50   Input ~ 0
-OUTPUT_ENABLE
 Wire Wire Line
 	6850 10550 6000 10550
 Connection ~ 6850 10550
 Wire Wire Line
 	6850 10550 6850 10600
-Text HLabel 7150 10800 2    50   Input ~ 0
-SENSOR3
 $Comp
 L power:GND #PWR0129
 U 1 1 5EFAA25F
@@ -2320,10 +2260,6 @@ Wire Wire Line
 	4550 11550 5000 11550
 Wire Wire Line
 	4550 11900 5000 11900
-Text HLabel 5000 11550 2    50   Input ~ 0
-TEMP+
-Text HLabel 5000 11900 2    50   Input ~ 0
-TEMP-
 $Comp
 L Blower_Driver_Components:CapacitorArray_47pf C22
 U 1 1 5F1C5F64
@@ -2497,8 +2433,6 @@ F 3 "" H 2700 3350 50  0001 C CNN
 	1    2700 2850
 	0    1    1    0   
 $EndComp
-Text HLabel 4500 3350 0    50   Input ~ 0
-OUTPUT_ENABLE
 Wire Wire Line
 	5450 3050 5250 3050
 Wire Wire Line
@@ -2600,10 +2534,10 @@ L Blower_Driver_Components:8pinConnector J6
 U 1 1 5FF3C397
 P 21800 7150
 F 0 "J6" H 21750 7600 50  0000 R CNN
-F 1 "8pinConnector" H 21900 6600 50  0000 R CNN
+F 1 "8pinConnector" H 21850 6650 50  0000 R CNN
 F 2 "" H 21850 7650 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/276/0022057088_PCB_HEADERS-158435.pdf" H 21850 7650 50  0001 C CNN
-F 4 "22-05-7088" H 21900 6500 50  0000 R CNN "MPN"
+F 4 "22-05-7088" H 21850 6550 50  0000 R CNN "MPN"
 	1    21800 7150
 	-1   0    0    -1  
 $EndComp
@@ -2619,10 +2553,6 @@ F 4 "0022057028" H 21850 5600 50  0000 R CNN "MPN"
 	1    21800 5900
 	-1   0    0    -1  
 $EndComp
-Text HLabel 21750 5850 0    50   Output ~ 0
-TEMP+
-Text HLabel 21750 5950 0    50   Output ~ 0
-TEMP-
 Text Notes 22000 5950 0    50   ~ 0
 TEMPERATURE\nSENSOR
 Text Notes 21950 6850 0    50   ~ 0
@@ -2641,14 +2571,6 @@ Text Notes 21950 7450 0    50   ~ 0
 PHASE 2/B
 Text Notes 21950 7550 0    50   ~ 0
 PHASE 1/A
-Text HLabel 21750 6800 0    50   Output ~ 0
-SENSOR3
-Text HLabel 21750 6900 0    50   Output ~ 0
-SENSOR2
-Text HLabel 21750 7000 0    50   Output ~ 0
-SENSOR1
-Text HLabel 21750 7200 0    50   Input ~ 0
-V-REF-M
 Wire Wire Line
 	21250 4350 21250 7300
 Wire Wire Line
@@ -2668,13 +2590,13 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0132
 U 1 1 600C086A
-P 21750 7100
-F 0 "#PWR0132" H 21750 6850 50  0001 C CNN
-F 1 "GND" H 21755 6927 50  0000 C CNN
-F 2 "" H 21750 7100 50  0001 C CNN
-F 3 "" H 21750 7100 50  0001 C CNN
-	1    21750 7100
-	0    1    1    0   
+P 21650 7750
+F 0 "#PWR0132" H 21650 7500 50  0001 C CNN
+F 1 "GND" H 21655 7577 50  0000 C CNN
+F 2 "" H 21650 7750 50  0001 C CNN
+F 3 "" H 21650 7750 50  0001 C CNN
+	1    21650 7750
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4250 12650 3700 12650
@@ -2793,8 +2715,6 @@ F 3 "" H 1800 10150 50  0001 C CNN
 	1    1750 9650
 	1    0    0    -1  
 $EndComp
-Text HLabel 1800 9450 2    50   Input ~ 0
-OUTPUT_ENABLE
 Text Notes 1350 9450 0    50   ~ 0
 IDENT
 Text Notes 1400 10300 0    50   ~ 0
@@ -3042,8 +2962,6 @@ Wire Wire Line
 	14250 10200 14400 10200
 NoConn ~ 14400 10350
 NoConn ~ 15100 10350
-Text HLabel 9700 10900 2    50   Input ~ 0
-VREF-M
 $Comp
 L Blower_Driver_Components:Capacitor_100nF C26
 U 1 1 5ED560B6
@@ -3192,4 +3110,108 @@ Wire Wire Line
 Wire Wire Line
 	9800 12900 9800 13100
 Connection ~ 10100 12900
+Wire Wire Line
+	4500 3350 4050 3350
+Text Label 4050 3350 0    50   ~ 0
+OE
+Text Label 12900 4350 0    50   ~ 0
+TOP-DR-C
+Text Label 17500 4550 0    50   ~ 0
+OSC
+Text Label 18050 4650 0    50   ~ 0
+BOT-DR-C
+Text Label 19450 5300 1    50   ~ 0
+ISENS
+Wire Wire Line
+	21750 5850 21500 5850
+Wire Wire Line
+	21750 5950 21500 5950
+Text Label 21500 5850 0    50   ~ 0
+TEMP+
+Text Label 21500 5950 0    50   ~ 0
+TEMP-
+Wire Wire Line
+	21750 6800 21400 6800
+Wire Wire Line
+	21400 6900 21750 6900
+Wire Wire Line
+	21750 7000 21400 7000
+Text Label 21400 6800 0    50   ~ 0
+SENSOR3
+Text Label 21400 6900 0    50   ~ 0
+SENSOR2
+Text Label 21400 7000 0    50   ~ 0
+SENSOR1
+Wire Wire Line
+	21400 7200 21750 7200
+Text Label 21400 7200 0    50   ~ 0
+V-REF-M
+Wire Wire Line
+	21650 7750 21650 7100
+Wire Wire Line
+	21650 7100 21750 7100
+Wire Wire Line
+	19450 7700 19450 8150
+Text Label 19450 8150 1    50   ~ 0
+ISENS
+Text Label 18000 7450 0    50   ~ 0
+BOT-DR-B
+Text Label 17500 7350 0    50   ~ 0
+OSC
+Text Label 12800 7150 0    50   ~ 0
+TOP-DR-B
+Text Label 12800 10050 0    50   ~ 0
+TOP-DR-A
+Text Label 17500 10250 0    50   ~ 0
+OSC
+Text Label 18050 10350 0    50   ~ 0
+BOT-DR-A
+Text Label 19450 11050 1    50   ~ 0
+ISENS
+Text Label 10800 11850 3    50   ~ 0
+ISENS
+Wire Wire Line
+	9500 10900 10100 10900
+Text Label 10100 10900 2    50   ~ 0
+V-REF-M
+Text Label 10100 11050 2    50   ~ 0
+SENSOR1
+Text Label 10100 11150 2    50   ~ 0
+SENSOR2
+Text Label 10100 11250 2    50   ~ 0
+SENSOR3
+Text Label 10100 11400 2    50   ~ 0
+TOP-DR-A
+Text Label 10100 11500 2    50   ~ 0
+TOP-DR-B
+Text Label 10100 11600 2    50   ~ 0
+TOP-DR-C
+Text Label 10100 11750 2    50   ~ 0
+BOT-DR-A
+Text Label 10100 11850 2    50   ~ 0
+BOT-DR-B
+Text Label 10100 11950 2    50   ~ 0
+BOT-DR-C
+Text Label 10100 12100 2    50   ~ 0
+OE
+Text Label 7900 10850 3    50   ~ 0
+V-REF-M
+Text Label 6950 10100 2    50   ~ 0
+OE
+Wire Wire Line
+	7500 10800 7150 10800
+Text Label 7500 10800 2    50   ~ 0
+SENSOR3
+Text Label 7400 13750 2    50   ~ 0
+OE
+Text Label 5000 11550 2    50   ~ 0
+TEMP+
+Text Label 5000 11900 2    50   ~ 0
+TEMP-
+Wire Wire Line
+	1800 9450 2000 9450
+Text Label 2000 9450 2    50   ~ 0
+OE
+Text Label 11050 7250 2    50   ~ 0
+OSC
 $EndSCHEMATC
