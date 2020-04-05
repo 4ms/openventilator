@@ -1216,4 +1216,6 @@ Text Label 8950 5250 2    50   ~ 0
 BP_INFO
 Text Label 2250 3050 2    50   ~ 0
 BP_INFO
+Text Notes 650  4150 1    50   ~ 10
+ICSP Prog
 $EndSCHEMATC

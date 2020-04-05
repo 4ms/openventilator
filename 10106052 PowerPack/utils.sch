@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Temperature-Sensors-Analog-and-Digital-Output:MCP9700A-E_TO U?
+L 10106052-PowerPack-rescue:MCP9700A-E_TO-dk_Temperature-Sensors-Analog-and-Digital-Output U?
 U 1 1 5E8CB2CC
 P 9000 2425
 AR Path="/5E8CB2CC" Ref="U?"  Part="1" 
