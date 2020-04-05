@@ -1,48 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BAT54C-7-F-dk_Diodes-Rectifiers-Arrays
+# MCP9700A-E_TO-dk_Temperature-Sensors-Analog-and-Digital-Output
 #
-DEF BAT54C-7-F-dk_Diodes-Rectifiers-Arrays D 0 1 Y Y 1 F N
-F0 "D" 0 250 60 H V C CNN
-F1 "BAT54C-7-F-dk_Diodes-Rectifiers-Arrays" 0 -200 60 H V C CNN
-F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
-F3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" 200 300 60 H I L CNN
-F4 "BAT54C-FDICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "BAT54C-7-F" 200 500 60 H I L CNN "MPN"
-F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
-F7 "Diodes - Rectifiers - Arrays" 200 700 60 H I L CNN "Family"
-F8 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/diodes-incorporated/BAT54C-7-F/BAT54C-FDICT-ND/717821" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "DIODE ARRAY SCHOTTKY 30V SOT23-3" 200 1000 60 H I L CNN "Description"
-F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+DEF MCP9700A-E_TO-dk_Temperature-Sensors-Analog-and-Digital-Output U 0 40 Y Y 1 F N
+F0 "U" -150 250 60 H V C CNN
+F1 "MCP9700A-E_TO-dk_Temperature-Sensors-Analog-and-Digital-Output" 100 -300 60 H V L CNN
+F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859" 200 300 60 H I L CNN
+F4 "MCP9700A-E/TO-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP9700A-E/TO" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Temperature Sensors - Analog and Digital Output" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP9700A-E-TO/MCP9700A-E-TO-ND/1212508" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR ANALOG -40C-125C TO92-3" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
 F12 "Active" 200 1200 60 H I L CNN "Status"
 DRAW
-P 2 0 1 0 50 -50 50 -150 N
-P 2 0 1 0 50 50 50 150 N
-P 4 0 1 0 -50 -50 -50 -150 50 -100 -50 -50 F
-P 4 0 1 0 -50 150 -50 50 50 100 -50 150 F
-P 4 1 1 0 50 100 150 100 150 -100 50 -100 N
-X ~ 1 -200 100 150 R 50 50 1 1 P
-X ~ 2 -200 -100 150 R 50 50 1 1 P
-X ~ 3 300 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# NCV87722DT50RKG-10106052_PowerPack
-#
-DEF NCV87722DT50RKG-10106052_PowerPack U 0 40 Y Y 1 F N
-F0 "U" -250 300 50 H V C CNN
-F1 "NCV87722DT50RKG-10106052_PowerPack" 400 300 50 H V C CNN
-F2 "" 0 -150 50 H I C CNN
-F3 "" 0 -150 50 H I C CNN
-DRAW
-S -300 250 300 -250 0 1 0 f
-X Vin 1 -400 100 100 R 50 50 0 0 W
-X RO 2 400 -100 100 L 50 50 0 0 O
-X GND 3 0 -350 100 U 50 50 0 0 W
-X EN 4 -400 -100 100 R 50 50 0 0 I
-X Vout 5 400 100 100 L 50 50 0 0 w
+S 300 200 -100 -200 0 1 0 f
+X VDD 1 0 300 100 D 50 50 1 1 W
+X VOUT 2 400 0 100 L 50 50 1 1 O
+X GND 3 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
