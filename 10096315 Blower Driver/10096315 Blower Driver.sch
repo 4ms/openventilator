@@ -16,57 +16,57 @@ $EndDescr
 $Comp
 L Blower_Driver_Components:Capacitor_100uF_CheckFootprint C?
 U 1 1 5E8B2649
-P 9100 2400
-F 0 "C?" H 9215 2491 50  0000 L CNN
-F 1 "Capacitor_100uF_CheckFootprint" H 9100 2850 50  0001 C CNN
-F 2 "Capacitors_SMD:CP_Elec_8x10" H 9150 1950 50  0001 C CNN
-F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 9100 2850 50  0001 C CNN
-F 4 "UWT1H101MNL1GS" H 9650 2250 50  0001 C CNN "MPN"
-F 5 "100uF" H 9215 2400 50  0000 L CNN "Capacitance"
-F 6 "50V" H 9215 2309 50  0000 L CNN "Voltage"
-	1    9100 2400
+P 8800 2400
+F 0 "C?" H 8915 2491 50  0000 L CNN
+F 1 "Capacitor_100uF_CheckFootprint" H 8800 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 8850 1950 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 8800 2850 50  0001 C CNN
+F 4 "UWT1H101MNL1GS" H 9350 2250 50  0001 C CNN "MPN"
+F 5 "100uF" H 8915 2400 50  0000 L CNN "Capacitance"
+F 6 "50V" H 8915 2309 50  0000 L CNN "Voltage"
+	1    8800 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Capacitor_470uF_CheckFootprint C?
 U 1 1 5E8B327E
-P 11450 2400
-F 0 "C?" H 11565 2491 50  0000 L CNN
-F 1 "Capacitor_470uF_CheckFootprint" H 11450 2850 50  0001 C CNN
-F 2 "Capacitors_SMD:CP_Elec_10x10" H 11500 1950 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-ucd.pdf" H 11450 2850 50  0001 C CNN
-F 4 "UCD1V471MNL6GS" H 12000 2250 50  0001 C CNN "MPN"
-F 5 "470uF" H 11565 2400 50  0000 L CNN "Capacitance"
-F 6 "35V" H 11565 2309 50  0000 L CNN "Voltage"
-	1    11450 2400
+P 11150 2400
+F 0 "C?" H 11265 2491 50  0000 L CNN
+F 1 "Capacitor_470uF_CheckFootprint" H 11150 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10" H 11200 1950 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ucd.pdf" H 11150 2850 50  0001 C CNN
+F 4 "UCD1V471MNL6GS" H 11700 2250 50  0001 C CNN "MPN"
+F 5 "470uF" H 11265 2400 50  0000 L CNN "Capacitance"
+F 6 "35V" H 11265 2309 50  0000 L CNN "Voltage"
+	1    11150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Capacitor_100nF C?
 U 1 1 5E8B40BE
-P 9600 2400
-F 0 "C?" H 9715 2491 50  0000 L CNN
-F 1 "Capacitor_100nF" H 9600 2850 50  0001 C CNN
-F 2 "Capacitors_SMD:C_0805" H 9650 1950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 9600 2850 50  0001 C CNN
-F 4 "C0805C104Z5VACTU" H 10150 2250 50  0001 C CNN "MPN"
-F 5 "100nF" H 9715 2400 50  0000 L CNN "Capacitance"
-F 6 "50V" H 9715 2309 50  0000 L CNN "Voltage"
-	1    9600 2400
+P 9300 2400
+F 0 "C?" H 9415 2491 50  0000 L CNN
+F 1 "Capacitor_100nF" H 9300 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 9350 1950 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 9300 2850 50  0001 C CNN
+F 4 "C0805C104Z5VACTU" H 9850 2250 50  0001 C CNN "MPN"
+F 5 "100nF" H 9415 2400 50  0000 L CNN "Capacitance"
+F 6 "50V" H 9415 2309 50  0000 L CNN "Voltage"
+	1    9300 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Capacitor_100nF C?
 U 1 1 5E8B4F7B
-P 10950 2400
-F 0 "C?" H 11065 2491 50  0000 L CNN
-F 1 "Capacitor_100nF" H 10950 2850 50  0001 C CNN
-F 2 "Capacitors_SMD:C_0805" H 11000 1950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 10950 2850 50  0001 C CNN
-F 4 "C0805C104Z5VACTU" H 11500 2250 50  0001 C CNN "MPN"
-F 5 "100nF" H 11065 2400 50  0000 L CNN "Capacitance"
-F 6 "50V" H 11065 2309 50  0000 L CNN "Voltage"
-	1    10950 2400
+P 10650 2400
+F 0 "C?" H 10765 2491 50  0000 L CNN
+F 1 "Capacitor_100nF" H 10650 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 10700 1950 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 10650 2850 50  0001 C CNN
+F 4 "C0805C104Z5VACTU" H 11200 2250 50  0001 C CNN "MPN"
+F 5 "100nF" H 10765 2400 50  0000 L CNN "Capacitance"
+F 6 "50V" H 10765 2309 50  0000 L CNN "Voltage"
+	1    10650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -84,13 +84,13 @@ $EndComp
 $Comp
 L Blower_Driver_Components:LinearRegulator U?
 U 1 1 5E8B9087
-P 10350 2350
-F 0 "U?" H 10150 2550 50  0000 C CNN
-F 1 "LinearRegulator" H 10600 2600 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 10150 2600 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf" H 10150 2600 50  0001 C CNN
-F 4 "L78M15CDT-TR" H 10650 2150 50  0000 C CNN "MPN"
-	1    10350 2350
+P 10050 2350
+F 0 "U?" H 9850 2550 50  0000 C CNN
+F 1 "LinearRegulator" H 10300 2600 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 9850 2600 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf" H 9850 2600 50  0001 C CNN
+F 4 "L78M15CDT-TR" H 10350 2150 50  0000 C CNN "MPN"
+	1    10050 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -108,13 +108,13 @@ $EndComp
 $Comp
 L Blower_Driver_Components:NE555D U?
 U 1 1 5E8BB7EA
-P 9350 7100
-F 0 "U?" H 9000 7550 50  0000 L CNN
-F 1 "NE555D" H 9350 6950 50  0001 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 9700 7700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 9700 7700 50  0001 C CNN
-F 4 "NE555DR" H 9450 6650 50  0000 L CNN "MPN"
-	1    9350 7100
+P 10150 7250
+F 0 "U?" H 9800 7700 50  0000 L CNN
+F 1 "NE555D" H 10150 7100 50  0001 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 10500 7850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 10500 7850 50  0001 C CNN
+F 4 "NE555DR" H 10250 6800 50  0000 L CNN "MPN"
+	1    10150 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -221,46 +221,45 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E8CBC6E
-P 10350 2900
-F 0 "#PWR?" H 10350 2650 50  0001 C CNN
-F 1 "GND" H 10355 2727 50  0000 C CNN
-F 2 "" H 10350 2900 50  0001 C CNN
-F 3 "" H 10350 2900 50  0001 C CNN
-	1    10350 2900
+P 10050 2900
+F 0 "#PWR?" H 10050 2650 50  0001 C CNN
+F 1 "GND" H 10055 2727 50  0000 C CNN
+F 2 "" H 10050 2900 50  0001 C CNN
+F 3 "" H 10050 2900 50  0001 C CNN
+	1    10050 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 2250 9600 2250
-Connection ~ 9600 2250
+	8800 2250 9300 2250
+Connection ~ 9300 2250
 Wire Wire Line
-	9600 2250 10000 2250
+	9300 2250 9700 2250
 Wire Wire Line
-	10350 2600 10350 2850
+	10050 2600 10050 2850
 Wire Wire Line
-	9600 2550 9600 2850
+	9300 2550 9300 2850
 Wire Wire Line
-	9600 2850 10350 2850
-Connection ~ 10350 2850
+	9300 2850 10050 2850
+Connection ~ 10050 2850
 Wire Wire Line
-	10350 2850 10350 2900
+	10050 2850 10050 2900
 Wire Wire Line
-	9100 2550 9100 2850
+	8800 2550 8800 2850
 Wire Wire Line
-	9100 2850 9600 2850
-Connection ~ 9600 2850
+	8800 2850 9300 2850
+Connection ~ 9300 2850
 Wire Wire Line
-	10950 2550 10950 2850
+	10650 2550 10650 2850
 Wire Wire Line
-	11450 2550 11450 2850
-Connection ~ 10950 2250
-Connection ~ 10950 2850
+	11150 2550 11150 2850
+Connection ~ 10650 2250
+Connection ~ 10650 2850
 Wire Wire Line
-	10700 2250 10950 2250
+	10400 2250 10650 2250
 Wire Wire Line
-	10350 2850 10950 2850
+	10050 2850 10650 2850
 Wire Wire Line
-	10950 2250 11250 2250
-Connection ~ 9100 2250
+	10650 2250 10950 2250
 Wire Wire Line
 	6700 2250 6700 2800
 Wire Wire Line
@@ -291,8 +290,6 @@ Connection ~ 5400 2150
 Wire Wire Line
 	4900 2450 4900 2650
 Wire Wire Line
-	4900 2650 5650 2650
-Wire Wire Line
 	5650 2650 5650 2750
 Wire Wire Line
 	4800 2850 4800 2650
@@ -303,7 +300,6 @@ Wire Wire Line
 	4800 2650 4450 2650
 Wire Wire Line
 	4800 2650 4900 2650
-Connection ~ 4900 2650
 Wire Wire Line
 	4450 2250 4450 2150
 Wire Wire Line
@@ -323,8 +319,6 @@ Wire Wire Line
 Connection ~ 4050 2150
 Wire Wire Line
 	4800 3550 4800 3750
-Wire Wire Line
-	3350 3750 4800 3750
 Connection ~ 4800 3750
 Wire Wire Line
 	4800 3750 5250 3750
@@ -335,35 +329,30 @@ Wire Wire Line
 	6700 3100 6700 3750
 Wire Wire Line
 	5650 3350 5650 3750
-Wire Wire Line
-	6800 2250 9100 2250
-Connection ~ 6800 2250
 $Comp
 L power:+15V #PWR?
 U 1 1 5E8E456C
-P 11250 2250
-F 0 "#PWR?" H 11250 2100 50  0001 C CNN
-F 1 "+15V" H 11265 2423 50  0000 C CNN
-F 2 "" H 11250 2250 50  0001 C CNN
-F 3 "" H 11250 2250 50  0001 C CNN
-	1    11250 2250
+P 10950 2250
+F 0 "#PWR?" H 10950 2100 50  0001 C CNN
+F 1 "+15V" H 10965 2423 50  0000 C CNN
+F 2 "" H 10950 2250 50  0001 C CNN
+F 3 "" H 10950 2250 50  0001 C CNN
+	1    10950 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 11250 2250
+Connection ~ 10950 2250
 Wire Wire Line
-	11250 2250 11450 2250
+	10950 2250 11150 2250
 Wire Notes Line
-	8800 3250 8800 1550
+	8500 3250 8500 1550
 Wire Notes Line
-	8800 1550 11850 1550
+	8500 1550 11550 1550
 Wire Notes Line
-	11850 1550 11850 3250
-Wire Notes Line
-	11850 3250 8800 3250
-Text Notes 8850 1700 0    79   ~ 16
+	11550 3250 8500 3250
+Text Notes 8550 1700 0    79   ~ 16
 15V 500mA Linear Regulator\n
 Wire Wire Line
-	10950 2850 11450 2850
+	10650 2850 11150 2850
 $Comp
 L Blower_Driver_Components:Resistor_1k_0.5W R?
 U 1 1 5E8E7D88
@@ -758,8 +747,6 @@ F 3 "" H 19450 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	19450 4250 19450 4350
-Wire Wire Line
-	19450 4350 20800 4350
 Connection ~ 19450 4350
 Wire Wire Line
 	19450 4350 19450 4450
@@ -1584,8 +1571,6 @@ F 3 "" H 19450 9400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	19450 9950 19450 10050
-Wire Wire Line
-	19450 10050 20800 10050
 Connection ~ 19450 10050
 Wire Wire Line
 	19450 10050 19450 10150
@@ -1617,142 +1602,142 @@ Wire Wire Line
 $Comp
 L Blower_Driver_Components:Resistor_1k R?
 U 1 1 5E9E5F8B
-P 8300 6700
-F 0 "R?" H 8370 6746 50  0000 L CNN
-F 1 "Resistor_1k" H 8300 7150 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 8300 6150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8300 6700 50  0001 C CNN
-F 4 "RC0603JR-071KL" H 8700 6550 50  0001 C CNN "MPN"
-F 5 "1k" V 8300 6650 50  0000 L CNN "Resistance"
-	1    8300 6700
+P 9100 6850
+F 0 "R?" H 9170 6896 50  0000 L CNN
+F 1 "Resistor_1k" H 9100 7300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 6300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9100 6850 50  0001 C CNN
+F 4 "RC0603JR-071KL" H 9500 6700 50  0001 C CNN "MPN"
+F 5 "1k" V 9100 6800 50  0000 L CNN "Resistance"
+	1    9100 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_10k R?
 U 1 1 5E9E6EFC
-P 8300 7000
-F 0 "R?" H 8370 7046 50  0000 L CNN
-F 1 "Resistor_10k" H 8300 7450 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 8300 6450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8300 7000 50  0001 C CNN
-F 4 "RC0603JR-0710KL" H 8700 6850 50  0001 C CNN "MPN"
-F 5 "10k" V 8300 6950 50  0000 L CNN "Resistance"
-	1    8300 7000
+P 9100 7150
+F 0 "R?" H 9170 7196 50  0000 L CNN
+F 1 "Resistor_10k" H 9100 7600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 9100 6600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9100 7150 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 9500 7000 50  0001 C CNN "MPN"
+F 5 "10k" V 9100 7100 50  0000 L CNN "Resistance"
+	1    9100 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Capacitor_2.2nF C?
 U 1 1 5E9F27DF
-P 8300 7550
-F 0 "C?" H 8415 7641 50  0000 L CNN
-F 1 "Capacitor_2.2nF" H 8300 8000 50  0001 C CNN
-F 2 "Capacitors_SMD:C_0603" H 8350 7100 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C222K5RAC7411.pdf" H 8300 8000 50  0001 C CNN
-F 4 "C0603C222K5RAC7411" H 8850 7400 50  0001 C CNN "MPN"
-F 5 "2.2nF" H 8415 7550 50  0000 L CNN "Capacitance"
-F 6 "50V" H 8415 7459 50  0000 L CNN "Voltage"
-	1    8300 7550
+P 9100 7700
+F 0 "C?" H 9215 7791 50  0000 L CNN
+F 1 "Capacitor_2.2nF" H 9100 8150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 9150 7250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C222K5RAC7411.pdf" H 9100 8150 50  0001 C CNN
+F 4 "C0603C222K5RAC7411" H 9650 7550 50  0001 C CNN "MPN"
+F 5 "2.2nF" H 9215 7700 50  0000 L CNN "Capacitance"
+F 6 "50V" H 9215 7609 50  0000 L CNN "Voltage"
+	1    9100 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Capacitor_10nF C?
 U 1 1 5E9F36D7
-P 9400 7850
-F 0 "C?" H 9515 7941 50  0000 L CNN
-F 1 "Capacitor_10nF" H 9400 8300 50  0001 C CNN
-F 2 "Capacitors_SMD:C_0603" H 9450 7400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9400 8300 50  0001 C CNN
-F 4 "CC0603KPX7R9BB103" H 9950 7700 50  0001 C CNN "MPN"
-F 5 "10nF" H 9515 7850 50  0000 L CNN "Capacitance"
-F 6 "50V" H 9515 7759 50  0000 L CNN "Voltage"
-	1    9400 7850
+P 10200 8000
+F 0 "C?" H 10315 8091 50  0000 L CNN
+F 1 "Capacitor_10nF" H 10200 8450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 10250 7550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10200 8450 50  0001 C CNN
+F 4 "CC0603KPX7R9BB103" H 10750 7850 50  0001 C CNN "MPN"
+F 5 "10nF" H 10315 8000 50  0000 L CNN "Capacitance"
+F 6 "50V" H 10315 7909 50  0000 L CNN "Voltage"
+	1    10200 8000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Capacitor_100nF C?
 U 1 1 5E9F47F2
-P 7800 6600
-F 0 "C?" H 7915 6691 50  0000 L CNN
-F 1 "Capacitor_100nF" H 7800 7050 50  0001 C CNN
-F 2 "Capacitors_SMD:C_0805" H 7850 6150 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 7800 7050 50  0001 C CNN
-F 4 "C0805C104Z5VACTU" H 8350 6450 50  0001 C CNN "MPN"
-F 5 "100nF" H 7915 6600 50  0000 L CNN "Capacitance"
-F 6 "50V" H 7915 6509 50  0000 L CNN "Voltage"
-	1    7800 6600
+P 8600 6750
+F 0 "C?" H 8715 6841 50  0000 L CNN
+F 1 "Capacitor_100nF" H 8600 7200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 8650 6300 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 8600 7200 50  0001 C CNN
+F 4 "C0805C104Z5VACTU" H 9150 6600 50  0001 C CNN "MPN"
+F 5 "100nF" H 8715 6750 50  0000 L CNN "Capacitance"
+F 6 "50V" H 8715 6659 50  0000 L CNN "Voltage"
+	1    8600 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 7150 8300 7250
+	9100 7300 9100 7400
 Wire Wire Line
-	8900 7150 8300 7150
-Connection ~ 8300 7150
+	9700 7300 9100 7300
+Connection ~ 9100 7300
 Wire Wire Line
-	8900 7250 8300 7250
-Connection ~ 8300 7250
+	9700 7400 9100 7400
+Connection ~ 9100 7400
 Wire Wire Line
-	8300 7250 8300 7400
+	9100 7400 9100 7550
 Wire Wire Line
-	9400 7600 9400 7700
+	10200 7750 10200 7850
 Wire Wire Line
-	8300 7700 8300 8000
+	9100 7850 9100 8150
 Wire Wire Line
-	8300 8000 9150 8000
+	9100 8150 9950 8150
 Wire Wire Line
-	9150 7600 9150 8000
-Connection ~ 9150 8000
+	9950 7750 9950 8150
+Connection ~ 9950 8150
 Wire Wire Line
-	9150 8000 9400 8000
+	9950 8150 10200 8150
 $Comp
 L power:GND #PWR?
 U 1 1 5EA36E7D
-P 8300 8000
-F 0 "#PWR?" H 8300 7750 50  0001 C CNN
-F 1 "GND" H 8305 7827 50  0000 C CNN
-F 2 "" H 8300 8000 50  0001 C CNN
-F 3 "" H 8300 8000 50  0001 C CNN
-	1    8300 8000
+P 9100 8150
+F 0 "#PWR?" H 9100 7900 50  0001 C CNN
+F 1 "GND" H 9105 7977 50  0000 C CNN
+F 2 "" H 9100 8150 50  0001 C CNN
+F 3 "" H 9100 8150 50  0001 C CNN
+	1    9100 8150
 	1    0    0    -1  
 $EndComp
-Connection ~ 8300 8000
+Connection ~ 9100 8150
 Wire Wire Line
-	9250 6600 9250 6450
+	10050 6750 10050 6600
 Wire Wire Line
-	9250 6450 8300 6450
+	10050 6600 9700 6600
 Wire Wire Line
-	8300 6550 8300 6450
-Connection ~ 8300 6450
+	9100 6700 9100 6600
+Connection ~ 9100 6600
 Wire Wire Line
-	8300 6450 7800 6450
+	9100 6600 8600 6600
 Wire Wire Line
-	9450 6600 9450 6450
+	10250 6750 10250 6600
 Wire Wire Line
-	9450 6450 9250 6450
-Connection ~ 9250 6450
+	10250 6600 10050 6600
+Connection ~ 10050 6600
 $Comp
 L power:+15V #PWR?
 U 1 1 5EA5D0B1
-P 8900 6450
-F 0 "#PWR?" H 8900 6300 50  0001 C CNN
-F 1 "+15V" H 8915 6623 50  0000 C CNN
-F 2 "" H 8900 6450 50  0001 C CNN
-F 3 "" H 8900 6450 50  0001 C CNN
-	1    8900 6450
+P 9700 6600
+F 0 "#PWR?" H 9700 6450 50  0001 C CNN
+F 1 "+15V" H 9715 6773 50  0000 C CNN
+F 2 "" H 9700 6600 50  0001 C CNN
+F 3 "" H 9700 6600 50  0001 C CNN
+	1    9700 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 7100 10250 7100
-Text HLabel 10250 7100 2    50   Input ~ 0
+	10600 7250 11050 7250
+Text HLabel 11050 7250 2    50   Input ~ 0
 OSC
 $Comp
 L power:GND #PWR?
 U 1 1 5EA76E5C
-P 7800 6750
-F 0 "#PWR?" H 7800 6500 50  0001 C CNN
-F 1 "GND" H 7805 6577 50  0000 C CNN
-F 2 "" H 7800 6750 50  0001 C CNN
-F 3 "" H 7800 6750 50  0001 C CNN
-	1    7800 6750
+P 8600 6900
+F 0 "#PWR?" H 8600 6650 50  0001 C CNN
+F 1 "GND" H 8605 6727 50  0000 C CNN
+F 2 "" H 8600 6900 50  0001 C CNN
+F 3 "" H 8600 6900 50  0001 C CNN
+	1    8600 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1814,122 +1799,105 @@ $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_1k R?
 U 1 1 5EB28A87
-P 10750 12250
-F 0 "R?" V 10525 12250 50  0000 C CNN
-F 1 "Resistor_1k" H 10750 12700 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 10750 11700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10750 12250 50  0001 C CNN
-F 4 "RC0603JR-071KL" H 11150 12100 50  0001 C CNN "MPN"
-F 5 "1k" V 10750 12250 50  0000 C CNN "Resistance"
-	1    10750 12250
+P 10500 12250
+F 0 "R?" V 10275 12250 50  0000 C CNN
+F 1 "Resistor_1k" H 10500 12700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 10500 11700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10500 12250 50  0001 C CNN
+F 4 "RC0603JR-071KL" H 10900 12100 50  0001 C CNN "MPN"
+F 5 "1k" V 10500 12250 50  0000 C CNN "Resistance"
+	1    10500 12250
 	0    1    1    0   
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_1k R?
 U 1 1 5EB2A25A
-P 10750 12550
-F 0 "R?" V 10525 12550 50  0000 C CNN
-F 1 "Resistor_1k" H 10750 13000 50  0001 C CNN
-F 2 "Resistors_SMD:R_0603" H 10750 12000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10750 12550 50  0001 C CNN
-F 4 "RC0603JR-071KL" H 11150 12400 50  0001 C CNN "MPN"
-F 5 "1k" V 10750 12550 50  0000 C CNN "Resistance"
-	1    10750 12550
+P 10500 12550
+F 0 "R?" V 10275 12550 50  0000 C CNN
+F 1 "Resistor_1k" H 10500 13000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 10500 12000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10500 12550 50  0001 C CNN
+F 4 "RC0603JR-071KL" H 10900 12400 50  0001 C CNN "MPN"
+F 5 "1k" V 10500 12550 50  0000 C CNN "Resistance"
+	1    10500 12550
 	0    1    1    0   
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_0R100 R?
 U 1 1 5EB39174
-P 11350 12400
-F 0 "R?" H 11420 12491 50  0000 L CNN
-F 1 "Resistor_0R100" H 11350 12850 50  0001 C CNN
-F 2 "Resistors_SMD:R_2512" H 11350 11850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 11350 12400 50  0001 C CNN
-F 4 "ERJ-L1WKF10CU" H 11750 12250 50  0001 C CNN "MPN"
-F 5 "0R100" H 11420 12400 50  0000 L CNN "Resistance"
-F 6 "1W" H 11420 12309 50  0000 L CNN "Power"
-	1    11350 12400
+P 10800 12400
+F 0 "R?" H 10870 12491 50  0000 L CNN
+F 1 "Resistor_0R100" H 10800 12850 50  0001 C CNN
+F 2 "Resistors_SMD:R_2512" H 10800 11850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 10800 12400 50  0001 C CNN
+F 4 "ERJ-L1WKF10CU" H 11200 12250 50  0001 C CNN "MPN"
+F 5 "0R100" H 10870 12400 50  0000 L CNN "Resistance"
+F 6 "1W" H 10870 12309 50  0000 L CNN "Power"
+	1    10800 12400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_0R047 R?
 U 1 1 5EB3A530
-P 11850 12400
-F 0 "R?" H 11920 12491 50  0000 L CNN
-F 1 "Resistor_0R047" H 11850 12850 50  0001 C CNN
-F 2 "Resistors_SMD:R_2512" H 11850 11850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 11850 12400 50  0001 C CNN
-F 4 "ERJ-L1WKF47MU" H 12250 12250 50  0001 C CNN "MPN"
-F 5 "0R047" H 11920 12400 50  0000 L CNN "Resistance"
-F 6 "1W" H 11920 12309 50  0000 L CNN "Power"
-	1    11850 12400
+P 11150 12400
+F 0 "R?" H 11220 12491 50  0000 L CNN
+F 1 "Resistor_0R047" H 11150 12850 50  0001 C CNN
+F 2 "Resistors_SMD:R_2512" H 11150 11850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 11150 12400 50  0001 C CNN
+F 4 "ERJ-L1WKF47MU" H 11550 12250 50  0001 C CNN "MPN"
+F 5 "0R047" H 11220 12400 50  0000 L CNN "Resistance"
+F 6 "1W" H 11220 12309 50  0000 L CNN "Power"
+	1    11150 12400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 12250 9850 12250
 Connection ~ 9850 12250
 Wire Wire Line
-	9850 12250 10600 12250
-Wire Wire Line
 	9500 12350 9500 12550
-Wire Wire Line
-	9500 12550 9850 12550
 Connection ~ 9850 12550
+Connection ~ 10800 12250
 Wire Wire Line
-	9850 12550 10600 12550
+	10800 12250 11150 12250
+Connection ~ 10800 12550
 Wire Wire Line
-	10900 12250 11350 12250
-Connection ~ 11350 12250
-Wire Wire Line
-	11350 12250 11850 12250
-Wire Wire Line
-	10900 12550 11350 12550
-Connection ~ 11350 12550
-Wire Wire Line
-	11350 12550 11850 12550
-Text HLabel 11350 12150 1    50   Input ~ 0
+	10800 12550 11150 12550
+Text HLabel 10800 12150 1    50   Input ~ 0
 ISENS
 Wire Wire Line
-	11350 12150 11350 12250
+	10800 12150 10800 12250
 Wire Wire Line
-	11350 12550 11350 12900
+	10800 12550 10800 12900
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5EB9A9C9
-P 11350 12900
-F 0 "#PWR?" H 11350 12700 50  0001 C CNN
-F 1 "GNDPWR" H 11354 12746 50  0000 C CNN
-F 2 "" H 11350 12850 50  0001 C CNN
-F 3 "" H 11350 12850 50  0001 C CNN
-	1    11350 12900
+P 10800 12900
+F 0 "#PWR?" H 10800 12700 50  0001 C CNN
+F 1 "GNDPWR" H 10804 12746 50  0000 C CNN
+F 2 "" H 10800 12850 50  0001 C CNN
+F 3 "" H 10800 12850 50  0001 C CNN
+	1    10800 12900
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	10750 12850 11100 12850
+	10200 12850 10550 12850
 Wire Notes Line
-	11100 12850 11100 13000
+	10550 12850 10550 13000
 Wire Notes Line
-	11100 13000 10750 13000
+	10550 13000 10200 13000
 Wire Notes Line
-	10750 13000 10750 12850
-Text Notes 10800 12950 0    50   ~ 0
+	10200 13000 10200 12850
+Text Notes 10250 12950 0    50   ~ 0
 net-tie\n
 Wire Wire Line
-	11350 12900 11100 12900
-Connection ~ 11350 12900
-Wire Wire Line
-	10750 12900 10650 12900
-Wire Wire Line
-	10650 12900 10650 13100
+	10100 12900 10100 13100
 $Comp
 L power:GND #PWR?
 U 1 1 5EBCF81A
-P 10650 13100
-F 0 "#PWR?" H 10650 12850 50  0001 C CNN
-F 1 "GND" H 10655 12927 50  0000 C CNN
-F 2 "" H 10650 13100 50  0001 C CNN
-F 3 "" H 10650 13100 50  0001 C CNN
-	1    10650 13100
+P 10100 13100
+F 0 "#PWR?" H 10100 12850 50  0001 C CNN
+F 1 "GND" H 10105 12927 50  0000 C CNN
+F 2 "" H 10100 13100 50  0001 C CNN
+F 3 "" H 10100 13100 50  0001 C CNN
+	1    10100 13100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2236,7 +2204,7 @@ F 5 "4k7" H 6920 10305 50  0000 L CNN "Resistance"
 $EndComp
 Wire Wire Line
 	6850 10500 6850 10550
-Text HLabel 6850 10200 1    50   Input ~ 0
+Text HLabel 6950 10100 2    50   Input ~ 0
 OUTPUT_ENABLE
 Wire Wire Line
 	6850 10550 6000 10550
@@ -2397,32 +2365,13 @@ $EndComp
 Wire Wire Line
 	4250 11550 3100 11550
 Wire Wire Line
-	4250 11900 3300 11900
-Wire Wire Line
-	4250 12300 3500 12300
-Wire Wire Line
-	4250 12650 3700 12650
-Wire Wire Line
-	4250 13000 3500 13000
-Wire Wire Line
-	4250 13350 3300 13350
-Wire Wire Line
-	4250 13750 3100 13750
-Wire Wire Line
-	3100 11200 3100 11550
-Connection ~ 3100 11550
-Wire Wire Line
 	3300 11200 3300 11900
-Connection ~ 3300 11900
 Wire Wire Line
 	3500 11200 3500 12300
-Connection ~ 3500 12300
 Wire Wire Line
 	3700 14000 3700 12650
-Connection ~ 3700 12650
 Wire Wire Line
 	3500 14000 3500 13000
-Connection ~ 3500 13000
 Wire Wire Line
 	3300 14000 3300 13350
 Wire Wire Line
@@ -2490,82 +2439,471 @@ Connection ~ 3500 10800
 Wire Wire Line
 	3500 10800 3300 10800
 $Comp
-L Blower_Driver_Components:8pinConnector J?
-U 1 1 5F9800D7
-P 1250 12950
-F 0 "J?" H 1208 13615 50  0000 C CNN
-F 1 "8pinConnector" H 1208 13524 50  0000 C CNN
-F 2 "" H 1300 13450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0022057088_PCB_HEADERS-158435.pdf" H 1300 13450 50  0001 C CNN
-F 4 "22-05-7088" H 1208 13433 50  0000 C CNN "MPN"
-	1    1250 12950
+L Blower_Driver_Components:FilterBNX002011 FL?
+U 1 1 5FB69A1D
+P 2800 2250
+F 0 "FL?" H 2792 2665 50  0000 C CNN
+F 1 "FilterBNX002011" H 2792 2574 50  0000 C CNN
+F 2 "" H 2500 2550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/BNX002-11-1569986.pdf" H 2500 2550 50  0001 C CNN
+F 4 "BNX002-11" H 2792 2483 50  0000 C CNN "MPN"
+	1    2800 2250
 	1    0    0    -1  
+$EndComp
+$Comp
+L Blower_Driver_Components:Fuse_5A F?
+U 1 1 5FB97B0C
+P 3400 2150
+F 0 "F?" V 3500 2150 50  0000 C CNN
+F 1 "Fuse_5A" H 3400 2600 50  0001 C CNN
+F 2 "" H 3400 2550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" H 3400 2550 50  0001 C CNN
+F 4 "0154005.DR" V 3500 2450 50  0000 C CNN "MPN"
+F 5 "5A" V 3267 2150 50  0000 C CNN "Fuse Value"
+	1    3400 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2150 3250 2150
+$Comp
+L Blower_Driver_Components:Capacitor_100nF C?
+U 1 1 5FBBFE1F
+P 2100 2300
+F 0 "C?" H 2215 2391 50  0000 L CNN
+F 1 "Capacitor_100nF" H 2100 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2150 1850 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 2100 2750 50  0001 C CNN
+F 4 "C0805C104Z5VACTU" H 2650 2150 50  0001 C CNN "MPN"
+F 5 "100nF" H 2215 2300 50  0000 L CNN "Capacitance"
+F 6 "50V" H 2215 2209 50  0000 L CNN "Voltage"
+	1    2100 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2150 2200 2150
+Wire Wire Line
+	2350 2450 2200 2450
+$Comp
+L Blower_Driver_Components:Inductor_22uH L?
+U 1 1 5FC5CE2F
+P 3050 1700
+F 0 "L?" V 2735 1300 50  0000 C CNN
+F 1 "Inductor_22uH" H 3050 1800 50  0001 C CNN
+F 2 "" H 3050 1700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/06D_Series.pdf" H 3050 1700 50  0001 C CNN
+F 4 "ELC-09D220F" V 2826 1300 50  0000 C CNN "MPN"
+F 5 "22uH" V 2917 1300 50  0000 C CNN "Inductance"
+	1    3050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Blower_Driver_Components:JumperBypass JP?
+U 1 1 5FC8B115
+P 2700 2850
+F 0 "JP?" V 2436 2850 50  0000 C CNN
+F 1 "JumperBypass" V 2527 2850 50  0000 C CNN
+F 2 "" H 2700 3350 50  0001 C CNN
+F 3 "" H 2700 3350 50  0001 C CNN
+	1    2700 2850
+	0    1    1    0   
+$EndComp
+Text HLabel 4500 3350 0    50   Input ~ 0
+OUTPUT_ENABLE
+Wire Wire Line
+	5450 3050 5250 3050
+Wire Wire Line
+	5250 3050 5250 2650
+Wire Wire Line
+	5250 2650 4900 2650
+Connection ~ 4900 2650
+$Comp
+L Blower_Driver_Components:2pinConnector_Power J?
+U 1 1 5FD03D04
+P 1550 2100
+F 0 "J?" H 1508 2265 50  0000 C CNN
+F 1 "2pinConnector_Power" H 1508 2174 50  0000 C CNN
+F 2 "" H 1550 2100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-43650.pdf" H 1550 2100 50  0001 C CNN
+F 4 "0436500212" H 1508 2083 50  0000 C CNN "MPN"
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Blower_Driver_Components:2pinConnector_Unknown J?
+U 1 1 5FD2E324
+P 1550 2600
+F 0 "J?" H 1450 2550 50  0000 C CNN
+F 1 "2pinConnector_Unknown" H 1500 2250 50  0000 C CNN
+F 2 "" H 1550 2600 50  0001 C CNN
+F 3 "" H 1550 2600 50  0001 C CNN
+	1    1550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1700 2200 1700
+Wire Wire Line
+	2200 1700 2200 2150
+Connection ~ 2200 2150
+Wire Wire Line
+	2200 2150 2350 2150
+Wire Wire Line
+	2400 2850 2200 2850
+Wire Wire Line
+	2200 2850 2200 2450
+Connection ~ 2200 2450
+Wire Wire Line
+	2200 2450 2100 2450
+Wire Wire Line
+	3200 2150 3200 1700
+Wire Wire Line
+	3200 1700 2800 1700
+Connection ~ 3200 2150
+Wire Wire Line
+	3200 2400 3300 2400
+Wire Wire Line
+	3300 2400 3300 2450
+Wire Wire Line
+	3300 3750 4800 3750
+Wire Wire Line
+	3200 2450 3300 2450
+Connection ~ 3300 2450
+Wire Wire Line
+	3300 2450 3300 2500
+Wire Wire Line
+	3200 2500 3300 2500
+Connection ~ 3300 2500
+Wire Wire Line
+	3300 2500 3300 2850
+Wire Wire Line
+	3000 2850 3300 2850
+Connection ~ 3300 2850
+Wire Wire Line
+	3300 2850 3300 3750
+Wire Wire Line
+	1600 2250 1750 2250
+Wire Wire Line
+	1900 2250 1900 2150
+Wire Wire Line
+	1900 2150 2100 2150
+Connection ~ 2100 2150
+Wire Wire Line
+	1600 2350 1900 2350
+Wire Wire Line
+	1900 2350 1900 2450
+Wire Wire Line
+	1900 2450 2100 2450
+Connection ~ 2100 2450
+Wire Wire Line
+	1600 2750 1750 2750
+Wire Wire Line
+	1750 2750 1750 2250
+Connection ~ 1750 2250
+Wire Wire Line
+	1750 2250 1900 2250
+Wire Wire Line
+	1600 2850 1900 2850
+Wire Wire Line
+	1900 2850 1900 2450
+Connection ~ 1900 2450
+$Comp
+L Blower_Driver_Components:8pinConnector J?
+U 1 1 5FF3C397
+P 21800 7150
+F 0 "J?" H 21750 7600 50  0000 R CNN
+F 1 "8pinConnector" H 21900 6600 50  0000 R CNN
+F 2 "" H 21850 7650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0022057088_PCB_HEADERS-158435.pdf" H 21850 7650 50  0001 C CNN
+F 4 "22-05-7088" H 21900 6500 50  0000 R CNN "MPN"
+	1    21800 7150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Blower_Driver_Components:2pinConnector J?
-U 1 1 5F98148F
-P 1250 11700
-F 0 "J?" H 1208 12065 50  0000 C CNN
-F 1 "2pinConnector" H 1208 11974 50  0000 C CNN
-F 2 "" H 1300 11950 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022057028_sd.pdf" H 1300 11950 50  0001 C CNN
-F 4 "0022057028" H 1208 11883 50  0000 C CNN "MPN"
-	1    1250 11700
+U 1 1 5FF3C39E
+P 21800 5900
+F 0 "J?" H 21750 6050 50  0000 R CNN
+F 1 "2pinConnector" H 21850 5700 50  0000 R CNN
+F 2 "" H 21850 6150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022057028_sd.pdf" H 21850 6150 50  0001 C CNN
+F 4 "0022057028" H 21850 5600 50  0000 R CNN "MPN"
+	1    21800 5900
+	-1   0    0    -1  
+$EndComp
+Text HLabel 21750 5850 0    50   Output ~ 0
+TEMP+
+Text HLabel 21750 5950 0    50   Output ~ 0
+TEMP-
+Text Notes 22000 5950 0    50   ~ 0
+TEMPERATURE\nSENSOR
+Text Notes 21950 6850 0    50   ~ 0
+PHASE 3/C SENSOR
+Text Notes 21950 6950 0    50   ~ 0
+PHASE 2/B SENSOR
+Text Notes 21950 7050 0    50   ~ 0
+PHASE 1/A SENSOR
+Text Notes 21950 7150 0    50   ~ 0
+GND
+Text Notes 21950 7250 0    50   ~ 0
+SENSORS SUPPLY
+Text Notes 21950 7350 0    50   ~ 0
+PHASE 3/C
+Text Notes 21950 7450 0    50   ~ 0
+PHASE 2/B
+Text Notes 21950 7550 0    50   ~ 0
+PHASE 1/A
+Text HLabel 21750 6800 0    50   Output ~ 0
+SENSOR3
+Text HLabel 21750 6900 0    50   Output ~ 0
+SENSOR2
+Text HLabel 21750 7000 0    50   Output ~ 0
+SENSOR1
+Text HLabel 21750 7200 0    50   Input ~ 0
+V-REF-M
+Wire Wire Line
+	21250 4350 21250 7300
+Wire Wire Line
+	21250 7300 21750 7300
+Wire Wire Line
+	19450 4350 21250 4350
+Wire Wire Line
+	20800 7150 20800 7400
+Wire Wire Line
+	20800 7400 21750 7400
+Wire Wire Line
+	21250 10050 21250 7500
+Wire Wire Line
+	21250 7500 21750 7500
+Wire Wire Line
+	19450 10050 21250 10050
+$Comp
+L power:GND #PWR?
+U 1 1 600C086A
+P 21750 7100
+F 0 "#PWR?" H 21750 6850 50  0001 C CNN
+F 1 "GND" H 21755 6927 50  0000 C CNN
+F 2 "" H 21750 7100 50  0001 C CNN
+F 3 "" H 21750 7100 50  0001 C CNN
+	1    21750 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 12650 3700 12650
+Wire Wire Line
+	4250 13000 3500 13000
+Wire Wire Line
+	4250 12300 3500 12300
+Wire Wire Line
+	4250 13350 3300 13350
+Wire Wire Line
+	4250 11900 3300 11900
+Wire Wire Line
+	4250 13750 3100 13750
+Text Notes 900  12400 0    50   ~ 0
+TEMP-MEASURE+
+Text Notes 900  12500 0    50   ~ 0
+TEMP-MEASURE-
+Text Notes 1450 12650 0    50   ~ 0
+NC
+Text Notes 1450 12750 0    50   ~ 0
+NC
+Text Notes 950  12850 0    50   ~ 0
+SPEED-MEASURE
+Text Notes 900  12950 0    50   ~ 0
+SPEED-SETPOINT
+Text Notes 1250 13050 0    50   ~ 0
+BRAKE_N
+Text Notes 1250 13150 0    50   ~ 0
+FAULT_N
+Text Notes 1300 13250 0    50   ~ 0
+ENABLE
+Text Notes 1400 13350 0    50   ~ 0
+GND
+Wire Wire Line
+	1900 12400 1800 12400
+Wire Wire Line
+	1900 11550 1900 12400
+Wire Wire Line
+	2000 12500 1800 12500
+Wire Wire Line
+	2000 11900 2000 12500
+$Comp
+L Blower_Driver_Components:10pinConnector J?
+U 1 1 601AF9B5
+P 1750 12700
+F 0 "J?" H 1600 13150 50  0000 C CNN
+F 1 "10pinConnector" H 1500 13250 50  0000 C CNN
+F 2 "" H 1800 13200 50  0001 C CNN
+F 3 "http://multimedia.3m.com/mws/media/375264O/3mtm-100-in-pcb-100x-100-two-row-78xx-series-ts2104.pdf" H 1800 13200 50  0001 C CNN
+F 4 "7810-0000PR" H 1650 11900 50  0000 C CNN "MPN"
+	1    1750 12700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2100 12800 2100 12300
+Wire Wire Line
+	1800 12800 2100 12800
+Wire Wire Line
+	2100 13200 2100 13750
+Wire Wire Line
+	1800 13200 2100 13200
+Wire Wire Line
+	2000 13300 2000 14100
+Wire Wire Line
+	1800 13300 2000 13300
 $Comp
 L power:GND #PWR?
 U 1 1 5F98357A
-P 1500 14100
-F 0 "#PWR?" H 1500 13850 50  0001 C CNN
-F 1 "GND" H 1505 13927 50  0000 C CNN
-F 2 "" H 1500 14100 50  0001 C CNN
-F 3 "" H 1500 14100 50  0001 C CNN
-	1    1500 14100
+P 2000 14100
+F 0 "#PWR?" H 2000 13850 50  0001 C CNN
+F 1 "GND" H 2005 13927 50  0000 C CNN
+F 2 "" H 2000 14100 50  0001 C CNN
+F 3 "" H 2000 14100 50  0001 C CNN
+	1    2000 14100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 13300 1500 13300
-Wire Wire Line
-	1500 13300 1500 14100
-Wire Wire Line
-	1300 13200 1600 13200
-Wire Wire Line
-	1600 13200 1600 13750
-Wire Wire Line
-	1600 13750 3100 13750
+	2100 13750 2300 13750
 Connection ~ 3100 13750
 Wire Wire Line
-	1300 13100 1700 13100
+	1800 13100 2200 13100
 Wire Wire Line
-	1700 13100 1700 13350
-Wire Wire Line
-	1700 13350 3300 13350
+	2200 13100 2200 13350
 Connection ~ 3300 13350
 Wire Wire Line
-	1300 13000 3500 13000
+	1800 13000 2400 13000
+Connection ~ 3500 13000
 Wire Wire Line
-	1300 12900 1700 12900
+	1800 12900 2200 12900
 Wire Wire Line
-	1700 12900 1700 12650
+	2200 12900 2200 12650
 Wire Wire Line
-	1700 12650 3700 12650
+	2200 12650 2450 12650
+Connection ~ 3700 12650
 Wire Wire Line
-	1300 12800 1600 12800
+	2100 12300 2500 12300
+Connection ~ 3500 12300
 Wire Wire Line
-	1600 12800 1600 12300
+	2000 11900 3300 11900
+Connection ~ 3300 11900
 Wire Wire Line
-	1600 12300 3500 12300
+	1900 11550 3100 11550
+Connection ~ 3100 11550
 Wire Wire Line
-	1300 11650 1600 11650
+	3100 11200 3100 11550
 Wire Wire Line
-	1600 11650 1600 11550
+	2200 13350 2350 13350
+$Comp
+L Blower_Driver_Components:9pinConnector J?
+U 1 1 601E1979
+P 1750 9650
+F 0 "J?" H 1708 10075 50  0000 C CNN
+F 1 "9pinConnector" H 1708 9984 50  0000 C CNN
+F 2 "" H 1800 10150 50  0001 C CNN
+F 3 "" H 1800 10150 50  0001 C CNN
+	1    1750 9650
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 9450 2    50   Input ~ 0
+OUTPUT_ENABLE
+Text Notes 1350 9450 0    50   ~ 0
+IDENT
+Text Notes 1400 10300 0    50   ~ 0
+GND
+Text Notes 1300 10200 0    50   ~ 0
+ENABLE
+Text Notes 1250 10100 0    50   ~ 0
+FAULT_N
+Text Notes 1250 10000 0    50   ~ 0
+BRAKE_N
+Text Notes 900  9900 0    50   ~ 0
+SPEED-SETPOINT
+Text Notes 950  9800 0    50   ~ 0
+SPEED-MEASURE
 Wire Wire Line
-	1600 11550 3100 11550
+	2300 13750 2300 10150
 Wire Wire Line
-	1300 11750 1600 11750
+	2300 10150 1800 10150
+Connection ~ 2300 13750
 Wire Wire Line
-	1600 11750 1600 11900
+	2300 13750 3100 13750
 Wire Wire Line
-	1600 11900 3300 11900
+	2350 13350 2350 10050
+Wire Wire Line
+	2350 10050 1800 10050
+Connection ~ 2350 13350
+Wire Wire Line
+	2350 13350 3300 13350
+Wire Wire Line
+	2400 13000 2400 9950
+Wire Wire Line
+	2400 9950 1800 9950
+Connection ~ 2400 13000
+Wire Wire Line
+	2400 13000 3500 13000
+Wire Wire Line
+	2450 12650 2450 9850
+Wire Wire Line
+	2450 9850 1800 9850
+Connection ~ 2450 12650
+Wire Wire Line
+	2450 12650 3700 12650
+Wire Wire Line
+	2500 12300 2500 9750
+Wire Wire Line
+	2500 9750 1800 9750
+Connection ~ 2500 12300
+Wire Wire Line
+	2500 12300 3500 12300
+Wire Notes Line
+	11550 8450 8250 8450
+Wire Notes Line
+	8250 6100 11550 6100
+Connection ~ 9700 6600
+Wire Wire Line
+	9700 6600 9100 6600
+Text Notes 8350 6300 0    79   ~ 16
+555 TIMER
+Wire Notes Line
+	8250 6100 8250 8450
+Wire Wire Line
+	9850 12250 10350 12250
+Wire Wire Line
+	9850 12550 10350 12550
+Wire Wire Line
+	10650 12250 10800 12250
+Wire Wire Line
+	10650 12550 10800 12550
+Wire Wire Line
+	9500 12250 9850 12250
+Wire Wire Line
+	9500 12550 9850 12550
+Wire Wire Line
+	10100 12900 10200 12900
+Wire Wire Line
+	10550 12900 10800 12900
+Connection ~ 10800 12900
+Wire Wire Line
+	6850 10100 6850 10200
+Wire Wire Line
+	6850 10100 6950 10100
+Wire Notes Line
+	6100 9700 6100 14300
+Wire Notes Line
+	6100 14300 11550 14300
+Wire Notes Line
+	11550 14300 11550 9700
+Wire Notes Line
+	11550 9700 6100 9700
+Text Notes 6200 9900 0    79   ~ 16
+BRUSHLESS MOTOR GATE DRIVER
+Wire Notes Line
+	11550 -1200 11750 -1200
+Wire Notes Line
+	11550 8450 11550 6100
+Wire Notes Line
+	11550 3250 11550 1550
+Wire Wire Line
+	6800 2250 8800 2250
+Connection ~ 6800 2250
+Connection ~ 8800 2250
 $EndSCHEMATC
