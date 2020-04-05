@@ -1,5 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Capacitor_100nF
+F https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf
+$ENDCMP
+#
+$CMP Capacitor_100uF_CheckFootprint
+F https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf
+$ENDCMP
+#
+$CMP Capacitor_10nF
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP Capacitor_2.2nF
+F https://api.kemet.com/component-edge/download/datasheet/C0603C222K5RAC7411.pdf
+$ENDCMP
+#
+$CMP Capacitor_220nF
+F https://api.kemet.com/component-edge/download/datasheet/C1206C224K5RACTU.pdf
+$ENDCMP
+#
+$CMP Capacitor_22uF_CheckFootprint
+F https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf
+$ENDCMP
+#
+$CMP Capacitor_330nF
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
+$ENDCMP
+#
+$CMP Capacitor_470uF_CheckFootprint
+F http://nichicon-us.com/english/products/pdfs/e-ucd.pdf
+$ENDCMP
+#
 $CMP DiodeSchottky
 F https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf
 $ENDCMP
