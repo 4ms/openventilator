@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2pinConnector
+F https://www.molex.com/pdm_docs/sd/022057028_sd.pdf
+$ENDCMP
+#
+$CMP 8pinConnector
+F https://www.mouser.com/datasheet/2/276/0022057088_PCB_HEADERS-158435.pdf
+$ENDCMP
+#
+$CMP CapacitorArray_47pf
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf
+$ENDCMP
+#
 $CMP Capacitor_100nF
 F https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf
 $ENDCMP
@@ -54,6 +66,10 @@ $ENDCMP
 #
 $CMP DiodeZener_30V
 F http://www.vishay.com/docs/86138/bzg03c-m-series.pdf
+$ENDCMP
+#
+$CMP FerriteBead
+F https://katalog.we-online.de/pbs/datasheet/74279266.pdf
 $ENDCMP
 #
 $CMP HighSideDriver
