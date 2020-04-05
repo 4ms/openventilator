@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:GR106768 Buzzer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -278,10 +277,6 @@ F 3 "~" H 4525 6525 50  0001 C CNN
 	1    4525 6525
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1150 4000 0    50   Input ~ 0
-BUZ_ACT
-Text GLabel 1175 4850 0    50   Input ~ 0
-SUPPLY_BUZ
 $Comp
 L Device:L L2
 U 1 1 5E8C0A82
@@ -644,8 +639,6 @@ Wire Wire Line
 Wire Wire Line
 	1675 4000 1675 4125
 Wire Wire Line
-	1250 4850 1175 4850
-Wire Wire Line
 	1250 4000 1150 4000
 $Comp
 L Device:C C17
@@ -957,8 +950,6 @@ Wire Wire Line
 	7850 2425 7850 2725
 Connection ~ 6600 2425
 Connection ~ 7850 2725
-Text GLabel 5050 2200 0    50   Input ~ 0
-VCHARG
 Wire Wire Line
 	5050 2200 5225 2200
 Wire Wire Line
@@ -1060,8 +1051,6 @@ Wire Wire Line
 	9725 2925 10175 2925
 Wire Wire Line
 	10175 2925 10175 2725
-Text GLabel 9725 2275 1    50   Output ~ 0
-VBAT
 Wire Wire Line
 	9725 2275 9725 2425
 $Comp
@@ -1236,10 +1225,6 @@ F 3 "" H 5550 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5550 7425 5550 7350
-Text GLabel 7600 4950 0    50   Input ~ 0
-STOP_INV
-Text GLabel 7625 5750 0    50   Input ~ 0
-INHIB_STOP_INV
 $Comp
 L Diode:BAT54S D9
 U 1 1 5E9B9C29
@@ -1339,10 +1324,6 @@ F 3 "~" H 10075 4950 50  0001 C CNN
 	1    10075 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 14875 7375 2    50   Output ~ 0
-SHDN1
-Text GLabel 14850 8625 2    50   Output ~ 0
-SHDN2
 $Comp
 L Device:Q_NMOS_DGS Q12
 U 1 1 5E9E71AF
@@ -1647,10 +1628,6 @@ Wire Wire Line
 Wire Wire Line
 	10175 5750 9675 5750
 Connection ~ 9675 5750
-Text GLabel 10675 2275 1    50   Output ~ 0
-SUPPLY_BUZ
-Wire Wire Line
-	10675 2275 10675 2425
 Wire Wire Line
 	10675 2425 10375 2425
 $Comp
@@ -1957,16 +1934,10 @@ Wire Wire Line
 	11350 4475 11350 6000
 Wire Wire Line
 	11350 6000 12775 6000
-Text GLabel 11750 4325 0    50   Input ~ 0
-SHDN2
-Wire Wire Line
-	11750 4325 11825 4325
 Wire Wire Line
 	11825 4325 11825 4475
 Wire Wire Line
 	11825 4475 11750 4475
-Text GLabel 14125 4350 2    50   Input ~ 0
-SHDN1
 $Comp
 L Device:CP C21
 U 1 1 5EBD18AF
@@ -2295,11 +2266,6 @@ Wire Wire Line
 	5550 8450 7800 8450
 Wire Wire Line
 	7800 8450 7800 5750
-Connection ~ 7800 5750
-Wire Wire Line
-	7800 5750 7625 5750
-Text GLabel 4925 6425 2    50   Input ~ 0
-VCHARG
 Wire Wire Line
 	4725 6425 4925 6425
 $Comp
@@ -2330,4 +2296,37 @@ Wire Wire Line
 	14475 7375 14475 7575
 Text Notes 2650 5875 0    50   ~ 0
 BATTERY SWITCH CIRCUIT
+Text HLabel 1150 4000 0    50   Input ~ 0
+BUZ_ACT
+Text HLabel 10675 2300 1    50   Output ~ 0
+SUPPLY_BUZ
+Text HLabel 7600 4950 0    50   Input ~ 0
+STOP_INV
+Text HLabel 7600 5750 0    50   Input ~ 0
+INHIB_STOP_INV
+Wire Wire Line
+	7800 5750 7600 5750
+Connection ~ 7800 5750
+Wire Wire Line
+	10675 2300 10675 2425
+Text HLabel 5050 2200 0    50   Output ~ 0
+VCHARG
+Text HLabel 4925 6425 2    50   Input ~ 0
+VCHARG
+Wire Wire Line
+	11750 4325 11825 4325
+Text Label 14875 7375 2    50   ~ 0
+SHDN1
+Text Label 14125 4350 0    50   ~ 0
+SHDN1
+Text Label 14850 8625 2    50   ~ 0
+SHDN2
+Text Label 11750 4325 2    50   ~ 0
+SHDN2
+Text HLabel 9725 2275 1    50   Output ~ 0
+VBAT
+Text HLabel 1150 4850 0    50   Input ~ 0
+SUPPLY_BUZ
+Wire Wire Line
+	1250 4850 1150 4850
 $EndSCHEMATC

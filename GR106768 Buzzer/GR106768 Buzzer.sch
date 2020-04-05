@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:GR106768 Buzzer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -190,8 +189,6 @@ F 3 "" H 5700 4850 50  0001 C CNN
 	1    5900 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 4250 0    50   Input ~ 0
-SUPPLY_BUZ
 $Comp
 L Device:C C10
 U 1 1 5E8CCB53
@@ -291,10 +288,6 @@ F 3 "~" H 7625 4450 50  0001 C CNN
 	1    7625 4450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4325 2600 2    50   Input ~ 0
-TEST_BUZZER
-Text GLabel 4325 2750 2    50   Output ~ 0
-STOP_INV
 $Comp
 L Diode:BAT54S D4
 U 1 1 5E8F2FE5
@@ -580,12 +573,6 @@ F 3 "" H 13800 6600 50  0001 C CNN
 	1    13800 6600
 	1    0    0    -1  
 $EndComp
-Text GLabel 14525 6200 2    50   Output ~ 0
-TESTBUZ
-Text GLabel 12775 6975 0    50   Input ~ 0
-VBAT
-Text GLabel 12600 6075 0    50   Output ~ 0
-BUZ_ACT
 $Comp
 L Device:C C30
 U 1 1 5EA0990A
@@ -849,8 +836,6 @@ Wire Wire Line
 	13150 6975 13300 6975
 Wire Wire Line
 	13300 6975 13300 7050
-Text GLabel 13925 6975 2    50   Input ~ 0
-VCHARG
 Wire Wire Line
 	13925 6975 13700 6975
 Wire Wire Line
@@ -1256,12 +1241,8 @@ Wire Wire Line
 	2800 2700 2300 2700
 Wire Wire Line
 	2350 2800 2300 2800
-Text GLabel 4325 2450 2    50   Output ~ 0
-INHIB_STOP_INV
 Wire Wire Line
 	3175 2300 4325 2300
-Text GLabel 4325 2300 2    50   Input ~ 0
-SUPPLY_BUZ
 Wire Wire Line
 	6425 2900 5950 2900
 Wire Wire Line
@@ -1541,12 +1522,6 @@ Wire Wire Line
 	3600 6250 3750 6250
 Wire Wire Line
 	3750 6250 3750 6350
-$Sheet
-S 2450 7725 1200 900 
-U 5E89C6B8
-F0 "GR106768_buzzer_charger" 50
-F1 "GR106768_buzzer_charger.sch" 50
-$EndSheet
 Wire Wire Line
 	7900 4450 13950 4450
 Connection ~ 7900 4450
@@ -1713,4 +1688,58 @@ Wire Wire Line
 Wire Wire Line
 	4250 2900 5025 2900
 Connection ~ 5025 2900
+Wire Wire Line
+	3650 7925 3825 7925
+Text HLabel 3825 7925 2    50   Output ~ 0
+SUPPLY_BUZ
+$Sheet
+S 2450 7725 1200 900 
+U 5E89C6B8
+F0 "GR106768_buzzer_charger" 50
+F1 "GR106768_buzzer_charger.sch" 50
+F2 "BUZ_ACT" I L 2450 7925 50 
+F3 "SUPPLY_BUZ" O R 3650 7925 50 
+F4 "STOP_INV" I L 2450 8025 50 
+F5 "INHIB_STOP_INV" I L 2450 8125 50 
+F6 "VBAT" O R 3650 8025 50 
+F7 "VCHARG" O R 3650 8125 50 
+$EndSheet
+Wire Wire Line
+	2300 8125 2450 8125
+Wire Wire Line
+	2300 8025 2450 8025
+Wire Wire Line
+	2300 7925 2450 7925
+Text HLabel 2300 7925 0    50   Input ~ 0
+BUZ_ACT
+Text HLabel 2300 8025 0    50   Input ~ 0
+STOP_INV
+Text HLabel 2300 8125 0    50   Input ~ 0
+INHIB_STOP_INV
+Text HLabel 3825 8125 2    50   Output ~ 0
+VCHARG
+Wire Wire Line
+	3650 8025 3825 8025
+Text HLabel 3825 8025 2    50   Output ~ 0
+VBAT
+Text HLabel 12775 6975 0    50   Input ~ 0
+VBAT
+Text HLabel 12600 6075 0    50   Output ~ 0
+BUZ_ACT
+Text HLabel 4700 4250 0    50   Input ~ 0
+SUPPLY_BUZ
+Text HLabel 4325 2750 2    50   Output ~ 0
+STOP_INV
+Text HLabel 14525 6200 2    50   Output ~ 0
+TEST_BUZZER
+Text HLabel 4325 2600 2    50   Input ~ 0
+TEST_BUZZER
+Text HLabel 4325 2450 2    50   Output ~ 0
+INHIB_STOP_INV
+Text HLabel 4325 2300 2    50   Input ~ 0
+SUPPLY_BUZ
+Wire Wire Line
+	3650 8125 3825 8125
+Text HLabel 13925 6975 2    50   Input ~ 0
+VCHARG
 $EndSCHEMATC
