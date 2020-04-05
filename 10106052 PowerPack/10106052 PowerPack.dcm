@@ -1,3 +1,65 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAT54C-7-F-dk_Diodes-Rectifiers-Arrays
+D DIODE ARRAY SCHOTTKY 30V SOT23-3
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BNX002-11
+D FILTER CC, 1MHZ-1GHZ, 10A, 50V
+F https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11
+$ENDCMP
+#
+$CMP C_10uF_6.3V_20%_X5R_0603_Kemet
+D CAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603
+K capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf
+$ENDCMP
+#
+$CMP INA170
+D IC,CURRENT SHUNT MONITOR,MSOP
+F http://www.ti.com/lit/gpn/ina170
+$ENDCMP
+#
+$CMP LM4120AIM5-3.0
+D IC,VOLTAGE REFERENCE,5MA,3V +/-2%,SOT23
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4120
+$ENDCMP
+#
+$CMP Molex_52207-1933_1x19-1MP_P1.00mm_Horizontal
+D CONNECTOR ZIF, 19 CONTACTS, 1 MM
+$ENDCMP
+#
+$CMP NCV87722DT50RKG
+D IC REG LINEAR 5V/3.3V 350MA D2PAK-7
+F http://www.onsemi.com/pub/Collateral/NCV8772-D.PDF
+$ENDCMP
+#
+$CMP PESD5V0S4UD
+D DIODE NETWORK ESD PROTECT 30 KV SOT457
+F https://assets.nexperia.com/documents/data-sheet/PESDXS4UD_SER.pdf
+$ENDCMP
+#
+$CMP PIC18F43K22T-IPT
+D IC MCU 8BIT 8KB FLASH 44TQFP
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en547043
+$ENDCMP
+#
+$CMP PMEG4005AEA
+D DIODE SCHOTTKY, 500MA,40V,SOD323
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf
+$ENDCMP
+#
+$CMP R_1K_1%_0603_Bourns
+D RESISTOR, 1K OHM, 0.063W,+/-1%, 0603
+K R res resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP SMA6J28A
+D DIODE TRANSIL 33V, SMA
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf
+$ENDCMP
+#
 #End Doc Library

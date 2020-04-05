@@ -221,6 +221,8 @@ $Comp
 L 10106052-PowerPack-rescue:BAT54C-7-F-dk_Diodes-Rectifiers-Arrays-10106052-PowerPack-rescue D5
 U 1 1 5E884331
 P 4025 5000
+AR Path="/5E884331" Ref="D5"  Part="1" 
+AR Path="/5E87819A/5E884331" Ref="D5"  Part="1" 
 F 0 "D5" H 4075 5347 60  0000 C CNN
 F 1 "BAS70-05" H 4075 5241 60  0000 C CNN
 F 2 "digikey-footprints:SOT-23-3" H 4225 5200 60  0001 L CNN

@@ -17,6 +17,8 @@ $Comp
 L dk_Temperature-Sensors-Analog-and-Digital-Output:MCP9700A-E_TO U6
 U 1 1 5E88FBF9
 P 5000 3600
+AR Path="/5E88FBF9" Ref="U6"  Part="1" 
+AR Path="/5E878266/5E88FBF9" Ref="U6"  Part="1" 
 F 0 "U6" H 5175 3850 60  0000 R CNN
 F 1 "MCP9700A-E_TO" H 5825 3350 60  0000 R CNN
 F 2 "digikey-footprints:TO-92-3" H 5200 3800 60  0001 L CNN
