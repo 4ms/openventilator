@@ -236,4 +236,15 @@ Text Label 4750 6225 0    50   ~ 0
 FAN_EN
 Text Notes 1500 6700 0    50   ~ 0
 Where are connected RX and TX??
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E8A1129
+P 8250 1250
+F 0 "H1" H 8350 1296 50  0000 L CNN
+F 1 "MountingHole" H 8350 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 8250 1250 50  0001 C CNN
+F 3 "~" H 8250 1250 50  0001 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
