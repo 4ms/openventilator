@@ -1,4 +1,4 @@
-update=4/5/2020 3:43:29 PM
+update=4/5/2020 9:05:30 PM
 version=1
 last_client=kicad
 [general]
@@ -12,11 +12,21 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=default.kicad_wks
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=default.kicad_wks
 LastNetListRead=10096510 Battery Connection.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6002
 AllowMicroVias=0
 AllowBlindVias=0
@@ -73,11 +83,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -195,9 +205,9 @@ Name=Back
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Paste]
 Enabled=1
 [pcbnew/Layer.F.Paste]
@@ -211,13 +221,13 @@ Enabled=1
 [pcbnew/Layer.F.Mask]
 Enabled=1
 [pcbnew/Layer.Dwgs.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Cmts.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Eco1.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Eco2.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
@@ -227,7 +237,7 @@ Enabled=1
 [pcbnew/Layer.F.CrtYd]
 Enabled=1
 [pcbnew/Layer.B.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
@@ -255,13 +265,3 @@ uViaDrill=0.3302
 dPairWidth=0.1524
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=default.kicad_wks
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
