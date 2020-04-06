@@ -29,7 +29,16 @@ Connection ~ 5850 3500
 Connection ~ 5950 3400
 Connection ~ 6050 3300
 Connection ~ 6150 3200
+Connection ~ 6700 3200
+Connection ~ 6800 3300
+Connection ~ 7000 3500
+Connection ~ 6450 2250
+Connection ~ 6700 2250
+Connection ~ 6800 2250
+Connection ~ 6900 2250
+Connection ~ 5750 6100
 NoConn ~ 6150 1650
+NoConn ~ 6900 2950
 Entry Wire Line
 	2400 1150 2500 1050
 Entry Wire Line
@@ -261,17 +270,39 @@ Wire Wire Line
 Wire Wire Line
 	5000 4400 5250 4400
 Wire Wire Line
+	5000 5800 5900 5800
+Wire Wire Line
+	5000 5900 5900 5900
+Wire Wire Line
+	5000 6000 5900 6000
+Wire Wire Line
+	5000 6100 5750 6100
+Wire Wire Line
+	5000 6200 5500 6200
+Wire Wire Line
+	5000 6300 5050 6300
+Wire Wire Line
+	5000 6400 5050 6400
+Wire Wire Line
+	5000 6500 5050 6500
+Wire Wire Line
+	5700 6200 5750 6200
+Wire Wire Line
+	5750 6100 5900 6100
+Wire Wire Line
+	5750 6200 5750 6100
+Wire Wire Line
 	5850 2500 5850 2550
 Wire Wire Line
 	5850 2950 5850 3500
 Wire Wire Line
-	5850 3500 6200 3500
+	5850 3500 7000 3500
 Wire Wire Line
 	5950 2250 5950 2550
 Wire Wire Line
 	5950 2950 5950 3400
 Wire Wire Line
-	5950 3400 6200 3400
+	5950 3400 7150 3400
 Wire Wire Line
 	6050 2500 6150 2500
 Wire Wire Line
@@ -279,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2950 6050 3300
 Wire Wire Line
-	6050 3300 6200 3300
+	6050 3300 6800 3300
 Wire Wire Line
 	6150 1200 6150 1250
 Wire Wire Line
@@ -289,7 +320,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 2950 6150 3200
 Wire Wire Line
-	6150 3200 6200 3200
+	6150 3200 6700 3200
 Wire Wire Line
 	6250 1200 6250 1250
 Wire Wire Line
@@ -315,15 +346,43 @@ Wire Wire Line
 Wire Wire Line
 	6450 2250 5950 2250
 Wire Wire Line
+	6450 2250 6700 2250
+Wire Wire Line
 	6450 2350 6450 2250
+Wire Wire Line
+	6700 2250 6700 2550
+Wire Wire Line
+	6700 2250 6800 2250
+Wire Wire Line
+	6700 2950 6700 3200
+Wire Wire Line
+	6700 3200 7150 3200
+Wire Wire Line
+	6800 2250 6800 2550
+Wire Wire Line
+	6800 2250 6900 2250
+Wire Wire Line
+	6800 2950 6800 3300
+Wire Wire Line
+	6800 3300 7150 3300
+Wire Wire Line
+	6900 2250 6900 2550
+Wire Wire Line
+	6900 2250 7000 2250
+Wire Wire Line
+	7000 2250 7000 2550
+Wire Wire Line
+	7000 2950 7000 3500
+Wire Wire Line
+	7000 3500 7150 3500
 Wire Bus Line
 	2500 1050 2500 1250
 Wire Bus Line
-	2500 1250 2500 1450
+	2500 1250 2500 1350
 Wire Bus Line
-	2500 1450 2500 1650
+	2500 1350 2500 1550
 Wire Bus Line
-	2500 1650 2500 1750
+	2500 1550 2500 1750
 Wire Bus Line
 	2500 1750 2500 1950
 Wire Bus Line
@@ -339,25 +398,31 @@ Wire Bus Line
 Wire Bus Line
 	2500 3150 2500 3350
 Wire Bus Line
-	2500 3350 2500 3550
+	2500 3350 2500 3450
 Wire Bus Line
-	2500 3550 2500 3750
+	2500 3450 2500 3650
 Wire Bus Line
-	2500 3750 2500 3850
+	2500 3650 2500 3850
 Wire Bus Line
-	2500 3850 2500 4050
+	2500 3850 2500 3950
 Wire Bus Line
-	2500 4050 2500 4150
+	2500 3950 2500 4150
 Wire Bus Line
 	2500 4150 2500 4350
 Wire Bus Line
 	2500 4350 2500 4550
 Wire Bus Line
-	2500 4550 2500 5250
+	2500 4550 2500 5150
 Wire Bus Line
-	2500 5250 2500 5450
+	2500 5150 2500 5350
+Wire Bus Line
+	2500 5350 2500 5450
 Wire Bus Line
 	2600 1050 2500 1050
+Text Notes 5950 4000 0    50   ~ 0
+To USB/UART\nPower Supply Board
+Text Notes 5950 4000 2    118  ~ 0
+}
 Text Label 2250 1150 0    50   ~ 0
 D0
 Text Label 2250 1250 0    50   ~ 0
@@ -458,6 +523,12 @@ Text HLabel 2600 1050 2    50   Output ~ 0
 D[0..15]
 Text HLabel 2600 3050 2    50   Output ~ 0
 A[0..19]
+Text HLabel 5050 6300 2    50   Output ~ 0
+SEC-BUZ
+Text HLabel 5050 6400 2    50   Output ~ 0
+LED-AL-O
+Text HLabel 5050 6500 2    50   Output ~ 0
+LED-AL-R
 Text HLabel 5250 950  2    50   Input ~ 0
 SPEED_MEASURE
 Text HLabel 5250 1050 2    50   Output ~ 0
@@ -480,6 +551,36 @@ Text HLabel 5250 2350 2    50   Output ~ 0
 RAP-ALARM
 Text HLabel 5250 2450 2    50   Output ~ 0
 CMD_ME1
+Text HLabel 5250 2900 2    50   Output ~ 0
+COM1
+Text HLabel 5250 3000 2    50   Output ~ 0
+COM2
+Text HLabel 5250 3100 2    50   Output ~ 0
+COM3
+Text HLabel 5250 3600 2    50   Output ~ 0
+RF
+Text HLabel 5250 3700 2    50   Input ~ 0
+MRST-SPI-0_E
+Text HLabel 5250 3800 2    50   Output ~ 0
+MTSR-SPI-0
+Text HLabel 5250 3900 2    50   Output ~ 0
+TX_UART_ST_E
+Text HLabel 5250 4000 2    50   Input ~ 0
+RX_UART_ST_E
+Text HLabel 5250 4100 2    50   Output ~ 0
+BHE
+Text HLabel 5250 4200 2    50   Output ~ 0
+SCLK-SPI-0
+Text HLabel 5250 4400 2    50   Output ~ 0
+CMD_ALE1
+Text HLabel 5900 5800 2    50   Output ~ 0
+CONS-VIT
+Text HLabel 5900 5900 2    50   Output ~ 0
+CD-VALVE
+Text HLabel 5900 6000 2    50   Output ~ 0
+CD-O2
+Text HLabel 5900 6100 2    50   Output ~ 0
+PWM-BUZ
 Text HLabel 6750 1750 2    50   Input ~ 0
 BUSY-ME1
 Text HLabel 6750 1850 2    50   Input ~ 0
@@ -490,6 +591,14 @@ Text HLabel 6750 2050 2    50   Input ~ 0
 BUSY-AFF
 Text HLabel 6750 2150 2    50   Input ~ 0
 TEST-RAP-ALARM
+Text HLabel 7150 3200 2    50   Input ~ 0
+KEY-1
+Text HLabel 7150 3300 2    50   Input ~ 0
+KEY-2
+Text HLabel 7150 3400 2    50   Output ~ 0
+RESET_USB
+Text HLabel 7150 3500 2    50   Input ~ 0
+ALARM-INHIB
 $Comp
 L power:+5V #PWR?
 U 1 1 5E9112EF
@@ -535,6 +644,17 @@ F 3 "" H 6450 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:R_Small R10
+U 1 1 5E9342A9
+P 5600 6200
+F 0 "R10" V 5795 6200 50  0000 C CNN
+F 1 "1k5" V 5704 6200 50  0000 C CNN
+F 2 "" H 5600 6200 50  0001 C CNN
+F 3 "~" H 5600 6200 50  0001 C CNN
+	1    5600 6200
+	0    -1   1    0   
+$EndComp
+$Comp
 L Device:R_Pack04 RN?
 U 1 1 5E90F641
 P 6050 2750
@@ -570,12 +690,12 @@ $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 8 1 5E9C336E
-P 8800 1700
-F 0 "U?" H 8808 2364 50  0000 C CNN
-F 1 "ST10F276Z5" H 8808 2273 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 8850 2050 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 7300 2050 50  0001 C CNN
-	8    8800 1700
+P 4350 6150
+F 0 "U?" H 4358 5564 50  0000 C CNN
+F 1 "ST10F276Z5" H 4358 5473 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4400 6500 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2850 6500 50  0001 C CNN
+	8    4350 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -592,12 +712,12 @@ $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 9 1 5E9C4E56
-P 7500 5250
-F 0 "U?" H 7400 4677 50  0000 C CNN
-F 1 "ST10F276Z5" H 7400 4586 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 7550 5600 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 6000 5600 50  0001 C CNN
-	9    7500 5250
+P 4250 5100
+F 0 "U?" H 4150 4527 50  0000 C CNN
+F 1 "ST10F276Z5" H 4150 4436 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4300 5450 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2750 5450 50  0001 C CNN
+	9    4250 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -647,12 +767,12 @@ $EndComp
 $Comp
 L CPU_RB0505:ST10F276Z5 U?
 U 6 1 5E9B9492
-P 4250 5650
-F 0 "U?" H 4308 6514 50  0000 C CNN
-F 1 "ST10F276Z5" H 4308 6423 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4300 6000 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 2750 6000 50  0001 C CNN
-	6    4250 5650
+P 10900 2300
+F 0 "U?" H 10958 3164 50  0000 C CNN
+F 1 "ST10F276Z5" H 10958 3073 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 10950 2650 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/92/18/5e/9c/68/61/42/f6/CD00115722.pdf/files/CD00115722.pdf/jcr:content/translations/en.CD00115722.pdf" H 9400 2650 50  0001 C CNN
+	6    10900 2300
 	1    0    0    -1  
 $EndComp
 $Comp
