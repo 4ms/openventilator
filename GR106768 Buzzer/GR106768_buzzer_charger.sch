@@ -2315,18 +2315,18 @@ Text HLabel 4925 6425 2    50   Input ~ 0
 VCHARG
 Wire Wire Line
 	11750 4325 11825 4325
-Text Label 14875 7375 2    50   ~ 0
-SHDN1
-Text Label 14125 4350 0    50   ~ 0
-SHDN1
-Text Label 14850 8625 2    50   ~ 0
-SHDN2
-Text Label 11750 4325 2    50   ~ 0
-SHDN2
 Text HLabel 9725 2275 1    50   Output ~ 0
 VBAT
 Text HLabel 1150 4850 0    50   Input ~ 0
 SUPPLY_BUZ
 Wire Wire Line
 	1250 4850 1150 4850
+Text HLabel 11750 4325 0    50   Input ~ 0
+SHDN2
+Text HLabel 14850 8625 2    50   Output ~ 0
+SHDN2
+Text HLabel 14875 7375 2    50   Output ~ 0
+SHDN1
+Text HLabel 14125 4350 2    50   Input ~ 0
+SHDN1
 $EndSCHEMATC
