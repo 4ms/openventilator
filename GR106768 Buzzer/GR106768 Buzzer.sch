@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:GR106768 Buzzer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -180,19 +179,6 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 10280 2825 50  0001
 	0    1    -1   0   
 $EndComp
 $Comp
-L lmc7211:LMC7211 U3
-U 1 1 5E8BBAEB
-P 5900 4850
-F 0 "U3" H 5950 5150 50  0000 L CNN
-F 1 "LMC7211" H 5950 4575 50  0000 L CNN
-F 2 "" H 5700 4850 50  0001 C CNN
-F 3 "" H 5700 4850 50  0001 C CNN
-	1    5900 4850
-	1    0    0    -1  
-$EndComp
-Text GLabel 4700 4250 0    50   Input ~ 0
-SUPPLY_BUZ
-$Comp
 L Device:C C10
 U 1 1 5E8CCB53
 P 1875 5350
@@ -291,10 +277,6 @@ F 3 "~" H 7625 4450 50  0001 C CNN
 	1    7625 4450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4325 2600 2    50   Input ~ 0
-TEST_BUZZER
-Text GLabel 4325 2750 2    50   Output ~ 0
-STOP_INV
 $Comp
 L Diode:BAT54S D4
 U 1 1 5E8F2FE5
@@ -559,34 +541,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 3325 10400 3125
 $Comp
-L Amplifier_Operational:LMV321 U4
-U 1 1 5E9F6105
-P 13900 6200
-F 0 "U4" H 14050 6350 50  0000 L CNN
-F 1 "LMV321" H 14075 6100 50  0000 L CNN
-F 2 "" H 13900 6200 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 13900 6200 50  0001 C CNN
-	1    13900 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5E9F8A01
-P 13800 6600
-F 0 "#PWR027" H 13800 6350 50  0001 C CNN
-F 1 "GND" H 13805 6427 50  0000 C CNN
-F 2 "" H 13800 6600 50  0001 C CNN
-F 3 "" H 13800 6600 50  0001 C CNN
-	1    13800 6600
-	1    0    0    -1  
-$EndComp
-Text GLabel 14525 6200 2    50   Output ~ 0
-TESTBUZ
-Text GLabel 12775 6975 0    50   Input ~ 0
-VBAT
-Text GLabel 12600 6075 0    50   Output ~ 0
-BUZ_ACT
-$Comp
 L Device:C C30
 U 1 1 5EA0990A
 P 14025 5650
@@ -596,17 +550,6 @@ F 2 "" H 14063 5500 50  0001 C CNN
 F 3 "~" H 14025 5650 50  0001 C CNN
 	1    14025 5650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5EA0E815
-P 14225 5725
-F 0 "#PWR021" H 14225 5475 50  0001 C CNN
-F 1 "GND" H 14230 5552 50  0000 C CNN
-F 2 "" H 14225 5725 50  0001 C CNN
-F 3 "" H 14225 5725 50  0001 C CNN
-	1    14225 5725
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R69
@@ -796,15 +739,9 @@ F 3 "" H 13025 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14200 6200 14325 6200
-Wire Wire Line
 	13875 5650 13800 5650
 Wire Wire Line
-	13800 5650 13800 5900
-Wire Wire Line
 	14175 5650 14225 5650
-Wire Wire Line
-	14225 5650 14225 5725
 $Comp
 L power:+5V #PWR018
 U 1 1 5EA917AB
@@ -817,21 +754,9 @@ F 3 "" H 13800 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13800 5600 13800 5650
-Connection ~ 13800 5650
-Wire Wire Line
-	14325 5300 14325 6200
-Connection ~ 14325 6200
-Wire Wire Line
-	14325 6200 14525 6200
-Wire Wire Line
 	14250 5300 14325 5300
 Wire Wire Line
 	13950 5300 13525 5300
-Wire Wire Line
-	13600 6100 13525 6100
-Wire Wire Line
-	13525 6100 13525 5300
 Connection ~ 13525 5300
 Wire Wire Line
 	13525 5300 13400 5300
@@ -840,8 +765,6 @@ Wire Wire Line
 Wire Wire Line
 	13025 5300 13025 5375
 Wire Wire Line
-	13800 6600 13800 6500
-Wire Wire Line
 	12775 6975 12850 6975
 Wire Wire Line
 	13300 7350 13300 7425
@@ -849,22 +772,13 @@ Wire Wire Line
 	13150 6975 13300 6975
 Wire Wire Line
 	13300 6975 13300 7050
-Text GLabel 13925 6975 2    50   Input ~ 0
-VCHARG
 Wire Wire Line
 	13925 6975 13700 6975
 Wire Wire Line
 	13400 6975 13300 6975
 Connection ~ 13300 6975
 Wire Wire Line
-	13600 6300 13300 6300
-Wire Wire Line
-	13300 6300 13300 6975
-Wire Wire Line
 	13125 6075 13300 6075
-Wire Wire Line
-	13300 6075 13300 6300
-Connection ~ 13300 6300
 $Comp
 L power:GND #PWR026
 U 1 1 5EAE4D06
@@ -1256,12 +1170,8 @@ Wire Wire Line
 	2800 2700 2300 2700
 Wire Wire Line
 	2350 2800 2300 2800
-Text GLabel 4325 2450 2    50   Output ~ 0
-INHIB_STOP_INV
 Wire Wire Line
 	3175 2300 4325 2300
-Text GLabel 4325 2300 2    50   Input ~ 0
-SUPPLY_BUZ
 Wire Wire Line
 	6425 2900 5950 2900
 Wire Wire Line
@@ -1541,12 +1451,6 @@ Wire Wire Line
 	3600 6250 3750 6250
 Wire Wire Line
 	3750 6250 3750 6350
-$Sheet
-S 2450 7725 1200 900 
-U 5E89C6B8
-F0 "GR106768_buzzer_charger" 50
-F1 "GR106768_buzzer_charger.sch" 50
-$EndSheet
 Wire Wire Line
 	7900 4450 13950 4450
 Connection ~ 7900 4450
@@ -1558,25 +1462,6 @@ Wire Wire Line
 	7825 2375 8125 2375
 Wire Wire Line
 	8950 3500 9175 3500
-$Comp
-L bla31bd:BLA31BD221SN4D FI1
-U 1 1 5E8BD79C
-P 3950 2700
-F 0 "FI1" H 3950 3175 50  0000 C CNN
-F 1 "BLA31BD221SN4D" H 3950 2325 50  0000 C CNN
-F 2 "FB_BLA31BD221SN4D" H 3950 2700 50  0001 L BNN
-F 3 "1206 Murata" H 3950 2700 50  0001 L BNN
-F 4 "1mm" H 3950 2700 50  0001 L BNN "Champ4"
-F 5 "Murata Electronics" H 3950 2700 50  0001 L BNN "Champ5"
-F 6 "None" H 3950 2700 50  0001 L BNN "Champ6"
-F 7 "Manufacturer recommendations" H 3950 2700 50  0001 L BNN "Champ7"
-F 8 "Unavailable" H 3950 2700 50  0001 L BNN "Champ8"
-F 9 "Ferrite Beads Chip Bead Array 1KOhm 25% 100MHz 50mA 1206 Paper T/R" H 3950 2700 50  0001 L BNN "Champ9"
-F 10 "JENF243A–0008N-01" H 3950 2700 50  0001 L BNN "Champ10"
-F 11 "BLA31AG102SN4D" H 3950 2700 50  0001 L BNN "Champ11"
-	1    3950 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 2600 4325 2600
 Wire Wire Line
@@ -1612,17 +1497,6 @@ Wire Wire Line
 Connection ~ 3125 2750
 Wire Wire Line
 	3125 2500 3125 2750
-$Comp
-L c_network:C_NETWORK C1
-U 1 1 5E8870D5
-P 3225 4000
-F 0 "C1" H 3625 4175 50  0000 L CNN
-F 1 "47pF" H 3625 3825 50  0000 L CNN
-F 2 "" H 2963 3850 50  0001 C CNN
-F 3 "~" H 2925 4000 50  0001 C CNN
-	1    3225 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2925 2900 2925 3800
 Wire Wire Line
@@ -1713,4 +1587,150 @@ Wire Wire Line
 Wire Wire Line
 	4250 2900 5025 2900
 Connection ~ 5025 2900
+Wire Wire Line
+	3650 7925 3825 7925
+Text HLabel 3825 7925 2    50   Output ~ 0
+SUPPLY_BUZ
+$Sheet
+S 2450 7725 1200 900 
+U 5E89C6B8
+F0 "GR106768_buzzer_charger" 50
+F1 "GR106768_buzzer_charger.sch" 50
+F2 "BUZ_ACT" I L 2450 7925 50 
+F3 "SUPPLY_BUZ" O R 3650 7925 50 
+F4 "STOP_INV" I L 2450 8025 50 
+F5 "INHIB_STOP_INV" I L 2450 8125 50 
+F6 "VBAT" O R 3650 8025 50 
+F7 "VCHARG" O R 3650 8125 50 
+$EndSheet
+Wire Wire Line
+	2300 8125 2450 8125
+Wire Wire Line
+	2300 8025 2450 8025
+Wire Wire Line
+	2300 7925 2450 7925
+Text HLabel 2300 7925 0    50   Input ~ 0
+BUZ_ACT
+Text HLabel 2300 8025 0    50   Input ~ 0
+STOP_INV
+Text HLabel 2300 8125 0    50   Input ~ 0
+INHIB_STOP_INV
+Text HLabel 3825 8125 2    50   Output ~ 0
+VCHARG
+Wire Wire Line
+	3650 8025 3825 8025
+Text HLabel 3825 8025 2    50   Output ~ 0
+VBAT
+Text HLabel 12775 6975 0    50   Input ~ 0
+VBAT
+Text HLabel 12600 6075 0    50   Output ~ 0
+BUZ_ACT
+Text HLabel 4700 4250 0    50   Input ~ 0
+SUPPLY_BUZ
+Text HLabel 4325 2750 2    50   Output ~ 0
+STOP_INV
+Text HLabel 4325 2600 2    50   Input ~ 0
+TEST_BUZZER
+Text HLabel 4325 2450 2    50   Output ~ 0
+INHIB_STOP_INV
+Text HLabel 4325 2300 2    50   Input ~ 0
+SUPPLY_BUZ
+Wire Wire Line
+	3650 8125 3825 8125
+Text HLabel 13925 6975 2    50   Input ~ 0
+VCHARG
+Wire Wire Line
+	14225 5650 14225 5725
+Text HLabel 14525 6175 2    50   Output ~ 0
+TEST_BUZZER
+Wire Wire Line
+	13800 6575 13800 6475
+Wire Wire Line
+	14325 5300 14325 6175
+$Comp
+L power:GND #PWR021
+U 1 1 5EA0E815
+P 14225 5725
+F 0 "#PWR021" H 14225 5475 50  0001 C CNN
+F 1 "GND" H 14230 5552 50  0000 C CNN
+F 2 "" H 14225 5725 50  0001 C CNN
+F 3 "" H 14225 5725 50  0001 C CNN
+	1    14225 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5E9F8A01
+P 13800 6575
+F 0 "#PWR027" H 13800 6325 50  0001 C CNN
+F 1 "GND" H 13805 6402 50  0000 C CNN
+F 2 "" H 13800 6575 50  0001 C CNN
+F 3 "" H 13800 6575 50  0001 C CNN
+	1    13800 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LMV321 U4
+U 1 1 5E9F6105
+P 13900 6175
+F 0 "U4" H 14050 6325 50  0000 L CNN
+F 1 "LMV321" H 14075 6075 50  0000 L CNN
+F 2 "" H 13900 6175 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 13900 6175 50  0001 C CNN
+	1    13900 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 6075 13300 6975
+Wire Wire Line
+	13300 6075 13600 6075
+Connection ~ 13300 6075
+Wire Wire Line
+	13525 6275 13600 6275
+Wire Wire Line
+	13525 5300 13525 6275
+Wire Wire Line
+	13800 5600 13800 5650
+Wire Wire Line
+	13800 5875 13800 5650
+Connection ~ 13800 5650
+Connection ~ 14325 6175
+Wire Wire Line
+	14325 6175 14525 6175
+Wire Wire Line
+	14200 6175 14325 6175
+$Comp
+L GR106768~Buzzer:BLA31BD221SN4D FI1
+U 1 1 5FB00CBD
+P 3950 2700
+F 0 "FI1" H 3950 3150 50  0000 C CNN
+F 1 "BLA31BD221SN4D" H 3950 2350 50  0000 C CNN
+F 2 "FB_BLA31BD221SN4D" H 3550 2200 50  0001 L BNN
+F 3 "1206 Murata" H 3650 1650 50  0001 L BNN
+F 4 "Murata Electronics" H 3600 2100 50  0001 L BNN "Champ5"
+	1    3950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GR106768~Buzzer:C_NETWORK C1
+U 1 1 5FB0366D
+P 3225 4000
+F 0 "C1" H 3678 4059 50  0000 L CNN
+F 1 "47pF" H 3678 3968 50  0000 L CNN
+F 2 "" H 2963 3850 50  0001 C CNN
+F 3 "~" H 2925 4000 50  0001 C CNN
+	1    3225 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GR106768~Buzzer:LMC7211 U3
+U 1 1 5FB0685F
+P 5900 4850
+F 0 "U3" H 5975 5100 50  0000 L CNN
+F 1 "LMC7211" H 5975 4575 50  0000 L CNN
+F 2 "" H 5700 4850 50  0001 C CNN
+F 3 "" H 5700 4850 50  0001 C CNN
+	1    5900 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

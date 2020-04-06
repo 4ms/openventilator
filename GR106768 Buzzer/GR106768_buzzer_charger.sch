@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:GR106768 Buzzer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -278,10 +277,6 @@ F 3 "~" H 4525 6525 50  0001 C CNN
 	1    4525 6525
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1150 4000 0    50   Input ~ 0
-BUZ_ACT
-Text GLabel 1175 4850 0    50   Input ~ 0
-SUPPLY_BUZ
 $Comp
 L Device:L L2
 U 1 1 5E8C0A82
@@ -401,17 +396,6 @@ F 1 "GND" H 15480 3852 50  0000 C CNN
 F 2 "" H 15475 4025 50  0001 C CNN
 F 3 "" H 15475 4025 50  0001 C CNN
 	1    15475 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L bq2002:BQ2002C U8
-U 1 1 5E89E858
-P 3425 4475
-F 0 "U8" H 3425 4800 50  0000 C CNN
-F 1 "BQ2002C" H 3425 4175 50  0000 C CNN
-F 2 "" H 3225 4425 50  0001 C CNN
-F 3 "" H 3225 4425 50  0001 C CNN
-	1    3425 4475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -644,8 +628,6 @@ Wire Wire Line
 Wire Wire Line
 	1675 4000 1675 4125
 Wire Wire Line
-	1250 4850 1175 4850
-Wire Wire Line
 	1250 4000 1150 4000
 $Comp
 L Device:C C17
@@ -835,17 +817,6 @@ Wire Wire Line
 	6600 3525 6600 4150
 Wire Wire Line
 	6600 4150 5975 4150
-$Comp
-L tlv3011:TLV3011 U6
-U 1 1 5EA71045
-P 7550 3175
-F 0 "U6" H 7925 3300 50  0000 L CNN
-F 1 "TLV3011" H 7900 3075 50  0000 L CNN
-F 2 "" H 7550 3175 50  0001 C CNN
-F 3 "" H 7550 3175 50  0001 C CNN
-	1    7550 3175
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 3225 6600 3075
 Wire Wire Line
@@ -957,8 +928,6 @@ Wire Wire Line
 	7850 2425 7850 2725
 Connection ~ 6600 2425
 Connection ~ 7850 2725
-Text GLabel 5050 2200 0    50   Input ~ 0
-VCHARG
 Wire Wire Line
 	5050 2200 5225 2200
 Wire Wire Line
@@ -1060,8 +1029,6 @@ Wire Wire Line
 	9725 2925 10175 2925
 Wire Wire Line
 	10175 2925 10175 2725
-Text GLabel 9725 2275 1    50   Output ~ 0
-VBAT
 Wire Wire Line
 	9725 2275 9725 2425
 $Comp
@@ -1236,10 +1203,6 @@ F 3 "" H 5550 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5550 7425 5550 7350
-Text GLabel 7600 4950 0    50   Input ~ 0
-STOP_INV
-Text GLabel 7625 5750 0    50   Input ~ 0
-INHIB_STOP_INV
 $Comp
 L Diode:BAT54S D9
 U 1 1 5E9B9C29
@@ -1339,10 +1302,6 @@ F 3 "~" H 10075 4950 50  0001 C CNN
 	1    10075 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 14875 7375 2    50   Output ~ 0
-SHDN1
-Text GLabel 14850 8625 2    50   Output ~ 0
-SHDN2
 $Comp
 L Device:Q_NMOS_DGS Q12
 U 1 1 5E9E71AF
@@ -1386,17 +1345,6 @@ F 2 "" V 14080 8625 50  0001 C CNN
 F 3 "~" H 14150 8625 50  0001 C CNN
 	1    14150 8625
 	0    1    1    0   
-$EndComp
-$Comp
-L tlv3011:TLV3011 U9
-U 1 1 5EA20445
-P 12925 8175
-F 0 "U9" H 13275 8300 50  0000 L CNN
-F 1 "TLV3011" H 13250 8075 50  0000 L CNN
-F 2 "" H 12925 8175 50  0001 C CNN
-F 3 "" H 12925 8175 50  0001 C CNN
-	1    12925 8175
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C34
@@ -1647,10 +1595,6 @@ Wire Wire Line
 Wire Wire Line
 	10175 5750 9675 5750
 Connection ~ 9675 5750
-Text GLabel 10675 2275 1    50   Output ~ 0
-SUPPLY_BUZ
-Wire Wire Line
-	10675 2275 10675 2425
 Wire Wire Line
 	10675 2425 10375 2425
 $Comp
@@ -1957,16 +1901,10 @@ Wire Wire Line
 	11350 4475 11350 6000
 Wire Wire Line
 	11350 6000 12775 6000
-Text GLabel 11750 4325 0    50   Input ~ 0
-SHDN2
-Wire Wire Line
-	11750 4325 11825 4325
 Wire Wire Line
 	11825 4325 11825 4475
 Wire Wire Line
 	11825 4475 11750 4475
-Text GLabel 14125 4350 2    50   Input ~ 0
-SHDN1
 $Comp
 L Device:CP C21
 U 1 1 5EBD18AF
@@ -2295,11 +2233,6 @@ Wire Wire Line
 	5550 8450 7800 8450
 Wire Wire Line
 	7800 8450 7800 5750
-Connection ~ 7800 5750
-Wire Wire Line
-	7800 5750 7625 5750
-Text GLabel 4925 6425 2    50   Input ~ 0
-VCHARG
 Wire Wire Line
 	4725 6425 4925 6425
 $Comp
@@ -2330,4 +2263,70 @@ Wire Wire Line
 	14475 7375 14475 7575
 Text Notes 2650 5875 0    50   ~ 0
 BATTERY SWITCH CIRCUIT
+Text HLabel 1150 4000 0    50   Input ~ 0
+BUZ_ACT
+Text HLabel 10675 2300 1    50   Output ~ 0
+SUPPLY_BUZ
+Text HLabel 7600 4950 0    50   Input ~ 0
+STOP_INV
+Text HLabel 7600 5750 0    50   Input ~ 0
+INHIB_STOP_INV
+Wire Wire Line
+	7800 5750 7600 5750
+Connection ~ 7800 5750
+Wire Wire Line
+	10675 2300 10675 2425
+Text HLabel 5050 2200 0    50   Output ~ 0
+VCHARG
+Text HLabel 4925 6425 2    50   Input ~ 0
+VCHARG
+Wire Wire Line
+	11750 4325 11825 4325
+Text HLabel 9725 2275 1    50   Output ~ 0
+VBAT
+Text HLabel 1150 4850 0    50   Input ~ 0
+SUPPLY_BUZ
+Wire Wire Line
+	1250 4850 1150 4850
+Text HLabel 11750 4325 0    50   Input ~ 0
+SHDN2
+Text HLabel 14850 8625 2    50   Output ~ 0
+SHDN2
+Text HLabel 14875 7375 2    50   Output ~ 0
+SHDN1
+Text HLabel 14125 4350 2    50   Input ~ 0
+SHDN1
+$Comp
+L GR106768~Buzzer:BQ2002C U8
+U 1 1 5FAD6DF0
+P 3425 4475
+F 0 "U8" H 3425 4890 50  0000 C CNN
+F 1 "BQ2002C" H 3425 4799 50  0000 C CNN
+F 2 "" H 3225 4425 50  0001 C CNN
+F 3 "" H 3225 4425 50  0001 C CNN
+	1    3425 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GR106768~Buzzer:TLV3011 U6
+U 1 1 5FAE26F0
+P 7550 3175
+F 0 "U6" H 7525 3425 50  0000 L CNN
+F 1 "TLV3011" H 7400 2900 50  0000 L CNN
+F 2 "" H 7550 3175 50  0001 C CNN
+F 3 "" H 7550 3175 50  0001 C CNN
+	1    7550 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GR106768~Buzzer:TLV3011 U9
+U 1 1 5FAE7C4C
+P 12925 8175
+F 0 "U9" H 12875 8425 50  0000 L CNN
+F 1 "TLV3011" H 12750 7925 50  0000 L CNN
+F 2 "" H 12925 8175 50  0001 C CNN
+F 3 "" H 12925 8175 50  0001 C CNN
+	1    12925 8175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

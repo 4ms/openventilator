@@ -1,0 +1,34 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 171050601
+D MagI3C Power Module, Variable Step Down Regulator Module, 6 to 36V Input Voltage, 0.8 to 6V, 5A Output, TO-263
+K power module regulator
+F https://katalog.we-online.de/pm/datasheet/171050601.pdf
+$ENDCMP
+#
+$CMP BLA31BD221SN4D
+F 1206 Murata
+$ENDCMP
+#
+$CMP BQ2002C
+D BQ2002C ACTIVE  NiCd/NiMH charge controller
+K charge controller
+$ENDCMP
+#
+$CMP C_NETWORK
+D Network of unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP LMC7211
+D CMOS comparator
+K comparator
+$ENDCMP
+#
+$CMP TLV3011
+D Comparator
+K Comparator
+$ENDCMP
+#
+#End Doc Library
