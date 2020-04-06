@@ -552,28 +552,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 3325 10400 3125
 $Comp
-L Amplifier_Operational:LMV321 U4
-U 1 1 5E9F6105
-P 13900 6200
-F 0 "U4" H 14050 6350 50  0000 L CNN
-F 1 "LMV321" H 14075 6100 50  0000 L CNN
-F 2 "" H 13900 6200 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 13900 6200 50  0001 C CNN
-	1    13900 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5E9F8A01
-P 13800 6600
-F 0 "#PWR027" H 13800 6350 50  0001 C CNN
-F 1 "GND" H 13805 6427 50  0000 C CNN
-F 2 "" H 13800 6600 50  0001 C CNN
-F 3 "" H 13800 6600 50  0001 C CNN
-	1    13800 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C30
 U 1 1 5EA0990A
 P 14025 5650
@@ -583,17 +561,6 @@ F 2 "" H 14063 5500 50  0001 C CNN
 F 3 "~" H 14025 5650 50  0001 C CNN
 	1    14025 5650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5EA0E815
-P 14225 5725
-F 0 "#PWR021" H 14225 5475 50  0001 C CNN
-F 1 "GND" H 14230 5552 50  0000 C CNN
-F 2 "" H 14225 5725 50  0001 C CNN
-F 3 "" H 14225 5725 50  0001 C CNN
-	1    14225 5725
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R69
@@ -783,15 +750,9 @@ F 3 "" H 13025 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14200 6200 14325 6200
-Wire Wire Line
 	13875 5650 13800 5650
 Wire Wire Line
-	13800 5650 13800 5900
-Wire Wire Line
 	14175 5650 14225 5650
-Wire Wire Line
-	14225 5650 14225 5725
 $Comp
 L power:+5V #PWR018
 U 1 1 5EA917AB
@@ -804,21 +765,9 @@ F 3 "" H 13800 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13800 5600 13800 5650
-Connection ~ 13800 5650
-Wire Wire Line
-	14325 5300 14325 6200
-Connection ~ 14325 6200
-Wire Wire Line
-	14325 6200 14525 6200
-Wire Wire Line
 	14250 5300 14325 5300
 Wire Wire Line
 	13950 5300 13525 5300
-Wire Wire Line
-	13600 6100 13525 6100
-Wire Wire Line
-	13525 6100 13525 5300
 Connection ~ 13525 5300
 Wire Wire Line
 	13525 5300 13400 5300
@@ -826,8 +775,6 @@ Wire Wire Line
 	13100 5300 13025 5300
 Wire Wire Line
 	13025 5300 13025 5375
-Wire Wire Line
-	13800 6600 13800 6500
 Wire Wire Line
 	12775 6975 12850 6975
 Wire Wire Line
@@ -842,14 +789,7 @@ Wire Wire Line
 	13400 6975 13300 6975
 Connection ~ 13300 6975
 Wire Wire Line
-	13600 6300 13300 6300
-Wire Wire Line
-	13300 6300 13300 6975
-Wire Wire Line
 	13125 6075 13300 6075
-Wire Wire Line
-	13300 6075 13300 6300
-Connection ~ 13300 6300
 $Comp
 L power:GND #PWR026
 U 1 1 5EAE4D06
@@ -1730,8 +1670,6 @@ Text HLabel 4700 4250 0    50   Input ~ 0
 SUPPLY_BUZ
 Text HLabel 4325 2750 2    50   Output ~ 0
 STOP_INV
-Text HLabel 14525 6200 2    50   Output ~ 0
-TEST_BUZZER
 Text HLabel 4325 2600 2    50   Input ~ 0
 TEST_BUZZER
 Text HLabel 4325 2450 2    50   Output ~ 0
@@ -1742,4 +1680,64 @@ Wire Wire Line
 	3650 8125 3825 8125
 Text HLabel 13925 6975 2    50   Input ~ 0
 VCHARG
+Wire Wire Line
+	14225 5650 14225 5725
+Text HLabel 14525 6175 2    50   Output ~ 0
+TEST_BUZZER
+Wire Wire Line
+	13800 6575 13800 6475
+Wire Wire Line
+	14325 5300 14325 6175
+$Comp
+L power:GND #PWR021
+U 1 1 5EA0E815
+P 14225 5725
+F 0 "#PWR021" H 14225 5475 50  0001 C CNN
+F 1 "GND" H 14230 5552 50  0000 C CNN
+F 2 "" H 14225 5725 50  0001 C CNN
+F 3 "" H 14225 5725 50  0001 C CNN
+	1    14225 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5E9F8A01
+P 13800 6575
+F 0 "#PWR027" H 13800 6325 50  0001 C CNN
+F 1 "GND" H 13805 6402 50  0000 C CNN
+F 2 "" H 13800 6575 50  0001 C CNN
+F 3 "" H 13800 6575 50  0001 C CNN
+	1    13800 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LMV321 U4
+U 1 1 5E9F6105
+P 13900 6175
+F 0 "U4" H 14050 6325 50  0000 L CNN
+F 1 "LMV321" H 14075 6075 50  0000 L CNN
+F 2 "" H 13900 6175 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 13900 6175 50  0001 C CNN
+	1    13900 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 6075 13300 6975
+Wire Wire Line
+	13300 6075 13600 6075
+Connection ~ 13300 6075
+Wire Wire Line
+	13525 6275 13600 6275
+Wire Wire Line
+	13525 5300 13525 6275
+Wire Wire Line
+	13800 5600 13800 5650
+Wire Wire Line
+	13800 5875 13800 5650
+Connection ~ 13800 5650
+Connection ~ 14325 6175
+Wire Wire Line
+	14325 6175 14525 6175
+Wire Wire Line
+	14200 6175 14325 6175
 $EndSCHEMATC
