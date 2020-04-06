@@ -16,15 +16,15 @@ For Windows users, [follow these instructions](https://docs.joyent.com/public-cl
 
 ### Useful Resources
 
+[Google Drive](https://drive.google.com/drive/folders/1fBbcaIb6aupdgDmfqB_Z8kfAjUOgFtCi) - Project specific Google drive.
+
+[Medtronic Releases](https://www.medtronic.com/us-en/e/open-files/thank-you.html)
+
 [GitLab basics guides](https://docs.gitlab.com/ee/gitlab-basics/)
 
 [Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
-[Google Drive](https://drive.google.com/drive/folders/1fBbcaIb6aupdgDmfqB_Z8kfAjUOgFtCi)
-
-[Medtronic Releases](https://www.medtronic.com/us-en/e/open-files/thank-you.html)
-
-### Prerequisites
+### Tools
 
 Install [Git](https://git-scm.com/) on your computer.
 
@@ -32,7 +32,19 @@ Either use KiCAD version 5.1.5 or the nightly builds.
 
 [KiCAD v5.1.5](https://kicad-pcb.org/download/) - preferred
 
-[KiCAD Nigthly Builds](https://launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad) are also allowed.
+[KiCAD Nigthly Builds](https://launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad)
+
+**GerbView** - part of KiCAD.
+
+File → Open Gerber Files. In “File Name” select *.phd for CR-5000 designs. Some of the polygons are not handled correctly in 5.1.5-3.
+
+[PentaLogix ViewMate Free (Windows)](https://www.pentalogix.com/t/software-products/viewmate) 
+
+You will need to create an account to download and get a serial number. Run File → Import → Gerber and then control-select all the .phd files for CR-5000 designs.
+
+[GerberLogix](https://www.easylogix.de/products_detail.php?prog_id=1)
+
+Works well with the free version for .phd files.  A little simpler than ViewMate
 
 ## Contributing
 
@@ -41,6 +53,8 @@ Please read [Contributing.md](Contributing.md) for information on cloning, branc
 ## Versioning
 
 We should adhere to [SemVer](https://semver.org/) for our versioning process. Each PCB will have its own version number.
+
+*Note that this is not completely settled.*
 
 ## Channels and Leads
 
@@ -83,9 +97,25 @@ If creating new parts, follow the [KiCAD Library Convention](https://kicad-pcb.o
 
 Passives are an exception to this rule. Please create a library part per MPN.
 
-### Additional Fields for Symbols
+### Symbol Parameters
 
-To help facilitate tracking within the project documentation, all parts need to also have a field for the Medtronics internal part number. This field should be called `Item Number`.
+The following fields are *required* for all parts.
+
+**Reference**
+
+**Value**
+
+**Footprint**
+
+**Documentation**
+
+**Description**
+
+**Item Number** - This is Medtronic's Item Number called out in their documentation.
+
+**Manufacturer**
+
+**Manufacturer_No**
 
 ### Pointing to the right libraries
 
