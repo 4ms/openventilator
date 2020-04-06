@@ -2642,7 +2642,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 13200 2100 13200
 Wire Wire Line
-	2000 13300 2000 14100
+	2000 13300 2000 14000
 Wire Wire Line
 	1800 13300 2000 13300
 $Comp
@@ -2919,8 +2919,6 @@ Wire Wire Line
 	1850 10250 1800 10250
 NoConn ~ 1800 9550
 NoConn ~ 1800 9650
-Text Notes 1700 14400 0    50   ~ 0
-TODO: test points (PT?)
 Text Notes 9700 13600 0    50   ~ 0
 NB: Net-ties don't show refdes in original,\nso NT1 is original to this version of the\nschematic.
 $Comp
@@ -3226,4 +3224,22 @@ Wire Wire Line
 	11200 13100 11200 12900
 Wire Wire Line
 	11200 12900 10800 12900
+$Comp
+L Blower_Driver_Components:TestPoint PT1
+U 1 1 5F9A5244
+P 2300 14050
+F 0 "PT1" H 2242 14122 50  0000 R CNN
+F 1 "TestPoint" V 2400 14100 50  0001 C CNN
+F 2 "" H 2500 14050 50  0001 C CNN
+F 3 "~" H 2500 14050 50  0001 C CNN
+	1    2300 14050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 14050 2300 14000
+Wire Wire Line
+	2300 14000 2000 14000
+Connection ~ 2000 14000
+Wire Wire Line
+	2000 14000 2000 14100
 $EndSCHEMATC
