@@ -351,10 +351,10 @@ P 10550 5550
 F 0 "D14" V 10504 5629 50  0000 L CNN
 F 1 "SMA6J28A" V 10595 5629 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 10550 5350 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 10500 5550 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 10500 5550 50  0001 C CNN
 F 4 "DIODE TRANSIL 33V, SMA" H 10504 5729 50  0001 C CNN "Description"
 F 5 "10060347" H 10504 5729 50  0001 C CNN "Item Number"
-F 6 "ST Micro" V 10641 5629 50  0001 L CNN "Manufacturer"
+F 6 "STMicroelectronics" V 10641 5629 50  0001 L CNN "Manufacturer"
 F 7 "SMA6J28A-TR" V 10686 5629 50  0001 L CNN "Manufacturer_No"
 	1    10550 5550
 	0    1    1    0   
@@ -386,7 +386,7 @@ L Device:C C25
 U 1 1 5E935537
 P 9200 5550
 F 0 "C25" H 9315 5596 50  0000 L CNN
-F 1 "100nF" H 9315 5505 50  0000 L CNN
+F 1 "100n" H 9315 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9238 5400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 9200 5550 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 9315 5696 50  0001 C CNN "Description"
@@ -675,7 +675,7 @@ L Device:C C24
 U 1 1 5E9BB5C2
 P 5200 1600
 F 0 "C24" H 5315 1646 50  0000 L CNN
-F 1 "100nF" H 5315 1555 50  0000 L CNN
+F 1 "100n" H 5315 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 1450 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 5200 1600 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 5315 1746 50  0001 C CNN "Description"
@@ -712,7 +712,7 @@ L Device:C C23
 U 1 1 5EA446D2
 P 4750 1600
 F 0 "C23" H 4865 1646 50  0000 L CNN
-F 1 "100nF" H 4865 1555 50  0000 L CNN
+F 1 "100n" H 4865 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 1450 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 4750 1600 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 4865 1746 50  0001 C CNN "Description"
@@ -727,13 +727,14 @@ L Device:C C22
 U 1 1 5EA44CC5
 P 4300 1600
 F 0 "C22" H 4415 1646 50  0000 L CNN
-F 1 "10uF" H 4415 1555 50  0000 L CNN
+F 1 "10u" H 4415 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 1450 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 4300 1600 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C106M9PACTU.pdf" H 4300 1600 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603" H 4415 1746 50  0001 C CNN "Description"
 F 5 "10021370" H 4415 1746 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 4300 1600 50  0001 C CNN "Manufacturer"
 F 7 "C0603C106M9PACTM" H 4300 1600 50  0001 C CNN "Manufacturer_No"
+F 8 "BOM lists C0603C106M9PACTM but only TU was found" H 4300 1600 50  0001 C CNN "Note"
 	1    4300 1600
 	1    0    0    -1  
 $EndComp
@@ -776,7 +777,7 @@ U 1 1 5EAC4760
 P 750 3950
 F 0 "J13" H 668 3525 50  0000 C CNN
 F 1 "S5B-ZR-SM4A-TF" H 668 3616 50  0000 C CNN
-F 2 "" H 750 3950 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal" H 750 3950 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" H 750 3950 50  0001 C CNN
 F 4 "1x5, 1.5mm pitch, RA TH Shrouded Header" H 750 3950 50  0001 C CNN "Description"
 F 5 "10060350" H 668 3625 50  0001 C CNN "Item Number"
