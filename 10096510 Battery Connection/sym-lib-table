@@ -1,7 +1,3 @@
 (sym_lib_table
-  (lib (name myParts)(type Legacy)(uri ${KIPRJMOD}/myParts/BNX002-01.lib)(options "")(descr ""))
-  (lib (name ChunkyTerminals)(type Legacy)(uri ${KIPRJMOD}/myParts/811-S1-002-30-014101.lib)(options "")(descr ""))
-  (lib (name HartingIDC)(type Legacy)(uri ${KIPRJMOD}/myParts/09185107323.lib)(options "")(descr ""))
-  (lib (name "10096510 Battery Connection")(type Legacy)(uri "${KIPRJMOD}/10096510 Battery Connection.lib")(options "")(descr ""))
-  (lib (name "10106052 PowerPack")(type Legacy)(uri "C:/Users/valer/Documents/openventilator/10106052 PowerPack/10106052 PowerPack.lib")(options "")(descr ""))
+  (lib (name 10096510_Battery_Connection)(type Legacy)(uri ${KIPRJMOD}/10096510_Battery_Connection.lib)(options "")(descr ""))
 )
