@@ -84,7 +84,7 @@ F 5 "10021386" H 8600 2475 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 8600 2475 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 8600 2475 50  0001 C CNN "Manufacturer_No"
 	1    8600 2475
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8600 2325 8600 2075
@@ -280,7 +280,7 @@ F 5 "10021369" H 3350 5900 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 3350 5900 50  0001 C CNN "Manufacturer"
 F 7 "C0402C105K8PACTU" H 3350 5900 50  0001 C CNN "Manufacturer_No"
 	1    3350 5900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C?
@@ -297,7 +297,7 @@ F 5 "10021386" H 2950 5900 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 2950 5900 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 2950 5900 50  0001 C CNN "Manufacturer_No"
 	1    2950 5900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3775 5750 3775 5600
@@ -383,29 +383,25 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5E8D1CD4
-P 5375 2550
+P 5400 2550
 AR Path="/5E87819A/5E8D1CD4" Ref="C?"  Part="1" 
 AR Path="/5E8CA2BD/5E8D1CD4" Ref="C2"  Part="1" 
-F 0 "C2" H 5490 2596 50  0000 L CNN
-F 1 "10u" H 5490 2505 50  0000 L CNN
-F 2 "10106052 PowerPack:CAPC1608X86N" H 5413 2400 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C106M9PACTU.pdf" H 5375 2550 50  0001 C CNN
-F 4 "CAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603" H 5375 2550 50  0001 C CNN "Description"
-F 5 "10021370" H 5375 2550 50  0001 C CNN "Item Number"
-F 6 "C0603C106M9PACTM" H 5375 2550 50  0001 C CNN "Manufacturer_No"
-F 7 "BOM lists C0603C106M9PACTM but only TU was found" H 5375 2550 50  0001 C CNN "Note"
-F 8 "Kemet" H 5375 2550 50  0001 C CNN "Manufacturer"
-	1    5375 2550
+F 0 "C2" H 5515 2596 50  0000 L CNN
+F 1 "10u" H 5515 2505 50  0000 L CNN
+F 2 "10106052 PowerPack:CAPC1608X86N" H 5438 2400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C106M9PACTU.pdf" H 5400 2550 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603" H 5400 2550 50  0001 C CNN "Description"
+F 5 "10021370" H 5400 2550 50  0001 C CNN "Item Number"
+F 6 "C0603C106M9PACTM" H 5400 2550 50  0001 C CNN "Manufacturer_No"
+F 7 "BOM lists C0603C106M9PACTM but only TU was found" H 5400 2550 50  0001 C CNN "Note"
+F 8 "Kemet" H 5400 2550 50  0001 C CNN "Manufacturer"
+	1    5400 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5375 2400 5375 2250
+	5400 2400 5400 2250
 Wire Wire Line
-	5375 2250 5125 2250
-Wire Wire Line
-	5375 2700 5375 3000
-Wire Wire Line
-	5375 3000 4725 3000
+	5400 2700 5400 3000
 Wire Wire Line
 	4725 3000 4725 2700
 $Comp
@@ -421,26 +417,25 @@ F 3 "" H 4725 3000 50  0001 C CNN
 	1    4725 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 4725 3000
 $Comp
 L power:+5V #PWR?
 U 1 1 5E8D1CE6
-P 5375 2075
+P 5400 2075
 AR Path="/5E87819A/5E8D1CE6" Ref="#PWR?"  Part="1" 
 AR Path="/5E8CA2BD/5E8D1CE6" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 5375 1925 50  0001 C CNN
-F 1 "+5V" H 5390 2248 50  0000 C CNN
-F 2 "" H 5375 2075 50  0001 C CNN
-F 3 "" H 5375 2075 50  0001 C CNN
-	1    5375 2075
+F 0 "#PWR0128" H 5400 1925 50  0001 C CNN
+F 1 "+5V" H 5415 2248 50  0000 C CNN
+F 2 "" H 5400 2075 50  0001 C CNN
+F 3 "" H 5400 2075 50  0001 C CNN
+	1    5400 2075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5375 2075 5375 2250
-Connection ~ 5375 2250
+	5400 2075 5400 2250
+Connection ~ 5400 2250
 NoConn ~ 5125 2450
 $Comp
-L Device:Q_NMOS_GSD T?
+L Device:Q_PMOS_GSD T?
 U 1 1 5E8D1CEF
 P 3075 2100
 AR Path="/5E87819A/5E8D1CEF" Ref="T?"  Part="1" 
@@ -454,7 +449,7 @@ F 5 "10060356" H 3075 2100 50  0001 C CNN "Item Number"
 F 6 "Vishay Siliconix" H 3075 2100 50  0001 C CNN "Manufacturer"
 F 7 "SI2309CDS-T1-GE3" H 3075 2100 50  0001 C CNN "Manufacturer_No"
 	1    3075 2100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:Q_NMOS_GSD T?
@@ -586,7 +581,7 @@ F 5 "10107885" H 4150 2725 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 4150 2725 50  0001 C CNN "Manufacturer"
 F 7 "C1210C105K5PACTU" H 4150 2725 50  0001 C CNN "Manufacturer_No"
 	1    4150 2725
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4150 2575 4150 2250
@@ -704,13 +699,18 @@ Connection ~ 2950 6100
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E9753B6
-P 5375 3000
-F 0 "#FLG0102" H 5375 3075 50  0001 C CNN
-F 1 "PWR_FLAG" H 5375 3173 50  0000 C CNN
-F 2 "" H 5375 3000 50  0001 C CNN
-F 3 "~" H 5375 3000 50  0001 C CNN
-	1    5375 3000
+P 5400 3000
+F 0 "#FLG0102" H 5400 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 3173 50  0000 C CNN
+F 2 "" H 5400 3000 50  0001 C CNN
+F 3 "~" H 5400 3000 50  0001 C CNN
+	1    5400 3000
 	-1   0    0    1   
 $EndComp
-Connection ~ 5375 3000
+Connection ~ 5400 3000
+Wire Wire Line
+	5125 2250 5400 2250
+Wire Wire Line
+	4725 3000 5400 3000
+Connection ~ 4725 3000
 $EndSCHEMATC

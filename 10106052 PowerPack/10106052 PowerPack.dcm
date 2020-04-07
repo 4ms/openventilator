@@ -47,7 +47,7 @@ $ENDCMP
 #
 $CMP PMEG4005AEA
 D DIODE SCHOTTKY, 500MA,40V,SOD323
-K diode Schottky
+K diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf
 $ENDCMP
 #

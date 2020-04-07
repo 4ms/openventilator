@@ -394,7 +394,7 @@ F 5 "10021386" H 9315 5696 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 9200 5550 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 9200 5550 50  0001 C CNN "Manufacturer_No"
 	1    9200 5550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R49
@@ -683,7 +683,7 @@ F 5 "10021386" H 5315 1746 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 5200 1600 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 5200 1600 50  0001 C CNN "Manufacturer_No"
 	1    5200 1600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L 10106052_PowerPack:+3.0VREF #PWR0138
@@ -720,7 +720,7 @@ F 5 "10021386" H 4865 1746 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 4750 1600 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 4750 1600 50  0001 C CNN "Manufacturer_No"
 	1    4750 1600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C22
@@ -736,7 +736,7 @@ F 6 "Kemet" H 4300 1600 50  0001 C CNN "Manufacturer"
 F 7 "C0603C106M9PACTM" H 4300 1600 50  0001 C CNN "Manufacturer_No"
 F 8 "BOM lists C0603C106M9PACTM but only TU was found" H 4300 1600 50  0001 C CNN "Note"
 	1    4300 1600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0140
@@ -826,9 +826,9 @@ Text HLabel 2250 2500 0    50   Input ~ 0
 TEMP_MEAS
 Text HLabel 2250 2600 0    50   Input ~ 0
 V_CH
-Text HLabel 2250 2900 0    50   Input ~ 0
+Text HLabel 1650 2900 0    50   Input ~ 0
 RX
-Text HLabel 2250 2800 0    50   Output ~ 0
+Text HLabel 1650 2800 0    50   Output ~ 0
 TX
 Text HLabel 2250 2700 0    50   Output ~ 0
 V_EN
@@ -901,8 +901,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 3750 6800 3350
 Wire Wire Line
-	10600 3850 10550 3850
-Wire Wire Line
 	6700 3450 6700 3850
 Wire Wire Line
 	6600 3950 6600 3550
@@ -925,15 +923,11 @@ Wire Wire Line
 Wire Wire Line
 	10400 2350 10250 2350
 Wire Wire Line
-	10600 3750 9700 3750
-Wire Wire Line
 	10600 3950 6800 3950
 Wire Wire Line
 	10600 4050 6500 4050
 Wire Wire Line
 	10600 4150 6400 4150
-Wire Wire Line
-	10550 5400 10550 3850
 Wire Wire Line
 	10550 6100 10550 5700
 Wire Wire Line
@@ -975,15 +969,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 5400 9700 5250
 Wire Wire Line
-	9700 4800 9700 3750
+	10350 3450 10550 3450
 Wire Wire Line
-	9700 3750 7000 3750
-Wire Wire Line
-	10550 3850 6900 3850
-Wire Wire Line
-	10350 3450 10600 3450
-Wire Wire Line
-	8850 3350 10600 3350
+	8850 3350 9700 3350
 Wire Wire Line
 	8200 2550 8200 5500
 Wire Wire Line
@@ -1076,10 +1064,6 @@ Wire Wire Line
 	2600 2600 2250 2600
 Wire Wire Line
 	2600 2700 2250 2700
-Wire Wire Line
-	2600 2800 2250 2800
-Wire Wire Line
-	2600 2900 2250 2900
 Wire Wire Line
 	2600 3050 2250 3050
 Wire Wire Line
@@ -1187,8 +1171,6 @@ Connection ~ 7100 6000
 Connection ~ 9450 5950
 Connection ~ 9200 5250
 Connection ~ 9700 5250
-Connection ~ 9700 3750
-Connection ~ 10550 3850
 Connection ~ 7400 3150
 Connection ~ 7500 3050
 Connection ~ 7600 2950
@@ -1219,4 +1201,54 @@ Text Label 2250 3050 2    50   ~ 0
 BP_INFO
 Text Notes 650  4150 1    50   ~ 10
 ICSP Prog
+Wire Wire Line
+	7000 3750 10600 3750
+Wire Wire Line
+	9700 3350 9700 4800
+Connection ~ 9700 3350
+Wire Wire Line
+	9700 3350 10600 3350
+Wire Wire Line
+	6900 3850 10600 3850
+Wire Wire Line
+	10550 5400 10550 3450
+Connection ~ 10550 3450
+Wire Wire Line
+	10550 3450 10600 3450
+$Comp
+L Connector:TestPoint TX
+U 1 1 5ED5F142
+P 1850 2150
+F 0 "TX" H 1800 2350 50  0000 L CNN
+F 1 "TestPoint" H 1908 2177 50  0001 L CNN
+F 2 "10106052 PowerPack:TP-40R-NSA" H 2050 2150 50  0001 C CNN
+F 3 "~" H 2050 2150 50  0001 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint RX
+U 1 1 5ED5FB52
+P 2000 2150
+F 0 "RX" H 1950 2350 50  0000 L CNN
+F 1 "TestPoint" H 2058 2177 50  0001 L CNN
+F 2 "10106052 PowerPack:TP-40R-NSA" H 2200 2150 50  0001 C CNN
+F 3 "~" H 2200 2150 50  0001 C CNN
+	1    2000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2800 1850 2800
+Wire Wire Line
+	1650 2900 2000 2900
+Wire Wire Line
+	1850 2150 1850 2800
+Connection ~ 1850 2800
+Wire Wire Line
+	1850 2800 2600 2800
+Wire Wire Line
+	2000 2150 2000 2900
+Connection ~ 2000 2900
+Wire Wire Line
+	2000 2900 2600 2900
 $EndSCHEMATC

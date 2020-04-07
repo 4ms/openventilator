@@ -1,4 +1,4 @@
-(module CON-43650-0229 (layer F.Cu) (tedit 5E8B74EB)
+(module CON-43650-0229 (layer F.Cu) (tedit 5E8B8CAF)
   (attr smd)
   (fp_text reference REF** (at -0.3683 3.82905 -270 unlocked) (layer F.SilkS)
     (effects (font (size 0.316586 0.332994) (thickness 0.0254)))
@@ -22,4 +22,9 @@
   (pad 3 thru_hole circle (at -4.4958 1.9558) (size 1.9812 1.9812) (drill 1.2954) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -1.4986 0) (size 1.9812 1.9812) (drill 0.9906) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 1.4986 0) (size 1.9812 1.9812) (drill 0.9906) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3D Models/436500229.stp"
+    (offset (xyz 0 0 5.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module QFP80P1200X1200X120-44N (layer F.Cu) (tedit 5E8B752C)
+(module QFP80P1200X1200X120-44N (layer F.Cu) (tedit 5E8B9818)
   (attr smd)
   (fp_text reference REF** (at 5.1181 6.3881 90 unlocked) (layer F.SilkS)
     (effects (font (size 0.316586 0.332994) (thickness 0.0254)))
@@ -59,4 +59,9 @@
   (pad 3 smd rect (at 5.6896 2.3876) (size 1.4986 0.5334) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 5.6896 3.175) (size 1.4986 0.5334) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 5.6896 3.9878) (size 1.4986 0.5334) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_QFP.3dshapes/TQFP-44_10x10mm_P0.8mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
