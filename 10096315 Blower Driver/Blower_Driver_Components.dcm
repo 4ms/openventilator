@@ -164,4 +164,10 @@ $CMP Resistor_680R
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 #End Doc Library
