@@ -170,6 +170,30 @@ X VOUT 5 -400 -100 100 R 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
+# MCP9700A-E_TO
+#
+DEF MCP9700A-E_TO U 0 40 Y Y 1 F N
+F0 "U" -150 250 60 H V C CNN
+F1 "MCP9700A-E_TO" 100 -300 60 H V L CNN
+F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859" 200 300 60 H I L CNN
+F4 "MCP9700A-E/TO-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP9700A-E/TO" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Temperature Sensors - Analog and Digital Output" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP9700A-E-TO/MCP9700A-E-TO-ND/1212508" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR ANALOG -40C-125C TO92-3" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 200 -100 -200 0 1 0 f
+X VDD 1 0 300 100 D 50 50 1 1 W
+X VOUT 2 400 0 100 L 50 50 1 1 O
+X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Molex_52207-1933_1x19-1MP_P1.00mm_Horizontal
 #
 DEF Molex_52207-1933_1x19-1MP_P1.00mm_Horizontal J 0 40 Y N 1 F N
@@ -375,6 +399,33 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X A 1 150 0 100 L 50 50 1 1 P
 X K 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_PMOS_GDSD
+#
+DEF Q_PMOS_GDSD Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_PMOS_GDSD" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 0 1 0 90 0 50 15 50 -15 90 0 F
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 3 100 -200 100 U 50 50 1 1 P
+X D 4 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

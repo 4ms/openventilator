@@ -110,8 +110,8 @@ $Comp
 L Device:R R50
 U 1 1 5E887DA1
 P 10350 1825
-F 0 "R50" V 10557 1825 50  0000 C CNN
-F 1 "100" V 10466 1825 50  0000 C CNN
+F 0 "R50" V 10075 1825 50  0000 C CNN
+F 1 "100" V 10175 1825 50  0000 C CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 10280 1825 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10350 1825 50  0001 C CNN
 F 4 "RESISTOR 100 OHM 0.063W +/-1% 0603" H 10350 1825 50  0001 C CNN "Description"
@@ -119,7 +119,7 @@ F 5 "Yageo" H 10350 1825 50  0001 C CNN "Manufacturer"
 F 6 "RC0603FR-07100RL" H 10350 1825 50  0001 C CNN "Manufacturer_No"
 F 7 "DNP" H 10350 1825 50  0001 C CNN "Note"
 	1    10350 1825
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R57
@@ -420,8 +420,8 @@ $Comp
 L Device:R R51
 U 1 1 5E8B3A1B
 P 10350 4575
-F 0 "R51" V 10557 4575 50  0000 C CNN
-F 1 "100" V 10466 4575 50  0000 C CNN
+F 0 "R51" V 10125 4575 50  0000 C CNN
+F 1 "100" V 10225 4575 50  0000 C CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 10280 4575 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10350 4575 50  0001 C CNN
 F 4 "RESISTOR 100 OHM 0.063W +/-1% 0603" H 10350 4575 50  0001 C CNN "Description"
@@ -429,7 +429,7 @@ F 5 "Yageo" H 10350 4575 50  0001 C CNN "Manufacturer"
 F 6 "RC0603FR-07100RL" H 10350 4575 50  0001 C CNN "Manufacturer_No"
 F 7 "DNP" H 10350 4575 50  0001 C CNN "Note"
 	1    10350 4575
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R58
@@ -875,8 +875,8 @@ $Comp
 L 10106052_PowerPack:Q_PMOS_GDSD T8
 U 1 1 5E94B6D5
 P 7025 4575
-F 0 "T8" H 7231 4529 50  0000 L CNN
-F 1 "SUD50P06-15" H 7231 4620 50  0000 L CNN
+F 0 "T8" H 7229 4529 50  0000 L CNN
+F 1 "SUD50P06-15" H 7229 4620 50  0000 L CNN
 F 2 "10106052 PowerPack:TO228P1003X238-3_4N" H 7225 4675 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 7025 4575 50  0001 C CNN
 F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 7025 4575 50  0001 C CNN "Description"
@@ -890,8 +890,8 @@ $Comp
 L 10106052_PowerPack:Q_PMOS_GDSD T9
 U 1 1 5E94B6DB
 P 7025 5450
-F 0 "T9" H 7231 5496 50  0000 L CNN
-F 1 "SUD50P06-15" H 7231 5405 50  0000 L CNN
+F 0 "T9" H 7229 5496 50  0000 L CNN
+F 1 "SUD50P06-15" H 7229 5405 50  0000 L CNN
 F 2 "10106052 PowerPack:TO228P1003X238-3_4N" H 7225 5550 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 7025 5450 50  0001 C CNN
 F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 7025 5450 50  0001 C CNN "Description"
@@ -1130,8 +1130,8 @@ $Comp
 L Device:R R3
 U 1 1 5E9894EF
 P 4900 1175
-F 0 "R3" H 4970 1221 50  0000 L CNN
-F 1 "100k" H 4970 1130 50  0000 L CNN
+F 0 "R3" H 4830 1129 50  0000 R CNN
+F 1 "100k" H 4830 1220 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 4830 1175 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4900 1175 50  0001 C CNN
 F 4 "RES 100K OHM 1/10W 1% 0603 SMD" H 4900 1175 50  0001 C CNN "Description"
@@ -1139,14 +1139,14 @@ F 5 "10001204" H 4900 1175 50  0001 C CNN "Item Number"
 F 6 "Yageo" H 4900 1175 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-07100KL" H 4900 1175 50  0001 C CNN "Manufacturer_No"
 	1    4900 1175
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5E9895D8
 P 4900 1650
-F 0 "R7" H 4970 1696 50  0000 L CNN
-F 1 "10k" H 4970 1605 50  0000 L CNN
+F 0 "R7" H 4830 1604 50  0000 R CNN
+F 1 "10k" H 4830 1695 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 4830 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4900 1650 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 4900 1650 50  0001 C CNN "Description"
@@ -1154,14 +1154,14 @@ F 5 "10022548" H 4900 1650 50  0001 C CNN "Item Number"
 F 6 "Yageo" H 4900 1650 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 4900 1650 50  0001 C CNN "Manufacturer_No"
 	1    4900 1650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5E989E0B
 P 4550 1650
-F 0 "C1" H 4275 1725 50  0000 L CNN
-F 1 "100n" H 4275 1575 50  0000 L CNN
+F 0 "C1" H 4665 1604 50  0000 L CNN
+F 1 "100n" H 4665 1695 50  0000 L CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 4588 1500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 4550 1650 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 4550 1650 50  0001 C CNN "Description"
@@ -1169,7 +1169,7 @@ F 5 "10021386" H 4550 1650 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 4550 1650 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 4550 1650 50  0001 C CNN "Manufacturer_No"
 	1    4550 1650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GNDA #PWR0109
@@ -1365,8 +1365,8 @@ $Comp
 L Device:R R24
 U 1 1 5EA65B46
 P 7575 6875
-F 0 "R24" H 7645 6921 50  0000 L CNN
-F 1 "0.015" H 7645 6830 50  0000 L CNN
+F 0 "R24" H 7505 6829 50  0000 R CNN
+F 1 "0.015" H 7505 6920 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC6533X80N" V 7505 6875 50  0001 C CNN
 F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Resistors/Datasheets/LR.pdf" H 7575 6875 50  0001 C CNN
 F 4 "RESISTOR 0,015 OHM, 2W, +/-1%, 2512" H 7575 6875 50  0001 C CNN "Description"
@@ -1374,7 +1374,7 @@ F 5 "10000838" H 7575 6875 50  0001 C CNN "Item Number"
 F 6 "Welwyn" H 7575 6875 50  0001 C CNN "Manufacturer"
 F 7 "LRF2512-R015FW" H 7575 6875 50  0001 C CNN "Manufacturer_No"
 	1    7575 6875
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7575 6575 9450 6575
@@ -1400,8 +1400,8 @@ $Comp
 L Device:C C10
 U 1 1 5EAC2B56
 P 9400 7600
-F 0 "C10" H 9515 7646 50  0000 L CNN
-F 1 "10n" H 9515 7555 50  0000 L CNN
+F 0 "C10" H 9285 7554 50  0000 R CNN
+F 1 "10n" H 9285 7645 50  0000 R CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 9438 7450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9400 7600 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 9400 7600 50  0001 C CNN "Description"
@@ -1410,7 +1410,7 @@ F 6 "Yageo" H 9400 7600 50  0001 C CNN "Manufacturer"
 F 7 "CC0603KRX7R9BB103" H 9400 7600 50  0001 C CNN "Manufacturer_No"
 F 8 "BOM lists 223858615636, this is the same" H 9400 7600 50  0001 C CNN "Note"
 	1    9400 7600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9800 7425 9800 7850
@@ -1445,8 +1445,8 @@ $Comp
 L Device:C C11
 U 1 1 5EB0B07A
 P 10700 7650
-F 0 "C11" H 10815 7696 50  0000 L CNN
-F 1 "10n" H 10815 7605 50  0000 L CNN
+F 0 "C11" H 10585 7604 50  0000 R CNN
+F 1 "10n" H 10585 7695 50  0000 R CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 10738 7500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10700 7650 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 10700 7650 50  0001 C CNN "Description"
@@ -1455,7 +1455,7 @@ F 6 "Yageo" H 10700 7650 50  0001 C CNN "Manufacturer"
 F 7 "CC0603KRX7R9BB103" H 10700 7650 50  0001 C CNN "Manufacturer_No"
 F 8 "BOM lists 223858615636, this is the same" H 10700 7650 50  0001 C CNN "Note"
 	1    10700 7650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 10700 7125
 Wire Wire Line
@@ -1470,8 +1470,8 @@ $Comp
 L Device:R R28
 U 1 1 5EB45634
 P 11075 7650
-F 0 "R28" H 11145 7696 50  0000 L CNN
-F 1 "66.5k" H 11145 7605 50  0000 L CNN
+F 0 "R28" H 11005 7604 50  0000 R CNN
+F 1 "66.5k" H 11005 7695 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 11005 7650 50  0001 C CNN
 F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Resistors/Datasheets/PCF.pdf" H 11075 7650 50  0001 C CNN
 F 4 "RESISTOR 66,5K OHM, 0,063W, +/-0,1%, 0603" H 11075 7650 50  0001 C CNN "Description"
@@ -1479,14 +1479,14 @@ F 5 "10000836" H 11075 7650 50  0001 C CNN "Item Number"
 F 6 "Welwyn" H 11075 7650 50  0001 C CNN "Manufacturer"
 F 7 "PCF0603R-66K5BT1" H 11075 7650 50  0001 C CNN "Manufacturer_No"
 	1    11075 7650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R29
 U 1 1 5EB4595C
 P 11450 7650
-F 0 "R29" H 11520 7696 50  0000 L CNN
-F 1 "40.2k" H 11520 7605 50  0000 L CNN
+F 0 "R29" H 11380 7604 50  0000 R CNN
+F 1 "40.2k" H 11380 7695 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 11380 7650 50  0001 C CNN
 F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Resistors/Datasheets/PCF.pdf" H 11450 7650 50  0001 C CNN
 F 4 "RESISTOR 40.2KOHM  0.1% 0.063W 0603" H 11450 7650 50  0001 C CNN "Description"
@@ -1494,14 +1494,14 @@ F 5 "10021070" H 11450 7650 50  0001 C CNN "Item Number"
 F 6 "Welwyn" H 11450 7650 50  0001 C CNN "Manufacturer"
 F 7 "PCF0603-R-40K2BT1" H 11450 7650 50  0001 C CNN "Manufacturer_No"
 	1    11450 7650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C12
 U 1 1 5EB45D1D
 P 11875 7650
-F 0 "C12" H 11990 7696 50  0000 L CNN
-F 1 "10n" H 11990 7605 50  0000 L CNN
+F 0 "C12" H 11760 7604 50  0000 R CNN
+F 1 "10n" H 11760 7695 50  0000 R CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 11913 7500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 11875 7650 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 11875 7650 50  0001 C CNN "Description"
@@ -1510,7 +1510,7 @@ F 6 "Yageo" H 11875 7650 50  0001 C CNN "Manufacturer"
 F 7 "CC0603KRX7R9BB103" H 11875 7650 50  0001 C CNN "Manufacturer_No"
 F 8 "BOM lists 223858615636, this is the same" H 11875 7650 50  0001 C CNN "Note"
 	1    11875 7650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	11875 7500 11875 7325
@@ -1639,8 +1639,8 @@ $Comp
 L Device:R R32
 U 1 1 5E955BE2
 P 9275 9525
-F 0 "R32" V 9450 9525 50  0000 C CNN
-F 1 "470" V 9375 9525 50  0000 C CNN
+F 0 "R32" V 9160 9525 50  0000 C CNN
+F 1 "470" V 9069 9525 50  0000 C CNN
 F 2 "10106052 PowerPack:RESC3216X60N" V 9205 9525 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9275 9525 50  0001 C CNN
 F 4 "RESISTOR 470 OHM 1/8W 5% 1206" H 9275 9525 50  0001 C CNN "Description"
@@ -1648,7 +1648,7 @@ F 5 "10107895" H 9275 9525 50  0001 C CNN "Item Number"
 F 6 "Yageo" H 9275 9525 50  0001 C CNN "Manufacturer"
 F 7 "RC1206JR-07470RL" H 9275 9525 50  0001 C CNN "Manufacturer_No"
 	1    9275 9525
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9125 9525 8975 9525
@@ -1714,21 +1714,6 @@ Wire Wire Line
 Wire Wire Line
 	8375 8725 7575 8725
 $Comp
-L 10106052_PowerPack:Q_PMOS_GDSD T14
-U 1 1 5EAD2156
-P 6650 7325
-F 0 "T14" V 6875 7100 50  0000 L CNN
-F 1 "SUD50P06-15" V 6800 6650 50  0000 L CNN
-F 2 "10106052 PowerPack:TO228P1003X238-3_4N" H 6850 7425 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 6650 7325 50  0001 C CNN
-F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 6650 7325 50  0001 C CNN "Description"
-F 5 "10095972" H 6650 7325 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 6650 7325 50  0001 C CNN "Manufacturer"
-F 7 "SUD50P06-15L-E3" H 6650 7325 50  0001 C CNN "Manufacturer_No"
-	1    6650 7325
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:Q_NMOS_GSD T15
 U 1 1 5EAD215C
 P 6550 8375
@@ -1747,8 +1732,8 @@ $Comp
 L Device:R R54
 U 1 1 5EAD2162
 P 6900 7475
-F 0 "R54" H 6775 7425 50  0000 C CNN
-F 1 "15k" H 6775 7525 50  0000 C CNN
+F 0 "R54" H 6970 7521 50  0000 L CNN
+F 1 "15k" H 6970 7430 50  0000 L CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 6830 7475 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 6900 7475 50  0001 C CNN
 F 4 "RESISTOR, 15K OHM, 0603, +/-1%" H 6900 7475 50  0001 C CNN "Description"
@@ -1757,14 +1742,14 @@ F 6 "Yageo" H 6900 7475 50  0001 C CNN "Manufacturer"
 F 7 "CRCW060315K0FKEAHP" H 6900 7475 50  0001 C CNN "Manufacturer_No"
 F 8 "BOM listed ASJ CR16153FL" H 6900 7475 50  0001 C CNN "Note"
 	1    6900 7475
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R53
 U 1 1 5EAD2168
 P 6650 7975
-F 0 "R53" H 6525 7950 50  0000 C CNN
-F 1 "10k" H 6500 8025 50  0000 C CNN
+F 0 "R53" H 6720 8021 50  0000 L CNN
+F 1 "10k" H 6720 7930 50  0000 L CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 6580 7975 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6650 7975 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 6650 7975 50  0001 C CNN "Description"
@@ -1772,7 +1757,7 @@ F 5 "10022548" H 6650 7975 50  0001 C CNN "Item Number"
 F 6 "Yageo" H 6650 7975 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 6650 7975 50  0001 C CNN "Manufacturer_No"
 	1    6650 7975
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6900 7725 6650 7725
@@ -1888,10 +1873,10 @@ $EndComp
 Wire Wire Line
 	5775 8775 5775 8725
 $Comp
-L Device:Net-Tie_2 NT1
+L Device:Net-Tie_2 STAR1
 U 1 1 5EC48738
 P 2425 9525
-F 0 "NT1" H 2425 9706 50  0000 C CNN
+F 0 "STAR1" H 2425 9706 50  0000 C CNN
 F 1 "Net-Tie_2" H 2425 9615 50  0000 C CNN
 F 2 "10106052 PowerPack:STAR" H 2425 9525 50  0001 C CNN
 F 3 "~" H 2425 9525 50  0001 C CNN
@@ -1932,8 +1917,8 @@ $Comp
 L Device:R R27
 U 1 1 5EC7A8F7
 P 4400 8075
-F 0 "R27" H 4470 8121 50  0000 L CNN
-F 1 "100k" H 4470 8030 50  0000 L CNN
+F 0 "R27" H 4330 8029 50  0000 R CNN
+F 1 "100k" H 4330 8120 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 4330 8075 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4400 8075 50  0001 C CNN
 F 4 "RES 100K OHM 1/10W 1% 0603 SMD" H 4400 8075 50  0001 C CNN "Description"
@@ -1941,14 +1926,14 @@ F 5 "10001204" H 4400 8075 50  0001 C CNN "Item Number"
 F 6 "Yageo" H 4400 8075 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-07100KL" H 4400 8075 50  0001 C CNN "Manufacturer_No"
 	1    4400 8075
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R30
 U 1 1 5EC7B928
 P 4400 8575
-F 0 "R30" H 4470 8621 50  0000 L CNN
-F 1 "10k" H 4470 8530 50  0000 L CNN
+F 0 "R30" H 4330 8529 50  0000 R CNN
+F 1 "10k" H 4330 8620 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC1608X50AN" V 4330 8575 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4400 8575 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 4400 8575 50  0001 C CNN "Description"
@@ -1956,7 +1941,7 @@ F 5 "10022548" H 4400 8575 50  0001 C CNN "Item Number"
 F 6 "Yageo" H 4400 8575 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 4400 8575 50  0001 C CNN "Manufacturer_No"
 	1    4400 8575
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R25
@@ -1999,8 +1984,8 @@ $Comp
 L Device:C C14
 U 1 1 5ED0B80B
 P 4775 8575
-F 0 "C14" H 4890 8621 50  0000 L CNN
-F 1 "100n" H 4890 8530 50  0000 L CNN
+F 0 "C14" H 4660 8529 50  0000 R CNN
+F 1 "100n" H 4660 8620 50  0000 R CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 4813 8425 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 4775 8575 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 4775 8575 50  0001 C CNN "Description"
@@ -2008,7 +1993,7 @@ F 5 "10021386" H 4775 8575 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 4775 8575 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 4775 8575 50  0001 C CNN "Manufacturer_No"
 	1    4775 8575
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4775 8425 4775 8325
@@ -2030,26 +2015,11 @@ Connection ~ 4775 8325
 Text Label 9500 9525 0    50   ~ 0
 V_DC_CHARGER
 $Comp
-L 10106052_PowerPack:SMA6J28A D9
-U 1 1 5ED5C669
-P 3150 7625
-F 0 "D9" V 3075 8075 50  0000 R CNN
-F 1 "SMA6J28A" V 3200 8100 50  0000 R CNN
-F 2 "10106052 PowerPack:DIOM5126X203N_SWP" H 3150 7625 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 3150 7625 50  0001 C CNN
-F 4 "DIODE TRANSIL 33V, SMA" H 3150 7625 50  0001 C CNN "Description"
-F 5 "10060347" H 3150 7625 50  0001 C CNN "Item Number"
-F 6 "STMicroelectronics" H 3150 7625 50  0001 C CNN "Manufacturer"
-F 7 "SMA6J28A-TR" H 3150 7625 50  0001 C CNN "Manufacturer_No"
-	1    3150 7625
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:Fuse F1
 U 1 1 5ED757EF
 P 2750 7225
-F 0 "F1" V 2553 7225 50  0000 C CNN
-F 1 "Fuse" V 2644 7225 50  0000 C CNN
+F 0 "F1" V 2947 7225 50  0000 C CNN
+F 1 "Fuse" V 2856 7225 50  0000 C CNN
 F 2 "10106052 PowerPack:FUS4755X155N" V 2680 7225 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2016l_datasheet.pdf.pdf" H 2750 7225 50  0001 C CNN
 F 4 "PTC RESETTABLE 33V 1.1A 2016 SMD" H 2750 7225 50  0001 C CNN "Description"
@@ -2057,7 +2027,7 @@ F 5 "10107889" H 2750 7225 50  0001 C CNN "Item Number"
 F 6 "Littelfuse Inc." H 2750 7225 50  0001 C CNN "Manufacturer"
 F 7 "2016L100/33" H 2750 7225 50  0001 C CNN "Manufacturer_No"
 	1    2750 7225
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 7225 3150 7225
@@ -2306,4 +2276,42 @@ Wire Wire Line
 	7125 4775 7125 5250
 Wire Wire Line
 	5775 7225 6450 7225
+$Comp
+L 10106052_PowerPack:SMA6J28A D9
+U 1 1 5ED5C669
+P 3150 7625
+F 0 "D9" V 3104 7546 50  0000 R CNN
+F 1 "SMA6J28A" V 3195 7546 50  0000 R CNN
+F 2 "10106052 PowerPack:DIOM5126X203N_SWP" H 3150 7625 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 3150 7625 50  0001 C CNN
+F 4 "DIODE TRANSIL 33V, SMA" H 3150 7625 50  0001 C CNN "Description"
+F 5 "10060347" H 3150 7625 50  0001 C CNN "Item Number"
+F 6 "STMicroelectronics" H 3150 7625 50  0001 C CNN "Manufacturer"
+F 7 "SMA6J28A-TR" H 3150 7625 50  0001 C CNN "Manufacturer_No"
+	1    3150 7625
+	0    -1   1    0   
+$EndComp
+$Comp
+L 10106052_PowerPack:Q_PMOS_GDSD T14
+U 1 1 5EAD2156
+P 6650 7325
+F 0 "T14" V 6992 7325 50  0000 C CNN
+F 1 "SUD50P06-15" V 6901 7325 50  0000 C CNN
+F 2 "10106052 PowerPack:TO228P1003X238-3_4N" H 6850 7425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 6650 7325 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 6650 7325 50  0001 C CNN "Description"
+F 5 "10095972" H 6650 7325 50  0001 C CNN "Item Number"
+F 6 "Vishay Siliconix" H 6650 7325 50  0001 C CNN "Manufacturer"
+F 7 "SUD50P06-15L-E3" H 6650 7325 50  0001 C CNN "Manufacturer_No"
+	1    6650 7325
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	9800 4975 9550 4975
+Wire Notes Line
+	9550 4975 9550 5175
+Wire Notes Line
+	9550 5175 9800 5175
+Wire Notes Line
+	9800 5175 9800 4975
 $EndSCHEMATC
