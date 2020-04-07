@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 10106052-PowerPack-rescue:MCP9700A-E_TO-dk_Temperature-Sensors-Analog-and-Digital-Output U?
+L 10106052_PowerPack:MCP9700A-E_TO U?
 U 1 1 5E8CB2CC
 P 9000 2425
 AR Path="/5E8CB2CC" Ref="U?"  Part="1" 
@@ -165,8 +165,8 @@ U 1 1 5E8CDD76
 P 9000 4650
 AR Path="/5E87821E/5E8CDD76" Ref="R?"  Part="1" 
 AR Path="/5E8CA2BD/5E8CDD76" Ref="R26"  Part="1" 
-F 0 "R26" H 9070 4696 50  0000 L CNN
-F 1 "68" H 9070 4605 50  0000 L CNN
+F 0 "R26" H 8930 4604 50  0000 R CNN
+F 1 "68" H 8930 4695 50  0000 R CNN
 F 2 "10106052 PowerPack:RESC3216X60N" V 8930 4650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9000 4650 50  0001 C CNN
 F 4 "RESISTOR 68 OHM 1/4W 5% 1206" H 9000 4650 50  0001 C CNN "Description"
@@ -175,7 +175,7 @@ F 6 "Yageo" H 9000 4650 50  0001 C CNN "Manufacturer"
 F 7 "RC1206JR-0768RL" H 9000 4650 50  0001 C CNN "Manufacturer_No"
 F 8 "BOM has CRCW120668RJKEA" H 9000 4650 50  0001 C CNN "Note"
 	1    9000 4650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9250 4875 9000 4875
@@ -254,8 +254,8 @@ U 1 1 5E8CF89F
 P 3775 5900
 AR Path="/5E8781F8/5E8CF89F" Ref="C?"  Part="1" 
 AR Path="/5E8CA2BD/5E8CF89F" Ref="C7"  Part="1" 
-F 0 "C7" H 3890 5946 50  0000 L CNN
-F 1 "100n" H 3890 5855 50  0000 L CNN
+F 0 "C7" H 3660 5854 50  0000 R CNN
+F 1 "100n" H 3660 5945 50  0000 R CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 3813 5750 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 3775 5900 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 3775 5900 50  0001 C CNN "Description"
@@ -263,7 +263,7 @@ F 5 "10021386" H 3775 5900 50  0001 C CNN "Item Number"
 F 6 "Kemet" H 3775 5900 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 3775 5900 50  0001 C CNN "Manufacturer_No"
 	1    3775 5900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
@@ -386,8 +386,8 @@ U 1 1 5E8D1CD4
 P 5400 2550
 AR Path="/5E87819A/5E8D1CD4" Ref="C?"  Part="1" 
 AR Path="/5E8CA2BD/5E8D1CD4" Ref="C2"  Part="1" 
-F 0 "C2" H 5515 2596 50  0000 L CNN
-F 1 "10u" H 5515 2505 50  0000 L CNN
+F 0 "C2" H 5285 2504 50  0000 R CNN
+F 1 "10u" H 5285 2595 50  0000 R CNN
 F 2 "10106052 PowerPack:CAPC1608X86N" H 5438 2400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C106M9PACTU.pdf" H 5400 2550 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603" H 5400 2550 50  0001 C CNN "Description"
@@ -396,7 +396,7 @@ F 6 "C0603C106M9PACTM" H 5400 2550 50  0001 C CNN "Manufacturer_No"
 F 7 "BOM lists C0603C106M9PACTM but only TU was found" H 5400 2550 50  0001 C CNN "Note"
 F 8 "Kemet" H 5400 2550 50  0001 C CNN "Manufacturer"
 	1    5400 2550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 2400 5400 2250
