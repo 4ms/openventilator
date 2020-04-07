@@ -62,4 +62,10 @@ D DIODE TRANSIL 33V, SMA
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf
 $ENDCMP
 #
+$CMP SUD50P06-15
+D TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252
+K transistor PMOS P-MOS P-MOSFET
+F http://www.vishay.com/docs/72250/sud50p06.pdf
+$ENDCMP
+#
 #End Doc Library

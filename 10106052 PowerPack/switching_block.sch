@@ -624,7 +624,7 @@ F 7 "2N7002LT1G" H 6700 1775 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_GDSD T2
+L 10106052_PowerPack:Q_PMOS_GDSD T2
 U 1 1 5E8E25DA
 P 7775 1825
 F 0 "T2" H 7981 1779 50  0000 L CNN
@@ -639,7 +639,7 @@ F 7 "SUD50P06-15L-E3" H 7775 1825 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Q_PMOS_GDSD T4
+L 10106052_PowerPack:Q_PMOS_GDSD T4
 U 1 1 5E8E58ED
 P 7775 2700
 F 0 "T4" H 7981 2746 50  0000 L CNN
@@ -653,8 +653,6 @@ F 7 "SUD50P06-15L-E3" H 7775 2700 50  0001 C CNN "Manufacturer_No"
 	1    7775 2700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7875 2500 7875 2425
 $Comp
 L Device:R R2
 U 1 1 5E8E8E09
@@ -874,7 +872,7 @@ F 7 "2N7002LT1G" H 5950 4525 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_GDSD T8
+L 10106052_PowerPack:Q_PMOS_GDSD T8
 U 1 1 5E94B6D5
 P 7025 4575
 F 0 "T8" H 7231 4529 50  0000 L CNN
@@ -889,7 +887,7 @@ F 7 "SUD50P06-15L-E3" H 7025 4575 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Q_PMOS_GDSD T9
+L 10106052_PowerPack:Q_PMOS_GDSD T9
 U 1 1 5E94B6DB
 P 7025 5450
 F 0 "T9" H 7231 5496 50  0000 L CNN
@@ -903,8 +901,6 @@ F 7 "SUD50P06-15L-E3" H 7025 5450 50  0001 C CNN "Manufacturer_No"
 	1    7025 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7125 5250 7125 5175
 $Comp
 L Device:R R18
 U 1 1 5E94B6E2
@@ -1598,7 +1594,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 9075 10600 9225
 Wire Wire Line
-	10150 9225 10600 9225
+	10150 9225 10250 9225
 Wire Wire Line
 	10150 8975 10900 8975
 $Comp
@@ -1718,7 +1714,7 @@ Wire Wire Line
 Wire Wire Line
 	8375 8725 7575 8725
 $Comp
-L Device:Q_PMOS_GDSD T14
+L 10106052_PowerPack:Q_PMOS_GDSD T14
 U 1 1 5EAD2156
 P 6650 7325
 F 0 "T14" V 6875 7100 50  0000 L CNN
@@ -1868,8 +1864,6 @@ F 7 "RC0603FR-0747KL" H 5775 8075 50  0001 C CNN "Manufacturer_No"
 	1    5775 8075
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6450 7225 6375 7225
 Connection ~ 5775 7225
 Wire Wire Line
 	5775 7925 5775 7225
@@ -2271,41 +2265,6 @@ F 3 "~" H 2750 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7225 5250 7225 5175
-Wire Wire Line
-	7225 5175 7125 5175
-Connection ~ 7125 5175
-Wire Wire Line
-	7125 5175 7125 4850
-Wire Wire Line
-	7225 4775 7225 4850
-Wire Wire Line
-	7225 4850 7125 4850
-Connection ~ 7125 4850
-Wire Wire Line
-	7125 4850 7125 4775
-Wire Wire Line
-	7975 2025 7975 2100
-Wire Wire Line
-	7975 2100 7875 2100
-Connection ~ 7875 2100
-Wire Wire Line
-	7875 2100 7875 2025
-Wire Wire Line
-	7975 2500 7975 2425
-Wire Wire Line
-	7975 2425 7875 2425
-Connection ~ 7875 2425
-Wire Wire Line
-	7875 2425 7875 2100
-Wire Wire Line
-	6450 7125 6375 7125
-Wire Wire Line
-	6375 7125 6375 7225
-Connection ~ 6375 7225
-Wire Wire Line
-	6375 7225 5775 7225
-Wire Wire Line
 	2900 2200 2750 2200
 Wire Wire Line
 	4150 2700 4150 3825
@@ -2330,4 +2289,21 @@ Wire Wire Line
 Connection ~ 5300 975 
 Wire Wire Line
 	5300 975  7875 975 
+Wire Wire Line
+	10150 9125 10250 9125
+Wire Wire Line
+	10250 9125 10250 9225
+Connection ~ 10250 9225
+Wire Wire Line
+	10250 9225 10600 9225
+Wire Wire Line
+	10150 9325 10250 9325
+Wire Wire Line
+	10250 9325 10250 9225
+Wire Wire Line
+	7875 2025 7875 2500
+Wire Wire Line
+	7125 4775 7125 5250
+Wire Wire Line
+	5775 7225 6450 7225
 $EndSCHEMATC
