@@ -1,0 +1,561 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.015_1206
+D Resistor
+K R res resistor
+F https://www.mouser.com/datasheet/2/414/LR-1528312.pdf
+$ENDCMP
+#
+$CMP 0.015_2010
+D Resistor
+K R res resistor
+F http://www.vishay.com/docs/31057/wslhigh.pdf
+$ENDCMP
+#
+$CMP 0.015_2512
+D Resistor
+K R res resistor
+F https://www.mouser.com/datasheet/2/414/LR-1528312.pdf
+$ENDCMP
+#
+$CMP 0.01uF
+D Unpolarized capacitor
+K cap capacitor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP 0.033uF
+D Unpolarized capacitor
+K cap capacitor
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 0.05_2010
+D Resistor
+K R res resistor
+F https://www.seielect.com/catalog/sei-csr_csrn.pdf
+$ENDCMP
+#
+$CMP 0.1uF
+D Unpolarized capacitor
+K cap capacitor
+F https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf
+$ENDCMP
+#
+$CMP 0.1uF_0805
+D Unpolarized capacitor
+K cap capacitor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP 0.22uF
+D Unpolarized capacitor
+K cap capacitor
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey
+$ENDCMP
+#
+$CMP 0.22uF_1206
+D Unpolarized capacitor
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C1206C224J5RACTU.pdf
+$ENDCMP
+#
+$CMP 0.33uF
+D Unpolarized capacitor
+K cap capacitor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP 1.1A_Polyfuse
+D Resettable fuse, polymeric positive temperature coefficient
+K resettable fuse PTC PPTC polyfuse polyswitch
+F https://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf
+$ENDCMP
+#
+$CMP 1.24k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 1.37k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 1.5M
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 1.5k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 1.5k_1206
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 1.62k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 10.2k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 100
+D Resistor
+K R res resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP 1000pF
+D Unpolarized capacitor
+K cap capacitor
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 100_1206
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 100k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 100k_0.1pcnt
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 100pF
+D Unpolarized capacitor
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C101JB81PNC.jsp
+$ENDCMP
+#
+$CMP 100uF
+D Unpolarized capacitor
+K cap capacitor
+F https://api.kemet.com/component-edge/download/specsheet/C1206C107M9PACTU.pdf
+$ENDCMP
+#
+$CMP 100uF_Alum
+D Polarised capacitor
+K cap capacitor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1V101P+7+WW
+$ENDCMP
+#
+$CMP 10k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 10k_0.1pcnt
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 10uF
+D Unpolarized capacitor
+K cap capacitor
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey
+$ENDCMP
+#
+$CMP 110k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 12k
+D Resistor
+K R res resistor
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP 13.7k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 16.2k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 1M
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 1N5819
+D DIODE SCHOTTKY 40V 1A SOD123
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds30217.pdf
+$ENDCMP
+#
+$CMP 1k
+D Resistor
+K R res resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP 1k_1206
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 1uF
+D Unpolarized capacitor
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C0603C105K9PACTU.pdf
+$ENDCMP
+#
+$CMP 1uF_0805
+D Unpolarized capacitor
+K cap capacitor
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 2.2uF
+D Unpolarized capacitor
+K cap capacitor
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK316B7225KLHT%20%20&u=M
+$ENDCMP
+#
+$CMP 2.7k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 2.87k
+D Resistor
+K R res resistor
+F https://www.mouser.com/datasheet/2/414/PCF-1528243.pdf
+$ENDCMP
+#
+$CMP 220uF_Alum
+D Polarised capacitor
+K cap capacitor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1C221P+7+WW
+$ENDCMP
+#
+$CMP 22k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 22pF
+D Unpolarized capacitor
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C220JB8NNNC.jsp
+$ENDCMP
+#
+$CMP 22uF
+D Unpolarized capacitor
+K cap capacitor
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK325BJ226KMHP%20&u=M
+$ENDCMP
+#
+$CMP 22uF_2220
+D Unpolarized capacitor
+K cap capacitor
+F https://api.kemet.com/component-edge/download/specsheet/C2220X226K3RACAUTO.pdf
+$ENDCMP
+#
+$CMP 27
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 270_0805
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 27k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 2N7002AQ
+D N-channel MOSFET, 60V Vds, 200 mA Id, SOT23, AEC-Q101, Diodes Incorporated
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/2N7002AQ.pdf
+$ENDCMP
+#
+$CMP 3.24k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 3.3k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 33
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 330uF_Alum
+D Polarised capacitor
+K cap capacitor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1V331P+7+WW
+$ENDCMP
+#
+$CMP 33k
+D Resistor
+K R res resistor
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP 33pF
+D Unpolarized capacitor
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C330JB81PNC.jsp
+$ENDCMP
+#
+$CMP 390_2616
+D Resistor
+K R res resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP 39k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 4.7k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 4.7uF
+D Unpolarized capacitor
+K cap capacitor
+F https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf
+$ENDCMP
+#
+$CMP 40.2k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 4700pF
+D Unpolarized capacitor
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C0603C472K5RACTU.pdf
+$ENDCMP
+#
+$CMP 470_0805
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 470k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP 470pF
+D Unpolarized capacitor
+K cap capacitor
+F https://psearch.en.murata.com/capacitor/product/GCM155R71H471KA37%23.pdf
+$ENDCMP
+#
+$CMP 47k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 47pF
+D Unpolarized capacitor
+K cap capacitor
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us
+$ENDCMP
+#
+$CMP 47pF_array
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf
+$ENDCMP
+#
+$CMP 56pF
+D Unpolarized capacitor
+K cap capacitor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP 66.5k
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 74279218
+D Ferrite bead, 600 Ohm +/- 25% @ 100MHz, RDC 100 mOhm max, IDC 1.2A max
+K L ferrite bead inductor filter
+F https://katalog.we-online.de/pbs/datasheet/74279218.pdf
+$ENDCMP
+#
+$CMP 74279266
+D Ferrite bead, 1k Ohm +/- 25% @ 100MHz, RDC 600 mOhm max, IDC 0.2A max
+K L ferrite bead inductor filter
+F https://katalog.we-online.de/pbs/datasheet/74279266.pdf
+$ENDCMP
+#
+$CMP 82356050050
+D 0603 ESD Suppressor LC
+K 0603 ESD Suppressor LCC
+F https://katalog.we-online.de/pbs/datasheet/82356050050.pdf
+$ENDCMP
+#
+$CMP 86.6k
+D Resistor
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP B72500T0040M060
+D Voltage dependent resistor 8V 30A
+K VDR resistance varistor
+F https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Standard_series.pdf
+$ENDCMP
+#
+$CMP B72520T0300K062
+D Voltage dependent resistor 47V 200A
+K VDR resistance varistor
+F https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Standard_series.pdf
+$ENDCMP
+#
+$CMP BAT54C
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf
+$ENDCMP
+#
+$CMP BAT54L
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F http://www.onsemi.com/pub/Collateral/BAT54LT1-D.PDF
+$ENDCMP
+#
+$CMP BZX84C4V7
+D zener diode, 350mW, 4.7V
+K zener diode
+F https://4donline.ihs.com/images/VipMasterIC/IC/ONSM/ONSM-S-A0003405162/ONSM-S-A0003405162-1.pdf?hkey=EC6BD57738AE6E33B588C5F9AD3CEFA7
+$ENDCMP
+#
+$CMP BZX84C5V1
+D zener diode, 350mW, 5.1V
+K zener diode
+F https://www.diodes.com/assets/Datasheets/ds18001.pdf
+$ENDCMP
+#
+$CMP DLP31SN551ML2L
+D Chip Common Mode Choke Coil, 550 Ohm +/- 20% @ 100MHz, 100mA, 16V, 40V max
+K EMI filter Chip Common Mode Choke Coil
+F https://www.murata.com/en-eu/products/productdata/8796756410398/EFLE0007.pdf
+$ENDCMP
+#
+$CMP IRFR024NTRPBF
+D 17A Id, 55V Vds, 75mOhm Rds, N-Channel MOSFET, DPAK (TO-252AA)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c
+$ENDCMP
+#
+$CMP IRLML2803TRPBF
+D 1.2A Id, 30V Vds, 250mOhm Rds, N-Channel MOSFET, SOT23
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f
+$ENDCMP
+#
+$CMP IRLML5103TRPBF
+D -0.76A Id, -30V Vds, 0.60Ohm Rds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml5103pbf.pdf?fileId=5546d462533600a401535668505d2617
+$ENDCMP
+#
+$CMP MH2029-221Y
+D Ferrite bead, 220 Ohm +/- 25% @ 100MHz, RDC 100 mOhm max, IDC 2A max
+K L ferrite bead inductor filter
+F https://www.bourns.com/docs/Product-Datasheets/mh.pdf
+$ENDCMP
+#
+$CMP SI7884BDP-T1-GE3
+D 58A Id, 40V Vds, 7.5mOhm Rds, N-Channel MOSFET, PowerPAK_SO-8
+K N-Channel MOSFET
+F http://www.vishay.com/docs/68395/si7884bd.pdf
+$ENDCMP
+#
+$CMP SMCJ33C
+D transient-voltage-suppression (TVS), 33V, 1500W, 200A, SMC
+K diode TVS transient voltage supressor SMC
+F https://www.diodes.com/assets/Datasheets/ds40741.pdf
+$ENDCMP
+#
+$CMP STPS340U
+D DIODE SCHOTTKY 40V 1A SOD123
+K diode Schottky
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/db/21/0c/04/d9/41/a5/CD00000844.pdf/files/CD00000844.pdf/jcr:content/translations/en.CD00000844.pdf
+$ENDCMP
+#
+$CMP SUD50P06-15L-E3
+D 50A Id, 60V Vds, P-Channel Power MOSFET, 20mOhm Ron @ -10V, 110nC, 160nC max. Qg, -55 to 175 °C, TO-252-2
+K P-Channel Power MOSFET
+F http://www.vishay.com/docs/72250/sud50p06.pdf
+$ENDCMP
+#
+$CMP SZ1SMB
+D transient-voltage-suppression (TVS), 36V, 5A, unidirectional
+K diode TVS transient voltage supressor SMB
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP Thermistor_NTC_10k_4250K
+D Temperature dependent resistor
+K R res thermistor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AUA0001+ERTJ1VR103J+7+WW
+$ENDCMP
+#
+#End Doc Library
