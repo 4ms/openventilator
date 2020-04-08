@@ -1,3 +1,7 @@
 (sym_lib_table
-  (lib (name "10005011 Power Management")(type "Legacy")(uri "${KIPRJMOD}/10005011 Power Management.lib")(options "")(descr ""))
+  (lib (name 10005011_Power_Management_Schematic_Symbols)(type Legacy)(uri "${KIPRJMOD}/10005011 Power Management Schematic Symbols.lib")(options "")(descr ""))
+  (lib (name 10005011_Power_Management)(type Legacy)(uri "${KIPRJMOD}/10005011 Power Management.lib")(options "")(descr ""))
+  (lib (name page1)(type Legacy)(uri ${KIPRJMOD}/page1.lib)(options "")(descr ""))
+  (lib (name page2)(type Legacy)(uri ${KIPRJMOD}/page2.lib)(options "")(descr ""))
+  (lib (name page3)(type Legacy)(uri ${KIPRJMOD}/page3.lib)(options "")(descr ""))
 )

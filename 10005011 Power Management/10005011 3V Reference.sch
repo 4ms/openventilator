@@ -1,9 +1,10 @@
-EESchema Schematic File Version 5
-EELAYER 33 0
+EESchema Schematic File Version 4
+LIBS:10005011 Power Management-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev "1"
@@ -12,11 +13,6 @@ Comment1 "Design for OSHPark 4-Layer Service"
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 4950 4175
 Connection ~ 4950 3625
@@ -24,8 +20,6 @@ Connection ~ 6250 3625
 Connection ~ 6950 4075
 Connection ~ 4500 3625
 Connection ~ 6950 3625
-Wire Wire Line
-	4150 3625 4500 3625
 Wire Wire Line
 	4500 3275 4500 3625
 Wire Wire Line
@@ -59,8 +53,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 4075 6950 4075
 Wire Wire Line
-	6950 3275 6950 3625
-Wire Wire Line
 	6950 3625 6950 3725
 Wire Wire Line
 	6950 3625 7500 3625
@@ -68,14 +60,14 @@ Wire Wire Line
 	6950 4075 6950 4025
 Wire Wire Line
 	6950 4075 6950 4250
-Text HLabel 4150 3625 0    50   Input ~ 0
-+5V
-Text HLabel 7500 3625 2    50   Input ~ 0
-+3V0
+Text HLabel 7500 3625 2    50   Output ~ 0
++3.0VREF
 $Comp
 L power:+5V #PWR?
 U 1 1 5E9171D8
 P 4500 3275
+AR Path="/5E88D608/5E9171D8" Ref="#PWR?"  Part="1" 
+AR Path="/5E8E2802/5E9171D8" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4500 3125 50  0001 C CNN
 F 1 "+5V" H 4550 3475 50  0000 C CNN
 F 2 "" H 4500 3275 50  0001 C CNN
@@ -84,20 +76,11 @@ F 3 "" H 4500 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V0 #PWR?
-U 1 1 5E917646
-P 6950 3275
-F 0 "#PWR?" H 6950 3125 50  0001 C CNN
-F 1 "+3V0" H 7000 3500 50  0000 C CNN
-F 2 "" H 6950 3275 50  0001 C CNN
-F 3 "" H 6950 3275 50  0001 C CNN
-	1    6950 3275
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR?
 U 1 1 5E91A751
 P 4950 4250
+AR Path="/5E88D608/5E91A751" Ref="#PWR?"  Part="1" 
+AR Path="/5E8E2802/5E91A751" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4950 4000 50  0001 C CNN
 F 1 "GNDA" H 5000 4025 50  0000 C CNN
 F 2 "" H 4950 4250 50  0001 C CNN
@@ -109,6 +92,8 @@ $Comp
 L power:GNDA #PWR?
 U 1 1 5E91B4CA
 P 6950 4250
+AR Path="/5E88D608/5E91B4CA" Ref="#PWR?"  Part="1" 
+AR Path="/5E8E2802/5E91B4CA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6950 4000 50  0001 C CNN
 F 1 "GNDA" H 7000 4025 50  0000 C CNN
 F 2 "" H 6950 4250 50  0001 C CNN
@@ -117,10 +102,12 @@ F 3 "" H 6950 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C59
+L Device:C C?
 U 1 1 5E911F09
 P 4500 3975
-F 0 "C59" H 4650 4050 50  0000 L CNN
+AR Path="/5E88D608/5E911F09" Ref="C?"  Part="1" 
+AR Path="/5E8E2802/5E911F09" Ref="C?"  Part="1" 
+F 0 "C?" H 4650 4050 50  0000 L CNN
 F 1 "100nF" H 4650 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4538 3825 50  0001 C CNN
 F 3 "~" H 4500 3975 50  0001 C CNN
@@ -130,10 +117,12 @@ F 5 "GRM155R71C104JA88J" H 4500 3975 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C57
+L Device:C C?
 U 1 1 5E912A33
 P 6250 3875
-F 0 "C57" H 6375 3950 50  0000 L CNN
+AR Path="/5E88D608/5E912A33" Ref="C?"  Part="1" 
+AR Path="/5E8E2802/5E912A33" Ref="C?"  Part="1" 
+F 0 "C?" H 6375 3950 50  0000 L CNN
 F 1 "1uF" H 6375 3850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 3725 50  0001 C CNN
 F 3 "~" H 6250 3875 50  0001 C CNN
@@ -143,10 +132,12 @@ F 5 "0805YC105KAT2A" H 6250 3875 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C58
+L Device:C C?
 U 1 1 5E91C190
 P 6950 3875
-F 0 "C58" H 7100 3950 50  0000 L CNN
+AR Path="/5E88D608/5E91C190" Ref="C?"  Part="1" 
+AR Path="/5E8E2802/5E91C190" Ref="C?"  Part="1" 
+F 0 "C?" H 7100 3950 50  0000 L CNN
 F 1 "100nF" H 7100 3850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6988 3725 50  0001 C CNN
 F 3 "~" H 6950 3875 50  0001 C CNN
@@ -156,10 +147,12 @@ F 5 "GRM155R71C104JA88J" H 6950 3875 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reference_Voltage:LM4120AIM5-3.0 IC12
+L Reference_Voltage:LM4120AIM5-3.0 IC?
 U 1 1 5E911405
 P 5475 3825
-F 0 "IC12" H 5500 4350 50  0000 C CNN
+AR Path="/5E88D608/5E911405" Ref="IC?"  Part="1" 
+AR Path="/5E8E2802/5E911405" Ref="IC?"  Part="1" 
+F 0 "IC?" H 5500 4350 50  0000 C CNN
 F 1 "LM4120AIM5-3.0" H 5500 4250 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5175 3325 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4120.pdf" H 6075 3225 50  0001 C CIN
