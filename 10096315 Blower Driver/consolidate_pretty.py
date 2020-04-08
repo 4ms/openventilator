@@ -23,15 +23,16 @@ def do_delete(path, rel_dir='', debug=False):
     else:
         os.remove(os.path.join(rel_dir, path))
 
+# Step 1: consolidate
 lib_path = sys.argv[1]
-p = re.compile(r'(.*)_\d+')
+p_filename = re.compile(r'(.*)_\d+')
 consolidated_mods = []
 for entry in os.scandir(lib_path):
     if entry.is_file() and entry.name.endswith('.kicad_mod'):
         # First get name before file extension
         mod_name = '.'.join(entry.name.split('.')[:-1])
         # Strip out last underscore + number, if present
-        m = p.match(mod_name)
+        m = p_filename.match(mod_name)
         if m:
             new_mod_name = m.group(1) + '.kicad_mod'
             # If we've seen this pattern before, delete file
@@ -42,10 +43,20 @@ for entry in os.scandir(lib_path):
                 consolidated_mods.append(new_mod_name)
                 # ...and rename the file
                 do_rename(entry.name, new_mod_name, rel_dir=lib_path, 
-                    debug=DEBUG)
+                    debug=DEBUG)                    
         else:
             print('!!! Regex did not match name {} !!!'.format(mod_name))
     if DEBUG:
         print('New file list would be:\n{}'.format(consolidated_mods))
-            
-
+        
+# Step 2: clean up reference name
+p_reference = re.compile(r'REF\*\*')
+for entry in os.scandir(lib_path):
+    if entry.is_file() and entry.name.endswith('.kicad_mod'):
+        if not DEBUG:
+            with open(entry, 'r') as f:
+                contents = f.read()
+            new_contents = p_reference.sub(r'fp_test reference REF**', contents)
+            with open(entry, 'w') as f:
+                f.write(new_contents)
+    

@@ -1,6 +1,6 @@
 (module FU154000_1 (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference F1 (at 1.4224 -3.6322 unlocked) (layer F.SilkS)
+  (fp_test reference REF** (at 1.4224 -3.6322 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_text value FU-BC-154000 (at 4.7244 -0.7874 unlocked) (layer F.SilkS) hide

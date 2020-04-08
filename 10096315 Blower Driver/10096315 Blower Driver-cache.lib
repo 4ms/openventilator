@@ -432,7 +432,7 @@ ENDDEF
 #
 # Blower_Driver_Components_FilterBNX002011
 #
-DEF Blower_Driver_Components_FilterBNX002011 FL 0 40 Y N 1 F N
+DEF Blower_Driver_Components_FilterBNX002011 FL 0 40 Y Y 1 F N
 F0 "FL" -400 200 50 H V C CNN
 F1 "Blower_Driver_Components_FilterBNX002011" -50 400 50 H V C CNN
 F2 "" -300 300 50 H I C CNN

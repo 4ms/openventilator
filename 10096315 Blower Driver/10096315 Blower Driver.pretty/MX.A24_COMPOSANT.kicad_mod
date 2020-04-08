@@ -1,6 +1,6 @@
 (module MX.A24_COMPOSANT_1 (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference IC1 (at 0.4826 0.8509 -90 unlocked) (layer F.SilkS)
+  (fp_test reference REF** (at 0.4826 0.8509 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_text value L-BC-SO24 (at 0.7874 3.5433 -90 unlocked) (layer F.SilkS) hide

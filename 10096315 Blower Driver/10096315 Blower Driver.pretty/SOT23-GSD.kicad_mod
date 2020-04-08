@@ -1,6 +1,6 @@
 (module SOT23-GSD_2 (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference T8 (at 2.667 -0.5842 unlocked) (layer F.SilkS)
+  (fp_test reference REF** (at 2.667 -0.5842 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_text value Q-SOT23-IRLML2803 (at 6.6929 -0.7874 unlocked) (layer F.SilkS) hide

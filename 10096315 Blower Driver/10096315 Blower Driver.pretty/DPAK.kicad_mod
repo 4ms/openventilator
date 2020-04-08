@@ -1,6 +1,6 @@
 (module DPAK_1 (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference IC6 (at -0.7747 0.4826 unlocked) (layer F.SilkS)
+  (fp_test reference REF** (at -0.7747 0.4826 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.0762)))
   )
   (fp_text value REG-BC-DPAK (at -4.3307 0.7874 unlocked) (layer F.SilkS) hide

@@ -1,6 +1,6 @@
 (module SMA_3 (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference D10 (at -0.4826 -0.6731 -270 unlocked) (layer F.SilkS)
+  (fp_test reference REF** (at -0.4826 -0.6731 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_text value D-BC-SMA (at -0.7874 -3.1496 -270 unlocked) (layer F.SilkS) hide
