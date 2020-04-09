@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "10106052 PowerPack")(type KiCad)(uri "${KIPRJMOD}/10106052 PowerPack.pretty")(options "")(descr ""))
+)
