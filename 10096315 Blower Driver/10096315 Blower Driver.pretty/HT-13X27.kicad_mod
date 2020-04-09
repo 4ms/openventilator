@@ -1,9 +1,9 @@
-(module HT-13X27_2 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:HT-13X27" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference C29 (at -0.8001 -2.286 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.8001 -2.286 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value C-BTP-HT1327 (at 4.7244 -0.7874 unlocked) (layer F.SilkS) hide
+  (fp_text value HT-13X27 (at 4.7244 -0.7874 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start 1.27 6.477) (end 1.27 -5.7912) (layer F.SilkS) (width 0.1778))

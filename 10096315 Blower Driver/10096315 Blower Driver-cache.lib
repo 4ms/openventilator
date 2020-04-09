@@ -432,7 +432,7 @@ ENDDEF
 #
 # Blower_Driver_Components_FilterBNX002011
 #
-DEF Blower_Driver_Components_FilterBNX002011 FL 0 40 Y N 1 F N
+DEF Blower_Driver_Components_FilterBNX002011 FL 0 40 Y Y 1 F N
 F0 "FL" -400 200 50 H V C CNN
 F1 "Blower_Driver_Components_FilterBNX002011" -50 400 50 H V C CNN
 F2 "" -300 300 50 H I C CNN
@@ -928,6 +928,37 @@ DRAW
 P 2 0 1 10 -50 0 50 0 N
 X 1 1 -100 0 100 R 50 50 1 1 P
 X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_Fiducial
+#
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

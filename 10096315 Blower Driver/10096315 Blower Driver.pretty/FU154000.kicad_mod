@@ -1,9 +1,9 @@
-(module FU154000_1 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:FU154000" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference F1 (at 1.4224 -3.6322 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at 1.4224 -3.6322 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value FU-BC-154000 (at 4.7244 -0.7874 unlocked) (layer F.SilkS) hide
+  (fp_text value FU154000 (at 4.7244 -0.7874 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start 5.588 -2.1844) (end 5.588 -2.54) (layer F.SilkS) (width 0.1778))

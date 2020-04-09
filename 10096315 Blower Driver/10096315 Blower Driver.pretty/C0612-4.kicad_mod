@@ -1,9 +1,9 @@
-(module C0612-4_2 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:C0612-4" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference C23 (at -0.4572 -0.7239 -270 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.4572 -0.7239 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value CC-BC-C0612 (at -0.7874 -4.3307 -270 unlocked) (layer F.SilkS) hide
+  (fp_text value C0612-4 (at -0.7874 -4.3307 -270 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start 1.905 1.5748) (end 1.905 1.4224) (layer F.SilkS) (width 0.1778))

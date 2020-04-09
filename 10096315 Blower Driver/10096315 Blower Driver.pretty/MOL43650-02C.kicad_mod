@@ -1,9 +1,9 @@
-(module MOL43650-02C_1 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:MOL43650-02C" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference J1 (at -0.5588 4.5466 -180 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.5588 4.5466 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value F-COCMS-MOL43650-0212 (at -8.2677 0.7874 -180 unlocked) (layer F.SilkS) hide
+  (fp_text value MOL43650-02C (at -8.2677 0.7874 -180 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start -4.826 -0.1778) (end -2.413 -0.1778) (layer F.SilkS) (width 0.1778))
