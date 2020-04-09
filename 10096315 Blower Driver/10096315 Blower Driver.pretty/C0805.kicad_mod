@@ -1,9 +1,9 @@
-(module C0805_8 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:C0805" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_test reference REF** (at 4.3561 -0.1524 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at 4.3561 -0.1524 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value C-BC-C0805 (at 3.937 -0.7874 unlocked) (layer F.SilkS) hide
+  (fp_text value C0805 (at 3.937 -0.7874 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start -2.0574 1.0922) (end 2.0574 1.0922) (layer F.SilkS) (width 0.1778))

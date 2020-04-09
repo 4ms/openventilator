@@ -1,9 +1,9 @@
-(module MOL7395-2_1 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:MOL7395-2" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_test reference REF** (at 1.8034 -5.8674 -90 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at 1.8034 -5.8674 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value F-CO-MOL7395M02 (at 0.7874 5.9055 -90 unlocked) (layer F.SilkS) hide
+  (fp_text value MOL7395-2 (at 0.7874 5.9055 -90 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start 2.2098 -13.97) (end 2.54 -13.6398) (layer F.SilkS) (width 0.1778))

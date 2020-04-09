@@ -1,9 +1,9 @@
-(module R0603_17 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:R0603" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_test reference REF** (at 2.6289 -0.6096 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at 2.6289 -0.6096 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value R-BC-R0603 (at 3.937 -0.7874 unlocked) (layer F.SilkS) hide
+  (fp_text value R0603 (at 3.937 -0.7874 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start 1.4224 0.9398) (end 1.4224 0.1778) (layer F.SilkS) (width 0.1778))

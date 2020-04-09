@@ -1,9 +1,9 @@
-(module C7343_1 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:C7343" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_test reference REF** (at -0.1524 2.6924 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.1524 2.6924 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value C-BCP-C7343 (at 4.3307 -0.7874 unlocked) (layer F.SilkS) hide
+  (fp_text value C7343 (at 4.3307 -0.7874 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start -4.2926 -1.8796) (end -3.9624 -2.2098) (layer F.SilkS) (width 0.1778))

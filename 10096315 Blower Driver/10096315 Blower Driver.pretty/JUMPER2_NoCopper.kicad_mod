@@ -1,9 +1,9 @@
-(module JUMPER2_NoCopper (layer F.Cu) (tedit 5E8E1FD0)
+(module "10096315 Blower Driver:JUMPER2_NoCopper" (layer F.Cu) (tedit 5E8E1FD0)
   (attr virtual)
-  (fp_test reference REF** (at -3.81 0 unlocked) (layer F.SilkS)
-    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  (fp_text reference REF** (at -1.9304 0.3048 unlocked) (layer F.SilkS)
+    (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value Jumper (at 0 5.08 unlocked) (layer F.SilkS) hide
+  (fp_text value JUMPER2_NoCopper (at 7.62 -1.016 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
   (fp_line (start 0 -0.9525) (end 0 0.9525) (layer F.SilkS) (width 0.1778))

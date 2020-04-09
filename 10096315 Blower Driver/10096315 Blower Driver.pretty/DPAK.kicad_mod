@@ -1,9 +1,9 @@
-(module DPAK_1 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:DPAK" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_test reference REF** (at -0.7747 0.4826 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.7747 0.4826 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.0762)))
   )
-  (fp_text value REG-BC-DPAK (at -4.3307 0.7874 unlocked) (layer F.SilkS) hide
+  (fp_text value DPAK (at -4.3307 0.7874 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.0762)))
   )
   (fp_line (start 3.81 -1.5748) (end 3.81 5.2324) (layer F.SilkS) (width 0.1778))

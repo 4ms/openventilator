@@ -1,9 +1,9 @@
-(module MOL5566-2_1 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:MOL5566-2" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_test reference REF** (at -0.5588 -4.9911 -270 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.5588 -4.9911 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
-  (fp_text value F-CO-MOL5566-02 (at -0.7874 -5.9055 -270 unlocked) (layer F.SilkS) hide
+  (fp_text value MOL5566-2 (at -0.7874 -5.9055 -270 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_line (start 1.6764 -7.5438) (end 1.6764 -8.9916) (layer F.SilkS) (width 0.1778))

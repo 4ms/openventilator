@@ -6,6 +6,10 @@ import re
 # run, DEBUG = True, otherwise False
 DEBUG = False
 
+# Regex for references may be wonky; got some errors after running this.
+# Use this flag to enable/disable this functionality
+FIX_REFERENCES = False
+
 if len(sys.argv) != 2:
     raise ValueError(
         'Please provide a path to KiCad footprint library.')
@@ -50,13 +54,14 @@ for entry in os.scandir(lib_path):
         print('New file list would be:\n{}'.format(consolidated_mods))
         
 # Step 2: clean up reference name
-p_reference = re.compile(r'REF\*\*')
-for entry in os.scandir(lib_path):
-    if entry.is_file() and entry.name.endswith('.kicad_mod'):
-        if not DEBUG:
-            with open(entry, 'r') as f:
-                contents = f.read()
-            new_contents = p_reference.sub(r'fp_test reference REF**', contents)
-            with open(entry, 'w') as f:
-                f.write(new_contents)
+if FIX_REFERENCES:
+    p_reference = re.compile(r'fp_test reference REF\*\*')
+    for entry in os.scandir(lib_path):
+        if entry.is_file() and entry.name.endswith('.kicad_mod'):
+            if not DEBUG:
+                with open(entry, 'r') as f:
+                    contents = f.read()
+                new_contents = p_reference.sub(r'fp_test reference REF**', contents)
+                with open(entry, 'w') as f:
+                    f.write(new_contents)
     
