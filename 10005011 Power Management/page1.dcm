@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS2480B
+D Serial to 1-Wire Line Driver
+K 1-Wire 1wire uart serial
+F https://datasheets.maximintegrated.com/en/ds/DS2480B.pdf
+$ENDCMP
+#
+$CMP PIC18F6527
+D PIC18F nanoWatt Technology MCU, 40MHz, 48KB Flash, 3.84KB RAM, 1KB EEPROM, 2.0-5.5V, 54 GPIO, TQFP-64
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39960d.pdf
+$ENDCMP
+#
+$CMP PIC18F6622
+D PIC18F nanoWatt Technology MCU, 40MHz, 64KB Flash, 3.84KB RAM, 1KB EEPROM, 2.0-5.5V, 54 GPIO, TQFP-64
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39646c.pdf
+$ENDCMP
+#
+$CMP PIC18F6627
+D PIC18F nanoWatt Technology MCU, 40MHz, 96KB Flash, 3.84KB RAM, 1KB EEPROM, 2.0-5.5V, 54 GPIO, TQFP-64
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39646c.pdf
+$ENDCMP
+#
+$CMP PIC18F6722
+D PIC18F nanoWatt Technology MCU, 40MHz, 128KB Flash, 3.84KB RAM, 1KB EEPROM, 2.0-5.5V, 54 GPIO, TQFP-64
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39646c.pdf
+$ENDCMP
+#
+#End Doc Library

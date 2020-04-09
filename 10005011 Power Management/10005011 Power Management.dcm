@@ -1,3 +1,38 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0VANA
+D Power symbol creates a global label with name "0VANA" , analog ground
+K power-flag
+$ENDCMP
+#
+$CMP PGND
+D Power symbol creates a global label with name "PGND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP VACDC
+D Power symbol creates a global label with name "VACDC"
+K power-flag
+$ENDCMP
+#
+$CMP VALIM
+D Power symbol creates a global label with name "VALIM"
+K power-flag
+$ENDCMP
+#
+$CMP VALIM_PERM
+D Power symbol creates a global label with name "VALIM_PERM"
+K power-flag
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VBAT"
+K power-flag
+$ENDCMP
+#
+$CMP VDCEXT
+D Power symbol creates a global label with name "VDCEXT"
+K power-flag
+$ENDCMP
+#
 #End Doc Library
