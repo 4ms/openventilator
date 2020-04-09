@@ -1,9 +1,9 @@
-(module RC1206_4 (layer F.Cu) (tedit 0)
+(module "10096315 Blower Driver:RC1206" (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference R58 (at -0.5842 0.4064 -180 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.5842 0.4064 -180 unlocked) (layer F.SilkS)
     (effects (font (size 0.866445 0.911352) (thickness 0.0254)))
   )
-  (fp_text value R-BC-R1206 (at -3.302 0.6604 -180 unlocked) (layer F.SilkS) hide
+  (fp_text value RC1206 (at -3.302 0.6604 -180 unlocked) (layer F.SilkS) hide
     (effects (font (size 0.866445 0.911352) (thickness 0.0254)))
   )
   (fp_line (start -2.54 1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1778))
