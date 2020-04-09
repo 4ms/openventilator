@@ -77,6 +77,8 @@ Be sure to check for pinned messages as well as the channel topic for more infor
 
 **#powerpack-board** for the Power Pack Board. Lead by George Ioakimedes.
 
+**#turbine** for the blower turbine motor. Currently no lead.
+
 ### Firmware
 **#firmware-pic** for questions relating to the PIC Firmware. Currently no lead.
 
