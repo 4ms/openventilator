@@ -5,6 +5,12 @@ D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag
 $ENDCMP
 #
+$CMP CY7C67300-100AXI
+D IC,MICROCONTROLLER,TQFP100
+K 10022898
+F https://www.cypress.com/file/39146/download
+$ENDCMP
+#
 $CMP LT1620CMS8
 F https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf
 $ENDCMP
@@ -16,6 +22,18 @@ $ENDCMP
 $CMP PGND
 D Power symbol creates a global label with name "PGND" , ground
 K power-flag
+$ENDCMP
+#
+$CMP SI7884BDP
+D 58A Id, 40V Vds, 7.5mOhm Rds, N-Channel MOSFET, PowerPAK_SO-8
+K N-Channel MOSFET
+F http://www.vishay.com/docs/68395/si7884bd.pdf
+$ENDCMP
+#
+$CMP SN74LVC2T45
+D IC,RAM,3V3,64KX16,10NS,TSOP
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf
 $ENDCMP
 #
 $CMP VACDC

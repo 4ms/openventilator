@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title "USB/2UARTS CONVERTER"
 Date "2020-04-09"
 Rev ""
