@@ -1,4 +1,4 @@
-(module R0603 (layer F.Cu) (tedit 0)
+(module R0603 (layer F.Cu) (tedit 5E8F7CB7)
   (attr smd)
   (fp_text reference REF** (at 0.4445 0.4826 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))

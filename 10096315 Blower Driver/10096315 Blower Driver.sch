@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Blower_Driver_Components:Capacitor_100uF_CheckFootprint C2
-U 1 1 5E8B2649
-P 8800 2400
-F 0 "C2" H 8915 2491 50  0000 L CNN
-F 1 "Capacitor_100uF_CheckFootprint" H 8800 2850 50  0001 C CNN
-F 2 "10096315 Blower Driver:03515" H 8850 1950 50  0001 C CNN
-F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 8800 2850 50  0001 C CNN
-F 4 "UWT1H101MNL1GS" H 9350 2250 50  0001 C CNN "MPN"
-F 5 "100uF" H 8915 2400 50  0000 L CNN "Capacitance"
-F 6 "50V" H 8915 2309 50  0000 L CNN "Voltage"
-	1    8800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Blower_Driver_Components:Capacitor_470uF_CheckFootprint C27
 U 1 1 5E8B327E
 P 11150 2400
@@ -217,8 +203,6 @@ F 3 "" H 10050 2900 50  0001 C CNN
 	1    10050 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 2250 9300 2250
 Connection ~ 9300 2250
 Wire Wire Line
 	9300 2250 9700 2250
@@ -453,7 +437,7 @@ F 4 "C0603C222K5RAC7411" H 17450 4400 50  0001 C CNN "MPN"
 F 5 "2.2nF" V 16649 4550 50  0000 C CNN "Capacitance"
 F 6 "50V" V 16740 4550 50  0000 C CNN "Voltage"
 	1    16900 4550
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_680R R6
@@ -870,7 +854,7 @@ F 4 "C0603C222K5RAC7411" H 17450 7200 50  0001 C CNN "MPN"
 F 5 "2.2nF" V 16649 7350 50  0000 C CNN "Capacitance"
 F 6 "50V" V 16740 7350 50  0000 C CNN "Voltage"
 	1    16900 7350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_680R R9
@@ -1273,7 +1257,7 @@ F 4 "C0603C222K5RAC7411" H 17450 10100 50  0001 C CNN "MPN"
 F 5 "2.2nF" V 16649 10250 50  0000 C CNN "Capacitance"
 F 6 "50V" V 16740 10250 50  0000 C CNN "Voltage"
 	1    16900 10250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Blower_Driver_Components:Resistor_680R R10
@@ -1302,12 +1286,12 @@ F 5 "10" V 18900 9750 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T8
+L Blower_Driver_Components:MOSFET_NMOS_55V T6
 U 1 1 5E9B3294
 P 19450 9750
-F 0 "T8" H 19555 9796 50  0000 L CNN
+F 0 "T6" H 19555 9796 50  0000 L CNN
 F 1 "MOSFET_NMOS_55V" H 19450 10250 50  0001 C CNN
-F 2 "10096315 Blower Driver:SOT23-GSD" H 19500 9100 50  0001 C CNN
+F 2 "10096315 Blower Driver:DPAK-GDS" H 19500 9100 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c" H 19450 10150 50  0001 C CNN
 F 4 "IRFR024NTRPBF" H 18750 9950 50  0000 L CNN "MPN"
 	1    19450 9750
@@ -1770,7 +1754,7 @@ F 6 "1W" H 10870 12309 50  0000 L CNN "Power"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_0R047 R1
+L 10096315-Blower-Driver-rescue:Resistor_0R047-Blower_Driver_Components R1
 U 1 1 5EB3A530
 P 11150 12400
 F 0 "R1" H 11220 12491 50  0000 L CNN
@@ -1836,12 +1820,12 @@ F 6 "50V" H 8015 12459 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_30V T6
+L Blower_Driver_Components:MOSFET_NMOS_30V T8
 U 1 1 5EBD377C
 P 6850 10800
-F 0 "T6" H 6955 10846 50  0000 L CNN
+F 0 "T8" H 6955 10846 50  0000 L CNN
 F 1 "MOSFET_NMOS_30V" H 6850 11300 50  0001 C CNN
-F 2 "10096315 Blower Driver:DPAK-GDS" H 6900 10150 50  0001 C CNN
+F 2 "10096315 Blower Driver:SOT23-GSD" H 6900 10150 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" H 6850 11200 50  0001 C CNN
 F 4 "IRLML2803TRPBF" H 6955 10755 50  0000 L CNN "MPN"
 	1    6850 10800
@@ -2792,7 +2776,6 @@ Wire Notes Line
 	11550 8450 11550 6100
 Wire Notes Line
 	11550 3250 11550 1550
-Connection ~ 8800 2250
 $Comp
 L Blower_Driver_Components:Capacitor_1000uF C28
 U 1 1 60BCDCF3
@@ -2878,8 +2861,6 @@ Wire Wire Line
 	10400 12900 10800 12900
 Connection ~ 10800 12900
 NoConn ~ 5650 2650
-NoConn ~ 15100 7450
-NoConn ~ 14400 7450
 $Comp
 L power:GND #PWR0136
 U 1 1 5EA589FF
@@ -2936,8 +2917,6 @@ Wire Wire Line
 	14250 10250 14250 10200
 Wire Wire Line
 	14250 10200 14400 10200
-NoConn ~ 14400 10350
-NoConn ~ 15100 10350
 $Comp
 L Blower_Driver_Components:Capacitor_100nF C26
 U 1 1 5ED560B6
@@ -3178,8 +3157,6 @@ F 3 "~" H 6950 2200 50  0001 C CNN
 $EndComp
 Connection ~ 6950 2250
 Wire Wire Line
-	6950 2250 8800 2250
-Wire Wire Line
 	6700 1900 6700 2250
 $Comp
 L power:GND #PWR0142
@@ -3374,4 +3351,50 @@ F 3 "~" H 4850 7250 50  0001 C CNN
 	1    4850 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 2250 8800 2250
+$Comp
+L Blower_Driver_Components:Capacitor_100uF_CheckFootprint C2
+U 1 1 5E9F7083
+P 8800 2400
+F 0 "C2" H 8915 2491 50  0000 L CNN
+F 1 "Capacitor_100uF_CheckFootprint" H 8800 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 8850 1950 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 8800 2850 50  0001 C CNN
+F 4 "UWT1H101MNL1GS" H 9350 2250 50  0001 C CNN "MPN"
+F 5 "100uF" H 8915 2400 50  0000 L CNN "Capacitance"
+F 6 "50V" H 8915 2309 50  0000 L CNN "Voltage"
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 8800 2250
+Wire Wire Line
+	8800 2250 9300 2250
+Text Label 21400 7300 0    50   ~ 0
+PHA3
+Text Label 21400 7400 0    50   ~ 0
+PHA2
+Text Label 21400 7500 0    50   ~ 0
+PHA1
+Wire Wire Line
+	16550 4850 17850 4850
+Wire Wire Line
+	17850 4850 17850 4350
+Wire Wire Line
+	17850 4350 19450 4350
+Connection ~ 16550 4850
+Wire Wire Line
+	16550 7650 17800 7650
+Wire Wire Line
+	17800 7650 17800 7150
+Wire Wire Line
+	17800 7150 19450 7150
+Connection ~ 16550 7650
+Wire Wire Line
+	16550 10550 17900 10550
+Wire Wire Line
+	17900 10550 17900 10050
+Wire Wire Line
+	17900 10050 19450 10050
+Connection ~ 16550 10550
 $EndSCHEMATC
