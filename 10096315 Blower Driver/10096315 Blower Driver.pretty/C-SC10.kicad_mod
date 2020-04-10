@@ -42,4 +42,6 @@
   (fp_line (start -1.27 4.8006) (end 1.27 4.8006) (layer F.Fab) (width 0.0762))
   (fp_line (start -5.1816 -3.2766) (end -3.2766 -5.1816) (layer F.Fab) (width 0.3048))
   (fp_line (start -2.1082 4.5212) (end 2.159 4.5212) (layer F.Fab) (width 0.0762))
+  (pad - smd rect (at 0 4.191) (size 1.905 4.4196) (layers F.Cu F.Paste F.Mask))
+  (pad + smd rect (at 0 -4.191) (size 1.905 4.4196) (layers F.Cu F.Paste F.Mask))
 )
