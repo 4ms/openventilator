@@ -1270,10 +1270,10 @@ F 3 "" H 2100 7600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:1N5819 D?
+L 10005011_Power_Management_Schematic_Symbols:1N5819 CR2
 U 1 1 5ED2E3CA
 P 1200 6600
-F 0 "D?" V 1246 6521 50  0000 R CNN
+F 0 "CR2" V 1246 6521 50  0000 R CNN
 F 1 "1N5819" V 1155 6521 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1200 6600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 1200 6600 50  0001 C CNN
@@ -1286,10 +1286,10 @@ F 8 "DIODE SCHOTTKY 40V 1A SOD123" H 1200 6600 50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:1N5819 D?
+L 10005011_Power_Management_Schematic_Symbols:1N5819 CR1
 U 1 1 5ED2EC1E
 P 5200 6600
-F 0 "D?" V 5246 6521 50  0000 R CNN
+F 0 "CR1" V 5246 6521 50  0000 R CNN
 F 1 "1N5819" V 5155 6521 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5200 6600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 5200 6600 50  0001 C CNN
