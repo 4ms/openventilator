@@ -989,11 +989,11 @@ P 3550 7250
 F 0 "IC10" H 3900 8400 50  0000 C CNN
 F 1 "LTC3780" H 4000 8300 50  0000 C CNN
 F 2 "" H 3550 7250 50  0001 C CNN
-F 3 "" H 3550 7250 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3780.pdf" H 3550 7250 50  0001 C CNN
 F 4 "IC,SYNCHRONOUS CONTROLLER,SSOP" H 3550 7250 50  0001 C CNN "Description"
 F 5 "10022894" H 3550 7250 50  0001 C CNN "Item Number"
-F 6 "" H 3550 7250 50  0001 C CNN "Manufacturer"
-F 7 "" H 3550 7250 50  0001 C CNN "Manufacturer_No"
+F 6 "LINEAR TECHNOLOGY_RMS1" H 3550 7250 50  0001 C CNN "Manufacturer"
+F 7 "LTC3780IG#TRPBF" H 3550 7250 50  0001 C CNN "Manufacturer_No"
 	1    3550 7250
 	1    0    0    -1  
 $EndComp
@@ -1837,11 +1837,11 @@ P 11200 2900
 F 0 "IC9" H 11350 3450 50  0000 L CNN
 F 1 "LT1620CMS8" H 11350 3350 50  0000 L CNN
 F 2 "" H 11200 2900 50  0001 C CNN
-F 3 "" H 11200 2900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf" H 11200 2900 50  0001 C CNN
 F 4 "IC,CURRENT AMPLIFIER,MSOP" H 11200 2900 50  0001 C CNN "Description"
 F 5 "10022893" H 11200 2900 50  0001 C CNN "Item Number"
-F 6 "" H 11200 2900 50  0001 C CNN "Manufacturer"
-F 7 "" H 11200 2900 50  0001 C CNN "Manufacturer_No"
+F 6 "LINEAR TECHNOLOGY_RMS1" H 11200 2900 50  0001 C CNN "Manufacturer"
+F 7 "LT1620CMS8#TRPBF" H 11200 2900 50  0001 C CNN "Manufacturer_No"
 	1    11200 2900
 	1    0    0    -1  
 $EndComp

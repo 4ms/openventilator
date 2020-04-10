@@ -5,6 +5,14 @@ D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag
 $ENDCMP
 #
+$CMP LT1620CMS8
+F https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf
+$ENDCMP
+#
+$CMP LTC3780
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3780.pdf
+$ENDCMP
+#
 $CMP PGND
 D Power symbol creates a global label with name "PGND" , ground
 K power-flag
