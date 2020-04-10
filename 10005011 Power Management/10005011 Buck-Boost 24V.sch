@@ -62,6 +62,7 @@ F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlock
 F 4 "10022532" H 1640 1420 50  0001 C CNN "Item Number"
 F 5 "Murata" H 1640 1420 50  0001 C CNN "Manufacturer"
 F 6 "BNX002-11" H 1750 1400 50  0001 C CNN "MPN"
+F 7 "BNX002-11" H 1750 1400 50  0001 C CNN "Manufacturer_No"
 	1    1750 1400
 	1    0    0    -1  
 $EndComp
@@ -91,8 +92,8 @@ F 2 "" H 2938 1350 50  0001 C CNN
 F 3 "" H 2900 1500 50  0001 C CNN
 F 4 "CAPACITOR ELECTROLYTIC, 330UF,35V" H 2900 1500 50  0001 C CNN "Description"
 F 5 "10022621" H 2900 1500 50  0001 C CNN "Item Number"
-F 6 "" H 2900 1500 50  0001 C CNN "Manufacturer"
-F 7 "" H 2900 1500 50  0001 C CNN "Manufacturer_No"
+F 6 "PANASONIC" H 2900 1500 50  0001 C CNN "Manufacturer"
+F 7 "EEEFK1V331P" H 2900 1500 50  0001 C CNN "Manufacturer_No"
 	1    2900 1500
 	1    0    0    -1  
 $EndComp
@@ -297,6 +298,7 @@ F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlock
 F 4 "10022532" H 14090 1370 50  0001 C CNN "Item Number"
 F 5 "Murata" H 14090 1370 50  0001 C CNN "Manufacturer"
 F 6 "BNX002-11" H 14200 1350 50  0001 C CNN "MPN"
+F 7 "BNX002-11" H 14200 1350 50  0001 C CNN "Manufacturer_No"
 	1    14200 1350
 	-1   0    0    -1  
 $EndComp
@@ -398,8 +400,8 @@ F 2 "" H 3838 1350 50  0001 C CNN
 F 3 "" H 3800 1500 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 3800 1500 50  0001 C CNN "Description"
 F 5 "10039581" H 3800 1500 50  0001 C CNN "Item Number"
-F 6 "" H 3800 1500 50  0001 C CNN "Manufacturer"
-F 7 "" H 3800 1500 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 3800 1500 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 3800 1500 50  0001 C CNN "Manufacturer_No"
 	1    3800 1500
 	1    0    0    -1  
 $EndComp
@@ -413,8 +415,8 @@ F 2 "" H 3238 1350 50  0001 C CNN
 F 3 "" H 3200 1500 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 3200 1500 50  0001 C CNN "Description"
 F 5 "10039581" H 3200 1500 50  0001 C CNN "Item Number"
-F 6 "" H 3200 1500 50  0001 C CNN "Manufacturer"
-F 7 "" H 3200 1500 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 3200 1500 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 3200 1500 50  0001 C CNN "Manufacturer_No"
 	1    3200 1500
 	1    0    0    -1  
 $EndComp
@@ -442,8 +444,8 @@ F 2 "" H 3538 1350 50  0001 C CNN
 F 3 "" H 3500 1500 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 3500 1500 50  0001 C CNN "Description"
 F 5 "10039581" H 3500 1500 50  0001 C CNN "Item Number"
-F 6 "" H 3500 1500 50  0001 C CNN "Manufacturer"
-F 7 "" H 3500 1500 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 3500 1500 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 3500 1500 50  0001 C CNN "Manufacturer_No"
 	1    3500 1500
 	1    0    0    -1  
 $EndComp
@@ -457,8 +459,8 @@ F 2 "" H 10738 1300 50  0001 C CNN
 F 3 "" H 10700 1450 50  0001 C CNN
 F 4 "CAPACITOR ELECTROLYTIC, 330UF,35V" H 10700 1450 50  0001 C CNN "Description"
 F 5 "10022621" H 10700 1450 50  0001 C CNN "Item Number"
-F 6 "" H 10700 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 10700 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "PANASONIC" H 10700 1450 50  0001 C CNN "Manufacturer"
+F 7 "EEEFK1V331P" H 10700 1450 50  0001 C CNN "Manufacturer_No"
 	1    10700 1450
 	-1   0    0    -1  
 $EndComp
@@ -497,8 +499,8 @@ F 2 "" H 9838 1300 50  0001 C CNN
 F 3 "" H 9800 1450 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 9800 1450 50  0001 C CNN "Description"
 F 5 "10039581" H 9800 1450 50  0001 C CNN "Item Number"
-F 6 "" H 9800 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 9800 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 9800 1450 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 9800 1450 50  0001 C CNN "Manufacturer_No"
 	1    9800 1450
 	-1   0    0    -1  
 $EndComp
@@ -512,8 +514,8 @@ F 2 "" H 10438 1300 50  0001 C CNN
 F 3 "" H 10400 1450 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 10400 1450 50  0001 C CNN "Description"
 F 5 "10039581" H 10400 1450 50  0001 C CNN "Item Number"
-F 6 "" H 10400 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 10400 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 10400 1450 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 10400 1450 50  0001 C CNN "Manufacturer_No"
 	1    10400 1450
 	-1   0    0    -1  
 $EndComp
@@ -541,8 +543,8 @@ F 2 "" H 10138 1300 50  0001 C CNN
 F 3 "" H 10100 1450 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 10100 1450 50  0001 C CNN "Description"
 F 5 "10039581" H 10100 1450 50  0001 C CNN "Item Number"
-F 6 "" H 10100 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 10100 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 10100 1450 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 10100 1450 50  0001 C CNN "Manufacturer_No"
 	1    10100 1450
 	-1   0    0    -1  
 $EndComp
@@ -573,8 +575,8 @@ F 2 "" H 8938 1300 50  0001 C CNN
 F 3 "" H 8900 1450 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 8900 1450 50  0001 C CNN "Description"
 F 5 "10039581" H 8900 1450 50  0001 C CNN "Item Number"
-F 6 "" H 8900 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 8900 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 8900 1450 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 8900 1450 50  0001 C CNN "Manufacturer_No"
 	1    8900 1450
 	-1   0    0    -1  
 $EndComp
@@ -588,8 +590,8 @@ F 2 "" H 9538 1300 50  0001 C CNN
 F 3 "" H 9500 1450 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 9500 1450 50  0001 C CNN "Description"
 F 5 "10039581" H 9500 1450 50  0001 C CNN "Item Number"
-F 6 "" H 9500 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 9500 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 9500 1450 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 9500 1450 50  0001 C CNN "Manufacturer_No"
 	1    9500 1450
 	-1   0    0    -1  
 $EndComp
@@ -613,8 +615,8 @@ F 2 "" H 9238 1300 50  0001 C CNN
 F 3 "" H 9200 1450 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 9200 1450 50  0001 C CNN "Description"
 F 5 "10039581" H 9200 1450 50  0001 C CNN "Item Number"
-F 6 "" H 9200 1450 50  0001 C CNN "Manufacturer"
-F 7 "" H 9200 1450 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 9200 1450 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 9200 1450 50  0001 C CNN "Manufacturer_No"
 	1    9200 1450
 	-1   0    0    -1  
 $EndComp
@@ -644,8 +646,8 @@ F 2 "" V 12830 2150 50  0001 C CNN
 F 3 "" H 12900 2150 50  0001 C CNN
 F 4 "RESISTOR,47K OHM,0.063W,+/-0.1%,0603" H 12900 2150 50  0001 C CNN "Description"
 F 5 "10022717" H 12900 2150 50  0001 C CNN "Item Number"
-F 6 "" H 12900 2150 50  0001 C CNN "Manufacturer"
-F 7 "" H 12900 2150 50  0001 C CNN "Manufacturer_No"
+F 6 "VISHAY" H 12900 2150 50  0001 C CNN "Manufacturer"
+F 7 "MCT06030D4702BP500" H 12900 2150 50  0001 C CNN "Manufacturer_No"
 	1    12900 2150
 	1    0    0    -1  
 $EndComp
@@ -674,8 +676,8 @@ F 2 "" V 12830 2550 50  0001 C CNN
 F 3 "" H 12900 2550 50  0001 C CNN
 F 4 "RESISTOR,1.62K OHM,0.063W,+/0.1%,0603" H 12900 2550 50  0001 C CNN "Description"
 F 5 "10022718" H 12900 2550 50  0001 C CNN "Item Number"
-F 6 "" H 12900 2550 50  0001 C CNN "Manufacturer"
-F 7 "" H 12900 2550 50  0001 C CNN "Manufacturer_No"
+F 6 "WELWYN" H 12900 2550 50  0001 C CNN "Manufacturer"
+F 7 "PCF0603R-1K62BT1" H 12900 2550 50  0001 C CNN "Manufacturer_No"
 	1    12900 2550
 	1    0    0    -1  
 $EndComp
@@ -852,8 +854,8 @@ F 2 "" H 7150 2750 50  0001 C CNN
 F 3 "~" H 7150 2750 50  0001 C CNN
 F 4 "INDUCTOR, POWER CHOKE, 47UH, 8A" V 7150 2750 50  0001 C CNN "Description"
 F 5 "10022741" V 7150 2750 50  0001 C CNN "Item Number"
-F 6 "" V 7150 2750 50  0001 C CNN "Manufacturer"
-F 7 "" V 7150 2750 50  0001 C CNN "Manufacturer_No"
+F 6 "YAGEO" V 7150 2750 50  0001 C CNN "Manufacturer"
+F 7 "232272461001L" V 7150 2750 50  0001 C CNN "Manufacturer_No"
 	1    7150 2750
 	0    -1   -1   0   
 $EndComp
@@ -922,8 +924,8 @@ F 2 "" V 6580 4150 50  0001 C CNN
 F 3 "~" H 6650 4150 50  0001 C CNN
 F 4 "RESISTOR,1.24K OHM,0.063W.+/-1%,0603" V 6650 4150 50  0001 C CNN "Description"
 F 5 "10022720" V 6650 4150 50  0001 C CNN "Item Number"
-F 6 "" V 6650 4150 50  0001 C CNN "Manufacturer"
-F 7 "" V 6650 4150 50  0001 C CNN "Manufacturer_No"
+F 6 "YAGEO" V 6650 4150 50  0001 C CNN "Manufacturer"
+F 7 "RC0603FR-071K24L" V 6650 4150 50  0001 C CNN "Manufacturer_No"
 	1    6650 4150
 	0    -1   -1   0   
 $EndComp
@@ -992,7 +994,7 @@ F 2 "" H 3550 7250 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3780.pdf" H 3550 7250 50  0001 C CNN
 F 4 "IC,SYNCHRONOUS CONTROLLER,SSOP" H 3550 7250 50  0001 C CNN "Description"
 F 5 "10022894" H 3550 7250 50  0001 C CNN "Item Number"
-F 6 "LINEAR TECHNOLOGY_RMS1" H 3550 7250 50  0001 C CNN "Manufacturer"
+F 6 "LINEAR TECHNOLOGY" H 3550 7250 50  0001 C CNN "Manufacturer"
 F 7 "LTC3780IG#TRPBF" H 3550 7250 50  0001 C CNN "Manufacturer_No"
 	1    3550 7250
 	1    0    0    -1  
@@ -1213,8 +1215,8 @@ F 2 "" H 1438 8150 50  0001 C CNN
 F 3 "" H 1400 8300 50  0001 C CNN
 F 4 "CAPACITOR,47 PF,+/-5%,50V,0402" H 1400 8300 50  0001 C CNN "Description"
 F 5 "10022623" H 1400 8300 50  0001 C CNN "Item Number"
-F 6 "" H 1400 8300 50  0001 C CNN "Manufacturer"
-F 7 "" H 1400 8300 50  0001 C CNN "Manufacturer_No"
+F 6 "MURATA" H 1400 8300 50  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H470JZ01D" H 1400 8300 50  0001 C CNN "Manufacturer_No"
 	1    1400 8300
 	-1   0    0    -1  
 $EndComp
@@ -1500,8 +1502,8 @@ F 2 "" H 4038 5750 50  0001 C CNN
 F 3 "" H 4000 5900 50  0001 C CNN
 F 4 "CAPACITOR, 1UF, +/-10%, 16V, 0805" H 4000 5900 50  0001 C CNN "Description"
 F 5 "10022546" H 4000 5900 50  0001 C CNN "Item Number"
-F 6 "" H 4000 5900 50  0001 C CNN "Manufacturer"
-F 7 "" H 4000 5900 50  0001 C CNN "Manufacturer_No"
+F 6 "AVX" H 4000 5900 50  0001 C CNN "Manufacturer"
+F 7 "0805YC105KAT2A" H 4000 5900 50  0001 C CNN "Manufacturer_No"
 	1    4000 5900
 	0    1    1    0   
 $EndComp
@@ -1592,8 +1594,8 @@ F 2 "" H 11988 3050 50  0001 C CNN
 F 3 "" H 11950 3200 50  0001 C CNN
 F 4 "CAPACITOR,2.2UF,+/-10%,16V,1206" H 11950 3200 50  0001 C CNN "Description"
 F 5 "10022618" H 11950 3200 50  0001 C CNN "Item Number"
-F 6 "" H 11950 3200 50  0001 C CNN "Manufacturer"
-F 7 "" H 11950 3200 50  0001 C CNN "Manufacturer_No"
+F 6 "MURATA" H 11950 3200 50  0001 C CNN "Manufacturer"
+F 7 "GCM31MR71E225KA57L" H 11950 3200 50  0001 C CNN "Manufacturer_No"
 	1    11950 3200
 	0    1    -1   0   
 $EndComp
@@ -1657,8 +1659,8 @@ F 2 "" V 10430 4500 50  0001 C CNN
 F 3 "" H 10500 4500 50  0001 C CNN
 F 4 "RESISTOR,270 OHM,0.125W,+/-1%,0805" H 10500 4500 50  0001 C CNN "Description"
 F 5 "10022743" H 10500 4500 50  0001 C CNN "Item Number"
-F 6 "" H 10500 4500 50  0001 C CNN "Manufacturer"
-F 7 "" H 10500 4500 50  0001 C CNN "Manufacturer_No"
+F 6 "YAGEO" H 10500 4500 50  0001 C CNN "Manufacturer"
+F 7 "RC0805FR-07270RL" H 10500 4500 50  0001 C CNN "Manufacturer_No"
 	1    10500 4500
 	0    1    1    0   
 $EndComp
@@ -1840,7 +1842,7 @@ F 2 "" H 11200 2900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf" H 11200 2900 50  0001 C CNN
 F 4 "IC,CURRENT AMPLIFIER,MSOP" H 11200 2900 50  0001 C CNN "Description"
 F 5 "10022893" H 11200 2900 50  0001 C CNN "Item Number"
-F 6 "LINEAR TECHNOLOGY_RMS1" H 11200 2900 50  0001 C CNN "Manufacturer"
+F 6 "LINEAR TECHNOLOGY" H 11200 2900 50  0001 C CNN "Manufacturer"
 F 7 "LT1620CMS8#TRPBF" H 11200 2900 50  0001 C CNN "Manufacturer_No"
 	1    11200 2900
 	1    0    0    -1  
@@ -1855,8 +1857,8 @@ F 2 "" V 12180 3000 50  0001 C CNN
 F 3 "" H 12250 3000 50  0001 C CNN
 F 4 "RESISTOR,39K OHM,0.063W,+/-1%,0603" H 12250 3000 50  0001 C CNN "Description"
 F 5 "10022711" H 12250 3000 50  0001 C CNN "Item Number"
-F 6 "" H 12250 3000 50  0001 C CNN "Manufacturer"
-F 7 "" H 12250 3000 50  0001 C CNN "Manufacturer_No"
+F 6 "YAGEO" H 12250 3000 50  0001 C CNN "Manufacturer"
+F 7 "RC0603FR-0739KL" H 12250 3000 50  0001 C CNN "Manufacturer_No"
 	1    12250 3000
 	1    0    0    -1  
 $EndComp
@@ -1870,8 +1872,8 @@ F 2 "" V 12180 3400 50  0001 C CNN
 F 3 "" H 12250 3400 50  0001 C CNN
 F 4 "RESISTOR,5.6K OHM,0.063W,+/-1%,0603" H 12250 3400 50  0001 C CNN "Description"
 F 5 "10022714" H 12250 3400 50  0001 C CNN "Item Number"
-F 6 "" H 12250 3400 50  0001 C CNN "Manufacturer"
-F 7 "" H 12250 3400 50  0001 C CNN "Manufacturer_No"
+F 6 "YAGEO" H 12250 3400 50  0001 C CNN "Manufacturer"
+F 7 "RC0603FR-075K6L" H 12250 3400 50  0001 C CNN "Manufacturer_No"
 	1    12250 3400
 	1    0    0    -1  
 $EndComp
