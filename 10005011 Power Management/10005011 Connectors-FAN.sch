@@ -1,0 +1,2039 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:IRLML2803TRPBF T23
+U 1 1 5ED42F62
+P 8050 7450
+F 0 "T?" H 8150 7525 50  0000 L CNN
+F 1 "IRLML2803" H 8150 7450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8900 7375 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" H 8375 7150 50  0001 L CNN
+F 4 "IRLML2803TRPBF" H 8575 7375 50  0001 C CNN "Mfgr_PN"
+F 5 "Infineon Technologies" H 8700 7375 50  0001 C CNN "Mfgr"
+F 6 "Digi-Key" H 8450 7375 50  0001 C CNN "Source"
+F 7 "IRLML2803PBFCT-ND" H 8650 7375 50  0001 C CNN "Source_PN"
+F 8 "MOSFET N-CH 30V 1.2A SOT-23" H 8750 7375 50  0001 C CNN "Description"
+F 9 "SOT23" H 8250 7375 50  0000 C CNN "Bom_Footprint"
+	1    8050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:IRLML5103TRPBF T31
+U 1 1 5ED44600
+P 8450 6250
+F 0 "T?" H 8650 6325 50  0000 L CNN
+F 1 "IRLML5103" H 8650 6250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8650 6175 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml5103pbf.pdf?fileId=5546d462533600a401535668505d2617" H 8450 6250 50  0001 L CNN
+F 4 "Infineon Technologies" H 9075 6175 50  0001 C CNN "Mfgr"
+F 5 "IRLML5103TRPBF" H 8975 6175 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 8825 6175 50  0001 C CNN "Source"
+F 7 "IRLML5103PBFCT-ND" H 9050 6175 50  0001 C CNN "Source_PN"
+F 8 "MOSFET P-CH 30V 760MA SOT-23" H 9325 6175 50  0001 C CNN "Description"
+F 9 "SOT23" H 8775 6175 50  0000 C CNN "Bom_Footprint"
+	1    8450 6250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:LM78M05_TO252 IC25
+U 1 1 5ED463F1
+P 6050 6250
+F 0 "IC?" H 5900 6375 50  0000 C CNN
+F 1 "L78M24CDT" H 6050 6375 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 6050 6475 50  0001 C CIN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf" H 6050 6200 50  0001 C CNN
+	1    6050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management:+24VUTIL #PWR?
+U 1 1 5ED566AD
+P 6650 5850
+F 0 "#PWR?" H 6650 5700 50  0001 C CNN
+F 1 "+24VUTIL" H 6650 6015 50  0000 C CNN
+F 2 "" H 6650 5850 50  0001 C CNN
+F 3 "" H 6650 5850 50  0001 C CNN
+	1    6650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED56BA6
+P 6350 6950
+F 0 "#PWR?" H 6350 6700 50  0001 C CNN
+F 1 "GND" H 6350 6800 50  0000 C CNN
+F 2 "" H 6350 6950 50  0001 C CNN
+F 3 "" H 6350 6950 50  0001 C CNN
+	1    6350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management:VACDC #PWR?
+U 1 1 5ED5B3D2
+P 5600 5850
+F 0 "#PWR?" H 5600 5700 50  0001 C CNN
+F 1 "VACDC" H 5600 6015 50  0000 C CNN
+F 2 "" H 5600 5850 50  0001 C CNN
+F 3 "" H 5600 5850 50  0001 C CNN
+	1    5600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6250 6450 6250
+Wire Wire Line
+	6950 6050 6650 6050
+Wire Wire Line
+	6650 6050 6650 5850
+$Comp
+L Device:C C112
+U 1 1 5ED5D6C5
+P 6450 6600
+F 0 "C?" H 6475 6700 50  0000 L CNN
+F 1 "100nF" H 6475 6500 50  0000 L CNN
+F 2 "" H 6488 6450 50  0001 C CNN
+F 3 "~" H 6450 6600 50  0001 C CNN
+	1    6450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C114
+U 1 1 5ED5DE3E
+P 6850 6600
+F 0 "C?" H 6875 6700 50  0000 L CNN
+F 1 "10uF" H 6875 6500 50  0000 L CNN
+F 2 "" H 6888 6450 50  0001 C CNN
+F 3 "~" H 6850 6600 50  0001 C CNN
+	1    6850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C113
+U 1 1 5ED5E34A
+P 5600 6600
+F 0 "C?" H 5625 6700 50  0000 L CNN
+F 1 "100nF" H 5625 6500 50  0000 L CNN
+F 2 "" H 5638 6450 50  0001 C CNN
+F 3 "~" H 5600 6600 50  0001 C CNN
+	1    5600 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5850 5600 6250
+Wire Wire Line
+	5600 6250 5750 6250
+Connection ~ 5600 6250
+Wire Wire Line
+	5600 6750 5600 6850
+Wire Wire Line
+	6850 6850 6850 6750
+Wire Wire Line
+	6350 6850 6350 6950
+Wire Wire Line
+	5600 6850 6050 6850
+Connection ~ 6350 6850
+Wire Wire Line
+	6350 6850 6450 6850
+Wire Wire Line
+	6450 6850 6450 6750
+Connection ~ 6450 6850
+Wire Wire Line
+	6450 6850 6850 6850
+Wire Wire Line
+	6050 6550 6050 6850
+Connection ~ 6050 6850
+Wire Wire Line
+	6050 6850 6350 6850
+Wire Wire Line
+	5600 6250 5600 6450
+Wire Wire Line
+	6450 6450 6450 6250
+Wire Wire Line
+	6450 6250 6850 6250
+Wire Wire Line
+	6850 6450 6850 6250
+Connection ~ 6850 6250
+Wire Wire Line
+	6850 6250 6950 6250
+Connection ~ 6450 6250
+$Comp
+L Device:C C139
+U 1 1 5ED64D38
+P 7550 6600
+F 0 "C?" H 7575 6700 50  0000 L CNN
+F 1 "NC" H 7575 6500 50  0000 L CNN
+F 2 "" H 7588 6450 50  0001 C CNN
+F 3 "~" H 7550 6600 50  0001 C CNN
+	1    7550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:BAT54C D14
+U 1 1 5ED68E4D
+P 7250 6150
+F 0 "D?" H 7150 6450 50  0000 L CNN
+F 1 "BAT54C" H 7000 6375 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6975 5675 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 7170 6250 50  0001 C CNN
+F 4 "SOT23" H 7300 5975 50  0000 C CNN "BOM_Footprint"
+F 5 "DIODE ARRAY SCHOTTKY 30V SOT23-3" H 7575 5975 60  0001 C CNN "Description"
+F 6 "ON Semiconductor" H 7575 5975 60  0001 C CNN "Mfgr"
+F 7 "BAT54C" H 7575 5975 60  0001 C CNN "Mfgr_PN"
+F 8 "Digi-Key" H 7425 5975 60  0001 C CNN "Source"
+F 9 "BAT54CFSCT-ND" H 7400 5975 60  0001 C CNN "Source_PN"
+	1    7250 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 6850 7550 6850
+Wire Wire Line
+	7550 6850 7550 6750
+Connection ~ 6850 6850
+Wire Wire Line
+	7550 6450 7550 6150
+Wire Wire Line
+	7550 6150 7450 6150
+$Comp
+L Device:R R115
+U 1 1 5ED70971
+P 8050 6400
+F 0 "R?" V 8130 6400 50  0000 C CNN
+F 1 "1k" V 8050 6400 50  0000 C CNN
+F 2 "" V 7980 6400 50  0001 C CNN
+F 3 "~" H 8050 6400 50  0001 C CNN
+	1    8050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R114
+U 1 1 5ED71F78
+P 8050 6900
+F 0 "R?" V 8130 6900 50  0000 C CNN
+F 1 "1.5k" V 8050 6900 50  0000 C CNN
+F 2 "" V 7980 6900 50  0001 C CNN
+F 3 "~" H 8050 6900 50  0001 C CNN
+	1    8050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R77
+U 1 1 5ED724BA
+P 7350 7700
+F 0 "R?" V 7430 7700 50  0000 C CNN
+F 1 "10k" V 7350 7700 50  0000 C CNN
+F 2 "" V 7280 7700 50  0001 C CNN
+F 3 "~" H 7350 7700 50  0001 C CNN
+	1    7350 7700
+	1    0    0    -1  
+$EndComp
+Text HLabel 6850 7450 0    50   Input ~ 0
+CMD-FAN
+Wire Wire Line
+	6850 7450 7350 7450
+Wire Wire Line
+	7350 7550 7350 7450
+Connection ~ 7350 7450
+Wire Wire Line
+	7550 6150 8050 6150
+Wire Wire Line
+	8050 6150 8050 6250
+Connection ~ 7550 6150
+Wire Wire Line
+	8050 6550 8050 6650
+Wire Wire Line
+	7350 7450 7750 7450
+Wire Wire Line
+	8050 7050 8050 7250
+Wire Wire Line
+	8050 6150 8250 6150
+Connection ~ 8050 6150
+Wire Wire Line
+	8450 6450 8450 6650
+Wire Wire Line
+	8450 6650 8050 6650
+Connection ~ 8050 6650
+Wire Wire Line
+	8050 6650 8050 6750
+Text Label 6550 6250 0    50   ~ 0
+24VDC
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:BAT54C D7
+U 1 1 5E9201CE
+P 8950 6650
+F 0 "D?" H 8850 6950 50  0000 L CNN
+F 1 "BAT54C" H 8700 6875 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8675 6175 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 8870 6750 50  0001 C CNN
+F 4 "SOT23" H 9000 6475 50  0000 C CNN "BOM_Footprint"
+F 5 "DIODE ARRAY SCHOTTKY 30V SOT23-3" H 9275 6475 60  0001 C CNN "Description"
+F 6 "ON Semiconductor" H 9275 6475 60  0001 C CNN "Mfgr"
+F 7 "BAT54C" H 9275 6475 60  0001 C CNN "Mfgr_PN"
+F 8 "Digi-Key" H 9125 6475 60  0001 C CNN "Source"
+F 9 "BAT54CFSCT-ND" H 9100 6475 60  0001 C CNN "Source_PN"
+	1    8950 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 7850 7350 7950
+Wire Wire Line
+	7350 7950 8050 7950
+Wire Wire Line
+	8850 6950 8950 6950
+Wire Wire Line
+	8950 6950 8950 7950
+Connection ~ 8950 6950
+Wire Wire Line
+	8950 6950 9050 6950
+Connection ~ 8950 7950
+Wire Wire Line
+	8950 7950 9100 7950
+Wire Wire Line
+	8650 6150 8950 6150
+Wire Wire Line
+	8950 6150 8950 6450
+Text Label 8050 7200 0    50   ~ 0
+~CMD-FAN
+Text Label 8100 6650 0    50   ~ 0
+FAN-MOS-G
+Text Label 7600 6150 0    50   ~ 0
+FANPWR-PERM
+Text Label 8650 6150 0    50   ~ 0
+FANPWR-SW
+Wire Wire Line
+	8950 6150 9150 6150
+Connection ~ 8950 6150
+$Comp
+L Device:L_Core_Iron L4
+U 1 1 5E92DD9B
+P 9300 6150
+F 0 "L?" V 9525 6150 50  0000 C CNN
+F 1 "220uH" V 9434 6150 50  0000 C CNN
+F 2 "" H 9300 6150 50  0001 C CNN
+F 3 "~" H 9300 6150 50  0001 C CNN
+	1    9300 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C60
+U 1 1 5E935393
+P 9600 6600
+F 0 "C?" H 9625 6700 50  0000 L CNN
+F 1 "10uF" H 9625 6500 50  0000 L CNN
+F 2 "" H 9638 6450 50  0001 C CNN
+F 3 "~" H 9600 6600 50  0001 C CNN
+	1    9600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5E936D9E
+P 9950 6600
+F 0 "C?" H 9975 6700 50  0000 L CNN
+F 1 "10uF" H 9975 6500 50  0000 L CNN
+F 2 "" H 9988 6450 50  0001 C CNN
+F 3 "~" H 9950 6600 50  0001 C CNN
+	1    9950 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 6150 9600 6150
+Wire Wire Line
+	9950 6150 9950 6450
+Wire Wire Line
+	9600 6450 9600 6150
+Wire Wire Line
+	9950 6750 9950 6950
+Wire Wire Line
+	9950 6950 9600 6950
+Wire Wire Line
+	9600 6950 9600 6750
+Wire Wire Line
+	9600 6950 9600 7950
+Connection ~ 9600 6950
+Wire Wire Line
+	8050 7650 8050 7950
+Connection ~ 8050 7950
+Wire Wire Line
+	8050 7950 8950 7950
+$Comp
+L Device:C C111
+U 1 1 5E941ACD
+P 10450 6600
+F 0 "C?" H 10475 6700 50  0000 L CNN
+F 1 "10nF" H 10475 6500 50  0000 L CNN
+F 2 "" H 10488 6450 50  0001 C CNN
+F 3 "~" H 10450 6600 50  0001 C CNN
+	1    10450 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 6150 10450 6450
+Wire Wire Line
+	10450 6750 10450 7150
+Wire Wire Line
+	10450 7150 10150 7150
+$Comp
+L Device:R R116
+U 1 1 5E9466C6
+P 9850 7500
+F 0 "R?" V 9930 7500 50  0000 C CNN
+F 1 "100" V 9850 7500 50  0000 C CNN
+F 2 "" V 9780 7500 50  0001 C CNN
+F 3 "~" H 9850 7500 50  0001 C CNN
+	1    9850 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 7150 9850 7350
+Wire Wire Line
+	9850 7650 9850 7950
+Connection ~ 9850 7950
+Wire Wire Line
+	9850 7950 10150 7950
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5E94A06E
+P 11050 6750
+F 0 "J?" H 11022 6632 50  0000 R CNN
+F 1 "FAN" H 11022 6723 50  0000 R CNN
+F 2 "" H 11050 6750 50  0001 C CNN
+F 3 "~" H 11050 6750 50  0001 C CNN
+	1    11050 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 7150 10450 7150
+Connection ~ 10450 7150
+Wire Wire Line
+	10750 6150 10450 6150
+Connection ~ 10450 6150
+Wire Wire Line
+	10750 6150 10750 6650
+Wire Wire Line
+	10750 6650 10850 6650
+Wire Wire Line
+	10750 7150 10750 7050
+Wire Wire Line
+	10750 6750 10850 6750
+Connection ~ 9600 6150
+Connection ~ 9600 7950
+Connection ~ 9950 6150
+Wire Wire Line
+	9600 6150 9950 6150
+Wire Wire Line
+	9600 7950 9850 7950
+Wire Wire Line
+	9950 6150 10450 6150
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:BZX84C5V1 D10
+U 1 1 5E965749
+P 10150 7500
+F 0 "D?" V 10104 7579 50  0000 L CNN
+F 1 "BZX84C5V1" V 10195 7579 50  0000 L CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 10150 7500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 10150 7500 50  0001 C CNN
+F 4 "Diodes Incorporated" H 10150 7500 50  0001 C CNN "Mfgr"
+F 5 "BZX84C5V1-7-F" H 10150 7500 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 10150 7500 50  0001 C CNN "Source"
+F 7 "BZX84C5V1-FDITR-ND" H 10150 7500 50  0001 C CNN "Source_PN"
+F 8 "DIODE ZENER 5.1V 300MW SOT23-3" H 10150 7500 50  0001 C CNN "Description"
+	1    10150 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 7350 10150 7150
+Connection ~ 10150 7150
+Wire Wire Line
+	10150 7150 9850 7150
+Wire Wire Line
+	10150 7650 10150 7950
+Connection ~ 10150 7950
+Wire Wire Line
+	10150 7950 10750 7950
+Wire Wire Line
+	10750 7250 10750 7150
+Connection ~ 10750 7150
+Wire Wire Line
+	10750 7750 10750 7950
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:BAT54L D20
+U 1 1 5E971CA5
+P 10850 7450
+F 0 "D?" V 10891 7406 50  0000 R CNN
+F 1 "BAT54L" V 10800 7406 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10620 7388 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BAT54LT1-D.PDF" H 10770 7550 50  0001 C CNN
+F 4 "SOT23" V 10709 7406 50  0000 R CNN "BOM_Footprint"
+F 5 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 11175 7375 60  0001 C CNN "Description"
+F 6 "ON Semiconductor" H 11175 7375 60  0001 C CNN "Mfgr"
+F 7 "BAT54LT1G" H 11175 7375 60  0001 C CNN "Mfgr_PN"
+F 8 "Digi-Key" H 11025 7375 60  0001 C CNN "Source"
+F 9 "BAT54LT1GOSTR-ND" H 11000 7375 60  0001 C CNN "Source_PN"
+	1    10850 7450
+	0    -1   -1   0   
+$EndComp
+Text Label 10050 6150 0    50   ~ 0
+FANPWR
+$Comp
+L pages_4-5:TLV3012AIDBV IC6
+U 1 1 5E918693
+P 11850 7150
+F 0 "IC?" H 12000 7350 50  0000 C CNN
+F 1 "TLV3012AIDBV" H 12300 7050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12050 7150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv3011.pdf" H 11850 7150 50  0001 C CNN
+	1    11850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5E91B104
+P 11600 7550
+F 0 "R?" V 11680 7550 50  0000 C CNN
+F 1 "10k" V 11600 7550 50  0000 C CNN
+F 2 "" V 11530 7550 50  0001 C CNN
+F 3 "~" H 11600 7550 50  0001 C CNN
+	1    11600 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5E91D781
+P 12200 7750
+F 0 "R?" V 12280 7750 50  0000 C CNN
+F 1 "100k" V 12200 7750 50  0000 C CNN
+F 2 "" V 12130 7750 50  0001 C CNN
+F 3 "~" H 12200 7750 50  0001 C CNN
+	1    12200 7750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 7450 11850 7550
+Wire Wire Line
+	11850 7550 11750 7550
+$Comp
+L power:GND #PWR?
+U 1 1 5E9216EC
+P 9100 8050
+F 0 "#PWR?" H 9100 7800 50  0001 C CNN
+F 1 "GND" H 9100 7900 50  0000 C CNN
+F 2 "" H 9100 8050 50  0001 C CNN
+F 3 "" H 9100 8050 50  0001 C CNN
+	1    9100 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 7950 9100 8050
+Connection ~ 9100 7950
+Wire Wire Line
+	9100 7950 9600 7950
+$Comp
+L power:GND #PWR?
+U 1 1 5E928161
+P 11950 7550
+F 0 "#PWR?" H 11950 7300 50  0001 C CNN
+F 1 "GND" H 11950 7400 50  0000 C CNN
+F 2 "" H 11950 7550 50  0001 C CNN
+F 3 "" H 11950 7550 50  0001 C CNN
+	1    11950 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 7450 11950 7550
+$Comp
+L Device:C C9
+U 1 1 5E9376A5
+P 12250 6600
+F 0 "C?" H 12275 6700 50  0000 L CNN
+F 1 "100nF" H 12275 6500 50  0000 L CNN
+F 2 "" H 12288 6450 50  0001 C CNN
+F 3 "~" H 12250 6600 50  0001 C CNN
+	1    12250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E93B04C
+P 12250 6850
+F 0 "#PWR?" H 12250 6600 50  0001 C CNN
+F 1 "GND" H 12250 6700 50  0000 C CNN
+F 2 "" H 12250 6850 50  0001 C CNN
+F 3 "" H 12250 6850 50  0001 C CNN
+	1    12250 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 6750 12250 6850
+$Comp
+L power:+5V #PWR?
+U 1 1 5E94B026
+P 11850 6550
+F 0 "#PWR?" H 11850 6400 50  0001 C CNN
+F 1 "+5V" H 11850 6690 50  0000 C CNN
+F 2 "" H 11850 6550 50  0001 C CNN
+F 3 "" H 11850 6550 50  0001 C CNN
+	1    11850 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 6550 11850 6650
+Wire Wire Line
+	11850 6650 12050 6650
+Wire Wire Line
+	12050 6650 12050 6350
+Wire Wire Line
+	12050 6350 12250 6350
+Wire Wire Line
+	12250 6350 12250 6450
+Connection ~ 11850 6650
+Wire Wire Line
+	11850 6650 11850 6850
+Wire Wire Line
+	11650 7050 11350 7050
+Connection ~ 10750 7050
+Wire Wire Line
+	10750 7050 10750 6750
+Wire Wire Line
+	11650 7250 11350 7250
+Wire Wire Line
+	11350 7250 11350 7750
+Wire Wire Line
+	11350 7750 12050 7750
+Wire Wire Line
+	12250 7150 12600 7150
+Wire Wire Line
+	12600 7150 12600 7750
+Wire Wire Line
+	12600 7750 12350 7750
+$Comp
+L Device:R R13
+U 1 1 5E9611BA
+P 11700 6250
+F 0 "R?" V 11780 6250 50  0000 C CNN
+F 1 "NC" V 11700 6250 50  0000 C CNN
+F 2 "" V 11630 6250 50  0001 C CNN
+F 3 "~" H 11700 6250 50  0001 C CNN
+	1    11700 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11350 7050 11350 6250
+Wire Wire Line
+	11350 6250 11550 6250
+Connection ~ 11350 7050
+Wire Wire Line
+	11350 7050 10750 7050
+Wire Wire Line
+	11850 6250 12700 6250
+Wire Wire Line
+	12700 6250 12700 7150
+Text HLabel 12850 7150 2    50   Output ~ 0
+FAN-SPEED
+Wire Wire Line
+	12850 7150 12700 7150
+Connection ~ 12600 7150
+Connection ~ 12700 7150
+Wire Wire Line
+	12700 7150 12600 7150
+Wire Notes Line
+	5400 5600 13500 5600
+Wire Notes Line
+	13500 5600 13500 8250
+Wire Notes Line
+	13500 8250 5400 8250
+Wire Notes Line
+	5400 8250 5400 5600
+Text Notes 5400 5575 0    79   ~ 0
+COOLING FAN
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279218 L5
+U 1 1 5E9D7DED
+P 9150 3600
+F 0 "L?" V 8805 3600 50  0000 C CNN
+F 1 "74279218" V 8896 3600 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" V 9080 3600 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279218.pdf" H 9150 3600 50  0001 C CNN
+F 4 "Würth Elektronik" H 9150 3600 50  0001 C CNN "Mfgr"
+F 5 "74279218" H 9150 3600 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 600 OHM 1206 1LN" H 9150 3600 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 9150 3600 50  0001 C CNN "Source"
+F 8 "732-1623-1-ND" H 9150 3600 50  0001 C CNN "Source_PN"
+F 9 "1206" V 8996 3600 62  0000 C CNN "Bom_Footprint"
+	1    9150 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279218 L61
+U 1 1 5E9D8545
+P 9150 2600
+F 0 "L?" V 8805 2600 50  0000 C CNN
+F 1 "74279218" V 8896 2600 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" V 9080 2600 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279218.pdf" H 9150 2600 50  0001 C CNN
+F 4 "Würth Elektronik" H 9150 2600 50  0001 C CNN "Mfgr"
+F 5 "74279218" H 9150 2600 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 600 OHM 1206 1LN" H 9150 2600 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 9150 2600 50  0001 C CNN "Source"
+F 8 "732-1623-1-ND" H 9150 2600 50  0001 C CNN "Source_PN"
+F 9 "1206" V 8996 2600 62  0000 C CNN "Bom_Footprint"
+	1    9150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L50
+U 1 1 5E9D8DF1
+P 9650 2700
+F 0 "L?" V 9305 2700 50  0000 C CNN
+F 1 "74279266" V 9396 2700 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9580 2700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 9650 2700 50  0001 C CNN
+F 4 "Würth Elektronik" H 9650 2700 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 9650 2700 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 9650 2700 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 9650 2700 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 9650 2700 50  0001 C CNN "Source_PN"
+F 9 "0603" V 9496 2700 62  0000 C CNN "Bom_Footprint"
+	1    9650 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x13_Odd_Even J7
+U 1 1 5E9D960E
+P 8250 3100
+F 0 "J?" H 8300 2275 50  0000 C CNN
+F 1 "CPU BOARD" H 8300 2366 50  0000 C CNN
+F 2 "" H 8250 3100 50  0001 C CNN
+F 3 "~" H 8250 3100 50  0001 C CNN
+	1    8250 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 3600 9050 3600
+Text Label 8500 3600 0    50   ~ 0
+J7-BR3
+Wire Wire Line
+	8450 2600 9050 2600
+Text Label 8500 2600 0    50   ~ 0
+J7-BR23
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L49
+U 1 1 5E9F542B
+P 10050 2800
+F 0 "L?" V 9705 2800 50  0000 C CNN
+F 1 "74279266" V 9796 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9980 2800 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 10050 2800 50  0001 C CNN
+F 4 "Würth Elektronik" H 10050 2800 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 10050 2800 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 10050 2800 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 10050 2800 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 10050 2800 50  0001 C CNN "Source_PN"
+F 9 "0603" V 9896 2800 62  0000 C CNN "Bom_Footprint"
+	1    10050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L48
+U 1 1 5E9F70D0
+P 10450 2900
+F 0 "L?" V 10105 2900 50  0000 C CNN
+F 1 "74279266" V 10196 2900 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10380 2900 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 10450 2900 50  0001 C CNN
+F 4 "Würth Elektronik" H 10450 2900 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 10450 2900 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 10450 2900 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 10450 2900 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 10450 2900 50  0001 C CNN "Source_PN"
+F 9 "0603" V 10296 2900 62  0000 C CNN "Bom_Footprint"
+	1    10450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L47
+U 1 1 5E9F744C
+P 10850 3000
+F 0 "L?" V 10505 3000 50  0000 C CNN
+F 1 "74279266" V 10596 3000 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10780 3000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 10850 3000 50  0001 C CNN
+F 4 "Würth Elektronik" H 10850 3000 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 10850 3000 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 10850 3000 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 10850 3000 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 10850 3000 50  0001 C CNN "Source_PN"
+F 9 "0603" V 10696 3000 62  0000 C CNN "Bom_Footprint"
+	1    10850 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L46
+U 1 1 5E9FB98A
+P 11250 3100
+F 0 "L?" V 10905 3100 50  0000 C CNN
+F 1 "74279266" V 10996 3100 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 11180 3100 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 11250 3100 50  0001 C CNN
+F 4 "Würth Elektronik" H 11250 3100 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 11250 3100 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 11250 3100 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 11250 3100 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 11250 3100 50  0001 C CNN "Source_PN"
+F 9 "0603" V 11096 3100 62  0000 C CNN "Bom_Footprint"
+	1    11250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L45
+U 1 1 5E9FB996
+P 9650 3200
+F 0 "L?" V 9305 3200 50  0000 C CNN
+F 1 "74279266" V 9396 3200 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9580 3200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 9650 3200 50  0001 C CNN
+F 4 "Würth Elektronik" H 9650 3200 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 9650 3200 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 9650 3200 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 9650 3200 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 9650 3200 50  0001 C CNN "Source_PN"
+F 9 "0603" V 9496 3200 62  0000 C CNN "Bom_Footprint"
+	1    9650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L44
+U 1 1 5E9FB9A2
+P 10050 3300
+F 0 "L?" V 9705 3300 50  0000 C CNN
+F 1 "74279266" V 9796 3300 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9980 3300 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 10050 3300 50  0001 C CNN
+F 4 "Würth Elektronik" H 10050 3300 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 10050 3300 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 10050 3300 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 10050 3300 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 10050 3300 50  0001 C CNN "Source_PN"
+F 9 "0603" V 9896 3300 62  0000 C CNN "Bom_Footprint"
+	1    10050 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L43
+U 1 1 5E9FB9AE
+P 10450 3400
+F 0 "L?" V 10105 3400 50  0000 C CNN
+F 1 "74279266" V 10196 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10380 3400 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 10450 3400 50  0001 C CNN
+F 4 "Würth Elektronik" H 10450 3400 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 10450 3400 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 10450 3400 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 10450 3400 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 10450 3400 50  0001 C CNN "Source_PN"
+F 9 "0603" V 10296 3400 62  0000 C CNN "Bom_Footprint"
+	1    10450 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 2900 10350 2900
+Wire Wire Line
+	9950 2800 8450 2800
+Wire Wire Line
+	9550 2700 8450 2700
+Wire Wire Line
+	10750 3000 8450 3000
+Text Label 8500 2700 0    50   ~ 0
+J7-BR21
+Text Label 8500 2800 0    50   ~ 0
+J7-BR19
+Text Label 8500 2900 0    50   ~ 0
+J7-BR17
+Text Label 8500 3000 0    50   ~ 0
+J7-BR15
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L6
+U 1 1 5EA0EB0B
+P 10850 3500
+F 0 "L?" V 10505 3500 50  0000 C CNN
+F 1 "74279266" V 10596 3500 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10780 3500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 10850 3500 50  0001 C CNN
+F 4 "Würth Elektronik" H 10850 3500 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 10850 3500 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 10850 3500 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 10850 3500 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 10850 3500 50  0001 C CNN "Source_PN"
+F 9 "0603" V 10696 3500 62  0000 C CNN "Bom_Footprint"
+	1    10850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L23
+U 1 1 5EA0EB17
+P 7300 3500
+F 0 "L?" V 6955 3500 50  0000 C CNN
+F 1 "74279266" V 7046 3500 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7230 3500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 7300 3500 50  0001 C CNN
+F 4 "Würth Elektronik" H 7300 3500 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 7300 3500 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 7300 3500 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 7300 3500 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 7300 3500 50  0001 C CNN "Source_PN"
+F 9 "0603" V 7146 3500 62  0000 C CNN "Bom_Footprint"
+	1    7300 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 3600 9350 3600
+Wire Wire Line
+	9350 3600 9350 2600
+Wire Wire Line
+	9250 2600 9350 2600
+Connection ~ 9350 2600
+Wire Wire Line
+	9350 2600 9350 2000
+Wire Wire Line
+	8450 3400 10350 3400
+Wire Wire Line
+	9950 3300 8450 3300
+Wire Wire Line
+	9550 3200 8450 3200
+Wire Wire Line
+	10750 3500 8450 3500
+Text Label 8500 3200 0    50   ~ 0
+J7-BR11
+Text Label 8500 3300 0    50   ~ 0
+J7-BR9
+Text Label 8500 3400 0    50   ~ 0
+J7-BR7
+Text Label 8500 3500 0    50   ~ 0
+J7-BR5
+$Comp
+L 10005011_Power_Management:+24VUTIL #PWR?
+U 1 1 5EA23331
+P 9350 2000
+F 0 "#PWR?" H 9350 1850 50  0001 C CNN
+F 1 "+24VUTIL" H 9365 2199 50  0000 C CNN
+F 2 "" H 9350 2000 50  0001 C CNN
+F 3 "" H 9350 2000 50  0001 C CNN
+	1    9350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3100 11150 3100
+Text Label 8500 3100 0    50   ~ 0
+J7-BR13
+Wire Wire Line
+	7400 3500 7950 3500
+$Comp
+L 10005011_Power_Management:PGND #PWR?
+U 1 1 5EA2E1EA
+P 8650 3800
+F 0 "#PWR?" H 8650 3550 50  0001 C CNN
+F 1 "PGND" H 8655 3627 50  0000 C CNN
+F 2 "" H 8650 3800 50  0001 C CNN
+F 3 "" H 8650 3800 50  0001 C CNN
+	1    8650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3700 8650 3700
+Wire Wire Line
+	8650 3700 8650 3800
+$Comp
+L 10005011_Power_Management:0VANA #PWR?
+U 1 1 5EA2E99C
+P 7850 3800
+F 0 "#PWR?" H 7850 3550 50  0001 C CNN
+F 1 "0VANA" H 7855 3627 50  0000 C CNN
+F 2 "" H 7850 3800 50  0001 C CNN
+F 3 "" H 7850 3800 50  0001 C CNN
+	1    7850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA2ECFD
+P 7550 3800
+F 0 "#PWR?" H 7550 3550 50  0001 C CNN
+F 1 "GND" H 7555 3627 50  0000 C CNN
+F 2 "" H 7550 3800 50  0001 C CNN
+F 3 "" H 7550 3800 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3800 7850 3700
+Wire Wire Line
+	7850 3700 7950 3700
+Wire Wire Line
+	7550 3800 7550 3600
+Wire Wire Line
+	7550 3600 7950 3600
+$Comp
+L 10005011_Power_Management:PGND #PWR?
+U 1 1 5EA30528
+P 8650 2000
+F 0 "#PWR?" H 8650 1750 50  0001 C CNN
+F 1 "PGND" H 8655 1827 50  0000 C CNN
+F 2 "" H 8650 2000 50  0001 C CNN
+F 3 "" H 8650 2000 50  0001 C CNN
+	1    8650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2000 8650 1900
+Wire Wire Line
+	8650 1900 8550 1900
+Wire Wire Line
+	8550 2500 8450 2500
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L18
+U 1 1 5EA3C114
+P 7300 3000
+F 0 "L?" V 6955 3000 50  0000 C CNN
+F 1 "74279266" V 7046 3000 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7230 3000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 7300 3000 50  0001 C CNN
+F 4 "Würth Elektronik" H 7300 3000 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 7300 3000 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 7300 3000 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 7300 3000 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 7300 3000 50  0001 C CNN "Source_PN"
+F 9 "0603" V 7146 3000 62  0000 C CNN "Bom_Footprint"
+	1    7300 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L19
+U 1 1 5EA3C120
+P 5700 3100
+F 0 "L?" V 5355 3100 50  0000 C CNN
+F 1 "74279266" V 5446 3100 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5630 3100 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 5700 3100 50  0001 C CNN
+F 4 "Würth Elektronik" H 5700 3100 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 5700 3100 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 5700 3100 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 5700 3100 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 5700 3100 50  0001 C CNN "Source_PN"
+F 9 "0603" V 5546 3100 62  0000 C CNN "Bom_Footprint"
+	1    5700 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L21
+U 1 1 5EA3C12C
+P 6100 3200
+F 0 "L?" V 5755 3200 50  0000 C CNN
+F 1 "74279266" V 5846 3200 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6030 3200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6100 3200 50  0001 C CNN
+F 4 "Würth Elektronik" H 6100 3200 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 6100 3200 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 6100 3200 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 6100 3200 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 6100 3200 50  0001 C CNN "Source_PN"
+F 9 "0603" V 5946 3200 62  0000 C CNN "Bom_Footprint"
+	1    6100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L21
+U 1 1 5EA3C138
+P 6500 3300
+F 0 "L?" V 6155 3300 50  0000 C CNN
+F 1 "74279266" V 6246 3300 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6430 3300 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6500 3300 50  0001 C CNN
+F 4 "Würth Elektronik" H 6500 3300 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 6500 3300 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 6500 3300 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 6500 3300 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 6500 3300 50  0001 C CNN "Source_PN"
+F 9 "0603" V 6346 3300 62  0000 C CNN "Bom_Footprint"
+	1    6500 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L22
+U 1 1 5EA3C144
+P 6900 3400
+F 0 "L?" V 6555 3400 50  0000 C CNN
+F 1 "74279266" V 6646 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6830 3400 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6900 3400 50  0001 C CNN
+F 4 "Würth Elektronik" H 6900 3400 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 6900 3400 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 6900 3400 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 6900 3400 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 6900 3400 50  0001 C CNN "Source_PN"
+F 9 "0603" V 6746 3400 62  0000 C CNN "Bom_Footprint"
+	1    6900 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L15
+U 1 1 5EA4191D
+P 6100 2700
+F 0 "L?" V 5755 2700 50  0000 C CNN
+F 1 "74279266" V 5846 2700 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6030 2700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6100 2700 50  0001 C CNN
+F 4 "Würth Elektronik" H 6100 2700 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 6100 2700 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 6100 2700 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 6100 2700 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 6100 2700 50  0001 C CNN "Source_PN"
+F 9 "0603" V 5946 2700 62  0000 C CNN "Bom_Footprint"
+	1    6100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L16
+U 1 1 5EA41929
+P 6500 2800
+F 0 "L?" V 6155 2800 50  0000 C CNN
+F 1 "74279266" V 6246 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6430 2800 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6500 2800 50  0001 C CNN
+F 4 "Würth Elektronik" H 6500 2800 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 6500 2800 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 6500 2800 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 6500 2800 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 6500 2800 50  0001 C CNN "Source_PN"
+F 9 "0603" V 6346 2800 62  0000 C CNN "Bom_Footprint"
+	1    6500 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:74279266 L17
+U 1 1 5EA41935
+P 6900 2900
+F 0 "L?" V 6555 2900 50  0000 C CNN
+F 1 "74279266" V 6646 2900 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6830 2900 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6900 2900 50  0001 C CNN
+F 4 "Würth Elektronik" H 6900 2900 50  0001 C CNN "Mfgr"
+F 5 "74279266" H 6900 2900 50  0001 C CNN "Mfgr_PN"
+F 6 "FERRITE BEAD 1 KOHM 0603 1LN" H 6900 2900 50  0001 C CNN "Description"
+F 7 "Digi-Key" H 6900 2900 50  0001 C CNN "Source"
+F 8 "732-4484-1-ND" H 6900 2900 50  0001 C CNN "Source_PN"
+F 9 "0603" V 6746 2900 62  0000 C CNN "Bom_Footprint"
+	1    6900 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 3400 7950 3400
+Wire Wire Line
+	7950 3300 6600 3300
+Wire Wire Line
+	6200 3200 7950 3200
+Wire Wire Line
+	7950 3100 5800 3100
+Wire Wire Line
+	7400 3000 7950 3000
+Wire Wire Line
+	7950 2900 7000 2900
+Wire Wire Line
+	6600 2800 7950 2800
+Wire Wire Line
+	7950 2700 6200 2700
+Text Label 7600 3300 0    50   ~ 0
+J7-BR10
+Text Label 7600 3400 0    50   ~ 0
+J7-BR8
+Text Label 7600 3500 0    50   ~ 0
+J7-BR6
+Text Label 7600 3200 0    50   ~ 0
+J7-BR12
+Text Label 7600 3100 0    50   ~ 0
+J7-BR14
+Text Label 7600 3000 0    50   ~ 0
+J7-BR16
+Text Label 7600 2900 0    50   ~ 0
+J7-BR18
+Text Label 7600 2800 0    50   ~ 0
+J7-BR20
+Text Label 7600 2700 0    50   ~ 0
+J7-BR22
+Wire Wire Line
+	7950 2600 7550 2600
+Wire Wire Line
+	7550 2600 7550 1900
+Wire Wire Line
+	7550 1900 7450 1900
+Wire Wire Line
+	7450 1900 7450 2000
+Wire Wire Line
+	7950 2500 7650 2500
+Wire Wire Line
+	7650 2500 7650 1900
+Wire Wire Line
+	7650 1900 7850 1900
+Wire Wire Line
+	7850 1900 7850 2000
+$Comp
+L 10005011_Power_Management:0VANA #PWR?
+U 1 1 5EA5A0D1
+P 7850 2000
+F 0 "#PWR?" H 7850 1750 50  0001 C CNN
+F 1 "0VANA" H 7855 1827 50  0000 C CNN
+F 2 "" H 7850 2000 50  0001 C CNN
+F 3 "" H 7850 2000 50  0001 C CNN
+	1    7850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA62B37
+P 7450 2000
+F 0 "#PWR?" H 7450 1750 50  0001 C CNN
+F 1 "GND" H 7455 1827 50  0000 C CNN
+F 2 "" H 7450 2000 50  0001 C CNN
+F 3 "" H 7450 2000 50  0001 C CNN
+	1    7450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1900 8550 2500
+Wire Wire Line
+	3400 1550 2700 1550
+Wire Wire Line
+	3400 1950 2700 1950
+Wire Wire Line
+	2700 2250 3275 2250
+Wire Wire Line
+	3400 2650 2700 2650
+Wire Wire Line
+	2700 2950 3275 2950
+Wire Wire Line
+	3400 3350 2700 3350
+Wire Wire Line
+	2700 3650 3275 3650
+Wire Wire Line
+	3400 4050 2700 4050
+Wire Wire Line
+	2700 4350 3275 4350
+Text Label 2700 2250 0    50   ~ 0
+J7-BR10
+Text Label 2700 1950 0    50   ~ 0
+J7-BR8
+Text Label 2700 1550 0    50   ~ 0
+J7-BR6
+Text Label 2700 2650 0    50   ~ 0
+J7-BR12
+Text Label 2700 2950 0    50   ~ 0
+J7-BR14
+Text Label 2700 3350 0    50   ~ 0
+J7-BR16
+Text Label 2700 3650 0    50   ~ 0
+J7-BR18
+Text Label 2700 4050 0    50   ~ 0
+J7-BR20
+Text Label 2700 4350 0    50   ~ 0
+J7-BR22
+Wire Wire Line
+	2700 1250 3400 1250
+Text Label 2700 1250 0    50   ~ 0
+J7-BR3
+Wire Wire Line
+	2700 4450 3400 4450
+Text Label 2700 4450 0    50   ~ 0
+J7-BR23
+Wire Wire Line
+	2700 3450 3275 3450
+Wire Wire Line
+	3400 3750 2700 3750
+Wire Wire Line
+	3400 4150 3275 4150
+Wire Wire Line
+	3400 3050 2700 3050
+Text Label 2700 4150 0    50   ~ 0
+J7-BR21
+Text Label 2700 3750 0    50   ~ 0
+J7-BR19
+Text Label 2700 3450 0    50   ~ 0
+J7-BR17
+Text Label 2700 3050 0    50   ~ 0
+J7-BR15
+Wire Wire Line
+	2700 1650 3400 1650
+Wire Wire Line
+	3400 2050 3275 2050
+Wire Wire Line
+	3400 2350 2700 2350
+Wire Wire Line
+	3400 1350 2700 1350
+Text Label 2700 2350 0    50   ~ 0
+J7-BR11
+Text Label 2700 2050 0    50   ~ 0
+J7-BR9
+Text Label 2700 1650 0    50   ~ 0
+J7-BR7
+Text Label 2700 1350 0    50   ~ 0
+J7-BR5
+Wire Wire Line
+	2700 2750 3275 2750
+Text Label 2700 2750 0    50   ~ 0
+J7-BR13
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:47pF_array C100
+U 1 1 5E999B39
+P 3500 1450
+F 0 "C?" H 3375 1450 50  0000 R CNN
+F 1 "47pF" H 3600 1450 50  0000 L CNN
+F 2 "" V 3500 1525 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf" V 3500 1525 50  0001 C CNN
+F 4 "KEMET" V 3500 1425 50  0001 C CNN "Mfgr"
+F 5 "CA064C470K5GAC7800" V 3500 1425 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" V 3500 1425 50  0001 C CNN "Source"
+F 7 "399-10028-1-ND" V 3500 1425 50  0001 C CNN "Source_PN"
+F 8 "CAP ARRAY 47PF 50V NP0 0612" V 3500 1425 50  0001 C CNN "Description"
+F 9 "NPO" V 3500 1425 50  0001 C CNN "Dielectric"
+F 10 "50V" V 3500 1450 50  0001 C CNN "Voltage"
+F 11 "Need to create a footprint" V 3500 1425 50  0001 C CNN "Notes"
+	1    3500 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:47pF_array C62
+U 1 1 5E9ACAEE
+P 3500 2150
+F 0 "C?" H 3375 2150 50  0000 R CNN
+F 1 "47pF" H 3600 2150 50  0000 L CNN
+F 2 "" V 3500 2225 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf" V 3500 2225 50  0001 C CNN
+F 4 "KEMET" V 3500 2125 50  0001 C CNN "Mfgr"
+F 5 "CA064C470K5GAC7800" V 3500 2125 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" V 3500 2125 50  0001 C CNN "Source"
+F 7 "399-10028-1-ND" V 3500 2125 50  0001 C CNN "Source_PN"
+F 8 "CAP ARRAY 47PF 50V NP0 0612" V 3500 2125 50  0001 C CNN "Description"
+F 9 "NPO" V 3500 2125 50  0001 C CNN "Dielectric"
+F 10 "50V" V 3500 2150 50  0001 C CNN "Voltage"
+F 11 "Need to create a footprint" V 3500 2125 50  0001 C CNN "Notes"
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:47pF_array C98
+U 1 1 5E9C3D44
+P 3500 2850
+F 0 "C?" H 3375 2850 50  0000 R CNN
+F 1 "47pF" H 3600 2850 50  0000 L CNN
+F 2 "" V 3500 2925 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf" V 3500 2925 50  0001 C CNN
+F 4 "KEMET" V 3500 2825 50  0001 C CNN "Mfgr"
+F 5 "CA064C470K5GAC7800" V 3500 2825 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" V 3500 2825 50  0001 C CNN "Source"
+F 7 "399-10028-1-ND" V 3500 2825 50  0001 C CNN "Source_PN"
+F 8 "CAP ARRAY 47PF 50V NP0 0612" V 3500 2825 50  0001 C CNN "Description"
+F 9 "NPO" V 3500 2825 50  0001 C CNN "Dielectric"
+F 10 "50V" V 3500 2850 50  0001 C CNN "Voltage"
+F 11 "Need to create a footprint" V 3500 2825 50  0001 C CNN "Notes"
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:47pF_array C61
+U 1 1 5E9C61B7
+P 3500 3550
+F 0 "C?" H 3375 3550 50  0000 R CNN
+F 1 "47pF" H 3600 3550 50  0000 L CNN
+F 2 "" V 3500 3625 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf" V 3500 3625 50  0001 C CNN
+F 4 "KEMET" V 3500 3525 50  0001 C CNN "Mfgr"
+F 5 "CA064C470K5GAC7800" V 3500 3525 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" V 3500 3525 50  0001 C CNN "Source"
+F 7 "399-10028-1-ND" V 3500 3525 50  0001 C CNN "Source_PN"
+F 8 "CAP ARRAY 47PF 50V NP0 0612" V 3500 3525 50  0001 C CNN "Description"
+F 9 "NPO" V 3500 3525 50  0001 C CNN "Dielectric"
+F 10 "50V" V 3500 3550 50  0001 C CNN "Voltage"
+F 11 "Need to create a footprint" V 3500 3525 50  0001 C CNN "Notes"
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:47pF_array C53
+U 1 1 5E9C89A0
+P 3500 4250
+F 0 "C?" H 3375 4250 50  0000 R CNN
+F 1 "47pF" H 3600 4250 50  0000 L CNN
+F 2 "" V 3500 4325 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf" V 3500 4325 50  0001 C CNN
+F 4 "KEMET" V 3500 4225 50  0001 C CNN "Mfgr"
+F 5 "CA064C470K5GAC7800" V 3500 4225 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" V 3500 4225 50  0001 C CNN "Source"
+F 7 "399-10028-1-ND" V 3500 4225 50  0001 C CNN "Source_PN"
+F 8 "CAP ARRAY 47PF 50V NP0 0612" V 3500 4225 50  0001 C CNN "Description"
+F 9 "NPO" V 3500 4225 50  0001 C CNN "Dielectric"
+F 10 "50V" V 3500 4250 50  0001 C CNN "Voltage"
+F 11 "Need to create a footprint" V 3500 4225 50  0001 C CNN "Notes"
+	1    3500 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 600  0    100  ~ 0
+Should the two on the ends be bypassed to PGND instead of GND?
+$Comp
+L power:GND #PWR?
+U 1 1 5E9D46B2
+P 3900 4650
+F 0 "#PWR?" H 3900 4400 50  0001 C CNN
+F 1 "GND" H 3900 4500 50  0000 C CNN
+F 2 "" H 3900 4650 50  0001 C CNN
+F 3 "" H 3900 4650 50  0001 C CNN
+	1    3900 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1250 3600 1250
+Wire Wire Line
+	3600 1350 3900 1350
+Connection ~ 3900 1350
+Wire Wire Line
+	3900 1350 3900 1250
+Wire Wire Line
+	3600 1550 3900 1550
+Connection ~ 3900 1550
+Wire Wire Line
+	3900 1550 3900 1350
+Wire Wire Line
+	3600 1650 3900 1650
+Connection ~ 3900 1650
+Wire Wire Line
+	3900 1650 3900 1550
+Wire Wire Line
+	3900 1950 3600 1950
+Wire Wire Line
+	3600 2050 3725 2050
+Wire Wire Line
+	3600 2250 3725 2250
+Wire Wire Line
+	3600 2350 3900 2350
+Connection ~ 3900 1950
+Wire Wire Line
+	3900 1950 3900 1650
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 3900 1950
+Connection ~ 3900 2250
+Wire Wire Line
+	3900 2250 3900 2050
+Wire Wire Line
+	3900 2350 3900 2250
+Wire Wire Line
+	3900 2650 3600 2650
+Wire Wire Line
+	3600 2750 3725 2750
+Wire Wire Line
+	3600 2950 3725 2950
+Wire Wire Line
+	3600 3050 3900 3050
+Wire Wire Line
+	3900 3350 3600 3350
+Wire Wire Line
+	3600 3450 3725 3450
+Wire Wire Line
+	3600 3650 3725 3650
+Wire Wire Line
+	3600 3750 3900 3750
+Wire Wire Line
+	3900 4050 3600 4050
+Wire Wire Line
+	3600 4150 3725 4150
+Wire Wire Line
+	3600 4350 3725 4350
+Wire Wire Line
+	3600 4450 3900 4450
+Wire Wire Line
+	3900 4650 3900 4450
+Connection ~ 3900 2350
+Connection ~ 3900 2650
+Wire Wire Line
+	3900 2650 3900 2350
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2750 3900 2650
+Connection ~ 3900 2950
+Wire Wire Line
+	3900 2950 3900 2750
+Connection ~ 3900 3050
+Wire Wire Line
+	3900 3050 3900 2950
+Connection ~ 3900 3350
+Wire Wire Line
+	3900 3350 3900 3050
+Connection ~ 3900 3450
+Wire Wire Line
+	3900 3450 3900 3350
+Connection ~ 3900 3650
+Wire Wire Line
+	3900 3650 3900 3450
+Connection ~ 3900 3750
+Wire Wire Line
+	3900 3750 3900 3650
+Connection ~ 3900 4050
+Wire Wire Line
+	3900 4050 3900 3750
+Connection ~ 3900 4150
+Wire Wire Line
+	3900 4150 3900 4050
+Connection ~ 3900 4350
+Wire Wire Line
+	3900 4350 3900 4150
+Connection ~ 3900 4450
+Wire Wire Line
+	3900 4450 3900 4350
+Text HLabel 5200 2700 0    50   Input ~ 0
+MTSR-SPI-1
+Text HLabel 5200 2900 0    50   Output ~ 0
+MRST-SPI-1
+Text HLabel 5200 2800 0    50   Output ~ 0
+RX-UART-ST
+Text HLabel 5200 3000 0    50   Input ~ 0
+LED-DC-PRESENCE
+Text HLabel 5200 3200 0    50   Input ~ 0
+USB-BUSY
+Text HLabel 5200 3300 0    50   Output ~ 0
+CE-SPI-USB
+Text HLabel 5200 3400 0    50   Output ~ 0
+CE-SPI-PIC
+Text HLabel 5200 3500 0    50   Output ~ 0
+SCLK-SPI-0
+Wire Wire Line
+	5200 2700 6000 2700
+Wire Wire Line
+	5200 2800 6400 2800
+Wire Wire Line
+	5200 2900 6800 2900
+Wire Wire Line
+	5200 3000 7200 3000
+Wire Wire Line
+	5200 3200 6000 3200
+Wire Wire Line
+	5200 3300 6400 3300
+Wire Wire Line
+	5200 3400 6800 3400
+Text HLabel 11750 3400 2    50   Output ~ 0
+MTSR-SPI-0
+Text HLabel 11750 3300 2    50   Input ~ 0
+MRST-SPI-0
+Text HLabel 11750 3000 2    50   Input ~ 0
+LED-AC-PRESENCE
+Text HLabel 11750 3200 2    50   Output ~ 0
+USB-RESET
+Text HLabel 11750 2800 2    50   Output ~ 0
+TX-UART-ST
+Text HLabel 11750 2700 2    50   Input ~ 0
+RTS-UART-ST
+Wire Wire Line
+	11750 3500 10950 3500
+Wire Wire Line
+	11750 3400 10550 3400
+Wire Wire Line
+	11750 3300 10150 3300
+Wire Wire Line
+	11750 3200 9750 3200
+Wire Wire Line
+	11750 3000 10950 3000
+Wire Wire Line
+	11750 2900 10550 2900
+Wire Wire Line
+	11750 2800 10150 2800
+Wire Wire Line
+	7200 3500 5200 3500
+Wire Wire Line
+	9750 2700 11750 2700
+Text HLabel 11750 2900 2    50   Input ~ 0
+LED-BATTERY-STATUS
+Wire Wire Line
+	11550 3100 11350 3100
+Text HLabel 11750 3500 2    50   Output ~ 0
+SCLK-SPI-1
+Wire Notes Line
+	2600 1050 2600 4950
+Text Notes 2600 1025 0    79   ~ 0
+CPU BOARD CONNECTOR
+Wire Wire Line
+	11550 2300 11550 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5EA706C2
+P 11550 2300
+F 0 "#PWR?" H 11550 2150 50  0001 C CNN
+F 1 "+5V" H 11550 2440 50  0000 C CNN
+F 2 "" H 11550 2300 50  0001 C CNN
+F 3 "" H 11550 2300 50  0001 C CNN
+	1    11550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J10
+U 1 1 5EAA7A9F
+P 2800 6400
+F 0 "J?" H 2800 6900 50  0000 C CNN
+F 1 "BATTERY" H 2800 5800 50  0000 C CNN
+F 2 "" H 2800 6400 50  0001 C CNN
+F 3 "~" H 2800 6400 50  0001 C CNN
+	1    2800 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 5900 3100 5900
+Wire Wire Line
+	3100 5900 3100 6000
+Wire Wire Line
+	3100 6200 3000 6200
+Wire Wire Line
+	3000 6100 3100 6100
+Connection ~ 3100 6100
+Wire Wire Line
+	3100 6100 3100 6200
+Wire Wire Line
+	3000 6000 3100 6000
+Connection ~ 3100 6000
+Wire Wire Line
+	3100 6000 3100 6100
+Text HLabel 3800 6300 2    50   Input ~ 0
+BAT-EEPROM
+Text HLabel 3800 6400 2    50   Output ~ 0
+BATTERY-TEMP
+Wire Wire Line
+	3000 6500 3100 6500
+Wire Wire Line
+	3100 6500 3100 6600
+Wire Wire Line
+	3100 6800 3000 6800
+Wire Wire Line
+	3000 6700 3100 6700
+Connection ~ 3100 6700
+Wire Wire Line
+	3100 6700 3100 6800
+Wire Wire Line
+	3000 6600 3100 6600
+Connection ~ 3100 6600
+Wire Wire Line
+	3100 6600 3100 6700
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:B72500T0040M060 ML2
+U 1 1 5EAD099F
+P 3350 6850
+F 0 "ML?" V 3475 6850 50  0000 C CNN
+F 1 "B72500T0040M060" V 3225 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 6850 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Standard_series.pdf" H 3350 6850 50  0001 C CNN
+F 4 "Digi-Key" H 3350 6850 50  0001 C CNN "Source"
+F 5 "495-2595-1-ND" H 3350 6850 50  0001 C CNN "Source_PN"
+F 6 "TDK Electronics Inc." H 3350 6850 50  0001 C CNN "Mfgr"
+F 7 "B72500T0040M060" H 3350 6850 50  0001 C CNN "Mfgr_PN"
+F 8 "VARISTOR 8V 30A 0603" H 3350 6850 50  0001 C CNN "Description"
+F 9 "0603" H 3350 6850 50  0000 C CNN "Bom_Footprint"
+	1    3350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:B72500T0040M060 ML3
+U 1 1 5EAD2460
+P 3700 6850
+F 0 "ML?" V 3825 6850 50  0000 C CNN
+F 1 "B72500T0040M060" V 3575 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 6850 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Standard_series.pdf" H 3700 6850 50  0001 C CNN
+F 4 "Digi-Key" H 3700 6850 50  0001 C CNN "Source"
+F 5 "495-2595-1-ND" H 3700 6850 50  0001 C CNN "Source_PN"
+F 6 "TDK Electronics Inc." H 3700 6850 50  0001 C CNN "Mfgr"
+F 7 "B72500T0040M060" H 3700 6850 50  0001 C CNN "Mfgr_PN"
+F 8 "VARISTOR 8V 30A 0603" H 3700 6850 50  0001 C CNN "Description"
+F 9 "0603" H 3700 6850 50  0000 C CNN "Bom_Footprint"
+	1    3700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management:PGND #PWR?
+U 1 1 5EADDB98
+P 3100 7700
+F 0 "#PWR?" H 3100 7450 50  0001 C CNN
+F 1 "PGND" H 3100 7550 50  0000 C CNN
+F 2 "" H 3100 7700 50  0001 C CNN
+F 3 "" H 3100 7700 50  0001 C CNN
+	1    3100 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7000 3350 7250
+Wire Wire Line
+	3350 7250 3100 7250
+Wire Wire Line
+	3100 7250 3100 6800
+Connection ~ 3100 6800
+Wire Wire Line
+	3700 7250 3700 7100
+Connection ~ 3350 7250
+$Comp
+L Device:Jumper_NC_Small JPL2
+U 1 1 5EB0F3A6
+P 3450 7400
+F 0 "JPL?" H 3450 7480 50  0000 C CNN
+F 1 "LINK" H 3460 7340 50  0000 C CNN
+F 2 "" H 3450 7400 50  0001 C CNN
+F 3 "~" H 3450 7400 50  0001 C CNN
+	1    3450 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JPL3
+U 1 1 5EB10713
+P 3700 7400
+F 0 "JPL?" H 3700 7480 50  0000 C CNN
+F 1 "LINK" H 3710 7340 50  0000 C CNN
+F 2 "" H 3700 7400 50  0001 C CNN
+F 3 "~" H 3700 7400 50  0001 C CNN
+	1    3700 7400
+	0    1    1    0   
+$EndComp
+Connection ~ 3100 7250
+$Comp
+L power:GND #PWR?
+U 1 1 5EB2D92A
+P 3450 7700
+F 0 "#PWR?" H 3450 7450 50  0001 C CNN
+F 1 "GND" H 3450 7550 50  0000 C CNN
+F 2 "" H 3450 7700 50  0001 C CNN
+F 3 "" H 3450 7700 50  0001 C CNN
+	1    3450 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management:0VANA #PWR?
+U 1 1 5EB2DA0B
+P 3700 7700
+F 0 "#PWR?" H 3700 7450 50  0001 C CNN
+F 1 "0VANA" H 3700 7550 50  0000 C CNN
+F 2 "" H 3700 7700 50  0001 C CNN
+F 3 "" H 3700 7700 50  0001 C CNN
+	1    3700 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7250 3450 7250
+Wire Wire Line
+	3450 7250 3450 7300
+Connection ~ 3450 7250
+Wire Wire Line
+	3450 7250 3700 7250
+Wire Wire Line
+	3700 7250 3700 7300
+Connection ~ 3700 7250
+Wire Wire Line
+	3700 7500 3700 7600
+Wire Wire Line
+	3450 7500 3450 7700
+Wire Wire Line
+	3100 7250 3100 7700
+Wire Wire Line
+	3700 7600 4000 7600
+Wire Wire Line
+	4000 7600 4000 7500
+Connection ~ 3700 7600
+Wire Wire Line
+	3700 7600 3700 7700
+$Comp
+L Connector:TestPoint PT1
+U 1 1 5EB70271
+P 4000 7500
+F 0 "PT?" H 4000 7770 50  0000 C CNN
+F 1 "TestPoint" H 4000 7700 50  0000 C CNN
+F 2 "" H 4200 7500 50  0001 C CNN
+F 3 "~" H 4200 7500 50  0001 C CNN
+	1    4000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C109
+U 1 1 5EB7173A
+P 4050 6850
+F 0 "C?" H 4075 6950 50  0000 L CNN
+F 1 "100nF" H 4075 6750 50  0000 L CNN
+F 2 "" H 4088 6700 50  0001 C CNN
+F 3 "~" H 4050 6850 50  0001 C CNN
+	1    4050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:SZ1SMB D21
+U 1 1 5EB720B0
+P 4500 6850
+F 0 "D?" H 4500 6950 50  0000 C CNN
+F 1 "1SMB36" H 4500 6750 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 4500 6850 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf" H 4500 6850 50  0001 C CNN
+F 4 "Littelfuse Inc." H 4500 6850 50  0001 C CNN "Mfgr"
+F 5 "SZ1SMB36AT3G" H 4500 6850 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4500 6850 50  0001 C CNN "Source"
+F 7 "F11561CT-ND" H 4500 6850 50  0001 C CNN "Source_PN"
+F 8 "TVS DIODE 36V 58.1V SMB" H 4500 6850 50  0001 C CNN "Description"
+	1    4500 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 7100 4050 7100
+Wire Wire Line
+	4500 7100 4500 7000
+Connection ~ 3700 7100
+Wire Wire Line
+	3700 7100 3700 7000
+Wire Wire Line
+	4050 7000 4050 7100
+Connection ~ 4050 7100
+Wire Wire Line
+	4050 7100 4500 7100
+Wire Wire Line
+	3100 6200 4500 6200
+Wire Wire Line
+	4500 6200 4500 6600
+Wire Wire Line
+	4500 6600 4050 6600
+Wire Wire Line
+	4050 6600 4050 6700
+Connection ~ 3100 6200
+Wire Wire Line
+	4500 6600 4500 6700
+Connection ~ 4500 6600
+$Comp
+L 10005011_Power_Management:VBAT #PWR?
+U 1 1 5EB948E8
+P 4500 6000
+F 0 "#PWR?" H 4500 5850 50  0001 C CNN
+F 1 "VBAT" H 4500 6165 50  0000 C CNN
+F 2 "" H 4500 6000 50  0001 C CNN
+F 3 "" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6200 4500 6000
+Connection ~ 4500 6200
+$Comp
+L Device:R R78
+U 1 1 5EBADD98
+P 3450 5950
+F 0 "R?" V 3530 5950 50  0000 C CNN
+F 1 "10k" V 3450 5950 50  0000 C CNN
+F 2 "" V 3380 5950 50  0001 C CNN
+F 3 "~" H 3450 5950 50  0001 C CNN
+	1    3450 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6300 3700 6300
+Wire Wire Line
+	3000 6400 3350 6400
+Wire Wire Line
+	3350 6700 3350 6400
+Connection ~ 3350 6400
+Wire Wire Line
+	3350 6400 3450 6400
+Wire Wire Line
+	3700 6700 3700 6300
+Connection ~ 3700 6300
+Wire Wire Line
+	3700 6300 3800 6300
+Wire Wire Line
+	3450 6100 3450 6400
+Connection ~ 3450 6400
+Wire Wire Line
+	3450 6400 3800 6400
+Wire Wire Line
+	3450 5800 3700 5800
+Text HLabel 3700 5800 2    50   Input ~ 0
++3.0VREF
+Wire Notes Line
+	2600 5700 2600 8000
+Wire Notes Line
+	2600 8000 4800 8000
+Wire Notes Line
+	4800 8000 4800 5700
+Wire Notes Line
+	4800 5700 2600 5700
+Text Notes 2600 5675 0    79   ~ 0
+BATTERY CONTACT CONNECTOR
+$Comp
+L 10005011_Power_Management:PGND #PWR?
+U 1 1 5EC14757
+P 3450 9950
+F 0 "#PWR?" H 3450 9700 50  0001 C CNN
+F 1 "PGND" H 3450 9800 50  0000 C CNN
+F 2 "" H 3450 9950 50  0001 C CNN
+F 3 "" H 3450 9950 50  0001 C CNN
+	1    3450 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C110
+U 1 1 5EC1478F
+P 3750 9600
+F 0 "C?" H 3775 9700 50  0000 L CNN
+F 1 "100nF" H 3775 9500 50  0000 L CNN
+F 2 "" H 3788 9450 50  0001 C CNN
+F 3 "~" H 3750 9600 50  0001 C CNN
+	1    3750 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 9750 3750 9850
+Wire Wire Line
+	3750 9350 3750 9450
+Wire Notes Line
+	2650 8950 2650 10350
+Wire Notes Line
+	2650 10350 4850 10350
+Wire Notes Line
+	4850 10350 4850 8950
+Wire Notes Line
+	4850 8950 2650 8950
+Text Notes 2650 8925 0    79   ~ 0
+POWER SUPPLY BLOWER BOARD CONNECTOR
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5EC68910
+P 3150 9350
+F 0 "J?" H 3150 9450 50  0000 C CNN
+F 1 "BLOWER" H 3150 9150 50  0000 C CNN
+F 2 "" H 3150 9350 50  0001 C CNN
+F 3 "~" H 3150 9350 50  0001 C CNN
+	1    3150 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management:+24VUTIL #PWR?
+U 1 1 5EC6A8D7
+P 3650 9250
+F 0 "#PWR?" H 3650 9100 50  0001 C CNN
+F 1 "+24VUTIL" H 3650 9415 50  0000 C CNN
+F 2 "" H 3650 9250 50  0001 C CNN
+F 3 "" H 3650 9250 50  0001 C CNN
+	1    3650 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5EC74DC8
+P 4150 9600
+F 0 "C?" H 4175 9700 50  0000 L CNN
+F 1 "10nF" H 4175 9500 50  0000 L CNN
+F 2 "" H 4188 9450 50  0001 C CNN
+F 3 "~" H 4150 9600 50  0001 C CNN
+	1    4150 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 9350 3650 9350
+Wire Wire Line
+	4150 9350 4150 9450
+Connection ~ 3750 9350
+Wire Wire Line
+	3750 9350 4150 9350
+Wire Wire Line
+	3650 9250 3650 9350
+Connection ~ 3650 9350
+Wire Wire Line
+	3650 9350 3750 9350
+Wire Wire Line
+	3350 9450 3450 9450
+Wire Wire Line
+	3450 9450 3450 9850
+Wire Wire Line
+	3450 9850 3750 9850
+Wire Wire Line
+	4150 9850 4150 9750
+Connection ~ 3450 9850
+Wire Wire Line
+	3450 9850 3450 9950
+Connection ~ 3750 9850
+Wire Wire Line
+	3750 9850 4150 9850
+$Comp
+L 10005011_Power_Management:VBAT #PWR?
+U 1 1 5ECC6D63
+P 5400 2300
+F 0 "#PWR?" H 5400 2150 50  0001 C CNN
+F 1 "VBAT" H 5400 2465 50  0000 C CNN
+F 2 "" H 5400 2300 50  0001 C CNN
+F 3 "" H 5400 2300 50  0001 C CNN
+	1    5400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2300 5400 3100
+Wire Wire Line
+	5400 3100 5600 3100
+Text Notes 2650 8300 0    79   ~ 0
+BAT-EEPROM changed to an input.\nwas output in original schematic.
+Wire Notes Line
+	13050 4950 13050 1050
+Wire Notes Line
+	2600 1050 13050 1050
+Wire Notes Line
+	2600 4950 13050 4950
+Connection ~ 3275 2050
+Wire Wire Line
+	3275 2050 2700 2050
+Connection ~ 3275 2250
+Wire Wire Line
+	3275 2250 3400 2250
+Connection ~ 3275 2750
+Wire Wire Line
+	3275 2750 3400 2750
+Connection ~ 3275 2950
+Wire Wire Line
+	3275 2950 3400 2950
+Connection ~ 3275 3450
+Wire Wire Line
+	3275 3450 3400 3450
+Connection ~ 3275 3650
+Wire Wire Line
+	3275 3650 3400 3650
+Connection ~ 3275 4150
+Wire Wire Line
+	3275 4150 2700 4150
+Connection ~ 3275 4350
+Wire Wire Line
+	3275 4350 3400 4350
+Connection ~ 3725 2050
+Wire Wire Line
+	3725 2050 3900 2050
+Connection ~ 3725 2250
+Wire Wire Line
+	3725 2250 3900 2250
+Connection ~ 3725 2750
+Wire Wire Line
+	3725 2750 3900 2750
+Connection ~ 3725 2950
+Wire Wire Line
+	3725 2950 3900 2950
+Connection ~ 3725 3450
+Wire Wire Line
+	3725 3450 3900 3450
+Connection ~ 3725 3650
+Wire Wire Line
+	3725 3650 3900 3650
+Connection ~ 3725 4150
+Wire Wire Line
+	3725 4150 3900 4150
+Connection ~ 3725 4350
+Wire Wire Line
+	3725 4350 3900 4350
+$EndSCHEMATC

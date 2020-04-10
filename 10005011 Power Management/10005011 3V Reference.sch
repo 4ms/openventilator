@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 8
+Sheet 2 13
 Title ""
 Date ""
 Rev "1"
@@ -105,11 +105,11 @@ F 3 "" H 5975 5125 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5E911F09
+U 1 1 5FB06048
 P 3525 4850
-AR Path="/5E88D608/5E911F09" Ref="C?"  Part="1" 
-AR Path="/5E8E2802/5E911F09" Ref="C?"  Part="1" 
-AR Path="/5E8F17C0/5E911F09" Ref="C?"  Part="1" 
+AR Path="/5E88D608/5FB06048" Ref="C?"  Part="1" 
+AR Path="/5E8E2802/5FB06048" Ref="C?"  Part="1" 
+AR Path="/5E8F17C0/5FB06048" Ref="C?"  Part="1" 
 F 0 "C?" H 3675 4925 50  0000 L CNN
 F 1 "100nF" H 3675 4825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3563 4700 50  0001 C CNN
