@@ -119,7 +119,7 @@ U 1 1 5E89FEB7
 P 5800 3100
 F 0 "BT1" H 5908 3146 50  0000 L CNN
 F 1 "Battery" H 5908 3055 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_104_1x23mm" V 5800 3160 50  0001 C CNN
+F 2 "footprint_buzzer:Varta_55615604940" V 5800 3160 50  0001 C CNN
 F 3 "~" V 5800 3160 50  0001 C CNN
 	1    5800 3100
 	1    0    0    -1  
