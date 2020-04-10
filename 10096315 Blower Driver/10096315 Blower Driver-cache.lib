@@ -1,23 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 10096315-Blower-Driver-rescue_Resistor_0R047-Blower_Driver_Components
-#
-DEF 10096315-Blower-Driver-rescue_Resistor_0R047-Blower_Driver_Components R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "10096315-Blower-Driver-rescue_Resistor_0R047-Blower_Driver_Components" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "ERJ-L1WKF47MU" 400 -150 50 H I C CNN "MPN"
-F5 "0R047" -100 0 50 V V C CNN "Resistance"
-F6 "1W" -200 0 50 V V C CNN "Power"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Blower_Driver_Components_10pinConnector
 #
 DEF Blower_Driver_Components_10pinConnector J 0 40 Y Y 1 F N
@@ -732,6 +715,23 @@ X CONT 5 50 -500 100 U 50 50 1 1 I
 X THRESH 6 -450 -50 100 R 50 50 1 1 I
 X DISCH 7 -450 150 100 R 50 50 1 1 I
 X VCC 8 -100 500 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Blower_Driver_Components_Resistor_0R047
+#
+DEF Blower_Driver_Components_Resistor_0R047 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Blower_Driver_Components_Resistor_0R047" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ERJ-L1WKF47MU" 400 -150 50 H I C CNN "MPN"
+F5 "0R047" -100 0 50 V V C CNN "Resistance"
+F6 "1W" -200 0 50 V V C CNN "Power"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

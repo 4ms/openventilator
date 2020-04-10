@@ -1754,7 +1754,7 @@ F 6 "1W" H 10870 12309 50  0000 L CNN "Power"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10096315-Blower-Driver-rescue:Resistor_0R047-Blower_Driver_Components R1
+L Blower_Driver_Components:Resistor_0R047 R1
 U 1 1 5EB3A530
 P 11150 12400
 F 0 "R1" H 11220 12491 50  0000 L CNN
@@ -2852,7 +2852,7 @@ U 1 1 610001F3
 P 10300 12900
 F 0 "NT1" H 10300 13081 50  0000 C CNN
 F 1 "Net-Tie_2" H 10300 12990 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 10300 12900 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 10300 12900 50  0001 C CNN
 F 3 "~" H 10300 12900 50  0001 C CNN
 	1    10300 12900
 	1    0    0    -1  
@@ -3359,7 +3359,7 @@ U 1 1 5E9F7083
 P 8800 2400
 F 0 "C2" H 8915 2491 50  0000 L CNN
 F 1 "Capacitor_100uF_CheckFootprint" H 8800 2850 50  0001 C CNN
-F 2 "Capacitors_SMD:CP_Elec_8x10" H 8850 1950 50  0001 C CNN
+F 2 "10096315 Blower Driver:03515" H 8850 1950 50  0001 C CNN
 F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 8800 2850 50  0001 C CNN
 F 4 "UWT1H101MNL1GS" H 9350 2250 50  0001 C CNN "MPN"
 F 5 "100uF" H 8915 2400 50  0000 L CNN "Capacitance"
