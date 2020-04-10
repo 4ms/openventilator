@@ -19,6 +19,12 @@ $CMP LTC3780
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3780.pdf
 $ENDCMP
 #
+$CMP MCDM(R)-02-T
+D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+F ~
+$ENDCMP
+#
 $CMP PGND
 D Power symbol creates a global label with name "PGND" , ground
 K power-flag
