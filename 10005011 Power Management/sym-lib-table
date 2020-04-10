@@ -4,4 +4,5 @@
   (lib (name page1)(type Legacy)(uri ${KIPRJMOD}/page1.lib)(options "")(descr ""))
   (lib (name page2)(type Legacy)(uri ${KIPRJMOD}/page2.lib)(options "")(descr ""))
   (lib (name page3)(type Legacy)(uri ${KIPRJMOD}/page3.lib)(options "")(descr ""))
+  (lib (name 10106052_PowerPack)(type Legacy)(uri "/home/luis/Projects/PCB/kicad/openHardware/openventilator/10106052 PowerPack/10106052 PowerPack.lib")(options "")(descr ""))
 )

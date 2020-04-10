@@ -5,6 +5,12 @@ D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag
 $ENDCMP
 #
+$CMP CY7C1021DV33
+D IC,RAM,3V3,64KX16,10NS,TSOP
+K 10022899
+F https://www.cypress.com/file/42751/download
+$ENDCMP
+#
 $CMP CY7C67300-100AXI
 D IC,MICROCONTROLLER,TQFP100
 K 10022898
