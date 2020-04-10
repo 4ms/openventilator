@@ -6,4 +6,5 @@
   (lib (name tlv3011)(type Legacy)(uri ${KIPRJMOD}/lib_01/tlv3011.lib)(options "")(descr "")(disabled))
   (lib (name bla31bd)(type Legacy)(uri ${KIPRJMOD}/lib_01/BLA31BD221SN4D.lib)(options "")(descr "")(disabled))
   (lib (name "GR106768 Buzzer")(type Legacy)(uri "${KIPRJMOD}/GR106768 Buzzer.lib")(options "")(descr ""))
+  (lib (name GR106768-Buzzer-rescue)(type Legacy)(uri "${KIPRJMOD}/GR106768 Buzzer-rescue.lib")(options "")(descr ""))
 )
