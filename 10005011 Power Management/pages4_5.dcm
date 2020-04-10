@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV3011AIDBV
+D Nanopower 1.8V comparator with voltage reference
+K comparator
+F http://www.ti.com/lit/ds/symlink/tlv172.pdf
+$ENDCMP
+#
+$CMP TLV3012AIDBV
+D Nanopower 1.8V comparator with voltage reference
+K comparator
+F http://www.ti.com/lit/ds/symlink/tlv3011.pdf
+$ENDCMP
+#
+#End Doc Library
