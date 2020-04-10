@@ -5,7 +5,11 @@
     (drawings 46)
     (tracks 1292)
     (zones 0)
+<<<<<<< HEAD
     (modules 273)
+=======
+    (modules 274)
+>>>>>>> buzzer-GCI
     (nets 88)
   )
 
@@ -62,7 +66,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -93,8 +97,13 @@
   )
 
   (net 0 "")
+<<<<<<< HEAD
   (net 1 "Net-(BUZ1-Pad2)")
   (net 2 "Net-(BUZ1-Pad1)")
+=======
+  (net 1 "Net-(BUZ1-Pad1)")
+  (net 2 "Net-(BUZ1-Pad2)")
+>>>>>>> buzzer-GCI
   (net 3 "Net-(C1-Pad1)")
   (net 4 "Net-(C1-Pad2)")
   (net 5 "Net-(C1-Pad3)")
@@ -277,6 +286,7 @@
     (add_net "Net-(SW1-Pad1)")
   )
 
+<<<<<<< HEAD
   (module footprint_buzzer:PKM33EPH-1201C_1 (layer F.Cu) (tedit 5E8FE581) (tstamp 5E90611A)
     (at 237.4822 31.1504)
     (path /5E89A28C)
@@ -381,6 +391,42 @@
       (net 2 "Net-(BUZ1-Pad1)"))
     (pad 1 thru_hole rect (at -15.9766 8.9916 270) (size 2.0828 4.7752) (drill oval 1.016 4.064) (layers *.Cu *.Mask)
       (net 1 "Net-(BUZ1-Pad2)"))
+=======
+  (module footprint_buzzer:Fuse_Littlefuse-0451_500MRL (layer F.Cu) (tedit 5E8BBC67) (tstamp 5E905DBD)
+    (at 303.53 62.23)
+    (descr "Fuse SMD Littlefuse 6.86x2.69mm")
+    (tags "resistor handsolder")
+    (path /5E879854)
+    (attr smd)
+    (fp_text reference F1 (at 0.381 -2.159) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 500mA (at 0.635 2.159) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.758 0.8) (end -2.758 -0.8) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.214 -0.8) (end 2.286 -0.8) (layer F.Fab) (width 0.1))
+    (fp_line (start 2.286 -0.8) (end 2.286 0.8) (layer F.Fab) (width 0.1))
+    (fp_line (start 2.286 0.8) (end -2.214 0.8) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.206504 -0.91) (end 1.016 -0.91) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.206504 0.91) (end 1.016 0.91) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.628 1.15) (end -3.628 -1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.628 -1.15) (end 3.683 -1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.683 -1.15) (end 3.683 1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.683 1.15) (end -3.628 1.15) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at -0.254 0) (layer F.Fab)
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (pad 1 smd roundrect (at -2.5955 0) (size 1.655 2.69) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.159)
+      (net 48 "Net-(F1-Pad1)"))
+    (pad 2 smd roundrect (at 2.667 0) (size 1.655 2.69) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.159)
+      (net 49 "Net-(F1-Pad2)"))
+    (model ${KISYS3DMOD}/Fuse.3dshapes/Fuse_1806_4516Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+>>>>>>> buzzer-GCI
   )
 
   (module "" (layer F.Cu) (tedit 0) (tstamp 0)
@@ -1573,13 +1619,20 @@
     (pad 3 thru_hole rect (at -4.9784 -12.3952 180) (size 2.667 2.667) (drill 1.3208) (layers *.Cu *.Mask))
   )
 
+<<<<<<< HEAD
   (module C0612-4_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 223.7154 14.8182 180)
     (path /5FB0366D)
+=======
+  (module PKM33EPH-1201C_1 (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 237.4822 31.1504)
+    (path /5E89A28C)
+>>>>>>> buzzer-GCI
     (attr smd)
     (fp_text reference C1 (at -0.5334 0.4572 unlocked) (layer F.SilkS)
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
+<<<<<<< HEAD
     (fp_text value 47pF (at -4.3307 0.7874 unlocked) (layer F.SilkS) hide
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
@@ -1652,10 +1705,62 @@
   (module C0402_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 231.3354 5.5472)
     (path /5E87D053)
+=======
+    (fp_text value PKM33 (at 7.874 -0.7874 unlocked) (layer F.SilkS) hide
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_line (start -17.4752 4.4958) (end -15.8496 4.4958) (layer F.Fab) (width 0.0762))
+    (fp_line (start -17.4752 4.4958) (end -15.9766 4.4958) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0 -16.9926) (end 2.9972 -16.9926) (layer F.Fab) (width 0.1778))
+    (fp_line (start -15.9766 8.9916) (end -15.9766 5.9944) (layer F.Fab) (width 0.1778))
+    (fp_line (start -17.4752 13.4874) (end -17.4752 4.4958) (layer F.Fab) (width 0.0762))
+    (fp_line (start 4.4958 -15.8496) (end 4.4958 -17.9324) (layer F.Fab) (width 0.0762))
+    (fp_line (start -17.4752 13.4874) (end -9.4742 13.4874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -15.9766 11.9888) (end -15.9766 8.9916) (layer F.Fab) (width 0.1778))
+    (fp_line (start 13.2842 11.1252) (end 16.3068 5.9436) (layer F.Fab) (width 0.1778))
+    (fp_line (start 16.002 3.937) (end 17.8054 4.953) (layer F.Fab) (width 0.0762))
+    (fp_line (start -4.4958 -15.8496) (end -4.4958 -17.9324) (layer F.Fab) (width 0.0762))
+    (fp_line (start 11.4046 11.8872) (end 13.208 12.9286) (layer F.Fab) (width 0.0762))
+    (fp_line (start -2.9972 -16.9926) (end 0 -16.9926) (layer F.Fab) (width 0.1778))
+    (fp_line (start -1.3462 -16.9926) (end 1.3462 -16.9926) (layer B.Mask) (width 2.286))
+    (fp_line (start 14.0208 9.6774) (end 15.367 7.3406) (layer B.Mask) (width 2.286))
+    (fp_line (start -15.9766 10.3378) (end -15.9766 7.6454) (layer B.Mask) (width 2.286))
+    (fp_line (start 4.4958 -17.4244) (end 4.4958 -17.9324) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -17.4752 13.4874) (end -17.4752 6.2738) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -17.4752 13.4874) (end -14.2748 13.4874) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 11.4046 11.8872) (end 13.208 12.9286) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 16.002 3.937) (end 17.8054 4.953) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -4.4958 -15.8496) (end -4.4958 -17.9324) (layer F.SilkS) (width 0.1778))
+    (fp_circle (center 0 0) (end 16.4846 0) (layer F.Fab) (width 0.0254))
+    (fp_arc (start 0 0) (end 4.504734 -17.934097) (angle -28.2) (layer F.Fab) (width 0.0762))
+    (fp_arc (start 0 0) (end 13.211457 12.937615) (angle -28.8) (layer F.Fab) (width 0.0762))
+    (fp_arc (start 0 0) (end 16.4846 0) (angle -47.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 10.485495 -12.719923) (angle -19.9) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -2.493474 -16.294926) (angle -23.8) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -9.455178 -13.503394) (angle -10.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -14.6485 7.560654) (angle -22.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -9.33698 13.585391) (angle -0.7) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 3.032364 16.203296) (angle -9.7) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 7.78981 14.527935) (angle -23) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 4.504734 -17.934097) (angle -28.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 15.348083 6.014848) (angle -21.4) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 13.211457 12.937615) (angle -28.8) (layer F.SilkS) (width 0.1778))
+    (pad 1 smd rect (at -15.9766 8.9916) (size 2.0828 4.7752) (layers F.Cu F.Paste F.Mask)
+      (net 1 "Net-(BUZ1-Pad1)"))
+    (pad 2 smd rect (at 14.6812 8.509 150) (size 2.0828 4.7752) (layers F.Cu F.Paste F.Mask)
+      (net 2 "Net-(BUZ1-Pad2)"))
+    (pad 3 smd rect (at 0 -16.9926 90) (size 2.0828 4.7752) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module PKM33EPH-1201C_1 (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 271.4674 31.1504 270)
+    (path /5E89B391)
+>>>>>>> buzzer-GCI
     (attr smd)
     (fp_text reference C2 (at -0.0508 1.3208 unlocked) (layer F.SilkS)
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
+<<<<<<< HEAD
     (fp_text value 220pF (at 3.937 -0.7874 unlocked) (layer F.SilkS) hide
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
@@ -1663,6 +1768,144 @@
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+    (fp_text value PKM33 (at -0.7874 -7.874 unlocked) (layer F.SilkS) hide
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_line (start -17.4752 4.4958) (end -15.8496 4.4958) (layer F.Fab) (width 0.0762))
+    (fp_line (start -17.4752 4.4958) (end -15.9766 4.4958) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0 -16.9926) (end 2.9972 -16.9926) (layer F.Fab) (width 0.1778))
+    (fp_line (start -15.9766 8.9916) (end -15.9766 5.9944) (layer F.Fab) (width 0.1778))
+    (fp_line (start -17.4752 13.4874) (end -17.4752 4.4958) (layer F.Fab) (width 0.0762))
+    (fp_line (start 4.4958 -15.8496) (end 4.4958 -17.9324) (layer F.Fab) (width 0.0762))
+    (fp_line (start -17.4752 13.4874) (end -9.4742 13.4874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -15.9766 11.9888) (end -15.9766 8.9916) (layer F.Fab) (width 0.1778))
+    (fp_line (start 13.2842 11.1252) (end 16.3068 5.9436) (layer F.Fab) (width 0.1778))
+    (fp_line (start 16.002 3.937) (end 17.8054 4.953) (layer F.Fab) (width 0.0762))
+    (fp_line (start -4.4958 -15.8496) (end -4.4958 -17.9324) (layer F.Fab) (width 0.0762))
+    (fp_line (start 11.4046 11.8872) (end 13.208 12.9286) (layer F.Fab) (width 0.0762))
+    (fp_line (start -2.9972 -16.9926) (end 0 -16.9926) (layer F.Fab) (width 0.1778))
+    (fp_line (start -1.3462 -16.9926) (end 1.3462 -16.9926) (layer B.Mask) (width 2.286))
+    (fp_line (start 14.0208 9.6774) (end 15.367 7.3406) (layer B.Mask) (width 2.286))
+    (fp_line (start -15.9766 10.3378) (end -15.9766 7.6454) (layer B.Mask) (width 2.286))
+    (fp_line (start 4.4958 -17.4244) (end 4.4958 -17.9324) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -17.4752 13.4874) (end -17.4752 6.2738) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -17.4752 13.4874) (end -14.2748 13.4874) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 11.4046 11.8872) (end 13.208 12.9286) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 16.002 3.937) (end 17.8054 4.953) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -4.4958 -15.8496) (end -4.4958 -17.9324) (layer F.SilkS) (width 0.1778))
+    (fp_circle (center 0 0) (end 16.4846 0) (layer F.Fab) (width 0.0254))
+    (fp_arc (start 0 0) (end 4.504734 -17.934097) (angle -28.2) (layer F.Fab) (width 0.0762))
+    (fp_arc (start 0 0) (end 13.211457 12.937615) (angle -28.8) (layer F.Fab) (width 0.0762))
+    (fp_arc (start 0 0) (end 16.4846 0) (angle -47.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 10.485495 -12.719923) (angle -19.9) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -2.493474 -16.294926) (angle -23.8) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -9.455178 -13.503394) (angle -10.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -14.6485 7.560654) (angle -22.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end -9.33698 13.585391) (angle -0.7) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 3.032364 16.203296) (angle -9.7) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 7.78981 14.527935) (angle -23) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 4.504734 -17.934097) (angle -28.2) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 15.348083 6.014848) (angle -21.4) (layer F.SilkS) (width 0.1778))
+    (fp_arc (start 0 0) (end 13.211457 12.937615) (angle -28.8) (layer F.SilkS) (width 0.1778))
+    (pad 1 smd rect (at -15.9766 8.9916 270) (size 2.0828 4.7752) (layers F.Cu F.Paste F.Mask)
+      (net 2 "Net-(BUZ1-Pad2)"))
+    (pad 2 smd rect (at 14.6812 8.509 60) (size 2.0828 4.7752) (layers F.Cu F.Paste F.Mask)
+      (net 1 "Net-(BUZ1-Pad1)"))
+    (pad 3 smd rect (at 0 -16.9926) (size 2.0828 4.7752) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module C0612-4_1 (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 223.7154 14.8182 180)
+    (path /5FB0366D)
+    (attr smd)
+    (fp_text reference C1 (at -0.5334 0.4572 unlocked) (layer F.SilkS)
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_text value 47pF (at -4.3307 0.7874 unlocked) (layer F.SilkS) hide
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_line (start 0.9906 -0.5842) (end 0.9906 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.5748 0.5842) (end 1.5748 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.9906 -0.7874) (end 1.397 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.397 -0.5842) (end 1.5748 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.397 -0.5842) (end 1.397 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.397 -0.5842) (end -1.397 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.5842 0.7874) (end 0.5842 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.9906 -0.5842) (end -0.5842 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.5748 -0.5842) (end -1.397 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.1778 0.7874) (end -0.1778 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.5842 -0.5842) (end -0.5842 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.1778 0.7874) (end 0.5842 0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.5842 0.5842) (end 0.9906 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.9906 0.7874) (end 0.9906 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.5842 0.7874) (end -0.1778 0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.5748 0.5842) (end -1.5748 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.9906 0.7874) (end 1.397 0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.5842 0.7874) (end -0.5842 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.5842 -0.7874) (end -0.1778 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.9906 0.5842) (end -0.5842 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.1778 -0.5842) (end -0.1778 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.397 0.7874) (end 1.397 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.1778 -0.5842) (end 0.1778 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.1778 0.7874) (end 0.1778 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.397 -0.7874) (end -0.9906 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.1778 0.5842) (end 0.1778 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.397 0.5842) (end 1.5748 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.9906 -0.5842) (end -0.9906 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.9906 0.7874) (end -0.9906 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.1778 -0.5842) (end 0.1778 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.397 0.7874) (end -0.9906 0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.5748 0.5842) (end -1.397 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.397 0.7874) (end -1.397 0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.1778 -0.7874) (end 0.5842 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.5842 -0.5842) (end 0.5842 -0.7874) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.5842 -0.5842) (end 0.9906 -0.5842) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.905 1.5748) (end 1.905 -1.5748) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -1.905 -1.5748) (end 1.905 -1.5748) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -1.905 1.5748) (end 1.905 1.5748) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -1.905 1.5748) (end -1.905 -1.5748) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -1.905 -0.5842) (end -1.905 -1.5748) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -0.4572 -1.5748) (end -0.1778 -1.5748) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.905 1.5748) (end -1.905 0.5842) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 0.9906 -1.5748) (end 1.905 -1.5748) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 1.905 -1.4732) (end 1.905 -1.5748) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.905 1.5748) (end 1.905 1.5748) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.905 -1.5748) (end -1.6764 -1.5748) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 1.905 1.5748) (end 1.905 1.4224) (layer F.SilkS) (width 0.1778))
+    (pad 1 smd rect (at -1.1938 0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 3 "Net-(C1-Pad1)"))
+    (pad 2 smd rect (at -0.381 0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 4 "Net-(C1-Pad2)"))
+    (pad 3 smd rect (at 0.381 0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 5 "Net-(C1-Pad3)"))
+    (pad 4 smd rect (at 1.1938 0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 6 "Net-(C1-Pad4)"))
+    (pad 5 smd rect (at 1.1938 -0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 7 GND))
+    (pad 6 smd rect (at 0.381 -0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 7 GND))
+    (pad 7 smd rect (at -0.381 -0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 7 GND))
+    (pad 8 smd rect (at -1.1938 -0.7874 180) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask)
+      (net 7 GND))
+  )
+
+  (module C0402_1 (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 231.3354 5.5472)
+    (path /5E87D053)
+    (attr smd)
+    (fp_text reference C2 (at -0.0508 1.3208 unlocked) (layer F.SilkS)
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_text value 220pF (at 3.937 -0.7874 unlocked) (layer F.SilkS) hide
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 8 +5V))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1680,6 +1923,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 1.778 0.9398) (end 1.905 0.9398) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.905 0.9398) (end -1.905 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.905 0.9398) (end 1.905 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.905 -0.9398) (end 1.905 -0.9398) (layer F.SilkS) (width 0.1778))
@@ -1688,6 +1932,8 @@
     (fp_line (start 0.9906 0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 -0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 0.6096) (end 0.9906 0.6096) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9906 0) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at 0.9906 0) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
@@ -1705,9 +1951,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1725,9 +1974,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1745,9 +1997,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(C6-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1765,9 +2020,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1785,9 +2043,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 15 -12V))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1805,9 +2066,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(C9-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1825,9 +2089,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1845,9 +2112,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 15 -12V))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1897,9 +2167,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 0.889 0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start -0.889 -0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.889 0.381) (end 0.889 0.381) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.889 0.381) (end -0.889 -0.381) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.7366 0) (size 0.7874 0.7874) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
     (pad 2 smd rect (at 0.7366 0) (size 0.7874 0.7874) (layers F.Cu F.Paste F.Mask)
@@ -1917,9 +2190,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 0.889 0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start -0.889 -0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.889 0.381) (end 0.889 0.381) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.889 0.381) (end -0.889 -0.381) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.7366 0 180) (size 0.7874 0.7874) (layers F.Cu F.Paste F.Mask)
       (net 19 "Net-(C14-Pad1)"))
     (pad 2 smd rect (at 0.7366 0 180) (size 0.7874 0.7874) (layers F.Cu F.Paste F.Mask)
@@ -1937,9 +2213,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1957,9 +2236,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 21 "Net-(C16-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1977,9 +2259,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 22 "Net-(C17-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -1997,9 +2282,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(C18-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2017,9 +2305,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2037,9 +2328,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 0.889 0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start -0.889 -0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.889 0.381) (end 0.889 0.381) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.889 0.381) (end -0.889 -0.381) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.7366 0) (size 0.7874 0.7874) (layers F.Cu F.Paste F.Mask)
       (net 25 "Net-(C20-Pad1)"))
     (pad 2 smd rect (at 0.7366 0) (size 0.7874 0.7874) (layers F.Cu F.Paste F.Mask)
@@ -2057,6 +2351,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -1.3208 -1.905) (end -1.0668 -1.905) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -2.3114 1.905) (end 1.7018 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -0.4826 -1.905) (end 2.54 -1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -2.54 1.7526) (end -2.54 -1.8796) (layer F.SilkS) (width 0.1778))
@@ -2065,6 +2360,8 @@
     (fp_line (start -1.778 -1.397) (end 1.778 -1.397) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.778 1.397) (end 1.778 -1.397) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.778 1.397) (end 1.778 1.397) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -1.4224 0) (size 1.5748 3.175) (layers F.Cu F.Paste F.Mask)
       (net 27 /GR106768_buzzer_charger/SHDN1))
     (pad 2 smd rect (at 1.4224 0) (size 1.5748 3.175) (layers F.Cu F.Paste F.Mask)
@@ -2082,6 +2379,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -2.54 1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -2.54 -1.27) (end -0.7112 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start 2.54 -0.635) (end 2.54 -1.27) (layer F.SilkS) (width 0.1778))
@@ -2095,6 +2393,8 @@
     (fp_line (start -1.6764 0.9398) (end -1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.6764 0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.6764 -0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -1.4224 0 90) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(C22-Pad1)"))
     (pad 2 smd rect (at 1.4224 0 90) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
@@ -2112,6 +2412,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -1.3208 -1.905) (end -1.0668 -1.905) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -2.3114 1.905) (end 1.7018 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -0.4826 -1.905) (end 2.54 -1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -2.54 1.7526) (end -2.54 -1.8796) (layer F.SilkS) (width 0.1778))
@@ -2120,6 +2421,8 @@
     (fp_line (start -1.778 -1.397) (end 1.778 -1.397) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.778 1.397) (end 1.778 -1.397) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.778 1.397) (end 1.778 1.397) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -1.4224 0 180) (size 1.5748 3.175) (layers F.Cu F.Paste F.Mask)
       (net 29 /GR106768_buzzer_charger/SHDN2))
     (pad 2 smd rect (at 1.4224 0 180) (size 1.5748 3.175) (layers F.Cu F.Paste F.Mask)
@@ -2137,6 +2440,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 1.778 0.9398) (end 1.905 0.9398) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.905 0.9398) (end -1.905 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.905 0.9398) (end 1.905 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.905 -0.9398) (end 1.905 -0.9398) (layer F.SilkS) (width 0.1778))
@@ -2145,6 +2449,8 @@
     (fp_line (start 0.9906 0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 -0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 0.6096) (end 0.9906 0.6096) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9906 0 180) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
       (net 30 "Net-(C24-Pad1)"))
     (pad 2 smd rect (at 0.9906 0 180) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
@@ -2162,9 +2468,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(C25-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2182,6 +2491,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -2.54 1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -2.54 -1.27) (end -0.7112 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start 2.54 -0.635) (end 2.54 -1.27) (layer F.SilkS) (width 0.1778))
@@ -2195,6 +2505,8 @@
     (fp_line (start -1.6764 0.9398) (end -1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.6764 0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.6764 -0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -1.4224 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
       (net 15 -12V))
     (pad 2 smd rect (at 1.4224 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
@@ -2212,9 +2524,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(C27-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2232,9 +2547,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2252,6 +2570,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -2.54 1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -2.54 -1.27) (end -0.7112 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start 2.54 -0.635) (end 2.54 -1.27) (layer F.SilkS) (width 0.1778))
@@ -2265,6 +2584,8 @@
     (fp_line (start -1.6764 0.9398) (end -1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.6764 0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.6764 -0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -1.4224 0 180) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 1.4224 0 180) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
@@ -2282,9 +2603,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 8 +5V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2302,9 +2626,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2322,9 +2649,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 15 -12V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2342,9 +2672,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(C22-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2362,9 +2695,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 36 "Net-(C34-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2382,9 +2718,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 25 "Net-(C20-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -2432,6 +2771,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2454,6 +2794,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2473,6 +2815,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2495,12 +2838,18 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(D3-Pad2)"))
     (pad 3 smd rect (at 0 -1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 1 "Net-(BUZ1-Pad2)"))
+=======
+      (net 2 "Net-(BUZ1-Pad2)"))
+>>>>>>> buzzer-GCI
   )
 
   (module SOT23-1G_1 (layer F.Cu) (tedit 0) (tstamp 0)
@@ -2514,6 +2863,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2536,6 +2886,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2555,6 +2907,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2577,6 +2930,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 41 /BUZ_ACT))
     (pad 2 smd rect (at 0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2595,6 +2950,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2617,6 +2973,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(D6-Pad1)"))
     (pad 2 smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2636,6 +2994,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2658,6 +3017,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 21 "Net-(C16-Pad1)"))
     (pad 2 smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2706,6 +3067,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2728,6 +3090,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
     (pad 2 smd rect (at 0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2897,6 +3261,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2919,6 +3284,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 24 /VCHARG))
     (pad 2 smd rect (at 0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -2937,6 +3304,48 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
+=======
+    (pad 1 smd rect (at -0.9652 1.0414 270) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
+      (net 8 +5V))
+    (pad 2 smd rect (at 0.9652 1.0414 270) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
+      (net 45 /INHIB_STOP_INV))
+    (pad 3 smd rect (at 0 -1.0414 270) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
+      (net 46 "Net-(D16-Pad3)"))
+  )
+
+  (module SOT23-1G_1 (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 242.8162 40.8532 180)
+    (path /5E89C6B8/5E8C30D4)
+    (attr smd)
+    (fp_text reference D17 (at -0.5842 0.4064 unlocked) (layer F.SilkS)
+      (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
+    )
+    (fp_text value BAT54C (at -3.302 0.6604 unlocked) (layer F.SilkS) hide
+      (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
+    )
+    (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.4478 0.6604) (end -1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.1684 1.2446) (end 1.1684 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.4478 0.6604) (end 1.4478 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.762 1.2446) (end -0.762 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.2032 -0.6604) (end -0.2032 -1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.1684 1.2446) (end -1.1684 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.2032 -0.6604) (end 0.2032 -1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.1684 1.2446) (end -0.762 1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.762 1.2446) (end 1.1684 1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.2032 -1.2446) (end 0.2032 -1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.6764 0.3048) (end 1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 0.7874 -0.6858) (end 1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.6764 1.905) (end -1.6764 1.7526) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -0.7874 -1.8796) (end 0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 0.7874 -0.6858) (end 0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.6764 -0.6858) (end -0.7874 -0.6858) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
+>>>>>>> buzzer-GCI
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -2978,6 +3387,7 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.7874 -0.6858) (end -0.7874 -1.8796) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 1.905) (end 1.6764 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.6764 1.905) (end 1.6764 1.7526) (layer F.SilkS) (width 0.1778))
@@ -3000,6 +3410,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
       (net 8 +5V))
     (pad 2 smd rect (at 0.9652 1.0414 180) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask)
@@ -3106,6 +3518,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.3556 2.0828) (end 0.3556 2.0828) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.1684 1.4986) (end -1.1684 0.8382) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.2032 -0.8382) (end -0.2032 -1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.762 1.4986) (end -0.762 0.8382) (layer F.Fab) (width 0.0762))
@@ -3125,6 +3538,8 @@
     (fp_line (start -0.2032 -1.4986) (end 0.2032 -1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.1684 1.4986) (end -0.762 1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start 0.2032 -0.8382) (end 0.2032 -1.4986) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at 0.9398 -1.27 90) (size 0.6096 1.27) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0 -1.27 90) (size 0.6096 1.27) (layers F.Cu F.Paste F.Mask)
@@ -3171,6 +3586,10 @@
     (fp_line (start -0.635 -1.905) (end -0.635 -2.6924) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.635 2.6924) (end -0.635 1.905) (layer F.Fab) (width 0.0762))
     (fp_arc (start -1.524 0) (end -1.524 0.508) (angle -180) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
+=======
+    (fp_circle (center -1.905 0.9398) (end -1.6002 0.9398) (layer Dwgs.User) (width 0.1))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -2.032 2.6924 270) (size 0.8636 1.524) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(C6-Pad2)"))
     (pad 2 smd rect (at -0.635 2.6924 270) (size 0.6096 1.524) (layers F.Cu F.Paste F.Mask)
@@ -3223,6 +3642,10 @@
     (fp_line (start -0.635 -1.905) (end -0.635 -2.6924) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.635 2.6924) (end -0.635 1.905) (layer F.Fab) (width 0.0762))
     (fp_arc (start -1.524 0) (end -1.524 0.508) (angle -180) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
+=======
+    (fp_circle (center -1.905 0.9398) (end -1.6002 0.9398) (layer Dwgs.User) (width 0.1))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -2.032 2.6924) (size 0.8636 1.524) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(IC3-Pad1)"))
     (pad 2 smd rect (at -0.635 2.6924) (size 0.6096 1.524) (layers F.Cu F.Paste F.Mask)
@@ -3252,6 +3675,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.3556 2.0828) (end 0.3556 2.0828) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.1684 1.4986) (end -1.1684 0.8382) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.2032 -0.8382) (end -0.2032 -1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.762 1.4986) (end -0.762 0.8382) (layer F.Fab) (width 0.0762))
@@ -3271,6 +3695,8 @@
     (fp_line (start -0.2032 -1.4986) (end 0.2032 -1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.1684 1.4986) (end -0.762 1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start 0.2032 -0.8382) (end 0.2032 -1.4986) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at 0.9398 -1.27 90) (size 0.6096 1.27) (layers F.Cu F.Paste F.Mask)
       (net 55 "Net-(IC4-Pad1)"))
     (pad 2 smd rect (at 0 -1.27 90) (size 0.6096 1.27) (layers F.Cu F.Paste F.Mask)
@@ -3317,6 +3743,10 @@
     (fp_line (start -0.635 -1.905) (end -0.635 -2.6924) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.635 2.6924) (end -0.635 1.905) (layer F.Fab) (width 0.0762))
     (fp_arc (start -1.524 0) (end -1.524 0.508) (angle -180) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
+=======
+    (fp_circle (center -1.905 0.9398) (end -1.6002 0.9398) (layer Dwgs.User) (width 0.1))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -2.032 2.6924 180) (size 0.8636 1.524) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at -0.635 2.6924 180) (size 0.6096 1.524) (layers F.Cu F.Paste F.Mask)
@@ -3369,6 +3799,10 @@
     (fp_line (start -0.635 -1.905) (end -0.635 -2.6924) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.635 2.6924) (end -0.635 1.905) (layer F.Fab) (width 0.0762))
     (fp_arc (start -1.524 0) (end -1.524 0.508) (angle -180) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
+=======
+    (fp_circle (center -1.905 0.9398) (end -1.6002 0.9398) (layer Dwgs.User) (width 0.1))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -2.032 2.6924 180) (size 0.8636 1.524) (layers F.Cu F.Paste F.Mask)
       (net 62 "Net-(IC6-Pad1)"))
     (pad 2 smd rect (at -0.635 2.6924 180) (size 0.6096 1.524) (layers F.Cu F.Paste F.Mask)
@@ -3399,6 +3833,7 @@
     )
     (fp_circle (center 0.9398 -0.3048) (end 1.1684 -0.3048) (layer F.Fab) (width 0.1))
     (fp_line (start 1.27 -2.0828) (end 1.2954 -2.0828) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -0.8128 -2.0828) (end 1.27 -2.0828) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.4986 2.0828) (end 1.4986 2.0828) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.4986 2.0828) (end 1.4986 2.0574) (layer F.SilkS) (width 0.1778))
@@ -3425,6 +3860,9 @@
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 0.1778 1.2446) (end 0.1778 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+    (fp_circle (center 0.9398 -0.3048) (end 1.1684 -0.3048) (layer F.Fab) (width 0.1))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at 0.9398 -1.2954 180) (size 0.6858 0.9906) (layers F.Cu F.Paste F.Mask)
       (net 65 "Net-(IC7-Pad1)"))
     (pad 2 smd rect (at 0 -1.2954 180) (size 0.6858 0.9906) (layers F.Cu F.Paste F.Mask)
@@ -3450,8 +3888,11 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -1.4986 1.4986) (end 1.4986 1.4986) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start -1.4986 -1.4986) (end 1.4986 -1.4986) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4986 1.4986) (end 1.4986 -1.4986) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9906 1.397) (size 0.2286 0.6604) (layers F.Cu F.Paste F.Mask)
       (net 35 "Net-(C28-Pad2)"))
     (pad 2 smd rect (at -0.4826 1.397) (size 0.2286 0.6604) (layers F.Cu F.Paste F.Mask)
@@ -3488,6 +3929,7 @@
     )
     (fp_circle (center 0.9398 -0.3048) (end 1.1684 -0.3048) (layer F.Fab) (width 0.1))
     (fp_line (start 1.27 -2.0828) (end 1.2954 -2.0828) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -0.8128 -2.0828) (end 1.27 -2.0828) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.4986 2.0828) (end 1.4986 2.0828) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.4986 2.0828) (end 1.4986 2.0574) (layer F.SilkS) (width 0.1778))
@@ -3514,6 +3956,9 @@
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 0.1778 1.2446) (end 0.1778 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+    (fp_circle (center 0.9398 -0.3048) (end 1.1684 -0.3048) (layer F.Fab) (width 0.1))
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at 0.9398 -1.2954) (size 0.6858 0.9906) (layers F.Cu F.Paste F.Mask)
       (net 69 "Net-(IC9-Pad1)"))
     (pad 2 smd rect (at 0 -1.2954) (size 0.6858 0.9906) (layers F.Cu F.Paste F.Mask)
@@ -3605,6 +4050,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -2.54 1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -2.54 -1.27) (end -0.7112 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1778))
     (fp_line (start 2.54 -0.635) (end 2.54 -1.27) (layer F.SilkS) (width 0.1778))
@@ -3618,6 +4064,8 @@
     (fp_line (start -1.6764 0.9398) (end -1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.6764 0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.6764 -0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -1.4224 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
       (net 48 "Net-(F1-Pad1)"))
     (pad 2 smd rect (at 1.4224 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask)
@@ -3804,9 +4252,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 73 "Net-(FI1-Pad8)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3824,9 +4275,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 11 /SUPPLY_BUZ))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3844,9 +4298,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 50 "Net-(IC1-Pad3)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3864,9 +4321,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(C6-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3884,9 +4344,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3904,9 +4367,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3924,9 +4390,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3944,9 +4413,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(C9-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3964,9 +4436,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 52 "Net-(IC3-Pad3)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -3984,9 +4459,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 17 "Net-(C9-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4004,9 +4482,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(IC3-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4024,11 +4505,16 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(BUZ1-Pad1)"))
+=======
+    (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
+      (net 1 "Net-(BUZ1-Pad1)"))
+>>>>>>> buzzer-GCI
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(IC3-Pad1)"))
   )
@@ -4044,11 +4530,16 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(BUZ1-Pad1)"))
+=======
+    (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
+      (net 1 "Net-(BUZ1-Pad1)"))
+>>>>>>> buzzer-GCI
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 74 "Net-(R13-Pad2)"))
   )
@@ -4064,6 +4555,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
@@ -4071,6 +4563,12 @@
       (net 75 "Net-(R14-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(BUZ1-Pad1)"))
+=======
+    (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
+      (net 75 "Net-(R14-Pad1)"))
+    (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
+      (net 1 "Net-(BUZ1-Pad1)"))
+>>>>>>> buzzer-GCI
   )
 
   (module R0402_1 (layer F.Cu) (tedit 0) (tstamp 0)
@@ -4084,9 +4582,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(D3-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4104,9 +4605,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4124,9 +4628,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(D3-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4144,9 +4651,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4164,9 +4674,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 40 "Net-(D4-Pad3)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4184,9 +4697,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 77 "Net-(R20-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4204,9 +4720,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 19 "Net-(C14-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4224,9 +4743,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 54 "Net-(IC3-Pad7)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4244,9 +4766,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 41 /BUZ_ACT))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4264,9 +4789,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 55 "Net-(IC4-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4284,9 +4812,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 55 "Net-(IC4-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4304,9 +4835,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 53 "Net-(IC3-Pad6)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4324,9 +4858,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 56 "Net-(IC4-Pad3)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4344,9 +4881,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 17 "Net-(C9-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4364,9 +4904,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 57 /TEST_BUZZER))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4384,9 +4927,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(D6-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4404,9 +4950,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 43 "Net-(D6-Pad2)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4424,9 +4973,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 79 "Net-(R32-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4444,9 +4996,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 21 "Net-(C16-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4464,9 +5019,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(IC6-Pad5)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4484,9 +5042,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(IC6-Pad5)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4504,6 +5065,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 1.905 0.9398) (end 1.905 0.5842) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.905 0.9398) (end 1.905 0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.905 0.9398) (end -1.905 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.905 -0.6096) (end 1.905 -0.9398) (layer F.SilkS) (width 0.1778))
@@ -4512,6 +5074,8 @@
     (fp_line (start 0.9906 0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 -0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 0.6096) (end 0.9906 0.6096) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9906 0 270) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(D8-Pad2)"))
     (pad 2 smd rect (at 0.9906 0 270) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
@@ -4529,9 +5093,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(D8-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4549,9 +5116,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 21 "Net-(C16-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4569,9 +5139,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 62 "Net-(IC6-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4589,9 +5162,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 81 "Net-(LD1-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4609,9 +5185,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 24 /VCHARG))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4629,9 +5208,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 22 "Net-(C17-Pad1)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4649,9 +5231,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(C18-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4669,9 +5254,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 7 GND))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4689,9 +5277,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 66 "Net-(IC7-Pad3)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4709,9 +5300,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 66 "Net-(IC7-Pad3)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4729,9 +5323,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 24 /VCHARG))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4749,9 +5346,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 25 "Net-(C20-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4769,9 +5369,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 25 "Net-(C20-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4789,9 +5392,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 8 +5V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4809,9 +5415,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 78 /VBAT))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4829,9 +5438,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 11 /SUPPLY_BUZ))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4849,9 +5461,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 29 /GR106768_buzzer_charger/SHDN2))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4869,9 +5484,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(C22-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4889,9 +5507,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(C25-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4909,9 +5530,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(C27-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4929,9 +5553,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 14 +12V))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4949,9 +5576,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 35 "Net-(C28-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4969,9 +5599,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 55 "Net-(IC4-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -4989,9 +5622,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 8 +5V))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5009,9 +5645,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 36 "Net-(C34-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5029,9 +5668,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 36 "Net-(C34-Pad1)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5049,9 +5691,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 27 /GR106768_buzzer_charger/SHDN1))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5069,9 +5714,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 29 /GR106768_buzzer_charger/SHDN2))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5089,9 +5737,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 11 /SUPPLY_BUZ))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5109,9 +5760,12 @@
       (effects (font (size 0.866445 0.911352) (thickness 0.0762)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(D8-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5129,9 +5783,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 83 +BATT))
     (pad 2 smd rect (at 0.5334 0 90) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5149,9 +5806,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(R67-Pad2)"))
     (pad 2 smd rect (at 0.5334 0 180) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5169,9 +5829,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 24 /VCHARG))
     (pad 2 smd rect (at 0.5334 0 270) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5189,9 +5852,12 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.5334 0.2794) (end -0.5334 -0.2794) (layer F.Fab) (width 0.0762))
+<<<<<<< HEAD
     (fp_line (start 0.5334 0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 -0.2794) (end 0.5334 -0.2794) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.5334 0.2794) (end 0.5334 0.2794) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
       (net 46 "Net-(D16-Pad3)"))
     (pad 2 smd rect (at 0.5334 0) (size 0.4826 0.5842) (layers F.Cu F.Paste F.Mask)
@@ -5209,6 +5875,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start 1.905 0.9398) (end 1.905 0.5842) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.905 0.9398) (end 1.905 0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.905 0.9398) (end -1.905 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start 1.905 -0.6096) (end 1.905 -0.9398) (layer F.SilkS) (width 0.1778))
@@ -5217,6 +5884,8 @@
     (fp_line (start 0.9906 0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 -0.6096) (end 0.9906 -0.6096) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.9906 0.6096) (end 0.9906 0.6096) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 smd rect (at -0.9906 0 180) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
       (net 83 +BATT))
     (pad 2 smd rect (at 0.9906 0 180) (size 0.9906 1.2446) (layers F.Cu F.Paste F.Mask)
@@ -5256,6 +5925,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)) (justify mirror))
     )
     (fp_line (start -5.08 1.27) (end -5.08 -1.27) (layer B.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start 5.08 -1.27) (end -5.08 -1.27) (layer B.SilkS) (width 0.1778))
     (fp_line (start 5.08 1.27) (end 5.08 -1.27) (layer B.SilkS) (width 0.1778))
     (fp_line (start 5.08 1.27) (end -5.08 1.27) (layer B.SilkS) (width 0.1778))
@@ -5270,6 +5940,8 @@
     (fp_line (start 5.08 1.27) (end -5.08 1.27) (layer F.Fab) (width 0.0762))
     (fp_line (start -0.635 -0.635) (end -1.905 -0.635) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.905 0.635) (end -1.905 -0.635) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad 1 thru_hole circle (at 0 0) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask)
       (net 87 "Net-(SW1-Pad1)"))
     (pad 2 thru_hole circle (at -2.54 0) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask)
@@ -5363,6 +6035,44 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.9398 -0.9398) (end -0.9398 -1.905) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
+=======
+    (pad B smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
+    (pad C smd rect (at 0 -1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
+    (pad E smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module SOT23-BEC_1 (layer F.Cu) (tedit 0) (tstamp 0)
+    (at 280.2304 10.7542)
+    (path /5E91F7BF)
+    (attr smd)
+    (fp_text reference T4 (at -0.6604 2.6416 unlocked) (layer F.SilkS)
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_text value BC857 (at 5.5118 -0.7874 unlocked) (layer F.SilkS) hide
+      (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
+    )
+    (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.4478 0.6604) (end -1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.1684 1.2446) (end 1.1684 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.4478 0.6604) (end 1.4478 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.762 1.2446) (end -0.762 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.2032 -0.6604) (end -0.2032 -1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.1684 1.2446) (end -1.1684 0.6604) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.2032 -0.6604) (end 0.2032 -1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start -1.1684 1.2446) (end -0.762 1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start 0.762 1.2446) (end 1.1684 1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start -0.2032 -1.2446) (end 0.2032 -1.2446) (layer F.Fab) (width 0.0762))
+    (fp_line (start 1.7272 1.905) (end 1.7272 -0.9398) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 0.9398 -0.9398) (end 1.7272 -0.9398) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -0.9398 -1.905) (end 0.9398 -1.905) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 0.9398 -0.9398) (end 0.9398 -1.905) (layer F.SilkS) (width 0.1778))
+    (fp_line (start 1.4224 1.905) (end 1.7272 1.905) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.7272 1.905) (end -1.7272 -0.9398) (layer F.SilkS) (width 0.1778))
+    (fp_line (start -1.7272 -0.9398) (end -0.9398 -0.9398) (layer F.SilkS) (width 0.1778))
+>>>>>>> buzzer-GCI
     (fp_line (start -1.7272 1.905) (end 0.4826 1.905) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.7272 -0.9398) (end -0.9398 -0.9398) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.7272 1.905) (end -1.7272 -0.9398) (layer F.SilkS) (width 0.1778))
@@ -5577,6 +6287,7 @@
       (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
     )
     (fp_line (start -0.2286 1.778) (end 0.2286 1.778) (layer F.SilkS) (width 0.1778))
+<<<<<<< HEAD
     (fp_line (start -1.6764 0.3048) (end -1.6764 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 -0.6858) (end -0.7366 -0.6858) (layer F.SilkS) (width 0.1778))
     (fp_line (start -1.6764 1.778) (end -1.6764 1.778) (layer F.SilkS) (width 0.1778))
@@ -5596,6 +6307,8 @@
     (fp_line (start 0.762 1.2446) (end 0.762 0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start 1.4478 0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
     (fp_line (start -1.4478 -0.6604) (end 1.4478 -0.6604) (layer F.Fab) (width 0.0762))
+=======
+>>>>>>> buzzer-GCI
     (pad D smd rect (at 0 -1.0414 90) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
     (pad G smd rect (at -0.9652 1.0414 90) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
     (pad S smd rect (at 0.9652 1.0414 90) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
@@ -5783,10 +6496,172 @@
     (fp_text value FILM13_HORIZONTAL (at 8.636 -1.016 unlocked) (layer F.SilkS) hide
       (effects (font (size 1.332992 1.40208) (thickness 0.254)))
     )
+<<<<<<< HEAD
     (fp_circle (center -78.74 -55.8546) (end -77.47 -55.8546) (layer Dwgs.User) (width 0.1016))
+=======
+    (fp_line (start -11.9888 59.9948) (end -11.9888 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 71.9836 59.9948) (end 71.9836 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -55.9816 59.9948) (end 71.9836 59.9948) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -78.74 -55.8546) (end -78.74 -57.15) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -78.74 -55.8546) (end -77.4446 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -80.01 -55.8546) (end -78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -78.74 -54.5846) (end -78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 54.61) (end 78.74 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 77.4446 53.34) (end 78.74 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -55.9816 59.9948) (end -55.9816 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 78.74 53.34) (end 80.01 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 -55.8546) (end 78.74 -57.15) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 -55.8546) (end 80.01 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -81.6102 51.7144) (end -81.3562 53.594) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 77.4446 -55.8546) (end 78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 -54.5846) (end 78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -55.9816 54.991) (end 71.9836 54.991) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -81.6102 51.7144) (end -80.5434 51.562) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -78.0288 58.1914) (end -73.5584 58.1914) (layer Dwgs.User) (width 0.254))
+    (fp_line (start 84.9884 59.9948) (end 84.9884 -59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -75.8444 55.88) (end -73.5584 55.5752) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -84.9884 -59.9948) (end 84.9884 -59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -77.0128 55.8546) (end -73.7108 55.372) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -75.0824 56.6166) (end -72.1868 56.2102) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -84.9884 59.9948) (end -84.9884 -59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -75.7174 54.483) (end -73.8632 54.229) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.9742 54.9402) (end -72.39 54.864) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -75.7682 54.229) (end -73.4568 53.9242) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.9996 54.6862) (end -72.136 54.5592) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -77.6732 50.3174) (end -72.009 49.5046) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -75.946 53.0098) (end -73.6346 52.6796) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.6948 53.3908) (end -72.3138 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -75.9714 52.7558) (end -73.66 52.4256) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.7202 53.1368) (end -72.39 53.086) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 13.4874 59.9948) (end 13.4874 54.991) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -77.8764 51.5112) (end -71.8566 50.673) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -78.2828 48.5394) (end -74.9808 48.0822) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -77.3176 49.8348) (end -75.3618 49.5554) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -77.5716 51.816) (end -73.8378 51.2826) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.9996 51.9938) (end -72.5678 51.943) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 56.9976 54.991) (end 56.9976 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -84.9884 59.9948) (end 84.9884 59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -55.9816 49.9872) (end 71.9836 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -11.9888 59.9948) (end -11.4808 59.9948) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 39.9796 59.9948) (end 39.9796 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 71.9836 59.9948) (end 71.9836 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -55.9816 59.9948) (end 71.9836 59.9948) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -78.74 -55.8546) (end -78.74 -57.15) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -78.74 -55.8546) (end -77.4446 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -80.01 -55.8546) (end -78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -78.74 -54.5846) (end -78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 54.61) (end 78.74 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 77.4446 53.34) (end 78.74 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 27.9908 59.9948) (end 27.9908 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -55.9816 59.9948) (end -55.9816 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 78.74 53.34) (end 80.01 53.34) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 2.4892 59.9948) (end 2.4892 54.991) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 78.74 -55.8546) (end 78.74 -57.15) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 -55.8546) (end 80.01 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 77.4446 -55.8546) (end 78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 78.74 -54.5846) (end 78.74 -55.8546) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -55.9816 54.991) (end 71.9836 54.991) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start 27.4828 59.9948) (end 27.9908 59.9948) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -65.9892 51.562) (end -64.897 51.7144) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -65.1764 53.594) (end -64.897 51.7144) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -71.5518 48.0822) (end -68.2498 48.5394) (layer Dwgs.User) (width 0.1))
+    (fp_line (start 84.9884 59.9948) (end 84.9884 -59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -71.1708 49.5554) (end -69.215 49.8348) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -84.9884 -59.9948) (end 84.9884 -59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -74.5236 49.5046) (end -68.8594 50.3174) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -74.1426 54.864) (end -73.5584 54.9402) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -74.3204 56.2102) (end -71.4502 56.6166) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -74.3966 54.5592) (end -73.533 54.6862) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -84.9884 59.9948) (end -84.9884 -59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -72.6948 51.2826) (end -68.961 51.816) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -74.676 50.673) (end -68.6562 51.5112) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -74.2188 53.34) (end -73.8378 53.3908) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -74.1426 53.086) (end -73.8124 53.1368) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -72.9742 55.5752) (end -70.6628 55.88) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -73.0504 58.1914) (end -68.4784 58.1914) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -72.8726 52.4256) (end -70.5612 52.7558) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -73.9648 51.943) (end -73.533 51.9938) (layer Dwgs.User) (width 0.1))
+    (fp_line (start -72.898 52.6796) (end -70.5866 53.0098) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.8218 55.372) (end -69.5198 55.8546) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -72.644 54.229) (end -70.7898 54.483) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -73.0758 53.9242) (end -70.7644 54.229) (layer Dwgs.User) (width 0.2032))
+    (fp_line (start -84.9884 59.9948) (end 84.9884 59.9948) (layer Dwgs.User) (width 0.254))
+    (fp_line (start -23.9776 59.9948) (end -23.9776 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -55.9816 49.9872) (end 71.9836 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_line (start -40.9956 54.991) (end -40.9956 49.9872) (layer Dwgs.User) (width 0.1778))
+    (fp_circle (center 78.74 53.34) (end 80.01 53.34) (layer Dwgs.User) (width 0.1016))
+    (fp_arc (start -73.787 51.8668) (end -73.674638 52.414187) (angle -172.9) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -73.533 53.2892) (end -73.456597 53.893993) (angle -181.7) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -71.9328 50.0888) (end -71.865668 50.643553) (angle -182.2) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -73.787 54.8132) (end -73.719868 55.367953) (angle -182.2) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -72.4662 52.5272) (end -72.392295 53.081091) (angle -180.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.2122 53.9496) (end -72.132631 54.553985) (angle -181) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -75.946 52.8828) (end -75.961543 52.782396) (angle -178.5) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -73.3298 53.1114) (end -72.720691 53.135864) (angle -90.7) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -73.66 51.943) (end -73.311019 52.503661) (angle -51.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -75.5142 48.5648) (end -75.372912 49.545272) (angle -89.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.39 55.5498) (end -72.197519 56.208034) (angle -163.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -75.7428 54.356) (end -75.758343 54.255596) (angle -178.5) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -73.5838 53.2638) (end -73.415694 54.136761) (angle -71.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -75.0062 48.5902) (end -74.545432 48.446687) (angle -71.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.3938 53.086) (end -77.37966 53.186611) (angle -180) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -77.5462 52.4002) (end -77.58518 51.842761) (angle -187.9) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -77.1906 54.5592) (end -77.17646 54.659811) (angle -180) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -77.3176 53.8226) (end -77.379204 53.216121) (angle -184.3) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -73.6346 54.8894) (end -73.547258 55.543999) (angle -79) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.1144 55.2704) (end -77.156298 54.713173) (angle -187.4) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -73.6346 54.7624) (end -73.002315 54.703745) (angle -63.1) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.216 50.292) (end -77.311665 49.870931) (angle -80.3) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -75.1078 55.88) (end -75.844076 55.901852) (angle -89.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.9272 51.181) (end -78.29484 48.565108) (angle -90) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.4954 52.4002) (end -77.856561 51.532567) (angle -122.1) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -78.3844 52.959) (end -81.342041 53.582273) (angle -90) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.3938 53.848) (end -78.061809 53.18695) (angle -105.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -77.3176 55.2704) (end -77.82793 54.670765) (angle -107.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start 78.7654 -55.8292) (end 78.72697 -57.12403) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start 78.6892 -55.9054) (end 78.72763 -54.61057) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_circle (center 78.74 -55.8546) (end 80.01 -55.8546) (layer Dwgs.User) (width 0.1016))
+    (fp_circle (center -78.74 -55.8546) (end -77.47 -55.8546) (layer Dwgs.User) (width 0.1016))
+    (fp_arc (start -78.7654 -55.9054) (end -78.72697 -54.61057) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -78.6892 -55.8292) (end -78.72763 -57.12403) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start 78.7654 53.3654) (end 78.72697 52.07057) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start 78.6892 53.2892) (end 78.72763 54.58403) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_circle (center 78.74 53.34) (end 80.01 53.34) (layer Dwgs.User) (width 0.1016))
+    (fp_arc (start -68.9864 52.4002) (end -69.102581 52.946789) (angle -187.9) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -69.215 53.8226) (end -69.322951 54.422566) (angle -184.3) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -69.1388 53.086) (end -69.12466 52.985389) (angle -180) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -68.6054 51.181) (end -65.989508 51.54864) (angle -90) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -69.3928 55.2704) (end -69.506118 55.81759) (angle -187.4) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -70.5866 52.8828) (end -70.602143 52.983204) (angle -181.5) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -69.342 54.5592) (end -69.32786 54.458589) (angle -180) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -68.1482 52.959) (end -68.771473 55.916641) (angle -90) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -69.3166 50.292) (end -68.885473 50.316104) (angle -80.3) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -70.7898 54.356) (end -70.805343 54.456404) (angle -181.5) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -69.0372 52.4002) (end -68.494129 53.167206) (angle -122.1) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.7456 51.8668) (end -72.702729 51.309647) (angle -172.8) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -71.0184 48.5648) (end -71.999835 48.43036) (angle -89.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -69.1388 53.848) (end -68.678878 54.667571) (angle -105.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.9996 53.2892) (end -72.905289 52.68694) (angle -181.8) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -69.1896 55.2704) (end -68.774675 55.939606) (angle -107.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -71.5264 48.5902) (end -71.537349 48.107724) (angle -71.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.7456 54.8132) (end -72.657221 54.261433) (angle -182.2) (layer Dwgs.User) (width 0.2032))
+    (fp_arc (start -72.8472 51.943) (end -73.503612 52.015469) (angle -51.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -71.4248 55.88) (end -71.445367 56.616313) (angle -89.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.9488 53.2638) (end -73.830594 53.37676) (angle -71.8) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -74.5998 50.0888) (end -74.511421 49.537033) (angle -182.2) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -73.2028 53.1114) (end -73.219821 52.502038) (angle -90.7) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.898 54.8894) (end -73.557238 54.928566) (angle -79) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -74.0664 52.5272) (end -73.986699 51.974113) (angle -180.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -72.898 54.7624) (end -73.131759 54.171992) (angle -63.1) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -74.3204 53.9496) (end -74.230295 53.346696) (angle -181) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start -74.1426 55.5498) (end -74.146191 54.864009) (angle -163.4) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start 78.7654 -55.8292) (end 78.72697 -57.12403) (angle -86.5) (layer Dwgs.User) (width 0.1))
+    (fp_arc (start 78.6892 -55.9054) (end 78.72763 -54.61057) (angle -86.5) (layer Dwgs.User) (width 0.1))
+>>>>>>> buzzer-GCI
     (fp_circle (center 78.74 -55.8546) (end 80.01 -55.8546) (layer Dwgs.User) (width 0.1016))
     (fp_circle (center 78.74 53.34) (end 80.01 53.34) (layer Dwgs.User) (width 0.1016))
     (fp_circle (center -78.74 -55.8546) (end -77.47 -55.8546) (layer Dwgs.User) (width 0.1016))
+<<<<<<< HEAD
     (fp_circle (center 78.74 -55.8546) (end 80.01 -55.8546) (layer Dwgs.User) (width 0.1016))
     (fp_circle (center 78.74 53.34) (end 80.01 53.34) (layer Dwgs.User) (width 0.1016))
     (fp_line (start -40.9956 54.991) (end -40.9956 49.9872) (layer Dwgs.User) (width 0.1778))
@@ -5943,6 +6818,8 @@
     (fp_arc (start -74.1426 55.5498) (end -74.146191 54.864009) (angle -163.4) (layer Dwgs.User) (width 0.1))
     (fp_arc (start 78.7654 -55.8292) (end 78.72697 -57.12403) (angle -86.5) (layer Dwgs.User) (width 0.1))
     (fp_arc (start 78.6892 -55.9054) (end 78.72763 -54.61057) (angle -86.5) (layer Dwgs.User) (width 0.1))
+=======
+>>>>>>> buzzer-GCI
     (fp_arc (start -78.7654 -55.9054) (end -78.72697 -54.61057) (angle -86.5) (layer Dwgs.User) (width 0.1))
     (fp_arc (start -78.6892 -55.8292) (end -78.72763 -57.12403) (angle -86.5) (layer Dwgs.User) (width 0.1))
     (fp_arc (start 78.7654 53.3654) (end 78.72697 52.07057) (angle -86.5) (layer Dwgs.User) (width 0.1))
@@ -5953,7 +6830,11 @@
   (gr_text 1 (at 240.4794 54.6962) (layer F.Cu)
     (effects (font (size 1.133043 1.191768) (thickness 0.1778)) (justify left bottom))
   )
+<<<<<<< HEAD
   (gr_text 4 (at 247.0078 54.6464) (layer B.Cu)
+=======
+  (gr_text 4 (at 246.3214 54.8232) (layer B.Cu)
+>>>>>>> buzzer-GCI
     (effects (font (size 1.133043 1.191768) (thickness 0.1778)) (justify left bottom mirror))
   )
   (gr_line (start 216.4764 57.9982) (end 216.4764 0.01) (layer Edge.Cuts) (width 0.1))
@@ -6063,7 +6944,7 @@
   (via (at 239.0824 8.8492) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
   (via (at 257.8784 9.2048) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
   (via (at 232.3514 8.2142) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
-  (via (at 283.9134 8.4682) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
+  (via (at 283.9134 8.4682) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 2))
   (via (at 239.0824 7.5792) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
   (via (at 265.2444 6.3092) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
   (via (at 274.0074 6.614) (size 1.27) (drill 0.3048) (layers F.Cu B.Cu) (net 0))
@@ -6157,7 +7038,7 @@
   (segment (start 284.8786 7.0966) (end 285.0564 7.0966) (width 0.2032) (layer F.Cu) (net 0))
   (segment (start 285.0564 11.7956) (end 285.0564 7.0966) (width 0.2032) (layer F.Cu) (net 0))
   (segment (start 284.8786 11.7956) (end 285.0564 11.7956) (width 0.2032) (layer F.Cu) (net 0))
-  (segment (start 283.9134 9.7128) (end 283.9134 8.4682) (width 0.2032) (layer F.Cu) (net 0))
+  (segment (start 283.9134 9.7128) (end 283.9134 8.4682) (width 0.2032) (layer F.Cu) (net 2))
   (segment (start 281.1956 13.1672) (end 281.1956 11.7956) (width 0.2032) (layer F.Cu) (net 0))
   (segment (start 281.1956 13.218) (end 281.1956 13.1672) (width 0.2032) (layer F.Cu) (net 0))
   (segment (start 276.1664 7.7062) (end 276.1664 6.614) (width 0.2032) (layer F.Cu) (net 0))
@@ -7138,7 +8019,7 @@
   (segment (start 250.868 18.7552) (end 254.5764 18.7552) (width 0.508) (layer In2.Cu) (net 0))
   (segment (start 254.5764 18.7552) (end 257.8784 15.4532) (width 0.508) (layer In2.Cu) (net 0))
   (segment (start 257.8784 15.4532) (end 257.8784 10.9574) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 252.1634 39.6848) (end 262.9584 45.857) (width 0.508) (layer In2.Cu) (net 0))
+  (segment (start 252.1634 39.6848) (end 262.9584 45.857) (width 0.508) (layer In2.Cu) (net 2))
   (segment (start 274.0074 6.614) (end 275.7092 6.614) (width 0.2032) (layer In2.Cu) (net 0))
   (segment (start 275.7092 6.614) (end 281.1956 12.1004) (width 0.2032) (layer In2.Cu) (net 0))
   (segment (start 281.1956 13.1672) (end 281.1956 12.1004) (width 0.2032) (layer In2.Cu) (net 0))
@@ -7242,15 +8123,15 @@
   (segment (start 276.9792 46.8222) (end 283.4054 40.4214) (width 0.2032) (layer In2.Cu) (net 0))
   (segment (start 271.3404 46.8222) (end 276.9792 46.8222) (width 0.2032) (layer In2.Cu) (net 0))
   (segment (start 269.0544 49.1082) (end 271.3404 46.8222) (width 0.2032) (layer In2.Cu) (net 0))
-  (segment (start 283.9134 21.6762) (end 283.9134 8.4682) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 283.9134 21.6762) (end 287.1392 24.9274) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 287.1392 40.4214) (end 287.1392 24.9274) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 278.1984 49.3622) (end 287.1392 40.4214) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 278.1984 52.9182) (end 278.1984 49.3622) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 277.0554 54.0612) (end 278.1984 52.9182) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 265.5492 54.0612) (end 277.0554 54.0612) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 262.9584 51.4704) (end 265.5492 54.0612) (width 0.508) (layer In2.Cu) (net 0))
-  (segment (start 262.9584 51.4704) (end 262.9584 45.857) (width 0.508) (layer In2.Cu) (net 0))
+  (segment (start 283.9134 21.6762) (end 283.9134 8.4682) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 283.9134 21.6762) (end 287.1392 24.9274) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 287.1392 40.4214) (end 287.1392 24.9274) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 278.1984 49.3622) (end 287.1392 40.4214) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 278.1984 52.9182) (end 278.1984 49.3622) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 277.0554 54.0612) (end 278.1984 52.9182) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 265.5492 54.0612) (end 277.0554 54.0612) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 262.9584 51.4704) (end 265.5492 54.0612) (width 0.508) (layer In2.Cu) (net 2))
+  (segment (start 262.9584 51.4704) (end 262.9584 45.857) (width 0.508) (layer In2.Cu) (net 2))
   (segment (start 275.5822 36.5352) (end 279.3922 36.5352) (width 0.2032) (layer In2.Cu) (net 0))
   (segment (start 279.3922 36.5352) (end 280.5352 35.3922) (width 0.2032) (layer In2.Cu) (net 0))
   (segment (start 280.5352 35.3922) (end 280.5352 28.1024) (width 0.2032) (layer In2.Cu) (net 0))
