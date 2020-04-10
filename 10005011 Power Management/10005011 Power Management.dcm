@@ -17,6 +17,12 @@ K 10022898
 F https://www.cypress.com/file/39146/download
 $ENDCMP
 #
+$CMP DLP31SN551ML2L
+D COMMON MODE CHOKE COIL 550OHM
+K 10039588
+F https://www.murata.com/en-eu/products/productdata/8796756410398/EFLE0007.pdf
+$ENDCMP
+#
 $CMP LT1620CMS8
 F https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf
 $ENDCMP
