@@ -65,7 +65,7 @@ $Sheet
 S 1050 4250 1050 850 
 U 5FEC80F9
 F0 "PIC-Micro" 50
-F1 "10005011 PIC-MIcro.sch" 50
+F1 "10005011 PIC-Micro.sch" 50
 $EndSheet
 Text Notes 1250 4700 0    118  ~ 0
 SHEET1
