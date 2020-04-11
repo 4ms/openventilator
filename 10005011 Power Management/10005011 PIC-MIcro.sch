@@ -1050,10 +1050,6 @@ Wire Wire Line
 	1950 9300 2300 9300
 Text Label 3550 2450 0    50   ~ 0
 5VPIC
-Text HLabel 5350 4150 2    50   Output ~ 0
-LED-AC-PRESENCE
-Text HLabel 5350 4350 2    50   Output ~ 0
-LED-BATTERY-STATUS
 Text Label 4700 9500 2    50   ~ 0
 5VPIC
 Text Label 2300 9600 2    50   ~ 0
@@ -1430,4 +1426,8 @@ Text GLabel 10400 4650 2    50   Input ~ 0
 MES-VACDC
 Text GLabel 10400 4850 2    50   Input ~ 0
 +3.0VREF
+Text GLabel 5350 4150 2    50   Output ~ 0
+LED-AC-PRESENCE
+Text GLabel 5350 4350 2    50   Output ~ 0
+LED-BATTERY-STATUS
 $EndSCHEMATC

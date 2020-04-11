@@ -118,10 +118,6 @@ Wire Wire Line
 	15450 6675 15450 6750
 Wire Wire Line
 	15450 7125 15450 7050
-Text HLabel 10750 6750 0    50   Input ~ 0
-START-5V
-Text HLabel 15375 6675 0    50   Output ~ 0
-MES-5V
 $Comp
 L power:GND #PWR?
 U 1 1 5FDD6127
@@ -423,8 +419,6 @@ Wire Wire Line
 	14475 8950 14475 8900
 Wire Wire Line
 	14475 8950 14475 9125
-Text HLabel 15025 8500 2    50   Output ~ 0
-+3.0VREF
 $Comp
 L power:+5V #PWR0101
 U 1 1 5FDE688B
@@ -1423,14 +1417,20 @@ Text Label 7050 3500 0    50   ~ 0
 V-USB
 Text Label 7800 1100 0    50   ~ 0
 V-USB
-Text HLabel 6900 1600 2    50   Output ~ 0
-RX-UART-PIC
-Text HLabel 6900 3000 2    50   Output ~ 0
+Text GLabel 15025 8500 2    50   Output ~ 0
++3.0VREF
+Text GLabel 6900 3000 2    50   Output ~ 0
 RX-UART-ST
-Text HLabel 6900 3300 2    50   Output ~ 0
-RTS-UART-ST
-Text HLabel 8250 3200 2    50   Input ~ 0
+Text GLabel 8250 3200 2    50   Input ~ 0
 TX-UART-ST
-Text HLabel 7900 2000 2    50   Input ~ 0
+Text GLabel 6900 3300 2    50   Output ~ 0
+RTS-UART-ST
+Text GLabel 7900 2000 2    50   Input ~ 0
 TX-UART-PIC
+Text GLabel 6900 1600 2    50   Output ~ 0
+RX-UART-PIC
+Text GLabel 10750 6750 0    50   Input ~ 0
+START-5V
+Text GLabel 15375 6675 0    50   Output ~ 0
+MES-5V
 $EndSCHEMATC

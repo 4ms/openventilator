@@ -1488,8 +1488,6 @@ F 3 "" H 2950 7300 50  0001 C CNN
 	1    2950 7300
 	1    0    0    -1  
 $EndComp
-Text HLabel 5350 9000 3    50   Input ~ 0
-SHUNT-DIODE-BAT
 $Comp
 L 10005011_Power_Management:VDCEXT #PWR?
 U 1 1 5EB267B8
@@ -1856,8 +1854,6 @@ Connection ~ 11500 2100
 Wire Wire Line
 	11500 2500 11600 2500
 Connection ~ 11500 2500
-Text HLabel 11200 2900 2    50   Output ~ 0
-ON-OFF
 Wire Wire Line
 	10850 2900 11200 2900
 $Comp
@@ -2546,4 +2542,8 @@ Text GLabel 6750 3600 2    50   Output ~ 0
 START-5V
 Text GLabel 1600 2000 0    50   Output ~ 0
 MES-VACDC
+Text GLabel 5350 9000 3    50   Input ~ 0
+SHUNT-DIODE-BAT
+Text GLabel 11200 2900 2    50   Output ~ 0
+ON-OFF
 $EndSCHEMATC
