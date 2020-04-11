@@ -391,10 +391,10 @@ F 9 "0603" V 6396 2750 62  0000 C CNN "Bom_Footprint"
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:74279266 L21
+L 10005011_Power_Management_Schematic_Symbols:74279266 L20
 U 1 1 5EA74223
 P 6950 2850
-F 0 "L21" V 6605 2850 50  0000 C CNN
+F 0 "L20" V 6605 2850 50  0000 C CNN
 F 1 "74279266" V 6696 2850 50  0000 C CNN
 F 2 "10005011 Power Management:C0603_1" V 6880 2850 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/74279266.pdf" H 6950 2850 50  0001 C CNN

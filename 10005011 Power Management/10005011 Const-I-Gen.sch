@@ -1403,10 +1403,10 @@ CHARGER-SWITCH
 Wire Wire Line
 	13300 5800 13400 5800
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:100k R94
+L 10005011_Power_Management_Schematic_Symbols:100k R97
 U 1 1 5EB05597
 P 13400 6050
-F 0 "R94" H 13331 6096 50  0000 R CNN
+F 0 "R97" H 13331 6096 50  0000 R CNN
 F 1 "100k" H 13331 6005 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 13330 6050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13400 6050 50  0001 C CNN
