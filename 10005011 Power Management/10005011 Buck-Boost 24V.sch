@@ -1266,7 +1266,7 @@ F 8 "DIODE SCHOTTKY 40V 1A SOD123" H 5200 6600 50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:BZX84C4V7 D4
+L 10005011_Power_Management:BZX84C4V7 D4
 U 1 1 5ED2FC67
 P 2400 6600
 F 0 "D4" H 2400 6384 50  0000 C CNN

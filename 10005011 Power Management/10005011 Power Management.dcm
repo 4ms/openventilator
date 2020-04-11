@@ -11,6 +11,12 @@ K diode Schottky
 F https://www.diodes.com/assets/Datasheets/ds30217.pdf
 $ENDCMP
 #
+$CMP BZX84C4V7
+D zener diode, 350mW, 4.7V
+K zener diode
+F https://4donline.ihs.com/images/VipMasterIC/IC/ONSM/ONSM-S-A0003405162/ONSM-S-A0003405162-1.pdf?hkey=EC6BD57738AE6E33B588C5F9AD3CEFA7
+$ENDCMP
+#
 $CMP CP
 D Polarized capacitor
 K cap capacitor

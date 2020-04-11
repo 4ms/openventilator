@@ -173,6 +173,37 @@ X PSG PSG -450 -150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# BZX84C4V7
+#
+DEF BZX84C4V7 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "BZX84C4V7" 0 -100 50 H V C CNN
+F2 "10005011 Power Management:SOT23-1DIODE_1" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DIODE ZENER, 0.35W,4.7V" 0 0 50 H V C CNN "Description"
+F5 "10022655" 0 0 50 H V C CNN "Item Number"
+F6 "Rochester Electronics, LLC" 0 0 50 H I C CNN "Manufacturer"
+F7 "BZX84C5V1-7-F" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "Digi-Key" 0 0 50 H I C CNN "Source"
+F9 "2156-BZX84C4V7-ONTR-ND" 0 0 50 H I C CNN "Source_PN"
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 3 1 1 8 -50 -50 -50 50 -30 50 N
+P 4 1 1 8 50 -50 50 50 -50 0 50 -50 F
+X 2 2 0 0 100 R 50 50 0 0 U
+X A A 150 0 100 L 50 50 1 1 P
+X K K -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CP
 #
 DEF CP C 0 10 N Y 1 F N

@@ -173,6 +173,37 @@ X PSG PSG -450 -150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 10005011_Power_Management_BZX84C4V7
+#
+DEF 10005011_Power_Management_BZX84C4V7 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "10005011_Power_Management_BZX84C4V7" 0 -100 50 H V C CNN
+F2 "10005011 Power Management:SOT23-1DIODE_1" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Rochester Electronics, LLC" 0 0 50 H I C CNN "Manufacturer"
+F5 "BZX84C5V1-7-F" 0 0 50 H I C CNN "Manufacturer_No"
+F6 "Digi-Key" 0 0 50 H I C CNN "Source"
+F7 "2156-BZX84C4V7-ONTR-ND" 0 0 50 H I C CNN "Source_PN"
+F8 "DIODE ZENER, 0.35W,4.7V" 0 0 50 H V C CNN "Description"
+F9 "10022655" 0 0 50 H V C CNN "Item Number"
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 3 1 1 8 -50 -50 -50 50 -30 50 N
+P 4 1 1 8 50 -50 50 50 -50 0 50 -50 F
+X 2 2 0 0 100 R 50 50 0 0 U
+X A A 150 0 100 L 50 50 1 1 P
+X K K -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10005011_Power_Management_CP
 #
 DEF 10005011_Power_Management_CP C 0 10 N Y 1 F N
@@ -1517,35 +1548,6 @@ X ~ 3 200 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 10005011_Power_Management_Schematic_Symbols_BZX84C4V7
-#
-DEF 10005011_Power_Management_Schematic_Symbols_BZX84C4V7 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "10005011_Power_Management_Schematic_Symbols_BZX84C4V7" 0 -100 50 H V C CNN
-F2 "Diode_SMD:D_SOT-23_ANK" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Rochester Electronics, LLC" 0 0 50 H I C CNN "Mfgr"
-F5 "BZX84C5V1-7-F" 0 0 50 H I C CNN "Mfgr_PN"
-F6 "Digi-Key" 0 0 50 H I C CNN "Source"
-F7 "2156-BZX84C4V7-ONTR-ND" 0 0 50 H I C CNN "Source_PN"
-F8 "DIODE ZENER, 0.35W,4.7V" 0 0 50 H I C CNN "Description"
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 1 1 0 50 0 -50 0 N
-P 3 1 1 8 -50 -50 -50 50 -30 50 N
-P 4 1 1 8 50 -50 50 50 -50 0 50 -50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 10005011_Power_Management_Schematic_Symbols_BZX84C5V1
 #
 DEF 10005011_Power_Management_Schematic_Symbols_BZX84C5V1 D 0 40 N N 1 F N
@@ -2063,32 +2065,6 @@ P 2 1 1 6 -50 100 -20 100 N
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x04_Male
-#
-DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S 34 -195 0 -205 1 1 6 F
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-P 2 1 1 6 50 -200 34 -200 N
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-X Pin_1 1 200 100 150 L 50 50 1 1 P
-X Pin_2 2 200 0 150 L 50 50 1 1 P
-X Pin_3 3 200 -100 150 L 50 50 1 1 P
-X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
