@@ -51,12 +51,12 @@ F 3 "" H 14900 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
+L Device:L L?
 U 1 1 5FDD612A
 P 13050 4900
-F 0 "L2" V 13300 4875 50  0000 C CNN
+F 0 "L?" V 13300 4875 50  0000 C CNN
 F 1 "33uH" V 13200 4875 50  0000 C CNN
-F 2 "" H 13050 4900 50  0001 C CNN
+F 2 "10005011 Power Management:WE-PD4_1" H 13050 4900 50  0001 C CNN
 F 3 "https://katalog.we-online.com/pbs/datasheet/74456133.pdf" H 13050 4900 50  0001 C CNN
 F 4 "Wurth" V 13050 4900 50  0001 C CNN "Mnf"
 F 5 "74456133" V 13050 4900 50  0001 C CNN "Mnf PN"
@@ -64,10 +64,10 @@ F 5 "74456133" V 13050 4900 50  0001 C CNN "Mnf PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R71
+L Device:R R?
 U 1 1 5E973040
 P 13300 5550
-F 0 "R71" H 13370 5596 50  0000 L CNN
+F 0 "R?" H 13370 5596 50  0000 L CNN
 F 1 "10k" H 13370 5505 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 13230 5550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 13300 5550 50  0001 C CNN
@@ -77,10 +77,10 @@ F 5 "RT0603BRB0710KL" H 13300 5550 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R73
+L Device:R R?
 U 1 1 5FDD612C
 P 13300 6050
-F 0 "R73" H 13370 6096 50  0000 L CNN
+F 0 "R?" H 13370 6096 50  0000 L CNN
 F 1 "3K24" H 13370 6005 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 13230 6050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 13300 6050 50  0001 C CNN
@@ -90,10 +90,10 @@ F 5 "RT0603BRD073K24L" H 13300 6050 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R70
+L Device:R R?
 U 1 1 5FDD6131
 P 14900 5150
-F 0 "R70" H 14970 5196 50  0000 L CNN
+F 0 "R?" H 14970 5196 50  0000 L CNN
 F 1 "10k" H 14970 5105 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 14830 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 14900 5150 50  0001 C CNN
@@ -103,10 +103,10 @@ F 5 "RT0603BRB0710KL" H 14900 5150 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R72
+L Device:R R?
 U 1 1 5FDD6132
 P 14900 5850
-F 0 "R72" H 14970 5896 50  0000 L CNN
+F 0 "R?" H 14970 5896 50  0000 L CNN
 F 1 "10k" H 14970 5805 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 14830 5850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 14900 5850 50  0001 C CNN
@@ -116,10 +116,10 @@ F 5 "RT0603BRB0710KL" H 14900 5850 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C55
+L Device:C C?
 U 1 1 5E9651FC
 P 9800 5650
-F 0 "C55" H 9915 5696 50  0000 L CNN
+F 0 "C?" H 9915 5696 50  0000 L CNN
 F 1 "100nF" H 9915 5605 50  0000 L CNN
 F 2 "10005011 Power Management:C0805_1" H 9838 5500 50  0001 C CNN
 F 3 "~" H 9800 5650 50  0001 C CNN
@@ -129,12 +129,12 @@ F 5 "223858055649" H 9800 5650 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C45
+L Device:C C?
 U 1 1 5E978E52
 P 14000 5150
-F 0 "C45" H 14115 5196 50  0000 L CNN
+F 0 "C?" H 14115 5196 50  0000 L CNN
 F 1 "10uF" H 14115 5105 50  0000 L CNN
-F 2 "10005011 Power Management:C0805_1" H 14038 5000 50  0001 C CNN
+F 2 "10005011 Power Management:C0805-AIROX-KEMET-C0805C106KA3" H 14038 5000 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C106K4PACTU.pdf" H 14000 5150 50  0001 C CNN
 F 4 "Kemet" H 14000 5150 50  0001 C CNN "Mnf"
 F 5 "C0805C106K4PAC" H 14000 5150 50  0001 C CNN "Mnf PN"
@@ -142,10 +142,10 @@ F 5 "C0805C106K4PAC" H 14000 5150 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C46
+L Device:C C?
 U 1 1 5FDD6122
 P 14400 5150
-F 0 "C46" H 14515 5196 50  0000 L CNN
+F 0 "C?" H 14515 5196 50  0000 L CNN
 F 1 "100nF" H 14515 5105 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 14438 5000 50  0001 C CNN
 F 3 "~" H 14400 5150 50  0001 C CNN
@@ -264,7 +264,7 @@ AR Path="/5E88D608/5FDE688F" Ref="C?"  Part="1"
 AR Path="/5E8E2802/5FDE688F" Ref="C?"  Part="1" 
 AR Path="/5E8F17C0/5FDE688F" Ref="C?"  Part="1" 
 AR Path="/5FDBA600/5FDE688F" Ref="C59"  Part="1" 
-F 0 "C59" H 10715 8296 50  0000 L CNN
+F 0 "C?" H 10715 8296 50  0000 L CNN
 F 1 "100nF" H 10715 8205 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 10638 8100 50  0001 C CNN
 F 3 "~" H 10600 8250 50  0001 C CNN
@@ -281,7 +281,7 @@ AR Path="/5E88D608/5FDE688A" Ref="C?"  Part="1"
 AR Path="/5E8E2802/5FDE688A" Ref="C?"  Part="1" 
 AR Path="/5E8F17C0/5FDE688A" Ref="C?"  Part="1" 
 AR Path="/5FDBA600/5FDE688A" Ref="C57"  Part="1" 
-F 0 "C57" H 12465 8196 50  0000 L CNN
+F 0 "C?" H 12465 8196 50  0000 L CNN
 F 1 "1uF" H 12465 8105 50  0000 L CNN
 F 2 "10005011 Power Management:C0805_1" H 12388 8000 50  0001 C CNN
 F 3 "~" H 12350 8150 50  0001 C CNN
@@ -298,7 +298,7 @@ AR Path="/5E88D608/5FDE688E" Ref="C?"  Part="1"
 AR Path="/5E8E2802/5FDE688E" Ref="C?"  Part="1" 
 AR Path="/5E8F17C0/5FDE688E" Ref="C?"  Part="1" 
 AR Path="/5FDBA600/5FDE688E" Ref="C58"  Part="1" 
-F 0 "C58" H 13165 8196 50  0000 L CNN
+F 0 "C?" H 13165 8196 50  0000 L CNN
 F 1 "100nF" H 13165 8105 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 13088 8000 50  0001 C CNN
 F 3 "~" H 13050 8150 50  0001 C CNN
@@ -319,12 +319,12 @@ F 3 "" H 14900 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_USB:FT2232D IC4
+L Interface_USB:FT2232D IC?
 U 1 1 5F152242
 P 5800 3100
-F 0 "IC4" H 5150 4850 50  0000 C CNN
+F 0 "IC?" H 5150 4850 50  0000 C CNN
 F 1 "FT2232" H 6350 4850 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 6800 1450 50  0001 C CNN
+F 2 "10005011 Power Management:LQFP48-PAD0.28X1.2_1" H 6800 1450 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf" H 5800 3100 50  0001 C CNN
 	1    5800 3100
 	1    0    0    -1  
@@ -412,12 +412,12 @@ Connection ~ 2250 3100
 Wire Wire Line
 	2050 3100 2250 3100
 $Comp
-L Device:R R3
+L Device:R R?
 U 1 1 5EC37C9E
 P 3950 1200
-F 0 "R3" V 4050 1200 50  0000 C CNN
+F 0 "R?" V 4050 1200 50  0000 C CNN
 F 1 "470" V 4125 1200 50  0000 C CNN
-F 2 "" V 3880 1200 50  0001 C CNN
+F 2 "10005011 Power Management:R0805_1" V 3880 1200 50  0001 C CNN
 F 3 "~" H 3950 1200 50  0001 C CNN
 	1    3950 1200
 	0    1    1    0   
@@ -434,23 +434,23 @@ F 3 "" H 4200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R?
 U 1 1 5EC37CB0
 P 4550 2200
-F 0 "R5" V 4650 2200 50  0000 C CNN
+F 0 "R?" V 4650 2200 50  0000 C CNN
 F 1 "27" V 4550 2200 50  0000 C CNN
-F 2 "" V 4480 2200 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" V 4480 2200 50  0001 C CNN
 F 3 "~" H 4550 2200 50  0001 C CNN
 	1    4550 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R?
 U 1 1 5EC37CB6
 P 4550 2400
-F 0 "R6" V 4650 2400 50  0000 C CNN
+F 0 "R?" V 4650 2400 50  0000 C CNN
 F 1 "27" V 4550 2400 50  0000 C CNN
-F 2 "" V 4480 2400 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" V 4480 2400 50  0001 C CNN
 F 3 "~" H 4550 2400 50  0001 C CNN
 	1    4550 2400
 	0    1    1    0   
@@ -464,12 +464,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 2200 4200 2200
 $Comp
-L Device:R R7
+L Device:R R?
 U 1 1 5EC37CC6
 P 4800 2650
-F 0 "R7" H 4870 2696 50  0000 L CNN
+F 0 "R?" H 4870 2696 50  0000 L CNN
 F 1 "1.5k" H 4870 2605 50  0000 L CNN
-F 2 "" V 4730 2650 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" V 4730 2650 50  0001 C CNN
 F 3 "~" H 4800 2650 50  0001 C CNN
 	1    4800 2650
 	1    0    0    -1  
@@ -548,23 +548,23 @@ NoConn ~ 6700 4300
 NoConn ~ 6700 4400
 NoConn ~ 6700 4600
 $Comp
-L Device:Crystal_GND2 Q1
+L Device:Crystal_GND2 Q?
 U 1 1 5EC37D14
 P 4200 3600
-F 0 "Q1" V 4050 3400 50  0000 C CNN
+F 0 "Q?" V 4050 3400 50  0000 C CNN
 F 1 "6 MHz" V 4350 3400 50  0000 C CNN
-F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 4200 3600 50  0001 C CNN
+F 2 "10005011 Power Management:CSTCR_1" H 4200 3600 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdata/8801051869214/SPEC-CSTCR6M00G53-R0.pdf" H 4200 3600 50  0001 C CNN
 	1    4200 3600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R113
+L Device:R R?
 U 1 1 5F15224C
 P 4500 3600
-F 0 "R113" H 4570 3646 50  0000 L CNN
+F 0 "R?" H 4570 3646 50  0000 L CNN
 F 1 "1M" H 4570 3555 50  0000 L CNN
-F 2 "" V 4430 3600 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" V 4430 3600 50  0001 C CNN
 F 3 "~" H 4500 3600 50  0001 C CNN
 	1    4500 3600
 	1    0    0    -1  
@@ -680,12 +680,12 @@ Wire Wire Line
 	3500 1000 3500 1100
 Connection ~ 3500 1100
 $Comp
-L Device:C C7
+L Device:C C?
 U 1 1 5EC37D5F
 P 4600 1550
-F 0 "C7" H 4625 1650 50  0000 L CNN
+F 0 "C?" H 4625 1650 50  0000 L CNN
 F 1 "33pF" H 4625 1450 50  0000 L CNN
-F 2 "" H 4638 1400 50  0001 C CNN
+F 2 "10005011 Power Management:C0603_1" H 4638 1400 50  0001 C CNN
 F 3 "~" H 4600 1550 50  0001 C CNN
 	1    4600 1550
 	1    0    0    -1  
@@ -749,12 +749,12 @@ $EndComp
 Wire Wire Line
 	7550 2400 7550 2500
 $Comp
-L Device:C C126
+L Device:C C?
 U 1 1 5F152254
 P 8550 2350
-F 0 "C126" H 8575 2450 50  0000 L CNN
+F 0 "C?" H 8575 2450 50  0000 L CNN
 F 1 "100nF" H 8575 2250 50  0000 L CNN
-F 2 "" H 8588 2200 50  0001 C CNN
+F 2 "10005011 Power Management:C0402_1" H 8588 2200 50  0001 C CNN
 F 3 "~" H 8550 2350 50  0001 C CNN
 	1    8550 2350
 	1    0    0    -1  
@@ -862,23 +862,23 @@ FTDI-AVCC
 Text Label 4600 1300 0    50   ~ 0
 FTDI-3V3
 $Comp
-L page3:NC7SZ66 IC27
+L page3:NC7SZ66 IC?
 U 1 1 5F152256
 P 7550 2100
-F 0 "IC27" H 7300 2350 50  0000 L CNN
+F 0 "IC?" H 7300 2350 50  0000 L CNN
 F 1 "NC7SZ66" H 7600 2350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7550 1900 50  0001 C CNN
+F 2 "10005011 Power Management:SC70-5_1" H 7550 1900 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7SZ66-D.pdf" H 6900 2700 50  0001 C CNN
 	1    7550 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L page3:NC7SZ66 IC26
+L page3:NC7SZ66 IC?
 U 1 1 5F152257
 P 7800 3300
-F 0 "IC26" H 7550 3550 50  0000 L CNN
+F 0 "IC?" H 7550 3550 50  0000 L CNN
 F 1 "NC7SZ66" H 7800 3050 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7800 3100 50  0001 C CNN
+F 2 "10005011 Power Management:SC70-5_1" H 7800 3100 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7SZ66-D.pdf" H 7150 3900 50  0001 C CNN
 	1    7800 3300
 	1    0    0    -1  
@@ -914,12 +914,12 @@ Connection ~ 6000 1100
 Wire Wire Line
 	6000 1100 5900 1100
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:82356050050 PG1
+L 10005011_Power_Management_Schematic_Symbols:82356050050 PG?
 U 1 1 5F152259
 P 2050 2750
-F 0 "PG1" V 1900 2850 50  0000 C CNN
+F 0 "PG?" V 1900 2850 50  0000 C CNN
 F 1 "82356050050" H 2050 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2050 2750 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" H 2050 2750 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/82356050050.pdf" H 2050 2750 50  0001 C CNN
 F 4 "Würth Elektronik" H 2050 2750 50  0001 C CNN "Mfgr"
 F 5 "82356050050" H 2050 2750 50  0001 C CNN "Mfgr_PN"
@@ -930,10 +930,10 @@ F 8 "ESD SUPPRESSOR 0603; 5VDC; 5PF" H 2050 2750 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:47pF C127
+L 10005011_Power_Management_Schematic_Symbols:47pF C?
 U 1 1 5F15225B
 P 2250 2750
-F 0 "C127" H 2275 2850 50  0000 L CNN
+F 0 "C?" H 2275 2850 50  0000 L CNN
 F 1 "47pF" H 2275 2650 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 2288 2600 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us" H 2250 2750 50  0001 C CNN
@@ -949,10 +949,10 @@ F 11 "50V" H 2250 2750 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:47pF C128
+L 10005011_Power_Management_Schematic_Symbols:47pF C?
 U 1 1 5F15225C
 P 2900 2750
-F 0 "C128" H 2925 2850 50  0000 L CNN
+F 0 "C?" H 2925 2850 50  0000 L CNN
 F 1 "47pF" H 2925 2650 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 2938 2600 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us" H 2900 2750 50  0001 C CNN
@@ -968,23 +968,23 @@ F 11 "50V" H 2900 2750 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L page3:USB_B_Mini_2shield J1
+L page3:USB_B_Mini_2shield J?
 U 1 1 5F15225D
 P 1400 2400
-F 0 "J1" H 1200 2750 50  0000 L CNN
+F 0 "J?" H 1200 2750 50  0000 L CNN
 F 1 "USB Mini B" V 1150 2150 50  0000 L CNN
-F 2 "" H 1650 2550 50  0001 C CNN
+F 2 "10005011 Power Management:MOL54819-0511_1" H 1650 2550 50  0001 C CNN
 F 3 "https://www.molex.com/molex/products/part-detail/io_connectors/0548190519" H 1650 2550 50  0001 C CNN
 	1    1400 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:MH2029-221Y L7
+L 10005011_Power_Management_Schematic_Symbols:MH2029-221Y L?
 U 1 1 5EC7397A
 P 1700 3100
-F 0 "L7" H 1775 3150 50  0000 L CNN
+F 0 "L?" H 1775 3150 50  0000 L CNN
 F 1 "MH2029-221Y" H 1775 3050 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 1630 3100 50  0001 C CNN
+F 2 "10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D" V 1630 3100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 1700 3100 50  0001 C CNN
 F 4 "Bourns Inc." H 1700 3100 50  0001 C CNN "Mfgr"
 F 5 "MH2029-221Y" H 1700 3100 50  0001 C CNN "Mfgr_PN"
@@ -996,12 +996,12 @@ F 9 "0805" H 1700 3100 62  0000 C CNN "Bom_Footprint"
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:MH2029-221Y L1
+L 10005011_Power_Management_Schematic_Symbols:MH2029-221Y L?
 U 1 1 5F15225F
 P 2800 1200
-F 0 "L1" H 2875 1250 50  0000 L CNN
+F 0 "L?" H 2875 1250 50  0000 L CNN
 F 1 "MH2029-221Y" H 2875 1150 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 2730 1200 50  0001 C CNN
+F 2 "10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D" V 2730 1200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/mh.pdf" H 2800 1200 50  0001 C CNN
 F 4 "Bourns Inc." H 2800 1200 50  0001 C CNN "Mfgr"
 F 5 "MH2029-221Y" H 2800 1200 50  0001 C CNN "Mfgr_PN"
@@ -1013,10 +1013,10 @@ F 9 "0805" H 2800 1200 62  0000 C CNN "Bom_Footprint"
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:B72500T0040M060 ML1
+L 10005011_Power_Management_Schematic_Symbols:B72500T0040M060 ML?
 U 1 1 5F152260
 P 3350 2750
-F 0 "ML1" V 3475 2750 50  0000 C CNN
+F 0 "ML?" V 3475 2750 50  0000 C CNN
 F 1 "B72500T0040M060" V 3225 2750 50  0000 C CNN
 F 2 "10005011 Power Management:R0603_1" V 3280 2750 50  0001 C CNN
 F 3 "https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Standard_series.pdf" H 3350 2750 50  0001 C CNN
@@ -1032,12 +1032,12 @@ $EndComp
 Wire Wire Line
 	2700 2600 2700 2500
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:82356050050 PG2
+L 10005011_Power_Management_Schematic_Symbols:82356050050 PG?
 U 1 1 5EC6C643
 P 2700 2750
-F 0 "PG2" V 2550 2850 50  0000 C CNN
+F 0 "PG?" V 2550 2850 50  0000 C CNN
 F 1 "82356050050" H 2700 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2700 2750 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" H 2700 2750 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/82356050050.pdf" H 2700 2750 50  0001 C CNN
 F 4 "Würth Elektronik" H 2700 2750 50  0001 C CNN "Mfgr"
 F 5 "82356050050" H 2700 2750 50  0001 C CNN "Mfgr_PN"
@@ -1061,10 +1061,10 @@ Wire Wire Line
 Text Label 1400 2900 0    50   ~ 0
 J1SHGND
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C1
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C?
 U 1 1 5F152261
 P 3100 1550
-F 0 "C1" H 3125 1650 50  0000 L CNN
+F 0 "C?" H 3125 1650 50  0000 L CNN
 F 1 "0.1uF" H 3125 1450 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 3138 1400 50  0001 C CNN
 F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 3100 1550 50  0001 C CNN
@@ -1080,10 +1080,10 @@ F 11 "16V" H 3100 1550 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C3
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C?
 U 1 1 5F152262
 P 3700 1550
-F 0 "C3" H 3725 1650 50  0000 L CNN
+F 0 "C?" H 3725 1650 50  0000 L CNN
 F 1 "0.1uF" H 3725 1450 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 3738 1400 50  0001 C CNN
 F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 3700 1550 50  0001 C CNN
@@ -1099,10 +1099,10 @@ F 11 "16V" H 3700 1550 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C124
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C?
 U 1 1 5ECD42AC
 P 3600 2750
-F 0 "C124" H 3625 2850 50  0000 L CNN
+F 0 "C?" H 3625 2850 50  0000 L CNN
 F 1 "0.1uF" H 3625 2650 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 3638 2600 50  0001 C CNN
 F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 3600 2750 50  0001 C CNN
@@ -1118,10 +1118,10 @@ F 11 "16V" H 3600 2750 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C5
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C?
 U 1 1 5ECD5E01
 P 4200 1550
-F 0 "C5" H 4225 1650 50  0000 L CNN
+F 0 "C?" H 4225 1650 50  0000 L CNN
 F 1 "0.1uF" H 4225 1450 50  0000 L CNN
 F 2 "10005011 Power Management:C0402_1" H 4238 1400 50  0001 C CNN
 F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 4200 1550 50  0001 C CNN
@@ -1137,12 +1137,12 @@ F 11 "16V" H 4200 1550 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.01uF C2
+L 10005011_Power_Management_Schematic_Symbols:0.01uF C?
 U 1 1 5F152265
 P 3400 1550
-F 0 "C2" H 3425 1650 50  0000 L CNN
+F 0 "C?" H 3425 1650 50  0000 L CNN
 F 1 "0.01uF" H 3425 1450 50  0000 L CNN
-F 2 "10005011 Power Management:C0603_1" H 3438 1400 50  0001 C CNN
+F 2 "10005011 Power Management:C0805-AIROX-KEMET-C0805C106KA3" H 3438 1400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3400 1550 50  0001 C CNN
 F 4 "Yageo" H 3400 1550 50  0001 C CNN "Mfgr"
 F 5 "CC0603KRX7R9BB103" H 3400 1550 50  0001 C CNN "Mfgr_PN"
@@ -1156,12 +1156,12 @@ F 11 "50V" H 3400 1550 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L page3:Common_Mode_Choke L8
+L page3:Common_Mode_Choke L?
 U 1 1 5ECE0914
 P 4000 2300
-F 0 "L8" H 4000 2475 50  0000 C CNN
+F 0 "L?" H 4000 2475 50  0000 C CNN
 F 1 "DLP31SN551ML2L" H 4000 2125 50  0000 C CNN
-F 2 "" H 4000 2340 50  0001 C CNN
+F 2 "10005011 Power Management:DLP31S-AIROX_1" H 4000 2340 50  0001 C CNN
 F 3 "https://www.murata.com/en-eu/products/productdata/8796756410398/EFLE0007.pdf" H 4000 2340 50  0001 C CNN
 	1    4000 2300
 	1    0    0    -1  
@@ -1189,12 +1189,12 @@ START-5V
 Text GLabel 14700 5650 0    50   Output ~ 0
 MES-5V
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:BAT54C D16
+L 10005011_Power_Management_Schematic_Symbols:BAT54C D?
 U 1 1 5ED0D7D1
 P 7300 1200
-F 0 "D16" H 7200 1500 50  0000 L CNN
+F 0 "D?" H 7200 1500 50  0000 L CNN
 F 1 "BAT54C" H 7050 1425 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7025 725 50  0001 L CNN
+F 2 "10005011 Power Management:SOT23-1G_1" H 7025 725 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 7220 1300 50  0001 C CNN
 F 4 "SOT23" H 7350 1025 50  0000 C CNN "BOM_Footprint"
 F 5 "DIODE ARRAY SCHOTTKY 30V SOT23-3" H 7625 1025 60  0001 C CNN "Description"
@@ -1212,12 +1212,12 @@ Wire Wire Line
 	7500 1200 7550 1200
 Connection ~ 7550 1200
 $Comp
-L Regulator_Switching:TPS5430DDA IC11
+L Regulator_Switching:TPS5430DDA IC?
 U 1 1 5ED82DF0
 P 11500 5600
-F 0 "IC11" H 11100 5950 50  0000 L CNN
+F 0 "IC?" H 11100 5950 50  0000 L CNN
 F 1 "TPS5430DDA" H 11450 5950 50  0000 L CNN
-F 2 "Package_SO:TI_SO-PowerPAD-8_ThermalVias" H 11550 5250 50  0001 L CIN
+F 2 "10005011 Power Management:SO08-PPAD_COMPOSANT_1" H 11550 5250 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps5430.pdf" H 11500 5600 50  0001 C CNN
 	1    11500 5600
 	1    0    0    -1  
@@ -1254,10 +1254,10 @@ Wire Wire Line
 	9800 6100 9800 5800
 Connection ~ 10300 6100
 $Comp
-L Device:C C47
+L Device:C C?
 U 1 1 5EE61C58
 P 12200 5150
-F 0 "C47" H 12085 5104 50  0000 R CNN
+F 0 "C?" H 12085 5104 50  0000 R CNN
 F 1 "10nF" H 12085 5195 50  0000 R CNN
 F 2 "10005011 Power Management:C0603_1" H 12238 5000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/223858615636-Yageo-datasheet-500777.pdf" H 12200 5150 50  0001 C CNN
@@ -1279,12 +1279,12 @@ Wire Wire Line
 Wire Wire Line
 	12200 4900 12200 5000
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:STPS340U D11
+L 10005011_Power_Management_Schematic_Symbols:STPS340U D?
 U 1 1 5EE9F24C
 P 12800 5250
-F 0 "D11" H 12800 5350 50  0000 C CNN
+F 0 "D?" H 12800 5350 50  0000 C CNN
 F 1 "STPS340U" H 12800 5150 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 12800 5250 50  0001 C CNN
+F 2 "10005011 Power Management:SMB_1" H 12800 5250 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/db/21/0c/04/d9/41/a5/CD00000844.pdf/files/CD00000844.pdf/jcr:content/translations/en.CD00000844.pdf" H 12800 5250 50  0001 C CNN
 F 4 "STMicroelectronics" H 12800 5250 50  0001 C CNN "Mfgr"
 F 5 "STPS340U" H 12800 5250 50  0001 C CNN "Mfgr_PN"
@@ -1324,12 +1324,12 @@ Text Label 12100 5800 0    50   ~ 0
 Wire Wire Line
 	14900 4800 14900 4900
 $Comp
-L Device:CP C44
+L Device:CP C?
 U 1 1 5EFB991E
 P 13600 5150
-F 0 "C44" H 13718 5196 50  0000 L CNN
+F 0 "C?" H 13718 5196 50  0000 L CNN
 F 1 "220uF" H 13718 5105 50  0000 L CNN
-F 2 "" H 13638 5000 50  0001 C CNN
+F 2 "10005011 Power Management:C-SC8_1" H 13638 5000 50  0001 C CNN
 F 3 "" H 13600 5150 50  0001 C CNN
 F 4 "Panasonic" H 13600 5150 50  0001 C CNN "Mnf"
 F 5 "EEEFK1C221P" H 13600 5150 50  0001 C CNN "Mnf PN"
@@ -1362,12 +1362,12 @@ Wire Wire Line
 Wire Wire Line
 	10300 5400 10300 5500
 $Comp
-L Device:CP C54
+L Device:CP C?
 U 1 1 5FDD612E
 P 10300 5650
-F 0 "C54" H 10418 5696 50  0000 L CNN
+F 0 "C?" H 10418 5696 50  0000 L CNN
 F 1 "100uF" H 10418 5605 50  0000 L CNN
-F 2 "" H 10338 5500 50  0001 C CNN
+F 2 "10005011 Power Management:C-SC8_1" H 10338 5500 50  0001 C CNN
 F 3 "" H 10300 5650 50  0001 C CNN
 F 4 "Panasonic" H 10300 5650 50  0001 C CNN "Mnf"
 F 5 "EEEFK1C221P" H 10300 5650 50  0001 C CNN "Mnf PN"
@@ -1424,12 +1424,12 @@ Text Notes 11125 7500 0    118  ~ 0
 Text Notes 10550 4950 0    118  ~ 0
 5V REGULATOR
 $Comp
-L page3:LM4120AIM5-3.0 IC12
+L page3:LM4120AIM5-3.0 IC?
 U 1 1 5F0C731D
 P 11575 8100
-F 0 "IC12" H 11300 8450 50  0000 L CNN
+F 0 "IC?" H 11300 8450 50  0000 L CNN
 F 1 "LM4120AIM5-3.0" H 11275 7750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 11275 7600 50  0001 L CIN
+F 2 "10005011 Power Management:SOT23-5_1" H 11275 7600 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4120.pdf" H 12175 7500 50  0001 C CIN
 F 4 "TI" H 11575 7525 50  0001 C CNN "MNF"
 F 5 "LM4120AIM5-3.0" H 11600 7675 50  0001 C CNN "MNF PN"
@@ -1442,45 +1442,45 @@ Text Notes 11400 2600 0    118  ~ 0
 Text Notes 3350 800  0    118  ~ 0
 USB/2UARTS CONVERTER
 $Comp
-L Regulator_Linear:LF33_TO252 IC8
+L Regulator_Linear:LF33_TO252 IC?
 U 1 1 5F102093
 P 11700 3000
-F 0 "IC8" H 11550 3125 50  0000 C CNN
+F 0 "IC?" H 11550 3125 50  0000 C CNN
 F 1 "LF33CDT" H 11700 3125 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 11700 3225 50  0001 C CIN
+F 2 "10005011 Power Management:DPAK_1" H 11700 3225 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" H 11700 2950 50  0001 C CNN
 	1    11700 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C34
+L Device:C C?
 U 1 1 5F10411B
 P 12600 3250
-F 0 "C34" H 12625 3350 50  0000 L CNN
+F 0 "C?" H 12625 3350 50  0000 L CNN
 F 1 "22uF" H 12625 3150 50  0000 L CNN
-F 2 "" H 12638 3100 50  0001 C CNN
+F 2 "10005011 Power Management:C1210_1" H 12638 3100 50  0001 C CNN
 F 3 "~" H 12600 3250 50  0001 C CNN
 	1    12600 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C36
+L Device:C C?
 U 1 1 5F107D35
 P 12200 3250
-F 0 "C36" H 12225 3350 50  0000 L CNN
+F 0 "C?" H 12225 3350 50  0000 L CNN
 F 1 "100nF" H 12225 3150 50  0000 L CNN
-F 2 "" H 12238 3100 50  0001 C CNN
+F 2 "10005011 Power Management:C0402_1" H 12238 3100 50  0001 C CNN
 F 3 "~" H 12200 3250 50  0001 C CNN
 	1    12200 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C35
+L Device:C C?
 U 1 1 5F1097B4
 P 11200 3250
-F 0 "C35" H 11225 3350 50  0000 L CNN
+F 0 "C?" H 11225 3350 50  0000 L CNN
 F 1 "100nF" H 11225 3150 50  0000 L CNN
-F 2 "" H 11238 3100 50  0001 C CNN
+F 2 "10005011 Power Management:C0402_1" H 11238 3100 50  0001 C CNN
 F 3 "~" H 11200 3250 50  0001 C CNN
 	1    11200 3250
 	1    0    0    -1  
@@ -1565,10 +1565,10 @@ Connection ~ 11700 3500
 Wire Wire Line
 	11700 3500 11900 3500
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:10k_0.1pcnt R56
+L 10005011_Power_Management_Schematic_Symbols:10k_0.1pcnt R?
 U 1 1 5F179002
 P 12950 3000
-F 0 "R56" V 12850 3000 50  0000 C CNN
+F 0 "R?" V 12850 3000 50  0000 C CNN
 F 1 "10k_0.1pcnt" V 13025 3000 50  0000 C CNN
 F 2 "10005011 Power Management:R0603_1" V 12880 3000 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12950 3000 50  0001 C CNN
@@ -1589,10 +1589,10 @@ Connection ~ 12400 3000
 Wire Wire Line
 	12400 3000 12600 3000
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:10k_0.1pcnt R57
+L 10005011_Power_Management_Schematic_Symbols:10k_0.1pcnt R?
 U 1 1 5F18950E
 P 13300 3250
-F 0 "R57" V 13200 3250 50  0000 C CNN
+F 0 "R?" V 13200 3250 50  0000 C CNN
 F 1 "10k_0.1pcnt" V 13375 3250 50  0000 C CNN
 F 2 "10005011 Power Management:R0603_1" V 13230 3250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 13300 3250 50  0001 C CNN
