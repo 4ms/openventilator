@@ -1579,7 +1579,7 @@ U 1 1 5E9BAE39
 P 11950 5600
 F 0 "C106" H 12065 5691 50  0000 L CNN
 F 1 "0.1uF_0805" H 12065 5600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11988 5450 50  0001 C CNN
+F 2 "10005011 Power Management:C0805_1" H 11988 5450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 11950 5600 50  0001 C CNN
 F 4 "Yageo" H 11950 5600 50  0001 C CNN "Mfgr"
 F 5 "CC0805KRX7R9BB104" H 11950 5600 50  0001 C CNN "Mfgr_PN"
@@ -2507,7 +2507,7 @@ U 1 1 5F290125
 P 2750 9450
 F 0 "R107" V 2830 9450 50  0000 C CNN
 F 1 "66.5k" V 2750 9450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 9450 50  0001 C CNN
+F 2 "10005011 Power Management:R0603_1" V 2680 9450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2750 9450 50  0001 C CNN
 F 4 "Yageo" H 2750 9450 50  0001 C CNN "Mfgr"
 F 5 "RT0603BRD0766K5L" H 2750 9450 50  0001 C CNN "Mfgr_PN"
