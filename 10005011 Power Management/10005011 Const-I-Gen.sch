@@ -217,10 +217,10 @@ F 3 "~" H 2450 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management:LT1620CMS8 IC?
+L 10005011_Power_Management:LT1620CMS8 IC14
 U 1 1 5E97706E
 P 2350 4900
-F 0 "IC?" H 2400 4850 50  0000 C CNN
+F 0 "IC14" H 2400 4850 50  0000 C CNN
 F 1 "LT1620CMS8" H 2400 4950 50  0000 C CNN
 F 2 "" H 2450 5000 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf" H 2450 5000 50  0001 C CNN
@@ -357,10 +357,10 @@ Wire Wire Line
 Text Label 1050 5000 0    50   ~ 0
 PROG-LT1620
 $Comp
-L pages4_5:LTC1435CS IC?
+L pages4_5:LTC1435CS IC13
 U 1 1 5E9A46CA
 P 5900 4500
-F 0 "IC?" H 5500 5300 50  0000 C CNN
+F 0 "IC13" H 5500 5300 50  0000 C CNN
 F 1 "LTC1435CS" H 6050 5300 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" V 5850 4550 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/14367afb.pdf" H 5900 4500 50  0001 C CNN
