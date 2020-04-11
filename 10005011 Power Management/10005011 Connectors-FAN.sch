@@ -683,8 +683,6 @@ F 11 "Need to create a footprint" V 4650 3125 50  0001 C CNN "Notes"
 	1    4650 3150
 	-1   0    0    1   
 $EndComp
-Text Notes 3350 900  0    100  ~ 0
-Should the two on the ends be bypassed to PGND instead of GND?
 $Comp
 L power:GND #PWR?
 U 1 1 5EA7420E
@@ -1825,7 +1823,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 8150 12950 8150
 Wire Wire Line
-	12950 8150 12950 8650
+	12950 8150 12950 8450
 Wire Wire Line
 	12950 8650 13650 8650
 Wire Wire Line
@@ -1992,4 +1990,11 @@ Text GLabel 3900 6550 2    50   Input ~ 0
 BAT-EEPROM
 Text GLabel 3900 6650 2    50   Output ~ 0
 BATTERY-TEMP
+Wire Wire Line
+	13050 8450 12950 8450
+Connection ~ 12950 8450
+Wire Wire Line
+	12950 8450 12950 8650
+Text Notes 3700 1050 0    50   ~ 0
+ideally, a couple of the pins might be bypassed to PGND instead of GND,\nbut it doesn't really matter because the CPU board combines the grounds.
 $EndSCHEMATC

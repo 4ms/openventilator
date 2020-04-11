@@ -18,7 +18,7 @@ L Device:R R55
 U 1 1 5EA66ACC
 P 3550 9050
 F 0 "R55" H 3620 9096 50  0000 L CNN
-F 1 "40.2k 1%" H 3620 9005 50  0000 L CNN
+F 1 "40.2k" H 3620 9005 50  0000 L CNN
 F 2 "" V 3480 9050 50  0001 C CNN
 F 3 "~" H 3550 9050 50  0001 C CNN
 	1    3550 9050
@@ -44,17 +44,6 @@ F 1 "2N7002" H 4950 9000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 8925 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4750 9000 50  0001 L CNN
 	1    4750 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R107
-U 1 1 5EA66ADE
-P 2750 9450
-F 0 "R107" H 2820 9496 50  0000 L CNN
-F 1 "66.5k 1%" H 2820 9405 50  0000 L CNN
-F 2 "" V 2680 9450 50  0001 C CNN
-F 3 "~" H 2750 9450 50  0001 C CNN
-	1    2750 9450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1218,17 +1207,6 @@ Wire Wire Line
 	3900 3500 3900 3900
 Wire Wire Line
 	2600 3000 2600 3300
-$Comp
-L Device:D_Schottky D19
-U 1 1 5EA66D98
-P 4800 4500
-F 0 "D19" H 4800 4716 50  0000 C CNN
-F 1 "PRLL5819" H 4800 4625 50  0000 C CNN
-F 2 "" H 4800 4500 50  0001 C CNN
-F 3 "~" H 4800 4500 50  0001 C CNN
-	1    4800 4500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 4800 4300 4500
 Connection ~ 4300 4800
@@ -1366,17 +1344,6 @@ Wire Wire Line
 Connection ~ 5450 2000
 Wire Wire Line
 	5450 2000 5650 2000
-$Comp
-L Diode:BAT54C D2
-U 1 1 5EA66E03
-P 6650 2300
-F 0 "D2" H 6675 2150 50  0000 L CNN
-F 1 "BAT54C" H 6400 2425 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6725 2425 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 6570 2300 50  0001 C CNN
-	1    6650 2300
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	5850 3200 6150 3200
 Wire Wire Line
@@ -1384,16 +1351,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 2000 6450 2000
 Wire Wire Line
-	6450 2000 6450 2700
-Wire Wire Line
-	6450 2700 6650 2700
-Wire Wire Line
-	6650 2700 6650 2600
-Wire Wire Line
 	6450 2000 6450 1900
-Connection ~ 6450 2000
-Wire Wire Line
-	6650 2000 6650 1600
 Wire Wire Line
 	6650 1600 3550 1600
 Wire Wire Line
@@ -1423,14 +1381,6 @@ F 3 "~" H 6550 3850 50  0001 C CNN
 	1    6550 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 2300 6950 2300
-Wire Wire Line
-	6950 2300 6950 2900
-Wire Wire Line
-	6950 2900 6550 2900
-Wire Wire Line
-	6550 2900 6550 3100
 Wire Wire Line
 	6550 3400 6550 3600
 $Comp
@@ -2546,4 +2496,63 @@ Text GLabel 5350 9000 3    50   Input ~ 0
 SHUNT-DIODE-BAT
 Text GLabel 11200 2900 2    50   Output ~ 0
 ON-OFF
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:1N5819 D19
+U 1 1 5F1F1611
+P 4800 4500
+F 0 "D19" H 4800 4600 50  0000 C CNN
+F 1 "1N5819" H 4800 4400 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 4500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 4800 4500 50  0001 C CNN
+F 4 "Diodes Incorporated" H 4800 4500 50  0001 C CNN "Mfgr"
+F 5 "1N5819HW-7-F" H 4800 4500 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4800 4500 50  0001 C CNN "Source"
+F 7 "1N5819HW-FDICT-ND" H 4800 4500 50  0001 C CNN "Source_PN"
+F 8 "DIODE SCHOTTKY 40V 1A SOD123" H 4800 4500 50  0001 C CNN "Description"
+	1    4800 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:BAT54C D2
+U 1 1 5F1F8D7E
+P 6550 2500
+F 0 "D2" H 6450 2800 50  0000 L CNN
+F 1 "BAT54C" H 6300 2725 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6275 2025 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf" H 6470 2600 50  0001 C CNN
+F 4 "SOT23" H 6600 2325 50  0000 C CNN "BOM_Footprint"
+F 5 "DIODE ARRAY SCHOTTKY 30V SOT23-3" H 6875 2325 60  0001 C CNN "Description"
+F 6 "ON Semiconductor" H 6875 2325 60  0001 C CNN "Mfgr"
+F 7 "BAT54C" H 6875 2325 60  0001 C CNN "Mfgr_PN"
+F 8 "Digi-Key" H 6725 2325 60  0001 C CNN "Source"
+F 9 "BAT54CFSCT-ND" H 6700 2325 60  0001 C CNN "Source_PN"
+	1    6550 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 3100 6550 2700
+Wire Wire Line
+	6450 2200 6450 2000
+Connection ~ 6450 2000
+Wire Wire Line
+	6650 1600 6650 2200
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:66.5k R107
+U 1 1 5F290125
+P 2750 9450
+F 0 "R107" V 2830 9450 50  0000 C CNN
+F 1 "66.5k" V 2750 9450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 9450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2750 9450 50  0001 C CNN
+F 4 "Yageo" H 2750 9450 50  0001 C CNN "Mfgr"
+F 5 "RT0603BRD0766K5L" H 2750 9450 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 2750 9450 50  0001 C CNN "Source"
+F 7 "YAG1712CT-ND" H 2750 9450 50  0001 C CNN "Source_PN"
+F 8 "0603" H 2750 9450 50  0000 C CNN "Bom_Footprint"
+F 9 "RES SMD 66.5KOHM 0.1% 1/10W 0603" H 2750 9450 50  0001 C CNN "Description"
+F 10 "0.1%" H 2750 9450 50  0000 C CNN "Tolerance"
+F 11 "1/10W" H 2750 9450 50  0001 C CNN "Wattage"
+	1    2750 9450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

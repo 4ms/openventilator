@@ -161,10 +161,10 @@ Connection ~ 4100 8050
 Wire Wire Line
 	4100 8050 3700 8050
 $Comp
-L Connector:TestPoint_Alt TP4
+L Connector:TestPoint_Alt PST4
 U 1 1 5FEC955B
 P 5650 3050
-F 0 "TP4" V 5604 3238 50  0000 L CNN
+F 0 "PST4" V 5604 3238 50  0000 L CNN
 F 1 "PST4" V 5695 3238 50  0000 L CNN
 F 2 "" H 5850 3050 50  0001 C CNN
 F 3 "~" H 5850 3050 50  0001 C CNN
@@ -172,10 +172,10 @@ F 3 "~" H 5850 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP5
+L Connector:TestPoint_Alt PST5
 U 1 1 5FEC955C
 P 5650 3250
-F 0 "TP5" V 5604 3438 50  0000 L CNN
+F 0 "PST5" V 5604 3438 50  0000 L CNN
 F 1 "PST5" V 5695 3438 50  0000 L CNN
 F 2 "" H 5850 3250 50  0001 C CNN
 F 3 "~" H 5850 3250 50  0001 C CNN
@@ -223,10 +223,10 @@ Wire Wire Line
 Wire Wire Line
 	5050 2450 5250 2450
 $Comp
-L Connector:TestPoint_Alt TP2
+L Connector:TestPoint_Alt PST2
 U 1 1 5E97C137
 P 5650 2650
-F 0 "TP2" V 5604 2838 50  0000 L CNN
+F 0 "PST2" V 5604 2838 50  0000 L CNN
 F 1 "PST2" V 5695 2838 50  0000 L CNN
 F 2 "" H 5850 2650 50  0001 C CNN
 F 3 "~" H 5850 2650 50  0001 C CNN
@@ -234,10 +234,10 @@ F 3 "~" H 5850 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP3
+L Connector:TestPoint_Alt PST3
 U 1 1 5E97C13E
 P 5650 2850
-F 0 "TP3" V 5604 3038 50  0000 L CNN
+F 0 "PST3" V 5604 3038 50  0000 L CNN
 F 1 "PST3" V 5695 3038 50  0000 L CNN
 F 2 "" H 5850 2850 50  0001 C CNN
 F 3 "~" H 5850 2850 50  0001 C CNN
@@ -295,10 +295,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 2250 2750 2250
 $Comp
-L Connector:TestPoint_Alt TP8
+L Connector:TestPoint_Alt PST8
 U 1 1 5E97C164
 P 2350 3050
-F 0 "TP8" H 2408 3168 50  0000 L CNN
+F 0 "PST8" H 2408 3168 50  0000 L CNN
 F 1 "PST8" H 2408 3077 50  0000 L CNN
 F 2 "" H 2550 3050 50  0001 C CNN
 F 3 "~" H 2550 3050 50  0001 C CNN
@@ -306,10 +306,10 @@ F 3 "~" H 2550 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP7
+L Connector:TestPoint_Alt PST7
 U 1 1 5E97C16B
 P 2450 3250
-F 0 "TP7" H 2508 3368 50  0000 L CNN
+F 0 "PST7" H 2508 3368 50  0000 L CNN
 F 1 "PST7" H 2508 3277 50  0000 L CNN
 F 2 "" H 2650 3250 50  0001 C CNN
 F 3 "~" H 2650 3250 50  0001 C CNN
@@ -317,10 +317,10 @@ F 3 "~" H 2650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP6
+L Connector:TestPoint_Alt PST6
 U 1 1 5FEC9561
 P 2550 3450
-F 0 "TP6" H 2608 3568 50  0000 L CNN
+F 0 "PST6" H 2608 3568 50  0000 L CNN
 F 1 "PST6" H 2608 3477 50  0000 L CNN
 F 2 "" H 2750 3450 50  0001 C CNN
 F 3 "~" H 2750 3450 50  0001 C CNN
@@ -1296,7 +1296,7 @@ F 9 "0603" H 12903 7309 50  0000 L CNN "Bom_Footprint"
 	1    0    0    -1  
 $EndComp
 Text Notes 9850 8650 0    118  ~ 0
-Notes:\n1. DS2480B needs to be updated with all required fields.\n2. ML5 not populated?  Was marked "NC" on original schematic.\n3. TX and RX labels are transposed from original.
+Notes:\n2. ML5 not populated?  Was marked "NC" on original schematic.\n3. TX and RX labels are transposed from original.
 $Comp
 L power:GND #PWR?
 U 1 1 5E935F1F

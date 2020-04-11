@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LTC1435CS
+D High Efficiency Low Noise Synchronous Step-Down Switching Regulator, SO-16
+K buck controller 36V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/14367afb.pdf
+$ENDCMP
+#
+$CMP PMEGxx05ET
+D 0.5A Schottky Diode, SOT-23
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf
+$ENDCMP
+#
 $CMP TLV3011AIDBV
 D Nanopower 1.8V comparator with voltage reference
 K comparator
