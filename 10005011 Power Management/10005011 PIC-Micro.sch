@@ -1430,8 +1430,6 @@ Text GLabel 5350 4150 2    50   Output ~ 0
 LED-AC-PRESENCE
 Text GLabel 5350 4350 2    50   Output ~ 0
 LED-BATTERY-STATUS
-Text Notes 4900 9950 0    197  ~ 0
-TODO: T2 symbol pin names
 NoConn ~ 1950 9000
 NoConn ~ 1950 8900
 $EndSCHEMATC
