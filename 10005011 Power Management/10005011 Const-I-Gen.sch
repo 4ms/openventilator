@@ -1171,7 +1171,6 @@ F 5 "Infineon Technologies" H 12550 5725 50  0001 C CNN "Mfgr"
 F 6 "Digi-Key" H 12300 5725 50  0001 C CNN "Source"
 F 7 "IRLML2803PBFCT-ND" H 12500 5725 50  0001 C CNN "Source_PN"
 F 8 "MOSFET N-CH 30V 1.2A SOT-23" H 12600 5725 50  0001 C CNN "Description"
-F 9 "SOT23" H 12100 5725 50  0000 C CNN "Bom_Footprint"
 	1    11900 5800
 	1    0    0    -1  
 $EndComp

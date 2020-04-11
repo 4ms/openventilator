@@ -1704,12 +1704,12 @@ F 3 "https://www.schurter.com/en/datasheet/typ_CMF2__CMF5.pdf" H 10200 2750 100 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female J3
+L Connector:Conn_01x03_Female J4
 U 1 1 5E98CEDB
 P 12400 2300
-F 0 "J3" H 12200 2550 50  0000 L CNN
+F 0 "J4" H 12200 2550 50  0000 L CNN
 F 1 "AC" H 12200 2100 50  0000 L CNN
-F 2 "10005011 Power Management:MOL41815-12_1" H 12400 2300 50  0001 C CNN
+F 2 "10005011 Power Management:MOL41815-03_1" H 12400 2300 50  0001 C CNN
 F 3 "~" H 12400 2300 50  0001 C CNN
 	1    12400 2300
 	1    0    0    -1  
@@ -2505,17 +2505,17 @@ $Comp
 L 10005011_Power_Management_Schematic_Symbols:66.5k R107
 U 1 1 5F290125
 P 2750 9450
-F 0 "R107" V 2830 9450 50  0000 C CNN
-F 1 "66.5k" V 2750 9450 50  0000 C CNN
+F 0 "R107" H 2820 9587 50  0000 L CNN
+F 1 "66.5k" H 2820 9496 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 2680 9450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2750 9450 50  0001 C CNN
 F 4 "Yageo" H 2750 9450 50  0001 C CNN "Mfgr"
 F 5 "RT0603BRD0766K5L" H 2750 9450 50  0001 C CNN "Mfgr_PN"
 F 6 "Digi-Key" H 2750 9450 50  0001 C CNN "Source"
 F 7 "YAG1712CT-ND" H 2750 9450 50  0001 C CNN "Source_PN"
-F 8 "0603" H 2750 9450 50  0000 C CNN "Bom_Footprint"
+F 8 "0603" H 2820 9405 50  0000 L CNN "Bom_Footprint"
 F 9 "RES SMD 66.5KOHM 0.1% 1/10W 0603" H 2750 9450 50  0001 C CNN "Description"
-F 10 "0.1%" H 2750 9450 50  0000 C CNN "Tolerance"
+F 10 "0.1%" H 2820 9314 50  0000 L CNN "Tolerance"
 F 11 "1/10W" H 2750 9450 50  0001 C CNN "Wattage"
 	1    2750 9450
 	1    0    0    -1  
