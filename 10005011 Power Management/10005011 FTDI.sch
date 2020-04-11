@@ -1313,8 +1313,6 @@ Wire Wire Line
 Connection ~ 13300 5800
 Wire Wire Line
 	13300 5800 13300 5900
-Text Notes -1100 6300 0    118  ~ 0
-Notes:\nCrystal footprint may need to be modified - I chose one that was already in KiCad default libraries.\nUSB port needs footprint\nC2 listed in BOM as KEMET 0805.  Is that right?\nEverything to the right of L8 still need footprint selected.
 Text Label 12200 5400 0    50   ~ 0
 5VBOOT
 Text Label 12100 5600 0    50   ~ 0
