@@ -5,6 +5,18 @@ D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag
 $ENDCMP
 #
+$CMP 1N5819
+D DIODE SCHOTTKY 40V 1A SOD123
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds30217.pdf
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP CY7C1021DV33
 D IC,RAM,3V3,64KX16,10NS,TSOP
 K 10022899
