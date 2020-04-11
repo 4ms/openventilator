@@ -775,22 +775,6 @@ Wire Wire Line
 Connection ~ 5050 4750
 Wire Wire Line
 	5050 4750 5050 4650
-Text HLabel 6050 2350 0    50   Input ~ 0
-MTSR-SPI-1
-Text HLabel 6050 2550 0    50   Output ~ 0
-MRST-SPI-1
-Text HLabel 6050 2450 0    50   Output ~ 0
-RX-UART-ST
-Text HLabel 6050 2650 0    50   Input ~ 0
-LED-DC-PRESENCE
-Text HLabel 6050 2850 0    50   Input ~ 0
-USB-BUSY
-Text HLabel 6050 2950 0    50   Output ~ 0
-CE-SPI-USB
-Text HLabel 6050 3050 0    50   Output ~ 0
-CE-SPI-PIC
-Text HLabel 6050 3150 0    50   Output ~ 0
-SCLK-SPI-0
 Wire Wire Line
 	6050 2350 6850 2350
 Wire Wire Line
@@ -805,18 +789,6 @@ Wire Wire Line
 	6050 2950 7250 2950
 Wire Wire Line
 	6050 3050 7650 3050
-Text HLabel 12150 3050 2    50   Output ~ 0
-MTSR-SPI-0
-Text HLabel 12150 2950 2    50   Input ~ 0
-MRST-SPI-0
-Text HLabel 12150 2650 2    50   Input ~ 0
-LED-AC-PRESENCE
-Text HLabel 12150 2850 2    50   Output ~ 0
-USB-RESET
-Text HLabel 12150 2450 2    50   Output ~ 0
-TX-UART-ST
-Text HLabel 12150 2350 2    50   Input ~ 0
-RTS-UART-ST
 Wire Wire Line
 	12150 3150 11350 3150
 Wire Wire Line
@@ -835,12 +807,8 @@ Wire Wire Line
 	8050 3150 6050 3150
 Wire Wire Line
 	10150 2350 12150 2350
-Text HLabel 12150 2550 2    50   Input ~ 0
-LED-BATTERY-STATUS
 Wire Wire Line
 	11950 2750 11750 2750
-Text HLabel 12150 3150 2    50   Output ~ 0
-SCLK-SPI-1
 Wire Notes Line
 	5550 3850 13250 3850
 Wire Notes Line
@@ -895,10 +863,6 @@ Wire Wire Line
 Connection ~ 3200 6250
 Wire Wire Line
 	3200 6250 3200 6350
-Text HLabel 3900 6550 2    50   Input ~ 0
-BAT-EEPROM
-Text HLabel 3900 6650 2    50   Output ~ 0
-BATTERY-TEMP
 Wire Wire Line
 	3100 6750 3200 6750
 Wire Wire Line
@@ -1146,8 +1110,6 @@ Wire Wire Line
 	3550 6650 3900 6650
 Wire Wire Line
 	3550 6050 3800 6050
-Text HLabel 3800 6050 2    50   Input ~ 0
-+3.0VREF
 Wire Notes Line
 	2700 5950 2700 8250
 Wire Notes Line
@@ -1495,8 +1457,6 @@ F 3 "~" H 8950 8600 50  0001 C CNN
 	1    8950 8600
 	1    0    0    -1  
 $EndComp
-Text HLabel 8450 8350 0    50   Input ~ 0
-CMD-FAN
 Wire Wire Line
 	8450 8350 8950 8350
 Wire Wire Line
@@ -1896,8 +1856,6 @@ Wire Wire Line
 	13450 7150 14300 7150
 Wire Wire Line
 	14300 7150 14300 8050
-Text HLabel 14450 8050 2    50   Output ~ 0
-FAN-SPEED
 Wire Wire Line
 	14450 8050 14300 8050
 Connection ~ 14200 8050
@@ -1992,4 +1950,46 @@ F 11 "Need to create a footprint" V 4650 4525 50  0001 C CNN "Notes"
 	1    4650 4550
 	-1   0    0    1   
 $EndComp
+Text GLabel 6050 2350 0    50   Input ~ 0
+MTSR-SPI-1
+Text GLabel 6050 2450 0    50   Output ~ 0
+RX-UART-ST
+Text GLabel 6050 2550 0    50   Output ~ 0
+MRST-SPI-1
+Text GLabel 6050 2650 0    50   Input ~ 0
+LED-DC-PRESENCE
+Text GLabel 6050 2850 0    50   Input ~ 0
+USB-BUSY
+Text GLabel 6050 2950 0    50   Output ~ 0
+CE-SPI-USB
+Text GLabel 6050 3050 0    50   Output ~ 0
+CE-SPI-PIC
+Text GLabel 6050 3150 0    50   Output ~ 0
+SCLK-SPI-0
+Text GLabel 12150 2350 2    50   Input ~ 0
+RTS-UART-ST
+Text GLabel 12150 2450 2    50   Output ~ 0
+TX-UART-ST
+Text GLabel 12150 2550 2    50   Input ~ 0
+LED-BATTERY-STATUS
+Text GLabel 12150 2650 2    50   Input ~ 0
+LED-AC-PRESENCE
+Text GLabel 12150 2850 2    50   Output ~ 0
+USB-RESET
+Text GLabel 12150 2950 2    50   Input ~ 0
+MRST-SPI-0
+Text GLabel 12150 3050 2    50   Output ~ 0
+MTSR-SPI-0
+Text GLabel 12150 3150 2    50   Output ~ 0
+SCLK-SPI-1
+Text GLabel 8450 8350 0    50   Input ~ 0
+CMD-FAN
+Text GLabel 14450 8050 2    50   Output ~ 0
+FAN-SPEED
+Text GLabel 3800 6050 2    50   Input ~ 0
++3.0VREF
+Text GLabel 3900 6550 2    50   Input ~ 0
+BAT-EEPROM
+Text GLabel 3900 6650 2    50   Output ~ 0
+BATTERY-TEMP
 $EndSCHEMATC

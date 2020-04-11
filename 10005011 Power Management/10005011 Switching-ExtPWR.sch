@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -1474,8 +1474,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/ina170.pdf" H 2800 8950 50  0001 C CNN
 	1    2650 8800
 	1    0    0    -1  
 $EndComp
-Text HLabel 2000 9200 0    50   Input ~ 0
-+3.0VREF
 Wire Wire Line
 	2000 9200 2200 9200
 Connection ~ 2200 9200
@@ -1490,16 +1488,8 @@ F 3 "" H 2950 7300 50  0001 C CNN
 	1    2950 7300
 	1    0    0    -1  
 $EndComp
-Text HLabel 4650 8600 0    50   Input ~ 0
-BAT-LIMIT-SWITCH
-Text HLabel 4350 9000 0    50   Input ~ 0
-~BAT-SWITCH
 Text HLabel 5350 9000 3    50   Input ~ 0
 SHUNT-DIODE-BAT
-Text HLabel 3700 6700 0    50   Input ~ 0
-SHUNT-DIODE-DC
-Text HLabel 3700 3900 0    50   Input ~ 0
-SHUNT-DIODE-AC
 $Comp
 L 10005011_Power_Management:VDCEXT #PWR?
 U 1 1 5EB267B8
@@ -1577,12 +1567,6 @@ F 3 "" H 2350 8100 50  0001 C CNN
 	1    2350 8100
 	1    0    0    -1  
 $EndComp
-Text HLabel 1800 6400 0    50   Input ~ 0
-~DC-SWITCH
-Text HLabel 2000 6000 0    50   Input ~ 0
-DC-LIMIT-SWITCH
-Text HLabel 4150 7200 0    50   Input ~ 0
-I-CHARGE
 $Comp
 L 10005011_Power_Management:PGND #PWR?
 U 1 1 5EB8626D
@@ -1594,10 +1578,6 @@ F 3 "" H 5750 5100 50  0001 C CNN
 	1    5750 5100
 	1    0    0    -1  
 $EndComp
-Text HLabel 1650 7400 0    50   Output ~ 0
-MES-VBAT
-Text HLabel 3850 8800 2    50   Output ~ 0
-I-BAT
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:SZ1SMB D3
 U 1 1 5EBABD18
@@ -1614,18 +1594,6 @@ F 8 "TVS DIODE 36V 58.1V SMB" H 5350 2450 50  0001 C CNN "Description"
 	1    5350 2450
 	0    1    1    0   
 $EndComp
-Text HLabel 1600 4800 0    50   Output ~ 0
-MES-VDC
-Text HLabel 1600 2000 0    50   Output ~ 0
-MES-VACDC
-Text HLabel 1800 3500 0    50   Input ~ 0
-~AC-SWITCH
-Text HLabel 5850 3200 0    50   Input ~ 0
-ON-OFF
-Text HLabel 6750 3600 2    50   Output ~ 0
-START-5V
-Text HLabel 6450 4500 2    50   Output ~ 0
-LED-DC-PRESENCE
 $Comp
 L Connector:Conn_01x06_Male J5
 U 1 1 5E9AD81A
@@ -2496,10 +2464,6 @@ $EndComp
 Wire Wire Line
 	12600 7650 12600 7850
 Connection ~ 12600 7850
-Text HLabel 15100 8550 2    50   Output ~ 0
-BAT-LIMIT-SWITCH
-Text HLabel 11150 8450 2    50   Output ~ 0
-DC-LIMIT-SWITCH
 $Comp
 L 10005011_Power_Management:VDCEXT #PWR?
 U 1 1 5E95B64B
@@ -2546,4 +2510,40 @@ Wire Notes Line
 	15150 3950 8750 3950
 Wire Notes Line
 	8750 3950 8750 1350
+Text GLabel 15100 8550 2    50   Output ~ 0
+BAT-LIMIT-SWITCH
+Text GLabel 11150 8450 2    50   Output ~ 0
+DC-LIMIT-SWITCH
+Text GLabel 4350 9000 0    50   Input ~ 0
+~BAT-SWITCH
+Text GLabel 3850 8800 2    50   Output ~ 0
+I-BAT
+Text GLabel 4650 8600 0    50   Input ~ 0
+BAT-LIMIT-SWITCH
+Text GLabel 2000 9200 0    50   Input ~ 0
++3.0VREF
+Text GLabel 1650 7400 0    50   Output ~ 0
+MES-VBAT
+Text GLabel 1800 6400 0    50   Input ~ 0
+~DC-SWITCH
+Text GLabel 2000 6000 0    50   Input ~ 0
+DC-LIMIT-SWITCH
+Text GLabel 3700 6700 0    50   Input ~ 0
+SHUNT-DIODE-DC
+Text GLabel 4150 7200 0    50   Input ~ 0
+I-CHARGE
+Text GLabel 6450 4500 2    50   Output ~ 0
+LED-DC-PRESENCE
+Text GLabel 1600 4800 0    50   Output ~ 0
+MES-VDC
+Text GLabel 3700 3900 0    50   Input ~ 0
+SHUNT-DIODE-AC
+Text GLabel 1800 3500 0    50   Input ~ 0
+~AC-SWITCH
+Text GLabel 5850 3200 0    50   Input ~ 0
+ON-OFF
+Text GLabel 6750 3600 2    50   Output ~ 0
+START-5V
+Text GLabel 1600 2000 0    50   Output ~ 0
+MES-VACDC
 $EndSCHEMATC
