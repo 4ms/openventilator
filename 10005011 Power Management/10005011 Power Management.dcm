@@ -66,6 +66,12 @@ K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf
 $ENDCMP
 #
+$CMP STPS340U
+D DIODE SCHOTTKY 40V 1A SOD123
+K diode Schottky
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/db/21/0c/04/d9/41/a5/CD00000844.pdf/files/CD00000844.pdf/jcr:content/translations/en.CD00000844.pdf
+$ENDCMP
+#
 $CMP VACDC
 D Power symbol creates a global label with name "VACDC"
 K power-flag
