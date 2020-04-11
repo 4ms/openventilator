@@ -2520,24 +2520,6 @@ F 11 "1/10W" H 2750 9450 50  0001 C CNN "Wattage"
 	1    2750 9450
 	1    0    0    -1  
 $EndComp
-$Comp
-L 10005011_Power_Management:BNX002-11 FLTR?
-U 1 1 5F74A76D
-P 13100 5550
-AR Path="/5E92767C/5F74A76D" Ref="FLTR?"  Part="1" 
-AR Path="/5FEC5422/5F74A76D" Ref="FLTR2"  Part="1" 
-F 0 "FLTR2" H 13075 5923 50  0000 C CNN
-F 1 "BNX002-11" H 13075 5832 50  0000 C CNN
-F 2 "10005011 Power Management:BNX002_1" H 12990 5570 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 12990 5570 50  0001 C CNN
-F 4 "10022532" H 12990 5570 50  0001 C CNN "Item Number"
-F 5 "Murata" H 12990 5570 50  0001 C CNN "Manufacturer"
-F 6 "BNX002-11" H 13100 5550 50  0001 C CNN "MPN"
-F 7 "BNX002-11" H 13100 5550 50  0001 C CNN "Manufacturer_No"
-F 8 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 13100 5550 50  0001 C CNN "Description"
-	1    13100 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12550 5350 12550 5450
 Wire Wire Line
@@ -2562,4 +2544,22 @@ Wire Wire Line
 	13700 5700 13700 5800
 Wire Wire Line
 	13500 5450 13850 5450
+$Comp
+L 10005011_Power_Management:BNX002-11 FLTR?
+U 1 1 5F74A76D
+P 13100 5550
+AR Path="/5E92767C/5F74A76D" Ref="FLTR?"  Part="1" 
+AR Path="/5FEC5422/5F74A76D" Ref="FLTR2"  Part="1" 
+F 0 "FLTR2" H 13075 5923 50  0000 C CNN
+F 1 "BNX002-1" H 13075 5832 50  0000 C CNN
+F 2 "10005011 Power Management:BNX002_1" H 12990 5570 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 12990 5570 50  0001 C CNN
+F 4 "10022532" H 12990 5570 50  0001 C CNN "Item Number"
+F 5 "Murata" H 12990 5570 50  0001 C CNN "Manufacturer"
+F 6 "BNX002-11" H 13100 5550 50  0001 C CNN "MPN"
+F 7 "BNX002-11" H 13100 5550 50  0001 C CNN "Manufacturer_No"
+F 8 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 13100 5550 50  0001 C CNN "Description"
+	1    13100 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

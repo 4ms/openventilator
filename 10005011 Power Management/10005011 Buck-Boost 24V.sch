@@ -285,22 +285,6 @@ F 3 "" H 15000 1750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:BNX002-01 FLTR2
-U 1 1 5E983555
-P 14200 1350
-F 0 "FLTR2" H 14175 1845 50  0000 C CNN
-F 1 "BNX002-11" H 14175 1754 50  0000 C CNN
-F 2 "10005011 Power Management:BNX002_1" H 14090 1370 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 14090 1370 50  0001 C CNN
-F 4 "10022532" H 14090 1370 50  0001 C CNN "Item Number"
-F 5 "Murata" H 14090 1370 50  0001 C CNN "Manufacturer"
-F 6 "BNX002-11" H 14200 1350 50  0001 C CNN "MPN"
-F 7 "BNX002-11" H 14200 1350 50  0001 C CNN "Manufacturer_No"
-F 8 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 14200 1350 50  0001 C CNN "Description"
-	1    14200 1350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C117
 U 1 1 5E983560
 P 13300 1450
@@ -1899,4 +1883,20 @@ Wire Wire Line
 Connection ~ 14800 1250
 Wire Wire Line
 	14800 1250 14650 1250
+$Comp
+L 10005011_Power_Management:BNX002-01 FLTR3
+U 1 1 5E983555
+P 14200 1350
+F 0 "FLTR3" H 14175 1845 50  0000 C CNN
+F 1 "BNX002-11" H 14175 1754 50  0000 C CNN
+F 2 "10005011 Power Management:BNX002+SF-AIROX_1" H 14090 1370 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 14090 1370 50  0001 C CNN
+F 4 "10022532" H 14090 1370 50  0001 C CNN "Item Number"
+F 5 "Murata" H 14090 1370 50  0001 C CNN "Manufacturer"
+F 6 "BNX002-11" H 14200 1350 50  0001 C CNN "MPN"
+F 7 "BNX002-11" H 14200 1350 50  0001 C CNN "Manufacturer_No"
+F 8 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 14200 1350 50  0001 C CNN "Description"
+	1    14200 1350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
