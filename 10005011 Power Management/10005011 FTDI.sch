@@ -51,10 +51,10 @@ F 3 "" H 14900 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L2
 U 1 1 5FDD612A
 P 13050 4900
-F 0 "L?" V 13300 4875 50  0000 C CNN
+F 0 "L2" V 13300 4875 50  0000 C CNN
 F 1 "33uH" V 13200 4875 50  0000 C CNN
 F 2 "" H 13050 4900 50  0001 C CNN
 F 3 "https://katalog.we-online.com/pbs/datasheet/74456133.pdf" H 13050 4900 50  0001 C CNN
