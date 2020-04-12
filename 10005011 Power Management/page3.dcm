@@ -6,6 +6,10 @@ K EMI filter common mode choke coil
 F ~
 $ENDCMP
 #
+$CMP LM4120AIM5-3.0
+F http://www.ti.com/lit/ds/symlink/lm4120.pdf
+$ENDCMP
+#
 $CMP NC7SZ66
 D Single SPST Low-Voltage Normally Open Bus Switch, 5Ohm Ron
 K CMOS Bus Switch

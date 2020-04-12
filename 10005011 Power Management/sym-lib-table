@@ -4,4 +4,6 @@
   (lib (name page1)(type Legacy)(uri ${KIPRJMOD}/page1.lib)(options "")(descr ""))
   (lib (name page2)(type Legacy)(uri ${KIPRJMOD}/page2.lib)(options "")(descr ""))
   (lib (name page3)(type Legacy)(uri ${KIPRJMOD}/page3.lib)(options "")(descr ""))
+  (lib (name pages_4-5)(type Legacy)(uri ${KIPRJMOD}/pages4_5.lib)(options "")(descr ""))
+  (lib (name pages4_5)(type Legacy)(uri ${KIPRJMOD}/pages4_5.lib)(options "")(descr ""))
 )
