@@ -597,18 +597,18 @@ Wire Wire Line
 	11500 5000 11600 5000
 Connection ~ 11600 5000
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF_0805 C106
+L Device:C C106
 U 1 1 5E9BAE39
 P 12500 5150
 F 0 "C106" H 12615 5059 50  0000 L CNN
-F 1 "0.1uF_0805" H 12615 5150 50  0000 L CNN
+F 1 "0.1uF" H 12615 5150 50  0000 L CNN
 F 2 "10005011 Power Management:C0805_1" H 12538 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 12500 5150 50  0001 C CNN
 F 4 "Yageo" H 12500 5150 50  0001 C CNN "Mfgr"
 F 5 "CC0805KRX7R9BB104" H 12500 5150 50  0001 C CNN "Mfgr_PN"
 F 6 "Digi-Key" H 12500 5150 50  0001 C CNN "Source"
 F 7 "311-1140-1-ND" H 12500 5150 50  0001 C CNN "Source_PN"
-F 8 "0805" H 12615 5241 50  0000 L CNN "Bom_Footprint"
+F 8 "0805" H 12615 5241 50  0001 L CNN "Bom_Footprint"
 F 9 "CAP CER 0.1UF 50V X7R 0805" H 12500 5150 50  0001 C CNN "Description"
 F 10 "X7R" H 12500 5150 50  0001 C CNN "Dielectric"
 F 11 "50V" H 12500 5150 50  0001 C CNN "Voltage"
@@ -1453,7 +1453,7 @@ SHUNT-DIODE-BAT
 Text GLabel 12200 2600 2    50   Output ~ 0
 ON-OFF
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:66.5k R107
+L Device:R R107
 U 1 1 5F290125
 P 1800 10200
 F 0 "R107" H 1870 10246 50  0000 L CNN
@@ -1604,7 +1604,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 1950 7350 1900
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:BAT54C D2
+L 10005011_Power_Management:BAT54C D2
 U 1 1 5F1F8D7E
 P 7350 1700
 F 0 "D2" V 7209 1888 50  0000 L CNN

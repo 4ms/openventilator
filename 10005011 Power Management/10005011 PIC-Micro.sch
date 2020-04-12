@@ -947,7 +947,7 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/DS2480B.pdf" H 13600 7150 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:100 R11
+L Device:R R11
 U 1 1 60260D1B
 P 12450 7050
 F 0 "R11" V 12243 7050 50  0000 C CNN
@@ -968,7 +968,7 @@ $EndComp
 Wire Wire Line
 	12600 7050 12800 7050
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:470pF C16
+L Device:C C16
 U 1 1 60260D1C
 P 12100 7300
 F 0 "C16" H 11986 7254 50  0000 R CNN
@@ -1007,7 +1007,7 @@ Wire Wire Line
 Wire Wire Line
 	12100 7450 12100 7650
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C82
+L Device:C C82
 U 1 1 60260D1E
 P 13000 6500
 F 0 "C82" H 12886 6546 50  0000 R CNN

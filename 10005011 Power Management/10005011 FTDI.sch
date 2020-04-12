@@ -777,7 +777,7 @@ F 8 "ESD SUPPRESSOR 0603; 5VDC; 5PF" H 2000 3700 50  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:47pF C127
+L Device:C C127
 U 1 1 5F15225B
 P 2200 3700
 F 0 "C127" H 2315 3654 50  0000 L CNN
@@ -796,7 +796,7 @@ F 11 "50V" H 2200 3700 50  0001 C CNN "Voltage"
 	1    0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:47pF C128
+L Device:C C128
 U 1 1 5F15225C
 P 2850 3700
 F 0 "C128" H 2965 3654 50  0000 L CNN
@@ -908,7 +908,7 @@ Wire Wire Line
 Text Label 1350 3850 0    50   ~ 0
 J1SHGND
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C1
+L Device:C C1
 U 1 1 5F152261
 P 3000 2050
 F 0 "C1" H 3114 2004 50  0000 L CNN
@@ -927,7 +927,7 @@ F 11 "16V" H 2885 2186 50  0001 R CNN "Voltage"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C3
+L Device:C C3
 U 1 1 5F152262
 P 3800 2050
 F 0 "C3" H 3685 2004 50  0000 R CNN
@@ -946,7 +946,7 @@ F 11 "16V" H 3685 2186 50  0001 R CNN "Voltage"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C124
+L Device:C C124
 U 1 1 5ECD42AC
 P 3550 3700
 F 0 "C124" H 3665 3746 50  0000 L CNN
@@ -965,7 +965,7 @@ F 11 "16V" H 3665 3564 50  0001 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.1uF C5
+L Device:C C5
 U 1 1 5ECD5E01
 P 4400 2050
 F 0 "C5" H 4515 2096 50  0000 L CNN
@@ -984,7 +984,7 @@ F 11 "16V" H 4515 1914 50  0001 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:0.01uF C2
+L Device:C C2
 U 1 1 5F152265
 P 3300 2050
 F 0 "C2" H 3185 2004 50  0000 R CNN
@@ -1024,8 +1024,8 @@ $Comp
 L Regulator_Switching:TPS5430DDA IC11
 U 1 1 5ED82DF0
 P 12100 5000
-F 0 "IC11" H 11700 5350 50  0000 L CNN
-F 1 "TPS5430DDA" H 12050 5350 50  0000 L CNN
+F 0 "IC11" H 12100 5467 50  0000 C CNN
+F 1 "TPS5430DDA" H 12100 5376 50  0000 C CNN
 F 2 "10005011 Power Management:SO08-PPAD_COMPOSANT_1" H 12150 4650 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps5430.pdf" H 12100 5000 50  0001 C CNN
 	1    12100 5000
@@ -1252,8 +1252,8 @@ $Comp
 L Regulator_Linear:LF33_TO252 IC8
 U 1 1 5F102093
 P 12100 1850
-F 0 "IC8" H 11950 1975 50  0000 C CNN
-F 1 "LF33CDT" H 12100 1975 50  0000 L CNN
+F 0 "IC8" H 12100 2092 50  0000 C CNN
+F 1 "LF33CDT" H 12100 2001 50  0000 C CNN
 F 2 "10005011 Power Management:DPAK_1" H 12100 2075 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" H 12100 1800 50  0001 C CNN
 	1    12100 1850
@@ -1372,11 +1372,11 @@ Connection ~ 12100 2350
 Wire Wire Line
 	12100 2350 12300 2350
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:10k_0.1pcnt R56
+L Device:R R56
 U 1 1 5F179002
 P 13500 1850
 F 0 "R56" V 13293 1850 50  0000 C CNN
-F 1 "10k_0.1pcnt" V 13384 1850 50  0000 C CNN
+F 1 "10k" V 13384 1850 50  0000 C CNN
 F 2 "10005011 Power Management:R0603_1" V 13430 1850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 13500 1850 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 13500 1850 50  0001 C CNN "Mfgr"
@@ -1396,11 +1396,11 @@ Connection ~ 12800 1850
 Wire Wire Line
 	12800 1850 13150 1850
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:10k_0.1pcnt R57
+L Device:R R57
 U 1 1 5F18950E
 P 13850 2100
 F 0 "R57" H 13920 2146 50  0000 L CNN
-F 1 "10k_0.1pcnt" H 13920 2055 50  0000 L CNN
+F 1 "10k" H 13920 2055 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 13780 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 13850 2100 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 13850 2100 50  0001 C CNN "Mfgr"
