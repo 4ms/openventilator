@@ -1856,7 +1856,7 @@ Entry Wire Line
 Entry Wire Line
 	8612 5775 8712 5875
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$11
+L cpu-board:PORT_COU #U$11
 U 1 1 9078B0A5
 P 8700 6475
 AR Path="/9078B0A5" Ref="#U$11"  Part="1" 
@@ -1869,7 +1869,7 @@ F 3 "" H 8700 6475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$12
+L cpu-board:PORT_COU #U$12
 U 1 1 C73DFA14
 P 8700 6575
 AR Path="/C73DFA14" Ref="#U$12"  Part="1" 
@@ -1882,7 +1882,7 @@ F 3 "" H 8700 6575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$13
+L cpu-board:PORT_COU #U$13
 U 1 1 0884C300
 P 8700 7275
 AR Path="/0884C300" Ref="#U$13"  Part="1" 
@@ -1895,7 +1895,7 @@ F 3 "" H 8700 7275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$14
+L cpu-board:PORT_COU #U$14
 U 1 1 309AECDA
 P 8700 7375
 AR Path="/309AECDA" Ref="#U$14"  Part="1" 
@@ -1908,7 +1908,7 @@ F 3 "" H 8700 7375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:0VANA #U$21
+L cpu-board:0VANA #U$21
 U 1 1 CA2824D4
 P 7312 8988
 AR Path="/CA2824D4" Ref="#U$21"  Part="1" 
@@ -1921,7 +1921,7 @@ F 3 "" H 7312 8988 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$22
+L cpu-board:+5V #U$22
 U 1 1 585CEF8C
 P 15012 1850
 AR Path="/585CEF8C" Ref="#U$22"  Part="1" 
@@ -1934,7 +1934,7 @@ F 3 "" H 15012 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$23
+L cpu-board:GND #U$23
 U 1 1 3E99C09D
 P 14412 1850
 AR Path="/3E99C09D" Ref="#U$23"  Part="1" 
@@ -1947,7 +1947,7 @@ F 3 "" H 14412 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C10
+L cpu-board:C0805 C10
 U 1 1 CB1F8FE5
 P 14712 2150
 AR Path="/CB1F8FE5" Ref="C10"  Part="1" 
@@ -1960,7 +1960,7 @@ F 3 "" H 14712 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$24
+L cpu-board:PORT_COU #U$24
 U 1 1 66B40837
 P 14287 4900
 AR Path="/66B40837" Ref="#U$24"  Part="1" 
@@ -1973,7 +1973,7 @@ F 3 "" H 14287 4900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$25
+L cpu-board:PORT_COU #U$25
 U 1 1 9E09DB99
 P 14812 4950
 AR Path="/9E09DB99" Ref="#U$25"  Part="1" 
@@ -1986,7 +1986,7 @@ F 3 "" H 14812 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$26
+L cpu-board:PORT_COU #U$26
 U 1 1 5A93925A
 P 14912 4950
 AR Path="/5A93925A" Ref="#U$26"  Part="1" 
@@ -1999,7 +1999,7 @@ F 3 "" H 14912 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$215
+L cpu-board:PORT #U$215
 U 1 1 E9C7DD0F
 P 3462 1488
 AR Path="/E9C7DD0F" Ref="#U$215"  Part="1" 
@@ -2012,7 +2012,7 @@ F 3 "" H 3462 1488 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C22
+L cpu-board:C0805 C22
 U 1 1 A05C1986
 P 7337 9663
 AR Path="/A05C1986" Ref="C22"  Part="1" 
@@ -2025,7 +2025,7 @@ F 3 "" H 7337 9663 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C23
+L cpu-board:C0805 C23
 U 1 1 93AA069D
 P 7337 9813
 AR Path="/93AA069D" Ref="C23"  Part="1" 
@@ -2038,7 +2038,7 @@ F 3 "" H 7337 9813 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C25
+L cpu-board:C0805 C25
 U 1 1 5F5D481B
 P 7337 9963
 AR Path="/5F5D481B" Ref="C25"  Part="1" 
@@ -2051,7 +2051,7 @@ F 3 "" H 7337 9963 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C26
+L cpu-board:C0805 C26
 U 1 1 0EABB629
 P 7337 10113
 AR Path="/0EABB629" Ref="C26"  Part="1" 
@@ -2064,7 +2064,7 @@ F 3 "" H 7337 10113 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C27
+L cpu-board:C0805 C27
 U 1 1 C9504634
 P 7337 10263
 AR Path="/C9504634" Ref="C27"  Part="1" 
@@ -2077,7 +2077,7 @@ F 3 "" H 7337 10263 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C28
+L cpu-board:C0805 C28
 U 1 1 AB97CB13
 P 7337 10413
 AR Path="/AB97CB13" Ref="C28"  Part="1" 
@@ -2090,7 +2090,7 @@ F 3 "" H 7337 10413 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C29
+L cpu-board:C0805 C29
 U 1 1 BCAFF6B0
 P 7337 10563
 AR Path="/BCAFF6B0" Ref="C29"  Part="1" 
@@ -2103,7 +2103,7 @@ F 3 "" H 7337 10563 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$28
+L cpu-board:GND #U$28
 U 1 1 EC169927
 P 6987 10875
 AR Path="/EC169927" Ref="#U$28"  Part="1" 
@@ -2116,7 +2116,7 @@ F 3 "" H 6987 10875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$86
+L cpu-board:+5V #U$86
 U 1 1 B0198CF4
 P 7637 9525
 AR Path="/B0198CF4" Ref="#U$86"  Part="1" 
@@ -2129,7 +2129,7 @@ F 3 "" H 7637 9525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$48
+L cpu-board:GND #U$48
 U 1 1 15650906
 P 10475 8013
 AR Path="/15650906" Ref="#U$48"  Part="1" 
@@ -2142,7 +2142,7 @@ F 3 "" H 10475 8013 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$49
+L cpu-board:+5V #U$49
 U 1 1 F6E78796
 P 10900 5700
 AR Path="/F6E78796" Ref="#U$49"  Part="1" 
@@ -2155,7 +2155,7 @@ F 3 "" H 10900 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$29
+L cpu-board:PORT_COU #U$29
 U 1 1 AF9576AD
 P 14287 5100
 AR Path="/AF9576AD" Ref="#U$29"  Part="1" 
@@ -2168,7 +2168,7 @@ F 3 "" H 14287 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$98
+L cpu-board:PORT_COU #U$98
 U 1 1 C75DF320
 P 14287 5300
 AR Path="/C75DF320" Ref="#U$98"  Part="1" 
@@ -2181,7 +2181,7 @@ F 3 "" H 14287 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS3
+L cpu-board:RES_4R_BCN RS3
 U 1 1 3DF3A440
 P 10225 6563
 AR Path="/3DF3A440" Ref="RS3"  Part="1" 
@@ -2194,7 +2194,7 @@ F 3 "" H 10225 6563 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS2
+L cpu-board:RES_4R_BCN RS2
 U 1 1 0530E82D
 P 10225 5988
 AR Path="/0530E82D" Ref="RS2"  Part="1" 
@@ -2207,7 +2207,7 @@ F 3 "" H 10225 5988 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS4
+L cpu-board:RES_4R_BCN RS4
 U 1 1 133E079A
 P 10225 7138
 AR Path="/133E079A" Ref="RS4"  Part="1" 
@@ -2220,7 +2220,7 @@ F 3 "" H 10225 7138 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS5
+L cpu-board:RES_4R_BCN RS5
 U 1 1 2A0E722A
 P 10225 7738
 AR Path="/2A0E722A" Ref="RS5"  Part="1" 
@@ -2233,7 +2233,7 @@ F 3 "" H 10225 7738 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$143
+L cpu-board:PORT #U$143
 U 1 1 1FEA7FCE
 P 1637 8475
 AR Path="/1FEA7FCE" Ref="#U$143"  Part="1" 
@@ -2246,7 +2246,7 @@ F 3 "" H 1637 8475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$149
+L cpu-board:PORT #U$149
 U 1 1 4BC9CA0A
 P 1637 8575
 AR Path="/4BC9CA0A" Ref="#U$149"  Part="1" 
@@ -2259,7 +2259,7 @@ F 3 "" H 1637 8575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$150
+L cpu-board:PORT #U$150
 U 1 1 10F58B4C
 P 1637 8976
 AR Path="/10F58B4C" Ref="#U$150"  Part="1" 
@@ -2272,7 +2272,7 @@ F 3 "" H 1637 8976 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$151
+L cpu-board:PORT #U$151
 U 1 1 A29E88ED
 P 1637 9076
 AR Path="/A29E88ED" Ref="#U$151"  Part="1" 
@@ -2285,7 +2285,7 @@ F 3 "" H 1637 9076 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$152
+L cpu-board:PORT #U$152
 U 1 1 4D444140
 P 1637 8876
 AR Path="/4D444140" Ref="#U$152"  Part="1" 
@@ -2298,7 +2298,7 @@ F 3 "" H 1637 8876 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$138
+L cpu-board:PORT #U$138
 U 1 1 AD3427D4
 P 3487 5075
 AR Path="/AD3427D4" Ref="#U$138"  Part="1" 
@@ -2311,7 +2311,7 @@ F 3 "" H 3487 5075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$199
+L cpu-board:PORT #U$199
 U 1 1 63CA5BF7
 P 2781 2275
 AR Path="/63CA5BF7" Ref="#U$199"  Part="1" 
@@ -2324,7 +2324,7 @@ F 3 "" H 2781 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$200
+L cpu-board:PORT #U$200
 U 1 1 A368DD9F
 P 3418 2375
 AR Path="/A368DD9F" Ref="#U$200"  Part="1" 
@@ -2337,7 +2337,7 @@ F 3 "" H 3418 2375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$193
+L cpu-board:PORT #U$193
 U 1 1 9A50089F
 P 1975 5575
 AR Path="/9A50089F" Ref="#U$193"  Part="1" 
@@ -2350,7 +2350,7 @@ F 3 "" H 1975 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$185
+L cpu-board:PORT #U$185
 U 1 1 EE50DF22
 P 1975 5675
 AR Path="/EE50DF22" Ref="#U$185"  Part="1" 
@@ -2363,7 +2363,7 @@ F 3 "" H 1975 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$239
+L cpu-board:PORT_COU #U$239
 U 1 1 244555DD
 P 8700 6775
 AR Path="/244555DD" Ref="#U$239"  Part="1" 
@@ -2376,7 +2376,7 @@ F 3 "" H 8700 6775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$308
+L cpu-board:PORT #U$308
 U 1 1 8EB62DBC
 P 2112 3275
 AR Path="/8EB62DBC" Ref="#U$308"  Part="1" 
@@ -2389,7 +2389,7 @@ F 3 "" H 2112 3275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$310
+L cpu-board:PORT #U$310
 U 1 1 A6AE79D6
 P 1637 8776
 AR Path="/A6AE79D6" Ref="#U$310"  Part="1" 
@@ -2402,7 +2402,7 @@ F 3 "" H 1637 8776 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$286
+L cpu-board:PORT_COU #U$286
 U 1 1 52D28015
 P 8700 6375
 AR Path="/52D28015" Ref="#U$286"  Part="1" 
@@ -2415,7 +2415,7 @@ F 3 "" H 8700 6375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$118
+L cpu-board:PORT #U$118
 U 1 1 9BA97885
 P 2112 2975
 AR Path="/9BA97885" Ref="#U$118"  Part="1" 
@@ -2428,7 +2428,7 @@ F 3 "" H 2112 2975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$318
+L cpu-board:PORT #U$318
 U 1 1 0CFDE4B2
 P 2112 3075
 AR Path="/0CFDE4B2" Ref="#U$318"  Part="1" 
@@ -2441,7 +2441,7 @@ F 3 "" H 2112 3075 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$212
+L cpu-board:PORT #U$212
 U 1 1 60B3F93C
 P 1687 4175
 AR Path="/60B3F93C" Ref="#U$212"  Part="1" 
@@ -2454,7 +2454,7 @@ F 3 "" H 1687 4175 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$332
+L cpu-board:PORT #U$332
 U 1 1 C2C33EE5
 P 1687 4275
 AR Path="/C2C33EE5" Ref="#U$332"  Part="1" 
@@ -2467,7 +2467,7 @@ F 3 "" H 1687 4275 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$115
+L cpu-board:PORT #U$115
 U 1 1 A93D4366
 P 1975 5775
 AR Path="/A93D4366" Ref="#U$115"  Part="1" 
@@ -2480,7 +2480,7 @@ F 3 "" H 1975 5775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$340
+L cpu-board:PORT #U$340
 U 1 1 41666E8B
 P 1975 5875
 AR Path="/41666E8B" Ref="#U$340"  Part="1" 
@@ -2493,7 +2493,7 @@ F 3 "" H 1975 5875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$347
+L cpu-board:PORT #U$347
 U 1 1 D848E95D
 P 1624 10550
 AR Path="/D848E95D" Ref="#U$347"  Part="1" 
@@ -2506,7 +2506,7 @@ F 3 "" H 1624 10550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$60
+L cpu-board:PORT #U$60
 U 1 1 08788F87
 P 1637 8676
 AR Path="/08788F87" Ref="#U$60"  Part="1" 
@@ -2519,7 +2519,7 @@ F 3 "" H 1637 8676 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:K6R4016C1DTCT000(256KX16) IC3
+L cpu-board:K6R4016C1DTCT000(256KX16) IC3
 U 1 1 A6F2AB71
 P 14812 3550
 AR Path="/A6F2AB71" Ref="IC3"  Part="1" 
@@ -2532,7 +2532,7 @@ F 3 "" H 14812 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$367
+L cpu-board:PORT #U$367
 U 1 1 24F4C164
 P 3462 1350
 AR Path="/24F4C164" Ref="#U$367"  Part="1" 
@@ -2545,7 +2545,7 @@ F 3 "" H 3462 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$141
+L cpu-board:PORT #U$141
 U 1 1 EB6AAE22
 P 4012 7075
 AR Path="/EB6AAE22" Ref="#U$141"  Part="1" 
@@ -2558,7 +2558,7 @@ F 3 "" H 4012 7075 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$210
+L cpu-board:PORT #U$210
 U 1 1 72438AA0
 P 1637 9176
 AR Path="/72438AA0" Ref="#U$210"  Part="1" 
@@ -2571,7 +2571,7 @@ F 3 "" H 1637 9176 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$233
+L cpu-board:PORT #U$233
 U 1 1 4AF67F87
 P 3375 6075
 AR Path="/4AF67F87" Ref="#U$233"  Part="1" 
@@ -2584,7 +2584,7 @@ F 3 "" H 3375 6075 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:CART_A3 #U$1
+L cpu-board:CART_A3 #U$1
 U 1 1 89E33A62
 P 900 11100
 AR Path="/89E33A62" Ref="#U$1"  Part="1" 
@@ -2597,7 +2597,7 @@ F 3 "" H 900 11100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$385
+L cpu-board:PORT_LONG #U$385
 U 1 1 D1F0B4FC
 P 2131 3375
 AR Path="/D1F0B4FC" Ref="#U$385"  Part="1" 
@@ -2610,7 +2610,7 @@ F 3 "" H 2131 3375 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$399
+L cpu-board:PORT #U$399
 U 1 1 C64CA3DA
 P 1637 9376
 AR Path="/C64CA3DA" Ref="#U$399"  Part="1" 
@@ -2623,7 +2623,7 @@ F 3 "" H 1637 9376 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$140
+L cpu-board:PORT #U$140
 U 1 1 FC3947E8
 P 3375 6175
 AR Path="/FC3947E8" Ref="#U$140"  Part="1" 
@@ -2636,7 +2636,7 @@ F 3 "" H 3375 6175 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$353
+L cpu-board:PORT #U$353
 U 1 1 22FDB5DB
 P 1637 9576
 AR Path="/22FDB5DB" Ref="#U$353"  Part="1" 
@@ -2649,7 +2649,7 @@ F 3 "" H 1637 9576 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C120
+L cpu-board:C0805 C120
 U 1 1 284AD347
 P 7337 10725
 AR Path="/284AD347" Ref="C120"  Part="1" 
@@ -2662,7 +2662,7 @@ F 3 "" H 7337 10725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$211
+L cpu-board:PORT_COU #U$211
 U 1 1 FC35CFB8
 P 8700 6676
 AR Path="/FC35CFB8" Ref="#U$211"  Part="1" 
@@ -2675,7 +2675,7 @@ F 3 "" H 8700 6676 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$214
+L cpu-board:PORT #U$214
 U 1 1 FB376E8F
 P 4012 6975
 AR Path="/FB376E8F" Ref="#U$214"  Part="1" 
@@ -2688,7 +2688,7 @@ F 3 "" H 4012 6975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$329
+L cpu-board:PORT #U$329
 U 1 1 61CAB6B1
 P 3443 4075
 AR Path="/61CAB6B1" Ref="#U$329"  Part="1" 
@@ -2701,7 +2701,7 @@ F 3 "" H 3443 4075 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$330
+L cpu-board:PORT #U$330
 U 1 1 FF93813B
 P 3443 3975
 AR Path="/FF93813B" Ref="#U$330"  Part="1" 
@@ -2714,7 +2714,7 @@ F 3 "" H 3443 3975 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$331
+L cpu-board:PORT #U$331
 U 1 1 EA7DE6F8
 P 3443 3875
 AR Path="/EA7DE6F8" Ref="#U$331"  Part="1" 
@@ -2727,7 +2727,7 @@ F 3 "" H 3443 3875 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$107
+L cpu-board:PORT_LONG #U$107
 U 1 1 CF644AC8
 P 3100 4875
 AR Path="/CF644AC8" Ref="#U$107"  Part="1" 
@@ -2740,7 +2740,7 @@ F 3 "" H 3100 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$108
+L cpu-board:PORT_LONG #U$108
 U 1 1 DE28D808
 P 4212 4975
 AR Path="/DE28D808" Ref="#U$108"  Part="1" 
@@ -2753,7 +2753,7 @@ F 3 "" H 4212 4975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$451
+L cpu-board:PORT_LONG #U$451
 U 1 1 B67D4724
 P 9425 6975
 AR Path="/B67D4724" Ref="#U$451"  Part="1" 
@@ -2766,7 +2766,7 @@ F 3 "" H 9425 6975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$452
+L cpu-board:PORT_LONG #U$452
 U 1 1 7E3AF723
 P 8312 7075
 AR Path="/7E3AF723" Ref="#U$452"  Part="1" 
@@ -2779,7 +2779,7 @@ F 3 "" H 8312 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$453
+L cpu-board:PORT_LONG #U$453
 U 1 1 6FEC6A61
 P 9425 6875
 AR Path="/6FEC6A61" Ref="#U$453"  Part="1" 
@@ -2792,7 +2792,7 @@ F 3 "" H 9425 6875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$119
+L cpu-board:PORT_LONG #U$119
 U 1 1 26524BBC
 P 4212 4675
 AR Path="/26524BBC" Ref="#U$119"  Part="1" 
@@ -2805,7 +2805,7 @@ F 3 "" H 4212 4675 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$121
+L cpu-board:PORT_LONG #U$121
 U 1 1 DDF96E8F
 P 3100 4775
 AR Path="/DDF96E8F" Ref="#U$121"  Part="1" 
@@ -2818,7 +2818,7 @@ F 3 "" H 3100 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$122
+L cpu-board:PORT_LONG #U$122
 U 1 1 4228B21A
 P 3100 5175
 AR Path="/4228B21A" Ref="#U$122"  Part="1" 
@@ -2831,7 +2831,7 @@ F 3 "" H 3100 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$420
+L cpu-board:PORT_LONG #U$420
 U 1 1 2499902D
 P 4175 6475
 AR Path="/2499902D" Ref="#U$420"  Part="1" 
@@ -2844,7 +2844,7 @@ F 3 "" H 4175 6475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$83
+L cpu-board:PORT_COU #U$83
 U 1 1 767C1805
 P 8700 6175
 AR Path="/767C1805" Ref="#U$83"  Part="1" 
@@ -2857,7 +2857,7 @@ F 3 "" H 8700 6175 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$55
+L cpu-board:+5V #U$55
 U 1 1 3711C17C
 P 9050 7263
 AR Path="/3711C17C" Ref="#U$55"  Part="1" 
@@ -2870,7 +2870,7 @@ F 3 "" H 9050 7263 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$457
+L cpu-board:PORT #U$457
 U 1 1 056DAFF5
 P 1637 9475
 AR Path="/056DAFF5" Ref="#U$457"  Part="1" 
@@ -2883,7 +2883,7 @@ F 3 "" H 1637 9475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$313
+L cpu-board:PORT #U$313
 U 1 1 30ACAD6F
 P 1637 9275
 AR Path="/30ACAD6F" Ref="#U$313"  Part="1" 
@@ -2896,7 +2896,7 @@ F 3 "" H 1637 9275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:ST10F269-273-276 IC4
+L cpu-board:ST10F269-273-276 IC4
 U 1 1 BB7ED445
 P 6312 4675
 AR Path="/BB7ED445" Ref="IC4"  Part="1" 
@@ -2909,7 +2909,7 @@ F 3 "" H 6312 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PAST01 PST1
+L cpu-board:PAST01 PST1
 U 1 1 368C0019
 P 5162 1513
 AR Path="/368C0019" Ref="PST1"  Part="1" 
@@ -2922,7 +2922,7 @@ F 3 "" H 5162 1513 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:SM49 Q1
+L cpu-board:SM49 Q1
 U 1 1 F8782F37
 P 5675 1175
 AR Path="/F8782F37" Ref="Q1"  Part="1" 
@@ -2935,7 +2935,7 @@ F 3 "" H 5675 1175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R1
+L cpu-board:R0805 R1
 U 1 1 E6C7F8B8
 P 5562 1388
 AR Path="/E6C7F8B8" Ref="R1"  Part="1" 
@@ -2948,7 +2948,7 @@ F 3 "" H 5562 1388 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$110
+L cpu-board:GND #U$110
 U 1 1 B3D80E13
 P 5962 1450
 AR Path="/B3D80E13" Ref="#U$110"  Part="1" 
@@ -2961,7 +2961,7 @@ F 3 "" H 5962 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C6
+L cpu-board:C0805 C6
 U 1 1 967579EA
 P 6562 1325
 AR Path="/967579EA" Ref="C6"  Part="1" 
@@ -2974,7 +2974,7 @@ F 3 "" H 6562 1325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$352
+L cpu-board:GND #U$352
 U 1 1 30D71842
 P 6562 813
 AR Path="/30D71842" Ref="#U$352"  Part="1" 
@@ -2987,7 +2987,7 @@ F 3 "" H 6562 813 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R3
+L cpu-board:R0805 R3
 U 1 1 E7C109B0
 P 7162 1200
 AR Path="/E7C109B0" Ref="R3"  Part="1" 
@@ -3000,7 +3000,7 @@ F 3 "" H 7162 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$46
+L cpu-board:GND #U$46
 U 1 1 53BDAA82
 P 7437 1350
 AR Path="/53BDAA82" Ref="#U$46"  Part="1" 
@@ -3013,7 +3013,7 @@ F 3 "" H 7437 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:TANTALB C8
+L cpu-board:TANTALB C8
 U 1 1 6D37B6AD
 P 7437 1100
 AR Path="/6D37B6AD" Ref="C8"  Part="1" 
@@ -3026,7 +3026,7 @@ F 3 "" H 7437 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:TANTALB C7
+L cpu-board:TANTALB C7
 U 1 1 6F4029DE
 P 8262 1288
 AR Path="/6F4029DE" Ref="C7"  Part="1" 
@@ -3039,7 +3039,7 @@ F 3 "" H 8262 1288 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C9
+L cpu-board:C0805 C9
 U 1 1 501DA122
 P 8475 1288
 AR Path="/501DA122" Ref="C9"  Part="1" 
@@ -3052,7 +3052,7 @@ F 3 "" H 8475 1288 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5VREF #U$6
+L cpu-board:+5VREF #U$6
 U 1 1 CE08125E
 P 8837 950
 AR Path="/CE08125E" Ref="#U$6"  Part="1" 
@@ -3065,7 +3065,7 @@ F 3 "" H 8837 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:0VANA #U$19
+L cpu-board:0VANA #U$19
 U 1 1 1DEA58DA
 P 8362 1538
 AR Path="/1DEA58DA" Ref="#U$19"  Part="1" 
@@ -3078,7 +3078,7 @@ F 3 "" H 8362 1538 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PAST01 PST3
+L cpu-board:PAST01 PST3
 U 1 1 AD296153
 P 8312 5875
 AR Path="/AD296153" Ref="PST3"  Part="1" 
@@ -3091,7 +3091,7 @@ F 3 "" H 8312 5875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PAST01 PST4
+L cpu-board:PAST01 PST4
 U 1 1 AD815FBB
 P 8312 5975
 AR Path="/AD815FBB" Ref="PST4"  Part="1" 
@@ -3104,7 +3104,7 @@ F 3 "" H 8312 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PAST01 PST6
+L cpu-board:PAST01 PST6
 U 1 1 66851D94
 P 8312 6075
 AR Path="/66851D94" Ref="PST6"  Part="1" 
@@ -3117,7 +3117,7 @@ F 3 "" H 8312 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0603 C1
+L cpu-board:C0603 C1
 U 1 1 7EE2FFE3
 P 5787 1050
 AR Path="/7EE2FFE3" Ref="C1"  Part="1" 
@@ -3130,7 +3130,7 @@ F 3 "" H 5787 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0603 C3
+L cpu-board:C0603 C3
 U 1 1 5ADCC44B
 P 5562 1050
 AR Path="/5ADCC44B" Ref="C3"  Part="1" 
@@ -3143,7 +3143,7 @@ F 3 "" H 5562 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$18
+L cpu-board:GND #U$18
 U 1 1 5210CFB4
 P 5675 813
 AR Path="/5210CFB4" Ref="#U$18"  Part="1" 
@@ -3156,7 +3156,7 @@ F 3 "" H 5675 813 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$113
+L cpu-board:PORT #U$113
 U 1 1 9129B541
 P 1687 4476
 AR Path="/9129B541" Ref="#U$113"  Part="1" 
@@ -3169,7 +3169,7 @@ F 3 "" H 1687 4476 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:0VANA #U$321
+L cpu-board:0VANA #U$321
 U 1 1 DBF96AF7
 P 1825 9950
 AR Path="/DBF96AF7" Ref="#U$321"  Part="1" 
@@ -3182,7 +3182,7 @@ F 3 "" H 1825 9950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R14
+L cpu-board:R0805 R14
 U 1 1 C54AB7D0
 P 2200 9575
 AR Path="/C54AB7D0" Ref="R14"  Part="1" 
@@ -3195,7 +3195,7 @@ F 3 "" H 2200 9575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R15
+L cpu-board:R0805 R15
 U 1 1 BAB36D42
 P 2200 9850
 AR Path="/BAB36D42" Ref="R15"  Part="1" 
@@ -3208,7 +3208,7 @@ F 3 "" H 2200 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C36
+L cpu-board:C0805 C36
 U 1 1 597E8BEF
 P 2200 10025
 AR Path="/597E8BEF" Ref="C36"  Part="1" 
@@ -3221,7 +3221,7 @@ F 3 "" H 2200 10025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:NUR30 D1
+L cpu-board:NUR30 D1
 U 1 1 C78C3FBD
 P 1787 8250
 AR Path="/C78C3FBD" Ref="D1"  Part="1" 
@@ -3234,7 +3234,7 @@ F 3 "" H 1787 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:NUR30 D2
+L cpu-board:NUR30 D2
 U 1 1 0CADE672
 P 2462 8250
 AR Path="/0CADE672" Ref="D2"  Part="1" 
@@ -3247,7 +3247,7 @@ F 3 "" H 2462 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:NUR30 D3
+L cpu-board:NUR30 D3
 U 1 1 93886C31
 P 3137 8250
 AR Path="/93886C31" Ref="D3"  Part="1" 
@@ -3260,7 +3260,7 @@ F 3 "" H 3137 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:NUR30 D5
+L cpu-board:NUR30 D5
 U 1 1 A8F36FED
 P 3812 8250
 AR Path="/A8F36FED" Ref="D5"  Part="1" 
@@ -3273,7 +3273,7 @@ F 3 "" H 3812 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$5
+L cpu-board:+5V #U$5
 U 1 1 BCE09641
 P 2012 7625
 AR Path="/BCE09641" Ref="#U$5"  Part="1" 
@@ -3286,7 +3286,7 @@ F 3 "" H 2012 7625 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS1
+L cpu-board:RES_4R_BCN RS1
 U 1 1 1544B106
 P 3025 3950
 AR Path="/1544B106" Ref="RS1"  Part="1" 
@@ -3299,7 +3299,7 @@ F 3 "" H 3025 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$109
+L cpu-board:+5V #U$109
 U 1 1 FF51A810
 P 2875 3613
 AR Path="/FF51A810" Ref="#U$109"  Part="1" 
@@ -3312,7 +3312,7 @@ F 3 "" H 2875 3613 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$111
+L cpu-board:GND #U$111
 U 1 1 03A5157B
 P 1312 3813
 AR Path="/03A5157B" Ref="#U$111"  Part="1" 
@@ -3325,7 +3325,7 @@ F 3 "" H 1312 3813 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$238
+L cpu-board:+5V #U$238
 U 1 1 4D1E3263
 P 6162 1150
 AR Path="/4D1E3263" Ref="#U$238"  Part="1" 
@@ -3338,7 +3338,7 @@ F 3 "" H 6162 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R10
+L cpu-board:R0805 R10
 U 1 1 D628991E
 P 3112 5975
 AR Path="/D628991E" Ref="R10"  Part="1" 
@@ -3351,7 +3351,7 @@ F 3 "" H 3112 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$400
+L cpu-board:PORT #U$400
 U 1 1 083DD81A
 P 2768 2575
 AR Path="/083DD81A" Ref="#U$400"  Part="1" 
@@ -3364,7 +3364,7 @@ F 3 "" H 2768 2575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$401
+L cpu-board:PORT_LONG #U$401
 U 1 1 F2499B84
 P 3887 2675
 AR Path="/F2499B84" Ref="#U$401"  Part="1" 
@@ -3377,7 +3377,7 @@ F 3 "" H 3887 2675 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$402
+L cpu-board:PORT_LONG #U$402
 U 1 1 DEDD5FE1
 P 3887 2775
 AR Path="/DEDD5FE1" Ref="#U$402"  Part="1" 
@@ -3390,7 +3390,7 @@ F 3 "" H 3887 2775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$403
+L cpu-board:PORT_LONG #U$403
 U 1 1 87B2D6CF
 P 3887 2875
 AR Path="/87B2D6CF" Ref="#U$403"  Part="1" 
@@ -3403,7 +3403,7 @@ F 3 "" H 3887 2875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4CB C14
+L cpu-board:RES_4CB C14
 U 1 1 8BD8962D
 P 2175 3950
 AR Path="/8BD8962D" Ref="C14"  Part="1" 
@@ -3416,7 +3416,7 @@ F 3 "" H 2175 3950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$243
+L cpu-board:PORT_LONG #U$243
 U 1 1 7F4E69E9
 P 2100 10450
 AR Path="/7F4E69E9" Ref="#U$243"  Part="1" 
@@ -3429,7 +3429,7 @@ F 3 "" H 2100 10450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$128
+L cpu-board:PORT_LONG #U$128
 U 1 1 F0495D5A
 P 2775 2475
 AR Path="/F0495D5A" Ref="#U$128"  Part="1" 
@@ -3442,7 +3442,7 @@ F 3 "" H 2775 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$365
+L cpu-board:PORT #U$365
 U 1 1 FC9D3962
 P 1625 10250
 AR Path="/FC9D3962" Ref="#U$365"  Part="1" 
@@ -3455,7 +3455,7 @@ F 3 "" H 1625 10250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$273
+L cpu-board:PORT_LONG #U$273
 U 1 1 EEA474BE
 P 2100 10350
 AR Path="/EEA474BE" Ref="#U$273"  Part="1" 
@@ -3468,7 +3468,7 @@ F 3 "" H 2100 10350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$333
+L cpu-board:PORT #U$333
 U 1 1 2FC78BE3
 P 3375 6275
 AR Path="/2FC78BE3" Ref="#U$333"  Part="1" 
@@ -3481,7 +3481,7 @@ F 3 "" H 3375 6275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$144
+L cpu-board:PORT #U$144
 U 1 1 ECCE2D46
 P 3437 3575
 AR Path="/ECCE2D46" Ref="#U$144"  Part="1" 
@@ -3494,7 +3494,7 @@ F 3 "" H 3437 3575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$161
+L cpu-board:PORT #U$161
 U 1 1 7F3B0ADD
 P 3437 3475
 AR Path="/7F3B0ADD" Ref="#U$161"  Part="1" 
@@ -3507,7 +3507,7 @@ F 3 "" H 3437 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$195
+L cpu-board:PORT #U$195
 U 1 1 4A99E9E4
 P 3437 3675
 AR Path="/4A99E9E4" Ref="#U$195"  Part="1" 
@@ -3520,7 +3520,7 @@ F 3 "" H 3437 3675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_COU #U$415
+L cpu-board:PORT_COU #U$415
 U 1 1 E21EB879
 P 3825 4575
 AR Path="/E21EB879" Ref="#U$415"  Part="1" 
@@ -3533,7 +3533,7 @@ F 3 "" H 3825 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS7
+L cpu-board:RES_4R_BCN RS7
 U 1 1 3858CF0B
 P 2475 2650
 AR Path="/3858CF0B" Ref="RS7"  Part="1" 
@@ -3546,7 +3546,7 @@ F 3 "" H 2475 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$209
+L cpu-board:+5V #U$209
 U 1 1 8E84819C
 P 2325 2125
 AR Path="/8E84819C" Ref="#U$209"  Part="1" 
@@ -3559,7 +3559,7 @@ F 3 "" H 2325 2125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:RES_4R_BCN RS6
+L cpu-board:RES_4R_BCN RS6
 U 1 1 D0D8FBF3
 P 1462 6175
 AR Path="/D0D8FBF3" Ref="RS6"  Part="1" 
@@ -3572,7 +3572,7 @@ F 3 "" H 1462 6175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$431
+L cpu-board:+5V #U$431
 U 1 1 3AC17802
 P 1462 5675
 AR Path="/3AC17802" Ref="#U$431"  Part="1" 
@@ -3585,7 +3585,7 @@ F 3 "" H 1462 5675 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:JUMP_0U JP8
+L cpu-board:JUMP_0U JP8
 U 1 1 357D3C8D
 P 1712 7025
 AR Path="/357D3C8D" Ref="JP8"  Part="1" 
@@ -3598,7 +3598,7 @@ F 3 "" H 1712 7025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:JUMP_0U JP7
+L cpu-board:JUMP_0U JP7
 U 1 1 ADC4B3B7
 P 1512 7025
 AR Path="/ADC4B3B7" Ref="JP7"  Part="1" 
@@ -3611,7 +3611,7 @@ F 3 "" H 1512 7025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$423
+L cpu-board:GND #U$423
 U 1 1 B2DD8134
 P 1612 7375
 AR Path="/B2DD8134" Ref="#U$423"  Part="1" 
@@ -3624,7 +3624,7 @@ F 3 "" H 1612 7375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:CD74HCT245M IC40
+L cpu-board:CD74HCT245M IC40
 U 1 1 15424B03
 P 11175 2863
 AR Path="/15424B03" Ref="IC40"  Part="1" 
@@ -3637,7 +3637,7 @@ F 3 "" H 11175 2863 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$440
+L cpu-board:PORT_LONG #U$440
 U 1 1 D0F716D6
 P 12197 1213
 AR Path="/D0F716D6" Ref="#U$440"  Part="1" 
@@ -3650,7 +3650,7 @@ F 3 "" H 12197 1213 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C110
+L cpu-board:C0805 C110
 U 1 1 662809D9
 P 11187 1213
 AR Path="/662809D9" Ref="C110"  Part="1" 
@@ -3663,7 +3663,7 @@ F 3 "" H 11187 1213 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$441
+L cpu-board:GND #U$441
 U 1 1 5DD0B675
 P 10825 1213
 AR Path="/5DD0B675" Ref="#U$441"  Part="1" 
@@ -3676,7 +3676,7 @@ F 3 "" H 10825 1213 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$442
+L cpu-board:GND #U$442
 U 1 1 34D6357D
 P 10975 3500
 AR Path="/34D6357D" Ref="#U$442"  Part="1" 
@@ -3689,7 +3689,7 @@ F 3 "" H 10975 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:BZX84CXX D8
+L cpu-board:BZX84CXX D8
 U 1 1 8A392F19
 P 12400 4325
 AR Path="/8A392F19" Ref="D8"  Part="1" 
@@ -3702,7 +3702,7 @@ F 3 "" H 12400 4325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R72
+L cpu-board:R0805 R72
 U 1 1 CEF2471C
 P 12662 4050
 AR Path="/CEF2471C" Ref="R72"  Part="1" 
@@ -3715,7 +3715,7 @@ F 3 "" H 12662 4050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:74HCT1G04GW IC41
+L cpu-board:74HCT1G04GW IC41
 U 1 1 3D34EBB1
 P 12175 4350
 AR Path="/3D34EBB1" Ref="IC41"  Part="1" 
@@ -3728,7 +3728,7 @@ F 3 "" H 12175 4350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$444
+L cpu-board:GND #U$444
 U 1 1 0EB7FF6B
 P 12400 4575
 AR Path="/0EB7FF6B" Ref="#U$444"  Part="1" 
@@ -3741,7 +3741,7 @@ F 3 "" H 12400 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$445
+L cpu-board:GND #U$445
 U 1 1 2FA4E625
 P 11975 3463
 AR Path="/2FA4E625" Ref="#U$445"  Part="1" 
@@ -3754,7 +3754,7 @@ F 3 "" H 11975 3463 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$446
+L cpu-board:PORT_LONG #U$446
 U 1 1 82B0E80B
 P 11847 3263
 AR Path="/82B0E80B" Ref="#U$446"  Part="1" 
@@ -3767,7 +3767,7 @@ F 3 "" H 11847 3263 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$448
+L cpu-board:PORT_LONG #U$448
 U 1 1 9382E705
 P 9225 2163
 AR Path="/9382E705" Ref="#U$448"  Part="1" 
@@ -3780,7 +3780,7 @@ F 3 "" H 9225 2163 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$454
+L cpu-board:PORT_LONG #U$454
 U 1 1 B317199C
 P 12000 2363
 AR Path="/B317199C" Ref="#U$454"  Part="1" 
@@ -3793,7 +3793,7 @@ F 3 "" H 12000 2363 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$455
+L cpu-board:PORT_LONG #U$455
 U 1 1 89A472E1
 P 9225 2363
 AR Path="/89A472E1" Ref="#U$455"  Part="1" 
@@ -3806,7 +3806,7 @@ F 3 "" H 9225 2363 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$459
+L cpu-board:PORT_LONG #U$459
 U 1 1 B91BB87E
 P 12000 2163
 AR Path="/B91BB87E" Ref="#U$459"  Part="1" 
@@ -3819,7 +3819,7 @@ F 3 "" H 12000 2163 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:2N7002 T6
+L cpu-board:2N7002 T6
 U 1 1 78F4DB2D
 P 11862 6650
 AR Path="/78F4DB2D" Ref="T6"  Part="1" 
@@ -3832,7 +3832,7 @@ F 3 "" H 11862 6650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R60
+L cpu-board:R0805 R60
 U 1 1 CCBE402C
 P 12075 7250
 AR Path="/CCBE402C" Ref="R60"  Part="1" 
@@ -3845,7 +3845,7 @@ F 3 "" H 12075 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$503
+L cpu-board:GND #U$503
 U 1 1 79870E22
 P 12075 7850
 AR Path="/79870E22" Ref="#U$503"  Part="1" 
@@ -3858,7 +3858,7 @@ F 3 "" H 12075 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$88
+L cpu-board:PORT_LONG #U$88
 U 1 1 73BC5AF3
 P 12001 2463
 AR Path="/73BC5AF3" Ref="#U$88"  Part="1" 
@@ -3871,7 +3871,7 @@ F 3 "" H 12001 2463 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$476
+L cpu-board:PORT_LONG #U$476
 U 1 1 57E20996
 P 2131 3175
 AR Path="/57E20996" Ref="#U$476"  Part="1" 
@@ -3884,7 +3884,7 @@ F 3 "" H 2131 3175 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$168
+L cpu-board:PORT_LONG #U$168
 U 1 1 3D01A2E2
 P 9225 2463
 AR Path="/3D01A2E2" Ref="#U$168"  Part="1" 
@@ -3897,7 +3897,7 @@ F 3 "" H 9225 2463 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$477
+L cpu-board:PORT_LONG #U$477
 U 1 1 F3FCA41D
 P 12003 2563
 AR Path="/F3FCA41D" Ref="#U$477"  Part="1" 
@@ -3910,7 +3910,7 @@ F 3 "" H 12003 2563 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$478
+L cpu-board:PORT_LONG #U$478
 U 1 1 90BFD510
 P 9225 2563
 AR Path="/90BFD510" Ref="#U$478"  Part="1" 
@@ -3923,7 +3923,7 @@ F 3 "" H 9225 2563 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+24V #U$443
+L cpu-board:+24V #U$443
 U 1 1 F573D045
 P 12862 3700
 AR Path="/F573D045" Ref="#U$443"  Part="1" 
@@ -3936,7 +3936,7 @@ F 3 "" H 12862 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$447
+L cpu-board:PORT_LONG #U$447
 U 1 1 D60C53BB
 P 9225 2063
 AR Path="/D60C53BB" Ref="#U$447"  Part="1" 
@@ -3949,7 +3949,7 @@ F 3 "" H 9225 2063 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$479
+L cpu-board:PORT_LONG #U$479
 U 1 1 4E9D6C5A
 P 11997 2063
 AR Path="/4E9D6C5A" Ref="#U$479"  Part="1" 
@@ -3962,7 +3962,7 @@ F 3 "" H 11997 2063 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:74HCT1G32GW IC42
+L cpu-board:74HCT1G32GW IC42
 U 1 1 28A53036
 P 13525 7638
 AR Path="/28A53036" Ref="IC42"  Part="1" 
@@ -3975,7 +3975,7 @@ F 3 "" H 13525 7638 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:74HCT1G32GW IC43
+L cpu-board:74HCT1G32GW IC43
 U 1 1 6E981591
 P 15137 7613
 AR Path="/6E981591" Ref="IC43"  Part="1" 
@@ -3988,7 +3988,7 @@ F 3 "" H 15137 7613 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0603 C112
+L cpu-board:C0603 C112
 U 1 1 C17297D4
 P 14212 7313
 AR Path="/C17297D4" Ref="C112"  Part="1" 
@@ -4001,7 +4001,7 @@ F 3 "" H 14212 7313 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0603 C114
+L cpu-board:C0603 C114
 U 1 1 9A495DAC
 P 12225 7250
 AR Path="/9A495DAC" Ref="C114"  Part="1" 
@@ -4014,7 +4014,7 @@ F 3 "" H 12225 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R46
+L cpu-board:R0805 R46
 U 1 1 CBBF32AF
 P 12475 6700
 AR Path="/CBBF32AF" Ref="R46"  Part="1" 
@@ -4027,7 +4027,7 @@ F 3 "" H 12475 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$480
+L cpu-board:GND #U$480
 U 1 1 85C4BE71
 P 13812 8025
 AR Path="/85C4BE71" Ref="#U$480"  Part="1" 
@@ -4040,7 +4040,7 @@ F 3 "" H 13812 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R61
+L cpu-board:R0805 R61
 U 1 1 CC254D70
 P 13812 7700
 AR Path="/CC254D70" Ref="R61"  Part="1" 
@@ -4053,7 +4053,7 @@ F 3 "" H 13812 7700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$481
+L cpu-board:GND #U$481
 U 1 1 3DB762BB
 P 13325 6750
 AR Path="/3DB762BB" Ref="#U$481"  Part="1" 
@@ -4066,7 +4066,7 @@ F 3 "" H 13325 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$482
+L cpu-board:GND #U$482
 U 1 1 F33B4A72
 P 14937 6725
 AR Path="/F33B4A72" Ref="#U$482"  Part="1" 
@@ -4079,7 +4079,7 @@ F 3 "" H 14937 6725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$483
+L cpu-board:PORT_LONG #U$483
 U 1 1 D98D1EF6
 P 12890 5975
 AR Path="/D98D1EF6" Ref="#U$483"  Part="1" 
@@ -4092,7 +4092,7 @@ F 3 "" H 12890 5975 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:BAT54 D9
+L cpu-board:BAT54 D9
 U 1 1 59396773
 P 13975 7775
 AR Path="/59396773" Ref="D9"  Part="1" 
@@ -4105,7 +4105,7 @@ F 3 "" H 13975 7775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:BAT54 D10
+L cpu-board:BAT54 D10
 U 1 1 13A4EF58
 P 12475 6363
 AR Path="/13A4EF58" Ref="D10"  Part="1" 
@@ -4118,7 +4118,7 @@ F 3 "" H 12475 6363 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$20
+L cpu-board:GND #U$20
 U 1 1 A9A82E2E
 P 6212 9088
 AR Path="/A9A82E2E" Ref="#U$20"  Part="1" 
@@ -4131,7 +4131,7 @@ F 3 "" H 6212 9088 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PINHD-1X1 PT2
+L cpu-board:PINHD-1X1 PT2
 U 1 1 D711CC1B
 P 6512 9038
 AR Path="/D711CC1B" Ref="PT2"  Part="1" 
@@ -4144,7 +4144,7 @@ F 3 "" H 6512 9038 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$257
+L cpu-board:PORT #U$257
 U 1 1 927EDD73
 P 3100 5375
 AR Path="/927EDD73" Ref="#U$257"  Part="1" 
@@ -4157,7 +4157,7 @@ F 3 "" H 3100 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:0VANA #U$250
+L cpu-board:0VANA #U$250
 U 1 1 F8BE309A
 P 5100 10750
 AR Path="/F8BE309A" Ref="#U$250"  Part="1" 
@@ -4170,7 +4170,7 @@ F 3 "" H 5100 10750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R62
+L cpu-board:R0805 R62
 U 1 1 F7CB6097
 P 4800 10950
 AR Path="/F7CB6097" Ref="R62"  Part="1" 
@@ -4183,7 +4183,7 @@ F 3 "" H 4800 10950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C51
+L cpu-board:C0805 C51
 U 1 1 7614D321
 P 4800 10550
 AR Path="/7614D321" Ref="C51"  Part="1" 
@@ -4196,7 +4196,7 @@ F 3 "" H 4800 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$95
+L cpu-board:PORT_LONG #U$95
 U 1 1 09355DFB
 P 12003 2663
 AR Path="/09355DFB" Ref="#U$95"  Part="1" 
@@ -4209,7 +4209,7 @@ F 3 "" H 12003 2663 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$314
+L cpu-board:PORT #U$314
 U 1 1 33A845E8
 P 15462 7463
 AR Path="/33A845E8" Ref="#U$314"  Part="1" 
@@ -4222,7 +4222,7 @@ F 3 "" H 15462 7463 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$464
+L cpu-board:PORT #U$464
 U 1 1 308EF735
 P 1050 4376
 AR Path="/308EF735" Ref="#U$464"  Part="1" 
@@ -4235,7 +4235,7 @@ F 3 "" H 1050 4376 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$493
+L cpu-board:GND #U$493
 U 1 1 9A674123
 P 2975 3500
 AR Path="/9A674123" Ref="#U$493"  Part="1" 
@@ -4248,7 +4248,7 @@ F 3 "" H 2975 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$494
+L cpu-board:+5V #U$494
 U 1 1 4EFC6875
 P 3175 3600
 AR Path="/4EFC6875" Ref="#U$494"  Part="1" 
@@ -4261,7 +4261,7 @@ F 3 "" H 3175 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$495
+L cpu-board:GND #U$495
 U 1 1 399C0C7A
 P 9887 4538
 AR Path="/399C0C7A" Ref="#U$495"  Part="1" 
@@ -4274,7 +4274,7 @@ F 3 "" H 9887 4538 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:+5V #U$496
+L cpu-board:+5V #U$496
 U 1 1 28129727
 P 9887 3063
 AR Path="/28129727" Ref="#U$496"  Part="1" 
@@ -4287,7 +4287,7 @@ F 3 "" H 9887 3063 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT #U$500
+L cpu-board:PORT #U$500
 U 1 1 6C4A8B1B
 P 10937 3950
 AR Path="/6C4A8B1B" Ref="#U$500"  Part="1" 
@@ -4300,7 +4300,7 @@ F 3 "" H 10937 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:NC7SZ66 IC44
+L cpu-board:NC7SZ66 IC44
 U 1 1 4B983B5C
 P 9887 3950
 AR Path="/4B983B5C" Ref="IC44"  Part="1" 
@@ -4313,7 +4313,7 @@ F 3 "" H 9887 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$497
+L cpu-board:PORT_LONG #U$497
 U 1 1 928C1B0C
 P 9325 3813
 AR Path="/928C1B0C" Ref="#U$497"  Part="1" 
@@ -4326,7 +4326,7 @@ F 3 "" H 9325 3813 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:C0805 C116
+L cpu-board:C0805 C116
 U 1 1 150190AD
 P 10237 3275
 AR Path="/150190AD" Ref="C116"  Part="1" 
@@ -4339,7 +4339,7 @@ F 3 "" H 10237 3275 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$498
+L cpu-board:GND #U$498
 U 1 1 C3CF0A31
 P 10600 3413
 AR Path="/C3CF0A31" Ref="#U$498"  Part="1" 
@@ -4352,7 +4352,7 @@ F 3 "" H 10600 3413 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:GND #U$117
+L cpu-board:GND #U$117
 U 1 1 5B2D5D04
 P 11912 2900
 AR Path="/5B2D5D04" Ref="#U$117"  Part="1" 
@@ -4365,7 +4365,7 @@ F 3 "" H 11912 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:R0805 R45
+L cpu-board:R0805 R45
 U 1 1 C18C78EC
 P 8500 950
 AR Path="/C18C78EC" Ref="R45"  Part="1" 
@@ -4378,7 +4378,7 @@ F 3 "" H 8500 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PORT_LONG #U$198
+L cpu-board:PORT_LONG #U$198
 U 1 1 FD84645F
 P 3887 2175
 AR Path="/FD84645F" Ref="#U$198"  Part="1" 
@@ -4391,7 +4391,7 @@ F 3 "" H 3887 2175 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10125623A00-eagle-import:LIAISON_MASSES JPL1
+L cpu-board:LIAISON_MASSES JPL1
 U 1 1 BCD438C6
 P 6825 8350
 AR Path="/BCD438C6" Ref="JPL1"  Part="1" 
@@ -4404,7 +4404,7 @@ F 3 "" H 6825 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10125623A00-eagle-import:PINHD-1X1 PT1
+L cpu-board:PINHD-1X1 PT1
 U 1 1 7DBB10B8
 P 7725 9025
 AR Path="/7DBB10B8" Ref="PT1"  Part="1" 
