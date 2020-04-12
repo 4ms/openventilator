@@ -1127,6 +1127,31 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 10005011_Power_Management_Schematic_Symbols_1.5k
+#
+DEF 10005011_Power_Management_Schematic_Symbols_1.5k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "10005011_Power_Management_Schematic_Symbols_1.5k" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panasonic Electronic Components" 0 0 50 H I C CNN "Mfgr"
+F5 "ERJ-3EKF1501V" 0 0 50 H I C CNN "Mfgr_PN"
+F6 "Digi-Key" 0 0 50 H I C CNN "Source"
+F7 "P1.50KHCT-ND" 0 0 50 H I C CNN "Source_PN"
+F8 "0603" 0 0 50 H V C CNN "Bom_Footprint"
+F9 "RES SMD 1.5K OHM 1% 1/10W 0603" 0 0 50 H I C CNN "Description"
+F10 "1%" 0 0 50 H I C CNN "Tolerance"
+F11 "1/10W" 0 0 50 H I C CNN "Wattage"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10005011_Power_Management_Schematic_Symbols_100
 #
 DEF 10005011_Power_Management_Schematic_Symbols_100 R 0 0 N Y 1 F N
@@ -1930,23 +1955,21 @@ ENDDEF
 DEF 10005011_Power_Management_Schematic_Symbols_BAT54L D 0 40 Y Y 1 F N
 F0 "D" -100 300 50 H V L CNN
 F1 "10005011_Power_Management_Schematic_Symbols_BAT54L" -250 225 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" -230 -162 50 H I L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" -230 -62 50 H I L CNN
 F3 "" -80 100 50 H I C CNN
-F4 "SOT23" 50 -175 50 H V C CNN "BOM_Footprint"
-F5 "DIODE SCHOTTKY 30V 200MA SOT23-3" 325 -175 60 H I C CNN "Description"
-F6 "ON Semiconductor" 325 -175 60 H I C CNN "Mfgr"
-F7 "BAT54LT1G" 325 -175 60 H I C CNN "Mfgr_PN"
-F8 "Digi-Key" 175 -175 60 H I C CNN "Source"
-F9 "BAT54LT1GOSTR-ND" 150 -175 60 H I C CNN "Source_PN"
+F4 "SOT23" 50 -75 50 H V C CNN "BOM_Footprint"
+F5 "DIODE SCHOTTKY 30V 200MA SOT23-3" 325 -75 60 H I C CNN "Description"
+F6 "ON Semiconductor" 325 -75 60 H I C CNN "Mfgr"
+F7 "BAT54LT1G" 325 -75 60 H I C CNN "Mfgr_PN"
+F8 "Digi-Key" 175 -75 60 H I C CNN "Source"
+F9 "BAT54LT1GOSTR-ND" 150 -75 60 H I C CNN "Source_PN"
 $FPLIST
  SOT?23*
 $ENDFPLIST
 DRAW
 S 0 100 -50 100 0 1 0 N
 P 2 0 1 0 -150 0 -50 0 N
-P 2 0 1 0 -75 -150 -75 -140 N
 P 2 0 1 0 -75 150 -75 140 N
-P 2 0 1 0 -50 -150 -75 -150 N
 P 2 0 1 0 -50 50 -25 50 N
 P 2 0 1 0 -50 100 -150 100 N
 P 2 0 1 0 -50 150 -75 150 N
@@ -2245,8 +2268,8 @@ DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 3 1 1 8 -50 -50 -50 50 -30 50 N
 P 4 1 1 8 50 -50 50 50 -50 0 50 -50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
+X A A 150 0 100 L 50 50 1 1 P
+X K K -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -2476,6 +2499,32 @@ P 2 1 1 6 -50 100 -20 100 N
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x04_Male
+#
+DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
