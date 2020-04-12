@@ -1234,7 +1234,7 @@ F 8 "DIODE SCHOTTKY 40V 1A SOD123" H 1200 6600 50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:1N5819 CR1
+L 10005011_Power_Management:1N5819 CR1
 U 1 1 5ED2EC1E
 P 5200 6600
 F 0 "CR1" V 5246 6521 50  0000 R CNN
