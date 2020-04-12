@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = Sat 11 Apr 2020 09:34:14 PM PDT
+Cmp-Mod V01 Created by PcbNew   date = Sat 11 Apr 2020 09:51:02 PM PDT
 
 BeginCmp
 TimeStamp = 5E90611A
@@ -1291,7 +1291,7 @@ EndCmp
 BeginCmp
 TimeStamp = 00000000
 Path = /5E879854
-Reference = F1;
+Reference = FU1;
 ValeurCmp = 500mA;
 IdModule  = F6126_1;
 EndCmp
