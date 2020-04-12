@@ -11,6 +11,24 @@ K diode Schottky
 F https://www.diodes.com/assets/Datasheets/ds30217.pdf
 $ENDCMP
 #
+$CMP 2N7002
+D N-channel MOSFET, 60V Vds, 200 mA Id, SOT23, AEC-Q101, Diodes Incorporated
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/2N7002AQ.pdf
+$ENDCMP
+#
+$CMP BAT54
+D single schottky barrier diode, common cathode
+K schottky diode common cathode
+F http://www.onsemi.com/pub/Collateral/BAT54LT1-D.PDF
+$ENDCMP
+#
+$CMP BAT54C
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf
+$ENDCMP
+#
 $CMP BZX84C4V7
 D zener diode, 350mW, 4.7V
 K zener diode
@@ -39,6 +57,18 @@ $CMP DLP31SN551ML2L
 D COMMON MODE CHOKE COIL 550OHM
 K 10039588
 F https://www.murata.com/en-eu/products/productdata/8796756410398/EFLE0007.pdf
+$ENDCMP
+#
+$CMP IRLML5103TRPBF
+D -0.76A Id, -30V Vds, 0.60Ohm Rds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml5103pbf.pdf?fileId=5546d462533600a401535668505d2617
+$ENDCMP
+#
+$CMP LM4040DIM3-5.0
+D 2.048V Precision Micropower Shunt Voltage Reference, SOT-23
+K diode device voltage reference shunt
+F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
 $ENDCMP
 #
 $CMP LT1620CMS8
@@ -76,6 +106,18 @@ $CMP STPS340U
 D DIODE SCHOTTKY 40V 1A SOD123
 K diode Schottky
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/db/21/0c/04/d9/41/a5/CD00000844.pdf/files/CD00000844.pdf/jcr:content/translations/en.CD00000844.pdf
+$ENDCMP
+#
+$CMP SUD50P06-15L-E3
+D 50A Id, 60V Vds, P-Channel Power MOSFET, 20mOhm Ron @ -10V, 110nC, 160nC max. Qg, -55 to 175 °C, TO-252-2
+K P-Channel Power MOSFET
+F http://www.vishay.com/docs/72250/sud50p06.pdf
+$ENDCMP
+#
+$CMP SZ1SMB
+D transient-voltage-suppression (TVS), 36V, 5A, unidirectional
+K diode TVS transient voltage supressor SMB
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP VACDC
