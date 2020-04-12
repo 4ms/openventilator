@@ -1,5 +1,5 @@
-(module CONN_GKS-913-Z (layer F.Cu) (tedit 5E8C0A11)
-  (descr 811-S1-002-30-014101-2)
+(module CONN_GKS-913-Z (layer F.Cu) (tedit 5E9355D7)
+  (descr "GKS-913 305 230 A 1502 S")
   (tags Connector)
   (attr smd)
   (fp_text reference J** (at -4.318 3.556) (layer F.SilkS)
@@ -17,7 +17,7 @@
   (fp_line (start 2.54 2.54) (end -2.54 2.54) (layer F.SilkS) (width 0.1))
   (fp_line (start -2.54 2.54) (end -2.54 -2.54) (layer F.SilkS) (width 0.1))
   (pad 1 thru_hole circle (at 0 0) (size 4.2926 4.2926) (drill 2.8956) (layers *.Cu *.Mask))
-  (model 811-S1-002-30-014101.stp
+  (model ${KIPRJMOD}/10096510_Battery_Connection.pretty/GKS-913-Z-recenter.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
