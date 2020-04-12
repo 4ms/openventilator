@@ -119,7 +119,7 @@
 
   (module 10096510_Battery_Connection:CONN_GKS-913-Z (layer F.Cu) (tedit 5E8C0A11) (tstamp 5E8D3E18)
     (at 248.1248 133.1314)
-    (descr GKS-913 305 230 A 1502 S)
+    (descr "GKS-913 305 230 A 1502 S")
     (tags Connector)
     (path /5E9A6A5B)
     (attr smd)
