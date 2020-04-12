@@ -35,61 +35,6 @@ F 3 "" H 1300 3700 50  0001 C CNN
 	1    1300 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C66
-U 1 1 5E9550C9
-P 1300 3350
-F 0 "C66" H 1415 3396 50  0000 L CNN
-F 1 "10uF" H 1415 3305 50  0000 L CNN
-F 2 "10005011 Power Management:C2220_1" H 1338 3200 50  0001 C CNN
-F 3 "~" H 1300 3350 50  0001 C CNN
-	1    1300 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C67
-U 1 1 5E955D09
-P 1700 3350
-F 0 "C67" H 1815 3396 50  0000 L CNN
-F 1 "10uF" H 1815 3305 50  0000 L CNN
-F 2 "10005011 Power Management:C2220_1" H 1738 3200 50  0001 C CNN
-F 3 "~" H 1700 3350 50  0001 C CNN
-	1    1700 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5E9589CD
-P 2100 3350
-F 0 "C11" H 2215 3396 50  0000 L CNN
-F 1 "10uF" H 2215 3305 50  0000 L CNN
-F 2 "10005011 Power Management:C2220_1" H 2138 3200 50  0001 C CNN
-F 3 "~" H 2100 3350 50  0001 C CNN
-	1    2100 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C20
-U 1 1 5E95A51A
-P 2500 3350
-F 0 "C20" H 2615 3396 50  0000 L CNN
-F 1 "10uF" H 2615 3305 50  0000 L CNN
-F 2 "10005011 Power Management:C2220_1" H 2538 3200 50  0001 C CNN
-F 3 "~" H 2500 3350 50  0001 C CNN
-	1    2500 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 5E95A520
-P 2900 3350
-F 0 "C21" H 3015 3396 50  0000 L CNN
-F 1 "4.7uF" H 3015 3305 50  0000 L CNN
-F 2 "10005011 Power Management:C1210_1" H 2938 3200 50  0001 C CNN
-F 3 "~" H 2900 3350 50  0001 C CNN
-	1    2900 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 3200 1300 3100
 Wire Wire Line
@@ -139,17 +84,6 @@ F 11 "1/10W" H 1450 5200 50  0001 C CNN "Wattage"
 	1    1450 5200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C78
-U 1 1 5E95E9FF
-P 1000 4650
-F 0 "C78" H 886 4696 50  0000 R CNN
-F 1 "100nF" H 886 4605 50  0000 R CNN
-F 2 "10005011 Power Management:C0402_1" H 1038 4500 50  0001 C CNN
-F 3 "~" H 1000 4650 50  0001 C CNN
-	1    1000 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 3500 1300 3600
 Wire Wire Line
@@ -195,28 +129,6 @@ Connection ~ 2900 3100
 Wire Wire Line
 	2900 3100 3200 3100
 $Comp
-L Device:C C75
-U 1 1 5E96EAC0
-P 1600 4450
-F 0 "C75" H 1715 4496 50  0000 L CNN
-F 1 "100nF" H 1715 4405 50  0000 L CNN
-F 2 "10005011 Power Management:C0402_1" H 1638 4300 50  0001 C CNN
-F 3 "~" H 1600 4450 50  0001 C CNN
-	1    1600 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C83
-U 1 1 5E96EE77
-P 2450 5500
-F 0 "C83" V 2610 5500 50  0000 C CNN
-F 1 "10nF" V 2701 5500 50  0000 C CNN
-F 2 "10005011 Power Management:C0603_1" H 2488 5350 50  0001 C CNN
-F 3 "~" H 2450 5500 50  0001 C CNN
-	1    2450 5500
-	0    1    1    0   
-$EndComp
-$Comp
 L 10005011_Power_Management:LT1620CMS8 IC14
 U 1 1 5E97706E
 P 2350 4900
@@ -257,17 +169,6 @@ Text Label 9400 3200 3    50   ~ 0
 -ISENSE
 Text Label 8900 3200 3    50   ~ 0
 +ISENSE
-$Comp
-L Device:C C71
-U 1 1 5E98324E
-P 2450 4100
-F 0 "C71" V 2700 4100 50  0000 C CNN
-F 1 "100nF" V 2600 4100 50  0000 C CNN
-F 2 "10005011 Power Management:C0402_1" H 2488 3950 50  0001 C CNN
-F 3 "~" H 2450 4100 50  0001 C CNN
-	1    2450 4100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2650 4200 2650 4100
 Wire Wire Line
@@ -304,45 +205,45 @@ Connection ~ 2650 4100
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:2.87k R85
 U 1 1 5E987A09
-P 1400 4650
-F 0 "R85" H 1331 4696 50  0000 R CNN
-F 1 "2.87k" H 1331 4605 50  0000 R CNN
-F 2 "10005011 Power Management:R0603_1" V 1330 4650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/414/PCF-1528243.pdf" H 1400 4650 50  0001 C CNN
-F 4 "IRC / TT Electronics" H 1400 4650 50  0001 C CNN "Mfgr"
-F 5 "PCF0603R-2K87BI" H 1400 4650 50  0001 C CNN "Mfgr_PN"
-F 6 "Mouser" H 1400 4650 50  0001 C CNN "Source"
-F 7 "756-PCF0603R2K87BI" H 1400 4650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 1470 4650 50  0001 L CNN "Bom_Footprint"
-F 9 "Thin Film Resistors - SMD 0603 2K87Ohms 0.1% 25 PPM" H 1400 4650 50  0001 C CNN "Description"
-F 10 "0.1%" H 1470 4559 50  0001 L CNN "Tolerance"
-F 11 "1/16W" H 1470 4468 50  0001 L CNN "Wattage"
-	1    1400 4650
-	1    0    0    -1  
+P 1250 4650
+F 0 "R85" H 1180 4604 50  0000 R CNN
+F 1 "2.87k" H 1180 4695 50  0000 R CNN
+F 2 "10005011 Power Management:R0603_1" V 1180 4650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/414/PCF-1528243.pdf" H 1250 4650 50  0001 C CNN
+F 4 "IRC / TT Electronics" H 1250 4650 50  0001 C CNN "Mfgr"
+F 5 "PCF0603R-2K87BI" H 1250 4650 50  0001 C CNN "Mfgr_PN"
+F 6 "Mouser" H 1250 4650 50  0001 C CNN "Source"
+F 7 "756-PCF0603R2K87BI" H 1250 4650 50  0001 C CNN "Source_PN"
+F 8 "0603" H 1320 4650 50  0001 L CNN "Bom_Footprint"
+F 9 "Thin Film Resistors - SMD 0603 2K87Ohms 0.1% 25 PPM" H 1250 4650 50  0001 C CNN "Description"
+F 10 "0.1%" H 1320 4559 50  0001 L CNN "Tolerance"
+F 11 "1/16W" H 1320 4468 50  0001 L CNN "Wattage"
+	1    1250 4650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1000 4500 1000 4200
 Wire Wire Line
-	1000 4200 1400 4200
+	1000 4200 1250 4200
 Connection ~ 1600 4200
 Wire Wire Line
 	1600 4200 1600 4300
 Wire Wire Line
-	1400 4500 1400 4200
-Connection ~ 1400 4200
+	1250 4500 1250 4200
+Connection ~ 1250 4200
 Wire Wire Line
-	1400 4200 1600 4200
+	1250 4200 1600 4200
 Text Label 1000 4200 0    50   ~ 0
 INTVCC-2
 Wire Wire Line
-	1850 5000 1400 5000
+	1850 5000 1250 5000
 Wire Wire Line
 	1000 5000 1000 4800
 Wire Wire Line
-	1400 4800 1400 5000
-Connection ~ 1400 5000
+	1250 4800 1250 5000
+Connection ~ 1250 5000
 Wire Wire Line
-	1400 5000 1000 5000
+	1250 5000 1000 5000
 Wire Wire Line
 	1000 5000 1000 5200
 Wire Wire Line
@@ -354,7 +255,7 @@ Wire Wire Line
 	1700 5200 1700 5600
 Wire Wire Line
 	1700 5600 1600 5600
-Text Label 1050 5000 0    50   ~ 0
+Text Label 1000 5000 0    50   ~ 0
 PROG-LT1620
 $Comp
 L pages4_5:LTC1435CS IC13
@@ -368,7 +269,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/14367af
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 4900 4600 4900
+	5300 4900 4700 4900
 Wire Wire Line
 	3200 3800 3200 4900
 Connection ~ 3200 4900
@@ -383,72 +284,28 @@ VOSENSE-2
 Wire Wire Line
 	5700 5400 5700 5500
 Wire Wire Line
-	5700 5500 4200 5500
+	5700 5500 4300 5500
 Wire Wire Line
-	4200 5500 4200 5300
-$Comp
-L Device:C C81
-U 1 1 5E9B1F6D
-P 4600 5150
-F 0 "C81" H 4625 5250 50  0000 L CNN
-F 1 "100pF" H 4625 5050 50  0000 L CNN
-F 2 "10005011 Power Management:C0402_1" H 4638 5000 50  0001 C CNN
-F 3 "~" H 4600 5150 50  0001 C CNN
-	1    4600 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C77
-U 1 1 5E9B56FB
-P 4200 5150
-F 0 "C77" H 4225 5250 50  0000 L CNN
-F 1 "100pF" H 4225 5050 50  0000 L CNN
-F 2 "10005011 Power Management:C0402_1" H 4238 5000 50  0001 C CNN
-F 3 "~" H 4200 5150 50  0001 C CNN
-	1    4200 5150
-	1    0    0    -1  
-$EndComp
+	4300 5500 4300 5300
 Wire Wire Line
-	4200 4700 4200 5000
+	4300 4700 4300 5000
 Wire Wire Line
-	4200 4700 5300 4700
+	4300 4700 5300 4700
 Wire Wire Line
-	4600 5300 4600 5400
+	4700 5300 4700 5400
 Wire Wire Line
-	4600 5400 4900 5400
+	4700 5400 4900 5400
 Wire Wire Line
 	4900 5400 4900 5100
 Wire Wire Line
-	4600 4900 4600 5000
-Connection ~ 4600 4900
+	4700 4900 4700 5000
+Connection ~ 4700 4900
 Wire Wire Line
-	4600 4900 3200 4900
+	4700 4900 3200 4900
 Wire Wire Line
 	4900 4500 5300 4500
 Text Label 4900 4500 0    50   ~ 0
 INTVCC-2
-$Comp
-L Device:C C68
-U 1 1 5E9BFA30
-P 5100 3650
-F 0 "C68" H 5215 3696 50  0000 L CNN
-F 1 "56pF" H 5215 3605 50  0000 L CNN
-F 2 "10005011 Power Management:C0603_1" H 5138 3500 50  0001 C CNN
-F 3 "~" H 5100 3650 50  0001 C CNN
-	1    5100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C69
-U 1 1 5E9C13E9
-P 4700 3650
-F 0 "C69" H 4815 3696 50  0000 L CNN
-F 1 "100nF" H 4815 3605 50  0000 L CNN
-F 2 "10005011 Power Management:C0402_1" H 4738 3500 50  0001 C CNN
-F 3 "~" H 4700 3650 50  0001 C CNN
-	1    4700 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 3800 4700 4100
 Wire Wire Line
@@ -460,18 +317,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0208
 U 1 1 5E9C9BAD
-P 4500 3400
-F 0 "#PWR0208" H 4500 3150 50  0001 C CNN
-F 1 "GND" H 4500 3250 50  0000 C CNN
-F 2 "" H 4500 3400 50  0001 C CNN
-F 3 "" H 4500 3400 50  0001 C CNN
-	1    4500 3400
+P 4300 3400
+F 0 "#PWR0208" H 4300 3150 50  0001 C CNN
+F 1 "GND" H 4300 3250 50  0000 C CNN
+F 2 "" H 4300 3400 50  0001 C CNN
+F 3 "" H 4300 3400 50  0001 C CNN
+	1    4300 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3400 4500 3300
+	4300 3400 4300 3300
 Wire Wire Line
-	4500 3300 4700 3300
+	4300 3300 4700 3300
 Wire Wire Line
 	4700 3300 4700 3500
 Wire Wire Line
@@ -506,30 +363,8 @@ Wire Wire Line
 Wire Wire Line
 	5700 5600 5700 5500
 Connection ~ 5700 5500
-$Comp
-L Device:C C72
-U 1 1 5E9D5452
-P 4350 4300
-F 0 "C72" V 4100 4300 50  0000 C CNN
-F 1 "33nF" V 4200 4300 50  0000 C CNN
-F 2 "10005011 Power Management:C0603_1" H 4388 4150 50  0001 C CNN
-F 3 "~" H 4350 4300 50  0001 C CNN
-	1    4350 4300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4500 4300 4600 4300
-$Comp
-L Device:C C74
-U 1 1 5E9D7F35
-P 4000 4550
-F 0 "C74" H 4115 4596 50  0000 L CNN
-F 1 "1nF" H 4115 4505 50  0000 L CNN
-F 2 "10005011 Power Management:C0603_1" H 4038 4400 50  0001 C CNN
-F 3 "~" H 4000 4550 50  0001 C CNN
-	1    4000 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 4300 4000 4300
 Wire Wire Line
@@ -537,8 +372,8 @@ Wire Wire Line
 Wire Wire Line
 	4000 4700 4000 5500
 Wire Wire Line
-	4000 5500 4200 5500
-Connection ~ 4200 5500
+	4000 5500 4300 5500
+Connection ~ 4300 5500
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:1k R82
 U 1 1 5E9DD03B
@@ -600,17 +435,6 @@ F 3 "" H 6600 3600 50  0001 C CNN
 	1    6600 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C79
-U 1 1 5E9F2ED8
-P 6600 3350
-F 0 "C79" H 6715 3396 50  0000 L CNN
-F 1 "100nF" H 6715 3305 50  0000 L CNN
-F 2 "10005011 Power Management:C0805_1" H 6638 3200 50  0001 C CNN
-F 3 "~" H 6600 3350 50  0001 C CNN
-	1    6600 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 3100 6600 3100
 Wire Wire Line
@@ -622,48 +446,15 @@ Wire Wire Line
 	6500 4500 6900 4500
 Text Label 6500 4500 0    50   ~ 0
 INTVCC-2
-$Comp
-L pages4_5:PMEGxx05ET D9
-U 1 1 5EA0347E
-P 7250 4500
-F 0 "D9" H 7250 4600 50  0000 C CNN
-F 1 "PMEG4005ET" H 7250 4400 50  0000 C CNN
-F 2 "10005011 Power Management:SOT23-1G_1" H 7250 4325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf" H 7250 4500 50  0001 C CNN
-	1    7250 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 4700 7500 4700
 Wire Wire Line
 	7500 4700 7500 4500
 Wire Wire Line
 	7500 4500 7400 4500
-$Comp
-L Device:C C76
-U 1 1 5EA07F71
-P 7750 4500
-F 0 "C76" V 7498 4500 50  0000 C CNN
-F 1 "330nF" V 7589 4500 50  0000 C CNN
-F 2 "10005011 Power Management:C0805_1" H 7788 4350 50  0001 C CNN
-F 3 "~" H 7750 4500 50  0001 C CNN
-	1    7750 4500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7500 4500 7600 4500
 Connection ~ 7500 4500
-$Comp
-L Device:C C80
-U 1 1 5EA18106
-P 6900 5250
-F 0 "C80" H 6925 5350 50  0000 L CNN
-F 1 "4.7uF" H 6925 5150 50  0000 L CNN
-F 2 "10005011 Power Management:C0805_1" H 6938 5100 50  0001 C CNN
-F 3 "~" H 6900 5250 50  0001 C CNN
-	1    6900 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 5500 6900 5500
 Wire Wire Line
@@ -685,17 +476,6 @@ F 2 "10005011 Power Management:SOT23-1G_1" H 7250 4025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf" H 7250 4200 50  0001 C CNN
 	1    7250 4200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C70
-U 1 1 5EA230D6
-P 7250 3900
-F 0 "C70" V 7502 3900 50  0000 C CNN
-F 1 "100nF" V 7411 3900 50  0000 C CNN
-F 2 "10005011 Power Management:C0805_1" H 7288 3750 50  0001 C CNN
-F 3 "~" H 7250 3900 50  0001 C CNN
-	1    7250 3900
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6500 4100 7000 4100
@@ -810,7 +590,7 @@ F 9 "RES 0.05 OHM 1% 1W 2010" H 9150 3900 50  0001 C CNN "Description"
 F 10 "1%" H 9150 3900 50  0001 C CNN "Tolerance"
 F 11 "1W" V 9538 3900 50  0001 C CNN "Wattage"
 	1    9150 3900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9000 3900 8900 3800
@@ -818,45 +598,11 @@ Wire Wire Line
 	9300 3900 9400 3800
 Wire Wire Line
 	8800 3900 9000 3900
-Connection ~ 9000 3900
 Wire Wire Line
 	8500 3900 8100 3900
 Connection ~ 8100 3900
 Wire Wire Line
 	8100 3900 8100 4200
-$Comp
-L Device:C C73
-U 1 1 5E9601EB
-P 9500 4150
-F 0 "C73" H 9615 4196 50  0000 L CNN
-F 1 "10uF" H 9615 4105 50  0000 L CNN
-F 2 "10005011 Power Management:C2220_1" H 9538 4000 50  0001 C CNN
-F 3 "~" H 9500 4150 50  0001 C CNN
-	1    9500 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C51
-U 1 1 5E9601F1
-P 9900 4150
-F 0 "C51" H 10015 4196 50  0000 L CNN
-F 1 "10uF" H 10015 4105 50  0000 L CNN
-F 2 "10005011 Power Management:C2220_1" H 9938 4000 50  0001 C CNN
-F 3 "~" H 9900 4150 50  0001 C CNN
-	1    9900 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C90
-U 1 1 5E9601F7
-P 10300 4150
-F 0 "C90" H 10415 4196 50  0000 L CNN
-F 1 "4.7uF" H 10415 4105 50  0000 L CNN
-F 2 "10005011 Power Management:C1210_1" H 10338 4000 50  0001 C CNN
-F 3 "~" H 10300 4150 50  0001 C CNN
-	1    10300 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10300 4400 10300 4300
 Wire Wire Line
@@ -892,8 +638,8 @@ $Comp
 L 10005011_Power_Management_Schematic_Symbols:13.7k R81
 U 1 1 5E9724D0
 P 10700 4150
-F 0 "R81" H 10770 4196 50  0000 L CNN
-F 1 "13.7k" H 10770 4105 50  0000 L CNN
+F 0 "R81" H 10630 4104 50  0000 R CNN
+F 1 "13.7k" H 10630 4195 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 10630 4150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10700 4150 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 10700 4150 50  0001 C CNN "Mfgr"
@@ -905,14 +651,14 @@ F 9 "RES SMD 13.7KOHM 0.1% 1/10W 0603" H 10700 4150 50  0001 C CNN "Description"
 F 10 "0.1%" H 10770 4014 50  0001 L CNN "Tolerance"
 F 11 "1/10W" H 10700 4150 50  0001 C CNN "Wattage"
 	1    10700 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:1.37k R90
 U 1 1 5E973CFC
 P 10700 4650
-F 0 "R90" H 10770 4696 50  0000 L CNN
-F 1 "1.37k" H 10770 4605 50  0000 L CNN
+F 0 "R90" H 10630 4604 50  0000 R CNN
+F 1 "1.37k" H 10630 4695 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 10630 4650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10700 4650 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 10700 4650 50  0001 C CNN "Mfgr"
@@ -924,7 +670,7 @@ F 9 "RES SMD 1.37KOHM 0.1% 1/10W 0603" H 10700 4650 50  0001 C CNN "Description"
 F 10 "0.1%" H 10770 4514 50  0001 L CNN "Tolerance"
 F 11 "1/10W" H 10700 4650 50  0001 C CNN "Wattage"
 	1    10700 4650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text GLabel 10900 4400 2    50   Output ~ 0
 MES-VCHARGE
@@ -934,7 +680,6 @@ Wire Wire Line
 	9300 3900 9500 3900
 Wire Wire Line
 	10700 3900 10700 4000
-Connection ~ 9300 3900
 Connection ~ 9500 3900
 Wire Wire Line
 	9500 3900 9900 3900
@@ -966,27 +711,27 @@ $Comp
 L 10005011_Power_Management_Schematic_Symbols:86.6k R87
 U 1 1 5E9889ED
 P 11600 3950
-F 0 "R87" H 11531 4041 50  0000 R CNN
-F 1 "86.6k" H 11531 3950 50  0000 R CNN
+F 0 "R87" H 11669 3859 50  0000 L CNN
+F 1 "86.6k" H 11669 3950 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 11530 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11600 3950 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 11600 3950 50  0001 C CNN "Mfgr"
 F 5 "ERJ-3EKF8662V" H 11600 3950 50  0001 C CNN "Mfgr_PN"
 F 6 "Digi-Key" H 11600 3950 50  0001 C CNN "Source"
 F 7 "P86.6KHCT-ND" H 11600 3950 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11531 3859 50  0000 R CNN "Bom_Footprint"
+F 8 "0603" H 11669 4041 50  0000 L CNN "Bom_Footprint"
 F 9 "RES SMD 86.6K OHM 1% 1/10W 0603" H 11600 3950 50  0001 C CNN "Description"
 F 10 "1%" H 11600 3950 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 11600 3950 50  0001 C CNN "Wattage"
 	1    11600 3950
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:3.3k R92
 U 1 1 5E98B144
 P 11600 4650
-F 0 "R92" H 11670 4696 50  0000 L CNN
-F 1 "3.3k" H 11670 4605 50  0000 L CNN
+F 0 "R92" H 11530 4604 50  0000 R CNN
+F 1 "3.3k" H 11530 4695 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 11530 4650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 11600 4650 50  0001 C CNN
 F 4 "Yageo" H 11600 4650 50  0001 C CNN "Mfgr"
@@ -998,14 +743,14 @@ F 9 "RES SMD 3.3K OHM 1% 1/10W 0603" H 11600 4650 50  0001 C CNN "Description"
 F 10 "1%" H 11600 4650 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 11600 4650 50  0001 C CNN "Wattage"
 	1    11600 4650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:33 R95
 U 1 1 5E98BB58
 P 11600 5150
-F 0 "R95" H 11670 5196 50  0000 L CNN
-F 1 "33" H 11670 5105 50  0000 L CNN
+F 0 "R95" H 11530 5104 50  0000 R CNN
+F 1 "33" H 11530 5195 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 11530 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 11600 5150 50  0001 C CNN
 F 4 "Yageo" H 11600 5150 50  0001 C CNN "Mfgr"
@@ -1017,18 +762,7 @@ F 9 "RES SMD 33 OHM 1% 1/10W 0603" H 11600 5150 50  0001 C CNN "Description"
 F 10 "1%" H 11600 5150 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 11600 5150 50  0001 C CNN "Wattage"
 	1    11600 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C84
-U 1 1 5E9938B6
-P 11300 5150
-F 0 "C84" H 11186 5196 50  0000 R CNN
-F 1 "1uF" H 11186 5105 50  0000 R CNN
-F 2 "10005011 Power Management:C0603_1" H 11338 5000 50  0001 C CNN
-F 3 "~" H 11300 5150 50  0001 C CNN
-	1    11300 5150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	11600 4800 11600 4900
@@ -1105,26 +839,24 @@ Wire Wire Line
 Wire Wire Line
 	12300 4500 12300 4400
 Wire Wire Line
-	11300 5300 11300 5400
+	11200 5300 11200 5400
 Wire Wire Line
 	11600 5400 11600 5300
 $Comp
 L 10005011_Power_Management:PGND #PWR0214
 U 1 1 5EA1062A
-P 11300 5500
-F 0 "#PWR0214" H 11300 5250 50  0001 C CNN
-F 1 "PGND" H 11300 5350 50  0000 C CNN
-F 2 "" H 11300 5500 50  0001 C CNN
-F 3 "" H 11300 5500 50  0001 C CNN
-	1    11300 5500
+P 11200 5500
+F 0 "#PWR0214" H 11200 5250 50  0001 C CNN
+F 1 "PGND" H 11200 5350 50  0000 C CNN
+F 2 "" H 11200 5500 50  0001 C CNN
+F 3 "" H 11200 5500 50  0001 C CNN
+	1    11200 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11300 5400 11300 5500
+	11200 5400 11200 5500
 Wire Wire Line
-	11600 4900 11300 4900
-Wire Wire Line
-	11300 4900 11300 5000
+	11200 4900 11200 5000
 Connection ~ 11600 4900
 Wire Wire Line
 	11600 4900 11600 5000
@@ -1152,43 +884,26 @@ Wire Wire Line
 Wire Wire Line
 	11000 5300 11000 4900
 Wire Wire Line
-	11000 4900 11300 4900
-Connection ~ 11300 4900
+	11000 4900 11200 4900
 Text GLabel 10300 5300 0    50   Input ~ 0
 VCHARGE-SETTING
 Wire Wire Line
 	10300 5300 10500 5300
-$Comp
-L 10005011_Power_Management_Schematic_Symbols:IRLML2803TRPBF T29
-U 1 1 5EA312AA
-P 11900 5800
-F 0 "T29" H 12000 5875 50  0000 L CNN
-F 1 "IRLML2803" H 12000 5800 50  0000 L CNN
-F 2 "10005011 Power Management:SOT23-GSD_1" H 12750 5725 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" H 12225 5500 50  0001 L CNN
-F 4 "IRLML2803TRPBF" H 12425 5725 50  0001 C CNN "Mfgr_PN"
-F 5 "Infineon Technologies" H 12550 5725 50  0001 C CNN "Mfgr"
-F 6 "Digi-Key" H 12300 5725 50  0001 C CNN "Source"
-F 7 "IRLML2803PBFCT-ND" H 12500 5725 50  0001 C CNN "Source_PN"
-F 8 "MOSFET N-CH 30V 1.2A SOT-23" H 12600 5725 50  0001 C CNN "Description"
-	1    11900 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11900 5600 11900 4500
 Connection ~ 11900 4500
 Wire Wire Line
 	11900 4500 12300 4500
 Text GLabel 11100 5800 0    50   Input ~ 0
-VCHARGE-SETTING
+IFC-SWITCH
 Wire Wire Line
 	11100 5800 11400 5800
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:100k R96
 U 1 1 5EA52FC7
 P 11400 6050
-F 0 "R96" H 11331 6096 50  0000 R CNN
-F 1 "100k" H 11331 6005 50  0000 R CNN
+F 0 "R96" H 11469 6004 50  0000 L CNN
+F 1 "100k" H 11469 6095 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 11330 6050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 11400 6050 50  0001 C CNN
 F 4 "Yageo" H 11400 6050 50  0001 C CNN "Mfgr"
@@ -1200,7 +915,7 @@ F 9 "RES SMD 100K OHM 1% 1/10W 0603" H 11400 6050 50  0001 C CNN "Description"
 F 10 "1%" H 11400 6050 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 11400 6050 50  0001 C CNN "Wattage"
 	1    11400 6050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	11400 5800 11400 5900
@@ -1224,9 +939,9 @@ F 3 "" H 11900 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11900 6300 11900 6400
-Connection ~ 11300 5400
+Connection ~ 11200 5400
 Wire Wire Line
-	11300 5400 11600 5400
+	11200 5400 11600 5400
 Connection ~ 11900 6300
 Wire Wire Line
 	11400 6300 11900 6300
@@ -1253,8 +968,8 @@ $Comp
 L 10005011_Power_Management_Schematic_Symbols:10k R86
 U 1 1 5EA8CA00
 P 13200 4450
-F 0 "R86" H 13270 4496 50  0000 L CNN
-F 1 "10k" H 13270 4405 50  0000 L CNN
+F 0 "R86" H 13130 4404 50  0000 R CNN
+F 1 "10k" H 13130 4495 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 13130 4450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13200 4450 50  0001 C CNN
 F 4 "Yageo" H 13200 4450 50  0001 C CNN "Mfgr"
@@ -1266,7 +981,7 @@ F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 13200 4450 50  0001 C CNN "Description"
 F 10 "1%" H 13200 4450 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 13200 4450 50  0001 C CNN "Wattage"
 	1    13200 4450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:2N7002AQ T28
@@ -1399,15 +1114,15 @@ F 9 "2N7002AQ-7DICT-ND" H 14600 6575 50  0001 C CNN "Source_PN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 13300 5800 0    50   Input ~ 0
-CHARGER-SWITCH
+SHUNT-DIODE-CH
 Wire Wire Line
 	13300 5800 13400 5800
 $Comp
 L 10005011_Power_Management_Schematic_Symbols:100k R97
 U 1 1 5EB05597
 P 13400 6050
-F 0 "R97" H 13331 6096 50  0000 R CNN
-F 1 "100k" H 13331 6005 50  0000 R CNN
+F 0 "R97" H 13469 6004 50  0000 L CNN
+F 1 "100k" H 13469 6095 50  0000 L CNN
 F 2 "10005011 Power Management:R0603_1" V 13330 6050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13400 6050 50  0001 C CNN
 F 4 "Yageo" H 13400 6050 50  0001 C CNN "Mfgr"
@@ -1419,7 +1134,7 @@ F 9 "RES SMD 100K OHM 1% 1/10W 0603" H 13400 6050 50  0001 C CNN "Description"
 F 10 "1%" H 13400 6050 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 13400 6050 50  0001 C CNN "Wattage"
 	1    13400 6050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	13400 5800 13400 5900
@@ -1459,8 +1174,8 @@ $Comp
 L 10005011_Power_Management_Schematic_Symbols:10k R89
 U 1 1 5EB40CCA
 P 13800 4650
-F 0 "R89" H 13870 4696 50  0000 L CNN
-F 1 "10k" H 13870 4605 50  0000 L CNN
+F 0 "R89" H 13730 4604 50  0000 R CNN
+F 1 "10k" H 13730 4695 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 13730 4650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13800 4650 50  0001 C CNN
 F 4 "Yageo" H 13800 4650 50  0001 C CNN "Mfgr"
@@ -1472,7 +1187,7 @@ F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 13800 4650 50  0001 C CNN "Description"
 F 10 "1%" H 13800 4650 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 13800 4650 50  0001 C CNN "Wattage"
 	1    13800 4650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	13400 3700 13600 3700
@@ -1484,20 +1199,20 @@ $Comp
 L 10005011_Power_Management_Schematic_Symbols:10k R84
 U 1 1 5EB60E3E
 P 14200 4150
-F 0 "R84" H 14270 4241 50  0000 L CNN
-F 1 "10k" H 14270 4150 50  0000 L CNN
+F 0 "R84" H 14130 4059 50  0000 R CNN
+F 1 "10k" H 14130 4150 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 14130 4150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 14200 4150 50  0001 C CNN
 F 4 "Yageo" H 14200 4150 50  0001 C CNN "Mfgr"
 F 5 "RC0603FR-0710KL" H 14200 4150 50  0001 C CNN "Mfgr_PN"
 F 6 "Digi-Key" H 14200 4150 50  0001 C CNN "Source"
 F 7 "311-10.0KHRCT-ND" H 14200 4150 50  0001 C CNN "Source_PN"
-F 8 "0603" H 14270 4059 50  0000 L CNN "Bom_Footprint"
+F 8 "0603" H 14130 4241 50  0000 R CNN "Bom_Footprint"
 F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 14200 4150 50  0001 C CNN "Description"
 F 10 "1%" H 14200 4150 50  0001 C CNN "Tolerance"
 F 11 "1/10W" H 14200 4150 50  0001 C CNN "Wattage"
 	1    14200 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	14000 3700 14200 3700
@@ -1521,4 +1236,473 @@ Wire Wire Line
 	3100 4900 3100 5000
 Wire Wire Line
 	3100 5000 3000 5000
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C78
+U 1 1 5E9F2BD7
+P 1000 4650
+F 0 "C78" H 1114 4513 50  0000 L CNN
+F 1 "0.1uF" H 1114 4604 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1038 4500 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 1000 4650 50  0001 C CNN
+F 4 "Murata Electronics" H 1000 4650 50  0001 C CNN "Mfgr"
+F 5 "GCM155R71C104KA55J" H 1000 4650 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 1000 4650 50  0001 C CNN "Source"
+F 7 "490-7998-1-ND" H 1000 4650 50  0001 C CNN "Source_PN"
+F 8 "0402" H 1114 4695 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 47PF 50V C0G/NP0 0402" H 1000 4650 50  0001 C CNN "Description"
+F 10 "X7R" H 1000 4650 50  0001 C CNN "Dielectric"
+F 11 "16V" H 1114 4786 50  0000 L CNN "Voltage"
+	1    1000 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C75
+U 1 1 5EA0AA5D
+P 1600 4450
+F 0 "C75" H 1485 4313 50  0000 R CNN
+F 1 "0.1uF" H 1485 4404 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1638 4300 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 1600 4450 50  0001 C CNN
+F 4 "Murata Electronics" H 1600 4450 50  0001 C CNN "Mfgr"
+F 5 "GCM155R71C104KA55J" H 1600 4450 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 1600 4450 50  0001 C CNN "Source"
+F 7 "490-7998-1-ND" H 1600 4450 50  0001 C CNN "Source_PN"
+F 8 "0402" H 1485 4495 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 47PF 50V C0G/NP0 0402" H 1600 4450 50  0001 C CNN "Description"
+F 10 "X7R" H 1600 4450 50  0001 C CNN "Dielectric"
+F 11 "16V" H 1485 4586 50  0000 R CNN "Voltage"
+	1    1600 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C71
+U 1 1 5EA0B23F
+P 2450 4100
+F 0 "C71" V 2884 4100 50  0000 C CNN
+F 1 "0.1uF" V 2793 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 3950 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 2450 4100 50  0001 C CNN
+F 4 "Murata Electronics" H 2450 4100 50  0001 C CNN "Mfgr"
+F 5 "GCM155R71C104KA55J" H 2450 4100 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 2450 4100 50  0001 C CNN "Source"
+F 7 "490-7998-1-ND" H 2450 4100 50  0001 C CNN "Source_PN"
+F 8 "0402" V 2702 4100 50  0000 C CNN "Bom_Footprint"
+F 9 "CAP CER 47PF 50V C0G/NP0 0402" H 2450 4100 50  0001 C CNN "Description"
+F 10 "X7R" H 2450 4100 50  0001 C CNN "Dielectric"
+F 11 "16V" V 2611 4100 50  0000 C CNN "Voltage"
+	1    2450 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.01uF C83
+U 1 1 5EA10664
+P 2450 5500
+F 0 "C83" V 2290 5500 50  0000 C CNN
+F 1 "0.01uF" V 2199 5500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2488 5350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2450 5500 50  0001 C CNN
+F 4 "Yageo" H 2450 5500 50  0001 C CNN "Mfgr"
+F 5 "CC0603KRX7R9BB103" H 2450 5500 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 2450 5500 50  0001 C CNN "Source"
+F 7 "311-1085-1-ND" H 2450 5500 50  0001 C CNN "Source_PN"
+F 8 "0603" V 2108 5500 50  0000 C CNN "Bom_Footprint"
+F 9 "CAP CER 10000PF 50V X7R 0603" H 2450 5500 50  0001 C CNN "Description"
+F 10 "X7R" H 2450 5500 50  0001 C CNN "Dielectric"
+F 11 "50V" H 2450 5500 50  0001 C CNN "Voltage"
+	1    2450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:10uF C66
+U 1 1 5EA3A154
+P 1300 3350
+F 0 "C66" H 1415 3259 50  0000 L CNN
+F 1 "10uF" H 1415 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 1338 3200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 1300 3350 50  0001 C CNN
+F 4 "TDK Corporation" H 1300 3350 50  0001 C CNN "Mfgr"
+F 5 "CGA9N3X7R1H106K230KB" H 1300 3350 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 1300 3350 50  0001 C CNN "Source"
+F 7 "445-7932-1-ND" H 1300 3350 50  0001 C CNN "Source_PN"
+F 8 "2220" H 1415 3441 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 10UF 50V X7R 2220" H 1300 3350 50  0001 C CNN "Description"
+F 10 "X7R" H 1300 3350 50  0001 C CNN "Dielectric"
+F 11 "50V" H 1300 3350 50  0001 C CNN "Voltage"
+	1    1300 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:10uF C67
+U 1 1 5EA3E4AC
+P 1700 3350
+F 0 "C67" H 1585 3259 50  0000 R CNN
+F 1 "10uF" H 1585 3350 50  0000 R CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 1738 3200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 1700 3350 50  0001 C CNN
+F 4 "TDK Corporation" H 1700 3350 50  0001 C CNN "Mfgr"
+F 5 "CGA9N3X7R1H106K230KB" H 1700 3350 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 1700 3350 50  0001 C CNN "Source"
+F 7 "445-7932-1-ND" H 1700 3350 50  0001 C CNN "Source_PN"
+F 8 "2220" H 1585 3441 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 10UF 50V X7R 2220" H 1700 3350 50  0001 C CNN "Description"
+F 10 "X7R" H 1700 3350 50  0001 C CNN "Dielectric"
+F 11 "50V" H 1700 3350 50  0001 C CNN "Voltage"
+	1    1700 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:10uF C11
+U 1 1 5EA3EBA0
+P 2100 3350
+F 0 "C11" H 1985 3259 50  0000 R CNN
+F 1 "10uF" H 1985 3350 50  0000 R CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 2138 3200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 2100 3350 50  0001 C CNN
+F 4 "TDK Corporation" H 2100 3350 50  0001 C CNN "Mfgr"
+F 5 "CGA9N3X7R1H106K230KB" H 2100 3350 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 2100 3350 50  0001 C CNN "Source"
+F 7 "445-7932-1-ND" H 2100 3350 50  0001 C CNN "Source_PN"
+F 8 "2220" H 1985 3441 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 10UF 50V X7R 2220" H 2100 3350 50  0001 C CNN "Description"
+F 10 "X7R" H 2100 3350 50  0001 C CNN "Dielectric"
+F 11 "50V" H 2100 3350 50  0001 C CNN "Voltage"
+	1    2100 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:10uF C20
+U 1 1 5EA3F14D
+P 2500 3350
+F 0 "C20" H 2385 3259 50  0000 R CNN
+F 1 "10uF" H 2385 3350 50  0000 R CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 2538 3200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 2500 3350 50  0001 C CNN
+F 4 "TDK Corporation" H 2500 3350 50  0001 C CNN "Mfgr"
+F 5 "CGA9N3X7R1H106K230KB" H 2500 3350 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 2500 3350 50  0001 C CNN "Source"
+F 7 "445-7932-1-ND" H 2500 3350 50  0001 C CNN "Source_PN"
+F 8 "2220" H 2385 3441 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 10UF 50V X7R 2220" H 2500 3350 50  0001 C CNN "Description"
+F 10 "X7R" H 2500 3350 50  0001 C CNN "Dielectric"
+F 11 "50V" H 2500 3350 50  0001 C CNN "Voltage"
+	1    2500 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:4.7uF C21
+U 1 1 5EA448DF
+P 2900 3350
+F 0 "C21" H 2785 3259 50  0000 R CNN
+F 1 "4.7uF" H 2785 3350 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2938 3200 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf" H 2900 3350 50  0001 C CNN
+F 4 "KEMET" H 2900 3350 50  0001 C CNN "Mfgr"
+F 5 "C1210C475K5RACAUTO" H 2900 3350 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 2900 3350 50  0001 C CNN "Source"
+F 7 "399-7049-1-ND" H 2900 3350 50  0001 C CNN "Source_PN"
+F 8 "1210" H 2785 3441 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 4.7UF 50V X7R 1210" H 2900 3350 50  0001 C CNN "Description"
+F 10 "X7R" H 2900 3350 50  0001 C CNN "Dielectric"
+F 11 "50V" H 2900 3350 50  0001 C CNN "Voltage"
+	1    2900 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C69
+U 1 1 5EAD94FD
+P 4700 3650
+F 0 "C69" H 4815 3787 50  0000 L CNN
+F 1 "0.1uF" H 4815 3696 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4738 3500 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 4700 3650 50  0001 C CNN
+F 4 "Murata Electronics" H 4700 3650 50  0001 C CNN "Mfgr"
+F 5 "GCM155R71C104KA55J" H 4700 3650 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4700 3650 50  0001 C CNN "Source"
+F 7 "490-7998-1-ND" H 4700 3650 50  0001 C CNN "Source_PN"
+F 8 "0402" H 4815 3605 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 47PF 50V C0G/NP0 0402" H 4700 3650 50  0001 C CNN "Description"
+F 10 "X7R" H 4700 3650 50  0001 C CNN "Dielectric"
+F 11 "16V" H 4815 3514 50  0000 L CNN "Voltage"
+	1    4700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:56pF C68
+U 1 1 5EB00C9C
+P 5100 3650
+F 0 "C68" H 4985 3559 50  0000 R CNN
+F 1 "56pF" H 4985 3650 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 5100 3650 50  0001 C CNN
+F 4 "Yageo" H 5100 3650 50  0001 C CNN "Mfgr"
+F 5 "CC0603JRNPO9BN560" H 5100 3650 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 5100 3650 50  0001 C CNN "Source"
+F 7 "311-1066-1-ND" H 5100 3650 50  0001 C CNN "Source_PN"
+F 8 "0603" H 4985 3741 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 56PF 50V C0G/NPO 0603" H 5100 3650 50  0001 C CNN "Description"
+F 10 "C0G/NPO" H 5100 3650 50  0001 C CNN "Dielectric"
+F 11 "50V" H 5100 3650 50  0001 C CNN "Voltage"
+	1    5100 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:100pF C77
+U 1 1 5EB08BA4
+P 4300 5150
+F 0 "C77" H 4415 5241 50  0000 L CNN
+F 1 "100pF" H 4415 5150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 5000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C101JB81PNC.jsp" H 4300 5150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4300 5150 50  0001 C CNN "Mfgr"
+F 5 "CL10C101JB81PNC" H 4300 5150 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4300 5150 50  0001 C CNN "Source"
+F 7 "1276-2162-1-ND" H 4300 5150 50  0001 C CNN "Source_PN"
+F 8 "0603" H 4415 5059 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 100PF 50V C0G/NP0 0603" H 4300 5150 50  0001 C CNN "Description"
+F 10 "C0G/NPO" H 4300 5150 50  0001 C CNN "Dielectric"
+F 11 "50V" H 4300 5150 50  0001 C CNN "Voltage"
+	1    4300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:100pF C81
+U 1 1 5EB097BD
+P 4700 5150
+F 0 "C81" H 4585 5059 50  0000 R CNN
+F 1 "100pF" H 4585 5150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 5000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C101JB81PNC.jsp" H 4700 5150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4700 5150 50  0001 C CNN "Mfgr"
+F 5 "CL10C101JB81PNC" H 4700 5150 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4700 5150 50  0001 C CNN "Source"
+F 7 "1276-2162-1-ND" H 4700 5150 50  0001 C CNN "Source_PN"
+F 8 "0603" H 4585 5241 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 100PF 50V C0G/NP0 0603" H 4700 5150 50  0001 C CNN "Description"
+F 10 "C0G/NPO" H 4700 5150 50  0001 C CNN "Dielectric"
+F 11 "50V" H 4700 5150 50  0001 C CNN "Voltage"
+	1    4700 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:1000pF C74
+U 1 1 5EB59912
+P 4000 4550
+F 0 "C74" H 3885 4459 50  0000 R CNN
+F 1 "1000pF" H 3885 4550 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 4400 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4000 4550 50  0001 C CNN
+F 4 "AVX Corporation" H 4000 4550 50  0001 C CNN "Mfgr"
+F 5 "06035C102KAT2A" H 4000 4550 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4000 4550 50  0001 C CNN "Source"
+F 7 "478-1215-1-ND" H 4000 4550 50  0001 C CNN "Source_PN"
+F 8 "0603" H 3885 4641 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 1000PF 50V X7R 0603" H 4000 4550 50  0001 C CNN "Description"
+F 10 "X7R" H 4000 4550 50  0001 C CNN "Dielectric"
+F 11 "50V" H 4000 4550 50  0001 C CNN "Voltage"
+	1    4000 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.033uF C72
+U 1 1 5EB5EC13
+P 4350 4300
+F 0 "C72" V 3900 4300 50  0000 C CNN
+F 1 "0.033uF" V 4000 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 4150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4350 4300 50  0001 C CNN
+F 4 "AVX Corporation" H 4350 4300 50  0001 C CNN "Mfgr"
+F 5 "0603YC333KAT2A" H 4350 4300 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 4350 4300 50  0001 C CNN "Source"
+F 7 "478-5898-1-ND" H 4350 4300 50  0001 C CNN "Source_PN"
+F 8 "0603" V 4100 4300 50  0000 C CNN "Bom_Footprint"
+F 9 "CAP CER 0.033UF 16V X7R 0603" H 4350 4300 50  0001 C CNN "Description"
+F 10 "X7R" H 4350 4300 50  0001 C CNN "Dielectric"
+F 11 "16V" V 4200 4300 50  0000 C CNN "Voltage"
+	1    4350 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C79
+U 1 1 5EB6AE6E
+P 6600 3350
+F 0 "C79" H 6714 3213 50  0000 L CNN
+F 1 "0.1uF" H 6714 3304 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6638 3200 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 6600 3350 50  0001 C CNN
+F 4 "Murata Electronics" H 6600 3350 50  0001 C CNN "Mfgr"
+F 5 "GCM155R71C104KA55J" H 6600 3350 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 6600 3350 50  0001 C CNN "Source"
+F 7 "490-7998-1-ND" H 6600 3350 50  0001 C CNN "Source_PN"
+F 8 "0402" H 6714 3395 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 47PF 50V C0G/NP0 0402" H 6600 3350 50  0001 C CNN "Description"
+F 10 "X7R" H 6600 3350 50  0001 C CNN "Dielectric"
+F 11 "16V" H 6714 3486 50  0000 L CNN "Voltage"
+	1    6600 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:4.7uF C80
+U 1 1 5EB72966
+P 6900 5250
+F 0 "C80" H 6785 5159 50  0000 R CNN
+F 1 "4.7uF" H 6785 5250 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6938 5100 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf" H 6900 5250 50  0001 C CNN
+F 4 "KEMET" H 6900 5250 50  0001 C CNN "Mfgr"
+F 5 "C1210C475K5RACAUTO" H 6900 5250 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 6900 5250 50  0001 C CNN "Source"
+F 7 "399-7049-1-ND" H 6900 5250 50  0001 C CNN "Source_PN"
+F 8 "1210" H 6785 5341 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 4.7UF 50V X7R 1210" H 6900 5250 50  0001 C CNN "Description"
+F 10 "X7R" H 6900 5250 50  0001 C CNN "Dielectric"
+F 11 "50V" H 6900 5250 50  0001 C CNN "Voltage"
+	1    6900 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.1uF C70
+U 1 1 5EB79AA8
+P 7250 3900
+F 0 "C70" V 6800 3900 50  0000 C CNN
+F 1 "0.1uF" V 6900 3900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7288 3750 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 7250 3900 50  0001 C CNN
+F 4 "Murata Electronics" H 7250 3900 50  0001 C CNN "Mfgr"
+F 5 "GCM155R71C104KA55J" H 7250 3900 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 7250 3900 50  0001 C CNN "Source"
+F 7 "490-7998-1-ND" H 7250 3900 50  0001 C CNN "Source_PN"
+F 8 "0402" V 7000 3900 50  0000 C CNN "Bom_Footprint"
+F 9 "CAP CER 47PF 50V C0G/NP0 0402" H 7250 3900 50  0001 C CNN "Description"
+F 10 "X7R" H 7250 3900 50  0001 C CNN "Dielectric"
+F 11 "16V" V 7100 3900 50  0000 C CNN "Voltage"
+	1    7250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:0.33uF C76
+U 1 1 5EB893B9
+P 7750 4500
+F 0 "C76" V 7316 4500 50  0000 C CNN
+F 1 "0.33uF" V 7407 4500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7788 4350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7750 4500 50  0001 C CNN
+F 4 "Yageo" H 7750 4500 50  0001 C CNN "Mfgr"
+F 5 "CC0805JKX7R7BB334" H 7750 4500 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 7750 4500 50  0001 C CNN "Source"
+F 7 "311-4215-1-ND" H 7750 4500 50  0001 C CNN "Source_PN"
+F 8 "0805" V 7498 4500 50  0000 C CNN "Bom_Footprint"
+F 9 "CAP CER 0.33UF 16V X7R 0805" H 7750 4500 50  0001 C CNN "Description"
+F 10 "X7R" H 7750 4500 50  0001 C CNN "Dielectric"
+F 11 "16V" V 7589 4500 50  0000 C CNN "Voltage"
+	1    7750 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:1uF C84
+U 1 1 5EB949C7
+P 11200 5150
+F 0 "C84" H 11315 5332 50  0000 L CNN
+F 1 "1uF" H 11315 5241 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 5000 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C105K9PACTU.pdf" H 11200 5150 50  0001 C CNN
+F 4 "KEMET" H 11200 5150 50  0001 C CNN "Mfgr"
+F 5 "C0603C105K9PACTU" H 11200 5150 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 11200 5150 50  0001 C CNN "Source"
+F 7 "399-7848-1-ND" H 11200 5150 50  0001 C CNN "Source_PN"
+F 8 "0603" H 11315 5150 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 1UF 6.3V X5R 0603" H 11200 5150 50  0001 C CNN "Description"
+F 10 "X5R" H 11315 5059 50  0000 L CNN "Dielectric"
+F 11 "6.3V" H 11315 4968 50  0000 L CNN "Voltage"
+	1    11200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pages4_5:PMEGxx05ET D9
+U 1 1 5EA0347E
+P 7250 4500
+F 0 "D9" H 7250 4600 50  0000 C CNN
+F 1 "PMEG4005ET" H 7250 4400 50  0000 C CNN
+F 2 "10005011 Power Management:SOT23-1G_1" H 7250 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf" H 7250 4500 50  0001 C CNN
+	1    7250 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 3900
+Connection ~ 9300 3900
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:4.7uF C90
+U 1 1 5EA78ACA
+P 10300 4150
+F 0 "C90" H 10415 4241 50  0000 L CNN
+F 1 "4.7uF" H 10415 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10338 4000 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf" H 10300 4150 50  0001 C CNN
+F 4 "KEMET" H 10300 4150 50  0001 C CNN "Mfgr"
+F 5 "C1210C475K5RACAUTO" H 10300 4150 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 10300 4150 50  0001 C CNN "Source"
+F 7 "399-7049-1-ND" H 10300 4150 50  0001 C CNN "Source_PN"
+F 8 "1210" H 10415 4059 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 4.7UF 50V X7R 1210" H 10300 4150 50  0001 C CNN "Description"
+F 10 "X7R" H 10300 4150 50  0001 C CNN "Dielectric"
+F 11 "50V" H 10300 4150 50  0001 C CNN "Voltage"
+	1    10300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:10uF C51
+U 1 1 5EA78ABC
+P 9900 4150
+F 0 "C51" H 10015 4241 50  0000 L CNN
+F 1 "10uF" H 10015 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 9938 4000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 9900 4150 50  0001 C CNN
+F 4 "TDK Corporation" H 9900 4150 50  0001 C CNN "Mfgr"
+F 5 "CGA9N3X7R1H106K230KB" H 9900 4150 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 9900 4150 50  0001 C CNN "Source"
+F 7 "445-7932-1-ND" H 9900 4150 50  0001 C CNN "Source_PN"
+F 8 "2220" H 10015 4059 50  0000 L CNN "Bom_Footprint"
+F 9 "CAP CER 10UF 50V X7R 2220" H 9900 4150 50  0001 C CNN "Description"
+F 10 "X7R" H 9900 4150 50  0001 C CNN "Dielectric"
+F 11 "50V" H 9900 4150 50  0001 C CNN "Voltage"
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:10uF C73
+U 1 1 5EA78AAE
+P 9500 4150
+F 0 "C73" H 9385 4241 50  0000 R CNN
+F 1 "10uF" H 9385 4150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 9538 4000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 9500 4150 50  0001 C CNN
+F 4 "TDK Corporation" H 9500 4150 50  0001 C CNN "Mfgr"
+F 5 "CGA9N3X7R1H106K230KB" H 9500 4150 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 9500 4150 50  0001 C CNN "Source"
+F 7 "445-7932-1-ND" H 9500 4150 50  0001 C CNN "Source_PN"
+F 8 "2220" H 9385 4059 50  0000 R CNN "Bom_Footprint"
+F 9 "CAP CER 10UF 50V X7R 2220" H 9500 4150 50  0001 C CNN "Description"
+F 10 "X7R" H 9500 4150 50  0001 C CNN "Dielectric"
+F 11 "50V" H 9500 4150 50  0001 C CNN "Voltage"
+	1    9500 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 11200 4900
+Wire Wire Line
+	11200 4900 11600 4900
+$Comp
+L 10005011_Power_Management_Schematic_Symbols:IRLML2803TRPBF T29
+U 1 1 5EA312AA
+P 11900 5800
+F 0 "T29" H 12000 5875 50  0000 L CNN
+F 1 "IRLML2803" H 12000 5800 50  0000 L CNN
+F 2 "10005011 Power Management:SOT23-GSD_1" H 12750 5725 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" H 12225 5500 50  0001 L CNN
+F 4 "IRLML2803TRPBF" H 12425 5725 50  0001 C CNN "Mfgr_PN"
+F 5 "Infineon Technologies" H 12550 5725 50  0001 C CNN "Mfgr"
+F 6 "Digi-Key" H 12300 5725 50  0001 C CNN "Source"
+F 7 "IRLML2803PBFCT-ND" H 12500 5725 50  0001 C CNN "Source_PN"
+F 8 "MOSFET N-CH 30V 1.2A SOT-23" H 12600 5725 50  0001 C CNN "Description"
+	1    11900 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
