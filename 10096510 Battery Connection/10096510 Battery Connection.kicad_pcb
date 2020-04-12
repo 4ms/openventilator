@@ -119,7 +119,7 @@
 
   (module 10096510_Battery_Connection:CONN_GKS-913-Z (layer F.Cu) (tedit 5E8C0A11) (tstamp 5E8D3E18)
     (at 248.1248 133.1314)
-    (descr 811-S1-002-30-014101-2)
+    (descr GKS-913 305 230 A 1502 S)
     (tags Connector)
     (path /5E9A6A5B)
     (attr smd)
@@ -139,11 +139,6 @@
     )
     (pad 1 thru_hole circle (at 0 0) (size 4.2926 4.2926) (drill 2.8956) (layers *.Cu *.Mask)
       (net 3 GND))
-    (model 811-S1-002-30-014101.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module 10096510_Battery_Connection:CONN_811S100230014101 (layer F.Cu) (tedit 5E8A5706) (tstamp 5E8D3D7A)
