@@ -1,4 +1,4 @@
-(module HT-13X27 (layer F.Cu) (tedit 0)
+(module HT-13X27 (layer F.Cu) (tedit 5E9474DE)
   (attr smd)
   (fp_text reference REF** (at 15.9131 -0.4826 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
@@ -22,4 +22,9 @@
   (fp_line (start 1.27 6.477) (end 29.21 6.477) (layer F.Fab) (width 0.0762))
   (pad - thru_hole circle (at 30.48 0) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
   (pad + thru_hole rect (at 0 0) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/10096315 Blower Driver.pretty/CP_Axial_L27.0mm_D13.0mm_P30.48mm_Horizontal.wrl"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
