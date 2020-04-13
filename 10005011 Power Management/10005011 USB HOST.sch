@@ -1922,7 +1922,7 @@ Wire Wire Line
 	13800 5800 13650 5800
 Connection ~ 13650 5800
 $Comp
-L Connector:USB_A J12
+L 10005011_Power_Management:USB_A_4shield J12
 U 1 1 5F2EF52D
 P 15500 1250
 F 0 "J12" H 15270 1239 50  0000 R CNN
@@ -1951,14 +1951,6 @@ F 7 "DLP31SN551ML2L" H 11800 1300 50  0001 C CNN "Manufacturer_No"
 	1    11800 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12000 1400 12800 1400
-Wire Wire Line
-	12000 1200 13700 1200
-Wire Wire Line
-	14950 1400 15100 1250
-Wire Wire Line
-	15100 1350 14950 1200
 Wire Wire Line
 	15100 1250 15200 1250
 Wire Wire Line
@@ -2069,23 +2061,11 @@ Wire Wire Line
 Wire Wire Line
 	12800 1550 12800 1700
 Wire Wire Line
-	12800 1550 12800 1400
-Connection ~ 12800 1550
-Connection ~ 12800 1400
-Wire Wire Line
-	12800 1400 14950 1400
-Wire Wire Line
 	13200 1700 13200 1550
 Wire Wire Line
 	13200 1550 13700 1550
 Wire Wire Line
 	13700 1550 13700 1700
-Wire Wire Line
-	13700 1550 13700 1200
-Connection ~ 13700 1550
-Connection ~ 13700 1200
-Wire Wire Line
-	13700 1200 14950 1200
 Wire Wire Line
 	14100 1700 14100 1550
 Wire Wire Line
@@ -2224,7 +2204,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 1050 10250 1050
 $Comp
-L Connector:USB_A J13
+L 10005011_Power_Management:USB_A_4shield J13
 U 1 1 5F94AF33
 P 15500 3150
 F 0 "J13" H 15270 3139 50  0000 R CNN
@@ -2257,10 +2237,6 @@ Wire Wire Line
 	12000 3300 12800 3300
 Wire Wire Line
 	12000 3100 13700 3100
-Wire Wire Line
-	14950 3300 15100 3150
-Wire Wire Line
-	15100 3250 14950 3100
 Wire Wire Line
 	15100 3150 15200 3150
 Wire Wire Line
@@ -2374,8 +2350,6 @@ Wire Wire Line
 Connection ~ 12800 3450
 Connection ~ 12800 3300
 Wire Wire Line
-	12800 3300 14950 3300
-Wire Wire Line
 	13200 3600 13200 3450
 Wire Wire Line
 	13200 3450 13700 3450
@@ -2385,8 +2359,6 @@ Wire Wire Line
 	13700 3450 13700 3100
 Connection ~ 13700 3450
 Connection ~ 13700 3100
-Wire Wire Line
-	13700 3100 14950 3100
 Wire Wire Line
 	14100 3600 14100 3450
 Wire Wire Line
@@ -2519,6 +2491,34 @@ Text Label 9700 8350 0    50   ~ 0
 NXROMSEL
 NoConn ~ 1750 9450
 NoConn ~ 1750 9350
+Wire Wire Line
+	12000 1200 13700 1200
+Wire Wire Line
+	12000 1400 12800 1400
+Wire Wire Line
+	12800 1550 12800 1400
+Connection ~ 12800 1550
+Connection ~ 12800 1400
+Wire Wire Line
+	13700 1550 13700 1200
+Connection ~ 13700 1550
+Connection ~ 13700 1200
+Wire Wire Line
+	15100 1200 15100 1250
+Wire Wire Line
+	13700 1200 15100 1200
+Wire Wire Line
+	15100 1400 15100 1350
+Wire Wire Line
+	12800 1400 15100 1400
+Wire Wire Line
+	15100 3100 15100 3150
+Wire Wire Line
+	13700 3100 15100 3100
+Wire Wire Line
+	15100 3300 15100 3250
+Wire Wire Line
+	12800 3300 15100 3300
 Wire Bus Line
 	9750 5850 9750 7350
 Wire Bus Line
