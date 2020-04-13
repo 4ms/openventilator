@@ -5426,13 +5426,13 @@
       (net 3 GND))
   )
 
-  (module FEE_COMP_1 (layer B.Cu) (tedit 0) (tstamp 0)
-    (at 104.2846 133.6648)
+  (module "10096315 Blower Driver:FEE_COMP" (layer B.Cu) (tedit 0) (tstamp 0)
+    (at 104.2846 133.6648 180)
     (attr smd)
-    (fp_text reference CAM14 (at -2.54 -1.016 unlocked) (layer B.SilkS) hide
+    (fp_text reference CAM14 (at -2.54 -1.016 180 unlocked) (layer B.SilkS) hide
       (effects (font (size 1.332992 1.40208) (thickness 0.254)) (justify mirror))
     )
-    (fp_text value FEE_COMP (at -4.064 -1.016 unlocked) (layer B.SilkS) hide
+    (fp_text value FEE_COMP (at -4.064 -1.016 180 unlocked) (layer B.SilkS) hide
       (effects (font (size 1.332992 1.40208) (thickness 0.254)) (justify mirror))
     )
     (fp_line (start 0.3302 -2.413) (end -0.1524 -2.4892) (layer Dwgs.User) (width 0.1))
@@ -5484,7 +5484,7 @@
     (fp_arc (start -2.5146 -3.8862) (end -2.57981 -3.433674) (angle 89.6) (layer Dwgs.User) (width 0.1))
   )
 
-  (module FEE_COMP_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10096315 Blower Driver:FEE_COMP" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 172.2296 133.6648)
     (attr smd)
     (fp_text reference CAM15 (at 2.54 -1.016 unlocked) (layer F.SilkS) hide
