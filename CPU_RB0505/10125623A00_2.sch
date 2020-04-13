@@ -704,31 +704,31 @@ D4
 Wire Wire Line
 	11500 4563 11137 4563
 Text GLabel 11137 4563 2    50   BiDi ~ 0
-RD/
+RD\
 Wire Wire Line
 	1425 8700 3062 8700
 Text GLabel 1425 8700 2    56   BiDi ~ 0
-RD/
+RD\
 Wire Wire Line
 	8384 4409 8384 4759
 Text GLabel 8384 4759 3    56   BiDi ~ 0
-RD/
+RD\
 Wire Wire Line
 	1450 1875 1562 1875
 Text GLabel 1450 1875 2    56   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	11500 4963 11137 4963
 Text GLabel 11137 4963 2    50   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	1425 8800 3062 8800
 Text GLabel 1425 8800 2    56   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	8484 4409 8484 4771
 Text GLabel 8484 4771 3    56   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	1675 9000 3062 9000
 Text GLabel 1675 9000 2    56   BiDi ~ 0
@@ -821,7 +821,7 @@ A2
 Wire Wire Line
 	11500 2063 10987 2063
 Text GLabel 10987 2063 0    56   BiDi ~ 0
-CS3/
+CS3\
 Wire Wire Line
 	11500 2563 11225 2563
 Wire Wire Line
@@ -897,7 +897,7 @@ RX-AL-RP
 Wire Wire Line
 	1587 7863 1425 7863
 Text GLabel 1425 7863 2    56   BiDi ~ 0
-CS0/
+CS0\
 Wire Wire Line
 	5162 7700 6200 7700
 Wire Wire Line
@@ -938,7 +938,7 @@ BUSY-ME1
 Wire Wire Line
 	5325 3288 5625 3288
 Text GLabel 5625 3288 2    56   BiDi ~ 0
-CE/-RTC2
+CE\-RTC2
 Wire Wire Line
 	10112 7375 10037 7375
 Text GLabel 10037 7375 0    56   BiDi ~ 0
@@ -1030,23 +1030,23 @@ CE-RTC1
 Wire Wire Line
 	5325 3488 5625 3488
 Text GLabel 5625 3488 2    56   BiDi ~ 0
-CE/-PROX-PRES-SENS
+CE\-PROX-PRES-SENS
 Wire Wire Line
 	5325 3388 5625 3388
 Text GLabel 5625 3388 2    56   BiDi ~ 0
-CE/-INT-PRES-SENS
+CE\-INT-PRES-SENS
 Wire Wire Line
 	5325 3588 5625 3588
 Text GLabel 5625 3588 2    56   BiDi ~ 0
-CE/-VALV-PRES-SENS
+CE\-VALV-PRES-SENS
 Wire Wire Line
 	5325 3888 5625 3888
 Text GLabel 5625 3888 2    56   BiDi ~ 0
-CE/-FLOW-INSP-SENS
+CE\-FLOW-INSP-SENS
 Wire Wire Line
 	5325 3988 5625 3988
 Text GLabel 5625 3988 2    56   BiDi ~ 0
-CE/-FLOW-EXP-SENS
+CE\-FLOW-EXP-SENS
 Wire Wire Line
 	5162 8600 5262 8600
 Wire Wire Line
@@ -1157,11 +1157,11 @@ A18
 Wire Wire Line
 	8284 4409 8284 4759
 Text GLabel 8284 4759 3    56   BiDi ~ 0
-CS1/
+CS1\
 Wire Wire Line
 	8584 4409 8584 4509
 Text GLabel 8584 4509 3    56   BiDi ~ 0
-RESET/
+RESET\
 Wire Wire Line
 	7784 3509 7534 3509
 Text GLabel 7534 3509 2    56   BiDi ~ 0

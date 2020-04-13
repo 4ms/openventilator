@@ -34,7 +34,7 @@ CD-VALVE
 Text GLabel 14225 5500 2    56   Output ~ 0
 EXHALATION-VALVE
 Text GLabel 6425 6350 0    56   Input ~ 0
-CE/-RTC2
+CE\-RTC2
 Text GLabel 14775 6275 2    56   Output ~ 0
 MES-I-VALVE
 Text GLabel 8150 2700 2    56   Output ~ 0
@@ -1562,5 +1562,5 @@ F 3 "" H 925 11125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4150 2800 2    56   Output ~ 0
-/RESET
+RESET\
 $EndSCHEMATC

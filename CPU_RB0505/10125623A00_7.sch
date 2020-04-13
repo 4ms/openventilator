@@ -492,15 +492,15 @@ A3
 Wire Wire Line
 	13587 2213 13587 2425
 Text GLabel 13587 2425 1    56   BiDi ~ 0
-RD/
+RD\
 Wire Wire Line
 	14187 2213 14187 2425
 Text GLabel 14187 2425 1    56   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	14387 2213 14387 2425
 Text GLabel 14387 2425 1    56   BiDi ~ 0
-CS4/
+CS4\
 Wire Wire Line
 	3237 5425 3012 5425
 Text GLabel 3237 5425 2    56   BiDi ~ 0

@@ -630,7 +630,7 @@ Wire Wire Line
 Wire Wire Line
 	7387 4163 7387 3963
 Text GLabel 6987 4163 0    56   BiDi ~ 0
-CE/-INT-PRES-SENS
+CE\-INT-PRES-SENS
 Wire Wire Line
 	7287 3963 7287 4063
 Wire Wire Line
@@ -762,13 +762,13 @@ Wire Wire Line
 Wire Wire Line
 	7437 7200 7437 7000
 Text GLabel 7087 7200 2    56   BiDi ~ 0
-CE/-PROX-PRES-SENS
+CE\-PROX-PRES-SENS
 Wire Wire Line
 	7087 10263 7412 10263
 Wire Wire Line
 	7412 10263 7412 10063
 Text GLabel 7087 10263 0    56   BiDi ~ 0
-CE/-VALV-PRES-SENS
+CE\-VALV-PRES-SENS
 Wire Wire Line
 	3062 9400 3637 9400
 Wire Wire Line
@@ -842,13 +842,13 @@ Wire Wire Line
 Wire Wire Line
 	11350 6088 11350 5888
 Text GLabel 10950 6088 2    56   BiDi ~ 0
-CE/-FLOW-INSP-SENS
+CE\-FLOW-INSP-SENS
 Wire Wire Line
 	13750 6088 14150 6088
 Wire Wire Line
 	14150 6088 14150 5888
 Text GLabel 13750 6088 2    56   BiDi ~ 0
-CE/-FLOW-EXP-SENS
+CE\-FLOW-EXP-SENS
 Wire Wire Line
 	3012 3713 3550 3713
 Wire Wire Line

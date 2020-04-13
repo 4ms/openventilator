@@ -638,23 +638,23 @@ Text GLabel 9887 3538 0    10   BiDi ~ 0
 Wire Wire Line
 	14812 4850 14812 4950
 Text GLabel 14812 4950 3    56   BiDi ~ 0
-RD/
+RD\
 Wire Wire Line
 	8112 7275 8312 7275
 Text GLabel 8312 7275 2    56   BiDi ~ 0
-RD/
+RD\
 Wire Wire Line
 	14912 4850 14912 4950
 Text GLabel 14912 4950 3    56   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	8312 7375 8112 7375
 Text GLabel 8312 7375 2    56   BiDi ~ 0
-WR/
+WR\
 Wire Wire Line
 	8312 6475 8112 6475
 Text GLabel 8312 6475 2    56   BiDi ~ 0
-CS1/
+CS1\
 Wire Wire Line
 	14512 4850 14512 4900
 Wire Wire Line
@@ -980,7 +980,7 @@ Wire Wire Line
 Wire Wire Line
 	4962 1488 4962 1625
 Text GLabel 3462 1488 2    56   BiDi ~ 0
-RESET/
+RESET\
 Wire Wire Line
 	8112 5775 8612 5775
 Text GLabel 8362 5775 2    56   BiDi ~ 0
@@ -1049,11 +1049,11 @@ CD-VALVE
 Wire Wire Line
 	8312 6775 8112 6775
 Text GLabel 8312 6775 2    56   BiDi ~ 0
-CS4/
+CS4\
 Wire Wire Line
 	8112 6375 8312 6375
 Text GLabel 8312 6375 2    56   BiDi ~ 0
-CS0/
+CS0\
 Wire Wire Line
 	2112 3075 2525 3075
 Wire Wire Line
@@ -1377,7 +1377,7 @@ QI-MEAS
 Wire Wire Line
 	8312 6675 8112 6675
 Text GLabel 8312 6675 2    56   BiDi ~ 0
-CS3/
+CS3\
 Wire Wire Line
 	1687 4275 2075 4275
 Wire Wire Line
