@@ -3402,6 +3402,22 @@ F 4 "0022057098" H 1650 10150 50  0000 C CNN "MPN"
 	1    1750 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 2750 1    50   ~ 0
-24V supply
+Text Notes 1350 2400 2    50   ~ 0
+24V from\npower supply
+Text Notes 1600 2250 0    50   ~ 0
+24V
+Text Notes 1600 2350 0    50   ~ 0
+GND
+Wire Notes Line
+	22750 6800 22750 7050
+Text Notes 22800 6950 0    50   ~ 0
+0-6V
+Text Notes 22800 7250 0    50   ~ 0
+6V
+Wire Notes Line
+	22750 7200 22750 7250
+Wire Notes Line
+	22750 7300 22750 7550
+Text Notes 22800 7500 0    50   ~ 0
+0-24V
 $EndSCHEMATC
