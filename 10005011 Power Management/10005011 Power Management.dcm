@@ -17,6 +17,12 @@ K N-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/2N7002AQ.pdf
 $ENDCMP
 #
+$CMP 47pF_array
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf
+$ENDCMP
+#
 $CMP BAT54
 D single schottky barrier diode, common cathode
 K schottky diode common cathode
@@ -33,6 +39,18 @@ $CMP BZX84C4V7
 D zener diode, 350mW, 4.7V
 K zener diode
 F https://4donline.ihs.com/images/VipMasterIC/IC/ONSM/ONSM-S-A0003405162/ONSM-S-A0003405162-1.pdf?hkey=EC6BD57738AE6E33B588C5F9AD3CEFA7
+$ENDCMP
+#
+$CMP BZX84C5V1
+D zener diode, 350mW, 5.1V
+K 10022657
+F https://www.diodes.com/assets/Datasheets/ds18001.pdf
+$ENDCMP
+#
+$CMP CMF2
+D Power entry module without line filter
+K power entry module switch
+F https://www.schurter.com/en/datasheet/typ_CMF2__CMF5.pdf
 $ENDCMP
 #
 $CMP CP
@@ -59,6 +77,35 @@ K 10039588
 F https://www.murata.com/en-eu/products/productdata/8796756410398/EFLE0007.pdf
 $ENDCMP
 #
+$CMP DS2480B
+D Serial to 1-Wire Line Driver
+K 1-Wire 1wire uart serial
+F https://datasheets.maximintegrated.com/en/ds/DS2480B.pdf
+$ENDCMP
+#
+$CMP ECM100US33>2413
+D POWER SUPPLY, 220VAC, 33VDC, 100W
+K 10022932
+$ENDCMP
+#
+$CMP INA170
+D High-Side, Bidirectional Current-Sense Amplifier
+K current monitor shunt sensor bidirectional high
+F https://www.ti.com/lit/ds/symlink/ina170.pdf
+$ENDCMP
+#
+$CMP IRFR024NTRPBF
+D 17A Id, 55V Vds, 75mOhm Rds, N-Channel MOSFET, DPAK (TO-252AA)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c
+$ENDCMP
+#
+$CMP IRLML2803TRPBF
+D 1.2A Id, 30V Vds, 250mOhm Rds, N-Channel MOSFET, SOT23
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f
+$ENDCMP
+#
 $CMP IRLML5103TRPBF
 D -0.76A Id, -30V Vds, 0.60Ohm Rds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
@@ -71,8 +118,20 @@ K diode device voltage reference shunt
 F http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
 $ENDCMP
 #
+$CMP LM4120AIM5-3.0
+D IC,VOLTAGE REFERENCE,5MA,3V +/-2%,SOT23
+K 10022896
+F http://www.ti.com/lit/ds/symlink/lm4120.pdf
+$ENDCMP
+#
 $CMP LT1620CMS8
 F https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf
+$ENDCMP
+#
+$CMP LTC1435CS
+D High Efficiency Low Noise Synchronous Step-Down Switching Regulator, SO-16
+K buck controller 36V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1435f.pdf
 $ENDCMP
 #
 $CMP LTC3780
@@ -85,9 +144,27 @@ K dip switch
 F ~
 $ENDCMP
 #
+$CMP NC7SZ66
+D IC,BUS SWITCH,SC70
+K 10039588
+F https://www.onsemi.com/pub/Collateral/NC7SZ66-D.pdf
+$ENDCMP
+#
 $CMP PGND
 D Power symbol creates a global label with name "PGND" , ground
 K power-flag
+$ENDCMP
+#
+$CMP PIC18F6622
+D PIC18F nanoWatt Technology MCU, 40MHz, 64KB Flash, 3.84KB RAM, 1KB EEPROM, 2.0-5.5V, 54 GPIO, TQFP-64
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39646c.pdf
+$ENDCMP
+#
+$CMP PMEG4005ET
+D 0.5A Schottky Diode, SOT-23
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf
 $ENDCMP
 #
 $CMP SI7884BDP
@@ -118,6 +195,18 @@ $CMP SZ1SMB
 D transient-voltage-suppression (TVS), 36V, 5A, unidirectional
 K diode TVS transient voltage supressor SMB
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP TLV3012AIDBV
+D Nanopower 1.8V comparator with voltage reference
+K comparator
+F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
+$ENDCMP
+#
+$CMP USB_B_Mini_2shield
+D USB MINI B
+K 10022867
+F ~
 $ENDCMP
 #
 $CMP VACDC
