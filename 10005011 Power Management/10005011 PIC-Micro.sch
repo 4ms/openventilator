@@ -320,8 +320,6 @@ Wire Wire Line
 	3250 5150 2700 5150
 Wire Wire Line
 	1800 6850 1800 6750
-Wire Wire Line
-	1800 6850 1800 6950
 Connection ~ 1800 6850
 $Comp
 L Device:C C64
@@ -358,8 +356,6 @@ F 3 "" H 1800 7450 50  0001 C CNN
 	1    1800 7450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 7450 1800 7350
 Text Label 1850 6850 0    50   ~ 0
 AMB-TEMP
 Wire Wire Line
@@ -777,9 +773,9 @@ $Comp
 L 10005011_Power_Management:BAT54 D1
 U 1 1 5FEC9584
 P 4050 9400
-F 0 "D1" H 4000 9085 50  0000 C CNN
-F 1 "BAT54" H 4000 9176 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3820 9238 50  0001 L CNN
+F 0 "D1" H 4000 9219 50  0000 C CNN
+F 1 "BAT54" H 4000 9310 50  0000 C CNN
+F 2 "10005011 Power Management:SOT23-1G_1" H 3820 9238 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/BAT54LT1-D.PDF" H 3970 9500 50  0001 C CNN
 F 4 "DIODE SCHOTTKY 30V 200MA SOT23-3" H 4375 9225 60  0001 C CNN "Description"
 F 5 "10022652" H 4050 9350 50  0001 C CNN "Item Number"
@@ -864,7 +860,7 @@ Wire Wire Line
 	4200 9900 4400 9900
 Wire Wire Line
 	4000 10400 4400 10400
-Text Notes 1600 7150 1    50   ~ 0
+Text Notes 1600 7450 1    50   ~ 0
 Ambient temperature\nmeasurement
 Text Notes 2500 1100 0    50   ~ 0
 PIC bypass capacitors
@@ -917,32 +913,36 @@ $EndComp
 Wire Wire Line
 	1950 9500 3400 9500
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:Thermistor_NTC_10k_4250K CT1
+L Device:Thermistor_NTC CT1
 U 1 1 5E9166E0
 P 1800 7150
 F 0 "CT1" H 1905 7150 50  0000 L CNN
-F 1 "ERT-J1VR103J" H 1905 7105 50  0001 L CNN
+F 1 "B57164K103J" H 1905 7105 50  0001 L CNN
 F 2 "10005011 Power Management:K164_1" H 1800 7150 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AUA0001+ERTJ1VR103J+7+WW" H 1800 7150 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/50/db/ntc/NTC_Leaded_disks_K164.pdf" H 1800 7150 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 1800 7150 50  0001 C CNN "Mfgr"
-F 5 "ERT-J1VR103J" H 1800 7150 50  0001 C CNN "Mfgr_PN"
+F 5 "B57164K103J" H 1800 7150 50  0001 C CNN "Mfgr_PN"
 F 6 "Digi-Key" H 1800 7150 50  0001 C CNN "Source"
-F 7 "P10547CT-ND" H 1800 7150 50  0001 C CNN "Source_PN"
-F 8 "THERMISTOR NTC 10KOHM 4250K 0603" H 1800 7150 50  0001 C CNN "Description"
-F 9 "0603" H 1800 7150 50  0001 C CNN "Bom_Footprint"
+F 7 "495-2080-ND" H 1800 7150 50  0001 C CNN "Source_PN"
+F 8 "THERMISTOR, 10K OHM, B4300. +/-5%" H 1800 7150 50  0001 C CNN "Description"
+F 9 "10022929" H 1800 7150 50  0001 C CNN "Item Number"
 	1    1800 7150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3400 10400 4000 10400
 $Comp
-L page1:DS2480B IC5
+L 10005011_Power_Management:DS2480B IC5
 U 1 1 60260D1A
 P 13700 6950
 F 0 "IC5" H 13400 7200 50  0000 L CNN
 F 1 "DS2480B" H 14000 7200 50  0000 R CNN
 F 2 "10005011 Power Management:MX.A8_COMPOSANT_1" H 13550 7700 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS2480B.pdf" H 13600 7150 50  0001 C CNN
+F 4 "IC, SERIAL TO 1-WIRE DRIVER, SOIC8" H 13700 6950 50  0001 C CNN "Description"
+F 5 "10022890" H 13700 6950 50  0001 C CNN "Item Number"
+F 6 "MAXIM" H 13700 6950 50  0001 C CNN "Manufacturer"
+F 7 "DS2480B+T&R" H 13700 6950 50  0001 C CNN "Manufacturer_No"
 	1    13700 6950
 	1    0    0    -1  
 $EndComp
@@ -1106,7 +1106,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 6650 15100 6650
 $Comp
-L 10005011_Power_Management_Schematic_Symbols:B72500T0040M060 ML5
+L Device:Varistor ML5
 U 1 1 5E931E5C
 P 12800 7400
 F 0 "ML5" H 12903 7446 50  0000 L CNN
@@ -1118,7 +1118,6 @@ F 5 "495-2595-1-ND" H 12800 7400 50  0001 C CNN "Source_PN"
 F 6 "TDK Electronics Inc." H 12800 7400 50  0001 C CNN "Mfgr"
 F 7 "B72500T0040M060" H 12800 7400 50  0001 C CNN "Mfgr_PN"
 F 8 "VARISTOR 8V 30A 0603" H 12800 7400 50  0001 C CNN "Description"
-F 9 "0603" H 12903 7309 50  0001 L CNN "Bom_Footprint"
 	1    12800 7400
 	1    0    0    1   
 $EndComp
@@ -1342,14 +1341,22 @@ Wire Wire Line
 	4400 9500 4250 9500
 Connection ~ 4400 9500
 $Comp
-L page1:PIC18F6622 IC3
+L 10005011_Power_Management:PIC18F6622 IC3
 U 1 1 5FEC9553
 P 4150 4600
 F 0 "IC3" H 3400 6600 50  0000 C CNN
 F 1 "PIC18F6622" H 3550 6500 50  0000 C CNN
 F 2 "10005011 Power Management:TQFP64_1" H 4150 3050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39646c.pdf" H 650 4200 50  0001 C CNN
+F 4 "MICROCON,8 BIT, FLASH 64K,RAM3966 BYTES,TQFP64" H 4150 4600 50  0001 C CNN "Description"
+F 5 "10022888" H 4150 4600 50  0001 C CNN "Item Number"
+F 6 "MICROCHIP TECHNOLOGY" H 4150 4600 50  0001 C CNN "Manufacturer"
+F 7 "PIC18F6622-I/PT" H 4150 4600 50  0001 C CNN "Manufacturer_No"
 	1    4150 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 6850 1800 7000
+Wire Wire Line
+	1800 7300 1800 7450
 $EndSCHEMATC
