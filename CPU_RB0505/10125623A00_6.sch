@@ -45,7 +45,7 @@ Wire Wire Line
 Connection ~ 11700 3213
 Connection ~ 11600 3213
 Connection ~ 11500 3213
-Text GLabel 11900 3075 0    10   BiDi ~ 0
+Text HLabel 11900 3075 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	9187 7925 9187 7988
@@ -73,7 +73,7 @@ Connection ~ 9037 7988
 Connection ~ 9187 7988
 Connection ~ 9387 7988
 Connection ~ 9587 7988
-Text GLabel 9187 7925 0    10   BiDi ~ 0
+Text HLabel 9187 7925 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	3400 5250 3400 5325
@@ -102,13 +102,13 @@ Connection ~ 5250 3250
 Connection ~ 5250 3150
 Wire Wire Line
 	10275 8038 10275 7863
-Text GLabel 10850 7125 2    56   Output ~ 0
+Text HLabel 10850 7125 2    56   Output ~ 0
 DEF-TURB
-Text GLabel 10850 6725 2    56   Input ~ 0
+Text HLabel 10850 6725 2    56   Input ~ 0
 CONS-VIT
-Text GLabel 10850 6525 2    56   Output ~ 0
+Text HLabel 10850 6525 2    56   Output ~ 0
 SPEED_MEASURE
-Text GLabel 10850 6925 2    56   Input ~ 0
+Text HLabel 10850 6925 2    56   Input ~ 0
 BRAKE
 Wire Wire Line
 	12100 2300 11500 2300
@@ -139,7 +139,7 @@ Wire Wire Line
 	10725 2600 10725 2500
 Wire Wire Line
 	10725 2500 10950 2500
-Text GLabel 14525 1925 2    70   Input ~ 0
+Text HLabel 14525 1925 2    70   Input ~ 0
 CON-FIO2-MEAS
 Wire Wire Line
 	2175 6650 2400 6650
@@ -191,11 +191,11 @@ Wire Wire Line
 Connection ~ 3400 6450
 Wire Wire Line
 	4675 6450 4987 6450
-Text GLabel 4987 6450 2    56   Input ~ 0
+Text HLabel 4987 6450 2    56   Input ~ 0
 PWM-BUZ
 Wire Wire Line
 	4675 6350 4987 6350
-Text GLabel 4987 6350 2    56   Input ~ 0
+Text HLabel 4987 6350 2    56   Input ~ 0
 INV-STOP
 Wire Wire Line
 	4675 6150 4987 6150
@@ -203,7 +203,7 @@ Text Label 4987 6150 0    56   ~ 0
 SUPPLY-BUZ
 Text Label 9700 3325 2    56   ~ 0
 SUPPLY-BUZ
-Text GLabel 4975 5825 2    56   Input ~ 0
+Text HLabel 4975 5825 2    56   Input ~ 0
 INHIB-STOP-INV
 Wire Wire Line
 	10725 2300 10950 2300
@@ -223,30 +223,30 @@ Wire Wire Line
 Connection ~ 2300 3775
 Wire Wire Line
 	3050 3575 2725 3575
-Text GLabel 3050 3575 2    56   Input ~ 0
+Text HLabel 3050 3575 2    56   Input ~ 0
 EXHALATION-VALVE
-Text GLabel 14600 3650 2    70   Input ~ 0
+Text HLabel 14600 3650 2    70   Input ~ 0
 O2-VALVE
-Text GLabel 14500 5800 2    56   Output ~ 0
+Text HLabel 14500 5800 2    56   Output ~ 0
 Q-O2-MEAS
 Wire Wire Line
 	6350 6250 6200 6250
 Wire Wire Line
 	6350 6500 6350 6250
 Connection ~ 6350 6250
-Text GLabel 6650 6250 2    70   BiDi ~ 0
+Text HLabel 6650 6250 2    70   BiDi ~ 0
 TESTBUZ
 Wire Wire Line
 	4675 6250 5800 6250
-Text GLabel 9825 1700 0    56   Input ~ 0
+Text HLabel 9825 1700 0    56   Input ~ 0
 TX-AL-RP
 Wire Wire Line
 	5350 2950 5200 2950
-Text GLabel 5200 2950 0    66   Input ~ 0
+Text HLabel 5200 2950 0    66   Input ~ 0
 TX-AL-RP
 Wire Wire Line
 	6800 2950 6650 2950
-Text GLabel 6800 2950 2    56   Input ~ 0
+Text HLabel 6800 2950 2    56   Input ~ 0
 RX-AL-RP
 Wire Wire Line
 	11250 1700 11300 1700
@@ -282,12 +282,10 @@ Wire Wire Line
 	9275 5725 8850 5725
 Wire Wire Line
 	9275 5650 9275 5725
-Wire Wire Line
-	9275 5725 9687 5725
 Connection ~ 9275 5725
-Text GLabel 9675 5725 2    56   Output ~ 0
+Text HLabel 9700 5725 2    56   Output ~ 0
 TURBINE-TEMP
-Text GLabel 10850 7325 2    56   Output ~ 0
+Text HLabel 10850 7325 2    56   Output ~ 0
 ENABLE-TURB
 Wire Wire Line
 	9275 5250 9275 5125
@@ -298,9 +296,9 @@ Wire Wire Line
 Wire Wire Line
 	11300 2775 11300 1900
 Connection ~ 11300 1900
-Text GLabel 10050 3100 0    56   Output ~ 0
+Text HLabel 10050 3100 0    56   Output ~ 0
 TEST-RAP-ALARM
-Text GLabel 8875 4275 0    56   Input ~ 0
+Text HLabel 8875 4275 0    56   Input ~ 0
 RAP-ALAR
 Wire Wire Line
 	5350 2050 5250 2050
@@ -329,11 +327,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 3750 7900 3750
 Connection ~ 8350 3750
-Text GLabel 7900 3750 0    56   Input ~ 0
+Text HLabel 7900 3750 0    56   Input ~ 0
 RF
-Text GLabel 10050 1500 0    56   Input ~ 0
+Text HLabel 10050 1500 0    56   Input ~ 0
 SUPPLY-AL-RP
-Text GLabel 3075 6650 2    70   BiDi ~ 0
+Text HLabel 3075 6650 2    70   BiDi ~ 0
 +5VSUPPLY-BOARD
 $Comp
 L cpu-board:GND #U$43
@@ -536,7 +534,7 @@ $Comp
 L cpu-board:B2B_ZR J19
 U 1 1 69705732
 P 1875 3675
-F 0 "J19" H 1787 3375 85  0000 L BNN
+F 0 "J19" H 1775 3325 85  0000 L BNN
 F 1 "B2B_ZR" H 1775 3237 59  0001 L BNN
 F 2 "10125623A00:2BR" H 1875 3675 50  0001 C CNN
 F 3 "" H 1875 3675 50  0001 C CNN
@@ -1076,7 +1074,7 @@ $Comp
 L cpu-board:G6K2G RL1
 U 1 1 AE3C6605
 P 10225 2400
-F 0 "RL1" H 9975 2550 85  0000 L BNN
+F 0 "RL1" H 10550 2375 45  0001 L BNN
 F 1 "G6K2G" H 10225 2650 59  0001 L BNN
 F 2 "10125623A00:G6K2G" H 10225 2400 50  0001 C CNN
 F 3 "" H 10225 2400 50  0001 C CNN
@@ -1098,7 +1096,7 @@ $Comp
 L cpu-board:G6K2G RL1
 U 3 1 AE3C660D
 P 10650 3000
-F 0 "RL1" H 11150 2825 85  0000 L BNN
+F 0 "RL1" H 10625 3050 45  0001 L BNN
 F 1 "G6K2G" H 10650 3250 59  0001 L BNN
 F 2 "10125623A00:G6K2G" H 10650 3000 50  0001 C CNN
 F 3 "" H 10650 3000 50  0001 C CNN
@@ -1523,7 +1521,7 @@ F 3 "" H 2625 2400 50  0001 C CNN
 	1    2625 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 1875 2    56   Input ~ 0
+Text HLabel 3050 1875 2    56   Input ~ 0
 FLOW-TEMP
 Wire Wire Line
 	2075 2075 2100 2075
@@ -1532,7 +1530,7 @@ L cpu-board:B2B_ZR J5
 U 1 1 7C49DE93
 P 1875 1975
 F 0 "J5" H 1775 1625 85  0000 L BNN
-F 1 "B2B_ZR" H 1775 1537 59  0000 L BNN
+F 1 "B2B_ZR" H 1775 1537 59  0001 L BNN
 F 2 "10125623A00:2BR" H 1875 1975 50  0001 C CNN
 F 3 "" H 1875 1975 50  0001 C CNN
 	1    1875 1975
@@ -1879,7 +1877,7 @@ Wire Wire Line
 	10950 1700 9825 1700
 Wire Wire Line
 	10950 1900 9825 1900
-Text GLabel 9825 1900 0    56   Output ~ 0
+Text HLabel 9825 1900 0    56   Output ~ 0
 RX-AL-RP
 Wire Wire Line
 	9325 4050 9325 4275
@@ -1996,4 +1994,6 @@ Wire Wire Line
 	5050 2000 5050 2150
 Wire Wire Line
 	5250 2000 5250 2050
+Wire Wire Line
+	9275 5725 9700 5725
 $EndSCHEMATC
