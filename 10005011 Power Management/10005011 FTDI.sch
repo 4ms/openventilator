@@ -1106,7 +1106,7 @@ U 1 1 5EE9F24C
 P 13400 4650
 F 0 "D11" V 13354 4729 50  0000 L CNN
 F 1 "STPS340U" V 13445 4729 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 13400 4650 50  0001 C CNN
+F 2 "10005011 Power Management:SMB_1" H 13400 4650 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/db/21/0c/04/d9/41/a5/CD00000844.pdf/files/CD00000844.pdf/jcr:content/translations/en.CD00000844.pdf" H 13400 4650 50  0001 C CNN
 F 4 "Digi-Key" H 13400 4650 50  0001 C CNN "Source"
 F 5 "497-2465-1-ND" H 13400 4650 50  0001 C CNN "Source_PN"
