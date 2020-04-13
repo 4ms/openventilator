@@ -2393,10 +2393,11 @@ $Comp
 L Blower_Driver_Components:JumperBypass J4
 U 1 1 5FC8B115
 P 2700 2850
-F 0 "J4" V 2436 2850 50  0000 C CNN
-F 1 "JumperBypass" V 2527 2850 50  0000 C CNN
+F 0 "J4" V 2400 2850 50  0000 C CNN
+F 1 "JumperBypass" V 2500 2850 50  0000 C CNN
 F 2 "10096315 Blower Driver:JUMPER2_NoCopper" H 2700 3350 50  0001 C CNN
-F 3 "" H 2700 3350 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 2700 3350 50  0001 C CNN
+F 4 "BNX002011" V 2600 2850 50  0000 C CNN "MPN"
 	1    2700 2850
 	0    1    1    0   
 $EndComp
@@ -2424,9 +2425,10 @@ L Blower_Driver_Components:2pinConnector_Unknown J11
 U 1 1 5FD2E324
 P 1550 2600
 F 0 "J11" H 1450 2550 50  0000 C CNN
-F 1 "2pinConnector_Unknown" H 1500 2250 50  0000 C CNN
+F 1 "2pinConnector_Unpopulated" H 1500 2250 50  0000 C CNN
 F 2 "10096315 Blower Driver:MOL5566-2" H 1550 2600 50  0001 C CNN
-F 3 "" H 1550 2600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf" H 1550 2600 50  0001 C CNN
+F 4 "0039281023" H 1450 2150 50  0000 C CNN "MPN"
 	1    1550 2600
 	1    0    0    -1  
 $EndComp
@@ -2671,17 +2673,6 @@ Wire Wire Line
 	3100 11200 3100 11550
 Wire Wire Line
 	2200 13350 2350 13350
-$Comp
-L Blower_Driver_Components:9pinConnector J22
-U 1 1 601E1979
-P 1750 9650
-F 0 "J22" H 1708 10075 50  0000 C CNN
-F 1 "9pinConnector" H 1708 9984 50  0000 C CNN
-F 2 "10096315 Blower Driver:MOL7395-9" H 1800 10150 50  0001 C CNN
-F 3 "" H 1800 10150 50  0001 C CNN
-	1    1750 9650
-	1    0    0    -1  
-$EndComp
 Text Notes 1350 9450 0    50   ~ 0
 IDENT
 Text Notes 1400 10300 0    50   ~ 0
@@ -2783,9 +2774,10 @@ P 16450 2400
 F 0 "C28" H 16565 2491 50  0000 L CNN
 F 1 "Capacitor_1000uF" H 16450 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:HT-13X27" H 16500 1950 50  0001 C CNN
-F 3 "" H 16450 2850 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf" H 16450 2850 50  0001 C CNN
 F 4 "1000uF" H 16565 2400 50  0000 L CNN "Capacitance"
 F 5 "35V" H 16565 2309 50  0000 L CNN "Voltage"
+F 6 "108TTA035M" H 16500 2200 50  0000 C CNN "MPN"
 	1    16450 2400
 	1    0    0    -1  
 $EndComp
@@ -2796,9 +2788,10 @@ P 17150 2400
 F 0 "C29" H 17265 2491 50  0000 L CNN
 F 1 "Capacitor_1000uF" H 17150 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:HT-13X27" H 17200 1950 50  0001 C CNN
-F 3 "" H 17150 2850 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf" H 17150 2850 50  0001 C CNN
 F 4 "1000uF" H 17265 2400 50  0000 L CNN "Capacitance"
 F 5 "35V" H 17265 2309 50  0000 L CNN "Voltage"
+F 6 "108TTA035M" H 17300 2200 50  0000 C CNN "MPN"
 	1    17150 2400
 	1    0    0    -1  
 $EndComp
@@ -3397,4 +3390,16 @@ Wire Wire Line
 Wire Wire Line
 	17900 10050 19450 10050
 Connection ~ 16550 10550
+$Comp
+L Blower_Driver_Components:9pinConnector J22
+U 1 1 601E1979
+P 1750 9650
+F 0 "J22" H 1708 10075 50  0000 C CNN
+F 1 "9pinConnector_Unpopulated" H 1708 9984 50  0000 C CNN
+F 2 "10096315 Blower Driver:MOL7395-9" H 1800 10150 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0022057098_PCB_HEADERS.pdf" H 1800 10150 50  0001 C CNN
+F 4 "0022057098" H 1650 10150 50  0000 C CNN "MPN"
+	1    1750 9650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
