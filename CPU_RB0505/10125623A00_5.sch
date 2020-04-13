@@ -127,23 +127,13 @@ Text Notes 13650 10550 0    170  ~ 0
 RB0505
 Text Notes 13825 11025 0    170  ~ 0
 10125623
-Text GLabel 4175 2250 2    56   Output ~ 0
-+5VREF
-Text GLabel 4175 4650 2    56   Output ~ 0
-+10VREF
-Text GLabel 4250 6400 2    56   Output ~ 0
-+3,3V
-Text GLabel 7850 3900 0    56   Input ~ 0
-+10VREF
-Text GLabel 7850 6250 0    70   Input ~ 0
-+3,3V
-Text GLabel 9825 2300 2    56   Output ~ 0
+Text HLabel 9825 2300 2    56   Output ~ 0
 +5VREF-FAILURE
-Text GLabel 9825 4575 2    56   Output ~ 0
+Text HLabel 9825 4575 2    56   Output ~ 0
 +10VREF-FAILURE
-Text GLabel 9825 6925 2    56   Output ~ 0
+Text HLabel 9825 6925 2    56   Output ~ 0
 +3,3V-FAILURE
-Text GLabel 15250 2500 2    56   Output ~ 0
+Text HLabel 15250 2500 2    56   Output ~ 0
 MES-24V
 $Comp
 L cpu-board:+24V #U$37
@@ -841,8 +831,6 @@ Wire Wire Line
 	3925 2100 3925 2250
 Connection ~ 3925 2250
 Wire Wire Line
-	3925 2250 4175 2250
-Wire Wire Line
 	3925 2375 3925 2250
 Wire Wire Line
 	3475 2800 3925 2800
@@ -929,8 +917,6 @@ Wire Wire Line
 	3925 4500 3925 4650
 Connection ~ 3925 4650
 Wire Wire Line
-	3925 4650 4175 4650
-Wire Wire Line
 	3925 4775 3925 4650
 Wire Wire Line
 	3475 5200 3925 5200
@@ -994,9 +980,6 @@ Wire Wire Line
 Connection ~ 3875 6400
 Wire Wire Line
 	3975 6250 3975 6400
-Connection ~ 3975 6400
-Wire Wire Line
-	3975 6400 4250 6400
 Wire Wire Line
 	1700 9875 1700 10325
 Wire Wire Line
@@ -1162,12 +1145,10 @@ Wire Wire Line
 Connection ~ 8450 3900
 Wire Wire Line
 	7950 3900 7850 3900
-Text GLabel 7850 1625 0    56   Input ~ 0
-+5VREF
 Wire Wire Line
-	7850 1625 8750 1625
+	7850 1750 8750 1750
 Wire Wire Line
-	8750 1625 8750 1800
+	8750 1750 8750 1800
 Wire Wire Line
 	9450 2300 9825 2300
 Wire Wire Line
@@ -1431,14 +1412,48 @@ Connection ~ 12700 1975
 Wire Wire Line
 	12700 1975 12975 1975
 $Comp
-L cpu-board:CART_A3 1
-U 1 1 5EBB773C
-P 925 11100
-F 0 "1" H 975 11150 50  0001 C CNN
-F 1 "CART_A3" H 925 11100 50  0001 C CNN
-F 2 "" H 925 11100 50  0001 C CNN
-F 3 "" H 925 11100 50  0001 C CNN
-	1    925  11100
+L cpu-board:+3,3V #U$?
+U 1 1 5E9E0DC3
+P 7850 6300
+AR Path="/5E9E0DC3" Ref="#U$?"  Part="1" 
+AR Path="/5E92540F/5E9E0DC3" Ref="#U$?"  Part="1" 
+F 0 "#U$?" H 7850 6300 50  0001 C CNN
+F 1 "+3,3V" H 7750 6512 59  0000 L BNN
+F 2 "" H 7850 6300 50  0001 C CNN
+F 3 "" H 7850 6300 50  0001 C CNN
+	1    7850 6300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7850 6200 7850 6250
+$Comp
+L cpu-board:+10VREF #U$?
+U 1 1 5E9E8B84
+P 7850 3800
+AR Path="/5E9E8B84" Ref="#U$?"  Part="1" 
+AR Path="/5E92540F/5E9E8B84" Ref="#U$?"  Part="1" 
+F 0 "#U$?" H 7850 3800 50  0001 C CNN
+F 1 "+10VREF" H 7675 3625 59  0000 L BNN
+F 2 "" H 7850 3800 50  0001 C CNN
+F 3 "" H 7850 3800 50  0001 C CNN
+	1    7850 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L cpu-board:+5VREF #U$?
+U 1 1 5E9E93B2
+P 7850 1625
+AR Path="/5E9E93B2" Ref="#U$?"  Part="1" 
+AR Path="/5E92540F/5E9E93B2" Ref="#U$?"  Part="1" 
+F 0 "#U$?" H 7850 1625 50  0001 C CNN
+F 1 "+5VREF" H 7675 1537 59  0000 L BNN
+F 2 "" H 7850 1625 50  0001 C CNN
+F 3 "" H 7850 1625 50  0001 C CNN
+	1    7850 1625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 1725 7850 1750
+Wire Wire Line
+	7850 3800 7850 3900
 $EndSCHEMATC
