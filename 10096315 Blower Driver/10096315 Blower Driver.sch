@@ -407,8 +407,8 @@ P 15950 4500
 F 0 "D11" V 16041 4422 50  0000 R CNN
 F 1 "DiodeZener_30V" H 15950 4750 50  0001 C CNN
 F 2 "10096315 Blower Driver:SOD80" H 15950 4300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" H 15950 4650 50  0001 C CNN
-F 4 "BZG03C30-M3-08" V 16000 5300 50  0000 R CNN "MPN"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 15950 4650 50  0001 C CNN
+F 4 "BZV55-C15" V 16000 5300 50  0000 R CNN "MPN"
 F 5 "30V" V 15900 4700 50  0000 R CNN "Reverse Voltage"
 	1    15950 4500
 	0    -1   -1   0   
@@ -824,8 +824,8 @@ P 15950 7300
 F 0 "D12" V 16041 7222 50  0000 R CNN
 F 1 "DiodeZener_30V" H 15950 7550 50  0001 C CNN
 F 2 "10096315 Blower Driver:SOD80" H 15950 7100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" H 15950 7450 50  0001 C CNN
-F 4 "BZG03C30-M3-08" V 16000 8100 50  0000 R CNN "MPN"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 15950 7450 50  0001 C CNN
+F 4 "BZV55-C15" V 16000 8100 50  0000 R CNN "MPN"
 F 5 "30V" V 15900 7500 50  0000 R CNN "Reverse Voltage"
 	1    15950 7300
 	0    -1   -1   0   
@@ -1227,8 +1227,8 @@ P 15950 10200
 F 0 "D13" V 16041 10122 50  0000 R CNN
 F 1 "DiodeZener_30V" H 15950 10450 50  0001 C CNN
 F 2 "10096315 Blower Driver:SOD80" H 15950 10000 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" H 15950 10350 50  0001 C CNN
-F 4 "BZG03C30-M3-08" V 16000 11000 50  0000 R CNN "MPN"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 15950 10350 50  0001 C CNN
+F 4 "BZV55-C15" V 16000 11000 50  0000 R CNN "MPN"
 F 5 "30V" V 15900 10400 50  0000 R CNN "Reverse Voltage"
 	1    15950 10200
 	0    -1   -1   0   
