@@ -23,7 +23,7 @@ F 2 "10096315 Blower Driver:03515" H 11200 1950 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-ucd.pdf" H 11150 2850 50  0001 C CNN
 F 4 "UCD1E471MNL6GS" H 11700 2250 50  0001 C CNN "MPN"
 F 5 "470uF" H 11265 2400 50  0000 L CNN "Capacitance"
-F 6 "35V" H 11265 2309 50  0000 L CNN "Voltage"
+F 6 "25V" H 11265 2309 50  0000 L CNN "Voltage"
     1    11150 2400
     1    0    0    -1
 $EndComp
