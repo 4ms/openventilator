@@ -3402,4 +3402,6 @@ F 4 "0022057098" H 1650 10150 50  0000 C CNN "MPN"
 	1    1750 9650
 	1    0    0    -1  
 $EndComp
+Text Notes 1300 2750 1    50   ~ 0
+24 V supply
 $EndSCHEMATC
