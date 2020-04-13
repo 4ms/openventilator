@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu19.10.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -2768,7 +2768,7 @@
       (net 59 "Net-(C4-Pad+)"))
   )
 
-  (module "10096315 Blower Driver:BNX002" (layer F.Cu) (tedit 0) (tstamp 5E90C2A8)
+  (module "10096315 Blower Driver:BNX002" (layer F.Cu) (tedit 5E9393B6) (tstamp 5E90C2A8)
     (at 106.1896 88.5798)
     (path /5FB69A1D)
     (attr smd)
@@ -2803,6 +2803,11 @@
       (net 26 GNDPWR))
     (pad PSG thru_hole circle (at -2.4892 -2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad1)"))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/BNX002.step"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "10096315 Blower Driver:C0603" (layer F.Cu) (tedit 0) (tstamp 5E90C2BE)
@@ -3367,7 +3372,7 @@
       (net 5 +15V))
   )
 
-  (module "10096315 Blower Driver:MOL43650-02C" (layer F.Cu) (tedit 0) (tstamp 5E90C432)
+  (module "10096315 Blower Driver:MOL43650-02C" (layer F.Cu) (tedit 5E93B08C) (tstamp 5E90C432)
     (at 118.5848 82.3314 180)
     (path /5FD03D04)
     (attr smd)
@@ -3432,9 +3437,14 @@
       (net 1 "Net-(C1-Pad2)"))
     (pad 3 smd rect (at -4.9276 5.1562 270) (size 1.6764 4.2926) (layers F.Cu F.Paste F.Mask))
     (pad 4 smd rect (at 4.9276 5.1562 270) (size 1.6764 4.2926) (layers F.Cu F.Paste F.Mask))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/MOLEX_43650-0213.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "10096315 Blower Driver:BP2X5D" (layer F.Cu) (tedit 0) (tstamp 5E90C46A)
+  (module "10096315 Blower Driver:BP2X5D" (layer F.Cu) (tedit 5E939C4E) (tstamp 5E90C46A)
     (at 172.0772 66.6596 180)
     (path /601AF9B5)
     (attr smd)
@@ -3490,9 +3500,14 @@
       (net 19 "Net-(C22-Pad2)"))
     (pad 10 thru_hole circle (at 10.16 -2.54 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask)
       (net 18 "Net-(C22-Pad1)"))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/7810-0000xxSE-recenter.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "10096315 Blower Driver:MOL7395-2" (layer F.Cu) (tedit 0) (tstamp 5E90C491)
+  (module "10096315 Blower Driver:MOL7395-2" (layer F.Cu) (tedit 5E93A6FC) (tstamp 5E90C491)
     (at 118.5848 119.0598 90)
     (path /5FF3C39E)
     (attr smd)
@@ -3545,9 +3560,14 @@
       (net 33 /TEMP-))
     (pad 2 thru_hole circle (at 2.54 0 90) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask)
       (net 32 /TEMP+))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/22-05-7028-recenter.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "10096315 Blower Driver:MOL7395-8" (layer F.Cu) (tedit 0) (tstamp 5E90C4BD)
+  (module "10096315 Blower Driver:MOL7395-8" (layer F.Cu) (tedit 5E93A4F0) (tstamp 5E90C4BD)
     (at 118.5848 113.9798 90)
     (path /5FF3C397)
     (attr smd)
@@ -3630,9 +3650,14 @@
       (net 39 /SENSOR2))
     (pad 8 thru_hole circle (at 17.78 0 90) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask)
       (net 40 /SENSOR3))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/22-05-7088-recenter.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "10096315 Blower Driver:MOL5566-2" (layer F.Cu) (tedit 0) (tstamp 5E90C501)
+  (module "10096315 Blower Driver:MOL5566-2" (layer F.Cu) (tedit 5E93AE18) (tstamp 5E90C501)
     (at 101.1096 79.3596 270)
     (path /5FD2E324)
     (attr smd)
@@ -3677,9 +3702,14 @@
       (net 2 "Net-(C1-Pad1)"))
     (pad 2 thru_hole circle (at 0 -5.4864 270) (size 2.286 2.286) (drill 1.4224) (layers *.Cu *.Mask)
       (net 1 "Net-(C1-Pad2)"))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/039281023-recenter.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "10096315 Blower Driver:MOL7395-9" (layer F.Cu) (tedit 0) (tstamp 5E90C525)
+  (module "10096315 Blower Driver:MOL7395-9" (layer F.Cu) (tedit 5E93A098) (tstamp 5E90C525)
     (at 171.0866 76.8196 270)
     (path /601E1979)
     (attr smd)
@@ -3770,6 +3800,11 @@
       (net 58 "Net-(J22-Pad8)"))
     (pad 9 thru_hole circle (at 20.32 0 270) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask)
       (net 34 /OE))
+    (model "${KIPRJMOD}/10096315 Blower Driver.pretty/22-05-7098-recenter.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "10096315 Blower Driver:MIRECMS-SAFT" (layer F.Cu) (tedit 0) (tstamp 5E90C570)
