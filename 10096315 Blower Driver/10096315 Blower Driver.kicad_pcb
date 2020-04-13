@@ -5326,7 +5326,7 @@
       (net 4 +24V))
   )
 
-  (module C-SC8_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10096315 Blower Driver:C-SC8" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 162.7046 81.8996 90)
     (attr smd)
     (fp_text reference ZC2 (at 1.016 1.524 unlocked) (layer F.SilkS) hide
@@ -5375,7 +5375,7 @@
       (net 3 GND))
   )
 
-  (module C-SC10_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10096315 Blower Driver:C-SC10" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 163.0348 92.6946 90)
     (attr smd)
     (fp_text reference ZC27 (at 1.016 2.032 unlocked) (layer F.SilkS) hide
