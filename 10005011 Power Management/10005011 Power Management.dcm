@@ -128,6 +128,12 @@ $CMP LT1620CMS8
 F https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf
 $ENDCMP
 #
+$CMP LT1716IS5
+D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
+K single comparator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1716.pdf
+$ENDCMP
+#
 $CMP LTC1435CS
 D High Efficiency Low Noise Synchronous Step-Down Switching Regulator, SO-16
 K buck controller 36V
@@ -201,6 +207,12 @@ $CMP TLV3012AIDBV
 D Nanopower 1.8V comparator with voltage reference
 K comparator
 F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
+$ENDCMP
+#
+$CMP TLV7031DBV
+D Single, 1.6V-6.5V, 315nA Quiescent, Push-Pull Output, Comparator, SOT-23-5/SC-70
+K single comparator
+F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
 $CMP USB_B_Mini_2shield

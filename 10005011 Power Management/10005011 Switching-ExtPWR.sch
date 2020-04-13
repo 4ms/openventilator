@@ -1039,13 +1039,17 @@ F 7 "LM4040DIM3-5.0" H 8750 8200 50  0001 C CNN "Manufacturer_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Comparator:MCP6561-OT IC21
+L 10005011_Power_Management:LT1716IS5 IC21
 U 1 1 5FF785A2
 P 9600 8350
 F 0 "IC21" H 9550 8600 50  0000 L CNN
 F 1 "LT1716IS5" H 9550 8500 50  0000 L CNN
 F 2 "10005011 Power Management:SOT23-5_1" H 9500 8150 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1716.pdf" H 9600 8550 50  0001 C CNN
+F 4 "IC,RAIL TO RAIL COMPARATOR, 44V, SOT23" H 9600 8350 50  0001 C CNN "Description"
+F 5 "10022902" H 9600 8350 50  0001 C CNN "Item Number"
+F 6 "LINEAR TECHNOLOGY" H 9600 8350 50  0001 C CNN "Manufacturer"
+F 7 "LT1716IS5#TRPBF" H 9600 8350 50  0001 C CNN "Manufacturer_No"
 	1    9600 8350
 	1    0    0    -1  
 $EndComp
@@ -1287,13 +1291,17 @@ F 7 "LM4040DIM3-5.0" H 13200 8300 50  0001 C CNN "Manufacturer_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Comparator:MCP6561-OT IC22
+L 10005011_Power_Management:LT1716IS5 IC22
 U 1 1 60B1879E
 P 14050 8450
 F 0 "IC22" H 14000 8700 50  0000 L CNN
 F 1 "LT1716IS5" H 14000 8600 50  0000 L CNN
 F 2 "10005011 Power Management:SOT23-5_1" H 13950 8250 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1716.pdf" H 14050 8650 50  0001 C CNN
+F 4 "IC,RAIL TO RAIL COMPARATOR, 44V, SOT23" H 14050 8450 50  0001 C CNN "Description"
+F 5 "10022902" H 14050 8450 50  0001 C CNN "Item Number"
+F 6 "LINEAR TECHNOLOGY" H 14050 8450 50  0001 C CNN "Manufacturer"
+F 7 "LT1716IS5#TRPBF" H 14050 8450 50  0001 C CNN "Manufacturer_No"
 	1    14050 8450
 	1    0    0    -1  
 $EndComp
