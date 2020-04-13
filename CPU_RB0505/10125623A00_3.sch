@@ -1262,7 +1262,7 @@ Wire Wire Line
 	4300 5875 4300 5925
 Wire Wire Line
 	4300 5925 4075 5925
-Text GLabel 4675 6225 2    56   BiDi ~ 0
+Text GLabel 4675 6225 2    56   Output ~ 0
 V-BATTERY
 Wire Wire Line
 	4150 6525 4075 6525
