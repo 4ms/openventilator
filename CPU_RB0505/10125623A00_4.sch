@@ -37,25 +37,25 @@ Wire Wire Line
 Connection ~ 10650 2425
 Connection ~ 10650 2325
 Connection ~ 10650 2225
-Text GLabel 4850 1900 2    56   Output ~ 0
+Text HLabel 4850 1900 2    56   Output ~ 0
 PRES-INT
-Text GLabel 4825 3725 2    56   Output ~ 0
+Text HLabel 4825 3725 2    56   Output ~ 0
 P_VALVE
-Text GLabel 4800 5550 2    56   Output ~ 0
+Text HLabel 4800 5550 2    56   Output ~ 0
 PRES-PROX
-Text GLabel 7050 4150 0    56   Input ~ 0
+Text HLabel 7050 4150 0    56   Input ~ 0
 CE\-INT-PRES-SENS
-Text GLabel 7050 4050 0    56   Input ~ 0
+Text HLabel 7050 4050 0    56   Input ~ 0
 SCLK-SPI-0
-Text GLabel 10950 6000 0    56   Input ~ 0
+Text HLabel 10950 6000 0    56   Input ~ 0
 SCLK-SPI-0
-Text GLabel 7050 2475 0    56   Output ~ 0
+Text HLabel 7050 2475 0    56   Output ~ 0
 MRST-SPI-0_E
-Text GLabel 10950 4400 0    56   Output ~ 0
+Text HLabel 10950 4400 0    56   Output ~ 0
 MRST-SPI-0_E
-Text GLabel 7050 4250 0    56   Input ~ 0
+Text HLabel 7050 4250 0    56   Input ~ 0
 MTSR-SPI-0
-Text GLabel 10950 6200 0    56   Input ~ 0
+Text HLabel 10950 6200 0    56   Input ~ 0
 MTSR-SPI-0
 Text Label 7050 2375 2    56   ~ 0
 INT-PRES-MEAS
@@ -69,9 +69,9 @@ Wire Wire Line
 	3950 6300 3950 6400
 Text Label 7050 8475 2    56   ~ 0
 VALVE-PRES-MEAS
-Text GLabel 7050 10250 0    56   Input ~ 0
+Text HLabel 7050 10250 0    56   Input ~ 0
 CE\-VALV-PRES-SENS
-Text GLabel 11600 2050 2    56   Output ~ 0
+Text HLabel 11600 2050 2    56   Output ~ 0
 QI-MEAS
 Wire Wire Line
 	14350 2025 14200 2025
@@ -85,7 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 2025 14887 2025
 Connection ~ 14750 2025
-Text GLabel 14887 2025 2    70   Output ~ 0
+Text HLabel 14887 2025 2    70   Output ~ 0
 MES_Q_E
 Wire Wire Line
 	12850 1925 12850 1475
@@ -96,9 +96,9 @@ Wire Wire Line
 Wire Wire Line
 	13375 1475 13375 1425
 Connection ~ 13375 1475
-Text GLabel 10950 6100 0    56   Input ~ 0
+Text HLabel 10950 6100 0    56   Input ~ 0
 CE\-FLOW-INSP-SENS
-Text GLabel 13400 6075 0    56   Input ~ 0
+Text HLabel 13400 6075 0    56   Input ~ 0
 CE\-FLOW-EXP-SENS
 $Comp
 L cpu-board:CART_A3 #U$75
@@ -773,7 +773,7 @@ F 3 "" H 1575 9050 50  0001 C CNN
 	1    1575 9050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4875 9400 2    56   Output ~ 0
+Text HLabel 4875 9400 2    56   Output ~ 0
 PRES-ABS
 Connection ~ 2575 8750
 Connection ~ 1800 8750
@@ -1098,7 +1098,7 @@ F 3 "" H 1575 7000 50  0001 C CNN
 	1    1575 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 7350 2    56   Output ~ 0
+Text HLabel 4900 7350 2    56   Output ~ 0
 PRES-O2
 $Comp
 L cpu-board:2XBL-AWM BL2
@@ -1568,11 +1568,11 @@ F 3 "" H 8050 5025 50  0001 C CNN
 	1    8050 5025
 	-1   0    0    1   
 $EndComp
-Text GLabel 7050 7300 0    56   Input ~ 0
+Text HLabel 7050 7300 0    56   Input ~ 0
 MTSR-SPI-0
-Text GLabel 7050 5525 0    56   Output ~ 0
+Text HLabel 7050 5525 0    56   Output ~ 0
 MRST-SPI-0_E
-Text GLabel 7050 7100 0    56   Input ~ 0
+Text HLabel 7050 7100 0    56   Input ~ 0
 SCLK-SPI-0
 Text Label 7050 5425 2    50   ~ 0
 PROX-PRES-MEAS
@@ -1587,7 +1587,7 @@ F 3 "" H 7550 6500 50  0001 C CNN
 	1    7550 6500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7050 7200 0    56   Input ~ 0
+Text HLabel 7050 7200 0    56   Input ~ 0
 CE\-PROX-PRES-SENS
 Connection ~ 8050 8475
 Wire Wire Line
@@ -1628,11 +1628,11 @@ Wire Wire Line
 	7350 10150 7350 10050
 Wire Wire Line
 	7050 10150 7350 10150
-Text GLabel 7050 10350 0    56   Input ~ 0
+Text HLabel 7050 10350 0    56   Input ~ 0
 MTSR-SPI-0
-Text GLabel 7050 8575 0    56   Output ~ 0
+Text HLabel 7050 8575 0    56   Output ~ 0
 MRST-SPI-0_E
-Text GLabel 7050 10150 0    56   Input ~ 0
+Text HLabel 7050 10150 0    56   Input ~ 0
 SCLK-SPI-0
 Text Notes 9137 8075 0    59   ~ 0
 Dual implantation of Analog and Digital sensor:If SPI sensors are used then the equivalent analog sensors will not be wired
@@ -1678,11 +1678,11 @@ Wire Wire Line
 Connection ~ 11950 4200
 Wire Wire Line
 	11950 4200 11950 4000
-Text GLabel 13400 5975 0    56   Input ~ 0
+Text HLabel 13400 5975 0    56   Input ~ 0
 SCLK-SPI-0
-Text GLabel 13400 4375 0    56   Output ~ 0
+Text HLabel 13400 4375 0    56   Output ~ 0
 MRST-SPI-0_E
-Text GLabel 13400 6175 0    56   Input ~ 0
+Text HLabel 13400 6175 0    56   Input ~ 0
 MTSR-SPI-0
 Wire Wire Line
 	13400 5975 13700 5975
