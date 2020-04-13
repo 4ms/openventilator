@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2837 7700 0    10   ~ 0
-D[0..15]
-Text Label 9734 2159 0    10   ~ 0
-D[0..15]
-Text Label 7434 1709 0    10   ~ 0
-A[0..23]
 Wire Wire Line
 	7800 7900 7800 8000
 Wire Wire Line
@@ -157,22 +151,6 @@ Wire Wire Line
 	7200 6800 7300 6800
 Connection ~ 7200 6800
 Connection ~ 7300 6800
-Entry Wire Line
-	2812 7800 2912 7700
-Entry Wire Line
-	2812 8300 2912 8200
-Entry Wire Line
-	2812 8400 2912 8300
-Entry Wire Line
-	2812 8500 2912 8400
-Entry Wire Line
-	2812 7900 2912 7800
-Entry Wire Line
-	2812 8000 2912 7900
-Entry Wire Line
-	2812 8100 2912 8000
-Entry Wire Line
-	2812 8200 2912 8100
 $Comp
 L cpu-board:+5V #U$33
 U 1 1 6953EFA5
@@ -440,12 +418,12 @@ $EndComp
 $Comp
 L cpu-board:GND #U$69
 U 1 1 82C3E2B3
-P 14250 6000
-F 0 "#U$69" H 14250 6000 50  0001 C CNN
-F 1 "GND" H 14163 5913 59  0000 L BNN
-F 2 "" H 14250 6000 50  0001 C CNN
-F 3 "" H 14250 6000 50  0001 C CNN
-	1    14250 6000
+P 14250 6050
+F 0 "#U$69" H 14250 6050 50  0001 C CNN
+F 1 "GND" H 14163 5963 59  0000 L BNN
+F 2 "" H 14250 6050 50  0001 C CNN
+F 3 "" H 14250 6050 50  0001 C CNN
+	1    14250 6050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -473,12 +451,12 @@ $EndComp
 $Comp
 L cpu-board:+3,3V #U$72
 U 1 1 12B0E286
-P 14300 5250
-F 0 "#U$72" H 14300 5250 50  0001 C CNN
-F 1 "+3,3V" H 14188 5463 59  0000 L BNN
-F 2 "" H 14300 5250 50  0001 C CNN
-F 3 "" H 14300 5250 50  0001 C CNN
-	1    14300 5250
+P 14300 5325
+F 0 "#U$72" H 14300 5325 50  0001 C CNN
+F 1 "+3,3V" H 14188 5538 59  0000 L BNN
+F 2 "" H 14300 5325 50  0001 C CNN
+F 3 "" H 14300 5325 50  0001 C CNN
+	1    14300 5325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -495,12 +473,12 @@ $EndComp
 $Comp
 L cpu-board:+5V #U$124
 U 1 1 3DC1F79A
-P 14550 5050
-F 0 "#U$124" H 14550 5050 50  0001 C CNN
-F 1 "+5V" H 14625 5025 59  0000 R TNN
-F 2 "" H 14550 5050 50  0001 C CNN
-F 3 "" H 14550 5050 50  0001 C CNN
-	1    14550 5050
+P 14550 5125
+F 0 "#U$124" H 14550 5125 50  0001 C CNN
+F 1 "+5V" H 14625 5100 59  0000 R TNN
+F 2 "" H 14550 5125 50  0001 C CNN
+F 3 "" H 14550 5125 50  0001 C CNN
+	1    14550 5125
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -812,14 +790,6 @@ F 3 "" H 8575 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	10600 7301 10600 7175
-Wire Notes Line
-	10600 7175 10699 7175
-Wire Notes Line
-	10699 7175 10699 7301
-Wire Notes Line
-	10699 7301 10600 7301
-Wire Notes Line
 	8187 10932 8187 6232
 Wire Notes Line
 	8187 6232 1012 6232
@@ -1052,40 +1022,8 @@ Wire Wire Line
 	5325 1700 5450 1700
 Wire Wire Line
 	4775 1350 4775 1700
-Text HLabel 3875 2800 0    50   Input ~ 0
-D0
 Wire Wire Line
 	3875 2800 4175 2800
-Text HLabel 3875 2900 0    50   Input ~ 0
-D1
-Text HLabel 3875 3000 0    50   Input ~ 0
-D2
-Text HLabel 3875 3100 0    50   Input ~ 0
-D3
-Text HLabel 3875 3200 0    50   Input ~ 0
-D4
-Text HLabel 3875 3300 0    50   Input ~ 0
-D5
-Text HLabel 3875 3400 0    50   Input ~ 0
-D6
-Text HLabel 3875 3500 0    50   Input ~ 0
-D7
-Text HLabel 3875 3600 0    50   Input ~ 0
-D8
-Text HLabel 3875 3700 0    50   Input ~ 0
-D9
-Text HLabel 3875 3800 0    50   Input ~ 0
-D10
-Text HLabel 3875 3900 0    50   Input ~ 0
-D11
-Text HLabel 3875 4000 0    50   Input ~ 0
-D12
-Text HLabel 3875 4100 0    50   Input ~ 0
-D13
-Text HLabel 3875 4200 0    50   Input ~ 0
-D14
-Text HLabel 3875 4300 0    50   Input ~ 0
-D15
 Wire Wire Line
 	4175 4300 3875 4300
 Wire Wire Line
@@ -1171,10 +1109,6 @@ Wire Wire Line
 	5475 2900 5625 2900
 Wire Wire Line
 	5625 2800 5475 2800
-Wire Bus Line
-	7434 1709 7434 3734
-Wire Bus Line
-	9734 1984 9734 3734
 Wire Wire Line
 	8275 1525 8275 1300
 Wire Wire Line
@@ -1216,82 +1150,6 @@ Wire Wire Line
 	8575 4425 8575 4575
 Wire Wire Line
 	8975 4425 8975 4575
-Text HLabel 7675 1725 0    50   Input ~ 0
-A1
-Text HLabel 7675 1825 0    50   Input ~ 0
-A2
-Text HLabel 7675 1925 0    50   Input ~ 0
-A3
-Text HLabel 7675 2025 0    50   Input ~ 0
-A4
-Text HLabel 7675 2125 0    50   Input ~ 0
-A5
-Text HLabel 7675 2225 0    50   Input ~ 0
-A6
-Text HLabel 7675 2325 0    50   Input ~ 0
-A7
-Text HLabel 7675 2425 0    50   Input ~ 0
-A8
-Text HLabel 7675 2525 0    50   Input ~ 0
-A9
-Text HLabel 7675 2625 0    50   Input ~ 0
-A10
-Text HLabel 7675 2725 0    50   Input ~ 0
-A11
-Text HLabel 7675 2825 0    50   Input ~ 0
-A12
-Text HLabel 7675 2925 0    50   Input ~ 0
-A13
-Text HLabel 7675 3025 0    50   Input ~ 0
-A14
-Text HLabel 7675 3125 0    50   Input ~ 0
-A15
-Text HLabel 7675 3225 0    50   Input ~ 0
-A16
-Text HLabel 7675 3325 0    50   Input ~ 0
-A17
-Text HLabel 7675 3425 0    50   Input ~ 0
-A18
-Text HLabel 7675 3525 0    50   Input ~ 0
-A19
-Wire Wire Line
-	7675 1725 7775 1725
-Wire Wire Line
-	7775 1825 7675 1825
-Wire Wire Line
-	7775 1925 7675 1925
-Wire Wire Line
-	7775 2025 7675 2025
-Wire Wire Line
-	7675 2125 7775 2125
-Wire Wire Line
-	7675 2225 7775 2225
-Wire Wire Line
-	7775 2325 7675 2325
-Wire Wire Line
-	7675 2425 7775 2425
-Wire Wire Line
-	7775 2525 7675 2525
-Wire Wire Line
-	7675 2625 7775 2625
-Wire Wire Line
-	7775 2725 7675 2725
-Wire Wire Line
-	7675 2825 7775 2825
-Wire Wire Line
-	7775 2925 7675 2925
-Wire Wire Line
-	7675 3025 7775 3025
-Wire Wire Line
-	7775 3125 7675 3125
-Wire Wire Line
-	7675 3225 7775 3225
-Wire Wire Line
-	7775 3325 7675 3325
-Wire Wire Line
-	7675 3425 7775 3425
-Wire Wire Line
-	7775 3525 7675 3525
 $Comp
 L cpu-board:LVC1G07DBVT IC9
 U 1 1 5F7D4A82
@@ -1314,8 +1172,6 @@ F 3 "" H 14300 5450 50  0001 C CNN
 	1    14300 5450
 	0    -1   -1   0   
 $EndComp
-Wire Bus Line
-	11262 2688 11262 3113
 Wire Wire Line
 	12100 1075 12100 1325
 Wire Wire Line
@@ -1354,9 +1210,9 @@ Wire Wire Line
 Wire Wire Line
 	11175 2250 11500 2250
 Wire Wire Line
-	14550 5150 14550 5250
+	14550 5225 14550 5250
 Wire Wire Line
-	14300 5150 14300 5250
+	14300 5225 14300 5250
 Wire Wire Line
 	13050 4550 13550 4550
 Wire Wire Line
@@ -1386,7 +1242,7 @@ Wire Wire Line
 Connection ~ 14550 5650
 Connection ~ 14550 6075
 Wire Wire Line
-	14250 6100 14250 6200
+	14250 6150 14250 6200
 Text HLabel 15025 4250 2    50   Input ~ 0
 RX-AL-RP
 Wire Wire Line
@@ -1524,8 +1380,6 @@ Wire Wire Line
 	11175 4950 11500 4950
 Wire Wire Line
 	11175 4550 11500 4550
-Text Notes 12475 8850 0    200  ~ 40
-TODO:\n-Fix busses\n-Pin 20 IC1 ---> A0 net label or hiirarchial 
 Text HLabel 1700 8700 0    50   Input ~ 0
 RD\
 Text HLabel 1700 8800 0    50   Input ~ 0
@@ -1574,17 +1428,6 @@ Wire Wire Line
 Connection ~ 10925 6725
 Wire Wire Line
 	10925 6725 10925 6875
-$Comp
-L cpu-board:AT25--- IC32
-U 1 1 1703D4A9
-P 10325 7575
-F 0 "IC32" H 10987 8287 67  0000 L BNN
-F 1 "25LC320" H 10987 8212 42  0000 L BNN
-F 2 "10125623A00:SOIC8" H 10325 7575 50  0001 C CNN
-F 3 "" H 10325 7575 50  0001 C CNN
-	1    10325 7575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11225 7675 11350 7675
 Wire Wire Line
@@ -1852,113 +1695,7 @@ D14
 Text Label 9500 3725 0    50   ~ 0
 D15
 Wire Wire Line
-	3875 4300 3625 4400
-Wire Wire Line
-	3875 4200 3625 4300
-Wire Wire Line
-	3875 4100 3625 4200
-Wire Wire Line
-	3875 4000 3625 4100
-Wire Wire Line
-	3875 3900 3625 4000
-Wire Wire Line
-	3875 3800 3625 3900
-Wire Wire Line
-	3875 3700 3625 3800
-Wire Wire Line
-	3875 3600 3625 3700
-Wire Wire Line
-	3875 3500 3625 3600
-Wire Wire Line
-	3875 3400 3625 3500
-Wire Wire Line
-	3875 3300 3625 3400
-Wire Wire Line
-	3875 3200 3625 3300
-Wire Wire Line
-	3875 3100 3625 3200
-Wire Wire Line
-	3875 3000 3625 3100
-Wire Wire Line
-	3875 2900 3625 3000
-Wire Wire Line
-	3875 2800 3625 2900
-Wire Bus Line
-	3625 2788 3625 4488
-Wire Bus Line
-	3625 4488 3525 4588
-Wire Wire Line
-	7675 1725 7425 1800
-Wire Wire Line
-	7675 1825 7425 1900
-Wire Wire Line
-	7675 1925 7425 2000
-Wire Wire Line
-	7675 2025 7425 2100
-Wire Wire Line
-	7675 2125 7425 2200
-Wire Wire Line
-	7675 2225 7425 2300
-Wire Wire Line
-	7675 2325 7425 2400
-Wire Wire Line
-	7675 2425 7425 2500
-Wire Wire Line
-	7675 2525 7425 2600
-Wire Wire Line
-	7675 2625 7425 2700
-Wire Wire Line
-	7675 2725 7425 2800
-Wire Wire Line
-	7675 2825 7425 2900
-Wire Wire Line
-	7675 2925 7425 3000
-Wire Wire Line
-	7675 3025 7425 3100
-Wire Wire Line
-	7675 3125 7425 3200
-Wire Wire Line
-	7675 3225 7425 3300
-Wire Wire Line
-	7675 3325 7425 3400
-Wire Wire Line
-	7675 3425 7425 3500
-Wire Wire Line
-	7675 3525 7425 3600
-Wire Wire Line
-	9650 3725 9725 3675
-Wire Wire Line
 	9375 3725 9650 3725
-Wire Wire Line
-	9650 3625 9725 3575
-Wire Wire Line
-	9650 3525 9725 3475
-Wire Wire Line
-	9650 3425 9725 3375
-Wire Wire Line
-	9650 3325 9725 3275
-Wire Wire Line
-	9650 3225 9725 3175
-Wire Wire Line
-	9650 3125 9725 3075
-Wire Wire Line
-	9650 3025 9725 2975
-Wire Wire Line
-	9650 2925 9725 2875
-Wire Wire Line
-	9650 2825 9725 2775
-Wire Wire Line
-	9650 2725 9725 2675
-Wire Wire Line
-	9650 2625 9725 2575
-Wire Wire Line
-	9650 2525 9725 2475
-Wire Wire Line
-	9650 2425 9725 2375
-Wire Wire Line
-	9650 2325 9725 2275
-Wire Wire Line
-	9650 2225 9725 2175
 Wire Wire Line
 	9375 2225 9650 2225
 Wire Wire Line
@@ -2033,88 +1770,330 @@ Wire Wire Line
 	11375 3000 11500 3000
 Wire Wire Line
 	11375 2900 11500 2900
-Text Label 11687 -3050 0    10   ~ 0
+Wire Wire Line
+	7575 1725 7775 1725
+Wire Wire Line
+	7575 1825 7775 1825
+Wire Wire Line
+	7575 1925 7775 1925
+Wire Wire Line
+	7575 2025 7775 2025
+Wire Wire Line
+	7575 2125 7775 2125
+Wire Wire Line
+	7575 2225 7775 2225
+Wire Wire Line
+	7575 2325 7775 2325
+Wire Wire Line
+	7575 2425 7775 2425
+Wire Wire Line
+	7575 2525 7775 2525
+Wire Wire Line
+	7575 2625 7775 2625
+Wire Wire Line
+	7575 2725 7775 2725
+Wire Wire Line
+	7575 2825 7775 2825
+Wire Wire Line
+	7575 2925 7775 2925
+Wire Wire Line
+	7575 3025 7775 3025
+Wire Wire Line
+	7575 3125 7775 3125
+Wire Wire Line
+	7575 3225 7775 3225
+Wire Wire Line
+	7575 3325 7775 3325
+Wire Wire Line
+	7575 3425 7775 3425
+Wire Wire Line
+	7575 3525 7775 3525
+Text Label 7575 1725 0    50   ~ 0
+A1
+Text Label 7575 1825 0    50   ~ 0
+A2
+Text Label 7575 1925 0    50   ~ 0
+A3
+Text Label 7575 2025 0    50   ~ 0
+A4
+Text Label 7575 2125 0    50   ~ 0
+A5
+Text Label 7575 2225 0    50   ~ 0
+A6
+Text Label 7575 2325 0    50   ~ 0
+A7
+Text Label 7575 2425 0    50   ~ 0
+A8
+Text Label 7575 2525 0    50   ~ 0
+A9
+Text Label 7575 2625 0    50   ~ 0
+A10
+Text Label 7575 2725 0    50   ~ 0
+A11
+Text Label 7575 2825 0    50   ~ 0
+A12
+Text Label 7575 2925 0    50   ~ 0
+A13
+Text Label 7575 3025 0    50   ~ 0
+A14
+Text Label 7575 3125 0    50   ~ 0
+A15
+Text Label 7575 3225 0    50   ~ 0
+A16
+Text Label 7575 3325 0    50   ~ 0
+A17
+Text Label 7575 3425 0    50   ~ 0
+A18
+Text Label 7575 3525 0    50   ~ 0
+A19
+Entry Wire Line
+	7475 1625 7575 1725
+Entry Wire Line
+	7475 1725 7575 1825
+Entry Wire Line
+	7475 1825 7575 1925
+Entry Wire Line
+	7475 1925 7575 2025
+Entry Wire Line
+	7475 2025 7575 2125
+Entry Wire Line
+	7475 2125 7575 2225
+Entry Wire Line
+	7475 2225 7575 2325
+Entry Wire Line
+	7475 2325 7575 2425
+Entry Wire Line
+	7475 2425 7575 2525
+Entry Wire Line
+	7475 2525 7575 2625
+Entry Wire Line
+	7475 2625 7575 2725
+Entry Wire Line
+	7475 2725 7575 2825
+Entry Wire Line
+	7475 2825 7575 2925
+Entry Wire Line
+	7475 2925 7575 3025
+Entry Wire Line
+	7475 3025 7575 3125
+Entry Wire Line
+	7475 3125 7575 3225
+Entry Wire Line
+	7475 3225 7575 3325
+Entry Wire Line
+	7475 3325 7575 3425
+Entry Wire Line
+	7475 3425 7575 3525
+Text HLabel 7475 1525 2    50   Input ~ 0
+A[0..23]
+Text Label 3975 2800 0    50   ~ 0
+D0
+Text Label 3975 2900 0    50   ~ 0
+D1
+Text Label 3975 3000 0    50   ~ 0
+D2
+Text Label 3975 3100 0    50   ~ 0
+D3
+Text Label 3975 3200 0    50   ~ 0
+D4
+Text Label 3975 3300 0    50   ~ 0
+D5
+Text Label 3975 3400 0    50   ~ 0
+D6
+Text Label 3975 3500 0    50   ~ 0
+D7
+Text Label 3975 3600 0    50   ~ 0
+D8
+Text Label 3975 3700 0    50   ~ 0
+D9
+Text Label 3975 3800 0    50   ~ 0
+D10
+Text Label 3975 3900 0    50   ~ 0
+D11
+Text Label 3975 4000 0    50   ~ 0
+D12
+Text Label 3975 4100 0    50   ~ 0
+D13
+Text Label 3975 4200 0    50   ~ 0
+D14
+Text Label 3975 4300 0    50   ~ 0
+D15
+Entry Wire Line
+	3775 2700 3875 2800
+Entry Wire Line
+	3775 2800 3875 2900
+Entry Wire Line
+	3775 2900 3875 3000
+Entry Wire Line
+	3775 3000 3875 3100
+Entry Wire Line
+	3775 3100 3875 3200
+Entry Wire Line
+	3775 3200 3875 3300
+Entry Wire Line
+	3775 3300 3875 3400
+Entry Wire Line
+	3775 3400 3875 3500
+Entry Wire Line
+	3775 3500 3875 3600
+Entry Wire Line
+	3775 3600 3875 3700
+Entry Wire Line
+	3775 3700 3875 3800
+Entry Wire Line
+	3775 3800 3875 3900
+Entry Wire Line
+	3775 3900 3875 4000
+Entry Wire Line
+	3775 4000 3875 4100
+Entry Wire Line
+	3775 4100 3875 4200
+Entry Wire Line
+	3775 4200 3875 4300
+Text HLabel 3775 2625 2    50   BiDi ~ 0
+D[0..15]
+Entry Wire Line
+	9750 2125 9650 2225
+Entry Wire Line
+	9750 2225 9650 2325
+Entry Wire Line
+	9750 2325 9650 2425
+Entry Wire Line
+	9750 2425 9650 2525
+Entry Wire Line
+	9750 2525 9650 2625
+Entry Wire Line
+	9750 2625 9650 2725
+Entry Wire Line
+	9750 2725 9650 2825
+Entry Wire Line
+	9750 2825 9650 2925
+Entry Wire Line
+	9750 2925 9650 3025
+Entry Wire Line
+	9750 3025 9650 3125
+Entry Wire Line
+	9750 3125 9650 3225
+Entry Wire Line
+	9750 3225 9650 3325
+Entry Wire Line
+	9750 3325 9650 3425
+Entry Wire Line
+	9750 3425 9650 3525
+Entry Wire Line
+	9750 3525 9650 3625
+Entry Wire Line
+	9750 3625 9650 3725
+Text HLabel 9750 2050 2    50   BiDi ~ 0
+D[0..15]
+Entry Wire Line
+	11275 2600 11375 2700
+Entry Wire Line
+	11275 2800 11375 2900
+Entry Wire Line
+	11275 2900 11375 3000
+Text HLabel 11275 2950 0    50   Input ~ 0
 A[0..23]
 Entry Wire Line
-	11687 -2950 11787 -3050
+	11275 3150 11375 3250
 Entry Wire Line
-	11687 -2850 11787 -2950
+	11275 3250 11375 3350
 Entry Wire Line
-	11687 -2750 11787 -2850
+	11275 3450 11375 3550
 Entry Wire Line
-	11687 -2650 11787 -2750
+	11275 3550 11375 3650
 Entry Wire Line
-	11687 -2550 11787 -2650
+	11275 3750 11375 3850
 Entry Wire Line
-	11687 -2450 11787 -2550
+	11275 3950 11375 4050
 Entry Wire Line
-	11687 -2350 11787 -2450
+	11275 4050 11375 4150
 Entry Wire Line
-	11687 -2250 11787 -2350
-Entry Wire Line
-	11687 -2150 11787 -2250
-Entry Wire Line
-	11687 -2050 11787 -2150
-Entry Wire Line
-	11687 -1950 11787 -2050
-Entry Wire Line
-	11687 -1850 11787 -1950
-Entry Wire Line
-	11687 -1750 11787 -1850
-Entry Wire Line
-	11687 -1550 11787 -1650
-Entry Wire Line
-	11687 -1650 11787 -1750
-Entry Wire Line
-	11687 -1450 11787 -1550
-Entry Wire Line
-	11687 -1350 11787 -1450
-Entry Wire Line
-	11687 -1250 11787 -1350
-Entry Wire Line
-	11363 3000 11263 3100
-Entry Wire Line
-	11262 3650 11362 3550
-Entry Wire Line
-	11262 3750 11362 3650
-Entry Wire Line
-	11262 3450 11362 3350
-Entry Wire Line
-	11262 4050 11362 3950
-Entry Wire Line
-	11262 3950 11362 3850
-Entry Wire Line
-	11262 4150 11362 4050
-Entry Wire Line
-	11262 4250 11362 4150
-Entry Wire Line
-	11262 4350 11362 4250
-Entry Wire Line
-	11262 3350 11362 3250
-Entry Wire Line
-	11363 2900 11263 3000
-Entry Wire Line
-	11363 2700 11263 2800
-Text Label 3025 7700 2    50   ~ 0
-D0
-Text Label 3025 7800 2    50   ~ 0
-D1
-Text Label 3025 7900 2    50   ~ 0
-D2
-Text Label 3025 8000 2    50   ~ 0
-D3
-Text Label 3025 8100 2    50   ~ 0
-D4
-Text Label 3025 8200 2    50   ~ 0
-D5
-Text Label 3025 8300 2    50   ~ 0
-D6
-Wire Bus Line
-	2812 7700 2812 8500
-Wire Bus Line
-	11262 3275 11262 4400
-Wire Bus Line
-	11687 -3050 11687 -1100
-Text Label 3025 8400 2    50   ~ 0
+	11275 4150 11375 4250
+Text HLabel 11275 3100 0    50   BiDi ~ 0
+D[0..15]
+$Comp
+L cpu-board:AT25--- IC32
+U 1 1 1703D4A9
+P 10325 7575
+F 0 "IC32" H 10987 8287 67  0000 L BNN
+F 1 "25LC320" H 10987 8212 42  0000 L BNN
+F 2 "10125623A00:SOIC8" H 10325 7575 50  0001 C CNN
+F 3 "" H 10325 7575 50  0001 C CNN
+	1    10325 7575
+	1    0    0    -1  
+$EndComp
+Text Label 3000 8400 2    50   ~ 0
 D7
+Text Label 3000 8300 2    50   ~ 0
+D6
+Text Label 3000 8200 2    50   ~ 0
+D5
+Text Label 3000 8100 2    50   ~ 0
+D4
+Text Label 3000 8000 2    50   ~ 0
+D3
+Text Label 3000 7900 2    50   ~ 0
+D2
+Text Label 3000 7800 2    50   ~ 0
+D1
+Text Label 3000 7700 2    50   ~ 0
+D0
+Entry Wire Line
+	2800 7600 2900 7700
+Entry Wire Line
+	2800 7700 2900 7800
+Entry Wire Line
+	2800 7800 2900 7900
+Entry Wire Line
+	2800 7900 2900 8000
+Entry Wire Line
+	2800 8000 2900 8100
+Entry Wire Line
+	2800 8100 2900 8200
+Entry Wire Line
+	2800 8200 2900 8300
+Entry Wire Line
+	2800 8300 2900 8400
+Wire Wire Line
+	2900 7700 3025 7700
+Wire Wire Line
+	2900 7800 3025 7800
+Wire Wire Line
+	2900 7900 3025 7900
+Wire Wire Line
+	2900 8000 3025 8000
+Wire Wire Line
+	2900 8100 3025 8100
+Wire Wire Line
+	2900 8200 3025 8200
+Wire Wire Line
+	2900 8300 3025 8300
+Wire Wire Line
+	2900 8400 3025 8400
+Wire Bus Line
+	11275 2600 11275 2950
+Wire Bus Line
+	11275 3100 11275 4325
+Wire Bus Line
+	2800 7550 2800 8375
+Wire Bus Line
+	9750 2050 9750 3775
+Wire Bus Line
+	3775 2625 3775 4375
+Wire Bus Line
+	7475 1525 7475 3575
+Text HLabel 2800 7550 2    50   BiDi ~ 0
+D[0..15]
+$Comp
+L cpu-board:CART_A3 CART_A3_2
+U 1 1 601FE408
+P 925 11100
+F 0 "CART_A3_2" H 975 11150 50  0001 C CNN
+F 1 "CART_A3" H 925 11100 50  0001 C CNN
+F 2 "" H 925 11100 50  0001 C CNN
+F 3 "" H 925 11100 50  0001 C CNN
+	1    925  11100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
