@@ -38,8 +38,6 @@ Connection ~ 3225 10700
 Connection ~ 3475 10700
 Connection ~ 3675 10700
 Connection ~ 3875 10700
-Text HLabel 2925 10725 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	6675 9700 6675 9725
 Text HLabel 6675 3000 2    56   Input ~ 0

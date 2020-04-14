@@ -45,36 +45,6 @@ Wire Wire Line
 Connection ~ 11700 3213
 Connection ~ 11600 3213
 Connection ~ 11500 3213
-Text HLabel 11900 3075 0    10   BiDi ~ 0
-GND
-Wire Wire Line
-	9187 7925 9187 7988
-Wire Wire Line
-	8850 7525 9037 7525
-Wire Wire Line
-	9037 7525 9037 7988
-Wire Wire Line
-	9037 7988 9037 8038
-Wire Wire Line
-	9187 7988 9037 7988
-Wire Wire Line
-	9187 7988 9387 7988
-Wire Wire Line
-	9387 7988 9387 7925
-Wire Wire Line
-	9387 7988 9587 7988
-Wire Wire Line
-	9587 7988 9587 7925
-Wire Wire Line
-	9587 7988 9787 7988
-Wire Wire Line
-	9787 7988 9787 7925
-Connection ~ 9037 7988
-Connection ~ 9187 7988
-Connection ~ 9387 7988
-Connection ~ 9587 7988
-Text HLabel 9187 7925 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	3400 5250 3400 5325
 Wire Wire Line
@@ -100,8 +70,6 @@ Wire Wire Line
 	5250 3050 5250 3150
 Connection ~ 5250 3250
 Connection ~ 5250 3150
-Wire Wire Line
-	10275 8038 10275 7863
 Text HLabel 10850 7125 2    56   Output ~ 0
 DEF-TURB
 Text HLabel 10850 6725 2    56   Input ~ 0
@@ -255,29 +223,7 @@ Wire Wire Line
 Connection ~ 11300 1700
 Wire Wire Line
 	10275 6525 8850 6525
-Wire Wire Line
-	10275 7663 10275 6525
 Connection ~ 10275 6525
-Wire Wire Line
-	8850 6725 9787 6725
-Wire Wire Line
-	9787 7625 9787 6725
-Connection ~ 9787 6725
-Wire Wire Line
-	8850 6925 9587 6925
-Wire Wire Line
-	9587 7625 9587 6925
-Connection ~ 9587 6925
-Wire Wire Line
-	8850 7125 9387 7125
-Wire Wire Line
-	9387 7625 9387 7125
-Connection ~ 9387 7125
-Wire Wire Line
-	8850 7325 9187 7325
-Wire Wire Line
-	9187 7625 9187 7325
-Connection ~ 9187 7325
 Wire Wire Line
 	9275 5725 8850 5725
 Wire Wire Line
@@ -336,12 +282,12 @@ Text HLabel 3075 6650 2    70   BiDi ~ 0
 $Comp
 L cpu-board:GND #U$43
 U 1 1 8B1A1718
-P 9037 8138
-F 0 "#U$43" H 9037 8138 50  0001 C CNN
-F 1 "GND" H 8949 8051 59  0000 L BNN
-F 2 "" H 9037 8138 50  0001 C CNN
-F 3 "" H 9037 8138 50  0001 C CNN
-	1    9037 8138
+P 9025 8150
+F 0 "#U$43" H 9025 8150 50  0001 C CNN
+F 1 "GND" H 8937 8063 59  0000 L BNN
+F 2 "" H 9025 8150 50  0001 C CNN
+F 3 "" H 9025 8150 50  0001 C CNN
+	1    9025 8150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -391,12 +337,12 @@ $EndComp
 $Comp
 L cpu-board:RESEAU_4C C56
 U 1 1 A4E15BB6
-P 9537 7775
-F 0 "C56" H 9925 7800 64  0000 L BNN
-F 1 "47pF" H 9937 7712 42  0000 L BNN
-F 2 "10125623A00:RESEAU_1" H 9537 7775 50  0001 C CNN
-F 3 "" H 9537 7775 50  0001 C CNN
-	1    9537 7775
+P 9525 7775
+F 0 "C56" H 9913 7800 64  0000 L BNN
+F 1 "47pF" H 9925 7712 42  0000 L BNN
+F 2 "10125623A00:RESEAU_1" H 9525 7775 50  0001 C CNN
+F 3 "" H 9525 7775 50  0001 C CNN
+	1    9525 7775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1282,12 +1228,12 @@ $EndComp
 $Comp
 L cpu-board:GND #U$432
 U 1 1 28434D00
-P 10275 8138
-F 0 "#U$432" H 10275 8138 50  0001 C CNN
-F 1 "GND" H 10188 8051 59  0000 L BNN
-F 2 "" H 10275 8138 50  0001 C CNN
-F 3 "" H 10275 8138 50  0001 C CNN
-	1    10275 8138
+P 10275 8150
+F 0 "#U$432" H 10275 8150 50  0001 C CNN
+F 1 "GND" H 10188 8063 59  0000 L BNN
+F 2 "" H 10275 8150 50  0001 C CNN
+F 3 "" H 10275 8150 50  0001 C CNN
+	1    10275 8150
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1685,17 +1631,9 @@ Wire Wire Line
 Wire Wire Line
 	10725 7125 10850 7125
 Wire Wire Line
-	9187 7325 10425 7325
-Wire Wire Line
-	9387 7125 10425 7125
-Wire Wire Line
 	10725 6925 10850 6925
 Wire Wire Line
-	9587 6925 10425 6925
-Wire Wire Line
 	10725 6725 10850 6725
-Wire Wire Line
-	9787 6725 10425 6725
 Wire Wire Line
 	10275 6525 10425 6525
 Wire Wire Line
@@ -1979,4 +1917,62 @@ Wire Wire Line
 	5250 2000 5250 2050
 Wire Wire Line
 	9275 5725 9700 5725
+Wire Wire Line
+	8850 6725 9775 6725
+Wire Wire Line
+	8850 6925 9575 6925
+Wire Wire Line
+	8850 7125 9375 7125
+Wire Wire Line
+	8850 7325 9175 7325
+Wire Wire Line
+	9775 7925 9775 8000
+Wire Wire Line
+	9775 8000 9575 8000
+Wire Wire Line
+	9025 8000 9025 8050
+Wire Wire Line
+	9175 7925 9175 8000
+Connection ~ 9175 8000
+Wire Wire Line
+	9175 8000 9025 8000
+Wire Wire Line
+	9375 7925 9375 8000
+Connection ~ 9375 8000
+Wire Wire Line
+	9375 8000 9175 8000
+Wire Wire Line
+	9575 7925 9575 8000
+Connection ~ 9575 8000
+Wire Wire Line
+	9575 8000 9375 8000
+Wire Wire Line
+	9025 8000 9025 7525
+Connection ~ 9025 8000
+Wire Wire Line
+	9025 7525 8850 7525
+Wire Wire Line
+	9175 7625 9175 7325
+Connection ~ 9175 7325
+Wire Wire Line
+	9175 7325 10425 7325
+Wire Wire Line
+	9375 7625 9375 7125
+Connection ~ 9375 7125
+Wire Wire Line
+	9375 7125 10425 7125
+Wire Wire Line
+	9575 7625 9575 6925
+Connection ~ 9575 6925
+Wire Wire Line
+	9575 6925 10425 6925
+Wire Wire Line
+	9775 7625 9775 6725
+Connection ~ 9775 6725
+Wire Wire Line
+	9775 6725 10425 6725
+Wire Wire Line
+	10275 6525 10275 7650
+Wire Wire Line
+	10275 7850 10275 8050
 $EndSCHEMATC
