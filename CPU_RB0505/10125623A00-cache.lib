@@ -49,8 +49,8 @@ ENDDEF
 #
 # cpu-board_+3,3V
 #
-DEF cpu-board_+3,3V ~ 0 40 Y Y 1 L P
-F0 "" 0 0 50 H I C CNN
+DEF cpu-board_+3,3V ~ 0 40 N Y 1 F P
+F0 "~" 0 0 50 H I C CNN
 F1 "cpu-board_+3,3V" -112 225 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -2670,54 +2670,6 @@ P 2 1 0 0 -250 100 -250 -100 N
 P 2 1 0 0 50 -100 50 100 N
 P 2 1 0 0 50 100 -250 100 N
 X 1 1 -100 0 100 R 50 0 1 0 P I
-ENDDRAW
-ENDDEF
-#
-# cpu-board_PORT
-#
-DEF cpu-board_PORT ~ 0 40 Y Y 1 L N
-F0 "" 0 0 50 H I C CNN
-F1 "cpu-board_PORT" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -150 -50 400 -50 N
-P 2 1 0 0 -150 50 -150 -50 N
-P 2 1 0 0 400 50 -150 50 N
-P 2 1 0 0 487 0 400 -50 N
-P 2 1 0 0 487 0 400 50 N
-ENDDRAW
-ENDDEF
-#
-# cpu-board_PORT_COU
-#
-DEF cpu-board_PORT_COU ~ 0 40 Y Y 1 L N
-F0 "" 0 0 50 H I C CNN
-F1 "cpu-board_PORT_COU" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 0 87 -50 N
-P 2 1 0 0 0 0 87 50 N
-P 2 1 0 0 87 -50 387 -50 N
-P 2 1 0 0 387 -50 387 50 N
-P 2 1 0 0 387 50 87 50 N
-ENDDRAW
-ENDDEF
-#
-# cpu-board_PORT_LONG
-#
-DEF cpu-board_PORT_LONG ~ 0 40 Y Y 1 L N
-F0 "" 0 0 50 H I C CNN
-F1 "cpu-board_PORT_LONG" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 0 87 -50 N
-P 2 1 0 0 0 0 87 50 N
-P 2 1 0 0 87 -50 1112 -50 N
-P 2 1 0 0 1112 -50 1112 50 N
-P 2 1 0 0 1112 50 87 50 N
 ENDDRAW
 ENDDEF
 #
