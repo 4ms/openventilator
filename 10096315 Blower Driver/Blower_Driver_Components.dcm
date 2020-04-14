@@ -12,12 +12,24 @@ $CMP 2pinConnector_Power
 F https://www.molex.com/pdm_docs/ps/PS-43650.pdf
 $ENDCMP
 #
+$CMP 2pinConnector_Unpopulated
+F https://www.molex.com/pdm_docs/sd/039281023_sd.pdf
+$ENDCMP
+#
 $CMP 8pinConnector
 F https://www.mouser.com/datasheet/2/276/0022057088_PCB_HEADERS-158435.pdf
 $ENDCMP
 #
+$CMP 9pinConnector_Unpopulated
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0022057098_PCB_HEADERS.pdf
+$ENDCMP
+#
 $CMP CapacitorArray_47pf
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf
+$ENDCMP
+#
+$CMP Capacitor_1000uF
+F http://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf
 $ENDCMP
 #
 $CMP Capacitor_100nF
@@ -94,6 +106,10 @@ $ENDCMP
 #
 $CMP Inductor_22uH
 F https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/06D_Series.pdf
+$ENDCMP
+#
+$CMP JumperBypass
+F https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11
 $ENDCMP
 #
 $CMP LinearRegulator
