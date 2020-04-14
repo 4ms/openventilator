@@ -1,4 +1,4 @@
-(module SF-3863-WESI_1 (layer F.Cu) (tedit 0)
+(module SF-3863-WESI_1 (layer F.Cu) (tedit 5E962F26)
   (attr smd)
   (fp_text reference L3 (at 0.4826 0.4572 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
@@ -160,4 +160,9 @@
   (pad 1 thru_hole circle (at 14.986 0) (size 3.81 3.81) (drill 2.5146) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 5.9944 0) (size 3.81 3.81) (drill 2.5146) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 2.9972) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3D Models/2209-V-RC-self.stp"
+    (offset (xyz 10.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
