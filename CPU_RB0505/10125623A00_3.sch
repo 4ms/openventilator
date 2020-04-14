@@ -1287,14 +1287,7 @@ Wire Wire Line
 	3225 5075 3225 4925
 Connection ~ 3225 4925
 Wire Wire Line
-	3225 4925 3525 4925
-Wire Wire Line
 	3825 4925 3825 5075
-Wire Wire Line
-	3525 5075 3525 4925
-Connection ~ 3525 4925
-Wire Wire Line
-	3525 4925 3825 4925
 Wire Wire Line
 	2525 6525 2625 6525
 Text HLabel 2525 6375 0    70   Output ~ 0
@@ -1546,4 +1539,7 @@ Text Label 4675 6225 0    50   ~ 0
 V-BATTERY
 Text Label 8125 6950 0    50   ~ 0
 V-BATTERY
+Wire Wire Line
+	3225 4925 3825 4925
+NoConn ~ 3525 5075
 $EndSCHEMATC
