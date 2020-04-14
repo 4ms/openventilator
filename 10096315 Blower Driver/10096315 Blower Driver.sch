@@ -21,9 +21,9 @@ F 0 "C27" H 11265 2491 50  0000 L CNN
 F 1 "Capacitor_470uF_CheckFootprint" H 11150 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:03515" H 11200 1950 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-ucd.pdf" H 11150 2850 50  0001 C CNN
-F 4 "UCD1V471MNL6GS" H 11700 2250 50  0001 C CNN "MPN"
+F 4 "UCD1E471MNL6GS" H 11700 2250 50  0001 C CNN "MPN"
 F 5 "470uF" H 11265 2400 50  0000 L CNN "Capacitance"
-F 6 "35V" H 11265 2309 50  0000 L CNN "Voltage"
+F 6 "25V" H 11265 2309 50  0000 L CNN "Voltage"
 	1    11150 2400
 	1    0    0    -1  
 $EndComp
@@ -187,10 +187,10 @@ P 4050 2400
 F 0 "C4" H 4165 2491 50  0000 L CNN
 F 1 "Capacitor_22uF_CheckFootprint" H 4050 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:C7343" H 4100 1950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 4050 2850 50  0001 C CNN
-F 4 "T521X226M050ATE075" H 4600 2250 50  0001 C CNN "MPN"
+F 3 "https://content.kemet.com/datasheets/KEM_T2052_T495_AUTO.pdf" H 4050 2850 50  0001 C CNN
+F 4 "T495X226M035ATA200" H 4600 2250 50  0001 C CNN "MPN"
 F 5 "22uF" H 4165 2400 50  0000 L CNN "Capacitance"
-F 6 "50V" H 4165 2309 50  0000 L CNN "Voltage"
+F 6 "35V" H 4165 2309 50  0000 L CNN "Voltage"
 	1    4050 2400
 	1    0    0    -1  
 $EndComp
@@ -410,8 +410,8 @@ P 15950 4500
 F 0 "D11" V 16041 4422 50  0000 R CNN
 F 1 "DiodeZener_30V" H 15950 4750 50  0001 C CNN
 F 2 "10096315 Blower Driver:SOD80" H 15950 4300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" H 15950 4650 50  0001 C CNN
-F 4 "BZG03C30-M3-08" V 16000 5300 50  0000 R CNN "MPN"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 15950 4650 50  0001 C CNN
+F 4 "BZV55-C15" V 16000 5300 50  0000 R CNN "MPN"
 F 5 "30V" V 15900 4700 50  0000 R CNN "Reverse Voltage"
 	1    15950 4500
 	0    -1   -1   0   
@@ -830,8 +830,8 @@ P 15950 7300
 F 0 "D12" V 16041 7222 50  0000 R CNN
 F 1 "DiodeZener_30V" H 15950 7550 50  0001 C CNN
 F 2 "10096315 Blower Driver:SOD80" H 15950 7100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" H 15950 7450 50  0001 C CNN
-F 4 "BZG03C30-M3-08" V 16000 8100 50  0000 R CNN "MPN"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 15950 7450 50  0001 C CNN
+F 4 "BZV55-C15" V 16000 8100 50  0000 R CNN "MPN"
 F 5 "30V" V 15900 7500 50  0000 R CNN "Reverse Voltage"
 	1    15950 7300
 	0    -1   -1   0   
@@ -1236,8 +1236,8 @@ P 15950 10200
 F 0 "D13" V 16041 10122 50  0000 R CNN
 F 1 "DiodeZener_30V" H 15950 10450 50  0001 C CNN
 F 2 "10096315 Blower Driver:SOD80" H 15950 10000 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" H 15950 10350 50  0001 C CNN
-F 4 "BZG03C30-M3-08" V 16000 11000 50  0000 R CNN "MPN"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 15950 10350 50  0001 C CNN
+F 4 "BZV55-C15" V 16000 11000 50  0000 R CNN "MPN"
 F 5 "30V" V 15900 10400 50  0000 R CNN "Reverse Voltage"
 	1    15950 10200
 	0    -1   -1   0   
@@ -2404,11 +2404,11 @@ $Comp
 L Blower_Driver_Components:JumperBypass J4
 U 1 1 5FC8B115
 P 2700 2850
-F 0 "J4" V 2436 2850 50  0000 C CNN
-F 1 "JumperBypass" V 2527 2850 50  0000 C CNN
+F 0 "J4" V 2400 2850 50  0000 C CNN
+F 1 "JumperBypass" V 2500 2850 50  0000 C CNN
 F 2 "10096315 Blower Driver:JUMPER2_NoCopper" H 2700 3350 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2363851.pdf" H 2700 3350 50  0001 C CNN
-F 4 "TCW20 500G " H 2700 2850 50  0001 C CNN "MPN"
+F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 2700 3350 50  0001 C CNN
+F 4 "BNX002011" V 2600 2850 50  0000 C CNN "MPN"
 	1    2700 2850
 	0    1    1    0   
 $EndComp
@@ -2432,14 +2432,14 @@ F 4 "0436500212" H 1508 2083 50  0000 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Blower_Driver_Components:2pinConnector_Unknown J11
+L Blower_Driver_Components:2pinConnector_Unpopulated J11
 U 1 1 5FD2E324
 P 1550 2600
 F 0 "J11" H 1450 2550 50  0000 C CNN
-F 1 "2pinConnector" H 1500 2250 50  0000 C CNN
+F 1 "2pinConnector_Unpopulated" H 1500 2250 50  0000 C CNN
 F 2 "10096315 Blower Driver:MOL5566-2" H 1550 2600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf" H 1550 2600 50  0001 C CNN
-F 4 "0039281023" H 1550 2600 50  0001 C CNN "MPN"
+F 4 "0039281023" H 1450 2150 50  0000 C CNN "MPN"
 	1    1550 2600
 	1    0    0    -1  
 $EndComp
@@ -2684,18 +2684,6 @@ Wire Wire Line
 	3100 11200 3100 11550
 Wire Wire Line
 	2200 13350 2350 13350
-$Comp
-L Blower_Driver_Components:9pinConnector J22
-U 1 1 601E1979
-P 1750 9650
-F 0 "J22" H 1708 10075 50  0000 C CNN
-F 1 "9pinConnector" H 1708 9984 50  0000 C CNN
-F 2 "10096315 Blower Driver:MOL7395-9" H 1800 10150 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022057098_sd.pdf" H 1800 10150 50  0001 C CNN
-F 4 "0022057098" H 1750 9650 50  0001 C CNN "MPN"
-	1    1750 9650
-	1    0    0    -1  
-$EndComp
 Text Notes 1350 9450 0    50   ~ 0
 IDENT
 Text Notes 1400 10300 0    50   ~ 0
@@ -3413,4 +3401,34 @@ Wire Wire Line
 Wire Wire Line
 	17900 10050 19450 10050
 Connection ~ 16550 10550
+$Comp
+L Blower_Driver_Components:9pinConnector_Unpopulated J22
+U 1 1 601E1979
+P 1750 9650
+F 0 "J22" H 1708 10075 50  0000 C CNN
+F 1 "9pinConnector_Unpopulated" H 1708 9984 50  0000 C CNN
+F 2 "10096315 Blower Driver:MOL7395-9" H 1800 10150 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0022057098_PCB_HEADERS.pdf" H 1800 10150 50  0001 C CNN
+F 4 "0022057098" H 1650 10150 50  0000 C CNN "MPN"
+	1    1750 9650
+	1    0    0    -1  
+$EndComp
+Text Notes 1350 2400 2    50   ~ 0
+24V from\npower supply
+Text Notes 1600 2250 0    50   ~ 0
+24V
+Text Notes 1600 2350 0    50   ~ 0
+GND
+Wire Notes Line
+	22750 6800 22750 7050
+Text Notes 22800 6950 0    50   ~ 0
+0-6V
+Text Notes 22800 7250 0    50   ~ 0
+6V
+Wire Notes Line
+	22750 7200 22750 7250
+Wire Notes Line
+	22750 7300 22750 7550
+Text Notes 22800 7500 0    50   ~ 0
+0-24V
 $EndSCHEMATC

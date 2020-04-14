@@ -25,11 +25,11 @@ F https://www.molex.com/webdocs/datasheets/pdf/en-us/0022057098_PCB_HEADERS.pdf
 $ENDCMP
 #
 $CMP CapacitorArray_47pf
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf
+F https://www.mouser.fr/datasheet/2/40/AutoCapArray-777041.pdf
 $ENDCMP
 #
 $CMP Capacitor_1000uF
-F http://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf
+F https://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf
 $ENDCMP
 #
 $CMP Capacitor_100nF
