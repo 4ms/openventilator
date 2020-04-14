@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17335 11946
 encoding utf-8
 Sheet 7 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -1406,17 +1406,11 @@ Text Notes 12300 6250 0    59   ~ 0
 0VANA
 Text Notes 12125 4750 0    59   ~ 0
 O2 FLOW SENSOR CONNECTOR
-Text Notes 13237 9800 0    170  ~ 0
-CPU BOARD
-Text Notes 13687 10550 0    170  ~ 0
-RB0505
-Text Notes 14300 11050 0    170  ~ 0
-10125623
-Text Notes 8425 10675 0    59   ~ 0
+Text Notes 15750 10750 0    59   ~ 0
 A
-Text Notes 8600 10675 0    59   ~ 0
+Text Notes 15925 10750 0    59   ~ 0
 05/03/14
-Text Notes 9175 10675 0    59   ~ 0
+Text Notes 16500 10750 0    59   ~ 0
 JR
 Text Notes 7775 7575 0    59   ~ 0
 GND
@@ -1442,17 +1436,6 @@ Text Notes 7775 7125 0    59   ~ 0
 FAULT/
 Text Notes 7775 7325 0    59   ~ 0
 ENABLE
-$Comp
-L cpu-board:CART_A3 #U$10
-U 1 1 2B263A79
-P 825 11175
-F 0 "#U$10" H 825 11175 50  0001 C CNN
-F 1 "CART_A3" H 825 11175 50  0001 C CNN
-F 2 "" H 825 11175 50  0001 C CNN
-F 3 "" H 825 11175 50  0001 C CNN
-	1    825  11175
-	1    0    0    -1  
-$EndComp
 $Comp
 L cpu-board:C0805 C86
 U 1 1 908E3118

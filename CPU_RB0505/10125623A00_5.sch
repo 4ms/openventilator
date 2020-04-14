@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17335 11946
 encoding utf-8
 Sheet 6 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -113,20 +113,14 @@ Text Notes 6900 3563 0    59   ~ 0
 +10V Ref Monitoring
 Text Notes 6900 5963 0    59   ~ 0
 +3,3V Monitoring
-Text Notes 8462 10638 0    59   ~ 0
+Text Notes 15762 10763 0    59   ~ 0
 A
-Text Notes 8700 10638 0    59   ~ 0
+Text Notes 16000 10763 0    59   ~ 0
 05/03/14
-Text Notes 9200 10650 0    59   ~ 0
+Text Notes 16500 10775 0    59   ~ 0
 JR
 Text Notes 11337 1088 0    56   ~ 0
 STARTING CURRENT PROTECTION
-Text Notes 13100 9800 0    170  ~ 0
-CPU BOARD
-Text Notes 13650 10550 0    170  ~ 0
-RB0505
-Text Notes 13825 11025 0    170  ~ 0
-10125623
 Text HLabel 9825 2300 2    56   Output ~ 0
 +5VREF-FAILURE
 Text HLabel 9825 4575 2    56   Output ~ 0
@@ -1456,15 +1450,4 @@ Wire Wire Line
 	7850 1725 7850 1750
 Wire Wire Line
 	7850 3800 7850 3900
-$Comp
-L cpu-board:CART_A3 CART_A3_5
-U 1 1 602E287D
-P 925 11100
-F 0 "CART_A3_5" H 975 11150 50  0001 C CNN
-F 1 "CART_A3" H 925 11100 50  0001 C CNN
-F 2 "" H 925 11100 50  0001 C CNN
-F 3 "" H 925 11100 50  0001 C CNN
-	1    925  11100
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

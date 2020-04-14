@@ -1,4 +1,4 @@
-update=Saturday, April 11, 2020 at 10:04:46 PM
+update=4/14/2020 11:46:13 AM
 version=1
 last_client=kicad
 [general]
@@ -31,16 +31,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=empty.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [SchematicFrame]
 version=1
 [LibeditFrame]
@@ -54,3 +44,13 @@ version=1
 6=00000000-0000-0000-0000-00005e92540f:10125623A00_5
 7=00000000-0000-0000-0000-00005e9258c0:10125623A00_6
 8=00000000-0000-0000-0000-00005e926050:10125623A00_7
+[schematic_editor]
+version=1
+PageLayoutDescrFile=default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

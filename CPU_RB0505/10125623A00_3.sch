@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17335 11946
 encoding utf-8
 Sheet 4 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -1013,17 +1013,11 @@ Text Notes 4887 1975 0    59   ~ 0
 FIO2
 Text Notes 4925 2713 0    59   ~ 0
 From FiO2 connector
-Text Notes 13237 9900 0    170  ~ 0
-CPU BOARD
-Text Notes 13687 10550 0    170  ~ 0
-RB0505
-Text Notes 13862 11025 0    170  ~ 0
-10125623
 Text Notes 8475 10638 0    59   ~ 0
 A
-Text Notes 8687 10638 0    59   ~ 0
+Text Notes 15937 10763 0    59   ~ 0
 05/03/14
-Text Notes 9237 10650 0    59   ~ 0
+Text Notes 16487 10775 0    59   ~ 0
 JR
 Text Notes 1400 1950 0    59   ~ 0
 WATCHDOG
@@ -1546,17 +1540,6 @@ Connection ~ 2475 2275
 Wire Wire Line
 	2875 2300 2875 2275
 Connection ~ 2875 2275
-$Comp
-L cpu-board:CART_A3 1
-U 1 1 5E9AB64B
-P 925 11125
-F 0 "1" H 975 11175 50  0001 C CNN
-F 1 "CART_A3" H 925 11125 50  0001 C CNN
-F 2 "" H 925 11125 50  0001 C CNN
-F 3 "" H 925 11125 50  0001 C CNN
-	1    925  11125
-	1    0    0    -1  
-$EndComp
 Text HLabel 4150 2800 2    56   Output ~ 0
 RESET\
 Text Label 4675 6225 0    50   ~ 0

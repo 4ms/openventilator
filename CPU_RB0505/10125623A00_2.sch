@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17335 11946
 encoding utf-8
 Sheet 3 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -887,17 +887,11 @@ Text Notes 9250 7600 1    47   ~ 0
 BUS SPI
 Text Notes 8618 6107 0    56   ~ 0
 SETTINGS MEMORY
-Text Notes 13225 9800 0    170  ~ 0
-CPU BOARD
-Text Notes 13675 10550 0    170  ~ 0
-RB0505
-Text Notes 13850 11025 0    170  ~ 0
-10125623
-Text Notes 8450 10638 0    59   ~ 0
+Text Notes 15900 10738 0    59   ~ 0
 A
-Text Notes 8725 10638 0    59   ~ 0
+Text Notes 16175 10738 0    59   ~ 0
 05/03/14
-Text Notes 9225 10650 0    59   ~ 0
+Text Notes 16675 10750 0    59   ~ 0
 JR
 Text Notes 7372 884  0    56   ~ 0
 EVENT MEMORY
@@ -2073,17 +2067,6 @@ Wire Wire Line
 	2900 8400 3025 8400
 Text HLabel 2800 7550 2    50   BiDi ~ 0
 D[0..15]
-$Comp
-L cpu-board:CART_A3 CART_A3_2
-U 1 1 601FE408
-P 925 11100
-F 0 "CART_A3_2" H 975 11150 50  0001 C CNN
-F 1 "CART_A3" H 925 11100 50  0001 C CNN
-F 2 "" H 925 11100 50  0001 C CNN
-F 3 "" H 925 11100 50  0001 C CNN
-	1    925  11100
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	11275 2600 11275 2950
 Wire Bus Line

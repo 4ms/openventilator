@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17729 11946
 encoding utf-8
 Sheet 2 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -1220,10 +1220,6 @@ Text Notes 6574 8515 0    47   ~ 0
 Link Analog Ground 
 Text Notes 6590 8590 0    47   ~ 0
 with Digital Ground
-Text Notes 13212 9778 0    170  ~ 0
-CPU BOARD
-Text Notes 13662 10528 0    170  ~ 0
-RB0505
 Text Notes 8750 6790 0    47   ~ 0
 CS afficheur
 Text Notes 8750 6390 0    47   ~ 0
@@ -1242,8 +1238,6 @@ Text Notes 3350 5950 0    47   ~ 0
 Sound Frequency
 Text Notes 3350 5850 0    47   ~ 0
 Sound Power
-Text Notes 13837 11003 0    170  ~ 0
-10125623
 Text Notes 6625 10740 0    42   ~ 0
 BR 18 IC4
 Text Notes 7687 10728 0    42   ~ 0
@@ -1254,9 +1248,9 @@ Text Notes 2962 4859 0    47   ~ 0
 To USB/UART
 Text Notes 2651 4958 0    47   ~ 0
 on Power Supply Board
-Text Notes 8712 10615 0    59   ~ 0
+Text Notes 16587 10790 0    59   ~ 0
 05/03/14
-Text Notes 9212 10628 0    59   ~ 0
+Text Notes 17087 10803 0    59   ~ 0
 JR
 Text Notes 2700 5650 0    47   ~ 0
 PWM1
@@ -1513,19 +1507,6 @@ F 1 "GND" H 7325 1262 59  0000 L BNN
 F 2 "" H 7400 1350 50  0001 C CNN
 F 3 "" H 7400 1350 50  0001 C CNN
 	1    7400 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L cpu-board:CART_A3 #U$1
-U 1 1 89E33A62
-P 900 11100
-AR Path="/89E33A62" Ref="#U$1"  Part="1" 
-AR Path="/5E923584/89E33A62" Ref="#U$1"  Part="1" 
-F 0 "#U$1" H 900 11100 50  0001 C CNN
-F 1 "CART_A3" H 900 11100 50  0001 C CNN
-F 2 "" H 900 11100 50  0001 C CNN
-F 3 "" H 900 11100 50  0001 C CNN
-	1    900  11100
 	1    0    0    -1  
 $EndComp
 Text Label 13800 2750 0    50   ~ 0

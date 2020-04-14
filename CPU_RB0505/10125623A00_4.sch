@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17335 11946
 encoding utf-8
 Sheet 5 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -98,17 +98,6 @@ Text HLabel 10950 6100 0    56   Input ~ 0
 CE\-FLOW-INSP-SENS
 Text HLabel 13400 6075 0    56   Input ~ 0
 CE\-FLOW-EXP-SENS
-$Comp
-L cpu-board:CART_A3 #U$75
-U 1 1 B2F301CA
-P 850 11175
-F 0 "#U$75" H 850 11175 50  0001 C CNN
-F 1 "CART_A3" H 850 11175 50  0001 C CNN
-F 2 "" H 850 11175 50  0001 C CNN
-F 3 "" H 850 11175 50  0001 C CNN
-	1    850  11175
-	1    0    0    -1  
-$EndComp
 $Comp
 L cpu-board:C1206 C59
 U 1 1 079CFDA5
@@ -691,17 +680,11 @@ Text Notes 9900 3600 0    59   ~ 0
 Inspiratory Flow Measurement
 Text Notes 12700 3600 0    59   ~ 0
 Exhalation Flow Measurement
-Text Notes 13112 9838 0    170  ~ 0
-CPU BOARD
-Text Notes 13562 10588 0    170  ~ 0
-RB0505
-Text Notes 13737 11063 0    170  ~ 0
-10125623
-Text Notes 8375 10675 0    59   ~ 0
+Text Notes 15750 10775 0    59   ~ 0
 A
-Text Notes 8612 10675 0    59   ~ 0
+Text Notes 15987 10775 0    59   ~ 0
 05/03/14
-Text Notes 9112 10688 0    59   ~ 0
+Text Notes 16487 10788 0    59   ~ 0
 JR
 $Comp
 L cpu-board:0VANA #U$303

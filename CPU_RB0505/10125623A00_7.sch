@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17335 11946
 encoding utf-8
 Sheet 8 8
-Title ""
+Title "RB0505 CPU Board"
 Date ""
 Rev ""
 Comp ""
@@ -522,17 +522,6 @@ F 1 "100nF" H 5900 9600 42  0000 L CNN
 F 2 "10125623A00:C0805" H 5950 9875 50  0001 C CNN
 F 3 "" H 5950 9875 50  0001 C CNN
 	1    5950 9875
-	1    0    0    -1  
-$EndComp
-$Comp
-L cpu-board:CART_A3 #U$544
-U 1 1 AC16480B
-P 875 11125
-F 0 "#U$544" H 875 11125 50  0001 C CNN
-F 1 "CART_A3" H 875 11125 50  0001 C CNN
-F 2 "" H 875 11125 50  0001 C CNN
-F 3 "" H 875 11125 50  0001 C CNN
-	1    875  11125
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1732,17 +1721,11 @@ Text Notes 7350 3500 0    59   ~ 0
 POWER SUPPLY MANAGEMENT CONNECTOR
 Text Notes 950  2200 0    56   ~ 0
 BOTTOM(-)
-Text Notes 13050 9800 0    170  ~ 0
-CPU BOARD
-Text Notes 13500 10550 0    170  ~ 0
-RB0505
-Text Notes 13775 11025 0    170  ~ 0
-10125623
-Text Notes 8375 10638 0    59   ~ 0
+Text Notes 15825 10788 0    59   ~ 0
 A
-Text Notes 8650 10638 0    59   ~ 0
+Text Notes 16100 10788 0    59   ~ 0
 05/03/14
-Text Notes 9150 10650 0    59   ~ 0
+Text Notes 16600 10800 0    59   ~ 0
 JR
 Text Notes 1350 8188 0    47   ~ 0
 3V3
