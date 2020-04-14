@@ -87,7 +87,7 @@ F 5 "10022607" V 3050 2250 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 3050 2250 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 3050 2250 50  0001 C CNN "Manufacturer_No"
 	1    3050 2250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2900 2250 2700 2250

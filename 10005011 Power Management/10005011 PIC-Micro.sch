@@ -1156,8 +1156,6 @@ F 8 "VARISTOR 8V 30A 0603" H 12800 7400 50  0001 C CNN "Description"
 	1    12800 7400
 	1    0    0    1   
 $EndComp
-Text Notes 9850 8650 0    118  ~ 0
-Notes:\n2. ML5 not populated?  Was marked "NC" on original schematic.\n3. TX and RX labels are transposed from original.
 $Comp
 L power:GND #PWR0279
 U 1 1 5E935F1F
@@ -1201,9 +1199,9 @@ Wire Wire Line
 	5050 4550 5500 4550
 Wire Wire Line
 	5050 4650 5500 4650
-Text Label 15100 6650 2    50   ~ 0
-TX-UART-EEPROM
 Text Label 15100 6750 2    50   ~ 0
+TX-UART-EEPROM
+Text Label 15100 6650 2    50   ~ 0
 RX-UART-EEPROM
 Text GLabel 11900 7050 0    50   Output ~ 0
 BAT-EEPROM
