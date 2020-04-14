@@ -52,7 +52,7 @@ F 5 "10022607" V 1950 2250 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 1950 2250 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 1950 2250 50  0001 C CNN "Manufacturer_No"
 	1    1950 2250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0102
@@ -230,7 +230,7 @@ F 5 "10022607" V 3050 4050 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 3050 4050 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 3050 4050 50  0001 C CNN "Manufacturer_No"
 	1    3050 4050
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2900 4050 2700 4050
@@ -360,7 +360,7 @@ F 5 "10022607" V 3050 5900 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 3050 5900 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 3050 5900 50  0001 C CNN "Manufacturer_No"
 	1    3050 5900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2900 5900 2700 5900
@@ -519,7 +519,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2950 2900 2950
 Wire Wire Line
-	2900 2750 4400 2750
+	2900 2750 4250 2750
 Wire Wire Line
 	4400 2750 4400 2400
 Wire Wire Line
@@ -575,8 +575,8 @@ U 1 1 5EA5E4CE
 P 1400 6850
 AR Path="/5E92767C/5EA5E4CE" Ref="R?"  Part="1" 
 AR Path="/5E9C3EF6/5EA5E4CE" Ref="R40"  Part="1" 
-F 0 "R40" H 1330 6804 50  0000 R CNN
-F 1 "10k" H 1330 6895 50  0000 R CNN
+F 0 "R40" H 1330 6896 50  0000 R CNN
+F 1 "10k" H 1330 6805 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 1330 6850 50  0001 C CNN
 F 3 "~" H 1400 6850 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" V 1400 6850 50  0001 C CNN "Description"
@@ -584,7 +584,7 @@ F 5 "10022548" V 1400 6850 50  0001 C CNN "Item Number"
 F 6 "" V 1400 6850 50  0001 C CNN "Manufacturer"
 F 7 "" V 1400 6850 50  0001 C CNN "Manufacturer_No"
 	1    1400 6850
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0120
@@ -1063,7 +1063,7 @@ F 5 "10022736" V 6800 9200 50  0001 C CNN "Item Number"
 F 6 "" V 6800 9200 50  0001 C CNN "Manufacturer"
 F 7 "" V 6800 9200 50  0001 C CNN "Manufacturer_No"
 	1    6800 9200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R R?
@@ -1071,8 +1071,8 @@ U 1 1 5EC8ABF7
 P 6600 8750
 AR Path="/5E92767C/5EC8ABF7" Ref="R?"  Part="1" 
 AR Path="/5E9C3EF6/5EC8ABF7" Ref="R103"  Part="1" 
-F 0 "R103" H 6670 8796 50  0000 L CNN
-F 1 "2.7k" H 6670 8705 50  0000 L CNN
+F 0 "R103" H 6530 8704 50  0000 R CNN
+F 1 "2.7k" H 6530 8795 50  0000 R CNN
 F 2 "10005011 Power Management:R0603_1" V 6530 8750 50  0001 C CNN
 F 3 "~" H 6600 8750 50  0001 C CNN
 F 4 "RESISTOR,2.7K OHM,0.063W,+/-1%,0603" V 6600 8750 50  0001 C CNN "Description"
@@ -1080,14 +1080,14 @@ F 5 "10022735" V 6600 8750 50  0001 C CNN "Item Number"
 F 6 "" V 6600 8750 50  0001 C CNN "Manufacturer"
 F 7 "" V 6600 8750 50  0001 C CNN "Manufacturer_No"
 	1    6600 8750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C94
 U 1 1 5ECA7A73
 P 6600 10050
-F 0 "C94" H 6715 10096 50  0000 L CNN
-F 1 "22pF" H 6715 10005 50  0000 L CNN
+F 0 "C94" H 6486 10004 50  0000 R CNN
+F 1 "22pF" H 6486 10095 50  0000 R CNN
 F 2 "10005011 Power Management:C0603_1" H 6638 9900 50  0001 C CNN
 F 3 "~" H 6600 10050 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,22PF,+/-5%,50V,0603" V 6600 10050 50  0001 C CNN "Description"
@@ -1095,14 +1095,14 @@ F 5 "10022632" V 6600 10050 50  0001 C CNN "Item Number"
 F 6 "" V 6600 10050 50  0001 C CNN "Manufacturer"
 F 7 "" V 6600 10050 50  0001 C CNN "Manufacturer_No"
 	1    6600 10050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C95
 U 1 1 5ECA87A1
 P 7000 10050
-F 0 "C95" H 7115 10096 50  0000 L CNN
-F 1 "22pF" H 7115 10005 50  0000 L CNN
+F 0 "C95" H 6885 10004 50  0000 R CNN
+F 1 "22pF" H 6885 10095 50  0000 R CNN
 F 2 "10005011 Power Management:C0603_1" H 7038 9900 50  0001 C CNN
 F 3 "~" H 7000 10050 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,22PF,+/-5%,50V,0603" V 7000 10050 50  0001 C CNN "Description"
@@ -1110,7 +1110,7 @@ F 5 "10022632" V 7000 10050 50  0001 C CNN "Item Number"
 F 6 "" V 7000 10050 50  0001 C CNN "Manufacturer"
 F 7 "" V 7000 10050 50  0001 C CNN "Manufacturer_No"
 	1    7000 10050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0124
@@ -1340,7 +1340,7 @@ F 5 "10022548" V 2850 9550 50  0001 C CNN "Item Number"
 F 6 "" V 2850 9550 50  0001 C CNN "Manufacturer"
 F 7 "" V 2850 9550 50  0001 C CNN "Manufacturer_No"
 	1    2850 9550
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C93
@@ -1355,7 +1355,7 @@ F 5 "10022607" V 2850 9150 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 2850 9150 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 2850 9150 50  0001 C CNN "Manufacturer_No"
 	1    2850 9150
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	4100 8550 4100 9050
@@ -1723,7 +1723,7 @@ F 5 "10022607" V 10900 7950 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 10900 7950 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 10900 7950 50  0001 C CNN "Manufacturer_No"
 	1    10900 7950
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0131
@@ -1753,23 +1753,6 @@ Wire Wire Line
 	11000 9000 13150 9000
 Wire Wire Line
 	13150 9000 13150 8900
-$Comp
-L Device:R R?
-U 1 1 5F0A4AA7
-P 12050 8200
-AR Path="/5E92767C/5F0A4AA7" Ref="R?"  Part="1" 
-AR Path="/5E9C3EF6/5F0A4AA7" Ref="R102"  Part="1" 
-F 0 "R102" V 12165 8200 50  0000 C CNN
-F 1 "47k" V 12256 8200 50  0000 C CNN
-F 2 "10005011 Power Management:R0603_1" V 11980 8200 50  0001 C CNN
-F 3 "~" H 12050 8200 50  0001 C CNN
-F 4 "RESISTOR,47K OHM,0.063W,+/-1%,0603" V 12050 8200 50  0001 C CNN "Description"
-F 5 "10022734" V 12050 8200 50  0001 C CNN "Item Number"
-F 6 "" V 12050 8200 50  0001 C CNN "Manufacturer"
-F 7 "" V 12050 8200 50  0001 C CNN "Manufacturer_No"
-	1    12050 8200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	12200 8200 12300 8200
 Wire Wire Line
@@ -1804,11 +1787,9 @@ Wire Wire Line
 Wire Wire Line
 	11800 8050 11800 8200
 Wire Wire Line
-	8400 8250 8400 8450
+	8400 8250 8400 8350
 Wire Wire Line
-	8400 8450 10250 8450
-Wire Wire Line
-	9700 8350 10250 8350
+	9700 8450 10250 8450
 Wire Wire Line
 	13550 8900 13550 9100
 Wire Wire Line
@@ -1846,7 +1827,7 @@ F 5 "10022607" V 13350 5800 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 13350 5800 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 13350 5800 50  0001 C CNN "Manufacturer_No"
 	1    13350 5800
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C C91
@@ -1861,7 +1842,7 @@ F 5 "10022607" V 13350 5350 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 13350 5350 50  0001 C CNN "Manufacturer"
 F 7 "GRM155R71C104JA88J" V 13350 5350 50  0001 C CNN "Manufacturer_No"
 	1    13350 5350
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	13050 6000 13050 5800
@@ -1987,7 +1968,7 @@ F 5 "10039587" V 14950 1050 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 14950 1050 50  0001 C CNN "Manufacturer"
 F 7 "BLM21PG221SH1D" V 14950 1050 50  0001 C CNN "Manufacturer_No"
 	1    14950 1050
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:L_Core_Iron L13
@@ -2020,7 +2001,7 @@ F 8 "SMD VARISTOR, 5.5V,C0603" H 14600 1850 50  0001 C CNN "Description"
 F 9 "" H 14703 1759 50  0001 L CNN "Bom_Footprint"
 F 10 "10022926" H 14600 1850 50  0001 C CNN "Item Number"
 	1    14600 1850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C130
@@ -2139,7 +2120,7 @@ F 7 "732-13295-1-ND" H 13700 1850 50  0001 C CNN "Source_PN"
 F 8 "VARISTOR, CMS PROTECTION ESD SURGE SUPPRESSOR,C0603" H 13700 1850 50  0001 C CNN "Description"
 F 9 "10022946" H 13700 1850 50  0001 C CNN "Item Number"
 	1    13700 1850
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead L25
@@ -2154,7 +2135,7 @@ F 5 "10039587" V 14950 2350 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 14950 2350 50  0001 C CNN "Manufacturer"
 F 7 "BLM21PG221SH1D" V 14950 2350 50  0001 C CNN "Manufacturer_No"
 	1    14950 2350
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C129
@@ -2174,35 +2155,35 @@ $EndComp
 $Comp
 L Device:Polyfuse PCT1
 U 1 1 5F91ED41
-P 10400 1050
-F 0 "PCT1" V 10175 1050 50  0000 C CNN
-F 1 "MS-MSMF110" V 10266 1050 50  0000 C CNN
-F 2 "10005011 Power Management:C1812_1" H 10450 850 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf" H 10400 1050 50  0001 C CNN
-F 4 "Bourns Inc." H 10400 1050 50  0001 C CNN "Mfgr"
-F 5 "MF-MSMF110/16-2" H 10400 1050 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 10400 1050 50  0001 C CNN "Source"
-F 7 "MF-MSMF110/16-2CT-ND" H 10400 1050 50  0001 C CNN "Source_PN"
-F 8 "PTC RESET FUSE 16V 1.1A 1812" H 10400 1050 50  0001 C CNN "Description"
-F 9 "10022928" V 10400 1050 50  0001 C CNN "Item Number"
-	1    10400 1050
-	0    1    1    0   
+P 10050 1050
+F 0 "PCT1" V 9825 1050 50  0000 C CNN
+F 1 "MS-MSMF110" V 9916 1050 50  0000 C CNN
+F 2 "10005011 Power Management:C1812_1" H 10100 850 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf" H 10050 1050 50  0001 C CNN
+F 4 "Bourns Inc." H 10050 1050 50  0001 C CNN "Mfgr"
+F 5 "MF-MSMF110/16-2" H 10050 1050 50  0001 C CNN "Mfgr_PN"
+F 6 "Digi-Key" H 10050 1050 50  0001 C CNN "Source"
+F 7 "MF-MSMF110/16-2CT-ND" H 10050 1050 50  0001 C CNN "Source_PN"
+F 8 "PTC RESET FUSE 16V 1.1A 1812" H 10050 1050 50  0001 C CNN "Description"
+F 9 "10022928" V 10050 1050 50  0001 C CNN "Item Number"
+	1    10050 1050
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0136
 U 1 1 5F9216E3
-P 9800 950
-F 0 "#PWR0136" H 9800 800 50  0001 C CNN
-F 1 "+5V" H 9815 1123 50  0000 C CNN
-F 2 "" H 9800 950 50  0001 C CNN
-F 3 "" H 9800 950 50  0001 C CNN
-	1    9800 950 
+P 9450 950
+F 0 "#PWR0136" H 9450 800 50  0001 C CNN
+F 1 "+5V" H 9465 1123 50  0000 C CNN
+F 2 "" H 9450 950 50  0001 C CNN
+F 3 "" H 9450 950 50  0001 C CNN
+	1    9450 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 950  9800 1050
+	9450 950  9450 1050
 Wire Wire Line
-	9800 1050 10250 1050
+	9450 1050 9900 1050
 $Comp
 L 10005011_Power_Management:USB_A_4shield J13
 U 1 1 5F94AF33
@@ -2273,7 +2254,7 @@ F 5 "10039587" V 14950 2950 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 14950 2950 50  0001 C CNN "Manufacturer"
 F 7 "BLM21PG221SH1D" V 14950 2950 50  0001 C CNN "Manufacturer_No"
 	1    14950 2950
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:L_Core_Iron L14
@@ -2305,7 +2286,7 @@ F 7 "B72500T0040M060" H 14600 3750 50  0001 C CNN "Mfgr_PN"
 F 8 "SMD VARISTOR, 5.5V,C0603" H 14600 3750 50  0001 C CNN "Description"
 F 9 "10022926" H 14600 3750 50  0001 C CNN "Item Number"
 	1    14600 3750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C120
@@ -2379,8 +2360,6 @@ Wire Wire Line
 	12800 3900 12800 4250
 Connection ~ 12800 4250
 Wire Wire Line
-	12800 4250 12300 4250
-Wire Wire Line
 	13200 3900 13200 4250
 Connection ~ 13200 4250
 Wire Wire Line
@@ -2432,7 +2411,7 @@ F 7 "732-13295-1-ND" H 13700 3750 50  0001 C CNN "Source_PN"
 F 8 "VARISTOR, CMS PROTECTION ESD SURGE SUPPRESSOR,C0603" H 13700 3750 50  0001 C CNN "Description"
 F 9 "10022946" H 13700 3750 50  0001 C CNN "Item Number"
 	1    13700 3750
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead L26
@@ -2447,7 +2426,7 @@ F 5 "10039587" V 14950 4250 50  0001 C CNN "Item Number"
 F 6 "MURATA" V 14950 4250 50  0001 C CNN "Manufacturer"
 F 7 "BLM21PG221SH1D" V 14950 4250 50  0001 C CNN "Manufacturer_No"
 	1    14950 4250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C121
@@ -2468,7 +2447,7 @@ Wire Wire Line
 	10850 2950 10850 1050
 Connection ~ 10850 1050
 Wire Wire Line
-	10850 1050 10550 1050
+	10850 1050 10450 1050
 Text Label 4250 5900 0    50   ~ 0
 DP1B
 Text Label 4250 6000 0    50   ~ 0
@@ -2487,7 +2466,7 @@ Text Label 11200 3100 0    50   ~ 0
 DM1B
 Text Label 11200 3300 0    50   ~ 0
 DP1B
-Text Label 9700 8350 0    50   ~ 0
+Text Label 9700 8450 0    50   ~ 0
 NXROMSEL
 NoConn ~ 1750 9450
 NoConn ~ 1750 9350
@@ -2519,6 +2498,119 @@ Wire Wire Line
 	15100 3300 15100 3250
 Wire Wire Line
 	12800 3300 15100 3300
+$Comp
+L power:GND #PWR0282
+U 1 1 5EE3DD03
+P 12300 2400
+F 0 "#PWR0282" H 12300 2150 50  0001 C CNN
+F 1 "GND" H 12305 2227 50  0000 C CNN
+F 2 "" H 12300 2400 50  0001 C CNN
+F 3 "" H 12300 2400 50  0001 C CNN
+	1    12300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 2400 12300 2350
+Connection ~ 12300 2350
+$Comp
+L power:GND #PWR0283
+U 1 1 5EE65FEA
+P 12300 4300
+F 0 "#PWR0283" H 12300 4050 50  0001 C CNN
+F 1 "GND" H 12305 4127 50  0000 C CNN
+F 2 "" H 12300 4300 50  0001 C CNN
+F 3 "" H 12300 4300 50  0001 C CNN
+	1    12300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 4300 12300 4250
+Connection ~ 12300 4250
+Wire Wire Line
+	12300 4250 12800 4250
+$Comp
+L Device:R R8
+U 1 1 5F20A20B
+P 4250 3200
+F 0 "R8" H 4180 3154 50  0000 R CNN
+F 1 "47k" H 4180 3245 50  0000 R CNN
+F 2 "10005011 Power Management:R0603_1" V 4180 3200 50  0001 C CNN
+F 3 "" H 4250 3200 50  0001 C CNN
+F 4 "RESISTOR,47K OHM,0.063W,+/-1%,0603" H 4250 3200 50  0001 C CNN "Description"
+F 5 "10022734" H 4250 3200 50  0001 C CNN "Item Number"
+	1    4250 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 3050 4250 2750
+Connection ~ 4250 2750
+Wire Wire Line
+	4250 2750 4400 2750
+$Comp
+L power:GND #PWR0284
+U 1 1 5F2303E9
+P 4250 3400
+F 0 "#PWR0284" H 4250 3150 50  0001 C CNN
+F 1 "GND" H 4255 3227 50  0000 C CNN
+F 2 "" H 4250 3400 50  0001 C CNN
+F 3 "" H 4250 3400 50  0001 C CNN
+	1    4250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3400 4250 3350
+$Comp
+L Device:R R?
+U 1 1 5F0A4AA7
+P 12050 8200
+AR Path="/5E92767C/5F0A4AA7" Ref="R?"  Part="1" 
+AR Path="/5E9C3EF6/5F0A4AA7" Ref="R102"  Part="1" 
+F 0 "R102" V 12165 8200 50  0000 C CNN
+F 1 "47k" V 12256 8200 50  0000 C CNN
+F 2 "10005011 Power Management:R0603_1" V 11980 8200 50  0001 C CNN
+F 3 "~" H 12050 8200 50  0001 C CNN
+F 4 "RESISTOR,47K OHM,0.063W,+/-1%,0603" V 12050 8200 50  0001 C CNN "Description"
+F 5 "10022734" V 12050 8200 50  0001 C CNN "Item Number"
+F 6 "" V 12050 8200 50  0001 C CNN "Manufacturer"
+F 7 "" V 12050 8200 50  0001 C CNN "Manufacturer_No"
+	1    12050 8200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C89
+U 1 1 5E9C6325
+P 10450 1350
+F 0 "C89" H 10565 1396 50  0000 L CNN
+F 1 "100uF" H 10565 1305 50  0000 L CNN
+F 2 "10005011 Power Management:RC1206-AIROX-KEMET-C1206C107A6" H 10488 1200 50  0001 C CNN
+F 3 "~" H 10450 1350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 100UF,+/-20%,6.3V" V 10450 1350 50  0001 C CNN "Description"
+F 5 "10039585" V 10450 1350 50  0001 C CNN "Item Number"
+F 6 "KEMET" V 10450 1350 50  0001 C CNN "Manufacturer"
+F 7 "C1206C107M9PAC" V 10450 1350 50  0001 C CNN "Manufacturer_No"
+	1    10450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0285
+U 1 1 5E9C705F
+P 10450 1550
+F 0 "#PWR0285" H 10450 1300 50  0001 C CNN
+F 1 "GND" H 10455 1377 50  0000 C CNN
+F 2 "" H 10450 1550 50  0001 C CNN
+F 3 "" H 10450 1550 50  0001 C CNN
+	1    10450 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 1550 10450 1500
+Wire Wire Line
+	10450 1200 10450 1050
+Connection ~ 10450 1050
+Wire Wire Line
+	10450 1050 10200 1050
+Wire Wire Line
+	10250 8350 8400 8350
 Wire Bus Line
 	9750 5850 9750 7350
 Wire Bus Line

@@ -1,4 +1,4 @@
-(module SHDRRA10W64P254_2X5_2050X890X930P (layer F.Cu) (tedit 5E8C0658)
+(module SHDRRA10W64P254_2X5_2050X890X930P (layer F.Cu) (tedit 5E9349E3)
   (descr 09185107323)
   (tags Connector)
   (fp_text reference J** (at -7.62 1.27) (layer F.SilkS)
@@ -28,4 +28,9 @@
   (pad 8 thru_hole circle (at 7.62 -2.54 90) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at 10.16 0 90) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole circle (at 10.16 -2.54 90) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIPRJMOD}/10096510_Battery_Connection.pretty/39-26-7108-recenter.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

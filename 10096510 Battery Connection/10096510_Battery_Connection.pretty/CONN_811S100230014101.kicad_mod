@@ -1,4 +1,4 @@
-(module CONN_811S100230014101 (layer F.Cu) (tedit 5E8A5706)
+(module CONN_811S100230014101 (layer F.Cu) (tedit 5E934286)
   (descr 811-S1-002-30-014101-2)
   (tags Connector)
   (attr smd)
@@ -28,4 +28,9 @@
   (fp_arc (start -1.35 1.8) (end -1.4 1.8) (angle -180) (layer F.SilkS) (width 0.2))
   (pad 1 smd circle (at -1.27 0 90) (size 2 2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd circle (at 1.27 0 90) (size 2 2) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/10096510_Battery_Connection.pretty/811-S1-NNN.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

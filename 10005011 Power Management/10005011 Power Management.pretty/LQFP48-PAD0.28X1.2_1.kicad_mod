@@ -1,4 +1,4 @@
-(module LQFP48-PAD0.28X1.2_1 (layer F.Cu) (tedit 0)
+(module LQFP48-PAD0.28X1.2_1 (layer F.Cu) (tedit 5E952297)
   (attr smd)
   (fp_text reference IC4 (at -0.4714 -0.8079 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -122,4 +122,9 @@
   (pad 46 smd rect (at -4.25 1.75 90) (size 0.28 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 47 smd rect (at -4.25 2.25 90) (size 0.28 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 48 smd rect (at -4.25 2.75 90) (size 0.28 1.2) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
