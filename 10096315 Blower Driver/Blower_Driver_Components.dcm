@@ -109,7 +109,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Component
 $ENDCMP
 #
 $CMP JumperBypass
-F https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11
+F http://www.farnell.com/datasheets/2363851.pdf
 $ENDCMP
 #
 $CMP LinearRegulator
