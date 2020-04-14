@@ -218,13 +218,13 @@ $ENDCMP
 $CMP USB_A_4shield
 D USB Type A connector
 K connector USB
-F  ~
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0673298001_IO_CONNECTORS.pdf
 $ENDCMP
 #
 $CMP USB_B_Mini_2shield
 D USB MINI B
 K 10022867
-F ~
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0548190519_IO_CONNECTORS.pdf
 $ENDCMP
 #
 $CMP VACDC
