@@ -50,7 +50,7 @@ ENDDEF
 # cpu-board_+3,3V
 #
 DEF cpu-board_+3,3V ~ 0 40 N Y 1 F P
-F0 "~" 0 0 50 H I C CNN
+F0 "" 0 0 50 H I C CNN
 F1 "cpu-board_+3,3V" -112 225 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
