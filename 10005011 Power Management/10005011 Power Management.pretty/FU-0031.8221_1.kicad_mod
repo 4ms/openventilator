@@ -1,4 +1,4 @@
-(module FU-0031.8221_1 (layer F.Cu) (tedit 5E95234D)
+(module FU-0031.8221_1 (layer F.Cu) (tedit 5E95D2CC)
   (attr smd)
   (fp_text reference F1 (at -0.4714 -0.5476 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -40,9 +40,9 @@
   (fp_line (start -12.5 4.8) (end -12.5 3.85752) (layer F.SilkS) (width 0.18))
   (pad 1 smd rect (at -8.5 0) (size 6 6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 8.5 0) (size 6 6) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open.wrl
-    (offset (xyz -11.25 0 0))
+  (model "${KIPRJMOD}/3D Models/FU-0031.8221.STEP"
+    (offset (xyz 4.45 0 2.25))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
 )
