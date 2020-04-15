@@ -1,10 +1,8 @@
 # Usage: 
-# python3 bomconv.py > lib_additions
+# python3 bomconv.py 
 #
 # The file named bom.csv must be in the current directory
 # All the schematic pages must also be in the current directory
-# Then paste in the lines from lib_additions into the kicad .lib file
-# The refdes should help find where they go
 
 import os
 import csv
@@ -51,7 +49,7 @@ def output_last_item_as_libsym(partlines):
         dups = dups + partlines
 
 def output_last_item_as_schsym(partlines):
-
+    return
 
 for row in reader:
     itemnum = row['Item Number']
@@ -87,10 +85,15 @@ for row in reader:
         extras_idx = 1
         f_num = 8
         desc_line = "F4 \""+desc+"\" 0 0 50 H I C CNN \"Description\""
+        desc_sym_line = "F4 \""+desc+"\" H 0   0   50  0001 C CNN \"Description\""
         itemnum_line = "F5 \""+itemnum+"\" 0 0 50 H I C CNN \"Item Number\""
+        itemnum_sym_line = "F5 \""+itemnum+"\" 0 0 50 H I C CNN \"Item Number\""
         manu_line = "F6 \""+manu+"\" 0 0 50 H I C CNN \"Manufacturer\""
+        manu_sym_line = "F6 \""+manu+"\" 0 0 50 H I C CNN \"Manufacturer\""
         manuNo_line = "F7 \""+manuNo+"\" 0 0 50 H I C CNN \"Manufacturer_No\""
+        manuNo_sym_line = "F7 \""+manuNo+"\" 0 0 50 H I C CNN \"Manufacturer_No\""
         manuDesc_line = "F8 \""+manuDesc+"\" 0 0 50 H I C CNN \"Manufacturer_Desc\""
+        manuDesc_sym_line = "F8 \""+manuDesc+"\" 0 0 50 H I C CNN \"Manufacturer_Desc\""
         partlines = partlines + desc_line + "\n"
         partlines = partlines + itemnum_line + "\n"
         partlines = partlines + manu_line + "\n"
@@ -109,6 +112,11 @@ for row in reader:
         partlines = partlines + manuNo_extra_line + "\n"
         partlines = partlines + manuDesc_extra_line + "\n"
 
+# symbol format:
+# F 4 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 0   0   50  0001 C CNN "Description"
+# F 5 "10022135" H 0   0   50  0001 C CNN "Item Number"
+# F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+
 # Format (for reference)
 # F4 "TRANSISTOR MOSFET N CHANNEL 60V, 0.18A" 0 0 50 H I C CNN "Description"
 # F5 "10097274" 0 0 50 H I C CNN "Item Number"
@@ -116,7 +124,7 @@ for row in reader:
 # F7 "2N7002LT1G" 0 0 50 H I C CNN "Manufacturer_No"
 # etc..
 
-print("Unique:")
+print("Unique Library Parts:")
 print(unique)
 print("Duplicates:")
 print(dups)
