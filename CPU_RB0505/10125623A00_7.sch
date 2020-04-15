@@ -62,9 +62,9 @@ Text HLabel 12000 2375 3    56   Output ~ 0
 BUSY-AFF
 Text HLabel 13600 2425 3    56   Input ~ 0
 RD\
-Text HLabel 14200 2425 3    56   Input ~ 0
+Text HLabel 14200 2375 3    56   Input ~ 0
 WR\
-Text HLabel 14400 2425 3    56   Input ~ 0
+Text HLabel 14400 2375 3    56   Input ~ 0
 CS4\
 Text HLabel 3275 5425 2    56   Output ~ 0
 ALARM-INHIB
@@ -1582,14 +1582,6 @@ Wire Notes Line
 Wire Notes Line
 	5075 10450 5825 10450
 Wire Notes Line
-	10175 1650 14750 1650
-Wire Notes Line
-	14750 1650 14750 2350
-Wire Notes Line
-	14750 2350 10175 2350
-Wire Notes Line
-	10175 2350 10175 1650
-Wire Notes Line
 	2275 7963 1812 7963
 Wire Notes Line
 	2275 7775 1812 7775
@@ -2581,9 +2573,9 @@ Wire Wire Line
 	14200 1300 14200 1750
 Connection ~ 14200 1300
 Wire Wire Line
-	14400 2150 14400 2425
+	14400 2150 14400 2375
 Wire Wire Line
-	14200 2150 14200 2425
+	14200 2150 14200 2375
 Wire Wire Line
 	14000 2150 14000 2675
 Wire Wire Line
@@ -2706,7 +2698,7 @@ Entry Wire Line
 	13400 2925 13500 3025
 Entry Wire Line
 	13800 2925 13900 3025
-Text HLabel 14100 3025 2    50   Input ~ 0
+Text HLabel 14200 3025 2    50   Input ~ 0
 D[0..15]
 Wire Wire Line
 	13400 2150 13400 2925
@@ -2734,5 +2726,5 @@ A[0..19]
 Wire Bus Line
 	12600 2775 14225 2775
 Wire Bus Line
-	11400 3025 14100 3025
+	11400 3025 14200 3025
 $EndSCHEMATC
