@@ -20,7 +20,6 @@ NoConn ~ 5050 6050
 NoConn ~ 5050 5950
 Wire Wire Line
 	4250 2650 4250 2450
-Connection ~ 3950 2450
 Wire Wire Line
 	3950 2450 3950 2650
 Wire Wire Line
@@ -222,8 +221,6 @@ F 3 "~" H 5350 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5150 3450 5050 3450
-Wire Wire Line
-	3550 2450 3950 2450
 $Comp
 L Connector:TestPoint_Alt PST8
 U 1 1 5E97C164
@@ -567,8 +564,6 @@ F 3 "~" H 9400 3850 50  0001 C CNN
 	1    9400 3850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9800 3400 9900 3400
 $Comp
 L Comparator:LM393 IC1
 U 2 1 5FEC9576
@@ -894,7 +889,7 @@ Wire Wire Line
 	4000 10400 4400 10400
 Text Notes 1600 7450 1    50   ~ 0
 Ambient temperature\nmeasurement
-Text Notes 2500 1100 0    50   ~ 0
+Text Notes 1900 1150 0    50   ~ 0
 PIC bypass capacitors
 Text Label 9100 4850 0    50   ~ 0
 VACDCREF
@@ -909,10 +904,6 @@ CMP-OUT-VACDC
 Text Label 2750 9500 0    50   ~ 0
 ICSP-PWR
 Wire Wire Line
-	2750 1250 3250 1250
-Text Label 2400 1250 0    50   ~ 0
-5VPIC
-Wire Wire Line
 	1950 9200 2300 9200
 Text Label 2300 9200 2    50   ~ 0
 PGC
@@ -920,10 +911,6 @@ Text Label 2300 9300 2    50   ~ 0
 PGD
 Wire Wire Line
 	1950 9300 2300 9300
-Text Label 3550 2450 0    50   ~ 0
-5VPIC
-Text Label 4700 9500 2    50   ~ 0
-5VPIC
 Text Label 2300 9600 2    50   ~ 0
 MCLR
 Text Label 2950 4450 0    50   ~ 0
@@ -1229,8 +1216,6 @@ Text GLabel 2500 5350 0    50   Input ~ 0
 IBAT
 Text GLabel 2500 5550 0    50   Input ~ 0
 MES-VACDC
-Text GLabel 1700 5750 0    50   Input ~ 0
-+3.0VREF
 Text GLabel 2500 5850 0    50   Input ~ 0
 MES-3.3V
 Text GLabel 2500 6050 0    50   Input ~ 0
@@ -1269,12 +1254,8 @@ Text GLabel 5650 3350 2    50   Output ~ 0
 ~AC-SWITCH
 Text GLabel 9900 3200 2    50   Input ~ 0
 MES-VDC
-Text GLabel 9900 3400 2    50   Input ~ 0
-+3.0VREF
 Text GLabel 9900 4650 2    50   Input ~ 0
 MES-VACDC
-Text GLabel 9900 4850 2    50   Input ~ 0
-+3.0VREF
 Text GLabel 5350 4150 2    50   Output ~ 0
 LED-AC-PRESENCE
 Text GLabel 5350 4350 2    50   Output ~ 0
@@ -1392,4 +1373,97 @@ Wire Wire Line
 	1800 6850 1800 7000
 Wire Wire Line
 	1800 7300 1800 7450
+$Comp
+L 10005011_Power_Management:+3.0VREF #PWR0289
+U 1 1 5E987469
+P 1700 5700
+F 0 "#PWR0289" H 1700 5550 50  0001 C CNN
+F 1 "+3.0VREF" H 1715 5873 50  0000 C CNN
+F 2 "" H 1700 5700 50  0001 C CNN
+F 3 "" H 1700 5700 50  0001 C CNN
+	1    1700 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5700 1700 5750
+$Comp
+L 10005011_Power_Management:+3.0VREF #PWR0290
+U 1 1 5EA52332
+P 10150 3500
+F 0 "#PWR0290" H 10150 3350 50  0001 C CNN
+F 1 "+3.0VREF" H 10165 3673 50  0000 C CNN
+F 2 "" H 10150 3500 50  0001 C CNN
+F 3 "" H 10150 3500 50  0001 C CNN
+	1    10150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 3500 10150 3550
+Wire Wire Line
+	10150 3550 9950 3550
+Wire Wire Line
+	9950 3550 9950 3400
+Wire Wire Line
+	9800 3400 9950 3400
+$Comp
+L 10005011_Power_Management:+3.0VREF #PWR0291
+U 1 1 5EA5F26B
+P 10100 4950
+F 0 "#PWR0291" H 10100 4800 50  0001 C CNN
+F 1 "+3.0VREF" H 10115 5123 50  0000 C CNN
+F 2 "" H 10100 4950 50  0001 C CNN
+F 3 "" H 10100 4950 50  0001 C CNN
+	1    10100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4950 10100 5000
+Wire Wire Line
+	10100 5000 9900 5000
+Wire Wire Line
+	9900 5000 9900 4850
+$Comp
+L 10005011_Power_Management:+5VPIC #PWR0292
+U 1 1 5EA7F0FF
+P 4150 2350
+F 0 "#PWR0292" H 4150 2200 50  0001 C CNN
+F 1 "+5VPIC" H 4165 2523 50  0000 C CNN
+F 2 "" H 4150 2350 50  0001 C CNN
+F 3 "" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2350 4150 2450
+$Comp
+L 10005011_Power_Management:+5VPIC #PWR0293
+U 1 1 5EA97614
+P 3000 1150
+F 0 "#PWR0293" H 3000 1000 50  0001 C CNN
+F 1 "+5VPIC" H 3015 1323 50  0000 C CNN
+F 2 "" H 3000 1150 50  0001 C CNN
+F 3 "" H 3000 1150 50  0001 C CNN
+	1    3000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1150 3000 1250
+Wire Wire Line
+	2750 1250 3000 1250
+Connection ~ 3000 1250
+Wire Wire Line
+	3000 1250 3250 1250
+$Comp
+L 10005011_Power_Management:+5VPIC #PWR0294
+U 1 1 5EAB1137
+P 4700 9450
+F 0 "#PWR0294" H 4700 9300 50  0001 C CNN
+F 1 "+5VPIC" H 4715 9623 50  0000 C CNN
+F 2 "" H 4700 9450 50  0001 C CNN
+F 3 "" H 4700 9450 50  0001 C CNN
+	1    4700 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 9450 4700 9500
 $EndSCHEMATC

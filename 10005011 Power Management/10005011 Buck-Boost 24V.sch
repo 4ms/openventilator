@@ -773,7 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 1250 7800 1850
 Wire Wire Line
-	7800 1250 8900 1250
+	7800 1250 8000 1250
 Wire Wire Line
 	7550 2150 7550 1850
 Wire Wire Line
@@ -808,10 +808,6 @@ Wire Wire Line
 Connection ~ 7550 2750
 Wire Wire Line
 	7550 2750 7800 2750
-Text Label 5750 2750 0    50   ~ 0
-SW2
-Text Label 8450 2750 2    50   ~ 0
-SW1
 Text Label 5750 3200 0    50   ~ 0
 BG2
 Wire Wire Line
@@ -936,8 +932,6 @@ Wire Wire Line
 	4800 7600 4300 7600
 Text Label 4800 7400 2    50   ~ 0
 BG1
-Text Label 4800 7200 2    50   ~ 0
-SW1
 Wire Wire Line
 	4500 8000 4500 8200
 Wire Wire Line
@@ -976,8 +970,6 @@ Wire Wire Line
 	5200 6800 5200 6850
 Text Label 2250 7400 0    50   ~ 0
 BG2
-Text Label 2250 7200 0    50   ~ 0
-SW2
 Wire Wire Line
 	2250 7400 2750 7400
 Wire Wire Line
@@ -1370,8 +1362,6 @@ Wire Wire Line
 	2700 5500 3300 5500
 Text Label 3050 5150 0    50   ~ 0
 VIN
-Text Label 5500 1050 2    50   ~ 0
-VIN
 Wire Wire Line
 	5500 1050 5300 1050
 Wire Wire Line
@@ -1472,40 +1462,19 @@ Text Label 3900 5150 2    50   ~ 0
 INTVCC-1
 Wire Wire Line
 	3500 5150 3900 5150
-$Comp
-L Device:R R60
-U 1 1 5EE9A75C
-P 4800 6400
-F 0 "R60" H 4730 6354 50  0000 R CNN
-F 1 "10k" H 4730 6445 50  0000 R CNN
-F 2 "10005011 Power Management:R0603_1" V 4730 6400 50  0001 C CNN
-F 3 "~" H 4800 6400 50  0001 C CNN
-F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" V 4800 6400 50  0001 C CNN "Description"
-F 5 "10022548" V 4800 6400 50  0001 C CNN "Item Number"
-F 6 "" V 4800 6400 50  0001 C CNN "Manufacturer"
-F 7 "" V 4800 6400 50  0001 C CNN "Manufacturer_No"
-	1    4800 6400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4800 6550 4800 6600
-Wire Wire Line
-	4800 6600 4300 6600
 Text Label 5200 5900 2    50   ~ 0
 INTVCC-1
 Wire Wire Line
-	4800 5900 5200 5900
+	4650 5900 5200 5900
 Wire Wire Line
-	4800 5900 4800 6150
+	4650 5900 4650 6150
 Wire Wire Line
-	4800 6150 5200 6150
+	4650 6150 5200 6150
 Wire Wire Line
 	5200 6150 5200 6450
 Wire Wire Line
 	5200 6750 5200 6800
-Connection ~ 4800 6150
-Wire Wire Line
-	4800 6150 4800 6250
+Connection ~ 4650 6150
 Connection ~ 5200 6800
 Wire Wire Line
 	12250 3150 12250 3200
@@ -1934,4 +1903,91 @@ F 8 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 14200 1350 50  0001 C CNN "Description"
 	1    14200 1350
 	-1   0    0    -1  
 $EndComp
+$Comp
+L 10005011_Power_Management:1N5819 D19-BIS?
+U 1 1 5E9EC701
+P 1200 6600
+AR Path="/5FEC5422/5E9EC701" Ref="D19-BIS?"  Part="1" 
+AR Path="/5E92767C/5E9EC701" Ref="ZCR2"  Part="1" 
+F 0 "ZCR2" V 1250 6900 50  0000 C CNN
+F 1 "??SOD87C" V 1150 6900 50  0000 C CNN
+F 2 "10005011 Power Management:SOD87_1" H 1150 6300 50  0001 C CNN
+F 3 "" H 1200 6600 50  0001 C CNN
+F 4 "" H 1200 5900 50  0001 C CNN "Mfgr"
+F 5 "" H 1250 6100 50  0001 C CNN "Mfgr_PN"
+F 6 "" H 1200 6000 50  0001 C CNN "Source"
+F 7 "" H 1150 6200 50  0001 C CNN "Source_PN"
+F 8 "" H 1150 6400 50  0001 C CNN "Description"
+F 9 "" H 1200 6600 50  0001 C CNN "Item Number"
+	1    1200 6600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1200 6450
+Connection ~ 1200 6750
+$Comp
+L 10005011_Power_Management:1N5819 CR2-BIS?
+U 1 1 5EA4E9A7
+P 5200 6600
+AR Path="/5FEC5422/5EA4E9A7" Ref="CR2-BIS?"  Part="1" 
+AR Path="/5E92767C/5EA4E9A7" Ref="ZCR1"  Part="1" 
+F 0 "ZCR1" V 5250 6850 50  0000 C CNN
+F 1 "??SOD87C" V 5150 6850 50  0000 C CNN
+F 2 "10005011 Power Management:SOD87_1" H 5150 6300 50  0001 C CNN
+F 3 "" H 5200 6600 50  0001 C CNN
+F 4 "" H 5200 5900 50  0001 C CNN "Mfgr"
+F 5 "" H 5250 6100 50  0001 C CNN "Mfgr_PN"
+F 6 "" H 5200 6000 50  0001 C CNN "Source"
+F 7 "" H 5150 6200 50  0001 C CNN "Source_PN"
+F 8 "" H 5150 6400 50  0001 C CNN "Description"
+F 9 "" H 5200 6600 50  0001 C CNN "Item Number"
+	1    5200 6600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5200 6450
+Connection ~ 5200 6750
+Wire Wire Line
+	4650 6600 4300 6600
+Wire Wire Line
+	4650 6150 4650 6250
+Wire Wire Line
+	4650 6550 4650 6600
+$Comp
+L Device:R R60
+U 1 1 5EE9A75C
+P 4650 6400
+F 0 "R60" H 4580 6354 50  0000 R CNN
+F 1 "10k" H 4580 6445 50  0000 R CNN
+F 2 "10005011 Power Management:R0603_1" V 4580 6400 50  0001 C CNN
+F 3 "~" H 4650 6400 50  0001 C CNN
+F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" V 4650 6400 50  0001 C CNN "Description"
+F 5 "10022548" V 4650 6400 50  0001 C CNN "Item Number"
+F 6 "" V 4650 6400 50  0001 C CNN "Manufacturer"
+F 7 "" V 4650 6400 50  0001 C CNN "Manufacturer_No"
+	1    4650 6400
+	-1   0    0    1   
+$EndComp
+Text GLabel 15150 2400 0    50   Input ~ 0
+MES-24V-UTIL
+Wire Wire Line
+	15150 2400 15250 2400
+Connection ~ 15250 2400
+Text Label 5500 1050 2    50   ~ 0
+VIN
+Text Label 4800 7200 2    50   ~ 0
+SW1
+Text Label 2250 7200 0    50   ~ 0
+SW2
+Text Label 8450 2750 2    50   ~ 0
+SW1
+Text Label 5750 2750 0    50   ~ 0
+SW2
+Text Label 8200 1050 2    50   ~ 0
+OS+
+Wire Wire Line
+	8200 1050 8000 1050
+Wire Wire Line
+	8000 1050 8000 1250
+Connection ~ 8000 1250
+Wire Wire Line
+	8000 1250 8900 1250
 $EndSCHEMATC

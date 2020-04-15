@@ -1,4 +1,4 @@
-(module CMF1_1 (layer F.Cu) (tedit 0)
+(module CMF1_1 (layer F.Cu) (tedit 5E9636DC)
   (attr smd)
   (fp_text reference SW1 (at -23.0736 -1.922 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -44,4 +44,9 @@
   (pad MEL32 thru_hole circle (at -45 0) (size 2.54 2.54) (drill 3.2004) (layers *.Cu *.Mask))
   (pad MEL32_1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 3.2004) (layers *.Cu *.Mask))
   (pad MEL36 thru_hole circle (at -23.4 -3) (size 2.9972 2.9972) (drill 3.6068) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3D Models/e_0100.1908d005-recenter.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

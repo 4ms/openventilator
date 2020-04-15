@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.0VREF
+D Power symbol creates a global label with name "+3.0VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +5VPIC
+D Power symbol creates a global label with name "+5VPIC"
+K power-flag
+$ENDCMP
+#
 $CMP 0VANA
 D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag

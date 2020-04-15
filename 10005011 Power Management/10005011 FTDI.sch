@@ -536,11 +536,11 @@ L Device:Crystal_GND2 Q1
 U 1 1 5EC37D14
 P 4400 4550
 F 0 "Q1" V 4350 4200 50  0000 L CNN
-F 1 "6 MHz" V 4450 4150 50  0000 L CNN
+F 1 "6 MHz" V 4450 4050 50  0000 L CNN
 F 2 "10005011 Power Management:CSTCR_1" H 4400 4550 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdata/8801051869214/SPEC-CSTCR6M00G53-R0.pdf" H 4400 4550 50  0001 C CNN
 	1    4400 4550
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R R113
@@ -1050,8 +1050,6 @@ F 7 "DLP31SN551ML2L" H 3950 3250 50  0001 C CNN "Manufacturer_No"
 	1    3950 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 14400 8150 2    50   Output ~ 0
-+3.0VREF
 Text GLabel 11500 5200 0    50   Input ~ 0
 START-5V
 Text GLabel 15450 5200 0    50   Output ~ 0
@@ -1360,7 +1358,7 @@ F 3 "" H 11400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0203
+L 10005011_Power_Management:+3.3V #PWR0203
 U 1 1 5F11788F
 P 12800 1750
 F 0 "#PWR0203" H 12800 1600 50  0001 C CNN
@@ -1681,4 +1679,17 @@ Wire Wire Line
 Wire Wire Line
 	5600 1700 4400 1700
 Connection ~ 4400 1700
+$Comp
+L 10005011_Power_Management:+3.0VREF #PWR0287
+U 1 1 5EA5BF85
+P 14400 8100
+F 0 "#PWR0287" H 14400 7950 50  0001 C CNN
+F 1 "+3.0VREF" H 14415 8273 50  0000 C CNN
+F 2 "" H 14400 8100 50  0001 C CNN
+F 3 "" H 14400 8100 50  0001 C CNN
+	1    14400 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 8100 14400 8150
 $EndSCHEMATC
