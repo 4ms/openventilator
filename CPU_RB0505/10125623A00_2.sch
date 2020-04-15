@@ -1125,13 +1125,13 @@ Connection ~ 8875 1300
 Text HLabel 8975 4575 3    50   Input ~ 0
 BUSY-ME2
 Text HLabel 8375 4575 3    50   Input ~ 0
-RD
+RD\
 Text HLabel 8275 4575 3    50   Input ~ 0
-CS1
+CS1\
 Text HLabel 8575 4575 3    50   Input ~ 0
-RESET
+RESET\
 Text HLabel 8475 4575 3    50   Input ~ 0
-WR
+WR\
 Wire Wire Line
 	8675 4425 8675 4950
 Wire Wire Line
@@ -1190,7 +1190,7 @@ Wire Wire Line
 	11275 1950 11500 1950
 Connection ~ 11275 1750
 Text HLabel 11075 2050 0    50   Input ~ 0
-CS3
+CS3\
 Text HLabel 11075 2450 0    50   Output ~ 0
 IRQ-UART
 Text HLabel 11075 2550 0    50   Input ~ 0
