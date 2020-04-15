@@ -1,0 +1,860 @@
+RefDes: Q1
+Lib Part: SM49
+F4 "QUARTZ, 8 MHZ, 100PPM,SMD" 0 0 50 H I C CNN "Description"
+F5 "10020993" 0 0 50 H I C CNN "Item Number"
+F6 "IQD" 0 0 50 H I C CNN "Manufacturer"
+F7 "LFXTAL003151REEL" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: D12
+Lib Part: BZX84CXX
+F4 "DIODE ZENER, 500MW, 12V, SOD-80C" 0 0 50 H I C CNN "Description"
+F5 "10020994" 0 0 50 H I C CNN "Item Number"
+F6 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "BZV55-C12,115" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "BZV55-C12" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "VOLTAGE REGULATOR DIODE" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: C46,C62,C69,C79,C82,C105
+Lib Part: C0805
+F4 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" 0 0 50 H I C CNN "Description"
+F5 "10022135" 0 0 50 H I C CNN "Item Number"
+F6 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "223858055649" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, X7R, 0.1 UF, SURFACE MOUNT, 0805" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "MURATA MANUFACTURING CO., LTD." 0 0 50 H I C CNN "Manufacturer2"
+F10 "GRM21BR71H104KA01L" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "MONOLITHIC CERAMIC CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "223858015649" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, X7R, 0.1 UF, SURFACE MOUNT, 0805" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "SAMSUNG_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "CL21B104KBCNNNC" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "MULTILAYER CERAMIC CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc4"
+F18 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer5"
+F19 "CC0805KRX7R9BB104" 0 0 50 H I C CNN "Manufacturer_No5"
+F20 "CAP CER .1UF 50V 10% X7R 0805" 0 0 50 H I C CNN "Manufacturer_Desc5"
+F21 "AVX_RMS1" 0 0 50 H I C CNN "Manufacturer6"
+F22 "08055C104KAT2A" 0 0 50 H I C CNN "Manufacturer_No6"
+F23 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805, X7R DIELECTRIC" 0 0 50 H I C CNN "Manufacturer_Desc6"
+
+RefDes: T3,T19
+Lib Part: IRLML5103
+F4 "TRANSISTOR, P CHANNEL, 50V, 0.13A,      5 OHM, SOT23" 0 0 50 H I C CNN "Description"
+F5 "10022157" 0 0 50 H I C CNN "Item Number"
+F6 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "BSS84" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "MOSFET P CHANNEL" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "ON SEMICONDUCTOR_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "BSS84LT1G" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "POWER MOSFET" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "BSS84,215" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "" 0 0 50 H I C CNN "Manufacturer_Desc3"
+
+RefDes: IC1
+Lib Part: DS1305E
+F4 "UART, LQFP64" 0 0 50 H I C CNN "Description"
+F5 "10022505" 0 0 50 H I C CNN "Item Number"
+F6 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "TL16C750IPM" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "UART" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: IC2
+Lib Part: SN74ALVC164245
+F4 "TRANSCEIVER, 3.3V TO 5V,TSSOP" 0 0 50 H I C CNN "Description"
+F5 "10022511" 0 0 50 H I C CNN "Item Number"
+F6 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "SN74ALVC164245DGGR" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "74ALVC164245DGGTE4" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "TRANSCEIVER" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "SN74ALVC164245DGGT" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "TRANSCEIVER 3.3V TO 5V" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "74ALVC164245DGGRG4" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "" 0 0 50 H I C CNN "Manufacturer_Desc4"
+
+RefDes: J21
+Lib Part: 2BR254C
+F4 "CONNECTOR, O2 VALVE, 2 CONTACTS" 0 0 50 H I C CNN "Description"
+F5 "10022542" 0 0 50 H I C CNN "Item Number"
+F6 "MOLEX_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "22057028" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: L5
+Lib Part: 74279263
+F4 "RESISTOR, 470 OHM, 0.063W, +/-5%" 0 0 50 H I C CNN "Description"
+F5 "10022544" 0 0 50 H I C CNN "Item Number"
+F6 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "232270260471" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 470 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "VISHAY_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "CRCW0603470RJNEA" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "RESISTOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "232270260471L" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 470 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "ASJ" 0 0 50 H I C CNN "Manufacturer4"
+F16 "CR16-471JL" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "THICK FILM CHIP RESISTOR" 0 0 50 H I C CNN "Manufacturer_Desc4"
+F18 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer5"
+F19 "RC0603JR-07470RL" 0 0 50 H I C CNN "Manufacturer_No5"
+F20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 470 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc5"
+
+RefDes: C81,C85,C108
+Lib Part: TANTALD
+F4 "CAPACITOR TANTALUM, 10UF, 25V, +/-10%" 0 0 50 H I C CNN "Description"
+F5 "10022608" 0 0 50 H I C CNN "Item Number"
+F6 "KEMET" 0 0 50 H I C CNN "Manufacturer"
+F7 "T491C106K025AT" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "Cap, Tantalum, Polarized, 25V, 10% +/-Tol, 10uF, Surface Mount, 2312 (Case C), EIA Metric 6032" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "KEMET" 0 0 50 H I C CNN "Manufacturer2"
+F10 "T495C106K025ATE275" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "Cap, Tantalum, Polarized, 25V, 10% +/-Tol, 10uF, Surface Mount, 2312 (Case C), EIA Metric 6032" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC4
+Lib Part: 74HCT1G04GW
+F4 "MICROCONTROLLER, 16BITS, 512BYTE FLASH, 320KBYTE XFLASH" 0 0 50 H I C CNN "Description"
+F5 "10022612" 0 0 50 H I C CNN "Item Number"
+F6 "STMICROELECTRONICS" 0 0 50 H I C CNN "Manufacturer"
+F7 "ST10F276Z5T3" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "16-BIT MCU WITH MAC UNIT,832 KBYTE FLASH MEMORY,68 KBYTE RAM" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: R33,R34,R37,R38,R41,R42,R51,R72
+Lib Part: R0805
+F4 "RESISTOR, 4.7 K OHM, 0.063W +/-5%" 0 0 50 H I C CNN "Description"
+F5 "10022617" 0 0 50 H I C CNN "Item Number"
+F6 "ASJ" 0 0 50 H I C CNN "Manufacturer"
+F7 "CR16-472JL" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "THICK FILM CHIP RESISTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "232270260472L" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "RC0603JR-074K7L" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "232270260472" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc4"
+
+RefDes: C106
+Lib Part: CHCMS_D8
+F4 "CAPACITOR ELECTROLYTIC, 220UF,16V+/-20%" 0 0 50 H I C CNN "Description"
+F5 "10022622" 0 0 50 H I C CNN "Item Number"
+F6 "PANASONIC_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "EEEFK1C221P" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ALUMINUM ELETROLYTIC CAPACITORS/FK" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "ELNA AMERICA, INC." 0 0 50 H I C CNN "Manufacturer2"
+F10 "RVD-16V221MG68U-R" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "ELNA AMERICA, INC." 0 0 50 H I C CNN "Manufacturer3"
+F13 "RVZ-16V221MG68U" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "CHIP TYPE, LOW IMPEDANCE CAP." 0 0 50 H I C CNN "Manufacturer_Desc3"
+
+RefDes: D9,D10,D13
+Lib Part: BAT54
+F4 "DIODE SCHOTTKY, 30V, 200MA" 0 0 50 H I C CNN "Description"
+F5 "10022652" 0 0 50 H I C CNN "Item Number"
+F6 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "BAT54,215" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "BAT54" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "SCHOTTKY BARRIER DOUBLE DIODE" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: D14
+Lib Part: BAT54C
+F4 "DIODE SCHOTTKY DOUBLE,30V, 200MA,SOT23" 0 0 50 H I C CNN "Description"
+F5 "10022653" 0 0 50 H I C CNN "Item Number"
+F6 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "BAT54C,215" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "BAT54C" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "SCHOTTKY BARRIER DOUBLE DIODE" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: D4
+Lib Part: ICTE5
+F4 "DIODE TRANSIENT 600W,36V" 0 0 50 H I C CNN "Description"
+F5 "10022654" 0 0 50 H I C CNN "Item Number"
+F6 "LITTLEFUSE" 0 0 50 H I C CNN "Manufacturer"
+F7 "1SMB36AT3G" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ZENER TRANSIENT VOLTAGE SUPPRESSORS" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "ON SEMICONDUCTOR_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "1SMB36AT3G" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "ZENER TRANSIENT VOLTAGE SUPPRESSORS" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "LITTLEFUSE" 0 0 50 H I C CNN "Manufacturer3"
+F13 "SZ1SMB36AT3G" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "ZENER TRANSIENT VOLTAGE SUPPRESSORS" 0 0 50 H I C CNN "Manufacturer_Desc3"
+
+RefDes: FU2
+Lib Part: SLOBLO
+F4 "FUSE, 500MA" 0 0 50 H I C CNN "Description"
+F5 "10022703" 0 0 50 H I C CNN "Item Number"
+F6 "LITTELFUSE_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "0154.500DRT" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "VERY FAST ACTING FUSE" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: IC14
+Lib Part: 74ACT16373
+F4 "IC,16 BIT D TYPE 3STATE OP, LATCHES,SSOP" 0 0 50 H I C CNN "Description"
+F5 "10022705" 0 0 50 H I C CNN "Item Number"
+F6 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "74ACT16373DLR" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "74ACT16373DL" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "16BIT D TYPE TRANSPARENT LATCHES" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC15,IC17
+Lib Part: AWM3300V
+F4 "IC AIR FLOW SENSOR,(0-1 LITRE)" 0 0 50 H I C CNN "Description"
+F5 "10022706" 0 0 50 H I C CNN "Item Number"
+F6 "HONEYWELL_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "AWM3300V" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "AIRFLOW SENSOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "HONEYWELL_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "FBAL001DU" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "AIR FLOW SENSOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC40
+Lib Part: CD74HCT245M
+F4 "OCTAL BUS TRANSCEIVER" 0 0 50 H I C CNN "Description"
+F5 "10022879" 0 0 50 H I C CNN "Item Number"
+F6 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "CD74HCT245M96" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "CD74HCT245M" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "CMOS LOGIC OCTAL-BUS TRANSCEIVER" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: G1
+Lib Part: KEY_3000
+F4 "LITHIUM, 3V, 35MAH" 0 0 50 H I C CNN "Description"
+F5 "10022884" 0 0 50 H I C CNN "Item Number"
+F6 "SONY_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "CR1220-B1A" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "COIN CELL BATTERY" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "MAXELL" 0 0 50 H I C CNN "Manufacturer2"
+F10 "CR1220" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "VARTA                           (917650)" 0 0 50 H I C CNN "Manufacturer3"
+F13 "CR 1220" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "BATTERY" 0 0 50 H I C CNN "Manufacturer_Desc3"
+
+RefDes: IC26
+Lib Part: LF33CDT
+F4 "REGULATOR 3.3 V 2% 500MA LOW DROPOUT,DPACK" 0 0 50 H I C CNN "Description"
+F5 "10022892" 0 0 50 H I C CNN "Item Number"
+F6 "ST MICROELECTRONIC" 0 0 50 H I C CNN "Manufacturer"
+F7 "LF33CDT" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "VERY LOW DROP VOLTAGE REGULATOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "STMICROELECTRONICS" 0 0 50 H I C CNN "Manufacturer2"
+F10 "LF33CDT-TR" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "VERY LOW DROP VOLTAGE REGULATOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC29
+Lib Part: TPS5430DDA
+F4 "REGULATOR, 5.5V TO 36V,3A" 0 0 50 H I C CNN "Description"
+F5 "10022895" 0 0 50 H I C CNN "Item Number"
+F6 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "TPS 5430 DDA" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "3A, WIDE INPUT RANGE, CONVERTER" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "TPS5430DDAR" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC44
+Lib Part: NC7SZ66
+F4 "IC,BUS SWITCH,SC70" 0 0 50 H I C CNN "Description"
+F5 "10022905" 0 0 50 H I C CNN "Item Number"
+F6 "FAIRCHILD SEMICONDUCTOR_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "NC7SZ66P5X" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "BUS SWITCH" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: PT1,PT2
+Lib Part: PINHD-1X1
+F4 "TEST POINT" 0 0 50 H I C CNN "Description"
+F5 "10022924" 0 0 50 H I C CNN "Item Number"
+F6 "NICOMATIC_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "C12000B" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "TEST POINT" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "KEYSTONE ELECTRONICS CORP" 0 0 50 H I C CNN "Manufacturer2"
+F10 "5015" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "PC TEST POINT MINIATURE SMT" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: T20
+Lib Part: MTD3055
+F4 "TRANSISTOR, MOSFET, N-CHANNEL, 60V, 0.5A.SOT23" 0 0 50 H I C CNN "Description"
+F5 "10022956" 0 0 50 H I C CNN "Item Number"
+F6 "FAIRCHILD SEMICONDUCTOR_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "MMBF170" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "MOSFET N-CH 60V 500MA SOT-23" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "DIODES INC_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "MMBF170-7-F" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "N-CHANNEL MOSFET" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: C7,C8,C31,C32,C34
+Lib Part: TANTALB
+F4 "CAPACITOR TANTALUM, 1UF,35V, +/-10%" 0 0 50 H I C CNN "Description"
+F5 "10022959" 0 0 50 H I C CNN "Item Number"
+F6 "KEMET" 0 0 50 H I C CNN "Manufacturer"
+F7 "T491A105M035AT" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "Cap, Tantalum, Polarized, 35V, 20% +/-Tol, 1uF, Surface Mount, 1206 (Case A), EIA Metric 3216" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "KEMET" 0 0 50 H I C CNN "Manufacturer2"
+F10 "T495A105K035ATE3K0" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case A), EIA Metric 3216" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC5,IC42,IC43
+Lib Part: 74HCT1G32GW
+F4 "IC, 2 INPUT OR-GATE,SOT353" 0 0 50 H I C CNN "Description"
+F5 "10022960" 0 0 50 H I C CNN "Item Number"
+F6 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "74HCT1G32GW" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "2 INPUT OR-GATE" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "74HCT1G32GW,125" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC7
+Lib Part: 29F800
+F4 "IC, FLASH MEMORY,TSOP48" 0 0 50 H I C CNN "Description"
+F5 "10022961" 0 0 50 H I C CNN "Item Number"
+F6 "Macronix" 0 0 50 H I C CNN "Manufacturer"
+F7 "MX29F400CBTI-70GTR" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "FLASH MEMORY 5V" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "Macronix" 0 0 50 H I C CNN "Manufacturer2"
+F10 "MX29F400CBTI-70G" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "FLASH MEMORY 5V" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "STMICROELECTRONICS" 0 0 50 H I C CNN "Manufacturer3"
+F13 "M29F400BB-70N6F" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "FLASH MEMORY" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "SPANSION LLC" 0 0 50 H I C CNN "Manufacturer4"
+F16 "AM29F400BB-70EF" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "CMOS 5 VOLT BOOT SECTOR FLASH MEMORY" 0 0 50 H I C CNN "Manufacturer_Desc4"
+F18 "STMICROELECTRONICS" 0 0 50 H I C CNN "Manufacturer5"
+F19 "M29F400BB-70N6E" 0 0 50 H I C CNN "Manufacturer_No5"
+F20 "FLASH MEMORY" 0 0 50 H I C CNN "Manufacturer_Desc5"
+F21 "SPANSION LLC" 0 0 50 H I C CNN "Manufacturer6"
+F22 "AM29F400BB-70EK" 0 0 50 H I C CNN "Manufacturer_No6"
+F23 "CMOS 5V BOOT SECTOR FLASH MEMORY" 0 0 50 H I C CNN "Manufacturer_Desc6"
+
+RefDes: C21
+Lib Part: MV100?F50V
+F4 "CAPACITOR ELECTROLYTIC, 100UF, 35V +/-20%" 0 0 50 H I C CNN "Description"
+F5 "10022963" 0 0 50 H I C CNN "Item Number"
+F6 "MULTICOMP                       (920630)" 0 0 50 H I C CNN "Manufacturer"
+F7 "MCRH35V107M8X11" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ELECTROLYTIC CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "LELON" 0 0 50 H I C CNN "Manufacturer2"
+F10 "RXW101M1V-SA-0811" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "ALUMINIUM ELECTROLYTIC CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC8,IC9,IC20
+Lib Part: LVC1G07DBVT
+F4 "BUFFER WITH OPEN DRAIN OUTPUT,SOT23" 0 0 50 H I C CNN "Description"
+F5 "10022964" 0 0 50 H I C CNN "Item Number"
+F6 "TEXAS INSTRUMENTS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "SN74LVC1G07DBVT" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "SINGLE BUFFER DRIVER" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "74LVC1G07GV,125" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "74LVC1G07GV" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "BUFFER WITH OPEN DRAIN OUTPUT" 0 0 50 H I C CNN "Manufacturer_Desc3"
+
+RefDes: C59,C65,C94,C102
+Lib Part: C1206
+F4 "CAP CERAMIC,220NF,25V,X7R,+/-10%,0805" 0 0 50 H I C CNN "Description"
+F5 "10022968" 0 0 50 H I C CNN "Item Number"
+F6 "AVX_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "08053C224KAZ2A" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "SMT MULTILAYER CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "KEMET_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "C0805C224K3RAC" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "CERAMIC CHIP CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "AVX_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "08053C224KAT2A" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "X7R DIELECTRIC" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "KEMET_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "C0805C224K3RACTU" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "CERAMIC CHIP CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc4"
+
+RefDes: IC11
+Lib Part: LM358
+F4 "DOUBLE AMPLIFIER RAIL TO RAIL, SO8" 0 0 50 H I C CNN "Description"
+F5 "10022969" 0 0 50 H I C CNN "Item Number"
+F6 "ANALOG DEVICES, INC." 0 0 50 H I C CNN "Manufacturer"
+F7 "OP295GSZ-REEL7" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "IC OPAMP GP R-R 85KHZ DUAL 8SOIC" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "ANALOG DEVICES, INC." 0 0 50 H I C CNN "Manufacturer2"
+F10 "OP295GSZ" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "IC OPAMP DUAL RAIL-RAIL 8SOIC" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC12
+Lib Part: MAX690ACSA
+F4 "IC,MICROPROCESSOR SUPERVISOR CIRCUIT,SO8" 0 0 50 H I C CNN "Description"
+F5 "10022970" 0 0 50 H I C CNN "Item Number"
+F6 "MAXIM_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "MAX690ACSA+T" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "MAXIM_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "MAX690ACSA+" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "MICROPROCESSOR SUPERVISORY CIRCUIT" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC24,IC25
+Lib Part: STM809
+F4 "RESET CIRCUIT, SUPERVISOR VOLTAGE 5V,SOT23" 0 0 50 H I C CNN "Description"
+F5 "10022974" 0 0 50 H I C CNN "Item Number"
+F6 "STMICROELECTRONICS" 0 0 50 H I C CNN "Manufacturer"
+F7 "STM809LWX6F" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "RESET CIRCUIT" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: C99,C115,C121,C122,C123,C124
+Lib Part: C0603
+F4 "CAPACITOR CERAMIC, 150PF,50V,+/-5,NPO, 0402" 0 0 50 H I C CNN "Description"
+F5 "10022975" 0 0 50 H I C CNN "Item Number"
+F6 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "CC0402JRNPO9BN151" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "CAP CER 150PF 50V C0G/NPO 0402" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "KEMET_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "C0402C151J5GACTU" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "CERAMIC CHIP CAPACITOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "223886915151" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402" 0 0 50 H I C CNN "Manufacturer_Desc3"
+
+RefDes: IC21
+Lib Part: LT1236
+F4 "IC,REFERENCE VOLTAGE 5V FIXED - 10 MA,SO8" 0 0 50 H I C CNN "Description"
+F5 "10023039" 0 0 50 H I C CNN "Item Number"
+F6 "LINEAR TECHNOLOGY_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "LT1236CCS8-5#TRPBF" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "PRECISION REFERENCE" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: IC16,IC18,IC22
+Lib Part: ASDX
+F4 "IC, PRESSURE TRANSDUCER,(-10/+100 MBAR)" 0 0 50 H I C CNN "Description"
+F5 "10023117" 0 0 50 H I C CNN "Item Number"
+F6 "SENSYM_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "ASDX001D44R-SQ04689" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "PRESSURE TRANSDUCER" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "HONEYWELL_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "XZ209766-ASDX" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "IC DIFFERENTIAL PRESSURE SENSOR WITH ANALOGUE OUTPUT -10 TO 100 MBAR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC38
+Lib Part: 74HCT1G08GW
+F4 "2 INPUT AND-GATE,SOT353" 0 0 50 H I C CNN "Description"
+F5 "10023119" 0 0 50 H I C CNN "Item Number"
+F6 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "74HCT1G08GW,125" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "NXP SEMICONDUCTORS_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "74HCT1G08GW" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "2-INPUT AND-GATE" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: IC32
+Lib Part: AT25---
+F4 "EEPROM, SOIC8" 0 0 50 H I C CNN "Description"
+F5 "10023158" 0 0 50 H I C CNN "Item Number"
+F6 "MICROCHIP TECHNOLOGY_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "25LC320-I/SN" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "EEPROM" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "MICROCHIP TECHNOLOGY_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "25LC320T-E/SN" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "EEPROM" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "MICROCHIP TECHNOLOGY_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "25LC320T-I/SN" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "EEPROM" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "MICROCHIP TECHNOLOGY_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "25LC320-E/SN" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "EEPROM" 0 0 50 H I C CNN "Manufacturer_Desc4"
+
+RefDes: JP1,JP6,R45,R69
+Lib Part: JUMP_0U
+F4 "RESISTANCE, 0 OHM,0603" 0 0 50 H I C CNN "Description"
+F5 "10023185" 0 0 50 H I C CNN "Item Number"
+F6 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "RC0603JR-070RL" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "RES 0.0 OHM 1/10W 0603 SMD" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "232270296001" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "JUMPER, METAL GLAZE/THICK FILM, 0.1 W, 0 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "232270296001L" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "JUMPER, METAL GLAZE/THICK FILM, 0.1 W, 0 OHM, SURFACE MOUNT, 0603" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "ASJ" 0 0 50 H I C CNN "Manufacturer4"
+F16 "CR16000ZL" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "THICK FILM CHIP RESISTOR" 0 0 50 H I C CNN "Manufacturer_Desc4"
+F18 "KAMAYA                          (049580)" 0 0 50 H I C CNN "Manufacturer5"
+F19 "RMC1/16JPTP" 0 0 50 H I C CNN "Manufacturer_No5"
+F20 "JUMPER" 0 0 50 H I C CNN "Manufacturer_Desc5"
+
+RefDes: L30
+Lib Part: 7427504
+F4 "FERRITE, 2.5, 3A" 0 0 50 H I C CNN "Description"
+F5 "10023186" 0 0 50 H I C CNN "Item Number"
+F6 "WURTH ELEKTRONIK GMBH" 0 0 50 H I C CNN "Manufacturer"
+F7 "7427512" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "5 HOLE SMD FERRITE BEAD" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "WURTH ELEKTRONIK GMBH" 0 0 50 H I C CNN "Manufacturer2"
+F10 "7427504" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "6 HOLE FERRITE BEAD" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: R16
+Lib Part: R1206
+F4 "RESISTOR, 150 OHM, 0805, +/-5%" 0 0 50 H I C CNN "Description"
+F5 "10023237" 0 0 50 H I C CNN "Item Number"
+F6 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "232273061151" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 150 OHM, SURFACE MOUNT, 0805" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "232273061151L" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 150 OHM, SURFACE MOUNT, 0805" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "ASJ" 0 0 50 H I C CNN "Manufacturer3"
+F13 "CR21-151JL" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "THICK FILM CHIP RESISTOR" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "RC0805JR-07150RL" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 150 OHM, SURFACE MOUNT, 0805" 0 0 50 H I C CNN "Manufacturer_Desc4"
+
+RefDes: T10,T11,T12
+Lib Part: BCP51
+F4 "RSP TRANSISTOR, BIPOLAR, PNP, 100V, 5A, SOT223" 0 0 50 H I C CNN "Description"
+F5 "10023243" 0 0 50 H I C CNN "Item Number"
+F6 "ZETEX" 0 0 50 H I C CNN "Manufacturer"
+F7 "FZT953" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "60 TO 100V PNP TRANSISTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "ZETEX" 0 0 50 H I C CNN "Manufacturer2"
+F10 "FZT953TA" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "TRANSISTOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: BUZ1
+Lib Part: F_HMB
+F4 "BUZZER, 12V, 30MA, 85DB" 0 0 50 H I C CNN "Description"
+F5 "10023244" 0 0 50 H I C CNN "Item Number"
+F6 "STAR MICRONICS INC." 0 0 50 H I C CNN "Manufacturer"
+F7 "HMB-12" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "MAGNETIC BUZZER" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: Q5
+Lib Part: 86SMX
+F4 "CRYSTAL QUARTZ 32.768KHZ" 0 0 50 H I C CNN "Description"
+F5 "10023250" 0 0 50 H I C CNN "Item Number"
+F6 "IQD" 0 0 50 H I C CNN "Manufacturer"
+F7 "LFXTAL003000REEL" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "CRYSTAL QUARTZ 32.768KHZ" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: IC13
+Lib Part: K9F4G08U0M-PCB000
+F4 "MEMORY NAND FLASH, 1G, 2.7 TO 3.6V, BUS X 8,TSOP" 0 0 50 H I C CNN "Description"
+F5 "10023251" 0 0 50 H I C CNN "Item Number"
+F6 "SAMSUNG_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "K9F1G08U0C-PIB0T" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "SAMSUNG_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "K9F1G08U0C-PCB0T00" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "SAMSUNG_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "K9F1G08U0C-PCB0T" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "NUMONYX_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "NAND01GW3B2BN6F" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "" 0 0 50 H I C CNN "Manufacturer_Desc4"
+
+RefDes: RL1
+Lib Part: G6K2G
+F4 "RELAY,LOW VOLTAGE 1A COIL 5VDC" 0 0 50 H I C CNN "Description"
+F5 "10023252" 0 0 50 H I C CNN "Item Number"
+F6 "OMRON ELECTRONICS INC" 0 0 50 H I C CNN "Manufacturer"
+F7 "G6K-2G-TR 5 VDC" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "OMRON ELECTRONICS INC" 0 0 50 H I C CNN "Manufacturer2"
+F10 "G6K-2G 5 VDC" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: RS1,RS3,RS4,RS5,RS6,RS8
+Lib Part: RES_4R_BCN
+F4 "RESISTOR ARRAY, 6.8K OHM, +/-5%, 1206" 0 0 50 H I C CNN "Description"
+F5 "10023253" 0 0 50 H I C CNN "Item Number"
+F6 "BI TECHNOLOGIES CORPORATION" 0 0 50 H I C CNN "Manufacturer"
+F7 "BCN164AB682J7" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "RESISTOR ARRAY" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "TC164-JR-076K8L" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" 0 0 50 H I C CNN "Manufacturer_Desc2"
+F12 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer3"
+F13 "235003410682" 0 0 50 H I C CNN "Manufacturer_No3"
+F14 "RESISTOR, NETWORK, FILM, ISOLATED, SURFACE MOUNT" 0 0 50 H I C CNN "Manufacturer_Desc3"
+F15 "BOURNS_RMS1" 0 0 50 H I C CNN "Manufacturer4"
+F16 "CAY16-682J4LF" 0 0 50 H I C CNN "Manufacturer_No4"
+F17 "CHIP RESISTOR ARRAY" 0 0 50 H I C CNN "Manufacturer_Desc4"
+F18 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer5"
+F19 "235003410682L" 0 0 50 H I C CNN "Manufacturer_No5"
+F20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" 0 0 50 H I C CNN "Manufacturer_Desc5"
+
+RefDes: Q2
+Lib Part: HC49UP
+F4 "CRYSTAL, QUARTZ, 3.6864MHZ" 0 0 50 H I C CNN "Description"
+F5 "10023291" 0 0 50 H I C CNN "Item Number"
+F6 "IQD" 0 0 50 H I C CNN "Manufacturer"
+F7 "LFXTAL003260REEL" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: FER1
+F4 "FLAT FERRITE CORE" 0 0 50 H I C CNN "Description"
+F5 "10023295" 0 0 50 H I C CNN "Item Number"
+F6 "WURTH ELEKTRONIK GMBH" 0 0 50 H I C CNN "Manufacturer"
+F7 "7427221" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "FLAT FERRITE CORE" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: V2
+Lib Part: FAS-PPS-1P-3NIP-INJ
+F4 "3 WAY, PROPORTIONAL VALVE" 0 0 50 H I C CNN "Description"
+F5 "10025112" 0 0 50 H I C CNN "Item Number"
+F6 "FAS" 0 0 50 H I C CNN "Manufacturer"
+F7 "S142.0048A" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "3 WAY PROPORTIONAL VALVE" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: J4
+Lib Part: 10BRMF
+F4 "HEADER CONNECTOR, RIGHT ANGLE, 10 PINS" 0 0 50 H I C CNN "Description"
+F5 "10052329" 0 0 50 H I C CNN "Item Number"
+F6 "FCI/BERG" 0 0 50 H I C CNN "Manufacturer"
+F7 "75867-101LF" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "FCI/BERG" 0 0 50 H I C CNN "Manufacturer2"
+F10 "88874-010LF" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: J7
+Lib Part: 26BR-HE10
+F4 "HEADER CONNECTOR, RIGHT ANGLE, 26 PINS" 0 0 50 H I C CNN "Description"
+F5 "10052331" 0 0 50 H I C CNN "Item Number"
+F6 "FCI/BERG" 0 0 50 H I C CNN "Manufacturer"
+F7 "75867-105LF" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "FCI/BERG" 0 0 50 H I C CNN "Manufacturer2"
+F10 "88874-026LF" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: C14,C17,C18,C38,C41,C52,C55,C56,C58,C100,C111
+Lib Part: RES_4CB
+F4 "CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612" 0 0 50 H I C CNN "Description"
+F5 "10095973" 0 0 50 H I C CNN "Item Number"
+F6 "YAGEO_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "225514611532" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: D6,D7,D15,D16
+Lib Part: PRLL5819
+F4 "DIODE SCHOTTKY, 40V, 1A" 0 0 50 H I C CNN "Description"
+F5 "10097253" 0 0 50 H I C CNN "Item Number"
+F6 "DIODES INC_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "1N5819HW-7-F" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: IC3
+Lib Part: K6R4016C1DTCT000(256KX16)
+F4 "STATIC RAM, 256K X 16 BIT, TSOP2" 0 0 50 H I C CNN "Description"
+F5 "10097255" 0 0 50 H I C CNN "Item Number"
+F6 "SAMSUNG_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "K6R4016C1D-UI10T" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ASYNC FAST SRAM" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: J1
+Lib Part: B3B_ZR
+F4 "CONNECTOR, 22 CONTACTS" 0 0 50 H I C CNN "Description"
+F5 "10097256" 0 0 50 H I C CNN "Item Number"
+F6 "MOLEX_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "0526102272" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "CONNECTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "MOLEX_RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "0526102271" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "CONNECTOR" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: J3
+Lib Part: B12B-ZR
+F4 "CONNECTOR, SPO2, 12 CONTACTS" 0 0 50 H I C CNN "Description"
+F5 "10097259" 0 0 50 H I C CNN "Item Number"
+F6 "J.S.T. CORPORATION" 0 0 50 H I C CNN "Manufacturer"
+F7 "B12B-ZR-SM4-TF (LF)(SN)" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "CONNECTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: J5,J19
+Lib Part: B2B_ZR
+F4 "CONNECTOR, TEMPERATURE MEASURE, 2 CONTACTS" 0 0 50 H I C CNN "Description"
+F5 "10097260" 0 0 50 H I C CNN "Item Number"
+F6 "J.S.T. CORPORATION" 0 0 50 H I C CNN "Manufacturer"
+F7 "B2B-ZR-SM4-TF (LF)(SN)" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "CONNECTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: J17
+Lib Part: FH_40BR
+F4 "CONNECTOR, 40 CONTACTS" 0 0 50 H I C CNN "Description"
+F5 "10097263" 0 0 50 H I C CNN "Item Number"
+F6 "TYCO ELECTRONICS" 0 0 50 H I C CNN "Manufacturer"
+F7 "5177983-1" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "0.8MM FREE HEIGHT CONNECTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "TYCO ELECTRONICS" 0 0 50 H I C CNN "Manufacturer2"
+F10 "5177985-1" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: J18
+Lib Part: B7B_ZR_SM3_TF
+F4 "CONNECTOR, BUZZER CARD, 7 CONTACTS" 0 0 50 H I C CNN "Description"
+F5 "10097265" 0 0 50 H I C CNN "Item Number"
+F6 "J.S.T. CORPORATION" 0 0 50 H I C CNN "Manufacturer"
+F7 "B7B-ZR-SM4-TF (LF)(SN)" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ZH CONNECTOR" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "LARGE CYLINDRICAL HEAD DOMED 6 LOBES INTERNAL STAINLESS M3X5" 0 0 50 H I C CNN "Description"
+F5 "10099516" 0 0 50 H I C CNN "Item Number"
+F6 "BOSSARD" 0 0 50 H I C CNN "Manufacturer"
+F7 "3061604" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "SCREW,LG CYLNDRL HEAD DOMED,6 LOBES,STNLS,M3*8" 0 0 50 H I C CNN "Description"
+F5 "10099517" 0 0 50 H I C CNN "Item Number"
+F6 "BOSSARD" 0 0 50 H I C CNN "Manufacturer"
+F7 "1983385" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "WASHER, NFE 25513, 3X6" 0 0 50 H I C CNN "Description"
+F5 "10099518" 0 0 50 H I C CNN "Item Number"
+F6 "BOSSARD" 0 0 50 H I C CNN "Manufacturer"
+F7 "8026807" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "SCREW,LG CYLNDRL HEAD DOMED,6 LOBES,STNLS,M2,5*8" 0 0 50 H I C CNN "Description"
+F5 "10099519" 0 0 50 H I C CNN "Item Number"
+F6 "BOSSARD" 0 0 50 H I C CNN "Manufacturer"
+F7 "3108703" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "STAINLESS STEEL HEXAGONAL NUT, M2.5" 0 0 50 H I C CNN "Description"
+F5 "10099520" 0 0 50 H I C CNN "Item Number"
+F6 "BOSSARD" 0 0 50 H I C CNN "Manufacturer"
+F7 "1241427" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "TOOTH LOCK WASHER, DEC 2.5" 0 0 50 H I C CNN "Description"
+F5 "10099521" 0 0 50 H I C CNN "Item Number"
+F6 "BOSSARD" 0 0 50 H I C CNN "Manufacturer"
+F7 "1228919" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "TAMPER PROOF VARNISH, ROHS" 0 0 50 H I C CNN "Description"
+F5 "10103067" 0 0 50 H I C CNN "Item Number"
+F6 "LOCTITE (HENKEL CORPORATION)" 0 0 50 H I C CNN "Manufacturer"
+F7 "7400" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "SCHEMATIC DIAGRAM CPU CARD" 0 0 50 H I C CNN "Description"
+F5 "10125623" 0 0 50 H I C CNN "Item Number"
+F6 "" 0 0 50 H I C CNN "Manufacturer"
+F7 "" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: BL2
+Lib Part: 2XBL-AWM
+F4 "EMC CASING - CASE 2 PRESSURE SENSORS" 0 0 50 H I C CNN "Description"
+F5 "4096600.M00.002" 0 0 50 H I C CNN "Item Number"
+F6 "SUZHOU ACE SHEET MATEL MANUFACTURING CO., LTD" 0 0 50 H I C CNN "Manufacturer"
+F7 "4096600.M00.002" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "EMC CASING - CASE 2 PRESSURE SENSORS (CUSTOM PART)" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: BL4
+Lib Part: 3XBL-ADSX
+F4 "EMC CASING - CASE 3 PRESSURE SENSORS" 0 0 50 H I C CNN "Description"
+F5 "4096600.M00.003" 0 0 50 H I C CNN "Item Number"
+F6 "SUZHOU ACE SHEET MATEL MANUFACTURING CO., LTD" 0 0 50 H I C CNN "Manufacturer"
+F7 "4096600.M00.003" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "EMC CASING - CASE 3 PRESSURE SENSORS (CUSTOM PART)" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: BL1,BL3
+Lib Part: BLIN-AWM33
+F4 "EMC,FLOW SENSOR HOUSING,IC15 & IC17" 0 0 50 H I C CNN "Description"
+F5 "4096600.M00.023" 0 0 50 H I C CNN "Item Number"
+F6 "SUZHOU ACE SHEET MATEL MANUFACTURING CO., LTD" 0 0 50 H I C CNN "Manufacturer"
+F7 "4096600.M00.023" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "EMC,FLOW SENSOR HOUSING,IC15 & IC17 (CUSTOM PART)" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "PRINTED CIRCUIT, CPU BOARD RB0505" 0 0 50 H I C CNN "Description"
+F5 "GR106772" 0 0 50 H I C CNN "Item Number"
+F6 "TTM" 0 0 50 H I C CNN "Manufacturer"
+F7 "GR106772" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "DOUBLE SIDED TAPE, ADHESIVE, 0.01M" 0 0 50 H I C CNN "Description"
+F5 "10025113" 0 0 50 H I C CNN "Item Number"
+F6 "3M_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "VHB4910-33X19" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "ACRYLIC FOAM TAPE" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "PLASTIC SPACER 2M3 LG8" 0 0 50 H I C CNN "Description"
+F5 "10023293" 0 0 50 H I C CNN "Item Number"
+F6 "SKIFFY LTD" 0 0 50 H I C CNN "Manufacturer"
+F7 "302 3080 599 35" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "HEXAGONAL SPACER" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "RICHCO INC._RMS1" 0 0 50 H I C CNN "Manufacturer2"
+F10 "HTSN-M3-8-6-1" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "PLASTIC SPACER 2M3 LG8" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: 
+F4 "PLASTIC SPACER, 2 M3 LG12" 0 0 50 H I C CNN "Description"
+F5 "10023294" 0 0 50 H I C CNN "Item Number"
+F6 "SKIFFY LTD" 0 0 50 H I C CNN "Manufacturer"
+F7 "302 3120 599 35" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "HEXAGONAL SPACER" 0 0 50 H I C CNN "Manufacturer_Desc"
+F9 "RICHCO, INC." 0 0 50 H I C CNN "Manufacturer2"
+F10 "HTSN-M3-12-6-1" 0 0 50 H I C CNN "Manufacturer_No2"
+F11 "PLASTIC SPACER" 0 0 50 H I C CNN "Manufacturer_Desc2"
+
+RefDes: 
+F4 "ADHESIVE" 0 0 50 H I C CNN "Description"
+F5 "10022161" 0 0 50 H I C CNN "Item Number"
+F6 "3M_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "7838 B/A" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "STRUCTURAL ADHESIVE" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "PC BOARD TRACABILITY LABEL" 0 0 50 H I C CNN "Description"
+F5 "3838600" 0 0 50 H I C CNN "Item Number"
+F6 "BRADY_RMS1" 0 0 50 H I C CNN "Manufacturer"
+F7 "3838600-H" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "B-727 LABEL, POLYIMIDE, GLOSSY WHITE THERMAL TRANSFER PRINTABLE LABEL STOCK" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "COIN CELL BATTERY RETAINER" 0 0 50 H I C CNN "Description"
+F5 "10022885" 0 0 50 H I C CNN "Item Number"
+F6 "KEYSTONE ELECTRONICS CORP" 0 0 50 H I C CNN "Manufacturer"
+F7 "3000" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "LITHIUM COIN CELL BATTERY RETAINER" 0 0 50 H I C CNN "Manufacturer_Desc"
+
+RefDes: 
+F4 "DISPLAY ASSEMBLY" 0 0 50 H I C CNN "Description"
+F5 "3821600" 0 0 50 H I C CNN "Item Number"
+F6 "CLAIRITEC" 0 0 50 H I C CNN "Manufacturer"
+F7 "3821600" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "DISPLAY ASSEMBLY (CUSTOM PART)" 0 0 50 H I C CNN "Manufacturer_Desc"
+
