@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17335 11946
 encoding utf-8
-Sheet 7 8
+Sheet 5 8
 Title "RB0505 CPU Board"
 Date ""
 Rev ""
@@ -1975,4 +1975,6 @@ Wire Wire Line
 	10275 6525 10275 7650
 Wire Wire Line
 	10275 7850 10275 8050
+Text Notes 1900 8025 0    50   ~ 0
+*Note: in earlier version, L22 connects to +5V instead of +5VSUPPLYBOARD
 $EndSCHEMATC

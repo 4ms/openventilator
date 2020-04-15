@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17335 11946
 encoding utf-8
-Sheet 3 8
+Sheet 7 8
 Title "RB0505 CPU Board"
 Date ""
 Rev ""
@@ -2063,6 +2063,10 @@ Wire Wire Line
 	2900 8400 3025 8400
 Text HLabel 2800 7550 2    50   BiDi ~ 0
 D[0..15]
+Text HLabel 1600 2525 0    50   Input ~ 0
+A23
+Text HLabel 1475 8200 0    50   Input ~ 0
+A23
 Wire Bus Line
 	11275 2600 11275 2950
 Wire Bus Line
@@ -2075,8 +2079,4 @@ Wire Bus Line
 	3775 2625 3775 4375
 Wire Bus Line
 	7475 1525 7475 3575
-Text HLabel 1600 2525 0    50   Input ~ 0
-A23
-Text HLabel 1475 8200 0    50   Input ~ 0
-A23
 $EndSCHEMATC
