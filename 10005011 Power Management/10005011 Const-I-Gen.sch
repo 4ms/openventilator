@@ -575,7 +575,7 @@ L Device:R R80
 U 1 1 5E9442A8
 P 9550 3900
 F 0 "R80" V 9665 3900 50  0000 C CNN
-F 1 "0.05_2010" V 9756 3900 50  0000 C CNN
+F 1 "0.05_2010" V 9750 3900 50  0000 C CNN
 F 2 "10005011 Power Management:R2010_1" V 9480 3900 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-csr_csrn.pdf" H 9550 3900 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 9550 3900 50  0001 C CNN "Mfgr"
@@ -1734,4 +1734,44 @@ F 7 "10022629" H 4700 5150 50  0001 C CNN "Item Number"
 	1    4700 5150
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R ZR80
+U 1 1 5E9791C3
+P 9550 3900
+F 0 "ZR80" V 9450 3950 50  0000 C CNN
+F 1 "???_2512" V 9350 4050 50  0000 C CNN
+F 2 "10005011 Power Management:R2512_1" V 9480 3900 50  0001 C CNN
+F 3 "" H 9550 3900 50  0001 C CNN
+F 4 "" H 9550 3900 50  0001 C CNN "Mfgr"
+F 5 "" H 9550 3900 50  0001 C CNN "Mfgr_PN"
+F 6 "" H 9550 3900 50  0001 C CNN "Source"
+F 7 "" H 9550 3900 50  0001 C CNN "Source_PN"
+F 8 "" V 9847 3900 50  0001 C CNN "Bom_Footprint"
+F 9 "" H 9550 3900 50  0001 C CNN "Description"
+F 10 "" H 9550 3900 50  0001 C CNN "Tolerance"
+F 11 "" V 9938 3900 50  0001 C CNN "Wattage"
+	1    9550 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R ZR88
+U 1 1 5E995D45
+P 12200 4250
+F 0 "ZR88" H 12150 4500 50  0000 R CNN
+F 1 "???_2512" H 12150 4400 50  0000 R CNN
+F 2 "10005011 Power Management:R2512_1" V 12130 4250 50  0001 C CNN
+F 3 "" H 12200 4250 50  0001 C CNN
+F 4 "" H 12200 4250 50  0001 C CNN "Mfgr"
+F 5 "" H 12200 4250 50  0001 C CNN "Mfgr_PN"
+F 6 "" H 12200 4250 50  0001 C CNN "Source"
+F 7 "" H 12200 4250 50  0001 C CNN "Source_PN"
+F 8 "" V 12497 4250 50  0001 C CNN "Bom_Footprint"
+F 9 "" H 12200 4250 50  0001 C CNN "Description"
+F 10 "" H 12200 4250 50  0001 C CNN "Tolerance"
+F 11 "" V 12588 4250 50  0001 C CNN "Wattage"
+	1    12200 4250
+	-1   0    0    -1  
+$EndComp
+Connection ~ 12200 4400
+Connection ~ 12200 4100
 $EndSCHEMATC

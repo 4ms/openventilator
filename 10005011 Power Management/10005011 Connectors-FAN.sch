@@ -804,17 +804,11 @@ Wire Wire Line
 	3550 6300 3550 6600
 Wire Wire Line
 	3550 6600 4300 6600
-Wire Wire Line
-	3550 5900 3800 5900
-Wire Notes Line
-	2700 5800 2700 8150
 Wire Notes Line
 	2700 8150 6000 8150
 Wire Notes Line
-	6000 8150 6000 5800
-Wire Notes Line
-	6000 5800 2700 5800
-Text Notes 2700 5775 0    79   ~ 0
+	6000 5650 2700 5650
+Text Notes 2700 5625 0    79   ~ 0
 BATTERY CONTACT CONNECTOR
 $Comp
 L 10005011_Power_Management:PGND #PWR0171
@@ -1420,8 +1414,6 @@ Text GLabel 8450 8350 0    50   Input ~ 0
 CMD-FAN
 Text GLabel 14450 8050 2    50   Output ~ 0
 FAN-SPEED
-Text GLabel 3800 5900 2    50   Input ~ 0
-+3.0VREF
 Text GLabel 4300 6500 2    50   Input ~ 0
 BAT-EEPROM
 Text GLabel 4300 6600 2    50   Output ~ 0
@@ -2161,4 +2153,19 @@ F 3 "~" H 4200 7600 50  0001 C CNN
 $EndComp
 Text Notes 3700 1050 0    50   ~ 0
 ideally, a couple of the pins might be bypassed to PGND instead of GND,\nbut it doesn't really matter because the CPU board combines the grounds.
+$Comp
+L 10005011_Power_Management:+3.0VREF #PWR0286
+U 1 1 5EA1946D
+P 3550 5900
+F 0 "#PWR0286" H 3550 5750 50  0001 C CNN
+F 1 "+3.0VREF" H 3565 6073 50  0000 C CNN
+F 2 "" H 3550 5900 50  0001 C CNN
+F 3 "" H 3550 5900 50  0001 C CNN
+	1    3550 5900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6000 5650 6000 8150
+Wire Notes Line
+	2700 5650 2700 8150
 $EndSCHEMATC

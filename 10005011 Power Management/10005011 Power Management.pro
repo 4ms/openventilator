@@ -1,4 +1,4 @@
-update=Tue 14 Apr 2020 11:39:38 PM CEST
+update=Wed 15 Apr 2020 10:12:41 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=default.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [LibeditFrame]
 version=1
 [SchematicFrame]
@@ -29,10 +19,20 @@ version=1
 [sheetnames]
 1=00000000-0000-0000-0000-00005e88d5c7:
 2=00000000-0000-0000-0000-00005e88d608:3V Reference
+[schematic_editor]
+version=1
+PageLayoutDescrFile=default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=default.kicad_wks
-LastNetListRead=
+LastNetListRead=10005011 Power Management.net
 CopperLayerCount=6
 BoardThickness=1.6
 AllowMicroVias=0
@@ -45,7 +45,7 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.254
-TrackWidth1=0.25
+TrackWidth1=0.3
 ViaDiameter1=0.9144
 ViaDrill1=0.3048
 dPairWidth1=0.2
@@ -245,7 +245,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
-TrackWidth=0.25
+TrackWidth=0.3
 ViaDiameter=0.9144
 ViaDrill=0.3048
 uViaDiameter=0.3
