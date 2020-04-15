@@ -1,4 +1,4 @@
-(module RC1206 (layer F.Cu) (tedit 0)
+(module RC1206 (layer F.Cu) (tedit 5E948D1B)
   (attr smd)
   (fp_text reference REF** (at -0.6985 0.4826 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
@@ -22,4 +22,9 @@
   (fp_line (start -1.6764 -0.9398) (end 1.6764 -0.9398) (layer F.Fab) (width 0.0762))
   (pad 2 smd rect (at 1.4224 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.4224 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

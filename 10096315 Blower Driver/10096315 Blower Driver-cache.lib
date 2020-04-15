@@ -54,13 +54,14 @@ X ~ 2 50 -150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_2pinConnector_Unknown
+# Blower_Driver_Components_2pinConnector_Unpopulated
 #
-DEF Blower_Driver_Components_2pinConnector_Unknown J 0 40 Y Y 1 F N
+DEF Blower_Driver_Components_2pinConnector_Unpopulated J 0 40 Y Y 1 F N
 F0 "J" -300 -50 50 H V C CNN
-F1 "Blower_Driver_Components_2pinConnector_Unknown" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F1 "Blower_Driver_Components_2pinConnector_Unpopulated" 0 100 50 H V C CNN
+F2 "10096315 Blower Driver:MOL5566-2" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "0039281023" 0 0 50 H V C CNN "MPN"
 DRAW
 S -150 -300 -50 -100 1 1 0 N
 X ~ 1 50 -250 100 L 50 50 1 1 P
@@ -89,13 +90,14 @@ X ~ 8 50 350 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_9pinConnector
+# Blower_Driver_Components_9pinConnector_Unpopulated
 #
-DEF Blower_Driver_Components_9pinConnector J 0 40 Y Y 1 F N
+DEF Blower_Driver_Components_9pinConnector_Unpopulated J 0 40 Y Y 1 F N
 F0 "J" 350 450 50 H V C CNN
-F1 "Blower_Driver_Components_9pinConnector" 50 600 50 H V C CNN
-F2 "" 50 500 50 H I C CNN
+F1 "Blower_Driver_Components_9pinConnector_Unpopulated" 50 600 50 H V C CNN
+F2 "10096315 Blower Driver:MOL7395-9" 50 500 50 H I C CNN
 F3 "" 50 500 50 H I C CNN
+F4 "0022057098" 0 0 50 H V C CNN "MPN"
 DRAW
 S -150 -650 -50 250 1 1 0 N
 X ~ 1 50 -600 100 L 50 50 1 1 P
@@ -117,7 +119,7 @@ F0 "C" -500 150 50 H V C CNN
 F1 "Blower_Driver_Components_CapacitorArray_47pf" -50 500 50 H I C CNN
 F2 "" 100 0 50 H I C CNN
 F3 "" 100 0 50 H I C CNN
-F4 "CA0612JRNPO9BN470" 900 -100 50 H V C CNN "MPN"
+F4 "W3A45A470KAT2A" 900 -100 50 H V C CNN "MPN"
 F5 "47pF" 550 100 50 H V C CNN "Capacitance"
 F6 "50V" 550 0 50 H V C CNN "Voltage"
 DRAW
@@ -148,10 +150,11 @@ ENDDEF
 DEF Blower_Driver_Components_Capacitor_1000uF C 0 40 Y Y 1 F N
 F0 "C" -200 50 50 H V C CNN
 F1 "Blower_Driver_Components_Capacitor_1000uF" 0 450 50 H I C CNN
-F2 "" 50 -450 50 H I C CNN
+F2 "10096315 Blower Driver:HT-13X27" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "1000uF" 250 50 50 H V C CNN "Capacitance"
 F5 "35V" 200 -50 50 H V C CNN "Voltage"
+F6 "108TTA035M" 0 0 50 H V C CNN "MPN"
 DRAW
 A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
 P 2 1 1 0 -120 90 -80 90 N
@@ -261,9 +264,9 @@ F0 "C" -200 50 50 H V C CNN
 F1 "Blower_Driver_Components_Capacitor_22uF_CheckFootprint" 0 450 50 H I C CNN
 F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-X_EIA-7343-43_Reflow" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
-F4 "T521X226M050ATE075" 550 -150 50 H I C CNN "MPN"
+F4 "T495X226M035ATA200" 550 -150 50 H I C CNN "MPN"
 F5 "22uF" 250 50 50 H V C CNN "Capacitance"
-F6 "50V" 200 -50 50 H V C CNN "Voltage"
+F6 "35V" 200 -50 50 H V C CNN "Voltage"
 DRAW
 A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
 P 2 1 1 0 -120 90 -80 90 N
@@ -299,9 +302,9 @@ F0 "C" -200 50 50 H V C CNN
 F1 "Blower_Driver_Components_Capacitor_470uF_CheckFootprint" 0 450 50 H I C CNN
 F2 "Capacitors_SMD:CP_Elec_10x10" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
-F4 "UCD1V471MNL6GS" 550 -150 50 H I C CNN "MPN"
+F4 "UCD1E471MNL6GS" 550 -150 50 H I C CNN "MPN"
 F5 "470uF" 250 50 50 H V C CNN "Capacitance"
-F6 "35V" 200 -50 50 H V C CNN "Voltage"
+F6 "25V" 200 -50 50 H V C CNN "Voltage"
 DRAW
 A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
 P 2 1 1 0 -120 90 -80 90 N
@@ -404,7 +407,7 @@ F0 "Z" -300 100 50 H V C CNN
 F1 "Blower_Driver_Components_DiodeZener_30V" 0 250 50 H I C CNN
 F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
-F4 "BZG03C30-M3-08" 250 100 50 H V C CNN "MPN"
+F4 "BZV55-C15" 0 100 50 H V C CNN "MPN"
 F5 "30V" 0 -100 50 H V C CNN "Reverse Voltage"
 DRAW
 P 2 1 1 0 -50 0 50 0 N
@@ -528,7 +531,7 @@ F0 "L" 150 -300 50 H V C CNN
 F1 "Blower_Driver_Components_Inductor_22uH" 0 100 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "ELC-09D220F" 350 -400 50 H V C CNN "MPN"
+F4 "744772220" 350 -400 50 H V C CNN "MPN"
 F5 "22uH" 200 -500 50 H V C CNN "Inductance"
 DRAW
 A 0 -475 25 901 -901 1 1 0 N 0 -450 0 -500
@@ -547,6 +550,7 @@ F0 "JP" 200 100 50 H V C CNN
 F1 "Blower_Driver_Components_JumperBypass" -50 650 50 H V C CNN
 F2 "" 0 500 50 H I C CNN
 F3 "" 0 500 50 H I C CNN
+F4 "TCW20 500G" 0 0 50 H V C CNN "MPN"
 DRAW
 A 26 0 125 -1274 1273 1 1 0 N -50 -98 -50 99
 C 0 -100 35 1 1 0 N

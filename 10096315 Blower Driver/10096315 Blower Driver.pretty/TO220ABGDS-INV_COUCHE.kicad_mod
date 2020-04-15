@@ -1,4 +1,4 @@
-(module TO220ABGDS-INV_COUCHE (layer F.Cu) (tedit 0)
+(module TO220ABGDS-INV_COUCHE (layer F.Cu) (tedit 5E94EFBA)
   (attr smd)
   (fp_text reference REF** (at -0.6096 -7.6454 unlocked) (layer F.SilkS)
     (effects (font (size 0.866445 0.911352) (thickness 0.0254)))
@@ -62,4 +62,9 @@
   (pad S thru_hole circle (at 2.54 -17.78 180) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad G thru_hole circle (at -2.54 -17.78 180) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad D thru_hole circle (at 0 -17.78 180) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/10096315 Blower Driver.pretty/TO-220-HFLIP.stp"
+    (offset (xyz 0 17.1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
