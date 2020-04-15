@@ -47,7 +47,7 @@ def findXYPos(ref, filetext):
 def addFieldToSymInSch(ref, lines_to_insert, filetext):
     x,y = findXYPos(ref, filetext)
     xy_lines = re.sub(r'(&X&) (&Y&)', x+' '+y, lines_to_insert)
-    newfile, numfound = re.subn(r'(\nL .*? '+ref+r'\n.*?)(\n\s+[01])', r'\1\n' + xy_lines + r'\2', filetext, re.MULTILINE, re.DOTALL)
+    newfile, numfound = re.subn(r'(\nL .*? '+ref+r'\n.*?)\n(\s+[\d-].*?\n\s+[\d-].*?\n\$EndComp)', r'\1\n' + xy_lines + r'\2', filetext, re.MULTILINE, re.DOTALL)
     return (newfile, numfound)
 
 def addFieldsToAllRefs(refslist, schlines, schdat):
@@ -102,16 +102,16 @@ def mergeBomIntoSch():
             extras_idx = 2
             f_num = 8
 
-            schlines = schlines + "F4 \""+desc+"\" "+ sch_tags + " \"Description\"" + "\n"
-            schlines = schlines + "F5 \""+itemnum+"\" "+ sch_tags + " \"Item Number\"" + "\n"
-            schlines = schlines + "F6 \""+manu+"\" "+ sch_tags + " \"Manufacturer\"" + "\n"
-            schlines = schlines + "F7 \""+manuNo+"\" "+ sch_tags + " \"Manufacturer_No\"" + "\n"
-            schlines = schlines + "F8 \""+manuDesc+"\" "+ sch_tags + " \"Manufacturer_Desc\"" + "\n"
+            schlines = schlines + "F 4 \""+desc+"\" "+ sch_tags + " \"Description\"" + "\n"
+            schlines = schlines + "F 5 \""+itemnum+"\" "+ sch_tags + " \"Item Number\"" + "\n"
+            schlines = schlines + "F 6 \""+manu+"\" "+ sch_tags + " \"Manufacturer\"" + "\n"
+            schlines = schlines + "F 7 \""+manuNo+"\" "+ sch_tags + " \"Manufacturer_No\"" + "\n"
+            schlines = schlines + "F 8 \""+manuDesc+"\" "+ sch_tags + " \"Manufacturer_Desc\"" + "\n"
 
         else:
-            schlines = schlines + "F"+str(f_num+1)+" \""+manu+"\" "+ sch_tags + " \"Manufacturer"+str(extras_idx)+"\"" + "\n"
-            schlines = schlines + "F"+str(f_num+2)+" \""+manuNo+"\" "+ sch_tags + " \"Manufacturer_No"+str(extras_idx)+"\"" + "\n"
-            schlines = schlines + "F"+str(f_num+3)+" \""+manuDesc+"\" "+ sch_tags + " \"Manufacturer_Desc"+str(extras_idx)+"\"" + "\n"
+            schlines = schlines + "F "+str(f_num+1)+" \""+manu+"\" "+ sch_tags + " \"Manufacturer"+str(extras_idx)+"\"" + "\n"
+            schlines = schlines + "F "+str(f_num+2)+" \""+manuNo+"\" "+ sch_tags + " \"Manufacturer_No"+str(extras_idx)+"\"" + "\n"
+            schlines = schlines + "F "+str(f_num+3)+" \""+manuDesc+"\" "+ sch_tags + " \"Manufacturer_Desc"+str(extras_idx)+"\"" + "\n"
             extras_idx = extras_idx + 1
             f_num = f_num + 3
 
