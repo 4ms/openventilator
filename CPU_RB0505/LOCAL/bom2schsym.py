@@ -1,15 +1,26 @@
 # Usage: 
-# python3 bomconv.py 
+# python3 bom2schsym.py
 #
-# The file named bom.csv must be in the current directory
-# All the schematic pages must also be in the current directory
+# Copy all the schematic pages into the same dir as the script,
+# and make sure not other .sch files exist in the dir.
+# Use at your own risk!
+
+# Set the filename for the bom here:
+bomcsv_filename = 'bom.csv'
+
+# Set the column names found in the bom file here:
+itemnum_header = 'Item Number'
+refs_header = 'Ref Des'
+desc_header = 'Item Description'
+manu_header = 'Mfr. Name'
+manuNo_header = 'Mfr. Part Number'
+manuDesc_header = 'Mfr. Part Description'
 
 import os
 import csv
 import re
 
 sch_files = [f for f in os.listdir('.') if f.endswith('.sch')]
-bomcsv_filename = 'bom.csv'
 
 def loadAllSchDat():
     schdat = {}
@@ -69,7 +80,6 @@ def addFieldsToAllRefs(refslist, schlines, schdat):
             print("Not Found: "+ref)
 
 def mergeBomIntoSch():
-
     schlines=""
     sch_tags = "H &X& &Y& 50  0001 C CNN"
     #lib_tags = "0 0 50 H I C CNN"
@@ -81,12 +91,12 @@ def mergeBomIntoSch():
     reader = csv.DictReader(csvfile)
     i=0
     for row in reader:
-        itemnum = row['Item Number']
-        refs = row['Ref Des']
-        desc = row['Item Description']
-        manu = row['Mfr. Name']
-        manuNo = row['Mfr. Part Number']
-        manuDesc = row['Mfr. Part Description']
+        itemnum = row[itemnum_header]
+        refs = row[refs_header]
+        desc = row[desc_header]
+        manu = row[manu_header]
+        manuNo = row[manuNo_header]
+        manuDesc = row[manuDesc_header]
         # print("Parsing Row#"+str(i))
         i=i+1
         if len(itemnum) > 0:
