@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17335 11946
 encoding utf-8
-Sheet 3 8
+Sheet 7 8
 Title "RB0505 CPU Board"
 Date ""
 Rev ""
@@ -904,7 +904,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1875 2450 1875
 Wire Wire Line
-	1425 2525 2700 2525
+	1600 2525 2700 2525
 $Comp
 L cpu-board:74HCT1G08GW IC38
 U 1 1 E1DA1C65
@@ -1382,8 +1382,6 @@ Text HLabel 1700 8900 0    50   Input ~ 0
 CMD_ALE1
 Text HLabel 1700 9000 0    50   Input ~ 0
 CMD_ME1
-Text HLabel 1475 8200 0    50   Input ~ 0
-A23
 Text HLabel 1475 7850 0    50   Input ~ 0
 CS0\
 $Comp
@@ -1643,8 +1641,6 @@ Wire Wire Line
 	5250 8600 5250 10350
 Text HLabel 1400 1875 0    50   Input ~ 0
 WR\
-Text HLabel 1425 2525 0    50   Input ~ 0
-A23
 $Comp
 L cpu-board:74HCT1G32GW IC5
 U 1 1 E8297B24
@@ -1879,7 +1875,7 @@ Entry Wire Line
 Entry Wire Line
 	7475 3425 7575 3525
 Text HLabel 7475 1525 2    50   Input ~ 0
-A[0..23]
+A[0..19]
 Text Label 3975 2800 0    50   ~ 0
 D0
 Text Label 3975 2900 0    50   ~ 0
@@ -1987,7 +1983,7 @@ Entry Wire Line
 Entry Wire Line
 	11275 2900 11375 3000
 Text HLabel 11275 2950 0    50   Input ~ 0
-A[0..23]
+A[0..19]
 Entry Wire Line
 	11275 3150 11375 3250
 Entry Wire Line
@@ -2067,6 +2063,10 @@ Wire Wire Line
 	2900 8400 3025 8400
 Text HLabel 2800 7550 2    50   BiDi ~ 0
 D[0..15]
+Text HLabel 1600 2525 0    50   Input ~ 0
+A23
+Text HLabel 1475 8200 0    50   Input ~ 0
+A23
 Wire Bus Line
 	11275 2600 11275 2950
 Wire Bus Line

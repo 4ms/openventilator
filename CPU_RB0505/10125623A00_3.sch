@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17335 11946
 encoding utf-8
-Sheet 4 8
+Sheet 8 8
 Title "RB0505 CPU Board"
 Date ""
 Rev ""
@@ -23,8 +23,6 @@ Text HLabel 6425 5950 0    56   Input ~ 0
 SCLK-SPI-0
 Text HLabel 2525 6525 0    70   Input ~ 0
 CE-RTC1
-Text HLabel 14200 2300 2    56   Output ~ 0
-+24V
 Text HLabel 12575 3025 0    70   Input ~ 0
 CD-O2
 Text HLabel 13975 2725 2    56   Output ~ 0
@@ -1539,6 +1537,19 @@ Text Label 4675 6225 0    50   ~ 0
 V-BATTERY
 Text Label 8125 6950 0    50   ~ 0
 V-BATTERY
+$Comp
+L cpu-board:+24V #U$?
+U 1 1 5EA7FA28
+P 14300 2300
+AR Path="/5EA7FA28" Ref="#U$?"  Part="1" 
+AR Path="/5E924756/5EA7FA28" Ref="#U$?"  Part="1" 
+F 0 "#U$?" H 14300 2300 50  0001 C CNN
+F 1 "+24V" H 14187 2162 59  0000 L BNN
+F 2 "" H 14300 2300 50  0001 C CNN
+F 3 "" H 14300 2300 50  0001 C CNN
+	1    14300 2300
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	3225 4925 3825 4925
 NoConn ~ 3525 5075

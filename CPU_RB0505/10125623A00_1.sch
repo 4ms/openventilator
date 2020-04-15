@@ -69,9 +69,7 @@ Text GLabel 6200 8950 0    10   BiDi ~ 0
 GND
 Text GLabel 2950 3550 0    10   BiDi ~ 0
 GND
-Wire Wire Line
-	9887 4415 9887 4390
-Text GLabel 9887 4415 0    10   BiDi ~ 0
+Text GLabel 9900 4450 0    10   BiDi ~ 0
 GND
 Text GLabel 10300 3250 1    10   BiDi ~ 0
 GND
@@ -1039,14 +1037,14 @@ $EndComp
 $Comp
 L cpu-board:GND #U$495
 U 1 1 399C0C7A
-P 9900 4500
+P 9900 4550
 AR Path="/399C0C7A" Ref="#U$495"  Part="1" 
 AR Path="/5E923584/399C0C7A" Ref="#U$0495"  Part="1" 
-F 0 "#U$0495" H 9900 4500 50  0001 C CNN
-F 1 "GND" H 9813 4413 59  0000 L BNN
-F 2 "" H 9900 4500 50  0001 C CNN
-F 3 "" H 9900 4500 50  0001 C CNN
-	1    9900 4500
+F 0 "#U$0495" H 9900 4550 50  0001 C CNN
+F 1 "GND" H 9813 4463 59  0000 L BNN
+F 2 "" H 9900 4550 50  0001 C CNN
+F 3 "" H 9900 4550 50  0001 C CNN
+	1    9900 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3355,6 +3353,9 @@ Wire Wire Line
 	10600 3250 10600 3300
 Wire Wire Line
 	10400 3950 10300 3950
+NoConn ~ 2350 2850
+Wire Wire Line
+	9900 4450 9900 4400
 Wire Bus Line
 	15950 2650 15950 4250
 Wire Bus Line
