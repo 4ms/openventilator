@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17729 11946
 encoding utf-8
-Sheet 2 8
+Sheet 8 8
 Title "RB0505 CPU Board"
 Date ""
 Rev ""
@@ -13,76 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 15000 2150 2    10   BiDi ~ 0
-+5V
-Text GLabel 7650 10600 2    10   BiDi ~ 0
-+5V
-Text GLabel 10900 5800 0    10   BiDi ~ 0
-+5V
-Text GLabel 9050 7450 2    10   BiDi ~ 0
-+5V
-Text GLabel 7162 1390 0    10   BiDi ~ 0
-+5V
 Text GLabel 2350 2350 0    10   BiDi ~ 0
-+5V
-Text GLabel 1300 5850 0    10   BiDi ~ 0
-+5V
-Text GLabel 3150 3700 0    10   BiDi ~ 0
-+5V
-Text GLabel 2850 3700 0    10   BiDi ~ 0
-+5V
-Text GLabel 9900 3550 0    10   BiDi ~ 0
 +5V
 Text Label 14300 4900 2    50   ~ 0
 CS2\
 Text Label 8300 6550 0    50   ~ 0
 CS2\
-Text GLabel 14400 1950 0    10   BiDi ~ 0
-GND
-Text GLabel 7000 10800 0    10   BiDi ~ 0
-GND
-Text GLabel 5962 1540 0    10   BiDi ~ 0
-GND
-Text GLabel 6550 1200 0    10   BiDi ~ 0
-GND
-Text GLabel 5550 900  0    10   BiDi ~ 0
-GND
-Text GLabel 1500 7200 0    10   BiDi ~ 0
-GND
-Text GLabel 11050 1200 1    10   BiDi ~ 0
-GND
-Text GLabel 12400 4450 0    10   BiDi ~ 0
-GND
-Text GLabel 12000 3600 0    10   BiDi ~ 0
-GND
-Text GLabel 12200 7350 0    10   BiDi ~ 0
-GND
-Text GLabel 1350 3650 0    10   BiDi ~ 0
-GND
-Text GLabel 13300 6850 0    10   BiDi ~ 0
-GND
-Text GLabel 14900 6800 0    10   BiDi ~ 0
-GND
-Text GLabel 13800 7900 0    10   BiDi ~ 0
-GND
-Text GLabel 6200 8950 0    10   BiDi ~ 0
-GND
-Text GLabel 2950 3550 0    10   BiDi ~ 0
-GND
-Text GLabel 9900 4450 0    10   BiDi ~ 0
-GND
-Text GLabel 10300 3250 1    10   BiDi ~ 0
-GND
-Text GLabel 11900 2250 2    10   BiDi ~ 0
-GND
-Text GLabel 8250 1400 0    10   BiDi ~ 0
-0VANA
-Text GLabel 1900 9850 0    10   BiDi ~ 0
-0VANA
-Text GLabel 5050 10550 2    10   BiDi ~ 0
-0VANA
-Text GLabel 7150 8350 3    10   BiDi ~ 0
-0VANA
 Text Label 14300 5100 2    50   ~ 0
 BHE
 Text Label 4100 5050 2    50   ~ 0
@@ -103,14 +39,10 @@ Text Label 2150 3150 2    50   ~ 0
 USB_BUSY_E
 Text Label 10350 2450 2    50   ~ 0
 USB_BUSY_E
-Text GLabel 12850 4050 2    10   BiDi ~ 0
-+24V
 Text Label 10350 2550 2    50   ~ 0
 MRST_SPI_1_E
 Text Label 8300 7050 0    50   ~ 0
 MRST_SPI_1_E
-Text GLabel 8700 950  3    10   BiDi ~ 0
-+5VREF
 $Comp
 L cpu-board:0VANA #U$21
 U 1 1 CA2824D4
@@ -403,8 +335,8 @@ U 1 1 967579EA
 P 6550 1300
 AR Path="/967579EA" Ref="C6"  Part="1" 
 AR Path="/5E923584/967579EA" Ref="C6"  Part="1" 
-F 0 "C6" V 6644 1312 64  0000 L BNN
-F 1 "330nF" V 6650 1243 42  0000 L BNN
+F 0 "C6" H 6650 1350 64  0000 L CNN
+F 1 "330nF" H 6650 1250 42  0000 L CNN
 F 2 "10125623A00:C0805" H 6550 1300 50  0001 C CNN
 F 3 "" H 6550 1300 50  0001 C CNN
 	1    6550 1300
@@ -422,19 +354,6 @@ F 2 "" H 6550 800 50  0001 C CNN
 F 3 "" H 6550 800 50  0001 C CNN
 	1    6550 800 
 	-1   0    0    1   
-$EndComp
-$Comp
-L cpu-board:R0805 R3
-U 1 1 E7C109B0
-P 7150 1200
-AR Path="/E7C109B0" Ref="R3"  Part="1" 
-AR Path="/5E923584/E7C109B0" Ref="R3"  Part="1" 
-F 0 "R3" V 7150 963 64  0000 L BNN
-F 1 "220k" V 7225 963 42  0000 L BNN
-F 2 "10125623A00:R0805" H 7150 1200 50  0001 C CNN
-F 3 "" H 7150 1200 50  0001 C CNN
-	1    7150 1200
-	0    1    1    0   
 $EndComp
 $Comp
 L cpu-board:TANTALB C8
@@ -950,7 +869,7 @@ P 6200 9050
 AR Path="/A9A82E2E" Ref="#U$20"  Part="1" 
 AR Path="/5E923584/A9A82E2E" Ref="#U$020"  Part="1" 
 F 0 "#U$020" H 6200 9050 50  0001 C CNN
-F 1 "GND" H 6128 8975 59  0000 L BNN
+F 1 "GND" H 6100 8950 59  0000 L BNN
 F 2 "" H 6200 9050 50  0001 C CNN
 F 3 "" H 6200 9050 50  0001 C CNN
 	1    6200 9050
@@ -963,7 +882,7 @@ P 6500 9050
 AR Path="/D711CC1B" Ref="PT2"  Part="1" 
 AR Path="/5E923584/D711CC1B" Ref="PT2"  Part="1" 
 F 0 "PT2" V 6650 8975 59  0000 L BNN
-F 1 "PINHD-1X1" H 6250 8850 59  0000 L BNN
+F 1 "PINHD-1X1" H 6250 9200 59  0000 L BNN
 F 2 "10125623A00:1X01" H 6500 9050 50  0001 C CNN
 F 3 "" H 6500 9050 50  0001 C CNN
 	1    6500 9050
@@ -1270,8 +1189,6 @@ Text Notes 11668 5747 0    59   ~ 0
 BOOTSTRAP LOADER
 Text Notes 9106 884  0    59   ~ 0
  NONERETURN  POWER SUPPLY BOARD SIGNAL
-Text Notes 8462 10628 0    59   ~ 0
-A
 Wire Notes Line
 	1812 7315 2962 7315
 Wire Notes Line
@@ -1461,8 +1378,6 @@ F 3 "" H 10500 8050 50  0001 C CNN
 	1    10500 8050
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 7950 0    10   BiDi ~ 0
-GND
 Text HLabel 12850 5950 0    50   Input ~ 0
 +5VSUPPLY-BOARD
 Text Label 9850 5850 0    50   ~ 0
@@ -1739,8 +1654,6 @@ Wire Wire Line
 	8250 1100 8250 950 
 Wire Wire Line
 	8250 950  8300 950 
-Text GLabel 7400 1200 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7400 1250 7400 1200
 Wire Wire Line
@@ -2730,8 +2643,6 @@ F 3 "" H 1950 7600 50  0001 C CNN
 	1    1950 7600
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 7700 0    10   BiDi ~ 0
-+5V
 Wire Wire Line
 	1950 7800 1950 7750
 Wire Wire Line
@@ -3323,8 +3234,6 @@ F 3 "" H 11150 2850 50  0001 C CNN
 	1    11150 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 10950 3400 0    10   BiDi ~ 0
-GND
 $Comp
 L cpu-board:GND #U$442
 U 1 1 34D6357D
@@ -3356,6 +3265,22 @@ Wire Wire Line
 NoConn ~ 2350 2850
 Wire Wire Line
 	9900 4450 9900 4400
+Wire Wire Line
+	5950 1550 5950 1600
+$Comp
+L cpu-board:R0805 R3
+U 1 1 E7C109B0
+P 7150 1200
+AR Path="/E7C109B0" Ref="R3"  Part="1" 
+AR Path="/5E923584/E7C109B0" Ref="R3"  Part="1" 
+F 0 "R3" V 7150 963 64  0000 L BNN
+F 1 "220k" V 7225 963 42  0000 L BNN
+F 2 "10125623A00:R0805" H 7150 1200 50  0001 C CNN
+F 3 "" H 7150 1200 50  0001 C CNN
+	1    7150 1200
+	0    1    1    0   
+$EndComp
+NoConn ~ 8100 7550
 Wire Bus Line
 	15950 2650 15950 4250
 Wire Bus Line
