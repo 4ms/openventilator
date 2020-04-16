@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2350 2350 0    10   BiDi ~ 0
-+5V
 Text Label 14300 4900 2    50   ~ 0
 CS2\
 Text Label 8300 6550 0    50   ~ 0
