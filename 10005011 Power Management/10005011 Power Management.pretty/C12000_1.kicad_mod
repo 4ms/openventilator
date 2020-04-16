@@ -1,4 +1,4 @@
-(module C12000_1 (layer F.Cu) (tedit 0)
+(module C12000_1 (layer F.Cu) (tedit 5E977784)
   (attr smd)
   (fp_text reference PT1 (at 0.4587 0.7698 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -21,4 +21,9 @@
   (fp_line (start -0.00413 -1) (end 0.00413 -1) (layer F.SilkS) (width 0.18))
   (pad 1 smd rect (at -1 0) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1 0) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/3D Models/NICOMATIC_C12000B.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

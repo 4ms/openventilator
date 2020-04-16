@@ -1,4 +1,4 @@
-(module B6BZR-SM3TF_1 (layer F.Cu) (tedit 0)
+(module B6BZR-SM3TF_1 (layer F.Cu) (tedit 5E977638)
   (attr smd)
   (fp_text reference J2 (at 0.5526 1.4546 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -35,4 +35,9 @@
   (pad 6 smd rect (at 3.75 1.15) (size 0.7 5.1) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 5.8 -0.1) (size 1.7 2.2) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -5.8 -0.1) (size 1.7 2.2) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/3D Models/B6B-ZR-SM4-TF.STEP"
+    (offset (xyz 0 1.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

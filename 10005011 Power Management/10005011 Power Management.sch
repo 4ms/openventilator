@@ -220,5 +220,5 @@ $EndComp
 Text Notes 1150 950  0    118  ~ 0
 Mounting Holes
 Text Notes 3300 950  0    118  ~ 0
-Fidutials
+Fiducials
 $EndSCHEMATC
