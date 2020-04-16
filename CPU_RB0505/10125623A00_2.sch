@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17335 11946
 encoding utf-8
-Sheet 7 8
+Sheet 3 8
 Title "RB0505 CPU Board"
-Date ""
+Date "2020-04-15"
 Rev ""
 Comp ""
 Comment1 ""
