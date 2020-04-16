@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -323,7 +323,33 @@
     (add_net GNDA)
   )
 
-  (module TO-92_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+    (at 396.3338 43.0376)
+    (path /5E87816A/5E8E923B)
+    (attr smd)
+    (fp_text reference R1 (at -2.2225 0.2413 unlocked) (layer B.SilkS)
+      (effects (font (size 0.316586 0.332994) (thickness 0.0254)) (justify mirror))
+    )
+    (fp_text value 10k (at 0.56515 -0.0381 unlocked) (layer B.SilkS) hide
+      (effects (font (size 0.316586 0.332994) (thickness 0.0254)) (justify mirror))
+    )
+    (fp_line (start 0.7874 0.381) (end -0.7874 0.381) (layer B.Fab) (width 0.1778))
+    (fp_line (start 0.7874 0.381) (end 0.7874 -0.381) (layer B.Fab) (width 0.1778))
+    (fp_line (start 0.7874 -0.381) (end -0.7874 -0.381) (layer B.Fab) (width 0.1778))
+    (fp_line (start -0.7874 0.381) (end -0.7874 -0.381) (layer B.Fab) (width 0.1778))
+    (fp_line (start 0 0.381) (end 0 -0.381) (layer B.SilkS) (width 0.1778))
+    (pad 1 smd rect (at 0.7874 0 270) (size 0.9906 0.9398) (layers B.Cu B.Paste B.Mask)
+      (net 53 "Net-(R1-Pad1)"))
+    (pad 2 smd rect (at -0.7874 0 270) (size 0.9906 0.9398) (layers B.Cu B.Paste B.Mask)
+      (net 54 "Net-(R1-Pad2)"))
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module "10106052 PowerPack:TO-92" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 473.9308 52.9182 180)
     (path /5E8CA2BD/5E8CB2CC)
     (attr smd)
@@ -345,7 +371,7 @@
       (net 6 GNDA))
   )
 
-  (module QFP80P1200X1200X120-44N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:QFP80P1200X1200X120-44N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 320.337 47.2794 90)
     (path /5E878241/5E87E2C8)
     (attr smd)
@@ -454,7 +480,7 @@
       (net 41 /ID_BAT_READ))
   )
 
-  (module SOP65P490X110-8N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOP65P490X110-8N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 410.0752 51.2926)
     (path /5E87816A/5EA63FAB)
     (attr smd)
@@ -505,7 +531,7 @@
       (net 10 "/Switching block/+BATT_BUS"))
   )
 
-  (module SOT95P279X142-5N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P279X142-5N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 338.5742 50.5306 90)
     (path /5E8CA2BD/5E8CF891)
     (attr smd)
@@ -546,7 +572,7 @@
       (net 5 +3.0VREF))
   )
 
-  (module TO170P1420X457-8NA_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TO170P1420X457-8NA" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 426.4836 41.031 90)
     (path /5E8CA2BD/5E8D1CCE)
     (attr smd)
@@ -584,7 +610,7 @@
     (pad 8 smd rect (at -4.572 0) (size 10.7696 7.874) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module TP-40R-NSA_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TP-40R-NSA" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 318.2034 38.6434)
     (path /5E878241/5ED5F142)
     (attr smd)
@@ -598,7 +624,7 @@
       (net 94 "Net-(TX1-Pad1)"))
   )
 
-  (module TO228P1003X238-3_4N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TO228P1003X238-3_4N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 368.343 41.031 270)
     (path /5E87816A/5E94B6DB)
     (attr smd)
@@ -629,7 +655,7 @@
       (net 91 "Net-(T8-Pad4)"))
   )
 
-  (module TO228P1003X238-3_4N_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TO228P1003X238-3_4N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 359.58 41.031 270)
     (path /5E87816A/5E94B6D5)
     (attr smd)
@@ -660,7 +686,7 @@
       (net 91 "Net-(T8-Pad4)"))
   )
 
-  (module SOT95P237X112-3N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 362.7296 52.2832 270)
     (path /5E87816A/5E94B6CF)
     (attr smd)
@@ -694,7 +720,7 @@
       (net 63 "Net-(R17-Pad2)"))
   )
 
-  (module SOT95P237X112-3N_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 400.8296 47.2794 270)
     (path /5E87816A/5E90AD6B)
     (attr smd)
@@ -728,7 +754,7 @@
       (net 59 "Net-(R10-Pad2)"))
   )
 
-  (module SOT95P237X112-3N_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 422.826 29.7788 270)
     (path /5E8CA2BD/5E8D1CF5)
     (attr smd)
@@ -762,7 +788,7 @@
       (net 57 "Net-(R9-Pad2)"))
   )
 
-  (module TO228P1003X238-3_4N_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TO228P1003X238-3_4N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 405.0714 34.2746 270)
     (path /5E87816A/5E8E58ED)
     (attr smd)
@@ -793,7 +819,7 @@
       (net 90 "Net-(T2-Pad4)"))
   )
 
-  (module SOT95P237X112-3N_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 416.8316 29.7788 270)
     (path /5E8CA2BD/5E8D1CEF)
     (attr smd)
@@ -827,7 +853,7 @@
       (net 19 "Net-(D5-Pad3)"))
   )
 
-  (module TO228P1003X238-3_4N_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TO228P1003X238-3_4N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 396.3338 34.2746 270)
     (path /5E87816A/5E8E25DA)
     (attr smd)
@@ -858,7 +884,7 @@
       (net 90 "Net-(T2-Pad4)"))
   )
 
-  (module SOT95P237X112-3N_5 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 440.3266 49.7686 270)
     (path /5E87816A/5EAD215C)
     (attr smd)
@@ -892,7 +918,7 @@
       (net 86 "Net-(R53-Pad2)"))
   )
 
-  (module TO228P1003X238-3_4N_5 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TO228P1003X238-3_4N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 440.3266 39.7864 270)
     (path /5E87816A/5EAD2156)
     (attr smd)
@@ -923,7 +949,7 @@
       (net 23 "Net-(D9-Pad2)"))
   )
 
-  (module SOT95P237X112-3N_6 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 335.577 39.5324 270)
     (path /5E87816A/5E8B3A27)
     (attr smd)
@@ -957,7 +983,7 @@
       (net 39 "Net-(D15-Pad1)"))
   )
 
-  (module SOT95P237X112-3N_7 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 378.5792 46.5428 270)
     (path /5E87816A/5E8888AE)
     (attr smd)
@@ -991,7 +1017,7 @@
       (net 40 "Net-(D15-Pad2)"))
   )
 
-  (module SOT95P237X112-3N_8 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 473.0926 35.5192 270)
     (path /5E8CA2BD/5E8CDD68)
     (attr smd)
@@ -1025,7 +1051,7 @@
       (net 50 "Net-(J10-Pad2)"))
   )
 
-  (module SOT95P237X112-3N_9 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 367.581 52.2832 270)
     (path /5E87816A/5E94B70F)
     (attr smd)
@@ -1059,7 +1085,7 @@
       (net 66 "Net-(R21-Pad2)"))
   )
 
-  (module SOT95P237X112-3N_10 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P237X112-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 396.3338 47.2794 270)
     (path /5E87816A/5E8DDDCC)
     (attr smd)
@@ -1093,7 +1119,7 @@
       (net 54 "Net-(R1-Pad2)"))
   )
 
-  (module STAR_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:STAR" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 387.1898 55.9408 180)
     (path /5E87816A/5EC48738)
     (attr smd)
@@ -1113,7 +1139,7 @@
       (net 6 GNDA))
   )
 
-  (module TP-40R-NSA_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:TP-40R-NSA" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 318.2034 36.7892)
     (path /5E878241/5ED5FB52)
     (attr smd)
@@ -1127,7 +1153,7 @@
       (net 89 "Net-(RX1-Pad1)"))
   )
 
-  (module RLY-41-52-9-024-0010_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RLY-41-52-9-024-0010" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 466.5902 54.5184 90)
     (path /5E87816A/5E920501)
     (attr smd)
@@ -1159,7 +1185,7 @@
       (net 2 GND))
   )
 
-  (module RESC1608X50AN_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 419.8288 29.7788 270)
     (path /5E8CA2BD/5E8D1CFB)
     (attr smd)
@@ -1180,7 +1206,7 @@
       (net 57 "Net-(R9-Pad2)"))
   )
 
-  (module RESC1608X50AN_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 396.3338 50.2766 180)
     (path /5E87816A/5E8F923B)
     (attr smd)
@@ -1201,7 +1227,7 @@
       (net 56 /DISCH_BAT1))
   )
 
-  (module RESC1608X50AN_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 384.5736 29.2708 270)
     (path /5E87816A/5E9895D8)
     (attr smd)
@@ -1222,7 +1248,7 @@
       (net 7 /VBAT1_MEAS))
   )
 
-  (module RESC1608X50AN_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 416.8316 32.776 180)
     (path /5E8CA2BD/5E8D1D04)
     (attr smd)
@@ -1243,7 +1269,7 @@
       (net 55 "Net-(R6-Pad2)"))
   )
 
-  (module RESC1608X50AN_5 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 342.8414 39.7864 90)
     (path /5E87816A/5E8B3A21)
     (attr smd)
@@ -1264,7 +1290,7 @@
       (net 48 "Net-(J6-Pad1)"))
   )
 
-  (module RESC1608X50AN_6 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 379.4682 41.9708 180)
     (path /5E87816A/5E8880AC)
     (attr smd)
@@ -1285,7 +1311,7 @@
       (net 47 "Net-(J2-Pad1)"))
   )
 
-  (module RESC1608X50AN_7 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 440.3266 54.0358 180)
     (path /5E87816A/5EBD5FFA)
     (attr smd)
@@ -1306,7 +1332,7 @@
       (net 84 "Net-(R52-Pad2)"))
   )
 
-  (module RESC1608X50AN_8 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 445.3304 48.0414 270)
     (path /5E87816A/5EBD63E1)
     (attr smd)
@@ -1327,7 +1353,7 @@
       (net 23 "Net-(D9-Pad2)"))
   )
 
-  (module RESC1608X50AN_9 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 437.0754 48.0414 90)
     (path /5E87816A/5EAD2162)
     (attr smd)
@@ -1348,7 +1374,7 @@
       (net 85 "Net-(R53-Pad1)"))
   )
 
-  (module RESC1608X50AN_10 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 443.0698 48.0414 90)
     (path /5E87816A/5EAD2168)
     (attr smd)
@@ -1369,7 +1395,7 @@
       (net 86 "Net-(R53-Pad2)"))
   )
 
-  (module RESC1608X50AN_11 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 440.3266 52.5372 180)
     (path /5E87816A/5EAD2175)
     (attr smd)
@@ -1390,7 +1416,7 @@
       (net 84 "Net-(R52-Pad2)"))
   )
 
-  (module CAPC1608X86N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 342.8414 36.7892 270)
     (path /5E87816A/5E8B3A1B)
     (attr smd)
@@ -1411,7 +1437,7 @@
       (net 39 "Net-(D15-Pad1)"))
   )
 
-  (module CAPC1608X86N_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 382.0844 42.7836 90)
     (path /5E87816A/5E887DA1)
     (attr smd)
@@ -1432,7 +1458,7 @@
       (net 40 "Net-(D15-Pad2)"))
   )
 
-  (module RESC1608X50AN_12 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 382.0844 38.7704 270)
     (path /5E87816A/5E8871D7)
     (attr smd)
@@ -1453,7 +1479,7 @@
       (net 4 +5V))
   )
 
-  (module RESC1608X50AN_13 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 296.4356 41.8184)
     (path /5E878241/5E934E22)
     (attr smd)
@@ -1474,7 +1500,7 @@
       (net 13 "/Microcontroller block/BP_INFO"))
   )
 
-  (module RESC1608X50AN_14 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 293.1844 41.8184)
     (path /5E878241/5E933AAF)
     (attr smd)
@@ -1495,7 +1521,7 @@
       (net 18 /BP))
   )
 
-  (module RESC1608X50AN_15 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 56.779 180)
     (path /5E878241/5E88371E)
     (attr smd)
@@ -1516,7 +1542,7 @@
       (net 83 "Net-(R47-Pad2)"))
   )
 
-  (module RESC1608X50AN_16 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 55.0264 180)
     (path /5E878241/5E883403)
     (attr smd)
@@ -1537,7 +1563,7 @@
       (net 82 "Net-(R46-Pad2)"))
   )
 
-  (module RESC1608X50AN_6 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 53.2738 180)
     (path /5E878241/5E883018)
     (attr smd)
@@ -1558,7 +1584,7 @@
       (net 81 "Net-(R45-Pad2)"))
   )
 
-  (module RESC3216X60N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC3216X60N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 294.429 47.0762 180)
     (path /5E878241/5E882D06)
     (attr smd)
@@ -1580,7 +1606,7 @@
       (net 17 /V_DC_CHARGER))
   )
 
-  (module RESC1608X50AN_17 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 51.5212 180)
     (path /5E878241/5E882ABA)
     (attr smd)
@@ -1601,7 +1627,7 @@
       (net 80 "Net-(R43-Pad2)"))
   )
 
-  (module RESC1608X50AN_18 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 49.7686 180)
     (path /5E878241/5E882774)
     (attr smd)
@@ -1622,7 +1648,7 @@
       (net 79 "Net-(R42-Pad2)"))
   )
 
-  (module RESC1608X50AN_19 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 331.1828 40.777 270)
     (path /5E878241/5E8821B6)
     (attr smd)
@@ -1643,7 +1669,7 @@
       (net 4 +5V))
   )
 
-  (module RESC1608X50AN_11 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 48.0414 180)
     (path /5E878241/5E881E70)
     (attr smd)
@@ -1664,7 +1690,7 @@
       (net 78 "Net-(R40-Pad2)"))
   )
 
-  (module RESC1608X50AN_20 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 382.0844 46.7714 90)
     (path /5E87816A/5E887B13)
     (attr smd)
@@ -1685,7 +1711,7 @@
       (net 4 +5V))
   )
 
-  (module RESC1608X50AN_21 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 42.5296 180)
     (path /5E878241/5E881B4F)
     (attr smd)
@@ -1706,7 +1732,7 @@
       (net 77 "Net-(R39-Pad2)"))
   )
 
-  (module RESC1608X50AN_22 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 46.2888 180)
     (path /5E878241/5E881706)
     (attr smd)
@@ -1727,7 +1753,7 @@
       (net 76 "Net-(R38-Pad2)"))
   )
 
-  (module RESC1608X50AN_23 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 44.5362 180)
     (path /5E878241/5E8813E2)
     (attr smd)
@@ -1748,7 +1774,7 @@
       (net 75 "Net-(R37-Pad2)"))
   )
 
-  (module RESC1608X50AN_24 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 40.777 180)
     (path /5E878241/5E880FA4)
     (attr smd)
@@ -1769,7 +1795,7 @@
       (net 74 "Net-(R36-Pad2)"))
   )
 
-  (module RESC1608X50AN_25 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 39.0244 180)
     (path /5E878241/5E880BBF)
     (attr smd)
@@ -1790,7 +1816,7 @@
       (net 73 "Net-(R35-Pad2)"))
   )
 
-  (module RESC1608X50AN_26 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 37.2718 180)
     (path /5E878241/5E880747)
     (attr smd)
@@ -1811,7 +1837,7 @@
       (net 72 "Net-(R34-Pad2)"))
   )
 
-  (module RESC1608X50AN_27 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 306.3416 35.2906 180)
     (path /5E878241/5E87F0BB)
     (attr smd)
@@ -1832,7 +1858,7 @@
       (net 71 "Net-(R33-Pad2)"))
   )
 
-  (module RESC3216X60N_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC3216X60N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 462.069 51.2926 270)
     (path /5E87816A/5E955BE2)
     (attr smd)
@@ -1854,7 +1880,7 @@
       (net 17 /V_DC_CHARGER))
   )
 
-  (module RESC1608X50AN_28 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 473.0926 38.5418)
     (path /5E8CA2BD/5E8CDD70)
     (attr smd)
@@ -1875,7 +1901,7 @@
       (net 2 GND))
   )
 
-  (module RESC1608X50AN_29 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 456.8366 49.9972 270)
     (path /5E87816A/5EC7B928)
     (attr smd)
@@ -1896,7 +1922,7 @@
       (net 12 /V_CH))
   )
 
-  (module RESC1608X50AN_30 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 386.5802 29.2708 90)
     (path /5E87816A/5E9894EF)
     (attr smd)
@@ -1917,7 +1943,7 @@
       (net 14 "Net-(D1-Pad2)"))
   )
 
-  (module RESC1608X50AN_31 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 404.3348 51.2926 180)
     (path /5E87816A/5EB4595C)
     (attr smd)
@@ -1938,7 +1964,7 @@
       (net 11 /IBAT_MEAS))
   )
 
-  (module RESC1608X50AN_32 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 404.3348 53.0198 180)
     (path /5E87816A/5EB45634)
     (attr smd)
@@ -1959,7 +1985,7 @@
       (net 68 "Net-(R28-Pad2)"))
   )
 
-  (module RESC1608X50AN_33 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 456.8366 45.5268 270)
     (path /5E87816A/5EC7A8F7)
     (attr smd)
@@ -1980,7 +2006,7 @@
       (net 23 "Net-(D9-Pad2)"))
   )
 
-  (module RESC3216X60N_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC3216X60N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 470.07 37.0432 90)
     (path /5E8CA2BD/5E8CDD76)
     (attr smd)
@@ -2002,7 +2028,7 @@
       (net 4 +5V))
   )
 
-  (module RESC3216X60N_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC3216X60N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 462.069 46.2888 270)
     (path /5E87816A/5EC7C3A3)
     (attr smd)
@@ -2024,7 +2050,7 @@
       (net 23 "Net-(D9-Pad2)"))
   )
 
-  (module RESC6533X80N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC6533X80N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 410.0752 46.7714)
     (path /5E87816A/5EA65B46)
     (attr smd)
@@ -2046,7 +2072,7 @@
       (net 10 "/Switching block/+BATT_BUS"))
   )
 
-  (module RESC1608X50AN_34 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 367.581 55.2804 180)
     (path /5E87816A/5E94B728)
     (attr smd)
@@ -2067,7 +2093,7 @@
       (net 67 /CHARG_BAT2))
   )
 
-  (module RESC1608X50AN_35 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 368.343 48.0414 180)
     (path /5E87816A/5E94B715)
     (attr smd)
@@ -2088,7 +2114,7 @@
       (net 65 "Net-(R21-Pad1)"))
   )
 
-  (module RESC1608X50AN_36 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 368.343 49.6924)
     (path /5E87816A/5E94B71B)
     (attr smd)
@@ -2109,7 +2135,7 @@
       (net 66 "Net-(R21-Pad2)"))
   )
 
-  (module RESC1608X50AN_37 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 362.7296 55.2804 180)
     (path /5E87816A/5E94B6FA)
     (attr smd)
@@ -2130,7 +2156,7 @@
       (net 64 /DISCH_BAT2))
   )
 
-  (module RESC1608X50AN_38 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 396.3338 41.285 180)
     (path /5E87816A/5E8E8E09)
     (attr smd)
@@ -2151,7 +2177,7 @@
       (net 53 "Net-(R1-Pad1)"))
   )
 
-  (module RESC1608X50AN_39 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 353.0776 52.2832 270)
     (path /5E87816A/5E9D7933)
     (attr smd)
@@ -2172,7 +2198,7 @@
       (net 8 /VBAT2_MEAS))
   )
 
-  (module RESC1608X50AN_40 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 359.58 48.0414 180)
     (path /5E87816A/5E94B6E2)
     (attr smd)
@@ -2193,7 +2219,7 @@
       (net 62 "Net-(R17-Pad1)"))
   )
 
-  (module RESC1608X50AN_41 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 359.58 49.7686)
     (path /5E87816A/5E94B6E8)
     (attr smd)
@@ -2214,7 +2240,7 @@
       (net 63 "Net-(R17-Pad2)"))
   )
 
-  (module RESC1608X50AN_42 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 356.8368 51.4704 270)
     (path /5E87816A/5E9D792D)
     (attr smd)
@@ -2235,7 +2261,7 @@
       (net 20 "Net-(D6-Pad1)"))
   )
 
-  (module RESC1608X50AN_43 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 342.8414 42.7836 90)
     (path /5E87816A/5E8B3A0F)
     (attr smd)
@@ -2256,7 +2282,7 @@
       (net 4 +5V))
   )
 
-  (module RESC1608X50AN_44 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 342.8414 33.03 270)
     (path /5E87816A/5E8B3A15)
     (attr smd)
@@ -2277,7 +2303,7 @@
       (net 4 +5V))
   )
 
-  (module RESC1608X50AN_45 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 400.8296 50.2766 180)
     (path /5E87816A/5E90AD85)
     (attr smd)
@@ -2298,7 +2324,7 @@
       (net 61 /CHARG_BAT1))
   )
 
-  (module RESC1608X50AN_46 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 405.0714 41.285 180)
     (path /5E87816A/5E90AD71)
     (attr smd)
@@ -2319,7 +2345,7 @@
       (net 58 "Net-(R10-Pad1)"))
   )
 
-  (module RESC1608X50AN_47 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 422.826 32.776 180)
     (path /5E8CA2BD/5E8D1D18)
     (attr smd)
@@ -2340,7 +2366,7 @@
       (net 60 /V_EN))
   )
 
-  (module RESC1608X50AN_48 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:RESC1608X50AN" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 409.8212 41.285 180)
     (path /5E87816A/5E90AD77)
     (attr smd)
@@ -2361,28 +2387,7 @@
       (net 59 "Net-(R10-Pad2)"))
   )
 
-  (module RESC1608X50AN_49 (layer B.Cu) (tedit 0) (tstamp 0)
-    (at 396.3338 43.0376)
-    (path /5E87816A/5E8E923B)
-    (attr smd)
-    (fp_text reference R1 (at -2.2225 0.2413 unlocked) (layer B.SilkS)
-      (effects (font (size 0.316586 0.332994) (thickness 0.0254)) (justify mirror))
-    )
-    (fp_text value 10k (at 0.56515 -0.0381 unlocked) (layer B.SilkS) hide
-      (effects (font (size 0.316586 0.332994) (thickness 0.0254)) (justify mirror))
-    )
-    (fp_line (start 0.7874 0.381) (end -0.7874 0.381) (layer B.Fab) (width 0.1778))
-    (fp_line (start 0.7874 0.381) (end 0.7874 -0.381) (layer B.Fab) (width 0.1778))
-    (fp_line (start 0.7874 -0.381) (end -0.7874 -0.381) (layer B.Fab) (width 0.1778))
-    (fp_line (start -0.7874 0.381) (end -0.7874 -0.381) (layer B.Fab) (width 0.1778))
-    (fp_line (start 0 0.381) (end 0 -0.381) (layer B.SilkS) (width 0.1778))
-    (pad 1 smd rect (at 0.7874 0 270) (size 0.9906 0.9398) (layers B.Cu B.Paste B.Mask)
-      (net 53 "Net-(R1-Pad1)"))
-    (pad 2 smd rect (at -0.7874 0 270) (size 0.9906 0.9398) (layers B.Cu B.Paste B.Mask)
-      (net 54 "Net-(R1-Pad2)"))
-  )
-
-  (module MTHOLE1_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:MTHOLE1" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 367.073 31.2774)
     (attr smd)
     (fp_text reference MT1 (at -1.13665 0.2413 unlocked) (layer F.SilkS)
@@ -2395,7 +2400,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask))
   )
 
-  (module CON2PHDR1000W777L396P_1 (layer F.Cu) (tedit 0) (tstamp 5E8E4F2D)
+  (module "10106052 PowerPack:CON2PHDR1000W777L396P" (layer F.Cu) (tedit 0) (tstamp 5E8E4F2D)
     (at 450.5882 30.3376)
     (path /5E87816A/5EFCAE2E)
     (clearance 0.05)
@@ -2425,7 +2430,7 @@
       (net 2 GND))
   )
 
-  (module GKS-913-305-230-A-15-02-S_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:GKS-913-305-230-A-15-02-S" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 346.88 46.7714)
     (path /5E87816A/5E8B3A05)
     (attr smd)
@@ -2440,7 +2445,7 @@
       (net 2 GND))
   )
 
-  (module CON254W80L508T254H600P_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON254W80L508T254H600P" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 346.88 42.7836)
     (path /5E87816A/5E8B39FF)
     (attr smd)
@@ -2468,7 +2473,7 @@
       (net 21 /TEMP_BAT2))
   )
 
-  (module CON254W80L508T254H600P_2 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON254W80L508T254H600P" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 346.88 38.7704)
     (path /5E87816A/5E8B39F9)
     (attr smd)
@@ -2496,7 +2501,7 @@
       (net 48 "Net-(J6-Pad1)"))
   )
 
-  (module CON254W80L508T254H600P_3 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON254W80L508T254H600P" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 346.88 34.7826)
     (path /5E87816A/5E8B39F3)
     (attr smd)
@@ -2524,7 +2529,7 @@
       (net 20 "Net-(D6-Pad1)"))
   )
 
-  (module GKS-913-305-230-A-15-02-S_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:GKS-913-305-230-A-15-02-S" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 386.4786 34.7826)
     (path /5E87816A/5E8862B6)
     (attr smd)
@@ -2539,7 +2544,7 @@
       (net 2 GND))
   )
 
-  (module CON254W80L508T254H600P_4 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON254W80L508T254H600P" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 386.4786 38.7704)
     (path /5E87816A/5E885823)
     (attr smd)
@@ -2567,7 +2572,7 @@
       (net 15 /TEMP_BAT1))
   )
 
-  (module CON254W80L508T254H600P_5 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON254W80L508T254H600P" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 386.4786 42.7836)
     (path /5E87816A/5E884FEF)
     (attr smd)
@@ -2595,7 +2600,7 @@
       (net 47 "Net-(J2-Pad1)"))
   )
 
-  (module CON-S5B-ZR-SM4A-TF_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON-S5B-ZR-SM4A-TF" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 333.8244 31.5314 180)
     (path /5E878241/5EAC4760)
     (attr smd)
@@ -2630,7 +2635,7 @@
     (pad 7 smd rect (at -4.9276 3.8354 90) (size 1.8796 1.0922) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module CON-52207-1960_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON-52207-1960" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 288.9426 42.2756 270)
     (path /5E878241/5E9022C0)
     (attr smd)
@@ -2694,7 +2699,7 @@
     (pad 21 smd rect (at -12.1412 2.3368 180) (size 2.794 2.0828) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module CON-43650-0229_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON-43650-0229" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 480.0776 31.7854 270)
     (path /5E87816A/5E898ED2)
     (attr smd)
@@ -2724,7 +2729,7 @@
     (pad 4 thru_hole circle (at 4.4958 1.9558 270) (size 1.9812 1.9812) (drill 1.2954) (layers *.Cu *.Mask))
   )
 
-  (module CON-S2B-ZR-SM4A-TF_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON-S2B-ZR-SM4A-TF" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 471.5686 31.5314 180)
     (path /5E8CA2BD/5E8CDD62)
     (attr smd)
@@ -2753,7 +2758,7 @@
     (pad 4 smd rect (at -3.429 3.8354 90) (size 1.8796 1.0922) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module CON254W80L508T254H600P_6 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CON254W80L508T254H600P" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 386.4786 46.7714)
     (path /5E87816A/5E883FC2)
     (attr smd)
@@ -2781,7 +2786,7 @@
       (net 14 "Net-(D1-Pad2)"))
   )
 
-  (module BNX00201_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:BNX00201" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 477.182 44.2822 90)
     (path /5E87816A/5E89720C)
     (attr smd)
@@ -2813,7 +2818,7 @@
       (net 46 "Net-(FL1-PadPSG)"))
   )
 
-  (module FIDUCIAL_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:FIDUCIAL" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 482.8208 53.0198)
     (attr smd)
     (fp_text reference FID2 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
@@ -2825,7 +2830,7 @@
     (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module FIDUCIAL_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:FIDUCIAL" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 277.3348 27.5182)
     (attr smd)
     (fp_text reference FID1 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
@@ -2837,7 +2842,7 @@
     (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module FUS4755X155N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:FUS4755X155N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 448.3276 37.2718 90)
     (path /5E87816A/5ED757EF)
     (attr smd)
@@ -2871,7 +2876,7 @@
       (net 23 "Net-(D9-Pad2)"))
   )
 
-  (module DIOM5126X203N_SWP_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:DIOM5126X203N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 452.8234 36.7892 270)
     (path /5E87816A/5ED5C669)
     (attr smd)
@@ -2901,7 +2906,7 @@
       (net 23 "Net-(D9-Pad2)"))
   )
 
-  (module SOT65P220X110-3N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT65P220X110-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 339.3362 39.2784 270)
     (path /5E87816A/5E8B3A5F)
     (attr smd)
@@ -2938,7 +2943,7 @@
       (net 2 GND))
   )
 
-  (module DIOM5126X203N_SWP_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:DIOM5126X203N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 352.087 36.7892 90)
     (path /5E87816A/5E8B3A76)
     (attr smd)
@@ -2968,7 +2973,7 @@
       (net 20 "Net-(D6-Pad1)"))
   )
 
-  (module SOD2512X110N_SWP_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOD2512X110N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 355.3382 28.7882 90)
     (path /5E87816A/5E9EFC87)
     (attr smd)
@@ -3001,7 +3006,7 @@
       (net 3 +VDC_PERM))
   )
 
-  (module SOT92P240X120-3N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT92P240X120-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 426.8392 29.7788 270)
     (path /5E8CA2BD/5E8D1D46)
     (attr smd)
@@ -3035,7 +3040,7 @@
       (net 19 "Net-(D5-Pad3)"))
   )
 
-  (module SOD2512X110N_SWP_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOD2512X110N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 430.0904 28.7882 90)
     (path /5E87816A/5E9EF925)
     (attr smd)
@@ -3068,7 +3073,7 @@
       (net 3 +VDC_PERM))
   )
 
-  (module SOD2512X110N_SWP_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOD2512X110N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 389.0694 28.7882 90)
     (path /5E87816A/5E9EE36A)
     (attr smd)
@@ -3101,7 +3106,7 @@
       (net 3 +VDC_PERM))
   )
 
-  (module SOT65P220X110-3N_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT65P220X110-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 379.8238 39.0244 270)
     (path /5E87816A/5E88EC93)
     (attr smd)
@@ -3138,7 +3143,7 @@
       (net 2 GND))
   )
 
-  (module SOT65P220X110-3N_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT65P220X110-3N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 376.09 39.0244 270)
     (path /5E87816A/5E894460)
     (attr smd)
@@ -3175,7 +3180,7 @@
       (net 41 /ID_BAT_READ))
   )
 
-  (module DIOM5126X203N_SWP_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:DIOM5126X203N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 294.683 44.333 180)
     (path /5E878241/5E9514D0)
     (attr smd)
@@ -3205,7 +3210,7 @@
       (net 3 +VDC_PERM))
   )
 
-  (module SOT95P275X110-6N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P275X110-6N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 297.8326 33.7412 90)
     (path /5E878241/5E8AE1DD)
     (attr smd)
@@ -3248,7 +3253,7 @@
       (net 38 "Net-(D13-Pad6)"))
   )
 
-  (module SOT95P275X110-6N_2 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P275X110-6N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 300.8298 40.3198 90)
     (path /5E878241/5E8A8461)
     (attr smd)
@@ -3291,7 +3296,7 @@
       (net 35 "Net-(D12-Pad6)"))
   )
 
-  (module SOT95P275X110-6N_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P275X110-6N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 300.8298 47.9398 90)
     (path /5E878241/5E8A7930)
     (attr smd)
@@ -3334,7 +3339,7 @@
       (net 31 "Net-(D11-Pad6)"))
   )
 
-  (module SOT95P275X110-6N_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:SOT95P275X110-6N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 297.8326 54.5184 90)
     (path /5E878241/5E88FDF0)
     (attr smd)
@@ -3377,7 +3382,7 @@
       (net 27 "/Microcontroller block/PGC"))
   )
 
-  (module DIOM5126X203N_SWP_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:DIOM5126X203N_SWP" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 391.838 48.778 90)
     (path /5E87816A/5E8958A9)
     (attr smd)
@@ -3407,7 +3412,7 @@
       (net 14 "Net-(D1-Pad2)"))
   )
 
-  (module CAPPRD350W60D800H1250PAAAAA_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPPRD350W60D800H1250PAAAAA" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 452.0868 41.793)
     (path /5E87816A/5EA29795)
     (attr smd)
@@ -3439,7 +3444,7 @@
       (net 2 GND))
   )
 
-  (module CAPPRD350W60D800H1250PBA_1 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPPRD350W60D800H1250PBA" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 452.0868 51.2926)
     (path /5E87816A/5EA292FD)
     (attr smd)
@@ -3471,7 +3476,7 @@
       (net 2 GND))
   )
 
-  (module CAPC1608X86N_3 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 341.292 52.0292 90)
     (path /5E8CA2BD/5E8CF89F)
     (attr smd)
@@ -3492,7 +3497,7 @@
       (net 4 +5V))
   )
 
-  (module CAPC1005X60N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1005X60N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 334.8404 50.5306 90)
     (path /5E8CA2BD/5E8CF8A5)
     (attr smd)
@@ -3518,7 +3523,7 @@
       (net 5 +3.0VREF))
   )
 
-  (module CAPC1608X86N_4 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 333.1386 50.429 90)
     (path /5E8CA2BD/5E8CF8AB)
     (attr smd)
@@ -3539,7 +3544,7 @@
       (net 5 +3.0VREF))
   )
 
-  (module CAPC1608X86N_5 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 351.071 52.2832 270)
     (path /5E87816A/5E9D7939)
     (attr smd)
@@ -3560,7 +3565,7 @@
       (net 8 /VBAT2_MEAS))
   )
 
-  (module CAPC1608X86N_6 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 472.6862 50.7338 180)
     (path /5E8CA2BD/5E8CB2E0)
     (attr smd)
@@ -3581,7 +3586,7 @@
       (net 4 +5V))
   )
 
-  (module CAPC3225X155N_1 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC3225X155N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 418.0762 38.0338 270)
     (path /5E8CA2BD/5E8D1D27)
     (attr smd)
@@ -3603,7 +3608,7 @@
       (net 3 +VDC_PERM))
   )
 
-  (module CAPC1608X86N_7 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 296.4356 40.0912)
     (path /5E878241/5E935537)
     (attr smd)
@@ -3624,7 +3629,7 @@
       (net 13 "/Microcontroller block/BP_INFO"))
   )
 
-  (module CAPC1608X86N_8 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 319.829 55.5344 180)
     (path /5E878241/5E9BB5C2)
     (attr smd)
@@ -3645,7 +3650,7 @@
       (net 4 +5V))
   )
 
-  (module CAPC1608X86N_9 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 320.8196 37.0432 180)
     (path /5E878241/5EA446D2)
     (attr smd)
@@ -3666,7 +3671,7 @@
       (net 4 +5V))
   )
 
-  (module CAPC1608X86N_6 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 320.8196 39.2784 180)
     (path /5E878241/5EA44CC5)
     (attr smd)
@@ -3687,7 +3692,7 @@
       (net 4 +5V))
   )
 
-  (module CAPC1608X86N_10 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 430.7762 32.8268 180)
     (path /5E8CA2BD/5E8D1CD4)
     (attr smd)
@@ -3708,7 +3713,7 @@
       (net 4 +5V))
   )
 
-  (module CAPC1608X86N_11 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 458.4876 49.9972 270)
     (path /5E87816A/5ED0B80B)
     (attr smd)
@@ -3729,7 +3734,7 @@
       (net 12 /V_CH))
   )
 
-  (module CAPC1608X86N_12 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 404.3348 49.54 180)
     (path /5E87816A/5EB45D1D)
     (attr smd)
@@ -3750,7 +3755,7 @@
       (net 11 /IBAT_MEAS))
   )
 
-  (module CAPC1608X86N_13 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 404.3348 46.7714 180)
     (path /5E87816A/5EB0B07A)
     (attr smd)
@@ -3771,7 +3776,7 @@
       (net 10 "/Switching block/+BATT_BUS"))
   )
 
-  (module CAPC1608X86N_14 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 414.825 52.3848 270)
     (path /5E87816A/5EAC2B56)
     (attr smd)
@@ -3792,7 +3797,7 @@
       (net 5 +3.0VREF))
   )
 
-  (module CAPC1608X86N_15 (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "10106052 PowerPack:CAPC1608X86N" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 382.5924 29.2708 270)
     (path /5E87816A/5E989E0B)
     (attr smd)
