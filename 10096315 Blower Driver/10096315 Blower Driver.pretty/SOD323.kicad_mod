@@ -1,4 +1,4 @@
-(module SOD323 (layer F.Cu) (tedit 5E8FD058)
+(module SOD323 (layer F.Cu) (tedit 5E94E2B0)
   (attr smd)
   (fp_text reference REF** (at 0.4572 -0.5334 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
@@ -34,4 +34,9 @@
   (fp_line (start -0.2794 0.6858) (end -0.2794 -0.6858) (layer F.Fab) (width 0.1))
   (pad 2 smd rect (at -1.0922 0) (size 1.27 0.6096) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.0922 0) (size 1.27 0.6096) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-323.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

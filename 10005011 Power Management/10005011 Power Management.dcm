@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +24VUTIL
+D Power symbol creates a global label with name "+24VUTIL"
+$ENDCMP
+#
 $CMP +3.0VREF
 D Power symbol creates a global label with name "+3.0VREF"
 K power-flag
@@ -103,6 +107,11 @@ D POWER SUPPLY, 220VAC, 33VDC, 100W
 K 10022932
 $ENDCMP
 #
+$CMP GND1
+D Power symbol creates a global label with name "GND1"
+K power-flag
+$ENDCMP
+#
 $CMP INA170
 D High-Side, Bidirectional Current-Sense Amplifier
 K current monitor shunt sensor bidirectional high
@@ -173,6 +182,11 @@ $ENDCMP
 #
 $CMP PGND
 D Power symbol creates a global label with name "PGND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP PGND1
+D Power symbol creates a global label with name "PGND1"
 K power-flag
 $ENDCMP
 #

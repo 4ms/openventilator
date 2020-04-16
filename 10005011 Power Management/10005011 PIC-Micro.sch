@@ -1213,7 +1213,7 @@ MES-VDC
 Text GLabel 2500 5250 0    50   Input ~ 0
 MES-VCHARGE
 Text GLabel 2500 5350 0    50   Input ~ 0
-IBAT
+I-BAT
 Text GLabel 2500 5550 0    50   Input ~ 0
 MES-VACDC
 Text GLabel 2500 5850 0    50   Input ~ 0
