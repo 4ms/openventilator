@@ -1,4 +1,4 @@
-(module MOL43650-02C (layer F.Cu) (tedit 0)
+(module MOL43650-02C (layer F.Cu) (tedit 5E93B08C)
   (attr smd)
   (fp_text reference REF** (at -0.5588 4.5466 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
@@ -59,4 +59,9 @@
   (pad 3 smd rect (at -4.9276 5.1562 90) (size 1.6764 4.2926) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.4986 0) (size 1.27 3.4798) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.4986 0) (size 1.27 3.4798) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/10096315 Blower Driver.pretty/MOLEX_43650-0213.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
