@@ -1,4 +1,4 @@
-(module SMB-AIROX_1 (layer F.Cu) (tedit 0)
+(module SMB-AIROX_1 (layer F.Cu) (tedit 5E9528B4)
   (attr smd)
   (fp_text reference D21 (at 0.719 -0.4682 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -32,4 +32,9 @@
   (fp_line (start 3.26593 2) (end 3.3 2) (layer F.SilkS) (width 0.18))
   (pad A smd rect (at 2.21 0) (size 2.15 2.74) (layers F.Cu F.Paste F.Mask))
   (pad K smd rect (at -2.21 0) (size 2.15 2.74) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMB.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

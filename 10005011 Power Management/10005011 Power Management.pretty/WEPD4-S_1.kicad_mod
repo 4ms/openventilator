@@ -1,4 +1,4 @@
-(module WEPD4-S_1 (layer F.Cu) (tedit 0)
+(module WEPD4-S_1 (layer F.Cu) (tedit 5E975AE7)
   (attr smd)
   (fp_text reference L4 (at -0.5222 0.4587 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -24,4 +24,9 @@
   (fp_circle (center 0 0) (end 1.8 0) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -2.73 0) (size 1.6002 3.81) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.73 0) (size 1.6002 3.81) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/3D Models/WE-PD4-S_rev1.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module SMB_1 (layer F.Cu) (tedit 0)
+(module SMB_1 (layer F.Cu) (tedit 5E9528C5)
   (attr smd)
   (fp_text reference D6 (at -1.4986 -2.8956 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
@@ -33,4 +33,9 @@
   (fp_line (start -2.9972 1.9812) (end 3.175 1.9812) (layer F.SilkS) (width 0.1778))
   (pad A smd rect (at 2.2098 0) (size 1.5748 2.54) (layers F.Cu F.Paste F.Mask))
   (pad K smd rect (at -2.2098 0) (size 1.5748 2.54) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMB.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

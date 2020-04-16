@@ -1,4 +1,4 @@
-(module C-SC10_1 (layer F.Cu) (tedit 0)
+(module C-SC10_1 (layer F.Cu) (tedit 5E951B5D)
   (attr smd)
   (fp_text reference C125 (at -0.9144 0.4572 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
@@ -37,4 +37,9 @@
   (fp_arc (start 0 0) (end -4.9784 0) (angle -360) (layer B.Fab) (width 0.0762))
   (pad + smd rect (at 0 4.191 180) (size 1.905 4.4196) (layers F.Cu F.Paste F.Mask))
   (pad - smd rect (at 0 -4.191 180) (size 1.905 4.4196) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_Elec_10x10.2.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module SMC-NP_1 (layer F.Cu) (tedit 0)
+(module SMC-NP_1 (layer F.Cu) (tedit 5E9528EF)
   (attr smd)
   (fp_text reference D13 (at -0.4587 -0.6936 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -24,4 +24,9 @@
   (fp_line (start -5.3975 3.01625) (end 5.3975 3.01625) (layer F.SilkS) (width 0.18))
   (pad 1 smd rect (at -3.6 0) (size 2.9972 3.81) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.6 0) (size 2.9972 3.81) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMC.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

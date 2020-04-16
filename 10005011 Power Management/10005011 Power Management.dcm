@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.0VREF
+D Power symbol creates a global label with name "+3.0VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +5VPIC
+D Power symbol creates a global label with name "+5VPIC"
+K power-flag
+$ENDCMP
+#
 $CMP 0VANA
 D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag
@@ -218,13 +233,13 @@ $ENDCMP
 $CMP USB_A_4shield
 D USB Type A connector
 K connector USB
-F  ~
+F  https://www.molex.com/webdocs/datasheets/pdf/en-us/0673298001_IO_CONNECTORS.pdf
 $ENDCMP
 #
 $CMP USB_B_Mini_2shield
 D USB MINI B
 K 10022867
-F ~
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0548190519_IO_CONNECTORS.pdf
 $ENDCMP
 #
 $CMP VACDC

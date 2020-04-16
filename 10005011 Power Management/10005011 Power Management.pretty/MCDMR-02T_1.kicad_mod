@@ -1,4 +1,4 @@
-(module MCDMR-02T_1 (layer F.Cu) (tedit 0)
+(module MCDMR-02T_1 (layer F.Cu) (tedit 5E979449)
   (attr smd)
   (fp_text reference SW2 (at 7.5184 1.0287 90 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
@@ -42,4 +42,9 @@
   (pad 2 smd rect (at -1.27 -4.445) (size 1.27 2.54) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.27 4.445) (size 1.27 2.54) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.27 -4.445) (size 1.27 2.54) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/3D Models/SW_DIP_SPSTx02_Slide_6.2x6.02mm_W8.61mm_P2.54mm_LowProfile.wrl"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
