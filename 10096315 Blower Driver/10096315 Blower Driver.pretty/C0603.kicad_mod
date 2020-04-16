@@ -1,10 +1,10 @@
-(module "10096315 Blower Driver:C0603" (layer F.Cu) (tedit 0)
+(module C0603 (layer F.Cu) (tedit 5E948B55)
   (attr smd)
-  (fp_text reference REF** (at -0.7239 0.4572 -180 unlocked) (layer F.SilkS)
-    (effects (font (size 1.033069 1.086612) (thickness 0.127)))
+  (fp_text reference REF** (at -0.6858 0.4064 -180 unlocked) (layer F.SilkS)
+    (effects (font (size 0.866445 0.911352) (thickness 0.0254)))
   )
-  (fp_text value C0603 (at -3.937 0.7874 -180 unlocked) (layer F.SilkS) hide
-    (effects (font (size 1.033069 1.086612) (thickness 0.127)))
+  (fp_text value C0603 (at -0.6604 -3.6322 -270 unlocked) (layer F.SilkS) hide
+    (effects (font (size 0.866445 0.911352) (thickness 0.0254)))
   )
   (fp_line (start -1.4224 0.9398) (end -1.4224 -0.9398) (layer F.SilkS) (width 0.1778))
   (fp_line (start -1.4224 0.9398) (end 1.4224 0.9398) (layer F.SilkS) (width 0.1778))
@@ -18,4 +18,11 @@
   (fp_line (start -0.889 -0.381) (end 0.889 -0.381) (layer F.Fab) (width 0.0762))
   (fp_line (start -0.889 0.381) (end 0.889 0.381) (layer F.Fab) (width 0.0762))
   (fp_line (start -0.889 0.381) (end -0.889 -0.381) (layer F.Fab) (width 0.0762))
+  (pad 2 smd rect (at 0.635 0) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -0.635 0) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module C-SC8 (layer F.Cu) (tedit 0)
+(module C-SC8 (layer F.Cu) (tedit 5E94E238)
   (attr smd)
   (fp_text reference REF** (at 1.016 1.524 -90 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -40,4 +40,11 @@
   (fp_line (start -0.4826 4.191) (end 0.4826 4.191) (layer F.Fab) (width 0.0762))
   (fp_line (start 0.4826 4.4958) (end 0.4826 4.191) (layer F.Fab) (width 0.0762))
   (fp_line (start -1.4986 3.683) (end 1.4986 3.683) (layer F.Fab) (width 0.0762))
+  (pad - smd rect (at 0 3.175) (size 1.905 3.81) (layers F.Cu F.Paste F.Mask))
+  (pad + smd rect (at 0 -3.175) (size 1.905 3.81) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Blower_Driver_Components)(type Legacy)(uri ${KIPRJMOD}/Blower_Driver_Components.lib)(options "")(descr ""))
+  (lib (name 10096315-Blower-Driver-rescue)(type Legacy)(uri "${KIPRJMOD}/10096315 Blower Driver-rescue.lib")(options "")(descr ""))
 )

@@ -1,6 +1,6 @@
-(module "10096315 Blower Driver:MOL5566-2" (layer F.Cu) (tedit 0)
+(module MOL5566-2 (layer F.Cu) (tedit 5E93AE18)
   (attr smd)
-  (fp_text reference REF** (at -0.5588 -4.9911 -270 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at -0.7874 -4.9911 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_text value MOL5566-2 (at -0.7874 -5.9055 -270 unlocked) (layer F.SilkS) hide
@@ -29,7 +29,7 @@
   (fp_line (start -1.7272 -7.239) (end 1.7272 -7.239) (layer F.Fab) (width 0.0762))
   (fp_line (start 1.7272 -3.7338) (end 1.7272 -7.239) (layer F.Fab) (width 0.0762))
   (fp_line (start -1.6764 -7.5438) (end -1.6764 -8.9916) (layer F.Fab) (width 0.0762))
-  (fp_line (start -1.7272 1.7272) (end -1.7272 -1.7272) (layer F.Fab) (width 0.0762))
+  (fp_line (start -1.7272 1.7272) (end 1.7272 1.7272) (layer F.Fab) (width 0.0762))
   (fp_line (start -2.6924 -7.5438) (end -1.6764 -7.5438) (layer F.Fab) (width 0.0762))
   (fp_line (start -1.7272 -3.7338) (end -1.7272 -7.239) (layer F.Fab) (width 0.0762))
   (fp_line (start -1.7272 -3.7338) (end 1.7272 -3.7338) (layer F.Fab) (width 0.0762))
@@ -39,4 +39,9 @@
   (fp_line (start 1.7272 1.7272) (end 1.7272 -1.7272) (layer F.Fab) (width 0.0762))
   (pad 2 thru_hole circle (at 0 -5.4864) (size 2.286 2.286) (drill 1.4224) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.286 2.286) (drill 1.4224) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/10096315 Blower Driver.pretty/039281023-recenter.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

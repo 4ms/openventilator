@@ -1,4 +1,4 @@
-(module BNX002-011 (layer F.Cu) (tedit 5E8C101B)
+(module BNX002-011 (layer F.Cu) (tedit 5E9341F6)
   (descr BNX002-011)
   (tags Filter)
   (fp_text reference FL** (at -5.334 6.985) (layer F.SilkS)
@@ -22,4 +22,9 @@
   (pad 2 thru_hole circle (at 2.5 2.5 90) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 2.5 -2.5 90) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole circle (at 5 0 90) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIPRJMOD}/10096510_Battery_Connection.pretty/BNX002-01.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

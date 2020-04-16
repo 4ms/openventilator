@@ -1,6 +1,6 @@
-(module "10096315 Blower Driver:C7343" (layer F.Cu) (tedit 0)
+(module C7343 (layer F.Cu) (tedit 5E94B9A9)
   (attr smd)
-  (fp_text reference REF** (at -0.1524 2.6924 unlocked) (layer F.SilkS)
+  (fp_text reference REF** (at 0.508 -0.4572 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
   )
   (fp_text value C7343 (at 4.3307 -0.7874 unlocked) (layer F.SilkS) hide
@@ -27,4 +27,11 @@
   (fp_line (start -3.81 -2.2098) (end 3.81 -2.2098) (layer F.Fab) (width 0.0762))
   (fp_line (start -3.3274 2.2098) (end -2.6924 2.2098) (layer F.Fab) (width 0.1))
   (fp_line (start -3.3274 -2.2098) (end -2.6924 -2.2098) (layer F.Fab) (width 0.1))
+  (pad - smd rect (at 2.9972 0) (size 2.286 3.2004) (layers F.Cu F.Paste F.Mask))
+  (pad + smd rect (at -2.9972 0) (size 2.286 3.2004) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-43_Kemet-X.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

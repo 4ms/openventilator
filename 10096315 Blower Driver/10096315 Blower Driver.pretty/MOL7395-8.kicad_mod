@@ -1,4 +1,4 @@
-(module "10096315 Blower Driver:MOL7395-8" (layer F.Cu) (tedit 0)
+(module MOL7395-8 (layer F.Cu) (tedit 5E93A4F0)
   (attr smd)
   (fp_text reference REF** (at 9.4234 -5.8674 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.127)))
@@ -71,4 +71,9 @@
   (pad 3 thru_hole circle (at 5.08 0) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/10096315 Blower Driver.pretty/22-05-7088-recenter.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

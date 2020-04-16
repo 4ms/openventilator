@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Buzzer
+D Buzzer, unpolarized
+K quartz resonator ceramic
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -2127,13 +2127,13 @@ Wire Wire Line
 Text Notes 2650 5875 0    50   ~ 0
 BATTERY SWITCH CIRCUIT
 Text HLabel 1150 4000 0    50   Input ~ 0
-BUZ_ACT
+BUZ-ACT
 Text HLabel 10675 2300 1    50   Output ~ 0
-SUPPLY_BUZ
+SUPPLY-BUZ
 Text HLabel 7600 4950 0    50   Input ~ 0
-STOP_INV
+STOP-INV
 Text HLabel 7600 5750 0    50   Input ~ 0
-INHIB_STOP_INV
+INHIB-STOP-INV
 Wire Wire Line
 	7800 5750 7600 5750
 Connection ~ 7800 5750
@@ -2148,7 +2148,7 @@ Wire Wire Line
 Text HLabel 9725 2275 1    50   Output ~ 0
 VBAT
 Text HLabel 1150 4850 0    50   Input ~ 0
-SUPPLY_BUZ
+SUPPLY-BUZ
 Wire Wire Line
 	1250 4850 1150 4850
 Text HLabel 11750 4325 0    50   Input ~ 0
@@ -2324,4 +2324,14 @@ F 3 "~" H 10175 2525 50  0001 C CNN
 	1    10175 2525
 	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	13175 3375 13225 3375
+Connection ~ 13225 3375
+Wire Wire Line
+	12875 3375 12825 3375
+Connection ~ 12825 3375
+Wire Wire Line
+	12825 3375 12825 3650
+Wire Wire Line
+	11350 3375 12825 3375
 $EndSCHEMATC

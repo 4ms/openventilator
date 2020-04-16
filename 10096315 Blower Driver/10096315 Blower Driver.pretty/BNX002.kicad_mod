@@ -1,4 +1,4 @@
-(module "10096315 Blower Driver:BNX002" (layer F.Cu) (tedit 0)
+(module BNX002 (layer F.Cu) (tedit 5E9393B6)
   (attr smd)
   (fp_text reference REF** (at 1.524 -1.016 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -25,4 +25,9 @@
   (pad CG1 thru_hole circle (at -2.4892 2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad CB thru_hole circle (at 2.4892 2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad B thru_hole circle (at 2.4892 -2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/10096315 Blower Driver.pretty/BNX002.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
