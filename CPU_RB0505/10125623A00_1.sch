@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17729 11946
 encoding utf-8
-Sheet 2 8
+Sheet 8 8
 Title "RB0505 CPU Board"
 Date "2020-04-15"
 Rev ""
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2350 2350 0    10   BiDi ~ 0
-+5V
 Text Label 14300 4900 2    50   ~ 0
 CS2\
 Text Label 8300 6550 0    50   ~ 0
@@ -44,10 +42,10 @@ MRST_SPI_1_E
 Text Label 8300 7050 0    50   ~ 0
 MRST_SPI_1_E
 $Comp
-L cpu-board:0VANA #U$21
+L cpu-board:0VANA #U$?
 U 1 1 CA2824D4
 P 7300 8950
-AR Path="/CA2824D4" Ref="#U$21"  Part="1" 
+AR Path="/CA2824D4" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/CA2824D4" Ref="#U$021"  Part="1" 
 F 0 "#U$021" H 7300 8950 50  0001 C CNN
 F 1 "0VANA" H 7425 8819 59  0000 R TNN
@@ -57,10 +55,10 @@ F 3 "" H 7300 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$22
+L cpu-board:+5V #U$?
 U 1 1 585CEF8C
 P 15000 1850
-AR Path="/585CEF8C" Ref="#U$22"  Part="1" 
+AR Path="/585CEF8C" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/585CEF8C" Ref="#U$022"  Part="1" 
 F 0 "#U$022" H 15000 1850 50  0001 C CNN
 F 1 "+5V" H 14912 1763 59  0000 L BNN
@@ -70,10 +68,10 @@ F 3 "" H 15000 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$23
+L cpu-board:GND #U$?
 U 1 1 3E99C09D
 P 14400 1850
-AR Path="/3E99C09D" Ref="#U$23"  Part="1" 
+AR Path="/3E99C09D" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/3E99C09D" Ref="#U$023"  Part="1" 
 F 0 "#U$023" H 14400 1850 50  0001 C CNN
 F 1 "GND" H 14312 1763 59  0000 L BNN
@@ -83,10 +81,10 @@ F 3 "" H 14400 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C10
+L cpu-board:C0805 C?
 U 1 1 CB1F8FE5
 P 14700 2150
-AR Path="/CB1F8FE5" Ref="C10"  Part="1" 
+AR Path="/CB1F8FE5" Ref="C?"  Part="1" 
 AR Path="/5E923584/CB1F8FE5" Ref="C10"  Part="1" 
 F 0 "C10" V 14925 2044 64  0000 L BNN
 F 1 "100nF" V 14831 2013 42  0000 L BNN
@@ -110,10 +108,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14700 2150 50  0001 C CNN "Manufacturer_De
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:C0805 C22
+L cpu-board:C0805 C?
 U 1 1 A05C1986
 P 7350 9650
-AR Path="/A05C1986" Ref="C22"  Part="1" 
+AR Path="/A05C1986" Ref="C?"  Part="1" 
 AR Path="/5E923584/A05C1986" Ref="C22"  Part="1" 
 F 0 "C22" V 7337 9394 64  0000 L BNN
 F 1 "100nF" V 7331 9700 42  0000 L BNN
@@ -137,10 +135,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9650 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C23
+L cpu-board:C0805 C?
 U 1 1 93AA069D
 P 7350 9800
-AR Path="/93AA069D" Ref="C23"  Part="1" 
+AR Path="/93AA069D" Ref="C?"  Part="1" 
 AR Path="/5E923584/93AA069D" Ref="C23"  Part="1" 
 F 0 "C23" V 7337 9544 64  0000 L BNN
 F 1 "100nF" V 7331 9850 42  0000 L BNN
@@ -164,10 +162,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9800 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C25
+L cpu-board:C0805 C?
 U 1 1 5F5D481B
 P 7350 9950
-AR Path="/5F5D481B" Ref="C25"  Part="1" 
+AR Path="/5F5D481B" Ref="C?"  Part="1" 
 AR Path="/5E923584/5F5D481B" Ref="C25"  Part="1" 
 F 0 "C25" V 7337 9694 64  0000 L BNN
 F 1 "100nF" V 7331 10000 42  0000 L BNN
@@ -191,10 +189,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9950 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C26
+L cpu-board:C0805 C?
 U 1 1 0EABB629
 P 7350 10100
-AR Path="/0EABB629" Ref="C26"  Part="1" 
+AR Path="/0EABB629" Ref="C?"  Part="1" 
 AR Path="/5E923584/0EABB629" Ref="C26"  Part="1" 
 F 0 "C26" V 7325 9844 64  0000 L BNN
 F 1 "100nF" V 7331 10150 42  0000 L BNN
@@ -218,10 +216,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10100 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C27
+L cpu-board:C0805 C?
 U 1 1 C9504634
 P 7350 10250
-AR Path="/C9504634" Ref="C27"  Part="1" 
+AR Path="/C9504634" Ref="C?"  Part="1" 
 AR Path="/5E923584/C9504634" Ref="C27"  Part="1" 
 F 0 "C27" V 7337 9994 64  0000 L BNN
 F 1 "100nF" V 7331 10300 42  0000 L BNN
@@ -245,10 +243,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10250 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C28
+L cpu-board:C0805 C?
 U 1 1 AB97CB13
 P 7350 10400
-AR Path="/AB97CB13" Ref="C28"  Part="1" 
+AR Path="/AB97CB13" Ref="C?"  Part="1" 
 AR Path="/5E923584/AB97CB13" Ref="C28"  Part="1" 
 F 0 "C28" V 7337 10144 64  0000 L BNN
 F 1 "100nF" V 7331 10450 42  0000 L BNN
@@ -272,10 +270,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10400 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C29
+L cpu-board:C0805 C?
 U 1 1 BCAFF6B0
 P 7350 10550
-AR Path="/BCAFF6B0" Ref="C29"  Part="1" 
+AR Path="/BCAFF6B0" Ref="C?"  Part="1" 
 AR Path="/5E923584/BCAFF6B0" Ref="C29"  Part="1" 
 F 0 "C29" V 7337 10294 64  0000 L BNN
 F 1 "100nF" V 7331 10600 42  0000 L BNN
@@ -299,10 +297,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10550 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$86
+L cpu-board:+5V #U$?
 U 1 1 B0198CF4
 P 7650 9500
-AR Path="/B0198CF4" Ref="#U$86"  Part="1" 
+AR Path="/B0198CF4" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/B0198CF4" Ref="#U$086"  Part="1" 
 F 0 "#U$086" H 7650 9500 50  0001 C CNN
 F 1 "+5V" H 7562 9413 59  0000 L BNN
@@ -312,10 +310,10 @@ F 3 "" H 7650 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$49
+L cpu-board:+5V #U$?
 U 1 1 F6E78796
 P 10900 5700
-AR Path="/F6E78796" Ref="#U$49"  Part="1" 
+AR Path="/F6E78796" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/F6E78796" Ref="#U$049"  Part="1" 
 F 0 "#U$049" H 10900 5700 50  0001 C CNN
 F 1 "+5V" H 10813 5613 59  0000 L BNN
@@ -325,10 +323,10 @@ F 3 "" H 10900 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS3
+L cpu-board:RES_4R_BCN RS?
 U 1 1 3DF3A440
 P 10200 6550
-AR Path="/3DF3A440" Ref="RS3"  Part="1" 
+AR Path="/3DF3A440" Ref="RS?"  Part="1" 
 AR Path="/5E923584/3DF3A440" Ref="RS3"  Part="1" 
 F 0 "RS3" H 10113 6813 59  0000 L BNN
 F 1 "6.8k" H 10157 6750 59  0000 L BNN
@@ -355,10 +353,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 6550 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS2
+L cpu-board:RES_4R_BCN RS?
 U 1 1 0530E82D
 P 10200 6000
-AR Path="/0530E82D" Ref="RS2"  Part="1" 
+AR Path="/0530E82D" Ref="RS?"  Part="1" 
 AR Path="/5E923584/0530E82D" Ref="RS2"  Part="1" 
 F 0 "RS2" H 10100 6263 59  0000 L BNN
 F 1 "15k" H 10160 6197 59  0000 L BNN
@@ -385,10 +383,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 6000 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS4
+L cpu-board:RES_4R_BCN RS?
 U 1 1 133E079A
 P 10200 7150
-AR Path="/133E079A" Ref="RS4"  Part="1" 
+AR Path="/133E079A" Ref="RS?"  Part="1" 
 AR Path="/5E923584/133E079A" Ref="RS4"  Part="1" 
 F 0 "RS4" H 10100 7413 59  0000 L BNN
 F 1 "6.8k" H 10138 7347 59  0000 L BNN
@@ -415,10 +413,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 7150 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS5
+L cpu-board:RES_4R_BCN RS?
 U 1 1 2A0E722A
 P 10200 7750
-AR Path="/2A0E722A" Ref="RS5"  Part="1" 
+AR Path="/2A0E722A" Ref="RS?"  Part="1" 
 AR Path="/5E923584/2A0E722A" Ref="RS5"  Part="1" 
 F 0 "RS5" H 10110 8006 59  0000 L BNN
 F 1 "6.8k" H 10150 7950 59  0000 L BNN
@@ -445,10 +443,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 7750 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C120
+L cpu-board:C0805 C?
 U 1 1 284AD347
 P 7350 10700
-AR Path="/284AD347" Ref="C120"  Part="1" 
+AR Path="/284AD347" Ref="C?"  Part="1" 
 AR Path="/5E923584/284AD347" Ref="C120"  Part="1" 
 F 0 "C120" V 7438 10394 64  0000 L BNN
 F 1 "100nF" V 7419 10763 42  0000 L BNN
@@ -458,10 +456,10 @@ F 3 "" H 7350 10700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$55
+L cpu-board:+5V #U$?
 U 1 1 3711C17C
 P 9050 7250
-AR Path="/3711C17C" Ref="#U$55"  Part="1" 
+AR Path="/3711C17C" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/3711C17C" Ref="#U$055"  Part="1" 
 F 0 "#U$055" H 9050 7250 50  0001 C CNN
 F 1 "+5V" H 8994 7178 59  0000 L BNN
@@ -471,10 +469,10 @@ F 3 "" H 9050 7250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:SM49 Q1
+L cpu-board:SM49 Q?
 U 1 1 F8782F37
 P 5650 1150
-AR Path="/F8782F37" Ref="Q1"  Part="1" 
+AR Path="/F8782F37" Ref="Q?"  Part="1" 
 AR Path="/5E923584/F8782F37" Ref="Q1"  Part="1" 
 F 0 "Q1" H 5912 1172 51  0000 R TNN
 F 1 "8MHz" H 5987 1100 51  0000 R TNN
@@ -489,10 +487,10 @@ F 8 "" H 5650 1150 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R1
+L cpu-board:R0805 R?
 U 1 1 E6C7F8B8
 P 5550 1350
-AR Path="/E6C7F8B8" Ref="R1"  Part="1" 
+AR Path="/E6C7F8B8" Ref="R?"  Part="1" 
 AR Path="/5E923584/E6C7F8B8" Ref="R1"  Part="1" 
 F 0 "R1" V 5550 1413 64  0000 L BNN
 F 1 "100" V 5612 1413 42  0000 L BNN
@@ -516,10 +514,10 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100 OHM, SURFACE MO
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$110
+L cpu-board:GND #U$?
 U 1 1 B3D80E13
 P 5950 1450
-AR Path="/B3D80E13" Ref="#U$110"  Part="1" 
+AR Path="/B3D80E13" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/B3D80E13" Ref="#U$0110"  Part="1" 
 F 0 "#U$0110" H 5950 1450 50  0001 C CNN
 F 1 "GND" H 5875 1388 59  0000 L BNN
@@ -529,10 +527,10 @@ F 3 "" H 5950 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C6
+L cpu-board:C0805 C?
 U 1 1 967579EA
 P 6550 1300
-AR Path="/967579EA" Ref="C6"  Part="1" 
+AR Path="/967579EA" Ref="C?"  Part="1" 
 AR Path="/5E923584/967579EA" Ref="C6"  Part="1" 
 F 0 "C6" H 6650 1350 64  0000 L CNN
 F 1 "330nF" H 6650 1250 42  0000 L CNN
@@ -559,10 +557,10 @@ F 20 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.33 UF, SURFACE MOUNT, 0805" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$352
+L cpu-board:GND #U$?
 U 1 1 30D71842
 P 6550 800
-AR Path="/30D71842" Ref="#U$352"  Part="1" 
+AR Path="/30D71842" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/30D71842" Ref="#U$0352"  Part="1" 
 F 0 "#U$0352" H 6550 800 50  0001 C CNN
 F 1 "GND" H 6475 737 59  0000 L BNN
@@ -572,10 +570,10 @@ F 3 "" H 6550 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:TANTALB C8
+L cpu-board:TANTALB C?
 U 1 1 6D37B6AD
 P 7400 1100
-AR Path="/6D37B6AD" Ref="C8"  Part="1" 
+AR Path="/6D37B6AD" Ref="C?"  Part="1" 
 AR Path="/5E923584/6D37B6AD" Ref="C8"  Part="1" 
 F 0 "C8" H 7525 1106 56  0000 L BNN
 F 1 "1uF" H 7525 1031 42  0000 L BNN
@@ -593,10 +591,10 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C9
+L cpu-board:C0805 C?
 U 1 1 501DA122
 P 8450 1300
-AR Path="/501DA122" Ref="C9"  Part="1" 
+AR Path="/501DA122" Ref="C?"  Part="1" 
 AR Path="/5E923584/501DA122" Ref="C9"  Part="1" 
 F 0 "C9" H 8538 1339 64  0000 L CNN
 F 1 "100nF" H 8538 1244 42  0000 L CNN
@@ -620,10 +618,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 8450 1300 50  0001 C CNN "Manufacturer_Des
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$6
+L cpu-board:+5VREF #U$?
 U 1 1 CE08125E
 P 8800 950
-AR Path="/CE08125E" Ref="#U$6"  Part="1" 
+AR Path="/CE08125E" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/CE08125E" Ref="#U$06"  Part="1" 
 F 0 "#U$06" H 8800 950 50  0001 C CNN
 F 1 "+5VREF" V 8950 762 59  0000 L BNN
@@ -633,10 +631,10 @@ F 3 "" H 8800 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$19
+L cpu-board:0VANA #U$?
 U 1 1 1DEA58DA
 P 8350 1550
-AR Path="/1DEA58DA" Ref="#U$19"  Part="1" 
+AR Path="/1DEA58DA" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/1DEA58DA" Ref="#U$019"  Part="1" 
 F 0 "#U$019" H 8350 1550 50  0001 C CNN
 F 1 "0VANA" H 8263 1363 59  0000 L BNN
@@ -646,10 +644,10 @@ F 3 "" H 8350 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:PAST01 PST3
+L cpu-board:PAST01 PST?
 U 1 1 AD296153
 P 8350 5850
-AR Path="/AD296153" Ref="PST3"  Part="1" 
+AR Path="/AD296153" Ref="PST?"  Part="1" 
 AR Path="/5E923584/AD296153" Ref="PST3"  Part="1" 
 F 0 "PST3" H 8475 5812 59  0000 L BNN
 F 1 "PAST01" H 8350 5850 50  0001 C CNN
@@ -659,10 +657,10 @@ F 3 "" H 8350 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:PAST01 PST4
+L cpu-board:PAST01 PST?
 U 1 1 AD815FBB
 P 8350 5950
-AR Path="/AD815FBB" Ref="PST4"  Part="1" 
+AR Path="/AD815FBB" Ref="PST?"  Part="1" 
 AR Path="/5E923584/AD815FBB" Ref="PST4"  Part="1" 
 F 0 "PST4" H 8475 5912 59  0000 L BNN
 F 1 "PAST01" H 8350 5950 50  0001 C CNN
@@ -672,10 +670,10 @@ F 3 "" H 8350 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:PAST01 PST6
+L cpu-board:PAST01 PST?
 U 1 1 66851D94
 P 8350 6050
-AR Path="/66851D94" Ref="PST6"  Part="1" 
+AR Path="/66851D94" Ref="PST?"  Part="1" 
 AR Path="/5E923584/66851D94" Ref="PST6"  Part="1" 
 F 0 "PST6" H 8475 6012 59  0000 L BNN
 F 1 "PAST01" H 8350 6050 50  0001 C CNN
@@ -685,10 +683,10 @@ F 3 "" H 8350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0603 C1
+L cpu-board:C0603 C?
 U 1 1 7EE2FFE3
 P 5750 1050
-AR Path="/7EE2FFE3" Ref="C1"  Part="1" 
+AR Path="/7EE2FFE3" Ref="C?"  Part="1" 
 AR Path="/5E923584/7EE2FFE3" Ref="C1"  Part="1" 
 F 0 "C1" H 5856 1075 64  0000 L BNN
 F 1 "22pF" H 5863 1006 42  0000 L BNN
@@ -709,10 +707,10 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0603 C3
+L cpu-board:C0603 C?
 U 1 1 5ADCC44B
 P 5550 1050
-AR Path="/5ADCC44B" Ref="C3"  Part="1" 
+AR Path="/5ADCC44B" Ref="C?"  Part="1" 
 AR Path="/5E923584/5ADCC44B" Ref="C3"  Part="1" 
 F 0 "C3" H 5319 1075 64  0000 L BNN
 F 1 "22pF" H 5313 1006 42  0000 L BNN
@@ -733,10 +731,10 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$18
+L cpu-board:GND #U$?
 U 1 1 5210CFB4
 P 5650 800
-AR Path="/5210CFB4" Ref="#U$18"  Part="1" 
+AR Path="/5210CFB4" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/5210CFB4" Ref="#U$018"  Part="1" 
 F 0 "#U$018" H 5650 800 50  0001 C CNN
 F 1 "GND" H 5575 737 59  0000 L BNN
@@ -746,10 +744,10 @@ F 3 "" H 5650 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$321
+L cpu-board:0VANA #U$?
 U 1 1 DBF96AF7
 P 1800 9950
-AR Path="/DBF96AF7" Ref="#U$321"  Part="1" 
+AR Path="/DBF96AF7" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/DBF96AF7" Ref="#U$0321"  Part="1" 
 F 0 "#U$0321" H 1800 9950 50  0001 C CNN
 F 1 "0VANA" H 1688 9775 59  0000 L BNN
@@ -759,10 +757,10 @@ F 3 "" H 1800 9950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:R0805 R14
+L cpu-board:R0805 R?
 U 1 1 C54AB7D0
 P 2200 9550
-AR Path="/C54AB7D0" Ref="R14"  Part="1" 
+AR Path="/C54AB7D0" Ref="R?"  Part="1" 
 AR Path="/5E923584/C54AB7D0" Ref="R14"  Part="1" 
 F 0 "R14" H 1887 9562 64  0000 L BNN
 F 1 "56k" H 1900 9475 42  0000 L BNN
@@ -786,10 +784,10 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 1 %, 100 PPM, 56000 OHM, SURFACE 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R15
+L cpu-board:R0805 R?
 U 1 1 BAB36D42
 P 2200 9850
-AR Path="/BAB36D42" Ref="R15"  Part="1" 
+AR Path="/BAB36D42" Ref="R?"  Part="1" 
 AR Path="/5E923584/BAB36D42" Ref="R15"  Part="1" 
 F 0 "R15" H 2112 9975 64  0000 L BNN
 F 1 "10.5k" H 2112 9912 42  0000 L BNN
@@ -807,10 +805,10 @@ F 11 "PRECISION SURFACE MOUNT RESISTOR" H 2200 9850 50  0001 C CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C36
+L cpu-board:C0805 C?
 U 1 1 597E8BEF
 P 2200 10050
-AR Path="/597E8BEF" Ref="C36"  Part="1" 
+AR Path="/597E8BEF" Ref="C?"  Part="1" 
 AR Path="/5E923584/597E8BEF" Ref="C36"  Part="1" 
 F 0 "C36" V 2100 10282 64  0000 R TNN
 F 1 "100nF" V 2031 10275 42  0000 R TNN
@@ -834,10 +832,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 2200 10050 50  0001 C CNN "Manufacturer_De
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$109
+L cpu-board:+5V #U$?
 U 1 1 FF51A810
 P 2850 3550
-AR Path="/FF51A810" Ref="#U$109"  Part="1" 
+AR Path="/FF51A810" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/FF51A810" Ref="#U$0109"  Part="1" 
 F 0 "#U$0109" H 2850 3550 50  0001 C CNN
 F 1 "+5V" H 2988 3550 59  0000 R TNN
@@ -847,10 +845,10 @@ F 3 "" H 2850 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$111
+L cpu-board:GND #U$?
 U 1 1 03A5157B
 P 1350 3750
-AR Path="/03A5157B" Ref="#U$111"  Part="1" 
+AR Path="/03A5157B" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/03A5157B" Ref="#U$0111"  Part="1" 
 F 0 "#U$0111" H 1350 3750 50  0001 C CNN
 F 1 "GND" H 1263 3663 59  0000 L BNN
@@ -860,10 +858,10 @@ F 3 "" H 1350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$238
+L cpu-board:+5V #U$?
 U 1 1 4D1E3263
 P 6150 1150
-AR Path="/4D1E3263" Ref="#U$238"  Part="1" 
+AR Path="/4D1E3263" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/4D1E3263" Ref="#U$0238"  Part="1" 
 F 0 "#U$0238" H 6150 1150 50  0001 C CNN
 F 1 "+5V" H 6062 1063 59  0000 L BNN
@@ -873,10 +871,10 @@ F 3 "" H 6150 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:R0805 R10
+L cpu-board:R0805 R?
 U 1 1 D628991E
 P 3100 5950
-AR Path="/D628991E" Ref="R10"  Part="1" 
+AR Path="/D628991E" Ref="R?"  Part="1" 
 AR Path="/5E923584/D628991E" Ref="R10"  Part="1" 
 F 0 "R10" H 2988 5787 64  0000 L BNN
 F 1 "1.5k" H 2988 5725 42  0000 L BNN
@@ -900,10 +898,10 @@ F 17 "THICK FILM CHIP RESISTOR" H 3100 5950 50  0001 C CNN "Manufacturer_Desc4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:RES_4CB C14
+L cpu-board:RES_4CB C?
 U 1 1 8BD8962D
 P 2150 3950
-AR Path="/8BD8962D" Ref="C14"  Part="1" 
+AR Path="/8BD8962D" Ref="C?"  Part="1" 
 AR Path="/5E923584/8BD8962D" Ref="C14"  Part="1" 
 F 0 "C14" H 1550 3888 64  0000 L BNN
 F 1 "47pF" H 1575 3988 42  0000 L BNN
@@ -918,10 +916,10 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 2150 395
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS7
+L cpu-board:RES_4R_BCN RS?
 U 1 1 3858CF0B
 P 2500 2650
-AR Path="/3858CF0B" Ref="RS7"  Part="1" 
+AR Path="/3858CF0B" Ref="RS?"  Part="1" 
 AR Path="/5E923584/3858CF0B" Ref="RS7"  Part="1" 
 F 0 "RS7" V 2513 2275 59  0000 L BNN
 F 1 "15k" V 2588 2275 59  0000 L BNN
@@ -948,10 +946,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 2500 2650 50
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$209
+L cpu-board:+5V #U$?
 U 1 1 8E84819C
 P 2350 2100
-AR Path="/8E84819C" Ref="#U$209"  Part="1" 
+AR Path="/8E84819C" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/8E84819C" Ref="#U$0209"  Part="1" 
 F 0 "#U$0209" H 2350 2100 50  0001 C CNN
 F 1 "+5V" H 2288 2025 59  0000 L BNN
@@ -961,10 +959,10 @@ F 3 "" H 2350 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS6
+L cpu-board:RES_4R_BCN RS?
 U 1 1 D0D8FBF3
 P 1450 6150
-AR Path="/D0D8FBF3" Ref="RS6"  Part="1" 
+AR Path="/D0D8FBF3" Ref="RS?"  Part="1" 
 AR Path="/5E923584/D0D8FBF3" Ref="RS6"  Part="1" 
 F 0 "RS6" V 1475 6537 59  0000 R TNN
 F 1 "6.8k" V 1412 6531 59  0000 R TNN
@@ -991,10 +989,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 1450 6150 50
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$431
+L cpu-board:+5V #U$?
 U 1 1 3AC17802
 P 1450 5650
-AR Path="/3AC17802" Ref="#U$431"  Part="1" 
+AR Path="/3AC17802" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/3AC17802" Ref="#U$0431"  Part="1" 
 F 0 "#U$0431" H 1450 5650 50  0001 C CNN
 F 1 "+5V" H 1362 5563 59  0000 L BNN
@@ -1004,10 +1002,10 @@ F 3 "" H 1450 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:JUMP_0U JP8
+L cpu-board:JUMP_0U JP?
 U 1 1 357D3C8D
 P 1700 7000
-AR Path="/357D3C8D" Ref="JP8"  Part="1" 
+AR Path="/357D3C8D" Ref="JP?"  Part="1" 
 AR Path="/5E923584/357D3C8D" Ref="JP8"  Part="1" 
 F 0 "JP8" V 1825 6825 51  0000 L BNN
 F 1 "JUMP_0U" H 1600 6850 51  0001 L BNN
@@ -1017,10 +1015,10 @@ F 3 "" H 1700 7000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$423
+L cpu-board:GND #U$?
 U 1 1 B2DD8134
 P 1600 7400
-AR Path="/B2DD8134" Ref="#U$423"  Part="1" 
+AR Path="/B2DD8134" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/B2DD8134" Ref="#U$0423"  Part="1" 
 F 0 "#U$0423" H 1600 7400 50  0001 C CNN
 F 1 "GND" H 1513 7312 59  0000 L BNN
@@ -1030,10 +1028,10 @@ F 3 "" H 1600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C110
+L cpu-board:C0805 C?
 U 1 1 662809D9
 P 11150 1200
-AR Path="/662809D9" Ref="C110"  Part="1" 
+AR Path="/662809D9" Ref="C?"  Part="1" 
 AR Path="/5E923584/662809D9" Ref="C110"  Part="1" 
 F 0 "C110" V 11388 1069 64  0000 L BNN
 F 1 "100nF" V 11244 1300 42  0000 R TNN
@@ -1043,10 +1041,10 @@ F 3 "" H 11150 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$441
+L cpu-board:GND #U$?
 U 1 1 5DD0B675
 P 10800 1200
-AR Path="/5DD0B675" Ref="#U$441"  Part="1" 
+AR Path="/5DD0B675" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/5DD0B675" Ref="#U$0441"  Part="1" 
 F 0 "#U$0441" H 10800 1200 50  0001 C CNN
 F 1 "GND" H 10712 1112 59  0000 L BNN
@@ -1056,10 +1054,10 @@ F 3 "" H 10800 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:BZX84CXX D8
+L cpu-board:BZX84CXX D?
 U 1 1 8A392F19
 P 12400 4300
-AR Path="/8A392F19" Ref="D8"  Part="1" 
+AR Path="/8A392F19" Ref="D?"  Part="1" 
 AR Path="/5E923584/8A392F19" Ref="D8"  Part="1" 
 F 0 "D8" V 12441 4179 59  0000 R TNN
 F 1 "BZX84C4V7" V 12360 4176 59  0000 R TNN
@@ -1077,10 +1075,10 @@ F 11 "" H 12400 4300 50  0001 C CNN "Manufacturer_Desc2"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:R0805 R72
+L cpu-board:R0805 R?
 U 1 1 CEF2471C
 P 12650 4050
-AR Path="/CEF2471C" Ref="R72"  Part="1" 
+AR Path="/CEF2471C" Ref="R?"  Part="1" 
 AR Path="/5E923584/CEF2471C" Ref="R72"  Part="1" 
 F 0 "R72" H 12537 4187 64  0000 L BNN
 F 1 "4.7k" H 12537 4125 42  0000 L BNN
@@ -1104,10 +1102,10 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE M
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74HCT1G04GW IC41
+L cpu-board:74HCT1G04GW IC?
 U 1 1 3D34EBB1
 P 12200 4350
-AR Path="/3D34EBB1" Ref="IC41"  Part="1" 
+AR Path="/3D34EBB1" Ref="IC?"  Part="1" 
 AR Path="/5E923584/3D34EBB1" Ref="IC41"  Part="1" 
 F 0 "IC41" H 12154 5093 64  0000 L BNN
 F 1 "74HCT1G04GW" H 11741 5016 59  0000 L BNN
@@ -1125,10 +1123,10 @@ F 11 "INVERTER" H 12200 4350 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$444
+L cpu-board:GND #U$?
 U 1 1 0EB7FF6B
 P 12400 4550
-AR Path="/0EB7FF6B" Ref="#U$444"  Part="1" 
+AR Path="/0EB7FF6B" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/0EB7FF6B" Ref="#U$0444"  Part="1" 
 F 0 "#U$0444" H 12400 4550 50  0001 C CNN
 F 1 "GND" H 12312 4462 59  0000 L BNN
@@ -1138,10 +1136,10 @@ F 3 "" H 12400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R60
+L cpu-board:R0805 R?
 U 1 1 CCBE402C
 P 12050 7250
-AR Path="/CCBE402C" Ref="R60"  Part="1" 
+AR Path="/CCBE402C" Ref="R?"  Part="1" 
 AR Path="/5E923584/CCBE402C" Ref="R60"  Part="1" 
 F 0 "R60" V 12137 7325 64  0000 L BNN
 F 1 "100k" V 12037 7363 42  0000 L BNN
@@ -1165,10 +1163,10 @@ F 17 "THICK FILM CHIP RESISTOR" H 12050 7250 50  0001 C CNN "Manufacturer_Desc4"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$503
+L cpu-board:GND #U$?
 U 1 1 79870E22
 P 12050 7850
-AR Path="/79870E22" Ref="#U$503"  Part="1" 
+AR Path="/79870E22" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/79870E22" Ref="#U$0503"  Part="1" 
 F 0 "#U$0503" H 12050 7850 50  0001 C CNN
 F 1 "GND" H 11981 7775 59  0000 L BNN
@@ -1178,10 +1176,10 @@ F 3 "" H 12050 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24V #U$443
+L cpu-board:+24V #U$?
 U 1 1 F573D045
 P 12850 3700
-AR Path="/F573D045" Ref="#U$443"  Part="1" 
+AR Path="/F573D045" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/F573D045" Ref="#U$0443"  Part="1" 
 F 0 "#U$0443" H 12850 3700 50  0001 C CNN
 F 1 "+24V" H 12737 3563 59  0000 L BNN
@@ -1191,10 +1189,10 @@ F 3 "" H 12850 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:74HCT1G32GW IC43
+L cpu-board:74HCT1G32GW IC?
 U 1 1 6E981591
 P 15100 7600
-AR Path="/6E981591" Ref="IC43"  Part="1" 
+AR Path="/6E981591" Ref="IC?"  Part="1" 
 AR Path="/5E923584/6E981591" Ref="IC43"  Part="1" 
 F 0 "IC43" H 15037 8350 64  0000 L BNN
 F 1 "74HCT1G32GW" H 14643 8270 59  0000 L BNN
@@ -1212,10 +1210,10 @@ F 11 "" H 15100 7600 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0603 C114
+L cpu-board:C0603 C?
 U 1 1 9A495DAC
 P 12200 7250
-AR Path="/9A495DAC" Ref="C114"  Part="1" 
+AR Path="/9A495DAC" Ref="C?"  Part="1" 
 AR Path="/5E923584/9A495DAC" Ref="C114"  Part="1" 
 F 0 "C114" H 12281 7262 64  0000 L BNN
 F 1 "1uF" H 12300 7181 42  0000 L BNN
@@ -1239,10 +1237,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 12200 7250 50  0001 C CNN "Manufacturer_De
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$481
+L cpu-board:GND #U$?
 U 1 1 3DB762BB
 P 13300 6750
-AR Path="/3DB762BB" Ref="#U$481"  Part="1" 
+AR Path="/3DB762BB" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/3DB762BB" Ref="#U$0481"  Part="1" 
 F 0 "#U$0481" H 13300 6750 50  0001 C CNN
 F 1 "GND" H 13225 6688 59  0000 L BNN
@@ -1252,10 +1250,10 @@ F 3 "" H 13300 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$482
+L cpu-board:GND #U$?
 U 1 1 F33B4A72
 P 14900 6700
-AR Path="/F33B4A72" Ref="#U$482"  Part="1" 
+AR Path="/F33B4A72" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/F33B4A72" Ref="#U$0482"  Part="1" 
 F 0 "#U$0482" H 14900 6700 50  0001 C CNN
 F 1 "GND" H 14825 6638 59  0000 L BNN
@@ -1265,10 +1263,10 @@ F 3 "" H 14900 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:BAT54 D9
+L cpu-board:BAT54 D?
 U 1 1 59396773
 P 13950 7750
-AR Path="/59396773" Ref="D9"  Part="1" 
+AR Path="/59396773" Ref="D?"  Part="1" 
 AR Path="/5E923584/59396773" Ref="D9"  Part="1" 
 F 0 "D9" V 14074 7531 59  0000 L BNN
 F 1 "BAT54" V 13932 7658 42  0000 R TNN
@@ -1286,10 +1284,10 @@ F 11 "SCHOTTKY BARRIER DOUBLE DIODE" H 13950 7750 50  0001 C CNN "Manufacturer_D
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$20
+L cpu-board:GND #U$?
 U 1 1 A9A82E2E
 P 6200 9050
-AR Path="/A9A82E2E" Ref="#U$20"  Part="1" 
+AR Path="/A9A82E2E" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/A9A82E2E" Ref="#U$020"  Part="1" 
 F 0 "#U$020" H 6200 9050 50  0001 C CNN
 F 1 "GND" H 6100 8950 59  0000 L BNN
@@ -1299,10 +1297,10 @@ F 3 "" H 6200 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:PINHD-1X1 PT2
+L cpu-board:PINHD-1X1 PT?
 U 1 1 D711CC1B
 P 6500 9050
-AR Path="/D711CC1B" Ref="PT2"  Part="1" 
+AR Path="/D711CC1B" Ref="PT?"  Part="1" 
 AR Path="/5E923584/D711CC1B" Ref="PT2"  Part="1" 
 F 0 "PT2" V 6650 8975 59  0000 L BNN
 F 1 "PINHD-1X1" H 6250 9200 59  0000 L BNN
@@ -1320,10 +1318,10 @@ F 11 "PC TEST POINT MINIATURE SMT" H 6500 9050 50  0001 C CNN "Manufacturer_Desc
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$250
+L cpu-board:0VANA #U$?
 U 1 1 F8BE309A
 P 5100 10750
-AR Path="/F8BE309A" Ref="#U$250"  Part="1" 
+AR Path="/F8BE309A" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/F8BE309A" Ref="#U$0250"  Part="1" 
 F 0 "#U$0250" H 5100 10750 50  0001 C CNN
 F 1 "0VANA" H 5000 10575 59  0000 L BNN
@@ -1333,10 +1331,10 @@ F 3 "" H 5100 10750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:R0805 R62
+L cpu-board:R0805 R?
 U 1 1 F7CB6097
 P 4800 10950
-AR Path="/F7CB6097" Ref="R62"  Part="1" 
+AR Path="/F7CB6097" Ref="R?"  Part="1" 
 AR Path="/5E923584/F7CB6097" Ref="R62"  Part="1" 
 F 0 "R62" H 4688 10763 64  0000 L BNN
 F 1 "10k" H 4738 10838 42  0000 L BNN
@@ -1363,10 +1361,10 @@ F 20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 10000 OHM, SURFACE 
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C51
+L cpu-board:C0805 C?
 U 1 1 7614D321
 P 4800 10550
-AR Path="/7614D321" Ref="C51"  Part="1" 
+AR Path="/7614D321" Ref="C?"  Part="1" 
 AR Path="/5E923584/7614D321" Ref="C51"  Part="1" 
 F 0 "C51" V 4838 10468 64  0000 R TNN
 F 1 "100nF" V 4919 10512 42  0000 R TNN
@@ -1390,10 +1388,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4800 10550 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$493
+L cpu-board:GND #U$?
 U 1 1 9A674123
 P 2950 3450
-AR Path="/9A674123" Ref="#U$493"  Part="1" 
+AR Path="/9A674123" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/9A674123" Ref="#U$0493"  Part="1" 
 F 0 "#U$0493" H 2950 3450 50  0001 C CNN
 F 1 "GND" H 2875 3375 59  0000 L BNN
@@ -1403,10 +1401,10 @@ F 3 "" H 2950 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$494
+L cpu-board:+5V #U$?
 U 1 1 4EFC6875
 P 3150 3500
-AR Path="/4EFC6875" Ref="#U$494"  Part="1" 
+AR Path="/4EFC6875" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/4EFC6875" Ref="#U$0494"  Part="1" 
 F 0 "#U$0494" H 3150 3500 50  0001 C CNN
 F 1 "+5V" H 3100 3513 59  0000 R TNN
@@ -1416,10 +1414,10 @@ F 3 "" H 3150 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$495
+L cpu-board:GND #U$?
 U 1 1 399C0C7A
 P 9900 4550
-AR Path="/399C0C7A" Ref="#U$495"  Part="1" 
+AR Path="/399C0C7A" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/399C0C7A" Ref="#U$0495"  Part="1" 
 F 0 "#U$0495" H 9900 4550 50  0001 C CNN
 F 1 "GND" H 9813 4463 59  0000 L BNN
@@ -1429,10 +1427,10 @@ F 3 "" H 9900 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$496
+L cpu-board:+5V #U$?
 U 1 1 28129727
 P 9900 3050
-AR Path="/28129727" Ref="#U$496"  Part="1" 
+AR Path="/28129727" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/28129727" Ref="#U$0496"  Part="1" 
 F 0 "#U$0496" H 9900 3050 50  0001 C CNN
 F 1 "+5V" H 9812 2962 59  0000 L BNN
@@ -1442,10 +1440,10 @@ F 3 "" H 9900 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C116
+L cpu-board:C0805 C?
 U 1 1 150190AD
 P 10200 3250
-AR Path="/150190AD" Ref="C116"  Part="1" 
+AR Path="/150190AD" Ref="C?"  Part="1" 
 AR Path="/5E923584/150190AD" Ref="C116"  Part="1" 
 F 0 "C116" V 10437 3119 64  0000 L BNN
 F 1 "100nF" V 10293 3350 42  0000 R TNN
@@ -1455,10 +1453,10 @@ F 3 "" H 10200 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$498
+L cpu-board:GND #U$?
 U 1 1 C3CF0A31
 P 10600 3400
-AR Path="/C3CF0A31" Ref="#U$498"  Part="1" 
+AR Path="/C3CF0A31" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/C3CF0A31" Ref="#U$0498"  Part="1" 
 F 0 "#U$0498" H 10600 3400 50  0001 C CNN
 F 1 "GND" H 10512 3313 59  0000 L BNN
@@ -1468,10 +1466,10 @@ F 3 "" H 10600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$117
+L cpu-board:GND #U$?
 U 1 1 5B2D5D04
 P 11900 2900
-AR Path="/5B2D5D04" Ref="#U$117"  Part="1" 
+AR Path="/5B2D5D04" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/5B2D5D04" Ref="#U$0117"  Part="1" 
 F 0 "#U$0117" H 11900 2900 50  0001 C CNN
 F 1 "GND" H 11813 2812 59  0000 L BNN
@@ -1481,10 +1479,10 @@ F 3 "" H 11900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R45
+L cpu-board:R0805 R?
 U 1 1 C18C78EC
 P 8500 950
-AR Path="/C18C78EC" Ref="R45"  Part="1" 
+AR Path="/C18C78EC" Ref="R?"  Part="1" 
 AR Path="/5E923584/C18C78EC" Ref="R45"  Part="1" 
 F 0 "R45" H 8425 1087 64  0000 L BNN
 F 1 "0" H 8425 1025 42  0000 L BNN
@@ -1511,10 +1509,10 @@ F 20 "JUMPER" H 8500 950 50  0001 C CNN "Manufacturer_Desc5"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:LIAISON_MASSES JPL1
+L cpu-board:LIAISON_MASSES JPL?
 U 1 1 BCD438C6
 P 6800 8350
-AR Path="/BCD438C6" Ref="JPL1"  Part="1" 
+AR Path="/BCD438C6" Ref="JPL?"  Part="1" 
 AR Path="/5E923584/BCD438C6" Ref="JPL1"  Part="1" 
 F 0 "JPL1" H 6800 8350 50  0001 C CNN
 F 1 "LIAISON_MASSES" H 6800 8350 50  0001 C CNN
@@ -1524,10 +1522,10 @@ F 3 "" H 6800 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:PINHD-1X1 PT1
+L cpu-board:PINHD-1X1 PT?
 U 1 1 7DBB10B8
 P 7700 9000
-AR Path="/7DBB10B8" Ref="PT1"  Part="1" 
+AR Path="/7DBB10B8" Ref="PT?"  Part="1" 
 AR Path="/5E923584/7DBB10B8" Ref="PT1"  Part="1" 
 F 0 "PT1" V 7850 8925 59  0000 L BNN
 F 1 "PINHD-1X1" H 7450 8800 59  0000 L BNN
@@ -1851,10 +1849,10 @@ D10
 Text Label 9850 7300 0    50   ~ 0
 D11
 $Comp
-L cpu-board:GND #U$48
+L cpu-board:GND #U$?
 U 1 1 15650906
 P 10500 8050
-AR Path="/15650906" Ref="#U$48"  Part="1" 
+AR Path="/15650906" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/15650906" Ref="#U$048"  Part="1" 
 F 0 "#U$048" H 10500 8050 50  0001 C CNN
 F 1 "GND" H 10421 7975 59  0000 L BNN
@@ -1882,10 +1880,10 @@ WR\
 Text Label 14800 4950 3    50   ~ 0
 RD\
 $Comp
-L cpu-board:NC7SZ66 IC44
+L cpu-board:NC7SZ66 IC?
 U 1 1 4B983B5C
 P 9900 3950
-AR Path="/4B983B5C" Ref="IC44"  Part="1" 
+AR Path="/4B983B5C" Ref="IC?"  Part="1" 
 AR Path="/5E923584/4B983B5C" Ref="IC44"  Part="1" 
 F 0 "IC44" H 10000 4375 59  0000 L BNN
 F 1 "NC7SZ66" H 10000 4300 59  0000 L BNN
@@ -1900,10 +1898,10 @@ F 8 "BUS SWITCH" H 9900 3950 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$46
+L cpu-board:GND #U$?
 U 1 1 53BDAA82
 P 7400 1350
-AR Path="/53BDAA82" Ref="#U$46"  Part="1" 
+AR Path="/53BDAA82" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/53BDAA82" Ref="#U$046"  Part="1" 
 F 0 "#U$046" H 7400 1350 50  0001 C CNN
 F 1 "GND" H 7325 1262 59  0000 L BNN
@@ -2063,10 +2061,10 @@ D[0..15]
 Text HLabel 15950 2650 1    50   BiDi ~ 0
 D[0..15]
 $Comp
-L cpu-board:RES_4R_BCN RS1
+L cpu-board:RES_4R_BCN RS?
 U 1 1 1544B106
 P 3000 3900
-AR Path="/1544B106" Ref="RS1"  Part="1" 
+AR Path="/1544B106" Ref="RS?"  Part="1" 
 AR Path="/5E923584/1544B106" Ref="RS1"  Part="1" 
 F 0 "RS1" V 2925 3700 59  0000 R TNN
 F 1 "6.8k" V 3013 3675 59  0000 R TNN
@@ -2093,10 +2091,10 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 3000 3900 50
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:PAST01 PST1
+L cpu-board:PAST01 PST?
 U 1 1 368C0019
 P 5150 1450
-AR Path="/368C0019" Ref="PST1"  Part="1" 
+AR Path="/368C0019" Ref="PST?"  Part="1" 
 AR Path="/5E923584/368C0019" Ref="PST1"  Part="1" 
 F 0 "PST1" V 5275 1487 59  0000 L BNN
 F 1 "PAST01" H 5150 1450 50  0001 C CNN
@@ -2106,10 +2104,10 @@ F 3 "" H 5150 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:ST10F269-273-276 IC4
+L cpu-board:ST10F269-273-276 IC?
 U 1 1 BB7ED445
 P 6300 4650
-AR Path="/BB7ED445" Ref="IC4"  Part="1" 
+AR Path="/BB7ED445" Ref="IC?"  Part="1" 
 AR Path="/5E923584/BB7ED445" Ref="IC4"  Part="1" 
 F 0 "IC4" H 7688 7700 64  0000 L BNN
 F 1 "ST10F276" H 7688 7625 64  0000 L BNN
@@ -2141,10 +2139,10 @@ Wire Wire Line
 Wire Wire Line
 	7950 1500 7950 1100
 $Comp
-L cpu-board:TANTALB C7
+L cpu-board:TANTALB C?
 U 1 1 6F4029DE
 P 8250 1300
-AR Path="/6F4029DE" Ref="C7"  Part="1" 
+AR Path="/6F4029DE" Ref="C?"  Part="1" 
 AR Path="/5E923584/6F4029DE" Ref="C7"  Part="1" 
 F 0 "C7" H 8025 1319 56  0000 L BNN
 F 1 "1uF" H 8025 1244 42  0000 L BNN
@@ -2464,10 +2462,10 @@ Connection ~ 1450 5850
 Wire Wire Line
 	1450 5850 1500 5850
 $Comp
-L cpu-board:JUMP_0U JP7
+L cpu-board:JUMP_0U JP?
 U 1 1 ADC4B3B7
 P 1500 7000
-AR Path="/ADC4B3B7" Ref="JP7"  Part="1" 
+AR Path="/ADC4B3B7" Ref="JP?"  Part="1" 
 AR Path="/5E923584/ADC4B3B7" Ref="JP7"  Part="1" 
 F 0 "JP7" V 1612 7050 51  0000 L BNN
 F 1 "JUMP_0U" H 1400 6850 51  0001 L BNN
@@ -2856,10 +2854,10 @@ Wire Wire Line
 Wire Wire Line
 	9450 2750 10450 2750
 $Comp
-L cpu-board:GND #U$445
+L cpu-board:GND #U$?
 U 1 1 2FA4E625
 P 12000 3450
-AR Path="/2FA4E625" Ref="#U$445"  Part="1" 
+AR Path="/2FA4E625" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/2FA4E625" Ref="#U$0445"  Part="1" 
 F 0 "#U$0445" H 12000 3450 50  0001 C CNN
 F 1 "GND" H 11913 3362 59  0000 L BNN
@@ -2890,10 +2888,10 @@ Wire Wire Line
 Wire Wire Line
 	12850 3800 12850 4050
 $Comp
-L cpu-board:K6R4016C1DTCT000(256KX16) IC3
+L cpu-board:K6R4016C1DTCT000(256KX16) IC?
 U 1 1 A6F2AB71
 P 14800 3550
-AR Path="/A6F2AB71" Ref="IC3"  Part="1" 
+AR Path="/A6F2AB71" Ref="IC?"  Part="1" 
 AR Path="/5E923584/A6F2AB71" Ref="IC3"  Part="1" 
 F 0 "IC3" H 15159 4959 64  0000 L BNN
 F 1 "K6R4016C1D-TI10" H 15038 4863 64  0000 L BNN
@@ -3117,10 +3115,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 8450 1700 8300
 $Comp
-L cpu-board:NUR30 D1
+L cpu-board:NUR30 D?
 U 1 1 C78C3FBD
 P 1700 8200
-AR Path="/C78C3FBD" Ref="D1"  Part="1" 
+AR Path="/C78C3FBD" Ref="D?"  Part="1" 
 AR Path="/5E923584/C78C3FBD" Ref="D1"  Part="1" 
 F 0 "D1" H 1592 8634 42  0000 L TNN
 F 1 "NUR30" H 1748 8567 42  0000 R TNN
@@ -3130,10 +3128,10 @@ F 3 "" H 1700 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:NUR30 D2
+L cpu-board:NUR30 D?
 U 1 1 0CADE672
 P 2400 8200
-AR Path="/0CADE672" Ref="D2"  Part="1" 
+AR Path="/0CADE672" Ref="D?"  Part="1" 
 AR Path="/5E923584/0CADE672" Ref="D2"  Part="1" 
 F 0 "D2" H 2389 8619 42  0000 R TNN
 F 1 "NUR30" H 2481 8558 42  0000 R TNN
@@ -3143,10 +3141,10 @@ F 3 "" H 2400 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:NUR30 D3
+L cpu-board:NUR30 D?
 U 1 1 93886C31
 P 3100 8200
-AR Path="/93886C31" Ref="D3"  Part="1" 
+AR Path="/93886C31" Ref="D?"  Part="1" 
 AR Path="/5E923584/93886C31" Ref="D3"  Part="1" 
 F 0 "D3" H 3078 8624 42  0000 R TNN
 F 1 "NUR30" H 3142 8566 42  0000 R TNN
@@ -3156,10 +3154,10 @@ F 3 "" H 3100 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$5
+L cpu-board:+5V #U$?
 U 1 1 BCE09641
 P 1950 7600
-AR Path="/BCE09641" Ref="#U$5"  Part="1" 
+AR Path="/BCE09641" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/BCE09641" Ref="#U$05"  Part="1" 
 F 0 "#U$05" H 1950 7600 50  0001 C CNN
 F 1 "+5V" H 1862 7513 59  0000 L BNN
@@ -3188,10 +3186,10 @@ Wire Wire Line
 	4050 7750 4050 7800
 Connection ~ 3350 7750
 $Comp
-L cpu-board:NUR30 D5
+L cpu-board:NUR30 D?
 U 1 1 A8F36FED
 P 3800 8200
-AR Path="/A8F36FED" Ref="D5"  Part="1" 
+AR Path="/A8F36FED" Ref="D?"  Part="1" 
 AR Path="/5E923584/A8F36FED" Ref="D5"  Part="1" 
 F 0 "D5" H 3801 8621 42  0000 R TNN
 F 1 "NUR30" H 3865 8566 42  0000 R TNN
@@ -3469,10 +3467,10 @@ Wire Wire Line
 Wire Wire Line
 	7300 8050 7300 8350
 $Comp
-L cpu-board:GND #U$28
+L cpu-board:GND #U$?
 U 1 1 EC169927
 P 7000 10900
-AR Path="/EC169927" Ref="#U$28"  Part="1" 
+AR Path="/EC169927" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/EC169927" Ref="#U$028"  Part="1" 
 F 0 "#U$028" H 7000 10900 50  0001 C CNN
 F 1 "GND" H 6913 10812 59  0000 L BNN
@@ -3573,10 +3571,10 @@ Wire Wire Line
 Wire Wire Line
 	12200 7700 12050 7700
 $Comp
-L cpu-board:2N7002 T6
+L cpu-board:2N7002 T?
 U 1 1 78F4DB2D
 P 11850 6650
-AR Path="/78F4DB2D" Ref="T6"  Part="1" 
+AR Path="/78F4DB2D" Ref="T?"  Part="1" 
 AR Path="/5E923584/78F4DB2D" Ref="T6"  Part="1" 
 F 0 "T6" H 11785 6919 64  0000 L BNN
 F 1 "2N7002" H 11564 6830 59  0000 L BNN
@@ -3599,10 +3597,10 @@ $EndComp
 Wire Wire Line
 	12050 7050 12050 6700
 $Comp
-L cpu-board:R0805 R46
+L cpu-board:R0805 R?
 U 1 1 CBBF32AF
 P 12450 6700
-AR Path="/CBBF32AF" Ref="R46"  Part="1" 
+AR Path="/CBBF32AF" Ref="R?"  Part="1" 
 AR Path="/5E923584/CBBF32AF" Ref="R46"  Part="1" 
 F 0 "R46" H 12337 6837 64  0000 L BNN
 F 1 "22k" H 12337 6775 42  0000 L BNN
@@ -3631,10 +3629,10 @@ Wire Wire Line
 Connection ~ 12200 6700
 Connection ~ 12050 6700
 $Comp
-L cpu-board:BAT54 D10
+L cpu-board:BAT54 D?
 U 1 1 13A4EF58
 P 12450 6400
-AR Path="/13A4EF58" Ref="D10"  Part="1" 
+AR Path="/13A4EF58" Ref="D?"  Part="1" 
 AR Path="/5E923584/13A4EF58" Ref="D10"  Part="1" 
 F 0 "D10" H 12397 6154 59  0000 L BNN
 F 1 "BAT54" H 12374 6260 42  0000 L BNN
@@ -3684,10 +3682,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 6850 14900 6800
 $Comp
-L cpu-board:C0603 C112
+L cpu-board:C0603 C?
 U 1 1 C17297D4
 P 14150 7300
-AR Path="/C17297D4" Ref="C112"  Part="1" 
+AR Path="/C17297D4" Ref="C?"  Part="1" 
 AR Path="/5E923584/C17297D4" Ref="C112"  Part="1" 
 F 0 "C112" V 14000 7219 64  0000 L BNN
 F 1 "1uF" V 14019 7350 42  0000 R TNN
@@ -3711,10 +3709,10 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14150 7300 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:74HCT1G32GW IC42
+L cpu-board:74HCT1G32GW IC?
 U 1 1 28A53036
 P 13500 7650
-AR Path="/28A53036" Ref="IC42"  Part="1" 
+AR Path="/28A53036" Ref="IC?"  Part="1" 
 AR Path="/5E923584/28A53036" Ref="IC42"  Part="1" 
 F 0 "IC42" H 13363 8400 64  0000 L BNN
 F 1 "74HCT1G32GW" H 13063 8325 59  0000 L BNN
@@ -3748,10 +3746,10 @@ Wire Wire Line
 	13650 7500 13600 7500
 Connection ~ 13650 7300
 $Comp
-L cpu-board:R0805 R61
+L cpu-board:R0805 R?
 U 1 1 CC254D70
 P 13800 7700
-AR Path="/CC254D70" Ref="R61"  Part="1" 
+AR Path="/CC254D70" Ref="R?"  Part="1" 
 AR Path="/5E923584/CC254D70" Ref="R61"  Part="1" 
 F 0 "R61" V 13825 7456 64  0000 L BNN
 F 1 "100k" V 13888 7456 42  0000 L BNN
@@ -3775,10 +3773,10 @@ F 17 "THICK FILM CHIP RESISTOR" H 13800 7700 50  0001 C CNN "Manufacturer_Desc4"
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$480
+L cpu-board:GND #U$?
 U 1 1 85C4BE71
 P 13800 8100
-AR Path="/85C4BE71" Ref="#U$480"  Part="1" 
+AR Path="/85C4BE71" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/85C4BE71" Ref="#U$0480"  Part="1" 
 F 0 "#U$0480" H 13800 8100 50  0001 C CNN
 F 1 "GND" H 13725 8025 59  0000 L BNN
@@ -3813,10 +3811,10 @@ Connection ~ 13950 7300
 NoConn ~ 10450 2250
 NoConn ~ 10450 2650
 $Comp
-L cpu-board:CD74HCT245M IC40
+L cpu-board:CD74HCT245M IC?
 U 1 1 15424B03
 P 11150 2850
-AR Path="/15424B03" Ref="IC40"  Part="1" 
+AR Path="/15424B03" Ref="IC?"  Part="1" 
 AR Path="/5E923584/15424B03" Ref="IC40"  Part="1" 
 F 0 "IC40" H 11590 4172 64  0000 L BNN
 F 1 "CD74HCT245M" H 11587 4100 59  0000 L BNN
@@ -3834,10 +3832,10 @@ F 11 "CMOS LOGIC OCTAL-BUS TRANSCEIVER" H 11150 2850 50  0001 C CNN "Manufacture
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$442
+L cpu-board:GND #U$?
 U 1 1 34D6357D
 P 10950 3500
-AR Path="/34D6357D" Ref="#U$442"  Part="1" 
+AR Path="/34D6357D" Ref="#U$?"  Part="1" 
 AR Path="/5E923584/34D6357D" Ref="#U$0442"  Part="1" 
 F 0 "#U$0442" H 10950 3500 50  0001 C CNN
 F 1 "GND" H 10862 3412 59  0000 L BNN
@@ -3867,10 +3865,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 1550 5950 1600
 $Comp
-L cpu-board:R0805 R3
+L cpu-board:R0805 R?
 U 1 1 E7C109B0
 P 7150 1200
-AR Path="/E7C109B0" Ref="R3"  Part="1" 
+AR Path="/E7C109B0" Ref="R?"  Part="1" 
 AR Path="/5E923584/E7C109B0" Ref="R3"  Part="1" 
 F 0 "R3" V 7150 963 64  0000 L BNN
 F 1 "220k" V 7225 963 42  0000 L BNN

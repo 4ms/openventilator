@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 17335 11946
 encoding utf-8
-Sheet 4 8
+Sheet 2 8
 Title "RB0505 CPU Board"
 Date "2020-04-15"
 Rev ""
@@ -2073,8 +2073,8 @@ L cpu-board:+24V #U$?
 U 1 1 5EA7FA28
 P 14300 2300
 AR Path="/5EA7FA28" Ref="#U$?"  Part="1" 
-AR Path="/5E924756/5EA7FA28" Ref="#U$?"  Part="1" 
-F 0 "#U$?" H 14300 2300 50  0001 C CNN
+AR Path="/5E924756/5EA7FA28" Ref="#U$0101"  Part="1" 
+F 0 "#U$0101" H 14300 2300 50  0001 C CNN
 F 1 "+24V" H 14187 2162 59  0000 L BNN
 F 2 "" H 14300 2300 50  0001 C CNN
 F 3 "" H 14300 2300 50  0001 C CNN
