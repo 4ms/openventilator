@@ -277,8 +277,6 @@ Text HLabel 7900 3750 0    56   Input ~ 0
 RF
 Text HLabel 10050 1500 0    56   Input ~ 0
 SUPPLY-AL-RP
-Text HLabel 3075 6650 2    70   BiDi ~ 0
-+5V
 $Comp
 L cpu-board:GND #U$043
 U 1 1 8B1A1718
@@ -2452,4 +2450,17 @@ Wire Wire Line
 	10275 7850 10275 8050
 Text Notes 1900 8025 0    50   ~ 0
 *Note: in earlier version, L22 connects to +5V instead of +5VSUPPLYBOARD
+$Comp
+L cpu-board:+5V #0101
+U 1 1 5E99C70E
+P 3075 6500
+F 0 "#0101" H 3125 6550 50  0001 C CNN
+F 1 "+5V" H 3025 6550 59  0000 R CNN
+F 2 "" H 3075 6500 50  0001 C CNN
+F 3 "" H 3075 6500 50  0001 C CNN
+	1    3075 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3075 6600 3075 6650
 $EndSCHEMATC
