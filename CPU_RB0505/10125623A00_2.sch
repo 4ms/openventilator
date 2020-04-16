@@ -1352,7 +1352,7 @@ Wire Wire Line
 Text HLabel 5625 2800 2    50   Output ~ 0
 LED-VENTIL
 Text HLabel 5625 2900 2    50   Output ~ 0
-LED-02
+LED-O2
 Text HLabel 5625 3100 2    50   Output ~ 0
 CE\-EEP
 NoConn ~ 5475 3000

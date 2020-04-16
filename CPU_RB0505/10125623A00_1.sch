@@ -1983,7 +1983,7 @@ D15
 Text HLabel 8700 3750 2    50   Output ~ 0
 A[0..19]
 Text HLabel 10400 3950 2    50   Output ~ 0
-MRST-SPI-O_E
+MRST-SPI-0_E
 Text HLabel 8700 2050 2    50   BiDi ~ 0
 D[0..15]
 Text Label 8250 2050 0    50   ~ 0
