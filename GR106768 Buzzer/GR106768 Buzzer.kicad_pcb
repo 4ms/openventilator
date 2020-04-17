@@ -267,7 +267,7 @@
     (add_net VCHARG)
   )
 
-  (module PadHole (layer F.Cu) (tedit 5E991E34) (tstamp 5E997D2D)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 5E997D2D)
     (at 68.8115 40.534)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -2687,7 +2687,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:NR4018_1" (layer F.Cu) (tedit 5E98FCA4) (tstamp 0)
+  (module "GR106768 Buzzer:NR4018_1" (layer F.Cu) (tedit 5E99C20E) (tstamp 0)
     (at 42.84 9.8 180)
     (attr smd)
     (fp_text reference L2-2 (at -2.032 1.016 unlocked) (layer F.SilkS) hide
@@ -2713,7 +2713,7 @@
       (net 71 N$10))
     (pad 2 smd rect (at 1.5 0 180) (size 1.6 3.7) (layers F.Cu F.Paste F.Mask)
       (net 35 N$42))
-    (model "${KIPRJMOD}/3D models/IND_WURTH_WE-TPC-4828.stp"
+    (model "${KIPRJMOD}/3D models/NR4018T100M_cp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4147,7 +4147,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_1" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
     (at 80.2415 15.134)
     (attr smd)
     (fp_text reference C35 (at 2.821 -0.2 unlocked) (layer F.SilkS)
@@ -4164,9 +4164,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 270) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 48 GT1))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 59.985 34.2475 270)
     (attr smd)
     (fp_text reference C34 (at -0.7015 0.4682 90 unlocked) (layer F.SilkS)
@@ -4183,9 +4188,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 180) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 17 N$9))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 64.7475 34.2475 90)
     (attr smd)
     (fp_text reference C33 (at 0.7269 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4202,9 +4212,14 @@
       (net 71 N$10))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 52.3015 23.008 180)
     (attr smd)
     (fp_text reference C32 (at -0.582498 0.384065 unlocked) (layer F.SilkS)
@@ -4221,9 +4236,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 5 -12V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 44.0465 23.897 180)
     (attr smd)
     (fp_text reference C31 (at -0.7571 0.4666 unlocked) (layer F.SilkS)
@@ -4240,9 +4260,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 54 +12V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 75.0345 37.486 180)
     (attr smd)
     (fp_text reference C30 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -4259,6 +4284,11 @@
       (net 1 +5V))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "GR106768 Buzzer:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
@@ -4291,7 +4321,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 44.0465 19.198 180)
     (attr smd)
     (fp_text reference C28 (at -0.582498 0.384065 unlocked) (layer F.SilkS)
@@ -4308,9 +4338,14 @@
       (net 18 N$51))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 54 +12V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 48.7455 21.357 90)
     (attr smd)
     (fp_text reference C27 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4327,6 +4362,11 @@
       (net 5 -12V))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 29 N$48))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "GR106768 Buzzer:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
@@ -4359,7 +4399,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 47.7295 18.563 90)
     (attr smd)
     (fp_text reference C25 (at 0.590398 -0.398365 90 unlocked) (layer F.SilkS)
@@ -4376,6 +4416,11 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 20 N$50))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "GR106768 Buzzer:C0805_1" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
@@ -4519,7 +4564,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 50.0155 30.501 270)
     (attr smd)
     (fp_text reference C19 (at -0.7142 0.4555 90 unlocked) (layer F.SilkS)
@@ -4536,9 +4581,14 @@
       (net 75 VCHARG))
     (pad 2 smd rect (at 0.55 0 180) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 54.0795 28.85 90)
     (attr smd)
     (fp_text reference C18 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4555,9 +4605,14 @@
       (net 11 N$57))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 28.5525 25.167 270)
     (attr smd)
     (fp_text reference C17 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -4574,9 +4629,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 180) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 45 N$33))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 27.5365 30.501 90)
     (attr smd)
     (fp_text reference C16 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4593,9 +4653,14 @@
       (net 10 N$58))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 43.0305 30.501 90)
     (attr smd)
     (fp_text reference C15 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4612,6 +4677,11 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 54 +12V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "GR106768 Buzzer:C0603_2" (layer F.Cu) (tedit 5E98DB45) (tstamp 0)
@@ -4662,7 +4732,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:AX10X30_1" (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:AX10X30_1" (layer B.Cu) (tedit 5E99C5E2) (tstamp 0)
     (at 75.48748 51.64 270)
     (attr smd)
     (fp_text reference C12 (at -16.5002 0.7243 unlocked) (layer B.SilkS)
@@ -4693,9 +4763,14 @@
       (net 54 +12V))
     (pad - thru_hole circle (at -40.64 0 90) (size 2.032 2.032) (drill 1.3208) (layers *.Cu *.Mask)
       (net 5 -12V))
+    (model "${KIPRJMOD}/3D models/CP_Axial_L30.0mm_D10.0mm_P40.64mm_Horizontal.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 71.6055 8.149 270)
     (attr smd)
     (fp_text reference C11 (at -0.765 0.4555 90 unlocked) (layer F.SilkS)
@@ -4712,9 +4787,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 180) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 5 -12V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 65.2555 8.149 90)
     (attr smd)
     (fp_text reference C10 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4731,9 +4811,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 54 +12V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 69.9545 14.499 270)
     (attr smd)
     (fp_text reference C9 (at -0.492 0.4555 90 unlocked) (layer F.SilkS)
@@ -4750,9 +4835,14 @@
       (net 59 N$21))
     (pad 2 smd rect (at 0.55 0 180) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 24 N$4))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_1" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
     (at 76.5585 34.438)
     (attr smd)
     (fp_text reference C8 (at -0.016 1.105 unlocked) (layer F.SilkS)
@@ -4769,9 +4859,14 @@
       (net 5 -12V))
     (pad 2 smd rect (at 0.55 0 270) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 76.5585 28.088 180)
     (attr smd)
     (fp_text reference C7 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -4788,9 +4883,14 @@
       (net 54 +12V))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 70.5895 28.85 180)
     (attr smd)
     (fp_text reference C6 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -4807,9 +4907,14 @@
       (net 43 N$35))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 39 N$39))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 67.1605 22.754 180)
     (attr smd)
     (fp_text reference C5 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -4826,9 +4931,14 @@
       (net 77 SUPPLY-BUZ))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_2" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 70.5895 31.009 180)
     (attr smd)
     (fp_text reference C4 (at 0.4555 0.492 90 unlocked) (layer F.SilkS)
@@ -4845,6 +4955,11 @@
       (net 41 N$37))
     (pad 2 smd rect (at 0.55 0 90) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 72 GND))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "GR106768 Buzzer:C0805_1" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
@@ -4876,7 +4991,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:C0402_1" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
     (at 31.3465 5.609)
     (attr smd)
     (fp_text reference C2 (at -0.05 1.324 unlocked) (layer F.SilkS)
@@ -4893,9 +5008,14 @@
       (net 72 GND))
     (pad 2 smd rect (at 0.55 0 270) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 +5V))
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module "GR106768 Buzzer:PKM33EPH-1201C_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PKM33EPH-1201C_1" (layer F.Cu) (tedit 5E99BF17) (tstamp 0)
     (at 71.4875 31.21 270)
     (attr smd)
     (fp_text reference BUZ2 (at -0.312 -1.9355 unlocked) (layer F.SilkS)
@@ -4945,9 +5065,14 @@
     (pad 2 smd rect (at 14.7 8.525 60) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask)
       (net 47 N$31))
     (pad 3 smd rect (at 0 -17) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask))
+    (model "${KIPRJMOD}/3D models/PKM33EPH1201C_cp.wrl"
+      (offset (xyz 0 0 5.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
-  (module "GR106768 Buzzer:PKM33EPH-1201C_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PKM33EPH-1201C_1" (layer F.Cu) (tedit 5E99BF17) (tstamp 0)
     (at 37.4875 31.21)
     (attr smd)
     (fp_text reference BUZ1 (at -13.57377 14.63454 unlocked) (layer F.SilkS)
@@ -4997,9 +5122,14 @@
     (pad 2 smd rect (at 14.7 8.525 150) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask)
       (net 47 N$31))
     (pad 3 smd rect (at 0 -17 90) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask))
+    (model "${KIPRJMOD}/3D models/PKM33EPH1201C_cp.wrl"
+      (offset (xyz 0 0 5.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
-  (module "GR106768 Buzzer:BT-4-V150H-4.8V_1" (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:BT-4-V150H-4.8V_1" (layer B.Cu) (tedit 5E99D7C2) (tstamp 0)
     (at 33.48748 31.01)
     (attr smd)
     (fp_text reference BT-4-V150H-4.8V (at -5.38349 -0.4676 unlocked) (layer B.SilkS)
@@ -5031,6 +5161,11 @@
     (pad + thru_hole rect (at 5 -12.4 180) (size 2.667 2.667) (drill 1.3208) (layers *.Cu *.Mask))
     (pad - thru_hole circle (at 0 12.4 180) (size 2.667 2.667) (drill 1.3208) (layers *.Cu *.Mask))
     (pad 3 thru_hole rect (at -5 -12.4 180) (size 2.667 2.667) (drill 1.3208) (layers *.Cu *.Mask))
+    (model "${KIPRJMOD}/3D models/VARTA_Battery.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "GR106768 Buzzer:C0612-4_1" (layer F.Cu) (tedit 5E98FD60) (tstamp 0)
