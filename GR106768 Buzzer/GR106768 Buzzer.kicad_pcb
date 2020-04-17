@@ -5244,7 +5244,7 @@
     )
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 68.8115 42.058)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5256,7 +5256,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 40.4905 37.867)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5268,7 +5268,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 33.1245 17.42)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5280,7 +5280,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 64.7475 32.66)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5292,7 +5292,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 59.0325 32.533)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5304,7 +5304,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 29.8225 9.8)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5316,7 +5316,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 40.4905 21.611)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5328,7 +5328,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 68.4305 27.326)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5340,7 +5340,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 79.6915 14.245)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5352,7 +5352,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 35.5375 38.375)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5364,7 +5364,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 77.8285 24.024)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5376,7 +5376,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 4.593)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5388,7 +5388,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5400,7 +5400,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 85.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5412,7 +5412,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 80.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5424,7 +5424,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 70.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5436,7 +5436,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 65.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5448,7 +5448,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 60.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5460,7 +5460,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 55.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5472,7 +5472,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 50.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5484,7 +5484,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 45.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5496,7 +5496,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 40.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5508,7 +5508,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 35.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5520,7 +5520,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 30.4875 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5532,7 +5532,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 1.672)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5544,7 +5544,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 29.8225 5.609)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5556,7 +5556,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 22.9875 5.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5568,7 +5568,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 71.6055 6.371)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5580,7 +5580,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 6.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5592,7 +5592,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 9.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5604,7 +5604,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 65.2555 9.8)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5616,7 +5616,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 11.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5628,7 +5628,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 72.1135 12.848)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5640,7 +5640,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 23.7265 12.721)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5652,7 +5652,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 65.8905 13.864)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5664,7 +5664,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 14.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5676,7 +5676,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 48.555 14.4355)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5688,7 +5688,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 47.7295 14.4355)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5700,7 +5700,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 46.904 14.4355)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5712,7 +5712,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 45.5705 14.753)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5724,7 +5724,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 48.555 15.3245)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5736,7 +5736,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 47.7295 15.3245)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5748,7 +5748,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 46.904 15.3245)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5760,7 +5760,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 49.7615 16.2925)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5772,7 +5772,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 40.4875 16.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5784,7 +5784,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 16.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5796,7 +5796,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 19.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5808,7 +5808,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 46.7135 20.214)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5820,7 +5820,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 22.4875 21.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5832,7 +5832,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 21.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5844,7 +5844,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 65.6365 22.754)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5856,7 +5856,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 73.1295 22.9445)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5868,7 +5868,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 32.6165 23.389)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5880,7 +5880,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 45.9515 24.024)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5892,7 +5892,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 29.5685 23.516)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5904,7 +5904,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 24.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5916,7 +5916,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 58.0165 24.151)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5928,7 +5928,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 52.8095 24.151)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5940,7 +5940,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 50.4875 24.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5952,7 +5952,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 55.8575 26.564)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5964,7 +5964,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 22.4875 26.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5976,7 +5976,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 26.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5988,7 +5988,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 54.0795 27.326)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6000,7 +6000,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 74.7805 28.088)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6012,7 +6012,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 29.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6024,7 +6024,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 27.5365 28.977)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6036,7 +6036,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 69.0655 31.009)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6048,7 +6048,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 22.4875 31.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6060,7 +6060,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 31.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6072,7 +6072,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 50.0155 32.025)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6084,7 +6084,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 43.0305 32.025)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6096,7 +6096,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 34.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6108,7 +6108,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 84.5595 34.565)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6120,7 +6120,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 78.2095 34.438)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6132,7 +6132,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 84.9405 36.089)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6144,7 +6144,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 22.4875 36.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6156,7 +6156,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 36.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6168,7 +6168,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 73.5105 37.486)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6180,7 +6180,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 27.5365 38.375)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6192,7 +6192,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 39.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6204,7 +6204,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 41.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6216,7 +6216,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 90.9095 44.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6228,7 +6228,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 67.9875 44.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6240,7 +6240,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 18.1385 46.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6252,7 +6252,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 89.4875 47.392)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6264,7 +6264,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 84.4875 47.392)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6276,7 +6276,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 81.8925 47.392)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6288,7 +6288,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 27.1555 47.392)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6300,7 +6300,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 21.9875 47.392)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6312,7 +6312,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 57.9875 47.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6324,7 +6324,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 81.8925 50.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6336,7 +6336,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 27.1555 52.56)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6348,7 +6348,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 81.8925 55.06)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6360,7 +6360,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 77.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6372,7 +6372,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 72.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6384,7 +6384,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 67.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6396,7 +6396,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 62.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6408,7 +6408,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 57.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6420,7 +6420,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 52.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6432,7 +6432,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 47.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6444,7 +6444,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 42.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6456,7 +6456,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 37.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6468,7 +6468,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 32.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6480,7 +6480,7 @@
       (net 72 GND))
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 27.9875 56.409)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
