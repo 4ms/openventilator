@@ -1,4 +1,4 @@
-(module NK236_1_1 (layer F.Cu) (tedit 0)
+(module NK236_1_1 (layer F.Cu) (tedit 5E99F0FB)
   (attr smd)
   (fp_text reference SW1 (at 0.6663 -0.4596 180 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -24,4 +24,9 @@
   (pad 3 thru_hole circle (at 2.54 0 180) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 0 180) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0 180) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3D models/NK_1511073_cp.wrl"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
