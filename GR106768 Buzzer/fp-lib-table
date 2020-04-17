@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name footprint_buzzer)(type KiCad)(uri ${KIPRJMOD}/footprint_01.pretty)(options "")(descr ""))
+  (lib (name "GR106768 Buzzer")(type KiCad)(uri "${KIPRJMOD}/GR106768 Buzzer.pretty")(options "")(descr ""))
 )
