@@ -2208,24 +2208,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 5225 3150 5225
 NoConn ~ 2800 2825
-NoConn ~ 2800 1625
-NoConn ~ 2800 1825
-NoConn ~ 2800 2025
-NoConn ~ 2800 2225
-NoConn ~ 2800 2425
-NoConn ~ 2800 2625
-NoConn ~ 2800 3025
-NoConn ~ 2800 3225
-NoConn ~ 2800 3425
-NoConn ~ 2800 3625
-NoConn ~ 2800 3825
-NoConn ~ 2800 4025
-NoConn ~ 2800 4225
-NoConn ~ 2800 4425
-NoConn ~ 2800 4625
-NoConn ~ 2800 4825
-NoConn ~ 2800 5025
-NoConn ~ 2800 5225
 Wire Wire Line
 	3000 4825 3137 4825
 NoConn ~ 3000 2825
@@ -3138,9 +3120,6 @@ Text HLabel 14200 3025 2    50   Input ~ 0
 D[0..15]
 Wire Wire Line
 	13400 2150 13400 2925
-NoConn ~ 2800 5425
-NoConn ~ 2800 5625
-NoConn ~ 2800 5825
 Entry Wire Line
 	12600 2675 12700 2775
 Entry Wire Line
@@ -3159,10 +3138,6 @@ Text Label 14000 2200 3    50   ~ 0
 A3
 Text HLabel 14225 2775 2    50   Input ~ 0
 A[0..19]
-Wire Bus Line
-	12600 2775 14225 2775
-Wire Bus Line
-	11400 3025 14200 3025
 Wire Wire Line
 	3000 4425 3300 4425
 Wire Wire Line
@@ -3193,6 +3168,8 @@ $Comp
 L cpu-board:ZIF-52610-2290 J1
 U 1 1 449C7C68
 P 2800 5925
+AR Path="/449C7C68" Ref="J1"  Part="1" 
+AR Path="/5E926050/449C7C68" Ref="J1"  Part="1" 
 F 0 "J1" H 2987 5800 73  0000 L BNN
 F 1 "ZIF-52610-2290" H 3000 5925 50  0001 C CNN
 F 2 "AllModules:MOL52610-22_1" H 3000 5925 50  0001 C CNN
@@ -3208,4 +3185,71 @@ F 11 "CONNECTOR" H 3000 5925 50  0001 C CNN "Manufacturer_Desc2"
 	1    2800 5925
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2800 1625 3000 1625
+Connection ~ 3000 1625
+Wire Wire Line
+	2800 1825 3000 1825
+Connection ~ 3000 1825
+Wire Wire Line
+	2800 2425 3000 2425
+Wire Wire Line
+	2800 2625 3000 2625
+Wire Wire Line
+	2800 2025 3000 2025
+Wire Wire Line
+	2800 2225 3000 2225
+Wire Wire Line
+	2800 3425 3000 3425
+Wire Wire Line
+	2800 3625 3000 3625
+Wire Wire Line
+	2800 3025 3000 3025
+Wire Wire Line
+	2800 3225 3000 3225
+Wire Wire Line
+	2800 4225 3000 4225
+Wire Wire Line
+	2800 4425 3000 4425
+Wire Wire Line
+	2800 3825 3000 3825
+Wire Wire Line
+	2800 4025 3000 4025
+Wire Wire Line
+	2800 5025 3000 5025
+Wire Wire Line
+	2800 5225 3000 5225
+Wire Wire Line
+	2800 4625 3000 4625
+Wire Wire Line
+	2800 4825 3000 4825
+Wire Wire Line
+	2800 5825 3000 5825
+Wire Wire Line
+	2800 5425 3000 5425
+Wire Wire Line
+	2800 5625 3000 5625
+Wire Bus Line
+	12600 2775 14225 2775
+Wire Bus Line
+	11400 3025 14200 3025
+Connection ~ 3000 2025
+Connection ~ 3000 2225
+Connection ~ 3000 2425
+Connection ~ 3000 2625
+Connection ~ 3000 3025
+Connection ~ 3000 3225
+Connection ~ 3000 3425
+Connection ~ 3000 3625
+Connection ~ 3000 3825
+Connection ~ 3000 4025
+Connection ~ 3000 4225
+Connection ~ 3000 4425
+Connection ~ 3000 4625
+Connection ~ 3000 4825
+Connection ~ 3000 5025
+Connection ~ 3000 5225
+Connection ~ 3000 5425
+Connection ~ 3000 5625
+Connection ~ 3000 5825
 $EndSCHEMATC
