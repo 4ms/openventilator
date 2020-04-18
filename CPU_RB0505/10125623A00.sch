@@ -664,4 +664,37 @@ Wire Bus Line
 	7300 4850 6950 4850
 Wire Bus Line
 	7150 5000 6950 5000
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5E9B6535
+P 3050 2100
+F 0 "H1" H 3150 2149 50  0000 L CNN
+F 1 "ThroughHole_Pad" H 3150 2058 50  0000 L CNN
+F 2 "" H 3050 2100 50  0001 C CNN
+F 3 "~" H 3050 2100 50  0001 C CNN
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E9B69D4
+P 3050 2500
+F 0 "H2" H 3150 2549 50  0000 L CNN
+F 1 "ThroughHole_Pad" H 3150 2458 50  0000 L CNN
+F 2 "" H 3050 2500 50  0001 C CNN
+F 3 "~" H 3050 2500 50  0001 C CNN
+	1    3050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5E9B6C7F
+P 3050 2850
+F 0 "H3" H 3150 2899 50  0000 L CNN
+F 1 "ThroughHole_Pad" H 3150 2808 50  0000 L CNN
+F 2 "" H 3050 2850 50  0001 C CNN
+F 3 "~" H 3050 2850 50  0001 C CNN
+	1    3050 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
