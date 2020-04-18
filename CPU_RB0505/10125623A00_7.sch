@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-    2925 10725 2925 10700
+	2925 10725 2925 10700
 Wire Wire Line
-    2925 10700 2825 10700
+	2925 10700 2825 10700
 Wire Wire Line
-    2825 10700 2625 10700
+	2825 10700 2625 10700
 Wire Wire Line
-    2925 10700 3025 10700
+	2925 10700 3025 10700
 Wire Wire Line
-    3025 10700 3225 10700
+	3025 10700 3225 10700
 Wire Wire Line
-    3225 10700 3475 10700
+	3225 10700 3475 10700
 Wire Wire Line
-    3475 10700 3675 10700
+	3475 10700 3675 10700
 Wire Wire Line
-    3675 10700 3875 10700
+	3675 10700 3875 10700
 Wire Wire Line
-    3875 10700 4075 10700
+	3875 10700 4075 10700
 Connection ~ 2825 10700
 Connection ~ 2925 10700
 Connection ~ 3025 10700
@@ -39,7 +39,7 @@ Connection ~ 3475 10700
 Connection ~ 3675 10700
 Connection ~ 3875 10700
 Wire Wire Line
-    6675 9700 6675 9725
+	6675 9700 6675 9725
 Text HLabel 6675 3000 2    56   Input ~ 0
 LED-O2
 Text HLabel 6525 4025 2    56   Input ~ 0
@@ -100,11 +100,11 @@ TX_UART_ST
 Text HLabel 14825 4250 2    56   Output ~ 0
 RTS_UART_ST
 Wire Wire Line
-    3537 4825 4525 4825
+	3537 4825 4525 4825
 Text HLabel 8400 4650 0    50   Output ~ 0
 VBAT
 Wire Wire Line
-    4800 9775 2625 9775
+	4800 9775 2625 9775
 Connection ~ 2625 9775
 Text Label 3950 9775 0    50   ~ 0
 PHOTO-DIODE-SIGNAL
@@ -117,19 +117,19 @@ Connection ~ 3025 9175
 Text Label 3950 9175 0    50   ~ 0
 SENSOR-TYPE-LINE
 Wire Wire Line
-    2825 9375 4800 9375
+	2825 9375 4800 9375
 Connection ~ 2825 9375
 Text Label 3950 9375 0    50   ~ 0
 PHOTO-DIODE-BIAS
 Text Label 3950 9575 0    50   ~ 0
 SIGNAL-SHIELD
 Wire Wire Line
-    5925 7475 6675 7475
+	5925 7475 6675 7475
 Connection ~ 5925 7475
 Wire Wire Line
-    3875 7475 4800 7475
+	3875 7475 4800 7475
 Wire Wire Line
-    3875 7775 3875 7475
+	3875 7775 3875 7475
 Connection ~ 3875 7775
 Text Label 3950 9975 0    50   ~ 0
 CABLE-SHIELD
@@ -164,8 +164,8 @@ F 5 "10023190" H 3350 4025 50  0001 C CNN "Item Number"
 F 6 "MULTICOMP                       (920630)" H 3350 4025 50  0001 C CNN "Manufacturer"
 F 7 "MC 0.1W 0805 5% 620R" H 3350 4025 50  0001 C CNN "Manufacturer_No"
 F 8 "THICK FILM CHIP RESISTOR" H 3350 4025 50  0001 C CNN "Manufacturer_Desc"
-    1    3350 4025
-    1    0    0    -1
+	1    3350 4025
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R1206 R16
@@ -189,8 +189,8 @@ F 14 "THICK FILM CHIP RESISTOR" H 3350 3625 50  0001 C CNN "Manufacturer_Desc3"
 F 15 "YAGEO_RMS1" H 3350 3625 50  0001 C CNN "Manufacturer4"
 F 16 "RC0805JR-07150RL" H 3350 3625 50  0001 C CNN "Manufacturer_No4"
 F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 150 OHM, SURFACE MOUNT, 0805" H 3350 3625 50  0001 C CNN "Manufacturer_Desc4"
-    1    3350 3625
-    1    0    0    -1
+	1    3350 3625
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:IRLML2803 T4
@@ -211,8 +211,8 @@ F 11 "" H 5700 2950 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 5700 2950 50  0001 C CNN "Manufacturer3"
 F 13 "2N7002" H 5700 2950 50  0001 C CNN "Manufacturer_No3"
 F 14 "N-CHANNEL TRENCHMOS FET" H 5700 2950 50  0001 C CNN "Manufacturer_Desc3"
-    1    5700 2950
-    -1   0    0    -1
+	1    5700 2950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$035
@@ -222,8 +222,8 @@ F 0 "#U$035" H 5600 3350 50  0001 C CNN
 F 1 "GND" H 5513 3263 59  0000 L BNN
 F 2 "" H 5600 3350 50  0001 C CNN
 F 3 "" H 5600 3350 50  0001 C CNN
-    1    5600 3350
-    1    0    0    -1
+	1    5600 3350
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R20
@@ -247,8 +247,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 F 15 "PANASONIC_RMS1" H 5875 3200 50  0001 C CNN "Manufacturer4"
 F 16 "ERJ3GEYJ104V" H 5875 3200 50  0001 C CNN "Manufacturer_No4"
 F 17 "THICK FILM CHIP RESISTOR" H 5875 3200 50  0001 C CNN "Manufacturer_Desc4"
-    1    5875 3200
-    -1   0    0    1
+	1    5875 3200
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:IRLML2803 T5
@@ -269,8 +269,8 @@ F 11 "" H 5975 3975 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 5975 3975 50  0001 C CNN "Manufacturer3"
 F 13 "2N7002" H 5975 3975 50  0001 C CNN "Manufacturer_No3"
 F 14 "N-CHANNEL TRENCHMOS FET" H 5975 3975 50  0001 C CNN "Manufacturer_Desc3"
-    1    5975 3975
-    -1   0    0    -1
+	1    5975 3975
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$087
@@ -280,8 +280,8 @@ F 0 "#U$087" H 5875 4375 50  0001 C CNN
 F 1 "GND" H 5787 4287 59  0000 L BNN
 F 2 "" H 5875 4375 50  0001 C CNN
 F 3 "" H 5875 4375 50  0001 C CNN
-    1    5875 4375
-    1    0    0    -1
+	1    5875 4375
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R21
@@ -305,8 +305,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 F 15 "PANASONIC_RMS1" H 6150 4225 50  0001 C CNN "Manufacturer4"
 F 16 "ERJ3GEYJ104V" H 6150 4225 50  0001 C CNN "Manufacturer_No4"
 F 17 "THICK FILM CHIP RESISTOR" H 6150 4225 50  0001 C CNN "Manufacturer_Desc4"
-    1    6150 4225
-    -1   0    0    1
+	1    6150 4225
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:IRLML2803@2 T8
@@ -327,8 +327,8 @@ F 11 "" H 5200 4500 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 5200 4500 50  0001 C CNN "Manufacturer3"
 F 13 "2N7002" H 5200 4500 50  0001 C CNN "Manufacturer_No3"
 F 14 "N-CHANNEL TRENCHMOS FET" H 5200 4500 50  0001 C CNN "Manufacturer_Desc3"
-    1    5200 4500
-    -1   0    0    -1
+	1    5200 4500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R24
@@ -352,8 +352,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 F 15 "PANASONIC_RMS1" H 5375 4750 50  0001 C CNN "Manufacturer4"
 F 16 "ERJ3GEYJ104V" H 5375 4750 50  0001 C CNN "Manufacturer_No4"
 F 17 "THICK FILM CHIP RESISTOR" H 5375 4750 50  0001 C CNN "Manufacturer_Desc4"
-    1    5375 4750
-    -1   0    0    1
+	1    5375 4750
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0126
@@ -363,8 +363,8 @@ F 0 "#U$0126" H 5100 4900 50  0001 C CNN
 F 1 "GND" H 5012 4813 59  0000 L BNN
 F 2 "" H 5100 4900 50  0001 C CNN
 F 3 "" H 5100 4900 50  0001 C CNN
-    1    5100 4900
-    1    0    0    -1
+	1    5100 4900
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R25
@@ -379,8 +379,8 @@ F 5 "10023190" H 3350 3425 50  0001 C CNN "Item Number"
 F 6 "MULTICOMP                       (920630)" H 3350 3425 50  0001 C CNN "Manufacturer"
 F 7 "MC 0.1W 0805 5% 620R" H 3350 3425 50  0001 C CNN "Manufacturer_No"
 F 8 "THICK FILM CHIP RESISTOR" H 3350 3425 50  0001 C CNN "Manufacturer_Desc"
-    1    3350 3425
-    1    0    0    -1
+	1    3350 3425
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0216
@@ -390,8 +390,8 @@ F 0 "#U$0216" H 3400 1625 50  0001 C CNN
 F 1 "GND" H 3325 1550 59  0000 L BNN
 F 2 "" H 3400 1625 50  0001 C CNN
 F 3 "" H 3400 1625 50  0001 C CNN
-    1    3400 1625
-    0    -1   -1   0
+	1    3400 1625
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$0218
@@ -401,8 +401,8 @@ F 0 "#U$0218" H 3400 4425 50  0001 C CNN
 F 1 "+5V" V 3475 4263 59  0000 L BNN
 F 2 "" H 3400 4425 50  0001 C CNN
 F 3 "" H 3400 4425 50  0001 C CNN
-    1    3400 4425
-    0    -1   -1   0
+	1    3400 4425
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$0220
@@ -412,8 +412,8 @@ F 0 "#U$0220" H 3400 3825 50  0001 C CNN
 F 1 "+5V" V 3475 3650 59  0000 L BNN
 F 2 "" H 3400 3825 50  0001 C CNN
 F 3 "" H 3400 3825 50  0001 C CNN
-    1    3400 3825
-    0    -1   -1   0
+	1    3400 3825
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:IRLML2803@2 T9
@@ -434,8 +434,8 @@ F 11 "" H 5200 3450 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 5200 3450 50  0001 C CNN "Manufacturer3"
 F 13 "2N7002" H 5200 3450 50  0001 C CNN "Manufacturer_No3"
 F 14 "N-CHANNEL TRENCHMOS FET" H 5200 3450 50  0001 C CNN "Manufacturer_Desc3"
-    1    5200 3450
-    -1   0    0    -1
+	1    5200 3450
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R26
@@ -459,8 +459,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 F 15 "PANASONIC_RMS1" H 5375 3700 50  0001 C CNN "Manufacturer4"
 F 16 "ERJ3GEYJ104V" H 5375 3700 50  0001 C CNN "Manufacturer_No4"
 F 17 "THICK FILM CHIP RESISTOR" H 5375 3700 50  0001 C CNN "Manufacturer_Desc4"
-    1    5375 3700
-    -1   0    0    1
+	1    5375 3700
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0230
@@ -470,8 +470,8 @@ F 0 "#U$0230" H 5100 3850 50  0001 C CNN
 F 1 "GND" H 5013 3762 59  0000 L BNN
 F 2 "" H 5100 3850 50  0001 C CNN
 F 3 "" H 5100 3850 50  0001 C CNN
-    1    5100 3850
-    1    0    0    -1
+	1    5100 3850
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0232
@@ -481,8 +481,8 @@ F 0 "#U$0232" H 10450 3025 50  0001 C CNN
 F 1 "GND" H 10363 2937 59  0000 L BNN
 F 2 "" H 10450 3025 50  0001 C CNN
 F 3 "" H 10450 3025 50  0001 C CNN
-    1    10450 3025
-    1    0    0    -1
+	1    10450 3025
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0234
@@ -492,8 +492,8 @@ F 0 "#U$0234" H 10450 950 50  0001 C CNN
 F 1 "GND" H 10363 863 59  0000 L BNN
 F 2 "" H 10450 950 50  0001 C CNN
 F 3 "" H 10450 950 50  0001 C CNN
-    1    10450 950
-    -1   0    0    1
+	1    10450 950 
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:+5V #U$0236
@@ -503,8 +503,8 @@ F 0 "#U$0236" H 14200 925 50  0001 C CNN
 F 1 "+5V" H 14112 838 59  0000 L BNN
 F 2 "" H 14200 925 50  0001 C CNN
 F 3 "" H 14200 925 50  0001 C CNN
-    1    14200 925
-    -1   0    0    1
+	1    14200 925 
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0261
@@ -514,8 +514,8 @@ F 0 "#U$0261" H 14675 1300 50  0001 C CNN
 F 1 "GND" H 14587 1212 59  0000 L BNN
 F 2 "" H 14675 1300 50  0001 C CNN
 F 3 "" H 14675 1300 50  0001 C CNN
-    1    14675 1300
-    0    -1   -1   0
+	1    14675 1300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$0285
@@ -525,8 +525,8 @@ F 0 "#U$0285" H 10800 3075 50  0001 C CNN
 F 1 "+5V" H 10713 2987 59  0000 L BNN
 F 2 "" H 10800 3075 50  0001 C CNN
 F 3 "" H 10800 3075 50  0001 C CNN
-    1    10800 3075
-    1    0    0    -1
+	1    10800 3075
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:+5V #U$0287
@@ -536,8 +536,8 @@ F 0 "#U$0287" H 10800 925 50  0001 C CNN
 F 1 "+5V" H 10712 837 59  0000 L BNN
 F 2 "" H 10800 925 50  0001 C CNN
 F 3 "" H 10800 925 50  0001 C CNN
-    1    10800 925
-    -1   0    0    1
+	1    10800 925 
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:TANTALB C31
@@ -555,8 +555,8 @@ F 8 "Cap, Tantalum, Polarized, 35V, 20% +/-Tol, 1uF, Surface Mount, 1206 (Case A
 F 9 "KEMET" H 10600 2800 50  0001 C CNN "Manufacturer2"
 F 10 "T495A105K035ATE3K0" H 10600 2800 50  0001 C CNN "Manufacturer_No2"
 F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case A), EIA Metric 3216" H 10600 2800 50  0001 C CNN "Manufacturer_Desc2"
-    1    10600 2800
-    0    1    1    0
+	1    10600 2800
+	0    1    1    0   
 $EndComp
 $Comp
 L cpu-board:TANTALB C32
@@ -574,8 +574,8 @@ F 8 "Cap, Tantalum, Polarized, 35V, 20% +/-Tol, 1uF, Surface Mount, 1206 (Case A
 F 9 "KEMET" H 10600 1300 50  0001 C CNN "Manufacturer2"
 F 10 "T495A105K035ATE3K0" H 10600 1300 50  0001 C CNN "Manufacturer_No2"
 F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case A), EIA Metric 3216" H 10600 1300 50  0001 C CNN "Manufacturer_Desc2"
-    1    10600 1300
-    0    1    1    0
+	1    10600 1300
+	0    1    1    0   
 $EndComp
 $Comp
 L cpu-board:+24V #U$0532
@@ -585,8 +585,8 @@ F 0 "#U$0532" H 11000 1375 50  0001 C CNN
 F 1 "+24V" H 10887 1238 59  0000 L BNN
 F 2 "" H 11000 1375 50  0001 C CNN
 F 3 "" H 11000 1375 50  0001 C CNN
-    1    11000 1375
-    -1   0    0    1
+	1    11000 1375
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0534
@@ -596,8 +596,8 @@ F 0 "#U$0534" H 3200 5825 50  0001 C CNN
 F 1 "GND" H 3100 5750 59  0000 L BNN
 F 2 "" H 3200 5825 50  0001 C CNN
 F 3 "" H 3200 5825 50  0001 C CNN
-    1    3200 5825
-    0    -1   -1   0
+	1    3200 5825
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:GND #U$0539
@@ -607,8 +607,8 @@ F 0 "#U$0539" H 6200 9775 50  0001 C CNN
 F 1 "GND" H 6100 9687 59  0000 L BNN
 F 2 "" H 6200 9775 50  0001 C CNN
 F 3 "" H 6200 9775 50  0001 C CNN
-    1    6200 9775
-    0    -1   -1   0
+	1    6200 9775
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:+3,3V #U$0540
@@ -618,8 +618,8 @@ F 0 "#U$0540" H 6075 9975 50  0001 C CNN
 F 1 "+3,3V" V 6200 10063 59  0000 L BNN
 F 2 "" H 6075 9975 50  0001 C CNN
 F 3 "" H 6075 9975 50  0001 C CNN
-    1    6075 9975
-    0    1    1    0
+	1    6075 9975
+	0    1    1    0   
 $EndComp
 $Comp
 L cpu-board:R0805 R30
@@ -629,8 +629,8 @@ F 0 "R30" H 6137 8738 64  0000 R TNN
 F 1 "0" H 6137 8825 42  0000 R TNN
 F 2 "AllModules:R0603_1" H 6050 8575 50  0001 C CNN
 F 3 "" H 6050 8575 50  0001 C CNN
-    1    6050 8575
-    -1   0    0    1
+	1    6050 8575
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0541
@@ -640,8 +640,8 @@ F 0 "#U$0541" H 6400 8575 50  0001 C CNN
 F 1 "GND" H 6312 8487 59  0000 L BNN
 F 2 "" H 6400 8575 50  0001 C CNN
 F 3 "" H 6400 8575 50  0001 C CNN
-    1    6400 8575
-    0    -1   -1   0
+	1    6400 8575
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:C0805 C35
@@ -651,8 +651,8 @@ F 0 "C35" H 5900 9675 64  0000 L CNN
 F 1 "100nF" H 5900 9600 42  0000 L CNN
 F 2 "AllModules:C0402_1" H 5950 9875 50  0001 C CNN
 F 3 "" H 5950 9875 50  0001 C CNN
-    1    5950 9875
-    1    0    0    -1
+	1    5950 9875
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0547
@@ -662,8 +662,8 @@ F 0 "#U$0547" H 7025 7600 50  0001 C CNN
 F 1 "GND" H 6937 7513 59  0000 L BNN
 F 2 "" H 7025 7600 50  0001 C CNN
 F 3 "" H 7025 7600 50  0001 C CNN
-    1    7025 7600
-    -1   0    0    1
+	1    7025 7600
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:+3,3V #U$0550
@@ -673,8 +673,8 @@ F 0 "#U$0550" H 7350 9100 50  0001 C CNN
 F 1 "+3,3V" H 7250 9337 59  0000 L BNN
 F 2 "" H 7350 9100 50  0001 C CNN
 F 3 "" H 7350 9100 50  0001 C CNN
-    1    7350 9100
-    1    0    0    -1
+	1    7350 9100
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R32
@@ -701,8 +701,8 @@ F 17 "THICK FILM CHIP RESISTOR" H 7750 7925 50  0001 C CNN "Manufacturer_Desc4"
 F 18 "YAGEO_RMS1" H 7750 7925 50  0001 C CNN "Manufacturer5"
 F 19 "RC0603JR-0710KL" H 7750 7925 50  0001 C CNN "Manufacturer_No5"
 F 20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 10000 OHM, SURFACE MOUNT, 0603" H 7750 7925 50  0001 C CNN "Manufacturer_Desc5"
-    1    7750 7925
-    0    -1   -1   0
+	1    7750 7925
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$0555
@@ -712,8 +712,8 @@ F 0 "#U$0555" H 7750 7625 50  0001 C CNN
 F 1 "+5V" H 7825 7588 59  0000 R TNN
 F 2 "" H 7750 7625 50  0001 C CNN
 F 3 "" H 7750 7625 50  0001 C CNN
-    1    7750 7625
-    -1   0    0    1
+	1    7750 7625
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0142
@@ -723,8 +723,8 @@ F 0 "#U$0142" H 4525 5500 50  0001 C CNN
 F 1 "GND" H 4437 5413 59  0000 L BNN
 F 2 "" H 4525 5500 50  0001 C CNN
 F 3 "" H 4525 5500 50  0001 C CNN
-    1    4525 5500
-    1    0    0    -1
+	1    4525 5500
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R7
@@ -748,8 +748,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 F 15 "PANASONIC_RMS1" H 4800 5350 50  0001 C CNN "Manufacturer4"
 F 16 "ERJ3GEYJ104V" H 4800 5350 50  0001 C CNN "Manufacturer_No4"
 F 17 "THICK FILM CHIP RESISTOR" H 4800 5350 50  0001 C CNN "Manufacturer_Desc4"
-    1    4800 5350
-    -1   0    0    1
+	1    4800 5350
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:IRLML2803 T2
@@ -770,8 +770,8 @@ F 11 "" H 5750 2050 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 5750 2050 50  0001 C CNN "Manufacturer3"
 F 13 "2N7002" H 5750 2050 50  0001 C CNN "Manufacturer_No3"
 F 14 "N-CHANNEL TRENCHMOS FET" H 5750 2050 50  0001 C CNN "Manufacturer_Desc3"
-    1    5750 2050
-    -1   0    0    -1
+	1    5750 2050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0146
@@ -781,8 +781,8 @@ F 0 "#U$0146" H 5650 2450 50  0001 C CNN
 F 1 "GND" H 5562 2362 59  0000 L BNN
 F 2 "" H 5650 2450 50  0001 C CNN
 F 3 "" H 5650 2450 50  0001 C CNN
-    1    5650 2450
-    1    0    0    -1
+	1    5650 2450
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 R12
@@ -806,8 +806,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 F 15 "PANASONIC_RMS1" H 5925 2300 50  0001 C CNN "Manufacturer4"
 F 16 "ERJ3GEYJ104V" H 5925 2300 50  0001 C CNN "Manufacturer_No4"
 F 17 "THICK FILM CHIP RESISTOR" H 5925 2300 50  0001 C CNN "Manufacturer_Desc4"
-    1    5925 2300
-    -1   0    0    1
+	1    5925 2300
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$0147
@@ -817,8 +817,8 @@ F 0 "#U$0147" H 3700 5225 50  0001 C CNN
 F 1 "GND" H 3612 5150 59  0000 L BNN
 F 2 "" H 3700 5225 50  0001 C CNN
 F 3 "" H 3700 5225 50  0001 C CNN
-    1    3700 5225
-    0    -1   -1   0
+	1    3700 5225
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:R1206 R22
@@ -842,8 +842,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE 
 F 15 "YAGEO_RMS1" H 3337 4825 50  0001 C CNN "Manufacturer4"
 F 16 "RC0805JR-07180RL" H 3337 4825 50  0001 C CNN "Manufacturer_No4"
 F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE MOUNT, 0805" H 3337 4825 50  0001 C CNN "Manufacturer_Desc4"
-    1    3337 4825
-    1    0    0    -1
+	1    3337 4825
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R1206 R23
@@ -867,8 +867,8 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE 
 F 15 "YAGEO_RMS1" H 3350 3025 50  0001 C CNN "Manufacturer4"
 F 16 "RC0805JR-07180RL" H 3350 3025 50  0001 C CNN "Manufacturer_No4"
 F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE MOUNT, 0805" H 3350 3025 50  0001 C CNN "Manufacturer_Desc4"
-    1    3350 3025
-    1    0    0    -1
+	1    3350 3025
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:+24VUTIL #U$0371
@@ -878,8 +878,8 @@ F 0 "#U$0371" H 15050 3900 50  0001 C CNN
 F 1 "+24VUTIL" H 14937 3762 59  0000 L BNN
 F 2 "" H 15050 3900 50  0001 C CNN
 F 3 "" H 15050 3900 50  0001 C CNN
-    1    15050 3900
-    -1   0    0    1
+	1    15050 3900
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:0VANA #U$0374
@@ -889,8 +889,8 @@ F 0 "#U$0374" H 10900 4000 50  0001 C CNN
 F 1 "0VANA" H 10788 3825 59  0000 L BNN
 F 2 "" H 10900 4000 50  0001 C CNN
 F 3 "" H 10900 4000 50  0001 C CNN
-    1    10900 4000
-    -1   0    0    1
+	1    10900 4000
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C41
@@ -905,8 +905,8 @@ F 5 "10095973" H 13175 6325 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 13175 6325 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 13175 6325 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 13175 6325 50  0001 C CNN "Manufacturer_Desc"
-    1    13175 6325
-    1    0    0    -1
+	1    13175 6325
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C52
@@ -921,15 +921,15 @@ F 5 "10095973" H 9225 6325 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 9225 6325 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 9225 6325 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 9225 6325 50  0001 C CNN "Manufacturer_Desc"
-    1    9225 6325
-    1    0    0    -1
+	1    9225 6325
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L16
 U 1 1 3E1ECFE2
 P 8650 4350
-AR Path="/3E1ECFE2" Ref="L16"  Part="1"
-AR Path="/5E926050/3E1ECFE2" Ref="L16"  Part="1"
+AR Path="/3E1ECFE2" Ref="L16"  Part="1" 
+AR Path="/5E926050/3E1ECFE2" Ref="L16"  Part="1" 
 F 0 "L16" H 8588 4325 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4400 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4350 50  0001 C CNN
@@ -939,15 +939,15 @@ F 5 "10022907" H 8650 4350 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4350 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4350 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4350 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4350
-    1    0    0    -1
+	1    8650 4350
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L18
 U 1 1 C853FF9C
 P 8650 4550
-AR Path="/C853FF9C" Ref="L18"  Part="1"
-AR Path="/5E926050/C853FF9C" Ref="L18"  Part="1"
+AR Path="/C853FF9C" Ref="L18"  Part="1" 
+AR Path="/5E926050/C853FF9C" Ref="L18"  Part="1" 
 F 0 "L18" H 8588 4525 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4600 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4550 50  0001 C CNN
@@ -957,15 +957,15 @@ F 5 "10022907" H 8650 4550 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4550 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4550 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4550 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4550
-    1    0    0    -1
+	1    8650 4550
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L1
 U 1 1 63106439
 P 8650 4650
-AR Path="/63106439" Ref="L1"  Part="1"
-AR Path="/5E926050/63106439" Ref="L1"  Part="1"
+AR Path="/63106439" Ref="L1"  Part="1" 
+AR Path="/5E926050/63106439" Ref="L1"  Part="1" 
 F 0 "L1" H 8588 4625 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4700 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4650 50  0001 C CNN
@@ -975,15 +975,15 @@ F 5 "10022907" H 8650 4650 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4650 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4650 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4650 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4650
-    1    0    0    -1
+	1    8650 4650
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L3
 U 1 1 5E88F353
 P 8650 4750
-AR Path="/5E88F353" Ref="L3"  Part="1"
-AR Path="/5E926050/5E88F353" Ref="L3"  Part="1"
+AR Path="/5E88F353" Ref="L3"  Part="1" 
+AR Path="/5E926050/5E88F353" Ref="L3"  Part="1" 
 F 0 "L3" H 8588 4725 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4800 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4750 50  0001 C CNN
@@ -993,15 +993,15 @@ F 5 "10022907" H 8650 4750 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4750 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4750 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4750 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4750
-    1    0    0    -1
+	1    8650 4750
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L4
 U 1 1 AC576572
 P 8650 4850
-AR Path="/AC576572" Ref="L4"  Part="1"
-AR Path="/5E926050/AC576572" Ref="L4"  Part="1"
+AR Path="/AC576572" Ref="L4"  Part="1" 
+AR Path="/5E926050/AC576572" Ref="L4"  Part="1" 
 F 0 "L4" H 8588 4825 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4900 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4850 50  0001 C CNN
@@ -1011,15 +1011,15 @@ F 5 "10022907" H 8650 4850 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4850 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4850 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4850 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4850
-    1    0    0    -1
+	1    8650 4850
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L6
 U 1 1 76104BF1
 P 8650 5050
-AR Path="/76104BF1" Ref="L6"  Part="1"
-AR Path="/5E926050/76104BF1" Ref="L6"  Part="1"
+AR Path="/76104BF1" Ref="L6"  Part="1" 
+AR Path="/5E926050/76104BF1" Ref="L6"  Part="1" 
 F 0 "L6" H 8588 5025 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 5100 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 5050 50  0001 C CNN
@@ -1029,15 +1029,15 @@ F 5 "10022907" H 8650 5050 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 5050 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 5050 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 5050 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 5050
-    1    0    0    -1
+	1    8650 5050
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L43
 U 1 1 B8451C4A
 P 14525 4950
-AR Path="/B8451C4A" Ref="L43"  Part="1"
-AR Path="/5E926050/B8451C4A" Ref="L43"  Part="1"
+AR Path="/B8451C4A" Ref="L43"  Part="1" 
+AR Path="/5E926050/B8451C4A" Ref="L43"  Part="1" 
 F 0 "L43" H 14462 4925 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 5000 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4950 50  0001 C CNN
@@ -1047,15 +1047,15 @@ F 5 "10022907" H 14525 4950 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4950 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4950 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4950 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4950
-    1    0    0    -1
+	1    14525 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L44
 U 1 1 C8827D52
 P 14525 4850
-AR Path="/C8827D52" Ref="L44"  Part="1"
-AR Path="/5E926050/C8827D52" Ref="L44"  Part="1"
+AR Path="/C8827D52" Ref="L44"  Part="1" 
+AR Path="/5E926050/C8827D52" Ref="L44"  Part="1" 
 F 0 "L44" H 14462 4825 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4900 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4850 50  0001 C CNN
@@ -1065,15 +1065,15 @@ F 5 "10022907" H 14525 4850 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4850 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4850 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4850 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4850
-    1    0    0    -1
+	1    14525 4850
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L45
 U 1 1 27E57B0C
 P 14525 4750
-AR Path="/27E57B0C" Ref="L45"  Part="1"
-AR Path="/5E926050/27E57B0C" Ref="L45"  Part="1"
+AR Path="/27E57B0C" Ref="L45"  Part="1" 
+AR Path="/5E926050/27E57B0C" Ref="L45"  Part="1" 
 F 0 "L45" H 14462 4725 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4800 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4750 50  0001 C CNN
@@ -1083,15 +1083,15 @@ F 5 "10022907" H 14525 4750 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4750 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4750 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4750 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4750
-    1    0    0    -1
+	1    14525 4750
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L47
 U 1 1 58FFAA19
 P 14525 4550
-AR Path="/58FFAA19" Ref="L47"  Part="1"
-AR Path="/5E926050/58FFAA19" Ref="L47"  Part="1"
+AR Path="/58FFAA19" Ref="L47"  Part="1" 
+AR Path="/5E926050/58FFAA19" Ref="L47"  Part="1" 
 F 0 "L47" H 14462 4525 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4600 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4550 50  0001 C CNN
@@ -1101,15 +1101,15 @@ F 5 "10022907" H 14525 4550 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4550 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4550 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4550 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4550
-    1    0    0    -1
+	1    14525 4550
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L48
 U 1 1 7A9C51D5
 P 14525 4450
-AR Path="/7A9C51D5" Ref="L48"  Part="1"
-AR Path="/5E926050/7A9C51D5" Ref="L48"  Part="1"
+AR Path="/7A9C51D5" Ref="L48"  Part="1" 
+AR Path="/5E926050/7A9C51D5" Ref="L48"  Part="1" 
 F 0 "L48" H 14462 4425 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4500 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4450 50  0001 C CNN
@@ -1119,15 +1119,15 @@ F 5 "10022907" H 14525 4450 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4450 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4450 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4450 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4450
-    1    0    0    -1
+	1    14525 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L49
 U 1 1 B59E7860
 P 14525 4350
-AR Path="/B59E7860" Ref="L49"  Part="1"
-AR Path="/5E926050/B59E7860" Ref="L49"  Part="1"
+AR Path="/B59E7860" Ref="L49"  Part="1" 
+AR Path="/5E926050/B59E7860" Ref="L49"  Part="1" 
 F 0 "L49" H 14462 4325 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4400 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4350 50  0001 C CNN
@@ -1137,15 +1137,15 @@ F 5 "10022907" H 14525 4350 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4350 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4350 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4350 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4350
-    1    0    0    -1
+	1    14525 4350
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L50
 U 1 1 39D83C75
 P 14525 4250
-AR Path="/39D83C75" Ref="L50"  Part="1"
-AR Path="/5E926050/39D83C75" Ref="L50"  Part="1"
+AR Path="/39D83C75" Ref="L50"  Part="1" 
+AR Path="/5E926050/39D83C75" Ref="L50"  Part="1" 
 F 0 "L50" H 14462 4225 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4300 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4250 50  0001 C CNN
@@ -1155,15 +1155,15 @@ F 5 "10022907" H 14525 4250 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4250 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4250 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4250 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4250
-    1    0    0    -1
+	1    14525 4250
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:7427504 L61
 U 1 1 D3E71165
 P 14525 4150
-AR Path="/D3E71165" Ref="L61"  Part="1"
-AR Path="/5E926050/D3E71165" Ref="L61"  Part="1"
+AR Path="/D3E71165" Ref="L61"  Part="1" 
+AR Path="/5E926050/D3E71165" Ref="L61"  Part="1" 
 F 0 "L61" H 14462 4125 42  0000 L BNN
 F 1 "Ferrite 1A" H 14412 4213 34  0000 L BNN
 F 2 "AllModules:RC1206_1" H 14525 4150 50  0001 C CNN
@@ -1173,8 +1173,8 @@ F 5 "10022911" H 14525 4150 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4150 50  0001 C CNN "Manufacturer"
 F 7 "74279218" H 14525 4150 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4150 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4150
-    1    0    0    -1
+	1    14525 4150
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:26BR-HE10 J7
@@ -1192,8 +1192,8 @@ F 8 "" H 11275 4650 50  0001 C CNN "Manufacturer_Desc"
 F 9 "FCI/BERG" H 11275 4650 50  0001 C CNN "Manufacturer2"
 F 10 "88874-026LF" H 11275 4650 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 11275 4650 50  0001 C CNN "Manufacturer_Desc2"
-    1    11275 4650
-    1    0    0    -1
+	1    11275 4650
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:+24VUTIL #U$0378
@@ -1203,8 +1203,8 @@ F 0 "#U$0378" H 15075 5400 50  0001 C CNN
 F 1 "+24VUTIL" H 15293 5308 59  0000 R TNN
 F 2 "" H 15075 5400 50  0001 C CNN
 F 3 "" H 15075 5400 50  0001 C CNN
-    1    15075 5400
-    -1   0    0    -1
+	1    15075 5400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cpu-board:0VANA #U$0379
@@ -1214,8 +1214,8 @@ F 0 "#U$0379" H 10950 5475 50  0001 C CNN
 F 1 "0VANA" H 10837 5288 59  0000 L BNN
 F 2 "" H 10950 5475 50  0001 C CNN
 F 3 "" H 10950 5475 50  0001 C CNN
-    1    10950 5475
-    1    0    0    -1
+	1    10950 5475
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C55
@@ -1230,8 +1230,8 @@ F 5 "10095973" H 14075 6325 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 14075 6325 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 14075 6325 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 14075 6325 50  0001 C CNN "Manufacturer_Desc"
-    1    14075 6325
-    1    0    0    -1
+	1    14075 6325
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C58
@@ -1246,8 +1246,8 @@ F 5 "10095973" H 10150 6325 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 10150 6325 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 10150 6325 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 10150 6325 50  0001 C CNN "Manufacturer_Desc"
-    1    10150 6325
-    1    0    0    -1
+	1    10150 6325
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0388
@@ -1257,15 +1257,15 @@ F 0 "#U$0388" H 11250 6750 50  0001 C CNN
 F 1 "GND" H 11163 6662 59  0000 L BNN
 F 2 "" H 11250 6750 50  0001 C CNN
 F 3 "" H 11250 6750 50  0001 C CNN
-    1    11250 6750
-    1    0    0    -1
+	1    11250 6750
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:7427504 L8
 U 1 1 8A653321
 P 14525 5150
-AR Path="/8A653321" Ref="L8"  Part="1"
-AR Path="/5E926050/8A653321" Ref="L8"  Part="1"
+AR Path="/8A653321" Ref="L8"  Part="1" 
+AR Path="/5E926050/8A653321" Ref="L8"  Part="1" 
 F 0 "L8" H 14487 5125 42  0000 L BNN
 F 1 "Ferrite 1A" H 14400 5050 34  0000 L BNN
 F 2 "AllModules:RC1206_1" H 14525 5150 50  0001 C CNN
@@ -1275,8 +1275,8 @@ F 5 "10022911" H 14525 5150 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 5150 50  0001 C CNN "Manufacturer"
 F 7 "74279218" H 14525 5150 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 5150 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 5150
-    1    0    0    -1
+	1    14525 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0372
@@ -1286,8 +1286,8 @@ F 0 "#U$0372" H 11700 5575 50  0001 C CNN
 F 1 "GND" H 11612 5488 59  0000 L BNN
 F 2 "" H 11700 5575 50  0001 C CNN
 F 3 "" H 11700 5575 50  0001 C CNN
-    1    11700 5575
-    1    0    0    -1
+	1    11700 5575
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0390
@@ -1297,73 +1297,73 @@ F 0 "#U$0390" H 11700 3900 50  0001 C CNN
 F 1 "GND" H 11613 3825 59  0000 L BNN
 F 2 "" H 11700 3900 50  0001 C CNN
 F 3 "" H 11700 3900 50  0001 C CNN
-    1    11700 3900
-    -1   0    0    1
+	1    11700 3900
+	-1   0    0    1   
 $EndComp
 $Comp
 L cpu-board:74279263 L36
 U 1 1 99D0EAD2
 P 4950 9775
-AR Path="/99D0EAD2" Ref="L36"  Part="1"
-AR Path="/5E926050/99D0EAD2" Ref="L36"  Part="1"
+AR Path="/99D0EAD2" Ref="L36"  Part="1" 
+AR Path="/5E926050/99D0EAD2" Ref="L36"  Part="1" 
 F 0 "L36" H 4913 9850 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 9825 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 9775 50  0001 C CNN
 F 3 "" H 4950 9775 50  0001 C CNN
-    1    4950 9775
-    1    0    0    -1
+	1    4950 9775
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L38
 U 1 1 FD4FC626
 P 4950 9375
-AR Path="/FD4FC626" Ref="L38"  Part="1"
-AR Path="/5E926050/FD4FC626" Ref="L38"  Part="1"
+AR Path="/FD4FC626" Ref="L38"  Part="1" 
+AR Path="/5E926050/FD4FC626" Ref="L38"  Part="1" 
 F 0 "L38" H 4888 9425 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 9425 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 9375 50  0001 C CNN
 F 3 "" H 4950 9375 50  0001 C CNN
-    1    4950 9375
-    1    0    0    -1
+	1    4950 9375
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L39
 U 1 1 37C2E7A2
 P 4950 9175
-AR Path="/37C2E7A2" Ref="L39"  Part="1"
-AR Path="/5E926050/37C2E7A2" Ref="L39"  Part="1"
+AR Path="/37C2E7A2" Ref="L39"  Part="1" 
+AR Path="/5E926050/37C2E7A2" Ref="L39"  Part="1" 
 F 0 "L39" H 4887 9225 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 9225 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 9175 50  0001 C CNN
 F 3 "" H 4950 9175 50  0001 C CNN
-    1    4950 9175
-    1    0    0    -1
+	1    4950 9175
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L40
 U 1 1 D8418348
 P 4950 8975
-AR Path="/D8418348" Ref="L40"  Part="1"
-AR Path="/5E926050/D8418348" Ref="L40"  Part="1"
+AR Path="/D8418348" Ref="L40"  Part="1" 
+AR Path="/5E926050/D8418348" Ref="L40"  Part="1" 
 F 0 "L40" H 4887 9025 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 9025 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 8975 50  0001 C CNN
 F 3 "" H 4950 8975 50  0001 C CNN
-    1    4950 8975
-    1    0    0    -1
+	1    4950 8975
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L41
 U 1 1 D7B52F8F
 P 4950 8775
-AR Path="/D7B52F8F" Ref="L41"  Part="1"
-AR Path="/5E926050/D7B52F8F" Ref="L41"  Part="1"
+AR Path="/D7B52F8F" Ref="L41"  Part="1" 
+AR Path="/5E926050/D7B52F8F" Ref="L41"  Part="1" 
 F 0 "L41" H 4887 8825 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 8825 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 8775 50  0001 C CNN
 F 3 "" H 4950 8775 50  0001 C CNN
-    1    4950 8775
-    1    0    0    -1
+	1    4950 8775
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C17
@@ -1378,8 +1378,8 @@ F 5 "10095973" H 2975 10475 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 2975 10475 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 2975 10475 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 2975 10475 50  0001 C CNN "Manufacturer_Desc"
-    1    2975 10475
-    1    0    0    -1
+	1    2975 10475
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0269
@@ -1389,8 +1389,8 @@ F 0 "#U$0269" H 2925 10825 50  0001 C CNN
 F 1 "GND" H 2837 10737 59  0000 L BNN
 F 2 "" H 2925 10825 50  0001 C CNN
 F 3 "" H 2925 10825 50  0001 C CNN
-    1    2925 10825
-    1    0    0    -1
+	1    2925 10825
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0270
@@ -1400,8 +1400,8 @@ F 0 "#U$0270" H 3275 8675 50  0001 C CNN
 F 1 "GND" H 3187 8587 59  0000 L BNN
 F 2 "" H 3275 8675 50  0001 C CNN
 F 3 "" H 3275 8675 50  0001 C CNN
-    1    3275 8675
-    1    0    0    -1
+	1    3275 8675
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C18
@@ -1416,8 +1416,8 @@ F 5 "10095973" H 3825 10475 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 3825 10475 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 3825 10475 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 3825 10475 50  0001 C CNN "Manufacturer_Desc"
-    1    3825 10475
-    1    0    0    -1
+	1    3825 10475
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:+3,3V #U$0363
@@ -1427,8 +1427,8 @@ F 0 "#U$0363" H 3225 8075 50  0001 C CNN
 F 1 "+3,3V" H 3200 8288 59  0000 L BNN
 F 2 "" H 3225 8075 50  0001 C CNN
 F 3 "" H 3225 8075 50  0001 C CNN
-    1    3225 8075
-    1    0    0    -1
+	1    3225 8075
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:TANTALB C19
@@ -1443,8 +1443,8 @@ F 5 "10022962" H 3225 8425 50  0001 C CNN "Item Number"
 F 6 "KEMET" H 3225 8425 50  0001 C CNN "Manufacturer"
 F 7 "T495B476K010ATE500" H 3225 8425 50  0001 C CNN "Manufacturer_No"
 F 8 "Cap, Tantalum, Polarized, 10V, 10% +/-Tol, 47uF, Surface Mount, Case B, EIA Metric 3528" H 3225 8425 50  0001 C CNN "Manufacturer_Desc"
-    1    3225 8425
-    1    0    0    -1
+	1    3225 8425
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:B12B-ZR J3
@@ -1459,8 +1459,8 @@ F 5 "10097259" H 2275 10075 50  0001 C CNN "Item Number"
 F 6 "J.S.T. CORPORATION" H 2275 10075 50  0001 C CNN "Manufacturer"
 F 7 "B12B-ZR-SM4-TF (LF)(SN)" H 2275 10075 50  0001 C CNN "Manufacturer_No"
 F 8 "CONNECTOR" H 2275 10075 50  0001 C CNN "Manufacturer_Desc"
-    1    2275 10075
-    1    0    0    -1
+	1    2275 10075
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0408
@@ -1470,8 +1470,8 @@ F 0 "#U$0408" H 4725 10550 50  0001 C CNN
 F 1 "GND" H 4637 10462 59  0000 L BNN
 F 2 "" H 4725 10550 50  0001 C CNN
 F 3 "" H 4725 10550 50  0001 C CNN
-    1    4725 10550
-    1    0    0    -1
+	1    4725 10550
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:IRLML5103 T16
@@ -1481,8 +1481,8 @@ F 0 "T16" H 6815 8962 59  0000 L BNN
 F 1 "IRLML5103" H 6840 9055 56  0000 L BNN
 F 2 "AllModules:SOT23-GSD_1" H 7250 9300 50  0001 C CNN
 F 3 "" H 7250 9300 50  0001 C CNN
-    1    7250 9300
-    1    0    0    1
+	1    7250 9300
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:R0805 R47
@@ -1492,15 +1492,15 @@ F 0 "R47" V 6787 9400 64  0000 R TNN
 F 1 "10k" V 6700 9400 42  0000 R TNN
 F 2 "AllModules:R0603_1" H 6675 9500 50  0001 C CNN
 F 3 "" H 6675 9500 50  0001 C CNN
-    1    6675 9500
-    0    -1   -1   0
+	1    6675 9500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:74279263 L35
 U 1 1 3EE6CC19
 P 4950 8200
-AR Path="/3EE6CC19" Ref="L35"  Part="1"
-AR Path="/5E926050/3EE6CC19" Ref="L35"  Part="1"
+AR Path="/3EE6CC19" Ref="L35"  Part="1" 
+AR Path="/5E926050/3EE6CC19" Ref="L35"  Part="1" 
 F 0 "L35" H 4888 8250 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 8250 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 8200 50  0001 C CNN
@@ -1510,15 +1510,15 @@ F 5 "10022907" H 4950 8200 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 4950 8200 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 4950 8200 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 4950 8200 50  0001 C CNN "Manufacturer_Desc"
-    1    4950 8200
-    1    0    0    -1
+	1    4950 8200
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L42
 U 1 1 68BA90A5
 P 4950 7475
-AR Path="/68BA90A5" Ref="L42"  Part="1"
-AR Path="/5E926050/68BA90A5" Ref="L42"  Part="1"
+AR Path="/68BA90A5" Ref="L42"  Part="1" 
+AR Path="/5E926050/68BA90A5" Ref="L42"  Part="1" 
 F 0 "L42" H 4888 7525 42  0000 L BNN
 F 1 "Ferrite 200mA" H 4850 7525 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 4950 7475 50  0001 C CNN
@@ -1528,8 +1528,8 @@ F 5 "10022907" H 4950 7475 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 4950 7475 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 4950 7475 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 4950 7475 50  0001 C CNN "Manufacturer_Desc"
-    1    4950 7475
-    1    0    0    -1
+	1    4950 7475
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:C0603 C87
@@ -1539,8 +1539,8 @@ F 0 "C87" H 6006 7775 64  0000 L BNN
 F 1 "100nF" H 6012 7694 42  0000 L BNN
 F 2 "AllModules:C0402_1" H 5925 7725 50  0001 C CNN
 F 3 "" H 5925 7725 50  0001 C CNN
-    1    5925 7725
-    1    0    0    -1
+	1    5925 7725
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$045
@@ -1550,8 +1550,8 @@ F 0 "#U$045" H 6675 9825 50  0001 C CNN
 F 1 "GND" H 6587 9737 59  0000 L BNN
 F 2 "" H 6675 9825 50  0001 C CNN
 F 3 "" H 6675 9825 50  0001 C CNN
-    1    6675 9825
-    1    0    0    -1
+	1    6675 9825
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0410
@@ -1561,8 +1561,8 @@ F 0 "#U$0410" H 5925 7975 50  0001 C CNN
 F 1 "GND" H 5837 7887 59  0000 L BNN
 F 2 "" H 5925 7975 50  0001 C CNN
 F 3 "" H 5925 7975 50  0001 C CNN
-    1    5925 7975
-    1    0    0    -1
+	1    5925 7975
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:JUMP_0U JP1
@@ -1589,15 +1589,15 @@ F 17 "THICK FILM CHIP RESISTOR" H 4725 10225 50  0001 C CNN "Manufacturer_Desc4"
 F 18 "KAMAYA                          (049580)" H 4725 10225 50  0001 C CNN "Manufacturer5"
 F 19 "RMC1/16JPTP" H 4725 10225 50  0001 C CNN "Manufacturer_No5"
 F 20 "JUMPER" H 4725 10225 50  0001 C CNN "Manufacturer_Desc5"
-    1    4725 10225
-    0    -1   -1   0
+	1    4725 10225
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:74279263 L46
 U 1 1 17AB747C
 P 14525 4650
-AR Path="/17AB747C" Ref="L46"  Part="1"
-AR Path="/5E926050/17AB747C" Ref="L46"  Part="1"
+AR Path="/17AB747C" Ref="L46"  Part="1" 
+AR Path="/5E926050/17AB747C" Ref="L46"  Part="1" 
 F 0 "L46" H 14462 4625 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 4700 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 4650 50  0001 C CNN
@@ -1607,15 +1607,15 @@ F 5 "10022907" H 14525 4650 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 4650 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 4650 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 4650 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 4650
-    1    0    0    -1
+	1    14525 4650
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L51
 U 1 1 49C38A30
 P 8650 4250
-AR Path="/49C38A30" Ref="L51"  Part="1"
-AR Path="/5E926050/49C38A30" Ref="L51"  Part="1"
+AR Path="/49C38A30" Ref="L51"  Part="1" 
+AR Path="/5E926050/49C38A30" Ref="L51"  Part="1" 
 F 0 "L51" H 8588 4225 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4300 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4250 50  0001 C CNN
@@ -1625,15 +1625,15 @@ F 5 "10022907" H 8650 4250 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4250 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4250 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4250 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4250
-    1    0    0    -1
+	1    8650 4250
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L52
 U 1 1 5D3B4218
 P 8650 4450
-AR Path="/5D3B4218" Ref="L52"  Part="1"
-AR Path="/5E926050/5D3B4218" Ref="L52"  Part="1"
+AR Path="/5D3B4218" Ref="L52"  Part="1" 
+AR Path="/5E926050/5D3B4218" Ref="L52"  Part="1" 
 F 0 "L52" H 8588 4425 42  0000 L BNN
 F 1 "Ferrite 200mA" H 8550 4500 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 8650 4450 50  0001 C CNN
@@ -1643,8 +1643,8 @@ F 5 "10022907" H 8650 4450 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 8650 4450 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 8650 4450 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 8650 4450 50  0001 C CNN "Manufacturer_Desc"
-    1    8650 4450
-    1    0    0    -1
+	1    8650 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:RESEAU_4C C111
@@ -1659,15 +1659,15 @@ F 5 "10095973" H 12300 6325 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 12300 6325 50  0001 C CNN "Manufacturer"
 F 7 "225514611532" H 12300 6325 50  0001 C CNN "Manufacturer_No"
 F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 12300 6325 50  0001 C CNN "Manufacturer_Desc"
-    1    12300 6325
-    1    0    0    -1
+	1    12300 6325
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:74279263 L53
 U 1 1 983C8A5F
 P 14525 5050
-AR Path="/983C8A5F" Ref="L53"  Part="1"
-AR Path="/5E926050/983C8A5F" Ref="L53"  Part="1"
+AR Path="/983C8A5F" Ref="L53"  Part="1" 
+AR Path="/5E926050/983C8A5F" Ref="L53"  Part="1" 
 F 0 "L53" H 14462 5025 42  0000 L BNN
 F 1 "Ferrite 200mA" H 14425 5100 34  0001 L BNN
 F 2 "AllModules:C0603_1" H 14525 5050 50  0001 C CNN
@@ -1677,8 +1677,8 @@ F 5 "10022907" H 14525 5050 50  0001 C CNN "Item Number"
 F 6 "WURTH ELEKTRONIK GMBH" H 14525 5050 50  0001 C CNN "Manufacturer"
 F 7 "74279266" H 14525 5050 50  0001 C CNN "Manufacturer_No"
 F 8 "MULTILAYER-SMD-FERRITE" H 14525 5050 50  0001 C CNN "Manufacturer_Desc"
-    1    14525 5050
-    1    0    0    -1
+	1    14525 5050
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:R0805 L5
@@ -1705,349 +1705,349 @@ F 17 "THICK FILM CHIP RESISTOR" H 8650 4950 50  0001 C CNN "Manufacturer_Desc4"
 F 18 "YAGEO_RMS1" H 8650 4950 50  0001 C CNN "Manufacturer5"
 F 19 "RC0603JR-07470RL" H 8650 4950 50  0001 C CNN "Manufacturer_No5"
 F 20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 470 OHM, SURFACE MOUNT, 0603" H 8650 4950 50  0001 C CNN "Manufacturer_Desc5"
-    1    8650 4950
-    1    0    0    -1
+	1    8650 4950
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
-    862  763  7137 763
+	862  763  7137 763 
 Wire Notes Line
-    862  763  862  7250
+	862  763  862  7250
 Wire Notes Line
-    7137 763  7137 7250
+	7137 763  7137 7250
 Wire Notes Line
-    2550 4075 2637 4025
+	2550 4075 2637 4025
 Wire Notes Line
-    2637 4025 2550 3975
+	2637 4025 2550 3975
 Wire Notes Line
-    2562 3950 2600 3913
+	2562 3950 2600 3913
 Wire Notes Line
-    2600 3913 2600 3950
+	2600 3913 2600 3950
 Wire Notes Line
-    2600 3950 2650 3913
+	2600 3950 2650 3913
 Wire Notes Line
-    2650 3913 2625 3913
+	2650 3913 2625 3913
 Wire Notes Line
-    2650 3913 2637 3938
+	2650 3913 2637 3938
 Wire Notes Line
-    2550 3675 2637 3625
+	2550 3675 2637 3625
 Wire Notes Line
-    2637 3625 2550 3575
+	2637 3625 2550 3575
 Wire Notes Line
-    2550 3563 2587 3525
+	2550 3563 2587 3525
 Wire Notes Line
-    2587 3525 2587 3563
+	2587 3525 2587 3563
 Wire Notes Line
-    2587 3563 2637 3525
+	2587 3563 2637 3525
 Wire Notes Line
-    2637 3525 2612 3525
+	2637 3525 2612 3525
 Wire Notes Line
-    2637 3525 2625 3550
+	2637 3525 2625 3550
 Wire Notes Line
-    2550 3088 2550 3050
+	2550 3088 2550 3050
 Wire Notes Line
-    2550 3038 2550 2988
+	2550 3038 2550 2988
 Wire Notes Line
-    2550 2988 2637 3038
+	2550 2988 2637 3038
 Wire Notes Line
-    2637 3038 2550 3088
+	2637 3038 2550 3088
 Wire Notes Line
-    2562 2963 2600 2925
+	2562 2963 2600 2925
 Wire Notes Line
-    2600 2925 2600 2963
+	2600 2925 2600 2963
 Wire Notes Line
-    2600 2963 2650 2925
+	2600 2963 2650 2925
 Wire Notes Line
-    2650 2925 2625 2925
+	2650 2925 2625 2925
 Wire Notes Line
-    2650 2925 2637 2950
+	2650 2925 2637 2950
 Wire Notes Line
-    2537 4775 2625 4825
+	2537 4775 2625 4825
 Wire Notes Line
-    2625 4825 2537 4875
+	2625 4825 2537 4875
 Wire Notes Line
-    2550 4750 2587 4713
+	2550 4750 2587 4713
 Wire Notes Line
-    2587 4713 2587 4750
+	2587 4713 2587 4750
 Wire Notes Line
-    2587 4750 2637 4713
+	2587 4750 2637 4713
 Wire Notes Line
-    2637 4713 2625 4738
+	2637 4713 2625 4738
 Wire Notes Line
-    2550 4275 2637 4225
+	2550 4275 2637 4225
 Wire Notes Line
-    2637 4225 2550 4175
+	2637 4225 2550 4175
 Wire Notes Line
-    2550 4163 2587 4125
+	2550 4163 2587 4125
 Wire Notes Line
-    2587 4125 2587 4163
+	2587 4125 2587 4163
 Wire Notes Line
-    2587 4163 2637 4125
+	2587 4163 2637 4125
 Wire Notes Line
-    2637 4125 2612 4125
+	2637 4125 2612 4125
 Wire Notes Line
-    2637 4125 2625 4150
+	2637 4125 2625 4150
 Wire Notes Line
-    2812 1825 925  1825
+	2812 1825 925  1825
 Wire Notes Line
-    2812 2025 1400 2025
+	2812 2025 1400 2025
 Wire Notes Line
-    1125 2225 1125 2288
+	1125 2225 1125 2288
 Wire Notes Line
-    1600 2225 1600 2288
+	1600 2225 1600 2288
 Wire Notes Line
-    2187 2225 2187 2288
+	2187 2225 2187 2288
 Wire Notes Line
-    925  2500 975  2500
+	925  2500 975  2500
 Wire Notes Line
-    1400 2500 1450 2500
+	1400 2500 1450 2500
 Wire Notes Line
-    1987 2500 2037 2500
+	1987 2500 2037 2500
 Wire Notes Line
-    1012 2525 1150 2325
+	1012 2525 1150 2325
 Wire Notes Line
-    1487 2525 1625 2325
+	1487 2525 1625 2325
 Wire Notes Line
-    2075 2525 2212 2325
+	2075 2525 2212 2325
 Wire Notes Line
-    1125 2625 1125 2688
+	1125 2625 1125 2688
 Wire Notes Line
-    1600 2625 1600 2688
+	1600 2625 1600 2688
 Wire Notes Line
-    925  2900 975  2900
+	925  2900 975  2900
 Wire Notes Line
-    1400 2900 1450 2900
+	1400 2900 1450 2900
 Wire Notes Line
-    1012 2925 1150 2725
+	1012 2925 1150 2725
 Wire Notes Line
-    1487 2925 1625 2725
+	1487 2925 1625 2725
 Wire Notes Line
-    1137 5425 1137 5488
+	1137 5425 1137 5488
 Wire Notes Line
-    937  5700 987  5700
+	937  5700 987  5700
 Wire Notes Line
-    1025 5725 1162 5525
+	1025 5725 1162 5525
 Wire Notes Line
-    2812 5425 1137 5425
+	2812 5425 1137 5425
 Wire Notes Line
-    862  7250 7137 7250
+	862  7250 7137 7250
 Wire Notes Line
-    2550 3388 2550 3488
+	2550 3388 2550 3488
 Wire Notes Line
-    2550 3488 2637 3438
+	2550 3488 2637 3438
 Wire Notes Line
-    2637 3438 2550 3388
+	2637 3438 2550 3388
 Wire Notes Line
-    2550 3375 2587 3338
+	2550 3375 2587 3338
 Wire Notes Line
-    2587 3338 2587 3375
+	2587 3338 2587 3375
 Wire Notes Line
-    2587 3375 2637 3338
+	2587 3375 2637 3338
 Wire Notes Line
-    2637 3338 2612 3338
+	2637 3338 2612 3338
 Wire Notes Line
-    2637 3338 2625 3363
+	2637 3338 2625 3363
 Wire Notes Line
-    8300 763  8300 3225
+	8300 763  8300 3225
 Wire Notes Line
-    8300 763  16062 763
+	8300 763  16062 763 
 Wire Notes Line
-    16062 3225 16062 763
+	16062 3225 16062 763 
 Wire Notes Line
-    16062 3225 8300 3225
+	16062 3225 8300 3225
 Wire Notes Line
-    2187 2625 2187 2688
+	2187 2625 2187 2688
 Wire Notes Line
-    1987 2900 2037 2900
+	1987 2900 2037 2900
 Wire Notes Line
-    2075 2925 2212 2725
+	2075 2925 2212 2725
 Wire Notes Line
-    1150 5775 1150 5838
+	1150 5775 1150 5838
 Wire Notes Line
-    937  6050 1000 6050
+	937  6050 1000 6050
 Wire Notes Line
-    1037 6075 1175 5875
+	1037 6075 1175 5875
 Wire Notes Line
-    2037 5775 1150 5775
+	2037 5775 1150 5775
 Wire Notes Line
-    850  10950 862  7313
+	850  10950 862  7313
 Wire Notes Line
-    8262 10950 8262 7313
+	8262 10950 8262 7313
 Wire Notes Line
-    1087 5638 1087 6000
+	1087 5638 1087 6000
 Wire Notes Line
-    2537 5175 2625 5225
+	2537 5175 2625 5225
 Wire Notes Line
-    2625 5225 2537 5275
+	2625 5225 2537 5275
 Wire Notes Line
-    2550 5150 2587 5113
+	2550 5150 2587 5113
 Wire Notes Line
-    2587 5113 2587 5150
+	2587 5113 2587 5150
 Wire Notes Line
-    2587 5150 2637 5113
+	2587 5150 2637 5113
 Wire Notes Line
-    2637 5113 2612 5113
+	2637 5113 2612 5113
 Wire Notes Line
-    2637 5113 2625 5138
+	2637 5113 2625 5138
 Wire Notes Line
-    2362 3438 2550 3438
+	2362 3438 2550 3438
 Wire Notes Line
-    2550 3625 2362 3625
+	2550 3625 2362 3625
 Wire Notes Line
-    2550 3038 2375 3038
+	2550 3038 2375 3038
 Wire Notes Line
-    2375 5225 2537 5225
+	2375 5225 2537 5225
 Wire Notes Line
-    2787 1625 937  1625
+	2787 1625 937  1625
 Wire Notes Line
-    16050 7013 7237 7013
+	16050 7013 7237 7013
 Wire Notes Line
-    7237 3313 7237 7013
+	7237 3313 7237 7013
 Wire Notes Line
-    16050 3313 16050 7013
+	16050 3313 16050 7013
 Wire Notes Line
-    1262 8663 1250 8663
+	1262 8663 1250 8663
 Wire Notes Line
-    1250 8663 1225 8688
+	1250 8663 1225 8688
 Wire Notes Line
-    1225 8688 1225 9363
+	1225 8688 1225 9363
 Wire Notes Line
-    1225 9363 1200 9388
+	1225 9363 1200 9388
 Wire Notes Line
-    1200 9388 1225 9413
+	1200 9388 1225 9413
 Wire Notes Line
-    1225 9413 1225 10013
+	1225 9413 1225 10013
 Wire Notes Line
-    1225 10013 1250 10038
+	1225 10013 1250 10038
 Wire Notes Line
-    1250 10038 1275 10038
+	1250 10038 1275 10038
 Wire Notes Line
-    1262 8613 1250 8613
+	1262 8613 1250 8613
 Wire Notes Line
-    1250 8613 1225 8588
+	1250 8613 1225 8588
 Wire Notes Line
-    1225 8588 1225 8300
+	1225 8588 1225 8300
 Wire Notes Line
-    1225 8300 1200 8275
+	1225 8300 1200 8275
 Wire Notes Line
-    1200 8275 1225 8250
+	1200 8275 1225 8250
 Wire Notes Line
-    1225 8250 1225 7938
+	1225 8250 1225 7938
 Wire Notes Line
-    1225 7938 1250 7913
+	1225 7938 1250 7913
 Wire Notes Line
-    1250 7913 1262 7913
+	1250 7913 1262 7913
 Wire Notes Line
-    2287 9775 1825 9775
+	2287 9775 1825 9775
 Wire Notes Line
-    2287 9388 1825 9388
+	2287 9388 1825 9388
 Wire Notes Line
-    1987 9363 1987 9813
+	1987 9363 1987 9813
 Wire Notes Line
-    1987 9363 2087 9363
+	1987 9363 2087 9363
 Wire Notes Line
-    1987 9813 2087 9813
+	1987 9813 2087 9813
 Wire Notes Line
-    2287 9575 2087 9575
+	2287 9575 2087 9575
 Wire Notes Line
-    2275 9975 1887 9975
+	2275 9975 1887 9975
 Wire Notes Line
-    2275 9175 1812 9175
+	2275 9175 1812 9175
 Wire Notes Line
-    2275 8975 1812 8975
+	2275 8975 1812 8975
 Wire Notes Line
-    2275 8775 1812 8775
+	2275 8775 1812 8775
 Wire Notes Line
-    2275 8575 1812 8575
+	2275 8575 1812 8575
 Wire Notes Line
-    2275 8375 1812 8375
+	2275 8375 1812 8375
 Wire Notes Line
-    2275 8175 1812 8175
+	2275 8175 1812 8175
 Wire Notes Line
-    1837 7675 1837 9838
+	1837 7675 1837 9838
 Wire Notes Line
-    1937 7675 1937 9838
+	1937 7675 1937 9838
 Wire Notes Line
-    1837 7675 1937 7675
+	1837 7675 1937 7675
 Wire Notes Line
-    1837 9838 1887 9888
+	1837 9838 1887 9888
 Wire Notes Line
-    1887 9888 1937 9838
+	1887 9888 1937 9838
 Wire Notes Line
-    1887 9888 1887 9975
+	1887 9888 1887 9975
 Wire Notes Line
-    862  7313 8262 7313
+	862  7313 8262 7313
 Wire Notes Line
-    850  10950 8262 10950
+	850  10950 8262 10950
 Wire Notes Line
-    5075 10450 5075 8438
+	5075 10450 5075 8438
 Wire Notes Line
-    5825 10450 5825 8438
+	5825 10450 5825 8438
 Wire Notes Line
-    5075 8438 5825 8438
+	5075 8438 5825 8438
 Wire Notes Line
-    5075 10450 5825 10450
+	5075 10450 5825 10450
 Wire Notes Line
-    2275 7963 1812 7963
+	2275 7963 1812 7963
 Wire Notes Line
-    2275 7775 1812 7775
+	2275 7775 1812 7775
 Wire Notes Line
-    1350 7775 1350 7963
+	1350 7775 1350 7963
 Wire Notes Line
-    1350 7963 1475 7963
+	1350 7963 1475 7963
 Wire Notes Line
-    1350 7775 1475 7775
+	1350 7775 1475 7775
 Wire Notes Line
-    2587 2425 2812 2425
+	2587 2425 2812 2425
 Wire Notes Line
-    2587 2425 2587 2100
+	2587 2425 2587 2100
 Wire Notes Line
-    2587 2100 1987 2100
+	2587 2100 1987 2100
 Wire Notes Line
-    2812 3038 2637 3038
+	2812 3038 2637 3038
 Wire Notes Line
-    2812 3225 2375 3225
+	2812 3225 2375 3225
 Wire Notes Line
-    2375 3038 2375 3225
+	2375 3038 2375 3225
 Wire Notes Line
-    2812 3438 2637 3438
+	2812 3438 2637 3438
 Wire Notes Line
-    2812 3625 2637 3625
+	2812 3625 2637 3625
 Wire Notes Line
-    2812 3825 2362 3825
+	2812 3825 2362 3825
 Wire Notes Line
-    2812 4025 2637 4025
+	2812 4025 2637 4025
 Wire Notes Line
-    2812 4225 2637 4225
+	2812 4225 2637 4225
 Wire Notes Line
-    2550 4025 2375 4025
+	2550 4025 2375 4025
 Wire Notes Line
-    2550 4225 2375 4225
+	2550 4225 2375 4225
 Wire Notes Line
-    2812 4425 2375 4425
+	2812 4425 2375 4425
 Wire Notes Line
-    2812 4625 2375 4625
+	2812 4625 2375 4625
 Wire Notes Line
-    2812 4825 2625 4825
+	2812 4825 2625 4825
 Wire Notes Line
-    2537 4825 2375 4825
+	2537 4825 2375 4825
 Wire Notes Line
-    2375 4625 2375 4825
+	2375 4625 2375 4825
 Wire Notes Line
-    2812 5225 2625 5225
+	2812 5225 2625 5225
 Wire Notes Line
-    2812 5025 2375 5025
+	2812 5025 2375 5025
 Wire Notes Line
-    2375 5025 2375 5225
+	2375 5025 2375 5225
 Wire Notes Line
-    2812 5625 2037 5625
+	2812 5625 2037 5625
 Wire Notes Line
-    2800 5825 2362 5825
+	2800 5825 2362 5825
 Wire Notes Line
-    2362 5825 2362 6225
+	2362 5825 2362 6225
 Wire Notes Line
-    937  6225 2362 6225
+	937  6225 2362 6225
 Wire Notes Line
-    2037 5625 2037 5775
+	2037 5625 2037 5775
 Text Notes 1487 4050 0    59   ~ 0
 Red Alarme LED
 Text Notes 1512 4800 0    59   ~ 0
@@ -2131,53 +2131,53 @@ Carte SPO2
 Text Notes 12075 1625 0    59   ~ 0
 DISPLAY BOARD
 Wire Notes Line
-    2550 3975 2550 4075
+	2550 3975 2550 4075
 Wire Notes Line
-    2637 3975 2637 4075
+	2637 3975 2637 4075
 Wire Notes Line
-    2550 3575 2550 3675
+	2550 3575 2550 3675
 Wire Notes Line
-    2637 3575 2637 3675
+	2637 3575 2637 3675
 Wire Notes Line
-    2637 2988 2637 3088
+	2637 2988 2637 3088
 Wire Notes Line
-    2537 4775 2537 4875
+	2537 4775 2537 4875
 Wire Notes Line
-    2625 4775 2625 4875
+	2625 4775 2625 4875
 Wire Notes Line
-    2550 4175 2550 4275
+	2550 4175 2550 4275
 Wire Notes Line
-    2637 4175 2637 4275
+	2637 4175 2637 4275
 Wire Notes Line
-    1400 2025 1400 2900
+	1400 2025 1400 2900
 Wire Notes Line
-    1987 2100 1987 2900
+	1987 2100 1987 2900
 Wire Notes Line
-    925  1825 925  2900
+	925  1825 925  2900
 Wire Notes Line
-    1125 2625 2812 2625
+	1125 2625 2812 2625
 Wire Notes Line
-    2637 3388 2637 3488
+	2637 3388 2637 3488
 Wire Notes Line
-    937  5700 937  6225
+	937  5700 937  6225
 Wire Notes Line
-    2537 5175 2537 5275
+	2537 5175 2537 5275
 Wire Notes Line
-    2625 5175 2625 5275
+	2625 5175 2625 5275
 Wire Notes Line
-    7237 3313 16062 3313
+	7237 3313 16062 3313
 Wire Notes Line
-    2087 9363 2087 9813
+	2087 9363 2087 9813
 Wire Notes Line
-    1125 2225 2812 2225
+	1125 2225 2812 2225
 Wire Notes Line
-    2362 3438 2362 3825
+	2362 3438 2362 3825
 Wire Notes Line
-    2375 4025 2375 4425
+	2375 4025 2375 4425
 Wire Wire Line
-    3550 3025 4400 3025
+	3550 3025 4400 3025
 Wire Wire Line
-    3000 5825 3100 5825
+	3000 5825 3100 5825
 $Comp
 L cpu-board:R1206 R31
 U 1 1 63ABC06C
@@ -2200,41 +2200,23 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE 
 F 15 "YAGEO_RMS1" H 3350 5225 50  0001 C CNN "Manufacturer4"
 F 16 "RC0805JR-07180RL" H 3350 5225 50  0001 C CNN "Manufacturer_No4"
 F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE MOUNT, 0805" H 3350 5225 50  0001 C CNN "Manufacturer_Desc4"
-    1    3350 5225
-    1    0    0    -1
+	1    3350 5225
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    3600 5225 3550 5225
+	3600 5225 3550 5225
 Wire Wire Line
-    3000 5225 3150 5225
+	3000 5225 3150 5225
 NoConn ~ 2800 2825
-NoConn ~ 2800 1625
-NoConn ~ 2800 1825
-NoConn ~ 2800 2025
-NoConn ~ 2800 2225
-NoConn ~ 2800 2425
-NoConn ~ 2800 2625
-NoConn ~ 2800 3025
-NoConn ~ 2800 3225
-NoConn ~ 2800 3425
-NoConn ~ 2800 3625
-NoConn ~ 2800 3825
-NoConn ~ 2800 4025
-NoConn ~ 2800 4225
-NoConn ~ 2800 4425
-NoConn ~ 2800 4625
-NoConn ~ 2800 4825
-NoConn ~ 2800 5025
-NoConn ~ 2800 5225
 Wire Wire Line
-    3000 4825 3137 4825
+	3000 4825 3137 4825
 NoConn ~ 3000 2825
 Wire Wire Line
-    3000 3025 3150 3025
+	3000 3025 3150 3025
 Wire Wire Line
-    3550 4025 5700 4025
+	3550 4025 5700 4025
 Wire Wire Line
-    3550 4225 5100 4225
+	3550 4225 5100 4225
 $Comp
 L cpu-board:R0805 R27
 U 1 1 4A61E0AF
@@ -2248,19 +2230,19 @@ F 5 "10023190" H 3350 4225 50  0001 C CNN "Item Number"
 F 6 "MULTICOMP                       (920630)" H 3350 4225 50  0001 C CNN "Manufacturer"
 F 7 "MC 0.1W 0805 5% 620R" H 3350 4225 50  0001 C CNN "Manufacturer_No"
 F 8 "THICK FILM CHIP RESISTOR" H 3350 4225 50  0001 C CNN "Manufacturer_Desc"
-    1    3350 4225
-    1    0    0    -1
+	1    3350 4225
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    3000 4225 3150 4225
+	3000 4225 3150 4225
 Wire Wire Line
-    3000 4025 3150 4025
+	3000 4025 3150 4025
 Wire Wire Line
-    3000 3625 3150 3625
+	3000 3625 3150 3625
 Wire Wire Line
-    3000 3425 3150 3425
+	3000 3425 3150 3425
 Wire Wire Line
-    4525 5300 4525 5350
+	4525 5300 4525 5350
 $Comp
 L cpu-board:IRLML2803 T1
 U 1 1 C746FFC6
@@ -2280,232 +2262,232 @@ F 11 "" H 4625 5100 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 4625 5100 50  0001 C CNN "Manufacturer3"
 F 13 "2N7002" H 4625 5100 50  0001 C CNN "Manufacturer_No3"
 F 14 "N-CHANNEL TRENCHMOS FET" H 4625 5100 50  0001 C CNN "Manufacturer_Desc3"
-    1    4625 5100
-    -1   0    0    -1
+	1    4625 5100
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-    4525 4825 4525 4900
+	4525 4825 4525 4900
 Wire Wire Line
-    4600 5350 4525 5350
+	4600 5350 4525 5350
 Connection ~ 4525 5350
 Wire Wire Line
-    4525 5350 4525 5400
+	4525 5350 4525 5400
 Wire Wire Line
-    4825 5150 5050 5150
+	4825 5150 5050 5150
 Wire Wire Line
-    5050 5150 5050 5350
+	5050 5150 5050 5350
 Wire Wire Line
-    5050 5350 5000 5350
+	5050 5350 5000 5350
 Wire Wire Line
-    5050 5150 6225 5150
+	5050 5150 6225 5150
 Connection ~ 5050 5150
 Wire Wire Line
-    5100 4700 5100 4750
+	5100 4700 5100 4750
 Wire Wire Line
-    5100 4225 5100 4300
+	5100 4225 5100 4300
 Wire Wire Line
-    5175 4750 5100 4750
+	5175 4750 5100 4750
 Connection ~ 5100 4750
 Wire Wire Line
-    5100 4750 5100 4800
+	5100 4750 5100 4800
 Wire Wire Line
-    5400 4550 5625 4550
+	5400 4550 5625 4550
 Wire Wire Line
-    5625 4550 5625 4750
+	5625 4550 5625 4750
 Wire Wire Line
-    5625 4750 5575 4750
+	5625 4750 5575 4750
 Wire Wire Line
-    5625 4550 6525 4550
+	5625 4550 6525 4550
 Connection ~ 5625 4550
 Wire Wire Line
-    5875 4175 5875 4225
+	5875 4175 5875 4225
 Wire Wire Line
-    5950 4225 5875 4225
+	5950 4225 5875 4225
 Connection ~ 5875 4225
 Wire Wire Line
-    5875 4225 5875 4275
+	5875 4225 5875 4275
 Wire Wire Line
-    6175 4025 6400 4025
+	6175 4025 6400 4025
 Wire Wire Line
-    6400 4025 6400 4225
+	6400 4025 6400 4225
 Wire Wire Line
-    6400 4225 6350 4225
+	6400 4225 6350 4225
 Wire Wire Line
-    6525 4025 6400 4025
+	6525 4025 6400 4025
 Connection ~ 6400 4025
 Wire Wire Line
-    5100 3650 5100 3700
+	5100 3650 5100 3700
 Wire Wire Line
-    5175 3700 5100 3700
+	5175 3700 5100 3700
 Connection ~ 5100 3700
 Wire Wire Line
-    5100 3700 5100 3750
+	5100 3700 5100 3750
 Wire Wire Line
-    5400 3500 5625 3500
+	5400 3500 5625 3500
 Wire Wire Line
-    5625 3500 5625 3700
+	5625 3500 5625 3700
 Wire Wire Line
-    5625 3700 5575 3700
+	5625 3700 5575 3700
 Wire Wire Line
-    5625 3500 6525 3500
+	5625 3500 6525 3500
 Connection ~ 5625 3500
 Wire Wire Line
-    5700 3700 5700 4025
+	5700 3700 5700 4025
 Wire Wire Line
-    5700 3700 5875 3700
+	5700 3700 5875 3700
 Wire Wire Line
-    5875 3700 5875 3775
+	5875 3700 5875 3775
 Wire Wire Line
-    3550 3625 4825 3625
+	3550 3625 4825 3625
 Wire Wire Line
-    4825 3625 4825 3125
+	4825 3625 4825 3125
 Wire Wire Line
-    4825 3125 5100 3125
+	4825 3125 5100 3125
 Wire Wire Line
-    5100 3125 5100 3250
+	5100 3125 5100 3250
 Wire Wire Line
-    5600 3150 5600 3200
+	5600 3150 5600 3200
 Wire Wire Line
-    5675 3200 5600 3200
+	5675 3200 5600 3200
 Connection ~ 5600 3200
 Wire Wire Line
-    5600 3200 5600 3250
+	5600 3200 5600 3250
 Wire Wire Line
-    5900 3000 6125 3000
+	5900 3000 6125 3000
 Wire Wire Line
-    6125 3000 6125 3200
+	6125 3000 6125 3200
 Wire Wire Line
-    6125 3200 6075 3200
+	6125 3200 6075 3200
 Wire Wire Line
-    6125 3000 6675 3000
+	6125 3000 6675 3000
 Connection ~ 6125 3000
 Wire Wire Line
-    3550 3425 4625 3425
+	3550 3425 4625 3425
 Wire Wire Line
-    4625 3425 4625 2625
+	4625 3425 4625 2625
 Wire Wire Line
-    5600 2625 5600 2750
+	5600 2625 5600 2750
 Wire Wire Line
-    4625 2625 5600 2625
+	4625 2625 5600 2625
 Wire Wire Line
-    5650 2250 5650 2300
+	5650 2250 5650 2300
 Wire Wire Line
-    5725 2300 5650 2300
+	5725 2300 5650 2300
 Connection ~ 5650 2300
 Wire Wire Line
-    5650 2300 5650 2350
+	5650 2300 5650 2350
 Wire Wire Line
-    5950 2100 6175 2100
+	5950 2100 6175 2100
 Wire Wire Line
-    6175 2100 6175 2300
+	6175 2100 6175 2300
 Wire Wire Line
-    6175 2300 6125 2300
+	6175 2300 6125 2300
 Wire Wire Line
-    6175 2100 6475 2100
+	6175 2100 6475 2100
 Connection ~ 6175 2100
 Wire Wire Line
-    4400 1725 5650 1725
+	4400 1725 5650 1725
 Wire Wire Line
-    4400 1725 4400 3025
+	4400 1725 4400 3025
 Wire Wire Line
-    5650 1725 5650 1850
+	5650 1725 5650 1850
 Wire Wire Line
-    2900 8175 2900 7975
+	2900 8175 2900 7975
 Wire Wire Line
-    2900 8175 3225 8175
+	2900 8175 3225 8175
 Wire Wire Line
-    3225 8175 3225 7975
+	3225 8175 3225 7975
 Connection ~ 2900 8175
 Wire Wire Line
-    3225 8175 3225 8325
+	3225 8175 3225 8325
 Connection ~ 3225 8175
 Wire Wire Line
-    2575 7775 3875 7775
+	2575 7775 3875 7775
 Wire Wire Line
-    2575 7975 2900 7975
+	2575 7975 2900 7975
 Wire Wire Line
-    2575 8175 2900 8175
+	2575 8175 2900 8175
 Wire Wire Line
-    2575 8375 3675 8375
+	2575 8375 3675 8375
 Wire Wire Line
-    2575 8975 3225 8975
+	2575 8975 3225 8975
 Wire Wire Line
-    2575 9175 3025 9175
+	2575 9175 3025 9175
 Wire Wire Line
-    2575 9375 2825 9375
+	2575 9375 2825 9375
 Wire Wire Line
-    2575 9575 5225 9575
+	2575 9575 5225 9575
 Wire Wire Line
-    2575 9775 2625 9775
+	2575 9775 2625 9775
 Wire Wire Line
-    2575 8575 3225 8575
+	2575 8575 3225 8575
 Wire Wire Line
-    3225 8575 3225 8525
+	3225 8575 3225 8525
 Wire Wire Line
-    3275 8575 3225 8575
+	3275 8575 3225 8575
 Connection ~ 3225 8575
 Wire Wire Line
-    2575 8775 3475 8775
+	2575 8775 3475 8775
 Wire Wire Line
-    3475 8775 3475 10325
+	3475 8775 3475 10325
 Connection ~ 3475 8775
 Wire Wire Line
-    2625 9775 2625 10325
+	2625 9775 2625 10325
 Wire Wire Line
-    3225 8975 3225 10325
+	3225 8975 3225 10325
 Wire Wire Line
-    3025 9175 3025 10325
+	3025 9175 3025 10325
 Wire Wire Line
-    2825 9375 2825 10325
+	2825 9375 2825 10325
 Wire Wire Line
-    2625 10625 2625 10700
+	2625 10625 2625 10700
 Wire Wire Line
-    2825 10625 2825 10700
+	2825 10625 2825 10700
 Wire Wire Line
-    3025 10625 3025 10700
+	3025 10625 3025 10700
 Wire Wire Line
-    3225 10625 3225 10700
+	3225 10625 3225 10700
 Wire Wire Line
-    3675 8375 3675 10325
+	3675 8375 3675 10325
 Wire Wire Line
-    3875 7775 3875 10325
+	3875 7775 3875 10325
 Wire Wire Line
-    3475 10625 3475 10700
+	3475 10625 3475 10700
 Wire Wire Line
-    3675 10625 3675 10700
+	3675 10625 3675 10700
 Wire Wire Line
-    3875 10625 3875 10700
+	3875 10625 3875 10700
 Wire Wire Line
-    4075 10625 4075 10700
+	4075 10625 4075 10700
 NoConn ~ 4075 10325
 Wire Wire Line
-    5100 9775 5225 9775
+	5100 9775 5225 9775
 Wire Wire Line
-    5100 9375 5225 9375
+	5100 9375 5225 9375
 Wire Wire Line
-    3025 9175 4800 9175
+	3025 9175 4800 9175
 Wire Wire Line
-    5100 9175 5225 9175
+	5100 9175 5225 9175
 Wire Wire Line
-    3225 8975 4800 8975
+	3225 8975 4800 8975
 Wire Wire Line
-    5100 8975 5225 8975
+	5100 8975 5225 8975
 Wire Wire Line
-    5100 8775 5225 8775
+	5100 8775 5225 8775
 Wire Wire Line
-    3475 8775 4800 8775
+	3475 8775 4800 8775
 Wire Wire Line
-    3675 8200 4800 8200
+	3675 8200 4800 8200
 Wire Wire Line
-    3675 8200 3675 8375
+	3675 8200 3675 8375
 Wire Wire Line
-    6725 8200 5100 8200
+	6725 8200 5100 8200
 Wire Wire Line
-    5100 7475 5925 7475
+	5100 7475 5925 7475
 Wire Wire Line
-    5925 7825 5925 7875
+	5925 7825 5925 7875
 Wire Wire Line
-    5925 7475 5925 7625
+	5925 7475 5925 7625
 $Comp
 L cpu-board:LVC1G07DBVT IC6
 U 1 1 BE050152
@@ -2514,20 +2496,20 @@ F 0 "IC6" H 7025 9913 64  0000 R TNN
 F 1 "SN74LVC1G07DBVT" H 7588 9813 59  0000 R TNN
 F 2 "AllModules:SOT23-5_1" H 7050 10325 50  0001 C CNN
 F 3 "" H 7050 10325 50  0001 C CNN
-    1    7050 10325
-    1    0    0    -1
+	1    7050 10325
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    7650 10325 7750 10325
+	7650 10325 7750 10325
 Wire Wire Line
-    7750 8125 7750 8200
+	7750 8125 7750 8200
 Wire Wire Line
-    7825 8200 7750 8200
+	7825 8200 7750 8200
 Connection ~ 7750 8200
 Wire Wire Line
-    7750 8200 7750 10325
+	7750 8200 7750 10325
 Wire Wire Line
-    7750 8200 7625 8200
+	7750 8200 7625 8200
 $Comp
 L cpu-board:LVC1G07DBVT IC20
 U 1 1 7427DFBC
@@ -2547,25 +2529,25 @@ F 11 "" H 7025 8200 50  0001 C CNN "Manufacturer_Desc2"
 F 12 "NXP SEMICONDUCTORS_RMS1" H 7025 8200 50  0001 C CNN "Manufacturer3"
 F 13 "74LVC1G07GV" H 7025 8200 50  0001 C CNN "Manufacturer_No3"
 F 14 "BUFFER WITH OPEN DRAIN OUTPUT" H 7025 8200 50  0001 C CNN "Manufacturer_Desc3"
-    1    7025 8200
-    1    0    0    -1
+	1    7025 8200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    7025 7700 7025 7750
+	7025 7700 7025 7750
 Wire Wire Line
-    6675 7475 7325 7475
+	6675 7475 7325 7475
 Wire Wire Line
-    7325 7475 7325 7750
+	7325 7475 7325 7750
 Connection ~ 6675 7475
 Wire Wire Line
-    7350 9000 7350 9050
+	7350 9000 7350 9050
 Wire Wire Line
-    6675 7475 6675 9250
+	6675 7475 6675 9250
 Wire Wire Line
-    7050 9250 6675 9250
+	7050 9250 6675 9250
 Connection ~ 6675 9250
 Wire Wire Line
-    6675 9250 6675 9300
+	6675 9250 6675 9300
 $Comp
 L cpu-board:GND #U$0364
 U 1 1 5A12D295
@@ -2574,21 +2556,21 @@ F 0 "#U$0364" H 7050 9700 50  0001 C CNN
 F 1 "GND" H 6962 9612 59  0000 L BNN
 F 2 "" H 7050 9700 50  0001 C CNN
 F 3 "" H 7050 9700 50  0001 C CNN
-    1    7050 9700
-    -1   0    0    1
+	1    7050 9700
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-    5725 8975 6450 8975
+	5725 8975 6450 8975
 Wire Wire Line
-    6450 8975 6450 10325
+	6450 8975 6450 10325
 Wire Wire Line
-    6450 10325 6750 10325
+	6450 10325 6750 10325
 Wire Wire Line
-    7350 9875 7350 9550
+	7350 9875 7350 9550
 Wire Wire Line
-    7050 9800 7050 9875
+	7050 9800 7050 9875
 Wire Wire Line
-    5950 9775 6100 9775
+	5950 9775 6100 9775
 $Comp
 L cpu-board:87606-408 J6
 U 1 1 C649B669
@@ -2597,243 +2579,243 @@ F 0 "J6" H 5287 9950 73  0000 L BNN
 F 1 "87606-408" H 5225 10075 50  0001 C CNN
 F 2 "AllModules:SPO2-16_1" H 5225 10075 50  0001 C CNN
 F 3 "" H 5225 10075 50  0001 C CNN
-    1    5225 10075
-    1    0    0    -1
+	1    5225 10075
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-    5725 8575 5850 8575
+	5725 8575 5850 8575
 Wire Wire Line
-    6300 8575 6250 8575
+	6300 8575 6250 8575
 NoConn ~ 5725 8775
 NoConn ~ 5725 9175
 NoConn ~ 5725 9375
 NoConn ~ 5725 9575
 Wire Wire Line
-    5725 9775 5950 9775
+	5725 9775 5950 9775
 Connection ~ 5950 9775
 Wire Wire Line
-    5950 9975 5725 9975
+	5950 9975 5725 9975
 Connection ~ 5950 9975
 Wire Wire Line
-    5950 9975 6175 9975
+	5950 9975 6175 9975
 Wire Wire Line
-    2575 9975 4725 9975
+	2575 9975 4725 9975
 Wire Wire Line
-    4725 10450 4725 10425
+	4725 10450 4725 10425
 Wire Wire Line
-    4725 10025 4725 9975
+	4725 10025 4725 9975
 Connection ~ 4725 9975
 Wire Wire Line
-    4725 9975 5225 9975
+	4725 9975 5225 9975
 NoConn ~ 5225 8575
 Wire Wire Line
-    8400 4250 8500 4250
+	8400 4250 8500 4250
 Wire Wire Line
-    8400 4350 8500 4350
+	8400 4350 8500 4350
 Wire Wire Line
-    8400 4450 8500 4450
+	8400 4450 8500 4450
 Wire Wire Line
-    8400 4550 8500 4550
+	8400 4550 8500 4550
 Wire Wire Line
-    8400 4650 8500 4650
+	8400 4650 8500 4650
 Wire Wire Line
-    8400 4750 8500 4750
+	8400 4750 8500 4750
 Wire Wire Line
-    8400 4850 8500 4850
+	8400 4850 8500 4850
 Wire Wire Line
-    8400 4950 8450 4950
+	8400 4950 8450 4950
 Wire Wire Line
-    8400 5050 8500 5050
+	8400 5050 8500 5050
 Wire Wire Line
-    14325 6475 14325 6550
+	14325 6475 14325 6550
 Wire Wire Line
-    14325 6550 14125 6550
+	14325 6550 14125 6550
 Wire Wire Line
-    11250 6550 11250 6650
+	11250 6550 11250 6650
 Wire Wire Line
-    11250 6550 10400 6550
+	11250 6550 10400 6550
 Wire Wire Line
-    8875 6550 8875 6475
+	8875 6550 8875 6475
 Connection ~ 11250 6550
 Wire Wire Line
-    9075 6475 9075 6550
+	9075 6475 9075 6550
 Connection ~ 9075 6550
 Wire Wire Line
-    9075 6550 8875 6550
+	9075 6550 8875 6550
 Wire Wire Line
-    9275 6475 9275 6550
+	9275 6475 9275 6550
 Connection ~ 9275 6550
 Wire Wire Line
-    9275 6550 9075 6550
+	9275 6550 9075 6550
 Wire Wire Line
-    9475 6475 9475 6550
+	9475 6475 9475 6550
 Connection ~ 9475 6550
 Wire Wire Line
-    9475 6550 9275 6550
+	9475 6550 9275 6550
 Wire Wire Line
-    9800 6550 9800 6475
+	9800 6550 9800 6475
 Wire Wire Line
-    10000 6475 10000 6550
+	10000 6475 10000 6550
 Wire Wire Line
-    10200 6475 10200 6550
+	10200 6475 10200 6550
 Wire Wire Line
-    10400 6475 10400 6550
+	10400 6475 10400 6550
 Connection ~ 9800 6550
 Wire Wire Line
-    9800 6550 9475 6550
+	9800 6550 9475 6550
 Connection ~ 10000 6550
 Wire Wire Line
-    10000 6550 9800 6550
+	10000 6550 9800 6550
 Connection ~ 10200 6550
 Wire Wire Line
-    10200 6550 10000 6550
+	10200 6550 10000 6550
 Connection ~ 10400 6550
 Wire Wire Line
-    10400 6550 10200 6550
+	10400 6550 10200 6550
 Wire Wire Line
-    12825 6550 12825 6475
+	12825 6550 12825 6475
 Wire Wire Line
-    13025 6475 13025 6550
+	13025 6475 13025 6550
 Wire Wire Line
-    13225 6475 13225 6550
+	13225 6475 13225 6550
 Wire Wire Line
-    13425 6475 13425 6550
+	13425 6475 13425 6550
 Connection ~ 13025 6550
 Wire Wire Line
-    13025 6550 12825 6550
+	13025 6550 12825 6550
 Connection ~ 13225 6550
 Wire Wire Line
-    13225 6550 13025 6550
+	13225 6550 13025 6550
 Wire Wire Line
-    13425 6550 13225 6550
+	13425 6550 13225 6550
 Connection ~ 12825 6550
 Connection ~ 13425 6550
 Wire Wire Line
-    12825 6550 12550 6550
+	12825 6550 12550 6550
 Wire Wire Line
-    11950 6550 11950 6475
+	11950 6550 11950 6475
 Wire Wire Line
-    12150 6475 12150 6550
+	12150 6475 12150 6550
 Wire Wire Line
-    12350 6475 12350 6550
+	12350 6475 12350 6550
 Wire Wire Line
-    12550 6475 12550 6550
+	12550 6475 12550 6550
 Connection ~ 12150 6550
 Wire Wire Line
-    12150 6550 11950 6550
+	12150 6550 11950 6550
 Connection ~ 12350 6550
 Wire Wire Line
-    12350 6550 12150 6550
+	12350 6550 12150 6550
 Wire Wire Line
-    12550 6550 12350 6550
+	12550 6550 12350 6550
 Connection ~ 11950 6550
 Connection ~ 12550 6550
 Wire Wire Line
-    11950 6550 11250 6550
+	11950 6550 11250 6550
 Wire Wire Line
-    13725 6550 13725 6475
+	13725 6550 13725 6475
 Wire Wire Line
-    13925 6475 13925 6550
+	13925 6475 13925 6550
 Wire Wire Line
-    14125 6475 14125 6550
+	14125 6475 14125 6550
 Connection ~ 13925 6550
 Wire Wire Line
-    13925 6550 13725 6550
+	13925 6550 13725 6550
 Connection ~ 14125 6550
 Wire Wire Line
-    14125 6550 13925 6550
+	14125 6550 13925 6550
 Connection ~ 13725 6550
 Wire Wire Line
-    13725 6550 13425 6550
+	13725 6550 13425 6550
 Wire Wire Line
-    8800 5050 8875 5050
+	8800 5050 8875 5050
 Wire Wire Line
-    10975 4950 9075 4950
+	10975 4950 9075 4950
 Wire Wire Line
-    8800 4850 9275 4850
+	8800 4850 9275 4850
 Wire Wire Line
-    8800 4750 9475 4750
+	8800 4750 9475 4750
 Wire Wire Line
-    8800 4650 9800 4650
+	8800 4650 9800 4650
 Wire Wire Line
-    8800 4550 10000 4550
+	8800 4550 10000 4550
 Wire Wire Line
-    8800 4450 10200 4450
+	8800 4450 10200 4450
 Wire Wire Line
-    8800 4350 10400 4350
+	8800 4350 10400 4350
 Wire Wire Line
-    10975 4250 10600 4250
+	10975 4250 10600 4250
 Wire Wire Line
-    10400 4350 10400 6175
+	10400 4350 10400 6175
 Connection ~ 10400 4350
 Wire Wire Line
-    10400 4350 10975 4350
+	10400 4350 10975 4350
 Wire Wire Line
-    10200 4450 10200 6175
+	10200 4450 10200 6175
 Connection ~ 10200 4450
 Wire Wire Line
-    10200 4450 10975 4450
+	10200 4450 10975 4450
 Wire Wire Line
-    10000 4550 10000 6175
+	10000 4550 10000 6175
 Connection ~ 10000 4550
 Wire Wire Line
-    10000 4550 10975 4550
+	10000 4550 10975 4550
 Wire Wire Line
-    9800 4650 9800 6175
+	9800 4650 9800 6175
 Connection ~ 9800 4650
 Wire Wire Line
-    9800 4650 10975 4650
+	9800 4650 10975 4650
 Wire Wire Line
-    8875 6175 8875 5050
+	8875 6175 8875 5050
 Connection ~ 8875 5050
 Wire Wire Line
-    8875 5050 10975 5050
+	8875 5050 10975 5050
 Wire Wire Line
-    9075 6175 9075 4950
+	9075 6175 9075 4950
 Connection ~ 9075 4950
 Wire Wire Line
-    9075 4950 8850 4950
+	9075 4950 8850 4950
 Wire Wire Line
-    9275 6175 9275 4850
+	9275 6175 9275 4850
 Connection ~ 9275 4850
 Wire Wire Line
-    9275 4850 10975 4850
+	9275 4850 10975 4850
 Wire Wire Line
-    9475 6175 9475 4750
+	9475 6175 9475 4750
 Connection ~ 9475 4750
 Wire Wire Line
-    9475 4750 10975 4750
+	9475 4750 10975 4750
 Wire Wire Line
-    11950 6000 10600 6000
+	11950 6000 10600 6000
 Wire Wire Line
-    10600 6000 10600 4250
+	10600 6000 10600 4250
 Wire Wire Line
-    11950 6000 11950 6175
+	11950 6000 11950 6175
 Connection ~ 10600 4250
 Wire Wire Line
-    10600 4250 8800 4250
+	10600 4250 8800 4250
 Wire Wire Line
-    14375 4150 14325 4150
+	14375 4150 14325 4150
 Wire Wire Line
-    11575 4250 14125 4250
+	11575 4250 14125 4250
 Wire Wire Line
-    14375 4350 13925 4350
+	14375 4350 13925 4350
 Wire Wire Line
-    11575 4450 13725 4450
+	11575 4450 13725 4450
 Wire Wire Line
-    14375 4550 13425 4550
+	14375 4550 13425 4550
 Wire Wire Line
-    11575 4650 12550 4650
+	11575 4650 12550 4650
 Wire Wire Line
-    14375 4750 13225 4750
+	14375 4750 13225 4750
 Wire Wire Line
-    11575 4850 13025 4850
+	11575 4850 13025 4850
 Wire Wire Line
-    14375 4950 12825 4950
+	14375 4950 12825 4950
 Wire Wire Line
-    11575 5050 12350 5050
+	11575 5050 12350 5050
 Wire Wire Line
-    14375 5150 12150 5150
+	14375 5150 12150 5150
 $Comp
 L cpu-board:GND #U$0387
 U 1 1 FCA1AC8A
@@ -2842,8 +2824,8 @@ F 0 "#U$0387" H 10725 5575 50  0001 C CNN
 F 1 "GND" H 10638 5488 59  0000 L BNN
 F 2 "" H 10725 5575 50  0001 C CNN
 F 3 "" H 10725 5575 50  0001 C CNN
-    1    10725 5575
-    1    0    0    -1
+	1    10725 5575
+	1    0    0    -1  
 $EndComp
 $Comp
 L cpu-board:GND #U$0373
@@ -2853,114 +2835,114 @@ F 0 "#U$0373" H 10525 3900 50  0001 C CNN
 F 1 "GND" H 10425 3825 59  0000 L BNN
 F 2 "" H 10525 3900 50  0001 C CNN
 F 3 "" H 10525 3900 50  0001 C CNN
-    1    10525 3900
-    -1   0    0    1
+	1    10525 3900
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-    10900 4000 10900 4050
+	10900 4000 10900 4050
 Wire Wire Line
-    10975 4050 10900 4050
+	10975 4050 10900 4050
 Wire Wire Line
-    10525 4150 10525 4000
+	10525 4150 10525 4000
 Wire Wire Line
-    10525 4150 10975 4150
+	10525 4150 10975 4150
 Wire Wire Line
-    11575 4050 11700 4050
+	11575 4050 11700 4050
 Wire Wire Line
-    11700 4050 11700 4000
+	11700 4050 11700 4000
 Wire Wire Line
-    10975 5250 10950 5250
+	10975 5250 10950 5250
 Wire Wire Line
-    10950 5250 10950 5475
+	10950 5250 10950 5475
 Wire Wire Line
-    10975 5150 10725 5150
+	10975 5150 10725 5150
 Wire Wire Line
-    10725 5150 10725 5475
+	10725 5150 10725 5475
 Wire Wire Line
-    11575 5250 11700 5250
+	11575 5250 11700 5250
 Wire Wire Line
-    11700 5250 11700 5475
+	11700 5250 11700 5475
 Wire Wire Line
-    12150 5150 12150 6175
+	12150 5150 12150 6175
 Connection ~ 12150 5150
 Wire Wire Line
-    12150 5150 11575 5150
+	12150 5150 11575 5150
 Wire Wire Line
-    12350 5050 12350 6175
+	12350 5050 12350 6175
 Connection ~ 12350 5050
 Wire Wire Line
-    12350 5050 14375 5050
+	12350 5050 14375 5050
 Wire Wire Line
-    12550 4650 12550 6175
+	12550 4650 12550 6175
 Connection ~ 12550 4650
 Wire Wire Line
-    12550 4650 14375 4650
+	12550 4650 14375 4650
 Wire Wire Line
-    12825 6175 12825 4950
+	12825 6175 12825 4950
 Connection ~ 12825 4950
 Wire Wire Line
-    12825 4950 11575 4950
+	12825 4950 11575 4950
 Wire Wire Line
-    13025 6175 13025 4850
+	13025 6175 13025 4850
 Connection ~ 13025 4850
 Wire Wire Line
-    13025 4850 14375 4850
+	13025 4850 14375 4850
 Wire Wire Line
-    13225 6175 13225 4750
+	13225 6175 13225 4750
 Connection ~ 13225 4750
 Wire Wire Line
-    13225 4750 11575 4750
+	13225 4750 11575 4750
 Wire Wire Line
-    13425 6175 13425 4550
+	13425 6175 13425 4550
 Connection ~ 13425 4550
 Wire Wire Line
-    13425 4550 11575 4550
+	13425 4550 11575 4550
 Wire Wire Line
-    13725 4450 13725 6175
+	13725 4450 13725 6175
 Connection ~ 13725 4450
 Wire Wire Line
-    13725 4450 14375 4450
+	13725 4450 14375 4450
 Wire Wire Line
-    13925 4350 13925 6175
+	13925 4350 13925 6175
 Connection ~ 13925 4350
 Wire Wire Line
-    13925 4350 11575 4350
+	13925 4350 11575 4350
 Wire Wire Line
-    14125 4250 14125 6175
+	14125 4250 14125 6175
 Connection ~ 14125 4250
 Wire Wire Line
-    14125 4250 14375 4250
+	14125 4250 14375 4250
 Wire Wire Line
-    14325 4150 14325 6175
+	14325 4150 14325 6175
 Connection ~ 14325 4150
 Wire Wire Line
-    14325 4150 11575 4150
+	14325 4150 11575 4150
 Wire Wire Line
-    15075 5300 15075 5150
+	15075 5300 15075 5150
 Wire Wire Line
-    15075 5150 14675 5150
+	15075 5150 14675 5150
 Wire Wire Line
-    14675 4150 15050 4150
+	14675 4150 15050 4150
 Wire Wire Line
-    15050 4150 15050 4000
+	15050 4150 15050 4000
 Wire Wire Line
-    14675 4250 14825 4250
+	14675 4250 14825 4250
 Wire Wire Line
-    14675 4350 14825 4350
+	14675 4350 14825 4350
 Wire Wire Line
-    14675 4450 14825 4450
+	14675 4450 14825 4450
 Wire Wire Line
-    14675 4550 14825 4550
+	14675 4550 14825 4550
 Wire Wire Line
-    14675 4650 14825 4650
+	14675 4650 14825 4650
 Wire Wire Line
-    14675 4750 14825 4750
+	14675 4750 14825 4750
 Wire Wire Line
-    14675 4850 14825 4850
+	14675 4850 14825 4850
 Wire Wire Line
-    14675 4950 14825 4950
+	14675 4950 14825 4950
 Wire Wire Line
-    14675 5050 14825 5050
+	14675 5050 14825 5050
 $Comp
 L cpu-board:FH_40BR J17
 U 1 1 E8FF25C4
@@ -2977,8 +2959,8 @@ F 8 "0.8MM FREE HEIGHT CONNECTOR" H 12600 2150 50  0001 C CNN "Manufacturer_Desc
 F 9 "TYCO ELECTRONICS" H 12600 2150 50  0001 C CNN "Manufacturer2"
 F 10 "5177985-1" H 12600 2150 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 12600 2150 50  0001 C CNN "Manufacturer_Desc2"
-    1    12600 2150
-    0    -1   -1   0
+	1    12600 2150
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cpu-board:TANTALB C34
@@ -2996,95 +2978,95 @@ F 8 "Cap, Tantalum, Polarized, 35V, 20% +/-Tol, 1uF, Surface Mount, 1206 (Case A
 F 9 "KEMET" H 14375 1300 50  0001 C CNN "Manufacturer2"
 F 10 "T495A105K035ATE3K0" H 14375 1300 50  0001 C CNN "Manufacturer_No2"
 F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case A), EIA Metric 3216" H 14375 1300 50  0001 C CNN "Manufacturer_Desc2"
-    1    14375 1300
-    0    -1   -1   0
+	1    14375 1300
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-    14575 1300 14525 1300
+	14575 1300 14525 1300
 Wire Wire Line
-    14275 1300 14200 1300
+	14275 1300 14200 1300
 Wire Wire Line
-    14200 1300 14200 1025
+	14200 1300 14200 1025
 Wire Wire Line
-    14200 1300 14200 1750
+	14200 1300 14200 1750
 Connection ~ 14200 1300
 Wire Wire Line
-    14400 2150 14400 2375
+	14400 2150 14400 2375
 Wire Wire Line
-    14200 2150 14200 2375
+	14200 2150 14200 2375
 Wire Wire Line
-    14000 2150 14000 2675
+	14000 2150 14000 2675
 Wire Wire Line
-    13800 2150 13800 2925
+	13800 2150 13800 2925
 Wire Wire Line
-    13600 2150 13600 2425
+	13600 2150 13600 2425
 Wire Wire Line
-    13200 2150 13200 2675
+	13200 2150 13200 2675
 Wire Wire Line
-    13000 2150 13000 2925
+	13000 2150 13000 2925
 Wire Wire Line
-    12800 2150 12800 2675
+	12800 2150 12800 2675
 Wire Wire Line
-    12600 2150 12600 2675
+	12600 2150 12600 2675
 Wire Wire Line
-    12400 2150 12400 2925
+	12400 2150 12400 2925
 Wire Wire Line
-    12200 2150 12200 2925
+	12200 2150 12200 2925
 Wire Wire Line
-    12000 2150 12000 2375
+	12000 2150 12000 2375
 Wire Wire Line
-    11800 2150 11800 2925
+	11800 2150 11800 2925
 Wire Wire Line
-    11600 2150 11600 2925
+	11600 2150 11600 2925
 Wire Wire Line
-    11400 2150 11400 2925
+	11400 2150 11400 2925
 Wire Wire Line
-    10800 2150 10800 2800
+	10800 2150 10800 2800
 Wire Wire Line
-    10800 2800 10700 2800
+	10800 2800 10700 2800
 Connection ~ 10800 2800
 Wire Wire Line
-    10800 2800 10800 2975
+	10800 2800 10800 2975
 Wire Wire Line
-    10500 2800 10450 2800
+	10500 2800 10450 2800
 Wire Wire Line
-    10450 2800 10450 2925
+	10450 2800 10450 2925
 Wire Wire Line
-    10450 2800 10450 2425
+	10450 2800 10450 2425
 Wire Wire Line
-    10450 2425 10600 2425
+	10450 2425 10600 2425
 Wire Wire Line
-    10600 2425 10600 2150
+	10600 2425 10600 2150
 Connection ~ 10450 2800
 Wire Wire Line
-    11000 1750 11000 1475
+	11000 1750 11000 1475
 Wire Wire Line
-    10800 1025 10800 1300
+	10800 1025 10800 1300
 Wire Wire Line
-    10800 1300 10700 1300
+	10800 1300 10700 1300
 Connection ~ 10800 1300
 Wire Wire Line
-    10800 1300 10800 1750
+	10800 1300 10800 1750
 Wire Wire Line
-    10450 1050 10450 1300
+	10450 1050 10450 1300
 Wire Wire Line
-    10450 1300 10500 1300
+	10450 1300 10500 1300
 Wire Wire Line
-    10450 1300 10450 1550
+	10450 1300 10450 1550
 Wire Wire Line
-    10450 1550 10600 1550
+	10450 1550 10600 1550
 Wire Wire Line
-    10600 1550 10600 1750
+	10600 1550 10600 1750
 Connection ~ 10450 1300
 Wire Wire Line
-    14400 1750 14400 1500
+	14400 1750 14400 1500
 Wire Wire Line
-    14400 1500 14525 1500
+	14400 1500 14525 1500
 Wire Wire Line
-    14525 1500 14525 1300
+	14525 1500 14525 1300
 Connection ~ 14525 1300
 Wire Wire Line
-    14525 1300 14475 1300
+	14525 1300 14475 1300
 NoConn ~ 14000 1750
 NoConn ~ 13800 1750
 NoConn ~ 13600 1750
@@ -3119,36 +3101,33 @@ D1
 Text Label 11400 2300 1    50   ~ 0
 D7
 Entry Wire Line
-    11400 2925 11500 3025
+	11400 2925 11500 3025
 Entry Wire Line
-    11600 2925 11700 3025
+	11600 2925 11700 3025
 Entry Wire Line
-    11800 2925 11900 3025
+	11800 2925 11900 3025
 Entry Wire Line
-    12200 2925 12300 3025
+	12200 2925 12300 3025
 Entry Wire Line
-    12400 2925 12500 3025
+	12400 2925 12500 3025
 Entry Wire Line
-    13000 2925 13100 3025
+	13000 2925 13100 3025
 Entry Wire Line
-    13400 2925 13500 3025
+	13400 2925 13500 3025
 Entry Wire Line
-    13800 2925 13900 3025
+	13800 2925 13900 3025
 Text HLabel 14200 3025 2    50   Input ~ 0
 D[0..15]
 Wire Wire Line
-    13400 2150 13400 2925
-NoConn ~ 2800 5425
-NoConn ~ 2800 5625
-NoConn ~ 2800 5825
+	13400 2150 13400 2925
 Entry Wire Line
-    12600 2675 12700 2775
+	12600 2675 12700 2775
 Entry Wire Line
-    12800 2675 12900 2775
+	12800 2675 12900 2775
 Entry Wire Line
-    13200 2675 13300 2775
+	13200 2675 13300 2775
 Entry Wire Line
-    14000 2675 14100 2775
+	14000 2675 14100 2775
 Text Label 12600 2200 3    50   ~ 0
 A1
 Text Label 12800 2200 3    50   ~ 0
@@ -3159,40 +3138,38 @@ Text Label 14000 2200 3    50   ~ 0
 A3
 Text HLabel 14225 2775 2    50   Input ~ 0
 A[0..19]
-Wire Bus Line
-    12600 2775 14225 2775
-Wire Bus Line
-    11400 3025 14200 3025
 Wire Wire Line
-    3000 4425 3300 4425
+	3000 4425 3300 4425
 Wire Wire Line
-    3000 4625 3287 4625
+	3000 4625 3287 4625
 Wire Wire Line
-    3000 5025 3225 5025
+	3000 5025 3225 5025
 Wire Wire Line
-    3000 5425 3275 5425
+	3000 5425 3275 5425
 Wire Wire Line
-    3000 1625 3300 1625
+	3000 1625 3300 1625
 Wire Wire Line
-    3000 1825 3275 1825
+	3000 1825 3275 1825
 Wire Wire Line
-    3000 2025 3275 2025
+	3000 2025 3275 2025
 Wire Wire Line
-    3000 5625 3275 5625
+	3000 5625 3275 5625
 Wire Wire Line
-    3000 2225 3275 2225
+	3000 2225 3275 2225
 Wire Wire Line
-    3000 2425 3275 2425
+	3000 2425 3275 2425
 Wire Wire Line
-    3000 2625 3275 2625
+	3000 2625 3275 2625
 Wire Wire Line
-    3000 3225 3275 3225
+	3000 3225 3275 3225
 Wire Wire Line
-    3000 3825 3300 3825
+	3000 3825 3300 3825
 $Comp
 L cpu-board:ZIF-52610-2290 J1
 U 1 1 449C7C68
 P 2800 5925
+AR Path="/449C7C68" Ref="J1"  Part="1" 
+AR Path="/5E926050/449C7C68" Ref="J1"  Part="1" 
 F 0 "J1" H 2987 5800 73  0000 L BNN
 F 1 "ZIF-52610-2290" H 3000 5925 50  0001 C CNN
 F 2 "AllModules:MOL52610-22_1" H 3000 5925 50  0001 C CNN
@@ -3205,7 +3182,74 @@ F 8 "CONNECTOR" H 3000 5925 50  0001 C CNN "Manufacturer_Desc"
 F 9 "MOLEX_RMS1" H 3000 5925 50  0001 C CNN "Manufacturer2"
 F 10 "0526102271" H 3000 5925 50  0001 C CNN "Manufacturer_No2"
 F 11 "CONNECTOR" H 3000 5925 50  0001 C CNN "Manufacturer_Desc2"
-    1    3000 5925
-    1    0    0    -1
+	1    2800 5925
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2800 1625 3000 1625
+Connection ~ 3000 1625
+Wire Wire Line
+	2800 1825 3000 1825
+Connection ~ 3000 1825
+Wire Wire Line
+	2800 2425 3000 2425
+Wire Wire Line
+	2800 2625 3000 2625
+Wire Wire Line
+	2800 2025 3000 2025
+Wire Wire Line
+	2800 2225 3000 2225
+Wire Wire Line
+	2800 3425 3000 3425
+Wire Wire Line
+	2800 3625 3000 3625
+Wire Wire Line
+	2800 3025 3000 3025
+Wire Wire Line
+	2800 3225 3000 3225
+Wire Wire Line
+	2800 4225 3000 4225
+Wire Wire Line
+	2800 4425 3000 4425
+Wire Wire Line
+	2800 3825 3000 3825
+Wire Wire Line
+	2800 4025 3000 4025
+Wire Wire Line
+	2800 5025 3000 5025
+Wire Wire Line
+	2800 5225 3000 5225
+Wire Wire Line
+	2800 4625 3000 4625
+Wire Wire Line
+	2800 4825 3000 4825
+Wire Wire Line
+	2800 5825 3000 5825
+Wire Wire Line
+	2800 5425 3000 5425
+Wire Wire Line
+	2800 5625 3000 5625
+Wire Bus Line
+	12600 2775 14225 2775
+Wire Bus Line
+	11400 3025 14200 3025
+Connection ~ 3000 2025
+Connection ~ 3000 2225
+Connection ~ 3000 2425
+Connection ~ 3000 2625
+Connection ~ 3000 3025
+Connection ~ 3000 3225
+Connection ~ 3000 3425
+Connection ~ 3000 3625
+Connection ~ 3000 3825
+Connection ~ 3000 4025
+Connection ~ 3000 4225
+Connection ~ 3000 4425
+Connection ~ 3000 4625
+Connection ~ 3000 4825
+Connection ~ 3000 5025
+Connection ~ 3000 5225
+Connection ~ 3000 5425
+Connection ~ 3000 5625
+Connection ~ 3000 5825
 $EndSCHEMATC
