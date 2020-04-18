@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C0603_10nF
+D CAPACITOR CERAMIC,10NF,+/-10%,50V,0603
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP C0603_2.2nF
+D CAPACITOR CERAMIC, 2.2NF, +/-10%,50V, X7R, 0603
+F https://api.kemet.com/component-edge/download/datasheet/C0603C222K5RAC7411.pdf
+$ENDCMP
+#
+$CMP CapacitorArray_47pf
+D CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf
+$ENDCMP
+#
+#End Doc Library
