@@ -667,34 +667,177 @@ Wire Bus Line
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5E9B6535
-P 3050 2100
-F 0 "H1" H 3150 2149 50  0000 L CNN
-F 1 "ThroughHole_Pad" H 3150 2058 50  0000 L CNN
-F 2 "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" H 3050 2100 50  0001 C CNN
-F 3 "~" H 3050 2100 50  0001 C CNN
-	1    3050 2100
+P 3050 1850
+F 0 "H1" H 3150 1899 50  0000 L CNN
+F 1 "ThroughHole_Pad" H 3150 1808 50  0000 L CNN
+F 2 "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" H 3050 1850 50  0001 C CNN
+F 3 "~" H 3050 1850 50  0001 C CNN
+	1    3050 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5E9B69D4
-P 3050 2500
-F 0 "H2" H 3150 2549 50  0000 L CNN
-F 1 "ThroughHole_Pad" H 3150 2458 50  0000 L CNN
-F 2 "AllModules:ThroughHole_60milx6mm_Pad_Cu_Mask" H 3050 2500 50  0001 C CNN
-F 3 "~" H 3050 2500 50  0001 C CNN
-	1    3050 2500
+P 3050 2150
+F 0 "H2" H 3150 2199 50  0000 L CNN
+F 1 "ThroughHole_Pad" H 3150 2108 50  0000 L CNN
+F 2 "AllModules:ThroughHole_60milx6mm_Pad_Cu_Mask" H 3050 2150 50  0001 C CNN
+F 3 "~" H 3050 2150 50  0001 C CNN
+	1    3050 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5E9B6C7F
-P 3050 2850
-F 0 "H3" H 3150 2899 50  0000 L CNN
-F 1 "ThroughHole_Pad" H 3150 2808 50  0000 L CNN
-F 2 "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" H 3050 2850 50  0001 C CNN
-F 3 "~" H 3050 2850 50  0001 C CNN
-	1    3050 2850
+P 3050 2450
+F 0 "H3" H 3150 2499 50  0000 L CNN
+F 1 "ThroughHole_Pad" H 3150 2408 50  0000 L CNN
+F 2 "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" H 3050 2450 50  0001 C CNN
+F 3 "~" H 3050 2450 50  0001 C CNN
+	1    3050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM1
+U 1 1 5EA72855
+P 3050 2750
+F 0 "ZM1" H 3150 2796 50  0000 L CNN
+F 1 "MountingHole" H 3150 2705 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 2750 50  0001 C CNN
+F 3 "~" H 3050 2750 50  0001 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM2
+U 1 1 5EA7D06E
+P 3050 2950
+F 0 "ZM2" H 3150 2996 50  0000 L CNN
+F 1 "MountingHole" H 3150 2905 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 2950 50  0001 C CNN
+F 3 "~" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM3
+U 1 1 5EA7DBDF
+P 3050 3150
+F 0 "ZM3" H 3150 3196 50  0000 L CNN
+F 1 "MountingHole" H 3150 3105 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 3150 50  0001 C CNN
+F 3 "~" H 3050 3150 50  0001 C CNN
+	1    3050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM4
+U 1 1 5EA7DBE9
+P 3050 3350
+F 0 "ZM4" H 3150 3396 50  0000 L CNN
+F 1 "MountingHole" H 3150 3305 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 3350 50  0001 C CNN
+F 3 "~" H 3050 3350 50  0001 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM5
+U 1 1 5EA7E64F
+P 3050 3550
+F 0 "ZM5" H 3150 3596 50  0000 L CNN
+F 1 "MountingHole" H 3150 3505 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 3550 50  0001 C CNN
+F 3 "~" H 3050 3550 50  0001 C CNN
+	1    3050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM6
+U 1 1 5EA7E659
+P 3050 3750
+F 0 "ZM6" H 3150 3796 50  0000 L CNN
+F 1 "MountingHole" H 3150 3705 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 3750 50  0001 C CNN
+F 3 "~" H 3050 3750 50  0001 C CNN
+	1    3050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM7
+U 1 1 5EA7E663
+P 3050 3950
+F 0 "ZM7" H 3150 3996 50  0000 L CNN
+F 1 "MountingHole" H 3150 3905 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 3950 50  0001 C CNN
+F 3 "~" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM8
+U 1 1 5EA7E66D
+P 3050 4150
+F 0 "ZM8" H 3150 4196 50  0000 L CNN
+F 1 "MountingHole" H 3150 4105 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 4150 50  0001 C CNN
+F 3 "~" H 3050 4150 50  0001 C CNN
+	1    3050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM9
+U 1 1 5EA85DD7
+P 3050 4350
+F 0 "ZM9" H 3150 4396 50  0000 L CNN
+F 1 "MountingHole" H 3150 4305 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 4350 50  0001 C CNN
+F 3 "~" H 3050 4350 50  0001 C CNN
+	1    3050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM10
+U 1 1 5EA85DE1
+P 3050 4550
+F 0 "ZM10" H 3150 4596 50  0000 L CNN
+F 1 "MountingHole" H 3150 4505 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 4550 50  0001 C CNN
+F 3 "~" H 3050 4550 50  0001 C CNN
+	1    3050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM11
+U 1 1 5EA85DEB
+P 3050 4750
+F 0 "ZM11" H 3150 4796 50  0000 L CNN
+F 1 "MountingHole" H 3150 4705 50  0000 L CNN
+F 2 "AllModules:FIX35_1" H 3050 4750 50  0001 C CNN
+F 3 "~" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM12
+U 1 1 5EA85DF5
+P 3050 5100
+F 0 "ZM12" H 3150 5146 50  0000 L CNN
+F 1 "SmallHole" H 3150 5055 50  0000 L CNN
+F 2 "AllModules:FIX30_1" H 3050 5100 50  0001 C CNN
+F 3 "~" H 3050 5100 50  0001 C CNN
+	1    3050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole ZM13
+U 1 1 5EA87776
+P 3050 5300
+F 0 "ZM13" H 3150 5346 50  0000 L CNN
+F 1 "SmallHole" H 3150 5255 50  0000 L CNN
+F 2 "AllModules:FIX30_1" H 3050 5300 50  0001 C CNN
+F 3 "~" H 3050 5300 50  0001 C CNN
+	1    3050 5300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
