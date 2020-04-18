@@ -840,4 +840,48 @@ F 3 "~" H 3050 5300 50  0001 C CNN
 	1    3050 5300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial MIR1
+U 1 1 5E9BC652
+P 7850 2750
+F 0 "MIR1" H 7935 2750 50  0000 L CNN
+F 1 "Fiducial" H 7935 2705 50  0001 L CNN
+F 2 "AllModules:MIRECMS_D-1.5_1" H 7850 2750 50  0001 C CNN
+F 3 "~" H 7850 2750 50  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial MIR2
+U 1 1 5E9BE4E3
+P 7850 2900
+F 0 "MIR2" H 7935 2900 50  0000 L CNN
+F 1 "Fiducial" H 7935 2855 50  0001 L CNN
+F 2 "AllModules:MIRECMS_D-1.5_1" H 7850 2900 50  0001 C CNN
+F 3 "~" H 7850 2900 50  0001 C CNN
+	1    7850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial MIR3
+U 1 1 5E9BE6CC
+P 7850 3050
+F 0 "MIR3" H 7935 3050 50  0000 L CNN
+F 1 "Fiducial" H 7935 3005 50  0001 L CNN
+F 2 "AllModules:MIRECMS_D-1.5_1" H 7850 3050 50  0001 C CNN
+F 3 "~" H 7850 3050 50  0001 C CNN
+	1    7850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial MIR4
+U 1 1 5E9BE945
+P 7850 3200
+F 0 "MIR4" H 7935 3200 50  0000 L CNN
+F 1 "Fiducial" H 7935 3155 50  0001 L CNN
+F 2 "AllModules:MIRECMS_D-1.5_1" H 7850 3200 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+	1    7850 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
