@@ -1949,7 +1949,7 @@ MRST-SPI-0_E
 Text HLabel 7050 10150 0    56   Input ~ 0
 SCLK-SPI-0
 Text Notes 9137 8075 0    59   ~ 0
-Dual implantation of Analog and Digital sensor:If SPI sensors are used then the equivalent analog sensors will not be wired
+Dual implantation of Analog and Digital sensor: If SPI sensors are used then the equivalent analog sensors will not be wired
 Wire Notes Line
 	15325 7838 9012 7838
 Wire Notes Line
