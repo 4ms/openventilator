@@ -1,4 +1,4 @@
-(module B7BZR-SM3TF_1 (layer F.Cu) (tedit 5E9B4090)
+(module B7BZR-SM3TF_1 (layer F.Cu) (tedit 5E9C3AAB)
   (attr smd)
   (fp_text reference J18 (at -0.73143 5.30361 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -40,9 +40,9 @@
   (pad 3 smd rect (at -1.5 1.15) (size 0.7 5.1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3 1.15) (size 0.7 5.1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -4.5 1.15) (size 0.7 5.1) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/Footprints.3dshapes/B7B-ZR-SM4-TF.step
-    (offset (xyz 0 1.85 0))
+  (model "${KIPRJMOD}/Footprints.3dshapes/JST B7B-ZR-SM4-TF.step"
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 180))
+    (rotate (xyz 0 0 0))
   )
 )
