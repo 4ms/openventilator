@@ -1,4 +1,4 @@
-(module SC70-5_1 (layer F.Cu) (tedit 0)
+(module SC70-5_1 (layer F.Cu) (tedit 5E9C783E)
   (attr smd)
   (fp_text reference D1 (at 0.50103 -3.2034 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -43,4 +43,9 @@
   (pad 3 smd rect (at -0.65 -1) (size 0.4064 1.016) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -1) (size 0.4064 1.016) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0.65 -1) (size 0.4064 1.016) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

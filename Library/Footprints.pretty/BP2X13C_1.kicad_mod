@@ -1,4 +1,4 @@
-(module BP2X13C_1 (layer F.Cu) (tedit 0)
+(module BP2X13C_1 (layer F.Cu) (tedit 5E9C7DA8)
   (attr smd)
   (fp_text reference J7 (at -15.75477 15.5224 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -48,4 +48,9 @@
   (pad 3 thru_hole circle (at -2.54 0 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 2.54 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Footprints.3dshapes/75867_y05_asm.stp
+    (offset (xyz 9.5 -10.35 4.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
