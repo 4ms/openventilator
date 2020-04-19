@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "10096315 Blower Driver")(type KiCad)(uri "${KIPRJMOD}/10096315 Blower Driver.pretty")(options "")(descr ""))
+  (lib (name ctrb0505-A)(type KiCad)(uri ${KIPRJMOD}/ctrb0505-A.pretty)(options "")(descr ""))
 )

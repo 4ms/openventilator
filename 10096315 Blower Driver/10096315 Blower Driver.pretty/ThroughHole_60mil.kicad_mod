@@ -1,0 +1,10 @@
+(module ThroughHole_60mil (layer F.Cu) (tedit 5E9725CC)
+  (descr "Through Hole 0.06 inch diameter")
+  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value ThroughHole_60mil (at 0 1.905) (layer Cmts.User) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.3048) (layers *.Cu *.Mask))
+)
