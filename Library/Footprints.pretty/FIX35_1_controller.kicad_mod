@@ -1,0 +1,21 @@
+(module FIX35_1_controller (layer F.Cu) (tedit 5E9C6F50)
+  (attr smd)
+  (fp_text reference ZM1 (at -53.34613 168.447 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value FIX-0035 (at -1.64453 -0.257 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 1.75 0) (layer F.Fab) (width 0.1))
+  (pad 1 thru_hole circle (at 0 0) (size 2.9972 2.9972) (drill 3.5052) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/Footprints.3dshapes/entretoise hexa  m3x8.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/Footprints.3dshapes/2966100 Vis TCB M3 x 5 exalobes acier zingué .stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
