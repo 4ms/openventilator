@@ -20,7 +20,7 @@ P 9300 2400
 F 0 "C3" H 9415 2491 50  0000 L CNN
 F 1 "Capacitor_100nF" H 9300 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 9350 1950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 9300 2850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9300 2850 50  0001 C CNN
 F 4 "" H 9850 2250 50  0001 C CNN "MPN"
 F 5 "100nF" H 9415 2400 50  0000 L CNN "Capacitance"
 F 6 "50V" H 9415 2309 50  0000 L CNN "Voltage"
@@ -38,7 +38,7 @@ P 10650 2400
 F 0 "C5" H 10765 2491 50  0000 L CNN
 F 1 "Capacitor_100nF" H 10650 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 10700 1950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 10650 2850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10650 2850 50  0001 C CNN
 F 4 "" H 11200 2250 50  0001 C CNN "MPN"
 F 5 "100nF" H 10765 2400 50  0000 L CNN "Capacitance"
 F 6 "50V" H 10765 2309 50  0000 L CNN "Voltage"
@@ -221,7 +221,7 @@ P 4050 2400
 F 0 "C4" H 4165 2491 50  0000 L CNN
 F 1 "Capacitor_22uF_CheckFootprint" H 4050 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:C7343" H 4100 1950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 4050 2850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" H 4050 2850 50  0001 C CNN
 F 4 "" H 4600 2250 50  0001 C CNN "MPN"
 F 5 "22uF" H 4165 2400 50  0000 L CNN "Capacitance"
 F 6 "35V" H 4165 2309 50  0000 L CNN "Voltage"
@@ -385,7 +385,7 @@ P 13800 3950
 F 0 "C9" H 13915 4041 50  0000 L CNN
 F 1 "Capacitor_100nF" H 13800 4400 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 13850 3500 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 13800 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 13800 4400 50  0001 C CNN
 F 4 "" H 14350 3800 50  0001 C CNN "MPN"
 F 5 "100nF" H 13915 3950 50  0000 L CNN "Capacitance"
 F 6 "50V" H 13915 3859 50  0000 L CNN "Voltage"
@@ -877,7 +877,7 @@ P 13800 6750
 F 0 "C12" H 13915 6841 50  0000 L CNN
 F 1 "Capacitor_100nF" H 13800 7200 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 13850 6300 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 13800 7200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 13800 7200 50  0001 C CNN
 F 4 "" H 14350 6600 50  0001 C CNN "MPN"
 F 5 "100nF" H 13915 6750 50  0000 L CNN "Capacitance"
 F 6 "50V" H 13915 6659 50  0000 L CNN "Voltage"
@@ -1355,7 +1355,7 @@ P 13800 9650
 F 0 "C15" H 13915 9741 50  0000 L CNN
 F 1 "Capacitor_100nF" H 13800 10100 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 13850 9200 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 13800 10100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 13800 10100 50  0001 C CNN
 F 4 "" H 14350 9500 50  0001 C CNN "MPN"
 F 5 "100nF" H 13915 9650 50  0000 L CNN "Capacitance"
 F 6 "50V" H 13915 9559 50  0000 L CNN "Voltage"
@@ -1846,7 +1846,7 @@ P 8600 6750
 F 0 "C6" H 8715 6841 50  0000 L CNN
 F 1 "Capacitor_100nF" H 8600 7200 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 8650 6300 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 8600 7200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8600 7200 50  0001 C CNN
 F 4 "" H 9150 6600 50  0001 C CNN "MPN"
 F 5 "100nF" H 8715 6750 50  0000 L CNN "Capacitance"
 F 6 "50V" H 8715 6659 50  0000 L CNN "Voltage"
@@ -1955,7 +1955,7 @@ P 9850 12400
 F 0 "C21" H 9965 12491 50  0000 L CNN
 F 1 "Capacitor_100nF" H 9850 12850 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 9900 11950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 9850 12850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9850 12850 50  0001 C CNN
 F 4 "" H 10400 12250 50  0001 C CNN "MPN"
 F 5 "100nF" H 9965 12400 50  0000 L CNN "Capacitance"
 F 6 "50V" H 9965 12309 50  0000 L CNN "Voltage"
@@ -2166,7 +2166,7 @@ P 7450 11800
 F 0 "C18" H 7565 11891 50  0000 L CNN
 F 1 "Capacitor_330nF" H 7450 12250 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 7500 11350 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 7450 12250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7450 12250 50  0001 C CNN
 F 4 "" H 8000 11650 50  0001 C CNN "MPN"
 F 5 "330nF" H 7565 11800 50  0000 L CNN "Capacitance"
 F 6 "16V" H 7565 11709 50  0000 L CNN "Voltage"
@@ -2201,7 +2201,7 @@ P 8550 10550
 F 0 "C19" V 8400 10500 50  0000 L CNN
 F 1 "Capacitor_100nF" H 8550 11000 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 8600 10100 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 8550 11000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8550 11000 50  0001 C CNN
 F 4 "" H 9100 10400 50  0001 C CNN "MPN"
 F 5 "100nF" V 8750 10400 50  0000 L CNN "Capacitance"
 F 6 "50V" V 8665 10459 50  0000 L CNN "Voltage"
@@ -2721,7 +2721,7 @@ P 2000 2300
 F 0 "C1" H 2115 2391 50  0000 L CNN
 F 1 "Capacitor_100nF" H 2000 2750 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 2050 1850 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 2000 2750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2000 2750 50  0001 C CNN
 F 4 "" H 2550 2150 50  0001 C CNN "MPN"
 F 5 "100nF" H 2115 2300 50  0000 L CNN "Capacitance"
 F 6 "50V" H 2115 2209 50  0000 L CNN "Voltage"
@@ -3312,7 +3312,7 @@ P 19050 9400
 F 0 "C26" H 19165 9491 50  0000 L CNN
 F 1 "Capacitor_100nF" H 19050 9850 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 19100 8950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 19050 9850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 19050 9850 50  0001 C CNN
 F 4 "" H 19600 9250 50  0001 C CNN "MPN"
 F 5 "100nF" H 19165 9400 50  0000 L CNN "Capacitance"
 F 6 "50V" H 19165 9309 50  0000 L CNN "Voltage"
@@ -3346,7 +3346,7 @@ P 19050 6500
 F 0 "C25" H 19165 6591 50  0000 L CNN
 F 1 "Capacitor_100nF" H 19050 6950 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 19100 6050 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 19050 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 19050 6950 50  0001 C CNN
 F 4 "" H 19600 6350 50  0001 C CNN "MPN"
 F 5 "100nF" H 19165 6500 50  0000 L CNN "Capacitance"
 F 6 "50V" H 19165 6409 50  0000 L CNN "Voltage"
@@ -3380,7 +3380,7 @@ P 19050 3700
 F 0 "C24" H 19165 3791 50  0000 L CNN
 F 1 "Capacitor_100nF" H 19050 4150 50  0001 C CNN
 F 2 "10096315 Blower Driver:C0805" H 19100 3250 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf" H 19050 4150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 19050 4150 50  0001 C CNN
 F 4 "" H 19600 3550 50  0001 C CNN "MPN"
 F 5 "100nF" H 19165 3700 50  0000 L CNN "Capacitance"
 F 6 "50V" H 19165 3609 50  0000 L CNN "Voltage"
@@ -3850,7 +3850,7 @@ P 11150 2400
 F 0 "C27" H 11250 2500 50  0000 L CNN
 F 1 "DNP" H 11150 2850 50  0001 C CNN
 F 2 "10096315 Blower Driver:03515" H 11200 1950 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2002520.pdf" H 11150 2850 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1215.pdf" H 11150 2850 50  0001 C CNN
 F 4 "" H 11700 2250 50  0001 C CNN "MPN"
 F 5 "470uF" H 11265 2400 50  0000 L CNN "Capacitance"
 F 6 "25V" H 11265 2309 50  0000 L CNN "Voltage"
