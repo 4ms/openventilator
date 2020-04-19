@@ -4031,7 +4031,7 @@ U 1 1 5E9B8648
 P 1000 6500
 F 0 "TH1" H 1100 6546 50  0000 L CNN
 F 1 "ThroughHole" H 1100 6455 50  0000 L CNN
-F 2 "10096315 Blower Driver:ThroughHole_60mil" H 1000 6500 50  0001 C CNN
+F 2 "ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask" H 1000 6500 50  0001 C CNN
 F 3 "~" H 1000 6500 50  0001 C CNN
 	1    1000 6500
 	1    0    0    -1  
@@ -4042,7 +4042,7 @@ U 1 1 5E9C0F88
 P 1000 7000
 F 0 "TH2" H 1100 7046 50  0000 L CNN
 F 1 "ThroughHole" H 1100 6955 50  0000 L CNN
-F 2 "10096315 Blower Driver:ThroughHole_60mil" H 1000 7000 50  0001 C CNN
+F 2 "ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask" H 1000 7000 50  0001 C CNN
 F 3 "~" H 1000 7000 50  0001 C CNN
 	1    1000 7000
 	1    0    0    -1  
@@ -4053,7 +4053,7 @@ U 1 1 5EA021CD
 P 2000 6500
 F 0 "TH3" H 2100 6546 50  0000 L CNN
 F 1 "MountingHole" H 2100 6455 50  0000 L CNN
-F 2 "10096315 Blower Driver:ThroughHole_60mil" H 2000 6500 50  0001 C CNN
+F 2 "ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask" H 2000 6500 50  0001 C CNN
 F 3 "~" H 2000 6500 50  0001 C CNN
 	1    2000 6500
 	1    0    0    -1  
@@ -4064,7 +4064,7 @@ U 1 1 5EA021D7
 P 2000 7000
 F 0 "TH4" H 2100 7046 50  0000 L CNN
 F 1 "MountingHole" H 2100 6955 50  0000 L CNN
-F 2 "10096315 Blower Driver:ThroughHole_60mil" H 2000 7000 50  0001 C CNN
+F 2 "ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask" H 2000 7000 50  0001 C CNN
 F 3 "~" H 2000 7000 50  0001 C CNN
 	1    2000 7000
 	1    0    0    -1  
@@ -4075,7 +4075,7 @@ U 1 1 5EAC8D45
 P 3000 6500
 F 0 "TH5" H 3100 6546 50  0000 L CNN
 F 1 "ThroughHole" H 3100 6455 50  0000 L CNN
-F 2 "10096315 Blower Driver:ThroughHole_60mil" H 3000 6500 50  0001 C CNN
+F 2 "ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask" H 3000 6500 50  0001 C CNN
 F 3 "~" H 3000 6500 50  0001 C CNN
 	1    3000 6500
 	1    0    0    -1  
@@ -4086,7 +4086,7 @@ U 1 1 5EAC8D4F
 P 3000 7000
 F 0 "TH6" H 3100 7046 50  0000 L CNN
 F 1 "ThroughHole" H 3100 6955 50  0000 L CNN
-F 2 "10096315 Blower Driver:ThroughHole_60mil" H 3000 7000 50  0001 C CNN
+F 2 "ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask" H 3000 7000 50  0001 C CNN
 F 3 "~" H 3000 7000 50  0001 C CNN
 	1    3000 7000
 	1    0    0    -1  
