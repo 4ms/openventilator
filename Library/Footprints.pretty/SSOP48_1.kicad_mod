@@ -1,4 +1,4 @@
-(module SSOP48_1 (layer F.Cu) (tedit 0)
+(module SSOP48_1 (layer F.Cu) (tedit 5E9B9467)
   (attr smd)
   (fp_text reference IC14 (at 1.02163 -7.5214 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -117,4 +117,9 @@
   (pad 3 smd rect (at -6.0325 5.08) (size 0.4064 2.032) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -6.6675 5.08) (size 0.4064 2.032) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -7.3025 5.08) (size 0.4064 2.032) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SSOP-48_7.5x15.9mm_P0.635mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

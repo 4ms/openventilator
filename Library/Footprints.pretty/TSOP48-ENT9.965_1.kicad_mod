@@ -1,4 +1,4 @@
-(module TSOP48-ENT9.965_1 (layer F.Cu) (tedit 0)
+(module TSOP48-ENT9.965_1 (layer F.Cu) (tedit 5E9B95C2)
   (attr smd)
   (fp_text reference IC7 (at -87.81114 147.95701 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -207,4 +207,9 @@
   (pad 3 smd rect (at -4.75 9.965) (size 0.28 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -5.25 9.965) (size 0.28 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -5.75 9.965) (size 0.28 1.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/TSOP-I-48_12x18.4mm_P0.5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

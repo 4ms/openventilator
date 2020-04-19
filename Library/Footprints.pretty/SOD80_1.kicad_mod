@@ -1,4 +1,4 @@
-(module SOD80_1 (layer F.Cu) (tedit 0)
+(module SOD80_1 (layer F.Cu) (tedit 5E9B920D)
   (attr smd)
   (fp_text reference D12 (at 4.0924 0.67243 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -21,4 +21,9 @@
   (fp_line (start 1.016 0.8636) (end 1.016 -0.8636) (layer F.Fab) (width 0.1))
   (pad K smd rect (at 1.6 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at -1.6 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_MiniMELF.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

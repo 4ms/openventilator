@@ -1,4 +1,4 @@
-(module HMB12_1 (layer F.Cu) (tedit 0)
+(module HMB12_1 (layer F.Cu) (tedit 5E9B8BB2)
   (attr smd)
   (fp_text reference BUZ1 (at -0.98457 9.401 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -16,4 +16,9 @@
   (fp_arc (start 0 0) (end -8 0) (angle -360) (layer B.Fab) (width 0.1))
   (pad - thru_hole circle (at 0 -3.81 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
   (pad + thru_hole rect (at 0 3.81 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Buzzer_Beeper.3dshapes/MagneticBuzzer_StarMicronics_HMB-06_HMB-12.wrl
+    (offset (xyz 0 3.8 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

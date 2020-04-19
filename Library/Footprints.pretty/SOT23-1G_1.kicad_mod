@@ -1,4 +1,4 @@
-(module SOT23-1G_1 (layer F.Cu) (tedit 0)
+(module SOT23-1G_1 (layer F.Cu) (tedit 5E9B92A0)
   (attr smd)
   (fp_text reference D8 (at -3.1526 -0.45023 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -31,4 +31,9 @@
   (pad 3 smd rect (at 0 -1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.9652 1.0414) (size 0.9144 1.1176) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

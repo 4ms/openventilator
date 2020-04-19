@@ -1,4 +1,4 @@
-(module TQFP64_1 (layer F.Cu) (tedit 0)
+(module TQFP64_1 (layer F.Cu) (tedit 5E9B9510)
   (attr smd)
   (fp_text reference IC1 (at -116.207 -147.50115 -90 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -151,4 +151,9 @@
   (pad 3 smd rect (at -5.75 -2.75 90) (size 0.29 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -5.75 -3.25 90) (size 0.29 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -5.75 -3.75 90) (size 0.29 1.5) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_QFP.3dshapes/HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

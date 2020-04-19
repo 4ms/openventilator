@@ -34,4 +34,9 @@
   (fp_line (start -1.5 3.7) (end 1.5 3.7) (layer F.Fab) (width 0.1))
   (pad - smd rect (at 0 3.2) (size 1.905 3.81) (layers F.Cu F.Paste F.Mask))
   (pad + smd rect (at 0 -3.2) (size 1.905 3.81) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
