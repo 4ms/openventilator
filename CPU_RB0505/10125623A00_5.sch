@@ -1892,4 +1892,30 @@ F 11 "ALUMINIUM ELECTROLYTIC CAPACITOR" H 14150 2300 50  0001 C CNN "Manufacture
 $EndComp
 Connection ~ 14150 2200
 Connection ~ 14150 2400
+$Comp
+L cpu-board:CHCMS_D8 C?
+U 1 1 5EA53F33
+P 4950 8400
+AR Path="/5EA53F33" Ref="C?"  Part="1" 
+AR Path="/5E92540F/5EA53F33" Ref="ZC106"  Part="1" 
+F 0 "ZC106" H 4900 8550 56  0000 R TNN
+F 1 "220uF" H 4838 8368 42  0000 R TNN
+F 2 "AllModules:03512_1" H 4950 8400 50  0001 C CNN
+F 3 "" H 4950 8400 50  0001 C CNN
+F 4 "CAPACITOR ELECTROLYTIC, 220UF,16V+/-20%" H 4950 8400 50  0001 C CNN "Description"
+F 5 "10022622" H 4950 8400 50  0001 C CNN "Item Number"
+F 6 "" H 4950 8400 50  0001 C CNN "Manufacturer"
+F 7 "" H 4950 8400 50  0001 C CNN "Manufacturer_No"
+F 8 "" H 4950 8400 50  0001 C CNN "Manufacturer_Desc"
+F 9 "" H 4950 8400 50  0001 C CNN "Manufacturer2"
+F 10 "" H 4950 8400 50  0001 C CNN "Manufacturer_No2"
+F 11 "" H 4950 8400 50  0001 C CNN "Manufacturer_Desc2"
+F 12 "" H 4950 8400 50  0001 C CNN "Manufacturer3"
+F 13 "" H 4950 8400 50  0001 C CNN "Manufacturer_No3"
+F 14 "" H 4950 8400 50  0001 C CNN "Manufacturer_Desc3"
+	1    4950 8400
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4950 8300
+Connection ~ 4950 8500
 $EndSCHEMATC
