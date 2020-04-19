@@ -5,7 +5,7 @@
     (drawings 76)
     (tracks 1113)
     (zones 0)
-    (modules 310)
+    (modules 149)
     (nets 71)
   )
 
@@ -3768,7 +3768,7 @@
     )
   )
 
-  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 0) (tstamp 0)
+  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E9CCEB5) (tstamp 0)
     (at 295.191 54.0104)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -3780,7 +3780,7 @@
       (net 26 +24V))
   )
 
-  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 0) (tstamp 0)
+  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E9CCEB5) (tstamp 0)
     (at 291.7366 54.5184)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -3792,7 +3792,7 @@
       (net 52 +15V))
   )
 
-  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 0) (tstamp 0)
+  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E9CCEB5) (tstamp 0)
     (at 290.5936 71.1554)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -3804,7 +3804,7 @@
       (net 70 ISENS))
   )
 
-  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 0) (tstamp 0)
+  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E9CCEB5) (tstamp 0)
     (at 278.7826 71.1554)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -3816,7 +3816,7 @@
       (net 70 ISENS))
   )
 
-  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 0) (tstamp 0)
+  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E9CCEB5) (tstamp 0)
     (at 266.7176 71.1554)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -3828,7 +3828,7 @@
       (net 70 ISENS))
   )
 
-  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 0) (tstamp 0)
+  (module ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E9CCEB5) (tstamp 0)
     (at 266.2096 51.8514)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
