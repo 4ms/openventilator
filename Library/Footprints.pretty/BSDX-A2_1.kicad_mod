@@ -1,4 +1,4 @@
-(module BSDX-A2_1 (layer F.Cu) (tedit 0)
+(module BSDX-A2_1 (layer F.Cu) (tedit 5E9CB9BC)
   (attr smd)
   (fp_text reference IC33 (at -10.5948 -1.49257 270 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.1)))
@@ -76,4 +76,9 @@
   (pad 3 thru_hole circle (at -8.3185 -1.27 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -8.3185 1.27 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -8.3185 3.81 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/Footprints.3dshapes/capteur pression absolue-recenter.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
