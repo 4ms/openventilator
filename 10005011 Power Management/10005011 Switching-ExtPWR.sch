@@ -724,23 +724,6 @@ F 7 "ECM100US33>2413" H 13950 2150 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:CMF2 SW1
-U 1 1 5E986E8B
-P 11350 2400
-AR Path="/5E986E8B" Ref="SW1"  Part="1" 
-AR Path="/5FEC5422/5E986E8B" Ref="SW1"  Part="1" 
-F 0 "SW1" H 11433 3265 50  0000 C CNN
-F 1 "CMF2" H 11433 3174 50  0000 C CNN
-F 2 "10005011 Power Management:CMF1_1" H 11200 2450 100 0001 C CNN
-F 3 "https://www.schurter.com/en/datasheet/typ_CMF2__CMF5.pdf" H 11200 2450 100 0001 C CNN
-F 4 "SWITCH SOCKET 2 POLES" H 11350 2400 50  0001 C CNN "Description"
-F 5 "10022930" H 11350 2400 50  0001 C CNN "Item Number"
-F 6 "SCHURTER" H 11350 2400 50  0001 C CNN "Manufacturer"
-F 7 "CMF2.1011.12" H 11350 2400 50  0001 C CNN "Manufacturer_No"
-	1    11350 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x03_Female J4
 U 1 1 5E98CEDB
 P 13400 2000
@@ -2759,4 +2742,21 @@ Connection ~ 6350 4150
 Connection ~ 6200 4150
 Wire Wire Line
 	6200 4150 6350 4150
+$Comp
+L 10005011_Power_Management:CMF2 SW1
+U 1 1 5E986E8B
+P 11350 2400
+AR Path="/5E986E8B" Ref="SW1"  Part="1" 
+AR Path="/5FEC5422/5E986E8B" Ref="SW1"  Part="1" 
+F 0 "SW1" H 11433 3265 50  0000 C CNN
+F 1 "CMF2" H 11433 3174 50  0000 C CNN
+F 2 "10005011 Power Management:CMF1_1" H 11200 2450 100 0001 C CNN
+F 3 "https://www.schurter.com/en/datasheet/typ_CMF2__CMF5.pdf" H 11200 2450 100 0001 C CNN
+F 4 "SWITCH SOCKET 2 POLES" H 11350 2400 50  0001 C CNN "Description"
+F 5 "10022930" H 11350 2400 50  0001 C CNN "Item Number"
+F 6 "SCHURTER" H 11350 2400 50  0001 C CNN "Manufacturer"
+F 7 "CMF2.1011.12" H 11350 2400 50  0001 C CNN "Manufacturer_No"
+	1    11350 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
