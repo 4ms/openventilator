@@ -1,4 +1,4 @@
-(module B2CAP-RB0505_1 (layer F.Cu) (tedit 0)
+(module B2CAP-RB0505_1 (layer F.Cu) (tedit 5E9C99BE)
   (attr smd)
   (fp_text reference BL2 (at -0.835373 22.081935 unlocked) (layer F.SilkS)
     (effects (font (size 1.224536 1.288002) (thickness 0.1)))
@@ -32,4 +32,9 @@
   (pad 3 thru_hole circle (at 7.5 -19.25 180) (size 2.54 2.54) (drill 1.8034) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 7.5 19.25 180) (size 2.54 2.54) (drill 1.8034) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -7.5 19.25 180) (size 2.54 2.54) (drill 1.8034) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/Footprints.3dshapes/capot 2 capteurs P phase 2 - recenter.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

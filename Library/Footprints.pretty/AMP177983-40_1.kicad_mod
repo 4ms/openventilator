@@ -1,4 +1,4 @@
-(module AMP177983-40_1 (layer F.Cu) (tedit 0)
+(module AMP177983-40_1 (layer F.Cu) (tedit 5E9CAD7C)
   (attr smd)
   (fp_text reference J17 (at -123.84613 101.347 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -133,4 +133,9 @@
   (pad 3 smd rect (at 6 -2.2) (size 0.508 2.286) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 6.8 -2.2) (size 0.508 2.286) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 7.6 -2.2) (size 0.508 2.286) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/Footprints.3dshapes/c-5177983-1-a-3d.stp
+    (offset (xyz 0 0 3.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
