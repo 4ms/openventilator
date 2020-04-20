@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 63)
-    (tracks 1110)
+    (tracks 1111)
     (zones 0)
     (modules 151)
     (nets 71)
@@ -11,10 +11,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu signal hide)
+    (0 F.Cu signal)
+    (1 In1.Cu signal)
     (2 In2.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -4394,6 +4394,7 @@
   (segment (start 319.2448 61.3256) (end 327.4998 69.5806) (width 0.2032) (layer F.Cu) (net 37))
   (segment (start 319.2448 61.3256) (end 319.2448 46.5936) (width 0.2032) (layer F.Cu) (net 37))
   (segment (start 327.4998 72.6286) (end 329.0746 72.6286) (width 0.2032) (layer F.Cu) (net 37))
+  (segment (start 327.4998 71.9936) (end 327.4998 72.6286) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 268.1146 94.8536) (end 269.8926 94.8536) (width 0.2032) (layer F.Cu) (net 38))
   (via (at 266.8446 56.4996) (size 0.9144) (drill 0.3048) (layers F.Cu B.Cu) (net 39))
   (via (at 277.6396 56.4996) (size 0.9144) (drill 0.3048) (layers F.Cu B.Cu) (net 39))
