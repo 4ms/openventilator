@@ -26,7 +26,7 @@
   (fp_line (start -5.08 -5) (end -35.56 -5) (layer B.Fab) (width 0.1))
   (pad - thru_hole circle (at -40.64 0 180) (size 2.032 2.032) (drill 1.3208) (layers *.Cu *.Mask))
   (pad + thru_hole rect (at 0 0 180) (size 2.032 2.032) (drill 1.3208) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D models/CP_Axial_L30.0mm_D10.0mm_P40.64mm_Horizontal.wrl"
+  (model "${KIPRJMOD}/Footprints.3dshapes/CP_Axial_L30.0mm_D10.0mm_P40.64mm_Horizontal.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

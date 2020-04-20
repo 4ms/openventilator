@@ -56,7 +56,7 @@
   (pad L2A smd rect (at -0.4 0.8) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask))
   (pad L1B smd rect (at -1.2 -0.8) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask))
   (pad L1A smd rect (at -1.2 0.8) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/3D models/BLACKCAPCAF80P160X320X90-8N.stp"
+  (model "${KIPRJMOD}/Footprints.3dshapes/BLACKCAPCAF80P160X320X90-8N.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

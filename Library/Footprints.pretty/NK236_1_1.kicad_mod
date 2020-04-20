@@ -24,7 +24,7 @@
   (pad 3 thru_hole circle (at 2.54 0 180) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 0 180) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0 180) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D models/NK_1511073_cp.wrl"
+  (model "${KIPRJMOD}/Footprints.3dshapes/NK_1511073_cp.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
