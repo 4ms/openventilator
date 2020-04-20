@@ -1,4 +1,4 @@
-(module WE-FA_1 (layer F.Cu) (tedit 0)
+(module WE-FA_1 (layer F.Cu) (tedit 5E99F9D7)
   (attr smd)
   (fp_text reference FI1 (at -3.656 -0.2 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -56,4 +56,9 @@
   (pad L2A smd rect (at -0.4 0.8) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask))
   (pad L1B smd rect (at -1.2 -0.8) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask))
   (pad L1A smd rect (at -1.2 0.8) (size 0.5588 0.9144) (layers F.Cu F.Paste F.Mask))
+  (model "${KIPRJMOD}/3D models/BLACKCAPCAF80P160X320X90-8N.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
