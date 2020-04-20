@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name 10096510_Battery_Connection)(type KiCad)(uri ${KIPRJMOD}/10096510_Battery_Connection.pretty)(options "")(descr ""))
+  (lib (name AllModules)(type KiCad)(uri ${KIPRJMOD}/AllModules.pretty)(options "")(descr ""))
 )
