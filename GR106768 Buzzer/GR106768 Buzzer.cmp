@@ -181,7 +181,7 @@ TimeStamp = 00000000
 Path =
 Reference = R71;
 ValeurCmp = R-BC-R0805;
-IdModule  = GR106768 Buzzer:R0805_1;
+IdModule  = GR106768 Buzzer:R0805_1b;
 EndCmp
 
 BeginCmp
@@ -461,7 +461,7 @@ TimeStamp = 00000000
 Path =
 Reference = R36;
 ValeurCmp = R-BC-R0805;
-IdModule  = GR106768 Buzzer:R0805_1;
+IdModule  = GR106768 Buzzer:R0805_1b;
 EndCmp
 
 BeginCmp
@@ -1117,7 +1117,7 @@ TimeStamp = 00000000
 Path =
 Reference = C24;
 ValeurCmp = C-BC-C0805;
-IdModule  = GR106768 Buzzer:C0805_1;
+IdModule  = GR106768 Buzzer:C0805_1b;
 EndCmp
 
 BeginCmp
@@ -1285,7 +1285,7 @@ TimeStamp = 00000000
 Path =
 Reference = C3;
 ValeurCmp = C-BC-C0805;
-IdModule  = GR106768 Buzzer:C0805_1;
+IdModule  = GR106768 Buzzer:C0805_1b;
 EndCmp
 
 BeginCmp

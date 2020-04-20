@@ -1121,7 +1121,7 @@
       (net 60 N$20))
   )
 
-  (module "GR106768 Buzzer:R0805_1" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
+  (module "GR106768 Buzzer:R0805_1b" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
     (at 39.03 39.9625 180)
     (attr smd)
     (fp_text reference R71 (at -0.7444 0.4793 unlocked) (layer F.SilkS)
@@ -1966,7 +1966,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0805_1" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
+  (module "GR106768 Buzzer:R0805_1b" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
     (at 39.665 24.405 270)
     (attr smd)
     (fp_text reference R36 (at -0.7142 0.4682 90 unlocked) (layer F.SilkS)
@@ -4472,7 +4472,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0805_1" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
+  (module "GR106768 Buzzer:C0805_1b" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
     (at 54.9685 14.118 180)
     (attr smd)
     (fp_text reference C24 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -5011,7 +5011,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0805_1" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
+  (module "GR106768 Buzzer:C0805_1b" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
     (at 70.5895 27.326)
     (attr smd)
     (fp_text reference C3 (at 2.82213 -0.03147 unlocked) (layer F.SilkS)
