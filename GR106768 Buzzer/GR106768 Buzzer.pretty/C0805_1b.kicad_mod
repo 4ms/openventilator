@@ -1,4 +1,4 @@
-(module C0805_1 (layer F.Cu) (tedit 5E98DB69)
+(module C0805_1b (layer F.Cu) (tedit 5E98DB69)
   (attr smd)
   (fp_text reference C3 (at 2.82213 -0.03147 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
