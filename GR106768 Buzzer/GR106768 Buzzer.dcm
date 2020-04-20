@@ -13,17 +13,21 @@ F https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,
 $ENDCMP
 #
 $CMP BLA31BD221SN4D
-F 1206 Murata
+D inductor array 1206 Murata
+K inductor array network
+F ~
 $ENDCMP
 #
 $CMP BZX84C2V7
 D zener diode, 2.7V
 K zener diode
+F ~
 $ENDCMP
 #
 $CMP BZX84C6V8
 D zener diode, 6.8V
 K zener diode
+F ~
 $ENDCMP
 #
 $CMP Buzzer
@@ -47,152 +51,187 @@ $ENDCMP
 $CMP LMC7211
 D CMOS comparator
 K comparator
+F ~
 $ENDCMP
 #
-$CMPR0402_0Ohm_ 
-$CMPR0402_1.5M_1%
-D 0402 SMD resistor
-K resistor 0402
+$CMP R0402_0Ohm
+D Resistor, 0 Ohm, 0.063W, 0402
+K resistor 0402 net tie
+F ~
 $ENDCMP
 #
-$CMPR0402_1.5Ohm_1%
-D 0402 SMD resistor
+$CMP R0402_1.5M_1%
+D Resistor, 1.5M, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_100k_1%
-D 0402 SMD resistor
+$CMP R0402_1.5Ohm_1%
+D Resistor, 1.5 Ohm, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_105k_1%
-D 0402 SMD resistor
+$CMP R0402_100k_1%
+D Resistor, 100k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_10k_1%
-D 0402 SMD resistor
+$CMP R0402_105k_1%
+D Resistor, 105k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_137k_1%
-D 0402 SMD resistor
+$CMP R0402_10k_1%
+D Resistor, 10k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_150k_1%
-D 0402 SMD resistor
+$CMP R0402_137k_1%
+D Resistor, 137k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_15k_1%
-D 0402 SMD resistor
+$CMP R0402_150k_1%
+D Resistor, 150k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_180k_1%
-D 0402 SMD resistor
+$CMP R0402_15k_1%
+D Resistor, 15k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_182k_1%
-D 0402 SMD resistor
+$CMP R0402_180k_1%
+D Resistor, 180k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_1k_1%
-D 0402 SMD resistor
+$CMP R0402_182k_1%
+D Resistor, 182k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_1M_1%
-D 0402 SMD resistor
+$CMP R0402_1M_1%
+D Resistor, 1M, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_2.2k_1%
-D 0402 SMD resistor
+$CMP R0402_1k_1%
+D Resistor, 1k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_200k_1%
-D 0402 SMD resistor
+$CMP R0402_2.2k_1%
+D Resistor, 2.2k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_220Ohm_1%
-D 0402 SMD resistor
+$CMP R0402_200k_1%
+D Resistor, 200k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_32.4k_1%
-D 0402 SMD resistor
+$CMP R0402_220Ohm_1%
+D Resistor, 220 Ohm, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_33k_1%
-D 0402 SMD resistor
+$CMP R0402_32.4k_1%
+D Resistor, 32.4k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_33Ohm_1%
-D 0402 SMD resistor
+$CMP R0402_33Ohm_1%
+D Resistor, 33 Ohm, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_4.7k_1%
-D 0402 SMD resistor
+$CMP R0402_33k_1%
+D Resistor, 33k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_4.99k_1%
-D 0402 SMD resistor
+$CMP R0402_4.7k_1%
+D Resistor, 4.7k, +/-1%.0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_470Ohm_1%
-D 0402 SMD resistor
+$CMP R0402_4.99k_1%
+D Resistor, 4.99k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_47k_1%
-D 0402 SMD resistor
+$CMP R0402_470Ohm_1%
+D Resistor, 470 Ohm, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_51.1k_1%
-D 0402 SMD resistor
+$CMP R0402_47k_1%
+D Resistor, 47k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_54.9k_1%
-D 0402 SMD resistor
+$CMP R0402_51.1k_1%
+D Resistor, 51.1k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_59k_1%
-D 0402 SMD resistor
+$CMP R0402_54.9k_1%
+D Resistor, 54.9k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_680k_1%
-D 0402 SMD resistor
+$CMP R0402_59k_1%
+D Resistor, 59k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
 $ENDCMP
 #
-$CMPR0402_68k_1%
-D 0402 SMD resistor
+$CMP R0402_680k_1%
+D Resistor, 680k, +/-1%, 0.063W, 0402
 K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_68k_1%
+D Resistor, 68k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
 $ENDCMP
 #
 $CMP R0805_33Ohm_1%
-D 0805 SMD resistor
+D Resistor, 33 Ohm +/- 1% 0, 125W, 0805
 K resistor 0805
+F ~
 $ENDCMP
 #
 $CMP R0805_470Ohm_1%
-D 0805 SMD resistor
+D Resistor, 470 Ohm, +/-1%, 0.125W, 0805
 K resistor 0805
+F ~
 $ENDCMP
 #
 $CMP Si2312BDS
@@ -207,9 +246,10 @@ K transistor PMOS P-MOS P-MOSFET
 F https://www.vishay.com/docs/72014/72014.pdf
 $ENDCMP
 #
-$CMP TLV3011
-D Comparator
-K Comparator
+$CMP TLV3011AIDBV
+D Nanopower 1.8V comparator with voltage reference
+K comparator
+F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
 $ENDCMP
 #
 $CMP TLV3012AIDBV
