@@ -1149,7 +1149,7 @@ TimeStamp = 00000000
 Path =
 Reference = C20;
 ValeurCmp = C-BC-C0603;
-IdModule  = GR106768 Buzzer:C0603_1;
+IdModule  = GR106768 Buzzer:C0603_1b;
 EndCmp
 
 BeginCmp
@@ -1197,7 +1197,7 @@ TimeStamp = 00000000
 Path =
 Reference = C14;
 ValeurCmp = C-BC-C0603;
-IdModule  = GR106768 Buzzer:C0603_1;
+IdModule  = GR106768 Buzzer:C0603_1b;
 EndCmp
 
 BeginCmp
@@ -1205,7 +1205,7 @@ TimeStamp = 00000000
 Path =
 Reference = C13;
 ValeurCmp = C-BC-C0603;
-IdModule  = GR106768 Buzzer:C0603_1;
+IdModule  = GR106768 Buzzer:C0603_1b;
 EndCmp
 
 BeginCmp
