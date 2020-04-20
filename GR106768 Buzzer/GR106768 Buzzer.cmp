@@ -53,7 +53,7 @@ TimeStamp = 5E997D2D
 Path =
 Reference = H1;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1325,7 +1325,7 @@ TimeStamp = 00000000
 Path =
 Reference = H2;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1333,7 +1333,7 @@ TimeStamp = 00000000
 Path =
 Reference = H3;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1341,7 +1341,7 @@ TimeStamp = 00000000
 Path =
 Reference = H4;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1349,7 +1349,7 @@ TimeStamp = 00000000
 Path =
 Reference = H5;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1357,7 +1357,7 @@ TimeStamp = 00000000
 Path =
 Reference = H6;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1365,7 +1365,7 @@ TimeStamp = 00000000
 Path =
 Reference = H7;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1373,7 +1373,7 @@ TimeStamp = 00000000
 Path =
 Reference = H8;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1381,7 +1381,7 @@ TimeStamp = 00000000
 Path =
 Reference = H9;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1389,7 +1389,7 @@ TimeStamp = 00000000
 Path =
 Reference = H10;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1397,7 +1397,7 @@ TimeStamp = 00000000
 Path =
 Reference = H11;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1405,7 +1405,7 @@ TimeStamp = 00000000
 Path =
 Reference = H12;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1413,7 +1413,7 @@ TimeStamp = 00000000
 Path =
 Reference = H13;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1421,7 +1421,7 @@ TimeStamp = 00000000
 Path =
 Reference = H14;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1429,7 +1429,7 @@ TimeStamp = 00000000
 Path =
 Reference = H15;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1437,7 +1437,7 @@ TimeStamp = 00000000
 Path =
 Reference = H16;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1445,7 +1445,7 @@ TimeStamp = 00000000
 Path =
 Reference = H17;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1453,7 +1453,7 @@ TimeStamp = 00000000
 Path =
 Reference = H18;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1461,7 +1461,7 @@ TimeStamp = 00000000
 Path =
 Reference = H19;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1469,7 +1469,7 @@ TimeStamp = 00000000
 Path =
 Reference = H20;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1477,7 +1477,7 @@ TimeStamp = 00000000
 Path =
 Reference = H21;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1485,7 +1485,7 @@ TimeStamp = 00000000
 Path =
 Reference = H22;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1493,7 +1493,7 @@ TimeStamp = 00000000
 Path =
 Reference = H23;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1501,7 +1501,7 @@ TimeStamp = 00000000
 Path =
 Reference = H24;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1509,7 +1509,7 @@ TimeStamp = 00000000
 Path =
 Reference = H25;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1517,7 +1517,7 @@ TimeStamp = 00000000
 Path =
 Reference = H26;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1525,7 +1525,7 @@ TimeStamp = 00000000
 Path =
 Reference = H27;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1533,7 +1533,7 @@ TimeStamp = 00000000
 Path =
 Reference = H28;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1541,7 +1541,7 @@ TimeStamp = 00000000
 Path =
 Reference = H29;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1549,7 +1549,7 @@ TimeStamp = 00000000
 Path =
 Reference = H30;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1557,7 +1557,7 @@ TimeStamp = 00000000
 Path =
 Reference = H31;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1565,7 +1565,7 @@ TimeStamp = 00000000
 Path =
 Reference = H32;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1573,7 +1573,7 @@ TimeStamp = 00000000
 Path =
 Reference = H33;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1581,7 +1581,7 @@ TimeStamp = 00000000
 Path =
 Reference = H34;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1589,7 +1589,7 @@ TimeStamp = 00000000
 Path =
 Reference = H35;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1597,7 +1597,7 @@ TimeStamp = 00000000
 Path =
 Reference = H36;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1605,7 +1605,7 @@ TimeStamp = 00000000
 Path =
 Reference = H37;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1613,7 +1613,7 @@ TimeStamp = 00000000
 Path =
 Reference = H38;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1621,7 +1621,7 @@ TimeStamp = 00000000
 Path =
 Reference = H39;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1629,7 +1629,7 @@ TimeStamp = 00000000
 Path =
 Reference = H40;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1637,7 +1637,7 @@ TimeStamp = 00000000
 Path =
 Reference = H41;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1645,7 +1645,7 @@ TimeStamp = 00000000
 Path =
 Reference = H42;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1653,7 +1653,7 @@ TimeStamp = 00000000
 Path =
 Reference = H43;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1661,7 +1661,7 @@ TimeStamp = 00000000
 Path =
 Reference = H44;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1669,7 +1669,7 @@ TimeStamp = 00000000
 Path =
 Reference = H45;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1677,7 +1677,7 @@ TimeStamp = 00000000
 Path =
 Reference = H46;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1685,7 +1685,7 @@ TimeStamp = 00000000
 Path =
 Reference = H47;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1693,7 +1693,7 @@ TimeStamp = 00000000
 Path =
 Reference = H48;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1701,7 +1701,7 @@ TimeStamp = 00000000
 Path =
 Reference = H49;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1709,7 +1709,7 @@ TimeStamp = 00000000
 Path =
 Reference = H50;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1717,7 +1717,7 @@ TimeStamp = 00000000
 Path =
 Reference = H51;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1725,7 +1725,7 @@ TimeStamp = 00000000
 Path =
 Reference = H52;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1733,7 +1733,7 @@ TimeStamp = 00000000
 Path =
 Reference = H53;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1741,7 +1741,7 @@ TimeStamp = 00000000
 Path =
 Reference = H54;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1749,7 +1749,7 @@ TimeStamp = 00000000
 Path =
 Reference = H55;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1757,7 +1757,7 @@ TimeStamp = 00000000
 Path =
 Reference = H56;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1765,7 +1765,7 @@ TimeStamp = 00000000
 Path =
 Reference = H57;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1773,7 +1773,7 @@ TimeStamp = 00000000
 Path =
 Reference = H58;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1781,7 +1781,7 @@ TimeStamp = 00000000
 Path =
 Reference = H59;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1789,7 +1789,7 @@ TimeStamp = 00000000
 Path =
 Reference = H60;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1797,7 +1797,7 @@ TimeStamp = 00000000
 Path =
 Reference = H61;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1805,7 +1805,7 @@ TimeStamp = 00000000
 Path =
 Reference = H62;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1813,7 +1813,7 @@ TimeStamp = 00000000
 Path =
 Reference = H63;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1821,7 +1821,7 @@ TimeStamp = 00000000
 Path =
 Reference = H64;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1829,7 +1829,7 @@ TimeStamp = 00000000
 Path =
 Reference = H65;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1837,7 +1837,7 @@ TimeStamp = 00000000
 Path =
 Reference = H66;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1845,7 +1845,7 @@ TimeStamp = 00000000
 Path =
 Reference = H67;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1853,7 +1853,7 @@ TimeStamp = 00000000
 Path =
 Reference = H68;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1861,7 +1861,7 @@ TimeStamp = 00000000
 Path =
 Reference = H69;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1869,7 +1869,7 @@ TimeStamp = 00000000
 Path =
 Reference = H70;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1877,7 +1877,7 @@ TimeStamp = 00000000
 Path =
 Reference = H71;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1885,7 +1885,7 @@ TimeStamp = 00000000
 Path =
 Reference = H72;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1893,7 +1893,7 @@ TimeStamp = 00000000
 Path =
 Reference = H73;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1901,7 +1901,7 @@ TimeStamp = 00000000
 Path =
 Reference = H74;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1909,7 +1909,7 @@ TimeStamp = 00000000
 Path =
 Reference = H75;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1917,7 +1917,7 @@ TimeStamp = 00000000
 Path =
 Reference = H76;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1925,7 +1925,7 @@ TimeStamp = 00000000
 Path =
 Reference = H77;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1933,7 +1933,7 @@ TimeStamp = 00000000
 Path =
 Reference = H78;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1941,7 +1941,7 @@ TimeStamp = 00000000
 Path =
 Reference = H79;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1949,7 +1949,7 @@ TimeStamp = 00000000
 Path =
 Reference = H80;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1957,7 +1957,7 @@ TimeStamp = 00000000
 Path =
 Reference = H81;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1965,7 +1965,7 @@ TimeStamp = 00000000
 Path =
 Reference = H82;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1973,7 +1973,7 @@ TimeStamp = 00000000
 Path =
 Reference = H83;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1981,7 +1981,7 @@ TimeStamp = 00000000
 Path =
 Reference = H84;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1989,7 +1989,7 @@ TimeStamp = 00000000
 Path =
 Reference = H85;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -1997,7 +1997,7 @@ TimeStamp = 00000000
 Path =
 Reference = H86;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2005,7 +2005,7 @@ TimeStamp = 00000000
 Path =
 Reference = H87;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2013,7 +2013,7 @@ TimeStamp = 00000000
 Path =
 Reference = H88;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2021,7 +2021,7 @@ TimeStamp = 00000000
 Path =
 Reference = H89;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2029,7 +2029,7 @@ TimeStamp = 00000000
 Path =
 Reference = H90;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2037,7 +2037,7 @@ TimeStamp = 00000000
 Path =
 Reference = H91;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2045,7 +2045,7 @@ TimeStamp = 00000000
 Path =
 Reference = H92;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2053,7 +2053,7 @@ TimeStamp = 00000000
 Path =
 Reference = H93;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2061,7 +2061,7 @@ TimeStamp = 00000000
 Path =
 Reference = H94;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2069,7 +2069,7 @@ TimeStamp = 00000000
 Path =
 Reference = H95;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2077,7 +2077,7 @@ TimeStamp = 00000000
 Path =
 Reference = H96;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2085,7 +2085,7 @@ TimeStamp = 00000000
 Path =
 Reference = H97;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2093,7 +2093,7 @@ TimeStamp = 00000000
 Path =
 Reference = H98;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2101,7 +2101,7 @@ TimeStamp = 00000000
 Path =
 Reference = H99;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2109,7 +2109,7 @@ TimeStamp = 00000000
 Path =
 Reference = H100;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2117,7 +2117,7 @@ TimeStamp = 00000000
 Path =
 Reference = H101;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2125,7 +2125,7 @@ TimeStamp = 00000000
 Path =
 Reference = H102;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2133,7 +2133,7 @@ TimeStamp = 00000000
 Path =
 Reference = H103;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2141,7 +2141,7 @@ TimeStamp = 00000000
 Path =
 Reference = H104;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
@@ -2149,7 +2149,7 @@ TimeStamp = 00000000
 Path =
 Reference = H105;
 ValeurCmp = [NoVal];
-IdModule  = GR106768 Buzzer:PadHole;
+IdModule  = GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask;
 EndCmp
 
 EndListe

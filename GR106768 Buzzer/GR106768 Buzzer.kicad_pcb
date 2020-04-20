@@ -498,7 +498,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 5E997D2D)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 5E997D2D)
     (at 68.8115 40.534)
     (fp_text reference "H1" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5254,7 +5254,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 68.8115 42.058)
     (fp_text reference "H2" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5266,7 +5266,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4905 37.867)
     (fp_text reference "H3" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5278,7 +5278,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 33.1245 17.42)
     (fp_text reference "H4" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5290,7 +5290,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 64.7475 32.66)
     (fp_text reference "H5" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5302,7 +5302,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 59.0325 32.533)
     (fp_text reference "H6" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5314,7 +5314,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 29.8225 9.8)
     (fp_text reference "H7" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5326,7 +5326,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4905 21.611)
     (fp_text reference "H8" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5338,7 +5338,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 68.4305 27.326)
     (fp_text reference "H9" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5350,7 +5350,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 79.6915 14.245)
     (fp_text reference "H10" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5362,7 +5362,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 35.5375 38.375)
     (fp_text reference "H11" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5374,7 +5374,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 77.8285 24.024)
     (fp_text reference "H12" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5386,7 +5386,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 4.593)
     (fp_text reference "H13" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5398,7 +5398,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 1.672)
     (fp_text reference "H14" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5410,7 +5410,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 85.4875 1.672)
     (fp_text reference "H15" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5422,7 +5422,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 80.4875 1.672)
     (fp_text reference "H16" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5434,7 +5434,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 70.4875 1.672)
     (fp_text reference "H17" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5446,7 +5446,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.4875 1.672)
     (fp_text reference "H18" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5458,7 +5458,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 60.4875 1.672)
     (fp_text reference "H19" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5470,7 +5470,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 55.4875 1.672)
     (fp_text reference "H20" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5482,7 +5482,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 50.4875 1.672)
     (fp_text reference "H21" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5494,7 +5494,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 45.4875 1.672)
     (fp_text reference "H22" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5506,7 +5506,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4875 1.672)
     (fp_text reference "H23" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5518,7 +5518,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 35.4875 1.672)
     (fp_text reference "H24" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5530,7 +5530,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 30.4875 1.672)
     (fp_text reference "H25" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5542,7 +5542,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 1.672)
     (fp_text reference "H26" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5554,7 +5554,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 29.8225 5.609)
     (fp_text reference "H27" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5566,7 +5566,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.9875 5.56)
     (fp_text reference "H28" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5578,7 +5578,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 71.6055 6.371)
     (fp_text reference "H29" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5590,7 +5590,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 6.56)
     (fp_text reference "H30" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5602,7 +5602,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 9.06)
     (fp_text reference "H31" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5614,7 +5614,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.2555 9.8)
     (fp_text reference "H32" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5626,7 +5626,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 11.56)
     (fp_text reference "H33" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5638,7 +5638,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 72.1135 12.848)
     (fp_text reference "H34" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5650,7 +5650,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 23.7265 12.721)
     (fp_text reference "H35" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5662,7 +5662,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.8905 13.864)
     (fp_text reference "H36" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5674,7 +5674,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 14.06)
     (fp_text reference "H37" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5686,7 +5686,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 48.555 14.4355)
     (fp_text reference "H38" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5698,7 +5698,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 47.7295 14.4355)
     (fp_text reference "H39" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5710,7 +5710,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 46.904 14.4355)
     (fp_text reference "H40" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5722,7 +5722,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 45.5705 14.753)
     (fp_text reference "H41" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5734,7 +5734,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 48.555 15.3245)
     (fp_text reference "H42" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5746,7 +5746,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 47.7295 15.3245)
     (fp_text reference "H43" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5758,7 +5758,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 46.904 15.3245)
     (fp_text reference "H44" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5770,7 +5770,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 49.7615 16.2925)
     (fp_text reference "H45" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5782,7 +5782,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4875 16.06)
     (fp_text reference "H46" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5794,7 +5794,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 16.56)
     (fp_text reference "H47" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5806,7 +5806,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 19.06)
     (fp_text reference "H48" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5818,7 +5818,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 46.7135 20.214)
     (fp_text reference "H49" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5830,7 +5830,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 21.56)
     (fp_text reference "H50" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5842,7 +5842,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 21.56)
     (fp_text reference "H51" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5854,7 +5854,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.6365 22.754)
     (fp_text reference "H52" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5866,7 +5866,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 73.1295 22.9445)
     (fp_text reference "H53" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5878,7 +5878,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 32.6165 23.389)
     (fp_text reference "H54" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5890,7 +5890,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 45.9515 24.024)
     (fp_text reference "H55" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5902,7 +5902,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 29.5685 23.516)
     (fp_text reference "H56" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5914,7 +5914,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 24.06)
     (fp_text reference "H57" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5926,7 +5926,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 58.0165 24.151)
     (fp_text reference "H58" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5938,7 +5938,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 52.8095 24.151)
     (fp_text reference "H59" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5950,7 +5950,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 50.4875 24.06)
     (fp_text reference "H60" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5962,7 +5962,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 55.8575 26.564)
     (fp_text reference "H61" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5974,7 +5974,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 26.56)
     (fp_text reference "H62" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5986,7 +5986,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 26.56)
     (fp_text reference "H63" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5998,7 +5998,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 54.0795 27.326)
     (fp_text reference "H64" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6010,7 +6010,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 74.7805 28.088)
     (fp_text reference "H65" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6022,7 +6022,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 29.06)
     (fp_text reference "H66" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6034,7 +6034,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.5365 28.977)
     (fp_text reference "H67" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6046,7 +6046,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 69.0655 31.009)
     (fp_text reference "H68" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6058,7 +6058,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 31.56)
     (fp_text reference "H69" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6070,7 +6070,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 31.56)
     (fp_text reference "H70" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6082,7 +6082,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 50.0155 32.025)
     (fp_text reference "H71" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6094,7 +6094,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 43.0305 32.025)
     (fp_text reference "H72" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6106,7 +6106,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 34.06)
     (fp_text reference "H73" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6118,7 +6118,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 84.5595 34.565)
     (fp_text reference "H74" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6130,7 +6130,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 78.2095 34.438)
     (fp_text reference "H75" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6142,7 +6142,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 84.9405 36.089)
     (fp_text reference "H76" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6154,7 +6154,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 36.56)
     (fp_text reference "H77" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6166,7 +6166,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 36.56)
     (fp_text reference "H78" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6178,7 +6178,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 73.5105 37.486)
     (fp_text reference "H79" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6190,7 +6190,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.5365 38.375)
     (fp_text reference "H80" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6202,7 +6202,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 39.06)
     (fp_text reference "H81" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6214,7 +6214,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 41.56)
     (fp_text reference "H82" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6226,7 +6226,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 44.06)
     (fp_text reference "H83" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6238,7 +6238,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 67.9875 44.06)
     (fp_text reference "H84" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6250,7 +6250,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 46.56)
     (fp_text reference "H85" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6262,7 +6262,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 89.4875 47.392)
     (fp_text reference "H86" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6274,7 +6274,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 84.4875 47.392)
     (fp_text reference "H87" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6286,7 +6286,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 81.8925 47.392)
     (fp_text reference "H88" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6298,7 +6298,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.1555 47.392)
     (fp_text reference "H89" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6310,7 +6310,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 21.9875 47.392)
     (fp_text reference "H90" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6322,7 +6322,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 57.9875 47.56)
     (fp_text reference "H91" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6334,7 +6334,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 81.8925 50.06)
     (fp_text reference "H92" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6346,7 +6346,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.1555 52.56)
     (fp_text reference "H93" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6358,7 +6358,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 81.8925 55.06)
     (fp_text reference "H94" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6370,7 +6370,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 77.9875 56.409)
     (fp_text reference "H95" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6382,7 +6382,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 72.9875 56.409)
     (fp_text reference "H96" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6394,7 +6394,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 67.9875 56.409)
     (fp_text reference "H97" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6406,7 +6406,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 62.9875 56.409)
     (fp_text reference "H98" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6418,7 +6418,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 57.9875 56.409)
     (fp_text reference "H99" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6430,7 +6430,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 52.9875 56.409)
     (fp_text reference "H100" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6442,7 +6442,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 47.9875 56.409)
     (fp_text reference "H101" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6454,7 +6454,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 42.9875 56.409)
     (fp_text reference "H102" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6466,7 +6466,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 37.9875 56.409)
     (fp_text reference "H103" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6478,7 +6478,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 32.9875 56.409)
     (fp_text reference "H104" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6490,7 +6490,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:PadHole" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.9875 56.409)
     (fp_text reference "H105" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
