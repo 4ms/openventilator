@@ -1,4 +1,4 @@
-(module HC49-4HSMX_1 (layer F.Cu) (tedit 0)
+(module HC49-4HSMX_1 (layer F.Cu) (tedit 5E9520F2)
   (attr smd)
   (fp_text reference Q3 (at 0.6096 3.2512 unlocked) (layer F.SilkS)
     (effects (font (size 1.033069 1.086612) (thickness 0.1778)))
@@ -30,4 +30,9 @@
   (fp_arc (start -3.2004 0) (end -3.161301 -2.488893) (angle -181.8) (layer F.Fab) (width 0.0762))
   (pad 1 smd rect (at -4.445 0) (size 4.572 1.27) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.445 0) (size 4.572 1.27) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_HC49-SD.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

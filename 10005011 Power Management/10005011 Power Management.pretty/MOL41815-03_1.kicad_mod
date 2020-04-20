@@ -1,4 +1,4 @@
-(module MOL41815-03_1 (layer F.Cu) (tedit 0)
+(module MOL41815-03_1 (layer F.Cu) (tedit 5E95E41D)
   (attr smd)
   (fp_text reference J4 (at 3.4574 0.1752 -180 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -81,4 +81,9 @@
   (pad 1 thru_hole rect (at 0 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.96 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 7.92 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3D Models/009484038.stp"
+    (offset (xyz 3.96 -5.52 11.38))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

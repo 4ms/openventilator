@@ -1,4 +1,4 @@
-(module BP2X13D_1 (layer F.Cu) (tedit 0)
+(module BP2X13D_1 (layer F.Cu) (tedit 5E976313)
   (attr smd)
   (fp_text reference J7 (at 15.7958 -0.7548 -90 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -54,4 +54,9 @@
   (pad 24 thru_hole circle (at 27.94 -2.54) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at 30.48 0) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 26 thru_hole circle (at 30.48 -2.54) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3D Models/39-26-7265-recenter.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

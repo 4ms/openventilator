@@ -1,5 +1,24 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +24VUTIL
+D Power symbol creates a global label with name "+24VUTIL"
+$ENDCMP
+#
+$CMP +3.0VREF
+D Power symbol creates a global label with name "+3.0VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +5VPIC
+D Power symbol creates a global label with name "+5VPIC"
+K power-flag
+$ENDCMP
+#
 $CMP 0VANA
 D Power symbol creates a global label with name "0VANA" , analog ground
 K power-flag
@@ -88,6 +107,11 @@ D POWER SUPPLY, 220VAC, 33VDC, 100W
 K 10022932
 $ENDCMP
 #
+$CMP GND1
+D Power symbol creates a global label with name "GND1"
+K power-flag
+$ENDCMP
+#
 $CMP INA170
 D High-Side, Bidirectional Current-Sense Amplifier
 K current monitor shunt sensor bidirectional high
@@ -161,6 +185,11 @@ D Power symbol creates a global label with name "PGND" , ground
 K power-flag
 $ENDCMP
 #
+$CMP PGND1
+D Power symbol creates a global label with name "PGND1"
+K power-flag
+$ENDCMP
+#
 $CMP PIC18F6622
 D PIC18F nanoWatt Technology MCU, 40MHz, 64KB Flash, 3.84KB RAM, 1KB EEPROM, 2.0-5.5V, 54 GPIO, TQFP-64
 K Flash Based 8-Bit Microcontroller
@@ -203,6 +232,12 @@ K diode TVS transient voltage supressor SMB
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP TLV3011AIDBV
+D Nanopower 1.8V comparator with voltage reference
+K comparator
+F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
+$ENDCMP
+#
 $CMP TLV3012AIDBV
 D Nanopower 1.8V comparator with voltage reference
 K comparator
@@ -218,13 +253,13 @@ $ENDCMP
 $CMP USB_A_4shield
 D USB Type A connector
 K connector USB
-F  ~
+F  https://www.molex.com/webdocs/datasheets/pdf/en-us/0673298001_IO_CONNECTORS.pdf
 $ENDCMP
 #
 $CMP USB_B_Mini_2shield
 D USB MINI B
 K 10022867
-F ~
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0548190519_IO_CONNECTORS.pdf
 $ENDCMP
 #
 $CMP VACDC

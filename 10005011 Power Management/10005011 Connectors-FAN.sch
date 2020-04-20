@@ -804,17 +804,11 @@ Wire Wire Line
 	3550 6300 3550 6600
 Wire Wire Line
 	3550 6600 4300 6600
-Wire Wire Line
-	3550 5900 3800 5900
-Wire Notes Line
-	2700 5800 2700 8150
 Wire Notes Line
 	2700 8150 6000 8150
 Wire Notes Line
-	6000 8150 6000 5800
-Wire Notes Line
-	6000 5800 2700 5800
-Text Notes 2700 5775 0    79   ~ 0
+	6000 5650 2700 5650
+Text Notes 2700 5625 0    79   ~ 0
 BATTERY CONTACT CONNECTOR
 $Comp
 L 10005011_Power_Management:PGND #PWR0171
@@ -1420,8 +1414,6 @@ Text GLabel 8450 8350 0    50   Input ~ 0
 CMD-FAN
 Text GLabel 14450 8050 2    50   Output ~ 0
 FAN-SPEED
-Text GLabel 3800 5900 2    50   Input ~ 0
-+3.0VREF
 Text GLabel 4300 6500 2    50   Input ~ 0
 BAT-EEPROM
 Text GLabel 4300 6600 2    50   Output ~ 0
@@ -1431,8 +1423,6 @@ Wire Wire Line
 Connection ~ 12950 8450
 Wire Wire Line
 	12950 8450 12950 8650
-Text Notes 3700 1050 0    50   ~ 0
-ideally, a couple of the pins might be bypassed to PGND instead of GND,\nbut it doesn't really matter because the CPU board combines the grounds.
 Connection ~ 5050 1650
 Wire Wire Line
 	5050 1650 5050 1550
@@ -1739,17 +1729,6 @@ F 3 "" H 4200 7900 50  0001 C CNN
 	1    4200 7900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NC_Small JPL3
-U 1 1 5EB10713
-P 4200 7600
-F 0 "JPL3" V 4154 7552 50  0000 R CNN
-F 1 "LINK" V 4245 7552 50  0000 R CNN
-F 2 "10005011 Power Management:GDCAFE-F_FERME_1" H 4200 7600 50  0001 C CNN
-F 3 "~" H 4200 7600 50  0001 C CNN
-	1    4200 7600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4200 7450 4200 7300
 Connection ~ 3550 7450
@@ -1778,8 +1757,8 @@ $Comp
 L Device:C C110
 U 1 1 5F497A72
 P 3750 9850
-F 0 "C110" H 3865 9896 50  0000 L CNN
-F 1 "100nF" H 3865 9805 50  0000 L CNN
+F 0 "C110" H 3865 9804 50  0000 L CNN
+F 1 "100nF" H 3865 9895 50  0000 L CNN
 F 2 "10005011 Power Management:C0805_1" H 3788 9700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3750 9850 50  0001 C CNN
 F 4 "Yageo" H 3750 9850 50  0001 C CNN "Mfgr"
@@ -1791,7 +1770,7 @@ F 9 "X7R" H 3750 9850 50  0001 C CNN "Dielectric"
 F 10 "50V" H 3750 9850 50  0001 C CNN "Voltage"
 F 11 "10022135" H 3750 9850 50  0001 C CNN "Item Number"
 	1    3750 9850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C10
@@ -1895,40 +1874,17 @@ F 14 "22205C106K4Z4A" H 8450 7500 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R115
-U 1 1 5E962213
-P 9650 7300
-F 0 "R115" H 9581 7391 50  0000 R CNN
-F 1 "1k" H 9581 7300 50  0000 R CNN
-F 2 "10005011 Power Management:R0603_1" V 9580 7300 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 9650 7300 50  0001 C CNN
-F 4 "Bourns Inc." H 9650 7300 50  0001 C CNN "Mfgr"
-F 5 "CR0603-FX-1001ELF" H 9650 7300 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 9650 7300 50  0001 C CNN "Source"
-F 7 "CR0603-FX-1001ELFCT-ND" H 9650 7300 50  0001 C CNN "Source_PN"
-F 8 "0603" H 9581 7209 50  0000 R CNN "Bom_Footprint"
-F 9 "RES SMD 1K OHM 1% 1/10W 0603" H 9650 7300 50  0001 C CNN "Description"
-F 10 "1%" H 9650 7300 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 9650 7300 50  0001 C CNN "Wattage"
-	1    9650 7300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R114
 U 1 1 5E962F48
 P 9650 7800
 F 0 "R114" H 9720 7891 50  0000 L CNN
 F 1 "1.5k" H 9720 7800 50  0000 L CNN
-F 2 "10005011 Power Management:R0603_1" V 9580 7800 50  0001 C CNN
+F 2 "10005011 Power Management:RC1206_1" V 9580 7800 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9650 7800 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 9650 7800 50  0001 C CNN "Mfgr"
-F 5 "ERJ-3EKF1501V" H 9650 7800 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 9650 7800 50  0001 C CNN "Source"
-F 7 "P1.50KHCT-ND" H 9650 7800 50  0001 C CNN "Source_PN"
-F 8 "0603" H 9720 7709 50  0000 L CNN "Bom_Footprint"
-F 9 "RES SMD 1.5K OHM 1% 1/10W 0603" H 9650 7800 50  0001 C CNN "Description"
-F 10 "1%" H 9650 7800 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 9650 7800 50  0001 C CNN "Wattage"
+F 4 "YAGEO_RMS1" H 9650 7800 50  0001 C CNN "Mfgr"
+F 5 "RC1206FR-071K5L" H 9650 7800 50  0001 C CNN "Mfgr_PN"
+F 6 "RESISTOR,1.5K OHM,0.250W,+/-1%,1206" H 9650 7800 50  0001 C CNN "Description"
+F 7 "10022740" H 9650 7800 50  0001 C CNN "Item Number"
 	1    9650 7800
 	1    0    0    -1  
 $EndComp
@@ -2001,16 +1957,12 @@ U 1 1 5E9958F4
 P 11350 8400
 F 0 "R116" H 11420 8491 50  0000 L CNN
 F 1 "100" H 11420 8400 50  0000 L CNN
-F 2 "10005011 Power Management:R0603_1" V 11280 8400 50  0001 C CNN
+F 2 "10005011 Power Management:RC1206_1" V 11280 8400 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 11350 8400 50  0001 C CNN
-F 4 "Bourns Inc." H 11350 8400 50  0001 C CNN "Mfgr"
-F 5 "CR0603-FX-1000ELF" H 11350 8400 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 11350 8400 50  0001 C CNN "Source"
-F 7 "CR0603-FX-1000ELFCT-ND" H 11350 8400 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11420 8309 50  0000 L CNN "Bom_Footprint"
-F 9 "RES SMD 100 OHM 1% 1/10W 0603" H 11350 8400 50  0001 C CNN "Description"
-F 10 "1%" H 11350 8400 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 11350 8400 50  0001 C CNN "Wattage"
+F 4 "RESISTOR,100 OHM,0.25W,+/-1%,1206" H 11350 8400 50  0001 C CNN "Description"
+F 5 "10022742" H 11350 8400 50  0001 C CNN "Item Number"
+F 6 "YAGEO/PHYCOMP_RMS1" H 11350 8400 50  0001 C CNN "Manufacturer"
+F 7 "232272461001L" H 11350 8400 50  0001 C CNN "Manufacturer No"
 	1    11350 8400
 	1    0    0    -1  
 $EndComp
@@ -2173,4 +2125,47 @@ F 13 "GRM155R71C104JA88J" H 13850 7500 50  0001 C CNN "Manufacturer_No"
 	1    13850 7500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R115
+U 1 1 5E962213
+P 9650 7300
+F 0 "R115" H 9581 7391 50  0000 R CNN
+F 1 "1k" H 9581 7300 50  0000 R CNN
+F 2 "10005011 Power Management:RC1206_1" V 9580 7300 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 9650 7300 50  0001 C CNN
+F 4 "YAGEO_RMS1" H 9650 7300 50  0001 C CNN "Mfgr"
+F 5 "RC1206FR-071KL" H 9650 7300 50  0001 C CNN "Mfgr_PN"
+F 6 "RESISTOR,1 KOHM,0.25W,+/-1%,1206" H 9650 7300 50  0001 C CNN "Description"
+F 7 "10022557" H 9650 7300 50  0001 C CNN "Item Number"
+	1    9650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JPL3
+U 1 1 5EB10713
+P 4200 7600
+F 0 "JPL3" V 4154 7552 50  0000 R CNN
+F 1 "LINK" V 4245 7552 50  0000 R CNN
+F 2 "10005011 Power Management:GDCAFE-F_FERME_1" H 4200 7600 50  0001 C CNN
+F 3 "~" H 4200 7600 50  0001 C CNN
+	1    4200 7600
+	0    1    1    0   
+$EndComp
+Text Notes 3700 1050 0    50   ~ 0
+ideally, a couple of the pins might be bypassed to PGND instead of GND,\nbut it doesn't really matter because the CPU board combines the grounds.
+$Comp
+L 10005011_Power_Management:+3.0VREF #PWR0286
+U 1 1 5EA1946D
+P 3550 5900
+F 0 "#PWR0286" H 3550 5750 50  0001 C CNN
+F 1 "+3.0VREF" H 3565 6073 50  0000 C CNN
+F 2 "" H 3550 5900 50  0001 C CNN
+F 3 "" H 3550 5900 50  0001 C CNN
+	1    3550 5900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6000 5650 6000 8150
+Wire Notes Line
+	2700 5650 2700 8150
 $EndSCHEMATC

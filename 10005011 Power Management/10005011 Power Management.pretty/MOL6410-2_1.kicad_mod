@@ -1,4 +1,4 @@
-(module MOL6410-2_1 (layer F.Cu) (tedit 0)
+(module MOL6410-2_1 (layer F.Cu) (tedit 5E9523CF)
   (attr smd)
   (fp_text reference J6 (at 0.697 -0.5095 -270 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -24,4 +24,9 @@
   (fp_line (start -1.27 3.175) (end -1.27 -3.13493) (layer F.SilkS) (width 0.18))
   (pad 1 thru_hole rect (at 0 0) (size 1.778 1.778) (drill 1.1176) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1.1176) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,0 +1,11 @@
+(module MIRECMS_D-1.5_1 (layer F.Cu) (tedit 5E967ACB)
+  (attr smd)
+  (fp_text reference MIR1 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value MIRECMS (at 3.556 -1.016 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (pad 1 smd circle (at 0 0 180) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.36))
+)
