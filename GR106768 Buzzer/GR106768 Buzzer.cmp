@@ -1029,7 +1029,7 @@ TimeStamp = 00000000
 Path =
 Reference = C35;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1037,7 +1037,7 @@ TimeStamp = 00000000
 Path =
 Reference = C34;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1045,7 +1045,7 @@ TimeStamp = 00000000
 Path =
 Reference = C33;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1053,7 +1053,7 @@ TimeStamp = 00000000
 Path =
 Reference = C32;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1061,7 +1061,7 @@ TimeStamp = 00000000
 Path =
 Reference = C31;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1069,7 +1069,7 @@ TimeStamp = 00000000
 Path =
 Reference = C30;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1085,7 +1085,7 @@ TimeStamp = 00000000
 Path =
 Reference = C28;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1093,7 +1093,7 @@ TimeStamp = 00000000
 Path =
 Reference = C27;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1109,7 +1109,7 @@ TimeStamp = 00000000
 Path =
 Reference = C25;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1157,7 +1157,7 @@ TimeStamp = 00000000
 Path =
 Reference = C19;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1165,7 +1165,7 @@ TimeStamp = 00000000
 Path =
 Reference = C18;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1173,7 +1173,7 @@ TimeStamp = 00000000
 Path =
 Reference = C17;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1181,7 +1181,7 @@ TimeStamp = 00000000
 Path =
 Reference = C16;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1189,7 +1189,7 @@ TimeStamp = 00000000
 Path =
 Reference = C15;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1221,7 +1221,7 @@ TimeStamp = 00000000
 Path =
 Reference = C11;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1229,7 +1229,7 @@ TimeStamp = 00000000
 Path =
 Reference = C10;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1237,7 +1237,7 @@ TimeStamp = 00000000
 Path =
 Reference = C9;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1245,7 +1245,7 @@ TimeStamp = 00000000
 Path =
 Reference = C8;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1253,7 +1253,7 @@ TimeStamp = 00000000
 Path =
 Reference = C7;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1261,7 +1261,7 @@ TimeStamp = 00000000
 Path =
 Reference = C6;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1269,7 +1269,7 @@ TimeStamp = 00000000
 Path =
 Reference = C5;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1277,7 +1277,7 @@ TimeStamp = 00000000
 Path =
 Reference = C4;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -1293,7 +1293,7 @@ TimeStamp = 00000000
 Path =
 Reference = C2;
 ValeurCmp = C-BC-C0402;
-IdModule  = GR106768 Buzzer:C0402_1;
+IdModule  = GR106768 Buzzer:C0402_1b;
 EndCmp
 
 BeginCmp
