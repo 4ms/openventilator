@@ -825,7 +825,7 @@ P 13900 5350
 F 0 "IC35" V 14500 4950 73  0000 L BNN
 F 1 "SQ276" V 14400 4925 59  0000 L BNN
 F 2 "AllModules:SQ276-05856_1" H 13900 5350 50  0001 C CNN
-F 3 "" H 13900 5350 50  0001 C CNN
+F 3 "https://www.first-sensor.com/cms/upload/datasheets/DS_Standard-HCLA_E_11629.pdf" H 13900 5350 50  0001 C CNN
 	1    13900 5350
 	0    -1   -1   0   
 $EndComp
@@ -1778,7 +1778,7 @@ P 7550 3450
 F 0 "IC27" V 8138 3287 73  0000 R BNN
 F 1 "SQ276" V 8038 3275 59  0000 R BNN
 F 2 "AllModules:SQ276-05856_1" H 7550 3450 50  0001 C CNN
-F 3 "" H 7550 3450 50  0001 C CNN
+F 3 "https://www.first-sensor.com/cms/upload/datasheets/DS_Standard-HCLA_E_11629.pdf" H 7550 3450 50  0001 C CNN
 	1    7550 3450
 	0    -1   -1   0   
 $EndComp
@@ -2043,7 +2043,7 @@ P 11450 5375
 F 0 "IC34" V 12000 5175 73  0000 R CNN
 F 1 "SQ276" V 11900 5175 59  0000 R CNN
 F 2 "AllModules:SQ276-05856_1" H 11450 5375 50  0001 C CNN
-F 3 "" H 11450 5375 50  0001 C CNN
+F 3 "https://www.first-sensor.com/cms/upload/datasheets/DS_Standard-HCLA_E_11629.pdf" H 11450 5375 50  0001 C CNN
 	1    11450 5375
 	0    -1   -1   0   
 $EndComp
