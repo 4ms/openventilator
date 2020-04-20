@@ -49,7 +49,138 @@ D CMOS comparator
 K comparator
 $ENDCMP
 #
-$CMP R0402_100k_1%
+$CMPR0402_0Ohm_ 
+$CMPR0402_1.5M_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_1.5Ohm_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_100k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_105k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_10k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_137k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_150k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_15k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_180k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_182k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_1k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_1M_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_2.2k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_200k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_220Ohm_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_32.4k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_33k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_33Ohm_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_4.7k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_4.99k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_470Ohm_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_47k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_51.1k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_54.9k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_59k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_680k_1%
+D 0402 SMD resistor
+K resistor 0402
+$ENDCMP
+#
+$CMPR0402_68k_1%
 D 0402 SMD resistor
 K resistor 0402
 $ENDCMP

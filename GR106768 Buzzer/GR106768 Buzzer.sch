@@ -1712,7 +1712,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3150 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L buz:Buzzer BUZ1
+L GR106768_Buzzer:Buzzer BUZ1
 U 1 1 5E96E8FA
 P 9975 2575
 F 0 "BUZ1" V 10250 2675 50  0000 R CNN
@@ -1724,7 +1724,7 @@ F 4 "muRATA PKM33EPH-1201C" V 9975 2575 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L buz:Buzzer BUZ2
+L GR106768_Buzzer:Buzzer BUZ2
 U 1 1 5E971F0E
 P 9975 3075
 F 0 "BUZ2" V 10250 3175 50  0000 R CNN
