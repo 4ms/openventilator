@@ -1,4 +1,4 @@
-(module PadHole (layer F.Cu) (tedit 5E991E34)
+(module ThroughHole_60milx12mil_Pad_Cu_Mask (layer F.Cu) (tedit 5E991E34)
   (fp_text reference "" (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )

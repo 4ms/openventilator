@@ -1,9 +1,9 @@
-(module C0402_2 (layer F.Cu) (tedit 5E99D80B)
+(module C0402_1b (layer F.Cu) (tedit 5E99D816)
   (attr smd)
-  (fp_text reference C4 (at 0.4555 0.492 -90 unlocked) (layer F.SilkS)
+  (fp_text reference C2 (at -0.05 1.324 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
   )
-  (fp_text value C-BC-C0402 (at -4 0.8 -180 unlocked) (layer F.SilkS) hide
+  (fp_text value C-BC-C0402 (at 4 -0.8 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
   )
   (fp_line (start -0.55 0.3) (end -0.55 -0.3) (layer F.Fab) (width 0.1))
