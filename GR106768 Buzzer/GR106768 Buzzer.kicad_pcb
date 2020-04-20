@@ -267,7 +267,7 @@
     (add_net VCHARG)
   )
 
-  (module "GR106768 Buzzer:BT-4-V150H-4.8V_1" (layer B.Cu) (tedit 5E99D7C2) (tstamp 0)
+  (module "AllModules:BT-4-V150H-4.8V_1" (layer B.Cu) (tedit 5E99D7C2) (tstamp 0)
     (at 33.48748 31.01)
     (attr smd)
     (fp_text reference BAT1 (at -5.38349 -0.4676 unlocked) (layer B.SilkS)
@@ -306,7 +306,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:NR4012_1" (layer F.Cu) (tedit 5E99F0B0) (tstamp 0)
+  (module "AllModules:NR4012_1" (layer F.Cu) (tedit 5E99F0B0) (tstamp 0)
     (at 54.2065 17.547 180)
     (attr smd)
     (fp_text reference ZL4 (at -2.032 1.016 unlocked) (layer F.SilkS) hide
@@ -337,7 +337,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:WE-FA_1" (layer F.Cu) (tedit 5E99F9D7) (tstamp 0)
+  (module "AllModules:WE-FA_1" (layer F.Cu) (tedit 5E99F9D7) (tstamp 0)
     (at 23.7265 18.055)
     (attr smd)
     (fp_text reference FI1 (at -3.656 -0.2 unlocked) (layer F.SilkS)
@@ -411,7 +411,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:WETPC-S_1" (layer F.Cu) (tedit 5E99F5E4) (tstamp 0)
+  (module "AllModules:WETPC-S_1" (layer F.Cu) (tedit 5E99F5E4) (tstamp 0)
     (at 54.2065 17.547 180)
     (attr smd)
     (fp_text reference L4 (at -0.5095 0.4666 unlocked) (layer F.SilkS)
@@ -440,7 +440,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:WETPC-S_1" (layer F.Cu) (tedit 5E99F5E4) (tstamp 0)
+  (module "AllModules:WETPC-S_1" (layer F.Cu) (tedit 5E99F5E4) (tstamp 0)
     (at 52.6825 9.8)
     (attr smd)
     (fp_text reference L3 (at -1.794 2.883 unlocked) (layer F.SilkS)
@@ -469,7 +469,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:WETPC-S_1" (layer F.Cu) (tedit 5E99F5E4) (tstamp 0)
+  (module "AllModules:WETPC-S_1" (layer F.Cu) (tedit 5E99F5E4) (tstamp 0)
     (at 42.84 9.8 180)
     (attr smd)
     (fp_text reference L2 (at -0.5222 0.4666 unlocked) (layer F.SilkS)
@@ -498,7 +498,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 5E997D2D)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 5E997D2D)
     (at 68.8115 40.534)
     (fp_text reference "H1" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -510,7 +510,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 46.65 41.8675 90)
     (attr smd)
     (fp_text reference T13 (at 0.7269 -0.4682 90 unlocked) (layer F.SilkS)
@@ -552,7 +552,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 42.84 44.725 180)
     (attr smd)
     (fp_text reference T12 (at -0.719 0.4666 unlocked) (layer F.SilkS)
@@ -594,7 +594,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 39.03 44.725 180)
     (attr smd)
     (fp_text reference T11 (at -0.7444 0.4666 unlocked) (layer F.SilkS)
@@ -636,7 +636,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 59.6675 30.4375 90)
     (attr smd)
     (fp_text reference T10 (at 0.4793 0.7063 unlocked) (layer F.SilkS)
@@ -678,7 +678,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 65.065 30.4375 90)
     (attr smd)
     (fp_text reference T9 (at 0.4539 0.4968 unlocked) (layer F.SilkS)
@@ -720,7 +720,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 76.5585 18.817 180)
     (attr smd)
     (fp_text reference T8 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -762,7 +762,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 80.2415 18.817 180)
     (attr smd)
     (fp_text reference T7 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -804,7 +804,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 47.7295 30.501)
     (attr smd)
     (fp_text reference T6 (at -1.955 -1.47 unlocked) (layer F.SilkS)
@@ -846,7 +846,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
+  (module "AllModules:SOT23-GSD_1" (layer F.Cu) (tedit 5E991CD2) (tstamp 0)
     (at 38.0775 36.7875)
     (attr smd)
     (fp_text reference T5 (at 1.44077 -1.59568 unlocked) (layer F.SilkS)
@@ -888,7 +888,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
+  (module "AllModules:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
     (at 80.2415 10.816)
     (attr smd)
     (fp_text reference T4 (at -0.651 2.629 unlocked) (layer F.SilkS)
@@ -932,7 +932,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
+  (module "AllModules:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
     (at 80.2415 6.117)
     (attr smd)
     (fp_text reference T3 (at -0.05 -2.885 unlocked) (layer F.SilkS)
@@ -976,7 +976,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
+  (module "AllModules:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
     (at 59.2865 10.308)
     (attr smd)
     (fp_text reference T2 (at -0.05 2.594 unlocked) (layer F.SilkS)
@@ -1020,7 +1020,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
+  (module "AllModules:SOT23-BEC_1" (layer F.Cu) (tedit 5E991CBC) (tstamp 0)
     (at 59.2865 5.482)
     (attr smd)
     (fp_text reference T1 (at -0.05 -2.74 unlocked) (layer F.SilkS)
@@ -1064,7 +1064,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:NK236_1_1" (layer B.Cu) (tedit 5E99F0FB) (tstamp 0)
+  (module "AllModules:NK236_1_1" (layer B.Cu) (tedit 5E99F0FB) (tstamp 0)
     (at 36.56748 49.29 180)
     (attr smd)
     (fp_text reference SW1 (at 0.6663 0.4596 unlocked) (layer B.SilkS)
@@ -1100,7 +1100,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:TB-CMS-AIROX-2_1" (layer B.Cu) (tedit 0) (tstamp 0)
+  (module "AllModules:TB-CMS-AIROX-2_1" (layer B.Cu) (tedit 0) (tstamp 0)
     (at 36.55348 52.98 270)
     (attr smd)
     (fp_text reference SJ1 (at -0.5682 0.8555 unlocked) (layer B.SilkS)
@@ -1121,7 +1121,7 @@
       (net 60 N$20))
   )
 
-  (module "GR106768 Buzzer:R0805_1b" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
+  (module "AllModules:R0805_1b" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
     (at 39.03 39.9625 180)
     (attr smd)
     (fp_text reference R71 (at -0.7444 0.4793 unlocked) (layer F.SilkS)
@@ -1150,7 +1150,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 47.6025 44.725 90)
     (attr smd)
     (fp_text reference R70 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -1174,7 +1174,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 39.137)
     (attr smd)
     (fp_text reference R69 (at -3.783 -0.073 unlocked) (layer F.SilkS)
@@ -1198,7 +1198,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 45.6975 44.725 270)
     (attr smd)
     (fp_text reference R68 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -1222,7 +1222,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 39.03 41.8675 180)
     (attr smd)
     (fp_text reference R67 (at -0.719 0.4793 unlocked) (layer F.SilkS)
@@ -1246,7 +1246,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 41.8875 25.167 270)
     (attr smd)
     (fp_text reference R66 (at -0.590398 0.398365 90 unlocked) (layer F.SilkS)
@@ -1270,7 +1270,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 31.41 9.8)
     (attr smd)
     (fp_text reference R65 (at -0.26751 1.09078 unlocked) (layer F.SilkS)
@@ -1294,7 +1294,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 62.2075 30.4375 90)
     (attr smd)
     (fp_text reference R64 (at 0.7015 -0.4809 90 unlocked) (layer F.SilkS)
@@ -1318,7 +1318,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 56.81 30.4375 90)
     (attr smd)
     (fp_text reference R63 (at 0.7269 -0.4682 90 unlocked) (layer F.SilkS)
@@ -1342,7 +1342,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 58.3975 34.2475 270)
     (attr smd)
     (fp_text reference R62 (at -0.7015 0.4809 90 unlocked) (layer F.SilkS)
@@ -1366,7 +1366,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 56.81 34.2475 270)
     (attr smd)
     (fp_text reference R61 (at -0.7523 0.4682 90 unlocked) (layer F.SilkS)
@@ -1390,7 +1390,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 80.2415 24.913 180)
     (attr smd)
     (fp_text reference R60 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -1414,7 +1414,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 40.534)
     (attr smd)
     (fp_text reference R59 (at -3.834 -0.038 unlocked) (layer F.SilkS)
@@ -1438,7 +1438,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 46.7135 18.563 270)
     (attr smd)
     (fp_text reference R58 (at -0.590398 0.398365 90 unlocked) (layer F.SilkS)
@@ -1462,7 +1462,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 44.0465 20.214)
     (attr smd)
     (fp_text reference R57 (at -2.013342 0.013515 unlocked) (layer F.SilkS)
@@ -1486,7 +1486,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 47.7295 21.357 270)
     (attr smd)
     (fp_text reference R56 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -1510,7 +1510,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 48.7455 18.563 270)
     (attr smd)
     (fp_text reference R55 (at -0.590398 0.398365 90 unlocked) (layer F.SilkS)
@@ -1534,7 +1534,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 43.7925 6.625)
     (attr smd)
     (fp_text reference R54 (at 1.877998 -0.039665 unlocked) (layer F.SilkS)
@@ -1558,7 +1558,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 52.0475 6.625 180)
     (attr smd)
     (fp_text reference R53 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -1582,7 +1582,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 76.4315 21.23 180)
     (attr smd)
     (fp_text reference R52 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -1606,7 +1606,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 76.5585 16.277 180)
     (attr smd)
     (fp_text reference R51 (at -0.7571 0.4666 unlocked) (layer F.SilkS)
@@ -1630,7 +1630,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 47.7295 27.707 180)
     (attr smd)
     (fp_text reference R50 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -1654,7 +1654,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 80.2415 16.15)
     (attr smd)
     (fp_text reference R49 (at 2.821 0.054 unlocked) (layer F.SilkS)
@@ -1678,7 +1678,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 80.2415 22.373 180)
     (attr smd)
     (fp_text reference R48 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -1702,7 +1702,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 47.7295 33.295)
     (attr smd)
     (fp_text reference R47 (at 0.154 1.324 unlocked) (layer F.SilkS)
@@ -1726,7 +1726,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 52.0475 33.295 180)
     (attr smd)
     (fp_text reference R46 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -1750,7 +1750,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 54.0795 32.152 90)
     (attr smd)
     (fp_text reference R45 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -1774,7 +1774,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 52.0475 26.691)
     (attr smd)
     (fp_text reference R44 (at 0.154 -1.089 unlocked) (layer F.SilkS)
@@ -1798,7 +1798,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 52.0475 27.707 180)
     (attr smd)
     (fp_text reference R43 (at -0.607898 0.384065 unlocked) (layer F.SilkS)
@@ -1822,7 +1822,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 29.5685 25.167 90)
     (attr smd)
     (fp_text reference R42 (at 0.7142 -0.4555 90 unlocked) (layer F.SilkS)
@@ -1846,7 +1846,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 30.5845 25.167 270)
     (attr smd)
     (fp_text reference R41 (at -0.765 0.4555 90 unlocked) (layer F.SilkS)
@@ -1870,7 +1870,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 55.4765 43.074)
     (attr smd)
     (fp_text reference R40 (at -0.024 -1.054 unlocked) (layer F.SilkS)
@@ -1894,7 +1894,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 32.6165 25.167 270)
     (attr smd)
     (fp_text reference R39 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -1918,7 +1918,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 33.7595 30.501 270)
     (attr smd)
     (fp_text reference R38 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -1942,7 +1942,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 37.8235 25.167 270)
     (attr smd)
     (fp_text reference R37 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -1966,7 +1966,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0805_1b" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
+  (module "AllModules:R0805_1b" (layer F.Cu) (tedit 5E98FCEC) (tstamp 0)
     (at 39.665 24.405 270)
     (attr smd)
     (fp_text reference R36 (at -0.7142 0.4682 90 unlocked) (layer F.SilkS)
@@ -1995,7 +1995,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 27.5365 36.724 90)
     (attr smd)
     (fp_text reference R35 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2019,7 +2019,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 28.6795 36.724 270)
     (attr smd)
     (fp_text reference R34 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -2043,7 +2043,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 44.0465 30.501 90)
     (attr smd)
     (fp_text reference R33 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2067,7 +2067,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 35.4105 36.724 90)
     (attr smd)
     (fp_text reference R32 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2091,7 +2091,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 34.3945 36.724 90)
     (attr smd)
     (fp_text reference R31 (at 0.765 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2115,7 +2115,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 29.8225 36.724 90)
     (attr smd)
     (fp_text reference R30 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2139,7 +2139,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 75.0345 42.058 180)
     (attr smd)
     (fp_text reference R29 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2163,7 +2163,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 3.704)
     (attr smd)
     (fp_text reference R28 (at 0.611 -0.927 unlocked) (layer F.SilkS)
@@ -2187,7 +2187,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 42.058 180)
     (attr smd)
     (fp_text reference R27 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2211,7 +2211,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 68.3035 3.704)
     (attr smd)
     (fp_text reference R26 (at -0.862 -1.089 unlocked) (layer F.SilkS)
@@ -2235,7 +2235,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 36.343 180)
     (attr smd)
     (fp_text reference R25 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2259,7 +2259,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 37.74 180)
     (attr smd)
     (fp_text reference R24 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2283,7 +2283,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 83.0355 29.231)
     (attr smd)
     (fp_text reference R23 (at 2.77 -0.292 unlocked) (layer F.SilkS)
@@ -2307,7 +2307,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 76.1775 6.117 270)
     (attr smd)
     (fp_text reference R22 (at -0.7142 0.4555 90 unlocked) (layer F.SilkS)
@@ -2331,7 +2331,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 80.8765 31.263 90)
     (attr smd)
     (fp_text reference R21 (at 0.765 -0.4555 90 unlocked) (layer F.SilkS)
@@ -2355,7 +2355,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 74.9075 6.117 90)
     (attr smd)
     (fp_text reference R20 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2379,7 +2379,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 77.4475 6.117 270)
     (attr smd)
     (fp_text reference R19 (at -0.7142 0.4555 90 unlocked) (layer F.SilkS)
@@ -2403,7 +2403,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 83.0355 34.565 180)
     (attr smd)
     (fp_text reference R18 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2427,7 +2427,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 83.0355 33.422 180)
     (attr smd)
     (fp_text reference R17 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2451,7 +2451,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 83.0355 31.898 180)
     (attr smd)
     (fp_text reference R16 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2475,7 +2475,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 83.9245 13.356)
     (attr smd)
     (fp_text reference R15 (at 2.567 0.181 unlocked) (layer F.SilkS)
@@ -2499,7 +2499,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 61.5725 10.435 270)
     (attr smd)
     (fp_text reference R14 (at -0.7142 0.4555 90 unlocked) (layer F.SilkS)
@@ -2523,7 +2523,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 62.5885 10.435 90)
     (attr smd)
     (fp_text reference R13 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2547,7 +2547,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 63.6045 10.435 270)
     (attr smd)
     (fp_text reference R12 (at -0.7142 0.4555 90 unlocked) (layer F.SilkS)
@@ -2571,7 +2571,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 67.4145 12.848 180)
     (attr smd)
     (fp_text reference R11 (at -0.7571 0.4666 unlocked) (layer F.SilkS)
@@ -2595,7 +2595,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 12.848 180)
     (attr smd)
     (fp_text reference R10 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -2619,7 +2619,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 67.4145 13.864)
     (attr smd)
     (fp_text reference R9 (at -0.05 1.197 unlocked) (layer F.SilkS)
@@ -2643,7 +2643,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 71.2245 14.499 90)
     (attr smd)
     (fp_text reference R8 (at 0.492 -0.4809 90 unlocked) (layer F.SilkS)
@@ -2667,7 +2667,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 25.802 180)
     (attr smd)
     (fp_text reference R7 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -2691,7 +2691,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 67.1605 26.056)
     (attr smd)
     (fp_text reference R6 (at -0.685 0.943 unlocked) (layer F.SilkS)
@@ -2715,7 +2715,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 29.993 180)
     (attr smd)
     (fp_text reference R5 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -2739,7 +2739,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 33.168)
     (attr smd)
     (fp_text reference R4 (at -2.11462 0.12229 unlocked) (layer F.SilkS)
@@ -2763,7 +2763,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 66.6525 24.405 270)
     (attr smd)
     (fp_text reference R3 (at -0.492 0.4809 90 unlocked) (layer F.SilkS)
@@ -2787,7 +2787,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 67.6685 24.405 90)
     (attr smd)
     (fp_text reference R2 (at 0.409465 -0.398365 90 unlocked) (layer F.SilkS)
@@ -2811,7 +2811,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
+  (module "AllModules:R0402_1" (layer F.Cu) (tedit 5E98FCDA) (tstamp 0)
     (at 70.5895 32.025)
     (attr smd)
     (fp_text reference R1 (at -2.04534 0.05298 unlocked) (layer F.SilkS)
@@ -2835,7 +2835,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:D0603_1" (layer F.Cu) (tedit 5E98DBEF) (tstamp 0)
+  (module "AllModules:D0603_1" (layer F.Cu) (tedit 5E98DBEF) (tstamp 0)
     (at 55.4765 44.471 180)
     (attr smd)
     (fp_text reference LD1 (at -0.7571 0.2888 unlocked) (layer F.SilkS)
@@ -2861,7 +2861,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:NR4012_1" (layer F.Cu) (tedit 5E99F0B0) (tstamp 0)
+  (module "AllModules:NR4012_1" (layer F.Cu) (tedit 5E99F0B0) (tstamp 0)
     (at 52.6825 9.8)
     (attr smd)
     (fp_text reference ZL3 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
@@ -2892,7 +2892,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:NR4018_1" (layer F.Cu) (tedit 5E99F08A) (tstamp 0)
+  (module "AllModules:NR4018_1" (layer F.Cu) (tedit 5E99F08A) (tstamp 0)
     (at 42.84 9.8 180)
     (attr smd)
     (fp_text reference ZL2 (at -2.032 1.016 unlocked) (layer F.SilkS) hide
@@ -2925,7 +2925,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
+  (module "AllModules:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
     (at 30.0765 3.704)
     (attr smd)
     (fp_text reference L1 (at -1.32 -1.978 unlocked) (layer F.SilkS)
@@ -2955,7 +2955,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:TB-CMS-AIROX_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "AllModules:TB-CMS-AIROX_1" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 88.3695 4.212)
     (attr smd)
     (fp_text reference JP1 (at 0.027 -2.867 unlocked) (layer F.SilkS)
@@ -2970,7 +2970,7 @@
       (net 48 GT1))
   )
 
-  (module "GR106768 Buzzer:MIRECMS-SAFT_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "AllModules:MIRECMS-SAFT_1" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 29.0605 54.25)
     (attr smd)
     (fp_text reference J3 (at 1.016 -1.016 unlocked) (layer F.SilkS) hide
@@ -2983,7 +2983,7 @@
     (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module "GR106768 Buzzer:MIRECMS-SAFT_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "AllModules:MIRECMS-SAFT_1" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 88.3695 8.403)
     (attr smd)
     (fp_text reference J2 (at 1.016 -1.016 unlocked) (layer F.SilkS) hide
@@ -2996,7 +2996,7 @@
     (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module "GR106768 Buzzer:BAR7-3-2-COVIDIEN_1" (layer F.Cu) (tedit 0) (tstamp 0)
+  (module "AllModules:BAR7-3-2-COVIDIEN_1" (layer F.Cu) (tedit 0) (tstamp 0)
     (at 20.1705 7.895)
     (attr smd)
     (fp_text reference J1 (at -1.193 2.213 unlocked) (layer F.SilkS)
@@ -3021,7 +3021,7 @@
       (net 73 INHIB-STOP-INV-CPU))
   )
 
-  (module "GR106768 Buzzer:SOT23-6_1" (layer F.Cu) (tedit 5E991C41) (tstamp 0)
+  (module "AllModules:SOT23-6_1" (layer F.Cu) (tedit 5E991C41) (tstamp 0)
     (at 62.2075 34.2475)
     (attr smd)
     (fp_text reference IC9 (at 0.04423 3.0237 unlocked) (layer F.SilkS)
@@ -3077,7 +3077,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DFN10_1" (layer F.Cu) (tedit 5E98DD42) (tstamp 0)
+  (module "AllModules:DFN10_1" (layer F.Cu) (tedit 5E98DD42) (tstamp 0)
     (at 47.7295 14.88)
     (attr smd)
     (fp_text reference IC8 (at 3.08199 -0.24705 unlocked) (layer F.SilkS)
@@ -3118,7 +3118,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-6_1" (layer F.Cu) (tedit 5E991C52) (tstamp 0)
+  (module "AllModules:SOT23-6_1" (layer F.Cu) (tedit 5E991C52) (tstamp 0)
     (at 52.0475 30.501 180)
     (attr smd)
     (fp_text reference IC7 (at 0.4809 0.8158 90 unlocked) (layer F.SilkS)
@@ -3174,7 +3174,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
+  (module "AllModules:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
     (at 30.5845 30.501 180)
     (attr smd)
     (fp_text reference IC6 (at -0.8079 0.4666 unlocked) (layer F.SilkS)
@@ -3225,7 +3225,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
+  (module "AllModules:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
     (at 39.8555 30.501 180)
     (attr smd)
     (fp_text reference IC5 (at -0.8079 0.4666 unlocked) (layer F.SilkS)
@@ -3274,7 +3274,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-5_1" (layer F.Cu) (tedit 5E991C29) (tstamp 0)
+  (module "AllModules:SOT23-5_1" (layer F.Cu) (tedit 5E991C29) (tstamp 0)
     (at 75.0345 39.772 90)
     (attr smd)
     (fp_text reference IC4 (at 0.4666 0.8079 unlocked) (layer F.SilkS)
@@ -3320,7 +3320,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
+  (module "AllModules:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
     (at 68.4305 8.149)
     (attr smd)
     (fp_text reference IC3 (at 4.294 3.01 unlocked) (layer F.SilkS)
@@ -3371,7 +3371,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
+  (module "AllModules:MX.A8_COMPOSANT_1" (layer F.Cu) (tedit 5E98E1A1) (tstamp 0)
     (at 76.5585 31.263 270)
     (attr smd)
     (fp_text reference IC2 (at -0.4666 -0.8079 unlocked) (layer F.SilkS)
@@ -3422,7 +3422,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-5_1" (layer F.Cu) (tedit 5E991C29) (tstamp 0)
+  (module "AllModules:SOT23-5_1" (layer F.Cu) (tedit 5E991C29) (tstamp 0)
     (at 70.5895 23.77 90)
     (attr smd)
     (fp_text reference IC1 (at 0.4666 0.8587 unlocked) (layer F.SilkS)
@@ -3468,7 +3468,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:F6126_1" (layer F.Cu) (tedit 5E98E0CC) (tstamp 0)
+  (module "AllModules:F6126_1" (layer F.Cu) (tedit 5E98E0CC) (tstamp 0)
     (at 22.8375 4.212)
     (attr smd)
     (fp_text reference FU1 (at 0.027 -2.613 unlocked) (layer F.SilkS)
@@ -3497,7 +3497,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 42.84 40.915 180)
     (attr smd)
     (fp_text reference D17 (at -0.569798 0.409465 unlocked) (layer F.SilkS)
@@ -3542,7 +3542,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 46.65 38.0575 270)
     (attr smd)
     (fp_text reference D16 (at -0.4793 -0.6682 unlocked) (layer F.SilkS)
@@ -3587,7 +3587,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 30.775 13.61 180)
     (attr smd)
     (fp_text reference D15 (at 0.4682 0.6888 90 unlocked) (layer F.SilkS)
@@ -3631,7 +3631,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 35.4105 6.752 180)
     (attr smd)
     (fp_text reference D14 (at -0.912698 0.384065 unlocked) (layer F.SilkS)
@@ -3667,7 +3667,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 44.0465 15.515 90)
     (attr smd)
     (fp_text reference D13 (at 0.3332 -0.4809 90 unlocked) (layer F.SilkS)
@@ -3703,7 +3703,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 55.8575 22.754 90)
     (attr smd)
     (fp_text reference D12 (at 0.3332 -0.4555 90 unlocked) (layer F.SilkS)
@@ -3739,7 +3739,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 35.4105 9.8 180)
     (attr smd)
     (fp_text reference D11 (at -1.0873 0.4666 unlocked) (layer F.SilkS)
@@ -3775,7 +3775,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 35.4105 3.704 180)
     (attr smd)
     (fp_text reference D10 (at -1.0365 0.4666 unlocked) (layer F.SilkS)
@@ -3811,7 +3811,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 76.5585 23.77 180)
     (attr smd)
     (fp_text reference D9 (at 0.4555 0.4666 90 unlocked) (layer F.SilkS)
@@ -3856,7 +3856,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 35.0295 24.151 270)
     (attr smd)
     (fp_text reference D8 (at -0.8222 -0.4587 unlocked) (layer F.SilkS)
@@ -3892,7 +3892,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 42.84 36.7875)
     (attr smd)
     (fp_text reference D7 (at 2.01767 -1.4986 unlocked) (layer F.SilkS)
@@ -3936,7 +3936,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 32.1085 36.724)
     (attr smd)
     (fp_text reference D6 (at -0.05 3.102 unlocked) (layer F.SilkS)
@@ -3981,7 +3981,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 83.0355 39.137 180)
     (attr smd)
     (fp_text reference D5 (at -0.4587 0.4666 unlocked) (layer F.SilkS)
@@ -4025,7 +4025,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 83.9245 6.117)
     (attr smd)
     (fp_text reference D4 (at -0.05 -2.88 unlocked) (layer F.SilkS)
@@ -4070,7 +4070,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 83.9245 10.816)
     (attr smd)
     (fp_text reference D3 (at 3.032 0.343 unlocked) (layer F.SilkS)
@@ -4115,7 +4115,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
+  (module "AllModules:SOT23-1G_1" (layer F.Cu) (tedit 5E991BC2) (tstamp 0)
     (at 70.5895 17.547)
     (attr smd)
     (fp_text reference D2 (at -2.971 0.181 unlocked) (layer F.SilkS)
@@ -4160,7 +4160,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
+  (module "AllModules:DO216AA_1" (layer F.Cu) (tedit 5E98DE77) (tstamp 0)
     (at 63.3505 23.262 90)
     (attr smd)
     (fp_text reference D1 (at 0.1618 -0.4555 90 unlocked) (layer F.SilkS)
@@ -4196,7 +4196,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
     (at 80.2415 15.134)
     (attr smd)
     (fp_text reference C35 (at 2.821 -0.2 unlocked) (layer F.SilkS)
@@ -4220,7 +4220,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 59.985 34.2475 270)
     (attr smd)
     (fp_text reference C34 (at -0.7015 0.4682 90 unlocked) (layer F.SilkS)
@@ -4244,7 +4244,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 64.7475 34.2475 90)
     (attr smd)
     (fp_text reference C33 (at 0.7269 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4268,7 +4268,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 52.3015 23.008 180)
     (attr smd)
     (fp_text reference C32 (at -0.582498 0.384065 unlocked) (layer F.SilkS)
@@ -4292,7 +4292,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 44.0465 23.897 180)
     (attr smd)
     (fp_text reference C31 (at -0.7571 0.4666 unlocked) (layer F.SilkS)
@@ -4316,7 +4316,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 75.0345 37.486 180)
     (attr smd)
     (fp_text reference C30 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -4340,7 +4340,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
+  (module "AllModules:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
     (at 44.5545 21.992 180)
     (attr smd)
     (fp_text reference C29 (at 0.4555 0.7142 90 unlocked) (layer F.SilkS)
@@ -4370,7 +4370,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 44.0465 19.198 180)
     (attr smd)
     (fp_text reference C28 (at -0.582498 0.384065 unlocked) (layer F.SilkS)
@@ -4394,7 +4394,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 48.7455 21.357 90)
     (attr smd)
     (fp_text reference C27 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4418,7 +4418,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
+  (module "AllModules:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
     (at 52.3015 21.103)
     (attr smd)
     (fp_text reference C26 (at 6.19912 0.08081 unlocked) (layer F.SilkS)
@@ -4448,7 +4448,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 47.7295 18.563 90)
     (attr smd)
     (fp_text reference C25 (at 0.590398 -0.398365 90 unlocked) (layer F.SilkS)
@@ -4472,7 +4472,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0805_1b" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
+  (module "AllModules:C0805_1b" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
     (at 54.9685 14.118 180)
     (attr smd)
     (fp_text reference C24 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -4501,7 +4501,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C1210_1" (layer F.Cu) (tedit 5E98DB7A) (tstamp 0)
+  (module "AllModules:C1210_1" (layer F.Cu) (tedit 5E98DB7A) (tstamp 0)
     (at 52.6825 4.085 180)
     (attr smd)
     (fp_text reference C23 (at -0.7317 0.4666 unlocked) (layer F.SilkS)
@@ -4530,7 +4530,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
+  (module "AllModules:RC1206_1" (layer F.Cu) (tedit 5E98FD11) (tstamp 0)
     (at 47.7295 3.958 90)
     (attr smd)
     (fp_text reference C22 (at 0.4666 0.7063 unlocked) (layer F.SilkS)
@@ -4560,7 +4560,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C1210_1" (layer F.Cu) (tedit 5E98DB7A) (tstamp 0)
+  (module "AllModules:C1210_1" (layer F.Cu) (tedit 5E98DB7A) (tstamp 0)
     (at 43.1575 4.085)
     (attr smd)
     (fp_text reference C21 (at -0.10572 -2.58162 unlocked) (layer F.SilkS)
@@ -4589,7 +4589,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0603_1b" (layer F.Cu) (tedit 5E98DB31) (tstamp 0)
+  (module "AllModules:C0603_1b" (layer F.Cu) (tedit 5E98DB31) (tstamp 0)
     (at 80.2415 23.643)
     (attr smd)
     (fp_text reference C20 (at 3.329 0.054 unlocked) (layer F.SilkS)
@@ -4613,7 +4613,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 50.0155 30.501 270)
     (attr smd)
     (fp_text reference C19 (at -0.7142 0.4555 90 unlocked) (layer F.SilkS)
@@ -4637,7 +4637,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 54.0795 28.85 90)
     (attr smd)
     (fp_text reference C18 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4661,7 +4661,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 28.5525 25.167 270)
     (attr smd)
     (fp_text reference C17 (at -0.7142 0.4809 90 unlocked) (layer F.SilkS)
@@ -4685,7 +4685,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 27.5365 30.501 90)
     (attr smd)
     (fp_text reference C16 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4709,7 +4709,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 43.0305 30.501 90)
     (attr smd)
     (fp_text reference C15 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4733,7 +4733,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0603_1b" (layer F.Cu) (tedit 5E98DB45) (tstamp 0)
+  (module "AllModules:C0603_1b" (layer F.Cu) (tedit 5E98DB45) (tstamp 0)
     (at 83.0355 30.501 180)
     (attr smd)
     (fp_text reference C14 (at -0.7063 0.4666 unlocked) (layer F.SilkS)
@@ -4757,7 +4757,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0603_1b" (layer F.Cu) (tedit 5E98DB31) (tstamp 0)
+  (module "AllModules:C0603_1b" (layer F.Cu) (tedit 5E98DB31) (tstamp 0)
     (at 83.0355 36.089)
     (attr smd)
     (fp_text reference C13 (at 4.04 -0.038 unlocked) (layer F.SilkS)
@@ -4781,7 +4781,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:AX10X30_1" (layer B.Cu) (tedit 5E99C5E2) (tstamp 0)
+  (module "AllModules:AX10X30_1" (layer B.Cu) (tedit 5E99C5E2) (tstamp 0)
     (at 75.48748 51.64 270)
     (attr smd)
     (fp_text reference C12 (at -16.5002 0.7243 unlocked) (layer B.SilkS)
@@ -4819,7 +4819,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 71.6055 8.149 270)
     (attr smd)
     (fp_text reference C11 (at -0.765 0.4555 90 unlocked) (layer F.SilkS)
@@ -4843,7 +4843,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 65.2555 8.149 90)
     (attr smd)
     (fp_text reference C10 (at 0.7142 -0.4809 90 unlocked) (layer F.SilkS)
@@ -4867,7 +4867,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 69.9545 14.499 270)
     (attr smd)
     (fp_text reference C9 (at -0.492 0.4555 90 unlocked) (layer F.SilkS)
@@ -4891,7 +4891,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
     (at 76.5585 34.438)
     (attr smd)
     (fp_text reference C8 (at -0.016 1.105 unlocked) (layer F.SilkS)
@@ -4915,7 +4915,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 76.5585 28.088 180)
     (attr smd)
     (fp_text reference C7 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -4939,7 +4939,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 70.5895 28.85 180)
     (attr smd)
     (fp_text reference C6 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -4963,7 +4963,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 67.1605 22.754 180)
     (attr smd)
     (fp_text reference C5 (at -0.4841 0.4666 unlocked) (layer F.SilkS)
@@ -4987,7 +4987,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D80B) (tstamp 0)
     (at 70.5895 31.009 180)
     (attr smd)
     (fp_text reference C4 (at 0.4555 0.492 90 unlocked) (layer F.SilkS)
@@ -5011,7 +5011,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0805_1b" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
+  (module "AllModules:C0805_1b" (layer F.Cu) (tedit 5E98DB69) (tstamp 0)
     (at 70.5895 27.326)
     (attr smd)
     (fp_text reference C3 (at 2.82213 -0.03147 unlocked) (layer F.SilkS)
@@ -5040,7 +5040,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0402_1b" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
+  (module "AllModules:C0402_1b" (layer F.Cu) (tedit 5E99D816) (tstamp 0)
     (at 31.3465 5.609)
     (attr smd)
     (fp_text reference C2 (at -0.05 1.324 unlocked) (layer F.SilkS)
@@ -5064,7 +5064,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:PKM33EPH-1201C_1" (layer F.Cu) (tedit 5E99BF17) (tstamp 0)
+  (module "AllModules:PKM33EPH-1201C_1" (layer F.Cu) (tedit 5E99BF17) (tstamp 0)
     (at 71.4875 31.21 270)
     (attr smd)
     (fp_text reference BUZ2 (at -0.312 -1.9355 unlocked) (layer F.SilkS)
@@ -5121,7 +5121,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:PKM33EPH-1201C_1" (layer F.Cu) (tedit 5E99BF17) (tstamp 0)
+  (module "AllModules:PKM33EPH-1201C_1" (layer F.Cu) (tedit 5E99BF17) (tstamp 0)
     (at 37.4875 31.21)
     (attr smd)
     (fp_text reference BUZ1 (at -13.57377 14.63454 unlocked) (layer F.SilkS)
@@ -5178,7 +5178,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:C0612-4_1" (layer F.Cu) (tedit 5E98FD60) (tstamp 0)
+  (module "AllModules:C0612-4_1" (layer F.Cu) (tedit 5E98FD60) (tstamp 0)
     (at 23.7265 14.88 180)
     (attr smd)
     (fp_text reference C1 (at -0.5349 0.4666 unlocked) (layer F.SilkS)
@@ -5254,7 +5254,7 @@
     )
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 68.8115 42.058)
     (fp_text reference "H2" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5266,7 +5266,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4905 37.867)
     (fp_text reference "H3" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5278,7 +5278,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 33.1245 17.42)
     (fp_text reference "H4" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5290,7 +5290,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 64.7475 32.66)
     (fp_text reference "H5" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5302,7 +5302,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 59.0325 32.533)
     (fp_text reference "H6" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5314,7 +5314,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 29.8225 9.8)
     (fp_text reference "H7" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5326,7 +5326,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4905 21.611)
     (fp_text reference "H8" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5338,7 +5338,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 68.4305 27.326)
     (fp_text reference "H9" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5350,7 +5350,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 79.6915 14.245)
     (fp_text reference "H10" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5362,7 +5362,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 35.5375 38.375)
     (fp_text reference "H11" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5374,7 +5374,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 77.8285 24.024)
     (fp_text reference "H12" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5386,7 +5386,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 4.593)
     (fp_text reference "H13" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5398,7 +5398,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 1.672)
     (fp_text reference "H14" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5410,7 +5410,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 85.4875 1.672)
     (fp_text reference "H15" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5422,7 +5422,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 80.4875 1.672)
     (fp_text reference "H16" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5434,7 +5434,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 70.4875 1.672)
     (fp_text reference "H17" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5446,7 +5446,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.4875 1.672)
     (fp_text reference "H18" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5458,7 +5458,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 60.4875 1.672)
     (fp_text reference "H19" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5470,7 +5470,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 55.4875 1.672)
     (fp_text reference "H20" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5482,7 +5482,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 50.4875 1.672)
     (fp_text reference "H21" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5494,7 +5494,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 45.4875 1.672)
     (fp_text reference "H22" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5506,7 +5506,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4875 1.672)
     (fp_text reference "H23" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5518,7 +5518,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 35.4875 1.672)
     (fp_text reference "H24" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5530,7 +5530,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 30.4875 1.672)
     (fp_text reference "H25" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5542,7 +5542,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 1.672)
     (fp_text reference "H26" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5554,7 +5554,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 29.8225 5.609)
     (fp_text reference "H27" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5566,7 +5566,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.9875 5.56)
     (fp_text reference "H28" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5578,7 +5578,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 71.6055 6.371)
     (fp_text reference "H29" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5590,7 +5590,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 6.56)
     (fp_text reference "H30" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5602,7 +5602,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 9.06)
     (fp_text reference "H31" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5614,7 +5614,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.2555 9.8)
     (fp_text reference "H32" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5626,7 +5626,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 11.56)
     (fp_text reference "H33" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5638,7 +5638,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 72.1135 12.848)
     (fp_text reference "H34" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5650,7 +5650,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 23.7265 12.721)
     (fp_text reference "H35" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5662,7 +5662,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.8905 13.864)
     (fp_text reference "H36" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5674,7 +5674,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 14.06)
     (fp_text reference "H37" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5686,7 +5686,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 48.555 14.4355)
     (fp_text reference "H38" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5698,7 +5698,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 47.7295 14.4355)
     (fp_text reference "H39" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5710,7 +5710,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 46.904 14.4355)
     (fp_text reference "H40" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5722,7 +5722,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 45.5705 14.753)
     (fp_text reference "H41" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5734,7 +5734,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 48.555 15.3245)
     (fp_text reference "H42" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5746,7 +5746,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 47.7295 15.3245)
     (fp_text reference "H43" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5758,7 +5758,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 46.904 15.3245)
     (fp_text reference "H44" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5770,7 +5770,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 49.7615 16.2925)
     (fp_text reference "H45" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5782,7 +5782,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 40.4875 16.06)
     (fp_text reference "H46" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5794,7 +5794,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 16.56)
     (fp_text reference "H47" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5806,7 +5806,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 19.06)
     (fp_text reference "H48" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5818,7 +5818,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 46.7135 20.214)
     (fp_text reference "H49" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5830,7 +5830,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 21.56)
     (fp_text reference "H50" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5842,7 +5842,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 21.56)
     (fp_text reference "H51" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5854,7 +5854,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 65.6365 22.754)
     (fp_text reference "H52" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5866,7 +5866,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 73.1295 22.9445)
     (fp_text reference "H53" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5878,7 +5878,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 32.6165 23.389)
     (fp_text reference "H54" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5890,7 +5890,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 45.9515 24.024)
     (fp_text reference "H55" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5902,7 +5902,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 29.5685 23.516)
     (fp_text reference "H56" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5914,7 +5914,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 24.06)
     (fp_text reference "H57" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5926,7 +5926,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 58.0165 24.151)
     (fp_text reference "H58" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5938,7 +5938,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 52.8095 24.151)
     (fp_text reference "H59" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5950,7 +5950,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 50.4875 24.06)
     (fp_text reference "H60" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5962,7 +5962,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 55.8575 26.564)
     (fp_text reference "H61" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5974,7 +5974,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 26.56)
     (fp_text reference "H62" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5986,7 +5986,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 26.56)
     (fp_text reference "H63" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5998,7 +5998,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 54.0795 27.326)
     (fp_text reference "H64" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6010,7 +6010,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 74.7805 28.088)
     (fp_text reference "H65" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6022,7 +6022,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 29.06)
     (fp_text reference "H66" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6034,7 +6034,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.5365 28.977)
     (fp_text reference "H67" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6046,7 +6046,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 69.0655 31.009)
     (fp_text reference "H68" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6058,7 +6058,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 31.56)
     (fp_text reference "H69" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6070,7 +6070,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 31.56)
     (fp_text reference "H70" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6082,7 +6082,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 50.0155 32.025)
     (fp_text reference "H71" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6094,7 +6094,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 43.0305 32.025)
     (fp_text reference "H72" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6106,7 +6106,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 34.06)
     (fp_text reference "H73" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6118,7 +6118,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 84.5595 34.565)
     (fp_text reference "H74" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6130,7 +6130,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 78.2095 34.438)
     (fp_text reference "H75" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6142,7 +6142,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 84.9405 36.089)
     (fp_text reference "H76" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6154,7 +6154,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 22.4875 36.56)
     (fp_text reference "H77" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6166,7 +6166,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 36.56)
     (fp_text reference "H78" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6178,7 +6178,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 73.5105 37.486)
     (fp_text reference "H79" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6190,7 +6190,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.5365 38.375)
     (fp_text reference "H80" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6202,7 +6202,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 39.06)
     (fp_text reference "H81" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6214,7 +6214,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 41.56)
     (fp_text reference "H82" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6226,7 +6226,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 90.9095 44.06)
     (fp_text reference "H83" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6238,7 +6238,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 67.9875 44.06)
     (fp_text reference "H84" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6250,7 +6250,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 18.1385 46.56)
     (fp_text reference "H85" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6262,7 +6262,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 89.4875 47.392)
     (fp_text reference "H86" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6274,7 +6274,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 84.4875 47.392)
     (fp_text reference "H87" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6286,7 +6286,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 81.8925 47.392)
     (fp_text reference "H88" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6298,7 +6298,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.1555 47.392)
     (fp_text reference "H89" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6310,7 +6310,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 21.9875 47.392)
     (fp_text reference "H90" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6322,7 +6322,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 57.9875 47.56)
     (fp_text reference "H91" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6334,7 +6334,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 81.8925 50.06)
     (fp_text reference "H92" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6346,7 +6346,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.1555 52.56)
     (fp_text reference "H93" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6358,7 +6358,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 81.8925 55.06)
     (fp_text reference "H94" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6370,7 +6370,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 77.9875 56.409)
     (fp_text reference "H95" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6382,7 +6382,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 72.9875 56.409)
     (fp_text reference "H96" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6394,7 +6394,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 67.9875 56.409)
     (fp_text reference "H97" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6406,7 +6406,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 62.9875 56.409)
     (fp_text reference "H98" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6418,7 +6418,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 57.9875 56.409)
     (fp_text reference "H99" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6430,7 +6430,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 52.9875 56.409)
     (fp_text reference "H100" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6442,7 +6442,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 47.9875 56.409)
     (fp_text reference "H101" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6454,7 +6454,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 42.9875 56.409)
     (fp_text reference "H102" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6466,7 +6466,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 37.9875 56.409)
     (fp_text reference "H103" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6478,7 +6478,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 32.9875 56.409)
     (fp_text reference "H104" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6490,7 +6490,7 @@
       (net 72 GND))
   )
 
-  (module "GR106768 Buzzer:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
+  (module "AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask" (layer F.Cu) (tedit 5E991E34) (tstamp 0)
     (at 27.9875 56.409)
     (fp_text reference "H105" (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
