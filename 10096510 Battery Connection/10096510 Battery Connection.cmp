@@ -1,0 +1,219 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 20 Apr 2020 06:47:27 PM EDT
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM16;
+ValeurCmp = FEE_COMP;
+IdModule  = AllModules:FEE_COMP_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM14;
+ValeurCmp = PERCAGE-MC_TABLEAU;
+IdModule  = AllModules:PERCAGE-MC_TABLEAU_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM12;
+ValeurCmp = FABRICATION-FEE;
+IdModule  = AllModules:FABRICATION-FEE_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM11;
+ValeurCmp = FEE_COMP;
+IdModule  = AllModules:FEE_COMP_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM10;
+ValeurCmp = A3_PER_COVIDIEN;
+IdModule  = AllModules:A3_PER_COVIDIEN_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM9;
+ValeurCmp = COIN_EXTERNE;
+IdModule  = AllModules:COIN_EXTERNE_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM8;
+ValeurCmp = COIN_EXTERNE;
+IdModule  = AllModules:COIN_EXTERNE_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM7;
+ValeurCmp = COIN_EXTERNE;
+IdModule  = AllModules:COIN_EXTERNE_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM6;
+ValeurCmp = COIN_EXTERNE;
+IdModule  = AllModules:COIN_EXTERNE_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM4;
+ValeurCmp = A3_EQFS_COVIDIEN;
+IdModule  = AllModules:A3_EQFS_COVIDIEN_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM3;
+ValeurCmp = PER-COVIDIEN_TEXTE;
+IdModule  = AllModules:PER-COVIDIEN_TEXTE_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM2;
+ValeurCmp = A3_EQFC_COVIDIEN;
+IdModule  = AllModules:A3_EQFC_COVIDIEN_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = CAM1;
+ValeurCmp = FILM18_HORIZONTAL;
+IdModule  = AllModules:FILM18_HORIZONTAL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = PT2;
+ValeurCmp = MIRECMS;
+IdModule  = AllModules:MIRECMS_D-1.5_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = PT1;
+ValeurCmp = MIRECMS;
+IdModule  = AllModules:MIRECMS_D-1.5_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = J6;
+ValeurCmp = PT-10-GKS913;
+IdModule  = AllModules:GKS913_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = J5;
+ValeurCmp = BAR-CMS254-811S1-02;
+IdModule  = AllModules:811S1-02_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = J4;
+ValeurCmp = BAR-CMS254-811S1-02;
+IdModule  = AllModules:811S1-02_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = J3;
+ValeurCmp = BAR-CMS254-811S1-02;
+IdModule  = AllModules:811S1-02_3;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = J1;
+ValeurCmp = F-CO-HE10-2010C;
+IdModule  = AllModules:BP2X5C_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = FI3;
+ValeurCmp = SF-BC-S0603;
+IdModule  = AllModules:C0603_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = FI2;
+ValeurCmp = SF-BC-S0603;
+IdModule  = AllModules:C0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = FI1;
+ValeurCmp = FL-10-BNX002-01;
+IdModule  = AllModules:BNX002_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = C4;
+ValeurCmp = C-BC-C0402;
+IdModule  = AllModules:C0402_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = C3;
+ValeurCmp = C-BC-C0402;
+IdModule  = AllModules:C0402_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = C2;
+ValeurCmp = C-BC-C0603;
+IdModule  = AllModules:C0603_3;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000
+Path = 
+Reference = C1;
+ValeurCmp = C-BC-C0603;
+IdModule  = AllModules:C0603_4;
+EndCmp
+
+EndListe
