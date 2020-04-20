@@ -1,0 +1,64 @@
+
+  ******  DRILL DATA LIST  ******
+
+                        Date/Time : Fri Aug 10 15:07:15 2012
+                        Host Name : "MONBAZILLAC"
+                        Directory : "L:\PROJETS_2012\Covidien\Dossier_5_Cartes\3_5_CAO_CR5000_BR0505\FAB"
+                        User Name : monbazillac
+
+                       <DRP> File : "l:\cr5000\feersc\cr5000\bin\Drill.drp"
+                         Comments : ""
+
+                   <PNL/PCB> File : "L:\PROJETS_2012\Covidien\Dossier_5_Cartes\3_5_CAO_CR5000_BR0505\cbr0505-03.pcb"
+                  <MRL/MRDB> File : "l:\cr5000\feersc\cr5000\libfee\fee.mrdb"
+                    Drill Machine : "EXCELLON"
+
+                  Extended Format : Excellon
+                   Character Code : ASCII
+                    Record Format : Full Storage
+                    Record Length : 512
+                     NC Data Unit : Inch
+                Coordinate Format : 00V0000
+                       Round Unit : 0.00010
+        Coordinate Representation : Absolute
+                 Omit Coordinates : Off
+                    Zero Suppress : Trailing Zero Suppress
+ Coordinates during Tool Exchange : Clear
+                         EOB Code : LF
+                         EOR Code : SPACE
+                         ETB Code : SPACE
+                         PAD Code : SPACE
+
+                       <DRD> File : ".\per0.drd"
+                       <DRL> File : ".\per0.drl"
+
+                        List Unit : Millimeters
+
+                            Layer : Only through holes
+                Plating attribute : On
+                           Figure : Round/Slot
+             Way to output oblong : Alternate (Movement rate:0.25000 Odd number:Off)
+             Way to output square : ----------
+
+                           Origin : (   0.00000,   0.00000)
+                           Mirror : OFF
+                         Rotation : (   0)
+                            Scale : (   1.00000)
+                           Offset : (   0.00000,   0.00000)
+
+                       Drill Data : 
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ | No. | T_code  | Kind  | Shape |    Size   | Type|Plating|   Hits  |     Move    |   MAX(X,Y)  |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   1 |T01      |Normal |Circle |   0.40000 |   0 |    On |      28 |   317.40272 |   281.43200 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   2 |T02      |Normal |Circle |   0.91440 |   0 |    On |      10 |    68.68861 |    54.82082 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   3 |T03      |Normal |Circle |   1.21920 |   0 |    On |       6 |    59.42491 |    50.43932 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   4 |T04      |Normal |Circle |   2.89560 |   0 |    On |       1 |    55.43425 |    54.69890 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |      Total                                              |      45 |   500.95048 |   441.39104 |
+ +---------------------------------------------------------+---------+-------------+-------------+
+
+                        Data Area : (  16.49984,   5.08000)-(  61.97600,  40.64000)
