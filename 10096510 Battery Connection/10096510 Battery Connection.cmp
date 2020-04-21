@@ -165,7 +165,7 @@ TimeStamp = 00000000
 Path =
 Reference = FI3;
 ValeurCmp = SF-BC-S0603;
-IdModule  = AllModules:C0603_1;
+IdModule  = AllModules:C0603_1b;
 EndCmp
 
 BeginCmp
@@ -173,7 +173,7 @@ TimeStamp = 00000000
 Path =
 Reference = FI2;
 ValeurCmp = SF-BC-S0603;
-IdModule  = AllModules:C0603_1;
+IdModule  = AllModules:C0603_1b;
 EndCmp
 
 BeginCmp
@@ -189,7 +189,7 @@ TimeStamp = 00000000
 Path =
 Reference = C4;
 ValeurCmp = C-BC-C0402;
-IdModule  = AllModules:C0402_1;
+IdModule  = AllModules:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -197,7 +197,7 @@ TimeStamp = 00000000
 Path =
 Reference = C3;
 ValeurCmp = C-BC-C0402;
-IdModule  = AllModules:C0402_1;
+IdModule  = AllModules:C0402_1b;
 EndCmp
 
 BeginCmp
@@ -205,7 +205,7 @@ TimeStamp = 00000000
 Path =
 Reference = C2;
 ValeurCmp = C-BC-C0603;
-IdModule  = AllModules:C0603_1;
+IdModule  = AllModules:C0603_1b;
 EndCmp
 
 BeginCmp
@@ -213,7 +213,7 @@ TimeStamp = 00000000
 Path =
 Reference = C1;
 ValeurCmp = C-BC-C0603;
-IdModule  = AllModules:C0603_1;
+IdModule  = AllModules:C0603_1b;
 EndCmp
 
 EndListe
