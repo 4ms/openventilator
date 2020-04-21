@@ -744,7 +744,7 @@
       (net 7 T))
   )
 
-  (module AllModules:811S1-02_2 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module AllModules:811S1-02_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 257.20699 71.80499)
     (attr smd)
     (fp_text reference J4 (at -3.495 -0.268 unlocked) (layer F.SilkS)
@@ -776,7 +776,7 @@
       (net 2 EEPROM_BAT))
   )
 
-  (module AllModules:811S1-02_3 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module AllModules:811S1-02_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 257.20699 67.80499)
     (attr smd)
     (fp_text reference J3 (at -3.495 -0.078 unlocked) (layer F.SilkS)
@@ -891,7 +891,7 @@
       (net 7 T))
   )
 
-  (module AllModules:C0603_2 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module AllModules:C0603_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 229.14699 47.53 180)
     (attr smd)
     (fp_text reference FI2 (at -1.019 0.5904 unlocked) (layer F.SilkS)
@@ -985,7 +985,7 @@
       (net 7 T))
   )
 
-  (module AllModules:C0402_2 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module AllModules:C0402_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 237.402 50.705 90)
     (attr smd)
     (fp_text reference C3 (at 0.5904 0.6206 unlocked) (layer F.SilkS)
@@ -1014,7 +1014,7 @@
       (net 2 EEPROM_BAT))
   )
 
-  (module AllModules:C0603_3 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module AllModules:C0603_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 250.10201 71.025 90)
     (attr smd)
     (fp_text reference C2 (at 0.5904 0.6206 unlocked) (layer F.SilkS)
@@ -1043,7 +1043,7 @@
       (net 6 CB))
   )
 
-  (module AllModules:C0603_4 (layer F.Cu) (tedit 0) (tstamp 0)
+  (module AllModules:C0603_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 223.432 61.5 180)
     (attr smd)
     (fp_text reference C1 (at -0.6714 0.5904 unlocked) (layer F.SilkS)

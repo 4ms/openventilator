@@ -14,38 +14,38 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	7450 3750 7150 3750
+    7450 3750 7150 3750
 Connection ~ 7150 3750
 Wire Wire Line
-	7450 4600 7300 4600
+    7450 4600 7300 4600
 Connection ~ 7300 4600
 Wire Wire Line
-	7450 3900 7150 3900
+    7450 3900 7150 3900
 Wire Wire Line
-	7450 4750 7300 4750
+    7450 4750 7300 4750
 Wire Wire Line
-	7150 3750 7150 3900
+    7150 3750 7150 3900
 Wire Wire Line
-	7300 4600 7300 4750
+    7300 4600 7300 4750
 Wire Wire Line
-	2900 4400 3000 4400
+    2900 4400 3000 4400
 Wire Wire Line
-	3000 4500 3000 4400
+    3000 4500 3000 4400
 Wire Wire Line
-	2900 4500 3000 4500
+    2900 4500 3000 4500
 Wire Wire Line
-	3200 4600 2900 4600
+    3200 4600 2900 4600
 Wire Wire Line
-	1650 4600 1150 4600
+    1650 4600 1150 4600
 Wire Wire Line
-	2250 4500 2250 4400
+    2250 4500 2250 4400
 $Comp
 L 10096510_Battery_Connection:0402_47pF_C0402C470J5GAC C3
 U 1 1 5E91F4F8
 P 6600 3950
 F 0 "C3" H 6715 4041 50  0000 L CNN
 F 1 "0402_47pF_C0402C470J5GAC" H 6950 3750 50  0001 L CNN
-F 2 "AllModules:C0402_2" H 7600 3850 50  0001 C CNN
+F 2 "AllModules:C0402_1" H 7600 3850 50  0001 C CNN
 F 3 "" H 6600 3950 50  0001 C CNN
 F 4 "Kemet" H 7070 4150 50  0001 C CNN "Manufacturer"
 F 5 "0402" H 7050 3950 50  0001 C CNN "Size"
@@ -54,8 +54,8 @@ F 7 "47pF" H 6715 3859 50  0000 L CNN "CAP_VAL"
 F 8 "${KIPRJMOD}/Datasheets/KEMET_C0402C470J5GAC.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 9 "10022623" H 0   0   50  0001 C CNN "Item Number"
 F 10 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    6600 3950
-	-1   0    0    -1  
+    1    6600 3950
+    -1   0    0    -1
 $EndComp
 $Comp
 L 10096510_Battery_Connection:0402_47pF_C0402C470J5GAC C4
@@ -72,23 +72,23 @@ F 7 "47pF" H 6715 4709 50  0000 L CNN "CAP_VAL"
 F 8 "${KIPRJMOD}/Datasheets/KEMET_C0402C470J5GAC.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 9 "10022623" H 0   0   50  0001 C CNN "Item Number"
 F 10 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    6600 4800
-	1    0    0    -1  
+    1    6600 4800
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	3500 4600 6600 4600
+    3500 4600 6600 4600
 Wire Wire Line
-	1150 3750 6600 3750
+    1150 3750 6600 3750
 Wire Wire Line
-	6600 3800 6600 3750
+    6600 3800 6600 3750
 Connection ~ 6600 3750
 Wire Wire Line
-	6600 3750 7150 3750
+    6600 3750 7150 3750
 Wire Wire Line
-	6600 4650 6600 4600
+    6600 4650 6600 4600
 Connection ~ 6600 4600
 Wire Wire Line
-	6600 4600 7300 4600
+    6600 4600 7300 4600
 Text Notes 7650 5900 0    50   ~ 0
 ADVANCED CONTACT\nTO ENSURE GROUND CONTACT FIRST
 $Comp
@@ -99,13 +99,13 @@ F 0 "#PWR0101" H 7200 5400 50  0001 C CNN
 F 1 "GND" H 7205 5477 50  0000 C CNN
 F 2 "" H 7200 5650 50  0001 C CNN
 F 3 "" H 7200 5650 50  0001 C CNN
-	1    7200 5650
-	1    0    0    -1  
+    1    7200 5650
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	7200 5650 7200 5500
+    7200 5650 7200 5500
 Wire Wire Line
-	7200 5500 7450 5500
+    7200 5500 7450 5500
 $Comp
 L power:GND #PWR0102
 U 1 1 5E92FBCB
@@ -114,11 +114,11 @@ F 0 "#PWR0102" H 6600 4750 50  0001 C CNN
 F 1 "GND" H 6605 4827 50  0000 C CNN
 F 2 "" H 6600 5000 50  0001 C CNN
 F 3 "" H 6600 5000 50  0001 C CNN
-	1    6600 5000
-	1    0    0    -1  
+    1    6600 5000
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	6600 5000 6600 4950
+    6600 5000 6600 4950
 $Comp
 L power:GND #PWR0103
 U 1 1 5E930F1A
@@ -127,13 +127,13 @@ F 0 "#PWR0103" H 6600 3900 50  0001 C CNN
 F 1 "GND" H 6605 3977 50  0000 C CNN
 F 2 "" H 6600 4150 50  0001 C CNN
 F 3 "" H 6600 4150 50  0001 C CNN
-	1    6600 4150
-	1    0    0    -1  
+    1    6600 4150
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	6600 4150 6600 4100
+    6600 4150 6600 4100
 Wire Wire Line
-	1150 3750 1150 4600
+    1150 3750 1150 4600
 $Comp
 L 10096510_Battery_Connection:09185107323 J1
 U 1 1 5E95772A
@@ -146,8 +146,8 @@ F 4 "Harting" H 3450 4650 50  0001 C CNN "Manufacturer"
 F 5 "${KIPRJMOD}/Datasheets/HARTING_09185107323.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 6 "10023418" H 0   0   50  0001 C CNN "Item Number"
 F 7 "09185107323" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    2700 4600
-	-1   0    0    1   
+    1    2700 4600
+    -1   0    0    1
 $EndComp
 $Comp
 L power:Earth #PWR0104
@@ -157,17 +157,17 @@ F 0 "#PWR0104" H 2650 4750 50  0001 C CNN
 F 1 "Earth" H 2650 4850 50  0001 C CNN
 F 2 "" H 2650 5000 50  0001 C CNN
 F 3 "~" H 2650 5000 50  0001 C CNN
-	1    2650 5000
-	1    0    0    -1  
+    1    2650 5000
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	2250 4700 2250 4800
+    2250 4700 2250 4800
 Wire Wire Line
-	2900 4700 3000 4700
+    2900 4700 3000 4700
 Wire Wire Line
-	3000 4700 3000 4800
+    3000 4700 3000 4800
 Wire Wire Line
-	2900 4800 3000 4800
+    2900 4800 3000 4800
 $Comp
 L power:VDD #PWR0105
 U 1 1 5E977E9C
@@ -176,33 +176,33 @@ F 0 "#PWR0105" H 2650 3850 50  0001 C CNN
 F 1 "VDD" H 2667 4173 50  0000 C CNN
 F 2 "" H 2650 4000 50  0001 C CNN
 F 3 "" H 2650 4000 50  0001 C CNN
-	1    2650 4000
-	1    0    0    -1  
+    1    2650 4000
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	2650 5000 2650 4950
+    2650 5000 2650 4950
 Wire Wire Line
-	2650 4950 2250 4950
+    2650 4950 2250 4950
 Wire Wire Line
-	2250 4950 2250 4800
+    2250 4950 2250 4800
 Connection ~ 2250 4800
 Wire Wire Line
-	2650 4950 3000 4950
+    2650 4950 3000 4950
 Wire Wire Line
-	3000 4950 3000 4800
+    3000 4950 3000 4800
 Connection ~ 2650 4950
 Connection ~ 3000 4800
 Wire Wire Line
-	2650 4100 2250 4100
+    2650 4100 2250 4100
 Wire Wire Line
-	2250 4100 2250 4400
+    2250 4100 2250 4400
 Wire Wire Line
-	2650 4000 2650 4100
+    2650 4000 2650 4100
 Connection ~ 2250 4400
 Wire Wire Line
-	2650 4100 3000 4100
+    2650 4100 3000 4100
 Wire Wire Line
-	3000 4100 3000 4400
+    3000 4100 3000 4400
 Connection ~ 2650 4100
 Connection ~ 3000 4400
 Text Label 4850 4600 0    50   ~ 0
@@ -212,12 +212,12 @@ BAT_EEPROM
 Text Label 6850 2250 0    50   ~ 0
 +
 Wire Wire Line
-	6550 2250 7300 2250
+    6550 2250 7300 2250
 Connection ~ 7300 2250
 Connection ~ 6550 2250
 Connection ~ 4850 2250
 Wire Wire Line
-	4850 2050 4850 2250
+    4850 2050 4850 2250
 $Comp
 L power:VDD #PWR0106
 U 1 1 5E981F53
@@ -226,12 +226,12 @@ F 0 "#PWR0106" H 4850 1900 50  0001 C CNN
 F 1 "VDD" H 4867 2223 50  0000 C CNN
 F 2 "" H 4850 2050 50  0001 C CNN
 F 3 "" H 4850 2050 50  0001 C CNN
-	1    4850 2050
-	1    0    0    -1  
+    1    4850 2050
+    1    0    0    -1
 $EndComp
 Connection ~ 4850 2650
 Wire Wire Line
-	4850 3050 4850 2650
+    4850 3050 4850 2650
 $Comp
 L power:Earth #PWR0107
 U 1 1 5E95EC8B
@@ -240,12 +240,12 @@ F 0 "#PWR0107" H 4850 2800 50  0001 C CNN
 F 1 "Earth" H 4850 2900 50  0001 C CNN
 F 2 "" H 4850 3050 50  0001 C CNN
 F 3 "~" H 4850 3050 50  0001 C CNN
-	1    4850 3050
-	1    0    0    -1  
+    1    4850 3050
+    1    0    0    -1
 $EndComp
 Connection ~ 6550 2950
 Wire Wire Line
-	6550 3050 6550 2950
+    6550 3050 6550 2950
 $Comp
 L power:GND #PWR0108
 U 1 1 5E959A23
@@ -254,44 +254,44 @@ F 0 "#PWR0108" H 6550 2800 50  0001 C CNN
 F 1 "GND" H 6555 2877 50  0000 C CNN
 F 2 "" H 6550 3050 50  0001 C CNN
 F 3 "" H 6550 3050 50  0001 C CNN
-	1    6550 3050
-	1    0    0    -1  
+    1    6550 3050
+    1    0    0    -1
 $EndComp
 Connection ~ 6550 2800
 Wire Wire Line
-	6550 2950 6550 2800
+    6550 2950 6550 2800
 Wire Wire Line
-	6100 2950 6550 2950
+    6100 2950 6550 2950
 Connection ~ 6550 2650
 Wire Wire Line
-	6550 2800 6550 2650
+    6550 2800 6550 2650
 Wire Wire Line
-	6100 2800 6550 2800
+    6100 2800 6550 2800
 Wire Wire Line
-	6100 2250 6550 2250
+    6100 2250 6550 2250
 Wire Wire Line
-	6100 2650 6550 2650
+    6100 2650 6550 2650
 Wire Wire Line
-	6550 2250 6550 2300
+    6550 2250 6550 2300
 Wire Wire Line
-	6550 2650 6550 2600
+    6550 2650 6550 2600
 Wire Wire Line
-	7300 2250 7300 2400
+    7300 2250 7300 2400
 Wire Wire Line
-	4850 2650 4850 2600
+    4850 2650 4850 2600
 Wire Wire Line
-	5050 2650 4850 2650
+    5050 2650 4850 2650
 Wire Wire Line
-	4850 2250 4850 2300
+    4850 2250 4850 2300
 Wire Wire Line
-	5050 2250 4850 2250
+    5050 2250 4850 2250
 $Comp
 L 10096510_Battery_Connection:0603_10nF_CC0603KRX7R9BB103 C1
 U 1 1 5E8FB3FB
 P 4850 2450
 F 0 "C1" H 4736 2359 50  0000 R CNN
 F 1 "10nF" H 4736 2450 50  0000 R CNN
-F 2 "AllModules:C0603_4" H 5850 2250 50  0001 C CNN
+F 2 "AllModules:C0603_1" H 5850 2250 50  0001 C CNN
 F 3 "" H 4850 2450 50  0001 C CNN
 F 4 "Yageo" H 5300 2550 50  0001 C CNN "Manufacturer"
 F 5 "0603" H 5300 2350 50  0001 C CNN "Size"
@@ -300,8 +300,8 @@ F 7 "10nF" H 4850 2450 50  0000 C CNN "CAP_VAL"
 F 8 "${KIPRJMOD}/Datasheets/YAGEO_CC0603KRX7R9BB103.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 9 "10022508" H 0   0   50  0001 C CNN "Item Number"
 F 10 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    4850 2450
-	1    0    0    1   
+    1    4850 2450
+    1    0    0    1
 $EndComp
 $Comp
 L 10096510_Battery_Connection:BNX002-11 FI1
@@ -315,20 +315,20 @@ F 4 "10022532" H 5425 1975 50  0001 C CNN "Item Number"
 F 5 "Murata" H 5350 2050 50  0001 C CNN "Manufacturer"
 F 6 "${KIPRJMOD}/Datasheets/MURATA_BNX002-11.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 7 "BNX002-11" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    5600 2350
-	1    0    0    -1  
+    1    5600 2350
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	7450 2400 7300 2400
+    7450 2400 7300 2400
 Wire Wire Line
-	7450 2250 7300 2250
+    7450 2250 7300 2250
 $Comp
 L 10096510_Battery_Connection:811-S1-002-30-014101 J4
 U 1 1 5E99CA09
 P 7450 3750
 F 0 "J4" H 8078 3721 50  0000 L CNN
 F 1 "811-S1-002-30-014101" H 8078 3630 50  0000 L CNN
-F 2 "AllModules:811S1-02_2" H 8100 3850 50  0001 L CNN
+F 2 "AllModules:811S1-02_1" H 8100 3850 50  0001 L CNN
 F 3 "" H 8100 3750 50  0001 L CNN
 F 4 "CONN SPRING PISTON 2POS SMD" H 8100 3750 50  0001 L CNN "Description"
 F 5 "6mm" H 8100 3650 50  0001 L CNN "Height"
@@ -336,8 +336,8 @@ F 6 "Preci-Dip" H 8100 3550 50  0001 L CNN "Manufacturer"
 F 7 "${KIPRJMOD}/Datasheets/PRECI-DIP_811-S1-002-30-014101.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 8 "10023420" H 0   0   50  0001 C CNN "Item Number"
 F 9 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    7450 3750
-	1    0    0    -1  
+    1    7450 3750
+    1    0    0    -1
 $EndComp
 $Comp
 L 10096510_Battery_Connection:811-S1-002-30-014101 J5
@@ -353,8 +353,8 @@ F 6 "Preci-Dip" H 8100 4400 50  0001 L CNN "Manufacturer"
 F 7 "${KIPRJMOD}/Datasheets/PRECI-DIP_811-S1-002-30-014101.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 8 "10023420" H 0   0   50  0001 C CNN "Item Number"
 F 9 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    7450 4600
-	1    0    0    -1  
+    1    7450 4600
+    1    0    0    -1
 $EndComp
 Text Notes 8100 4900 0    79   ~ 16
 T
@@ -377,17 +377,17 @@ F 5 "Ingun" H 7750 5250 50  0001 C CNN "Manufacturer"
 F 6 "${KIPRJMOD}/Datasheets/INGUN_GKS-913 305 230 A 1502 S.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 7 "10023419" H 0   0   50  0001 C CNN "Item Number"
 F 8 "GKS-913 305 230 A 1502 S" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    7450 5500
-	1    0    0    -1  
+    1    7450 5500
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	2250 4400 2400 4400
+    2250 4400 2400 4400
 Wire Wire Line
-	2250 4500 2400 4500
+    2250 4500 2400 4500
 Wire Wire Line
-	2250 4700 2400 4700
+    2250 4700 2400 4700
 Wire Wire Line
-	2250 4800 2400 4800
+    2250 4800 2400 4800
 $Comp
 L 10096510_Battery_Connection:74279266 FI3
 U 1 1 5E9C95BC
@@ -404,18 +404,18 @@ F 8 "1kohm_at_100MHz" H 4150 4650 50  0001 C CNN "Impedance"
 F 9 "${KIPRJMOD}/Datasheets/WURTH_74279266.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 10 "10022907" H 0   0   50  0001 C CNN "Item Number"
 F 11 "74279266" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    3350 4600
-	1    0    0    -1  
+    1    3350 4600
+    1    0    0    -1
 $EndComp
 Wire Wire Line
-	1950 4600 2400 4600
+    1950 4600 2400 4600
 $Comp
 L 10096510_Battery_Connection:0603_10nF_CC0603KRX7R9BB103 C2
 U 1 1 5E90C557
 P 6550 2450
 F 0 "C2" H 6665 2541 50  0000 L CNN
 F 1 "10nF" H 6665 2450 50  0000 L CNN
-F 2 "AllModules:C0603_3" H 7550 2250 50  0001 C CNN
+F 2 "AllModules:C0603_1" H 7550 2250 50  0001 C CNN
 F 3 "" H 6550 2450 50  0001 C CNN
 F 4 "Yageo" H 7000 2550 50  0001 C CNN "Manufacturer"
 F 5 "0603" H 7000 2350 50  0001 C CNN "Size"
@@ -424,8 +424,8 @@ F 7 "10nF" H 6550 2450 50  0000 C CNN "CAP_VAL"
 F 8 "${KIPRJMOD}/Datasheets/YAGEO_CC0603KRX7R9BB103.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 9 "10022508" H 0   0   50  0001 C CNN "Item Number"
 F 10 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    6550 2450
-	1    0    0    1   
+    1    6550 2450
+    1    0    0    1
 $EndComp
 $Comp
 L 10096510_Battery_Connection:74279266 FI2
@@ -433,7 +433,7 @@ U 1 1 5E9D0294
 P 1800 4600
 F 0 "FI2" H 1800 4874 50  0000 C CNN
 F 1 "74279266" H 1800 4783 50  0000 C CNN
-F 2 "AllModules:C0603_2" H 3200 4250 50  0001 C CNN
+F 2 "AllModules:C0603_1" H 3200 4250 50  0001 C CNN
 F 3 "" V 1800 4600 50  0001 C CNN
 F 4 "Wurth Elektronik" H 2550 4850 50  0001 C CNN "Manufacturer"
 F 5 "0603" H 2350 4550 50  0001 C CNN "Package"
@@ -443,8 +443,8 @@ F 8 "1kohm_at_100MHz" H 2600 4650 50  0001 C CNN "Impedance"
 F 9 "${KIPRJMOD}/Datasheets/WURTH_74279266.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 10 "10022907" H 0   0   50  0001 C CNN "Item Number"
 F 11 "74279266" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    1800 4600
-	1    0    0    -1  
+    1    1800 4600
+    1    0    0    -1
 $EndComp
 $Comp
 L 10096510_Battery_Connection:811-S1-002-30-014101 J3
@@ -452,7 +452,7 @@ U 1 1 5E99A69C
 P 7450 2250
 F 0 "J3" H 8078 2221 50  0000 L CNN
 F 1 "811-S1-002-30-014101" H 8078 2130 50  0000 L CNN
-F 2 "AllModules:811S1-02_3" H 8100 2350 50  0001 L CNN
+F 2 "AllModules:811S1-02_1" H 8100 2350 50  0001 L CNN
 F 3 "" H 8100 2250 50  0001 L CNN
 F 4 "CONN SPRING PISTON 2POS SMD" H 8100 2250 50  0001 L CNN "Description"
 F 5 "6mm" H 8100 2150 50  0001 L CNN "Height"
@@ -460,8 +460,8 @@ F 6 "Preci-Dip" H 8100 2050 50  0001 L CNN "Manufacturer"
 F 7 "${KIPRJMOD}/Datasheets/PRECI-DIP_811-S1-002-30-014101.pdf" H 0   0   50  0001 C CNN "Documentation"
 F 8 "10023420" H 0   0   50  0001 C CNN "Item Number"
 F 9 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
-	1    7450 2250
-	1    0    0    -1  
+    1    7450 2250
+    1    0    0    -1
 $EndComp
 $Comp
 L Connector:TestPoint PT1
@@ -471,8 +471,8 @@ F 0 "PT1" H 1708 6668 50  0000 L CNN
 F 1 "TestPoint" H 1708 6577 50  0000 L CNN
 F 2 "AllModules:MIRECMS_D-1.5_1" H 1850 6550 50  0001 C CNN
 F 3 "~" H 1850 6550 50  0001 C CNN
-	1    1650 6550
-	1    0    0    -1  
+    1    1650 6550
+    1    0    0    -1
 $EndComp
 $Comp
 L Connector:TestPoint PT2
@@ -482,8 +482,8 @@ F 0 "PT2" H 1708 6968 50  0000 L CNN
 F 1 "TestPoint" H 1708 6877 50  0000 L CNN
 F 2 "AllModules:MIRECMS_D-1.5_1" H 1850 6850 50  0001 C CNN
 F 3 "~" H 1850 6850 50  0001 C CNN
-	1    1650 6850
-	1    0    0    -1  
+    1    1650 6850
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM1
@@ -493,8 +493,8 @@ F 0 "CAM1" H 2785 6400 50  0000 L CNN
 F 1 "Fiducial" H 2785 6355 50  0001 L CNN
 F 2 "AllModules:FILM18_HORIZONTAL_1" H 2700 6400 50  0001 C CNN
 F 3 "~" H 2700 6400 50  0001 C CNN
-	1    2700 6400
-	1    0    0    -1  
+    1    2700 6400
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM2
@@ -504,8 +504,8 @@ F 0 "CAM2" H 2785 6550 50  0000 L CNN
 F 1 "Fiducial" H 2785 6505 50  0001 L CNN
 F 2 "AllModules:A3_EQFC_COVIDIEN_1" H 2700 6550 50  0001 C CNN
 F 3 "~" H 2700 6550 50  0001 C CNN
-	1    2700 6550
-	1    0    0    -1  
+    1    2700 6550
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM3
@@ -515,8 +515,8 @@ F 0 "CAM3" H 2785 6700 50  0000 L CNN
 F 1 "Fiducial" H 2785 6655 50  0001 L CNN
 F 2 "AllModules:PER-COVIDIEN_TEXTE_1" H 2700 6700 50  0001 C CNN
 F 3 "~" H 2700 6700 50  0001 C CNN
-	1    2700 6700
-	1    0    0    -1  
+    1    2700 6700
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM4
@@ -526,8 +526,8 @@ F 0 "CAM4" H 2785 6850 50  0000 L CNN
 F 1 "Fiducial" H 2785 6805 50  0001 L CNN
 F 2 "AllModules:A3_EQFS_COVIDIEN_1" H 2700 6850 50  0001 C CNN
 F 3 "~" H 2700 6850 50  0001 C CNN
-	1    2700 6850
-	1    0    0    -1  
+    1    2700 6850
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM6
@@ -537,8 +537,8 @@ F 0 "CAM6" H 2785 7150 50  0000 L CNN
 F 1 "Fiducial" H 2785 7105 50  0001 L CNN
 F 2 "AllModules:COIN_EXTERNE_1" H 2700 7150 50  0001 C CNN
 F 3 "~" H 2700 7150 50  0001 C CNN
-	1    2700 7150
-	1    0    0    -1  
+    1    2700 7150
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM7
@@ -548,8 +548,8 @@ F 0 "CAM7" H 2785 7300 50  0000 L CNN
 F 1 "Fiducial" H 2785 7255 50  0001 L CNN
 F 2 "AllModules:COIN_EXTERNE_1" H 2700 7300 50  0001 C CNN
 F 3 "~" H 2700 7300 50  0001 C CNN
-	1    2700 7300
-	1    0    0    -1  
+    1    2700 7300
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM8
@@ -559,8 +559,8 @@ F 0 "CAM8" H 2785 7450 50  0000 L CNN
 F 1 "Fiducial" H 2785 7405 50  0001 L CNN
 F 2 "AllModules:COIN_EXTERNE_1" H 2700 7450 50  0001 C CNN
 F 3 "~" H 2700 7450 50  0001 C CNN
-	1    2700 7450
-	1    0    0    -1  
+    1    2700 7450
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM9
@@ -570,8 +570,8 @@ F 0 "CAM9" H 3235 6400 50  0000 L CNN
 F 1 "Fiducial" H 3235 6355 50  0001 L CNN
 F 2 "AllModules:COIN_EXTERNE_1" H 3150 6400 50  0001 C CNN
 F 3 "~" H 3150 6400 50  0001 C CNN
-	1    3150 6400
-	1    0    0    -1  
+    1    3150 6400
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM10
@@ -581,8 +581,8 @@ F 0 "CAM10" H 3235 6550 50  0000 L CNN
 F 1 "Fiducial" H 3235 6505 50  0001 L CNN
 F 2 "AllModules:A3_PER_COVIDIEN_1" H 3150 6550 50  0001 C CNN
 F 3 "~" H 3150 6550 50  0001 C CNN
-	1    3150 6550
-	1    0    0    -1  
+    1    3150 6550
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM11
@@ -592,8 +592,8 @@ F 0 "CAM11" H 3235 6700 50  0000 L CNN
 F 1 "Fiducial" H 3235 6655 50  0001 L CNN
 F 2 "AllModules:FEE_COMP_2" H 3150 6700 50  0001 C CNN
 F 3 "~" H 3150 6700 50  0001 C CNN
-	1    3150 6700
-	1    0    0    -1  
+    1    3150 6700
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM12
@@ -603,8 +603,8 @@ F 0 "CAM12" H 3235 6850 50  0000 L CNN
 F 1 "Fiducial" H 3235 6805 50  0001 L CNN
 F 2 "AllModules:FABRICATION-FEE_1" H 3150 6850 50  0001 C CNN
 F 3 "~" H 3150 6850 50  0001 C CNN
-	1    3150 6850
-	1    0    0    -1  
+    1    3150 6850
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM14
@@ -614,8 +614,8 @@ F 0 "CAM14" H 3235 7150 50  0000 L CNN
 F 1 "Fiducial" H 3235 7105 50  0001 L CNN
 F 2 "AllModules:PERCAGE-MC_TABLEAU_1" H 3150 7150 50  0001 C CNN
 F 3 "~" H 3150 7150 50  0001 C CNN
-	1    3150 7150
-	1    0    0    -1  
+    1    3150 7150
+    1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial CAM16
@@ -625,7 +625,7 @@ F 0 "CAM16" H 3235 7450 50  0000 L CNN
 F 1 "Fiducial" H 3235 7405 50  0001 L CNN
 F 2 "AllModules:FEE_COMP_1" H 3150 7450 50  0001 C CNN
 F 3 "~" H 3150 7450 50  0001 C CNN
-	1    3150 7450
-	1    0    0    -1  
+    1    3150 7450
+    1    0    0    -1
 $EndComp
 $EndSCHEMATC
