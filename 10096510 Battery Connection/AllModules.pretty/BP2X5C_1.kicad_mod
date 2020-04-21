@@ -39,4 +39,9 @@
   (pad 3 thru_hole circle (at -2.54 0 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 2.54 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Footprints.3dshapes/39-26-7108-recenter.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
