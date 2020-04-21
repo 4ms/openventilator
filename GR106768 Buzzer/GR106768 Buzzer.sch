@@ -1830,7 +1830,7 @@ $EndComp
 Text Notes 6800 7100 0    100  ~ 0
 FIDUCIALS
 Text Notes 6800 8500 0    100  ~ 0
-HOLES
+VIAS
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EA3F179
