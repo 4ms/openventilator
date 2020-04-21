@@ -1,0 +1,53 @@
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-B_Mask.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D11   --> D100
+D12   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-B_SilkS.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D11   --> D102
+D12   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-Edge_Cuts.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D10   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-F_Cu.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D12   --> D105
+D13   --> D106
+D14   --> D107
+D16   --> D108
+D17   --> D109
+D18   --> D110
+D19   --> D111
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-F_Mask.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D11   --> D112
+D12   --> D113
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-F_Paste.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D11   --> D114
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\dagos\openventilator\10096510 Battery Connection\gerbers\10096510 Battery Connection-F_SilkS.gbr' ----   Mon Apr 20 11:35:16 2020
+
+D11   --> D115
+D12   --> D116
+D13   --> D117
+-----------------------------------------------------------------

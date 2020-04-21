@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IDC_2x10_DIP
+D PCB CONNECTOR HE10, 10 PINS
+F http://multimedia.3m.com/mws/media/375264O/3mtm-100-in-pcb-100x-100-two-row-78xx-series-ts2104.pdf
+$ENDCMP
+#
+$CMP RA_2x1_FrictionLock
+D CONNECTOR, O2 VALVE, 2 CONTACTS
+F https://www.molex.com/pdm_docs/sd/022057028_sd.pdf
+$ENDCMP
+#
+$CMP RA_2x1_MicroFit3.0
+D CONNECTOR, 2 CONTACTS,MICROFIT 3.0
+F https://www.molex.com/pdm_docs/ps/PS-43650.pdf
+$ENDCMP
+#
+$CMP RA_8x1_FrictionLock
+D CONNECTOR,8 CONTACTS, 2.54PIN PITCH
+F https://www.mouser.com/datasheet/2/276/0022057088_PCB_HEADERS-158435.pdf
+$ENDCMP
+#
+#End Doc Library
