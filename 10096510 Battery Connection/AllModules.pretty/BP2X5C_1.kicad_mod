@@ -1,4 +1,4 @@
-(module BP2X5C_1 (layer F.Cu) (tedit 0)
+(module BP2X5C_1 (layer F.Cu) (tedit 5E9E3B7C)
   (attr smd)
   (fp_text reference J1 (at -0.70899 0.7106 unlocked) (layer F.SilkS)
     (effects (font (size 1.312 1.38) (thickness 0.15)))
@@ -42,6 +42,6 @@
   (model ${KIPRJMOD}/Footprints.3dshapes/39-26-7108-recenter.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )

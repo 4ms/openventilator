@@ -1,4 +1,4 @@
-(module 811S1-02_1 (layer F.Cu) (tedit 0)
+(module 811S1-02_1 (layer F.Cu) (tedit 5E9E3B3E)
   (attr smd)
   (fp_text reference J5 (at -3.495 -0.331 unlocked) (layer F.SilkS)
     (effects (font (size 1.312 1.38) (thickness 0.15)))
@@ -26,7 +26,7 @@
   (pad 2 smd circle (at 2.54 0) (size 2.032 2.032) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd circle (at 0 0) (size 2.032 2.032) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/Footprints.3dshapes/811-S1-NNN.step
-    (at (xyz 0 0 0))
+    (offset (xyz 1.25 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
