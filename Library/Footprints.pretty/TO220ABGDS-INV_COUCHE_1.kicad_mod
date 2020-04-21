@@ -41,7 +41,7 @@
   (pad S thru_hole circle (at 2.54 -17.78) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad G thru_hole circle (at -2.54 -17.78) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad D thru_hole circle (at 0 -17.78) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/Footprints.pretty/TO-220-HFLIP.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
     (offset (xyz 0 17.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

@@ -2,7 +2,7 @@ Cmp-Mod V01 Created by PcbNew   date = 4/11/2020 12:58:35 PM
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZR88;
 ValeurCmp = R-BC-R2512;
 IdModule  = 10005011 Power Management:R2512_1;
@@ -10,7 +10,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZR80;
 ValeurCmp = R-BC-R2512;
 IdModule  = 10005011 Power Management:R2512_1;
@@ -18,7 +18,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM8;
 ValeurCmp = FIX-0040;
 IdModule  = 10005011 Power Management:FIX40_1;
@@ -26,7 +26,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM7;
 ValeurCmp = FIX-0040;
 IdModule  = 10005011 Power Management:FIX40_1;
@@ -34,7 +34,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM6;
 ValeurCmp = FIX-0040;
 IdModule  = 10005011 Power Management:FIX40_1;
@@ -42,7 +42,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM5;
 ValeurCmp = FIX-0040;
 IdModule  = 10005011 Power Management:FIX40_1;
@@ -50,7 +50,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM4;
 ValeurCmp = FIX-0045;
 IdModule  = 10005011 Power Management:FIX45_1;
@@ -58,7 +58,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM3;
 ValeurCmp = FIX-0045;
 IdModule  = 10005011 Power Management:FIX45_1;
@@ -66,7 +66,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM2;
 ValeurCmp = FIX-0045;
 IdModule  = 10005011 Power Management:FIX45_1;
@@ -74,7 +74,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ZM1;
 ValeurCmp = FIX-0045;
 IdModule  = 10005011 Power Management:FIX45_1;
@@ -82,7 +82,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T31;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -90,7 +90,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T30;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -98,7 +98,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T29;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -106,7 +106,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T28;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -114,7 +114,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T27;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -122,7 +122,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T26;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -130,7 +130,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T25;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -138,7 +138,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T24;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -146,7 +146,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T23;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -154,7 +154,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T22;
 ValeurCmp = L-SO08-SI7884DP;
 IdModule  = 10005011 Power Management:SO08-PPAD_SI7884_1;
@@ -162,7 +162,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T21;
 ValeurCmp = L-SO08-SI7884DP;
 IdModule  = 10005011 Power Management:SO08-PPAD_SI7884_1;
@@ -170,7 +170,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T20;
 ValeurCmp = L-SO08-SI7884DP;
 IdModule  = 10005011 Power Management:SO08-PPAD_SI7884_1;
@@ -178,7 +178,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T19;
 ValeurCmp = L-SO08-SI7884DP;
 IdModule  = 10005011 Power Management:SO08-PPAD_SI7884_1;
@@ -186,7 +186,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T18;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -194,7 +194,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T17;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -202,7 +202,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T16;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -210,7 +210,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T15;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -218,7 +218,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T14;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -226,7 +226,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T13;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -234,7 +234,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T12;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -242,7 +242,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T11;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -250,7 +250,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T10;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -258,7 +258,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T9;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -266,7 +266,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T8;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -274,7 +274,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T7;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -282,7 +282,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T6;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -290,7 +290,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T5;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -298,7 +298,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T4;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -306,7 +306,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T3;
 ValeurCmp = Q-BC-DPAK-GDS;
 IdModule  = 10005011 Power Management:DPAK-GDS_1;
@@ -314,7 +314,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = T2;
 ValeurCmp = Q-BC-SOT23-GSD;
 IdModule  = 10005011 Power Management:SOT23-GSD_1;
@@ -322,7 +322,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = SW2;
 ValeurCmp = SI-BC-MCDMR-02T;
 IdModule  = 10005011 Power Management:MCDMR-02T_1;
@@ -330,7 +330,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = SW1;
 ValeurCmp = SI-BT-CMF1;
 IdModule  = 10005011 Power Management:CMF1_1;
@@ -338,7 +338,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R126;
 ValeurCmp = R-BC-SM2;
 IdModule  = 10005011 Power Management:SM2_1;
@@ -346,7 +346,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R125;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -354,7 +354,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R124;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -362,7 +362,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R123;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -370,7 +370,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R122;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -378,7 +378,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R121;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -386,7 +386,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R120;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -394,7 +394,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R119;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -402,7 +402,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R118;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -410,7 +410,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R117;
 ValeurCmp = R-BC-R0805;
 IdModule  = 10005011 Power Management:R0805_1;
@@ -418,7 +418,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R116;
 ValeurCmp = R-BC-R1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -426,7 +426,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R115;
 ValeurCmp = R-BC-R1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -434,7 +434,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R114;
 ValeurCmp = R-BC-R1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -442,7 +442,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R113;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -450,7 +450,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R112;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -458,7 +458,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R111;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -466,7 +466,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R110;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -474,7 +474,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R109;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -482,7 +482,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R108;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -490,7 +490,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R107;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -498,7 +498,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R106;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -506,7 +506,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R105;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -514,7 +514,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R104;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -522,7 +522,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R103;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -530,7 +530,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R102;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -538,7 +538,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R99;
 ValeurCmp = R-BC-R1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -546,7 +546,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R98;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -554,7 +554,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R97;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -562,7 +562,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R96;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -570,7 +570,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R95;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -578,7 +578,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R94;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -586,7 +586,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R93;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -594,7 +594,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R92;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -602,7 +602,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R91;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -610,7 +610,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R90;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -618,7 +618,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R89;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -626,7 +626,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R88;
 ValeurCmp = R-BC-SM2;
 IdModule  = 10005011 Power Management:SM2_1;
@@ -634,7 +634,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R87;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -642,7 +642,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R86;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -650,7 +650,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R85;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -658,7 +658,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R84;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -666,7 +666,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R83;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -674,7 +674,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R82;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -682,7 +682,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R81;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -690,7 +690,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R80;
 ValeurCmp = R-BC-R2010;
 IdModule  = 10005011 Power Management:R2010_1;
@@ -698,7 +698,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R79;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -706,7 +706,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R78;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -714,7 +714,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R77;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -722,7 +722,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R76;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -730,7 +730,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R75;
 ValeurCmp = R-BC-R2512;
 IdModule  = 10005011 Power Management:R2512_1;
@@ -738,7 +738,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R74;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -746,7 +746,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R73;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -754,7 +754,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R72;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -762,7 +762,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R71;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -770,7 +770,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R70;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -778,7 +778,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R69;
 ValeurCmp = R-BC-R1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -786,7 +786,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R68;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -794,7 +794,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R67;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -802,7 +802,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R66;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -810,7 +810,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R65;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -818,7 +818,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R64;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -826,7 +826,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R63;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -834,7 +834,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R62;
 ValeurCmp = R-BC-R1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -842,7 +842,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R61;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -850,7 +850,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R60;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -858,7 +858,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R59;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -866,7 +866,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R58;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -874,7 +874,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R57;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -882,7 +882,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R56;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -890,7 +890,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R55;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -898,7 +898,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R54;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -906,7 +906,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R53;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -914,7 +914,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R52;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -922,7 +922,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R51;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -930,7 +930,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R50;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -938,7 +938,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R49;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -946,7 +946,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R48;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -954,7 +954,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R47;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -962,7 +962,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R46;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -970,7 +970,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R45;
 ValeurCmp = R-BC-R2010;
 IdModule  = 10005011 Power Management:R2010_1;
@@ -978,7 +978,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R44;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -986,7 +986,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R43;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -994,7 +994,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R42;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1002,7 +1002,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R41;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1010,7 +1010,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R40;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1018,7 +1018,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R39;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1026,7 +1026,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R38;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1034,7 +1034,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R37;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1042,7 +1042,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R36;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1050,7 +1050,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R35;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1058,7 +1058,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R34;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1066,7 +1066,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R33;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1074,7 +1074,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R32;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1082,7 +1082,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R31;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1090,7 +1090,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R30;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1098,7 +1098,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R29;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1106,7 +1106,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R28;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1114,7 +1114,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R27;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1122,7 +1122,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R26;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1130,7 +1130,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R25;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1138,7 +1138,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R24;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1146,7 +1146,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R23;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1154,7 +1154,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R22;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1162,7 +1162,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R21;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1170,7 +1170,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R20;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1178,7 +1178,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R19;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1186,7 +1186,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R18;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1194,7 +1194,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R17;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1202,7 +1202,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R16;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1210,7 +1210,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R15;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1218,7 +1218,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R14;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1226,7 +1226,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R13;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1234,7 +1234,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R12;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1242,7 +1242,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R11;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1250,7 +1250,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R10;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1258,7 +1258,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R9;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1266,7 +1266,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R8;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1274,7 +1274,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R7;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1282,7 +1282,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R6;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1290,7 +1290,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R5;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1298,7 +1298,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R4;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1306,7 +1306,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R3;
 ValeurCmp = R-BC-R0805;
 IdModule  = 10005011 Power Management:R0805_1;
@@ -1314,7 +1314,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R2;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1322,7 +1322,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = R1;
 ValeurCmp = R-BC-R0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1330,7 +1330,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = Q3;
 ValeurCmp = Y-BC-HC49-4HSMX;
 IdModule  = 10005011 Power Management:HC49-4HSMX_1;
@@ -1338,7 +1338,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = Q1;
 ValeurCmp = Y-BC-CSTCR;
 IdModule  = 10005011 Power Management:CSTCR_1;
@@ -1346,7 +1346,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PT1;
 ValeurCmp = PT-CMS-C12000;
 IdModule  = 10005011 Power Management:C12000_1;
@@ -1354,7 +1354,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST14;
 ValeurCmp = PT-10-1013;
 IdModule  = 10005011 Power Management:PT-1.3MM_FOURCHE_1;
@@ -1362,7 +1362,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST11;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1370,7 +1370,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST10;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1378,7 +1378,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST9;
 ValeurCmp = PT-10-1013;
 IdModule  = 10005011 Power Management:PT-1.3MM_FOURCHE_1;
@@ -1386,7 +1386,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST8;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1394,7 +1394,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST7;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1402,7 +1402,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST6;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1410,7 +1410,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST5;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1418,7 +1418,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST4;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1426,7 +1426,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST3;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1434,7 +1434,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PST2;
 ValeurCmp = PT-CMS-1008;
 IdModule  = 10005011 Power Management:TEST-CMS-0.8_1;
@@ -1442,7 +1442,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PG6;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1450,7 +1450,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PG5;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1458,7 +1458,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PG4;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1466,7 +1466,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PG3;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1474,7 +1474,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PG2;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1482,7 +1482,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PG1;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1490,7 +1490,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = PCT1;
 ValeurCmp = FU-BC-F1812;
 IdModule  = 10005011 Power Management:C1812_1;
@@ -1498,7 +1498,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML8;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1506,7 +1506,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML6;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1514,7 +1514,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML5;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1522,7 +1522,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML4;
 ValeurCmp = FU-BC-F1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -1530,7 +1530,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML3;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1538,7 +1538,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML2;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1546,7 +1546,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = ML1;
 ValeurCmp = FU-BC-F0603;
 IdModule  = 10005011 Power Management:R0603_1;
@@ -1554,7 +1554,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = MIR4;
 ValeurCmp = MIRECMS;
 IdModule  = 10005011 Power Management:MIRECMS_D-1.5_1;
@@ -1562,7 +1562,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = MIR3;
 ValeurCmp = MIRECMS;
 IdModule  = 10005011 Power Management:MIRECMS_D-1.5_1;
@@ -1570,7 +1570,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = MIR2;
 ValeurCmp = MIRECMS;
 IdModule  = 10005011 Power Management:MIRECMS_D-1.5_1;
@@ -1578,7 +1578,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = MIR1;
 ValeurCmp = MIRECMS;
 IdModule  = 10005011 Power Management:MIRECMS_D-1.5_1;
@@ -1586,7 +1586,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L61;
 ValeurCmp = SF-BC-S1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -1594,7 +1594,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L50;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1602,7 +1602,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L49;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1610,7 +1610,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L48;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1618,7 +1618,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L47;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1626,7 +1626,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L46;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1634,7 +1634,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L45;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1642,7 +1642,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L44;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1650,7 +1650,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L43;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1658,7 +1658,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L26;
 ValeurCmp = SF-BC-S0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D;
@@ -1666,7 +1666,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L25;
 ValeurCmp = SF-BC-S0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D;
@@ -1674,7 +1674,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L24;
 ValeurCmp = SF-BC-S0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D;
@@ -1682,7 +1682,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L23;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1690,7 +1690,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L22;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1698,7 +1698,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L21;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1706,7 +1706,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L20;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1714,7 +1714,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L19;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1722,7 +1722,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L18;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1730,7 +1730,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L17;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1738,7 +1738,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L16;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1746,7 +1746,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L15;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1754,7 +1754,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L14;
 ValeurCmp = SF-BC-S1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -1762,7 +1762,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L13;
 ValeurCmp = SF-BC-S1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -1770,7 +1770,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L12;
 ValeurCmp = SF-BC-WEPD-XXL;
 IdModule  = 10005011 Power Management:WEPD-XXL_1;
@@ -1778,7 +1778,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L11;
 ValeurCmp = SF-BC-DLP31S;
 IdModule  = 10005011 Power Management:DLP31S-AIROX_1;
@@ -1786,7 +1786,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L10;
 ValeurCmp = SF-BC-S0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D;
@@ -1794,7 +1794,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L9;
 ValeurCmp = SF-BC-DLP31S;
 IdModule  = 10005011 Power Management:DLP31S-AIROX_1;
@@ -1802,7 +1802,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L8;
 ValeurCmp = SF-BC-DLP31S;
 IdModule  = 10005011 Power Management:DLP31S-AIROX_1;
@@ -1810,7 +1810,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L7;
 ValeurCmp = SF-BC-S0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D;
@@ -1818,7 +1818,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L6;
 ValeurCmp = SF-BC-S0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -1826,7 +1826,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L5;
 ValeurCmp = SF-BC-S1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -1834,7 +1834,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L4;
 ValeurCmp = SF-BC-WEPD4-S;
 IdModule  = 10005011 Power Management:WEPD4-S_1;
@@ -1842,7 +1842,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L3;
 ValeurCmp = SF-BT-3863-WESI;
 IdModule  = 10005011 Power Management:SF-3863-WESI_1;
@@ -1850,7 +1850,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L2;
 ValeurCmp = SF-BC-WEPD4-L;
 IdModule  = 10005011 Power Management:WE-PD4_1;
@@ -1858,7 +1858,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = L1;
 ValeurCmp = SF-BC-S0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-MURATA-BLM21PG221D;
@@ -1866,7 +1866,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = JPL3;
 ValeurCmp = TB-GCAFE-2F;
 IdModule  = 10005011 Power Management:GDCAFE-F_FERME_1;
@@ -1874,7 +1874,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = JPL2;
 ValeurCmp = TB-GCAFE-2F;
 IdModule  = 10005011 Power Management:GDCAFE-F_FERME_1;
@@ -1882,7 +1882,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = JPL1;
 ValeurCmp = TB-GCAFE-2F;
 IdModule  = 10005011 Power Management:GDCAFE-F_FERME_1;
@@ -1890,7 +1890,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J14;
 ValeurCmp = F-COCMS-B4BZR-SM4TF;
 IdModule  = 10005011 Power Management:B4BZR-SM3TF_1;
@@ -1898,7 +1898,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J13;
 ValeurCmp = F-CO-MOL47500-0001;
 IdModule  = 10005011 Power Management:MOL47500-0001_1;
@@ -1906,15 +1906,15 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J12;
 ValeurCmp = F-CO-MOL47500-0001;
-IdModule  = 10005011 Power Management:MOL47500-0001_2;
+IdModule  = 10005011 Power Management:MOL47500-0001_1;
 EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J10;
 ValeurCmp = BAR-12-2010;
 IdModule  = 10005011 Power Management:BARRET2X5F_1;
@@ -1922,7 +1922,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J9;
 ValeurCmp = F-COCMS-MOL43650-0224;
 IdModule  = 10005011 Power Management:MOL43650-02D_1;
@@ -1930,7 +1930,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J7;
 ValeurCmp = F-CO-HE10-2026D;
 IdModule  = 10005011 Power Management:BP2X13D_1;
@@ -1938,7 +1938,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J6;
 ValeurCmp = F-CO-MOL6410M02;
 IdModule  = 10005011 Power Management:MOL6410-2_1;
@@ -1946,7 +1946,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J5;
 ValeurCmp = F-CO-EPG1B306HLN;
 IdModule  = 10005011 Power Management:EPG-1B-306-HLN_1;
@@ -1954,7 +1954,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J4;
 ValeurCmp = F-CO-MOL41815-03;
 IdModule  = 10005011 Power Management:MOL41815-03_1;
@@ -1962,7 +1962,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J3;
 ValeurCmp = F-CO-MOL41815-12;
 IdModule  = 10005011 Power Management:MOL41815-12_1;
@@ -1970,7 +1970,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J2;
 ValeurCmp = F-COCMS-B6BZR-SM4TF;
 IdModule  = 10005011 Power Management:B6BZR-SM3TF_1;
@@ -1978,7 +1978,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = J1;
 ValeurCmp = F-CO-MOL54819-0511;
 IdModule  = 10005011 Power Management:MOL54819-0511_1;
@@ -1986,15 +1986,15 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC28;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10005011 Power Management:DPAK_1;
+IdModule  = 10005011 Power Management:DPAK_1b;
 EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC27;
 ValeurCmp = L-BC-SC70-5;
 IdModule  = 10005011 Power Management:SC70-5_1;
@@ -2002,7 +2002,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC26;
 ValeurCmp = L-BC-SC70-5;
 IdModule  = 10005011 Power Management:SC70-5_1;
@@ -2010,15 +2010,15 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC25;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10005011 Power Management:DPAK_1;
+IdModule  = 10005011 Power Management:DPAK_1b;
 EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC24;
 ValeurCmp = L-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2026,7 +2026,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC23;
 ValeurCmp = L-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2034,7 +2034,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC22;
 ValeurCmp = L-BC-SOT23-5;
 IdModule  = 10005011 Power Management:SOT23-5_1;
@@ -2042,7 +2042,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC21;
 ValeurCmp = L-BC-SOT23-5;
 IdModule  = 10005011 Power Management:SOT23-5_1;
@@ -2050,7 +2050,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC20;
 ValeurCmp = L-BC-MSOP08;
 IdModule  = 10005011 Power Management:uSO08_1;
@@ -2058,7 +2058,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC19;
 ValeurCmp = L-BC-MSOP08;
 IdModule  = 10005011 Power Management:uSO08_1;
@@ -2066,7 +2066,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC18;
 ValeurCmp = L-BC-MSOP08;
 IdModule  = 10005011 Power Management:uSO08_1;
@@ -2074,7 +2074,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC17;
 ValeurCmp = L-BC-SO08M;
 IdModule  = 10005011 Power Management:MX.A8M_1;
@@ -2082,7 +2082,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC16;
 ValeurCmp = L-BC-TSOP2-44;
 IdModule  = 10005011 Power Management:TSOP2-44_1;
@@ -2090,7 +2090,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC15;
 ValeurCmp = L-BC-TQFP100;
 IdModule  = 10005011 Power Management:TQFP100_1;
@@ -2098,7 +2098,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC14;
 ValeurCmp = L-BC-MSOP08;
 IdModule  = 10005011 Power Management:uSO08_1;
@@ -2106,7 +2106,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC13;
 ValeurCmp = L-BC-SSOP16;
 IdModule  = 10005011 Power Management:SSOP16_1;
@@ -2114,7 +2114,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC12;
 ValeurCmp = L-BC-SOT23-5;
 IdModule  = 10005011 Power Management:SOT23-5_1;
@@ -2122,7 +2122,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC11;
 ValeurCmp = L-BC-SO08-PPAD;
 IdModule  = 10005011 Power Management:SO08-PPAD_COMPOSANT_1;
@@ -2130,7 +2130,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC10;
 ValeurCmp = L-BC-SSOP24;
 IdModule  = 10005011 Power Management:SSOP24_1;
@@ -2138,7 +2138,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC9;
 ValeurCmp = L-BC-MSOP08;
 IdModule  = 10005011 Power Management:uSO08_1;
@@ -2146,15 +2146,15 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC8;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10005011 Power Management:DPAK_1;
+IdModule  = 10005011 Power Management:DPAK_1b;
 EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC7;
 ValeurCmp = L-BC-MSOP08;
 IdModule  = 10005011 Power Management:uSO08_1;
@@ -2162,7 +2162,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC6;
 ValeurCmp = L-BC-SOT23-6;
 IdModule  = 10005011 Power Management:SOT23-6_1;
@@ -2170,7 +2170,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC5;
 ValeurCmp = L-BC-SO08;
 IdModule  = 10005011 Power Management:MX.A8_COMPOSANT_1;
@@ -2178,7 +2178,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC4;
 ValeurCmp = L-BC-LQFP48;
 IdModule  = 10005011 Power Management:LQFP48-PAD0.28X1.2_1;
@@ -2186,7 +2186,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC3;
 ValeurCmp = L-BC-TQFP64;
 IdModule  = 10005011 Power Management:TQFP64_1;
@@ -2194,7 +2194,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC2;
 ValeurCmp = L-BC-SOT23-5;
 IdModule  = 10005011 Power Management:SOT23-5_1;
@@ -2202,7 +2202,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = IC1;
 ValeurCmp = L-BC-SO08;
 IdModule  = 10005011 Power Management:MX.A8_COMPOSANT_1;
@@ -2210,7 +2210,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = FLTR3;
 ValeurCmp = FL-10-BNX002-SF-AIROX;
 IdModule  = 10005011 Power Management:BNX002+SF-AIROX_1;
@@ -2218,7 +2218,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = FLTR2;
 ValeurCmp = FL-10-BNX002-01;
 IdModule  = 10005011 Power Management:BNX002_1;
@@ -2226,7 +2226,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = FLTR1;
 ValeurCmp = FL-10-BNX002-SF-AIROX;
 IdModule  = 10005011 Power Management:BNX002+SF-AIROX_1;
@@ -2234,7 +2234,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = F1;
 ValeurCmp = FU-BC-0031.8221;
 IdModule  = 10005011 Power Management:FU-0031.8221_1;
@@ -2242,7 +2242,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D19-BIS;
 ValeurCmp = D-BC-SOD87;
 IdModule  = 10005011 Power Management:SOD87_1;
@@ -2250,7 +2250,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D21;
 ValeurCmp = D-BC-SMB;
 IdModule  = 10005011 Power Management:SMB-AIROX_1;
@@ -2258,7 +2258,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D20;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2266,7 +2266,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D19;
 ValeurCmp = D-BC-SOD123-AK;
 IdModule  = 10005011 Power Management:SOD123-AK_1;
@@ -2274,7 +2274,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D18;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2282,7 +2282,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D17;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2290,7 +2290,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D16;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2298,7 +2298,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D15;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2306,7 +2306,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D14;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2314,7 +2314,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D13;
 ValeurCmp = D-BC-SMC-NP;
 IdModule  = 10005011 Power Management:SMC-NP_1;
@@ -2322,7 +2322,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D12;
 ValeurCmp = D-BC-SOT23-1DIODE;
 IdModule  = 10005011 Power Management:SOT23-1DIODE_1;
@@ -2330,7 +2330,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D11;
 ValeurCmp = D-BC-SMB;
 IdModule  = 10005011 Power Management:SMB_1;
@@ -2338,7 +2338,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D10;
 ValeurCmp = D-BC-SOT23-1DIODE;
 IdModule  = 10005011 Power Management:SOT23-1DIODE_1;
@@ -2346,7 +2346,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D9;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2354,7 +2354,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D8;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2362,7 +2362,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D7;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2370,7 +2370,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D6;
 ValeurCmp = D-BC-SMB;
 IdModule  = 10005011 Power Management:SMB_1;
@@ -2378,7 +2378,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D5;
 ValeurCmp = D-BC-SMB;
 IdModule  = 10005011 Power Management:SMB_1;
@@ -2386,7 +2386,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D4;
 ValeurCmp = D-BC-SOT23-1DIODE;
 IdModule  = 10005011 Power Management:SOT23-1DIODE_1;
@@ -2394,7 +2394,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D3;
 ValeurCmp = D-BC-SMB;
 IdModule  = 10005011 Power Management:SMB-AIROX_1;
@@ -2402,7 +2402,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D2;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2410,7 +2410,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = D1;
 ValeurCmp = D-BC-SOT23;
 IdModule  = 10005011 Power Management:SOT23-1G_1;
@@ -2418,7 +2418,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = CT1;
 ValeurCmp = TH-BT-B57164;
 IdModule  = 10005011 Power Management:K164_1;
@@ -2426,7 +2426,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = CR2-BIS;
 ValeurCmp = D-BC-SOD87;
 IdModule  = 10005011 Power Management:SOD87_1;
@@ -2434,7 +2434,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = CR1-BIS;
 ValeurCmp = D-BC-SOD87;
 IdModule  = 10005011 Power Management:SOD87_1;
@@ -2442,7 +2442,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = CR2;
 ValeurCmp = D-BC-SOD123-AK;
 IdModule  = 10005011 Power Management:SOD123-AK_1;
@@ -2450,7 +2450,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = CR1;
 ValeurCmp = D-BC-SOD123-AK;
 IdModule  = 10005011 Power Management:SOD123-AK_1;
@@ -2458,7 +2458,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C141;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2466,7 +2466,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C140;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2474,7 +2474,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C139;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -2482,7 +2482,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C138;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -2490,7 +2490,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C137;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -2498,7 +2498,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C136;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -2506,7 +2506,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C135;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -2514,7 +2514,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C134;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -2522,7 +2522,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C133;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2530,7 +2530,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C132;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2538,7 +2538,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C131;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2546,7 +2546,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C130;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2554,7 +2554,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C129;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2562,7 +2562,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C128;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2570,7 +2570,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C127;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2578,7 +2578,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C126;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2586,7 +2586,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C125;
 ValeurCmp = C-BCP-WX10;
 IdModule  = 10005011 Power Management:C-SC10_1;
@@ -2594,7 +2594,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C124;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2602,7 +2602,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C123;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2610,7 +2610,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C122;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2618,7 +2618,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C121;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2626,7 +2626,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C120;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2634,7 +2634,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C119;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2642,7 +2642,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C118;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2650,7 +2650,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C117;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2658,7 +2658,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C116;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2666,7 +2666,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C115;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2674,7 +2674,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C114;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -2682,7 +2682,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C113;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2690,7 +2690,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C112;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2698,7 +2698,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C111;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2706,7 +2706,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C110;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2714,7 +2714,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C109;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2722,7 +2722,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C108;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2730,7 +2730,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C107;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -2738,7 +2738,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C106;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2746,7 +2746,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C105;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2754,7 +2754,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C104;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2762,7 +2762,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C103;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2770,7 +2770,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C102;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2778,7 +2778,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C101;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2786,7 +2786,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C100;
 ValeurCmp = CC-BC-C0612;
 IdModule  = 10005011 Power Management:C0612-4_1;
@@ -2794,7 +2794,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C99;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2802,7 +2802,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C98;
 ValeurCmp = CC-BC-C0612;
 IdModule  = 10005011 Power Management:C0612-4_1;
@@ -2810,7 +2810,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C97;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2818,7 +2818,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C96;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2826,7 +2826,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C95;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2834,7 +2834,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C94;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2842,7 +2842,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C93;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2850,7 +2850,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C92;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2858,7 +2858,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C91;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2866,7 +2866,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C90;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -2874,7 +2874,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C89;
 ValeurCmp = C-BC-C1206;
 IdModule  = 10005011 Power Management:RC1206-AIROX-KEMET-C1206C107A6;
@@ -2882,7 +2882,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C88;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2890,7 +2890,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C87;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2898,7 +2898,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C86;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2906,7 +2906,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C85;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2914,7 +2914,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C84;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2922,7 +2922,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C83;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -2930,7 +2930,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C82;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2938,7 +2938,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C81;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2946,7 +2946,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C80;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2954,7 +2954,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C79;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2962,7 +2962,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C78;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2970,7 +2970,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C77;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2978,7 +2978,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C76;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -2986,7 +2986,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C75;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -2994,7 +2994,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C74;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3002,7 +3002,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C73;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3010,7 +3010,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C72;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3018,7 +3018,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C71;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3026,7 +3026,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C70;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3034,7 +3034,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C69;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3042,7 +3042,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C68;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3050,7 +3050,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C67;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3058,7 +3058,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C66;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3066,7 +3066,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C65;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -3074,7 +3074,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C64;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3082,7 +3082,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C63;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3090,7 +3090,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C62;
 ValeurCmp = CC-BC-C0612;
 IdModule  = 10005011 Power Management:C0612-4_1;
@@ -3098,7 +3098,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C61;
 ValeurCmp = CC-BC-C0612;
 IdModule  = 10005011 Power Management:C0612-4_1;
@@ -3106,7 +3106,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C60;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3114,7 +3114,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C59;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3122,7 +3122,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C58;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3130,7 +3130,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C57;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3138,7 +3138,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C56;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3146,7 +3146,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C55;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3154,7 +3154,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C54;
 ValeurCmp = C-BCP-WX8;
 IdModule  = 10005011 Power Management:C-SC8_1;
@@ -3162,7 +3162,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C53;
 ValeurCmp = CC-BC-C0612;
 IdModule  = 10005011 Power Management:C0612-4_1;
@@ -3170,7 +3170,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C52;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3178,7 +3178,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C51;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3186,7 +3186,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C50;
 ValeurCmp = C-BC-C1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -3194,7 +3194,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C49;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3202,7 +3202,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C48;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3210,7 +3210,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C47;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3218,7 +3218,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C46;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3226,7 +3226,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C45;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-KEMET-C0805C106KA3;
@@ -3234,7 +3234,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C44;
 ValeurCmp = C-BCP-WX8;
 IdModule  = 10005011 Power Management:C-SC8_1;
@@ -3242,7 +3242,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C43;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3250,7 +3250,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C42;
 ValeurCmp = C-BCP-WX10;
 IdModule  = 10005011 Power Management:C-SC10_1;
@@ -3258,7 +3258,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C41;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3266,7 +3266,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C40;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3274,7 +3274,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C39;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3282,7 +3282,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C38;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3290,7 +3290,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C37;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3298,7 +3298,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C36;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3306,7 +3306,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C35;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3314,7 +3314,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C34;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -3322,7 +3322,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C33;
 ValeurCmp = C-BC-C1206;
 IdModule  = 10005011 Power Management:RC1206_1;
@@ -3330,7 +3330,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C32;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3338,7 +3338,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C31;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3346,7 +3346,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C30;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3354,7 +3354,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C29;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -3362,7 +3362,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C28;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3370,7 +3370,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C27;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3378,7 +3378,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C26;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3386,7 +3386,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C25;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3394,7 +3394,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C24;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3402,7 +3402,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C23;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805_1;
@@ -3410,7 +3410,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C22;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3418,7 +3418,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C21;
 ValeurCmp = C-BC-C1210;
 IdModule  = 10005011 Power Management:C1210_1;
@@ -3426,7 +3426,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C20;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3434,7 +3434,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C19;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3442,7 +3442,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C18;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3450,7 +3450,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C17;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3458,7 +3458,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C16;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3466,7 +3466,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C15;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3474,7 +3474,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C14;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3482,7 +3482,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C13;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3490,7 +3490,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C12;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3498,7 +3498,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C11;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3506,7 +3506,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C10;
 ValeurCmp = C-BC-C2220;
 IdModule  = 10005011 Power Management:C2220_1;
@@ -3514,7 +3514,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C9;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3522,7 +3522,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C8;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3530,7 +3530,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C7;
 ValeurCmp = C-BC-C0603;
 IdModule  = 10005011 Power Management:C0603_1;
@@ -3538,7 +3538,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C6;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3546,7 +3546,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C5;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3554,7 +3554,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C4;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3562,7 +3562,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C3;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
@@ -3570,7 +3570,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C2;
 ValeurCmp = C-BC-C0805;
 IdModule  = 10005011 Power Management:C0805-AIROX-KEMET-C0805C106KA3;
@@ -3578,7 +3578,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = C1;
 ValeurCmp = C-BC-C0402;
 IdModule  = 10005011 Power Management:C0402_1;
