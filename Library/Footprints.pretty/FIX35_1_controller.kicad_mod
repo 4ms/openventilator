@@ -8,17 +8,17 @@
   )
   (fp_circle (center 0 0) (end 1.75 0) (layer F.Fab) (width 0.1))
   (pad 1 thru_hole circle (at 0 0) (size 2.9972 2.9972) (drill 3.5052) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/Footprints.3dshapes/entretoise hexa  m3x8.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/entretoise hexa  m3x8.stp"
     (offset (xyz 0 0 0.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/Footprints.3dshapes/2966100 Vis TCB M3 x 5 exalobes acier zingué .stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/2966100 Vis TCB M3 x 5 exalobes acier zingué .stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/Footprints.3dshapes/Rondelle plate - ZU  3 x 6 EP 0.8.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/Rondelle plate - ZU  3 x 6 EP 0.8.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

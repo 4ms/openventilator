@@ -24,7 +24,7 @@
   (fp_line (start 1.4 0.3) (end 1.4 -0.3) (layer F.Fab) (width 0.1))
   (pad K smd rect (at -1.4425 0 90) (size 2.54 3) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 1.4425 0 90) (size 1.27 1.5) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/Footprints.3dshapes/ONSEMI_POWERMITE.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/ONSEMI_POWERMITE.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

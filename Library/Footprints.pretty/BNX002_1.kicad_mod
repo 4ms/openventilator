@@ -25,7 +25,7 @@
   (pad CG1 thru_hole circle (at -2.4892 2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad CB thru_hole circle (at 2.4892 2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
   (pad B thru_hole circle (at 2.4892 -2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/Footprints.3dshapes/BNX002.step
+  (model ${KIPRJMOD}/../Library/Footprints.3dshapes/BNX002.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

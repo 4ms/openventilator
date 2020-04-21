@@ -20,7 +20,7 @@
   (fp_line (start 5.37 -3.175) (end 5.37 3.175) (layer B.Fab) (width 0.1))
   (pad 2 thru_hole circle (at -6.35 1.5 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 6.35 -1.5 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/Footprints.3dshapes/7427504_rev1-recenter.stp
+  (model ${KIPRJMOD}/../Library/Footprints.3dshapes/7427504_rev1-recenter.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

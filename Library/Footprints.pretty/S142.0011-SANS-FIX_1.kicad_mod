@@ -54,7 +54,7 @@
   (fp_line (start 4 16) (end -4 16) (layer B.Fab) (width 0.1))
   (pad 2 thru_hole circle (at -2 11.2 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2 11.2 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/Footprints.3dshapes/valve chiprop-recenter.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/valve chiprop-recenter.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

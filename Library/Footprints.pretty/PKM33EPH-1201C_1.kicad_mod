@@ -45,7 +45,7 @@
   (pad 3 smd rect (at 0 -17 90) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 14.7 8.525 150) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -16 9) (size 2.1 4.8) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/Footprints.3dshapes/PKM33EPH1201C_cp.wrl"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/PKM33EPH1201C_cp.wrl"
     (offset (xyz 0 0 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
