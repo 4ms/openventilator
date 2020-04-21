@@ -1989,7 +1989,7 @@ TimeStamp = 00000000
 Path =
 Reference = IC28;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10005011 Power Management:DPAK_1;
+IdModule  = 10005011 Power Management:DPAK_1b;
 EndCmp
 
 BeginCmp
@@ -2013,7 +2013,7 @@ TimeStamp = 00000000
 Path =
 Reference = IC25;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10005011 Power Management:DPAK_1;
+IdModule  = 10005011 Power Management:DPAK_1b;
 EndCmp
 
 BeginCmp
@@ -2149,7 +2149,7 @@ TimeStamp = 00000000
 Path =
 Reference = IC8;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10005011 Power Management:DPAK_1;
+IdModule  = 10005011 Power Management:DPAK_1b;
 EndCmp
 
 BeginCmp
