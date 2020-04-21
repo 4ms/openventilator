@@ -44,17 +44,17 @@
   (pad MEL32 thru_hole circle (at -45 0) (size 2.54 2.54) (drill 3.2004) (layers *.Cu *.Mask))
   (pad MEL32_1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 3.2004) (layers *.Cu *.Mask))
   (pad MEL36 thru_hole circle (at -23.4 -3) (size 2.9972 2.9972) (drill 3.6068) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D Models/e_0100.1908d005-recenter.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/e_0100.1908d005-recenter.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/3D Models/entretoise hexa  m.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/entretoise hexa  m.stp"
     (offset (xyz -23.4 3 6.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/3D Models/Vis TCB M3-12 hexa.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/Vis TCB M3-12 hexa.stp"
     (offset (xyz -23.4 3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

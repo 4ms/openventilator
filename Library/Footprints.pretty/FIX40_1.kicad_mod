@@ -8,7 +8,7 @@
   )
   (fp_circle (center 0 0) (end 2 0) (layer F.Fab) (width 0.1))
   (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 4.0132) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D Models/entretoise richco - recenter.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/entretoise richco - recenter.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

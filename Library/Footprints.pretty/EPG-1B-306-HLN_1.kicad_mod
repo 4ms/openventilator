@@ -35,7 +35,7 @@
   (pad 8 thru_hole circle (at 3.81 3.81) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 3.81 -3.81) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at -3.81 -3.81) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D Models/GF1L0C_P06QF00_0000_cp.wrl"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/GF1L0C_P06QF00_0000_cp.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

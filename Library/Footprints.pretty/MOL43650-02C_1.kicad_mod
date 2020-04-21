@@ -54,7 +54,7 @@
   (pad 3 smd rect (at -4.9276 5.1562 90) (size 1.6764 4.2926) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.4986 0) (size 1.27 3.4798) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.4986 0) (size 1.27 3.4798) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/../Library/Footprints.pretty/MOLEX_43650-0213.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/MOLEX_43650-0213.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

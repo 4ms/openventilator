@@ -33,7 +33,7 @@
   (pad 8 thru_hole circle (at 7.62 2.54 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 10.16 0 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 10.16 2.54 180) (size 1.6764 1.6764) (drill 0.9652) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D Models/HARWIN_M20-7830546.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/HARWIN_M20-7830546.stp"
     (offset (xyz 5 -1.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

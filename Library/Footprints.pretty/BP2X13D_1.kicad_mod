@@ -54,7 +54,7 @@
   (pad 24 thru_hole circle (at 27.94 -2.54) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at 30.48 0) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 26 thru_hole circle (at 30.48 -2.54) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D Models/39-26-7265-recenter.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/39-26-7265-recenter.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

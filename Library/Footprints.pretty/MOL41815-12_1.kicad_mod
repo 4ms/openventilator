@@ -220,7 +220,7 @@
   (pad 10 thru_hole circle (at 35.64 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at 39.6 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at 43.56 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D Models/009484128.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/009484128.stp"
     (offset (xyz 21.78 -5.52 11.38))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

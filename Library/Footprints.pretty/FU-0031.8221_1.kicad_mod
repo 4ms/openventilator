@@ -40,7 +40,7 @@
   (fp_line (start -12.5 4.8) (end -12.5 3.85752) (layer F.SilkS) (width 0.18))
   (pad 1 smd rect (at -8.5 0) (size 6 6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 8.5 0) (size 6 6) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/3D Models/FU-0031.8221.STEP"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/FU-0031.8221.STEP"
     (offset (xyz 4.45 0 2.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
