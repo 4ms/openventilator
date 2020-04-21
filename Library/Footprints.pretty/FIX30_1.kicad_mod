@@ -8,7 +8,7 @@
   )
   (fp_circle (center 0 0) (end 2 0) (layer Dwgs.User) (width 0.00003))
   (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 2.9972) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/Footprints.3dshapes/Vis KA22x5 hexalobes.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/Vis KA22x5 hexalobes.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

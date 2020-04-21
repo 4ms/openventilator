@@ -23,7 +23,7 @@
   (fp_line (start -1.75 -1.05) (end 1.75 -1.05) (layer F.Fab) (width 0.1))
   (pad K smd rect (at -1.5875 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 1.5875 0) (size 1.5748 1.905) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/Footprints.3dshapes/SOD-87.step
+  (model ${KIPRJMOD}/../Library/Footprints.3dshapes/SOD-87.step
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
