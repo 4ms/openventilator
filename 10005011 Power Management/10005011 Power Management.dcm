@@ -232,12 +232,6 @@ K diode TVS transient voltage supressor SMB
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf
 $ENDCMP
 #
-$CMP TLV3011AIDBV
-D Nanopower 1.8V comparator with voltage reference
-K comparator
-F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
-$ENDCMP
-#
 $CMP TLV3012AIDBV
 D Nanopower 1.8V comparator with voltage reference
 K comparator
