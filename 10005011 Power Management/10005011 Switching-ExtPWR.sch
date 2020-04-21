@@ -724,21 +724,6 @@ F 7 "ECM100US33>2413" H 13950 2150 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:CMF2 SW1
-U 1 1 5E986E8B
-P 11350 2400
-F 0 "SW1" H 11433 3265 50  0000 C CNN
-F 1 "CMF2" H 11433 3174 50  0000 C CNN
-F 2 "10005011 Power Management:CMF1_1" H 11200 2450 100 0001 C CNN
-F 3 "https://www.schurter.com/en/datasheet/typ_CMF2__CMF5.pdf" H 11200 2450 100 0001 C CNN
-F 4 "SWITCH SOCKET 2 POLES" H 11350 2400 50  0001 C CNN "Description"
-F 5 "10022930" H 11350 2400 50  0001 C CNN "Item Number"
-F 6 "SCHURTER" H 11350 2400 50  0001 C CNN "Manufacturer"
-F 7 "CMF2.1011.12" H 11350 2400 50  0001 C CNN "Manufacturer_No"
-	1    11350 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x03_Female J4
 U 1 1 5E98CEDB
 P 13400 2000
@@ -1134,7 +1119,7 @@ F 5 "10022135" H 9750 7650 50  0001 C CNN "Item Number"
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	9000 7650 9500 7650
+	9000 7650 9300 7650
 Wire Wire Line
 	9500 8050 9500 7650
 Connection ~ 9500 7650
@@ -1386,10 +1371,7 @@ F 5 "10022135" H 14200 7750 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	13350 7750 13950 7750
-Wire Wire Line
 	13950 8150 13950 7750
-Connection ~ 13950 7750
 Wire Wire Line
 	13950 7750 14050 7750
 Connection ~ 14450 8450
@@ -1764,9 +1746,6 @@ F 3 "" H 2200 4500 50  0001 C CNN
 	1    2200 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6350 4150
-Wire Wire Line
-	6350 4150 5950 4150
 Connection ~ 7350 4150
 Wire Wire Line
 	7450 4150 7350 4150
@@ -2689,7 +2668,6 @@ F 9 "" H 5800 4150 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 Connection ~ 5650 4150
-Connection ~ 5950 4150
 $Comp
 L 10005011_Power_Management:+3.0VREF #PWR0288
 U 1 1 5E997247
@@ -2709,4 +2687,76 @@ Wire Wire Line
 	800  10050 1250 10050
 Text Label 4350 4150 0    50   ~ 0
 LED_DC_IN
+$Comp
+L power:PWR_FLAG #FLG0113
+U 1 1 5EDB2F4C
+P 9300 7500
+F 0 "#FLG0113" H 9300 7575 50  0001 C CNN
+F 1 "PWR_FLAG" H 9300 7650 50  0000 C CNN
+F 2 "" H 9300 7500 50  0001 C CNN
+F 3 "~" H 9300 7500 50  0001 C CNN
+	1    9300 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 7500 9300 7650
+Connection ~ 9300 7650
+Wire Wire Line
+	9300 7650 9500 7650
+$Comp
+L power:PWR_FLAG #FLG0114
+U 1 1 5EDE4D45
+P 13750 7600
+F 0 "#FLG0114" H 13750 7675 50  0001 C CNN
+F 1 "PWR_FLAG" H 13750 7750 50  0000 C CNN
+F 2 "" H 13750 7600 50  0001 C CNN
+F 3 "~" H 13750 7600 50  0001 C CNN
+	1    13750 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 7600 13750 7750
+Wire Wire Line
+	13350 7750 13750 7750
+Connection ~ 13950 7750
+Connection ~ 13750 7750
+Wire Wire Line
+	13750 7750 13950 7750
+$Comp
+L power:PWR_FLAG #FLG0115
+U 1 1 5EE5BAE6
+P 6200 4000
+F 0 "#FLG0115" H 6200 4075 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 4150 50  0000 C CNN
+F 2 "" H 6200 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4000 6200 4150
+Wire Wire Line
+	5950 4150 6200 4150
+Connection ~ 5950 4150
+Connection ~ 6350 4150
+Connection ~ 6200 4150
+Wire Wire Line
+	6200 4150 6350 4150
+$Comp
+L 10005011_Power_Management:CMF2 SW1
+U 1 1 5E986E8B
+P 11350 2400
+AR Path="/5E986E8B" Ref="SW1"  Part="1" 
+AR Path="/5FEC5422/5E986E8B" Ref="SW1"  Part="1" 
+F 0 "SW1" H 11433 3265 50  0000 C CNN
+F 1 "CMF2" H 11433 3174 50  0000 C CNN
+F 2 "10005011 Power Management:CMF1_1" H 11200 2450 100 0001 C CNN
+F 3 "https://www.schurter.com/en/datasheet/typ_CMF2__CMF5.pdf" H 11200 2450 100 0001 C CNN
+F 4 "SWITCH SOCKET 2 POLES" H 11350 2400 50  0001 C CNN "Description"
+F 5 "10022930" H 11350 2400 50  0001 C CNN "Item Number"
+F 6 "SCHURTER" H 11350 2400 50  0001 C CNN "Manufacturer"
+F 7 "CMF2.1011.12" H 11350 2400 50  0001 C CNN "Manufacturer_No"
+	1    11350 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

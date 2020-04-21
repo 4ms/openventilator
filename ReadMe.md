@@ -36,7 +36,8 @@ Either use KiCAD version 5.1.5 or the nightly builds.
 
 **GerbView** - part of KiCAD.
 
-File → Open Gerber Files. In “File Name” select *.phd for CR-5000 designs. Some of the polygons are not handled correctly in 5.1.5-3.
+The files need to have 4-quad circles set.  If you add the command `G75*` before the first draw command in each file, gerbview will display correctly.
+File → Open Gerber Files. In “File Name” select *.phd for CR-5000 designs.
 
 [PentaLogix ViewMate Free (Windows)](https://www.pentalogix.com/t/software-products/viewmate) 
 
