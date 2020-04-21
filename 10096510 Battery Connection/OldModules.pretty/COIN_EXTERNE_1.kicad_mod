@@ -1,9 +1,9 @@
 (module COIN_EXTERNE_1 (layer F.Cu) (tedit 0)
   (attr smd)
-  (fp_text reference CAM1 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
+  (fp_text reference CAM6 (at 1.016 2.032 -90 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
-  (fp_text value COIN_EXTERNE (at 6.096 -1.016 unlocked) (layer F.SilkS) hide
+  (fp_text value COIN_EXTERNE (at 1.016 6.096 -90 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
   (fp_line (start -1.905 0) (end 0 0) (layer Dwgs.User) (width 0.00003))

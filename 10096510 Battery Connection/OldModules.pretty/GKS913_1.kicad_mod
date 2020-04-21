@@ -1,0 +1,18 @@
+(module GKS913_1 (layer F.Cu) (tedit 0)
+  (attr smd)
+  (fp_text reference J6 (at -4.735 -0.013 unlocked) (layer F.SilkS)
+    (effects (font (size 1.312 1.38) (thickness 0.15)))
+  )
+  (fp_text value PT-10-GKS913 (at 6 -1 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.312 1.38) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 1.75 0) (layer F.SilkS) (width 0.1))
+  (fp_circle (center 0 0) (end 1.325 0) (layer F.SilkS) (width 0.1))
+  (fp_circle (center 0 0) (end 1.15 0) (layer F.SilkS) (width 0.1))
+  (pad 1 thru_hole circle (at 0 0) (size 4.3 4.3) (drill 2.8956) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Footprints.3dshapes/GKS-913-Z-recenter.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
