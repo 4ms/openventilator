@@ -26,7 +26,7 @@
   (fp_arc (start 2.4892 2.6924) (end 2.3876 2.6924) (angle -360) (layer F.SilkS) (width 0.1778))
   (pad 1 smd rect (at 2.4384 0 90) (size 4.5974 1.4986) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.4384 0 90) (size 4.5974 1.4986) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/3D Models/Fuse 2016L.step"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/Fuse 2016L.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
