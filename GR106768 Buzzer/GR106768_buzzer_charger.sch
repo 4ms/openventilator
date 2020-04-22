@@ -147,17 +147,6 @@ F 3 "~" H 14900 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lt3471:LT3471 IC8
-U 1 1 5E96B49A
-P 12825 4375
-F 0 "IC8" H 12225 4825 50  0000 C CNN
-F 1 "LT3471" H 13100 4025 50  0000 C CNN
-F 2 "AllModules:DFN10_1" H 12825 3975 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf" H 12825 4325 50  0001 C CNN
-	1    12825 4375
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C22
 U 1 1 5E96C675
 P 12600 2900
@@ -1700,17 +1689,6 @@ F 3 "https://www.vishay.com/docs/72014/72014.pdf" H 4500 6550 50  0001 C CNN
 	1    4500 6550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L GR106768_Buzzer:bq2002_SN IC6
-U 1 1 5EBD254E
-P 3450 4450
-F 0 "IC6" H 3450 4750 50  0000 C CNN
-F 1 "BQ2002C" H 3450 4150 50  0000 C CNN
-F 2 "AllModules:MX.A8_COMPOSANT_1" H 3650 4400 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/bq2002c.pdf" H 3650 4400 50  0001 C CNN
-	1    3450 4450
-	-1   0    0    -1  
-$EndComp
 Connection ~ 2300 4500
 Wire Wire Line
 	2300 4500 2125 4500
@@ -2492,4 +2470,26 @@ F 3 "~" H 12825 2425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 12825 2425
+$Comp
+L GR106768_Buzzer:LT3471 IC8
+U 1 1 5EA71527
+P 12825 4375
+F 0 "IC8" H 12825 4525 65  0000 C CNN
+F 1 "LT3471" H 12825 4425 50  0000 C CNN
+F 2 "AllModules:DFN10_1" H 13275 4025 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf" H 12825 4325 50  0001 C CNN
+	1    12825 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GR106768_Buzzer:bq2002_SN IC6
+U 1 1 5EAF2236
+P 3450 4450
+F 0 "IC6" H 3450 4750 50  0000 C CNN
+F 1 "BQ2002C" H 3450 4150 50  0000 C CNN
+F 2 "AllModules:MX.A8_COMPOSANT_1" H 3450 4100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/bq2002c.pdf" H 3650 4400 50  0001 C CNN
+	1    3450 4450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

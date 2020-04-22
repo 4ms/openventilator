@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BQ2002C
-D BQ2002C ACTIVE  NiCd/NiMH charge controller
-K charge controller
-$ENDCMP
-#
-#End Doc Library
