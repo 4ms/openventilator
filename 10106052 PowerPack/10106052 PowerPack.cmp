@@ -674,7 +674,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = MT1;
 ValeurCmp = MTHOLE1;
 IdModule  = AllModules:MTHOLE1;
@@ -778,7 +778,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = FID2;
 ValeurCmp = FIDUCIAL;
 IdModule  = AllModules:FIDUCIAL;
@@ -786,7 +786,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = 00000000
-Path = 
+Path =
 Reference = FID1;
 ValeurCmp = FIDUCIAL;
 IdModule  = AllModules:FIDUCIAL;
@@ -925,7 +925,7 @@ TimeStamp = 00000000
 Path = /5E87816A/5EA292FD
 Reference = C8;
 ValeurCmp = 100u;
-IdModule  = AllModules:CAPPRD350W60D800H1250PBA;
+IdModule  = AllModules:CAPPRD350W60D800H1250;
 EndCmp
 
 BeginCmp
@@ -1061,7 +1061,7 @@ TimeStamp = 5E98EACC
 Path = /5E87816A/5EA29795
 Reference = C9;
 ValeurCmp = 100u;
-IdModule  = AllModules:CAPPRD350W60D800H1250PAAAAA;
+IdModule  = AllModules:CAPPRD350W60D800H1250;
 EndCmp
 
 EndListe
