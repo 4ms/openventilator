@@ -1,9 +1,9 @@
-(module CAPPRD350W60D800H1250PBA (layer F.Cu) (tedit 5E8B8B08)
+(module CAPPRD350W60D800H1250 (layer F.Cu) (tedit 5EA07AB2)
   (attr smd)
   (fp_text reference REF** (at -5.6007 0.0635 unlocked) (layer F.SilkS)
     (effects (font (size 0.316586 0.332994) (thickness 0.0254)))
   )
-  (fp_text value CAPPRD350W60D800H1250PBA (at -1.1684 -0.0381 unlocked) (layer F.SilkS) hide
+  (fp_text value CAPPRD350W60D800H1250 (at -1.1684 -0.0381 unlocked) (layer F.SilkS) hide
     (effects (font (size 0.316586 0.332994) (thickness 0.0254)))
   )
   (fp_circle (center 0 0) (end 3.9878 0) (layer F.SilkS) (width 0.1778))

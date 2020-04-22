@@ -37,7 +37,7 @@
   (pad 3 smd rect (at 2.1844 -0.3048) (size 1.4478 0.4318) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.1844 0.3048) (size 1.4478 0.4318) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 2.1844 0.9652) (size 1.4478 0.4318) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/3D Models/SOP65P490X110-8N.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/SOP65P490X110-8N.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

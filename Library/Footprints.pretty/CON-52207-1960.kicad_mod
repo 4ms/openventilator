@@ -39,7 +39,7 @@
   (pad 19 smd rect (at -8.9916 0 90) (size 1.8796 0.5842) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at 12.1412 -2.3368 90) (size 2.794 2.0828) (layers F.Cu F.Paste F.Mask))
   (pad 21 smd rect (at -12.1412 -2.3368 90) (size 2.794 2.0828) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/3D Models/522071960.stp"
+  (model "${KIPRJMOD}/../Library/Footprints.3dshapes/522071960.stp"
     (offset (xyz 0 4 1.35))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))
