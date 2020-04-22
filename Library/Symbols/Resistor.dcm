@@ -1,0 +1,465 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R0402_0R0
+D Resistor, 0 Ohm, 0.063W, 0402
+K resistor 0402 net tie
+F ~
+$ENDCMP
+#
+$CMP R0402_100k_1%
+D Resistor, 100k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_105k_1%
+D Resistor, 105k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_10k0_1%
+D Resistor, 10k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_137k_1%
+D Resistor, 137k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_150k_1%
+D Resistor, 150k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_15k0_1%
+D Resistor, 15k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_180k_1%
+D Resistor, 180k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_182k_1%
+D Resistor, 182k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_1M00_1%
+D Resistor, 1M, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_1M50_1%
+D Resistor, 1.5M, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_1R50_1%
+D Resistor, 1.5 Ohm, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_1k00_1%
+D Resistor, 1k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_200k_1%
+D Resistor, 200k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_220R_1%
+D Resistor, 220 Ohm, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_2k20_1%
+D Resistor, 2.2k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_32k4_1%
+D Resistor, 32.4k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_33R0_1%
+D Resistor, 33 Ohm, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_33k0_1%
+D Resistor, 33k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_470R_1%
+D Resistor, 470 Ohm, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_47k0_1%
+D Resistor, 47k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_4k70_1%
+D Resistor, 4.7k, +/-1%.0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_4k99_1%
+D Resistor, 4.99k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_51k1_1%
+D Resistor, 51.1k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_54k9_1%
+D Resistor, 54.9k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_59k0_1%
+D Resistor, 59k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_680k_1%
+D Resistor, 680k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0402_68k0_1%
+D Resistor, 68k, +/-1%, 0.063W, 0402
+K resistor 0402
+F ~
+$ENDCMP
+#
+$CMP R0603_100R_1%
+D Resistor, 100 Ω, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP R0603_100k_0.1%
+D Resistor, 100 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_100k_1%
+D Resistor, 100 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_10k0_0.1%
+D Resistor, 10 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_10k0_1%
+D Resistor, 10 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_10k2_0.1%
+D Resistor, 10.2 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_110k_0.1%
+D Resistor, 110 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_12k0_1%
+D Resistor, 12 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP R0603_13k7_0.1%
+D Resistor, 13.7 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_16k2_0.1%
+D Resistor, 16.2 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_1M00_1%
+D Resistor
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_1M50_1%
+D Resistor, 1.5 MΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_1k00_1%
+D Resistor, 1 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP R0603_1k24_0.1%
+D Resistor, 1.24 kΩ, 0.063W.+/-1%, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_1k37_0.1%
+D Resistor, 1.37 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_1k50_1%
+D Resistor, 1.5 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0603_1k62_0.1%
+D Resistor, 1.62 kΩ, 0.063W, +/-0.1%, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_22k0_1%
+D Resistor, 22 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0603_27R0_1%
+D Resistor, 27 Ω, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_27k0_0.1%
+D Resistor, 27 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R0603_27k0_1%
+D Resistor, 27 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0603_2k70_1%
+D Resistor, 2.7 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0603_2k87_01.%
+D Resistor, 2.87 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://www.mouser.com/datasheet/2/414/PCF-1528243.pdf
+$ENDCMP
+#
+$CMP R0603_33R0_1%
+D Resistor, 33 Ω, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_33k0_1%
+D Resistor, 33 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP R0603_39k0_0.1%
+D Resistor, 39 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R0603_39k0_1%
+D Resistor, 39 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0603_3k24_0.1%
+D Resistor, 3.24 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP R0603_3k30_1%
+D Resistor, 3.3 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_40k2_0.1%
+D Resistor, 40.2 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP R0603_470R_1%
+D Resistor, 470 Ω, +/-1%, 0.063W, 0603
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R0603_470k_1%
+D Resistor, 470 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0603_47k0_0.1%
+D Resistor, 47 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R0603_47k0_1%
+D Resistor, 47 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_4k70_1%
+D Resistor, 4.7 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0603_5k60_1%
+D Resistor, 5.6 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R0603_66k5_0.1%
+D Resistor, 66.5 kΩ, +/-0.1%, 0.063W, 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP R0603_86k6_1%
+D Resistor, 86.6 kΩ, +/-1%, 0.063W, 0603
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R0805_270R_1%
+D Resistor, 270 Ω, +/-1%, 0.125W, 0805
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R0805_33R0_1%
+D Resistor, 33 Ohm +/- 1% 0, 125W, 0805
+K resistor 0805
+F ~
+$ENDCMP
+#
+$CMP R0805_470R_1%
+D Resistor, 470 Ohm, +/-1%, 0.125W, 0805
+K resistor 0805
+F ~
+$ENDCMP
+#
+$CMP R1206_100R_1%
+D Resistor, 100 Ω, +/-1%, 0.25W, 1206
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R1206_1k00_1%
+D Resistor, 1 kΩ, +/-1%, 0.25W, 1206
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R1206_1k50_1%
+D Resistor, 1.5 kΩ, +/-1%, 0.25W, 1206
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP R1206_R015_1%
+D Current Sense Resistor, 0.015 Ω, +/-1%, 0.5W, 1206
+K R res resistor
+F https://www.mouser.com/datasheet/2/414/LR-1528312.pdf
+$ENDCMP
+#
+$CMP R2010_R015_1%
+D Current Sense Resistor, 0.015 Ω, +/-1%, 1W, 2010
+K R res resistor
+F http://www.vishay.com/docs/31057/wslhigh.pdf
+$ENDCMP
+#
+$CMP R2010_R050_1%
+D Current Sense Resistor, 0.05 Ω, +/-1%, 1W, 2010
+K R res resistor
+F https://www.seielect.com/catalog/sei-csr_csrn.pdf
+$ENDCMP
+#
+$CMP R2512_R015_1%
+D Current Sense Resistor, 0.015 Ω, 2W, +/-1%, 2512
+K R res resistor
+F https://www.mouser.com/datasheet/2/414/LR-1528312.pdf
+$ENDCMP
+#
+$CMP R2616_390R_5%
+D Resistor, 390 Ω, +/-5%, 2W, 2616
+K R res resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English
+$ENDCMP
+#
+#End Doc Library
