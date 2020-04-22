@@ -28,12 +28,22 @@ D Power symbol creates a global label with name "+5V"
 K power-flag
 $ENDCMP
 #
+$CMP +BATT
+D Power symbol creates a global label with name "+BATT"
+K power-flag battery
+$ENDCMP
+#
 $CMP -12V
 D Power symbol creates a global label with name "-12V"
 $ENDCMP
 #
 $CMP 0VANA
 D Power symbol creates a global label with name "0VANA" , analog ground
+K power-flag
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
@@ -50,6 +60,12 @@ $ENDCMP
 $CMP PGND1
 D Power symbol creates a global label with name "PGND1" , ground
 K power-flag
+$ENDCMP
+#
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
 $ENDCMP
 #
 $CMP VACDC

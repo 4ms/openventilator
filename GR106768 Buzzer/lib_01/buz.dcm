@@ -1,11 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP +12V
-D Power symbol creates a global label with name "+12V"
-$ENDCMP
-#
-$CMP -12V
-D Power symbol creates a global label with name "-12V"
+$CMP +BATT
+D Power symbol creates a global label with name "+BATT"
+K power-flag battery
 $ENDCMP
 #
 #End Doc Library

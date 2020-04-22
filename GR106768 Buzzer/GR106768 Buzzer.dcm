@@ -9,7 +9,25 @@ $ENDCMP
 $CMP BAT54C
 D dual schottky barrier diode, common cathode
 K schottky diode common cathode
-F https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
+$ENDCMP
+#
+$CMP BAT54S
+D dual schottky barrier diode
+K schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
+$ENDCMP
+#
+$CMP BC847
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf
+$ENDCMP
+#
+$CMP BC857
+D 0.1A Ic, 45V Vce, PNP Transistor, SOT-23
+K PNP Transistor
+F https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf
 $ENDCMP
 #
 $CMP BLA31BD221SN4D
@@ -46,6 +64,12 @@ $CMP C_array-47pF
 D Unpolarized capacitor, small symbol
 K capacitor cap
 F https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf
+$ENDCMP
+#
+$CMP Celec-axial-10x30_470u
+D Polarized capacitor
+K cap capacitor
+F ~
 $ENDCMP
 #
 $CMP LMC7211

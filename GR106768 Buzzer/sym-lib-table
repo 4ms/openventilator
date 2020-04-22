@@ -7,5 +7,6 @@
   (lib (name bla31bd)(type Legacy)(uri ${KIPRJMOD}/lib_01/BLA31BD221SN4D.lib)(options "")(descr "")(disabled))
   (lib (name GR106768_Buzzer)(type Legacy)(uri "${KIPRJMOD}/GR106768 Buzzer.lib")(options "")(descr ""))
   (lib (name buz)(type Legacy)(uri ${KIPRJMOD}/lib_01/buz.lib)(options "")(descr ""))
-  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Resistor.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/Symbols/power.lib)(options "")(descr ""))
+  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/Symbols/Resistor.lib)(options "")(descr ""))
 )
