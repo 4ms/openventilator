@@ -323,7 +323,7 @@
     (add_net GNDA)
   )
 
-  (module "AllModules:GKS-913-305-230-A-15-02-S" (layer F.Cu) (tedit 5E9884C7) (tstamp 0)
+  (module AllModules:GKS-913-305-230-A-15-02-S (layer F.Cu) (tedit 5E9884C7) (tstamp 0)
     (at 346.88 46.7714)
     (path /5E87816A/5E8B3A05)
     (attr smd)
@@ -343,7 +343,7 @@
     )
   )
 
-  (module "AllModules:GKS-913-305-230-A-15-02-S" (layer F.Cu) (tedit 5E9884C7) (tstamp 0)
+  (module AllModules:GKS-913-305-230-A-15-02-S (layer F.Cu) (tedit 5E9884C7) (tstamp 0)
     (at 386.4786 34.7826)
     (path /5E87816A/5E8862B6)
     (attr smd)
@@ -363,7 +363,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 396.3338 43.0376)
     (path /5E87816A/5E8E923B)
     (attr smd)
@@ -389,7 +389,7 @@
     )
   )
 
-  (module "AllModules:TO-92" (layer F.Cu) (tedit 5E8BAC7F) (tstamp 0)
+  (module AllModules:TO-92 (layer F.Cu) (tedit 5E8BAC7F) (tstamp 0)
     (at 473.9308 52.9182 180)
     (path /5E8CA2BD/5E8CB2CC)
     (attr smd)
@@ -416,7 +416,7 @@
     )
   )
 
-  (module "AllModules:QFP80P1200X1200X120-44N" (layer B.Cu) (tedit 5E8B9818) (tstamp 0)
+  (module AllModules:QFP80P1200X1200X120-44N (layer B.Cu) (tedit 5E8B9818) (tstamp 0)
     (at 320.337 47.2794 90)
     (path /5E878241/5E87E2C8)
     (attr smd)
@@ -530,7 +530,7 @@
     )
   )
 
-  (module "AllModules:SOP65P490X110-8N" (layer B.Cu) (tedit 5E9877F8) (tstamp 0)
+  (module AllModules:SOP65P490X110-8N (layer B.Cu) (tedit 5E9877F8) (tstamp 0)
     (at 410.0752 51.2926)
     (path /5E87816A/5EA63FAB)
     (attr smd)
@@ -579,14 +579,14 @@
       (net 97 "Net-(U3-Pad7)"))
     (pad 8 smd rect (at -2.1844 -0.9652) (size 1.4478 0.4318) (layers B.Cu B.Paste B.Mask)
       (net 10 "/Switching block/+BATT_BUS"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/SOP65P490X110-8N.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/SOP65P490X110-8N.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
 
-  (module "AllModules:SOT95P279X142-5N" (layer B.Cu) (tedit 5E8BABD9) (tstamp 0)
+  (module AllModules:SOT95P279X142-5N (layer B.Cu) (tedit 5E8BABD9) (tstamp 0)
     (at 338.5742 50.5306 90)
     (path /5E8CA2BD/5E8CF891)
     (attr smd)
@@ -632,7 +632,7 @@
     )
   )
 
-  (module "AllModules:TO170P1420X457-8NA" (layer B.Cu) (tedit 5E987D36) (tstamp 0)
+  (module AllModules:TO170P1420X457-8NA (layer B.Cu) (tedit 5E987D36) (tstamp 0)
     (at 426.4836 41.031 90)
     (path /5E8CA2BD/5E8D1CCE)
     (attr smd)
@@ -675,7 +675,7 @@
     )
   )
 
-  (module "AllModules:TP-40R-NSA" (layer F.Cu) (tedit 5E8B757C) (tstamp 0)
+  (module AllModules:TP-40R-NSA (layer F.Cu) (tedit 5E8B757C) (tstamp 0)
     (at 318.2034 38.6434)
     (path /5E878241/5ED5F142)
     (attr smd)
@@ -689,7 +689,7 @@
       (net 94 "Net-(TX1-Pad1)"))
   )
 
-  (module "AllModules:TO228P1003X238-3_4N" (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
+  (module AllModules:TO228P1003X238-3_4N (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
     (at 368.343 41.031 270)
     (path /5E87816A/5E94B6DB)
     (attr smd)
@@ -725,7 +725,7 @@
     )
   )
 
-  (module "AllModules:TO228P1003X238-3_4N" (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
+  (module AllModules:TO228P1003X238-3_4N (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
     (at 359.58 41.031 270)
     (path /5E87816A/5E94B6D5)
     (attr smd)
@@ -761,7 +761,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 362.7296 52.2832 270)
     (path /5E87816A/5E94B6CF)
     (attr smd)
@@ -800,7 +800,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 400.8296 47.2794 270)
     (path /5E87816A/5E90AD6B)
     (attr smd)
@@ -839,7 +839,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 422.826 29.7788 270)
     (path /5E8CA2BD/5E8D1CF5)
     (attr smd)
@@ -878,7 +878,7 @@
     )
   )
 
-  (module "AllModules:TO228P1003X238-3_4N" (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
+  (module AllModules:TO228P1003X238-3_4N (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
     (at 405.0714 34.2746 270)
     (path /5E87816A/5E8E58ED)
     (attr smd)
@@ -914,7 +914,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 416.8316 29.7788 270)
     (path /5E8CA2BD/5E8D1CEF)
     (attr smd)
@@ -953,7 +953,7 @@
     )
   )
 
-  (module "AllModules:TO228P1003X238-3_4N" (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
+  (module AllModules:TO228P1003X238-3_4N (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
     (at 396.3338 34.2746 270)
     (path /5E87816A/5E8E25DA)
     (attr smd)
@@ -989,7 +989,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 440.3266 49.7686 270)
     (path /5E87816A/5EAD215C)
     (attr smd)
@@ -1028,7 +1028,7 @@
     )
   )
 
-  (module "AllModules:TO228P1003X238-3_4N" (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
+  (module AllModules:TO228P1003X238-3_4N (layer B.Cu) (tedit 5E8BAF71) (tstamp 0)
     (at 440.3266 39.7864 270)
     (path /5E87816A/5EAD2156)
     (attr smd)
@@ -1064,7 +1064,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 335.577 39.5324 270)
     (path /5E87816A/5E8B3A27)
     (attr smd)
@@ -1103,7 +1103,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 378.5792 46.5428 270)
     (path /5E87816A/5E8888AE)
     (attr smd)
@@ -1142,7 +1142,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 473.0926 35.5192 270)
     (path /5E8CA2BD/5E8CDD68)
     (attr smd)
@@ -1181,7 +1181,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 367.581 52.2832 270)
     (path /5E87816A/5E94B70F)
     (attr smd)
@@ -1220,7 +1220,7 @@
     )
   )
 
-  (module "AllModules:SOT95P237X112-3N" (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
+  (module AllModules:SOT95P237X112-3N (layer B.Cu) (tedit 5E987BE6) (tstamp 0)
     (at 396.3338 47.2794 270)
     (path /5E87816A/5E8DDDCC)
     (attr smd)
@@ -1259,7 +1259,7 @@
     )
   )
 
-  (module "AllModules:STAR" (layer B.Cu) (tedit 5E8B7569) (tstamp 0)
+  (module AllModules:STAR (layer B.Cu) (tedit 5E8B7569) (tstamp 0)
     (at 387.1898 55.9408 180)
     (path /5E87816A/5EC48738)
     (attr smd)
@@ -1279,7 +1279,7 @@
       (net 6 GNDA))
   )
 
-  (module "AllModules:TP-40R-NSA" (layer F.Cu) (tedit 5E8B757C) (tstamp 0)
+  (module AllModules:TP-40R-NSA (layer F.Cu) (tedit 5E8B757C) (tstamp 0)
     (at 318.2034 36.7892)
     (path /5E878241/5ED5FB52)
     (attr smd)
@@ -1293,7 +1293,7 @@
       (net 89 "Net-(RX1-Pad1)"))
   )
 
-  (module "AllModules:RLY-41-52-9-024-0010" (layer F.Cu) (tedit 5E8BA7A0) (tstamp 0)
+  (module AllModules:RLY-41-52-9-024-0010 (layer F.Cu) (tedit 5E8BA7A0) (tstamp 0)
     (at 466.5902 54.5184 90)
     (path /5E87816A/5E920501)
     (attr smd)
@@ -1330,7 +1330,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 419.8288 29.7788 270)
     (path /5E8CA2BD/5E8D1CFB)
     (attr smd)
@@ -1356,7 +1356,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 396.3338 50.2766 180)
     (path /5E87816A/5E8F923B)
     (attr smd)
@@ -1382,7 +1382,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 384.5736 29.2708 270)
     (path /5E87816A/5E9895D8)
     (attr smd)
@@ -1408,7 +1408,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 416.8316 32.776 180)
     (path /5E8CA2BD/5E8D1D04)
     (attr smd)
@@ -1434,7 +1434,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 342.8414 39.7864 90)
     (path /5E87816A/5E8B3A21)
     (attr smd)
@@ -1460,7 +1460,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 379.4682 41.9708 180)
     (path /5E87816A/5E8880AC)
     (attr smd)
@@ -1486,7 +1486,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 440.3266 54.0358 180)
     (path /5E87816A/5EBD5FFA)
     (attr smd)
@@ -1512,7 +1512,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 445.3304 48.0414 270)
     (path /5E87816A/5EBD63E1)
     (attr smd)
@@ -1538,7 +1538,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 437.0754 48.0414 90)
     (path /5E87816A/5EAD2162)
     (attr smd)
@@ -1564,7 +1564,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 443.0698 48.0414 90)
     (path /5E87816A/5EAD2168)
     (attr smd)
@@ -1590,7 +1590,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 440.3266 52.5372 180)
     (path /5E87816A/5EAD2175)
     (attr smd)
@@ -1616,7 +1616,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 342.8414 36.7892 270)
     (path /5E87816A/5E8B3A1B)
     (attr smd)
@@ -1642,7 +1642,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 382.0844 42.7836 90)
     (path /5E87816A/5E887DA1)
     (attr smd)
@@ -1668,7 +1668,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 382.0844 38.7704 270)
     (path /5E87816A/5E8871D7)
     (attr smd)
@@ -1694,7 +1694,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 296.4356 41.8184)
     (path /5E878241/5E934E22)
     (attr smd)
@@ -1720,7 +1720,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 293.1844 41.8184)
     (path /5E878241/5E933AAF)
     (attr smd)
@@ -1746,7 +1746,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 56.779 180)
     (path /5E878241/5E88371E)
     (attr smd)
@@ -1772,7 +1772,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 55.0264 180)
     (path /5E878241/5E883403)
     (attr smd)
@@ -1798,7 +1798,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 53.2738 180)
     (path /5E878241/5E883018)
     (attr smd)
@@ -1824,7 +1824,7 @@
     )
   )
 
-  (module "AllModules:RESC3216X60N" (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
+  (module AllModules:RESC3216X60N (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
     (at 294.429 47.0762 180)
     (path /5E878241/5E882D06)
     (attr smd)
@@ -1851,7 +1851,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 51.5212 180)
     (path /5E878241/5E882ABA)
     (attr smd)
@@ -1877,7 +1877,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 49.7686 180)
     (path /5E878241/5E882774)
     (attr smd)
@@ -1903,7 +1903,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 331.1828 40.777 270)
     (path /5E878241/5E8821B6)
     (attr smd)
@@ -1929,7 +1929,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 48.0414 180)
     (path /5E878241/5E881E70)
     (attr smd)
@@ -1955,7 +1955,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 382.0844 46.7714 90)
     (path /5E87816A/5E887B13)
     (attr smd)
@@ -1981,7 +1981,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 42.5296 180)
     (path /5E878241/5E881B4F)
     (attr smd)
@@ -2007,7 +2007,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 46.2888 180)
     (path /5E878241/5E881706)
     (attr smd)
@@ -2033,7 +2033,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 44.5362 180)
     (path /5E878241/5E8813E2)
     (attr smd)
@@ -2059,7 +2059,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 40.777 180)
     (path /5E878241/5E880FA4)
     (attr smd)
@@ -2085,7 +2085,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 39.0244 180)
     (path /5E878241/5E880BBF)
     (attr smd)
@@ -2111,7 +2111,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 37.2718 180)
     (path /5E878241/5E880747)
     (attr smd)
@@ -2137,7 +2137,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 306.3416 35.2906 180)
     (path /5E878241/5E87F0BB)
     (attr smd)
@@ -2163,7 +2163,7 @@
     )
   )
 
-  (module "AllModules:RESC3216X60N" (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
+  (module AllModules:RESC3216X60N (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
     (at 462.069 51.2926 270)
     (path /5E87816A/5E955BE2)
     (attr smd)
@@ -2190,7 +2190,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 473.0926 38.5418)
     (path /5E8CA2BD/5E8CDD70)
     (attr smd)
@@ -2216,7 +2216,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 456.8366 49.9972 270)
     (path /5E87816A/5EC7B928)
     (attr smd)
@@ -2242,7 +2242,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 386.5802 29.2708 90)
     (path /5E87816A/5E9894EF)
     (attr smd)
@@ -2268,7 +2268,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 404.3348 51.2926 180)
     (path /5E87816A/5EB4595C)
     (attr smd)
@@ -2294,7 +2294,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 404.3348 53.0198 180)
     (path /5E87816A/5EB45634)
     (attr smd)
@@ -2320,7 +2320,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 456.8366 45.5268 270)
     (path /5E87816A/5EC7A8F7)
     (attr smd)
@@ -2346,7 +2346,7 @@
     )
   )
 
-  (module "AllModules:RESC3216X60N" (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
+  (module AllModules:RESC3216X60N (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
     (at 470.07 37.0432 90)
     (path /5E8CA2BD/5E8CDD76)
     (attr smd)
@@ -2373,7 +2373,7 @@
     )
   )
 
-  (module "AllModules:RESC3216X60N" (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
+  (module AllModules:RESC3216X60N (layer B.Cu) (tedit 5E8B9883) (tstamp 0)
     (at 462.069 46.2888 270)
     (path /5E87816A/5EC7C3A3)
     (attr smd)
@@ -2400,7 +2400,7 @@
     )
   )
 
-  (module "AllModules:RESC6533X80N" (layer B.Cu) (tedit 5E8B98B6) (tstamp 0)
+  (module AllModules:RESC6533X80N (layer B.Cu) (tedit 5E8B98B6) (tstamp 0)
     (at 410.0752 46.7714)
     (path /5E87816A/5EA65B46)
     (attr smd)
@@ -2427,7 +2427,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 367.581 55.2804 180)
     (path /5E87816A/5E94B728)
     (attr smd)
@@ -2453,7 +2453,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 368.343 48.0414 180)
     (path /5E87816A/5E94B715)
     (attr smd)
@@ -2479,7 +2479,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 368.343 49.6924)
     (path /5E87816A/5E94B71B)
     (attr smd)
@@ -2505,7 +2505,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 362.7296 55.2804 180)
     (path /5E87816A/5E94B6FA)
     (attr smd)
@@ -2531,7 +2531,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 396.3338 41.285 180)
     (path /5E87816A/5E8E8E09)
     (attr smd)
@@ -2557,7 +2557,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 353.0776 52.2832 270)
     (path /5E87816A/5E9D7933)
     (attr smd)
@@ -2583,7 +2583,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 359.58 48.0414 180)
     (path /5E87816A/5E94B6E2)
     (attr smd)
@@ -2609,7 +2609,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 359.58 49.7686)
     (path /5E87816A/5E94B6E8)
     (attr smd)
@@ -2635,7 +2635,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 356.8368 51.4704 270)
     (path /5E87816A/5E9D792D)
     (attr smd)
@@ -2661,7 +2661,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 342.8414 42.7836 90)
     (path /5E87816A/5E8B3A0F)
     (attr smd)
@@ -2687,7 +2687,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 342.8414 33.03 270)
     (path /5E87816A/5E8B3A15)
     (attr smd)
@@ -2713,7 +2713,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 400.8296 50.2766 180)
     (path /5E87816A/5E90AD85)
     (attr smd)
@@ -2739,7 +2739,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 405.0714 41.285 180)
     (path /5E87816A/5E90AD71)
     (attr smd)
@@ -2765,7 +2765,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 422.826 32.776 180)
     (path /5E8CA2BD/5E8D1D18)
     (attr smd)
@@ -2791,7 +2791,7 @@
     )
   )
 
-  (module "AllModules:RESC1608X50AN" (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
+  (module AllModules:RESC1608X50AN (layer B.Cu) (tedit 5E8B985B) (tstamp 0)
     (at 409.8212 41.285 180)
     (path /5E87816A/5E90AD77)
     (attr smd)
@@ -2817,7 +2817,7 @@
     )
   )
 
-  (module "AllModules:MTHOLE1" (layer F.Cu) (tedit 5E8B7527) (tstamp 0)
+  (module AllModules:MTHOLE1 (layer F.Cu) (tedit 5E8B7527) (tstamp 0)
     (at 367.073 31.2774)
     (attr smd)
     (fp_text reference MT1 (at -1.13665 0.2413 unlocked) (layer F.SilkS)
@@ -2830,7 +2830,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask))
   )
 
-  (module "AllModules:CON2PHDR1000W777L396P" (layer F.Cu) (tedit 5E8B93C4) (tstamp 5E8E4F2D)
+  (module AllModules:CON2PHDR1000W777L396P (layer F.Cu) (tedit 5E8B93C4) (tstamp 5E8E4F2D)
     (at 450.5882 30.3376)
     (path /5E87816A/5EFCAE2E)
     (attr smd)
@@ -2857,14 +2857,14 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at -1.9558 0) (size 2.9972 2.9972) (drill 1.6764) (layers *.Cu *.Mask)
       (net 42 "Net-(F1-Pad1)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/026614020.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/026614020.stp
       (offset (xyz 0 -2 1.9))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module "AllModules:CON254W80L508T254H600P" (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
+  (module AllModules:CON254W80L508T254H600P (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
     (at 346.88 42.7836)
     (path /5E87816A/5E8B39FF)
     (attr smd)
@@ -2890,14 +2890,14 @@
       (net 21 /TEMP_BAT2))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask)
       (net 21 /TEMP_BAT2))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp
       (offset (xyz -2.5 -1.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:CON254W80L508T254H600P" (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
+  (module AllModules:CON254W80L508T254H600P (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
     (at 346.88 38.7704)
     (path /5E87816A/5E8B39F9)
     (attr smd)
@@ -2923,14 +2923,14 @@
       (net 48 "Net-(J6-Pad1)"))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask)
       (net 48 "Net-(J6-Pad1)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp
       (offset (xyz -2.5 -1.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:CON254W80L508T254H600P" (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
+  (module AllModules:CON254W80L508T254H600P (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
     (at 346.88 34.7826)
     (path /5E87816A/5E8B39F3)
     (attr smd)
@@ -2956,14 +2956,14 @@
       (net 20 "Net-(D6-Pad1)"))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask)
       (net 20 "Net-(D6-Pad1)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp
       (offset (xyz -2.5 -1.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:CON254W80L508T254H600P" (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
+  (module AllModules:CON254W80L508T254H600P (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
     (at 386.4786 38.7704)
     (path /5E87816A/5E885823)
     (attr smd)
@@ -2989,14 +2989,14 @@
       (net 15 /TEMP_BAT1))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask)
       (net 15 /TEMP_BAT1))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp
       (offset (xyz -2.5 -1.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:CON254W80L508T254H600P" (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
+  (module AllModules:CON254W80L508T254H600P (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
     (at 386.4786 42.7836)
     (path /5E87816A/5E884FEF)
     (attr smd)
@@ -3022,14 +3022,14 @@
       (net 47 "Net-(J2-Pad1)"))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask)
       (net 47 "Net-(J2-Pad1)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp
       (offset (xyz -2.5 -1.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:CON-S5B-ZR-SM4A-TF" (layer B.Cu) (tedit 5E8B92EA) (tstamp 0)
+  (module AllModules:CON-S5B-ZR-SM4A-TF (layer B.Cu) (tedit 5E8B92EA) (tstamp 0)
     (at 333.8244 31.5314 180)
     (path /5E878241/5EAC4760)
     (attr smd)
@@ -3062,14 +3062,14 @@
       (net 27 "/Microcontroller block/PGC"))
     (pad 6 smd rect (at 4.9276 3.8354 90) (size 1.8796 1.0922) (layers B.Cu B.Paste B.Mask))
     (pad 7 smd rect (at -4.9276 3.8354 90) (size 1.8796 1.0922) (layers B.Cu B.Paste B.Mask))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/S5B-ZR-SM4A-TF.STEP"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/S5B-ZR-SM4A-TF.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
   )
 
-  (module "AllModules:CON-52207-1960" (layer B.Cu) (tedit 5E8B8DF8) (tstamp 0)
+  (module AllModules:CON-52207-1960 (layer B.Cu) (tedit 5E8B8DF8) (tstamp 0)
     (at 288.9426 42.2756 270)
     (path /5E878241/5E9022C0)
     (attr smd)
@@ -3131,14 +3131,14 @@
       (net 24 "Net-(D10-Pad1)"))
     (pad 1 smd rect (at 8.9916 0 180) (size 1.8796 0.5842) (layers B.Cu B.Paste B.Mask)
       (net 25 "Net-(D10-Pad3)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/522071960.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/522071960.stp
       (offset (xyz 0 4 1.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))
     )
   )
 
-  (module "AllModules:CON-43650-0229" (layer F.Cu) (tedit 5E8B8CAF) (tstamp 0)
+  (module AllModules:CON-43650-0229 (layer F.Cu) (tedit 5E8B8CAF) (tstamp 0)
     (at 480.0776 31.7854 270)
     (path /5E87816A/5E898ED2)
     (attr smd)
@@ -3166,14 +3166,14 @@
       (net 45 "Net-(FL1-PadCG1)"))
     (pad 3 thru_hole circle (at -4.4958 1.9558 270) (size 1.9812 1.9812) (drill 1.2954) (layers *.Cu *.Mask))
     (pad 4 thru_hole circle (at 4.4958 1.9558 270) (size 1.9812 1.9812) (drill 1.2954) (layers *.Cu *.Mask))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/436500229.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/436500229.stp
       (offset (xyz 0 0 5.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:CON-S2B-ZR-SM4A-TF" (layer B.Cu) (tedit 5E8B924F) (tstamp 0)
+  (module AllModules:CON-S2B-ZR-SM4A-TF (layer B.Cu) (tedit 5E8B924F) (tstamp 0)
     (at 471.5686 31.5314 180)
     (path /5E8CA2BD/5E8CDD62)
     (attr smd)
@@ -3200,14 +3200,14 @@
       (net 50 "Net-(J10-Pad2)"))
     (pad 1 smd rect (at 0 0 90) (size 2.9972 0.6858) (layers B.Cu B.Paste B.Mask)
       (net 49 "Net-(J10-Pad1)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/S2B-ZR-SM4A-TF.STEP"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/S2B-ZR-SM4A-TF.STEP
       (offset (xyz -0.8 -0.2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
     )
   )
 
-  (module "AllModules:CON254W80L508T254H600P" (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
+  (module AllModules:CON254W80L508T254H600P (layer F.Cu) (tedit 5E8B9435) (tstamp 0)
     (at 386.4786 46.7714)
     (path /5E87816A/5E883FC2)
     (attr smd)
@@ -3233,14 +3233,14 @@
       (net 14 "Net-(D1-Pad2)"))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask)
       (net 14 "Net-(D1-Pad2)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/5078_ACP-D-254-1-02-65.stp
       (offset (xyz -2.5 -1.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module "AllModules:BNX00201" (layer F.Cu) (tedit 5E98729D) (tstamp 0)
+  (module AllModules:BNX00201 (layer F.Cu) (tedit 5E98729D) (tstamp 0)
     (at 477.182 44.2822 90)
     (path /5E87816A/5E89720C)
     (attr smd)
@@ -3270,14 +3270,14 @@
       (net 44 "Net-(FL1-PadCB)"))
     (pad B thru_hole circle (at 2.4892 -2.4892 90) (size 2.4892 2.4892) (drill 1.2954) (layers *.Cu *.Mask)
       (net 43 "Net-(FL1-PadB)"))
-    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/BNX002.step"
+    (model ${KIPRJMOD}/../Library/Footprints.3dshapes/BNX002.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
 
-  (module "AllModules:FIDUCIAL" (layer F.Cu) (tedit 5E8B7516) (tstamp 0)
+  (module AllModules:FIDUCIAL (layer F.Cu) (tedit 5E8B7516) (tstamp 0)
     (at 482.8208 53.0198)
     (attr smd)
     (fp_text reference FID2 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
@@ -3289,7 +3289,7 @@
     (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module "AllModules:FIDUCIAL" (layer F.Cu) (tedit 5E8B7516) (tstamp 0)
+  (module AllModules:FIDUCIAL (layer F.Cu) (tedit 5E8B7516) (tstamp 0)
     (at 277.3348 27.5182)
     (attr smd)
     (fp_text reference FID1 (at 2.032 -1.016 unlocked) (layer F.SilkS) hide
@@ -3301,7 +3301,7 @@
     (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module "AllModules:FUS4755X155N" (layer B.Cu) (tedit 5E8B9775) (tstamp 0)
+  (module AllModules:FUS4755X155N (layer B.Cu) (tedit 5E8B9775) (tstamp 0)
     (at 448.3276 37.2718 90)
     (path /5E87816A/5ED757EF)
     (attr smd)
@@ -3340,7 +3340,7 @@
     )
   )
 
-  (module "AllModules:DIOM5126X203N_SWP" (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
+  (module AllModules:DIOM5126X203N_SWP (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
     (at 452.8234 36.7892 270)
     (path /5E87816A/5ED5C669)
     (attr smd)
@@ -3375,7 +3375,7 @@
     )
   )
 
-  (module "AllModules:SOT65P220X110-3N" (layer B.Cu) (tedit 5E8BAA1B) (tstamp 0)
+  (module AllModules:SOT65P220X110-3N (layer B.Cu) (tedit 5E8BAA1B) (tstamp 0)
     (at 339.3362 39.2784 270)
     (path /5E87816A/5E8B3A5F)
     (attr smd)
@@ -3417,7 +3417,7 @@
     )
   )
 
-  (module "AllModules:DIOM5126X203N_SWP" (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
+  (module AllModules:DIOM5126X203N_SWP (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
     (at 352.087 36.7892 90)
     (path /5E87816A/5E8B3A76)
     (attr smd)
@@ -3452,7 +3452,7 @@
     )
   )
 
-  (module "AllModules:SOD2512X110N_SWP" (layer B.Cu) (tedit 5E8BA93D) (tstamp 0)
+  (module AllModules:SOD2512X110N_SWP (layer B.Cu) (tedit 5E8BA93D) (tstamp 0)
     (at 355.3382 28.7882 90)
     (path /5E87816A/5E9EFC87)
     (attr smd)
@@ -3490,7 +3490,7 @@
     )
   )
 
-  (module "AllModules:SOT92P240X120-3N" (layer B.Cu) (tedit 5E8BAA9A) (tstamp 0)
+  (module AllModules:SOT92P240X120-3N (layer B.Cu) (tedit 5E8BAA9A) (tstamp 0)
     (at 426.8392 29.7788 270)
     (path /5E8CA2BD/5E8D1D46)
     (attr smd)
@@ -3529,7 +3529,7 @@
     )
   )
 
-  (module "AllModules:SOD2512X110N_SWP" (layer B.Cu) (tedit 5E8BA93D) (tstamp 0)
+  (module AllModules:SOD2512X110N_SWP (layer B.Cu) (tedit 5E8BA93D) (tstamp 0)
     (at 430.0904 28.7882 90)
     (path /5E87816A/5E9EF925)
     (attr smd)
@@ -3567,7 +3567,7 @@
     )
   )
 
-  (module "AllModules:SOD2512X110N_SWP" (layer B.Cu) (tedit 5E8BA93D) (tstamp 0)
+  (module AllModules:SOD2512X110N_SWP (layer B.Cu) (tedit 5E8BA93D) (tstamp 0)
     (at 389.0694 28.7882 90)
     (path /5E87816A/5E9EE36A)
     (attr smd)
@@ -3605,7 +3605,7 @@
     )
   )
 
-  (module "AllModules:SOT65P220X110-3N" (layer B.Cu) (tedit 5E8BAA1B) (tstamp 0)
+  (module AllModules:SOT65P220X110-3N (layer B.Cu) (tedit 5E8BAA1B) (tstamp 0)
     (at 379.8238 39.0244 270)
     (path /5E87816A/5E88EC93)
     (attr smd)
@@ -3647,7 +3647,7 @@
     )
   )
 
-  (module "AllModules:SOT65P220X110-3N" (layer B.Cu) (tedit 5E8BAA1B) (tstamp 0)
+  (module AllModules:SOT65P220X110-3N (layer B.Cu) (tedit 5E8BAA1B) (tstamp 0)
     (at 376.09 39.0244 270)
     (path /5E87816A/5E894460)
     (attr smd)
@@ -3689,7 +3689,7 @@
     )
   )
 
-  (module "AllModules:DIOM5126X203N_SWP" (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
+  (module AllModules:DIOM5126X203N_SWP (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
     (at 294.683 44.333 180)
     (path /5E878241/5E9514D0)
     (attr smd)
@@ -3724,7 +3724,7 @@
     )
   )
 
-  (module "AllModules:SOT95P275X110-6N" (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
+  (module AllModules:SOT95P275X110-6N (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
     (at 297.8326 33.7412 90)
     (path /5E878241/5E8AE1DD)
     (attr smd)
@@ -3772,7 +3772,7 @@
     )
   )
 
-  (module "AllModules:SOT95P275X110-6N" (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
+  (module AllModules:SOT95P275X110-6N (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
     (at 300.8298 40.3198 90)
     (path /5E878241/5E8A8461)
     (attr smd)
@@ -3820,7 +3820,7 @@
     )
   )
 
-  (module "AllModules:SOT95P275X110-6N" (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
+  (module AllModules:SOT95P275X110-6N (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
     (at 300.8298 47.9398 90)
     (path /5E878241/5E8A7930)
     (attr smd)
@@ -3868,7 +3868,7 @@
     )
   )
 
-  (module "AllModules:SOT95P275X110-6N" (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
+  (module AllModules:SOT95P275X110-6N (layer B.Cu) (tedit 5E8BAB77) (tstamp 0)
     (at 297.8326 54.5184 90)
     (path /5E878241/5E88FDF0)
     (attr smd)
@@ -3916,7 +3916,7 @@
     )
   )
 
-  (module "AllModules:DIOM5126X203N_SWP" (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
+  (module AllModules:DIOM5126X203N_SWP (layer B.Cu) (tedit 5E8B94D3) (tstamp 0)
     (at 391.838 48.778 90)
     (path /5E87816A/5E8958A9)
     (attr smd)
@@ -3951,7 +3951,7 @@
     )
   )
 
-  (module "AllModules:CAPPRD350W60D800H1250PBA" (layer F.Cu) (tedit 5E8B8B08) (tstamp 0)
+  (module AllModules:CAPPRD350W60D800H1250PBA (layer F.Cu) (tedit 5E8B8B08) (tstamp 0)
     (at 452.0868 51.2926)
     (path /5E87816A/5EA292FD)
     (attr smd)
@@ -3988,7 +3988,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 341.292 52.0292 90)
     (path /5E8CA2BD/5E8CF89F)
     (attr smd)
@@ -4014,7 +4014,7 @@
     )
   )
 
-  (module "AllModules:CAPC1005X60N" (layer B.Cu) (tedit 5E9872EC) (tstamp 0)
+  (module AllModules:CAPC1005X60N (layer B.Cu) (tedit 5E9872EC) (tstamp 0)
     (at 334.8404 50.5306 90)
     (path /5E8CA2BD/5E8CF8A5)
     (attr smd)
@@ -4045,7 +4045,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 333.1386 50.429 90)
     (path /5E8CA2BD/5E8CF8AB)
     (attr smd)
@@ -4071,7 +4071,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 351.071 52.2832 270)
     (path /5E87816A/5E9D7939)
     (attr smd)
@@ -4097,7 +4097,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 472.6862 50.7338 180)
     (path /5E8CA2BD/5E8CB2E0)
     (attr smd)
@@ -4123,7 +4123,7 @@
     )
   )
 
-  (module "AllModules:CAPC3225X155N" (layer B.Cu) (tedit 5E8B8A4E) (tstamp 0)
+  (module AllModules:CAPC3225X155N (layer B.Cu) (tedit 5E8B8A4E) (tstamp 0)
     (at 418.0762 38.0338 270)
     (path /5E8CA2BD/5E8D1D27)
     (attr smd)
@@ -4150,7 +4150,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 296.4356 40.0912)
     (path /5E878241/5E935537)
     (attr smd)
@@ -4176,7 +4176,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 319.829 55.5344 180)
     (path /5E878241/5E9BB5C2)
     (attr smd)
@@ -4202,7 +4202,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 320.8196 37.0432 180)
     (path /5E878241/5EA446D2)
     (attr smd)
@@ -4228,7 +4228,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 320.8196 39.2784 180)
     (path /5E878241/5EA44CC5)
     (attr smd)
@@ -4254,7 +4254,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 430.7762 32.8268 180)
     (path /5E8CA2BD/5E8D1CD4)
     (attr smd)
@@ -4280,7 +4280,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 458.4876 49.9972 270)
     (path /5E87816A/5ED0B80B)
     (attr smd)
@@ -4306,7 +4306,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 404.3348 49.54 180)
     (path /5E87816A/5EB45D1D)
     (attr smd)
@@ -4332,7 +4332,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 404.3348 46.7714 180)
     (path /5E87816A/5EB0B07A)
     (attr smd)
@@ -4358,7 +4358,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 414.825 52.3848 270)
     (path /5E87816A/5EAC2B56)
     (attr smd)
@@ -4384,7 +4384,7 @@
     )
   )
 
-  (module "AllModules:CAPC1608X86N" (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
+  (module AllModules:CAPC1608X86N (layer B.Cu) (tedit 5E8B89F6) (tstamp 0)
     (at 382.5924 29.2708 270)
     (path /5E87816A/5E989E0B)
     (attr smd)
@@ -4410,7 +4410,7 @@
     )
   )
 
-  (module "AllModules:CAPPRD350W60D800H1250PAAAAA" (layer F.Cu) (tedit 5E988183) (tstamp 5E98EACC)
+  (module AllModules:CAPPRD350W60D800H1250PAAAAA (layer F.Cu) (tedit 5E988183) (tstamp 5E98EACC)
     (at 452.0868 41.793)
     (path /5E87816A/5EA29795)
     (attr smd)
