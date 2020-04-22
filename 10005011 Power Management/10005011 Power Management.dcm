@@ -90,6 +90,12 @@ K 10022898
 F https://www.cypress.com/file/39146/download
 $ENDCMP
 #
+$CMP Conn_01x06_Female_x02_SidePads
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP DLP31SN551ML2L
 D COMMON MODE CHOKE COIL 550OHM
 K 10039588
