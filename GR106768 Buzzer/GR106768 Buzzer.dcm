@@ -45,7 +45,7 @@ $ENDCMP
 $CMP Buzzer
 D Buzzer, unpolarized
 K quartz resonator ceramic
-F ~
+F http://datasheetz.com/data/Audio%20Products/Buzzers/490-4687-datasheetz.html
 $ENDCMP
 #
 $CMP C-array4-0612_47p
@@ -57,6 +57,12 @@ $ENDCMP
 $CMP Celec-axial-10x30_470u
 D Polarized capacitor
 K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP DO216-unpopulated
+D NOT ON BOM: Zener diode DO216 size, not sure whether shorted or left open on board
+K diode unpopulated NC
 F ~
 $ENDCMP
 #
