@@ -30,16 +30,28 @@ K inductor array network
 F https://www.yuden.co.jp/productdata/catalog/mlci09_e.pdf
 $ENDCMP
 #
-$CMP BZX84C2V7
-D zener diode, 2.7V
+$CMP BZX84B6V8
+D Zener Diode,6.8V, 0.35W (maybe not really), 2% (maybe not really), SOT23
 K zener diode
-F ~
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
 $ENDCMP
 #
-$CMP BZX84C6V8
-D zener diode, 6.8V
+$CMP BZX84C2V7
+D Zener Diode, 2.7V, 0.35W (maybe not really), SOT23
 K zener diode
-F ~
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
+$ENDCMP
+#
+$CMP BZX84C5V1
+D Zener Diode, 5.1V, 0.35W (maybe not really), SOT23
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
+$ENDCMP
+#
+$CMP BuzzBattery
+D OBSOLETE original battery for the buzzer, 4.8V NiMH (4 cells)
+K batt voltage-source cell
+F https://datasheet.octopart.com/55615604940-Varta-datasheet-21225580.pdf
 $ENDCMP
 #
 $CMP Buzzer
@@ -60,9 +72,9 @@ K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP DO216-unpopulated
-D NOT ON BOM: Zener diode DO216 size, not sure whether shorted or left open on board
-K diode unpopulated NC
+$CMP LED-pins_AK
+D Light emitting diode
+K LED diode
 F ~
 $ENDCMP
 #
@@ -76,6 +88,18 @@ $CMP LT3471
 D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
 K dc/dc converter boost inverter
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
+$CMP MBRM120
+D Schottky Diode, 20V, 1A, DO216AA
+K diode schottky
+F https://www.onsemi.com/pub/Collateral/MBRM120L-D.PDF
+$ENDCMP
+#
+$CMP NK236-slideswitch
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F https://www.apem.com/int/index.php?controller=attachment&id_attachment=808
 $ENDCMP
 #
 $CMP R0402_0Ohm

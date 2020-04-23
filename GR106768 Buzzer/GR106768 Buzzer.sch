@@ -80,17 +80,6 @@ F 3 "~" H 14325 6575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:BZX84C2V7 D5
-U 1 1 5EA18B6F
-P 12500 7350
-F 0 "D5" V 12454 7429 50  0000 L CNN
-F 1 "BZX84C2V7" V 12600 7400 50  0000 L CNN
-F 2 "AllModules:SOT23-1G_1" H 12500 7350 50  0001 C CNN
-F 3 "~" H 12500 7350 50  0001 C CNN
-	1    12500 7350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R25
 U 1 1 5EA20431
 P 13250 7900
@@ -599,7 +588,7 @@ P 3850 3300
 F 0 "L1" V 3950 3300 50  0000 C CNN
 F 1 "Core_Ferrite" V 3775 3275 50  0000 C CNN
 F 2 "AllModules:RC1206_1" H 3850 3300 50  0001 C CNN
-F 3 "~" H 3850 3300 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74279218.pdf" H 3850 3300 50  0001 C CNN
 	1    3850 3300
 	0    -1   -1   0   
 $EndComp
@@ -629,18 +618,6 @@ Wire Wire Line
 	3300 3300 2400 3300
 Wire Wire Line
 	2400 2700 2400 3300
-$Sheet
-S 3500 7600 1500 700 
-U 5E89C6B8
-F0 "GR106768_buzzer_charger" 50
-F1 "GR106768_buzzer_charger.sch" 50
-F2 "BUZ-ACT" I R 5000 7700 50 
-F3 "SUPPLY-BUZ" O L 3500 7700 50 
-F4 "STOP-INV" I L 3500 7800 50 
-F5 "INHIB-STOP-INV" I L 3500 7900 50 
-F6 "VBAT" O R 5000 7800 50 
-F7 "VCHARG" O R 5000 7900 50 
-$EndSheet
 Wire Wire Line
 	14525 6575 14525 6650
 Wire Wire Line
@@ -3025,18 +3002,42 @@ F 4 "10022130" H 10400 2450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 10400 2300
+Text Notes 3475 2025 0    76   ~ 0
+Should FI1 have the BLA2AAG102 part\nnumber?  I thought the Master BOM\nsaid it was obsolete, but maybe there\nis stock available?
 $Comp
-L GR106768_Buzzer:DO216-unpopulated D1
-U 1 1 5F26BD6C
+L GR106768_Buzzer:MBRM120 D1
+U 1 1 5ECDFA95
 P 2950 2300
 F 0 "D1" H 3075 2350 50  0000 C CNN
 F 1 "NC" H 3075 2250 50  0000 C CNN
 F 2 "AllModules:DO216AA_1" H 2950 2250 50  0001 C CNN
-F 3 "~" H 3050 2450 50  0001 C CNN
-F 4 "No Item Number" H 2950 2500 50  0001 C CNN "Item Number"
+F 3 "https://www.onsemi.com/pub/Collateral/MBRM120L-D.PDF" H 3050 2450 50  0001 C CNN
+F 4 "10022140" H 2950 2500 50  0001 C CNN "Item Number"
 	1    2950 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 3475 2025 0    76   ~ 0
-Should FI1 have the BLA2AAG102 part\nnumber?  I thought the Master BOM\nsaid it was obsolete, but maybe there\nis stock available?
+$Comp
+L GR106768_Buzzer:BZX84C2V7 D5
+U 1 1 5ED68B8C
+P 12500 7350
+F 0 "D5" H 12500 7450 50  0000 C CNN
+F 1 "BZX84C2V7" H 12500 7250 50  0000 C CNN
+F 2 "AllModules:SOT23-1G_1" H 12500 7175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf" H 12500 7350 50  0001 C CNN
+F 4 "10022139" H 12500 7550 50  0001 C CNN "Item Number"
+	1    12500 7350
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 3500 7600 1500 700 
+U 5E89C6B8
+F0 "GR106768_buzzer_charger" 50
+F1 "GR106768_buzzer_charger.sch" 50
+F2 "BUZ-ACT" I R 5000 7700 50 
+F3 "SUPPLY-BUZ" O L 3500 7700 50 
+F4 "STOP-INV" I L 3500 7800 50 
+F5 "INHIB-STOP-INV" I L 3500 7900 50 
+F6 "VBAT" O R 5000 7800 50 
+F7 "VCHARG" O R 5000 7900 50 
+$EndSheet
 $EndSCHEMATC

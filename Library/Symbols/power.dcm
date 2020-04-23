@@ -28,8 +28,8 @@ D Power symbol creates a global label with name "+5V"
 K power-flag
 $ENDCMP
 #
-$CMP +BATT
-D Power symbol creates a global label with name "+BATT"
+$CMP +BATTV
+D Power symbol creates a global label with name "+BATTV"
 K power-flag battery
 $ENDCMP
 #
