@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LMC7211
-D CMOS comparator
-K comparator
-$ENDCMP
-#
-#End Doc Library

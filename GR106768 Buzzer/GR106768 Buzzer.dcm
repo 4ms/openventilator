@@ -1,57 +1,105 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 171050601
-D MagI3C Power Module, Variable Step Down Regulator Module, 6 to 36V Input Voltage, 0.8 to 6V, 5A Output, TO-263
-K power module regulator
-F https://katalog.we-online.de/pm/datasheet/171050601.pdf
-$ENDCMP
-#
 $CMP BAT54C
 D dual schottky barrier diode, common cathode
 K schottky diode common cathode
-F https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BAT54(A,C,S).pdf
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
 $ENDCMP
 #
-$CMP BLA31BD221SN4D
-D inductor array 1206 Murata
+$CMP BAT54S
+D dual schottky barrier diode
+K schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
+$ENDCMP
+#
+$CMP BC847
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf
+$ENDCMP
+#
+$CMP BC857
+D 0.1A Ic, 45V Vce, PNP Transistor, SOT-23
+K PNP Transistor
+F https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf
+$ENDCMP
+#
+$CMP BK3216xxxxx
+D inductor array 1206 Taiyo Yuden
 K inductor array network
-F ~
+F https://www.yuden.co.jp/productdata/catalog/mlci09_e.pdf
+$ENDCMP
+#
+$CMP BZX84B6V8
+D Zener Diode,6.8V, 0.35W (maybe not really), 2% (maybe not really), SOT23
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
 $ENDCMP
 #
 $CMP BZX84C2V7
-D zener diode, 2.7V
+D Zener Diode, 2.7V, 0.35W (maybe not really), SOT23
 K zener diode
-F ~
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
 $ENDCMP
 #
-$CMP BZX84C6V8
-D zener diode, 6.8V
+$CMP BZX84C5V1
+D Zener Diode, 5.1V, 0.35W (maybe not really), SOT23
 K zener diode
-F ~
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
+$ENDCMP
+#
+$CMP BuzzBattery
+D OBSOLETE original battery for the buzzer, 4.8V NiMH (4 cells)
+K batt voltage-source cell
+F https://datasheet.octopart.com/55615604940-Varta-datasheet-21225580.pdf
 $ENDCMP
 #
 $CMP Buzzer
 D Buzzer, unpolarized
 K quartz resonator ceramic
-F ~
+F http://datasheetz.com/data/Audio%20Products/Buzzers/490-4687-datasheetz.html
 $ENDCMP
 #
-$CMP C_NETWORK
-D Network of unpolarized capacitor
+$CMP C-array4-0612_47p
+D CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612
+K capacitor cap
+F https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf
+$ENDCMP
+#
+$CMP Celec-axial-10x30_470u
+D Polarized capacitor
 K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP C_array-47pF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/COG_Dielectric_Rev_Mar_2015.pdf
+$CMP LED-pins_AK
+D Light emitting diode
+K LED diode
+F ~
 $ENDCMP
 #
 $CMP LMC7211
-D CMOS comparator
+D CMOS Comparator with Rail-to-Rail Input and Push-Pull Output, SOT-23-5
 K comparator
-F ~
+F https://www.ti.com/lit/ds/symlink/lmc7211-n.pdf
+$ENDCMP
+#
+$CMP LT3471
+D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
+K dc/dc converter boost inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
+$CMP MBRM120
+D Schottky Diode, 20V, 1A, DO216AA
+K diode schottky
+F https://www.onsemi.com/pub/Collateral/MBRM120L-D.PDF
+$ENDCMP
+#
+$CMP NK236-slideswitch
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F https://www.apem.com/int/index.php?controller=attachment&id_attachment=808
 $ENDCMP
 #
 $CMP R0402_0Ohm
@@ -247,13 +295,7 @@ F https://www.vishay.com/docs/72014/72014.pdf
 $ENDCMP
 #
 $CMP TLV3011AIDBV
-D Nanopower 1.8V comparator with voltage reference
-K comparator
-F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
-$ENDCMP
-#
-$CMP TLV3012AIDBV
-D Nanopower 1.8V comparator with voltage reference
+D Nanopower 1.8V comparator with voltage reference, SOT23-6
 K comparator
 F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
 $ENDCMP
