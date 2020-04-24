@@ -1,0 +1,81 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TestPoint
+#
+DEF TestPoint PT 0 30 Y N 1 F N
+F0 "PT" -100 50 50 V V C CNN
+F1 "Blower_Driver_Components_TestPoint" 100 50 50 V I C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F 4 "10022924" 0 50 50 H I C CNN "Item Number"
+F 5 "TEST POINT" 0 -10 50 H I C CNN "Description"
+F 6 "NICOMATIC_RMS1" 0 -70 50 H I C CNN "Manufacturer"
+F 7 "C12000B" 0 -130 50 H I C CNN "Manufacturer_No"
+F 8 "KEYSTONE ELECTRONICS CORP" 0 -190 50 H I C CNN "Manufacturer2"
+F 9 "5015" 0 -250 50 H I C CNN "Manufacturer_No2"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#
+# JUMP_0U
+#
+DEF JUMP_0U JP 0 40 Y Y 1 L N
+F0 "JP" -100 100 51 H V L BNN
+F1 "cpu-board_JUMP_0U" -100 -150 51 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F 4 "10023185" 0 50 50 H I C CNN "Item Number"
+F 5 "RESISTANCE, 0 OHM,0603" 0 -10 50 H I C CNN "Description"
+F 6 "YAGEO_RMS1" 0 -70 50 H I C CNN "Manufacturer"
+F 7 "RC0603JR-070RL" 0 -130 50 H I C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" 0 -190 50 H I C CNN "Manufacturer2"
+F 9 "232270296001" 0 -250 50 H I C CNN "Manufacturer_No2"
+F 11 "YAGEO_RMS1" 0 -310 50 H I C CNN "Manufacturer3"
+F 12 "232270296001L" 0 -370 50 H I C CNN "Manufacturer_No3"
+F 14 "ASJ" 0 -430 50 H I C CNN "Manufacturer4"
+F 15 "CR16000ZL" 0 -490 50 H I C CNN "Manufacturer_No4"
+F 17 "KAMAYA                          (049580)" 0 -550 50 H I C CNN "Manufacturer5"
+F 18 "RMC1/16JPTP" 0 -610 50 H I C CNN "Manufacturer_No5"
+DRAW
+A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
+A 14 0 49 -888 888 1 0 1 F 15 -49 15 49
+P 2 1 0 0 -100 0 -65 0 N
+P 2 1 0 0 100 0 65 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#
+# TestPoint
+#
+DEF TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F 4 "10022924" 0 50 50 H I C CNN "Item Number"
+F 5 "TEST POINT" 0 -10 50 H I C CNN "Description"
+F 6 "NICOMATIC_RMS1" 0 -70 50 H I C CNN "Manufacturer"
+F 7 "C12000B" 0 -130 50 H I C CNN "Manufacturer_No"
+F 8 "KEYSTONE ELECTRONICS CORP" 0 -190 50 H I C CNN "Manufacturer2"
+F 9 "5015" 0 -250 50 H I C CNN "Manufacturer_No2"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

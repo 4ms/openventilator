@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Varistor_10022926
+#
+DEF Varistor_10022926 RV 0 0 N Y 1 F N
+F0 "RV" 125 0 50 V V C CNN
+F1 "Device_Varistor" -125 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F 4 "10022926" 0 50 50 H I C CNN "Item Number"
+F 5 "SMD VARISTOR, 5.5V,C0603" 0 -10 50 H I C CNN "Description"
+F 6 "EPCOS_RMS1" 0 -70 50 H I C CNN "Manufacturer"
+F 7 "B72500T0040M060" 0 -130 50 H I C CNN "Manufacturer_No"
+$FPLIST
+ RV_*
+ Varistor*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Varistor_10022927
+#
+DEF Varistor_10022927 RV 0 0 N Y 1 F N
+F0 "RV" 125 0 50 V V C CNN
+F1 "Device_Varistor" -125 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F 4 "10022927" 0 50 50 H I C CNN "Item Number"
+F 5 "VARISTOR, CMS PROTECTION, 30VRMS, 38 VDC, 1206," 0 -10 50 H I C CNN "Description"
+F 6 "EPCOS_RMS1" 0 -70 50 H I C CNN "Manufacturer"
+F 7 "B72520T0300K062" 0 -130 50 H I C CNN "Manufacturer_No"
+$FPLIST
+ RV_*
+ Varistor*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
