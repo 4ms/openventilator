@@ -5,6 +5,8 @@
 output_dir = 'Symbols'
 csv_output_filename = output_dir+'/library_bom.csv'
 
+default_bom_filename = 'bom.csv'
+
 # Set the column names found in the bom file here:
 itemnum_header = 'Item Number'
 refs_header = 'Ref Des'
@@ -268,13 +270,6 @@ def renameSymbol(oldname, newname, symdata):
         symdata = re.sub(r'\nDEF '+oldname+r' ', r'\nDEF '+newname+r' ', symdata)
     return symdata
 
-#def readAllLibraries(dirname):
-#    src_lib_files = [dirname+f for f in os.listdir(dirname) if f.endswith('.lib')]
-#    #print(src_lib_files)
-#    src_libdat = loadLibraryFileList(src_lib_files)
-#    #print(src_libdat.keys())
-#    return src_libdat
-
 def createLibFromCache(syms, src_libdat):
     libdata = []
     for sym in syms:
@@ -285,42 +280,12 @@ def createLibFromCache(syms, src_libdat):
         existing_libsymdat = extractSymFromLib(cache_sym_name, src_libdat)
         if (existing_libsymdat is not None):
             symdata = mergeFieldsIntoSymbol(sym, existing_libsymdat)
-            unique_symdata = renameSymbol(sym['name'], sym['formatted_name'], symdata)
+            unique_symdata = renameSymbol(cache_sym_name, sym['formatted_name'], symdata)
             libdata.append(unique_symdata)
         else:
             print("Failed to extract symbol data from cache for ref "+sym['example_ref']+", lib: "+sym['src_lib']+"_"+sym['name'])
     return libdata
          
-
-def createLibDataFromSymbols(syms, src_libdat):
-    libdata=[]
-    for sym in syms:
-        if 'name' not in sym.keys():
-            continue
-        lib_name = sym['src_lib']+".lib"
-        try:
-            src_lib = src_libdat[lib_name]
-        except:
-            print("Library specifed in schematic for symbol "+sym['example_ref']+" is "+lib_name+" and it cannot be found. Skipping.")
-            continue
-
-        existing_libsymdat = extractSymFromLib(sym['name'], src_libdat[lib_name])
-        if (existing_libsymdat is not None):
-            symdata = mergeFieldsIntoSymbol(sym, existing_libsymdat)
-            unique_symdata = renameSymbol(sym['name'], sym['formatted_name'], symdata)
-            libdata.append(unique_symdata)
-        else:
-            print("Failed to extract symbol data from existing library for ref "+sym['example_ref']+", lib: "+sym['src_lib']+":"+sym['name'])
-
-    return libdata
-
-# def findUniqueRefDesPrefixes(syms):
-#     unique_prefixes = []
-#     for sym in syms:
-#         if sym['example_ref'][:1] not in unique_prefixes:
-#             unique_prefixes.append(sym['example_ref'][:1])
-#     return unique_prefixes
-
 def deduceLibraryFilename(sym):
     try:
         prefix = ""
@@ -365,7 +330,6 @@ def writeSymbolsToLibraryFiles(syms, dirname):
     
     for libfilename, symlist in syms_sorted.items():
         libdata = createLibFromCache(symlist, cache_libdat)
-        # libdata = createLibDataFromSymbols(symlist, src_libdat)
         writeLibFile(libdata, libfilename)
         print("Writing library file: "+libfilename)
 
@@ -375,17 +339,22 @@ def writeLibFile(libdata, libsym_filename):
     """
     fullpath = output_dir + "/" + libsym_filename
     if os.path.exists(fullpath):
+        #append:
         with open(fullpath, "r+") as f:
-           existing_lib = readFile.readlines()
+           existing_lib = f.readlines()
+
+        #remove end library marker
         if existing_lib[-1:] == ['#End Library']:
             existing_lib = existing_lib[:-1]
 
         with open(fullpath, "w") as f:
-            f.write(existing_lib)
+            for line in existing_lib:
+                f.write(line)
             for data in libdata:
                 f.write(data)
             f.write("#\n#End Library")
     else:
+        #create:
         with open(fullpath, "w") as f:
             f.write("EESchema-LIBRARY Version 2.4\n#encoding utf-8\n")
             for data in libdata:
@@ -486,12 +455,18 @@ def createSymbolsFromBom(input_dir, csv_filename):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 2:
+    if len(sys.argv) > 1:
         input_dir = sys.argv[1]
         if input_dir[:len(input_dir)-1] != "/":
             input_dir = input_dir+"/"
         print("Using input directory: "+input_dir)
-        bomcsv_filename = sys.argv[2]
+        if len(sys.argv) > 2:
+            bomcsv_filename = sys.argv[2]
+            print("Will look for bom file: " + bomcsv_filename)
+        else:
+            bomcsv_filename = input_dir+default_bom_filename
+            print("No bom file specified, looking for " + bomcsv_filename)
+
         syms = createSymbolsFromBom(input_dir, bomcsv_filename)
         syms = formatCommonSymNames(syms)
         syms = makeUniqueNames(syms)
@@ -500,7 +475,9 @@ if __name__ == "__main__":
         exportSymbolListCSV(syms, csv_output_filename)
     else:
         print("""
-Please specify an input dir with .sch and .lib files, and a BOM .csv file to use.
+Please specify an input dir with .sch and .lib files
+The default BOM file name is input_dir/bom.csv 
+You can specify a different file with the second argument.
 
 Example:
 $ python3 bom2libsym.py ../myProjectFolder ../myBOMs/projectBOM.csv
@@ -543,7 +520,7 @@ You can set the headings of the BOM file at the top of this script. You also
 might just consider renaming your BOM
 
 Todo: Handle BOM files that start with a blank or garbage line.
-Todo: Use *-cache.lib instead of source libraries
+Todo: Create unique names for symbols with same name from different projects
 Todo: Allow components in schematics files to be optionally updated with new
 library part name
 """)

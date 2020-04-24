@@ -24,10 +24,6 @@ def deduceSymbolName(name, description):
     if name[0] not in commonSymbolNamePrefixes:
         return ""
 
-    if len(name)<5:
-        return "" 
-        #Todo: allow symbol named 'C' or 'R' and deduce footprint from Description field
-
     if name[0]=='C':
         value = deduceCapValue(description)
     elif name[0]=='R':
