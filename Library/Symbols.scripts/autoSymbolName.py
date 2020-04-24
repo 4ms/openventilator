@@ -44,6 +44,7 @@ def deduceSymbolName(name, description):
         rkm_val = rkm_val.replace("r","R")
         rkm_val = rkm_val.replace("N","n")
         rkm_val = rkm_val.replace("U","u")
+        rkm_val = rkm_val.replace("µ","u")
         rkm_val = rkm_val.replace("P","p")
         if "F" in value:
             rkm_val = rkm_val + "F"
@@ -63,7 +64,7 @@ def deduceSymbolName(name, description):
             voltage = ""
 
         #Tolerance
-        m = re.search(r'[\d]+\%', description)
+        m = re.search(r'[\d]+\.?[\d]*\%', description)
         try:
             tolerance = "_"+m.group(0)
         except:

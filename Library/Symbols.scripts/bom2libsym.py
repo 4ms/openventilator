@@ -19,13 +19,31 @@ manuDesc_header = 'Mfr. Part Description'
 # If not found here, the library will be named by the prefix (example: Z.lib)
 library_name_prefix_map = {
         "C": "Capacitor",
+        "ZC": "Capacitor",
         "R": "Resistor",
         "L": "Inductor",
+        "FI": "Inductor",
         "Q": "Crystal",
         "D": "Diode",
+        "CR": "Diode",
+        "PG": "Diode",
         "FU": "Fuse",
+        "F": "Fuse",
+        "PCT": "Fuse",
         "J": "Connector",
-        "T": "Transistor"
+        "T": "Transistor",
+        "ZT": "Transistor",
+        "JP": "Jumper",
+        "PT": "Jumper",
+        "ML": "Varistor",
+        "U": "IC",
+        "G": "Battery",
+        "BAT": "Battery",
+        "BUZ": "Buzzer",
+        "RL": "Relay",
+        "RS": "Resistor",
+        "SW": "Switch",
+        "V": "Valve"
 }
 
 VALUE_FIELD_IDX = 1
