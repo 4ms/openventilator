@@ -3,7 +3,7 @@
 
 #Output files:
 output_dir = 'Symbols'
-csv_output_filename = 'library_bom.csv'
+csv_output_filename = output_dir+'/library_bom.csv'
 
 # Set the column names found in the bom file here:
 itemnum_header = 'Item Number'
@@ -35,6 +35,7 @@ import os
 import sys
 import csv
 import re
+from autoSymbolName import *
 
 def loadFileList(file_name_list):
     dat = {}
@@ -50,7 +51,8 @@ def loadLibraryFileList(file_name_list):
     for fil in file_name_list:
         with open(fil) as f:
             print("Reading file: "+fil)
-            dat[fil.replace(" ","_")] = f.read()
+            nameinlib = os.path.basename(fil).replace(" ","_")
+            dat[nameinlib] = f.read()
     return dat
 
 def writeSchDatToFiles(schdat):
@@ -73,7 +75,6 @@ def findLibByRefInSchdat(ref, schdat):
             break
     #Search by RefDes field line (Not sure if F 0 is guarenteed to be RefDes, but seems to be?)
     if matching_sch is None:
-        #regex = re.compile(r'\nL ([^ ]*?) (?!\nF 0 )*\nF 0 "'+ref+'"', re.MULTILINE | re.DOTALL)
         regex = re.compile(r'^L ([^ ]+) '+ref[0]+r'\?(?:\n[^\$].+)+\nF 0 "'+ref+r'" ', re.MULTILINE)
         for sch in schdat:
             ref_matches = regex.findall(schdat[sch])
@@ -193,9 +194,33 @@ def createSymbol(refslist, field_list, schdat):
 
         print("Symbol created.")
         break
-
     return symbol
 
+def formatCommonSymNames(syms):
+    """Deduce Library Symbol names for common parts
+        (resistors and capacitors)
+    """
+    for sym in syms:
+        try:
+            name = sym['name']
+            firstchar = name[0]
+        except:
+            continue
+
+        sym['formatted_name'] = sym['name']
+        try: 
+            desc = sym['Description']
+        except:
+            continue
+
+        symbolname = deduceSymbolName(name, desc)
+        if len(symbolname) > 0:
+            if symbolname != sym['name']:
+                print(sym['name']+" changed to "+symbolname)
+            sym['formatted_name'] = symbolname
+
+    return syms
+                
 def makeUniqueNames(syms):
     """ Given a list of symbol dictionaries, 
         Find which name fields are duplicated and make them unique
@@ -204,20 +229,22 @@ def makeUniqueNames(syms):
     uniquenames={}
     dup_names=[]
     for sym in syms:
-        if 'name' not in sym.keys():
+        if 'formatted_name' not in sym.keys():
             continue
-        if sym['name'] in uniquenames.keys():
-            dup_names.append(sym['name']) 
+        if sym['formatted_name'] in uniquenames.keys():
+            dup_names.append(sym['formatted_name']) 
         else:
-            uniquenames[sym['name']] = True
+            uniquenames[sym['formatted_name']] = True
 
     for sym in syms:
-        if 'name' not in sym.keys():
+        if 'formatted_name' not in sym.keys():
             continue
-        if sym['name'] in dup_names:
-            sym['unique_name'] = sym['name'] + "_" + sym['Item Number']
+        if 'Item Number' not in sym:
+            print("ERROR: symbol with name "+sym['formatted_name']+" has no Item Number")
+        if sym['formatted_name'] in dup_names:
+            sym['formatted_name'] = sym['formatted_name'] + "_" + sym['Item Number']
         else:
-            sym['unique_name'] = sym['name']
+            sym['formatted_name'] = sym['formatted_name']
 
     return syms
 
@@ -228,9 +255,11 @@ def renameSymbol(oldname, newname, symdata):
         symdata = re.sub(r'\nDEF '+oldname+r' ', r'\nDEF '+newname+r' ', symdata)
     return symdata
 
-def readAllLibraries():
-    src_lib_files = [f for f in os.listdir('.') if f.endswith('.lib')]
+def readAllLibraries(dirname):
+    src_lib_files = [dirname+f for f in os.listdir(dirname) if f.endswith('.lib')]
+    print(src_lib_files)
     src_libdat = loadLibraryFileList(src_lib_files)
+    print(src_libdat.keys())
     return src_libdat
 
 def createLibDataFromSymbols(syms, src_libdat):
@@ -248,7 +277,7 @@ def createLibDataFromSymbols(syms, src_libdat):
         existing_libsymdat = extractSymFromLib(sym['name'], src_libdat[lib_name])
         if (existing_libsymdat is not None):
             symdata = mergeFieldsIntoSymbol(sym, existing_libsymdat)
-            unique_symdata = renameSymbol(sym['name'], sym['unique_name'], symdata)
+            unique_symdata = renameSymbol(sym['name'], sym['formatted_name'], symdata)
             libdata.append(unique_symdata)
         else:
             print("Failed to extract symbol data from existing library for ref "+sym['example_ref']+", lib: "+sym['src_lib']+":"+sym['name'])
@@ -280,7 +309,7 @@ def deduceLibraryFilename(sym):
     except:
         return "Unknown.lib"
 
-def writeSymbolsToLibraryFiles(syms):
+def writeSymbolsToLibraryFiles(syms, dirname):
     """ Given a list of sym dictionaries
         Create kicad symbol library files
         Symbols will be sorted into files by prefix
@@ -289,6 +318,7 @@ def writeSymbolsToLibraryFiles(syms):
     syms_sorted = {}
     for sym in syms:
         libfilename = deduceLibraryFilename(sym)
+        sym['dst_lib'] = libfilename.replace(".lib","")
         try:
             syms_sorted[libfilename].append(sym)
         except:
@@ -297,27 +327,38 @@ def writeSymbolsToLibraryFiles(syms):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    src_libdat = readAllLibraries()
+    src_libdat = readAllLibraries(dirname)
 
     for libfilename, symlist in syms_sorted.items():
         libdata = createLibDataFromSymbols(symlist, src_libdat)
         writeLibFile(libdata, libfilename)
         print("Writing library file: "+libfilename)
-        
 
 def writeLibFile(libdata, libsym_filename):
-    """ Write (create or overwrite) the filename given by libsym_filename
+    """ Write (create or append) the filename given by libsym_filename
         by writing the symbol data in libdata
     """
     fullpath = output_dir + "/" + libsym_filename
-    with open(fullpath, "w") as f:
-        f.write("EESchema-LIBRARY Version 2.4\n#encoding utf-8\n")
-        for data in libdata:
-            f.write(data)
-        f.write("#\n#End Library")
+    if os.path.exists(fullpath):
+        with open(fullpath, "r+") as f:
+           existing_lib = readFile.readlines()
+        if existing_lib[-1:] == ['#End Library']:
+            existing_lib = existing_lib[:-1]
+
+        with open(fullpath, "w") as f:
+            f.write(existing_lib)
+            for data in libdata:
+                f.write(data)
+            f.write("#\n#End Library")
+    else:
+        with open(fullpath, "w") as f:
+            f.write("EESchema-LIBRARY Version 2.4\n#encoding utf-8\n")
+            for data in libdata:
+                f.write(data)
+            f.write("#\n#End Library")
 
 def exportSymbolListCSV(syms, csv_filename):
-    row = '"Item Number","Symbol","Footprint",\
+    row = '"Item Number","Old Library","New Library", "Footprint",\
             "Footprint.3dshapes","Description",\
             "Value","References","Sch File",\
             "Manufacturer","Manufacturer_No","Documentation"\n'
@@ -327,6 +368,7 @@ def exportSymbolListCSV(syms, csv_filename):
         row = row + '"' 
         row = row + sym['Item Number'] + '","'
         row = row + sym['src_lib'] + ':' + sym['name'] + '","'
+        row = row + sym['dst_lib'] + ':' + sym['formatted_name'] + '","'
         row = row + sym['footprint'] + '","'
         row = row + sym['fp3d'] + '","'
         row = row + sym['Description'] + '","'
@@ -338,7 +380,7 @@ def exportSymbolListCSV(syms, csv_filename):
         row = row + sym['Documentation'] + '"'
         row = row + "\n"
 
-    with open(csv_output_filename,"w") as f:
+    with open(csv_output_filename,"a+") as f:
         f.write(row)
     return
 
@@ -352,12 +394,12 @@ def createFieldText(field_list):
         y_pos = y_pos + y_offset
     return field_text
 
-def createSymbolsFromBom(csv_filename):
+def createSymbolsFromBom(input_dir, csv_filename):
     symbol_list=[]
     field_list=[]
     refslist=[]
 
-    sch_files = [f for f in os.listdir('.') if f.endswith('.sch')]
+    sch_files = [input_dir+f for f in os.listdir(input_dir) if f.endswith('.sch')]
     schdat = loadFileList(sch_files)
 
     with open(csv_filename) as csvfile:
@@ -409,43 +451,65 @@ def createSymbolsFromBom(csv_filename):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        bomcsv_filename = sys.argv[1]
-        syms = createSymbolsFromBom(bomcsv_filename)
+    if len(sys.argv) > 2:
+        input_dir = sys.argv[1]
+        if input_dir[:len(input_dir)-1] != "/":
+            input_dir = input_dir+"/"
+        print("Using input directory: "+input_dir)
+        bomcsv_filename = sys.argv[2]
+        syms = createSymbolsFromBom(input_dir, bomcsv_filename)
+        syms = formatCommonSymNames(syms)
         syms = makeUniqueNames(syms)
-        writeSymbolsToLibraryFiles(syms)
+        writeSymbolsToLibraryFiles(syms, input_dir)
         print("Exporting CSV file:"+csv_output_filename)
         exportSymbolListCSV(syms, csv_output_filename)
     else:
         print("""
-Please specify a BOM .csv file to use.
+Please specify an input dir with .sch and .lib files, and a BOM .csv file to use.
 
 Example:
-$ python3 bom2libsym.py projectBOM.csv
+$ python3 bom2libsym.py ../myProjectFolder ../myBOMs/projectBOM.csv
 
-This script will scan a BOM csv file.  For each line with an Item Number, it
-will scan all *.sch files in the current dir to find the ref des which are also
-on that BOM line.  Then it will take the library symbol name used by that ref
-des, and copy the library symbol data from the library.  All .lib files must be
-in the current directory (including standard Kicad libraries, if any parts are
-using those) Then it adds the Mfg, Mfg_No, Item Number, etc. data from the BOM
-to the symbol. It will make sure all symbol names are unique by appending the
-Item Number as the suffix (e.g. C0805_123456789) Then the entire library is
-written to whatever name you set below.
-
-Todo: Use cache.lib instead of source libraries
-Todo: symbol name will be deduced for resistors and capacitors
-Todo: schematics will be updated with new library part name
-
+**********************************************************************
 Usage:
-$ cp ../../ProjectFolder/*.sch ./ 
-$ cp ../../ProjectFolder/*.lib ./
-$ cp /Full/Path/To/Kicad/Libraries/Device.lib   #optional if your schematics use Device.lib, for example
+$ cp /Full/Path/To/Kicad/Libraries/Device.lib ../myProjectFolder/
+# ^^^ optional if your schematics use Device.lib, for example
 
-$ python3 bom2libsym.py > bom_merge_report.txt
-$ cp Symbols/*.lib ../ProjectSymbolDir/
+$ python3 bom2libsym.py ../myProjectFolder/ ../myBOMs/myProjectBOM.csv
+$ ls Symbols/
+$
+$ # You can append multiple projects to the same library files:
+$ python3 bom2libsym.py ../anotherProject/ ../myBOMs/anotherBOM.csv
+$
 
-Then from within Kicad, add the new symbol library to the project: 
+Then from within Kicad, add the new symbol libraries to the project: 
    Preferences > Manage Symbol Libraries > Project Specific Libraries
+**********************************************************************
+
+This script will scan a BOM csv file. For each line with an Item Number and Ref
+Des (in a list like "R1, R68, R124"), it will scan all *.sch files in the given
+input dir to find those components. Then it will take the library symbol name
+used by the schematic for that ref des, and copy the library symbol data from
+the library.  All .lib files must be in the given input dir (including standard
+Kicad libraries, if any parts are using those) Then it adds the Manufacturer,
+Manufacturer_No, Item Number, etc. data from the BOM to the new library symbol.
+For resistors and capacitors, it will try to guess the value, voltage,
+tolerance, and footprint and name the symbol accordingly. It also will make
+sure all symbol names are unique by appending the Item Number as the suffix
+(e.g.  FUSE_123456789).  The symbols are sorted by reference prefix and saved
+into libraries in the Symbol/ directory. Some special names for libraries are
+deduced, such as R => Resistor.lib, others will just be PREFIX.lib.  Libraries
+are appended! So if you need to re-do a project, erase the Symbol dir.
+
+Finally, a csv file is output into the Symbol dir. It's also appended, so
+delete it if you re-do a project.
+
+You can set the headings of the BOM file at the top of this script. You also
+might just consider renaming your BOM
+
+Todo: Handle BOM files that start with a blank or garbage line.
+Todo: Use *-cache.lib instead of source libraries
+Todo: Allow components in schematics files to be optionally updated with new
+library part name
 """)
 
