@@ -35,6 +35,7 @@ import os
 import sys
 import csv
 import re
+from pathlib import Path
 from autoSymbolName import *
 
 def loadFileList(file_name_list):
@@ -45,15 +46,27 @@ def loadFileList(file_name_list):
             dat[fil] = f.read()
     return dat
 
-def loadLibraryFileList(file_name_list):
-    #Kicad replaces spaces in filenames with '_' to get the library name
-    dat = {}
-    for fil in file_name_list:
-        with open(fil) as f:
-            print("Reading file: "+fil)
-            nameinlib = os.path.basename(fil).replace(" ","_")
-            dat[nameinlib] = f.read()
+def readCacheLib(dirname):
+    for path in Path(dirname).glob('*-cache.lib'):
+        cachepath = path
+        break
+    if cachepath is None:
+        return None
+
+    with open(cachepath) as f:
+        print("Found cache library: "+cachepath.name)
+        dat = f.read()
     return dat
+
+#def loadLibraryFileList(file_name_list):
+#    #Kicad replaces spaces in filenames with '_' to get the library name
+#    dat = {}
+#    for fil in file_name_list:
+#        with open(fil) as f:
+#            print("Reading file: "+fil)
+#            nameinlib = os.path.basename(fil).replace(" ","_")
+#            dat[nameinlib] = f.read()
+#    return dat
 
 def writeSchDatToFiles(schdat):
     for sch in schdat:
@@ -255,12 +268,29 @@ def renameSymbol(oldname, newname, symdata):
         symdata = re.sub(r'\nDEF '+oldname+r' ', r'\nDEF '+newname+r' ', symdata)
     return symdata
 
-def readAllLibraries(dirname):
-    src_lib_files = [dirname+f for f in os.listdir(dirname) if f.endswith('.lib')]
-    print(src_lib_files)
-    src_libdat = loadLibraryFileList(src_lib_files)
-    print(src_libdat.keys())
-    return src_libdat
+#def readAllLibraries(dirname):
+#    src_lib_files = [dirname+f for f in os.listdir(dirname) if f.endswith('.lib')]
+#    #print(src_lib_files)
+#    src_libdat = loadLibraryFileList(src_lib_files)
+#    #print(src_libdat.keys())
+#    return src_libdat
+
+def createLibFromCache(syms, src_libdat):
+    libdata = []
+    for sym in syms:
+        if 'name' not in sym.keys():
+            continue
+        cache_sym_name = sym['src_lib']+"_"+sym['name']
+
+        existing_libsymdat = extractSymFromLib(cache_sym_name, src_libdat)
+        if (existing_libsymdat is not None):
+            symdata = mergeFieldsIntoSymbol(sym, existing_libsymdat)
+            unique_symdata = renameSymbol(sym['name'], sym['formatted_name'], symdata)
+            libdata.append(unique_symdata)
+        else:
+            print("Failed to extract symbol data from cache for ref "+sym['example_ref']+", lib: "+sym['src_lib']+"_"+sym['name'])
+    return libdata
+         
 
 def createLibDataFromSymbols(syms, src_libdat):
     libdata=[]
@@ -327,10 +357,15 @@ def writeSymbolsToLibraryFiles(syms, dirname):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    src_libdat = readAllLibraries(dirname)
-
+    # src_libdat = readAllLibraries(dirname)
+    cache_libdat = readCacheLib(dirname)
+    if cache_libdat is None:
+        print("ERROR: No cache library found in input dir "+ dirname + "! Cache filename must end in *-cache.lib")
+        return
+    
     for libfilename, symlist in syms_sorted.items():
-        libdata = createLibDataFromSymbols(symlist, src_libdat)
+        libdata = createLibFromCache(symlist, cache_libdat)
+        # libdata = createLibDataFromSymbols(symlist, src_libdat)
         writeLibFile(libdata, libfilename)
         print("Writing library file: "+libfilename)
 

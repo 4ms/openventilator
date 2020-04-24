@@ -74,9 +74,9 @@ def deduceSymbolName(name, description):
             tolerance = ""
 
         formatted_value = name[0] + footprint + "_" + rkm_val + voltage + tolerance
-        print("Value "+value+" formatted to "+formatted_value)
+        # print("Value "+value+" formatted to "+formatted_value)
         return formatted_value
     except:
-        print("Not able to deduce a symbol Value for name="+name+", Desc="+description)
+        # print("Not able to deduce a symbol Value for name="+name+", Desc="+description)
         return name
 
