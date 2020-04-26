@@ -1331,6 +1331,21 @@ X V+ 6 0 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# GR106768_Buzzer_Via
+#
+DEF GR106768_Buzzer_Via H 0 40 Y Y 1 F N
+F0 "H" 30 30 50 H V L CNN
+F1 "GR106768_Buzzer_Via" 30 -30 35 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 18 0 1 12 N
+ENDDRAW
+ENDDEF
+#
 # GR106768_Buzzer_bq2002_SN
 #
 DEF GR106768_Buzzer_bq2002_SN IC 0 40 Y Y 1 F N
@@ -1363,21 +1378,6 @@ $FPLIST
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
