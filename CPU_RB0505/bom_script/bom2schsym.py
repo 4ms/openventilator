@@ -6,6 +6,10 @@
 #
 # Use at your own risk!
 
+import os
+import csv
+import re
+
 # Some user-configurable stuff
 # Set the filename for the bom here:
 bomcsv_filename = 'bom.csv'
@@ -17,10 +21,6 @@ desc_header = 'Item Description'
 manu_header = 'Mfr. Name'
 manuNo_header = 'Mfr. Part Number'
 manuDesc_header = 'Mfr. Part Description'
-
-import os
-import csv
-import re
 
 sch_files = [f for f in os.listdir('.') if f.endswith('.sch')]
 
