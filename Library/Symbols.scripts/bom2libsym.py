@@ -547,9 +547,16 @@ You can set the headings of the BOM file at the top of this script. You also
 might just consider renaming your BOM
 
 Todo: Create unique names for symbols with same name from different projects
+Workaround: Open library in kicad, accept warning about duplicate names, save library.
+
 Todo: Allow components in schematics files to be optionally updated with new
 library part name
+
 Todo: Preserve ALIAS (remove current symbol from list, though)
-Todo: Ensure correct cache-lib is picked, or else print error and quit
+Workaround: Paste ALIAS field back into lib file, if needed.
+
+Todo: Ensure correct cache-lib is chosen, or else print error and quit
+Workaround: Do not have multiple files in a project dir ending in -cache.lib
+
 """)
 

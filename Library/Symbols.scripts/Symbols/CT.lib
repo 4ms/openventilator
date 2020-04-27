@@ -5,13 +5,13 @@ EESchema-LIBRARY Version 2.4
 #
 DEF Thermistor_NTC TH 0 0 N Y 1 F N
 F0 "TH" -175 0 50 V V C CNN
-F1 "Device_Thermistor_NTC" 125 0 50 V V C CNN
+F1 "Thermistor_NTC" 125 0 50 V V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-F 4 "10022929" 0 50 50 H I C CNN "Item Number"
-F 5 "THERMISTOR, 10K OHM, B4300. +/-5%" 0 -10 50 H I C CNN "Description"
-F 6 "EPCOS_RMS1" 0 -70 50 H I C CNN "Manufacturer"
-F 7 "B57164K103J" 0 -130 50 H I C CNN "Manufacturer_No"
+F 4 "10022929" 400 50 50 H I L CNN "Item Number"
+F 5 "THERMISTOR, 10K OHM, B4300. +/-5%" 400 -10 50 H I L CNN "Description"
+F 6 "EPCOS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F 7 "B57164K103J" 400 -130 50 H I L CNN "Manufacturer_No"
 $FPLIST
  *NTC*
  *Thermistor*

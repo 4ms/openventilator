@@ -1,45 +1,17 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# NK236-slideswitch
-#
-DEF NK236-slideswitch SW 0 0 Y N 1 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "GR106768_Buzzer_NK236-slideswitch" 0 -200 50 H V C CNN
-F2 "AllModules:NK236_1_1" 0 0 50 H I L CIN
-F3 "" 0 0 50 H I C CNN
-F4 "10025553" 0 250 50 H I C CNN "Item Number"
-F 4 "10025553" 0 50 50 H I C CNN "Item Number"
-F 5 "DIL, SLIDE SWITCH" 0 -10 50 H I C CNN "Description"
-F 6 "APEM COMPONENTS INC" 0 -70 50 H I C CNN "Manufacturer"
-F 7 "NK236" 0 -130 50 H I C CNN "Manufacturer_No"
-DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 1 0 -60 10 65 90 N
-X common 1 -200 0 100 R 50 50 1 1 P
-X cktA 2 200 100 100 L 50 50 1 1 P
-X cktB 3 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-#
 # CMF2
 #
 DEF CMF2 SW 0 40 Y Y 1 F N
 F0 "SW" 250 -800 50 H V C CNN
-F1 "10005011_Power_Management_CMF2" 0 800 50 H V C CNN
+F1 "CMF2" 0 800 50 H V C CNN
 F2 "10005011 Power Management:CMF1_1" -150 50 100 H I C CNN
 F3 "" -150 50 100 H I C CNN
-F4 "SWITCH SOCKET 2 POLES" 0 0 50 H I C CNN "Description"
-F5 "10022930" 0 0 50 H I C CNN "Item Number"
-F6 "SCHURTER" 0 0 50 H I C CNN "Manufacturer"
-F7 "CMF2.1011.12" 0 0 50 H I C CNN "Manufacturer_No"
-F 4 "10022930" 0 50 50 H I C CNN "Item Number"
-F 5 "SWITCH SOCKET 2 POLES" 0 -10 50 H I C CNN "Description"
-F 6 "SCHURTER" 0 -70 50 H I C CNN "Manufacturer"
-F 7 "CMF2.1011.12" 0 -130 50 H I C CNN "Manufacturer_No"
+F 4 "10022930" 400 50 50 H I L CNN "Item Number"
+F 5 "SWITCH SOCKET 2 POLES" 400 -10 50 H I L CNN "Description"
+F 6 "SCHURTER" 400 -70 50 H I L CNN "Manufacturer"
+F 7 "CMF2.1011.12" 400 -130 50 H I L CNN "Manufacturer_No"
 DRAW
 A -240 -590 20 1800 -900 0 1 5 N -260 -590 -240 -610
 A -240 -110 20 1800 900 0 1 5 N -260 -110 -240 -90
@@ -73,6 +45,29 @@ X L 3 500 200 135 L 50 50 1 1 w
 X N 4 500 600 135 L 50 50 1 1 w
 X NC 5 -200 -800 100 U 50 50 1 1 N N
 X NC 6 -200 800 100 D 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+#
+# NK236-slideswitch
+#
+DEF NK236-slideswitch SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "NK236-slideswitch" 0 -200 50 H V C CNN
+F2 "AllModules:NK236_1_1" 0 0 50 H I L CIN
+F3 "" 0 0 50 H I C CNN
+F 4 "10025553" 400 50 50 H I L CNN "Item Number"
+F 5 "DIL, SLIDE SWITCH" 400 -10 50 H I L CNN "Description"
+F 6 "APEM COMPONENTS INC" 400 -70 50 H I L CNN "Manufacturer"
+F 7 "NK236" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X common 1 -200 0 100 R 50 50 1 1 P
+X cktA 2 200 100 100 L 50 50 1 1 P
+X cktB 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
