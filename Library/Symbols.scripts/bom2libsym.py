@@ -423,6 +423,11 @@ def createSymbolsFromBom(input_dir, csv_filename):
     with open(csv_filename) as csvfile:
         print("Using bom csv file: "+csv_filename)
         reader = csv.DictReader(csvfile)
+        if itemnum_header not in reader.fieldnames:
+            reader = csv.DictReader(csvfile)
+        if itemnum_header not in reader.fieldnames:
+            print("CSV file does not have correct column names (first two lines scanned)")
+            quit()
         i=0
         for row in reader:
             itemnum = row[itemnum_header]
