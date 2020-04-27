@@ -49,7 +49,7 @@ library_name_prefix_map = {
 VALUE_FIELD_IDX = 1
 FOOTPRINT_FIELD_IDX = 2
 DATASHEET_FIELD_IDX = 3
-lib_tags = "0 &Y& 50 H I C CNN"
+lib_tags = "&X& &Y& 50 H I C CNN"
 
 import os
 import sys
@@ -77,16 +77,6 @@ def readCacheLib(dirname):
         print("Found cache library: "+cachepath.name)
         dat = f.read()
     return dat
-
-#def loadLibraryFileList(file_name_list):
-#    #Kicad replaces spaces in filenames with '_' to get the library name
-#    dat = {}
-#    for fil in file_name_list:
-#        with open(fil) as f:
-#            print("Reading file: "+fil)
-#            nameinlib = os.path.basename(fil).replace(" ","_")
-#            dat[nameinlib] = f.read()
-#    return dat
 
 def writeSchDatToFiles(schdat):
     for sch in schdat:
@@ -408,10 +398,12 @@ def exportSymbolListCSV(syms, csv_filename):
 
 def createFieldText(field_list):
     field_text = ""
+    x_pos = 400
     y_pos = 50
     y_offset = -60
     for field_name, field_val, field_idx in field_list:
         positioned_lib_tags = re.sub(r'(&Y&)', str(y_pos), lib_tags)
+        positioned_lib_tags = re.sub(r'(&X&)', str(x_pos), positioned_lib_tags)
         field_text = field_text + "F "+str(field_idx)+" \""+field_val+"\" "+ positioned_lib_tags + " \""+field_name+"\"\n"
         y_pos = y_pos + y_offset
     return field_text
