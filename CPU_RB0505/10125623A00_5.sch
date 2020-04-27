@@ -764,7 +764,7 @@ F 8 "POWER CHOKE" H 3650 8125 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:MV100?F50V C88
+L cpu-board:MV100_F50V C88
 U 1 1 2D29FFA4
 P 1700 9775
 AR Path="/2D29FFA4" Ref="C88"  Part="1" 
@@ -848,7 +848,7 @@ F 11 "Cap, Tantalum, Polarized, 25V, 10% +/-Tol, 10uF, Surface Mount, 2312 (Case
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:MV100?F50V C21
+L cpu-board:MV100_F50V C21
 U 1 1 967DA045
 P 14150 2300
 AR Path="/967DA045" Ref="C21"  Part="1" 
@@ -1870,7 +1870,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3800 7850 3900
 $Comp
-L cpu-board:MV100?F50V C?
+L cpu-board:MV100_F50V C?
 U 1 1 5EA4EF1D
 P 14150 2300
 AR Path="/5EA4EF1D" Ref="C?"  Part="1" 
