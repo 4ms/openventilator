@@ -249,15 +249,15 @@ def makeUniqueNames(syms):
         Find which name fields are duplicated and make them unique
         Return the unique-ified list of dictionaries
     """
-    uniquenames={}
+    uniquenames=[]
     dup_names=[]
     for sym in syms:
         if 'formatted_name' not in sym.keys():
             continue
-        if sym['formatted_name'] in uniquenames.keys():
+        if sym['formatted_name'] in uniquenames:
             dup_names.append(sym['formatted_name']) 
         else:
-            uniquenames[sym['formatted_name']] = True
+            uniquenames.append(sym['formatted_name'])
 
     for sym in syms:
         if 'formatted_name' not in sym.keys():
@@ -265,9 +265,13 @@ def makeUniqueNames(syms):
         if 'Item Number' not in sym:
             print("ERROR: symbol with name "+sym['formatted_name']+" has no Item Number")
         if sym['formatted_name'] in dup_names:
-            sym['formatted_name'] = sym['formatted_name'] + "_" + sym['Item Number']
-        else:
-            sym['formatted_name'] = sym['formatted_name']
+            sym['formatted_name'] += "_" + sym['Item Number']
+            num = 0
+            testname = sym['formatted_name']
+            while testname in dup_names:
+                num += 1
+                testname = sym['formatted_name'] + "_" + str(num)
+            sym['formatted_name'] = testname
 
     return syms
 
