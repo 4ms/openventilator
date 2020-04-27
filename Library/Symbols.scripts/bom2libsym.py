@@ -49,7 +49,7 @@ library_name_prefix_map = {
 VALUE_FIELD_IDX = 1
 FOOTPRINT_FIELD_IDX = 2
 DATASHEET_FIELD_IDX = 3
-lib_tags = "&X& &Y& 50 H I C CNN"
+lib_tags = "&X& &Y& 50 H I L CNN"
 
 import os
 import sys
@@ -69,7 +69,6 @@ def loadFileList(file_name_list):
 def readCacheLib(dirname):
     for path in Path(dirname).glob('*-cache.lib'):
         cachepath = path
-        break
     if cachepath is None:
         return None
 
@@ -122,10 +121,19 @@ def extractSymFromLib(part_name, libdat):
             r'(#\n# '+part_name+r'\n#\nDEF '+part_name+ r' .*?\nENDDEF\n)',
             libdat,
             re.MULTILINE | re.DOTALL)
-    if m is not None:
-        return m.group()
-    else:
-        return None
+    try:
+        symdat = m.group()
+    except:
+        symdat = None
+    return symdat
+
+def removeExtraFields(symdat):
+    """ Given library-format symbol data, 
+        Remove fields F4 and up, and ALIAS field
+    """
+    symdat = re.sub(r'(?m)^F ?(?:[456789]|(?:\d\d)) .*\n','',symdat)
+    symdat = re.sub(r'(?m)^ALIAS .*\n','',symdat)
+    return symdat
 
 def extractFieldFromLibSymbol(field_name, libsymbol_data):
     m = re.search(r'^F ?[\d]+ "(.*?)" .* "'+field_name+r'"$', libsymbol_data)
@@ -137,7 +145,6 @@ def extractFieldFromLibSymbol(field_name, libsymbol_data):
 def extractFieldFromSchSymbol(ref, fieldnum, schdat):
     if fieldnum==0:
         return ref
-
     m = re.search(r'^F ?0 "'+ref+r'" .*(?:\nF ?\d+.*)*?\nF ?'+str(fieldnum)+r' "([^"]*)" ', schdat, re.MULTILINE)
     if m is None:
         return ""
@@ -156,7 +163,6 @@ def mergeFieldsIntoSymbol(sym, existing_libsymdat):
     except:
         print("ERROR: symbol field_list not preset")
         return
-
     sym, numfound = re.subn(
             r'\n(\$FPLIST\n)',
             r'\n' + field_text + r'\1',
@@ -215,7 +221,7 @@ def createSymbol(refslist, field_list, schdat):
         symbol['Value'] = extractFieldFromSchSymbol(ref, VALUE_FIELD_IDX, schdat[found_sch]) #Todo: deduce this from description?
         symbol['Documentation'] = extractFieldFromSchSymbol(ref, DATASHEET_FIELD_IDX, schdat[found_sch])
 
-        print("Symbol created.")
+        #print("Symbol created.")
         break
     return symbol
 
@@ -239,7 +245,7 @@ def formatCommonSymNames(syms):
         symbolname = deduceSymbolName(name, desc)
         if len(symbolname) > 0:
             if symbolname != sym['name']:
-                print(sym['name']+" changed to "+symbolname)
+                print(sym['name']+" formatted to "+symbolname+" based on description field"+desc)
             sym['formatted_name'] = symbolname
 
     return syms
@@ -277,9 +283,10 @@ def makeUniqueNames(syms):
 
 def renameSymbol(oldname, newname, symdata):
     if oldname is not newname:
-        print("Renaming "+oldname+" to "+newname)
+        print("Renaming cache libary symbol name "+oldname+" to "+newname)
         symdata = re.sub(r'\n# '+oldname+r'\n', r'\n# '+newname+r'\n', symdata)
         symdata = re.sub(r'\nDEF '+oldname+r' ', r'\nDEF '+newname+r' ', symdata)
+        symdata = re.sub(r'\nF ?1 ".*?" ', r'\nF1 "'+newname+r'" ', symdata)
     return symdata
 
 def createLibFromCache(syms, src_libdat):
@@ -291,11 +298,12 @@ def createLibFromCache(syms, src_libdat):
 
         existing_libsymdat = extractSymFromLib(cache_sym_name, src_libdat)
         if (existing_libsymdat is not None):
-            symdata = mergeFieldsIntoSymbol(sym, existing_libsymdat)
+            libsymdat = removeExtraFields(existing_libsymdat)
+            symdata = mergeFieldsIntoSymbol(sym, libsymdat)
             unique_symdata = renameSymbol(cache_sym_name, sym['formatted_name'], symdata)
             libdata.append(unique_symdata)
         else:
-            print("Failed to extract symbol data from cache for ref "+sym['example_ref']+", lib: "+sym['src_lib']+"_"+sym['name'])
+            print("ERROR: Failed to extract symbol data from cache for ref "+sym['example_ref']+", lib: "+sym['src_lib']+"_"+sym['name'])
     return libdata
          
 def deduceLibraryFilename(sym):
@@ -318,7 +326,7 @@ def deduceLibraryFilename(sym):
 
 def writeSymbolsToLibraryFiles(syms, dirname):
     """ Given a list of sym dictionaries
-        Create kicad symbol library files
+        Create kicad symbol library files in dirname
         Symbols will be sorted into files by prefix
         Library files will be created, or overwritten if exists
     """
@@ -426,7 +434,7 @@ def createSymbolsFromBom(input_dir, csv_filename):
         if itemnum_header not in reader.fieldnames:
             reader = csv.DictReader(csvfile)
         if itemnum_header not in reader.fieldnames:
-            print("CSV file does not have correct column names (first two lines scanned)")
+            print("FATAL ERROR: CSV file does not have correct column names (first two lines scanned)")
             quit()
         i=0
         for row in reader:
@@ -439,7 +447,7 @@ def createSymbolsFromBom(input_dir, csv_filename):
             # print("Parsing Row#"+str(i))
             i=i+1
             if len(itemnum) > 0:
-                if len(refslist)>0:
+                if len(refslist)>0 and len(refslist[0])>1:
                     print("Attempting to create new symbol based on refs: "+refslist[0])
                     symbol = createSymbol(refslist, field_list, schdat)
                     if symbol is not None:
@@ -464,8 +472,8 @@ def createSymbolsFromBom(input_dir, csv_filename):
                 extras_idx = extras_idx + 1
                 f_idx = f_idx + 3
 
-    #FixMe: get rid of this hack to read last line
-    if len(refslist)>0:
+    #FixMe: get rid of this duplicate code hack to read last line
+    if len(refslist)>0 and len(refslist[0])>1:
         print("Attempting to create new symbol based on refs: "+refslist[0])
         symbol = createSymbol(refslist, field_list, schdat)
         if symbol is not None:
@@ -495,7 +503,7 @@ if __name__ == "__main__":
     else:
         print("""
 Please specify an input dir with .sch and .lib files
-The default BOM file name is input_dir/bom.csv 
+The default BOM file name is input_dir/bom.csv
 You can specify a different file with the second argument.
 
 Example:
@@ -538,9 +546,10 @@ delete it if you re-do a project.
 You can set the headings of the BOM file at the top of this script. You also
 might just consider renaming your BOM
 
-Todo: Handle BOM files that start with a blank or garbage line.
 Todo: Create unique names for symbols with same name from different projects
 Todo: Allow components in schematics files to be optionally updated with new
 library part name
+Todo: Preserve ALIAS (remove current symbol from list, though)
+Todo: Ensure correct cache-lib is picked, or else print error and quit
 """)
 
