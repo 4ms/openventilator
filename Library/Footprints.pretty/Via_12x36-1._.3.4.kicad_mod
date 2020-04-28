@@ -6,6 +6,6 @@
   (fp_text value Val** (at 0 1.5) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
-  (pad "" thru_hole circle (at 0 0) (size 0.9144 0.9144) (drill 0.3048) (layers F.Cu In2.Cu B.Cu *.Mask)
+  (pad "" thru_hole circle (at 0 0) (size 0.9144 0.9144) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
     (zone_connect 2))
 )
