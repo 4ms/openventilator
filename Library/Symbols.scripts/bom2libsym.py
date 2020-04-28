@@ -15,7 +15,7 @@ manu_header = 'Mfr. Name'
 manuNo_header = 'Mfr. Part Number'
 manuDesc_header = 'Mfr. Part Description'
 
-# These are the file names we should use for common component prefixes. 
+# These are the file names we should use for common component prefixes.
 # If not found here, the library will be named by the prefix (example: Z.lib)
 library_name_prefix_map = {
         "C": "Capacitor",
@@ -93,7 +93,6 @@ def findLibByRefInSchdat(ref, schdat):
         if len(ref_matches) > 0:
             matching_sch = sch
             print("Found library part name for "+ref+": " + ref_matches[0] + " in sheet "+matching_sch)
-            #Todo: report an error if len()>1: duplicate reference found in schematic files
             break
     #Search by RefDes field line (Not sure if F 0 is guarenteed to be RefDes, but seems to be?)
     if matching_sch is None:
@@ -103,7 +102,6 @@ def findLibByRefInSchdat(ref, schdat):
             if len(ref_matches) > 0:
                 matching_sch = sch
                 print("Found ref des "+ref+": " + ref_matches[0] + " in sheet "+matching_sch)
-                #Todo: report an error if len()>1: duplicate reference found in schematic files
                 break
 
     if matching_sch is not None:
@@ -128,7 +126,7 @@ def extractSymFromLib(part_name, libdat):
     return symdat
 
 def removeExtraFields(symdat):
-    """ Given library-format symbol data, 
+    """ Given library-format symbol data,
         Remove fields F4 and up, and ALIAS field
     """
     symdat = re.sub(r'(?m)^F ?(?:[456789]|(?:\d\d)) .*\n','',symdat)
@@ -196,7 +194,7 @@ def createSymbol(refslist, field_list, schdat):
         if lib_id is None:
             print("ERROR: Ref "+ref+" found but symbol library cannot be determined.")
             continue
-        
+
         s = lib_id.split(":")
         if len(s) > 1:
             lib_name = s[0]
@@ -237,7 +235,7 @@ def formatCommonSymNames(syms):
             continue
 
         sym['formatted_name'] = sym['name']
-        try: 
+        try:
             desc = sym['Description']
         except:
             continue
@@ -249,9 +247,9 @@ def formatCommonSymNames(syms):
             sym['formatted_name'] = symbolname
 
     return syms
-                
+
 def makeUniqueNames(syms):
-    """ Given a list of symbol dictionaries, 
+    """ Given a list of symbol dictionaries,
         Find which name fields are duplicated and make them unique
         Return the unique-ified list of dictionaries
     """
@@ -261,7 +259,7 @@ def makeUniqueNames(syms):
         if 'formatted_name' not in sym.keys():
             continue
         if sym['formatted_name'] in uniquenames:
-            dup_names.append(sym['formatted_name']) 
+            dup_names.append(sym['formatted_name'])
         else:
             uniquenames.append(sym['formatted_name'])
 
@@ -305,7 +303,7 @@ def createLibFromCache(syms, src_libdat):
         else:
             print("ERROR: Failed to extract symbol data from cache for ref "+sym['example_ref']+", lib: "+sym['src_lib']+"_"+sym['name'])
     return libdata
-         
+
 def deduceLibraryFilename(sym):
     try:
         prefix = ""
@@ -347,7 +345,7 @@ def writeSymbolsToLibraryFiles(syms, dirname):
     if cache_libdat is None:
         print("ERROR: No cache library found in input dir "+ dirname + "! Cache filename must end in *-cache.lib")
         return
-    
+
     for libfilename, symlist in syms_sorted.items():
         libdata = createLibFromCache(symlist, cache_libdat)
         writeLibFile(libdata, libfilename)
@@ -389,7 +387,7 @@ def exportSymbolListCSV(syms, csv_filename):
     for sym in syms:
         if 'name' not in sym.keys():
             continue
-        row = row + '"' 
+        row = row + '"'
         row = row + sym['Item Number'] + '","'
         row = row + sym['src_lib'] + ':' + sym['name'] + '","'
         row = row + sym['dst_lib'] + ':' + sym['formatted_name'] + '","'
@@ -521,7 +519,7 @@ $ # You can append multiple projects to the same library files:
 $ python3 bom2libsym.py ../anotherProject/ ../myBOMs/anotherBOM.csv
 $
 
-Then from within Kicad, add the new symbol libraries to the project: 
+Then from within Kicad, add the new symbol libraries to the project:
    Preferences > Manage Symbol Libraries > Project Specific Libraries
 **********************************************************************
 
