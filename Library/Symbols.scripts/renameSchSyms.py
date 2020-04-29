@@ -90,8 +90,8 @@ if __name__ == "__main__":
         print("Please specify a csv file")
 
     with open("symbol_rename.err", "a") as log:
-        now = str(datetime.now())
-        log.write("renameSchSyms.py ran: +"now+"\n")
+        tm = str(datetime.datetime.now())
+        log.write("renameSchSyms.py ran: "+tm+"\n")
         log.write(errlog)
     print("Wrote error log to symbol_rename.err")
 
