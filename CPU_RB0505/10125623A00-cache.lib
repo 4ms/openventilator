@@ -1,6 +1,61 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Flipped_Devices_CP_Small
+#
+DEF Flipped_Devices_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Flipped_Devices_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X 1 + 0 100 73 D 50 50 1 1 P
+X 2 - 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flipped_Devices_C_Small
+#
+DEF Flipped_Devices_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Flipped_Devices_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 -100 80 U 50 50 1 1 P
+X ~ 2 0 100 80 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flipped_Devices_R
+#
+DEF Flipped_Devices_R R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "Flipped_Devices_R" 0 0 50 H V C CNN
+F2 "" 0 -70 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Mechanical_Fiducial
 #
 DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
@@ -1457,57 +1512,6 @@ X K 3 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# cpu-board_C0603
-#
-DEF cpu-board_C0603 C 0 40 Y Y 1 L N
-F0 "C" 81 50 64 H V L BNN
-F1 "cpu-board_C0603" 87 -31 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -60 -20 60 -20 N
-P 2 1 0 0 -60 20 60 20 N
-P 2 1 0 0 0 -100 0 -20 N
-P 2 1 0 0 0 100 0 20 N
-X 1 1 0 -100 0 U 0 0 1 0 P
-X 2 2 0 100 0 D 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# cpu-board_C0805
-#
-DEF cpu-board_C0805 C 0 40 Y Y 1 L N
-F0 "C" -87 -62 64 V V L BNN
-F1 "cpu-board_C0805" 137 -62 42 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -60 -20 60 -20 N
-P 2 1 0 0 -60 20 60 20 N
-P 2 1 0 0 0 -100 0 -20 N
-P 2 1 0 0 0 100 0 20 N
-X 1 1 0 -100 0 U 0 0 1 0 P
-X 2 2 0 100 0 D 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# cpu-board_C1206
-#
-DEF cpu-board_C1206 C 0 40 Y Y 1 L N
-F0 "C" 81 12 64 H V L BNN
-F1 "cpu-board_C1206" 87 -68 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -60 -20 60 -20 N
-P 2 1 0 0 -60 20 60 20 N
-P 2 1 0 0 0 -100 0 -20 N
-P 2 1 0 0 0 100 0 20 N
-X 1 1 0 -100 0 U 0 0 1 0 P
-X 2 2 0 100 0 D 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # cpu-board_CD74HCT245M
 #
 DEF cpu-board_CD74HCT245M IC 0 40 Y Y 1 L N
@@ -2550,26 +2554,6 @@ X SOURCE S 50 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# cpu-board_MV100_F50V
-#
-DEF cpu-board_MV100_F50V C 0 40 Y Y 1 F N
-F0 "C" 125 6 56 H V L BNN
-F1 "cpu-board_MV100_F50V" 125 -68 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 900 125 75 85 0 1 0 + Normal 0 L B
-T 900 125 75 85 0 1 0 + Normal 0 L B
-P 2 1 0 0 -75 -25 -62 -25 N
-P 2 1 0 0 -75 25 0 25 N
-P 2 1 0 0 -62 -25 62 -25 N
-P 2 1 0 0 0 25 75 25 N
-P 2 1 0 0 62 -25 75 -25 N
-X + + 0 100 75 D 0 0 1 0 P
-X - - 0 -100 75 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # cpu-board_NC7SZ66
 #
 DEF cpu-board_NC7SZ66 IC 0 40 Y Y 1 L N
@@ -2704,40 +2688,6 @@ P 2 1 0 0 100 60 100 0 N
 P 2 1 0 0 100 62 62 62 N
 X A A -100 0 100 R 0 0 1 0 P
 X K K 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# cpu-board_R0805
-#
-DEF cpu-board_R0805 R 0 40 Y Y 1 L N
-F0 "R" -112 137 64 H V L BNN
-F1 "cpu-board_R0805" -112 75 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 -100 50 N
-P 2 1 0 0 -100 50 100 50 N
-P 2 1 0 0 100 -50 -100 -50 N
-P 2 1 0 0 100 50 100 -50 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# cpu-board_R1206
-#
-DEF cpu-board_R1206 R 0 40 Y Y 1 L N
-F0 "R" -112 137 64 H V L BNN
-F1 "cpu-board_R1206" -112 75 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 -100 50 N
-P 2 1 0 0 -100 50 100 50 N
-P 2 1 0 0 100 -50 -100 -50 N
-P 2 1 0 0 100 50 100 -50 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
@@ -3220,46 +3170,6 @@ P 2 1 0 0 300 300 -300 300 N
 X VSS 1 -200 -500 200 U 50 50 1 0 W
 X RESET/ 2 500 0 200 L 50 50 1 0 B I
 X VCC 3 -200 500 200 D 50 50 1 0 I
-ENDDRAW
-ENDDEF
-#
-# cpu-board_TANTALB
-#
-DEF cpu-board_TANTALB C 0 40 Y Y 1 L N
-F0 "C" 125 6 56 H V L BNN
-F1 "cpu-board_TANTALB" 125 -68 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 900 125 75 85 0 1 0 + Normal 0 L B
-T 900 125 75 85 0 1 0 + Normal 0 L B
-P 2 1 0 0 -75 -25 -62 -25 N
-P 2 1 0 0 -75 25 0 25 N
-P 2 1 0 0 -62 -25 62 -25 N
-P 2 1 0 0 0 25 75 25 N
-P 2 1 0 0 62 -25 75 -25 N
-X + + 0 100 75 D 0 0 1 0 P
-X - - 0 -100 75 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# cpu-board_TANTALD
-#
-DEF cpu-board_TANTALD C 0 40 Y Y 1 L N
-F0 "C" 125 6 56 H V L BNN
-F1 "cpu-board_TANTALD" 125 -68 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 900 125 75 85 0 1 0 + Normal 0 L B
-T 900 125 75 85 0 1 0 + Normal 0 L B
-P 2 1 0 0 -75 -25 -62 -25 N
-P 2 1 0 0 -75 25 0 25 N
-P 2 1 0 0 -62 -25 62 -25 N
-P 2 1 0 0 0 25 75 25 N
-P 2 1 0 0 62 -25 75 -25 N
-X + + 0 100 75 D 0 0 1 0 P
-X - - 0 -100 75 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #

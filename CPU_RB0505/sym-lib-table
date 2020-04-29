@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name cpu-board)(type Legacy)(uri ${KIPRJMOD}/cpu-board.lib)(options "")(descr ""))
+  (lib (name Flipped_Devices)(type Legacy)(uri ${KIPRJMOD}/Flipped_Devices.lib)(options "")(descr ""))
 )

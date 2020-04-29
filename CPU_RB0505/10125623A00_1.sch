@@ -81,7 +81,7 @@ F 3 "" H 14400 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 CB1F8FE5
 P 14700 2150
 AR Path="/CB1F8FE5" Ref="C?"  Part="1" 
@@ -108,7 +108,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14700 2150 50  0001 C CNN "Manufacturer_De
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 A05C1986
 P 7350 9650
 AR Path="/A05C1986" Ref="C?"  Part="1" 
@@ -135,7 +135,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9650 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 93AA069D
 P 7350 9800
 AR Path="/93AA069D" Ref="C?"  Part="1" 
@@ -162,7 +162,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9800 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 5F5D481B
 P 7350 9950
 AR Path="/5F5D481B" Ref="C?"  Part="1" 
@@ -189,7 +189,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9950 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 0EABB629
 P 7350 10100
 AR Path="/0EABB629" Ref="C?"  Part="1" 
@@ -216,7 +216,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10100 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 C9504634
 P 7350 10250
 AR Path="/C9504634" Ref="C?"  Part="1" 
@@ -243,7 +243,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10250 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 AB97CB13
 P 7350 10400
 AR Path="/AB97CB13" Ref="C?"  Part="1" 
@@ -270,7 +270,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10400 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 BCAFF6B0
 P 7350 10550
 AR Path="/BCAFF6B0" Ref="C?"  Part="1" 
@@ -443,7 +443,7 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 7750 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 284AD347
 P 7350 10700
 AR Path="/284AD347" Ref="C?"  Part="1" 
@@ -487,7 +487,7 @@ F 8 "" H 5650 1150 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 E6C7F8B8
 P 5550 1350
 AR Path="/E6C7F8B8" Ref="R?"  Part="1" 
@@ -527,7 +527,7 @@ F 3 "" H 5950 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 967579EA
 P 6550 1300
 AR Path="/967579EA" Ref="C?"  Part="1" 
@@ -570,7 +570,7 @@ F 3 "" H 6550 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:TANTALB C?
+L Flipped_Devices:CP_Small C?
 U 1 1 6D37B6AD
 P 7400 1100
 AR Path="/6D37B6AD" Ref="C?"  Part="1" 
@@ -591,7 +591,7 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 501DA122
 P 8450 1300
 AR Path="/501DA122" Ref="C?"  Part="1" 
@@ -683,7 +683,7 @@ F 3 "" H 8350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0603 C?
+L Flipped_Devices:C_Small C?
 U 1 1 7EE2FFE3
 P 5750 1050
 AR Path="/7EE2FFE3" Ref="C?"  Part="1" 
@@ -707,7 +707,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0603 C?
+L Flipped_Devices:C_Small C?
 U 1 1 5ADCC44B
 P 5550 1050
 AR Path="/5ADCC44B" Ref="C?"  Part="1" 
@@ -757,7 +757,7 @@ F 3 "" H 1800 9950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 C54AB7D0
 P 2200 9550
 AR Path="/C54AB7D0" Ref="R?"  Part="1" 
@@ -784,7 +784,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 1 %, 100 PPM, 56000 OHM, SURFACE 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 BAB36D42
 P 2200 9850
 AR Path="/BAB36D42" Ref="R?"  Part="1" 
@@ -805,7 +805,7 @@ F 11 "PRECISION SURFACE MOUNT RESISTOR" H 2200 9850 50  0001 C CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 597E8BEF
 P 2200 10050
 AR Path="/597E8BEF" Ref="C?"  Part="1" 
@@ -871,7 +871,7 @@ F 3 "" H 6150 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 D628991E
 P 3100 5950
 AR Path="/D628991E" Ref="R?"  Part="1" 
@@ -1028,7 +1028,7 @@ F 3 "" H 1600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 662809D9
 P 11150 1200
 AR Path="/662809D9" Ref="C?"  Part="1" 
@@ -1075,7 +1075,7 @@ F 11 "" H 12400 4300 50  0001 C CNN "Manufacturer_Desc2"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 CEF2471C
 P 12650 4050
 AR Path="/CEF2471C" Ref="R?"  Part="1" 
@@ -1136,7 +1136,7 @@ F 3 "" H 12400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 CCBE402C
 P 12050 7250
 AR Path="/CCBE402C" Ref="R?"  Part="1" 
@@ -1210,7 +1210,7 @@ F 11 "" H 15100 7600 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:C0603 C?
+L Flipped_Devices:C_Small C?
 U 1 1 9A495DAC
 P 12200 7250
 AR Path="/9A495DAC" Ref="C?"  Part="1" 
@@ -1331,7 +1331,7 @@ F 3 "" H 5100 10750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 F7CB6097
 P 4800 10950
 AR Path="/F7CB6097" Ref="R?"  Part="1" 
@@ -1361,7 +1361,7 @@ F 20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 10000 OHM, SURFACE 
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 7614D321
 P 4800 10550
 AR Path="/7614D321" Ref="C?"  Part="1" 
@@ -1440,7 +1440,7 @@ F 3 "" H 9900 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:C0805 C?
+L Flipped_Devices:C_Small C?
 U 1 1 150190AD
 P 10200 3250
 AR Path="/150190AD" Ref="C?"  Part="1" 
@@ -1479,7 +1479,7 @@ F 3 "" H 11900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 C18C78EC
 P 8500 950
 AR Path="/C18C78EC" Ref="R?"  Part="1" 
@@ -2139,7 +2139,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 1500 7950 1100
 $Comp
-L cpu-board:TANTALB C?
+L Flipped_Devices:CP_Small C?
 U 1 1 6F4029DE
 P 8250 1300
 AR Path="/6F4029DE" Ref="C?"  Part="1" 
@@ -2171,15 +2171,11 @@ Wire Wire Line
 Wire Wire Line
 	8250 1100 8250 950 
 Wire Wire Line
-	8250 950  8300 950 
-Wire Wire Line
 	7400 1250 7400 1200
 Wire Wire Line
 	7400 1000 7400 950 
 Wire Wire Line
 	7400 950  7250 950 
-Wire Wire Line
-	7150 950  7150 1000
 Wire Wire Line
 	7250 950  7250 1600
 Connection ~ 7250 950 
@@ -2192,8 +2188,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 1500 6450 1500
 Connection ~ 7150 1500
-Wire Wire Line
-	7150 1500 7150 1400
 Wire Wire Line
 	6450 1600 6450 1500
 Wire Wire Line
@@ -2236,9 +2230,6 @@ Connection ~ 6350 1500
 Connection ~ 6150 1500
 Wire Wire Line
 	6150 1500 6150 1250
-Connection ~ 5550 1150
-Wire Wire Line
-	5550 1600 5550 1550
 Wire Wire Line
 	5750 1600 5750 1150
 Connection ~ 5750 1150
@@ -2425,10 +2416,6 @@ Wire Wire Line
 	4300 5750 2600 5750
 Wire Wire Line
 	2600 5850 2800 5850
-Wire Wire Line
-	4300 5950 3300 5950
-Wire Wire Line
-	2900 5950 2800 5950
 Wire Wire Line
 	2800 5950 2800 5850
 Connection ~ 2800 5850
@@ -2872,8 +2859,6 @@ Wire Wire Line
 	12400 4050 12400 4100
 Connection ~ 12400 4050
 Wire Wire Line
-	12400 4050 12450 4050
-Wire Wire Line
 	12400 4400 12400 4450
 Wire Wire Line
 	11350 3350 11350 4050
@@ -2882,7 +2867,7 @@ Wire Wire Line
 Wire Wire Line
 	11700 3600 11700 3250
 Wire Wire Line
-	11700 3250 12050 3250
+	11700 3250 11950 3250
 Wire Wire Line
 	12000 3550 12000 3600
 Wire Wire Line
@@ -3297,24 +3282,16 @@ Wire Wire Line
 Wire Wire Line
 	4250 8300 4250 10450
 Wire Wire Line
-	2400 9550 2650 9550
-Wire Wire Line
 	2650 9550 2650 9850
 Wire Wire Line
 	2650 10050 2300 10050
-Wire Wire Line
-	2400 9850 2650 9850
 Connection ~ 2650 9850
 Wire Wire Line
 	2650 9850 2650 10050
 Wire Wire Line
-	1650 9550 2000 9550
-Wire Wire Line
 	1800 9950 1900 9950
 Wire Wire Line
 	1900 9950 1900 9850
-Wire Wire Line
-	1900 9850 2000 9850
 Wire Wire Line
 	1900 9950 1900 10050
 Wire Wire Line
@@ -3359,16 +3336,12 @@ Wire Wire Line
 Wire Wire Line
 	5050 10550 5050 10750
 Wire Wire Line
-	5050 10950 5000 10950
-Wire Wire Line
 	5050 10750 5100 10750
 Connection ~ 5050 10750
 Wire Wire Line
 	5050 10750 5050 10950
 Wire Wire Line
 	4400 10550 4400 10950
-Wire Wire Line
-	4400 10950 4600 10950
 Wire Wire Line
 	11050 1200 10950 1200
 Wire Wire Line
@@ -3560,8 +3533,6 @@ Wire Wire Line
 Wire Wire Line
 	11750 7700 12050 7700
 Wire Wire Line
-	12050 7700 12050 7450
-Wire Wire Line
 	12050 7700 12050 7750
 Connection ~ 12050 7700
 Wire Wire Line
@@ -3592,10 +3563,8 @@ F 14 "N-CHANNEL TRENCHMOS FET" H 11850 6650 50  0001 C CNN "Manufacturer_Desc3"
 	1    11850 6650
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	12050 7050 12050 6700
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 CBBF32AF
 P 12450 6700
 AR Path="/CBBF32AF" Ref="R?"  Part="1" 
@@ -3620,8 +3589,6 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 1 %, 100 PPM, 22000 OHM, SURFACE 
 $EndComp
 Wire Wire Line
 	12200 7150 12200 6700
-Wire Wire Line
-	12200 6700 12250 6700
 Wire Wire Line
 	12200 6700 12050 6700
 Connection ~ 12200 6700
@@ -3657,8 +3624,6 @@ Wire Wire Line
 	12650 6400 12650 6600
 Connection ~ 12650 6600
 Wire Wire Line
-	12650 6600 12650 6700
-Wire Wire Line
 	12850 5950 13000 5950
 Wire Wire Line
 	13000 5950 13000 6900
@@ -3680,7 +3645,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 6850 14900 6800
 $Comp
-L cpu-board:C0603 C?
+L Flipped_Devices:C_Small C?
 U 1 1 C17297D4
 P 14150 7300
 AR Path="/C17297D4" Ref="C?"  Part="1" 
@@ -3730,10 +3695,7 @@ $EndComp
 Wire Wire Line
 	13300 6900 13300 6850
 Wire Wire Line
-	12650 6700 12650 7350
-Wire Wire Line
 	12650 7350 12700 7350
-Connection ~ 12650 6700
 Wire Wire Line
 	13650 7300 13650 7150
 Wire Wire Line
@@ -3744,7 +3706,7 @@ Wire Wire Line
 	13650 7500 13600 7500
 Connection ~ 13650 7300
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 CC254D70
 P 13800 7700
 AR Path="/CC254D70" Ref="R?"  Part="1" 
@@ -3790,10 +3752,6 @@ Wire Wire Line
 Wire Wire Line
 	13950 7950 13800 7950
 Connection ~ 13800 7950
-Wire Wire Line
-	13800 7950 13800 7900
-Wire Wire Line
-	13800 7500 13800 7300
 Connection ~ 13800 7300
 Wire Wire Line
 	13800 7300 13650 7300
@@ -3863,7 +3821,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1550 5950 1600
 $Comp
-L cpu-board:R0805 R?
+L Flipped_Devices:R R?
 U 1 1 E7C109B0
 P 7150 1200
 AR Path="/E7C109B0" Ref="R?"  Part="1" 
@@ -3906,6 +3864,70 @@ Wire Wire Line
 	15000 1975 15000 2150
 Wire Wire Line
 	11850 2350 12000 2350
+$Comp
+L power:PWR_FLAG #FLG0112
+U 1 1 600E17E9
+P 11950 3250
+F 0 "#FLG0112" H 11950 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 12100 3400 50  0000 C CNN
+F 2 "" H 11950 3250 50  0001 C CNN
+F 3 "~" H 11950 3250 50  0001 C CNN
+	1    11950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 6600 12650 6700
+Wire Wire Line
+	5550 1200 5550 1150
+Connection ~ 5550 1150
+Wire Wire Line
+	5550 1500 5550 1600
+Wire Wire Line
+	7150 950  7150 1050
+Wire Wire Line
+	7150 1350 7150 1500
+Wire Wire Line
+	8250 950  8350 950 
+Wire Wire Line
+	8650 950  8700 950 
+Wire Wire Line
+	12400 4050 12500 4050
+Wire Wire Line
+	12800 4050 12850 4050
+Connection ~ 11950 3250
+Wire Wire Line
+	11950 3250 12050 3250
+Wire Wire Line
+	2800 5950 2950 5950
+Wire Wire Line
+	3250 5950 4300 5950
+Wire Wire Line
+	2350 9550 2650 9550
+Wire Wire Line
+	1650 9550 2050 9550
+Wire Wire Line
+	1900 9850 2050 9850
+Wire Wire Line
+	2350 9850 2650 9850
+Wire Wire Line
+	4400 10950 4650 10950
+Wire Wire Line
+	4950 10950 5050 10950
+Wire Wire Line
+	12050 7400 12050 7700
+Wire Wire Line
+	12050 6700 12050 7100
+Wire Wire Line
+	12200 6700 12300 6700
+Wire Wire Line
+	12600 6700 12650 6700
+Connection ~ 12650 6700
+Wire Wire Line
+	12650 6700 12650 7350
+Wire Wire Line
+	13800 7300 13800 7550
+Wire Wire Line
+	13800 7850 13800 7950
 Wire Bus Line
 	15950 2650 15950 4250
 Wire Bus Line
@@ -3916,16 +3938,4 @@ Wire Bus Line
 	8700 3750 8700 5850
 Wire Bus Line
 	8700 2050 8700 3650
-$Comp
-L power:PWR_FLAG #FLG0112
-U 1 1 600E17E9
-P 11700 3250
-F 0 "#FLG0112" H 11700 3325 50  0001 C CNN
-F 1 "PWR_FLAG" H 11700 3423 50  0000 C CNN
-F 2 "" H 11700 3250 50  0001 C CNN
-F 3 "~" H 11700 3250 50  0001 C CNN
-	1    11700 3250
-	1    0    0    -1  
-$EndComp
-Connection ~ 11700 3250
 $EndSCHEMATC
