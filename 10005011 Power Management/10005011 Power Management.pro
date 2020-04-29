@@ -1,4 +1,4 @@
-update=Sun 19 Apr 2020 09:00:53 PM CEST
+update=Wed 29 Apr 2020 11:09:39 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -37,15 +37,15 @@ CopperLayerCount=6
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
-RequireCourtyardDefinitions=1
-ProhibitOverlappingCourtyards=1
+RequireCourtyardDefinitions=0
+ProhibitOverlappingCourtyards=0
 MinTrackWidth=0.2
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.254
-TrackWidth1=0.25
+TrackWidth1=0.2
 TrackWidth2=0.5
 ViaDiameter1=0.9144
 ViaDrill1=0.3048
@@ -245,8 +245,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
-TrackWidth=0.25
+Clearance=0.15
+TrackWidth=0.2
 ViaDiameter=0.9144
 ViaDrill=0.3048
 uViaDiameter=0.3
