@@ -268,6 +268,890 @@
     (add_net VCHARG)
   )
 
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 143.1974 99.6288)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V1	(at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +5V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 1 +5V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 132.504 70.4188)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V2 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +5V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 1 +5V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 181.1958 91.3738)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V3 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +5V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 1 +5V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 144.7468 93.0248)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V4 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +5V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 1 +5V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 174.1092 101.9148)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V5 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +5V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 1 +5V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 128.2876 107.1218)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V6 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value BUZ-ACT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 3 BUZ-ACT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 181.8816 93.482)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V7 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value BUZ-ACT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 3 BUZ-ACT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 167.3528 103.0578)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V8 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value BUZ-ACT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 3 BUZ-ACT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 180.3068 105.4962)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V9 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value BUZ-ACT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 3 BUZ-ACT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 125.6968 78.1658)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V10 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ-CPU (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 4 SUPPLY-BUZ-CPU) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 124.5538 87.1828)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V11 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ-CPU (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 4 SUPPLY-BUZ-CPU) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 156.4308 74.5844)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V12 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value -12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 5 -12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 170.1468 75.2448)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V13 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value -12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 5 -12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 149.4204 84.1348)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V14 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value -12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 5 -12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 173.1948 99.7558)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V15 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value -12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 5 -12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 130.1418 90.1038)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V16 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$78 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 8 N$78) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 125.1888 90.1038)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V17 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$78 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 8 N$78) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 139.1588 101.5338)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V18 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$58 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 10 N$58) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 127.2208 104.5818)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V19 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$58 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 10 N$58) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 182.4658 73.8478)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V20 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$31 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 47 N$31) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 183.3548 83.1188)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V21 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value GT1 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 48 GT1) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 186.9108 69.5298)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V22 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value GT1 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 48 GT1) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 156.4308 69.7584)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V23 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 54 +12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 179.9258 70.3934)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V24 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 54 +12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 163.7968 71.6888)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V25 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 54 +12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 140.4288 85.5318)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V26 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 54 +12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 141.5718 92.847)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V27 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 54 +12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 176.7508 93.4058)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V28 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value +12V (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 54 +12V) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 135.4758 107.198)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V29 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value BATTV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 61 BATTV) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 161.1298 84.5158)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V30 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$19 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 62 N$19) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 172.5598 71.9936)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V31 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$18 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 63 N$18) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 179.748 78.5468)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V32 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$18 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 63 N$18) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 164.3048 100.1368)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V33 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 148.0488 75.1178)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V34 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 144.5436 75.1178)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V35 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 144.5436 74.178)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V36 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 140.9114 71.9428)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V37 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 146.2708 72.0698)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V38 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 152.0112 71.9428)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V39 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 148.0488 74.178)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V40 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 137.6348 68.1328)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V41 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 137.6348 69.9108)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V42 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 137.6348 71.1808)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V43 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 137.6348 72.9588)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V44 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 137.6348 74.2288)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V45 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 137.6348 76.0068)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V46 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value N$10 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 71 N$10) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 182.0086 90.2308)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V47 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value STOP-INV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 74 STOP-INV) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 169.8928 114.4878)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V48 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value STOP-INV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 74 STOP-INV) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 137.8126 87.132)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V49 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VCHARG (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 75 VCHARG) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 166.4638 104.4548)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V50 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VCHARG (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 75 VCHARG) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 139.6668 107.3758)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V51 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VCHARG (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 75 VCHARG) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 148.5568 93.6598)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V52 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VCHARG (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 75 VCHARG) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 174.541 80.5788)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V53 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VBAT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 76 VBAT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 146.8042 92.1358)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V54 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VBAT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 76 VBAT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 168.572 100.6448)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V55 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value VBAT (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 76 VBAT) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 130.9038 73.5938)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V56 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 77 SUPPLY-BUZ) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 173.3218 86.5478)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V57 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 77 SUPPLY-BUZ) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 166.2098 87.1574)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V58 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 77 SUPPLY-BUZ) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 159.2756 87.1828)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V59 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 77 SUPPLY-BUZ) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 132.9358 103.769)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V60 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SUPPLY-BUZ (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 77 SUPPLY-BUZ) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 160.7488 94.0408)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V61 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SHDN2 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 79 SHDN2) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 147.0836 76.718)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V62 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SHDN2 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 79 SHDN2) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 155.3386 94.0408)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V63 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SHDN1 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 80 SHDN1) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F) (tstamp 5EA895CB)
+    (at 145.5088 76.718)
+    (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+    (fp_text reference V64 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value SHDN1 (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu)
+      (net 80 SHDN1) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 144.1118 113.9798)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V65 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value INHIB-STOP-INV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 81 INHIB-STOP-INV) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 144.1118 105.5978)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V66 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value INHIB-STOP-INV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 81 INHIB-STOP-INV) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 182.8976 91.3738)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V67 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value INHIB-STOP-INV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 81 INHIB-STOP-INV) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 (layer F.Cu) (tedit 5EA5AE00) (tstamp 5EA891C9)
+    (at 167.6068 114.4878)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (fp_text reference V68 (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text value INHIB-STOP-INV (at 0 1.5) (layer F.SilkS) hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu In2.Cu B.Cu)
+      (net 81 INHIB-STOP-INV) (zone_connect 2))
+  )
+
   (module PKM33EPH-1201C_1 (layer F.Cu) (tedit 0) (tstamp 0)
     (at 170.0198 96.53 270)
     (attr smd)
@@ -3941,11 +4825,6 @@
   (segment (start 144.2388 120.2028) (end 144.2388 118.2978) (width 0.127) (layer In2.Cu) (net 0))
   (segment (start 142.3338 120.2028) (end 144.2388 120.2028) (width 0.127) (layer In2.Cu) (net 0))
   (segment (start 142.3338 120.2028) (end 142.3338 118.2978) (width 0.127) (layer In2.Cu) (net 0))
-  (via (at 143.1974 99.6288) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
-  (via (at 132.504 70.4188) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
-  (via (at 181.1958 91.3738) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
-  (via (at 144.7468 93.0248) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
-  (via (at 174.1092 101.9148) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
   (segment (start 143.1974 102.4228) (end 143.1974 99.6288) (width 0.2032) (layer F.Cu) (net 1))
   (segment (start 143.1974 102.4228) (end 144.1372 102.4228) (width 0.2032) (layer F.Cu) (net 1))
   (segment (start 144.1372 102.4228) (end 144.1372 102.4228) (width 0.2032) (layer F.Cu) (net 1))
@@ -3999,10 +4878,6 @@
   (segment (start 122.7758 80.1978) (end 123.9188 80.1978) (width 0.2032) (layer F.Cu) (net 2))
   (segment (start 122.6742 80.3248) (end 122.7758 80.1978) (width 0.2032) (layer F.Cu) (net 2))
   (segment (start 122.6742 81.0106) (end 122.6742 80.3248) (width 0.2032) (layer F.Cu) (net 2))
-  (via (at 128.2876 107.1218) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 3))
-  (via (at 181.8816 93.482) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 3))
-  (via (at 167.3528 103.0578) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 3))
-  (via (at 180.3068 105.4962) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 3))
   (segment (start 128.2876 107.1218) (end 128.2876 102.6768) (width 0.2032) (layer F.Cu) (net 3))
   (segment (start 128.2876 102.6768) (end 128.3638 102.6006) (width 0.2032) (layer F.Cu) (net 3))
   (segment (start 167.3528 103.0578) (end 168.572 103.0578) (width 0.2032) (layer F.Cu) (net 3))
@@ -4020,8 +4895,6 @@
   (segment (start 169.7912 105.4962) (end 180.3068 105.4962) (width 0.2032) (layer In2.Cu) (net 3))
   (segment (start 180.3068 105.4962) (end 180.3068 95.0568) (width 0.2032) (layer In2.Cu) (net 3))
   (segment (start 180.3068 95.0568) (end 181.8816 93.482) (width 0.2032) (layer In2.Cu) (net 3))
-  (via (at 125.6968 78.1658) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 4))
-  (via (at 124.5538 87.1828) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 4))
   (segment (start 123.8426 87.894) (end 124.5538 87.1828) (width 0.2032) (layer F.Cu) (net 4))
   (segment (start 123.8426 107.198) (end 123.8426 87.894) (width 0.2032) (layer F.Cu) (net 4))
   (segment (start 123.8426 107.198) (end 129.5068 112.8368) (width 0.2032) (layer F.Cu) (net 4))
@@ -4035,10 +4908,6 @@
   (segment (start 125.6968 78.1658) (end 125.6968 75.7528) (width 0.2032) (layer F.Cu) (net 4))
   (segment (start 124.5538 79.3088) (end 125.6968 78.1658) (width 0.2032) (layer In2.Cu) (net 4))
   (segment (start 124.5538 87.1828) (end 124.5538 79.3088) (width 0.2032) (layer In2.Cu) (net 4))
-  (via (at 156.4308 74.5844) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 5))
-  (via (at 170.1468 75.2448) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 5))
-  (via (at 149.4204 84.1348) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 5))
-  (via (at 173.1948 99.7558) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 5))
   (segment (start 174.033 76.337) (end 175.2776 76.337) (width 0.2032) (layer F.Cu) (net 5))
   (segment (start 175.2776 76.337) (end 177.2588 78.2928) (width 0.2032) (layer F.Cu) (net 5))
   (segment (start 177.2588 78.2928) (end 178.5288 78.2928) (width 0.2032) (layer F.Cu) (net 5))
@@ -4086,8 +4955,6 @@
   (segment (start 118.8388 71.3078) (end 118.8388 69.5298) (width 0.2032) (layer F.Cu) (net 7))
   (segment (start 118.8388 71.3078) (end 120.1088 72.5778) (width 0.2032) (layer F.Cu) (net 7))
   (segment (start 120.1088 75.7528) (end 120.1088 72.5778) (width 0.2032) (layer F.Cu) (net 7))
-  (via (at 130.1418 90.1038) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 8))
-  (via (at 125.1888 90.1038) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 8))
   (segment (start 153.1796 110.627) (end 153.1796 109.7888) (width 0.2032) (layer F.Cu) (net 8))
   (segment (start 151.3508 112.4558) (end 153.1796 110.627) (width 0.2032) (layer F.Cu) (net 8))
   (segment (start 129.7608 112.4558) (end 151.3508 112.4558) (width 0.2032) (layer F.Cu) (net 8))
@@ -4103,8 +4970,6 @@
   (segment (start 150.9698 95.6918) (end 152.3668 95.6918) (width 0.2032) (layer F.Cu) (net 9))
   (segment (start 152.3668 95.6918) (end 152.6208 95.9458) (width 0.2032) (layer F.Cu) (net 9))
   (segment (start 152.6208 96.9364) (end 152.6208 95.9458) (width 0.2032) (layer F.Cu) (net 9))
-  (via (at 139.1588 101.5338) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 10))
-  (via (at 127.2208 104.5818) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 10))
   (segment (start 139.1588 101.5338) (end 139.6668 101.0258) (width 0.2032) (layer F.Cu) (net 10))
   (segment (start 139.6668 101.0258) (end 141.3432 101.0258) (width 0.2032) (layer F.Cu) (net 10))
   (segment (start 141.3432 101.0258) (end 141.3686 101.0766) (width 0.2032) (layer F.Cu) (net 10))
@@ -4408,7 +5273,6 @@
   (segment (start 181.3228 77.1752) (end 181.3228 72.4762) (width 0.2032) (layer F.Cu) (net 46))
   (segment (start 181.3228 77.1752) (end 181.5006 77.1752) (width 0.2032) (layer F.Cu) (net 46))
   (segment (start 181.5006 77.1752) (end 181.526 77.226) (width 0.2032) (layer F.Cu) (net 46))
-  (via (at 182.4658 73.8478) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 47))
   (segment (start 182.4658 75.0924) (end 182.4658 73.8478) (width 0.2032) (layer F.Cu) (net 47))
   (segment (start 161.5108 116.85) (end 161.5108 111.2366) (width 0.508) (layer In2.Cu) (net 47))
   (segment (start 161.5108 116.85) (end 164.1016 119.4408) (width 0.508) (layer In2.Cu) (net 47))
@@ -4420,8 +5284,6 @@
   (segment (start 182.4658 87.0558) (end 185.6916 90.307) (width 0.508) (layer In2.Cu) (net 47))
   (segment (start 182.4658 87.0558) (end 182.4658 73.8478) (width 0.508) (layer In2.Cu) (net 47))
   (segment (start 150.7158 105.0644) (end 161.5108 111.2366) (width 0.508) (layer In2.Cu) (net 47))
-  (via (at 183.3548 83.1188) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 48))
-  (via (at 186.9108 69.5298) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 48))
   (segment (start 183.3294 83.0934) (end 183.3548 83.1188) (width 0.2032) (layer F.Cu) (net 48))
   (segment (start 179.748 83.0934) (end 183.3294 83.0934) (width 0.2032) (layer F.Cu) (net 48))
   (segment (start 176.4968 86.5478) (end 179.4178 86.5478) (width 0.2032) (layer F.Cu) (net 48))
@@ -4478,12 +5340,6 @@
   (segment (start 179.7988 98.7398) (end 181.018 98.7398) (width 0.2032) (layer F.Cu) (net 53))
   (segment (start 177.7922 98.7398) (end 179.7988 98.7398) (width 0.2032) (layer F.Cu) (net 53))
   (segment (start 177.7922 98.7398) (end 177.7922 98.6128) (width 0.2032) (layer F.Cu) (net 53))
-  (via (at 156.4308 69.7584) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 54))
-  (via (at 179.9258 70.3934) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 54))
-  (via (at 163.7968 71.6888) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 54))
-  (via (at 140.4288 85.5318) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 54))
-  (via (at 141.5718 92.847) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 54))
-  (via (at 176.7508 93.4058) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 54))
   (segment (start 142.5878 94.2948) (end 143.0958 94.2948) (width 0.2032) (layer F.Cu) (net 54))
   (segment (start 143.0958 94.2948) (end 143.8578 95.0568) (width 0.2032) (layer F.Cu) (net 54))
   (segment (start 143.8578 98.7398) (end 143.8578 95.0568) (width 0.2032) (layer F.Cu) (net 54))
@@ -4600,7 +5456,6 @@
   (segment (start 132.0214 108.7474) (end 135.0948 111.8208) (width 0.635) (layer B.Cu) (net 60))
   (segment (start 135.0948 114.6148) (end 135.0948 111.8208) (width 0.635) (layer B.Cu) (net 60))
   (segment (start 135.0948 117.1548) (end 135.0948 114.6148) (width 0.635) (layer B.Cu) (net 60))
-  (via (at 135.4758 107.198) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 61))
   (segment (start 135.4758 107.198) (end 135.4758 105.42) (width 0.7874) (layer F.Cu) (net 61))
   (segment (start 135.4758 105.42) (end 135.6028 105.293) (width 0.7874) (layer F.Cu) (net 61))
   (segment (start 135.6028 105.293) (end 136.568 105.293) (width 0.7874) (layer F.Cu) (net 61))
@@ -4612,7 +5467,6 @@
   (segment (start 135.9838 86.8018) (end 137.0252 85.7604) (width 0.7874) (layer B.Cu) (net 61))
   (segment (start 135.9838 106.69) (end 135.9838 86.8018) (width 0.7874) (layer B.Cu) (net 61))
   (segment (start 135.4758 107.198) (end 135.9838 106.69) (width 0.7874) (layer B.Cu) (net 61))
-  (via (at 161.1298 84.5158) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 62))
   (segment (start 161.1298 84.5158) (end 161.1298 80.6296) (width 0.2032) (layer F.Cu) (net 62))
   (segment (start 161.0282 80.528) (end 161.1298 80.6296) (width 0.2032) (layer F.Cu) (net 62))
   (segment (start 161.0282 80.528) (end 161.1298 80.4264) (width 0.2032) (layer F.Cu) (net 62))
@@ -4633,8 +5487,6 @@
   (segment (start 156.8118 99.8828) (end 162.0188 94.6758) (width 0.508) (layer In2.Cu) (net 62))
   (segment (start 162.0188 94.6758) (end 162.0188 85.4048) (width 0.508) (layer In2.Cu) (net 62))
   (segment (start 161.1298 84.5158) (end 162.0188 85.4048) (width 0.508) (layer In2.Cu) (net 62))
-  (via (at 172.5598 71.9936) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 63))
-  (via (at 179.748 78.5468) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 63))
   (segment (start 172.5598 71.9936) (end 173.4488 71.9936) (width 0.2032) (layer F.Cu) (net 63))
   (segment (start 179.748 78.5976) (end 179.748 78.5468) (width 0.2032) (layer F.Cu) (net 63))
   (segment (start 179.748 78.5468) (end 179.748 77.1752) (width 0.2032) (layer F.Cu) (net 63))
@@ -4686,20 +5538,6 @@
   (segment (start 170.4008 91.6278) (end 170.4008 91.2468) (width 0.2032) (layer F.Cu) (net 70))
   (segment (start 170.4008 91.2468) (end 170.4008 90.18) (width 0.2032) (layer F.Cu) (net 70))
   (segment (start 169.6642 91.2468) (end 170.4008 91.2468) (width 0.2032) (layer F.Cu) (net 70))
-  (via (at 164.3048 100.1368) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 148.0488 75.1178) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 144.5436 75.1178) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 144.5436 74.178) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 140.9114 71.9428) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 146.2708 72.0698) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 152.0112 71.9428) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 148.0488 74.178) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 137.6348 68.1328) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 137.6348 69.9108) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 137.6348 71.1808) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 137.6348 72.9588) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 137.6348 74.2288) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
-  (via (at 137.6348 76.0068) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 71))
   (segment (start 151.1222 71.9428) (end 152.0112 71.9428) (width 0.4064) (layer F.Cu) (net 71))
   (segment (start 140.9114 71.9428) (end 141.775 71.9428) (width 0.4064) (layer F.Cu) (net 71))
   (segment (start 146.2708 72.0698) (end 146.2708 70.6982) (width 0.4064) (layer F.Cu) (net 71))
@@ -5350,8 +6188,6 @@
   (segment (start 123.995 81.0106) (end 127.0938 77.9118) (width 0.2032) (layer F.Cu) (net 73))
   (segment (start 123.4616 81.0106) (end 123.995 81.0106) (width 0.2032) (layer F.Cu) (net 73))
   (segment (start 123.4616 82.5854) (end 123.4616 81.0106) (width 0.2032) (layer F.Cu) (net 73))
-  (via (at 182.0086 90.2308) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 74))
-  (via (at 169.8928 114.4878) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 74))
   (segment (start 167.7338 116.6468) (end 169.8928 114.4878) (width 0.2032) (layer F.Cu) (net 74))
   (segment (start 131.2848 116.6468) (end 167.7338 116.6468) (width 0.2032) (layer F.Cu) (net 74))
   (segment (start 122.6996 108.087) (end 131.2848 116.6468) (width 0.2032) (layer F.Cu) (net 74))
@@ -5373,10 +6209,6 @@
   (segment (start 175.7348 112.5828) (end 182.3388 105.9788) (width 0.2032) (layer In2.Cu) (net 74))
   (segment (start 171.7978 112.5828) (end 175.7348 112.5828) (width 0.2032) (layer In2.Cu) (net 74))
   (segment (start 169.8928 114.4878) (end 171.7978 112.5828) (width 0.2032) (layer In2.Cu) (net 74))
-  (via (at 137.8126 87.132) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 75))
-  (via (at 166.4638 104.4548) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 75))
-  (via (at 139.6668 107.3758) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 75))
-  (via (at 148.5568 93.6598) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 75))
   (segment (start 148.506 95.3108) (end 148.5568 95.2854) (width 0.2032) (layer F.Cu) (net 75))
   (segment (start 147.871 95.3108) (end 148.506 95.3108) (width 0.2032) (layer F.Cu) (net 75))
   (segment (start 147.236 95.9712) (end 147.871 95.3108) (width 0.2032) (layer F.Cu) (net 75))
@@ -5418,9 +6250,6 @@
   (segment (start 146.7788 104.4548) (end 149.1918 102.0418) (width 0.127) (layer In2.Cu) (net 75))
   (segment (start 142.5878 104.4548) (end 146.7788 104.4548) (width 0.127) (layer In2.Cu) (net 75))
   (segment (start 139.6668 107.3758) (end 142.5878 104.4548) (width 0.127) (layer In2.Cu) (net 75))
-  (via (at 174.541 80.5788) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 76))
-  (via (at 146.8042 92.1358) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 76))
-  (via (at 168.572 100.6448) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 76))
   (segment (start 168.572 101.6608) (end 168.572 100.6448) (width 0.2032) (layer F.Cu) (net 76))
   (segment (start 174.541 81.5948) (end 174.541 80.5788) (width 0.2032) (layer F.Cu) (net 76))
   (segment (start 174.541 82.0266) (end 174.541 81.5948) (width 0.2032) (layer F.Cu) (net 76))
@@ -5441,11 +6270,6 @@
   (segment (start 165.0922 97.1904) (end 168.572 100.6448) (width 0.2032) (layer In2.Cu) (net 76))
   (segment (start 172.89 82.2298) (end 174.541 80.5788) (width 0.2032) (layer In2.Cu) (net 76))
   (segment (start 165.0922 82.2298) (end 172.89 82.2298) (width 0.2032) (layer In2.Cu) (net 76))
-  (via (at 130.9038 73.5938) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 77))
-  (via (at 173.3218 86.5478) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 77))
-  (via (at 166.2098 87.1574) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 77))
-  (via (at 159.2756 87.1828) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 77))
-  (via (at 132.9358 103.769) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 77))
   (segment (start 130.4974 75.1178) (end 132.504 75.1178) (width 0.2032) (layer F.Cu) (net 77))
   (segment (start 166.1082 89.0878) (end 166.2352 89.2148) (width 0.2032) (layer F.Cu) (net 77))
   (segment (start 166.1082 89.0878) (end 167.8608 89.0878) (width 0.2032) (layer F.Cu) (net 77))
@@ -5491,8 +6315,6 @@
   (segment (start 170.2738 97.3428) (end 170.5278 97.5968) (width 0.2032) (layer F.Cu) (net 78))
   (segment (start 169.6642 97.3428) (end 170.2738 97.3428) (width 0.2032) (layer F.Cu) (net 78))
   (segment (start 169.6642 98.4858) (end 170.5278 98.4858) (width 0.2032) (layer F.Cu) (net 78))
-  (via (at 160.7488 94.0408) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 79))
-  (via (at 147.0836 76.718) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 79))
   (segment (start 147.0836 76.718) (end 147.0836 72.8318) (width 0.4064) (layer F.Cu) (net 79))
   (segment (start 147.0836 72.8318) (end 147.9726 71.9428) (width 0.4064) (layer F.Cu) (net 79))
   (segment (start 147.9726 71.9428) (end 150.03 71.9428) (width 0.4064) (layer F.Cu) (net 79))
@@ -5507,8 +6329,6 @@
   (segment (start 160.7488 94.0408) (end 160.7488 91.323) (width 0.254) (layer B.Cu) (net 79))
   (segment (start 147.0836 77.6578) (end 160.7488 91.323) (width 0.254) (layer B.Cu) (net 79))
   (segment (start 147.0836 77.6578) (end 147.0836 76.718) (width 0.254) (layer B.Cu) (net 79))
-  (via (at 155.3386 94.0408) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 80))
-  (via (at 145.5088 76.718) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 80))
   (segment (start 145.5088 76.718) (end 145.5088 72.908) (width 0.4064) (layer F.Cu) (net 80))
   (segment (start 144.5436 71.9428) (end 145.5088 72.908) (width 0.4064) (layer F.Cu) (net 80))
   (segment (start 142.8672 71.9428) (end 144.5436 71.9428) (width 0.4064) (layer F.Cu) (net 80))
@@ -5522,10 +6342,6 @@
   (segment (start 145.7628 78.8008) (end 145.7628 76.972) (width 0.254) (layer F.Cu) (net 80))
   (segment (start 145.5088 76.718) (end 155.3386 86.5478) (width 0.254) (layer B.Cu) (net 80))
   (segment (start 155.3386 94.0408) (end 155.3386 86.5478) (width 0.254) (layer B.Cu) (net 80))
-  (via (at 144.1118 113.9798) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 81))
-  (via (at 144.1118 105.5978) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 81))
-  (via (at 182.8976 91.3738) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 81))
-  (via (at 167.6068 114.4878) (size 0.8128) (drill 0.3048) (layers F.Cu B.Cu) (net 81))
   (segment (start 144.1118 115.8848) (end 144.1118 113.9798) (width 0.2032) (layer F.Cu) (net 81))
   (segment (start 166.2098 115.8848) (end 167.6068 114.4878) (width 0.2032) (layer F.Cu) (net 81))
   (segment (start 144.1118 115.8848) (end 166.2098 115.8848) (width 0.2032) (layer F.Cu) (net 81))
