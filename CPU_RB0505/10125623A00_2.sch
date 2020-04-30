@@ -196,7 +196,7 @@ F 3 "" H 4750 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C33
+L Capacitor:C0402_100nF_16V_10% C33
 U 1 1 C9502F30
 P 4250 1700
 F 0 "C33" V 4475 1594 64  0000 L BNN
@@ -221,7 +221,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4250 1700 50  0001 C CNN "Manufacturer_Des
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C37
+L Capacitor:C0402_100nF_16V_10% C37
 U 1 1 235E1F38
 P 5250 1700
 F 0 "C37" V 5475 1607 64  0000 L BNN
@@ -257,7 +257,7 @@ F 3 "" H 5550 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C2
+L Capacitor:C0402_100nF_16V_10% C2
 U 1 1 6D294609
 P 12300 1300
 F 0 "C2" V 12462 1369 64  0000 R TNN
@@ -304,7 +304,7 @@ F 3 "" H 12100 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Crystal_Small Q2
+L Crystal:Crystal_Small_10023291 Q2
 U 1 1 53ABB1EB
 P 13800 1750
 F 0 "Q2" V 13715 1950 64  0000 R TNN
@@ -320,7 +320,7 @@ F 8 "" H 13800 1750 50  0001 C CNN "Manufacturer_Desc"
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C15
+L Capacitor:C0402_47pF_50V_5% C15
 U 1 1 58269073
 P 14075 1950
 F 0 "C15" V 14162 2043 64  0000 R TNN
@@ -348,7 +348,7 @@ F 20 "CAP CER 47PF 50V 5% NP0 0402" H 14075 1950 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:R R2
+L Resistor:R0603_1k5_5% R2
 U 1 1 986554BD
 P 13300 1950
 F 0 "R2" H 13225 1800 64  0000 L BNN
@@ -406,7 +406,7 @@ F 3 "" H 11050 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:TL16C750IPM IC1
+L IC:TL16C750IPM IC1
 U 1 1 22F7723E
 P 12200 3000
 F 0 "IC1" H 12650 4625 59  0000 L BNN
@@ -422,7 +422,7 @@ F 8 "UART" H 12200 3000 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:RES_4R_BCN RS8
+L Resistor:R1206_6k8_5% RS8
 U 1 1 887C726F
 P 13350 3200
 F 0 "RS8" V 13425 3425 59  0000 L BNN
@@ -461,7 +461,7 @@ F 3 "" H 13200 2625 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:LVC1G07DBVT IC8
+L IC:LVC1G07DBVT IC8
 U 1 1 45D38355
 P 14250 6650
 F 0 "IC8" H 14600 7112 64  0000 L BNN
@@ -505,7 +505,7 @@ F 3 "" H 14250 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:R R5
+L Resistor:R0603_10k_5% R5
 U 1 1 40871C63
 P 13600 4000
 F 0 "R5" V 13613 3925 64  0000 R TNN
@@ -533,7 +533,7 @@ F 20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 10000 OHM, SURFACE 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:R R6
+L Resistor:R0603_10k_5% R6
 U 1 1 91847459
 P 15250 6350
 F 0 "R6" V 15275 6200 64  0000 R TNN
@@ -594,7 +594,7 @@ F 3 "" H 14550 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C140
+L Capacitor:C0402_100nF_16V_10% C140
 U 1 1 63F00A8C
 P 3150 1750
 F 0 "C140" V 3000 1631 64  0000 L BNN
@@ -649,7 +649,7 @@ F 3 "" H 6150 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C4
+L Capacitor:C0402_100nF_16V_10% C4
 U 1 1 A60240AA
 P 6900 6800
 F 0 "C4" V 7125 6719 64  0000 L BNN
@@ -729,7 +729,7 @@ F 3 "" H 1850 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C5
+L Capacitor:C0402_100nF_16V_10% C5
 U 1 1 8E04CE4C
 P 3575 6900
 F 0 "C5" V 3800 6857 64  0000 L BNN
@@ -754,7 +754,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 3575 6900 50  0001 C CNN "Manufacturer_Des
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C20
+L Capacitor:C0402_100nF_16V_10% C20
 U 1 1 D1510C23
 P 4550 6900
 F 0 "C20" V 4775 6844 64  0000 L BNN
@@ -790,7 +790,7 @@ F 3 "" H 3700 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:JUMP_0U JP6
+L Jumper:JUMP_0U JP6
 U 1 1 A21E5090
 P 14550 5450
 F 0 "JP6" H 14475 5525 51  0000 L BNN
@@ -818,7 +818,7 @@ F 20 "JUMPER" H 14550 5450 50  0001 C CNN "Manufacturer_Desc5"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:K9F4G08U0M-PCB000 IC13
+L IC:K9F4G08U0M-PCB000 IC13
 U 1 1 B5257A37
 P 6400 7900
 F 0 "IC13" H 7350 8625 64  0000 L BNN
@@ -843,7 +843,7 @@ F 17 "" H 6400 7900 50  0001 C CNN "Manufacturer_Desc4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74HCT1G04GW IC39
+L IC:74HCT1G04GW IC39
 U 1 1 6BD6C1A1
 P 1650 2200
 F 0 "IC39" H 2238 2950 67  0000 L BNN
@@ -917,7 +917,7 @@ F 3 "" H 8850 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C30
+L Capacitor:C0402_100nF_16V_10% C30
 U 1 1 107458DA
 P 8575 1300
 F 0 "C30" V 8738 1356 64  0000 R TNN
@@ -964,7 +964,7 @@ F 3 "" H 8250 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:29F800 IC7
+L IC:29F800 IC7
 U 1 1 270F9871
 P 8550 3100
 F 0 "IC7" H 8950 4700 64  0000 L BNN
@@ -1107,7 +1107,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 2550 2700 2550
 $Comp
-L cpu-board:74HCT1G08GW IC38
+L IC:74HCT1G08GW IC38
 U 1 1 E1DA1C65
 P 2800 2700
 F 0 "IC38" H 3350 3450 67  0000 L BNN
@@ -1140,7 +1140,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2400 3750 2400
 $Comp
-L cpu-board:74ACT16373 IC14
+L IC:74ACT16373 IC14
 U 1 1 6BA2D255
 P 4850 3400
 F 0 "IC14" H 5125 4900 67  0000 L BNN
@@ -1229,7 +1229,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4400 8950 4550
 $Comp
-L cpu-board:LVC1G07DBVT IC9
+L IC:LVC1G07DBVT IC9
 U 1 1 5F7D4A82
 P 14400 4250
 F 0 "IC9" H 14275 3775 64  0000 L BNN
@@ -1348,7 +1348,7 @@ Wire Wire Line
 	13200 3000 13200 2775
 Connection ~ 13200 2775
 $Comp
-L Flipped_Devices:R R4
+L Resistor:R0603_1M_1% R4
 U 1 1 BADBB996
 P 13550 1750
 F 0 "R4" V 13625 1838 64  0000 L BNN
@@ -1401,7 +1401,7 @@ CMD_ME1
 Text HLabel 1450 7850 0    50   Input ~ 0
 CS0\
 $Comp
-L cpu-board:SN74ALVC164245 IC2
+L IC:SN74ALVC164245 IC2
 U 1 1 BC34DC86
 P 3200 7700
 F 0 "IC2" H 5075 8275 67  0000 R TNN
@@ -1623,7 +1623,7 @@ Wire Wire Line
 Text HLabel 1400 1900 0    50   Input ~ 0
 WR\
 $Comp
-L cpu-board:74HCT1G32GW IC5
+L IC:74HCT1G32GW IC5
 U 1 1 E8297B24
 P 1700 8350
 F 0 "IC5" H 2250 9113 64  0000 L BNN
@@ -1970,7 +1970,7 @@ Entry Wire Line
 Text HLabel 11250 3100 0    50   BiDi ~ 0
 D[0..15]
 $Comp
-L cpu-board:AT25--- IC32
+L IC:AT25--- IC32
 U 1 1 1703D4A9
 P 10350 7550
 F 0 "IC32" H 11012 8262 67  0000 L BNN
@@ -2300,7 +2300,7 @@ F 3 "" H 14550 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C16
+L Capacitor:C0603_22pF_50V_5% C16
 U 1 1 8F520983
 P 14200 1500
 F 0 "C16" V 14450 1407 64  0000 L BNN
@@ -2370,7 +2370,7 @@ Connection ~ 15250 6650
 Wire Wire Line
 	15250 6650 15450 6650
 $Comp
-L Flipped_Devices:C_Small C24
+L Capacitor:C0402_100nF_16V_10% C24
 U 1 1 7752927D
 P 10750 6700
 F 0 "C24" V 10912 6794 64  0000 R TNN

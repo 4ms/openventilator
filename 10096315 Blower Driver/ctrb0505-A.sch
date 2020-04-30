@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C3
+L Capacitor:C0805_100nF_50V_10% C3
 U 1 1 5E8B40BE
 P 9300 2400
 F 0 "C3" H 9415 2491 50  0000 L CNN
@@ -32,7 +32,7 @@ F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 9300 2400 50  0001 C CN
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C5
+L Capacitor:C0805_100nF_50V_10% C5
 U 1 1 5E8B4F7B
 P 10650 2400
 F 0 "C5" H 10765 2491 50  0000 L CNN
@@ -50,7 +50,7 @@ F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 10650 2400 50  0001 C C
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:LinearRegulator IC6
+L IC:LinearRegulator IC6
 U 1 1 5E8B9087
 P 10050 2350
 F 0 "IC6" H 9850 2550 50  0000 C CNN
@@ -66,7 +66,7 @@ F 8 "L78M15CDT" H 10300 2150 50  0000 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MotorDriver IC1
+L IC:MotorDriver IC1
 U 1 1 5E8B9CB5
 P 8850 11700
 F 0 "IC1" H 9300 12600 50  0000 C CNN
@@ -82,7 +82,7 @@ F 8 "MC33035DWR2G" H 9075 10875 50  0000 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:NE555D IC2
+L IC:NE555D IC2
 U 1 1 5E8BB7EA
 P 10150 7250
 F 0 "IC2" H 9800 7700 50  0000 L CNN
@@ -98,7 +98,7 @@ F 8 "SE555DRG4" H 10500 6800 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottkyParallelPair D17
+L Diode:DiodeSchottkyParallelPair D17
 U 1 1 5E8C0E3D
 P 5750 2250
 F 0 "D17" H 5800 2575 50  0000 C CNN
@@ -115,7 +115,7 @@ F 9 "STPS15L45CB-TR" H 5750 2025 50  0000 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D1
+L Diode:DiodeZener_30V_10022514 D1
 U 1 1 5E8C1E3C
 P 6700 2950
 F 0 "D1" V 6791 2872 50  0000 R CNN
@@ -132,7 +132,7 @@ F 9 "BZG03C30-HM3-08" V 6500 2525 50  0000 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottkySeriesPair D24
+L Diode:DiodeSchottkySeriesPair D24
 U 1 1 5E8C5131
 P 5650 3050
 F 0 "D24" V 5696 2972 50  0000 R CNN
@@ -149,7 +149,7 @@ F 9 "BAT54S,215" V 5600 2775 50  0000 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_30V T10
+L Transistor:MOSFET_NMOS_30V T10
 U 1 1 5E8C6B0F
 P 4800 3350
 F 0 "T10" H 4905 3396 50  0000 L CNN
@@ -165,7 +165,7 @@ F 8 "IRLML2803PBF" H 5100 3200 50  0000 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_PMOS_60V T9
+L Transistor:MOSFET_PMOS_60V T9
 U 1 1 5E8C7C12
 P 4900 2150
 F 0 "T9" V 5142 2150 50  0000 C CNN
@@ -181,7 +181,7 @@ F 8 "SUD50P06-15L-E3" V 5050 2150 50  0000 C CNN "Manufacturer_No"
     0    1    -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_100k R4
+L Resistor:R0603_100k_1%_10022549 R4
 U 1 1 5E8C9673
 P 4450 2400
 F 0 "R4" H 4520 2446 50  0000 L CNN
@@ -198,7 +198,7 @@ F 9 "232270461004L" H 4450 2400 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_100k R3
+L Resistor:R0603_100k_1%_10022549 R3
 U 1 1 5E8CAA5A
 P 4800 3000
 F 0 "R3" H 4870 3046 50  0000 L CNN
@@ -215,7 +215,7 @@ F 9 "232270461004L" H 4800 3000 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_22uF_CheckFootprint C4
+L Capacitor:C_22uF_10% C4
 U 1 1 5E8CAF53
 P 4050 2400
 F 0 "C4" H 4165 2491 50  0000 L CNN
@@ -361,7 +361,7 @@ Text Notes 8550 1700 0    79   ~ 16
 Wire Wire Line
     10650 2850 11150 2850
 $Comp
-L Blower_Driver_Components:Resistor_1k_0.5W R58
+L Resistor:R1206_1k_1%_10095984 R58
 U 1 1 5E8E7D88
 P 13350 3950
 F 0 "R58" H 13420 4041 50  0000 L CNN
@@ -379,7 +379,7 @@ F 10 "RC1206FR-071KL" H 13350 3950 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C9
+L Capacitor:C0805_100nF_50V_10% C9
 U 1 1 5E8E8D6C
 P 13800 3950
 F 0 "C9" H 13915 4041 50  0000 L CNN
@@ -397,7 +397,7 @@ F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 13800 3950 50  0001 C C
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottky D2
+L Diode:DiodeSchottky D2
 U 1 1 5E8E99C9
 P 14700 3800
 F 0 "D2" H 14700 4025 50  0000 C CNN
@@ -414,7 +414,7 @@ F 9 "PMEG4005AEA,115" H 14700 3800 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_100R R11
+L Resistor:R0603_100R_1% R11
 U 1 1 5E8EA856
 P 15200 3800
 F 0 "R11" V 15100 3800 50  0000 C CNN
@@ -431,7 +431,7 @@ F 9 "CRG0603F100R" H 15200 3800 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_220nF C10
+L Capacitor:C1206_220nF_50V_10% C10
 U 1 1 5E8EB4D4
 P 15450 4650
 F 0 "C10" H 15565 4741 50  0000 L CNN
@@ -449,7 +449,7 @@ F 10 "C1206C224K5RACTU" H 15450 4650 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_200V D8
+L Diode:DiodeZener_200V D8
 U 1 1 5E8EC640
 P 15850 5100
 F 0 "D8" V 15941 5022 50  0000 R CNN
@@ -466,7 +466,7 @@ F 9 "ES1D-E3/5AT" V 15750 4825 50  0000 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D11
+L Diode:DiodeZener_30V_10022517 D11
 U 1 1 5E8ED873
 P 15950 4500
 F 0 "D11" V 16041 4422 50  0000 R CNN
@@ -483,7 +483,7 @@ F 9 "BZV55-C15" H 15950 4500 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottkySeriesPair D14
+L Diode:DiodeSchottkySeriesPair D14
 U 1 1 5E8EE954
 P 16550 4550
 F 0 "D14" V 16596 4471 50  0000 R CNN
@@ -500,7 +500,7 @@ F 9 "BAT54S,215" H 16550 4550 50  0001 C CNN "Manufacturer_No"
     0    1    -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_2.2nF C11
+L Capacitor:C0603_2n2F_50V_10% C11
 U 1 1 5E8F1482
 P 16900 4550
 F 0 "C11" V 16558 4550 50  0000 C CNN
@@ -518,7 +518,7 @@ F 10 "C0603C222K5RAC7411" H 16900 4550 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_680R R6
+L Resistor:R0603_680R_1% R6
 U 1 1 5E8F23EF
 P 17200 4550
 F 0 "R6" V 17100 4550 50  0000 C CNN
@@ -535,7 +535,7 @@ F 9 "RC0603FR-07680RL" H 17200 4550 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_10R R35
+L Resistor:R0603_10R_1% R35
 U 1 1 5E8F2E44
 P 18900 4050
 F 0 "R35" V 18800 4050 50  0000 C CNN
@@ -552,7 +552,7 @@ F 9 "RC0603FR-0710RL" H 18900 4050 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T2
+L Transistor:MOSFET_NMOS_55V_10022559 T2
 U 1 1 5E8F3837
 P 19450 4050
 F 0 "T2" H 19550 4100 50  0000 L CNN
@@ -568,7 +568,7 @@ F 8 "IRFR024NTRPBF" H 19450 4050 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T3
+L Transistor:MOSFET_NMOS_55V_10022559 T3
 U 1 1 5E8F4816
 P 19450 4650
 F 0 "T3" H 19550 4700 50  0000 L CNN
@@ -584,7 +584,7 @@ F 8 "IRFR024NTRPBF" H 19450 4650 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D18
+L Diode:DiodeZener_30V_10022514 D18
 U 1 1 5E8F5E16
 P 19750 4050
 F 0 "D18" V 19841 3972 50  0000 R CNN
@@ -601,7 +601,7 @@ F 9 "BZG03C30-HM3-08" H 19750 4050 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D19
+L Diode:DiodeZener_30V_10022514 D19
 U 1 1 5E8F69AD
 P 19750 4650
 F 0 "D19" V 19841 4572 50  0000 R CNN
@@ -730,7 +730,7 @@ Wire Wire Line
     13350 4350 12900 4350
 Connection ~ 13350 4350
 $Comp
-L Blower_Driver_Components:Resistor_10R R31
+L Resistor:R0603_10R_1% R31
 U 1 1 5E92B6DC
 P 18900 4650
 F 0 "R31" V 18800 4650 50  0000 C CNN
@@ -747,7 +747,7 @@ F 9 "RC0603FR-0710RL" H 18900 4650 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottky D5
+L Diode:DiodeSchottky D5
 U 1 1 5E92D7F7
 P 18900 4900
 F 0 "D5" H 18900 4800 50  0000 C CNN
@@ -837,7 +837,7 @@ Wire Notes Line
 Text Notes 16150 3600 0    79   ~ 16
 Power Stage Phase C\n\n
 $Comp
-L Blower_Driver_Components:HighSideDriver IC4
+L IC:HighSideDriver IC4
 U 1 1 5E993A08
 P 14700 7150
 F 0 "IC4" H 14550 7400 50  0000 C CNN
@@ -853,7 +853,7 @@ F 8 "IR2118SPBF" H 14750 6725 50  0000 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_1k_0.5W R59
+L Resistor:R1206_1k_1%_10095984 R59
 U 1 1 5E993A11
 P 13350 6750
 F 0 "R59" H 13420 6841 50  0000 L CNN
@@ -871,7 +871,7 @@ F 10 "RC1206FR-071KL" H 13350 6750 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C12
+L Capacitor:C0805_100nF_50V_10% C12
 U 1 1 5E993A1A
 P 13800 6750
 F 0 "C12" H 13915 6841 50  0000 L CNN
@@ -889,7 +889,7 @@ F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 13800 6750 50  0001 C C
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottky D3
+L Diode:DiodeSchottky D3
 U 1 1 5E993A21
 P 14700 6600
 F 0 "D3" H 14700 6825 50  0000 C CNN
@@ -906,7 +906,7 @@ F 9 "PMEG4005AEA,115" H 14700 6600 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_100R R12
+L Resistor:R0603_100R_1% R12
 U 1 1 5E993A29
 P 15200 6600
 F 0 "R12" V 15100 6600 50  0000 C CNN
@@ -923,7 +923,7 @@ F 9 "CRG0603F100R" H 15200 6600 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_220nF C13
+L Capacitor:C1206_220nF_50V_10% C13
 U 1 1 5E993A32
 P 15450 7450
 F 0 "C13" H 15565 7541 50  0000 L CNN
@@ -941,7 +941,7 @@ F 10 "C1206C224K5RACTU" H 15450 7450 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_200V D9
+L Diode:DiodeZener_200V D9
 U 1 1 5E993A3A
 P 15850 7900
 F 0 "D9" V 15941 7822 50  0000 R CNN
@@ -958,7 +958,7 @@ F 9 "ES1D-E3/5AT" V 15750 7625 50  0000 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D12
+L Diode:DiodeZener_30V_10022517 D12
 U 1 1 5E993A42
 P 15950 7300
 F 0 "D12" V 16041 7222 50  0000 R CNN
@@ -975,7 +975,7 @@ F 9 "BZV55-C15" H 15950 7300 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottkySeriesPair D15
+L Diode:DiodeSchottkySeriesPair D15
 U 1 1 5E993A49
 P 16550 7350
 F 0 "D15" V 16596 7271 50  0000 R CNN
@@ -992,7 +992,7 @@ F 9 "BAT54S,215" H 16550 7350 50  0001 C CNN "Manufacturer_No"
     0    1    -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_2.2nF C14
+L Capacitor:C0603_2n2F_50V_10% C14
 U 1 1 5E993A52
 P 16900 7350
 F 0 "C14" V 16558 7350 50  0000 C CNN
@@ -1010,7 +1010,7 @@ F 10 "C0603C222K5RAC7411" H 16900 7350 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_680R R9
+L Resistor:R0603_680R_1% R9
 U 1 1 5E993A5A
 P 17200 7350
 F 0 "R9" V 17100 7350 50  0000 C CNN
@@ -1027,7 +1027,7 @@ F 9 "RC0603FR-07680RL" H 17200 7350 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_10R R32
+L Resistor:R0603_10R_1% R32
 U 1 1 5E993A62
 P 18900 6850
 F 0 "R32" V 18800 6850 50  0000 C CNN
@@ -1044,7 +1044,7 @@ F 9 "RC0603FR-0710RL" H 18900 6850 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T4
+L Transistor:MOSFET_NMOS_55V_10022559 T4
 U 1 1 5E993A69
 P 19450 6850
 F 0 "T4" H 19550 6900 50  0000 L CNN
@@ -1060,7 +1060,7 @@ F 8 "IRFR024NTRPBF" H 19450 6850 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T5
+L Transistor:MOSFET_NMOS_55V_10022559 T5
 U 1 1 5E993A70
 P 19450 7450
 F 0 "T5" H 19550 7500 50  0000 L CNN
@@ -1076,7 +1076,7 @@ F 8 "IRFR024NTRPBF" H 19450 7450 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D20
+L Diode:DiodeZener_30V_10022514 D20
 U 1 1 5E993A78
 P 19750 6850
 F 0 "D20" V 19841 6772 50  0000 R CNN
@@ -1093,7 +1093,7 @@ F 9 "BZG03C30-HM3-08" H 19750 6850 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D21
+L Diode:DiodeZener_30V_10022514 D21
 U 1 1 5E993A80
 P 19750 7450
 F 0 "D21" V 19841 7372 50  0000 R CNN
@@ -1208,7 +1208,7 @@ Wire Wire Line
     13350 7150 12800 7150
 Connection ~ 13350 7150
 $Comp
-L Blower_Driver_Components:Resistor_10R R33
+L Resistor:R0603_10R_1% R33
 U 1 1 5E993AC1
 P 18900 7450
 F 0 "R33" V 18800 7450 50  0000 C CNN
@@ -1225,7 +1225,7 @@ F 9 "RC0603FR-0710RL" H 18900 7450 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottky D6
+L Diode:DiodeSchottky D6
 U 1 1 5E993AC8
 P 18900 7700
 F 0 "D6" H 18900 7600 50  0000 C CNN
@@ -1315,7 +1315,7 @@ Wire Notes Line
 Text Notes 16200 6400 0    79   ~ 16
 Power Stage Phase B\n\n
 $Comp
-L Blower_Driver_Components:HighSideDriver IC5
+L IC:HighSideDriver IC5
 U 1 1 5E9B3233
 P 14700 10050
 F 0 "IC5" H 14550 10300 50  0000 C CNN
@@ -1331,7 +1331,7 @@ F 8 "IR2118SPBF" H 14775 9650 50  0000 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_1k_0.5W R60
+L Resistor:R1206_1k_1%_10095984 R60
 U 1 1 5E9B323C
 P 13350 9650
 F 0 "R60" H 13420 9741 50  0000 L CNN
@@ -1349,7 +1349,7 @@ F 10 "RC1206FR-071KL" H 13350 9650 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C15
+L Capacitor:C0805_100nF_50V_10% C15
 U 1 1 5E9B3245
 P 13800 9650
 F 0 "C15" H 13915 9741 50  0000 L CNN
@@ -1367,7 +1367,7 @@ F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 13800 9650 50  0001 C C
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottky D4
+L Diode:DiodeSchottky D4
 U 1 1 5E9B324C
 P 14700 9500
 F 0 "D4" H 14700 9725 50  0000 C CNN
@@ -1384,7 +1384,7 @@ F 9 "PMEG4005AEA,115" H 14700 9500 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_100R R13
+L Resistor:R0603_100R_1% R13
 U 1 1 5E9B3254
 P 15200 9500
 F 0 "R13" V 15100 9500 50  0000 C CNN
@@ -1401,7 +1401,7 @@ F 9 "CRG0603F100R" H 15200 9500 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_220nF C16
+L Capacitor:C1206_220nF_50V_10% C16
 U 1 1 5E9B325D
 P 15450 10350
 F 0 "C16" H 15565 10441 50  0000 L CNN
@@ -1419,7 +1419,7 @@ F 10 "C1206C224K5RACTU" H 15450 10350 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_200V D10
+L Diode:DiodeZener_200V D10
 U 1 1 5E9B3265
 P 15850 10800
 F 0 "D10" V 15941 10722 50  0000 R CNN
@@ -1436,7 +1436,7 @@ F 9 "ES1D-E3/5AT" V 15750 10525 50  0000 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D13
+L Diode:DiodeZener_30V_10022517 D13
 U 1 1 5E9B326D
 P 15950 10200
 F 0 "D13" V 16041 10122 50  0000 R CNN
@@ -1453,7 +1453,7 @@ F 9 "BZV55-C15" H 15950 10200 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottkySeriesPair D16
+L Diode:DiodeSchottkySeriesPair D16
 U 1 1 5E9B3274
 P 16550 10250
 F 0 "D16" V 16596 10171 50  0000 R CNN
@@ -1470,7 +1470,7 @@ F 9 "BAT54S,215" H 16550 10250 50  0001 C CNN "Manufacturer_No"
     0    1    -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_2.2nF C17
+L Capacitor:C0603_2n2F_50V_10% C17
 U 1 1 5E9B327D
 P 16900 10250
 F 0 "C17" V 16558 10250 50  0000 C CNN
@@ -1488,7 +1488,7 @@ F 10 "C0603C222K5RAC7411" H 16900 10250 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_680R R10
+L Resistor:R0603_680R_1% R10
 U 1 1 5E9B3285
 P 17200 10250
 F 0 "R10" V 17100 10250 50  0000 C CNN
@@ -1505,7 +1505,7 @@ F 9 "RC0603FR-07680RL" H 17200 10250 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_10R R20
+L Resistor:R0603_10R_1% R20
 U 1 1 5E9B328D
 P 18900 9750
 F 0 "R20" V 18800 9750 50  0000 C CNN
@@ -1522,7 +1522,7 @@ F 9 "RC0603FR-0710RL" H 18900 9750 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D22
+L Diode:DiodeZener_30V_10022514 D22
 U 1 1 5E9B32A3
 P 19750 9750
 F 0 "D22" V 19841 9672 50  0000 R CNN
@@ -1539,7 +1539,7 @@ F 9 "BZG03C30-HM3-08" H 19750 9750 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeZener_30V D23
+L Diode:DiodeZener_30V_10022514 D23
 U 1 1 5E9B32AB
 P 19750 10350
 F 0 "D23" V 19841 10272 50  0000 R CNN
@@ -1654,7 +1654,7 @@ Wire Wire Line
     13350 10050 12800 10050
 Connection ~ 13350 10050
 $Comp
-L Blower_Driver_Components:Resistor_10R R30
+L Resistor:R0603_10R_1% R30
 U 1 1 5E9B32EC
 P 18900 10350
 F 0 "R30" V 18800 10350 50  0000 C CNN
@@ -1671,7 +1671,7 @@ F 9 "RC0603FR-0710RL" H 18900 10350 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:DiodeSchottky D7
+L Diode:DiodeSchottky D7
 U 1 1 5E9B32F3
 P 18900 10600
 F 0 "D7" H 18900 10500 50  0000 C CNN
@@ -1770,7 +1770,7 @@ Connection ~ 14100 9500
 Wire Wire Line
     14100 9500 14250 9500
 $Comp
-L Blower_Driver_Components:Resistor_1k R50
+L Resistor:R0603_1k_1%_10095981 R50
 U 1 1 5E9E5F8B
 P 9100 6850
 F 0 "R50" H 9170 6896 50  0000 L CNN
@@ -1787,7 +1787,7 @@ F 9 "RC0603FR-071KL" H 9100 6850 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_10k R37
+L Resistor:R0603_10k_1%_10095975 R37
 U 1 1 5E9E6EFC
 P 9100 7150
 F 0 "R37" H 9170 7196 50  0000 L CNN
@@ -1804,7 +1804,7 @@ F 9 "RC0603FR-0710KL" H 9100 7150 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_2.2nF C7
+L Capacitor:C0603_2n2F_50V_10% C7
 U 1 1 5E9F27DF
 P 9100 7700
 F 0 "C7" H 9215 7791 50  0000 L CNN
@@ -1822,7 +1822,7 @@ F 10 "C0603C222K5RAC7411" H 9100 7700 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_10nF C8
+L Capacitor:C0603_10nF_50V_10% C8
 U 1 1 5E9F36D7
 P 10200 8000
 F 0 "C8" H 10315 8091 50  0000 L CNN
@@ -1840,7 +1840,7 @@ F 10 "CC0603KPX7R9BB103" H 10200 8000 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C6
+L Capacitor:C0805_100nF_50V_10% C6
 U 1 1 5E9F47F2
 P 8600 6750
 F 0 "C6" H 8715 6841 50  0000 L CNN
@@ -1949,7 +1949,7 @@ Wire Wire Line
 Wire Wire Line
     9500 12100 10100 12100
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C21
+L Capacitor:C0805_100nF_50V_10% C21
 U 1 1 5EB27884
 P 9850 12400
 F 0 "C21" H 9965 12491 50  0000 L CNN
@@ -1967,7 +1967,7 @@ F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 9850 12400 50  0001 C C
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_1k R38
+L Resistor:R0603_1k_1%_10095981 R38
 U 1 1 5EB28A87
 P 10500 12250
 F 0 "R38" V 10400 12250 50  0000 C CNN
@@ -1984,7 +1984,7 @@ F 9 "RC0603FR-071KL" H 10500 12250 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_1k R39
+L Resistor:R0603_1k_1%_10095981 R39
 U 1 1 5EB2A25A
 P 10500 12550
 F 0 "R39" V 10400 12550 50  0000 C CNN
@@ -2001,7 +2001,7 @@ F 9 "RC0603FR-071KL" H 10500 12550 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_0R100 R40
+L Resistor:R2512_100m_5% R40
 U 1 1 5EB39174
 P 10800 12400
 F 0 "R40" H 10870 12491 50  0000 L CNN
@@ -2019,7 +2019,7 @@ F 10 "RL2512JK-070R1L" H 10800 12400 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_0R047 R1
+L Resistor:R2512_47m_5% R1
 U 1 1 5EB3A530
 P 11150 12400
 F 0 "R1" H 11220 12491 50  0000 L CNN
@@ -2075,7 +2075,7 @@ F 3 "" H 10100 13100 50  0001 C CNN
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_10nF C20
+L Capacitor:C0603_10nF_50V_10% C20
 U 1 1 5EBD139E
 P 7900 12550
 F 0 "C20" H 8015 12641 50  0000 L CNN
@@ -2093,7 +2093,7 @@ F 10 "CC0603KPX7R9BB103" H 7900 12550 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_30V T8
+L Transistor:MOSFET_NMOS_30V T8
 U 1 1 5EBD377C
 P 6850 10800
 F 0 "T8" H 6955 10846 50  0000 L CNN
@@ -2109,7 +2109,7 @@ F 8 "IRLML2803PBF" H 7225 10750 50  0000 C CNN "Manufacturer_No"
     -1   0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_22k R41
+L Resistor:R0603_22k_1%_10095983 R41
 U 1 1 5EBF4DC7
 P 7700 11400
 F 0 "R41" H 7770 11446 50  0000 L CNN
@@ -2126,7 +2126,7 @@ F 9 "RC0603FR-0722KL" H 7700 11400 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_10k R42
+L Resistor:R0603_10k_1%_10095975 R42
 U 1 1 5EBF5DBD
 P 7200 11650
 F 0 "R42" V 7100 11650 50  0000 C CNN
@@ -2143,7 +2143,7 @@ F 9 "RC0603FR-0710KL" H 7200 11650 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_100k R7
+L Resistor:R0603_100k_1%_10022549 R7
 U 1 1 5EBF6A47
 P 6950 11800
 F 0 "R7" H 6900 11800 50  0000 R CNN
@@ -2160,7 +2160,7 @@ F 9 "232270461004L" H 6950 11800 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_330nF C18
+L Capacitor:C0805_330nF_16V_10% C18
 U 1 1 5EBF7978
 P 7450 11800
 F 0 "C18" H 7565 11891 50  0000 L CNN
@@ -2178,7 +2178,7 @@ F 10 "CC0603ZRY5V7BB334" H 7450 11800 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Resistor_10k R2
+L Resistor:R0603_10k_1%_10095975 R2
 U 1 1 5EBF898D
 P 6950 12600
 F 0 "R2" V 6850 12600 50  0000 C CNN
@@ -2195,7 +2195,7 @@ F 9 "RC0603FR-0710KL" H 6950 12600 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C19
+L Capacitor:C0805_100nF_50V_10% C19
 U 1 1 5EC09FBF
 P 8550 10550
 F 0 "C19" V 8400 10500 50  0000 L CNN
@@ -2262,7 +2262,7 @@ Wire Wire Line
 Wire Wire Line
     7650 12250 7650 13350
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_30V T1
+L Transistor:MOSFET_NMOS_30V T1
 U 1 1 5EBD2ACD
 P 7400 12450
 F 0 "T1" H 7500 12500 50  0000 L CNN
@@ -2369,7 +2369,7 @@ Wire Wire Line
     6950 12450 6450 12450
 Connection ~ 6950 12450
 $Comp
-L Blower_Driver_Components:Resistor_10k R5
+L Resistor:R0603_10k_1%_10095975 R5
 U 1 1 5EECAE20
 P 7050 13900
 F 0 "R5" V 6950 13900 50  0000 C CNN
@@ -2400,7 +2400,7 @@ Connection ~ 7050 13750
 Wire Wire Line
     7050 13750 7400 13750
 $Comp
-L Blower_Driver_Components:Resistor_4k7 R8
+L Resistor:R_4k7_1%_10095977 R8
 U 1 1 5EF45F0E
 P 6850 10350
 F 0 "R8" H 6920 10396 50  0000 L CNN
@@ -2437,7 +2437,7 @@ $EndComp
 Wire Wire Line
     6850 11100 6850 11000
 $Comp
-L Blower_Driver_Components:FerriteBead FI3
+L Inductor:FerriteBead FI3
 U 1 1 5F01CB9C
 P 4400 11550
 F 0 "FI3" V 4175 11550 50  0000 C CNN
@@ -2453,7 +2453,7 @@ F 8 "74279266" H 4400 11550 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:FerriteBead FI4
+L Inductor:FerriteBead FI4
 U 1 1 5F01DB0A
 P 4400 11900
 F 0 "FI4" V 4175 11900 50  0000 C CNN
@@ -2469,7 +2469,7 @@ F 8 "74279266" H 4400 11900 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:FerriteBead FI5
+L Inductor:FerriteBead FI5
 U 1 1 5F036A2D
 P 4400 12300
 F 0 "FI5" V 4175 12300 50  0000 C CNN
@@ -2485,7 +2485,7 @@ F 8 "74279266" H 4400 12300 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:FerriteBead FI6
+L Inductor:FerriteBead FI6
 U 1 1 5F068C98
 P 4400 12650
 F 0 "FI6" V 4175 12650 50  0000 C CNN
@@ -2501,7 +2501,7 @@ F 8 "74279266" H 4400 12650 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:FerriteBead FI7
+L Inductor:FerriteBead FI7
 U 1 1 5F084E2A
 P 4400 13000
 F 0 "FI7" V 4175 13000 50  0000 C CNN
@@ -2517,7 +2517,7 @@ F 8 "74279266" H 4400 13000 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:FerriteBead FI8
+L Inductor:FerriteBead FI8
 U 1 1 5F084E31
 P 4400 13350
 F 0 "FI8" V 4175 13350 50  0000 C CNN
@@ -2533,7 +2533,7 @@ F 8 "74279266" H 4400 13350 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:FerriteBead FI9
+L Inductor:FerriteBead FI9
 U 1 1 5F084E38
 P 4400 13750
 F 0 "FI9" V 4175 13750 50  0000 C CNN
@@ -2569,7 +2569,7 @@ Wire Wire Line
 Wire Wire Line
     4550 11900 5000 11900
 $Comp
-L Blower_Driver_Components:CapacitorArray_47pf C22
+L Capacitor:C0612_47pF_50V_10% C22
 U 1 1 5F1C5F64
 P 3400 11050
 F 0 "C22" H 3878 11187 50  0000 L CNN
@@ -2587,7 +2587,7 @@ F 10 "W3A45A470KAT2A" H 3400 11050 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:CapacitorArray_47pf C23
+L Capacitor:C0612_47pF_50V_10% C23
 U 1 1 5F1C7F59
 P 3400 14150
 F 0 "C23" H 3878 14287 50  0000 L CNN
@@ -2696,7 +2696,7 @@ F 7 "BNX002-01" H 2800 2250 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Fuse_5A F1
+L Fuse:Fuse_5A F1
 U 1 1 5FB97B0C
 P 3400 2150
 F 0 "F1" V 3500 2150 50  0000 C CNN
@@ -2715,7 +2715,7 @@ $EndComp
 Wire Wire Line
     3200 2150 3250 2150
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C1
+L Capacitor:C0805_100nF_50V_10% C1
 U 1 1 5FBBFE1F
 P 2000 2300
 F 0 "C1" H 2115 2391 50  0000 L CNN
@@ -2737,7 +2737,7 @@ Wire Wire Line
 Wire Wire Line
     2350 2450 2200 2450
 $Comp
-L Blower_Driver_Components:Inductor_22uH L1
+L Inductor:Inductor_22uH L1
 U 1 1 5FC5CE2F
 P 3050 1700
 F 0 "L1" V 2735 1300 50  0000 C CNN
@@ -2754,7 +2754,7 @@ F 9 "744772220" H 3050 1700 50  0001 C CNN "Manufacturer_No"
     0    1    1    0
 $EndComp
 $Comp
-L Blower_Driver_Components:JumperBypass J4
+L Connector:JumperBypass J4
 U 1 1 5FC8B115
 P 2700 2850
 F 0 "J4" V 2400 2850 50  0000 C CNN
@@ -2777,7 +2777,7 @@ Wire Wire Line
     5250 2650 4900 2650
 Connection ~ 4900 2650
 $Comp
-L Blower_Driver_Components:2pinConnector_Power J1
+L Connector:2pinConnector_Power J1
 U 1 1 5FD03D04
 P 1550 2100
 F 0 "J1" H 1508 2265 50  0000 C CNN
@@ -2874,7 +2874,7 @@ Wire Wire Line
     1900 2850 1900 2450
 Connection ~ 1900 2450
 $Comp
-L Blower_Driver_Components:8pinConnector J6
+L Connector:8pinConnector J6
 U 1 1 5FF3C397
 P 21800 7150
 F 0 "J6" H 21750 7600 50  0000 R CNN
@@ -2890,7 +2890,7 @@ F 8 "22057088" H 21800 7150 50  0001 C CNN "Manufacturer_No"
     -1   0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:2pinConnector J3
+L Connector:2pinConnector J3
 U 1 1 5FF3C39E
 P 21800 5900
 F 0 "J3" H 21750 6050 50  0000 R CNN
@@ -2991,7 +2991,7 @@ Wire Wire Line
 Wire Wire Line
     2000 11900 2000 12500
 $Comp
-L Blower_Driver_Components:10pinConnector J2
+L Connector:10pinConnector J2
 U 1 1 601AF9B5
 P 1750 12700
 F 0 "J2" H 1600 13150 50  0000 C CNN
@@ -3155,7 +3155,7 @@ Wire Notes Line
 Wire Notes Line
     11550 3250 11550 1550
 $Comp
-L Blower_Driver_Components:Capacitor_1000uF C28
+L Capacitor:C_1kF_20% C28
 U 1 1 60BCDCF3
 P 16450 2400
 F 0 "C28" H 16565 2491 50  0000 L CNN
@@ -3173,7 +3173,7 @@ F 10 "108TTA035M" H 16450 2400 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_1000uF C29
+L Capacitor:C_1kF_20% C29
 U 1 1 60BCF93A
 P 17150 2400
 F 0 "C29" H 17265 2491 50  0000 L CNN
@@ -3306,7 +3306,7 @@ Wire Wire Line
 Wire Wire Line
     14250 10200 14400 10200
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C26
+L Capacitor:C0805_100nF_50V_10% C26
 U 1 1 5ED560B6
 P 19050 9400
 F 0 "C26" H 19165 9491 50  0000 L CNN
@@ -3340,7 +3340,7 @@ $EndComp
 Wire Wire Line
     18650 9400 18900 9400
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C25
+L Capacitor:C0805_100nF_50V_10% C25
 U 1 1 5EF9C4B0
 P 19050 6500
 F 0 "C25" H 19165 6591 50  0000 L CNN
@@ -3374,7 +3374,7 @@ Wire Wire Line
     18650 6500 18900 6500
 Connection ~ 19450 6500
 $Comp
-L Blower_Driver_Components:Capacitor_100nF C24
+L Capacitor:C0805_100nF_50V_10% C24
 U 1 1 5EFDED78
 P 19050 3700
 F 0 "C24" H 19165 3791 50  0000 L CNN
@@ -3574,7 +3574,7 @@ Wire Wire Line
 Wire Wire Line
     14150 4500 14400 4500
 $Comp
-L Blower_Driver_Components:HighSideDriver IC3
+L IC:HighSideDriver IC3
 U 1 1 5E8B8037
 P 14700 4350
 F 0 "IC3" H 14550 4600 50  0000 C CNN
@@ -3606,7 +3606,7 @@ Wire Wire Line
 Wire Wire Line
     11200 12900 10800 12900
 $Comp
-L Blower_Driver_Components:TestPoint PT1
+L Jumper:TestPoint PT1
 U 1 1 5F9A5244
 P 2300 14050
 F 0 "PT1" H 2242 14122 50  0000 R CNN
@@ -3820,7 +3820,7 @@ Wire Notes Line
 Text Notes 22800 7500 0    50   ~ 0
 0-24V
 $Comp
-L Blower_Driver_Components:Capacitor_100uF_CheckFootprint ZC2
+L Capacitor:C_100uF_50V_20%_SMD ZC2
 U 1 1 5EADE2C2
 P 8800 2400
 F 0 "ZC2" H 8900 2600 50  0000 L CNN
@@ -3844,7 +3844,7 @@ Connection ~ 8800 2250
 Wire Wire Line
     8800 2250 9300 2250
 $Comp
-L Blower_Driver_Components:Capacitor_470uF_CheckFootprint C27
+L Capacitor:C_470uF_20%_10095969 C27
 U 1 1 5E8B327E
 P 11150 2400
 F 0 "C27" H 11250 2500 50  0000 L CNN
@@ -3862,7 +3862,7 @@ F 10 "ECA1EHG471" H 11150 2400 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_470uF_CheckFootprint ZC27
+L Capacitor:C_470uF_20%_10095969 ZC27
 U 1 1 5EBA8772
 P 11150 2400
 F 0 "ZC27" H 11200 2600 50  0000 L CNN
@@ -3882,7 +3882,7 @@ $EndComp
 Connection ~ 11150 2250
 Connection ~ 11150 2550
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V ZT2
+L Transistor:MOSFET_NMOS_55V_10022559 ZT2
 U 1 1 5EBE16FA
 P 19450 4050
 F 0 "ZT2" H 19500 4200 50  0000 L CNN
@@ -3897,7 +3897,7 @@ F 6 "10022559" H 19450 4050 50  0001 C CNN "Item Number"
 $EndComp
 Connection ~ 19150 4050
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V ZT3
+L Transistor:MOSFET_NMOS_55V_10022559 ZT3
 U 1 1 5EBE4DD4
 P 19450 4650
 F 0 "ZT3" H 19500 4800 50  0000 L CNN
@@ -3913,7 +3913,7 @@ $EndComp
 Connection ~ 19150 4650
 Connection ~ 19450 4850
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V ZT4
+L Transistor:MOSFET_NMOS_55V_10022559 ZT4
 U 1 1 5EBE7451
 P 19450 6850
 F 0 "ZT4" H 19500 7000 50  0000 L CNN
@@ -3928,7 +3928,7 @@ F 6 "10022559" H 19450 6850 50  0001 C CNN "Item Number"
 $EndComp
 Connection ~ 19150 6850
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V ZT5
+L Transistor:MOSFET_NMOS_55V_10022559 ZT5
 U 1 1 5EBE8B66
 P 19450 7450
 F 0 "ZT5" H 19500 7600 50  0000 L CNN
@@ -3944,7 +3944,7 @@ $EndComp
 Connection ~ 19150 7450
 Connection ~ 19450 7650
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V ZT6
+L Transistor:MOSFET_NMOS_55V_10022559 ZT6
 U 1 1 5EBEB61C
 P 19450 9750
 F 0 "ZT6" H 19500 9900 50  0000 L CNN
@@ -3961,7 +3961,7 @@ Connection ~ 19150 9750
 Connection ~ 19150 10350
 Connection ~ 19450 10550
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V ZT7
+L Transistor:MOSFET_NMOS_55V_10022559 ZT7
 U 1 1 5EBED525
 P 19450 10350
 F 0 "ZT7" H 19500 10500 50  0000 L CNN
@@ -3975,7 +3975,7 @@ F 6 "10022559" H 19450 10350 50  0001 C CNN "Item Number"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T7
+L Transistor:MOSFET_NMOS_55V_10022559 T7
 U 1 1 5E9B329B
 P 19450 10350
 F 0 "T7" H 19550 10400 50  0000 L CNN
@@ -3991,7 +3991,7 @@ F 8 "IRFR024NTRPBF" H 19450 10350 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:MOSFET_NMOS_55V T6
+L Transistor:MOSFET_NMOS_55V_10022559 T6
 U 1 1 5E9B3294
 P 19450 9750
 F 0 "T6" H 19550 9800 50  0000 L CNN
@@ -4007,7 +4007,7 @@ F 8 "IRFR024NTRPBF" H 19450 9750 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Blower_Driver_Components:Capacitor_100uF_CheckFootprint C2
+L Capacitor:C_100uF_20% C2
 U 1 1 5E9F7083
 P 8800 2400
 F 0 "C2" H 8950 2500 50  0000 L CNN

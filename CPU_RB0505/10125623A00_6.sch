@@ -191,7 +191,7 @@ F 3 "" H 14800 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:B3B_ZR J11
+L Connector:B3B_ZR J11
 U 1 1 54BD1E4C
 P 13600 1900
 F 0 "J11" H 13500 1437 85  0000 L BNN
@@ -218,7 +218,7 @@ F 3 "" H 2400 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:B7B_ZR_SM3_TF J18
+L Connector:B7B_ZR_SM3_TF J18
 U 1 1 CDC055CB
 P 1850 6950
 F 0 "J18" H 1850 6800 85  0000 L BNN
@@ -250,7 +250,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 9550 775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022911 L?
 U 1 1 0A232DEA
 P 11100 2300
 AR Path="/0A232DEA" Ref="L?"  Part="1" 
@@ -268,7 +268,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 2300 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022911 L?
 U 1 1 1E5F25AC
 P 11100 2500
 AR Path="/1E5F25AC" Ref="L?"  Part="1" 
@@ -286,7 +286,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 2500 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022911 L?
 U 1 1 19F4C54D
 P 11100 2700
 AR Path="/19F4C54D" Ref="L?"  Part="1" 
@@ -315,7 +315,7 @@ F 3 "" H 11600 3350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 4DF659C7
 P 14250 1900
 AR Path="/4DF659C7" Ref="L?"  Part="1" 
@@ -333,7 +333,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 14250 1900 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C99
+L Capacitor:C0402_150pF_50V C99
 U 1 1 155BCB57
 P 14000 1550
 F 0 "C99" H 14118 1588 64  0000 L BNN
@@ -382,7 +382,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 3750 735
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022911 L?
 U 1 1 60EE4B83
 P 2700 6650
 AR Path="/60EE4B83" Ref="L?"  Part="1" 
@@ -411,7 +411,7 @@ F 3 "" H 3400 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C115
+L Capacitor:C0402_150pF_50V C115
 U 1 1 D42B91C8
 P 2400 6900
 F 0 "C115" H 2493 6925 64  0000 L BNN
@@ -433,7 +433,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:B2B_ZR J19
+L Connector:B2B_ZR J19
 U 1 1 69705732
 P 1850 3700
 F 0 "J19" H 1750 3350 85  0000 L BNN
@@ -471,7 +471,7 @@ F 3 "" H 2300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 2891A197
 P 2550 3600
 AR Path="/2891A197" Ref="L?"  Part="1" 
@@ -489,7 +489,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 2550 3600 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C121
+L Capacitor:C0402_150pF_50V C121
 U 1 1 84C1574D
 P 2300 3300
 F 0 "C121" H 2393 3337 64  0000 L BNN
@@ -511,7 +511,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 AE3312F6
 P 2550 3800
 AR Path="/AE3312F6" Ref="L?"  Part="1" 
@@ -529,7 +529,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 2550 3800 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C122
+L Capacitor:C0402_150pF_50V C122
 U 1 1 AE0F7B61
 P 2300 4050
 F 0 "C122" H 2406 4062 64  0000 L BNN
@@ -573,7 +573,7 @@ F 3 "" H 14125 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 6491CA69
 P 14400 3650
 AR Path="/6491CA69" Ref="L?"  Part="1" 
@@ -591,7 +591,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 14400 3650 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C123
+L Capacitor:C0402_150pF_50V C123
 U 1 1 E72891DF
 P 14125 3375
 F 0 "C123" H 14219 3400 64  0000 L BNN
@@ -613,7 +613,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 5FB96120
 P 14400 3850
 AR Path="/5FB96120" Ref="L?"  Part="1" 
@@ -642,7 +642,7 @@ F 3 "" H 14125 3125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C124
+L Capacitor:C0402_150pF_50V C124
 U 1 1 F26774BC
 P 14125 4100
 F 0 "C124" H 14219 4113 64  0000 L BNN
@@ -701,7 +701,7 @@ F 3 "" H 13900 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:2BR254C J21
+L Connector:2BR254C J21
 U 1 1 46F3F097
 P 13575 3950
 F 0 "J21" H 13588 3837 85  0000 L BNN
@@ -778,7 +778,7 @@ F 20 "JUMPER" H 6000 6250 50  0001 C CNN "Manufacturer_Desc5"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C93
+L Capacitor:C0402_100nF_16V_10% C93
 U 1 1 F2D14F41
 P 6550 6700
 F 0 "C93" H 6675 6750 64  0000 L CNN
@@ -800,7 +800,7 @@ F 3 "" H 6350 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022911 L?
 U 1 1 769AA1BD
 P 11100 1500
 AR Path="/769AA1BD" Ref="L?"  Part="1" 
@@ -818,7 +818,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 1500 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 FB4D7CA5
 P 11100 1700
 AR Path="/FB4D7CA5" Ref="L?"  Part="1" 
@@ -836,7 +836,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 1700 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 0E380C20
 P 11100 1900
 AR Path="/0E380C20" Ref="L?"  Part="1" 
@@ -881,7 +881,7 @@ F 3 "" H 11300 1000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 9CA3DB02
 P 4500 5850
 AR Path="/9CA3DB02" Ref="L?"  Part="1" 
@@ -912,7 +912,7 @@ F 3 "" H 4525 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 1FFF9411
 P 4525 6250
 AR Path="/1FFF9411" Ref="L?"  Part="1" 
@@ -930,7 +930,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 4525 6250 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 3DD13E20
 P 4525 6350
 AR Path="/3DD13E20" Ref="L?"  Part="1" 
@@ -948,7 +948,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 4525 6350 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 DF33D3D6
 P 4525 6450
 AR Path="/DF33D3D6" Ref="L?"  Part="1" 
@@ -966,7 +966,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 4525 6450 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:10BRMF J4
+L Connector:10BRMF J4
 U 1 1 FA7CA15B
 P 8650 7600
 F 0 "J4" H 8650 7450 85  0000 L BNN
@@ -985,7 +985,7 @@ F 11 "" H 8650 7600 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 324ADF67
 P 10550 6900
 AR Path="/324ADF67" Ref="L?"  Part="1" 
@@ -1003,7 +1003,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 6900 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 0382B5B7
 P 10550 6700
 AR Path="/0382B5B7" Ref="L?"  Part="1" 
@@ -1021,7 +1021,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 6700 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 04EF688F
 P 10550 6500
 AR Path="/04EF688F" Ref="L?"  Part="1" 
@@ -1039,7 +1039,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 6500 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R11
+L Resistor:R0603_3k3_1% R11
 U 1 1 D126BCF1
 P 9300 5450
 F 0 "R11" V 9375 5188 64  0000 L BNN
@@ -1075,7 +1075,7 @@ F 3 "" H 9300 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C11
+L Capacitor:C0402_100nF_16V_10% C11
 U 1 1 F1735AC7
 P 9300 5850
 F 0 "C11" H 9425 5925 64  0000 L CNN
@@ -1100,7 +1100,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 9300 5850 50  0001 C CNN "Manufacturer_Des
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C12
+L Capacitor:C0402_47pF_50V_5% C12
 U 1 1 DF23C80B
 P 11300 1300
 F 0 "C12" H 11032 1313 64  0000 L BNN
@@ -1128,7 +1128,7 @@ F 20 "CAP CER 47PF 50V 5% NP0 0402" H 11300 1300 50  0001 C CNN "Manufacturer_De
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C13
+L Capacitor:C0402_47pF_50V_5% C13
 U 1 1 F7DD181D
 P 3400 5400
 F 0 "C13" H 3506 5425 64  0000 L BNN
@@ -1156,7 +1156,7 @@ F 20 "CAP CER 47PF 50V 5% NP0 0402" H 3400 5400 50  0001 C CNN "Manufacturer_Des
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:B8B_ZR J2
+L Connector:B8B_ZR J2
 U 1 1 C3E76336
 P 12300 2450
 F 0 "J2" H 12250 1987 85  0000 L BNN
@@ -1172,7 +1172,7 @@ F 8 "CONNECTOR" H 12300 2450 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:G6K2G RL1
+L Relay:G6K2G RL1
 U 1 1 AE3C6605
 P 10200 2400
 F 0 "RL1" H 10525 2375 45  0001 L BNN
@@ -1191,7 +1191,7 @@ F 11 "" H 10200 2400 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:G6K2G RL1
+L Relay:G6K2G RL1
 U 3 1 AE3C660D
 P 10650 3000
 F 0 "RL1" H 10625 3050 45  0001 L BNN
@@ -1221,7 +1221,7 @@ F 3 "" H 10700 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:D_Schottky_A1K3 D13
+L Diode:D_Schottky_A1K3_10022652 D13
 U 1 1 7D634AE3
 P 9800 3750
 F 0 "D13" H 9771 3904 59  0000 L BNN
@@ -1251,7 +1251,7 @@ F 3 "" H 10900 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:Q_PMOS_GSD T19
+L Transistor:Q_PMOS_GSD_10022157 T19
 U 1 1 EE28C6DF
 P 9300 3850
 F 0 "T19" V 9650 3765 59  0000 L BNN
@@ -1328,7 +1328,7 @@ F 3 "" H 5100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:CP_Small C89
+L Capacitor:C_22uF_10V_10% C89
 U 1 1 71EBD326
 P 7550 2800
 F 0 "C89" H 7500 2650 56  0000 R CNN
@@ -1344,7 +1344,7 @@ F 8 "Cap, Tantalum, Polarized, 10V, 10% +/-Tol, 22uF, Surface Mount, Case A, EIA
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C98
+L Capacitor:C0402_100nF_16V_10% C98
 U 1 1 57D09F0C
 P 7950 2800
 F 0 "C98" H 8050 2925 64  0000 L CNN
@@ -1366,7 +1366,7 @@ F 3 "" H 5100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:Q_PMOS_GSD T17
+L Transistor:Q_PMOS_GSD_10022933 T17
 U 1 1 E3A7CA7E
 P 8350 3350
 F 0 "T17" V 8737 3415 59  0000 L BNN
@@ -1382,7 +1382,7 @@ F 8 "POWER MOSFET" H 8350 3350 50  0001 C CNN "Manufacturer_Desc"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:R R48
+L Resistor:R_100k_5% R48
 U 1 1 19AB9E8C
 P 8600 3500
 F 0 "R48" V 8525 3762 64  0000 R TNN
@@ -1407,7 +1407,7 @@ F 17 "THICK FILM CHIP RESISTOR" H 8600 3500 50  0001 C CNN "Manufacturer_Desc4"
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C101
+L Capacitor:C0402_4n7F_25V_10% C101
 U 1 1 D5229C91
 P 10300 7750
 F 0 "C101" H 10425 7813 64  0000 L CNN
@@ -1586,7 +1586,7 @@ FAULT/
 Text Notes 7775 7300 0    59   ~ 0
 ENABLE
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 A9F7421E
 P 2450 1900
 AR Path="/A9F7421E" Ref="L?"  Part="1" 
@@ -1604,7 +1604,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 2450 1900 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C76
+L Capacitor:C0402_100nF_16V_10% C76
 U 1 1 D58B9C26
 P 2700 2050
 F 0 "C76" H 2781 2063 64  0000 L BNN
@@ -1640,7 +1640,7 @@ F 3 "" H 2700 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:R R43
+L Resistor:R0603_10k_5% R43
 U 1 1 DA0B1885
 P 2700 1600
 F 0 "R43" V 2788 1338 64  0000 L BNN
@@ -1702,7 +1702,7 @@ $EndComp
 Wire Wire Line
 	6550 6800 6550 7000
 $Comp
-L Flipped_Devices:R R70
+L Resistor:R0603_10k_5% R70
 U 1 1 AC81A314
 P 6350 6700
 F 0 "R70" V 6350 6963 64  0000 R TNN
@@ -1745,7 +1745,7 @@ $EndComp
 NoConn ~ 8850 6100
 NoConn ~ 8850 6300
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 4B3EEFE3
 P 10550 7100
 AR Path="/4B3EEFE3" Ref="L?"  Part="1" 
@@ -1763,7 +1763,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 7100 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 2B9F3777
 P 10550 7300
 AR Path="/2B9F3777" Ref="L?"  Part="1" 
@@ -1892,7 +1892,7 @@ F 3 "" H 11950 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:CP_Small C75
+L Capacitor:C_47uF_10V_10% C75
 U 1 1 C2D1BC15
 P 11750 2100
 F 0 "C75" V 11719 2338 56  0000 L BNN
@@ -1939,7 +1939,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 3325 9700 3325
 $Comp
-L Flipped_Devices:D_Schottky D6
+L Diode:D_Schottky D6
 U 1 1 D13B7196
 P 10400 4050
 F 0 "D6" H 10516 4208 59  0000 R TNN
@@ -2084,7 +2084,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2200 2200 2200
 $Comp
-L cpu-board:B2B_ZR J5
+L Connector:B2B_ZR J5
 U 1 1 7C49DE93
 P 1850 2000
 F 0 "J5" H 1750 1650 85  0000 L BNN
@@ -2107,7 +2107,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2150 2200 2200
 $Comp
-L Flipped_Devices:C_Small C86
+L Capacitor:C0402_47pF_50V_5% C86
 U 1 1 908E3118
 P 2200 2050
 F 0 "C86" H 2275 2050 64  0000 L CNN
@@ -2363,7 +2363,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 4050 10700 3750
 $Comp
-L cpu-board:G6K2G RL1
+L Relay:G6K2G RL1
 U 2 1 AE3C6609
 P 10250 3850
 F 0 "RL1" H 10550 4150 85  0000 L BNN
@@ -2396,7 +2396,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 3750 9650 3750
 $Comp
-L Flipped_Devices:R R68
+L Resistor:R_100k_5% R68
 U 1 1 49CDDF81
 P 9050 4000
 F 0 "R68" V 9050 4263 64  0000 R TNN

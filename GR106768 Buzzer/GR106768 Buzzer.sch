@@ -25,7 +25,7 @@ F 3 "" H 1475 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Capacitor:C0402_680pF_50V_5% C4
 U 1 1 5E88308B
 P 6000 3250
 F 0 "C4" H 6050 3350 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "" H 1475 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Capacitor:C0402_100nF_16V_10% C10
 U 1 1 5E8CCB53
 P 1875 5350
 F 0 "C10" V 2025 5300 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 1875 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C9
+L Capacitor:C0402_100nF_16V_10% C9
 U 1 1 5E8DEB54
 P 8050 4300
 F 0 "C9" V 8200 4225 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "~" H 8050 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C30
+L Capacitor:C0402_100nF_16V_10% C30
 U 1 1 5EA0990A
 P 14325 6575
 F 0 "C30" V 14475 6425 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "" H 13500 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L Capacitor:C0603_33nF_16V_10% C13
 U 1 1 5EA46C5B
 P 11800 7050
 F 0 "C13" H 11625 6950 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "" H 11800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Capacitor:C0603_33nF_16V_10% C14
 U 1 1 5EA56715
 P 12250 5500
 F 0 "C14" V 12100 5425 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "" H 12500 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 IC2
+L IC:LM358 IC2
 U 2 1 5EA35D87
 P 12200 6500
 F 0 "IC2" H 12275 6675 50  0000 C CNN
@@ -229,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	7825 2050 7825 2175
 $Comp
-L Amplifier_Operational:LM358 IC2
+L IC:LM358 IC2
 U 1 1 5EDFDF3B
 P 6725 3000
 F 0 "IC2" H 6800 3175 50  0000 C CNN
@@ -328,7 +328,7 @@ $EndComp
 Wire Wire Line
 	6000 3400 6000 3500
 $Comp
-L Device:C C6
+L Capacitor:C0402_680pF_50V_5% C6
 U 1 1 5F37E1A4
 P 6600 2400
 F 0 "C6" V 6750 2325 50  0000 L CNN
@@ -368,7 +368,7 @@ Wire Wire Line
 	5500 2900 5600 2900
 Connection ~ 7150 3475
 $Comp
-L Amplifier_Operational:LM358 IC3
+L IC:LM358 IC3
 U 3 1 5F9FC870
 P 1575 5825
 F 0 "IC3" H 1275 5975 50  0000 C CNN
@@ -383,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	1475 5175 1475 5350
 $Comp
-L Device:C C11
+L Capacitor:C0402_100nF_16V_10% C11
 U 1 1 5FA59D9B
 P 1875 6250
 F 0 "C11" V 2025 6200 50  0000 L CNN
@@ -454,7 +454,7 @@ F 3 "" H 3050 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Capacitor:C0402_100nF_16V_10% C7
 U 1 1 5FB28643
 P 3450 5350
 F 0 "C7" V 3600 5300 50  0000 L CNN
@@ -469,7 +469,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 5175 3050 5350
 $Comp
-L Device:C C8
+L Capacitor:C0402_100nF_16V_10% C8
 U 1 1 5FB28651
 P 3450 6250
 F 0 "C8" V 3600 6200 50  0000 L CNN
@@ -571,7 +571,7 @@ $EndComp
 Wire Wire Line
 	4000 3300 4150 3300
 $Comp
-L Device:C C2
+L Capacitor:C0402_220pF_50V_5% C2
 U 1 1 5E87D053
 P 4250 3525
 F 0 "C2" H 4365 3571 50  0000 L CNN
@@ -582,7 +582,7 @@ F 3 "~" H 4250 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Core_Ferrite L1
+L Inductor:L_Core_Ferrite L1
 U 1 1 5E87AB3F
 P 3850 3300
 F 0 "L1" V 3950 3300 50  0000 C CNN
@@ -593,7 +593,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/74279218.pdf" H 3850 3300 50  00
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Fuse FU1
+L Fuse:Fuse_10022141 FU1
 U 1 1 5E879854
 P 3450 3300
 F 0 "FU1" V 3375 3300 50  0000 C CNN
@@ -647,7 +647,7 @@ F 3 "" H 14100 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LMV321 IC4
+L IC:LMV321 IC4
 U 1 1 5E9F6105
 P 14200 7100
 F 0 "IC4" H 14350 7250 50  0000 L CNN
@@ -674,7 +674,7 @@ Connection ~ 14100 6575
 Wire Wire Line
 	14500 7100 14700 7100
 $Comp
-L Amplifier_Operational:LM358 IC3
+L IC:LM358 IC3
 U 1 1 5E8962E9
 P 8800 2500
 F 0 "IC3" H 8875 2325 50  0000 C CNN
@@ -685,7 +685,7 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC33171-D.PDF" H 8800 2500 50  0001 C 
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 IC2
+L IC:LM358 IC2
 U 3 1 5FB28649
 P 3150 5825
 F 0 "IC2" H 2850 5975 50  0000 C CNN
@@ -696,7 +696,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3150 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_200k_1% R69
+L Resistor:R0402_200k_1% R69
 U 1 1 5EA89989
 P 13850 7900
 F 0 "R69" H 13850 8000 50  0000 C CNN
@@ -709,7 +709,7 @@ F 5 "10023292" H 13850 8100 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R59
+L Resistor:R0402_100k_1% R59
 U 1 1 5EA8B1EB
 P 13500 8250
 F 0 "R59" H 13500 8350 50  0000 C CNN
@@ -722,7 +722,7 @@ F 5 "10022149" H 13500 8450 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R24
+L Resistor:R0402_100k_1% R24
 U 1 1 5EA8E1A5
 P 13250 7000
 F 0 "R24" H 13250 7100 50  0000 C CNN
@@ -735,7 +735,7 @@ F 5 "10022149" H 13325 6900 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R29
+L Resistor:R0402_100k_1% R29
 U 1 1 5EA90255
 P 14400 6225
 F 0 "R29" H 14400 6125 50  0000 C CNN
@@ -748,7 +748,7 @@ F 5 "10022149" H 14400 6425 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_68k_1% R27
+L Resistor:R0402_68k_1% R27
 U 1 1 5EA91372
 P 13550 6225
 F 0 "R27" H 13550 6125 50  0000 C CNN
@@ -761,7 +761,7 @@ F 5 "10021556" H 13550 6425 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_2.2k_1% R23
+L Resistor:R0402_2k2_1% R23
 U 1 1 5EA9CBEC
 P 12700 6750
 F 0 "R23" H 12700 6850 50  0000 C CNN
@@ -857,7 +857,7 @@ F 3 "" H 12900 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Celec-axial-10x30_470u C12
+L Capacitor:C_470uF_40V_20% C12
 U 1 1 5E95457C
 P 12450 2950
 F 0 "C12" H 12475 3075 50  0000 L CNN
@@ -879,7 +879,7 @@ F 3 "" H 14350 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 IC3
+L IC:LM358 IC3
 U 2 1 5E906CDE
 P 13925 2500
 F 0 "IC3" H 14000 2675 50  0000 C CNN
@@ -890,7 +890,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 13925 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_33Ohm_1% R15
+L Resistor:R0402_33R_1% R15
 U 1 1 5EADE678
 P 11500 2450
 F 0 "R15" H 11500 2550 50  0000 C CNN
@@ -903,7 +903,7 @@ F 5 "10022745" H 11500 2650 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_150k_1% R21
+L Resistor:R0402_150k_1% R21
 U 1 1 5EADFF19
 P 12250 5900
 F 0 "R21" H 12250 6000 50  0000 C CNN
@@ -916,7 +916,7 @@ F 5 "10022881" H 12250 6100 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_10k_1% R16
+L Resistor:R0402_10k_1% R16
 U 1 1 5EAE2485
 P 11700 4850
 F 0 "R16" H 11700 4950 50  0000 C CNN
@@ -929,7 +929,7 @@ F 5 "10022150" H 11700 5050 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_10k_1% R17
+L Resistor:R0402_10k_1% R17
 U 1 1 5EAE3A2A
 P 11300 5150
 F 0 "R17" H 11300 5250 50  0000 C CNN
@@ -942,7 +942,7 @@ F 5 "10022150" H 11300 5350 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_32.4k_1% R28
+L Resistor:R0402_32k4_1% R28
 U 1 1 5EAE478D
 P 14700 2400
 F 0 "R28" H 14700 2500 50  0000 C CNN
@@ -955,7 +955,7 @@ F 5 "10022154" H 14700 2600 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_137k_1% R26
+L Resistor:R0402_137k_1% R26
 U 1 1 5EAE68B0
 P 13975 1950
 F 0 "R26" H 13975 2050 50  0000 C CNN
@@ -968,7 +968,7 @@ F 5 "10021468" H 13975 2150 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_470Ohm_1% R22
+L Resistor:R0402_470R_1% R22
 U 1 1 5EAE98B3
 P 13150 2500
 F 0 "R22" H 13150 2600 50  0000 C CNN
@@ -981,7 +981,7 @@ F 5 "10022156" H 13150 2700 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_1.5Ohm_1% R19
+L Resistor:R0402_1R5_1% R19
 U 1 1 5EAEB7F1
 P 12900 2225
 F 0 "R19" H 12900 2325 50  0000 C CNN
@@ -994,7 +994,7 @@ F 5 "10022725" H 12900 2425 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_1.5Ohm_1% R20
+L Resistor:R0402_1R5_1% R20
 U 1 1 5EAEDC7F
 P 12900 2775
 F 0 "R20" H 12900 2875 50  0000 C CNN
@@ -1007,7 +1007,7 @@ F 5 "10022725" H 12900 2975 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_32.4k_1% R9
+L Resistor:R0402_32k4_1% R9
 U 1 1 5EAF2BD4
 P 8050 2050
 F 0 "R9" H 8050 2150 50  0000 C CNN
@@ -1020,7 +1020,7 @@ F 5 "10022154" H 8050 2250 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_105k_1% R11
+L Resistor:R0402_105k_1% R11
 U 1 1 5EAF4C77
 P 8825 2050
 F 0 "R11" H 8825 2150 50  0000 C CNN
@@ -1033,7 +1033,7 @@ F 5 "10022155" H 8825 2250 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R10
+L Resistor:R0402_100k_1% R10
 U 1 1 5EAF61C9
 P 8700 4650
 F 0 "R10" H 8700 4750 50  0000 C CNN
@@ -1126,7 +1126,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 2400 15000 4300
 $Comp
-L GR106768_Buzzer:R0402_1k_1% R8
+L Resistor:R0402_1k_1% R8
 U 1 1 5EE632F2
 P 7800 4650
 F 0 "R8" H 7800 4750 50  0000 C CNN
@@ -1139,7 +1139,7 @@ F 5 "10022153" H 7800 4850 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R1
+L Resistor:R0402_100k_1% R1
 U 1 1 5EE68B27
 P 4900 3250
 F 0 "R1" H 4900 3350 50  0000 C CNN
@@ -1152,7 +1152,7 @@ F 5 "10022149" H 4900 3450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_10k_1% R4
+L Resistor:R0402_10k_1% R4
 U 1 1 5EE69FB2
 P 5250 2900
 F 0 "R4" H 5250 3000 50  0000 C CNN
@@ -1165,7 +1165,7 @@ F 5 "10022150" H 5250 3100 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_10k_1% R5
+L Resistor:R0402_10k_1% R5
 U 1 1 5EE6DF49
 P 5750 2900
 F 0 "R5" H 5750 3000 50  0000 C CNN
@@ -1259,7 +1259,7 @@ Text Label 15200 7100 2    50   ~ 0
 TESTBUZ
 Connection ~ 14700 7100
 $Comp
-L Mechanical:Fiducial J2
+L Connector:Fiducial J2
 U 1 1 5EA28D60
 P 7150 7500
 F 0 "J2" H 7150 7700 50  0000 C CNN
@@ -2470,7 +2470,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 2300 4900 2300
 $Comp
-L GR106768_Buzzer:R0402_150k_1% R18
+L Resistor:R0402_150k_1% R18
 U 1 1 5EA9EA69
 P 11300 7050
 F 0 "R18" H 11300 7150 50  0000 C CNN
@@ -2483,7 +2483,7 @@ F 5 "10022881" H 11300 7250 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:BC857 T4
+L Transistor:BC857 T4
 U 1 1 5ED1DCB7
 P 13000 3200
 F 0 "T4" H 13200 3275 50  0000 L CNN
@@ -2494,7 +2494,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 1
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:BC847 T3
+L Transistor:BC847 T3
 U 1 1 5ED662DA
 P 13000 1800
 F 0 "T3" H 13200 1875 50  0000 L CNN
@@ -2523,7 +2523,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 2300 10300 2500
 $Comp
-L GR106768_Buzzer:BAT54S D4
+L Diode:BAT54S D4
 U 1 1 5EBC356D
 P 12000 2500
 F 0 "D4" V 12125 2300 50  0000 L CNN
@@ -2535,7 +2535,7 @@ F 4 "10022518" H 12000 2700 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:BAT54S D3
+L Diode:BAT54S D3
 U 1 1 5EBCBDC4
 P 11000 2500
 F 0 "D3" V 11125 2300 50  0000 L CNN
@@ -2547,7 +2547,7 @@ F 4 "10022518" H 11000 2700 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:BK3216xxxxx FI1
+L Inductor:BK3216xxxxx FI1
 U 1 1 5EB5F4EF
 P 3700 2700
 F 0 "FI1" H 3575 3100 50  0000 L BNN
@@ -2578,7 +2578,7 @@ Connection ~ 4150 3300
 Wire Wire Line
 	4150 3300 4250 3300
 $Comp
-L GR106768_Buzzer:C-array4-0612_47p C1
+L Capacitor:C0612_47pF_50V_10% C1
 U 1 1 5EC82919
 P 2900 3600
 F 0 "C1" H 2900 3450 50  0000 C CNN
@@ -2624,7 +2624,7 @@ Wire Wire Line
 	2600 3500 2600 2900
 Connection ~ 2600 2900
 $Comp
-L GR106768_Buzzer:BAT54C D2
+L Diode:BAT54C D2
 U 1 1 5F042781
 P 7500 4300
 F 0 "D2" H 7350 4525 50  0000 L CNN
@@ -2653,7 +2653,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 5500 4600 5500
 $Comp
-L GR106768_Buzzer:R0402_51.1k_1% R7
+L Resistor:R0402_51k1_1% R7
 U 1 1 5EE6575D
 P 6600 5450
 F 0 "R7" H 6600 5550 50  0000 C CNN
@@ -2668,7 +2668,7 @@ $EndComp
 Wire Wire Line
 	5700 5400 5700 5500
 $Comp
-L GR106768_Buzzer:LMC7211 IC1
+L IC:LMC7211 IC1
 U 1 1 5ED9EC08
 P 5800 5100
 F 0 "IC1" H 5800 5300 50  0000 L CNN
@@ -2682,7 +2682,7 @@ $EndComp
 Text Label 4000 4500 0    50   ~ 0
 SUPPLY-BUZ
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R3
+L Resistor:R0402_100k_1% R3
 U 1 1 5EAFA9E8
 P 5000 5250
 F 0 "R3" H 5000 5350 50  0000 C CNN
@@ -2695,7 +2695,7 @@ F 5 "10022149" H 5000 5450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_100k_1% R2
+L Resistor:R0402_100k_1% R2
 U 1 1 5EAF8964
 P 5000 4750
 F 0 "R2" H 5000 4850 50  0000 C CNN
@@ -2780,7 +2780,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5000 5300 5000
 $Comp
-L Device:C C3
+L Capacitor:C0805_10nF_16V_2% C3
 U 1 1 5E8D63CA
 P 5350 6100
 F 0 "C3" H 5235 6054 50  0000 R CNN
@@ -2791,7 +2791,7 @@ F 3 "~" H 5350 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C5
+L Capacitor:C0402_100nF_16V_10% C5
 U 1 1 5E8CCB59
 P 4600 4950
 F 0 "C5" V 4525 5025 50  0000 L CNN
@@ -2808,7 +2808,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4200 5300 4200
 $Comp
-L GR106768_Buzzer:R0402_59k_1% R6
+L Resistor:R0402_59k_1% R6
 U 1 1 5EE74830
 P 5850 4200
 F 0 "R6" H 5850 4300 50  0000 C CNN
@@ -2821,7 +2821,7 @@ F 5 "10022151" H 5850 4400 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:BC847 T1
+L Transistor:BC847 T1
 U 1 1 5EB8903A
 P 9800 1700
 F 0 "T1" H 10000 1775 50  0000 L CNN
@@ -2833,7 +2833,7 @@ F 4 "10024443" H 10000 1850 50  0001 L CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:BC857 T2
+L Transistor:BC857 T2
 U 1 1 5EB8423D
 P 9800 3200
 F 0 "T2" H 10000 3275 50  0000 L CNN
@@ -2844,7 +2844,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 9
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_470Ohm_1% R12
+L Resistor:R0402_470R_1% R12
 U 1 1 5EAF15D6
 P 9650 2400
 F 0 "R12" H 9650 2500 50  0000 C CNN
@@ -2857,7 +2857,7 @@ F 5 "10022156" H 9650 2600 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_1.5Ohm_1% R14
+L Resistor:R0402_1R5_1% R14
 U 1 1 5EAF08D9
 P 9900 2750
 F 0 "R14" H 9900 2850 50  0000 C CNN
@@ -2870,7 +2870,7 @@ F 5 "10022725" H 9900 2950 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GR106768_Buzzer:R0402_1.5Ohm_1% R13
+L Resistor:R0402_1R5_1% R13
 U 1 1 5EAEECA2
 P 9900 2150
 F 0 "R13" H 9900 2250 50  0000 C CNN
@@ -2977,7 +2977,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4300 8700 4300
 $Comp
-L GR106768_Buzzer:Buzzer BUZ2
+L Buzzer:Buzzer BUZ2
 U 1 1 5F18A730
 P 10400 2800
 F 0 "BUZ2" V 10575 2800 50  0000 C CNN
@@ -2990,7 +2990,7 @@ F 4 "10022130" H 10400 3050 50  0001 C CNN "Item Number"
 $EndComp
 NoConn ~ 10400 2700
 $Comp
-L GR106768_Buzzer:Buzzer BUZ1
+L Buzzer:Buzzer BUZ1
 U 1 1 5F1A6F3E
 P 10400 2200
 F 0 "BUZ1" V 10575 2200 50  0000 C CNN
@@ -3017,7 +3017,7 @@ F 4 "10022140" H 2950 2500 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:BZX84C2V7 D5
+L Diode:BZX84C2V7 D5
 U 1 1 5ED68B8C
 P 12500 7350
 F 0 "D5" H 12500 7450 50  0000 C CNN

@@ -51,7 +51,7 @@ F 3 "" H 15650 5625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
+L Inductor:L L2
 U 1 1 5FDD612A
 P 13650 4300
 F 0 "L2" V 13840 4300 50  0000 C CNN
@@ -64,7 +64,7 @@ F 5 "74456133" V 13650 4300 50  0001 C CNN "Mnf PN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R71
+L Resistor:R0603_10k_0.1%_10022701 R71
 U 1 1 5E973040
 P 13900 4950
 F 0 "R71" H 13970 4996 50  0000 L CNN
@@ -77,7 +77,7 @@ F 5 "RT0603BRB0710KL" H 13900 4950 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R73
+L Resistor:R0603_3k24_0.1%_10022719 R73
 U 1 1 5FDD612C
 P 13900 5450
 F 0 "R73" H 13830 5404 50  0000 R CNN
@@ -90,7 +90,7 @@ F 5 "RT0603BRD073K24L" H 13900 5450 50  0001 C CNN "Mnf PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R70
+L Resistor:R0603_10k_0.1%_10022701 R70
 U 1 1 5FDD6131
 P 15650 4550
 F 0 "R70" H 15720 4596 50  0000 L CNN
@@ -103,7 +103,7 @@ F 5 "RT0603BRB0710KL" H 15650 4550 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R72
+L Resistor:R0603_10k_0.1%_10022701 R72
 U 1 1 5FDD6132
 P 15650 5400
 F 0 "R72" H 15720 5446 50  0000 L CNN
@@ -116,7 +116,7 @@ F 5 "RT0603BRB0710KL" H 15650 5400 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C55
+L Capacitor:C0805_100nF_50V_10% C55
 U 1 1 5E9651FC
 P 10150 5050
 F 0 "C55" H 10035 5004 50  0000 R CNN
@@ -131,7 +131,7 @@ F 7 "10022135" H 10150 5050 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C45
+L Capacitor:C_10uF_10% C45
 U 1 1 5E978E52
 P 14700 4550
 F 0 "C45" H 14815 4504 50  0000 L CNN
@@ -144,7 +144,7 @@ F 5 "C0805C106K4PAC" H 14700 4550 50  0001 C CNN "Mnf PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C46
+L Capacitor:C0402_100nF_16V_10% C46
 U 1 1 5FDD6122
 P 15150 4550
 F 0 "C46" H 15265 4504 50  0000 L CNN
@@ -233,7 +233,7 @@ F 3 "" H 11400 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 5FDE688F
 P 11400 8500
 AR Path="/5E88D608/5FDE688F" Ref="C?"  Part="1" 
@@ -254,7 +254,7 @@ F 9 "GRM155R71C104JA88J" H 11400 8500 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0805_1uF_16V_10% C?
 U 1 1 5FDE688A
 P 13150 8400
 AR Path="/5E88D608/5FDE688A" Ref="C?"  Part="1" 
@@ -271,7 +271,7 @@ F 5 "0805YC105KAT2A" H 13150 8400 50  0001 C CNN "Mnf PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 5FDE688E
 P 13850 8400
 AR Path="/5E88D608/5FDE688E" Ref="C?"  Part="1" 
@@ -303,7 +303,7 @@ F 3 "" H 15650 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_USB:FT2232D IC4
+L IC:FT2232D IC4
 U 1 1 5F152242
 P 6000 4050
 F 0 "IC4" H 5350 5800 50  0000 C CNN
@@ -396,7 +396,7 @@ Connection ~ 2200 4050
 Wire Wire Line
 	2000 4050 2200 4050
 $Comp
-L Device:R R3
+L Resistor:R0805_470R_1% R3
 U 1 1 5EC37C9E
 P 4150 1700
 F 0 "R3" V 4250 1700 50  0000 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 4400 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Resistor:R0603_27R_1% R5
 U 1 1 5EC37CB0
 P 4750 3150
 F 0 "R5" V 4650 3150 50  0000 C CNN
@@ -429,7 +429,7 @@ F 3 "~" H 4750 3150 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R6
+L Resistor:R0603_27R_1% R6
 U 1 1 5EC37CB6
 P 4750 3350
 F 0 "R6" V 4850 3350 50  0000 C CNN
@@ -448,7 +448,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3150 4150 3150
 $Comp
-L Device:R R7
+L Resistor:R0603_1k5_1% R7
 U 1 1 5EC37CC6
 P 5000 3600
 F 0 "R7" H 4930 3554 50  0000 R CNN
@@ -532,7 +532,7 @@ NoConn ~ 6900 5250
 NoConn ~ 6900 5350
 NoConn ~ 6900 5550
 $Comp
-L Device:Crystal_GND2 Q1
+L Crystal:Crystal_GND2 Q1
 U 1 1 5EC37D14
 P 4400 4550
 F 0 "Q1" V 4350 4200 50  0000 L CNN
@@ -543,7 +543,7 @@ F 3 "https://www.murata.com/products/productdata/8801051869214/SPEC-CSTCR6M00G53
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R113
+L Resistor:R0603_1M_1% R113
 U 1 1 5F15224C
 P 4700 4550
 F 0 "R113" H 4770 4596 50  0000 L CNN
@@ -661,7 +661,7 @@ Wire Wire Line
 	3600 1500 3600 1600
 Connection ~ 3600 1600
 $Comp
-L Device:C C7
+L Capacitor:C0603_33pF_50V_5% C7
 U 1 1 5EC37D5F
 P 4800 2500
 F 0 "C7" H 4686 2546 50  0000 R CNN
@@ -775,7 +775,7 @@ Connection ~ 6200 2050
 Wire Wire Line
 	6200 2050 6100 2050
 $Comp
-L Device:D_TVS PG2
+L Diode:D_TVS_10022946 PG2
 U 1 1 5F152259
 P 2000 3700
 F 0 "PG2" V 2150 3700 50  0000 L CNN
@@ -792,7 +792,7 @@ F 9 "10022946" H 2000 3700 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C127
+L Capacitor:C0402_47pF_50V_5% C127
 U 1 1 5F15225B
 P 2200 3700
 F 0 "C127" H 2315 3654 50  0000 L CNN
@@ -811,7 +811,7 @@ F 11 "50V" H 2200 3700 50  0001 C CNN "Voltage"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C128
+L Capacitor:C0402_47pF_50V_5% C128
 U 1 1 5F15225C
 P 2850 3700
 F 0 "C128" H 2965 3654 50  0000 L CNN
@@ -830,7 +830,7 @@ F 11 "50V" H 2850 3700 50  0001 C CNN "Voltage"
 	1    0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management:USB_B_Mini_2shield J1
+L Connector:USB_B_Mini_2shield J1
 U 1 1 5F15225D
 P 1350 3350
 F 0 "J1" H 1150 3700 50  0000 L CNN
@@ -845,7 +845,7 @@ F 7 "54819-0519" H 1350 3350 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L7
+L Inductor:Ferrite_Bead_Small_10039587 L7
 U 1 1 5EC7397A
 P 1650 4050
 F 0 "L7" V 1795 4050 50  0000 C CNN
@@ -862,7 +862,7 @@ F 9 "10039587" V 1650 4050 50  0001 C CNN "Item Number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L1
+L Inductor:Ferrite_Bead_Small_10039587 L1
 U 1 1 5F15225F
 P 2700 1700
 F 0 "L1" V 2463 1700 50  0000 C CNN
@@ -879,7 +879,7 @@ F 9 "0805" V 2546 1700 62  0001 C CNN "Bom_Footprint"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:Varistor ML1
+L Varistor:Varistor_10022926 ML1
 U 1 1 5F152260
 P 3300 3700
 F 0 "ML1" H 3300 3550 50  0000 R CNN
@@ -899,7 +899,7 @@ $EndComp
 Wire Wire Line
 	2650 3550 2650 3450
 $Comp
-L Device:D_TVS PG1
+L Diode:D_TVS_10022946 PG1
 U 1 1 5EC6C643
 P 2650 3700
 F 0 "PG1" V 2800 3700 50  0000 L CNN
@@ -929,7 +929,7 @@ Wire Wire Line
 Text Label 1350 3850 0    50   ~ 0
 J1SHGND
 $Comp
-L Device:C C1
+L Capacitor:C0402_100nF_16V_10% C1
 U 1 1 5F152261
 P 3000 2050
 F 0 "C1" H 3114 2004 50  0000 L CNN
@@ -951,7 +951,7 @@ F 14 "GRM155R71C104JA88J" H 3000 2050 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C3
+L Capacitor:C0402_100nF_16V_10% C3
 U 1 1 5F152262
 P 3800 2050
 F 0 "C3" H 3685 2004 50  0000 R CNN
@@ -973,7 +973,7 @@ F 14 "GRM155R71C104JA88J" H 3800 2050 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C124
+L Capacitor:C0402_100nF_16V_10% C124
 U 1 1 5ECD42AC
 P 3550 3700
 F 0 "C124" H 3665 3746 50  0000 L CNN
@@ -995,7 +995,7 @@ F 14 "GRM155R71C104JA88J" H 3550 3700 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Capacitor:C0402_100nF_16V_10% C5
 U 1 1 5ECD5E01
 P 4400 2050
 F 0 "C5" H 4515 2096 50  0000 L CNN
@@ -1017,7 +1017,7 @@ F 14 "GRM155R71C104JA88J" H 4400 2050 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Capacitor:C_10uF_10% C2
 U 1 1 5F152265
 P 3300 2050
 F 0 "C2" H 3185 2004 50  0000 R CNN
@@ -1036,7 +1036,7 @@ F 11 "50V" H 3300 2050 50  0001 C CNN "Voltage"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management:DLP31SN551ML2L L8
+L Inductor:DLP31SN551ML2L L8
 U 1 1 5ECE0914
 P 3950 3250
 F 0 "L8" H 3950 3531 50  0000 C CNN
@@ -1056,7 +1056,7 @@ Text GLabel 15450 5200 0    50   Output ~ 0
 MES-5V
 Connection ~ 6500 2050
 $Comp
-L Regulator_Switching:TPS5430DDA IC11
+L IC:TPS5430DDA IC11
 U 1 1 5ED82DF0
 P 12100 5000
 F 0 "IC11" H 12100 5467 50  0000 C CNN
@@ -1098,7 +1098,7 @@ Wire Wire Line
 	10150 5500 10150 5200
 Connection ~ 10650 5500
 $Comp
-L Device:C C47
+L Capacitor:C0603_10nF_50V_10% C47
 U 1 1 5EE61C58
 P 12800 4550
 F 0 "C47" H 12685 4596 50  0000 R CNN
@@ -1123,7 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	12800 4300 12800 4400
 $Comp
-L 10005011_Power_Management:STPS340U D11
+L Diode:STPS340U D11
 U 1 1 5EE9F24C
 P 13400 4650
 F 0 "D11" V 13354 4729 50  0000 L CNN
@@ -1167,7 +1167,7 @@ Text Label 12700 5200 0    50   ~ 0
 Wire Wire Line
 	15650 4200 15650 4300
 $Comp
-L 10005011_Power_Management:CP C44
+L Capacitor:C_220uF_20% C44
 U 1 1 5EFB991E
 P 14200 4550
 F 0 "C44" H 14318 4596 50  0000 L CNN
@@ -1205,7 +1205,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 4800 10650 4900
 $Comp
-L 10005011_Power_Management:CP C54
+L Capacitor:C_100uF_35V_10% C54
 U 1 1 5FDD612E
 P 10650 5050
 F 0 "C54" H 10768 5096 50  0000 L CNN
@@ -1267,7 +1267,7 @@ Text Notes 11750 7350 0    118  ~ 0
 Text Notes 11800 3800 0    118  ~ 0
 5V REGULATOR
 $Comp
-L 10005011_Power_Management:LM4120AIM5-3.0 IC12
+L IC:LM4120AIM5-3.0 IC12
 U 1 1 5F0C731D
 P 12375 8350
 F 0 "IC12" H 12375 8817 50  0000 C CNN
@@ -1287,7 +1287,7 @@ Text Notes 12000 1300 0    118  ~ 0
 Text Notes 4250 1050 0    118  ~ 0
 USB/2UARTS CONVERTER
 $Comp
-L Regulator_Linear:LF33_TO252 IC8
+L IC:LF33_TO252 IC8
 U 1 1 5F102093
 P 12100 1850
 F 0 "IC8" H 12100 2092 50  0000 C CNN
@@ -1298,7 +1298,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C34
+L Capacitor:C1210_22uF_16V_10% C34
 U 1 1 5F10411B
 P 13150 2100
 F 0 "C34" H 13265 2054 50  0000 L CNN
@@ -1309,7 +1309,7 @@ F 3 "~" H 13150 2100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C36
+L Capacitor:C0402_100nF_16V_10% C36
 U 1 1 5F107D35
 P 12600 2100
 F 0 "C36" H 12715 2054 50  0000 L CNN
@@ -1324,7 +1324,7 @@ F 7 "GRM155R71C104JA88J" H 12600 2100 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C35
+L Capacitor:C0402_100nF_16V_10% C35
 U 1 1 5F1097B4
 P 11600 2100
 F 0 "C35" H 11486 2054 50  0000 R CNN
@@ -1418,7 +1418,7 @@ Connection ~ 12100 2350
 Wire Wire Line
 	12100 2350 12300 2350
 $Comp
-L Device:R R56
+L Resistor:R0603_10k_0.1%_10022701 R56
 U 1 1 5F179002
 P 13500 1850
 F 0 "R56" V 13293 1850 50  0000 C CNN
@@ -1442,7 +1442,7 @@ Connection ~ 12800 1850
 Wire Wire Line
 	12800 1850 13150 1850
 $Comp
-L Device:R R57
+L Resistor:R0603_10k_0.1%_10022701 R57
 U 1 1 5F18950E
 P 13850 2100
 F 0 "R57" H 13920 2146 50  0000 L CNN
@@ -1504,7 +1504,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2050 7200 2050
 $Comp
-L 10005011_Power_Management:BAT54C D16
+L Diode:BAT54C D16
 U 1 1 5ED0D7D1
 P 7500 2150
 F 0 "D16" H 7450 2475 50  0000 C CNN
@@ -1539,7 +1539,7 @@ Wire Wire Line
 Text Label 7100 3150 0    50   ~ 0
 V-USB
 $Comp
-L 10005011_Power_Management:NC7SZ66 IC26
+L IC:NC7SZ66 IC26
 U 1 1 5F152257
 P 8000 4250
 F 0 "IC26" H 7750 4500 50  0000 L CNN
@@ -1554,7 +1554,7 @@ F 7 "NC7SZ66P5X" H 8000 4250 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:NC7SZ66 IC27
+L IC:NC7SZ66 IC27
 U 1 1 5F152256
 P 7750 3050
 F 0 "IC27" H 7500 3300 50  0000 L CNN
@@ -1615,7 +1615,7 @@ F 3 "" H 8750 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C126
+L Capacitor:C0402_100nF_16V_10% C126
 U 1 1 5F152254
 P 8750 3500
 F 0 "C126" H 8635 3454 50  0000 R CNN

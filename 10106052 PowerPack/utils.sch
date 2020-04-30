@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 10106052_PowerPack:MCP9700A-E_TO U?
+L IC:MCP9700A-E_TO U?
 U 1 1 5E8CB2CC
 P 9000 2400
 AR Path="/5E8CB2CC" Ref="U?"  Part="1" 
@@ -70,7 +70,7 @@ F 3 "" H 9000 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0603_100nF_50V_10% C?
 U 1 1 5E8CB2E0
 P 8600 2400
 AR Path="/5E878266/5E8CB2E0" Ref="C?"  Part="1" 
@@ -105,7 +105,7 @@ Wire Wire Line
 Text HLabel 9550 2400 2    50   Output ~ 0
 TEMP_MEAS
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male_10107891 J?
 U 1 1 5E8CDD62
 P 9450 4850
 AR Path="/5E87821E/5E8CDD62" Ref="J?"  Part="1" 
@@ -122,7 +122,7 @@ F 7 "S2B-ZR-SM4A-TF(LF)(SN)" H 9450 4850 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD T?
+L Transistor:Q_NMOS_GSD_GR102887 T?
 U 1 1 5E8CDD68
 P 8900 5250
 AR Path="/5E87821E/5E8CDD68" Ref="T?"  Part="1" 
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 4950 9250 4950
 $Comp
-L Device:R R?
+L Resistor:R0603_22k_1%_10113300 R?
 U 1 1 5E8CDD70
 P 8600 5500
 AR Path="/5E87821E/5E8CDD70" Ref="R?"  Part="1" 
@@ -160,7 +160,7 @@ F 7 "RC0603JR-0722KL" H 8600 5500 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Resistor:R1206_68R_5% R?
 U 1 1 5E8CDD76
 P 9000 4600
 AR Path="/5E87821E/5E8CDD76" Ref="R?"  Part="1" 
@@ -206,7 +206,7 @@ $EndComp
 Wire Wire Line
 	9000 4350 9000 4450
 $Comp
-L 10106052_PowerPack:LM4120AIM5-3.0 U?
+L IC:LM4120AIM5-3.0 U?
 U 1 1 5E8CF891
 P 4400 5600
 AR Path="/5E8781F8/5E8CF891" Ref="U?"  Part="1" 
@@ -227,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 5600 4900 5650
 $Comp
-L Device:C C?
+L Capacitor:C0603_100nF_50V_10% C?
 U 1 1 5E8CF89F
 P 3750 5900
 AR Path="/5E8781F8/5E8CF89F" Ref="C?"  Part="1" 
@@ -244,7 +244,7 @@ F 7 "C0603C104K5RACTU" H 3750 5900 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0402_1uF_10V_10% C?
 U 1 1 5E8CF8A5
 P 3350 5900
 AR Path="/5E8781F8/5E8CF8A5" Ref="C?"  Part="1" 
@@ -261,7 +261,7 @@ F 7 "C0402C105K8PACTU" H 3350 5900 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0603_100nF_50V_10% C?
 U 1 1 5E8CF8AB
 P 2950 5900
 AR Path="/5E8781F8/5E8CF8AB" Ref="C?"  Part="1" 
@@ -341,7 +341,7 @@ $EndComp
 Text HLabel 2750 5700 0    50   Output ~ 0
 +3.0VREF
 $Comp
-L 10106052_PowerPack:NCV87722DT50RKG U?
+L IC:NCV87722DT50RKG U?
 U 1 1 5E8D1CCE
 P 4700 2350
 AR Path="/5E8D1CCE" Ref="U?"  Part="1" 
@@ -359,7 +359,7 @@ F 7 "NCV87725D7S50R4G" H 4700 2350 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Capacitor:C0603_10uF_20% C?
 U 1 1 5E8D1CD4
 P 5400 2550
 AR Path="/5E87819A/5E8D1CD4" Ref="C?"  Part="1" 
@@ -413,7 +413,7 @@ Wire Wire Line
 Connection ~ 5400 2250
 NoConn ~ 5100 2450
 $Comp
-L Device:Q_PMOS_GSD T?
+L Transistor:Q_PMOS_GSD T?
 U 1 1 5E8D1CEF
 P 3100 2100
 AR Path="/5E87819A/5E8D1CEF" Ref="T?"  Part="1" 
@@ -430,7 +430,7 @@ F 7 "SI2309CDS-T1-GE3" H 3100 2100 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD T?
+L Transistor:Q_NMOS_GSD_GR102887 T?
 U 1 1 5E8D1CF5
 P 2400 2700
 AR Path="/5E87819A/5E8D1CF5" Ref="T?"  Part="1" 
@@ -447,7 +447,7 @@ F 7 "SI2300DS-T1-GE3" H 2400 2700 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Resistor:R0603_10k_1%_10022548 R?
 U 1 1 5E8D1CFB
 P 2500 2300
 AR Path="/5E87819A/5E8D1CFB" Ref="R?"  Part="1" 
@@ -470,7 +470,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 2100 2900 2100
 $Comp
-L Device:R R?
+L Resistor:R0603_10k_1%_10022548 R?
 U 1 1 5E8D1D04
 P 2800 1750
 AR Path="/5E87819A/5E8D1D04" Ref="R?"  Part="1" 
@@ -509,7 +509,7 @@ Wire Wire Line
 Text HLabel 1800 2700 0    50   Input ~ 0
 V_EN
 $Comp
-L Device:R R?
+L Resistor:R0603_100k_1%_10001204 R?
 U 1 1 5E8D1D18
 P 2200 3000
 AR Path="/5E87819A/5E8D1D18" Ref="R?"  Part="1" 
@@ -542,7 +542,7 @@ Wire Wire Line
 	4150 3000 4150 2900
 Connection ~ 2500 3000
 $Comp
-L Device:C C?
+L Capacitor:C1210_1uF_50V_10% C?
 U 1 1 5E8D1D27
 P 4150 2750
 AR Path="/5E87819A/5E8D1D27" Ref="C?"  Part="1" 
@@ -584,7 +584,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2450 3450 3750
 $Comp
-L Device:D_x2_KCom_AAK D?
+L Diode:D_x2_KCom_AAK D?
 U 1 1 5E8D1D46
 P 2500 3750
 AR Path="/5E8D1D46" Ref="D?"  Part="1" 

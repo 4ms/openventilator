@@ -78,7 +78,7 @@ CE\-FLOW-INSP-SENS
 Text HLabel 13400 6100 0    56   Input ~ 0
 CE\-FLOW-EXP-SENS
 $Comp
-L Flipped_Devices:C_Small C65
+L Capacitor:C0805_220nF_25V_10% C65
 U 1 1 6EB094ED
 P 1500 3350
 F 0 "C65" H 1219 3350 64  0000 L BNN
@@ -103,7 +103,7 @@ F 17 "CERAMIC CHIP CAPACITOR" H 1500 3350 50  0001 C CNN "Manufacturer_Desc4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R34
+L Resistor:R_4k7_5% R34
 U 1 1 EFB8A895
 P 4400 1900
 F 0 "R34" H 4337 2050 64  0000 L BNN
@@ -128,7 +128,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE M
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C63
+L Capacitor:C0402_100nF_16V_10% C63
 U 1 1 2FAB5BC8
 P 4650 2150
 F 0 "C63" H 4750 2200 64  0000 L CNN
@@ -164,7 +164,7 @@ F 3 "" H 4650 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C64
+L Capacitor:C0603_4n7F_50V_10% C64
 U 1 1 680B2917
 P 3550 2100
 F 0 "C64" H 3650 2150 64  0000 L CNN
@@ -194,7 +194,7 @@ F 3 "" H 1500 2575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R38
+L Resistor:R_4k7_5% R38
 U 1 1 6C0A03D3
 P 4300 3700
 F 0 "R38" H 4225 3850 64  0000 L BNN
@@ -219,7 +219,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE M
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C70
+L Capacitor:C0402_100nF_16V_10% C70
 U 1 1 5F8D81F9
 P 4550 4000
 F 0 "C70" H 4725 4075 64  0000 L CNN
@@ -244,7 +244,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4550 4000 50  0001 C CNN "Manufacturer_Des
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C71
+L Capacitor:C0603_4n7F_50V_10% C71
 U 1 1 13BC9B95
 P 3550 3900
 F 0 "C71" H 3650 3950 64  0000 L CNN
@@ -263,7 +263,7 @@ F 11 "" H 3550 3900 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:ASDX IC18
+L IC:ASDX_10023117 IC18
 U 1 1 CEEB9070
 P 2550 3800
 F 0 "IC18" H 2538 4363 85  0000 C CNN
@@ -425,7 +425,7 @@ F 3 "" H 3950 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C60
+L Capacitor:C0402_100nF_16V_10% C60
 U 1 1 74AE98EE
 P 11450 2300
 F 0 "C60" H 11538 2388 64  0000 L CNN
@@ -472,7 +472,7 @@ F 3 "" H 10050 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C61
+L Capacitor:C0603_4n7F_50V_10% C61
 U 1 1 4189E79D
 P 10900 2300
 F 0 "C61" H 10988 2388 64  0000 L CNN
@@ -491,7 +491,7 @@ F 11 "" H 10900 2300 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C62
+L Capacitor:C0805_100nF_50V_10% C62
 U 1 1 3872CC01
 P 9500 2050
 F 0 "C62" H 9400 2100 64  0000 R CNN
@@ -522,7 +522,7 @@ F 23 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805, X7R DIELECTRIC" H 9500 20
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:AWM3300V IC15
+L IC:AWM3300V IC15
 U 1 1 90D2B56F
 P 10050 2050
 F 0 "IC15" H 10088 2538 73  0000 L BNN
@@ -541,7 +541,7 @@ F 11 "AIR FLOW SENSOR" H 10050 2050 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R37
+L Resistor:R_4k7_5% R37
 U 1 1 11FD54D7
 P 14550 2050
 F 0 "R37" H 14485 2188 64  0000 L BNN
@@ -566,7 +566,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE M
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C66
+L Capacitor:C0402_100nF_16V_10% C66
 U 1 1 5B12AA4C
 P 14750 2250
 F 0 "C66" H 14850 2325 64  0000 L CNN
@@ -613,7 +613,7 @@ F 3 "" H 13350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C68
+L Capacitor:C0603_4n7F_50V_10% C68
 U 1 1 F44D85A5
 P 14200 2200
 F 0 "C68" H 14295 2178 64  0000 L CNN
@@ -632,7 +632,7 @@ F 11 "" H 14200 2200 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C69
+L Capacitor:C0805_100nF_50V_10% C69
 U 1 1 1015ED7D
 P 12850 2000
 F 0 "C69" H 12575 2075 64  0000 L CNN
@@ -663,7 +663,7 @@ F 23 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805, X7R DIELECTRIC" H 12850 2
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:AWM3300V IC17
+L IC:AWM3300V IC17
 U 1 1 93EF86A4
 P 13350 2050
 F 0 "IC17" H 13400 2575 73  0000 L BNN
@@ -708,7 +708,7 @@ F 3 "" H 13350 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:BLIN-AWM33 BL1
+L BL:BLIN-AWM33 BL1
 U 1 1 AAFF44B7
 P 10450 2425
 F 0 "BL1" H 10450 2325 56  0000 L BNN
@@ -724,7 +724,7 @@ F 8 "EMC,FLOW SENSOR HOUSING,IC15 & IC17 (CUSTOM PART)" H 10450 2425 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:BLIN-AWM33 BL3
+L BL:BLIN-AWM33 BL3
 U 1 1 6617CE3C
 P 13800 2450
 F 0 "BL3" H 13800 2350 56  0000 L BNN
@@ -884,7 +884,7 @@ F 3 "" H 1550 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C95
+L Capacitor:C0402_100nF_16V_10% C95
 U 1 1 A1AFAF59
 P 4300 9550
 F 0 "C95" H 4425 9600 64  0000 L CNN
@@ -895,7 +895,7 @@ F 3 "" H 4300 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R51
+L Resistor:R_4k7_5% R51
 U 1 1 C00D2805
 P 3900 9400
 F 0 "R51" H 3913 9650 64  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "" H 4300 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C94
+L Capacitor:C0805_220nF_25V_10% C94
 U 1 1 84DA4059
 P 1550 9050
 F 0 "C94" H 1463 9113 64  0000 R CNN
@@ -972,7 +972,7 @@ Text HLabel 4900 9400 2    56   Output ~ 0
 PRES-ABS
 Connection ~ 1800 8750
 $Comp
-L cpu-board:ASDX IC33
+L IC:ASDX_10023159 IC33
 U 1 1 B100278E
 P 2550 9500
 F 0 "IC33" H 2538 10100 85  0000 C CNN
@@ -1017,7 +1017,7 @@ Wire Wire Line
 Connection ~ 1550 9700
 Connection ~ 1550 10050
 $Comp
-L Flipped_Devices:C_Small C96
+L Capacitor:C0603_4n7F_50V_10% C96
 U 1 1 C9A1B3F0
 P 3600 9575
 F 0 "C96" H 3700 9575 64  0000 L CNN
@@ -1064,7 +1064,7 @@ F 3 "" H 4550 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R42
+L Resistor:R_4k7_5% R42
 U 1 1 83169F00
 P 4300 5550
 F 0 "R42" H 4237 5700 64  0000 L BNN
@@ -1089,7 +1089,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE M
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C104
+L Capacitor:C0603_4n7F_50V_10% C104
 U 1 1 CA435796
 P 3550 5700
 F 0 "C104" H 3650 5775 64  0000 L CNN
@@ -1108,7 +1108,7 @@ F 11 "" H 3550 5700 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:ASDX IC22
+L IC:ASDX_10023117 IC22
 U 1 1 2C1B848F
 P 2550 5650
 F 0 "IC22" H 2550 6213 85  0000 C CNN
@@ -1127,7 +1127,7 @@ F 11 "IC DIFFERENTIAL PRESSURE SENSOR WITH ANALOGUE OUTPUT -10 TO 100 MBAR" H 25
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C102
+L Capacitor:C0805_220nF_25V_10% C102
 U 1 1 DC61BB42
 P 1500 5200
 F 0 "C102" H 1181 5212 64  0000 L BNN
@@ -1343,7 +1343,7 @@ Connection ~ 4550 5550
 Wire Wire Line
 	4550 5550 4850 5550
 $Comp
-L Flipped_Devices:C_Small C103
+L Capacitor:C0402_100nF_16V_10% C103
 U 1 1 0E789015
 P 4550 5850
 F 0 "C103" H 4675 5925 64  0000 L CNN
@@ -1432,7 +1432,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 2950 2500 3050
 $Comp
-L cpu-board:ASDX IC16
+L IC:ASDX_10023117 IC16
 U 1 1 9EF2916C
 P 2500 2000
 F 0 "IC16" H 2488 2563 85  0000 C CNN
@@ -1730,7 +1730,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 2450 14000 2650
 $Comp
-L Flipped_Devices:R R33
+L Resistor:R_4k7_5% R33
 U 1 1 05E5179D
 P 11200 2050
 F 0 "R33" H 11125 2225 64  0000 L BNN
@@ -1815,7 +1815,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 7500 2000 7500
 $Comp
-L cpu-board:2XBL-AWM BL2
+L BL:2XBL-AWM BL2
 U 1 1 04E96AC4
 P 3350 8400
 F 0 "BL2" H 3375 7075 59  0000 L BNN
@@ -1954,7 +1954,7 @@ Wire Wire Line
 	1950 2200 1500 2200
 Connection ~ 1500 2200
 $Comp
-L Flipped_Devices:C_Small C59
+L Capacitor:C0805_220nF_25V_10% C59
 U 1 1 079CFDA5
 P 1500 1600
 F 0 "C59" H 1219 1650 64  0000 L BNN
@@ -2017,7 +2017,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1250 1500 1500
 $Comp
-L cpu-board:3XBL-ADSX BL4
+L BL:3XBL-ADSX BL4
 U 1 1 2C3F9162
 P 3300 1500
 F 0 "BL4" H 3325 -2263 59  0000 L BNN

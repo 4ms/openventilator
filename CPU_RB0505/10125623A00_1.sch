@@ -81,7 +81,7 @@ F 3 "" H 14400 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 CB1F8FE5
 P 14700 2150
 AR Path="/CB1F8FE5" Ref="C?"  Part="1" 
@@ -108,7 +108,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14700 2150 50  0001 C CNN "Manufacturer_De
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 A05C1986
 P 7350 9650
 AR Path="/A05C1986" Ref="C?"  Part="1" 
@@ -135,7 +135,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9650 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 93AA069D
 P 7350 9800
 AR Path="/93AA069D" Ref="C?"  Part="1" 
@@ -162,7 +162,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9800 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 5F5D481B
 P 7350 9950
 AR Path="/5F5D481B" Ref="C?"  Part="1" 
@@ -189,7 +189,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9950 50  0001 C CNN "Manufacturer_Des
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 0EABB629
 P 7350 10100
 AR Path="/0EABB629" Ref="C?"  Part="1" 
@@ -216,7 +216,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10100 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 C9504634
 P 7350 10250
 AR Path="/C9504634" Ref="C?"  Part="1" 
@@ -243,7 +243,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10250 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 AB97CB13
 P 7350 10400
 AR Path="/AB97CB13" Ref="C?"  Part="1" 
@@ -270,7 +270,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10400 50  0001 C CNN "Manufacturer_De
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 BCAFF6B0
 P 7350 10550
 AR Path="/BCAFF6B0" Ref="C?"  Part="1" 
@@ -443,7 +443,7 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 7750 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 284AD347
 P 7350 10700
 AR Path="/284AD347" Ref="C?"  Part="1" 
@@ -469,7 +469,7 @@ F 3 "" H 9050 7250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Crystal_Small Q?
+L Crystal:Crystal_Small_10020993 Q?
 U 1 1 F8782F37
 P 5650 1150
 AR Path="/F8782F37" Ref="Q?"  Part="1" 
@@ -487,7 +487,7 @@ F 8 "" H 5650 1150 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R_100R_5% R?
 U 1 1 E6C7F8B8
 P 5550 1350
 AR Path="/E6C7F8B8" Ref="R?"  Part="1" 
@@ -527,7 +527,7 @@ F 3 "" H 5950 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0805_330nF_16V_10% C?
 U 1 1 967579EA
 P 6550 1300
 AR Path="/967579EA" Ref="C?"  Part="1" 
@@ -570,7 +570,7 @@ F 3 "" H 6550 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:CP_Small C?
+L Capacitor:C_1uF_35V_10% C?
 U 1 1 6D37B6AD
 P 7400 1100
 AR Path="/6D37B6AD" Ref="C?"  Part="1" 
@@ -591,7 +591,7 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 501DA122
 P 8450 1300
 AR Path="/501DA122" Ref="C?"  Part="1" 
@@ -683,7 +683,7 @@ F 3 "" H 8350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0603_22pF_50V_5% C?
 U 1 1 7EE2FFE3
 P 5750 1050
 AR Path="/7EE2FFE3" Ref="C?"  Part="1" 
@@ -707,7 +707,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0603_22pF_50V_5% C?
 U 1 1 5ADCC44B
 P 5550 1050
 AR Path="/5ADCC44B" Ref="C?"  Part="1" 
@@ -757,7 +757,7 @@ F 3 "" H 1800 9950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_56k_1% R?
 U 1 1 C54AB7D0
 P 2200 9550
 AR Path="/C54AB7D0" Ref="R?"  Part="1" 
@@ -784,7 +784,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 1 %, 100 PPM, 56000 OHM, SURFACE 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_10k5_0.1% R?
 U 1 1 BAB36D42
 P 2200 9850
 AR Path="/BAB36D42" Ref="R?"  Part="1" 
@@ -805,7 +805,7 @@ F 11 "PRECISION SURFACE MOUNT RESISTOR" H 2200 9850 50  0001 C CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 597E8BEF
 P 2200 10050
 AR Path="/597E8BEF" Ref="C?"  Part="1" 
@@ -871,7 +871,7 @@ F 3 "" H 6150 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_1k5_5% R?
 U 1 1 D628991E
 P 3100 5950
 AR Path="/D628991E" Ref="R?"  Part="1" 
@@ -898,7 +898,7 @@ F 17 "THICK FILM CHIP RESISTOR" H 3100 5950 50  0001 C CNN "Manufacturer_Desc4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:RES_4CB C?
+L Capacitor:RES_4CB C?
 U 1 1 8BD8962D
 P 2150 3950
 AR Path="/8BD8962D" Ref="C?"  Part="1" 
@@ -1028,7 +1028,7 @@ F 3 "" H 1600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 662809D9
 P 11150 1200
 AR Path="/662809D9" Ref="C?"  Part="1" 
@@ -1054,7 +1054,7 @@ F 3 "" H 10800 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Flipped_Devices:D_Zener_A1K3 D?
+L Diode:D_Zener_A1K3_10022655 D?
 U 1 1 8A392F19
 P 12400 4250
 AR Path="/8A392F19" Ref="D?"  Part="1" 
@@ -1075,7 +1075,7 @@ F 11 "" H 12400 4250 50  0001 C CNN "Manufacturer_Desc2"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R_4k7_5% R?
 U 1 1 CEF2471C
 P 12650 4050
 AR Path="/CEF2471C" Ref="R?"  Part="1" 
@@ -1136,7 +1136,7 @@ F 3 "" H 12400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R_100k_5% R?
 U 1 1 CCBE402C
 P 12050 7250
 AR Path="/CCBE402C" Ref="R?"  Part="1" 
@@ -1210,7 +1210,7 @@ F 11 "" H 15100 7600 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0805_1uF_16V_10% C?
 U 1 1 9A495DAC
 P 12200 7250
 AR Path="/9A495DAC" Ref="C?"  Part="1" 
@@ -1263,7 +1263,7 @@ F 3 "" H 14900 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:D_Schottky_A1K3 D?
+L Diode:D_Schottky_A1K3_10022652 D?
 U 1 1 59396773
 P 13950 7700
 AR Path="/59396773" Ref="D?"  Part="1" 
@@ -1331,7 +1331,7 @@ F 3 "" H 5100 10750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_10k_5% R?
 U 1 1 F7CB6097
 P 4800 10950
 AR Path="/F7CB6097" Ref="R?"  Part="1" 
@@ -1361,7 +1361,7 @@ F 20 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 10000 OHM, SURFACE 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 7614D321
 P 4800 10550
 AR Path="/7614D321" Ref="C?"  Part="1" 
@@ -1440,7 +1440,7 @@ F 3 "" H 9900 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0402_100nF_16V_10% C?
 U 1 1 150190AD
 P 10200 3250
 AR Path="/150190AD" Ref="C?"  Part="1" 
@@ -2139,7 +2139,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 1500 7950 1100
 $Comp
-L Flipped_Devices:CP_Small C?
+L Capacitor:C_1uF_35V_10% C?
 U 1 1 6F4029DE
 P 8250 1300
 AR Path="/6F4029DE" Ref="C?"  Part="1" 
@@ -3538,7 +3538,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 7700 12050 7700
 $Comp
-L Flipped_Devices:Q_NMOS_GSD T?
+L Transistor:Q_NMOS_GSD_10097274 T?
 U 1 1 78F4DB2D
 P 11850 6700
 AR Path="/78F4DB2D" Ref="T?"  Part="1" 
@@ -3562,7 +3562,7 @@ F 14 "N-CHANNEL TRENCHMOS FET" H 11850 6700 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_22k_1%_10095983 R?
 U 1 1 CBBF32AF
 P 12450 6700
 AR Path="/CBBF32AF" Ref="R?"  Part="1" 
@@ -3592,7 +3592,7 @@ Wire Wire Line
 Connection ~ 12200 6700
 Connection ~ 12050 6700
 $Comp
-L Flipped_Devices:D_Schottky_A1K3 D?
+L Diode:D_Schottky_A1K3_10022652 D?
 U 1 1 13A4EF58
 P 12450 6400
 AR Path="/13A4EF58" Ref="D?"  Part="1" 
@@ -3641,7 +3641,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 6850 14900 6800
 $Comp
-L Flipped_Devices:C_Small C?
+L Capacitor:C0805_1uF_16V_10% C?
 U 1 1 C17297D4
 P 14150 7300
 AR Path="/C17297D4" Ref="C?"  Part="1" 
@@ -3702,7 +3702,7 @@ Wire Wire Line
 	13650 7500 13600 7500
 Connection ~ 13650 7300
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R_100k_5% R?
 U 1 1 CC254D70
 P 13800 7700
 AR Path="/CC254D70" Ref="R?"  Part="1" 
@@ -3815,7 +3815,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1550 5950 1600
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_220k_5% R?
 U 1 1 E7C109B0
 P 7150 1200
 AR Path="/E7C109B0" Ref="R?"  Part="1" 

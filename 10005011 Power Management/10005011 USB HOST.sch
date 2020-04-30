@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 10005011_Power_Management:SN74LVC2T45 IC18
+L IC:SN74LVC2T45 IC18
 U 1 1 5E9C58BD
 P 2500 2850
 F 0 "IC18" H 2750 3300 50  0000 C CNN
@@ -40,7 +40,7 @@ F 3 "" H 2300 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C97
+L Capacitor:C0402_100nF_16V_10% C97
 U 1 1 5E9D28C2
 P 1950 2250
 F 0 "C97" V 1698 2250 50  0000 C CNN
@@ -64,7 +64,7 @@ Connection ~ 2300 2250
 Wire Wire Line
 	2300 2250 2400 2250
 $Comp
-L Device:C C105
+L Capacitor:C0402_100nF_16V_10% C105
 U 1 1 5E9D59EB
 P 3050 2250
 F 0 "C105" V 2798 2250 50  0000 C CNN
@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 3150 1950 3400
 $Comp
-L 10005011_Power_Management:SN74LVC2T45 IC19
+L IC:SN74LVC2T45 IC19
 U 1 1 5E9DD921
 P 2500 4650
 F 0 "IC19" H 2750 5100 50  0000 C CNN
@@ -172,7 +172,7 @@ F 3 "" H 2300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C101
+L Capacitor:C0402_100nF_16V_10% C101
 U 1 1 5E9DD931
 P 1950 4050
 F 0 "C101" V 1698 4050 50  0000 C CNN
@@ -196,7 +196,7 @@ Connection ~ 2300 4050
 Wire Wire Line
 	2300 4050 2400 4050
 $Comp
-L Device:C C104
+L Capacitor:C0402_100nF_16V_10% C104
 U 1 1 5E9DD946
 P 3050 4050
 F 0 "C104" V 2798 4050 50  0000 C CNN
@@ -265,7 +265,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4950 1950 4950
 $Comp
-L 10005011_Power_Management:SN74LVC2T45 IC20
+L IC:SN74LVC2T45 IC20
 U 1 1 5E9E0D2F
 P 2500 6500
 F 0 "IC20" H 2750 6950 50  0000 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 2300 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C102
+L Capacitor:C0402_100nF_16V_10% C102
 U 1 1 5E9E0D3F
 P 1950 5900
 F 0 "C102" V 1698 5900 50  0000 C CNN
@@ -315,7 +315,7 @@ Connection ~ 2300 5900
 Wire Wire Line
 	2300 5900 2400 5900
 $Comp
-L Device:C C103
+L Capacitor:C0402_100nF_16V_10% C103
 U 1 1 5E9E0D54
 P 3050 5900
 F 0 "C103" V 2798 5900 50  0000 C CNN
@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6800 1950 6800
 $Comp
-L 10005011_Power_Management:CY7C67300-100AXI IC15
+L IC:CY7C67300-100AXI IC15
 U 1 1 5EA0D50B
 P 7250 5600
 AR Path="/5EA0D50B" Ref="IC15"  Part="1" 
@@ -528,7 +528,7 @@ Wire Wire Line
 	3600 6600 2900 6600
 Connection ~ 3600 6600
 $Comp
-L Device:R R?
+L Resistor:R0603_10k_1%_10022548 R?
 U 1 1 5EA5E4CE
 P 1400 6850
 AR Path="/5E92767C/5EA5E4CE" Ref="R?"  Part="1" 
@@ -563,7 +563,7 @@ Connection ~ 1400 6600
 Wire Wire Line
 	1400 6600 2100 6600
 $Comp
-L Device:C C85
+L Capacitor:C0402_100nF_16V_10% C85
 U 1 1 5EA657A1
 P 4500 1200
 F 0 "C85" H 4385 1154 50  0000 R CNN
@@ -578,7 +578,7 @@ F 7 "GRM155R71C104JA88J" V 4500 1200 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C86
+L Capacitor:C0402_100nF_16V_10% C86
 U 1 1 5EA68C33
 P 5000 1200
 F 0 "C86" H 4885 1154 50  0000 R CNN
@@ -593,7 +593,7 @@ F 7 "GRM155R71C104JA88J" V 5000 1200 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C87
+L Capacitor:C0402_100nF_16V_10% C87
 U 1 1 5EA68E6E
 P 5500 1200
 F 0 "C87" H 5385 1154 50  0000 R CNN
@@ -608,7 +608,7 @@ F 7 "GRM155R71C104JA88J" V 5500 1200 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C88
+L Capacitor:C0402_100nF_16V_10% C88
 U 1 1 5EA697E9
 P 6000 1200
 F 0 "C88" H 5885 1154 50  0000 R CNN
@@ -981,7 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2350 8600 2550
 $Comp
-L Device:Crystal Q3
+L Crystal:Crystal Q3
 U 1 1 5EC84088
 P 6800 9700
 F 0 "Q3" H 6800 9968 50  0000 C CNN
@@ -996,7 +996,7 @@ F 7 "" H 6800 9700 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Resistor:R0603_1M_1% R?
 U 1 1 5EC89FFA
 P 6800 9200
 AR Path="/5E92767C/5EC89FFA" Ref="R?"  Part="1" 
@@ -1013,7 +1013,7 @@ F 7 "" V 6800 9200 50  0001 C CNN "Manufacturer_No"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Resistor:R0603_2k7_1% R?
 U 1 1 5EC8ABF7
 P 6600 8750
 AR Path="/5E92767C/5EC8ABF7" Ref="R?"  Part="1" 
@@ -1030,7 +1030,7 @@ F 7 "" V 6600 8750 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C94
+L Capacitor:C0603_22pF_50V_5% C94
 U 1 1 5ECA7A73
 P 6600 10050
 F 0 "C94" H 6486 10004 50  0000 R CNN
@@ -1045,7 +1045,7 @@ F 7 "" V 6600 10050 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C95
+L Capacitor:C0603_22pF_50V_5% C95
 U 1 1 5ECA87A1
 P 7000 10050
 F 0 "C95" H 6885 10004 50  0000 R CNN
@@ -1139,7 +1139,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 8250 6350 8400
 $Comp
-L 10005011_Power_Management:BAT54C D15
+L Diode:BAT54C D15
 U 1 1 5ED4DEE9
 P 3200 8850
 F 0 "D15" V 3059 9038 50  0000 L CNN
@@ -1156,7 +1156,7 @@ F 9 "10022653" H 3200 8850 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Memory_EEPROM:24LC512 IC17
+L IC:24LC512 IC17
 U 1 1 5ED62242
 P 3200 10000
 F 0 "IC17" H 3300 10350 50  0000 C CNN
@@ -1171,7 +1171,7 @@ F 7 "" H 3200 10000 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Resistor:R0603_10k_1%_10022548 R?
 U 1 1 5ED6E2BC
 P 4100 9200
 AR Path="/5E92767C/5ED6E2BC" Ref="R?"  Part="1" 
@@ -1196,7 +1196,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 9900 6200 9500
 $Comp
-L Device:R R?
+L Resistor:R0603_10k_1%_10022548 R?
 U 1 1 5ED93C4D
 P 4400 9200
 AR Path="/5E92767C/5ED93C4D" Ref="R?"  Part="1" 
@@ -1271,7 +1271,7 @@ Connection ~ 2600 10100
 Wire Wire Line
 	2600 10100 2600 10300
 $Comp
-L Device:R R?
+L Resistor:R0603_10k_1%_10022548 R?
 U 1 1 5EDFB231
 P 2850 9550
 AR Path="/5E92767C/5EDFB231" Ref="R?"  Part="1" 
@@ -1288,7 +1288,7 @@ F 7 "" V 2850 9550 50  0001 C CNN "Manufacturer_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C93
+L Capacitor:C0402_100nF_16V_10% C93
 U 1 1 5EDFCF7E
 P 2850 9150
 F 0 "C93" V 2598 9150 50  0000 C CNN
@@ -1398,7 +1398,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 9850 1750 9850
 $Comp
-L 10005011_Power_Management:CY7C1021DV33 IC16
+L IC:CY7C1021DV33 IC16
 U 1 1 5EF6FC59
 P 13350 7150
 F 0 "IC16" H 13800 8150 50  0000 C CNN
@@ -1641,7 +1641,7 @@ $EndComp
 Wire Wire Line
 	10550 8700 10550 8500
 $Comp
-L 74xGxx:74AHC1G08 IC2
+L IC:74AHC1G08 IC2
 U 1 1 5EFD8796
 P 10550 8400
 F 0 "IC2" H 10650 8650 50  0000 C CNN
@@ -1656,7 +1656,7 @@ F 7 "" H 10550 8400 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C96
+L Capacitor:C0402_100nF_16V_10% C96
 U 1 1 5F0525F3
 P 10900 7950
 F 0 "C96" V 11152 7950 50  0000 C CNN
@@ -1738,7 +1738,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 9400 8000 8250
 $Comp
-L Device:C C92
+L Capacitor:C0402_100nF_16V_10% C92
 U 1 1 5F1C0BC1
 P 13350 5800
 F 0 "C92" V 13602 5800 50  0000 C CNN
@@ -1753,7 +1753,7 @@ F 7 "GRM155R71C104JA88J" V 13350 5800 50  0001 C CNN "Manufacturer_No"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C91
+L Capacitor:C0402_100nF_16V_10% C91
 U 1 1 5F1D77C2
 P 13350 5350
 F 0 "C91" V 13602 5350 50  0000 C CNN
@@ -1815,7 +1815,7 @@ Wire Wire Line
 	13800 5800 13650 5800
 Connection ~ 13650 5800
 $Comp
-L 10005011_Power_Management:USB_A_4shield J12
+L Connector:USB_A_4shield J12
 U 1 1 5F2EF52D
 P 15500 1250
 AR Path="/5F2EF52D" Ref="J12"  Part="1" 
@@ -1832,7 +1832,7 @@ F 7 "67329-8001" H 15500 1250 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:DLP31SN551ML2L L9
+L Inductor:DLP31SN551ML2L L9
 U 1 1 5F327EC2
 P 11800 1300
 F 0 "L9" H 11800 1489 50  0000 C CNN
@@ -1855,7 +1855,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 1400 11600 1400
 $Comp
-L Device:C C123
+L Capacitor:C0402_100nF_16V_10% C123
 U 1 1 5F58A776
 P 14100 1850
 F 0 "C123" H 14215 1896 50  0000 L CNN
@@ -1885,7 +1885,7 @@ F 7 "BLM21PG221SH1D" V 14950 1050 50  0001 C CNN "Manufacturer_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:L_Core_Iron L13
+L Inductor:L_Core_Iron_10022913 L13
 U 1 1 5F5BE291
 P 13400 1050
 F 0 "L13" V 13625 1050 50  0000 C CNN
@@ -1900,7 +1900,7 @@ F 7 "744764004" V 13400 1050 50  0001 C CNN "Manufacturer_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Varistor ML6
+L Varistor:Varistor_10022926 ML6
 U 1 1 5F5F17B5
 P 14600 1850
 F 0 "ML6" H 14703 1850 50  0000 L CNN
@@ -1918,7 +1918,7 @@ F 10 "10022926" H 14600 1850 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C130
+L Capacitor:C0402_47pF_50V_5% C130
 U 1 1 5F68ABBC
 P 12300 1850
 F 0 "C130" H 12415 1896 50  0000 L CNN
@@ -2003,7 +2003,7 @@ Connection ~ 14600 2350
 Wire Wire Line
 	14600 2350 14100 2350
 $Comp
-L Device:D_TVS PG4
+L Diode:D_TVS_10022946 PG4
 U 1 1 5F8F395A
 P 12800 1850
 F 0 "PG4" V 12800 1929 50  0000 L CNN
@@ -2020,7 +2020,7 @@ F 9 "10022946" H 12800 1850 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS PG3
+L Diode:D_TVS_10022946 PG3
 U 1 1 5F8F54F2
 P 13700 1850
 F 0 "PG3" V 13700 1929 50  0000 L CNN
@@ -2052,7 +2052,7 @@ F 7 "BLM21PG221SH1D" V 14950 2350 50  0001 C CNN "Manufacturer_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C129
+L Capacitor:C0402_47pF_50V_5% C129
 U 1 1 5F8FC6C6
 P 13200 1850
 F 0 "C129" H 13315 1896 50  0000 L CNN
@@ -2067,7 +2067,7 @@ F 7 "" V 13200 1850 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse PCT1
+L Fuse:Polyfuse PCT1
 U 1 1 5F91ED41
 P 10050 1050
 F 0 "PCT1" V 9825 1050 50  0000 C CNN
@@ -2099,7 +2099,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 1050 9900 1050
 $Comp
-L 10005011_Power_Management:USB_A_4shield J13
+L Connector:USB_A_4shield J13
 U 1 1 5F94AF33
 P 15500 3150
 AR Path="/5F94AF33" Ref="J13"  Part="1" 
@@ -2116,7 +2116,7 @@ F 7 "67329-8001" H 15500 3150 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:DLP31SN551ML2L L11
+L Inductor:DLP31SN551ML2L L11
 U 1 1 5F94AF3D
 P 11800 3200
 F 0 "L11" H 11800 3389 50  0000 C CNN
@@ -2143,7 +2143,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 3300 11600 3300
 $Comp
-L Device:C C122
+L Capacitor:C0402_100nF_16V_10% C122
 U 1 1 5F94AF51
 P 14100 3750
 F 0 "C122" H 14215 3796 50  0000 L CNN
@@ -2173,7 +2173,7 @@ F 7 "BLM21PG221SH1D" V 14950 2950 50  0001 C CNN "Manufacturer_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:L_Core_Iron L14
+L Inductor:L_Core_Iron_10022913 L14
 U 1 1 5F94AF65
 P 13400 2950
 F 0 "L14" V 13625 2950 50  0000 C CNN
@@ -2188,7 +2188,7 @@ F 7 "744764004" V 13400 2950 50  0001 C CNN "Manufacturer_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Varistor ML8
+L Varistor:Varistor_10022926 ML8
 U 1 1 5F94AF71
 P 14600 3750
 F 0 "ML8" H 14703 3750 50  0000 L CNN
@@ -2205,7 +2205,7 @@ F 9 "10022926" H 14600 3750 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C120
+L Capacitor:C0402_47pF_50V_5% C120
 U 1 1 5F94AF7B
 P 12300 3750
 F 0 "C120" H 12415 3796 50  0000 L CNN
@@ -2296,7 +2296,7 @@ Connection ~ 14600 4250
 Wire Wire Line
 	14600 4250 14100 4250
 $Comp
-L Device:D_TVS PG6
+L Diode:D_TVS_10022946 PG6
 U 1 1 5F94AFB5
 P 12800 3750
 F 0 "PG6" V 12800 3829 50  0000 L CNN
@@ -2313,7 +2313,7 @@ F 9 "10022946" H 12800 3750 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS PG5
+L Diode:D_TVS_10022946 PG5
 U 1 1 5F94AFC0
 P 13700 3750
 F 0 "PG5" V 13700 3829 50  0000 L CNN
@@ -2345,7 +2345,7 @@ F 7 "BLM21PG221SH1D" V 14950 4250 50  0001 C CNN "Manufacturer_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C121
+L Capacitor:C0402_47pF_50V_5% C121
 U 1 1 5F94AFD4
 P 13200 3750
 F 0 "C121" H 13315 3796 50  0000 L CNN
@@ -2445,7 +2445,7 @@ Connection ~ 12300 4250
 Wire Wire Line
 	12300 4250 12800 4250
 $Comp
-L Device:R R8
+L Resistor:R0603_47k_1% R8
 U 1 1 5F20A20B
 P 4250 3200
 F 0 "R8" H 4180 3154 50  0000 R CNN
@@ -2476,7 +2476,7 @@ $EndComp
 Wire Wire Line
 	4250 3400 4250 3350
 $Comp
-L Device:R R?
+L Resistor:R0603_47k_1% R?
 U 1 1 5F0A4AA7
 P 12050 8200
 AR Path="/5E92767C/5F0A4AA7" Ref="R?"  Part="1" 
@@ -2493,7 +2493,7 @@ F 7 "" V 12050 8200 50  0001 C CNN "Manufacturer_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C89
+L Capacitor:C1206_100uF_20% C89
 U 1 1 5E9C6325
 P 10450 1350
 F 0 "C89" H 10565 1396 50  0000 L CNN

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Ferrite_Bead_Small L5
+L Inductor:Ferrite_Bead_Small_10022911 L5
 U 1 1 5E9D7DED
 P 9650 3250
 F 0 "L5" V 9305 3250 50  0000 C CNN
@@ -32,7 +32,7 @@ F 10 "10022911" V 9650 3250 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L61
+L Inductor:Ferrite_Bead_Small_10022911 L61
 U 1 1 5E9D8545
 P 9650 2250
 F 0 "L61" V 9995 2250 50  0000 C CNN
@@ -49,7 +49,7 @@ F 9 "10022911" V 9650 2250 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L50
+L Inductor:Ferrite_Bead_Small_10022907 L50
 U 1 1 5E9D8DF1
 P 10050 2350
 F 0 "L50" V 10287 2350 50  0000 C CNN
@@ -67,7 +67,7 @@ F 10 "10022907" H 10050 2350 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even J7
+L Connector:Conn_02x13_Odd_Even J7
 U 1 1 5E9D960E
 P 8950 2750
 F 0 "J7" H 9000 1925 50  0000 C CNN
@@ -86,7 +86,7 @@ Wire Wire Line
 Text Label 9200 2250 0    50   ~ 0
 J7-BR23
 $Comp
-L Device:Ferrite_Bead_Small L49
+L Inductor:Ferrite_Bead_Small_10022907 L49
 U 1 1 5EA74213
 P 10450 2450
 F 0 "L49" V 10750 2450 50  0000 C CNN
@@ -104,7 +104,7 @@ F 10 "10022907" H 10450 2450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L48
+L Inductor:Ferrite_Bead_Small_10022907 L48
 U 1 1 5E9F70D0
 P 10850 2550
 F 0 "L48" V 11150 2550 50  0000 C CNN
@@ -122,7 +122,7 @@ F 10 "10022907" H 10850 2550 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L47
+L Inductor:Ferrite_Bead_Small_10022907 L47
 U 1 1 5E9F744C
 P 11250 2650
 F 0 "L47" V 11550 2650 50  0000 C CNN
@@ -140,7 +140,7 @@ F 10 "10022907" H 11250 2650 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L46
+L Inductor:Ferrite_Bead_Small_10022907 L46
 U 1 1 5E9FB98A
 P 11650 2750
 F 0 "L46" V 11950 2750 50  0000 C CNN
@@ -158,7 +158,7 @@ F 10 "10022907" H 11650 2750 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L45
+L Inductor:Ferrite_Bead_Small_10022907 L45
 U 1 1 5E9FB996
 P 10050 2850
 F 0 "L45" V 10287 2850 50  0000 C CNN
@@ -176,7 +176,7 @@ F 10 "10022907" H 10050 2850 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L44
+L Inductor:Ferrite_Bead_Small_10022907 L44
 U 1 1 5E9FB9A2
 P 10450 2950
 F 0 "L44" V 10750 2950 50  0000 C CNN
@@ -194,7 +194,7 @@ F 10 "10022907" H 10450 2950 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L43
+L Inductor:Ferrite_Bead_Small_10022907 L43
 U 1 1 5E9FB9AE
 P 10850 3050
 F 0 "L43" V 11150 3050 50  0000 C CNN
@@ -220,7 +220,7 @@ J7-BR17
 Text Label 9200 2650 0    50   ~ 0
 J7-BR15
 $Comp
-L Device:Ferrite_Bead_Small L6
+L Inductor:Ferrite_Bead_Small_10022907 L6
 U 1 1 5EA0EB0B
 P 11250 3150
 F 0 "L6" V 11395 3150 50  0000 C CNN
@@ -238,7 +238,7 @@ F 10 "10022907" H 11250 3150 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L23
+L Inductor:Ferrite_Bead_Small_10022907 L23
 U 1 1 5EA0EB17
 P 8150 3150
 F 0 "L23" V 8387 3150 50  0000 C CNN
@@ -352,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2150 9150 2150
 $Comp
-L Device:Ferrite_Bead_Small L20
+L Inductor:Ferrite_Bead_Small_10022907 L20
 U 1 1 5EA74223
 P 6950 2850
 F 0 "L20" V 7250 2850 50  0000 C CNN
@@ -370,7 +370,7 @@ F 10 "10022907" H 6950 2850 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L21
+L Inductor:Ferrite_Bead_Small_10022907 L21
 U 1 1 5EA74224
 P 7350 2950
 F 0 "L21" V 7650 2950 50  0000 C CNN
@@ -388,7 +388,7 @@ F 10 "10022907" H 7350 2950 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L22
+L Inductor:Ferrite_Bead_Small_10022907 L22
 U 1 1 5EA3C144
 P 7750 3050
 F 0 "L22" V 8050 3050 50  0000 C CNN
@@ -526,7 +526,7 @@ J7-BR5
 Text Label 3850 3250 0    50   ~ 0
 J7-BR13
 $Comp
-L 10005011_Power_Management:47pF_array C62
+L Capacitor:47pF_array C62
 U 1 1 5EA7420A
 P 4650 3850
 F 0 "C62" H 4850 3900 50  0000 C CNN
@@ -543,7 +543,7 @@ F 9 "10022136" H 4650 3850 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:47pF_array C98
+L Capacitor:47pF_array C98
 U 1 1 5E9C3D44
 P 4650 3150
 F 0 "C98" H 4900 3200 50  0000 R CNN
@@ -721,7 +721,7 @@ Connection ~ 3200 6800
 Wire Wire Line
 	3200 6800 3200 6900
 $Comp
-L Device:Varistor ML2
+L Varistor:Varistor_10022926 ML2
 U 1 1 5EA7422D
 P 3450 7050
 F 0 "ML2" H 3329 7050 50  0000 R CNN
@@ -889,7 +889,7 @@ Wire Wire Line
 Text Notes 2750 8550 0    79   ~ 0
 BAT-EEPROM changed to an input.\nwas output in original schematic.
 $Comp
-L 10005011_Power_Management:IRLML2803TRPBF T23
+L Transistor:IRLML2803TRPBF T23
 U 1 1 5ED42F62
 P 9550 8350
 F 0 "T23" H 9754 8396 50  0000 L CNN
@@ -906,7 +906,7 @@ F 9 "10022558" H 9550 8350 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:IRLML5103TRPBF T31
+L Transistor:IRLML5103TRPBF T31
 U 1 1 5EAE8197
 P 10050 7150
 F 0 "T31" V 10392 7150 50  0000 C CNN
@@ -923,7 +923,7 @@ F 9 "10022933" H 10050 7150 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Regulator_Linear:LM78M05_TO252 IC25
+L IC:LM78M05_TO252 IC25
 U 1 1 5ED463F1
 P 7300 7150
 F 0 "IC25" H 7150 7275 50  0000 C CNN
@@ -1016,7 +1016,7 @@ F 3 "~" H 9150 7500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management:BAT54C D14
+L Diode:BAT54C D14
 U 1 1 5EAE81A0
 P 8850 7050
 F 0 "D14" H 8800 7465 50  0000 C CNN
@@ -1069,7 +1069,7 @@ Wire Wire Line
 Text Label 8150 7150 0    50   ~ 0
 24VDC
 $Comp
-L 10005011_Power_Management:BAT54C D7
+L Diode:BAT54C D7
 U 1 1 5EAE8187
 P 10350 7550
 F 0 "D7" V 10391 7372 50  0000 R CNN
@@ -1109,7 +1109,7 @@ FANPWR-PERM
 Text Label 10250 7050 0    50   ~ 0
 FANPWR-SW
 $Comp
-L Device:L_Core_Iron L4
+L Inductor:L_Core_Iron_10022910 L4
 U 1 1 5E92DD9B
 P 10900 7050
 F 0 "L4" V 11125 7050 50  0000 C CNN
@@ -1155,7 +1155,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 7650 12450 7650
 $Comp
-L 10005011_Power_Management:BZX84C5V1 D10
+L Diode:BZX84C5V1 D10
 U 1 1 5E965749
 P 11750 8400
 F 0 "D10" V 11704 8479 50  0000 L CNN
@@ -1342,7 +1342,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2350 4550 2350
 $Comp
-L 10005011_Power_Management:47pF_array C61
+L Capacitor:47pF_array C61
 U 1 1 5EA7420C
 P 4650 2450
 F 0 "C61" H 4900 2500 50  0000 R CNN
@@ -1359,7 +1359,7 @@ F 9 "10022136" H 4650 2450 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:47pF_array C53
+L Capacitor:47pF_array C53
 U 1 1 5EA7420D
 P 4650 1750
 F 0 "C53" H 4900 1800 50  0000 R CNN
@@ -1437,7 +1437,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 1650 5050 1650
 $Comp
-L 10005011_Power_Management:47pF_array C100
+L Capacitor:47pF_array C100
 U 1 1 5E999B39
 P 4650 4550
 F 0 "C100" H 4850 4600 50  0000 C CNN
@@ -1454,7 +1454,7 @@ F 9 "10022136" H 4650 4550 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L19
+L Inductor:Ferrite_Bead_Small_10022907 L19
 U 1 1 5EA74222
 P 6550 2750
 F 0 "L19" V 6850 2750 50  0000 C CNN
@@ -1472,7 +1472,7 @@ F 10 "10022907" H 6550 2750 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L18
+L Inductor:Ferrite_Bead_Small_10022907 L18
 U 1 1 5EA74221
 P 8150 2650
 F 0 "L18" V 8387 2650 50  0000 C CNN
@@ -1490,7 +1490,7 @@ F 10 "10022907" H 8150 2650 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L16
+L Inductor:Ferrite_Bead_Small_10022907 L16
 U 1 1 5EA41929
 P 7350 2450
 F 0 "L16" V 7650 2450 50  0000 C CNN
@@ -1508,7 +1508,7 @@ F 10 "10022907" H 7350 2450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L17
+L Inductor:Ferrite_Bead_Small_10022907 L17
 U 1 1 5EA41935
 P 7750 2550
 F 0 "L17" V 8050 2550 50  0000 C CNN
@@ -1526,7 +1526,7 @@ F 10 "10022907" H 7750 2550 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L15
+L Inductor:Ferrite_Bead_Small_10022907 L15
 U 1 1 5EA4191D
 P 6950 2350
 F 0 "L15" V 7187 2350 50  0000 C CNN
@@ -1601,7 +1601,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 3050 12150 3050
 $Comp
-L Device:R R78
+L Resistor:R0603_10k_0.1%_10022701 R78
 U 1 1 5EFF6E45
 P 3550 6150
 F 0 "R78" H 3480 6104 50  0000 R CNN
@@ -1622,7 +1622,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6500 4200 6500
 $Comp
-L Device:Varistor ML3
+L Varistor:Varistor_10022926 ML3
 U 1 1 5EA7422E
 P 4200 7050
 F 0 "ML3" H 4079 7050 50  0000 R CNN
@@ -1677,7 +1677,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 7300 4850 7300
 $Comp
-L 10005011_Power_Management:SZ1SMB D21
+L Diode:SZ1SMB D21
 U 1 1 5EA74236
 P 5500 7050
 F 0 "D21" V 5454 7129 50  0000 L CNN
@@ -1694,7 +1694,7 @@ F 9 "10022654" H 5500 7050 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint PT1
+L Jumper:TestPoint PT1
 U 1 1 5EB70271
 P 4500 7700
 F 0 "PT1" H 4500 7970 50  0000 C CNN
@@ -1733,7 +1733,7 @@ Wire Wire Line
 	4200 7450 4200 7300
 Connection ~ 3550 7450
 $Comp
-L Device:C C109
+L Capacitor:C0805_100nF_50V_10% C109
 U 1 1 5F2FE5DB
 P 4850 7050
 F 0 "C109" H 4735 7004 50  0000 R CNN
@@ -1754,7 +1754,7 @@ $EndComp
 Connection ~ 4850 7300
 Connection ~ 3200 6400
 $Comp
-L Device:C C110
+L Capacitor:C0805_100nF_50V_10% C110
 U 1 1 5F497A72
 P 3750 9850
 F 0 "C110" H 3865 9804 50  0000 L CNN
@@ -1773,7 +1773,7 @@ F 11 "10022135" H 3750 9850 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C10
+L Capacitor:C_10uF_50V_10% C10
 U 1 1 5F4F3C94
 P 4450 9850
 F 0 "C10" H 4335 9804 50  0000 R CNN
@@ -1812,7 +1812,7 @@ $EndComp
 NoConn ~ 3350 9400
 NoConn ~ 3350 9500
 $Comp
-L Device:C C113
+L Capacitor:C0805_100nF_50V_10% C113
 U 1 1 5E9551E3
 P 6650 7500
 F 0 "C113" H 6535 7409 50  0000 R CNN
@@ -1832,7 +1832,7 @@ F 12 "10022135" H 6650 7500 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C112
+L Capacitor:C0805_100nF_50V_10% C112
 U 1 1 5E9585A3
 P 7700 7500
 F 0 "C112" H 7585 7409 50  0000 R CNN
@@ -1852,7 +1852,7 @@ F 12 "10022135" H 7700 7500 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C114
+L Capacitor:C_10uF_50V_10% C114
 U 1 1 5E959638
 P 8450 7500
 F 0 "C114" H 8335 7409 50  0000 R CNN
@@ -1874,7 +1874,7 @@ F 14 "22205C106K4Z4A" H 8450 7500 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R114
+L Resistor:R1206_1k5_1% R114
 U 1 1 5E962F48
 P 9650 7800
 F 0 "R114" H 9720 7891 50  0000 L CNN
@@ -1889,7 +1889,7 @@ F 7 "10022740" H 9650 7800 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R77
+L Resistor:R0603_10k_1%_10022548 R77
 U 1 1 5E96494F
 P 8950 8600
 F 0 "R77" H 9020 8691 50  0000 L CNN
@@ -1908,7 +1908,7 @@ F 11 "1/10W" H 8950 8600 50  0001 C CNN "Wattage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C60
+L Capacitor:C_10uF_50V_10% C60
 U 1 1 5E96FC65
 P 11150 7500
 F 0 "C60" H 11265 7409 50  0000 L CNN
@@ -1930,7 +1930,7 @@ F 14 "22205C106K4Z4A" H 11150 7500 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C14
+L Capacitor:C_10uF_50V_10% C14
 U 1 1 5E9771FD
 P 11600 7500
 F 0 "C14" H 11715 7409 50  0000 L CNN
@@ -1952,7 +1952,7 @@ F 14 "22205C106K4Z4A" H 11600 7500 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R116
+L Resistor:R1206_100R_1% R116
 U 1 1 5E9958F4
 P 11350 8400
 F 0 "R116" H 11420 8491 50  0000 L CNN
@@ -1967,7 +1967,7 @@ F 7 "232272461001L" H 11350 8400 50  0001 C CNN "Manufacturer No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L Resistor:R0603_10k_1%_10022548 R12
 U 1 1 5E99F2E7
 P 13200 8450
 F 0 "R12" V 13100 8450 50  0000 C CNN
@@ -1986,7 +1986,7 @@ F 11 "1/10W" H 13200 8450 50  0001 C CNN "Wattage"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R20
+L Resistor:R0603_100k_1%_10022549 R20
 U 1 1 5E9A3AD2
 P 13800 8650
 F 0 "R20" V 13685 8650 50  0000 C CNN
@@ -2007,7 +2007,7 @@ $EndComp
 Wire Wire Line
 	13850 7250 13850 7350
 $Comp
-L 10005011_Power_Management:BAT54 D20
+L Diode:BAT54 D20
 U 1 1 5EAE8195
 P 12450 8350
 F 0 "D20" V 12450 8300 50  0000 R CNN
@@ -2047,7 +2047,7 @@ Connection ~ 11150 7850
 Wire Wire Line
 	11150 7850 11150 8850
 $Comp
-L Device:C C111
+L Capacitor:C0603_10nF_50V_10% C111
 U 1 1 5E978A34
 P 12100 7500
 F 0 "C111" H 12214 7409 50  0000 L CNN
@@ -2090,7 +2090,7 @@ Connection ~ 8450 7150
 Wire Wire Line
 	13250 8150 12950 8150
 $Comp
-L 10005011_Power_Management:TLV3012AIDBV IC6
+L IC:TLV3012AIDBV IC6
 U 1 1 5E918693
 P 13450 8050
 F 0 "IC6" H 13600 8250 50  0000 C CNN
@@ -2105,7 +2105,7 @@ F 7 "TLV3012AIDBVR" H 13450 8050 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Capacitor:C0402_100nF_16V_10% C9
 U 1 1 5E9B0C90
 P 13850 7500
 F 0 "C9" H 13965 7546 50  0000 L CNN
@@ -2126,7 +2126,7 @@ F 13 "GRM155R71C104JA88J" H 13850 7500 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R115
+L Resistor:R1206_1k_1%_10022557 R115
 U 1 1 5E962213
 P 9650 7300
 F 0 "R115" H 9581 7391 50  0000 R CNN

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Male J1
+L Connector:Conn_01x02_Male_10021350 J1
 U 1 1 5E883FC2
 P 11400 1450
 F 0 "J1" H 11300 1450 50  0000 R CNN
@@ -30,7 +30,7 @@ F 8 "Need to request datasheet" H 11400 1450 50  0001 C CNN "Note"
     -1   0    0    -1
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J2
+L Connector:Conn_01x02_Male_10021350 J2
 U 1 1 5E884FEF
 P 11400 1850
 F 0 "J2" H 11300 1850 50  0000 R CNN
@@ -46,7 +46,7 @@ F 8 "Need to request datasheet" H 11400 1850 50  0001 C CNN "Note"
     -1   0    0    -1
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
+L Connector:Conn_01x02_Male_10021350 J3
 U 1 1 5E885823
 P 11400 2250
 F 0 "J3" H 11300 2250 50  0000 R CNN
@@ -77,7 +77,7 @@ F 7 "GKS 913 305 230 A 15 02 S" H 11400 2700 50  0001 C CNN "Manufacturer_No"
     -1   0    0    1
 $EndComp
 $Comp
-L Device:R R5
+L Resistor:R0603_18k_1% R5
 U 1 1 5E8871D7
 P 10650 1650
 F 0 "R5" H 10580 1604 50  0000 R CNN
@@ -228,7 +228,7 @@ F 3 "" H 9700 3375 50  0001 C CNN
     1    0    0    -1
 $EndComp
 $Comp
-L Device:D_Schottky_x2_ACom_KKA D2
+L Diode:D_Schottky_x2_ACom_KKA D2
 U 1 1 5E88EC93
 P 10300 3100
 F 0 "D2" V 10125 2925 50  0000 L CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
     10750 1850 10750 2950
 $Comp
-L Connector:Conn_01x02_Male J6
+L Connector:Conn_01x02_Male_10021350 J6
 U 1 1 5E8B39F9
 P 11400 4600
 F 0 "J6" H 11300 4600 50  0000 R CNN
@@ -300,7 +300,7 @@ F 8 "Need to request datasheet" H 11400 4600 50  0001 C CNN "Note"
     -1   0    0    -1
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J7
+L Connector:Conn_01x02_Male_10021350 J7
 U 1 1 5E8B39FF
 P 11400 5000
 F 0 "J7" H 11300 5000 50  0000 R CNN
@@ -335,7 +335,7 @@ ID_BAT2
 Text Notes 11700 5100 0    100  ~ 20
 TEMP_BAT2
 $Comp
-L Device:R R15
+L Resistor:R0603_18k_1% R15
 U 1 1 5E8B3A0F
 P 10650 4400
 F 0 "R15" H 10580 4354 50  0000 R CNN
@@ -410,7 +410,7 @@ Wire Wire Line
 Wire Wire Line
     10300 6200 10300 6150
 $Comp
-L 10106052_PowerPack:SMA6J28A D7
+L Diode:SMA6J28A D7
 U 1 1 5E8B3A76
 P 8700 5050
 F 0 "D7" V 8625 5500 50  0000 R CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
     8950 4600 8950 3500
 $Comp
-L 10106052_PowerPack:Q_PMOS_GDSD T4
+L Transistor:Q_PMOS_GDSD T4
 U 1 1 5E8E58ED
 P 7750 2700
 F 0 "T4" H 7956 2746 50  0000 L CNN
@@ -449,7 +449,7 @@ F 7 "SUD50P06-15L-E3" H 7750 2700 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Device:R R2
+L Resistor:R0603_15k_1% R2
 U 1 1 5E8E8E09
 P 7575 1450
 F 0 "R2" V 7368 1450 50  0000 C CNN
@@ -465,7 +465,7 @@ F 8 "BOM listed ASJ CR16153FL" H 7575 1450 50  0001 C CNN "Note"
     0    1    1    0
 $EndComp
 $Comp
-L Device:R R1
+L Resistor:R0603_10k_1%_10022548 R1
 U 1 1 5E8E923B
 P 7050 1450
 F 0 "R1" V 6843 1450 50  0000 C CNN
@@ -492,7 +492,7 @@ Connection ~ 7300 1450
 Wire Wire Line
     6750 1450 6900 1450
 $Comp
-L Device:Q_NMOS_GSD T6
+L Transistor:Q_NMOS_GSD_10002095 T6
 U 1 1 5E90AD6B
 P 6650 3050
 F 0 "T6" H 6856 3096 50  0000 L CNN
@@ -507,7 +507,7 @@ F 7 "2N7002LT1G" H 6650 3050 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Device:R R12
+L Resistor:R0603_15k_1% R12
 U 1 1 5E90AD71
 P 7550 3100
 F 0 "R12" V 7665 3100 50  0000 C CNN
@@ -523,7 +523,7 @@ F 8 "BOM listed ASJ CR16153FL" H 7550 3100 50  0001 C CNN "Note"
     0    1    1    0
 $EndComp
 $Comp
-L Device:R R10
+L Resistor:R0603_10k_1%_10022548 R10
 U 1 1 5E90AD77
 P 7050 2700
 F 0 "R10" V 6843 2700 50  0000 C CNN
@@ -551,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
     6750 3250 6750 3350
 $Comp
-L Device:R R13
+L Resistor:R0603_22k_1%_10113300 R13
 U 1 1 5E90AD85
 P 6450 3350
 F 0 "R13" V 6335 3350 50  0000 C CNN
@@ -600,7 +600,7 @@ Wire Wire Line
     7400 3100 7300 3100
 Connection ~ 7850 3100
 $Comp
-L Device:Q_NMOS_GSD T7
+L Transistor:Q_NMOS_GSD_10002095 T7
 U 1 1 5E94B6CF
 P 5950 4550
 F 0 "T7" H 6156 4596 50  0000 L CNN
@@ -615,7 +615,7 @@ F 7 "2N7002LT1G" H 5950 4550 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L 10106052_PowerPack:Q_PMOS_GDSD T8
+L Transistor:Q_PMOS_GDSD T8
 U 1 1 5E94B6D5
 P 7050 4550
 F 0 "T8" H 7254 4504 50  0000 L CNN
@@ -630,7 +630,7 @@ F 7 "SUD50P06-15L-E3" H 7050 4550 50  0001 C CNN "Manufacturer_No"
     1    0    0    1
 $EndComp
 $Comp
-L 10106052_PowerPack:Q_PMOS_GDSD T9
+L Transistor:Q_PMOS_GDSD T9
 U 1 1 5E94B6DB
 P 7050 5450
 F 0 "T9" H 7254 5496 50  0000 L CNN
@@ -645,7 +645,7 @@ F 7 "SUD50P06-15L-E3" H 7050 5450 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Device:R R18
+L Resistor:R0603_15k_1% R18
 U 1 1 5E94B6E2
 P 6850 4200
 F 0 "R18" V 6643 4200 50  0000 C CNN
@@ -661,7 +661,7 @@ F 8 "BOM listed ASJ CR16153FL" H 6850 4200 50  0001 C CNN "Note"
     0    1    1    0
 $EndComp
 $Comp
-L Device:R R17
+L Resistor:R0603_10k_1%_10022548 R17
 U 1 1 5E94B6E8
 P 6300 4200
 F 0 "R17" V 6093 4200 50  0000 C CNN
@@ -696,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
     6050 4750 6050 4800
 $Comp
-L Device:R R20
+L Resistor:R0603_22k_1%_10113300 R20
 U 1 1 5E94B6FA
 P 5750 4800
 F 0 "R20" V 5635 4800 50  0000 C CNN
@@ -738,7 +738,7 @@ F 3 "" H 6050 4950 50  0001 C CNN
     1    0    0    -1
 $EndComp
 $Comp
-L Device:R R22
+L Resistor:R0603_15k_1% R22
 U 1 1 5E94B715
 P 6850 5850
 F 0 "R22" V 6965 5850 50  0000 C CNN
@@ -754,7 +754,7 @@ F 8 "BOM listed ASJ CR16153FL" H 6850 5850 50  0001 C CNN "Note"
     0    1    1    0
 $EndComp
 $Comp
-L Device:R R21
+L Resistor:R0603_10k_1%_10022548 R21
 U 1 1 5E94B71B
 P 6300 5450
 F 0 "R21" V 6093 5450 50  0000 C CNN
@@ -802,7 +802,7 @@ Wire Wire Line
     7600 6150 7600 6600
 Connection ~ 7600 6150
 $Comp
-L Device:R R3
+L Resistor:R0603_100k_1%_10001204 R3
 U 1 1 5E9894EF
 P 4900 1200
 F 0 "R3" H 4830 1154 50  0000 R CNN
@@ -817,7 +817,7 @@ F 7 "RC0603FR-07100KL" H 4900 1200 50  0001 C CNN "Manufacturer_No"
     -1   0    0    1
 $EndComp
 $Comp
-L Device:R R7
+L Resistor:R0603_10k_1%_10022548 R7
 U 1 1 5E9895D8
 P 4900 1650
 F 0 "R7" H 4830 1604 50  0000 R CNN
@@ -832,7 +832,7 @@ F 7 "RC0603FR-0710KL" H 4900 1650 50  0001 C CNN "Manufacturer_No"
     -1   0    0    1
 $EndComp
 $Comp
-L Device:C C1
+L Capacitor:C0603_100nF_50V_10% C1
 U 1 1 5E989E0B
 P 4550 1650
 F 0 "C1" H 4665 1604 50  0000 L CNN
@@ -876,7 +876,7 @@ Wire Wire Line
     4300 1425 4550 1425
 Connection ~ 4550 1425
 $Comp
-L Device:R R16
+L Resistor:R0603_100k_1%_10001204 R16
 U 1 1 5E9D792D
 P 4150 4050
 F 0 "R16" H 4220 4096 50  0000 L CNN
@@ -891,7 +891,7 @@ F 7 "RC0603FR-07100KL" H 4150 4050 50  0001 C CNN "Manufacturer_No"
     1    0    0    1
 $EndComp
 $Comp
-L Device:R R19
+L Resistor:R0603_10k_1%_10022548 R19
 U 1 1 5E9D7933
 P 4150 4550
 F 0 "R19" H 4220 4596 50  0000 L CNN
@@ -906,7 +906,7 @@ F 7 "RC0603FR-0710KL" H 4150 4550 50  0001 C CNN "Manufacturer_No"
     1    0    0    1
 $EndComp
 $Comp
-L Device:C C4
+L Capacitor:C0603_100nF_50V_10% C4
 U 1 1 5E9D7939
 P 3800 4550
 F 0 "C4" H 3525 4625 50  0000 L CNN
@@ -952,7 +952,7 @@ Connection ~ 3800 4300
 Wire Wire Line
     7150 3800 7150 4200
 $Comp
-L 10106052_PowerPack:PMEG4005AEA D3
+L Diode:PMEG4005AEA D3
 U 1 1 5E9EE36A
 P 3050 2200
 F 0 "D3" H 2925 2275 50  0000 C CNN
@@ -967,7 +967,7 @@ F 7 "PMEG4005AEA,115" H 3050 2200 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L 10106052_PowerPack:PMEG4005AEA D4
+L Diode:PMEG4005AEA D4
 U 1 1 5E9EF925
 P 3050 2450
 F 0 "D4" H 2925 2525 50  0000 C CNN
@@ -982,7 +982,7 @@ F 7 "PMEG4005AEA,115" H 3050 2450 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L 10106052_PowerPack:PMEG4005AEA D6
+L Diode:PMEG4005AEA D6
 U 1 1 5E9EFC87
 P 3050 2700
 F 0 "D6" H 2925 2775 50  0000 C CNN
@@ -1154,7 +1154,7 @@ Wire Wire Line
 Wire Wire Line
     7150 4750 7150 5250
 $Comp
-L Device:R R30
+L Resistor:R0603_10k_1%_10022548 R30
 U 1 1 5EC7B928
 P 4400 8600
 F 0 "R30" H 4330 8554 50  0000 R CNN
@@ -1185,7 +1185,7 @@ $EndComp
 Wire Wire Line
     4400 8750 4400 8850
 $Comp
-L Device:C C14
+L Capacitor:C0603_100nF_50V_10% C14
 U 1 1 5ED0B80B
 P 4750 8600
 F 0 "C14" H 4635 8554 50  0000 R CNN
@@ -1218,7 +1218,7 @@ Connection ~ 4750 8350
 Text HLabel 4950 7750 2    50   Output ~ 0
 V_DC_CHARGER
 $Comp
-L Device:Q_NMOS_GSD T15
+L Transistor:Q_NMOS_GSD_10002095 T15
 U 1 1 5EAD215C
 P 6550 8400
 F 0 "T15" H 6755 8446 50  0000 L CNN
@@ -1233,7 +1233,7 @@ F 7 "2N7002LT1G" H 6550 8400 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L Device:R R54
+L Resistor:R0603_15k_1% R54
 U 1 1 5EAD2162
 P 6900 7500
 F 0 "R54" H 6970 7546 50  0000 L CNN
@@ -1249,7 +1249,7 @@ F 8 "BOM listed ASJ CR16153FL" H 6900 7500 50  0001 C CNN "Note"
     1    0    0    -1
 $EndComp
 $Comp
-L Device:R R53
+L Resistor:R0603_10k_1%_10022548 R53
 U 1 1 5EAD2168
 P 6650 8000
 F 0 "R53" H 6720 8046 50  0000 L CNN
@@ -1275,7 +1275,7 @@ Wire Wire Line
 Wire Wire Line
     6650 8600 6650 8700
 $Comp
-L Device:R R52
+L Resistor:R0603_22k_1%_10113300 R52
 U 1 1 5EAD2175
 P 6325 8700
 F 0 "R52" V 6210 8700 50  0000 C CNN
@@ -1322,7 +1322,7 @@ Connection ~ 6900 7250
 Wire Wire Line
     6900 7250 7600 7250
 $Comp
-L Device:R R56
+L Resistor:R0603_10k_1%_10022548 R56
 U 1 1 5EBD5FFA
 P 5800 8600
 F 0 "R56" H 5730 8554 50  0000 R CNN
@@ -1337,7 +1337,7 @@ F 7 "RC0603FR-0710KL" H 5800 8600 50  0001 C CNN "Manufacturer_No"
     -1   0    0    1
 $EndComp
 $Comp
-L Device:R R55
+L Resistor:R0603_47k_1% R55
 U 1 1 5EBD63E1
 P 5800 8100
 F 0 "R55" H 5730 8054 50  0000 R CNN
@@ -1375,7 +1375,7 @@ $EndComp
 Wire Wire Line
     5800 8800 5800 8750
 $Comp
-L Device:R R27
+L Resistor:R0603_100k_1%_10001204 R27
 U 1 1 5EC7A8F7
 P 4400 8100
 F 0 "R27" H 4330 8054 50  0000 R CNN
@@ -1390,7 +1390,7 @@ F 7 "RC0603FR-07100KL" H 4400 8100 50  0001 C CNN "Manufacturer_No"
     -1   0    0    1
 $EndComp
 $Comp
-L Device:R R25
+L Resistor:R1206_0R_5% R25
 U 1 1 5EC7C3A3
 P 4800 7750
 F 0 "R25" V 4593 7750 50  0000 C CNN
@@ -1412,7 +1412,7 @@ Connection ~ 4400 7750
 Wire Wire Line
     4400 7750 4400 7950
 $Comp
-L Device:Fuse F1
+L Fuse:Fuse_10107889 F1
 U 1 1 5ED757EF
 P 2750 7250
 F 0 "F1" V 2947 7250 50  0000 C CNN
@@ -1465,7 +1465,7 @@ Wire Wire Line
 Wire Wire Line
     5800 7250 6450 7250
 $Comp
-L 10106052_PowerPack:SMA6J28A D9
+L Diode:SMA6J28A D9
 U 1 1 5ED5C669
 P 3150 7650
 F 0 "D9" V 3104 7571 50  0000 R CNN
@@ -1480,7 +1480,7 @@ F 7 "SMA6J28A-TR" H 3150 7650 50  0001 C CNN "Manufacturer_No"
     0    -1   1    0
 $EndComp
 $Comp
-L 10106052_PowerPack:Q_PMOS_GDSD T14
+L Transistor:Q_PMOS_GDSD T14
 U 1 1 5EAD2156
 P 6650 7350
 F 0 "T14" V 6992 7350 50  0000 C CNN
@@ -1543,7 +1543,7 @@ Connection ~ 8200 8075
 Wire Wire Line
     8050 8075 8200 8075
 $Comp
-L Device:CP C9
+L Capacitor:C_100uF_50V_20%_TH C9
 U 1 1 5EA29795
 P 7900 8075
 F 0 "C9" V 7737 8075 50  0000 C CNN
@@ -1558,7 +1558,7 @@ F 7 "ESW107M050AG3AA" H 7900 8075 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Device:CP C8
+L Capacitor:C_100uF_50V_20%_TH C8
 U 1 1 5EA292FD
 P 7900 7750
 F 0 "C8" V 8155 7750 50  0000 C CNN
@@ -1625,7 +1625,7 @@ Wire Wire Line
 Wire Wire Line
     10900 9100 10600 9100
 $Comp
-L Connector:Conn_01x02_Male J11
+L Connector:Conn_01x02_Male_10107892 J11
 U 1 1 5E898ED2
 P 11100 9000
 F 0 "J11" H 11072 8974 50  0000 R CNN
@@ -1640,7 +1640,7 @@ F 7 "0436500229" H 11100 9000 50  0001 C CNN "Manufacturer_No"
     -1   0    0    -1
 $EndComp
 $Comp
-L 10106052_PowerPack:BNX002-11 FL1
+L FL:BNX002-11 FL1
 U 1 1 5E89720C
 P 9750 9100
 F 0 "FL1" H 9725 9473 50  0000 C CNN
@@ -1702,7 +1702,7 @@ Connection ~ 11850 7350
 Wire Wire Line
     11850 7550 11850 7350
 $Comp
-L Device:C C12
+L Capacitor:C0603_10nF_50V_10% C12
 U 1 1 5EB45D1D
 P 11850 7700
 F 0 "C12" H 11735 7654 50  0000 R CNN
@@ -1718,7 +1718,7 @@ F 8 "BOM lists 223858615636, this is the same" H 11850 7700 50  0001 C CNN "Note
     -1   0    0    1
 $EndComp
 $Comp
-L Device:R R29
+L Resistor:R0603_40k2_0.1%_10021070 R29
 U 1 1 5EB4595C
 P 11450 7700
 F 0 "R29" H 11380 7654 50  0000 R CNN
@@ -1733,7 +1733,7 @@ F 7 "PCF0603-R-40K2BT1" H 11450 7700 50  0001 C CNN "Manufacturer_No"
     -1   0    0    1
 $EndComp
 $Comp
-L Device:R R28
+L Resistor:R0603_5k_1% R28
 U 1 1 5EB45634
 P 11050 7700
 F 0 "R28" H 10980 7654 50  0000 R CNN
@@ -1757,7 +1757,7 @@ Wire Wire Line
     10700 7150 10700 7550
 Connection ~ 10700 7150
 $Comp
-L Device:C C11
+L Capacitor:C0603_100nF_50V_10% C11
 U 1 1 5EB0B07A
 P 10700 7700
 F 0 "C11" H 10585 7654 50  0000 R CNN
@@ -1802,7 +1802,7 @@ Wire Wire Line
 Wire Wire Line
     9800 7450 9800 7850
 $Comp
-L Device:C C10
+L Capacitor:C0603_10nF_50V_10% C10
 U 1 1 5EAC2B56
 P 9400 7650
 F 0 "C10" H 9285 7604 50  0000 R CNN
@@ -1828,7 +1828,7 @@ Wire Wire Line
 Wire Wire Line
     9450 6600 9450 7150
 $Comp
-L 10106052_PowerPack:INA170 U3
+L IC:INA170 U3
 U 1 1 5EA63FAB
 P 10200 7300
 F 0 "U3" H 10200 7675 50  0000 C CNN
@@ -1888,7 +1888,7 @@ Note: Join GND and AGND planes/traces;
 Wire Wire Line
     9100 9550 8950 9550
 $Comp
-L Device:R R32
+L Resistor:R1206_470R_5% R32
 U 1 1 5E955BE2
 P 9250 9550
 F 0 "R32" V 9135 9550 50  0000 C CNN
@@ -1903,7 +1903,7 @@ F 7 "RC1206JR-07470RL" H 9250 9550 50  0001 C CNN "Manufacturer_No"
     0    -1   -1   0
 $EndComp
 $Comp
-L Device:R R24
+L Resistor:R2512_15R_1% R24
 U 1 1 5EA65B46
 P 7600 6900
 F 0 "R24" H 7530 6854 50  0000 R CNN
@@ -2020,7 +2020,7 @@ Wire Wire Line
 Text Notes 11700 4300 0    100  ~ 20
 +BAT2
 $Comp
-L Connector:Conn_01x02_Male J5
+L Connector:Conn_01x02_Male_10021350 J5
 U 1 1 5E8B39F3
 P 11400 4200
 F 0 "J5" H 11300 4200 50  0000 R CNN
@@ -2111,7 +2111,7 @@ Wire Wire Line
 Wire Wire Line
     5900 6050 6050 6050
 $Comp
-L Device:R R23
+L Resistor:R0603_22k_1%_10113300 R23
 U 1 1 5E94B728
 P 5750 6050
 F 0 "R23" V 5635 6050 50  0000 C CNN
@@ -2130,7 +2130,7 @@ Wire Wire Line
 Wire Wire Line
     6050 5600 6050 5450
 $Comp
-L Device:Q_NMOS_GSD T10
+L Transistor:Q_NMOS_GSD_10002095 T10
 U 1 1 5E94B70F
 P 5950 5800
 F 0 "T10" H 6156 5846 50  0000 L CNN
@@ -2178,7 +2178,7 @@ Wire Wire Line
 Wire Wire Line
     6575 2100 6750 2100
 $Comp
-L Device:R R8
+L Resistor:R0603_22k_1%_10113300 R8
 U 1 1 5E8F923B
 P 6425 2100
 F 0 "R8" V 6310 2100 50  0000 C CNN
@@ -2195,7 +2195,7 @@ $EndComp
 Wire Wire Line
     6750 2000 6750 2100
 $Comp
-L Device:Q_NMOS_GSD T1
+L Transistor:Q_NMOS_GSD_10002095 T1
 U 1 1 5E8DDDCC
 P 6650 1800
 F 0 "T1" H 6855 1846 50  0000 L CNN
@@ -2210,7 +2210,7 @@ F 7 "2N7002LT1G" H 6650 1800 50  0001 C CNN "Manufacturer_No"
     1    0    0    -1
 $EndComp
 $Comp
-L 10106052_PowerPack:Q_PMOS_GDSD T2
+L Transistor:Q_PMOS_GDSD T2
 U 1 1 5E8E25DA
 P 7750 1800
 F 0 "T2" H 7954 1754 50  0000 L CNN
@@ -2253,7 +2253,7 @@ Wire Wire Line
 Wire Wire Line
     8700 2700 8700 3075
 $Comp
-L Device:D_Schottky_x2_ACom_KKA D8
+L Diode:D_Schottky_x2_ACom_KKA D8
 U 1 1 5E8B3A5F
 P 10300 5850
 F 0 "D8" V 10150 5675 50  0000 L CNN
@@ -2285,7 +2285,7 @@ $EndComp
 Text Notes 11700 5450 0    100  ~ 20
 -BAT2
 $Comp
-L 10106052_PowerPack:SMA6J28A D1
+L Diode:SMA6J28A D1
 U 1 1 5E8958A9
 P 8700 2350
 F 0 "D1" V 8654 2428 50  0000 L CNN
@@ -2300,7 +2300,7 @@ F 7 "SMA6J28A-TR" H 8700 2350 50  0001 C CNN "Manufacturer_No"
     0    -1   1    0
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J9
+L Connector:Conn_01x02_Male_10107890 J9
 U 1 1 5EFCAE2E
 P 1950 7250
 F 0 "J9" H 1850 7200 50  0000 C CNN
