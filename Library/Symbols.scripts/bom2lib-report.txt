@@ -1479,23 +1479,23 @@ Found library part name for BUZ1: cpu-board:F_HMB in sheet ../../CPU_RB0505/1012
 Found new item number 10022632 on row 5
 Attempting to create new symbol based on refs: C1
 Searching for ref C1
-Found ref des C1: cpu-board:C0603 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des C1: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022976 on row 8
 Attempting to create new symbol based on refs: C101
 Searching for ref C101
-Found library part name for C101: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for C101: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10022622 on row 11
 Attempting to create new symbol based on refs: C106
 Searching for ref C106
-Found library part name for C106: cpu-board:CHCMS_D8 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C106: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022978 on row 14
 Attempting to create new symbol based on refs: C117
 Searching for ref C117
-Found library part name for C117: cpu-board:TANTALB in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C117: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022623 on row 15
 Attempting to create new symbol based on refs: C12
 Searching for ref C12
-Found library part name for C12: cpu-board:C0603 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for C12: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10095973 on row 20
 Attempting to create new symbol based on refs: C14
 Searching for ref C14
@@ -1503,75 +1503,75 @@ Found ref des C14: cpu-board:RES_4CB in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022962 on row 21
 Attempting to create new symbol based on refs: C19
 Searching for ref C19
-Found library part name for C19: cpu-board:TANTALB in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for C19: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10022607 on row 22
 Attempting to create new symbol based on refs: C2
 Searching for ref C2
-Found library part name for C2: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found library part name for C2: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_2.sch
 Found new item number 10022963 on row 26
 Attempting to create new symbol based on refs: C21
 Searching for ref C21
-Found library part name for C21: cpu-board:MV100_F50V in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C21: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022508 on row 28
 Attempting to create new symbol based on refs: C39
 Searching for ref C39
-Found library part name for C39: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for C39: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022135 on row 32
 Attempting to create new symbol based on refs: C46
 Searching for ref C46
-Found library part name for C46: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C46: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022966 on row 38
 Attempting to create new symbol based on refs: C47
 Searching for ref C47
-Found library part name for C47: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C47: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022967 on row 41
 Attempting to create new symbol based on refs: C54
 Searching for ref C54
-Found library part name for C54: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for C54: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022968 on row 45
 Attempting to create new symbol based on refs: C59
 Searching for ref C59
-Found library part name for C59: cpu-board:C1206 in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found library part name for C59: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_4.sch
 Found new item number 10022510 on row 49
 Attempting to create new symbol based on refs: C6
 Searching for ref C6
-Found ref des C6: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des C6: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022613 on row 54
 Attempting to create new symbol based on refs: C61
 Searching for ref C61
-Found library part name for C61: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found library part name for C61: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_4.sch
 Found new item number 10022959 on row 56
 Attempting to create new symbol based on refs: C7
 Searching for ref C7
-Found ref des C7: cpu-board:TANTALB in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des C7: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022608 on row 58
 Attempting to create new symbol based on refs: C81
 Searching for ref C81
-Found library part name for C81: cpu-board:TANTALD in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C81: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022971 on row 60
 Attempting to create new symbol based on refs: C84
 Searching for ref C84
-Found library part name for C84: cpu-board:C0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for C84: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10097252 on row 64
 Attempting to create new symbol based on refs: C88
 Searching for ref C88
-Found library part name for C88: cpu-board:MV100_F50V in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for C88: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022973 on row 65
 Attempting to create new symbol based on refs: C89
 Searching for ref C89
-Found library part name for C89: cpu-board:TANTALB in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for C89: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10022975 on row 66
 Attempting to create new symbol based on refs: C99
 Searching for ref C99
-Found library part name for C99: cpu-board:C0603 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for C99: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10022656 on row 69
 Attempting to create new symbol based on refs: D11
 Searching for ref D11
-Found library part name for D11: cpu-board:BAT54 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for D11: Flipped_Devices:D_Schottky_A1K3 in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10020994 on row 70
 Attempting to create new symbol based on refs: D12
 Searching for ref D12
-Found library part name for D12: cpu-board:BZX84CXX in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for D12: Flipped_Devices:D_Zener_A1K3 in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022653 on row 72
 Attempting to create new symbol based on refs: D14
 Searching for ref D14
@@ -1579,19 +1579,19 @@ Found library part name for D14: cpu-board:BAT54C in sheet ../../CPU_RB0505/1012
 Found new item number 10022654 on row 74
 Attempting to create new symbol based on refs: D4
 Searching for ref D4
-Found library part name for D4: cpu-board:ICTE5 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for D4: Flipped_Devices:D_Schottky_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10097253 on row 77
 Attempting to create new symbol based on refs: D6
 Searching for ref D6
-Found library part name for D6: cpu-board:PRLL5819 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for D6: Flipped_Devices:D_Schottky in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10022655 on row 78
 Attempting to create new symbol based on refs: D8
 Searching for ref D8
-Found ref des D8: cpu-board:BZX84CXX in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des D8: Flipped_Devices:D_Zener_A1K3 in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022652 on row 80
 Attempting to create new symbol based on refs: D9
 Searching for ref D9
-Found ref des D9: cpu-board:BAT54 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des D9: Flipped_Devices:D_Schottky_A1K3 in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10023295 on row 82
 Attempting to create new symbol based on refs: FER1
 Searching for ref FER1
@@ -1615,7 +1615,7 @@ Found library part name for IC10: cpu-board:DS1305E in sheet ../../CPU_RB0505/10
 Found new item number 10022969 on row 90
 Attempting to create new symbol based on refs: IC11
 Searching for ref IC11
-Found library part name for IC11: cpu-board:LM358 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for IC11: Device:Opamp_Dual_Generic in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022970 on row 92
 Attempting to create new symbol based on refs: IC12
 Searching for ref IC12
@@ -1755,7 +1755,7 @@ Found library part name for JP1: cpu-board:JUMP_0U in sheet ../../CPU_RB0505/101
 Found new item number 10022907 on row 165
 Attempting to create new symbol based on refs: L1
 Searching for ref L1
-Found library part name for L1: cpu-board:74279263 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for L1: Flipped_Devices:L in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10022908 on row 166
 Attempting to create new symbol based on refs: L2
 Searching for ref L2
@@ -1763,15 +1763,15 @@ Found library part name for L2: cpu-board:WE-TPC-MH in sheet ../../CPU_RB0505/10
 Found new item number 10023186 on row 167
 Attempting to create new symbol based on refs: L30
 Searching for ref L30
-Found library part name for L30: cpu-board:7427504 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for L30: Flipped_Devices:L in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022544 on row 169
 Attempting to create new symbol based on refs: L5
 Searching for ref L5
-Found library part name for L5: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for L5: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10022911 on row 174
 Attempting to create new symbol based on refs: L7
 Searching for ref L7
-Found ref des L7: cpu-board:74279263 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found ref des L7: Flipped_Devices:L in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10022924 on row 175
 Attempting to create new symbol based on refs: PT1
 Searching for ref PT1
@@ -1781,107 +1781,107 @@ ERROR: Ref PT2 not found in any schematics
 Found new item number 10020993 on row 177
 Attempting to create new symbol based on refs: Q1
 Searching for ref Q1
-Found ref des Q1: cpu-board:SM49 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des Q1: Device:Crystal_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10023291 on row 178
 Attempting to create new symbol based on refs: Q2
 Searching for ref Q2
-Found library part name for Q2: cpu-board:HC49UP in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found library part name for Q2: Device:Crystal_Small in sheet ../../CPU_RB0505/10125623A00_2.sch
 Found new item number 10023250 on row 179
 Attempting to create new symbol based on refs: Q5
 Searching for ref Q5
-Found library part name for Q5: cpu-board:86SMX in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for Q5: Flipped_Devices:Crystal_Small_Pin1Pin4 in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10023189 on row 180
 Attempting to create new symbol based on refs: R1
 Searching for ref R1
-Found ref des R1: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des R1: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022731 on row 184
 Attempting to create new symbol based on refs: R11
 Searching for ref R11
-Found library part name for R11: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for R11: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10023190 on row 188
 Attempting to create new symbol based on refs: R13
 Searching for ref R13
-Found library part name for R13: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for R13: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10023235 on row 190
 Attempting to create new symbol based on refs: R14
 Searching for ref R14
-Found ref des R14: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des R14: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10097268 on row 194
 Attempting to create new symbol based on refs: R15
 Searching for ref R15
-Found ref des R15: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des R15: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10023237 on row 196
 Attempting to create new symbol based on refs: R16
 Searching for ref R16
-Found library part name for R16: cpu-board:R1206 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for R16: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10023238 on row 200
 Attempting to create new symbol based on refs: R17
 Searching for ref R17
-Found library part name for R17: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for R17: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022700 on row 205
 Attempting to create new symbol based on refs: R18
 Searching for ref R18
-Found library part name for R18: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for R18: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10023239 on row 209
 Attempting to create new symbol based on refs: R19
 Searching for ref R19
-Found library part name for R19: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for R19: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10023187 on row 210
 Attempting to create new symbol based on refs: R2
 Searching for ref R2
-Found library part name for R2: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found library part name for R2: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_2.sch
 Found new item number 10023240 on row 214
 Attempting to create new symbol based on refs: R22
 Searching for ref R22
-Found library part name for R22: cpu-board:R1206 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for R22: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10023188 on row 218
 Attempting to create new symbol based on refs: R3
 Searching for ref R3
-Found ref des R3: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des R3: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10022617 on row 222
 Attempting to create new symbol based on refs: R33
 Searching for ref R33
-Found library part name for R33: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found library part name for R33: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_4.sch
 Found new item number 10022736 on row 226
 Attempting to create new symbol based on refs: R4
 Searching for ref R4
-Found library part name for R4: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found library part name for R4: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_2.sch
 Found new item number 10095983 on row 230
 Attempting to create new symbol based on refs: R46
 Searching for ref R46
-Found ref des R46: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found ref des R46: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
 Found new item number 10097266 on row 233
 Attempting to create new symbol based on refs: R5
 Searching for ref R5
-Found library part name for R5: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found library part name for R5: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_2.sch
 Found new item number 10023242 on row 238
 Attempting to create new symbol based on refs: R52
 Searching for ref R52
-Found library part name for R52: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for R52: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10097270 on row 242
 Attempting to create new symbol based on refs: R57
 Searching for ref R57
-Found library part name for R57: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for R57: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10097271 on row 247
 Attempting to create new symbol based on refs: R58
 Searching for ref R58
-Found library part name for R58: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for R58: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022697 on row 250
 Attempting to create new symbol based on refs: R66
 Searching for ref R66
-Found library part name for R66: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for R66: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022732 on row 255
 Attempting to create new symbol based on refs: R7
 Searching for ref R7
-Found library part name for R7: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for R7: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10097272 on row 259
 Attempting to create new symbol based on refs: R71
 Searching for ref R71
-Found library part name for R71: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for R71: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10097273 on row 263
 Attempting to create new symbol based on refs: R73
 Searching for ref R73
-Found library part name for R73: cpu-board:R0805 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for R73: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10023252 on row 267
 Attempting to create new symbol based on refs: RL1
 Searching for ref RL1
@@ -1909,23 +1909,23 @@ ERROR: Ref RS7 not found in any schematics
 Found new item number 10097274 on row 279
 Attempting to create new symbol based on refs: T1
 Searching for ref T1
-Found library part name for T1: cpu-board:IRLML2803 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found library part name for T1: Flipped_Devices:Q_NMOS_GSD in sheet ../../CPU_RB0505/10125623A00_7.sch
 Found new item number 10023243 on row 282
 Attempting to create new symbol based on refs: T10
 Searching for ref T10
-Found library part name for T10: cpu-board:BCP51 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found library part name for T10: Device:Q_PNP_BCEC in sheet ../../CPU_RB0505/10125623A00_5.sch
 Found new item number 10022933 on row 284
 Attempting to create new symbol based on refs: T17
 Searching for ref T17
-Found library part name for T17: cpu-board:IRLML5103 in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found library part name for T17: Flipped_Devices:Q_PMOS_GSD in sheet ../../CPU_RB0505/10125623A00_6.sch
 Found new item number 10022956 on row 285
 Attempting to create new symbol based on refs: T20
 Searching for ref T20
-Found library part name for T20: cpu-board:MTD3055 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for T20: Flipped_Devices:Q_NMOS_GSD in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10022157 on row 287
 Attempting to create new symbol based on refs: T3
 Searching for ref T3
-Found library part name for T3: cpu-board:IRLML5103 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found library part name for T3: Flipped_Devices:Q_PMOS_GSD in sheet ../../CPU_RB0505/10125623A00_3.sch
 Found new item number 10025112 on row 290
 Attempting to create new symbol based on refs: V2
 Searching for ref V2
@@ -1947,44 +1947,51 @@ Found new item number 3838600 on row 306
 Found new item number 10022885 on row 307
 Found new item number 3821600 on row 308
 Found new item number 10029086 on row 309
-C0603 formatted to C0603_22pF_50V_5% based on description fieldCAPACITOR CERAMIC,22PF,+/-5%,50V,0603
-C0805 formatted to C0402_4n7F_25V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,25V,+/-10%,0402
-CHCMS_D8 formatted to C_220uF_20% based on description fieldCAPACITOR ELECTROLYTIC, 220UF,16V+/-20%
-C0603 formatted to C0402_47pF_50V_5% based on description fieldCAPACITOR,47 PF,+/-5%,50V,0402
-C0805 formatted to C0402_100nF_16V_10% based on description fieldCAPACITOR,100NF,16V,+/-10%,X7R,0402
-C0805 formatted to C0603_10nF_50V_10% based on description fieldCAPACITOR CERAMIC,10NF,+/-10%,50V,0603
-C0805 formatted to C0805_100nF_50V_10% based on description fieldCAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805
-C0805 formatted to C0402_220pF_50V_5% based on description fieldCAPACITOR CERAMIC, 220PF, 50V,+/-5%, NPO,0402
-C0805 formatted to C0805_1uF_16V_10% based on description fieldCAPACITOR CERAMIC,1UF,16V,+/-10%, 0805
-C1206 formatted to C0805_220nF_25V_10% based on description fieldCAP CERAMIC,220NF,25V,X7R,+/-10%,0805
-C0805 formatted to C0805_330nF_16V_10% based on description fieldCAPACITOR,330NF,+/-10%,16V,0805,X7R
-C0805 formatted to C0603_4n7F_50V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,+/-10%,50V,0603
-C0805 formatted to C0402_1nF_50V_10% based on description fieldCAPACITOR CERAMIC, 1NF,50V,+/-10%, 0402
-C0603 formatted to C0402_150pF_50V based on description fieldCAPACITOR CERAMIC, 150PF,50V,+/-5,NPO, 0402
-R0805 formatted to R_470R_5% based on description fieldRESISTOR, 470 OHM, 0.063W, +/-5%
-R0805 formatted to R_100R_5% based on description fieldRESISTOR, 100 OHM, 0.063W +/-5%
-R0805 formatted to R0603_3k3_1% based on description fieldRESISTOR,3.3K OHM,0.063W,+/-1%,0603
-R0805 formatted to R0805_620R_5% based on description fieldRESISTOR, 620 OHM, 0.125W,+/-5%,0805
-R0805 formatted to R0603_56k_1% based on description fieldRESISTOR, 56K OHM, 0603, +/-1%
-R0805 formatted to R0603_10k5_0.1% based on description fieldRESISTOR, 10.5K OHM, 0603, +/-0.1%
-R1206 formatted to R0805_150R_5% based on description fieldRESISTOR, 150 OHM, 0805, +/-5%
-R0805 formatted to R0603_15k_1% based on description fieldRESISTOR, 15K OHM, 0603, +/-1%
-R0805 formatted to R0603_1k5_1% based on description fieldRESISTOR,1.5K OHM,0.063W,+/-1%,0603
-R0805 formatted to R0603_75k_1% based on description fieldRESISTOR, 75K OHM, 0603, +/-1%
-R0805 formatted to R0603_1k5_5% based on description fieldRESISTOR 1.5K OHM, 0603, +/-5%
-R1206 formatted to R0805_180R_5% based on description fieldRESISTOR, 180 OHM, 0805, +/-5%
-R0805 formatted to R0603_220k_5% based on description fieldRESISTOR, 220 K OHM, 0603,+/-5%
-R0805 formatted to R_4k7_5% based on description fieldRESISTOR, 4.7 K OHM, 0.063W +/-5%
-R0805 formatted to R0603_1M_1% based on description fieldRESISTOR,1M OHM,0.063W,+/-1%,0603
-R0805 formatted to R0603_22k_1% based on description fieldRESISTOR, 22 K OHM,0.063W, +/-1%,0603
-R0805 formatted to R0603_10k_5% based on description fieldRESISTOR,10K OHM, 0.063W,+/-5%,0603
-R0805 formatted to R0805_10R_5% based on description fieldRESISTOR 10 OHM, 0.125W, +/-5%,0805
-R0805 formatted to R0603_1k37_0.1% based on description fieldRESISTOR,1.37K OHM,0.063W,+/-0.1%,0603
-R0805 formatted to R0603_100k_0.1% based on description fieldRESISTOR, 100K OHM, 0.063W,+/-0.1%,0603
-R0805 formatted to R0805_470R_1% based on description fieldRESISTOR,470 OHM, 0.125W,+/-1%, 0805
-R0805 formatted to R_100k_5% based on description fieldRESISTOR,100 K OHM, 0.063W +/-5%
-R0805 formatted to R0603_10k_0.1% based on description fieldRESISTOR, PRECISION,10K OHM, 0.063W,+/-0.1%,0603
-R0805 formatted to R0603_3k24_0.1% based on description fieldRESISTOR,PRECISION, 3.24K OHM, 0.063W,+/-0.1%,0603
+C_Small formatted to C0603_22pF_50V_5% based on description fieldCAPACITOR CERAMIC,22PF,+/-5%,50V,0603
+C_Small formatted to C0402_4n7F_25V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,25V,+/-10%,0402
+CP_Small formatted to C_220uF_20% based on description fieldCAPACITOR ELECTROLYTIC, 220UF,16V+/-20%
+CP_Small formatted to C_10uF_50V_10% based on description fieldCAPACITOR TANTALUM,10UF, 50V,+/-10%
+C_Small formatted to C0402_47pF_50V_5% based on description fieldCAPACITOR,47 PF,+/-5%,50V,0402
+CP_Small formatted to C_47uF_10V_10% based on description fieldCAPACITOR TANALUM, 47UF, 10V +/-10%
+C_Small formatted to C0402_100nF_16V_10% based on description fieldCAPACITOR,100NF,16V,+/-10%,X7R,0402
+CP_Small formatted to C_100uF_35V_20% based on description fieldCAPACITOR ELECTROLYTIC, 100UF, 35V +/-20%
+C_Small formatted to C0603_10nF_50V_10% based on description fieldCAPACITOR CERAMIC,10NF,+/-10%,50V,0603
+C_Small formatted to C0805_100nF_50V_10% based on description fieldCAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805
+C_Small formatted to C0402_220pF_50V_5% based on description fieldCAPACITOR CERAMIC, 220PF, 50V,+/-5%, NPO,0402
+C_Small formatted to C0805_1uF_16V_10% based on description fieldCAPACITOR CERAMIC,1UF,16V,+/-10%, 0805
+C_Small formatted to C0805_220nF_25V_10% based on description fieldCAP CERAMIC,220NF,25V,X7R,+/-10%,0805
+C_Small formatted to C0805_330nF_16V_10% based on description fieldCAPACITOR,330NF,+/-10%,16V,0805,X7R
+C_Small formatted to C0603_4n7F_50V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,+/-10%,50V,0603
+CP_Small formatted to C_1uF_35V_10% based on description fieldCAPACITOR TANTALUM, 1UF,35V, +/-10%
+CP_Small formatted to C_10uF_25V_10% based on description fieldCAPACITOR TANTALUM, 10UF, 25V, +/-10%
+C_Small formatted to C0402_1nF_50V_10% based on description fieldCAPACITOR CERAMIC, 1NF,50V,+/-10%, 0402
+CP_Small formatted to C_1kF_35V_20% based on description fieldCAPACITOR ELECTROLYTIC, 1000UF,35V,+/-20%
+CP_Small formatted to C_22uF_10V_10% based on description fieldCAPACITOR TANTALUM, 22UF, 10V,+/-10%
+C_Small formatted to C0402_150pF_50V based on description fieldCAPACITOR CERAMIC, 150PF,50V,+/-5,NPO, 0402
+R formatted to R_470R_5% based on description fieldRESISTOR, 470 OHM, 0.063W, +/-5%
+R formatted to R_100R_5% based on description fieldRESISTOR, 100 OHM, 0.063W +/-5%
+R formatted to R0603_3k3_1% based on description fieldRESISTOR,3.3K OHM,0.063W,+/-1%,0603
+R formatted to R0805_620R_5% based on description fieldRESISTOR, 620 OHM, 0.125W,+/-5%,0805
+R formatted to R0603_56k_1% based on description fieldRESISTOR, 56K OHM, 0603, +/-1%
+R formatted to R0603_10k5_0.1% based on description fieldRESISTOR, 10.5K OHM, 0603, +/-0.1%
+R formatted to R0805_150R_5% based on description fieldRESISTOR, 150 OHM, 0805, +/-5%
+R formatted to R0603_15k_1% based on description fieldRESISTOR, 15K OHM, 0603, +/-1%
+R formatted to R0603_1k5_1% based on description fieldRESISTOR,1.5K OHM,0.063W,+/-1%,0603
+R formatted to R0603_75k_1% based on description fieldRESISTOR, 75K OHM, 0603, +/-1%
+R formatted to R0603_1k5_5% based on description fieldRESISTOR 1.5K OHM, 0603, +/-5%
+R formatted to R0805_180R_5% based on description fieldRESISTOR, 180 OHM, 0805, +/-5%
+R formatted to R0603_220k_5% based on description fieldRESISTOR, 220 K OHM, 0603,+/-5%
+R formatted to R_4k7_5% based on description fieldRESISTOR, 4.7 K OHM, 0.063W +/-5%
+R formatted to R0603_1M_1% based on description fieldRESISTOR,1M OHM,0.063W,+/-1%,0603
+R formatted to R0603_22k_1% based on description fieldRESISTOR, 22 K OHM,0.063W, +/-1%,0603
+R formatted to R0603_10k_5% based on description fieldRESISTOR,10K OHM, 0.063W,+/-5%,0603
+R formatted to R0805_10R_5% based on description fieldRESISTOR 10 OHM, 0.125W, +/-5%,0805
+R formatted to R0603_1k37_0.1% based on description fieldRESISTOR,1.37K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_100k_0.1% based on description fieldRESISTOR, 100K OHM, 0.063W,+/-0.1%,0603
+R formatted to R0805_470R_1% based on description fieldRESISTOR,470 OHM, 0.125W,+/-1%, 0805
+R formatted to R_100k_5% based on description fieldRESISTOR,100 K OHM, 0.063W +/-5%
+R formatted to R0603_10k_0.1% based on description fieldRESISTOR, PRECISION,10K OHM, 0.063W,+/-0.1%,0603
+R formatted to R0603_3k24_0.1% based on description fieldRESISTOR,PRECISION, 3.24K OHM, 0.063W,+/-0.1%,0603
 RES_4R_BCN formatted to R1206_6k8_5% based on description fieldRESISTOR ARRAY, 6.8K OHM, +/-5%, 1206
 Found cache library: 10125623A00-cache.lib
 Renaming cache libary symbol name cpu-board_BLIN-AWM33 to BLIN-AWM33
@@ -1993,36 +2000,36 @@ Renaming cache libary symbol name cpu-board_3XBL-ADSX to 3XBL-ADSX
 Writing library file: BL.lib
 Renaming cache libary symbol name cpu-board_F_HMB to F_HMB
 Writing library file: Buzzer.lib
-Renaming cache libary symbol name cpu-board_C0603 to C0603_22pF_50V_5%
-Renaming cache libary symbol name cpu-board_C0805 to C0402_4n7F_25V_10%
-Renaming cache libary symbol name cpu-board_CHCMS_D8 to C_220uF_20%
-Renaming cache libary symbol name cpu-board_TANTALB to TANTALB_10022978
-Renaming cache libary symbol name cpu-board_C0603 to C0402_47pF_50V_5%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0603_22pF_50V_5%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_4n7F_25V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_220uF_20%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_10uF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_47pF_50V_5%
 Renaming cache libary symbol name cpu-board_RES_4CB to RES_4CB
-Renaming cache libary symbol name cpu-board_TANTALB to TANTALB_10022962
-Renaming cache libary symbol name cpu-board_C0805 to C0402_100nF_16V_10%
-Renaming cache libary symbol name cpu-board_MV100_F50V to MV100_F50V_10022963
-Renaming cache libary symbol name cpu-board_C0805 to C0603_10nF_50V_10%
-Renaming cache libary symbol name cpu-board_C0805 to C0805_100nF_50V_10%
-Renaming cache libary symbol name cpu-board_C0805 to C0402_220pF_50V_5%
-Renaming cache libary symbol name cpu-board_C0805 to C0805_1uF_16V_10%
-Renaming cache libary symbol name cpu-board_C1206 to C0805_220nF_25V_10%
-Renaming cache libary symbol name cpu-board_C0805 to C0805_330nF_16V_10%
-Renaming cache libary symbol name cpu-board_C0805 to C0603_4n7F_50V_10%
-Renaming cache libary symbol name cpu-board_TANTALB to TANTALB_10022959
-Renaming cache libary symbol name cpu-board_TANTALD to TANTALD
-Renaming cache libary symbol name cpu-board_C0805 to C0402_1nF_50V_10%
-Renaming cache libary symbol name cpu-board_MV100_F50V to MV100_F50V_10097252
-Renaming cache libary symbol name cpu-board_TANTALB to TANTALB_10022973
-Renaming cache libary symbol name cpu-board_C0603 to C0402_150pF_50V
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_47uF_10V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_100nF_16V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_100uF_35V_20%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0603_10nF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_100nF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_220pF_50V_5%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_1uF_16V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_220nF_25V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_330nF_16V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0603_4n7F_50V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_1uF_35V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_10uF_25V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_1nF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_1kF_35V_20%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_22uF_10V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_150pF_50V
 Writing library file: Capacitor.lib
-Renaming cache libary symbol name cpu-board_BAT54 to BAT54_10022656
-Renaming cache libary symbol name cpu-board_BZX84CXX to BZX84CXX_10020994
+Renaming cache libary symbol name Flipped_Devices_D_Schottky_A1K3 to D_Schottky_A1K3_10022656
+Renaming cache libary symbol name Flipped_Devices_D_Zener_A1K3 to D_Zener_A1K3_10020994
 Renaming cache libary symbol name cpu-board_BAT54C to BAT54C
-Renaming cache libary symbol name cpu-board_ICTE5 to ICTE5
-Renaming cache libary symbol name cpu-board_PRLL5819 to PRLL5819
-Renaming cache libary symbol name cpu-board_BZX84CXX to BZX84CXX_10022655
-Renaming cache libary symbol name cpu-board_BAT54 to BAT54_10022652
+Renaming cache libary symbol name Flipped_Devices_D_Schottky_Small to D_Schottky_Small
+Renaming cache libary symbol name Flipped_Devices_D_Schottky to D_Schottky
+Renaming cache libary symbol name Flipped_Devices_D_Zener_A1K3 to D_Zener_A1K3_10022655
+Renaming cache libary symbol name Flipped_Devices_D_Schottky_A1K3 to D_Schottky_A1K3_10022652
 Writing library file: Diode.lib
 Writing library file: Unknown.lib
 Renaming cache libary symbol name cpu-board_SLOBLO to SLOBLO
@@ -2031,7 +2038,7 @@ Renaming cache libary symbol name cpu-board_KEY_3000 to KEY_3000
 Writing library file: Battery.lib
 Renaming cache libary symbol name cpu-board_TL16C750IPM to TL16C750IPM
 Renaming cache libary symbol name cpu-board_DS1305E to DS1305E
-Renaming cache libary symbol name cpu-board_LM358 to LM358
+Renaming cache libary symbol name Device_Opamp_Dual_Generic to Opamp_Dual_Generic
 Renaming cache libary symbol name cpu-board_MAX690ACSA to MAX690ACSA
 Renaming cache libary symbol name cpu-board_K9F4G08U0M-PCB000 to K9F4G08U0M-PCB000
 Renaming cache libary symbol name cpu-board_74ACT16373 to 74ACT16373
@@ -2065,48 +2072,48 @@ Renaming cache libary symbol name cpu-board_26BR-HE10 to 26BR-HE10
 Writing library file: Connector.lib
 Renaming cache libary symbol name cpu-board_JUMP_0U to JUMP_0U
 Writing library file: Jumper.lib
-Renaming cache libary symbol name cpu-board_74279263 to 74279263_10022907
+Renaming cache libary symbol name Flipped_Devices_L to L_10022907
 Renaming cache libary symbol name cpu-board_WE-TPC-MH to WE-TPC-MH
-Renaming cache libary symbol name cpu-board_7427504 to 7427504
-Renaming cache libary symbol name cpu-board_R0805 to R_470R_5%
-Renaming cache libary symbol name cpu-board_74279263 to 74279263_10022911
+Renaming cache libary symbol name Flipped_Devices_L to L_10023186
+Renaming cache libary symbol name Flipped_Devices_R to R_470R_5%
+Renaming cache libary symbol name Flipped_Devices_L to L_10022911
 Writing library file: Inductor.lib
-Renaming cache libary symbol name cpu-board_SM49 to SM49
-Renaming cache libary symbol name cpu-board_HC49UP to HC49UP
-Renaming cache libary symbol name cpu-board_86SMX to 86SMX
+Renaming cache libary symbol name Device_Crystal_Small to Crystal_Small_10020993
+Renaming cache libary symbol name Device_Crystal_Small to Crystal_Small_10023291
+Renaming cache libary symbol name Flipped_Devices_Crystal_Small_Pin1Pin4 to Crystal_Small_Pin1Pin4
 Writing library file: Crystal.lib
-Renaming cache libary symbol name cpu-board_R0805 to R_100R_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_3k3_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0805_620R_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_56k_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_10k5_0.1%
-Renaming cache libary symbol name cpu-board_R1206 to R0805_150R_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_15k_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_1k5_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_75k_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_1k5_5%
-Renaming cache libary symbol name cpu-board_R1206 to R0805_180R_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_220k_5%
-Renaming cache libary symbol name cpu-board_R0805 to R_4k7_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_1M_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_22k_1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_10k_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0805_10R_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_1k37_0.1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_100k_0.1%
-Renaming cache libary symbol name cpu-board_R0805 to R0805_470R_1%
-Renaming cache libary symbol name cpu-board_R0805 to R_100k_5%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_10k_0.1%
-Renaming cache libary symbol name cpu-board_R0805 to R0603_3k24_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R_100R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_3k3_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_620R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_56k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_10k5_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_150R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_15k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1k5_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_75k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1k5_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_180R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_220k_5%
+Renaming cache libary symbol name Flipped_Devices_R to R_4k7_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1M_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_22k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_10k_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_10R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1k37_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_100k_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_470R_1%
+Renaming cache libary symbol name Flipped_Devices_R to R_100k_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_10k_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_3k24_0.1%
 Renaming cache libary symbol name cpu-board_RES_4R_BCN to R1206_6k8_5%
 Writing library file: Resistor.lib
 Renaming cache libary symbol name cpu-board_G6K2G to G6K2G
 Writing library file: Relay.lib
-Renaming cache libary symbol name cpu-board_IRLML2803 to IRLML2803
-Renaming cache libary symbol name cpu-board_BCP51 to BCP51
-Renaming cache libary symbol name cpu-board_IRLML5103 to IRLML5103_10022933
-Renaming cache libary symbol name cpu-board_MTD3055 to MTD3055
-Renaming cache libary symbol name cpu-board_IRLML5103 to IRLML5103_10022157
+Renaming cache libary symbol name Flipped_Devices_Q_NMOS_GSD to Q_NMOS_GSD_10097274
+Renaming cache libary symbol name Device_Q_PNP_BCEC to Q_PNP_BCEC
+Renaming cache libary symbol name Flipped_Devices_Q_PMOS_GSD to Q_PMOS_GSD_10022933
+Renaming cache libary symbol name Flipped_Devices_Q_NMOS_GSD to Q_NMOS_GSD_10022956
+Renaming cache libary symbol name Flipped_Devices_Q_PMOS_GSD to Q_PMOS_GSD_10022157
 Writing library file: Transistor.lib
 Renaming cache libary symbol name cpu-board_FAS-PPS-1P-3NIP-INJ to FAS-PPS-1P-3NIP-INJ
 Writing library file: Valve.lib
