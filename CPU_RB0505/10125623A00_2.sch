@@ -304,7 +304,7 @@ F 3 "" H 12100 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:HC49UP Q2
+L Device:Crystal_Small Q2
 U 1 1 53ABB1EB
 P 13800 1750
 F 0 "Q2" V 13715 1950 64  0000 R TNN

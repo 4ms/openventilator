@@ -250,7 +250,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 9550 775
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 0A232DEA
 P 11100 2300
 AR Path="/0A232DEA" Ref="L?"  Part="1" 
@@ -268,7 +268,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 2300 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 1E5F25AC
 P 11100 2500
 AR Path="/1E5F25AC" Ref="L?"  Part="1" 
@@ -286,7 +286,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 2500 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 19F4C54D
 P 11100 2700
 AR Path="/19F4C54D" Ref="L?"  Part="1" 
@@ -315,7 +315,7 @@ F 3 "" H 11600 3350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 4DF659C7
 P 14250 1900
 AR Path="/4DF659C7" Ref="L?"  Part="1" 
@@ -382,7 +382,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 3750 735
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 60EE4B83
 P 2700 6650
 AR Path="/60EE4B83" Ref="L?"  Part="1" 
@@ -471,7 +471,7 @@ F 3 "" H 2300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 2891A197
 P 2550 3600
 AR Path="/2891A197" Ref="L?"  Part="1" 
@@ -511,7 +511,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 AE3312F6
 P 2550 3800
 AR Path="/AE3312F6" Ref="L?"  Part="1" 
@@ -573,7 +573,7 @@ F 3 "" H 14125 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 6491CA69
 P 14400 3650
 AR Path="/6491CA69" Ref="L?"  Part="1" 
@@ -613,7 +613,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 5FB96120
 P 14400 3850
 AR Path="/5FB96120" Ref="L?"  Part="1" 
@@ -664,7 +664,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 B91119A5
 P 13525 5600
 AR Path="/B91119A5" Ref="L?"  Part="1" 
@@ -800,7 +800,7 @@ F 3 "" H 6350 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 769AA1BD
 P 11100 1500
 AR Path="/769AA1BD" Ref="L?"  Part="1" 
@@ -818,7 +818,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 1500 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 FB4D7CA5
 P 11100 1700
 AR Path="/FB4D7CA5" Ref="L?"  Part="1" 
@@ -836,7 +836,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 1700 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 0E380C20
 P 11100 1900
 AR Path="/0E380C20" Ref="L?"  Part="1" 
@@ -881,7 +881,7 @@ F 3 "" H 11300 1000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 9CA3DB02
 P 4500 5850
 AR Path="/9CA3DB02" Ref="L?"  Part="1" 
@@ -899,7 +899,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 4500 5850 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 4AF5E44F
 P 4525 6150
 AR Path="/4AF5E44F" Ref="L?"  Part="1" 
@@ -912,7 +912,7 @@ F 3 "" H 4525 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 1FFF9411
 P 4525 6250
 AR Path="/1FFF9411" Ref="L?"  Part="1" 
@@ -930,7 +930,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 4525 6250 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 3DD13E20
 P 4525 6350
 AR Path="/3DD13E20" Ref="L?"  Part="1" 
@@ -948,7 +948,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 4525 6350 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 DF33D3D6
 P 4525 6450
 AR Path="/DF33D3D6" Ref="L?"  Part="1" 
@@ -985,7 +985,7 @@ F 11 "" H 8650 7600 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 324ADF67
 P 10550 6900
 AR Path="/324ADF67" Ref="L?"  Part="1" 
@@ -1003,7 +1003,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 6900 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 0382B5B7
 P 10550 6700
 AR Path="/0382B5B7" Ref="L?"  Part="1" 
@@ -1021,7 +1021,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 6700 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 04EF688F
 P 10550 6500
 AR Path="/04EF688F" Ref="L?"  Part="1" 
@@ -1221,22 +1221,22 @@ F 3 "" H 10700 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:BAT54 D13
+L Flipped_Devices:D_Schottky_A1K3 D13
 U 1 1 7D634AE3
-P 9750 3750
-F 0 "D13" H 9721 3904 59  0000 L BNN
-F 1 "BAT54" H 9736 3836 42  0000 L BNN
-F 2 "AllModules:SOT23-1G_1" H 9750 3750 50  0001 C CNN
-F 3 "" H 9750 3750 50  0001 C CNN
-F 4 "DIODE SCHOTTKY, 30V, 200MA" H 9750 3750 50  0001 C CNN "Description"
-F 5 "10022652" H 9750 3750 50  0001 C CNN "Item Number"
-F 6 "NXP SEMICONDUCTORS_RMS1" H 9750 3750 50  0001 C CNN "Manufacturer"
-F 7 "BAT54,215" H 9750 3750 50  0001 C CNN "Manufacturer_No"
-F 8 "" H 9750 3750 50  0001 C CNN "Manufacturer_Desc"
-F 9 "NXP SEMICONDUCTORS_RMS1" H 9750 3750 50  0001 C CNN "Manufacturer2"
-F 10 "BAT54" H 9750 3750 50  0001 C CNN "Manufacturer_No2"
-F 11 "SCHOTTKY BARRIER DOUBLE DIODE" H 9750 3750 50  0001 C CNN "Manufacturer_Desc2"
-	1    9750 3750
+P 9800 3750
+F 0 "D13" H 9771 3904 59  0000 L BNN
+F 1 "BAT54" H 9786 3836 42  0000 L BNN
+F 2 "AllModules:SOT23-1G_1" H 9800 3750 50  0001 C CNN
+F 3 "" H 9800 3750 50  0001 C CNN
+F 4 "DIODE SCHOTTKY, 30V, 200MA" H 9800 3750 50  0001 C CNN "Description"
+F 5 "10022652" H 9800 3750 50  0001 C CNN "Item Number"
+F 6 "NXP SEMICONDUCTORS_RMS1" H 9800 3750 50  0001 C CNN "Manufacturer"
+F 7 "BAT54,215" H 9800 3750 50  0001 C CNN "Manufacturer_No"
+F 8 "" H 9800 3750 50  0001 C CNN "Manufacturer_Desc"
+F 9 "NXP SEMICONDUCTORS_RMS1" H 9800 3750 50  0001 C CNN "Manufacturer2"
+F 10 "BAT54" H 9800 3750 50  0001 C CNN "Manufacturer_No2"
+F 11 "SCHOTTKY BARRIER DOUBLE DIODE" H 9800 3750 50  0001 C CNN "Manufacturer_Desc2"
+	1    9800 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1251,25 +1251,25 @@ F 3 "" H 10900 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:IRLML5103 T19
+L Flipped_Devices:Q_PMOS_GSD T19
 U 1 1 EE28C6DF
-P 9350 3850
-F 0 "T19" V 9700 3765 59  0000 L BNN
-F 1 "BSS84" V 9620 3777 56  0000 L BNN
-F 2 "AllModules:SOT23-GSD_1" H 9350 3850 50  0001 C CNN
-F 3 "" H 9350 3850 50  0001 C CNN
-F 4 "TRANSISTOR, P CHANNEL, 50V, 0.13A,      5 OHM, SOT23" H 9350 3850 50  0001 C CNN "Description"
-F 5 "10022157" H 9350 3850 50  0001 C CNN "Item Number"
-F 6 "NXP SEMICONDUCTORS_RMS1" H 9350 3850 50  0001 C CNN "Manufacturer"
-F 7 "BSS84" H 9350 3850 50  0001 C CNN "Manufacturer_No"
-F 8 "MOSFET P CHANNEL" H 9350 3850 50  0001 C CNN "Manufacturer_Desc"
-F 9 "ON SEMICONDUCTOR_RMS1" H 9350 3850 50  0001 C CNN "Manufacturer2"
-F 10 "BSS84LT1G" H 9350 3850 50  0001 C CNN "Manufacturer_No2"
-F 11 "POWER MOSFET" H 9350 3850 50  0001 C CNN "Manufacturer_Desc2"
-F 12 "NXP SEMICONDUCTORS_RMS1" H 9350 3850 50  0001 C CNN "Manufacturer3"
-F 13 "BSS84,215" H 9350 3850 50  0001 C CNN "Manufacturer_No3"
-F 14 "" H 9350 3850 50  0001 C CNN "Manufacturer_Desc3"
-	1    9350 3850
+P 9300 3850
+F 0 "T19" V 9650 3765 59  0000 L BNN
+F 1 "BSS84" V 9570 3777 56  0000 L BNN
+F 2 "AllModules:SOT23-GSD_1" H 9300 3850 50  0001 C CNN
+F 3 "" H 9300 3850 50  0001 C CNN
+F 4 "TRANSISTOR, P CHANNEL, 50V, 0.13A,      5 OHM, SOT23" H 9300 3850 50  0001 C CNN "Description"
+F 5 "10022157" H 9300 3850 50  0001 C CNN "Item Number"
+F 6 "NXP SEMICONDUCTORS_RMS1" H 9300 3850 50  0001 C CNN "Manufacturer"
+F 7 "BSS84" H 9300 3850 50  0001 C CNN "Manufacturer_No"
+F 8 "MOSFET P CHANNEL" H 9300 3850 50  0001 C CNN "Manufacturer_Desc"
+F 9 "ON SEMICONDUCTOR_RMS1" H 9300 3850 50  0001 C CNN "Manufacturer2"
+F 10 "BSS84LT1G" H 9300 3850 50  0001 C CNN "Manufacturer_No2"
+F 11 "POWER MOSFET" H 9300 3850 50  0001 C CNN "Manufacturer_Desc2"
+F 12 "NXP SEMICONDUCTORS_RMS1" H 9300 3850 50  0001 C CNN "Manufacturer3"
+F 13 "BSS84,215" H 9300 3850 50  0001 C CNN "Manufacturer_No3"
+F 14 "" H 9300 3850 50  0001 C CNN "Manufacturer_Desc3"
+	1    9300 3850
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1366,19 +1366,19 @@ F 3 "" H 5100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:IRLML5103 T17
+L Flipped_Devices:Q_PMOS_GSD T17
 U 1 1 E3A7CA7E
-P 8300 3350
-F 0 "T17" V 8687 3415 59  0000 L BNN
-F 1 "IRLML5103" V 8595 3165 56  0000 L BNN
-F 2 "AllModules:SOT23-GSD_1" H 8300 3350 50  0001 C CNN
-F 3 "" H 8300 3350 50  0001 C CNN
-F 4 "RSPTRANSISTOR MOSFET, P CHANNEL, 30V,0.6A" H 8300 3350 50  0001 C CNN "Description"
-F 5 "10022933" H 8300 3350 50  0001 C CNN "Item Number"
-F 6 "INTERNATIONAL RECTIFIER_RMS1" H 8300 3350 50  0001 C CNN "Manufacturer"
-F 7 "IRLML5103TRPBF" H 8300 3350 50  0001 C CNN "Manufacturer_No"
-F 8 "POWER MOSFET" H 8300 3350 50  0001 C CNN "Manufacturer_Desc"
-	1    8300 3350
+P 8350 3350
+F 0 "T17" V 8737 3415 59  0000 L BNN
+F 1 "IRLML5103" V 8645 3165 56  0000 L BNN
+F 2 "AllModules:SOT23-GSD_1" H 8350 3350 50  0001 C CNN
+F 3 "" H 8350 3350 50  0001 C CNN
+F 4 "RSPTRANSISTOR MOSFET, P CHANNEL, 30V,0.6A" H 8350 3350 50  0001 C CNN "Description"
+F 5 "10022933" H 8350 3350 50  0001 C CNN "Item Number"
+F 6 "INTERNATIONAL RECTIFIER_RMS1" H 8350 3350 50  0001 C CNN "Manufacturer"
+F 7 "IRLML5103TRPBF" H 8350 3350 50  0001 C CNN "Manufacturer_No"
+F 8 "POWER MOSFET" H 8350 3350 50  0001 C CNN "Manufacturer_Desc"
+	1    8350 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1586,7 +1586,7 @@ FAULT/
 Text Notes 7775 7300 0    59   ~ 0
 ENABLE
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 A9F7421E
 P 2450 1900
 AR Path="/A9F7421E" Ref="L?"  Part="1" 
@@ -1745,7 +1745,7 @@ $EndComp
 NoConn ~ 8850 6100
 NoConn ~ 8850 6300
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 4B3EEFE3
 P 10550 7100
 AR Path="/4B3EEFE3" Ref="L?"  Part="1" 
@@ -1763,7 +1763,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 7100 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 2B9F3777
 P 10550 7300
 AR Path="/2B9F3777" Ref="L?"  Part="1" 
@@ -1781,7 +1781,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 7300 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:74279263 L?
+L Flipped_Devices:L L?
 U 1 1 BACB79CB
 P 13525 5800
 AR Path="/BACB79CB" Ref="L?"  Part="1" 
@@ -1939,23 +1939,21 @@ Wire Wire Line
 Wire Wire Line
 	10050 3325 9700 3325
 $Comp
-L cpu-board:PRLL5819 D6
+L Flipped_Devices:D_Schottky D6
 U 1 1 D13B7196
-P 10450 4050
-F 0 "D6" H 10566 4208 59  0000 R TNN
-F 1 "PRLL5819" H 10563 4289 42  0000 R TNN
-F 2 "AllModules:SOD87_1" H 10450 4050 50  0001 C CNN
-F 3 "" H 10450 4050 50  0001 C CNN
-F 4 "DIODE SCHOTTKY, 40V, 1A" H 10450 4050 50  0001 C CNN "Description"
-F 5 "10097253" H 10450 4050 50  0001 C CNN "Item Number"
-F 6 "DIODES INC_RMS1" H 10450 4050 50  0001 C CNN "Manufacturer"
-F 7 "1N5819HW-7-F" H 10450 4050 50  0001 C CNN "Manufacturer_No"
-F 8 "SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER" H 10450 4050 50  0001 C CNN "Manufacturer_Desc"
-	1    10450 4050
+P 10400 4050
+F 0 "D6" H 10516 4208 59  0000 R TNN
+F 1 "PRLL5819" H 10513 4289 42  0000 R TNN
+F 2 "AllModules:SOD87_1" H 10400 4050 50  0001 C CNN
+F 3 "" H 10400 4050 50  0001 C CNN
+F 4 "DIODE SCHOTTKY, 40V, 1A" H 10400 4050 50  0001 C CNN "Description"
+F 5 "10097253" H 10400 4050 50  0001 C CNN "Item Number"
+F 6 "DIODES INC_RMS1" H 10400 4050 50  0001 C CNN "Manufacturer"
+F 7 "1N5819HW-7-F" H 10400 4050 50  0001 C CNN "Manufacturer_No"
+F 8 "SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER" H 10400 4050 50  0001 C CNN "Manufacturer_Desc"
+	1    10400 4050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10550 4050 10700 4050
 Wire Wire Line
 	10700 4050 10700 4300
 Connection ~ 10700 4050
@@ -1994,8 +1992,6 @@ Connection ~ 7950 2450
 Wire Wire Line
 	7950 2450 8000 2450
 Connection ~ 7950 3250
-Wire Wire Line
-	7950 3250 8050 3250
 Wire Wire Line
 	8600 3050 8600 3250
 Wire Wire Line
@@ -2398,7 +2394,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3750 10050 3750
 Wire Wire Line
-	9600 3750 9650 3750
+	9500 3750 9650 3750
 $Comp
 L Flipped_Devices:R R68
 U 1 1 49CDDF81
@@ -2459,4 +2455,8 @@ Wire Wire Line
 Connection ~ 7550 2450
 Wire Wire Line
 	7550 2450 7950 2450
+Wire Wire Line
+	7950 3250 8150 3250
+Wire Wire Line
+	10550 4050 10700 4050
 $EndSCHEMATC
