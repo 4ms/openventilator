@@ -22,5 +22,5 @@
   (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Valve.lib)(options "")(descr ""))
   (lib (name Varistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Varistor.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KIPRJMOD}/Symbols/power.lib)(options "")(descr ""))
-  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/Symbols/Resistor.lib)(options "")(descr ""))
+  (lib (name ResistorOld)(type Legacy)(uri ${KIPRJMOD}/Symbols/Resistor.lib)(options "")(descr ""))
 )

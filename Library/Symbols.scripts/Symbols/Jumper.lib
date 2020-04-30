@@ -1,54 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# TestPoint
-#
-DEF TestPoint TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
-F1 "TestPoint" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-F 4 "10022924" 400 50 50 H I L CNN "Item Number"
-F 5 "TEST POINT" 400 -10 50 H I L CNN "Description"
-F 6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
-F 7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
-F 8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
-F 9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-#
-# TestPoint
-#
-DEF TestPoint PT 0 30 Y N 1 F N
-F0 "PT" -100 50 50 V V C CNN
-F1 "TestPoint" 100 50 50 V I C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-F 4 "10022924" 400 50 50 H I L CNN "Item Number"
-F 5 "TEST POINT" 400 -10 50 H I L CNN "Description"
-F 6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
-F 7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
-F 8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
-F 9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-#
 # JUMP_0U
 #
 DEF JUMP_0U JP 0 40 Y Y 1 L N
@@ -56,18 +8,18 @@ F0 "JP" -100 100 51 H V L BNN
 F1 "JUMP_0U" -100 -150 51 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F 4 "10023185" 400 50 50 H I L CNN "Item Number"
-F 5 "RESISTANCE, 0 OHM,0603" 400 -10 50 H I L CNN "Description"
-F 6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
-F 7 "RC0603JR-070RL" 400 -130 50 H I L CNN "Manufacturer_No"
-F 8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
-F 9 "RC0603JR-070RL" 400 -250 50 H I L CNN "Manufacturer_No2"
-F 11 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
-F 12 "RC0603JR-070RL" 400 -370 50 H I L CNN "Manufacturer_No3"
-F 14 "PANASONIC_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
-F 15 "ERJ-3GEY0R00V " 400 -490 50 H I L CNN "Manufacturer_No4"
-F 17 "KAMAYA                          (049580)" 400 -550 50 H I L CNN "Manufacturer5"
-F 18 "RMC1/16JPTP" 400 -610 50 H I L CNN "Manufacturer_No5"
+F4 "10023185" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTANCE, 0 OHM,0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603JR-070RL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RC0603JR-070RL" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "RC0603JR-070RL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "PANASONIC_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "ERJ-3GEY0R00V " 400 -490 50 H I L CNN "Manufacturer_No4"
+F14 "KAMAYA                          (049580)" 400 -550 50 H I L CNN "Manufacturer5"
+F15 "RMC1/16JPTP" 400 -610 50 H I L CNN "Manufacturer_No5"
 DRAW
 A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
 A 14 0 49 -888 888 1 0 1 F 15 -49 15 49
@@ -75,6 +27,52 @@ P 2 1 0 0 -100 0 -65 0 N
 P 2 1 0 0 100 0 65 0 N
 X 1 1 -200 0 100 R 0 0 1 0 P
 X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# TestPoint
+#
+DEF TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "10022924" 400 50 50 H I L CNN "Item Number"
+F5 "TEST POINT" 400 -10 50 H I L CNN "Description"
+F6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TestPoint_0
+#
+DEF TestPoint_0 PT 0 30 Y N 1 F N
+F0 "PT" -100 50 50 V V C CNN
+F1 "TestPoint_0" 100 50 50 V I C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "10022924" 400 50 50 H I L CNN "Item Number"
+F5 "TEST POINT" 400 -10 50 H I L CNN "Description"
+F6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
