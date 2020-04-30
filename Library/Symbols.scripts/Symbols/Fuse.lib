@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # Fuse
 #
-DEF Fuse F 0 0 N Y 1 F N
+DEF Fuse_10022878 F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "Fuse" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
@@ -27,7 +27,7 @@ ENDDEF
 #
 # Fuse_0
 #
-DEF Fuse_0 F 0 0 N Y 1 F N
+DEF Fuse_10107889 F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "Fuse_0" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
@@ -49,7 +49,7 @@ ENDDEF
 #
 # Fuse_1
 #
-DEF Fuse_1 F 0 0 N Y 1 F N
+DEF Fuse_10022141 F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "Fuse_1" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
