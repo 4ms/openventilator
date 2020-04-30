@@ -527,22 +527,6 @@ Wire Wire Line
 	4000 2600 4900 2600
 Wire Wire Line
 	4000 2750 4900 2750
-Wire Wire Line
-	3400 2900 2600 2900
-Wire Wire Line
-	2600 2600 2600 2900
-Wire Wire Line
-	3400 2600 3000 2600
-Wire Wire Line
-	3000 2400 3000 2600
-Wire Wire Line
-	3200 2450 3400 2450
-Wire Wire Line
-	3200 2200 3200 2450
-Wire Wire Line
-	2800 2750 3400 2750
-Wire Wire Line
-	2800 2500 2800 2750
 Connection ~ 4250 3300
 Wire Wire Line
 	4250 3200 4250 3300
@@ -604,7 +588,7 @@ F 3 "~" H 3450 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4250 3675 4250 3800
+	4250 3625 4250 3800
 Wire Wire Line
 	4250 3800 3850 3800
 Wire Wire Line
@@ -2508,7 +2492,7 @@ $EndComp
 Wire Wire Line
 	3050 6250 3300 6250
 Wire Wire Line
-	4250 3300 4250 3375
+	4250 3300 4250 3425
 Wire Wire Line
 	1475 5350 1725 5350
 Wire Wire Line
@@ -2578,52 +2562,6 @@ Connection ~ 4150 3300
 Wire Wire Line
 	4150 3300 4250 3300
 $Comp
-L Capacitor:C0612_47pF_50V_10% C1
-U 1 1 5EC82919
-P 2900 3600
-F 0 "C1" H 2900 3450 50  0000 C CNN
-F 1 "47pF" H 3400 3600 50  0000 C CNN
-F 2 "AllModules:C0612-4_1" H 2900 3600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf" H 2800 3600 50  0001 C CNN
-F 4 "10095973" H 2925 3975 50  0001 C CNN "Item Number"
-F 5 "Yageo" H 3425 4050 50  0001 C CNN "Mfgr"
-F 6 "CA0612JRNPO9BN470" H 3700 3975 50  0001 C CNN "Mfgr_PN"
-	1    2900 3600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2600 3700 2600 3800
-Connection ~ 2600 3800
-Wire Wire Line
-	2600 3800 2200 3800
-Wire Wire Line
-	2800 3700 2800 3800
-Connection ~ 2800 3800
-Wire Wire Line
-	2800 3800 2600 3800
-Wire Wire Line
-	3000 3700 3000 3800
-Connection ~ 3000 3800
-Wire Wire Line
-	3000 3800 2800 3800
-Wire Wire Line
-	3200 3700 3200 3800
-Connection ~ 3200 3800
-Wire Wire Line
-	3200 3800 3000 3800
-Wire Wire Line
-	3200 3500 3200 2450
-Connection ~ 3200 2450
-Wire Wire Line
-	3000 2600 3000 3500
-Connection ~ 3000 2600
-Wire Wire Line
-	2800 3500 2800 2750
-Connection ~ 2800 2750
-Wire Wire Line
-	2600 3500 2600 2900
-Connection ~ 2600 2900
-$Comp
 L Diode:BAT54C D2
 U 1 1 5F042781
 P 7500 4300
@@ -2638,8 +2576,6 @@ $EndComp
 Wire Wire Line
 	3850 3900 3850 3800
 Connection ~ 3850 3800
-Wire Wire Line
-	3850 3800 3200 3800
 Wire Wire Line
 	4600 4500 4000 4500
 Connection ~ 4600 4500
@@ -3040,4 +2976,68 @@ F5 "INHIB-STOP-INV" I L 3500 7900 50
 F6 "VBAT" O R 5000 7800 50 
 F7 "VCHARG" O R 5000 7900 50 
 $EndSheet
+Wire Wire Line
+	2600 3800 2200 3800
+Connection ~ 2600 3800
+Wire Wire Line
+	2800 3800 2600 3800
+Connection ~ 2800 3800
+Wire Wire Line
+	3000 3800 2800 3800
+Connection ~ 3000 3800
+Wire Wire Line
+	3850 3800 3200 3800
+Wire Wire Line
+	3200 3800 3000 3800
+Connection ~ 3200 3800
+Wire Wire Line
+	3200 2200 3200 2450
+Wire Wire Line
+	3200 2450 3400 2450
+Connection ~ 3200 2450
+Connection ~ 3000 2600
+Wire Wire Line
+	3000 2400 3000 2600
+Wire Wire Line
+	3400 2600 3000 2600
+Wire Wire Line
+	2800 2500 2800 2750
+Wire Wire Line
+	2800 2750 3400 2750
+Connection ~ 2800 2750
+Wire Wire Line
+	2600 2600 2600 2900
+Wire Wire Line
+	3400 2900 2600 2900
+Connection ~ 2600 2900
+Wire Wire Line
+	2600 3700 2600 3800
+Wire Wire Line
+	2800 3700 2800 3800
+Wire Wire Line
+	3000 3700 3000 3800
+Wire Wire Line
+	3200 3700 3200 3800
+Wire Wire Line
+	3000 2600 3000 3400
+$Comp
+L Capacitor:C0612_47pF_50V_10% C1
+U 1 1 5EC82919
+P 2900 3550
+F 0 "C1" H 2900 3400 50  0000 C CNN
+F 1 "47pF" H 3400 3550 50  0000 C CNN
+F 2 "AllModules:C0612-4_1" H 2900 3550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf" H 2800 3550 50  0001 C CNN
+F 4 "10095973" H 2925 3925 50  0001 C CNN "Item Number"
+F 5 "Yageo" H 3425 4000 50  0001 C CNN "Mfgr"
+F 6 "CA0612JRNPO9BN470" H 3700 3925 50  0001 C CNN "Mfgr_PN"
+	1    2900 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3400 2600 2900
+Wire Wire Line
+	2800 3400 2800 2750
+Wire Wire Line
+	3200 3400 3200 2450
 $EndSCHEMATC
