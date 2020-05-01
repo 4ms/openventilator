@@ -1865,13 +1865,9 @@ F 14 "CHIP TYPE, LOW IMPEDANCE CAP." H 4950 8400 50  0001 C CNN "Manufacturer_De
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 8100 4950 8300
-Wire Wire Line
-	4950 8500 4950 8650
-Connection ~ 4950 8500
-Connection ~ 4950 8300
+	4950 8100 4950 8250
 $Comp
-L Flipped_Devices:CP_Small C?
+L Capacitor:C_220uF_20%_TH C?
 U 1 1 5EA53F33
 P 4950 8400
 AR Path="/5EA53F33" Ref="C?"  Part="1" 
@@ -1892,4 +1888,8 @@ F 12 "" H 4950 8400 50  0001 C CNN "Manufacturer_Desc3"
 	1    4950 8400
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 8550 4950 8650
+Connection ~ 4950 8250
+Connection ~ 4950 8550
 $EndSCHEMATC
