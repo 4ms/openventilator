@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4650 2250 4650 2350
+	4650 2250 4650 2300
 Wire Wire Line
-	14750 2350 14750 2450
+	14750 2350 14750 2400
 Wire Wire Line
 	13350 2550 13350 2650
 Wire Wire Line
@@ -24,7 +24,7 @@ Wire Wire Line
 Wire Wire Line
 	13350 2650 12850 2650
 Wire Wire Line
-	12850 2650 12850 2100
+	12850 2650 12850 2150
 Connection ~ 13350 2650
 Wire Wire Line
 	10650 2125 10650 2225
@@ -70,7 +70,7 @@ CE\-VALV-PRES-SENS
 Text HLabel 11600 2050 2    56   Output ~ 0
 QI-MEAS
 Wire Wire Line
-	14750 2150 14750 2050
+	14750 2150 14750 2100
 Text HLabel 14900 2050 2    70   Output ~ 0
 MES_Q_E
 Text HLabel 10950 6100 0    56   Input ~ 0
@@ -150,7 +150,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 4650 2150 50  0001 C CNN "Manufacturer4"
 F 16 "GRM155R71C104KA88D" H 4650 2150 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4650 2150 50  0001 C CNN "Manufacturer_Desc4"
 	1    4650 2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:0VANA #U$0130
@@ -180,7 +180,7 @@ F 9 "YAGEO_RMS1" H 3550 2100 50  0001 C CNN "Manufacturer2"
 F 10 "CC0603KRX7R9BB472" H 3550 2100 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 3550 2100 50  0001 C CNN "Manufacturer_Desc2"
 	1    3550 2100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:0VANA #U$0169
@@ -241,7 +241,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 4550 4000 50  0001 C CNN "Manufacturer4"
 F 16 "GRM155R71C104KA88D" H 4550 4000 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4550 4000 50  0001 C CNN "Manufacturer_Desc4"
 	1    4550 4000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Capacitor:C0603_4n7F_50V_10% C71
@@ -260,7 +260,7 @@ F 9 "YAGEO_RMS1" H 3550 3900 50  0001 C CNN "Manufacturer2"
 F 10 "CC0603KRX7R9BB472" H 3550 3900 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 3550 3900 50  0001 C CNN "Manufacturer_Desc2"
 	1    3550 3900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L IC:ASDX_10023117 IC18
@@ -447,7 +447,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 11450 2300 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 11450 2300 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 11450 2300 50  0001 C CNN "Manufacturer_Desc4"
 	1    11450 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:0VANA #U$076
@@ -488,7 +488,7 @@ F 9 "YAGEO_RMS1" H 10900 2300 50  0001 C CNN "Manufacturer2"
 F 10 "CC0603KRX7R9BB472" H 10900 2300 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 10900 2300 50  0001 C CNN "Manufacturer_Desc2"
 	1    10900 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Capacitor:C0805_100nF_50V_10% C62
@@ -519,7 +519,7 @@ F 21 "AVX_RMS1" H 9500 2050 50  0001 C CNN "Manufacturer6"
 F 22 "08055C104KAT2A" H 9500 2050 50  0001 C CNN "Manufacturer_No6"
 F 23 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805, X7R DIELECTRIC" H 9500 2050 50  0001 C CNN "Manufacturer_Desc6"
 	1    9500 2050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L IC:AWM3300V IC15
@@ -588,7 +588,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 14750 2250 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 14750 2250 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14750 2250 50  0001 C CNN "Manufacturer_Desc4"
 	1    14750 2250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:0VANA #U$0104
@@ -629,7 +629,7 @@ F 9 "YAGEO_RMS1" H 14200 2200 50  0001 C CNN "Manufacturer2"
 F 10 "CC0603KRX7R9BB472" H 14200 2200 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 14200 2200 50  0001 C CNN "Manufacturer_Desc2"
 	1    14200 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Capacitor:C0805_100nF_50V_10% C69
@@ -660,7 +660,7 @@ F 21 "AVX_RMS1" H 12850 2000 50  0001 C CNN "Manufacturer6"
 F 22 "08055C104KAT2A" H 12850 2000 50  0001 C CNN "Manufacturer_No6"
 F 23 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805, X7R DIELECTRIC" H 12850 2000 50  0001 C CNN "Manufacturer_Desc6"
 	1    12850 2000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L IC:AWM3300V IC17
@@ -892,7 +892,7 @@ F 1 "100nF" H 4425 9500 42  0000 L CNN
 F 2 "AllModules:C0402_1" H 4300 9550 50  0001 C CNN
 F 3 "" H 4300 9550 50  0001 C CNN
 	1    4300 9550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Resistor:R_4k7_5% R51
@@ -1019,21 +1019,21 @@ Connection ~ 1550 10050
 $Comp
 L Capacitor:C0603_4n7F_50V_10% C96
 U 1 1 C9A1B3F0
-P 3600 9575
-F 0 "C96" H 3700 9575 64  0000 L CNN
-F 1 "4.7nF" H 3700 9500 42  0000 L CNN
-F 2 "AllModules:C0603_1" H 3600 9575 50  0001 C CNN
-F 3 "" H 3600 9575 50  0001 C CNN
-F 4 "CAPACITOR CERAMIC,4.7NF,+/-10%,50V,0603" H 3600 9575 50  0001 C CNN "Description"
-F 5 "10022613" H 3600 9575 50  0001 C CNN "Item Number"
-F 6 "KEMET_RMS1" H 3600 9575 50  0001 C CNN "Manufacturer"
-F 7 "C0603C472K5RACTU" H 3600 9575 50  0001 C CNN "Manufacturer_No"
-F 8 "CAP 4700PF 50V CERAMIC X7R 0603" H 3600 9575 50  0001 C CNN "Manufacturer_Desc"
-F 9 "YAGEO_RMS1" H 3600 9575 50  0001 C CNN "Manufacturer2"
-F 10 "CC0603KRX7R9BB472" H 3600 9575 50  0001 C CNN "Manufacturer_No2"
-F 11 "" H 3600 9575 50  0001 C CNN "Manufacturer_Desc2"
-	1    3600 9575
-	1    0    0    -1  
+P 3600 9550
+F 0 "C96" H 3700 9550 64  0000 L CNN
+F 1 "4.7nF" H 3700 9475 42  0000 L CNN
+F 2 "AllModules:C0603_1" H 3600 9550 50  0001 C CNN
+F 3 "" H 3600 9550 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC,4.7NF,+/-10%,50V,0603" H 3600 9550 50  0001 C CNN "Description"
+F 5 "10022613" H 3600 9550 50  0001 C CNN "Item Number"
+F 6 "KEMET_RMS1" H 3600 9550 50  0001 C CNN "Manufacturer"
+F 7 "C0603C472K5RACTU" H 3600 9550 50  0001 C CNN "Manufacturer_No"
+F 8 "CAP 4700PF 50V CERAMIC X7R 0603" H 3600 9550 50  0001 C CNN "Manufacturer_Desc"
+F 9 "YAGEO_RMS1" H 3600 9550 50  0001 C CNN "Manufacturer2"
+F 10 "CC0603KRX7R9BB472" H 3600 9550 50  0001 C CNN "Manufacturer_No2"
+F 11 "" H 3600 9550 50  0001 C CNN "Manufacturer_Desc2"
+	1    3600 9550
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3050 9400 3600 9400
@@ -1051,7 +1051,7 @@ Connection ~ 4300 9400
 Wire Wire Line
 	4300 9400 4900 9400
 Wire Wire Line
-	4300 9650 4300 9750
+	4300 9650 4300 9700
 $Comp
 L cpu-board:0VANA #U$0179
 U 1 1 BD41952C
@@ -1105,7 +1105,7 @@ F 9 "YAGEO_RMS1" H 3550 5700 50  0001 C CNN "Manufacturer2"
 F 10 "CC0603KRX7R9BB472" H 3550 5700 50  0001 C CNN "Manufacturer_No2"
 F 11 "" H 3550 5700 50  0001 C CNN "Manufacturer_Desc2"
 	1    3550 5700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L IC:ASDX_10023117 IC22
@@ -1351,7 +1351,7 @@ F 1 "100nF" H 4675 5825 42  0000 L CNN
 F 2 "AllModules:C0402_1" H 4550 5850 50  0001 C CNN
 F 3 "" H 4550 5850 50  0001 C CNN
 	1    4550 5850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3950 5550 3950 5900
@@ -1475,7 +1475,7 @@ Connection ~ 3200 1250
 Wire Wire Line
 	3200 1250 3400 1250
 Wire Wire Line
-	3550 2000 3550 1900
+	3550 2000 3550 1950
 Wire Wire Line
 	3550 1900 3950 1900
 Wire Wire Line
@@ -1484,7 +1484,7 @@ Connection ~ 3550 1900
 Wire Wire Line
 	4850 1900 4650 1900
 Wire Wire Line
-	4650 2050 4650 1900
+	4650 2050 4650 2000
 Connection ~ 4650 1900
 Connection ~ 3950 1900
 Wire Wire Line
@@ -1767,9 +1767,9 @@ Wire Wire Line
 Wire Wire Line
 	10050 2650 9500 2650
 Wire Wire Line
-	9500 2650 9500 2150
+	9500 2650 9500 2200
 Wire Wire Line
-	9500 1950 9500 1500
+	9500 1950 9500 1900
 Wire Wire Line
 	9500 1500 10050 1500
 Wire Wire Line
@@ -1842,7 +1842,7 @@ Connection ~ 2550 8750
 Wire Wire Line
 	2550 8750 1800 8750
 Wire Wire Line
-	3600 9675 3600 9775
+	3600 9675 3600 9700
 Wire Wire Line
 	4050 9400 4300 9400
 Wire Wire Line
@@ -1874,11 +1874,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 2050 10900 2050
 Wire Wire Line
-	10900 2400 10900 2650
+	10900 2400 10900 2450
 Wire Wire Line
 	10650 2650 10900 2650
 Wire Wire Line
-	10900 2200 10900 2050
+	10900 2200 10900 2150
 Connection ~ 10900 2050
 Wire Wire Line
 	10900 2050 11050 2050
@@ -1887,7 +1887,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 2050 11600 2050
 Wire Wire Line
-	11450 2050 11450 2200
+	11450 2050 11450 2150
 Wire Wire Line
 	11450 2400 11450 2450
 Wire Wire Line
@@ -1898,9 +1898,9 @@ Connection ~ 13350 1450
 Wire Wire Line
 	13350 1450 13350 1550
 Wire Wire Line
-	12850 1450 12850 1900
+	12850 1450 12850 1850
 Wire Wire Line
-	14200 2300 14200 2650
+	14200 2300 14200 2350
 Connection ~ 14000 2450
 Wire Wire Line
 	13750 2050 14200 2050
@@ -1981,15 +1981,15 @@ $EndComp
 Wire Wire Line
 	1750 1750 1950 1750
 Wire Wire Line
-	3550 3700 3550 3800
+	3550 3700 3550 3750
 Wire Wire Line
-	4550 3700 4550 3900
+	4550 3700 4550 3850
 Wire Wire Line
 	4550 3700 4850 3700
 Wire Wire Line
-	4550 5950 4550 6025
+	4550 5950 4550 6000
 Wire Wire Line
-	4550 5550 4550 5750
+	4550 5550 4550 5700
 Wire Wire Line
 	3550 5550 3550 5600
 Wire Wire Line
@@ -1997,7 +1997,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5950 3550 5900
 Wire Wire Line
-	3550 5800 3550 5900
+	3550 5800 3550 5850
 Wire Wire Line
 	3450 5900 3500 5950
 Connection ~ 3500 5950
@@ -2011,7 +2011,7 @@ Wire Wire Line
 	3500 4100 3400 4000
 Connection ~ 3500 4100
 Wire Wire Line
-	4550 4100 4550 4200
+	4550 4100 4550 4150
 Wire Wire Line
 	1500 1700 1500 2200
 Wire Wire Line
@@ -2135,4 +2135,70 @@ Wire Wire Line
 	8050 5100 8050 5400
 Wire Wire Line
 	8050 2050 8050 2350
+Connection ~ 3550 1950
+Wire Wire Line
+	3550 1950 3550 1900
+Connection ~ 3550 2250
+Connection ~ 4650 2000
+Wire Wire Line
+	4650 2000 4650 1900
+Connection ~ 4650 2300
+Wire Wire Line
+	4650 2300 4650 2350
+Connection ~ 3550 3750
+Wire Wire Line
+	3550 3750 3550 3800
+Connection ~ 3550 4050
+Connection ~ 4550 3850
+Wire Wire Line
+	4550 3850 4550 3900
+Connection ~ 4550 4150
+Wire Wire Line
+	4550 4150 4550 4200
+Connection ~ 3550 5850
+Wire Wire Line
+	3550 5850 3550 5900
+Connection ~ 4550 5700
+Wire Wire Line
+	4550 5700 4550 5750
+Connection ~ 4550 6000
+Wire Wire Line
+	4550 6000 4550 6025
+Connection ~ 3600 9700
+Wire Wire Line
+	3600 9700 3600 9775
+Connection ~ 4300 9700
+Wire Wire Line
+	4300 9700 4300 9750
+Connection ~ 10900 2150
+Wire Wire Line
+	10900 2150 10900 2050
+Connection ~ 10900 2450
+Wire Wire Line
+	10900 2450 10900 2650
+Connection ~ 11450 2150
+Wire Wire Line
+	11450 2150 11450 2200
+Connection ~ 11450 2450
+Connection ~ 9500 1900
+Wire Wire Line
+	9500 1900 9500 1500
+Connection ~ 9500 2200
+Wire Wire Line
+	9500 2200 9500 2150
+Connection ~ 12850 1850
+Wire Wire Line
+	12850 1850 12850 1900
+Connection ~ 12850 2150
+Wire Wire Line
+	12850 2150 12850 2100
+Connection ~ 14200 2350
+Wire Wire Line
+	14200 2350 14200 2650
+Connection ~ 14750 2100
+Wire Wire Line
+	14750 2100 14750 2050
+Connection ~ 14750 2400
+Wire Wire Line
+	14750 2400 14750 2450
 $EndSCHEMATC

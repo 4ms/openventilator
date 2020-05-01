@@ -1486,13 +1486,13 @@ $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C87
 U 1 1 DE7D17FD
-P 5950 7775
-F 0 "C87" H 6031 7825 64  0000 L BNN
-F 1 "100nF" H 6037 7744 42  0000 L BNN
-F 2 "AllModules:C0402_1" H 5950 7775 50  0001 C CNN
-F 3 "" H 5950 7775 50  0001 C CNN
-	1    5950 7775
-	1    0    0    -1  
+P 5950 7750
+F 0 "C87" H 6031 7800 64  0000 L BNN
+F 1 "100nF" H 6037 7719 42  0000 L BNN
+F 2 "AllModules:C0402_1" H 5950 7750 50  0001 C CNN
+F 3 "" H 5950 7750 50  0001 C CNN
+	1    5950 7750
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$045
@@ -3208,9 +3208,9 @@ Connection ~ 5950 7450
 Wire Wire Line
 	5950 7450 6650 7450
 Wire Wire Line
-	5950 7450 5950 7675
+	5950 7450 5950 7600
 Wire Wire Line
-	5950 7925 5950 7875
+	5950 7925 5950 7900
 Connection ~ 6650 7450
 Wire Wire Line
 	6650 7450 7350 7450
@@ -3276,6 +3276,12 @@ Wire Wire Line
 Wire Wire Line
 	3850 7450 3850 7800
 Connection ~ 7350 7450
+Connection ~ 5950 7600
+Connection ~ 5950 7900
+Wire Wire Line
+	5950 7900 5950 7875
+Wire Wire Line
+	5950 7600 5950 7675
 Wire Bus Line
 	12600 2775 14225 2775
 Wire Bus Line

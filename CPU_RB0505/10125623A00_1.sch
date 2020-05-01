@@ -105,7 +105,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 14700 2150 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 14700 2150 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14700 2150 50  0001 C CNN "Manufacturer_Desc4"
 	1    14700 2150
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -132,7 +132,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 9650 50  0001 C CNN "Manufacturer4"
 F 16 "GRM155R71C104KA88D" H 7350 9650 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9650 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 9650
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -159,7 +159,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 9800 50  0001 C CNN "Manufacturer4"
 F 16 "GRM155R71C104KA88D" H 7350 9800 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9800 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 9800
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -186,7 +186,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 9950 50  0001 C CNN "Manufacturer4"
 F 16 "GRM155R71C104KA88D" H 7350 9950 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 9950 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 9950
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -213,7 +213,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 10100 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 7350 10100 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10100 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 10100
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -240,7 +240,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 10250 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 7350 10250 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10250 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 10250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -267,7 +267,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 10400 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 7350 10400 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10400 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 10400
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Capacitor:C0402_100nF_16V_10% C?
@@ -294,7 +294,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 7350 10550 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 7350 10550 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7350 10550 50  0001 C CNN "Manufacturer_Desc4"
 	1    7350 10550
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$?
@@ -453,7 +453,7 @@ F 1 "100nF" V 7419 10763 42  0000 L BNN
 F 2 "AllModules:C0402_1" H 7350 10700 50  0001 C CNN
 F 3 "" H 7350 10700 50  0001 C CNN
 	1    7350 10700
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$?
@@ -554,7 +554,7 @@ F 18 "YAGEO_RMS1" H 6550 1300 50  0001 C CNN "Manufacturer5"
 F 19 "CC0805KKX7R7BB334" H 6550 1300 50  0001 C CNN "Manufacturer_No5"
 F 20 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.33 UF, SURFACE MOUNT, 0805" H 6550 1300 50  0001 C CNN "Manufacturer_Desc5"
 	1    6550 1300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$?
@@ -615,7 +615,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 8450 1300 50  0001 C CNN "Manufacturer4"
 F 16 "GRM155R71C104KA88D" H 8450 1300 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 8450 1300 50  0001 C CNN "Manufacturer_Desc4"
 	1    8450 1300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:+5VREF #U$?
@@ -704,7 +704,7 @@ F 12 "YAGEO_RMS1" H 5750 1050 50  0001 C CNN "Manufacturer3"
 F 13 "223886715229" H 5750 1050 50  0001 C CNN "Manufacturer_No3"
 F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 0603" H 5750 1050 50  0001 C CNN "Manufacturer_Desc3"
 	1    5750 1050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Capacitor:C0603_22pF_50V_5% C?
@@ -728,7 +728,7 @@ F 12 "YAGEO_RMS1" H 5550 1050 50  0001 C CNN "Manufacturer3"
 F 13 "223886715229" H 5550 1050 50  0001 C CNN "Manufacturer_No3"
 F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 0603" H 5550 1050 50  0001 C CNN "Manufacturer_Desc3"
 	1    5550 1050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$?
@@ -829,7 +829,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 2200 10050 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 2200 10050 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 2200 10050 50  0001 C CNN "Manufacturer_Desc4"
 	1    2200 10050
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L cpu-board:+5V #U$?
@@ -1038,7 +1038,7 @@ F 1 "100nF" V 11244 1300 42  0000 R TNN
 F 2 "AllModules:C0402_1" H 11150 1200 50  0001 C CNN
 F 3 "" H 11150 1200 50  0001 C CNN
 	1    11150 1200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L cpu-board:GND #U$?
@@ -1234,7 +1234,7 @@ F 15 "MURATA_RMS1" H 12200 7250 50  0001 C CNN "Manufacturer4"
 F 16 "GRM216B31C105KA87D" H 12200 7250 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 12200 7250 50  0001 C CNN "Manufacturer_Desc4"
 	1    12200 7250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L cpu-board:GND #U$?
@@ -1385,7 +1385,7 @@ F 15 "MURATA MANUFACTURING CO., LTD." H 4800 10550 50  0001 C CNN "Manufacturer4
 F 16 "GRM155R71C104KA88D" H 4800 10550 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4800 10550 50  0001 C CNN "Manufacturer_Desc4"
 	1    4800 10550
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L cpu-board:GND #U$?
@@ -1450,7 +1450,7 @@ F 1 "100nF" V 10293 3350 42  0000 R TNN
 F 2 "AllModules:C0402_1" H 10200 3250 50  0001 C CNN
 F 3 "" H 10200 3250 50  0001 C CNN
 	1    10200 3250
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L cpu-board:GND #U$?
@@ -2124,8 +2124,6 @@ $EndComp
 Wire Wire Line
 	8250 1400 8250 1500
 Wire Wire Line
-	8450 1500 8450 1400
-Wire Wire Line
 	8350 1500 8350 1550
 Wire Wire Line
 	8250 1500 8350 1500
@@ -2161,8 +2159,6 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 $EndComp
 Wire Wire Line
 	7950 1100 8250 1100
-Wire Wire Line
-	8450 1100 8450 1200
 Wire Wire Line
 	8250 1200 8250 1100
 Connection ~ 8250 1100
@@ -2215,11 +2211,11 @@ Connection ~ 7050 1500
 Wire Wire Line
 	7050 1500 7150 1500
 Wire Wire Line
-	6550 1200 6550 900 
+	6550 1200 6550 1150
 Wire Wire Line
 	6150 1600 6150 1500
 Wire Wire Line
-	6550 1400 6550 1600
+	6550 1400 6550 1450
 Wire Wire Line
 	6650 1500 6450 1500
 Connection ~ 6650 1500
@@ -2231,8 +2227,7 @@ Connection ~ 6150 1500
 Wire Wire Line
 	6150 1500 6150 1250
 Wire Wire Line
-	5750 1600 5750 1150
-Connection ~ 5750 1150
+	5750 1600 5750 1200
 Wire Wire Line
 	5750 950  5750 900 
 Wire Wire Line
@@ -3051,9 +3046,9 @@ Wire Wire Line
 	14900 2150 14900 2350
 Connection ~ 14900 2150
 Wire Wire Line
-	14900 2150 14800 2150
+	14900 2150 14850 2150
 Wire Wire Line
-	14600 2150 14500 2150
+	14600 2150 14550 2150
 Wire Wire Line
 	14400 2150 14400 1950
 Wire Wire Line
@@ -3282,7 +3277,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 9550 2650 9850
 Wire Wire Line
-	2650 10050 2300 10050
+	2650 10050 2350 10050
 Connection ~ 2650 9850
 Wire Wire Line
 	2650 9850 2650 10050
@@ -3293,7 +3288,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 9950 1900 10050
 Wire Wire Line
-	1900 10050 2100 10050
+	1900 10050 2050 10050
 Connection ~ 1900 9950
 Wire Wire Line
 	2650 9550 3800 9550
@@ -3328,9 +3323,9 @@ Wire Wire Line
 	1650 10550 4400 10550
 Connection ~ 4400 10550
 Wire Wire Line
-	4400 10550 4700 10550
+	4400 10550 4650 10550
 Wire Wire Line
-	4900 10550 5050 10550
+	4900 10550 4950 10550
 Wire Wire Line
 	5050 10550 5050 10750
 Wire Wire Line
@@ -3341,14 +3336,14 @@ Wire Wire Line
 Wire Wire Line
 	4400 10550 4400 10950
 Wire Wire Line
-	11050 1200 10950 1200
+	11050 1200 11000 1200
 Wire Wire Line
 	10950 1450 10950 1200
 Connection ~ 10950 1200
 Wire Wire Line
 	10950 1200 10900 1200
 Wire Wire Line
-	11250 1200 11350 1200
+	11250 1200 11300 1200
 Wire Wire Line
 	11350 1450 11350 1200
 Connection ~ 11350 1200
@@ -3451,78 +3446,78 @@ $EndComp
 Wire Wire Line
 	7000 10800 7000 10700
 Wire Wire Line
-	7000 9650 7250 9650
+	7000 9650 7200 9650
 Wire Wire Line
-	7250 9800 7000 9800
+	7250 9800 7200 9800
 Connection ~ 7000 9800
 Wire Wire Line
 	7000 9800 7000 9650
 Wire Wire Line
 	7650 9600 7650 9650
 Wire Wire Line
-	7650 10700 7450 10700
+	7650 10700 7500 10700
 Wire Wire Line
-	7250 10700 7000 10700
+	7250 10700 7200 10700
 Connection ~ 7000 10700
 Wire Wire Line
 	7000 10700 7000 10550
 Wire Wire Line
-	7250 10550 7000 10550
+	7250 10550 7200 10550
 Connection ~ 7000 10550
 Wire Wire Line
 	7000 10550 7000 10400
 Wire Wire Line
-	7250 10400 7000 10400
+	7250 10400 7200 10400
 Connection ~ 7000 10400
 Wire Wire Line
 	7000 10400 7000 10250
 Wire Wire Line
-	7250 10250 7000 10250
+	7250 10250 7200 10250
 Connection ~ 7000 10250
 Wire Wire Line
 	7000 10250 7000 10100
 Wire Wire Line
-	7250 10100 7000 10100
+	7250 10100 7200 10100
 Connection ~ 7000 10100
 Wire Wire Line
 	7000 10100 7000 9950
 Wire Wire Line
-	7250 9950 7000 9950
+	7250 9950 7200 9950
 Connection ~ 7000 9950
 Wire Wire Line
 	7000 9950 7000 9800
 Wire Wire Line
-	7450 9950 7650 9950
+	7450 9950 7500 9950
 Connection ~ 7650 9950
 Wire Wire Line
 	7650 9950 7650 10100
 Wire Wire Line
-	7450 10100 7650 10100
+	7450 10100 7500 10100
 Connection ~ 7650 10100
 Wire Wire Line
 	7650 10100 7650 10250
 Wire Wire Line
-	7450 10250 7650 10250
+	7450 10250 7500 10250
 Connection ~ 7650 10250
 Wire Wire Line
 	7650 10250 7650 10400
 Wire Wire Line
-	7450 10400 7650 10400
+	7450 10400 7500 10400
 Connection ~ 7650 10400
 Wire Wire Line
 	7650 10400 7650 10550
 Wire Wire Line
-	7650 10550 7450 10550
+	7650 10550 7500 10550
 Connection ~ 7650 10550
 Wire Wire Line
 	7650 10550 7650 10700
 Wire Wire Line
-	7450 9800 7650 9800
+	7450 9800 7500 9800
 Connection ~ 7650 9800
 Wire Wire Line
 	7650 9800 7650 9950
 Wire Wire Line
-	7650 9650 7450 9650
+	7650 9650 7500 9650
 Connection ~ 7650 9650
 Wire Wire Line
 	7650 9650 7650 9800
@@ -3534,7 +3529,7 @@ Wire Wire Line
 	12050 7700 12050 7750
 Connection ~ 12050 7700
 Wire Wire Line
-	12200 7350 12200 7700
+	12200 7350 12200 7400
 Wire Wire Line
 	12200 7700 12050 7700
 $Comp
@@ -3583,10 +3578,10 @@ F 12 "YAGEO_RMS1" H 12450 6700 50  0001 C CNN "Manufacturer3"
 F 13 "232270462203L*" H 12450 6700 50  0001 C CNN "Manufacturer_No3"
 F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 1 %, 100 PPM, 22000 OHM, SURFACE MOUNT, 0603" H 12450 6700 50  0001 C CNN "Manufacturer_Desc3"
 	1    12450 6700
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12200 7150 12200 6700
+	12200 7150 12200 7100
 Wire Wire Line
 	12200 6700 12050 6700
 Connection ~ 12200 6700
@@ -3665,7 +3660,7 @@ F 15 "MURATA_RMS1" H 14150 7300 50  0001 C CNN "Manufacturer4"
 F 16 "GRM216B31C105KA87D" H 14150 7300 50  0001 C CNN "Manufacturer_No4"
 F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14150 7300 50  0001 C CNN "Manufacturer_Desc4"
 	1    14150 7300
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L cpu-board:74HCT1G32GW IC?
@@ -3756,7 +3751,7 @@ Wire Wire Line
 Wire Wire Line
 	14250 7300 14300 7300
 Wire Wire Line
-	14050 7300 13950 7300
+	14050 7300 14000 7300
 Connection ~ 13950 7300
 NoConn ~ 10450 2250
 NoConn ~ 10450 2650
@@ -3799,12 +3794,12 @@ Wire Wire Line
 Wire Wire Line
 	9900 3150 9900 3250
 Wire Wire Line
-	10100 3250 9900 3250
+	10100 3250 10050 3250
 Connection ~ 9900 3250
 Wire Wire Line
 	9900 3250 9900 3550
 Wire Wire Line
-	10300 3250 10600 3250
+	10300 3250 10350 3250
 Wire Wire Line
 	10600 3250 10600 3300
 Wire Wire Line
@@ -3873,7 +3868,6 @@ Wire Wire Line
 	12650 6600 12650 6700
 Wire Wire Line
 	5550 1200 5550 1150
-Connection ~ 5550 1150
 Wire Wire Line
 	5550 1500 5550 1600
 Wire Wire Line
@@ -3928,6 +3922,116 @@ Wire Wire Line
 	12600 6400 12650 6400
 Wire Wire Line
 	13950 7850 13950 7950
+Connection ~ 2050 10050
+Wire Wire Line
+	2050 10050 2100 10050
+Connection ~ 2350 10050
+Wire Wire Line
+	2350 10050 2300 10050
+Connection ~ 4950 10550
+Wire Wire Line
+	4950 10550 5050 10550
+Connection ~ 4650 10550
+Wire Wire Line
+	4650 10550 4700 10550
+Connection ~ 7200 9650
+Wire Wire Line
+	7200 9650 7250 9650
+Connection ~ 7200 9800
+Wire Wire Line
+	7200 9800 7000 9800
+Connection ~ 7200 9950
+Wire Wire Line
+	7200 9950 7000 9950
+Connection ~ 7200 10100
+Wire Wire Line
+	7200 10100 7000 10100
+Connection ~ 7200 10250
+Wire Wire Line
+	7200 10250 7000 10250
+Connection ~ 7200 10400
+Wire Wire Line
+	7200 10400 7000 10400
+Connection ~ 7200 10550
+Wire Wire Line
+	7200 10550 7000 10550
+Connection ~ 7200 10700
+Wire Wire Line
+	7200 10700 7000 10700
+Connection ~ 7500 9650
+Wire Wire Line
+	7500 9650 7450 9650
+Connection ~ 7500 9800
+Wire Wire Line
+	7500 9800 7650 9800
+Connection ~ 7500 9950
+Wire Wire Line
+	7500 9950 7650 9950
+Connection ~ 7500 10100
+Wire Wire Line
+	7500 10100 7650 10100
+Connection ~ 7500 10250
+Wire Wire Line
+	7500 10250 7650 10250
+Connection ~ 7500 10400
+Wire Wire Line
+	7500 10400 7650 10400
+Connection ~ 7500 10550
+Wire Wire Line
+	7500 10550 7450 10550
+Connection ~ 7500 10700
+Wire Wire Line
+	7500 10700 7450 10700
+Connection ~ 14300 7300
+Connection ~ 14000 7300
+Wire Wire Line
+	14000 7300 13950 7300
+Connection ~ 12200 7100
+Wire Wire Line
+	12200 7100 12200 6700
+Connection ~ 12200 7400
+Wire Wire Line
+	12200 7400 12200 7700
+Connection ~ 14550 2150
+Wire Wire Line
+	14550 2150 14500 2150
+Connection ~ 14850 2150
+Wire Wire Line
+	14850 2150 14800 2150
+Connection ~ 11000 1200
+Wire Wire Line
+	11000 1200 10950 1200
+Connection ~ 11300 1200
+Wire Wire Line
+	11300 1200 11350 1200
+Connection ~ 10050 3250
+Wire Wire Line
+	10050 3250 9900 3250
+Connection ~ 10350 3250
+Wire Wire Line
+	10350 3250 10600 3250
+Connection ~ 6550 1150
+Wire Wire Line
+	6550 1150 6550 900 
+Connection ~ 6550 1450
+Wire Wire Line
+	6550 1450 6550 1600
+Connection ~ 5750 900 
+Connection ~ 5750 1200
+Wire Wire Line
+	5750 1200 5750 1150
+Connection ~ 5550 900 
+Connection ~ 5550 1200
+Wire Wire Line
+	8450 1400 8450 1450
+Wire Wire Line
+	8450 1100 8450 1150
+Connection ~ 8450 1150
+Wire Wire Line
+	8450 1150 8450 1200
+Connection ~ 8450 1450
+Wire Wire Line
+	8450 1450 8450 1500
 Wire Bus Line
 	15950 2650 15950 4250
 Wire Bus Line
