@@ -513,7 +513,7 @@ F 8 "POWER SCHOTTKY RECTIFIER" H 3500 8100 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:JUMP_0U JP9
+L Jumper:JUMP_0U JP9
 U 1 1 C8B46213
 P 12350 1550
 AR Path="/C8B46213" Ref="JP9"  Part="1" 

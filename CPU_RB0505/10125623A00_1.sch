@@ -1028,19 +1028,6 @@ F 3 "" H 1600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
-U 1 1 662809D9
-P 11150 1200
-AR Path="/662809D9" Ref="C?"  Part="1" 
-AR Path="/5E923584/662809D9" Ref="C110"  Part="1" 
-F 0 "C110" V 11388 1069 64  0000 L BNN
-F 1 "100nF" V 11244 1300 42  0000 R TNN
-F 2 "AllModules:C0402_1" H 11150 1200 50  0001 C CNN
-F 3 "" H 11150 1200 50  0001 C CNN
-	1    11150 1200
-	0    1    -1   0   
-$EndComp
-$Comp
 L cpu-board:GND #U$?
 U 1 1 5DD0B675
 P 10800 1200
@@ -3336,14 +3323,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 10550 4400 10950
 Wire Wire Line
-	11050 1200 11000 1200
-Wire Wire Line
 	10950 1450 10950 1200
 Connection ~ 10950 1200
 Wire Wire Line
 	10950 1200 10900 1200
-Wire Wire Line
-	11250 1200 11300 1200
 Wire Wire Line
 	11350 1450 11350 1200
 Connection ~ 11350 1200
@@ -3998,10 +3981,8 @@ Wire Wire Line
 Connection ~ 14850 2150
 Wire Wire Line
 	14850 2150 14800 2150
-Connection ~ 11000 1200
 Wire Wire Line
 	11000 1200 10950 1200
-Connection ~ 11300 1200
 Wire Wire Line
 	11300 1200 11350 1200
 Connection ~ 10050 3250
@@ -4032,6 +4013,19 @@ Wire Wire Line
 Connection ~ 8450 1450
 Wire Wire Line
 	8450 1450 8450 1500
+$Comp
+L Capacitor:C0402_100nF_16V_10% C?
+U 1 1 662809D9
+P 11150 1200
+AR Path="/662809D9" Ref="C?"  Part="1" 
+AR Path="/5E923584/662809D9" Ref="C110"  Part="1" 
+F 0 "C110" V 11388 1069 64  0000 L BNN
+F 1 "100nF" V 11244 1300 42  0000 R TNN
+F 2 "AllModules:C0402_1" H 11150 1200 50  0001 C CNN
+F 3 "" H 11150 1200 50  0001 C CNN
+	1    11150 1200
+	0    1    -1   0   
+$EndComp
 Wire Bus Line
 	15950 2650 15950 4250
 Wire Bus Line
