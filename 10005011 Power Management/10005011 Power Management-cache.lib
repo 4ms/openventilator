@@ -1078,11 +1078,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C_220uF_20%
+# Capacitor_C_220uF_20%_SMD
 #
-DEF Capacitor_C_220uF_20% C 0 10 N Y 1 F N
+DEF Capacitor_C_220uF_20%_SMD C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Capacitor_C_220uF_20%" 25 -100 50 H V L CNN
+F1 "Capacitor_C_220uF_20%_SMD" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" -600 350 50 H I C CNN
 F4 "10022622" 400 50 50 H I L CNN "Item Number"

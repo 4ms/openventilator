@@ -1167,7 +1167,7 @@ Text Label 12700 5200 0    50   ~ 0
 Wire Wire Line
 	15650 4200 15650 4300
 $Comp
-L Capacitor:C_220uF_20% C44
+L Capacitor:C_220uF_20%_SMD C44
 U 1 1 5EFB991E
 P 14200 4550
 AR Path="/5EFB991E" Ref="C44"  Part="1" 

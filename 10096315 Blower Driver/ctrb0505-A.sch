@@ -3155,7 +3155,7 @@ Wire Notes Line
 Wire Notes Line
 	11550 3250 11550 1550
 $Comp
-L Capacitor:C_1kF_20% C28
+L Capacitor:C_1000uF_20% C28
 U 1 1 60BCDCF3
 P 16450 2400
 F 0 "C28" H 16565 2491 50  0000 L CNN
@@ -3173,7 +3173,7 @@ F 10 "108TTA035M" H 16450 2400 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C_1kF_20% C29
+L Capacitor:C_1000uF_20% C29
 U 1 1 60BCF93A
 P 17150 2400
 F 0 "C29" H 17265 2491 50  0000 L CNN
@@ -3837,9 +3837,6 @@ F 10 "NICHICON_RMS1 " H 8800 2400 50  0001 C CNN "Manufacturer"
 	1    8800 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8800 2550
-Wire Wire Line
-	6950 2250 8800 2250
 Connection ~ 8800 2250
 Wire Wire Line
 	8800 2250 9300 2250
@@ -4091,4 +4088,7 @@ F 3 "~" H 3000 7000 50  0001 C CNN
 	1    3000 7000
 	1    0    0    -1  
 $EndComp
+Connection ~ 8800 2550
+Wire Wire Line
+	6950 2250 8800 2250
 $EndSCHEMATC
