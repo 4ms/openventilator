@@ -1,59 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Blower_Driver_Components_10pinConnector
-#
-DEF Blower_Driver_Components_10pinConnector J 0 40 Y Y 1 F N
-F0 "J" 350 450 50 H V C CNN
-F1 "Blower_Driver_Components_10pinConnector" 50 600 50 H V C CNN
-F2 "" 50 500 50 H I C CNN
-F3 "" 50 500 50 H I C CNN
-F4 "7810-0000PR" -100 450 50 H V C CNN "MPN"
-DRAW
-S -150 -650 -50 350 1 1 0 N
-X ~ 1 50 -600 100 L 50 50 1 1 P
-X ~ 10 50 300 100 L 50 50 1 1 P
-X ~ 2 50 -500 100 L 50 50 1 1 P
-X ~ 3 50 -400 100 L 50 50 1 1 P
-X ~ 4 50 -300 100 L 50 50 1 1 P
-X ~ 5 50 -200 100 L 50 50 1 1 P
-X ~ 6 50 -100 100 L 50 50 1 1 P
-X ~ 7 50 0 100 L 50 50 1 1 P
-X ~ 8 50 100 100 L 50 50 1 1 P
-X ~ 9 50 200 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_2pinConnector
-#
-DEF Blower_Driver_Components_2pinConnector J 0 40 Y Y 1 F N
-F0 "J" 350 200 50 H V C CNN
-F1 "Blower_Driver_Components_2pinConnector" 50 350 50 H V C CNN
-F2 "" 50 250 50 H I C CNN
-F3 "" 50 250 50 H I C CNN
-F4 "0022057028" -100 200 50 H V C CNN "MPN"
-DRAW
-S -150 -100 -50 100 1 1 0 N
-X ~ 1 50 -50 100 L 50 50 1 1 P
-X ~ 2 50 50 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_2pinConnector_Power
-#
-DEF Blower_Driver_Components_2pinConnector_Power J 0 40 Y Y 1 F N
-F0 "J" -300 -50 50 H V C CNN
-F1 "Blower_Driver_Components_2pinConnector_Power" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "0436500212" 0 0 50 H V C CNN "MPN"
-DRAW
-S -150 -300 -50 -100 1 1 0 N
-X ~ 1 50 -250 100 L 50 50 1 1 P
-X ~ 2 50 -150 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Blower_Driver_Components_2pinConnector_Unpopulated
 #
 DEF Blower_Driver_Components_2pinConnector_Unpopulated J 0 40 Y Y 1 F N
@@ -66,27 +13,6 @@ DRAW
 S -150 -300 -50 -100 1 1 0 N
 X ~ 1 50 -250 100 L 50 50 1 1 P
 X ~ 2 50 -150 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_8pinConnector
-#
-DEF Blower_Driver_Components_8pinConnector J 0 40 Y Y 1 F N
-F0 "J" 350 450 50 H V C CNN
-F1 "Blower_Driver_Components_8pinConnector" 50 600 50 H V C CNN
-F2 "" 50 500 50 H I C CNN
-F3 "" 50 500 50 H I C CNN
-F4 "22-05-7088" -100 450 50 H V C CNN "MPN"
-DRAW
-S -150 -400 -50 400 1 1 0 N
-X ~ 1 50 -350 100 L 50 50 1 1 P
-X ~ 2 50 -250 100 L 50 50 1 1 P
-X ~ 3 50 -150 100 L 50 50 1 1 P
-X ~ 4 50 -50 100 L 50 50 1 1 P
-X ~ 5 50 50 100 L 50 50 1 1 P
-X ~ 6 50 150 100 L 50 50 1 1 P
-X ~ 7 50 250 100 L 50 50 1 1 P
-X ~ 8 50 350 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -109,327 +35,6 @@ X ~ 6 50 -100 100 L 50 50 1 1 P
 X ~ 7 50 0 100 L 50 50 1 1 P
 X ~ 8 50 100 100 L 50 50 1 1 P
 X ~ 9 50 200 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_CapacitorArray_47pf
-#
-DEF Blower_Driver_Components_CapacitorArray_47pf C 0 40 N Y 1 F N
-F0 "C" -500 150 50 H V C CNN
-F1 "Blower_Driver_Components_CapacitorArray_47pf" -50 500 50 H I C CNN
-F2 "" 100 0 50 H I C CNN
-F3 "" 100 0 50 H I C CNN
-F4 "W3A45A470KAT2A" 900 -100 50 H V C CNN "MPN"
-F5 "47pF" 550 100 50 H V C CNN "Capacitance"
-F6 "50V" 550 0 50 H V C CNN "Voltage"
-DRAW
-S -450 -100 450 -100 0 1 0 N
-S 450 -100 450 100 0 1 0 N
-S 450 100 -450 -100 0 1 0 N
-P 2 1 1 20 -380 -30 -220 -30 N
-P 2 1 1 20 -380 30 -220 30 N
-P 2 1 1 20 -180 -30 -20 -30 N
-P 2 1 1 20 -180 30 -20 30 N
-P 2 1 1 20 20 -30 180 -30 N
-P 2 1 1 20 20 30 180 30 N
-P 2 1 1 20 220 -30 380 -30 N
-P 2 1 1 20 220 30 380 30 N
-X ~ 1 -300 -150 110 U 50 50 1 1 P
-X ~ 2 -100 -150 110 U 50 50 1 1 P
-X ~ 3 100 -150 110 U 50 50 1 1 P
-X ~ 4 300 -150 110 U 50 50 1 1 P
-X ~ 5 300 150 110 D 50 50 1 1 P
-X ~ 6 100 150 110 D 50 50 1 1 P
-X ~ 7 -100 150 110 D 50 50 1 1 P
-X ~ 8 -300 150 110 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_1000uF
-#
-DEF Blower_Driver_Components_Capacitor_1000uF C 0 40 Y Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_1000uF" 0 450 50 H I C CNN
-F2 "10096315 Blower Driver:HT-13X27" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "1000uF" 250 50 50 H V C CNN "Capacitance"
-F5 "35V" 200 -50 50 H V C CNN "Voltage"
-F6 "108TTA035M" 0 0 50 H V C CNN "MPN"
-DRAW
-A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
-P 2 1 1 0 -120 90 -80 90 N
-P 2 1 1 0 -100 70 -100 110 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ + 0 150 110 D 50 50 1 1 P
-X ~ - 0 -150 130 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_100nF
-#
-DEF Blower_Driver_Components_Capacitor_100nF C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_100nF" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:C_0805" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "C0805C104Z5VACTU" 550 -150 50 H I C CNN "MPN"
-F5 "100nF" 250 50 50 H V C CNN "Capacitance"
-F6 "50V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 -150 110 U 50 50 1 1 P
-X ~ 2 0 150 110 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_100uF_CheckFootprint
-#
-DEF Blower_Driver_Components_Capacitor_100uF_CheckFootprint C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_100uF_CheckFootprint" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:CP_Elec_8x10" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "UWT1H101MNL1GS" 550 -150 50 H I C CNN "MPN"
-F5 "100uF" 250 50 50 H V C CNN "Capacitance"
-F6 "50V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
-P 2 1 1 0 -120 90 -80 90 N
-P 2 1 1 0 -100 70 -100 110 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ + 0 150 110 D 50 50 1 1 P
-X ~ - 0 -150 130 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_10nF
-#
-DEF Blower_Driver_Components_Capacitor_10nF C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_10nF" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:C_0603" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "CC0603KPX7R9BB103" 550 -150 50 H I C CNN "MPN"
-F5 "10nF" 250 50 50 H V C CNN "Capacitance"
-F6 "50V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 -150 110 U 50 50 1 1 P
-X ~ 2 0 150 110 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_2.2nF
-#
-DEF Blower_Driver_Components_Capacitor_2.2nF C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_2.2nF" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:C_0603" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "C0603C222K5RAC7411" 550 -150 50 H I C CNN "MPN"
-F5 "2.2nF" 250 50 50 H V C CNN "Capacitance"
-F6 "50V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 -150 110 U 50 50 1 1 P
-X ~ 2 0 150 110 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_220nF
-#
-DEF Blower_Driver_Components_Capacitor_220nF C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_220nF" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:C_1206" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "C1206C224K5RACTU" 550 -150 50 H I C CNN "MPN"
-F5 "220nF" 250 50 50 H V C CNN "Capacitance"
-F6 "50V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 -150 110 U 50 50 1 1 P
-X ~ 2 0 150 110 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_22uF_CheckFootprint
-#
-DEF Blower_Driver_Components_Capacitor_22uF_CheckFootprint C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_22uF_CheckFootprint" 0 450 50 H I C CNN
-F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-X_EIA-7343-43_Reflow" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "T495X226M035ATA200" 550 -150 50 H I C CNN "MPN"
-F5 "22uF" 250 50 50 H V C CNN "Capacitance"
-F6 "35V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
-P 2 1 1 0 -120 90 -80 90 N
-P 2 1 1 0 -100 70 -100 110 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ + 0 150 110 D 50 50 1 1 P
-X ~ - 0 -150 130 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_330nF
-#
-DEF Blower_Driver_Components_Capacitor_330nF C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_330nF" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:C_0603" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "CC0603ZRY5V7BB334" 550 -150 50 H I C CNN "MPN"
-F5 "330nF" 250 50 50 H V C CNN "Capacitance"
-F6 "16V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Capacitor_470uF_CheckFootprint
-#
-DEF Blower_Driver_Components_Capacitor_470uF_CheckFootprint C 0 40 N Y 1 F N
-F0 "C" -200 50 50 H V C CNN
-F1 "Blower_Driver_Components_Capacitor_470uF_CheckFootprint" 0 450 50 H I C CNN
-F2 "Capacitors_SMD:CP_Elec_10x10" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
-F4 "UCD1E471MNL6GS" 550 -150 50 H I C CNN "MPN"
-F5 "470uF" 250 50 50 H V C CNN "Capacitance"
-F6 "25V" 200 -50 50 H V C CNN "Voltage"
-DRAW
-A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
-P 2 1 1 0 -120 90 -80 90 N
-P 2 1 1 0 -100 70 -100 110 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ + 0 150 110 D 50 50 1 1 P
-X ~ - 0 -150 130 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_DiodeSchottky
-#
-DEF Blower_Driver_Components_DiodeSchottky D 0 40 Y Y 1 F N
-F0 "D" -300 150 50 H V C CNN
-F1 "Blower_Driver_Components_DiodeSchottky" 0 350 50 H I C CNN
-F2 "Diodes_SMD:D_SOD-323" 50 -200 50 H I C CNN
-F3 "" 0 150 50 H I C CNN
-F4 "PMEG4005AEA,115" 150 150 50 H V C CNN "MPN"
-DRAW
-P 2 1 1 0 -50 0 50 0 N
-P 4 1 1 8 -50 -50 -50 50 50 0 -50 -50 N
-P 6 1 1 8 75 -25 75 -50 50 -50 50 50 25 50 25 25 N
-X ~ 1 -150 0 100 R 50 50 1 1 P
-X ~ 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_DiodeSchottkyParallelPair
-#
-DEF Blower_Driver_Components_DiodeSchottkyParallelPair D 0 40 Y Y 1 F N
-F0 "D" -300 200 50 H V C CNN
-F1 "Blower_Driver_Components_DiodeSchottkyParallelPair" 50 400 50 H I C CNN
-F2 "TO_SOT_Packages_SMD:TO-252-2" -200 -250 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-F4 "STPS15L45CB" 150 200 50 H V C CNN "MPN"
-DRAW
-C 150 0 10 1 1 0 F
-P 5 0 1 0 50 100 150 100 150 0 150 -100 50 -100 N
-P 2 1 1 0 -50 -100 50 -100 N
-P 2 1 1 0 -50 100 50 100 N
-P 4 1 1 8 -50 -150 -50 -50 50 -100 -50 -150 N
-P 4 1 1 8 -50 50 -50 150 50 100 -50 50 N
-P 6 1 1 8 75 -125 75 -150 50 -150 50 -50 25 -50 25 -75 N
-P 6 1 1 8 75 75 75 50 50 50 50 150 25 150 25 125 N
-X ~ A1 -150 100 100 R 50 50 1 1 P
-X ~ A2 -150 -100 100 R 50 50 1 1 P
-X ~ K 250 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_DiodeSchottkySeriesPair
-#
-DEF Blower_Driver_Components_DiodeSchottkySeriesPair D 0 40 Y Y 1 F N
-F0 "D" -200 150 50 H V C CNN
-F1 "Blower_Driver_Components_DiodeSchottkySeriesPair" 0 500 50 H I C CNN
-F2 "TO_SOT_Packages_SMD:SOT-323_SC-70" 50 -500 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BAT54SWF" 250 -150 50 H V C CNN "MPN"
-DRAW
-C 0 0 10 1 1 0 F
-P 2 1 1 0 -150 0 150 0 N
-P 2 1 1 0 0 100 0 0 N
-P 2 1 1 0 250 0 300 0 N
-P 3 1 1 8 -50 -50 -50 50 -50 50 N
-P 3 1 1 8 150 50 150 -50 150 -50 N
-P 4 1 1 8 -50 -50 -30 -50 -30 -40 -30 -40 N
-P 4 1 1 8 150 -50 170 -50 170 -40 170 -40 N
-P 4 1 1 8 150 50 130 50 130 40 130 40 N
-P 5 1 1 8 -70 40 -70 50 -50 50 -50 50 -50 50 N
-P 6 1 1 8 -150 50 -50 0 -150 -50 -150 50 -150 50 -150 50 N
-P 6 1 1 8 50 50 150 0 50 -50 50 50 50 50 50 50 N
-X ~ 1 -300 0 150 R 50 50 1 1 P
-X ~ 2 300 0 150 L 50 50 1 1 P
-X ~ 3 0 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_DiodeZener_200V
-#
-DEF Blower_Driver_Components_DiodeZener_200V Z 0 40 Y Y 1 F N
-F0 "Z" -300 100 50 H V C CNN
-F1 "Blower_Driver_Components_DiodeZener_200V" 0 250 50 H I C CNN
-F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
-F3 "" 0 150 50 H I C CNN
-F4 "ES1D" 250 100 50 H V C CNN "MPN"
-F5 "200V" 0 -100 50 H V C CNN "Reverse Voltage"
-DRAW
-P 2 1 1 0 -50 0 50 0 N
-P 3 1 1 8 50 50 50 -50 30 -50 N
-P 4 1 1 8 -50 50 -50 -50 50 0 -50 50 N
-X ~ 1 -150 0 100 R 50 50 1 1 P
-X ~ 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_DiodeZener_30V
-#
-DEF Blower_Driver_Components_DiodeZener_30V Z 0 40 Y Y 1 F N
-F0 "Z" -300 100 50 H V C CNN
-F1 "Blower_Driver_Components_DiodeZener_30V" 0 250 50 H I C CNN
-F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
-F3 "" 0 150 50 H I C CNN
-F4 "BZV55-C15" 0 100 50 H V C CNN "MPN"
-F5 "30V" 0 -100 50 H V C CNN "Reverse Voltage"
-DRAW
-P 2 1 1 0 -50 0 50 0 N
-P 3 1 1 8 50 50 50 -50 30 -50 N
-P 4 1 1 8 -50 50 -50 -50 50 0 -50 50 N
-X ~ 1 -150 0 100 R 50 50 1 1 P
-X ~ 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_FerriteBead
-#
-DEF Blower_Driver_Components_FerriteBead FB 0 40 N Y 1 F N
-F0 "FB" 200 50 50 H V C CNN
-F1 "Blower_Driver_Components_FerriteBead" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -500 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "74279266" 300 -50 50 H V C CNN "MPN"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -486,15 +91,604 @@ X ~ PSG -450 -200 50 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_Fuse_5A
+# Capacitor_C0603_10nF_50V_10%
 #
-DEF Blower_Driver_Components_Fuse_5A F 0 40 Y Y 1 F N
+DEF Capacitor_C0603_10nF_50V_10% C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Capacitor_C0603_10nF_50V_10%" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022508" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "CC0603KRX7R9BB103" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CC0603KRX7R9BB104" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "KEMET_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "C0603C103K5RACTU" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "CC0603KRX7R9BB103" 400 -490 50 H I L CNN "Manufacturer_No4"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C0603_2n2F_50V_10%
+#
+DEF Capacitor_C0603_2n2F_50V_10% C 0 40 N Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C0603_2n2F_50V_10%" 0 450 50 H I C CNN
+F2 "Capacitors_SMD:C_0603" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10022507" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR CERAMIC, 2.2NF, +/-10%,50V, X7R, 0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "CC0603JRX7R9BB222" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CC0603KRX7R9BB222" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "223858615627" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 -150 110 U 50 50 1 1 P
+X ~ 2 0 150 110 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C0612_47pF_50V_10%
+#
+DEF Capacitor_C0612_47pF_50V_10% C 0 40 N Y 1 F N
+F0 "C" -500 150 50 H V C CNN
+F1 "Capacitor_C0612_47pF_50V_10%" -50 500 50 H I C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+F4 "10095973" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612" 400 -10 50 H I L CNN "Description"
+F6 "AVX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "W3A45A470KAT2A" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CA0612JRNPO9BN470" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+S -450 -100 450 -100 0 1 0 N
+S 450 -100 450 100 0 1 0 N
+S 450 100 -450 -100 0 1 0 N
+P 2 1 1 20 -380 -30 -220 -30 N
+P 2 1 1 20 -380 30 -220 30 N
+P 2 1 1 20 -180 -30 -20 -30 N
+P 2 1 1 20 -180 30 -20 30 N
+P 2 1 1 20 20 -30 180 -30 N
+P 2 1 1 20 20 30 180 30 N
+P 2 1 1 20 220 -30 380 -30 N
+P 2 1 1 20 220 30 380 30 N
+X ~ 1 -300 -150 110 U 50 50 1 1 P
+X ~ 2 -100 -150 110 U 50 50 1 1 P
+X ~ 3 100 -150 110 U 50 50 1 1 P
+X ~ 4 300 -150 110 U 50 50 1 1 P
+X ~ 5 300 150 110 D 50 50 1 1 P
+X ~ 6 100 150 110 D 50 50 1 1 P
+X ~ 7 -100 150 110 D 50 50 1 1 P
+X ~ 8 -300 150 110 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C0805_100nF_50V_10%
+#
+DEF Capacitor_C0805_100nF_50V_10% C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Capacitor_C0805_100nF_50V_10%" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022135" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "CC0805KRX7R9BB104" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "MURATA MANUFACTURING CO., LTD." 400 -190 50 H I L CNN "Manufacturer2"
+F9 "GRM21BR71H104KA01L" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "CC0805KRX7R9BB104" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "SAMSUNG_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "CL21B104KBCNNNC" 400 -490 50 H I L CNN "Manufacturer_No4"
+F14 "YAGEO_RMS1" 400 -550 50 H I L CNN "Manufacturer5"
+F15 "CC0805KRX7R9BB104" 400 -610 50 H I L CNN "Manufacturer_No5"
+F16 "AVX_RMS1" 400 -670 50 H I L CNN "Manufacturer6"
+F17 "08055C104KAT2A" 400 -730 50 H I L CNN "Manufacturer_No6"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C0805_330nF_16V_10%
+#
+DEF Capacitor_C0805_330nF_16V_10% C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Capacitor_C0805_330nF_16V_10%" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022510" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR,330NF,+/-10%,16V,0805,X7R" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "CC0805KKX7R7BB334" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "AVX_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "0805YC334KAT2A" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "KEMET_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "C0805C334K4RACTU" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "CC0805KRX7R7BB334" 400 -490 50 H I L CNN "Manufacturer_No4"
+F14 "YAGEO_RMS1" 400 -550 50 H I L CNN "Manufacturer5"
+F15 "CC0805KKX7R7BB334" 400 -610 50 H I L CNN "Manufacturer_No5"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C1206_220nF_50V_10%
+#
+DEF Capacitor_C1206_220nF_50V_10% C 0 40 N Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C1206_220nF_50V_10%" 0 450 50 H I C CNN
+F2 "Capacitors_SMD:C_1206" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10022509" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR,220NF,+/-10% ,50V, X7R,1206" 400 -10 50 H I L CNN "Description"
+F6 "KEMET_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "C1206C224K5RACTU" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "SAMSUNG_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CL31B224KBFNNNE" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "CC1206JKX7R9BB224" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "CC1206KKX7R9BB224" 400 -490 50 H I L CNN "Manufacturer_No4"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 -150 110 U 50 50 1 1 P
+X ~ 2 0 150 110 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C_100uF_20%
+#
+DEF Capacitor_C_100uF_20% C 0 40 N Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C_100uF_20%" 0 450 50 H I C CNN
+F2 "Capacitors_SMD:CP_Elec_8x10" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10022506" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR,100UF,+/-20%,50V" 400 -10 50 H I L CNN "Description"
+F6 "NICHICON_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "URZ1H101MPD" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
+P 2 1 1 0 -120 90 -80 90 N
+P 2 1 1 0 -100 70 -100 110 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ + 0 150 110 D 50 50 1 1 P
+X ~ - 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C_100uF_50V_20%_SMD
+#
+DEF Capacitor_C_100uF_50V_20%_SMD C 0 40 N Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C_100uF_50V_20%_SMD" 0 450 50 H I C CNN
+F2 "Capacitors_SMD:CP_Elec_8x10" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10022506" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR,100UF,+/-20%,50V SMD" 400 -10 50 H I L CNN "Description"
+F6 "NICHICON_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "UWT1H101MNL1GS" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
+P 2 1 1 0 -120 90 -80 90 N
+P 2 1 1 0 -100 70 -100 110 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ + 0 150 110 D 50 50 1 1 P
+X ~ - 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C_1kF_20%
+#
+DEF Capacitor_C_1kF_20% C 0 40 Y Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C_1kF_20%" 0 450 50 H I C CNN
+F2 "10096315 Blower Driver:HT-13X27" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10095974" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR,1000UF,+/-20%,35V" 400 -10 50 H I L CNN "Description"
+F6 "ILLINOIS_CAPACITOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "108TTA035M" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
+P 2 1 1 0 -120 90 -80 90 N
+P 2 1 1 0 -100 70 -100 110 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ + 0 150 110 D 50 50 1 1 P
+X ~ - 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C_22uF_10%
+#
+DEF Capacitor_C_22uF_10% C 0 40 N Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C_22uF_10%" 0 450 50 H I C CNN
+F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-X_EIA-7343-43_Reflow" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10022561" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR TANTALUM,22UF,+/-10%,35V" 400 -10 50 H I L CNN "Description"
+F6 "AVX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "TAJD226K035R" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "AVX_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "TAJD226K035RNJ" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "KEMET_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "T491D226K035AT" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
+P 2 1 1 0 -120 90 -80 90 N
+P 2 1 1 0 -100 70 -100 110 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ + 0 150 110 D 50 50 1 1 P
+X ~ - 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_C_470uF_20%_10095969
+#
+DEF Capacitor_C_470uF_20%_10095969 C 0 40 N Y 1 F N
+F0 "C" -200 50 50 H V C CNN
+F1 "Capacitor_C_470uF_20%_10095969" 0 450 50 H I C CNN
+F2 "Capacitors_SMD:CP_Elec_10x10" 50 -450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+F4 "10095969" 400 50 50 H I L CNN "Item Number"
+F5 "CAPACITOR,470UF, +/-20%,25V" 400 -10 50 H I L CNN "Description"
+F6 "PANASONIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "EEEFK1E471P" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "NICHICON_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "UCD1E471MNL1GS" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
+P 2 1 1 0 -120 90 -80 90 N
+P 2 1 1 0 -100 70 -100 110 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ + 0 150 110 D 50 50 1 1 P
+X ~ - 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_10pinConnector
+#
+DEF Connector_10pinConnector J 0 40 Y Y 1 F N
+F0 "J" 350 450 50 H V C CNN
+F1 "Connector_10pinConnector" 50 600 50 H V C CNN
+F2 "" 50 500 50 H I C CNN
+F3 "" 50 500 50 H I C CNN
+F4 "10052305" 400 50 50 H I L CNN "Item Number"
+F5 "PCB CONNECTOR HE10, 10 PINS" 400 -10 50 H I L CNN "Description"
+F6 "3M_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "7810-0000PR" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+S -150 -650 -50 350 1 1 0 N
+X ~ 1 50 -600 100 L 50 50 1 1 P
+X ~ 10 50 300 100 L 50 50 1 1 P
+X ~ 2 50 -500 100 L 50 50 1 1 P
+X ~ 3 50 -400 100 L 50 50 1 1 P
+X ~ 4 50 -300 100 L 50 50 1 1 P
+X ~ 5 50 -200 100 L 50 50 1 1 P
+X ~ 6 50 -100 100 L 50 50 1 1 P
+X ~ 7 50 0 100 L 50 50 1 1 P
+X ~ 8 50 100 100 L 50 50 1 1 P
+X ~ 9 50 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_2pinConnector
+#
+DEF Connector_2pinConnector J 0 40 Y Y 1 F N
+F0 "J" 350 200 50 H V C CNN
+F1 "Connector_2pinConnector" 50 350 50 H V C CNN
+F2 "" 50 250 50 H I C CNN
+F3 "" 50 250 50 H I C CNN
+F4 "10022542" 400 50 50 H I L CNN "Item Number"
+F5 "CONNECTOR, O2 VALVE, 2 CONTACTS" 400 -10 50 H I L CNN "Description"
+F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "22057028" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+S -150 -100 -50 100 1 1 0 N
+X ~ 1 50 -50 100 L 50 50 1 1 P
+X ~ 2 50 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_2pinConnector_Power
+#
+DEF Connector_2pinConnector_Power J 0 40 Y Y 1 F N
+F0 "J" -300 -50 50 H V C CNN
+F1 "Connector_2pinConnector_Power" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022538" 400 50 50 H I L CNN "Item Number"
+F5 "CONNECTOR, 2 CONTACTS,MICROFIT 3.0" 400 -10 50 H I L CNN "Description"
+F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "436500212" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+S -150 -300 -50 -100 1 1 0 N
+X ~ 1 50 -250 100 L 50 50 1 1 P
+X ~ 2 50 -150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_8pinConnector
+#
+DEF Connector_8pinConnector J 0 40 Y Y 1 F N
+F0 "J" 350 450 50 H V C CNN
+F1 "Connector_8pinConnector" 50 600 50 H V C CNN
+F2 "" 50 500 50 H I C CNN
+F3 "" 50 500 50 H I C CNN
+F4 "10022543" 400 50 50 H I L CNN "Item Number"
+F5 "CONNECTOR,8 CONTACTS, 2.54PIN PITCH" 400 -10 50 H I L CNN "Description"
+F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "22057088" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+S -150 -400 -50 400 1 1 0 N
+X ~ 1 50 -350 100 L 50 50 1 1 P
+X ~ 2 50 -250 100 L 50 50 1 1 P
+X ~ 3 50 -150 100 L 50 50 1 1 P
+X ~ 4 50 -50 100 L 50 50 1 1 P
+X ~ 5 50 50 100 L 50 50 1 1 P
+X ~ 6 50 150 100 L 50 50 1 1 P
+X ~ 7 50 250 100 L 50 50 1 1 P
+X ~ 8 50 350 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_JumperBypass
+#
+DEF Connector_JumperBypass JP 0 40 Y Y 1 F N
+F0 "JP" 200 100 50 H V C CNN
+F1 "Connector_JumperBypass" -50 650 50 H V C CNN
+F2 "" 0 500 50 H I C CNN
+F3 "" 0 500 50 H I C CNN
+F4 "10022541" 400 50 50 H I L CNN "Item Number"
+F5 "COPPER WIRE, SWG20 DIA: 0.91" 400 -10 50 H I L CNN "Description"
+F6 "RS COMPONENTS LIMITED" 400 -70 50 H I L CNN "Manufacturer"
+F7 "355063" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+A 26 0 125 -1274 1273 1 1 0 N -50 -98 -50 99
+C 0 -100 35 1 1 0 N
+C 0 100 35 1 1 0 N
+X ~ 1 0 -300 165 U 50 50 1 1 P
+X ~ 2 0 300 165 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "10022924" 400 50 50 H I L CNN "Item Number"
+F5 "TEST POINT" 400 -10 50 H I L CNN "Description"
+F6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Net-Tie_2
+#
+DEF Device_Net-Tie_2 NT 0 0 N N 1 F N
+F0 "NT" 0 50 50 H V C CNN
+F1 "Device_Net-Tie_2" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Net*Tie*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_DiodeSchottky
+#
+DEF Diode_DiodeSchottky D 0 40 Y Y 1 F N
+F0 "D" -300 150 50 H V C CNN
+F1 "Diode_DiodeSchottky" 0 350 50 H I C CNN
+F2 "Diodes_SMD:D_SOD-323" 50 -200 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+F4 "10022515" 400 50 50 H I L CNN "Item Number"
+F5 "DIODE SCHOTTKY, 500MA,40V,SOD323" 400 -10 50 H I L CNN "Description"
+F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "PMEG4005AEA,115" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "PMEG4005AEA" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+P 2 1 1 0 -50 0 50 0 N
+P 4 1 1 8 -50 -50 -50 50 50 0 -50 -50 N
+P 6 1 1 8 75 -25 75 -50 50 -50 50 50 25 50 25 25 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_DiodeSchottkyParallelPair
+#
+DEF Diode_DiodeSchottkyParallelPair D 0 40 Y Y 1 F N
+F0 "D" -300 200 50 H V C CNN
+F1 "Diode_DiodeSchottkyParallelPair" 50 400 50 H I C CNN
+F2 "TO_SOT_Packages_SMD:TO-252-2" -200 -250 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "10022519" 400 50 50 H I L CNN "Item Number"
+F5 "DIODE SCHOTTKY, 15A, 45V,TO-252" 400 -10 50 H I L CNN "Description"
+F6 "ST MICROELECTRONIC" 400 -70 50 H I L CNN "Manufacturer"
+F7 "STPS15L45CB-TR" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+C 150 0 10 1 1 0 F
+P 5 0 1 0 50 100 150 100 150 0 150 -100 50 -100 N
+P 2 1 1 0 -50 -100 50 -100 N
+P 2 1 1 0 -50 100 50 100 N
+P 4 1 1 8 -50 -150 -50 -50 50 -100 -50 -150 N
+P 4 1 1 8 -50 50 -50 150 50 100 -50 50 N
+P 6 1 1 8 75 -125 75 -150 50 -150 50 -50 25 -50 25 -75 N
+P 6 1 1 8 75 75 75 50 50 50 50 150 25 150 25 125 N
+X ~ A1 -150 100 100 R 50 50 1 1 P
+X ~ A2 -150 -100 100 R 50 50 1 1 P
+X ~ K 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_DiodeSchottkySeriesPair
+#
+DEF Diode_DiodeSchottkySeriesPair D 0 40 Y Y 1 F N
+F0 "D" -200 150 50 H V C CNN
+F1 "Diode_DiodeSchottkySeriesPair" 0 500 50 H I C CNN
+F2 "TO_SOT_Packages_SMD:SOT-323_SC-70" 50 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022518" 400 50 50 H I L CNN "Item Number"
+F5 "DIODE SCHOTTKY, 200MA,30V,SOD23DIO" 400 -10 50 H I L CNN "Description"
+F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "BAT54S,215" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "BAT54S" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+C 0 0 10 1 1 0 F
+P 2 1 1 0 -150 0 150 0 N
+P 2 1 1 0 0 100 0 0 N
+P 2 1 1 0 250 0 300 0 N
+P 3 1 1 8 -50 -50 -50 50 -50 50 N
+P 3 1 1 8 150 50 150 -50 150 -50 N
+P 4 1 1 8 -50 -50 -30 -50 -30 -40 -30 -40 N
+P 4 1 1 8 150 -50 170 -50 170 -40 170 -40 N
+P 4 1 1 8 150 50 130 50 130 40 130 40 N
+P 5 1 1 8 -70 40 -70 50 -50 50 -50 50 -50 50 N
+P 6 1 1 8 -150 50 -50 0 -150 -50 -150 50 -150 50 -150 50 N
+P 6 1 1 8 50 50 150 0 50 -50 50 50 50 50 50 50 N
+X ~ 1 -300 0 150 R 50 50 1 1 P
+X ~ 2 300 0 150 L 50 50 1 1 P
+X ~ 3 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_DiodeZener_200V
+#
+DEF Diode_DiodeZener_200V Z 0 40 Y Y 1 F N
+F0 "Z" -300 100 50 H V C CNN
+F1 "Diode_DiodeZener_200V" 0 250 50 H I C CNN
+F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+F4 "10022562" 400 50 50 H I L CNN "Item Number"
+F5 "DIODE SCHOTTKY, 1A, 200V,SMA" 400 -10 50 H I L CNN "Description"
+F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "ES1D-E3/5AT" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "ES1D-E3/61T" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "FAIRCHILD SEMICONDUCTOR_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "ES1D" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+P 2 1 1 0 -50 0 50 0 N
+P 3 1 1 8 50 50 50 -50 30 -50 N
+P 4 1 1 8 -50 50 -50 -50 50 0 -50 50 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_DiodeZener_30V_10022514
+#
+DEF Diode_DiodeZener_30V_10022514 Z 0 40 Y Y 1 F N
+F0 "Z" -300 100 50 H V C CNN
+F1 "Diode_DiodeZener_30V_10022514" 0 250 50 H I C CNN
+F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+F4 "10022514" 400 50 50 H I L CNN "Item Number"
+F5 "DIODE ZENER, 3W-600W,30V,SMB" 400 -10 50 H I L CNN "Description"
+F6 "VISHAY" 400 -70 50 H I L CNN "Manufacturer"
+F7 "BZG03C30-HM3-08" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "VISHAY" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "BZG03C30-M3-08" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "VISHAY" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "BZG03C30-HM3-18" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "VISHAY_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "BZG03C30TR3" 400 -490 50 H I L CNN "Manufacturer_No4"
+F14 "VISHAY_RMS1" 400 -550 50 H I L CNN "Manufacturer5"
+F15 "BZG03C30TR" 400 -610 50 H I L CNN "Manufacturer_No5"
+F16 "VISHAY" 400 -670 50 H I L CNN "Manufacturer6"
+F17 "BZG03C30-M3-18" 400 -730 50 H I L CNN "Manufacturer_No6"
+DRAW
+P 2 1 1 0 -50 0 50 0 N
+P 3 1 1 8 50 50 50 -50 30 -50 N
+P 4 1 1 8 -50 50 -50 -50 50 0 -50 50 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_DiodeZener_30V_10022517
+#
+DEF Diode_DiodeZener_30V_10022517 Z 0 40 Y Y 1 F N
+F0 "Z" -300 100 50 H V C CNN
+F1 "Diode_DiodeZener_30V_10022517" 0 250 50 H I C CNN
+F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+F4 "10022517" 400 50 50 H I L CNN "Item Number"
+F5 "DIODE ZENER, 15V, 500MW,SOD80" 400 -10 50 H I L CNN "Description"
+F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "BZV55-C15" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "BZV55-C15,115" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+P 2 1 1 0 -50 0 50 0 N
+P 3 1 1 8 50 50 50 -50 30 -50 N
+P 4 1 1 8 -50 50 -50 -50 50 0 -50 50 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse_Fuse_5A
+#
+DEF Fuse_Fuse_5A F 0 40 Y Y 1 F N
 F0 "F" 100 50 50 H V C CNN
-F1 "Blower_Driver_Components_Fuse_5A" 0 450 50 H I C CNN
+F1 "Fuse_Fuse_5A" 0 450 50 H I C CNN
 F2 "" 0 400 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
-F4 "0154005.DR" 300 -50 50 H V C CNN "MPN"
-F5 "5A" 100 -150 50 H V C CNN "Fuse Value"
+F4 "10022531" 400 50 50 H I L CNN "Item Number"
+F5 "FUSE 5A + SUPPORT CMS" 400 -10 50 H I L CNN "Description"
+F6 "LITTELFUSE_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "0154005.DR" 400 -130 50 H I L CNN "Manufacturer_No"
 DRAW
 S -30 -100 30 100 1 1 10 N
 P 2 1 1 0 0 100 0 -100 N
@@ -503,14 +697,21 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_HighSideDriver
+# IC_HighSideDriver
 #
-DEF Blower_Driver_Components_HighSideDriver U 0 40 Y Y 1 F N
+DEF IC_HighSideDriver U 0 40 Y Y 1 F N
 F0 "U" -200 250 50 H V C CNN
-F1 "Blower_Driver_Components_HighSideDriver" 0 400 50 H V C CNN
+F1 "IC_HighSideDriver" 0 400 50 H V C CNN
 F2 "SMD_Packages:SOIC-8-N" -300 -550 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
-F4 "IR2118SPBF" 200 250 50 H V C CNN "MPN"
+F4 "10022536" 400 50 50 H I L CNN "Item Number"
+F5 "SINGLE CHANNEL MOSFET DRIVER" 400 -10 50 H I L CNN "Description"
+F6 "INFINEON_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "IR2118SPBF" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "INFINEON_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "IR2118STRPBF" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "INFINEON_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "IR2118STRPBF" 400 -370 50 H I L CNN "Manufacturer_No3"
 DRAW
 S -200 -350 300 200 0 1 0 f
 X VCC 1 -300 150 100 R 50 50 1 1 W
@@ -524,50 +725,19 @@ X VB 8 400 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_Inductor_22uH
+# IC_LinearRegulator
 #
-DEF Blower_Driver_Components_Inductor_22uH L 0 40 Y Y 1 F N
-F0 "L" 150 -300 50 H V C CNN
-F1 "Blower_Driver_Components_Inductor_22uH" 0 100 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "744772220" 350 -400 50 H V C CNN "MPN"
-F5 "22uH" 200 -500 50 H V C CNN "Inductance"
-DRAW
-A 0 -475 25 901 -901 1 1 0 N 0 -450 0 -500
-A 0 -425 25 901 -901 1 1 0 N 0 -400 0 -450
-A 0 -375 25 901 -901 1 1 0 N 0 -350 0 -400
-A 0 -325 25 901 -901 1 1 0 N 0 -300 0 -350
-X ~ 1 0 -550 50 U 50 50 1 1 P
-X ~ 2 0 -250 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_JumperBypass
-#
-DEF Blower_Driver_Components_JumperBypass JP 0 40 Y Y 1 F N
-F0 "JP" 200 100 50 H V C CNN
-F1 "Blower_Driver_Components_JumperBypass" -50 650 50 H V C CNN
-F2 "" 0 500 50 H I C CNN
-F3 "" 0 500 50 H I C CNN
-F4 "TCW20 500G" 0 0 50 H V C CNN "MPN"
-DRAW
-A 26 0 125 -1274 1273 1 1 0 N -50 -98 -50 99
-C 0 -100 35 1 1 0 N
-C 0 100 35 1 1 0 N
-X ~ 1 0 -300 165 U 50 50 1 1 P
-X ~ 2 0 300 165 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_LinearRegulator
-#
-DEF Blower_Driver_Components_LinearRegulator U 0 40 Y Y 1 F N
+DEF IC_LinearRegulator U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V C CNN
-F1 "Blower_Driver_Components_LinearRegulator" 50 350 50 H V C CNN
+F1 "IC_LinearRegulator" 50 350 50 H V C CNN
 F2 "TO_SOT_Packages_SMD:TO-252-2" -200 250 50 H I C CNN
 F3 "" -200 250 50 H I C CNN
-F4 "L78M15CDT-TR" 200 200 50 H V C CNN "MPN"
+F4 "10022537" 400 50 50 H I L CNN "Item Number"
+F5 "IC, VOLTAGE REGULATOR, 15V,500MA,DPACK" 400 -10 50 H I L CNN "Description"
+F6 "STMICROELECTRONICS" 400 -70 50 H I L CNN "Manufacturer"
+F7 "L78M15CDT" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "STMICROELECTRONICS" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "L78M15CDT-TR" 400 -250 50 H I L CNN "Manufacturer_No2"
 DRAW
 S -250 -150 250 150 0 1 0 f
 X VIN 1 -350 100 100 R 50 50 1 1 W
@@ -576,101 +746,19 @@ X VOUT 3 350 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_MOSFET_NMOS_30V
+# IC_MotorDriver
 #
-DEF Blower_Driver_Components_MOSFET_NMOS_30V Q 0 40 Y N 1 F N
-F0 "Q" 150 -100 50 H V C CNN
-F1 "Blower_Driver_Components_MOSFET_NMOS_30V" 0 500 50 H I C CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 50 -650 50 H I C CNN
-F3 "" 0 400 50 H I C CNN
-F4 "IRLML2803TRPBF" 450 0 50 H V C CNN "MPN"
-DRAW
-C -35 0 110 1 1 10 N
-C 0 -70 10 1 1 0 F
-C 0 70 10 1 1 0 F
-P 2 1 1 0 -90 0 -200 0 N
-P 2 1 1 10 -90 75 -90 -75 N
-P 2 1 1 10 -70 -50 -70 -90 N
-P 2 1 1 10 -70 20 -70 -20 N
-P 2 1 1 10 -70 90 -70 50 N
-P 2 1 1 0 0 100 0 70 N
-P 3 1 1 0 0 -100 0 0 -70 0 N
-P 4 1 1 0 -70 -70 30 -70 30 70 -70 70 N
-P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
-P 4 1 1 0 10 20 15 15 45 15 50 10 N
-P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
-X 3 D 0 200 100 D 50 50 1 1 P
-X 1 G -300 0 100 R 50 50 1 1 I
-X 2 S 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_MOSFET_NMOS_55V
-#
-DEF Blower_Driver_Components_MOSFET_NMOS_55V Q 0 40 Y Y 1 F N
-F0 "Q" 150 -100 50 H V C CNN
-F1 "Blower_Driver_Components_MOSFET_NMOS_55V" 0 500 50 H I C CNN
-F2 "TO_SOT_Packages_SMD:TO-252-2" 50 -650 50 H I C CNN
-F3 "" 0 400 50 H I C CNN
-F4 "IRFR024NTRPBF" 450 0 50 H V C CNN "MPN"
-DRAW
-C -35 0 110 1 1 10 N
-C 0 -70 10 1 1 0 F
-C 0 70 10 1 1 0 F
-P 2 1 1 0 -90 0 -200 0 N
-P 2 1 1 10 -90 75 -90 -75 N
-P 2 1 1 10 -70 -50 -70 -90 N
-P 2 1 1 10 -70 20 -70 -20 N
-P 2 1 1 10 -70 90 -70 50 N
-P 2 1 1 0 0 100 0 70 N
-P 3 1 1 0 0 -100 0 0 -70 0 N
-P 4 1 1 0 -70 -70 30 -70 30 70 -70 70 N
-P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
-P 4 1 1 0 10 20 15 15 45 15 50 10 N
-P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
-X ~ D 0 200 100 D 50 50 1 1 P
-X ~ G -300 0 100 R 50 50 1 1 I
-X ~ S 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_MOSFET_PMOS_60V
-#
-DEF Blower_Driver_Components_MOSFET_PMOS_60V Q 0 40 Y Y 1 F N
-F0 "Q" 150 -50 50 H V C CNN
-F1 "Blower_Driver_Components_MOSFET_PMOS_60V" 0 500 50 H I C CNN
-F2 "TO_SOT_Packages_SMD:TO-252-2" 0 -550 50 H I C CNN
-F3 "" 0 500 50 H I C CNN
-F4 "SUD50P06-15-GE3" 500 50 50 H V C CNN "MPN"
-DRAW
-C -35 0 110 1 1 10 N
-C 0 -70 10 1 1 0 F
-C 0 70 10 1 1 0 F
-P 2 1 1 0 -90 0 -200 0 N
-P 2 1 1 10 -90 75 -90 -75 N
-P 2 1 1 10 -70 -50 -70 -90 N
-P 2 1 1 10 -70 20 -70 -20 N
-P 2 1 1 10 -70 90 -70 50 N
-P 2 1 1 0 0 100 0 70 N
-P 3 1 1 0 0 -100 0 0 -70 0 N
-P 4 1 1 0 -70 70 30 70 30 -70 -70 -70 N
-P 4 1 1 0 -10 0 -50 15 -50 -15 -10 0 F
-P 4 1 1 0 10 -20 15 -15 45 -15 50 -10 N
-P 4 1 1 0 30 -15 15 10 45 10 30 -15 N
-X ~ D 0 200 100 D 50 50 1 1 P
-X ~ G -300 0 100 R 50 50 1 1 I
-X ~ S 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_MotorDriver
-#
-DEF Blower_Driver_Components_MotorDriver U 0 40 Y Y 1 F N
+DEF IC_MotorDriver U 0 40 Y Y 1 F N
 F0 "U" -600 900 50 H V C CNN
-F1 "Blower_Driver_Components_MotorDriver" 350 900 50 H V C CNN
+F1 "IC_MotorDriver" 350 900 50 H V C CNN
 F2 "SMD_Packages:SOIC-24" -1150 850 50 H I C CNN
 F3 "" -450 400 50 H I C CNN
-F4 "MC33035DWR2GOSCT" 200 -800 50 H V C CNN "MPN"
+F4 "10022534" 400 50 50 H I L CNN "Item Number"
+F5 "IC BRUSHLESS DC MOTOR CONTROLLER" 400 -10 50 H I L CNN "Description"
+F6 "ON SEMICONDUCTOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "MC33035DWR2G" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "ON SEMICONDUCTOR_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "MC33035DWG" 400 -250 50 H I L CNN "Manufacturer_No2"
 DRAW
 S -600 850 550 -750 0 1 0 f
 X BT 1 650 200 100 L 50 50 1 1 O
@@ -700,14 +788,19 @@ X +SENSE 9 650 -550 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_NE555D
+# IC_NE555D
 #
-DEF Blower_Driver_Components_NE555D U 0 40 Y Y 1 F N
+DEF IC_NE555D U 0 40 Y Y 1 F N
 F0 "U" -350 450 50 H V C CNN
-F1 "Blower_Driver_Components_NE555D" 0 -150 50 H I C CNN
+F1 "IC_NE555D" 0 -150 50 H I C CNN
 F2 "SMD_Packages:SOIC-8-N" 350 600 50 H I C CNN
 F3 "" 350 600 50 H I C CNN
-F4 "NE555DR" 350 450 50 H V C CNN "MPN"
+F4 "10095970" 400 50 50 H I L CNN "Item Number"
+F5 "IC TIMER" 400 -10 50 H I L CNN "Description"
+F6 "TEXAS INSTRUMENTS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "SE555DRG4" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "TEXAS INSTRUMENTS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "SE555DG4" 400 -250 50 H I L CNN "Manufacturer_No2"
 DRAW
 S -700 -350 -700 -350 0 1 0 N
 S -350 400 350 -400 0 1 0 f
@@ -722,33 +815,17 @@ X VCC 8 -100 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_Resistor_0R047
+# Inductor_FerriteBead
 #
-DEF Blower_Driver_Components_Resistor_0R047 R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_0R047" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
+DEF Inductor_FerriteBead FB 0 40 N Y 1 F N
+F0 "FB" 200 50 50 H V C CNN
+F1 "Inductor_FerriteBead" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "ERJ-L1WKF47MU" 400 -150 50 H I C CNN "MPN"
-F5 "0R047" -100 0 50 V V C CNN "Resistance"
-F6 "1W" -200 0 50 V V C CNN "Power"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_0R100
-#
-DEF Blower_Driver_Components_Resistor_0R100 R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_0R100" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "ERJ-L1WKF10CU" 400 -150 50 H I C CNN "MPN"
-F5 "0R100" -100 0 50 V V C CNN "Resistance"
-F6 "1W" -200 0 50 V V C CNN "Power"
+F4 "10022533" 400 50 50 H I L CNN "Item Number"
+F5 "FILTER, 1K, 100MHZ, 0.8OHM, 50MA, 0603" 400 -10 50 H I L CNN "Description"
+F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
+F7 "74279266" 400 -130 50 H I L CNN "Manufacturer_No"
 DRAW
 S -40 -100 40 100 1 1 10 N
 X ~ 1 0 -150 50 U 50 50 1 1 P
@@ -756,182 +833,24 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Blower_Driver_Components_Resistor_100R
+# Inductor_Inductor_22uH
 #
-DEF Blower_Driver_Components_Resistor_100R R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_100R" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RC0603FR-07100RL" 400 -150 50 H I C CNN "MPN"
-F5 "100" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_100k
-#
-DEF Blower_Driver_Components_Resistor_100k R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_100k" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RR0816P-104-D" 400 -150 50 H I C CNN "MPN"
-F5 "100k" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_10R
-#
-DEF Blower_Driver_Components_Resistor_10R R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_10R" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RC0603FR-0710RL" 400 -150 50 H I C CNN "MPN"
-F5 "10" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_10k
-#
-DEF Blower_Driver_Components_Resistor_10k R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_10k" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RC0603JR-0710KL" 400 -150 50 H I C CNN "MPN"
-F5 "10k" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_1k
-#
-DEF Blower_Driver_Components_Resistor_1k R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_1k" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RC0603JR-071KL" 400 -150 50 H I C CNN "MPN"
-F5 "1k" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_1k_0.5W
-#
-DEF Blower_Driver_Components_Resistor_1k_0.5W R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_1k_0.5W" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_1206" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RNCP1206FTD1K00" 400 -150 50 H I C CNN "MPN"
-F5 "1k" 0 0 50 V V C CNN "Resistance"
-F6 "0.5W" -100 0 50 V V C CNN "Power"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_22k
-#
-DEF Blower_Driver_Components_Resistor_22k R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_22k" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RC0603JR-0722KL" 400 -150 50 H I C CNN "MPN"
-F5 "22k" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_4k7
-#
-DEF Blower_Driver_Components_Resistor_4k7 R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_4k7" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "RR0816P-472-D" 400 -150 50 H I C CNN "MPN"
-F5 "4k7" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_Resistor_680R
-#
-DEF Blower_Driver_Components_Resistor_680R R 0 40 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Blower_Driver_Components_Resistor_680R" 0 450 50 H I C CNN
-F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "CRGCQ0603F680R" 400 -150 50 H I C CNN "MPN"
-F5 "680" 0 0 50 V V C CNN "Resistance"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 -150 50 U 50 50 1 1 P
-X ~ 2 0 150 50 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Blower_Driver_Components_TestPoint
-#
-DEF Blower_Driver_Components_TestPoint PT 0 30 Y N 1 F N
-F0 "PT" -100 50 50 V V C CNN
-F1 "Blower_Driver_Components_TestPoint" 100 50 50 V I C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Net-Tie_2
-#
-DEF Device_Net-Tie_2 NT 0 0 N N 1 F N
-F0 "NT" 0 50 50 H V C CNN
-F1 "Device_Net-Tie_2" 0 -50 50 H V C CNN
+DEF Inductor_Inductor_22uH L 0 40 Y Y 1 F N
+F0 "L" 150 -300 50 H V C CNN
+F1 "Inductor_Inductor_22uH" 0 100 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- Net*Tie*
-$ENDFPLIST
+F4 "10095971" 400 50 50 H I L CNN "Item Number"
+F5 "INDUCTOR 22UH,1.8-2A" 400 -10 50 H I L CNN "Description"
+F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
+F7 "744772220" 400 -130 50 H I L CNN "Manufacturer_No"
 DRAW
-P 2 0 1 10 -50 0 50 0 N
-X 1 1 -100 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
+A 0 -475 25 901 -901 1 1 0 N 0 -450 0 -500
+A 0 -425 25 901 -901 1 1 0 N 0 -400 0 -450
+A 0 -375 25 901 -901 1 1 0 N 0 -350 0 -400
+A 0 -325 25 901 -901 1 1 0 N 0 -300 0 -350
+X ~ 1 0 -550 50 U 50 50 1 1 P
+X ~ 2 0 -250 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -978,6 +897,356 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_100R_1%
+#
+DEF Resistor_R0603_100R_1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistor_R0603_100R_1%" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022552" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,100 OHM,0.063W,+/-1%, 0603" 400 -10 50 H I L CNN "Description"
+F6 "BOURNS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "CR0603-FX-1000ELF" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "SAMSUNG_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RC1608F1000CS" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "TYCO ELECTRONICS" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "CRG0603F100R" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "RC0603FR-07100RL" 400 -490 50 H I L CNN "Manufacturer_No4"
+F14 "YAGEO_RMS1" 400 -550 50 H I L CNN "Manufacturer5"
+F15 "RC0603FR-07100RL" 400 -610 50 H I L CNN "Manufacturer_No5"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_100k_1%_10022549
+#
+DEF Resistor_R0603_100k_1%_10022549 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistor_R0603_100k_1%_10022549" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022549" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,100KOHM,0.063W,+/-1%,0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-07100KL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "BOURNS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CR0603-FX-1003ELF" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "RC0603FR-07100KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_10R_1%
+#
+DEF Resistor_R0603_10R_1% R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R0603_10R_1%" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10095980" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR, 10 OHM,0.063W, +/-1%, 0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-0710RL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RC0603FR-0710RL" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_10k_1%_10095975
+#
+DEF Resistor_R0603_10k_1%_10095975 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R0603_10k_1%_10095975" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10095975" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,10K OHM.0.063W,+/-1%,0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-0710KL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RC0603FR-0710KL" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "BOURNS_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "CR0603-FX-1002ELF" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_1k_1%_10095981
+#
+DEF Resistor_R0603_1k_1%_10095981 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R0603_1k_1%_10095981" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10095981" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR, 1K OHM, 0.063W,+/-1%, 0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-071KL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "BOURNS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CR0603-FX-1001ELF" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_22k_1%_10095983
+#
+DEF Resistor_R0603_22k_1%_10095983 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R0603_22k_1%_10095983" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10095983" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR, 22 K OHM,0.063W, +/-1%,0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-0722KL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "BOURNS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CR0603-FX-2202ELF " 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "RC0603FR-0722KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R0603_680R_1%
+#
+DEF Resistor_R0603_680R_1% R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R0603_680R_1%" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022550" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,680OHM, 0.063W, +/-1%,0603" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-07680RL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "BOURNS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "CR0603-FX-6800ELF " 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "BOURNS_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "CR0603-FX-6800ELF " 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R1206_1k_1%_10095984
+#
+DEF Resistor_R1206_1k_1%_10095984 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R1206_1k_1%_10095984" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_1206" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10095984" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,1 KOHM,0.25W,+/-1%,1206" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC1206FR-071KL" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RC1206FR-071KL" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "BOURNS_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "CR1206-FX-1001ELF" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R2512_100m_5%
+#
+DEF Resistor_R2512_100m_5% R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R2512_100m_5%" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022555" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,0.1 OHM,1W,+/-5%,2512" 400 -10 50 H I L CNN "Description"
+F6 "BOURNS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "CRL2512-JW-R100ELF " 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RL2512JK-070R1L" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "WSL2512R1000JEA" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "VISHAY_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "WSL2512R1000FEA" 400 -490 50 H I L CNN "Manufacturer_No4"
+F14 "YAGEO_RMS1" 400 -550 50 H I L CNN "Manufacturer5"
+F15 "RL2512JK-070R1L" 400 -610 50 H I L CNN "Manufacturer_No5"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R2512_47m_5%
+#
+DEF Resistor_R2512_47m_5% R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R2512_47m_5%" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10022547" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR, 0.047 OHM, 1W, +/-5%,2512" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RL2512JK-070R047L" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RL2512JK-070R047L" 400 -250 50 H I L CNN "Manufacturer_No2"
+F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F11 "WSL2512R0470JEA" 400 -370 50 H I L CNN "Manufacturer_No3"
+F12 "VISHAY_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
+F13 "WSL2512R0470FEA" 400 -490 50 H I L CNN "Manufacturer_No4"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_R_4k7_1%_10095977
+#
+DEF Resistor_R_4k7_1%_10095977 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistor_R_4k7_1%_10095977" 0 450 50 H I C CNN
+F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10095977" 400 50 50 H I L CNN "Item Number"
+F5 "RESISTOR,4.7KOHM,0.063W,+/-1%" 400 -10 50 H I L CNN "Description"
+F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "RC0603FR-074K7L" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "RC0603FR-074K7L" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_MOSFET_NMOS_30V
+#
+DEF Transistor_MOSFET_NMOS_30V Q 0 40 Y N 1 F N
+F0 "Q" 150 -100 50 H V C CNN
+F1 "Transistor_MOSFET_NMOS_30V" 0 500 50 H I C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 50 -650 50 H I C CNN
+F3 "" 0 400 50 H I C CNN
+F4 "10022558" 400 50 50 H I L CNN "Item Number"
+F5 "TRANSISTOR MOSFET, 30V, 0.93A, 0.25 OHM, N CHANNEL" 400 -10 50 H I L CNN "Description"
+F6 "INTERNATIONAL RECTIFIER_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "IRLML2803PBF" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "INTERNATIONAL RECTIFIER_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "IRLML2803TRPBF" 400 -250 50 H I L CNN "Manufacturer_No2"
+DRAW
+C -35 0 110 1 1 10 N
+C 0 -70 10 1 1 0 F
+C 0 70 10 1 1 0 F
+P 2 1 1 0 -90 0 -200 0 N
+P 2 1 1 10 -90 75 -90 -75 N
+P 2 1 1 10 -70 -50 -70 -90 N
+P 2 1 1 10 -70 20 -70 -20 N
+P 2 1 1 10 -70 90 -70 50 N
+P 2 1 1 0 0 100 0 70 N
+P 3 1 1 0 0 -100 0 0 -70 0 N
+P 4 1 1 0 -70 -70 30 -70 30 70 -70 70 N
+P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
+P 4 1 1 0 10 20 15 15 45 15 50 10 N
+P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
+X 3 D 0 200 100 D 50 50 1 1 P
+X 1 G -300 0 100 R 50 50 1 1 I
+X 2 S 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_MOSFET_NMOS_55V_10022559
+#
+DEF Transistor_MOSFET_NMOS_55V_10022559 Q 0 40 Y Y 1 F N
+F0 "Q" 150 -100 50 H V C CNN
+F1 "Transistor_MOSFET_NMOS_55V_10022559" 0 500 50 H I C CNN
+F2 "TO_SOT_Packages_SMD:TO-252-2" 50 -650 50 H I C CNN
+F3 "" 0 400 50 H I C CNN
+F4 "10022559" 400 50 50 H I L CNN "Item Number"
+F5 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" 400 -10 50 H I L CNN "Description"
+F6 "INTERNATIONAL RECTIFIER_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "IRFR024NTRPBF" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+C -35 0 110 1 1 10 N
+C 0 -70 10 1 1 0 F
+C 0 70 10 1 1 0 F
+P 2 1 1 0 -90 0 -200 0 N
+P 2 1 1 10 -90 75 -90 -75 N
+P 2 1 1 10 -70 -50 -70 -90 N
+P 2 1 1 10 -70 20 -70 -20 N
+P 2 1 1 10 -70 90 -70 50 N
+P 2 1 1 0 0 100 0 70 N
+P 3 1 1 0 0 -100 0 0 -70 0 N
+P 4 1 1 0 -70 -70 30 -70 30 70 -70 70 N
+P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
+P 4 1 1 0 10 20 15 15 45 15 50 10 N
+P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
+X ~ D 0 200 100 D 50 50 1 1 P
+X ~ G -300 0 100 R 50 50 1 1 I
+X ~ S 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_MOSFET_PMOS_60V
+#
+DEF Transistor_MOSFET_PMOS_60V Q 0 40 Y Y 1 F N
+F0 "Q" 150 -50 50 H V C CNN
+F1 "Transistor_MOSFET_PMOS_60V" 0 500 50 H I C CNN
+F2 "TO_SOT_Packages_SMD:TO-252-2" 0 -550 50 H I C CNN
+F3 "" 0 500 50 H I C CNN
+F4 "10095972" 400 50 50 H I L CNN "Item Number"
+F5 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" 400 -10 50 H I L CNN "Description"
+F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "SUD50P06-15L-E3" 400 -130 50 H I L CNN "Manufacturer_No"
+DRAW
+C -35 0 110 1 1 10 N
+C 0 -70 10 1 1 0 F
+C 0 70 10 1 1 0 F
+P 2 1 1 0 -90 0 -200 0 N
+P 2 1 1 10 -90 75 -90 -75 N
+P 2 1 1 10 -70 -50 -70 -90 N
+P 2 1 1 10 -70 20 -70 -20 N
+P 2 1 1 10 -70 90 -70 50 N
+P 2 1 1 0 0 100 0 70 N
+P 3 1 1 0 0 -100 0 0 -70 0 N
+P 4 1 1 0 -70 70 30 70 30 -70 -70 -70 N
+P 4 1 1 0 -10 0 -50 15 -50 -15 -10 0 F
+P 4 1 1 0 10 -20 15 -15 45 -15 50 -10 N
+P 4 1 1 0 30 -15 15 10 45 10 30 -15 N
+X ~ D 0 200 100 D 50 50 1 1 P
+X ~ G -300 0 100 R 50 50 1 1 I
+X ~ S 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

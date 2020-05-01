@@ -11,319 +11,300 @@ Info: Change symbol path “C2:” to “/5E9F7083”.
 Info: Processing component “C3:/5E8B40BE:AllModules:C0805_1”.
 Info: Change symbol path “ZT4:” to “/5EBE7451”.
 Info: Change symbol path “C3:” to “/5E8B40BE”.
-Info: Processing component “ZT4:/5EBE7451:AllModules:TO220ABGDS-INV_COUCHE_1”.
-Info: Change symbol path “ZT3:” to “/5EBE4DD4”.
 Info: Processing component “C4:/5E8CAF53:AllModules:C7343_1”.
-Info: Processing component “ZT3:/5EBE4DD4:AllModules:TO220ABGDS-INV_COUCHE_1”.
+Info: Processing component “ZT4:/5EBE7451:AllModules:TO220ABGDS-INV_COUCHE_1”.
 Info: Change symbol path “C4:” to “/5E8CAF53”.
+Info: Change symbol path “ZT3:” to “/5EBE4DD4”.
+Info: Processing component “ZT3:/5EBE4DD4:AllModules:TO220ABGDS-INV_COUCHE_1”.
 Info: Change symbol path “ZT2:” to “/5EBE16FA”.
 Info: Processing component “ZT2:/5EBE16FA:AllModules:TO220ABGDS-INV_COUCHE_1”.
-Info: Change symbol path “ZM4:” to “/5EBA598C”.
-Info: Processing component “ZM4:/5EBA598C:AllModules:FIX35M_1”.
 Info: Processing component “C5:/5E8B4F7B:AllModules:C0805_1”.
-Info: Change symbol path “ZM3:” to “/5EBA68DE”.
+Info: Change symbol path “ZM4:” to “/5EBA598C”.
 Info: Change symbol path “C5:” to “/5E8B4F7B”.
+Info: Processing component “C6:/5E9F47F2:AllModules:C0805_1”.
+Info: Processing component “ZM4:/5EBA598C:AllModules:FIX35M_1”.
+Info: Change symbol path “C6:” to “/5E9F47F2”.
+Info: Processing component “C7:/5E9F27DF:AllModules:C0603_1”.
+Info: Change symbol path “ZM3:” to “/5EBA68DE”.
+Info: Change symbol path “C7:” to “/5E9F27DF”.
 Info: Processing component “ZM3:/5EBA68DE:AllModules:FIX35M_1”.
 Info: Change symbol path “ZM2:” to “/5EBA76E3”.
-Info: Processing component “C6:/5E9F47F2:AllModules:C0805_1”.
+Info: Processing component “C8:/5E9F36D7:AllModules:C0603_1”.
 Info: Processing component “ZM2:/5EBA76E3:AllModules:FIX35M_1”.
-Info: Change symbol path “C6:” to “/5E9F47F2”.
+Info: Change symbol path “C8:” to “/5E9F36D7”.
 Info: Change symbol path “ZM1:” to “/5EBA76DD”.
 Info: Processing component “ZM1:/5EBA76DD:AllModules:FIX35M_1”.
-Info: Processing component “C7:/5E9F27DF:AllModules:C0603_1”.
+Info: Processing component “C9:/5E8E8D6C:AllModules:C0805_1”.
 Info: Change symbol path “ZC27:” to “/5EBA8772”.
-Info: Change symbol path “C7:” to “/5E9F27DF”.
+Info: Change symbol path “C9:” to “/5E8E8D6C”.
+Info: Processing component “C10:/5E8EB4D4:AllModules:RC1206_1”.
 Info: Processing component “ZC27:/5EBA8772:AllModules:C-SC10_1”.
+Info: Change symbol path “C10:” to “/5E8EB4D4”.
 Info: Change symbol path “ZC2:” to “/5EADE2C2”.
-Info: Processing component “C8:/5E9F36D7:AllModules:C0603_1”.
 Info: Processing component “ZC2:/5EADE2C2:AllModules:C-SC8_1”.
-Info: Change symbol path “C8:” to “/5E9F36D7”.
 Info: Change symbol path “TH6:” to “/5EAC8D4F”.
 Info: Processing component “TH6:/5EAC8D4F:AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask”.
+Info: Processing component “C11:/5E8F1482:AllModules:C0603_1”.
 Info: Change symbol path “TH5:” to “/5EAC8D45”.
-Info: Processing component “C9:/5E8E8D6C:AllModules:C0805_1”.
+Info: Change symbol path “C11:” to “/5E8F1482”.
 Info: Processing component “TH5:/5EAC8D45:AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask”.
-Info: Change symbol path “C9:” to “/5E8E8D6C”.
 Info: Change symbol path “TH4:” to “/5EA021D7”.
 Info: Processing component “TH4:/5EA021D7:AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask”.
-Info: Processing component “C10:/5E8EB4D4:AllModules:RC1206_1”.
 Info: Change symbol path “TH3:” to “/5EA021CD”.
-Info: Change symbol path “C10:” to “/5E8EB4D4”.
+Info: Processing component “C12:/5E993A1A:AllModules:C0805_1”.
 Info: Processing component “TH3:/5EA021CD:AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask”.
+Info: Change symbol path “C12:” to “/5E993A1A”.
+Info: Processing component “C13:/5E993A32:AllModules:RC1206_1”.
 Info: Change symbol path “TH2:” to “/5E9C0F88”.
+Info: Change symbol path “C13:” to “/5E993A32”.
 Info: Processing component “TH2:/5E9C0F88:AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask”.
 Info: Change symbol path “TH1:” to “/5E9B8648”.
-Info: Processing component “C11:/5E8F1482:AllModules:C0603_1”.
 Info: Processing component “TH1:/5E9B8648:AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask”.
-Info: Change symbol path “C11:” to “/5E8F1482”.
 Info: Change symbol path “T10:” to “/5E8C6B0F”.
+Info: Processing component “C14:/5E993A52:AllModules:C0603_1”.
 Info: Processing component “T10:/5E8C6B0F:AllModules:SOT23-GSD_1”.
+Info: Change symbol path “C14:” to “/5E993A52”.
 Info: Change symbol path “T9:” to “/5E8C7C12”.
 Info: Processing component “T9:/5E8C7C12:AllModules:DPAK-GDS_1”.
-Info: Processing component “C12:/5E993A1A:AllModules:C0805_1”.
 Info: Change symbol path “T8:” to “/5EBD377C”.
-Info: Change symbol path “C12:” to “/5E993A1A”.
 Info: Processing component “T8:/5EBD377C:AllModules:SOT23-GSD_1”.
+Info: Processing component “C15:/5E9B3245:AllModules:C0805_1”.
 Info: Change symbol path “T7:” to “/5E9B329B”.
-Info: Processing component “C13:/5E993A32:AllModules:RC1206_1”.
+Info: Change symbol path “C15:” to “/5E9B3245”.
+Info: Processing component “C16:/5E9B325D:AllModules:RC1206_1”.
 Info: Processing component “T7:/5E9B329B:AllModules:DPAK-GDS_1”.
-Info: Change symbol path “C13:” to “/5E993A32”.
+Info: Change symbol path “C16:” to “/5E9B325D”.
 Info: Change symbol path “T6:” to “/5E9B3294”.
 Info: Processing component “T6:/5E9B3294:AllModules:DPAK-GDS_1”.
 Info: Change symbol path “T5:” to “/5E993A70”.
 Info: Processing component “T5:/5E993A70:AllModules:DPAK-GDS_1”.
-Info: Processing component “C14:/5E993A52:AllModules:C0603_1”.
+Info: Processing component “C17:/5E9B327D:AllModules:C0603_1”.
 Info: Change symbol path “T4:” to “/5E993A69”.
-Info: Change symbol path “C14:” to “/5E993A52”.
+Info: Change symbol path “C17:” to “/5E9B327D”.
 Info: Processing component “T4:/5E993A69:AllModules:DPAK-GDS_1”.
 Info: Change symbol path “T3:” to “/5E8F4816”.
 Info: Processing component “T3:/5E8F4816:AllModules:DPAK-GDS_1”.
 Info: Change symbol path “T2:” to “/5E8F3837”.
-Info: Processing component “C15:/5E9B3245:AllModules:C0805_1”.
+Info: Processing component “C18:/5EBF7978:AllModules:C0805_1”.
 Info: Processing component “T2:/5E8F3837:AllModules:DPAK-GDS_1”.
-Info: Change symbol path “C15:” to “/5E9B3245”.
+Info: Change symbol path “C18:” to “/5EBF7978”.
 Info: Change symbol path “T1:” to “/5EBD2ACD”.
 Info: Processing component “T1:/5EBD2ACD:AllModules:SOT23-GSD_1”.
-Info: Processing component “C16:/5E9B325D:AllModules:RC1206_1”.
+Info: Processing component “C19:/5EC09FBF:AllModules:C0805_1”.
 Info: Change symbol path “R60:” to “/5E9B323C”.
-Info: Change symbol path “C16:” to “/5E9B325D”.
+Info: Change symbol path “C19:” to “/5EC09FBF”.
+Info: Processing component “C20:/5EBD139E:AllModules:C0603_1”.
 Info: Processing component “R60:/5E9B323C:AllModules:RC1206_1”.
+Info: Change symbol path “C20:” to “/5EBD139E”.
 Info: Change symbol path “R59:” to “/5E993A11”.
 Info: Processing component “R59:/5E993A11:AllModules:RC1206_1”.
+Info: Processing component “C21:/5EB27884:AllModules:C0805_1”.
 Info: Change symbol path “R58:” to “/5E8E7D88”.
-Info: Processing component “C17:/5E9B327D:AllModules:C0603_1”.
+Info: Change symbol path “C21:” to “/5EB27884”.
 Info: Processing component “R58:/5E8E7D88:AllModules:RC1206_1”.
-Info: Change symbol path “C17:” to “/5E9B327D”.
 Info: Change symbol path “R50:” to “/5E9E5F8B”.
 Info: Processing component “R50:/5E9E5F8B:AllModules:R0603_1”.
 Info: Change symbol path “R42:” to “/5EBF5DBD”.
+Info: Processing component “C22:/5F1C5F64:AllModules:C0612-4_1”.
 Info: Processing component “R42:/5EBF5DBD:AllModules:R0603_1”.
-Info: Processing component “C18:/5EBF7978:AllModules:C0805_1”.
+Info: Change symbol path “C22:” to “/5F1C5F64”.
 Info: Change symbol path “R41:” to “/5EBF4DC7”.
-Info: Change symbol path “C18:” to “/5EBF7978”.
 Info: Processing component “R41:/5EBF4DC7:AllModules:R0603_1”.
 Info: Change symbol path “R40:” to “/5EB39174”.
-Info: Processing component “C19:/5EC09FBF:AllModules:C0805_1”.
 Info: Processing component “R40:/5EB39174:AllModules:R2512_1”.
-Info: Change symbol path “C19:” to “/5EC09FBF”.
 Info: Change symbol path “R39:” to “/5EB2A25A”.
 Info: Processing component “R39:/5EB2A25A:AllModules:R0603_1”.
-Info: Processing component “C20:/5EBD139E:AllModules:C0603_1”.
 Info: Change symbol path “R38:” to “/5EB28A87”.
-Info: Change symbol path “C20:” to “/5EBD139E”.
 Info: Processing component “R38:/5EB28A87:AllModules:R0603_1”.
+Info: Processing component “C23:/5F1C7F59:AllModules:C0612-4_1”.
 Info: Change symbol path “R37:” to “/5E9E6EFC”.
+Info: Change symbol path “C23:” to “/5F1C7F59”.
 Info: Processing component “R37:/5E9E6EFC:AllModules:R0603_1”.
-Info: Processing component “C21:/5EB27884:AllModules:C0805_1”.
 Info: Change symbol path “R35:” to “/5E8F2E44”.
-Info: Change symbol path “C21:” to “/5EB27884”.
 Info: Processing component “R35:/5E8F2E44:AllModules:R0603_1”.
 Info: Change symbol path “R33:” to “/5E993AC1”.
 Info: Processing component “R33:/5E993AC1:AllModules:R0603_1”.
 Info: Change symbol path “R32:” to “/5E993A62”.
-Info: Processing component “C22:/5F1C5F64:AllModules:C0612-4_1”.
 Info: Processing component “R32:/5E993A62:AllModules:R0603_1”.
-Info: Change symbol path “C22:” to “/5F1C5F64”.
 Info: Change symbol path “R31:” to “/5E92B6DC”.
+Info: Processing component “C24:/5EFDED78:AllModules:C0805_1”.
 Info: Processing component “R31:/5E92B6DC:AllModules:R0603_1”.
+Info: Change symbol path “C24:” to “/5EFDED78”.
 Info: Change symbol path “R30:” to “/5E9B32EC”.
 Info: Processing component “R30:/5E9B32EC:AllModules:R0603_1”.
+Info: Processing component “C25:/5EF9C4B0:AllModules:C0805_1”.
 Info: Change symbol path “R20:” to “/5E9B328D”.
+Info: Change symbol path “C25:” to “/5EF9C4B0”.
 Info: Processing component “R20:/5E9B328D:AllModules:R0603_1”.
 Info: Change symbol path “R13:” to “/5E9B3254”.
-Info: Processing component “R13:/5E9B3254:AllModules:R0603_1”.
-Info: Processing component “C23:/5F1C7F59:AllModules:C0612-4_1”.
-Info: Change symbol path “R12:” to “/5E993A29”.
-Info: Change symbol path “C23:” to “/5F1C7F59”.
-Info: Processing component “R12:/5E993A29:AllModules:R0603_1”.
-Info: Change symbol path “R11:” to “/5E8EA856”.
-Info: Processing component “R11:/5E8EA856:AllModules:R0603_1”.
-Info: Change symbol path “R10:” to “/5E9B3285”.
-Info: Processing component “R10:/5E9B3285:AllModules:R0603_1”.
-Info: Change symbol path “R9:” to “/5E993A5A”.
-Info: Processing component “R9:/5E993A5A:AllModules:R0603_1”.
-Info: Change symbol path “R8:” to “/5EF45F0E”.
-Info: Processing component “C24:/5EFDED78:AllModules:C0805_1”.
-Info: Processing component “R8:/5EF45F0E:AllModules:R0603_1”.
-Info: Change symbol path “C24:” to “/5EFDED78”.
-Info: Change symbol path “R7:” to “/5EBF6A47”.
-Info: Processing component “R7:/5EBF6A47:AllModules:R0603_1”.
-Info: Change symbol path “R6:” to “/5E8F23EF”.
-Info: Processing component “C25:/5EF9C4B0:AllModules:C0805_1”.
-Info: Processing component “R6:/5E8F23EF:AllModules:R0603_1”.
-Info: Change symbol path “C25:” to “/5EF9C4B0”.
-Info: Change symbol path “R5:” to “/5EECAE20”.
-Info: Processing component “R5:/5EECAE20:AllModules:R0603_1”.
-Info: Change symbol path “R4:” to “/5E8C9673”.
 Info: Processing component “C26:/5ED560B6:AllModules:C0805_1”.
-Info: Processing component “R4:/5E8C9673:AllModules:R0603_1”.
+Info: Processing component “R13:/5E9B3254:AllModules:R0603_1”.
 Info: Change symbol path “C26:” to “/5ED560B6”.
-Info: Change symbol path “R3:” to “/5E8CAA5A”.
-Info: Processing component “R3:/5E8CAA5A:AllModules:R0603_1”.
-Info: Change symbol path “R2:” to “/5EBF898D”.
+Info: Change symbol path “R12:” to “/5E993A29”.
+Info: Processing component “R12:/5E993A29:AllModules:R0603_1”.
 Info: Processing component “C27:/5E8B327E:AllModules:03515_1”.
-Info: Processing component “R2:/5EBF898D:AllModules:R0603_1”.
+Info: Change symbol path “R11:” to “/5E8EA856”.
 Info: Change symbol path “C27:” to “/5E8B327E”.
 Info: Processing component “C28:/60BCDCF3:AllModules:HT-13X27_1”.
-Info: Change symbol path “R1:” to “/5EB3A530”.
+Info: Processing component “R11:/5E8EA856:AllModules:R0603_1”.
 Info: Change symbol path “C28:” to “/60BCDCF3”.
-Info: Processing component “R1:/5EB3A530:AllModules:R2512_1”.
-Info: Processing component “NT1:/610001F3:NetTie:NetTie-2_SMD_Pad0.5mm”.
+Info: Change symbol path “R10:” to “/5E9B3285”.
+Info: Processing component “R10:/5E9B3285:AllModules:R0603_1”.
 Info: Processing component “C29:/60BCF93A:AllModules:HT-13X27_1”.
-Info: Change symbol path “MIR4:” to “/5EC73C69”.
+Info: Change symbol path “R9:” to “/5E993A5A”.
 Info: Change symbol path “C29:” to “/60BCF93A”.
+Info: Processing component “R9:/5E993A5A:AllModules:R0603_1”.
+Info: Change symbol path “R8:” to “/5EF45F0E”.
+Info: Processing component “D1:/5E8C1E3C:AllModules:SMB_1”.
+Info: Processing component “R8:/5EF45F0E:AllModules:R0603_1”.
+Info: Change symbol path “D1:” to “/5E8C1E3C”.
+Info: Change symbol path “R7:” to “/5EBF6A47”.
+Info: Processing component “R7:/5EBF6A47:AllModules:R0603_1”.
+Info: Processing component “D2:/5E8E99C9:AllModules:SOD323_1”.
+Info: Change symbol path “R6:” to “/5E8F23EF”.
+Info: Change symbol path “D2:” to “/5E8E99C9”.
+Info: Processing component “R6:/5E8F23EF:AllModules:R0603_1”.
+Info: Change symbol path “R5:” to “/5EECAE20”.
+Info: Processing component “D3:/5E993A21:AllModules:SOD323_1”.
+Info: Processing component “R5:/5EECAE20:AllModules:R0603_1”.
+Info: Change symbol path “D3:” to “/5E993A21”.
+Info: Change symbol path “R4:” to “/5E8C9673”.
+Info: Processing component “R4:/5E8C9673:AllModules:R0603_1”.
+Info: Processing component “D4:/5E9B324C:AllModules:SOD323_1”.
+Info: Change symbol path “R3:” to “/5E8CAA5A”.
+Info: Change symbol path “D4:” to “/5E9B324C”.
+Info: Processing component “R3:/5E8CAA5A:AllModules:R0603_1”.
+Info: Change symbol path “R2:” to “/5EBF898D”.
+Info: Processing component “D5:/5E92D7F7:AllModules:SOD323_1”.
+Info: Processing component “R2:/5EBF898D:AllModules:R0603_1”.
+Info: Change symbol path “D5:” to “/5E92D7F7”.
+Info: Change symbol path “R1:” to “/5EB3A530”.
+Info: Processing component “R1:/5EB3A530:AllModules:R2512_1”.
+Info: Processing component “D6:/5E993AC8:AllModules:SOD323_1”.
+Info: Change symbol path “PT1:” to “/5F9A5244”.
+Info: Change symbol path “D6:” to “/5E993AC8”.
+Info: Processing component “PT1:/5F9A5244:AllModules:C12000_1”.
+Info: Processing component “NT1:/610001F3:NetTie:NetTie-2_SMD_Pad0.5mm”.
+Info: Processing component “D7:/5E9B32F3:AllModules:SOD323_1”.
+Info: Change symbol path “MIR4:” to “/5EC73C69”.
+Info: Change symbol path “D7:” to “/5E9B32F3”.
 Info: Processing component “MIR4:/5EC73C69:AllModules:MIRECMS-SAFT_1”.
 Info: Change symbol path “MIR3:” to “/5EC73A94”.
-Info: Processing component “D1:/5E8C1E3C:AllModules:SMB_1”.
+Info: Processing component “D8:/5E8EC640:AllModules:SMA_1”.
 Info: Processing component “MIR3:/5EC73A94:AllModules:MIRECMS-SAFT_1”.
-Info: Change symbol path “D1:” to “/5E8C1E3C”.
+Info: Change symbol path “D8:” to “/5E8EC640”.
 Info: Change symbol path “MIR2:” to “/5EC73F8D”.
 Info: Processing component “MIR2:/5EC73F8D:AllModules:MIRECMS-SAFT_1”.
-Info: Processing component “D2:/5E8E99C9:AllModules:SOD323_1”.
+Info: Processing component “D9:/5E993A3A:AllModules:SMA_1”.
 Info: Change symbol path “MIR1:” to “/5EC71D6D”.
-Info: Change symbol path “D2:” to “/5E8E99C9”.
+Info: Change symbol path “D9:” to “/5E993A3A”.
 Info: Processing component “MIR1:/5EC71D6D:AllModules:MIRECMS-SAFT_1”.
 Info: Change symbol path “L1:” to “/5FC5CE2F”.
-Info: Processing component “D3:/5E993A21:AllModules:SOD323_1”.
+Info: Processing component “D10:/5E9B3265:AllModules:SMA_1”.
 Info: Processing component “L1:/5FC5CE2F:AllModules:ELC09DxxxxF_NoCopper_1”.
-Info: Change symbol path “D3:” to “/5E993A21”.
+Info: Change symbol path “D10:” to “/5E9B3265”.
 Info: Change symbol path “J22:” to “/601E1979”.
 Info: Processing component “J22:/601E1979:AllModules:MOL7395-9_1”.
-Info: Processing component “D4:/5E9B324C:AllModules:SOD323_1”.
+Info: Processing component “D11:/5E8ED873:AllModules:SOD80_1”.
 Info: Change symbol path “J11:” to “/5FD2E324”.
-Info: Change symbol path “D4:” to “/5E9B324C”.
+Info: Change symbol path “D11:” to “/5E8ED873”.
 Info: Processing component “J11:/5FD2E324:AllModules:MOL5566-2_1”.
 Info: Change symbol path “J6:” to “/5FF3C397”.
-Info: Processing component “D5:/5E92D7F7:AllModules:SOD323_1”.
+Info: Processing component “D12:/5E993A42:AllModules:SOD80_1”.
 Info: Processing component “J6:/5FF3C397:AllModules:MOL7395-8_1”.
-Info: Change symbol path “D5:” to “/5E92D7F7”.
+Info: Change symbol path “D12:” to “/5E993A42”.
 Info: Change symbol path “J4:” to “/5FC8B115”.
 Info: Processing component “J4:/5FC8B115:AllModules:JUMPER2_NoCopper_1”.
-Info: Processing component “D6:/5E993AC8:AllModules:SOD323_1”.
+Info: Processing component “D13:/5E9B326D:AllModules:SOD80_1”.
 Info: Change symbol path “J3:” to “/5FF3C39E”.
-Info: Change symbol path “D6:” to “/5E993AC8”.
+Info: Change symbol path “D13:” to “/5E9B326D”.
 Info: Processing component “J3:/5FF3C39E:AllModules:MOL7395-2_1”.
 Info: Change symbol path “J2:” to “/601AF9B5”.
-Info: Processing component “D7:/5E9B32F3:AllModules:SOD323_1”.
+Info: Processing component “D14:/5E8EE954:AllModules:SOT23-1G_1”.
 Info: Processing component “J2:/601AF9B5:AllModules:BP2X5D_1”.
-Info: Change symbol path “D7:” to “/5E9B32F3”.
+Info: Change symbol path “D14:” to “/5E8EE954”.
 Info: Change symbol path “J1:” to “/5FD03D04”.
 Info: Processing component “J1:/5FD03D04:AllModules:MOL43650-02C_1”.
-Info: Processing component “D8:/5E8EC640:AllModules:SMA_1”.
 Info: Change symbol path “IC6:” to “/5E8B9087”.
-Info: Change symbol path “D8:” to “/5E8EC640”.
 Info: Processing component “IC6:/5E8B9087:AllModules:DPAK_1b”.
 Info: Change symbol path “IC5:” to “/5E9B3233”.
-Info: Processing component “D9:/5E993A3A:AllModules:SMA_1”.
 Info: Processing component “IC5:/5E9B3233:AllModules:MX.A8_COMPOSANT_1”.
-Info: Change symbol path “D9:” to “/5E993A3A”.
+Info: Processing component “D15:/5E993A49:AllModules:SOT23-1G_1”.
 Info: Change symbol path “IC4:” to “/5E993A08”.
+Info: Change symbol path “D15:” to “/5E993A49”.
 Info: Processing component “IC4:/5E993A08:AllModules:MX.A8_COMPOSANT_1”.
-Info: Processing component “D10:/5E9B3265:AllModules:SMA_1”.
 Info: Change symbol path “IC3:” to “/5E8B8037”.
-Info: Change symbol path “D10:” to “/5E9B3265”.
 Info: Processing component “IC3:/5E8B8037:AllModules:MX.A8_COMPOSANT_1”.
 Info: Change symbol path “IC2:” to “/5E8BB7EA”.
-Info: Processing component “D11:/5E8ED873:AllModules:SOD80_1”.
 Info: Processing component “IC2:/5E8BB7EA:AllModules:MX.A8_COMPOSANT_1”.
-Info: Change symbol path “D11:” to “/5E8ED873”.
 Info: Change symbol path “IC1:” to “/5E8B9CB5”.
+Info: Processing component “D16:/5E9B3274:AllModules:SOT23-1G_1”.
 Info: Processing component “IC1:/5E8B9CB5:AllModules:MX.A24_COMPOSANT_1”.
-Info: Processing component “D12:/5E993A42:AllModules:SOD80_1”.
+Info: Change symbol path “D16:” to “/5E9B3274”.
 Info: Change symbol path “FI9:” to “/5F084E38”.
-Info: Change symbol path “D12:” to “/5E993A42”.
 Info: Processing component “FI9:/5F084E38:AllModules:C0603_1”.
 Info: Change symbol path “FI8:” to “/5F084E31”.
-Info: Processing component “D13:/5E9B326D:AllModules:SOD80_1”.
 Info: Processing component “FI8:/5F084E31:AllModules:C0603_1”.
-Info: Change symbol path “D13:” to “/5E9B326D”.
 Info: Change symbol path “FI7:” to “/5F084E2A”.
 Info: Processing component “FI7:/5F084E2A:AllModules:C0603_1”.
-Info: Processing component “D14:/5E8EE954:AllModules:SOT23-1G_1”.
+Info: Processing component “D17:/5E8C0E3D:AllModules:DPAK-2ANODES_1”.
 Info: Change symbol path “FI6:” to “/5F068C98”.
-Info: Change symbol path “D14:” to “/5E8EE954”.
+Info: Change symbol path “D17:” to “/5E8C0E3D”.
 Info: Processing component “FI6:/5F068C98:AllModules:C0603_1”.
 Info: Change symbol path “FI5:” to “/5F036A2D”.
 Info: Processing component “FI5:/5F036A2D:AllModules:C0603_1”.
 Info: Change symbol path “FI4:” to “/5F01DB0A”.
+Info: Processing component “D18:/5E8F5E16:AllModules:SMB_1”.
 Info: Processing component “FI4:/5F01DB0A:AllModules:C0603_1”.
+Info: Change symbol path “D18:” to “/5E8F5E16”.
 Info: Change symbol path “FI3:” to “/5F01CB9C”.
-Info: Processing component “D15:/5E993A49:AllModules:SOT23-1G_1”.
 Info: Processing component “FI3:/5F01CB9C:AllModules:C0603_1”.
-Info: Change symbol path “D15:” to “/5E993A49”.
+Info: Processing component “D19:/5E8F69AD:AllModules:SMB_1”.
 Info: Change symbol path “FI1:” to “/5FB69A1D”.
+Info: Change symbol path “D19:” to “/5E8F69AD”.
 Info: Processing component “FI1:/5FB69A1D:AllModules:BNX002_1”.
 Info: Change symbol path “F1:” to “/5FB97B0C”.
+Info: Processing component “D20:/5E993A78:AllModules:SMB_1”.
 Info: Processing component “F1:/5FB97B0C:AllModules:FU154000_1”.
+Info: Change symbol path “D20:” to “/5E993A78”.
 Info: Change symbol path “D24:” to “/5E8C5131”.
 Info: Processing component “D24:/5E8C5131:AllModules:SOT23-1G_1”.
-Info: Processing component “D16:/5E9B3274:AllModules:SOT23-1G_1”.
+Info: Processing component “D21:/5E993A80:AllModules:SMB_1”.
 Info: Change symbol path “D23:” to “/5E9B32AB”.
-Info: Change symbol path “D16:” to “/5E9B3274”.
+Info: Change symbol path “D21:” to “/5E993A80”.
 Info: Processing component “D23:/5E9B32AB:AllModules:SMB_1”.
 Info: Change symbol path “D22:” to “/5E9B32A3”.
 Info: Processing component “D22:/5E9B32A3:AllModules:SMB_1”.
-Info: Change symbol path “D21:” to “/5E993A80”.
-Info: Processing component “D21:/5E993A80:AllModules:SMB_1”.
-Info: Change symbol path “D20:” to “/5E993A78”.
-Info: Processing component “D17:/5E8C0E3D:AllModules:DPAK-2ANODES_1”.
-Info: Processing component “D20:/5E993A78:AllModules:SMB_1”.
-Info: Change symbol path “D17:” to “/5E8C0E3D”.
-Info: Change symbol path “D19:” to “/5E8F69AD”.
-Info: Processing component “D19:/5E8F69AD:AllModules:SMB_1”.
-Info: Change symbol path “D18:” to “/5E8F5E16”.
-Info: Processing component “D18:/5E8F5E16:AllModules:SMB_1”.
-Reconnect D17 pin A2 from N9 to Net-(D17-PadA1).
-Change D18 value from D-BC-SMB to DiodeZener_30V.
-Add net Net-(D17-PadA1).
-Disconnect D18 pin A.
-Disconnect D18 pin K.
-Reconnect D17 pin A1 from N9 to Net-(D17-PadA1).
-Change D19 value from D-BC-SMB to DiodeZener_30V.
-Add net Net-(D17-PadA1).
-Disconnect D19 pin A.
-Disconnect D19 pin K.
-Change D17 value from D-BC-DPAK-2ANODES to DiodeSchottkyParallelPair.
-Change D20 value from D-BC-SMB to DiodeZener_30V.
-Reconnect D16 pin 3 from N48 to Net-(C17-Pad2).
-Disconnect D20 pin A.
-Disconnect D20 pin K.
-Add net Net-(C17-Pad2).
-Change D21 value from D-BC-SMB to DiodeZener_30V.
-Reconnect D16 pin 2 from N45 to Net-(C16-Pad2).
-Disconnect D21 pin A.
-Disconnect D21 pin K.
-Add net Net-(C16-Pad2).
 Change D22 value from D-BC-SMB to DiodeZener_30V.
-Reconnect D16 pin 1 from N38 to /PHA1.
+Disconnect D21 pin K.
 Disconnect D22 pin A.
 Disconnect D22 pin K.
-Add net /PHA1.
+Disconnect D21 pin A.
 Change D23 value from D-BC-SMB to DiodeZener_30V.
-Change D16 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
+Change D21 value from D-BC-SMB to DiodeZener_30V.
 Disconnect D23 pin A.
 Disconnect D23 pin K.
-Reconnect D15 pin 3 from N64 to Net-(C14-Pad2).
+Disconnect D20 pin K.
 Change D24 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
-Add net Net-(C14-Pad2).
+Disconnect D20 pin A.
 Add net GNDPWR.
 Reconnect D24 pin 1 from GND-PUIS to GNDPWR.
 Add net Net-(D24-Pad2).
 Connect D24 pin 2 to Net-(D24-Pad2).
 Add net Net-(C4-Pad-).
 Reconnect D24 pin 3 from N10 to Net-(C4-Pad-).
-Reconnect D15 pin 2 from N59 to Net-(C13-Pad2).
+Change D20 value from D-BC-SMB to DiodeZener_30V.
 Change F1 value from FU-BC-154000 to Fuse_5A.
-Add net Net-(C13-Pad2).
+Disconnect D19 pin K.
 Add net Net-(F1-Pad1).
 Reconnect F1 pin 1 from N31 to Net-(F1-Pad1).
 Add net Net-(C4-Pad+).
 Reconnect F1 pin 2 from N1 to Net-(C4-Pad+).
-Reconnect D15 pin 1 from N43 to /PHA2.
+Disconnect D19 pin A.
 Change FI1 value from FL-10-BNX002-01 to DNP.
-Add net /PHA2.
-Add net Net-(C1-Pad1).
-Reconnect FI1 pin B from N6 to Net-(C1-Pad1).
+Change D19 value from D-BC-SMB to DiodeZener_30V.
+Add net Net-(C1-Pad2).
+Reconnect FI1 pin B from N6 to Net-(C1-Pad2).
 Add net Net-(F1-Pad1).
 Reconnect FI1 pin CB from N31 to Net-(F1-Pad1).
 Add net GNDPWR.
@@ -332,60 +313,60 @@ Add net GNDPWR.
 Reconnect FI1 pin CG2 from GND-PUIS to GNDPWR.
 Add net GNDPWR.
 Reconnect FI1 pin CG3 from GND-PUIS to GNDPWR.
-Add net Net-(C1-Pad2).
-Reconnect FI1 pin PSG from N2 to Net-(C1-Pad2).
-Change D15 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
+Add net Net-(C1-Pad1).
+Reconnect FI1 pin PSG from N2 to Net-(C1-Pad1).
+Disconnect D18 pin K.
 Change FI3 value from SF-BC-S0603 to FerriteBead.
-Reconnect D14 pin 3 from N69 to Net-(C11-Pad2).
+Disconnect D18 pin A.
 Add net Net-(C22-Pad1).
 Reconnect FI3 pin 1 from TEMPMEASURE+ to Net-(C22-Pad1).
 Add net /TEMP+.
 Reconnect FI3 pin 2 from TEMP+ to /TEMP+.
-Add net Net-(C11-Pad2).
+Change D18 value from D-BC-SMB to DiodeZener_30V.
 Change FI4 value from SF-BC-S0603 to FerriteBead.
-Reconnect D14 pin 2 from N68 to Net-(C10-Pad2).
+Reconnect D17 pin A2 from N9 to Net-(D17-PadA1).
 Add net Net-(C22-Pad2).
 Reconnect FI4 pin 1 from TEMPMEASURE- to Net-(C22-Pad2).
 Add net /TEMP-.
 Reconnect FI4 pin 2 from TEMP- to /TEMP-.
-Add net Net-(C10-Pad2).
+Add net Net-(D17-PadA1).
 Change FI5 value from SF-BC-S0603 to FerriteBead.
-Reconnect D14 pin 1 from N7 to /PHA3.
+Reconnect D17 pin A1 from N9 to Net-(D17-PadA1).
 Add net Net-(C22-Pad3).
 Reconnect FI5 pin 1 from SPEED-MEASURE to Net-(C22-Pad3).
 Add net Net-(FI5-Pad2).
 Reconnect FI5 pin 2 from N8 to Net-(FI5-Pad2).
-Add net /PHA3.
+Add net Net-(D17-PadA1).
 Change FI6 value from SF-BC-S0603 to FerriteBead.
-Change D14 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
+Change D17 value from D-BC-DPAK-2ANODES to DiodeSchottkyParallelPair.
 Add net Net-(C23-Pad5).
 Reconnect FI6 pin 1 from SPEED-SETPOINT to Net-(C23-Pad5).
 Add net Net-(FI6-Pad2).
 Reconnect FI6 pin 2 from N12 to Net-(FI6-Pad2).
-Disconnect D13 pin K.
+Reconnect D16 pin 3 from N48 to Net-(C17-Pad2).
 Change FI7 value from SF-BC-S0603 to FerriteBead.
-Disconnect D13 pin A.
+Add net Net-(C17-Pad2).
 Add net Net-(C23-Pad6).
 Reconnect FI7 pin 1 from BRAKE_ to Net-(C23-Pad6).
 Add net Net-(FI7-Pad2).
 Reconnect FI7 pin 2 from N14 to Net-(FI7-Pad2).
-Change D13 value from D-BC-SOD80 to DiodeZener_15V.
+Reconnect D16 pin 2 from N45 to Net-(C16-Pad2).
 Change FI8 value from SF-BC-S0603 to FerriteBead.
-Disconnect D12 pin K.
+Add net Net-(C16-Pad2).
 Add net Net-(C23-Pad7).
 Reconnect FI8 pin 1 from FAULT_ to Net-(C23-Pad7).
 Add net Net-(FI8-Pad2).
 Reconnect FI8 pin 2 from N15 to Net-(FI8-Pad2).
-Disconnect D12 pin A.
+Reconnect D16 pin 1 from N38 to /PHA1.
 Change FI9 value from SF-BC-S0603 to FerriteBead.
-Change D12 value from D-BC-SOD80 to DiodeZener_15V.
+Add net /PHA1.
 Add net Net-(C23-Pad8).
 Reconnect FI9 pin 1 from ENABLE to Net-(C23-Pad8).
 Add net /OE.
 Reconnect FI9 pin 2 from OE to /OE.
-Disconnect D11 pin K.
+Change D16 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
 Change IC1 value from L-BC-SO24 to MotorDriver.
-Disconnect D11 pin A.
+Reconnect D15 pin 3 from N64 to Net-(C14-Pad2).
 Add net /TOP-DR-B.
 Reconnect IC1 pin 1 from TOP-DR-B to /TOP-DR-B.
 Add net /TOP-DR-A.
@@ -402,10 +383,10 @@ Add net /OE.
 Reconnect IC1 pin 7 from OE to /OE.
 Add net /V-REF-M.
 Reconnect IC1 pin 8 from V-REF-M to /V-REF-M.
-Add net Net-(C21-Pad1).
-Reconnect IC1 pin 9 from N56 to Net-(C21-Pad1).
-Add net Net-(C20-Pad1).
-Reconnect IC1 pin 10 from N51 to Net-(C20-Pad1).
+Add net Net-(C21-Pad2).
+Reconnect IC1 pin 9 from N56 to Net-(C21-Pad2).
+Add net Net-(C20-Pad2).
+Reconnect IC1 pin 10 from N51 to Net-(C20-Pad2).
 Add net Net-(C18-Pad1).
 Reconnect IC1 pin 11 from N54 to Net-(C18-Pad1).
 Add net Net-(IC1-Pad12).
@@ -414,8 +395,8 @@ Add net Net-(IC1-Pad12).
 Reconnect IC1 pin 13 from N4 to Net-(IC1-Pad12).
 Add net Net-(FI8-Pad2).
 Reconnect IC1 pin 14 from N15 to Net-(FI8-Pad2).
-Add net Net-(C21-Pad2).
-Reconnect IC1 pin 15 from N57 to Net-(C21-Pad2).
+Add net Net-(C21-Pad1).
+Reconnect IC1 pin 15 from N57 to Net-(C21-Pad1).
 Add net /BOT-DR-C.
 Reconnect IC1 pin 19 from BOT-DR-C to /BOT-DR-C.
 Add net /BOT-DR-B.
@@ -426,22 +407,22 @@ Add net Net-(IC1-Pad23).
 Reconnect IC1 pin 23 from N3 to Net-(IC1-Pad23).
 Add net /TOP-DR-C.
 Reconnect IC1 pin 24 from TOP-DR-C to /TOP-DR-C.
-Change D11 value from D-BC-SOD80 to DiodeZener_15V.
+Add net Net-(C14-Pad2).
 Change IC2 value from L-BC-SO08 to NE555D.
-Disconnect D10 pin K.
+Reconnect D15 pin 2 from N59 to Net-(C13-Pad2).
 Add net Net-(C7-Pad2).
 Reconnect IC2 pin 2 from N76 to Net-(C7-Pad2).
 Add net /OSC.
 Reconnect IC2 pin 3 from OSC to /OSC.
-Add net Net-(C8-Pad1).
-Reconnect IC2 pin 5 from N49 to Net-(C8-Pad1).
+Add net Net-(C8-Pad2).
+Reconnect IC2 pin 5 from N49 to Net-(C8-Pad2).
 Add net Net-(C7-Pad2).
 Reconnect IC2 pin 6 from N76 to Net-(C7-Pad2).
 Add net Net-(IC2-Pad7).
 Reconnect IC2 pin 7 from N78 to Net-(IC2-Pad7).
-Disconnect D10 pin A.
+Add net Net-(C13-Pad2).
 Change IC3 value from L-BC-SO08 to HighSideDriver.
-Change D10 value from D-BC-SMA to Diode_200V.
+Reconnect D15 pin 1 from N43 to /PHA2.
 Add net /TOP-DR-C.
 Reconnect IC3 pin 2 from TOP-DR-C to /TOP-DR-C.
 Add net Net-(IC3-Pad4).
@@ -454,9 +435,9 @@ Add net Net-(IC3-Pad7).
 Reconnect IC3 pin 7 from N71 to Net-(IC3-Pad7).
 Add net Net-(C10-Pad2).
 Reconnect IC3 pin 8 from N68 to Net-(C10-Pad2).
-Disconnect D9 pin K.
+Add net /PHA2.
 Change IC4 value from L-BC-SO08 to HighSideDriver.
-Disconnect D9 pin A.
+Change D15 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
 Add net /TOP-DR-B.
 Reconnect IC4 pin 2 from TOP-DR-B to /TOP-DR-B.
 Add net Net-(IC4-Pad4).
@@ -469,9 +450,9 @@ Add net Net-(IC4-Pad7).
 Reconnect IC4 pin 7 from N66 to Net-(IC4-Pad7).
 Add net Net-(C13-Pad2).
 Reconnect IC4 pin 8 from N59 to Net-(C13-Pad2).
-Change D9 value from D-BC-SMA to Diode_200V.
+Reconnect D14 pin 3 from N69 to Net-(C11-Pad2).
 Change IC5 value from L-BC-SO08 to HighSideDriver.
-Disconnect D8 pin K.
+Add net Net-(C11-Pad2).
 Add net /TOP-DR-A.
 Reconnect IC5 pin 2 from TOP-DR-A to /TOP-DR-A.
 Add net Net-(IC5-Pad4).
@@ -484,19 +465,19 @@ Add net Net-(IC5-Pad7).
 Reconnect IC5 pin 7 from N26 to Net-(IC5-Pad7).
 Add net Net-(C16-Pad2).
 Reconnect IC5 pin 8 from N45 to Net-(C16-Pad2).
-Disconnect D8 pin A.
+Reconnect D14 pin 2 from N68 to Net-(C10-Pad2).
 Change IC6 value from REG-BC-DPAK to LinearRegulator.
-Change D8 value from D-BC-SMA to Diode_200V.
-Disconnect D7 pin K.
+Add net Net-(C10-Pad2).
+Reconnect D14 pin 1 from N7 to /PHA3.
 Change J1 value from F-COCMS-MOL43650-0212 to 2pinConnector_Power.
-Disconnect D7 pin A.
-Add net Net-(C1-Pad2).
-Reconnect J1 pin 1 from N2 to Net-(C1-Pad2).
+Add net /PHA3.
 Add net Net-(C1-Pad1).
-Reconnect J1 pin 2 from N6 to Net-(C1-Pad1).
-Change D7 value from D-BC-SOD323 to DiodeSchottky.
+Reconnect J1 pin 1 from N2 to Net-(C1-Pad1).
+Add net Net-(C1-Pad2).
+Reconnect J1 pin 2 from N6 to Net-(C1-Pad2).
+Change D14 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
 Change J2 value from F-CO-HE10-2010D to 10pinConnector.
-Disconnect D6 pin K.
+Disconnect D13 pin K.
 Add net Net-(C23-Pad8).
 Reconnect J2 pin 2 from ENABLE to Net-(C23-Pad8).
 Add net Net-(C23-Pad7).
@@ -515,23 +496,23 @@ Add net Net-(C22-Pad2).
 Reconnect J2 pin 9 from TEMPMEASURE- to Net-(C22-Pad2).
 Add net Net-(C22-Pad1).
 Reconnect J2 pin 10 from TEMPMEASURE+ to Net-(C22-Pad1).
-Disconnect D6 pin A.
+Disconnect D13 pin A.
 Change J3 value from F-CO-MOL7395M02 to 2pinConnector.
-Change D6 value from D-BC-SOD323 to DiodeSchottky.
+Change D13 value from D-BC-SOD80 to DiodeZener_15V.
 Add net /TEMP-.
 Reconnect J3 pin 1 from TEMP- to /TEMP-.
 Add net /TEMP+.
 Reconnect J3 pin 2 from TEMP+ to /TEMP+.
-Disconnect D5 pin K.
+Disconnect D12 pin K.
 Change J4 value from JUMPER2_NoCopper to JumperBypass.
-Disconnect D5 pin A.
-Add net Net-(C1-Pad2).
-Connect J4 pin 1 to Net-(C1-Pad2).
+Disconnect D12 pin A.
+Add net Net-(C1-Pad1).
+Connect J4 pin 1 to Net-(C1-Pad1).
 Add net GNDPWR.
 Connect J4 pin 2 to GNDPWR.
-Change D5 value from D-BC-SOD323 to DiodeSchottky.
+Change D12 value from D-BC-SOD80 to DiodeZener_15V.
 Change J6 value from F-CO-MOL7395M08 to 8pinConnector.
-Disconnect D4 pin K.
+Disconnect D11 pin K.
 Add net /PHA1.
 Reconnect J6 pin 1 from N38 to /PHA1.
 Add net /PHA2.
@@ -546,16 +527,16 @@ Add net /SENSOR2.
 Reconnect J6 pin 7 from SENSOR2 to /SENSOR2.
 Add net /SENSOR3.
 Reconnect J6 pin 8 from SENSOR3 to /SENSOR3.
-Disconnect D4 pin A.
+Disconnect D11 pin A.
 Change J11 value from F-CO-MOL5566-02 to DNP.
-Change D4 value from D-BC-SOD323 to DiodeSchottky.
-Add net Net-(C1-Pad2).
-Reconnect J11 pin 1 from N2 to Net-(C1-Pad2).
+Change D11 value from D-BC-SOD80 to DiodeZener_15V.
 Add net Net-(C1-Pad1).
-Reconnect J11 pin 2 from N6 to Net-(C1-Pad1).
-Disconnect D3 pin K.
+Reconnect J11 pin 1 from N2 to Net-(C1-Pad1).
+Add net Net-(C1-Pad2).
+Reconnect J11 pin 2 from N6 to Net-(C1-Pad2).
+Disconnect D10 pin K.
 Change J22 value from F-CO-MOL7395M09 to DNP.
-Disconnect D3 pin A.
+Disconnect D10 pin A.
 Add net Net-(C23-Pad8).
 Reconnect J22 pin 2 from ENABLE to Net-(C23-Pad8).
 Add net Net-(C23-Pad7).
@@ -572,356 +553,358 @@ Add net Net-(J22-Pad8).
 Connect J22 pin 8 to Net-(J22-Pad8).
 Add net /OE.
 Reconnect J22 pin 9 from OE to /OE.
-Change D3 value from D-BC-SOD323 to DiodeSchottky.
+Change D10 value from D-BC-SMA to Diode_200V.
 Change L1 value from ELC09DxxxxF_NoCopper to Inductor_22uH.
-Disconnect D2 pin K.
+Disconnect D9 pin K.
 Add net Net-(F1-Pad1).
 Connect L1 pin 2 to Net-(F1-Pad1).
-Add net Net-(C1-Pad1).
-Connect L1 pin 1 to Net-(C1-Pad1).
-Disconnect D2 pin A.
+Add net Net-(C1-Pad2).
+Connect L1 pin 1 to Net-(C1-Pad2).
+Disconnect D9 pin A.
 Change MIR1 value from MIRECMS to Fiducial.
-Change D2 value from D-BC-SOD323 to DiodeSchottky.
-Disconnect D1 pin K.
+Change D9 value from D-BC-SMA to Diode_200V.
+Disconnect D8 pin K.
 Change MIR2 value from MIRECMS to Fiducial.
-Disconnect D1 pin A.
-Change D1 value from D-BC-SMB to DiodeZener_30V.
+Disconnect D8 pin A.
+Change D8 value from D-BC-SMA to Diode_200V.
 Change MIR3 value from MIRECMS to Fiducial.
-Reconnect C29 pin - from GND-PUIS to GNDPWR.
-Add net GNDPWR.
+Disconnect D7 pin K.
+Disconnect D7 pin A.
 Change MIR4 value from MIRECMS to Fiducial.
-Change C29 value from C-BTP-HT1327 to Capacitor_1000uF.
-Reconnect C28 pin - from GND-PUIS to GNDPWR.
+Change D7 value from D-BC-SOD323 to DiodeSchottky.
+Disconnect D6 pin K.
 Add NT1 (footprint “NetTie:NetTie-2_SMD_Pad0.5mm”).
-Add net GNDPWR.
+Disconnect D6 pin A.
+Change PT1 value from PT-CMS-C12000 to TestPoint.
+Change D6 value from D-BC-SOD323 to DiodeSchottky.
+Disconnect D5 pin K.
 Change R1 value from R-BC-R2512 to Resistor_0R047.
-Change C28 value from C-BTP-HT1327 to Capacitor_1000uF.
+Disconnect D5 pin A.
 Add net /ISENS.
 Reconnect R1 pin 1 from ISENS to /ISENS.
 Add net GNDPWR.
 Reconnect R1 pin 2 from GND-PUIS to GNDPWR.
-Change C27 value from C-BTP-803 to DNP.
+Change D5 value from D-BC-SOD323 to DiodeSchottky.
 Change R2 value from R-BC-R0603 to Resistor_10k.
-Reconnect C26 pin 2 from GND-PUIS to +24V.
+Disconnect D4 pin K.
 Add net Net-(FI7-Pad2).
 Reconnect R2 pin 2 from N14 to Net-(FI7-Pad2).
-Reconnect C26 pin 1 from +24V to GNDPWR.
+Disconnect D4 pin A.
 Change R3 value from R-BC-R0603 to Resistor_100k.
-Add net GNDPWR.
+Change D4 value from D-BC-SOD323 to DiodeSchottky.
+Add net Net-(R3-Pad1).
+Reconnect R3 pin 1 from N5 to Net-(R3-Pad1).
 Add net Net-(C4-Pad-).
-Reconnect R3 pin 1 from N5 to Net-(C4-Pad-).
-Add net Net-(R3-Pad2).
-Reconnect R3 pin 2 from N10 to Net-(R3-Pad2).
-Change C26 value from C-BC-C0805 to Capacitor_100nF.
+Reconnect R3 pin 2 from N10 to Net-(C4-Pad-).
+Disconnect D3 pin K.
 Change R4 value from R-BC-R0603 to Resistor_100k.
-Reconnect C25 pin 2 from GND-PUIS to +24V.
-Add net Net-(C4-Pad+).
-Reconnect R4 pin 1 from N10 to Net-(C4-Pad+).
+Disconnect D3 pin A.
 Add net Net-(C4-Pad-).
-Reconnect R4 pin 2 from N1 to Net-(C4-Pad-).
-Reconnect C25 pin 1 from +24V to GNDPWR.
+Reconnect R4 pin 1 from N10 to Net-(C4-Pad-).
+Add net Net-(C4-Pad+).
+Reconnect R4 pin 2 from N1 to Net-(C4-Pad+).
+Change D3 value from D-BC-SOD323 to DiodeSchottky.
 Change R5 value from R-BC-R0603 to Resistor_10k.
-Add net GNDPWR.
+Disconnect D2 pin K.
 Add net /OE.
 Reconnect R5 pin 2 from OE to /OE.
-Change C25 value from C-BC-C0805 to Capacitor_100nF.
+Disconnect D2 pin A.
 Change R6 value from R-BC-R0603 to Resistor_680R.
-Reconnect C24 pin 2 from GND-PUIS to +24V.
+Change D2 value from D-BC-SOD323 to DiodeSchottky.
 Add net Net-(C11-Pad1).
 Reconnect R6 pin 1 from N13 to Net-(C11-Pad1).
 Add net /OSC.
 Reconnect R6 pin 2 from OSC to /OSC.
-Reconnect C24 pin 1 from +24V to GNDPWR.
+Disconnect D1 pin K.
 Change R7 value from R-BC-R0603 to Resistor_100k.
-Add net GNDPWR.
+Disconnect D1 pin A.
 Add net Net-(FI6-Pad2).
-Reconnect R7 pin 1 from GND to Net-(FI6-Pad2).
-Reconnect R7 pin 2 from N12 to GND.
-Change C24 value from C-BC-C0805 to Capacitor_100nF.
+Reconnect R7 pin 2 from N12 to Net-(FI6-Pad2).
+Change D1 value from D-BC-SMB to DiodeZener_30V.
 Change R8 value from R-BC-R0603 to Resistor_4k7.
-Reconnect C23 pin 8 from ENABLE to Net-(C23-Pad8).
+Reconnect C29 pin - from GND-PUIS to GNDPWR.
 Add net /OE.
 Reconnect R8 pin 1 from OE to /OE.
 Add net Net-(FI5-Pad2).
 Reconnect R8 pin 2 from N8 to Net-(FI5-Pad2).
-Add net Net-(C23-Pad8).
+Add net GNDPWR.
 Change R9 value from R-BC-R0603 to Resistor_680R.
-Reconnect C23 pin 7 from FAULT_ to Net-(C23-Pad7).
+Change C29 value from C-BTP-HT1327 to Capacitor_1000uF.
 Add net Net-(C14-Pad1).
 Reconnect R9 pin 1 from N17 to Net-(C14-Pad1).
 Add net /OSC.
 Reconnect R9 pin 2 from OSC to /OSC.
-Add net Net-(C23-Pad7).
+Reconnect C28 pin - from GND-PUIS to GNDPWR.
 Change R10 value from R-BC-R0603 to Resistor_680R.
-Reconnect C23 pin 6 from BRAKE_ to Net-(C23-Pad6).
+Add net GNDPWR.
 Add net Net-(C17-Pad1).
 Reconnect R10 pin 1 from N19 to Net-(C17-Pad1).
 Add net /OSC.
 Reconnect R10 pin 2 from OSC to /OSC.
-Add net Net-(C23-Pad6).
+Change C28 value from C-BTP-HT1327 to Capacitor_1000uF.
 Change R11 value from R-BC-R0603 to Resistor_100R.
-Reconnect C23 pin 5 from SPEED-SETPOINT to Net-(C23-Pad5).
+Change C27 value from C-BTP-803 to DNP.
 Add net Net-(C10-Pad2).
 Reconnect R11 pin 1 from N11 to Net-(C10-Pad2).
 Add net Net-(D2-Pad2).
 Reconnect R11 pin 2 from N68 to Net-(D2-Pad2).
-Add net Net-(C23-Pad5).
+Reconnect C26 pin 2 from GND-PUIS to GNDPWR.
 Change R12 value from R-BC-R0603 to Resistor_100R.
-Change C23 value from CC-BC-C0612 to CapacitorArray_47pf.
+Add net GNDPWR.
 Add net Net-(C13-Pad2).
 Reconnect R12 pin 1 from N16 to Net-(C13-Pad2).
 Add net Net-(D3-Pad2).
 Reconnect R12 pin 2 from N59 to Net-(D3-Pad2).
-Connect C22 pin 4 to Net-(C22-Pad4).
+Change C26 value from C-BC-C0805 to Capacitor_100nF.
 Change R13 value from R-BC-R0603 to Resistor_100R.
-Add net Net-(C22-Pad4).
+Reconnect C25 pin 2 from GND-PUIS to GNDPWR.
 Add net Net-(C16-Pad2).
 Reconnect R13 pin 1 from N18 to Net-(C16-Pad2).
 Add net Net-(D4-Pad2).
 Reconnect R13 pin 2 from N45 to Net-(D4-Pad2).
-Reconnect C22 pin 3 from SPEED-MEASURE to Net-(C22-Pad3).
+Add net GNDPWR.
 Change R20 value from R-BC-R0603 to Resistor_10R.
-Add net Net-(C22-Pad3).
+Change C25 value from C-BC-C0805 to Capacitor_100nF.
 Add net Net-(IC5-Pad7).
 Reconnect R20 pin 1 from N26 to Net-(IC5-Pad7).
 Add net Net-(R20-Pad2).
 Reconnect R20 pin 2 from N63 to Net-(R20-Pad2).
-Reconnect C22 pin 2 from TEMPMEASURE- to Net-(C22-Pad2).
+Reconnect C24 pin 2 from GND-PUIS to GNDPWR.
 Change R30 value from R-BC-R0603 to Resistor_10R.
-Add net Net-(C22-Pad2).
+Add net GNDPWR.
 Add net /BOT-DR-A.
 Reconnect R30 pin 1 from BOT-DR-A to /BOT-DR-A.
 Add net Net-(R30-Pad2).
 Reconnect R30 pin 2 from N47 to Net-(R30-Pad2).
-Reconnect C22 pin 1 from TEMPMEASURE+ to Net-(C22-Pad1).
+Change C24 value from C-BC-C0805 to Capacitor_100nF.
 Change R31 value from R-BC-R0603 to Resistor_10R.
-Add net Net-(C22-Pad1).
+Reconnect C23 pin 8 from ENABLE to Net-(C23-Pad8).
 Add net /BOT-DR-C.
 Reconnect R31 pin 1 from BOT-DR-C to /BOT-DR-C.
 Add net Net-(R31-Pad2).
 Reconnect R31 pin 2 from N46 to Net-(R31-Pad2).
-Change C22 value from CC-BC-C0612 to CapacitorArray_47pf.
+Add net Net-(C23-Pad8).
 Change R32 value from R-BC-R0603 to Resistor_10R.
-Reconnect C21 pin 2 from N56 to Net-(C21-Pad2).
+Reconnect C23 pin 7 from FAULT_ to Net-(C23-Pad7).
 Add net Net-(IC4-Pad7).
 Reconnect R32 pin 1 from N66 to Net-(IC4-Pad7).
 Add net Net-(R32-Pad2).
 Reconnect R32 pin 2 from N65 to Net-(R32-Pad2).
-Add net Net-(C21-Pad2).
+Add net Net-(C23-Pad7).
 Change R33 value from R-BC-R0603 to Resistor_10R.
-Reconnect C21 pin 1 from N57 to Net-(C21-Pad1).
+Reconnect C23 pin 6 from BRAKE_ to Net-(C23-Pad6).
 Add net /BOT-DR-B.
 Reconnect R33 pin 1 from BOT-DR-B to /BOT-DR-B.
 Add net Net-(R33-Pad2).
 Reconnect R33 pin 2 from N50 to Net-(R33-Pad2).
-Add net Net-(C21-Pad1).
+Add net Net-(C23-Pad6).
 Change R35 value from R-BC-R0603 to Resistor_10R.
-Change C21 value from C-BC-C0805 to Capacitor_100nF.
+Reconnect C23 pin 5 from SPEED-SETPOINT to Net-(C23-Pad5).
 Add net Net-(IC3-Pad7).
 Reconnect R35 pin 1 from N71 to Net-(IC3-Pad7).
 Add net Net-(R35-Pad2).
 Reconnect R35 pin 2 from N70 to Net-(R35-Pad2).
-Reconnect C20 pin 2 from N51 to GND.
+Add net Net-(C23-Pad5).
 Change R37 value from R-BC-R0603 to Resistor_10k.
-Reconnect C20 pin 1 from GND to Net-(C20-Pad1).
+Change C23 value from CC-BC-C0612 to CapacitorArray_47pf.
 Add net Net-(C7-Pad2).
 Reconnect R37 pin 1 from N76 to Net-(C7-Pad2).
 Add net Net-(IC2-Pad7).
 Reconnect R37 pin 2 from N78 to Net-(IC2-Pad7).
-Add net Net-(C20-Pad1).
+Connect C22 pin 4 to Net-(C22-Pad4).
 Change R38 value from R-BC-R0603 to Resistor_1k.
-Change C20 value from C-BC-C0603 to Capacitor_10nF.
-Add net Net-(C21-Pad1).
-Reconnect R38 pin 1 from N56 to Net-(C21-Pad1).
+Add net Net-(C22-Pad4).
+Add net Net-(C21-Pad2).
+Reconnect R38 pin 1 from N56 to Net-(C21-Pad2).
 Add net /ISENS.
 Reconnect R38 pin 2 from ISENS to /ISENS.
-Reconnect C19 pin 2 from GND to +15V.
+Reconnect C22 pin 3 from SPEED-MEASURE to Net-(C22-Pad3).
 Change R39 value from R-BC-R0603 to Resistor_1k.
-Reconnect C19 pin 1 from +15V to GND.
-Add net Net-(C21-Pad2).
-Reconnect R39 pin 1 from N57 to Net-(C21-Pad2).
+Add net Net-(C22-Pad3).
+Add net Net-(C21-Pad1).
+Reconnect R39 pin 1 from N57 to Net-(C21-Pad1).
 Add net GNDPWR.
 Reconnect R39 pin 2 from GND-PUIS to GNDPWR.
-Change C19 value from C-BC-C0805 to Capacitor_100nF.
+Reconnect C22 pin 2 from TEMPMEASURE- to Net-(C22-Pad2).
 Change R40 value from R-BC-R2512 to Resistor_0R100.
-Reconnect C18 pin 1 from N54 to Net-(C18-Pad1).
+Add net Net-(C22-Pad2).
 Add net GNDPWR.
 Reconnect R40 pin 1 from GND-PUIS to GNDPWR.
 Add net /ISENS.
 Reconnect R40 pin 2 from ISENS to /ISENS.
-Add net Net-(C18-Pad1).
+Reconnect C22 pin 1 from TEMPMEASURE+ to Net-(C22-Pad1).
 Change R41 value from R-BC-R0603 to Resistor_22k.
-Change C18 value from C-BC-C0805 to Capacitor_330nF.
+Add net Net-(C22-Pad1).
 Add net /V-REF-M.
 Reconnect R41 pin 1 from V-REF-M to /V-REF-M.
-Add net Net-(C20-Pad1).
-Reconnect R41 pin 2 from N51 to Net-(C20-Pad1).
-Reconnect C17 pin 2 from N48 to Net-(C17-Pad2).
+Add net Net-(C20-Pad2).
+Reconnect R41 pin 2 from N51 to Net-(C20-Pad2).
+Change C22 value from CC-BC-C0612 to CapacitorArray_47pf.
 Change R42 value from R-BC-R0603 to Resistor_10k.
-Add net Net-(C17-Pad2).
+Reconnect C21 pin 2 from N56 to Net-(C21-Pad2).
 Add net Net-(FI6-Pad2).
 Reconnect R42 pin 1 from N12 to Net-(FI6-Pad2).
 Add net Net-(C18-Pad1).
 Reconnect R42 pin 2 from N54 to Net-(C18-Pad1).
-Reconnect C17 pin 1 from N19 to Net-(C17-Pad1).
+Add net Net-(C21-Pad2).
 Change R50 value from R-BC-R0603 to Resistor_1k.
-Add net Net-(C17-Pad1).
+Reconnect C21 pin 1 from N57 to Net-(C21-Pad1).
 Add net Net-(IC2-Pad7).
 Reconnect R50 pin 1 from N78 to Net-(IC2-Pad7).
-Change C17 value from C-BC-C0603 to Capacitor_2.2nF.
+Add net Net-(C21-Pad1).
 Change R58 value from R-BC-R1206 to Resistor_1k_0.5W.
-Reconnect C16 pin 2 from N45 to Net-(C16-Pad2).
+Change C21 value from C-BC-C0805 to Capacitor_100nF.
 Add net /TOP-DR-C.
 Reconnect R58 pin 1 from TOP-DR-C to /TOP-DR-C.
-Add net Net-(C16-Pad2).
+Reconnect C20 pin 2 from N51 to Net-(C20-Pad2).
 Change R59 value from R-BC-R1206 to Resistor_1k_0.5W.
-Reconnect C16 pin 1 from N38 to /PHA1.
+Add net Net-(C20-Pad2).
 Add net /TOP-DR-B.
 Reconnect R59 pin 1 from TOP-DR-B to /TOP-DR-B.
-Add net /PHA1.
+Change C20 value from C-BC-C0603 to Capacitor_10nF.
 Change R60 value from R-BC-R1206 to Resistor_1k_0.5W.
-Change C16 value from C-BC-C1206 to Capacitor_220nF.
+Change C19 value from C-BC-C0805 to Capacitor_100nF.
 Add net /TOP-DR-A.
 Reconnect R60 pin 1 from TOP-DR-A to /TOP-DR-A.
-Reconnect C15 pin 2 from +15V to GND.
+Reconnect C18 pin 1 from N54 to Net-(C18-Pad1).
 Change T1 value from Q-SOT23-IRLML2803 to MOSFET_NMOS_30V.
-Reconnect C15 pin 1 from GND to +15V.
+Add net Net-(C18-Pad1).
 Add net Net-(IC1-Pad23).
 Reconnect T1 pin D from N3 to Net-(IC1-Pad23).
 Add net Net-(FI7-Pad2).
 Reconnect T1 pin G from N14 to Net-(FI7-Pad2).
-Change C15 value from C-BC-C0805 to Capacitor_100nF.
+Change C18 value from C-BC-C0805 to Capacitor_330nF.
 Change T2 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Reconnect C14 pin 2 from N64 to Net-(C14-Pad2).
+Reconnect C17 pin 2 from N48 to Net-(C17-Pad2).
 Add net Net-(R35-Pad2).
 Reconnect T2 pin G from N70 to Net-(R35-Pad2).
 Add net /PHA3.
 Reconnect T2 pin S from N7 to /PHA3.
-Add net Net-(C14-Pad2).
+Add net Net-(C17-Pad2).
 Change T3 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Reconnect C14 pin 1 from N17 to Net-(C14-Pad1).
+Reconnect C17 pin 1 from N19 to Net-(C17-Pad1).
 Add net /PHA3.
 Reconnect T3 pin D from N7 to /PHA3.
 Add net Net-(R31-Pad2).
 Reconnect T3 pin G from N46 to Net-(R31-Pad2).
 Add net /ISENS.
 Reconnect T3 pin S from ISENS to /ISENS.
-Add net Net-(C14-Pad1).
+Add net Net-(C17-Pad1).
 Change T4 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Change C14 value from C-BC-C0603 to Capacitor_2.2nF.
+Change C17 value from C-BC-C0603 to Capacitor_2.2nF.
 Add net Net-(R32-Pad2).
 Reconnect T4 pin G from N65 to Net-(R32-Pad2).
 Add net /PHA2.
 Reconnect T4 pin S from N43 to /PHA2.
-Reconnect C13 pin 2 from N59 to Net-(C13-Pad2).
+Reconnect C16 pin 2 from N45 to Net-(C16-Pad2).
 Change T5 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Add net Net-(C13-Pad2).
+Add net Net-(C16-Pad2).
 Add net /PHA2.
 Reconnect T5 pin D from N43 to /PHA2.
 Add net Net-(R33-Pad2).
 Reconnect T5 pin G from N50 to Net-(R33-Pad2).
 Add net /ISENS.
 Reconnect T5 pin S from ISENS to /ISENS.
-Reconnect C13 pin 1 from N43 to /PHA2.
+Reconnect C16 pin 1 from N38 to /PHA1.
 Change T6 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Add net /PHA2.
+Add net /PHA1.
 Add net Net-(R20-Pad2).
 Reconnect T6 pin G from N63 to Net-(R20-Pad2).
 Add net /PHA1.
 Reconnect T6 pin S from N38 to /PHA1.
-Change C13 value from C-BC-C1206 to Capacitor_220nF.
+Change C16 value from C-BC-C1206 to Capacitor_220nF.
 Change T7 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Reconnect C12 pin 2 from +15V to GND.
+Change C15 value from C-BC-C0805 to Capacitor_100nF.
 Add net /PHA1.
 Reconnect T7 pin D from N38 to /PHA1.
 Add net Net-(R30-Pad2).
 Reconnect T7 pin G from N47 to Net-(R30-Pad2).
 Add net /ISENS.
 Reconnect T7 pin S from ISENS to /ISENS.
-Reconnect C12 pin 1 from GND to +15V.
+Reconnect C14 pin 2 from N64 to Net-(C14-Pad2).
 Change T8 value from Q-SOT23-IRLML2803 to MOSFET_NMOS_30V.
-Change C12 value from C-BC-C0805 to Capacitor_100nF.
+Add net Net-(C14-Pad2).
 Add net Net-(FI5-Pad2).
 Reconnect T8 pin D from N8 to Net-(FI5-Pad2).
 Add net /SENSOR3.
 Reconnect T8 pin G from SENSOR3 to /SENSOR3.
-Reconnect C11 pin 2 from N69 to Net-(C11-Pad2).
+Reconnect C14 pin 1 from N17 to Net-(C14-Pad1).
 Change T9 value from Q-BC-DPAK-GDS to MOSFET_PMOS_60V.
-Add net Net-(C11-Pad2).
+Add net Net-(C14-Pad1).
 Add net Net-(D17-PadA1).
 Reconnect T9 pin D from N9 to Net-(D17-PadA1).
 Add net Net-(C4-Pad-).
 Reconnect T9 pin G from N10 to Net-(C4-Pad-).
 Add net Net-(C4-Pad+).
 Reconnect T9 pin S from N1 to Net-(C4-Pad+).
-Reconnect C11 pin 1 from N13 to Net-(C11-Pad1).
+Change C14 value from C-BC-C0603 to Capacitor_2.2nF.
 Change T10 value from Q-SOT23-IRLML2803 to MOSFET_NMOS_30V.
-Add net Net-(C11-Pad1).
-Add net Net-(R3-Pad2).
-Reconnect T10 pin D from N5 to Net-(R3-Pad2).
+Reconnect C13 pin 2 from N59 to Net-(C13-Pad2).
+Add net Net-(R3-Pad1).
+Reconnect T10 pin D from N5 to Net-(R3-Pad1).
 Add net /OE.
 Reconnect T10 pin G from OE to /OE.
 Add net GNDPWR.
 Reconnect T10 pin S from GND-PUIS to GNDPWR.
-Change C11 value from C-BC-C0603 to Capacitor_2.2nF.
+Add net Net-(C13-Pad2).
 Change TH1 value from  to ThroughHole.
-Reconnect C10 pin 2 from N68 to Net-(C10-Pad2).
+Reconnect C13 pin 1 from N43 to /PHA2.
 Disconnect TH1 pin .
-Add net Net-(C10-Pad2).
+Add net /PHA2.
 Change TH2 value from  to ThroughHole.
-Reconnect C10 pin 1 from N7 to /PHA3.
+Change C13 value from C-BC-C1206 to Capacitor_220nF.
 Disconnect TH2 pin .
-Add net /PHA3.
+Change C12 value from C-BC-C0805 to Capacitor_100nF.
 Change TH3 value from  to MountingHole.
-Change C10 value from C-BC-C1206 to Capacitor_220nF.
+Reconnect C11 pin 2 from N69 to Net-(C11-Pad2).
 Disconnect TH3 pin .
-Reconnect C9 pin 2 from +15V to GND.
+Add net Net-(C11-Pad2).
 Change TH4 value from  to MountingHole.
-Reconnect C9 pin 1 from GND to +15V.
+Reconnect C11 pin 1 from N13 to Net-(C11-Pad1).
 Disconnect TH4 pin .
-Change C9 value from C-BC-C0805 to Capacitor_100nF.
+Add net Net-(C11-Pad1).
 Change TH5 value from  to ThroughHole.
-Reconnect C8 pin 2 from N49 to GND.
+Change C11 value from C-BC-C0603 to Capacitor_2.2nF.
 Disconnect TH5 pin .
-Reconnect C8 pin 1 from GND to Net-(C8-Pad1).
+Reconnect C10 pin 2 from N68 to Net-(C10-Pad2).
 Change TH6 value from  to ThroughHole.
-Add net Net-(C8-Pad1).
+Add net Net-(C10-Pad2).
 Disconnect TH6 pin .
-Change C8 value from C-BC-C0603 to Capacitor_10nF.
+Reconnect C10 pin 1 from N7 to /PHA3.
 Change ZC2 value from C-BCP-WX8 to Capacitor_100uF_CheckFootprint.
+Add net /PHA3.
+Change C10 value from C-BC-C1206 to Capacitor_220nF.
+Change ZC27 value from C-BCP-WX10 to Capacitor_470uF_CheckFootprint.
+Change C9 value from C-BC-C0805 to Capacitor_100nF.
+Reconnect C8 pin 2 from N49 to Net-(C8-Pad2).
+Change ZM1 value from FIX-0035M to MountingHole_Pad.
+Add net Net-(C8-Pad2).
+Change C8 value from C-BC-C0603 to Capacitor_10nF.
+Change ZM2 value from FIX-0035M to MountingHole_Pad.
 Reconnect C7 pin 2 from N76 to Net-(C7-Pad2).
 Add net Net-(C7-Pad2).
-Change ZC27 value from C-BCP-WX10 to Capacitor_470uF_CheckFootprint.
-Change C7 value from C-BC-C0603 to Capacitor_2.2nF.
-Reconnect C6 pin 2 from +15V to GND.
-Change ZM1 value from FIX-0035M to MountingHole_Pad.
-Reconnect C6 pin 1 from GND to +15V.
-Change C6 value from C-BC-C0805 to Capacitor_100nF.
-Change ZM2 value from FIX-0035M to MountingHole_Pad.
-Reconnect C5 pin 2 from +15V to GND.
-Reconnect C5 pin 1 from GND to +15V.
 Change ZM3 value from FIX-0035M to MountingHole_Pad.
+Change C7 value from C-BC-C0603 to Capacitor_2.2nF.
+Change C6 value from C-BC-C0805 to Capacitor_100nF.
+Change ZM4 value from FIX-0035M to MountingHole_Pad.
 Change C5 value from C-BC-C0805 to Capacitor_100nF.
 Reconnect C4 pin - from N10 to Net-(C4-Pad-).
-Change ZM4 value from FIX-0035M to MountingHole_Pad.
-Add net Net-(C4-Pad-).
-Reconnect C4 pin + from N1 to Net-(C4-Pad+).
 Change ZT2 value from Q-BT-TO220AB-GDS-INV to DNP.
-Add net Net-(C4-Pad+).
+Add net Net-(C4-Pad-).
 Add net Net-(R35-Pad2).
 Reconnect ZT2 pin G from N70 to Net-(R35-Pad2).
 Add net /PHA3.
 Reconnect ZT2 pin S from N7 to /PHA3.
-Change C4 value from C-BCP-C7343 to Capacitor_22uF_CheckFootprint.
+Reconnect C4 pin + from N1 to Net-(C4-Pad+).
 Change ZT3 value from Q-BT-TO220AB-GDS-INV to DNP.
-Reconnect C3 pin 2 from +24V to GND.
+Add net Net-(C4-Pad+).
 Add net /PHA3.
 Reconnect ZT3 pin D from N7 to /PHA3.
 Add net Net-(R31-Pad2).
 Reconnect ZT3 pin G from N46 to Net-(R31-Pad2).
 Add net /ISENS.
 Reconnect ZT3 pin S from ISENS to /ISENS.
-Reconnect C3 pin 1 from GND to +24V.
+Change C4 value from C-BCP-C7343 to Capacitor_22uF_CheckFootprint.
 Change ZT4 value from Q-BT-TO220AB-GDS-INV to DNP.
 Change C3 value from C-BC-C0805 to Capacitor_100nF.
 Add net Net-(R32-Pad2).
