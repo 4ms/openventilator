@@ -1406,7 +1406,7 @@ F 3 "" H 11900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:R R?
+L Resistor:R0603_0R_5% R?
 U 1 1 C18C78EC
 P 8500 950
 AR Path="/C18C78EC" Ref="R?"  Part="1" 
