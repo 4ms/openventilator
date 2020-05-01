@@ -1222,8 +1222,6 @@ Reconnect C16 pin 1 from N$58 to Net-(C16-Pad1).
 Reconnect C17 pin 2 from N$33 to Net-(C17-Pad2).
 Reconnect C18 pin 1 from N$57 to Net-(C18-Pad1).
 Reconnect C19 pin 1 from VCHARG to /VCHARG.
-Reconnect C2 pin 1 from GND to +5V.
-Reconnect C2 pin 2 from +5V to GND.
 Reconnect C20 pin 1 from GT1 to /GR106768_buzzer_charger/GT1.
 Reconnect C20 pin 2 from STOP-INV to /STOP-INV.
 Reconnect C21 pin 2 from SHDN1 to /GR106768_buzzer_charger/SHDN1.

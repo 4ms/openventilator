@@ -1501,7 +1501,7 @@ F 3 "~" H 2450 6500 50  0001 C CNN
 F 4 "RESISTOR,470 OHM, 0.125W,+/-1%, 0805" H 2450 6700 50  0001 C CNN "Description"
 F 5 "10022697" H 2450 6700 50  0001 C CNN "Item Number"
 	1    2450 6500
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Resistor:R0402_59k_1% R45

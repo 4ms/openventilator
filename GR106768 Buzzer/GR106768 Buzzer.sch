@@ -3024,15 +3024,15 @@ $Comp
 L Capacitor:C0612_47pF_50V_10% C1
 U 1 1 5EC82919
 P 2900 3550
-F 0 "C1" H 2900 3400 50  0000 C CNN
-F 1 "47pF" H 3400 3550 50  0000 C CNN
+F 0 "C1" H 3400 3550 50  0000 C CNN
+F 1 "47pF" H 3450 3450 50  0000 C CNN
 F 2 "AllModules:C0612-4_1" H 2900 3550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf" H 2800 3550 50  0001 C CNN
 F 4 "10095973" H 2925 3925 50  0001 C CNN "Item Number"
 F 5 "Yageo" H 3425 4000 50  0001 C CNN "Mfgr"
 F 6 "CA0612JRNPO9BN470" H 3700 3925 50  0001 C CNN "Mfgr_PN"
 	1    2900 3550
-	1    0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2600 3400 2600 2900
