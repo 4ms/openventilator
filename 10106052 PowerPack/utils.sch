@@ -205,42 +205,25 @@ F 3 "" H 9000 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9000 4350 9000 4450
-$Comp
-L IC:LM4120AIM5-3.0 U?
-U 1 1 5E8CF891
-P 4400 5600
-AR Path="/5E8781F8/5E8CF891" Ref="U?"  Part="1" 
-AR Path="/5E8CA2BD/5E8CF891" Ref="U2"  Part="1" 
-F 0 "U2" H 4400 5965 50  0000 C CNN
-F 1 "LM4120AIM5-3.0" H 4400 5874 50  0000 C CNN
-F 2 "AllModules:SOT95P279X142-5N" H 4400 5600 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4120" H 4400 5600 50  0001 C CNN
-F 4 "IC,VOLTAGE REFERENCE,5MA,3V +/-2%,SOT23" H 4400 5600 50  0001 C CNN "Description"
-F 5 "10022896" H 4400 5600 50  0001 C CNN "Item Number"
-F 6 "Texas Instruments" H 4400 5600 50  0001 C CNN "Manufacturer"
-F 7 "LM4120AIM5-3.0/NOPB" H 4400 5600 50  0001 C CNN "Manufacturer_No"
-	1    4400 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4800 5600 4900 5600
+	4500 6100 4600 6100
 Wire Wire Line
-	4900 5600 4900 5650
+	4600 6100 4600 6150
 $Comp
 L Capacitor:C0603_100nF_50V_10% C?
 U 1 1 5E8CF89F
-P 3750 5900
+P 5000 5900
 AR Path="/5E8781F8/5E8CF89F" Ref="C?"  Part="1" 
 AR Path="/5E8CA2BD/5E8CF89F" Ref="C7"  Part="1" 
-F 0 "C7" H 3635 5854 50  0000 R CNN
-F 1 "100n" H 3635 5945 50  0000 R CNN
-F 2 "AllModules:CAPC1608X86N" H 3788 5750 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 3750 5900 50  0001 C CNN
-F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 3750 5900 50  0001 C CNN "Description"
-F 5 "10021386" H 3750 5900 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 3750 5900 50  0001 C CNN "Manufacturer"
-F 7 "C0603C104K5RACTU" H 3750 5900 50  0001 C CNN "Manufacturer_No"
-	1    3750 5900
+F 0 "C7" H 4885 5854 50  0000 R CNN
+F 1 "100n" H 4885 5945 50  0000 R CNN
+F 2 "AllModules:CAPC1608X86N" H 5038 5750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 5000 5900 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 5000 5900 50  0001 C CNN "Description"
+F 5 "10021386" H 5000 5900 50  0001 C CNN "Item Number"
+F 6 "Kemet" H 5000 5900 50  0001 C CNN "Manufacturer"
+F 7 "C0603C104K5RACTU" H 5000 5900 50  0001 C CNN "Manufacturer_No"
+	1    5000 5900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -278,14 +261,12 @@ F 7 "C0603C104K5RACTU" H 2950 5900 50  0001 C CNN "Manufacturer_No"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3750 5750 3750 5600
-Wire Wire Line
 	2750 5700 2950 5700
 Wire Wire Line
 	3350 5750 3350 5700
 Connection ~ 3350 5700
 Wire Wire Line
-	3350 5700 4000 5700
+	3350 5700 3700 5700
 Wire Wire Line
 	2950 5750 2950 5700
 Connection ~ 2950 5700
@@ -296,12 +277,12 @@ Wire Wire Line
 Wire Wire Line
 	2950 6100 3350 6100
 Wire Wire Line
-	3750 6100 3750 6050
+	5000 6100 5000 6050
 Wire Wire Line
 	3350 6050 3350 6100
 Connection ~ 3350 6100
 Wire Wire Line
-	3350 6100 3750 6100
+	4600 6100 5000 6100
 $Comp
 L power:GNDA #PWR?
 U 1 1 5E8CF8BF
@@ -315,27 +296,17 @@ F 3 "" H 3350 6100 50  0001 C CNN
 	1    3350 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 5600 4000 5600
-Connection ~ 3750 5600
-Wire Wire Line
-	3750 5600 3750 5500
-Wire Wire Line
-	4000 5500 3750 5500
-Connection ~ 3750 5500
-Wire Wire Line
-	3750 5500 3750 5250
 $Comp
 L power:+5V #PWR?
 U 1 1 5E8CF8CB
-P 3750 5250
+P 5000 5450
 AR Path="/5E8781F8/5E8CF8CB" Ref="#PWR?"  Part="1" 
 AR Path="/5E8CA2BD/5E8CF8CB" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 3750 5100 50  0001 C CNN
-F 1 "+5V" H 3765 5423 50  0000 C CNN
-F 2 "" H 3750 5250 50  0001 C CNN
-F 3 "" H 3750 5250 50  0001 C CNN
-	1    3750 5250
+F 0 "#PWR0126" H 5000 5300 50  0001 C CNN
+F 1 "+5V" H 5015 5623 50  0000 C CNN
+F 2 "" H 5000 5450 50  0001 C CNN
+F 3 "" H 5000 5450 50  0001 C CNN
+	1    5000 5450
 	1    0    0    -1  
 $EndComp
 Text HLabel 2750 5700 0    50   Output ~ 0
@@ -632,12 +603,12 @@ $EndComp
 $Comp
 L power:GNDA #PWR0131
 U 1 1 5E905EEE
-P 4900 5650
-F 0 "#PWR0131" H 4900 5400 50  0001 C CNN
-F 1 "GNDA" H 4905 5477 50  0000 C CNN
-F 2 "" H 4900 5650 50  0001 C CNN
-F 3 "" H 4900 5650 50  0001 C CNN
-	1    4900 5650
+P 4600 6150
+F 0 "#PWR0131" H 4600 5900 50  0001 C CNN
+F 1 "GNDA" H 4605 5977 50  0000 C CNN
+F 2 "" H 4600 6150 50  0001 C CNN
+F 3 "" H 4600 6150 50  0001 C CNN
+	1    4600 6150
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -713,4 +684,37 @@ Wire Wire Line
 	9000 5450 9000 5750
 Text Notes 2500 4600 0    100  ~ 0
 +3V Reference Voltage
+$Comp
+L IC:LM4120AIM5-3.0 U?
+U 1 1 5E8CF891
+P 4100 5900
+AR Path="/5E8781F8/5E8CF891" Ref="U?"  Part="1" 
+AR Path="/5E8CA2BD/5E8CF891" Ref="U2"  Part="1" 
+F 0 "U2" H 4100 6350 50  0000 C CNN
+F 1 "LM4120AIM5-3.0" H 4100 6250 50  0000 C CNN
+F 2 "AllModules:SOT95P279X142-5N" H 4100 5900 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4120" H 4100 5900 50  0001 C CNN
+F 4 "IC,VOLTAGE REFERENCE,5MA,3V +/-2%,SOT23" H 4100 5900 50  0001 C CNN "Description"
+F 5 "10022896" H 4100 5900 50  0001 C CNN "Item Number"
+F 6 "Texas Instruments" H 4100 5900 50  0001 C CNN "Manufacturer"
+F 7 "LM4120AIM5-3.0/NOPB" H 4100 5900 50  0001 C CNN "Manufacturer_No"
+	1    4100 5900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5450 5000 5700
+Connection ~ 4600 6100
+Wire Wire Line
+	4500 5700 4650 5700
+Connection ~ 5000 5700
+Wire Wire Line
+	5000 5700 5000 5750
+Wire Wire Line
+	4500 5900 4650 5900
+Wire Wire Line
+	4650 5900 4650 5700
+Connection ~ 4650 5700
+Wire Wire Line
+	4650 5700 5000 5700
+NoConn ~ 3700 6100
 $EndSCHEMATC
