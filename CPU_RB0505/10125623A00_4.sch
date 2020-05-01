@@ -295,7 +295,7 @@ F 2 "AllModules:C0402_1" H 7800 2350 50  0001 C CNN
 F 3 "" H 7800 2350 50  0001 C CNN
 F 4 "10022607" V 7800 2350 50  0001 C CNN "Item Number"
 	1    7800 2350
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Jumper:JUMP_0U JP2
@@ -351,7 +351,7 @@ F 2 "AllModules:C0402_1" H 7800 8450 50  0001 C CNN
 F 3 "" H 7800 8450 50  0001 C CNN
 F 4 "10022607" V 7800 8450 50  0001 C CNN "Item Number"
 	1    7800 8450
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L cpu-board:0VANA #U$0276
@@ -706,7 +706,7 @@ F 2 "AllModules:C0402_1" H 11700 4200 50  0001 C CNN
 F 3 "" H 11700 4200 50  0001 C CNN
 F 4 "10022607" V 11700 4200 50  0001 C CNN "Item Number"
 	1    11700 4200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L IC:SQ276 IC35
@@ -751,7 +751,7 @@ F 2 "AllModules:C0402_1" H 14150 4200 50  0001 C CNN
 F 3 "" H 14150 4200 50  0001 C CNN
 F 4 "10022607" V 14150 4200 50  0001 C CNN "Item Number"
 	1    14150 4200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Notes Line
 	887  11038 887  850 
@@ -1857,12 +1857,12 @@ L Capacitor:C0402_100nF_16V_10% C57
 U 1 1 676BBC9D
 P 7800 5400
 F 0 "C57" V 8037 5319 64  0000 L BNN
-F 1 "DNP" V 7943 5288 42  0000 L BNN
+F 1 "DNP" V 7955 5348 42  0000 L BNN
 F 2 "AllModules:C0402_1" H 7800 5400 50  0001 C CNN
 F 3 "" H 7800 5400 50  0001 C CNN
 F 4 "10022607" V 7800 5400 50  0001 C CNN "Item Number"
 	1    7800 5400
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3550 1950 3550 1900
@@ -1961,13 +1961,13 @@ $Comp
 L Capacitor:C0402_100nF_16V_10% C72
 U 1 1 16847C85
 P 4300 7550
-F 0 "C72" H 4400 7600 64  0000 L CNN
-F 1 "100nF" H 4400 7500 42  0000 L CNN
+F 0 "C72" H 4400 7500 64  0000 L CNN
+F 1 "100nF" H 4405 7581 42  0000 L CNN
 F 2 "AllModules:C0402_1" H 4300 7550 50  0001 C CNN
 F 3 "" H 4300 7550 50  0001 C CNN
 F 4 "10022607" H 4300 7550 50  0001 C CNN "Item Number"
 	1    4300 7550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4050 7350 4300 7350
@@ -1989,12 +1989,12 @@ $Comp
 L Capacitor:C0603_4n7F_50V_10% C73
 U 1 1 936D7BF6
 P 3600 7550
-F 0 "C73" H 3700 7575 64  0000 L CNN
-F 1 "4.7nF" H 3700 7500 42  0000 L CNN
+F 0 "C73" H 3709 7498 64  0000 L CNN
+F 1 "4.7nF" H 3720 7579 42  0000 L CNN
 F 2 "AllModules:C0603_1" H 3600 7550 50  0001 C CNN
 F 3 "" H 3600 7550 50  0001 C CNN
 	1    3600 7550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3600 7350 3750 7350
