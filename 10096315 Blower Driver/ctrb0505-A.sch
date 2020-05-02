@@ -35,19 +35,19 @@ $Comp
 L Capacitor:C0805_100nF_50V_10% C5
 U 1 1 5E8B4F7B
 P 10650 2400
-F 0 "C5" H 10765 2491 50  0000 L CNN
+F 0 "C5" H 10500 2300 50  0000 R CNN
 F 1 "Capacitor_100nF" H 10650 2850 50  0001 C CNN
 F 2 "AllModules:C0805_1" H 10700 1950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10650 2850 50  0001 C CNN
 F 4 "" H 11200 2250 50  0001 C CNN "MPN"
-F 5 "100nF" H 10765 2400 50  0000 L CNN "Capacitance"
-F 6 "50V" H 10765 2309 50  0000 L CNN "Voltage"
+F 5 "100nF" H 10501 2370 50  0000 R CNN "Capacitance"
+F 6 "50V" H 10500 2450 50  0000 R CNN "Voltage"
 F 7 "10022135" H 10650 2400 50  0001 C CNN "Item Number"
 F 8 "YAGEO_RMS1" H 10650 2400 50  0001 C CNN "Manufacturer"
 F 9 "C0805C104Z5VACTU" H 10650 2400 50  0001 C CNN "Manufacturer_No"
 F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 10650 2400 50  0001 C CNN "Description"
 	1    10650 2400
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
 $Comp
 L IC:LinearRegulator IC6
@@ -325,7 +325,7 @@ Wire Wire Line
 	4050 2650 4450 2650
 Connection ~ 4450 2650
 Wire Wire Line
-	4050 2150 3550 2150
+	4050 2150 3750 2150
 Connection ~ 4050 2150
 Wire Wire Line
 	4800 3550 4800 3750
@@ -2681,61 +2681,57 @@ Connection ~ 3500 10800
 Wire Wire Line
 	3500 10800 3300 10800
 $Comp
-L Blower_Driver_Components:FilterBNX002011 FI1
+L FLTR:BNX002-11 FI1
 U 1 1 5FB69A1D
-P 2800 2250
-F 0 "FI1" H 2792 2665 50  0000 C CNN
-F 1 "DNP" H 2792 2574 50  0000 C CNN
-F 2 "AllModules:BNX002_1" H 2500 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/BNX002-11-1569986.pdf" H 2500 2550 50  0001 C CNN
-F 4 "" H 2792 2483 50  0000 C CNN "MPN"
-F 5 "LC EMI Filter" H 2800 2250 50  0001 C CNN "Description"
-F 6 "MURATA_RMS1" H 2800 2250 50  0001 C CNN "Manufacturer"
-F 7 "BNX002-01" H 2800 2250 50  0001 C CNN "Manufacturer_No"
-	1    2800 2250
+P 2800 2300
+F 0 "FI1" H 2650 2650 50  0000 C CNN
+F 1 "DNP" H 2650 2550 50  0000 C CNN
+F 2 "AllModules:BNX002_1" H 2500 2600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/BNX002-11-1569986.pdf" H 2500 2600 50  0001 C CNN
+F 4 "" H 2792 2533 50  0000 C CNN "MPN"
+F 5 "LC EMI Filter" H 2800 2300 50  0001 C CNN "Description"
+F 6 "MURATA_RMS1" H 2800 2300 50  0001 C CNN "Manufacturer"
+F 7 "BNX002-01" H 2800 2300 50  0001 C CNN "Manufacturer_No"
+	1    2800 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Fuse:Fuse_5A F1
 U 1 1 5FB97B0C
-P 3400 2150
-F 0 "F1" V 3500 2150 50  0000 C CNN
-F 1 "Fuse_5A" H 3400 2600 50  0001 C CNN
-F 2 "AllModules:FU154000_1" H 3400 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" H 3400 2550 50  0001 C CNN
-F 4 "" V 3500 2450 50  0000 C CNN "MPN"
-F 5 "5A" V 3267 2150 50  0000 C CNN "Fuse Value"
-F 6 "FUSE 5A + SUPPORT CMS" H 3400 2150 50  0001 C CNN "Description"
-F 7 "10022531" H 3400 2150 50  0001 C CNN "Item Number"
-F 8 "LITTELFUSE_RMS1" H 3400 2150 50  0001 C CNN "Manufacturer"
-F 9 "154005DR" H 3400 2150 50  0001 C CNN "Manufacturer_No"
-	1    3400 2150
+P 3600 2150
+F 0 "F1" V 3700 2150 50  0000 C CNN
+F 1 "Fuse_5A" H 3600 2600 50  0001 C CNN
+F 2 "AllModules:FU154000_1" H 3600 2550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" H 3600 2550 50  0001 C CNN
+F 4 "" V 3700 2450 50  0000 C CNN "MPN"
+F 5 "5A" V 3467 2150 50  0000 C CNN "Fuse Value"
+F 6 "FUSE 5A + SUPPORT CMS" H 3600 2150 50  0001 C CNN "Description"
+F 7 "10022531" H 3600 2150 50  0001 C CNN "Item Number"
+F 8 "LITTELFUSE_RMS1" H 3600 2150 50  0001 C CNN "Manufacturer"
+F 9 "154005DR" H 3600 2150 50  0001 C CNN "Manufacturer_No"
+	1    3600 2150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3200 2150 3250 2150
+	3200 2150 3300 2150
 $Comp
 L Capacitor:C0805_100nF_50V_10% C1
 U 1 1 5FBBFE1F
-P 2000 2300
-F 0 "C1" H 2115 2391 50  0000 L CNN
-F 1 "Capacitor_100nF" H 2000 2750 50  0001 C CNN
-F 2 "AllModules:C0805_1" H 2050 1850 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2000 2750 50  0001 C CNN
-F 4 "" H 2550 2150 50  0001 C CNN "MPN"
-F 5 "100nF" H 2115 2300 50  0000 L CNN "Capacitance"
-F 6 "50V" H 2115 2209 50  0000 L CNN "Voltage"
-F 7 "10022135" H 2000 2300 50  0001 C CNN "Item Number"
-F 8 "YAGEO_RMS1" H 2000 2300 50  0001 C CNN "Manufacturer"
-F 9 "C0805C104Z5VACTU" H 2000 2300 50  0001 C CNN "Manufacturer_No"
-F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 2000 2300 50  0001 C CNN "Description"
-	1    2000 2300
-	1    0    0    1   
+P 1950 2300
+F 0 "C1" H 1850 2200 50  0000 R CNN
+F 1 "Capacitor_100nF" H 1950 2750 50  0001 C CNN
+F 2 "AllModules:C0805_1" H 2000 1850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1950 2750 50  0001 C CNN
+F 4 "" H 2500 2150 50  0001 C CNN "MPN"
+F 5 "100nF" H 1850 2300 50  0000 R CNN "Capacitance"
+F 6 "50V" H 1843 2387 50  0000 R CNN "Voltage"
+F 7 "10022135" H 1950 2300 50  0001 C CNN "Item Number"
+F 8 "YAGEO_RMS1" H 1950 2300 50  0001 C CNN "Manufacturer"
+F 9 "C0805C104Z5VACTU" H 1950 2300 50  0001 C CNN "Manufacturer_No"
+F 10 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 1950 2300 50  0001 C CNN "Description"
+	1    1950 2300
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2000 2150 2200 2150
-Wire Wire Line
-	2350 2450 2200 2450
 $Comp
 L Inductor:Inductor_22uH L1
 U 1 1 5FC5CE2F
@@ -2779,32 +2775,32 @@ Connection ~ 4900 2650
 $Comp
 L Connector:2pinConnector_Power J1
 U 1 1 5FD03D04
-P 1550 2100
-F 0 "J1" H 1508 2265 50  0000 C CNN
-F 1 "2pinConnector_Power" H 1508 2174 50  0000 C CNN
-F 2 "AllModules:MOL43650-02C_1" H 1550 2100 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2363851.pdf" H 1550 2100 50  0001 C CNN
-F 4 "" H 1508 2083 50  0000 C CNN "MPN"
-F 5 "CONNECTOR, 2 CONTACTS,MICROFIT 3.0" H 1550 2100 50  0001 C CNN "Description"
-F 6 "10022538" H 1550 2100 50  0001 C CNN "Item Number"
-F 7 "MOLEX_RMS1" H 1550 2100 50  0001 C CNN "Manufacturer"
-F 8 "436500212" H 1550 2100 50  0001 C CNN "Manufacturer_No"
-	1    1550 2100
+P 1400 2100
+F 0 "J1" H 1358 2265 50  0000 C CNN
+F 1 "2pinConnector_Power" H 1358 2174 50  0000 C CNN
+F 2 "AllModules:MOL43650-02C_1" H 1400 2100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2363851.pdf" H 1400 2100 50  0001 C CNN
+F 4 "" H 1358 2083 50  0000 C CNN "MPN"
+F 5 "CONNECTOR, 2 CONTACTS,MICROFIT 3.0" H 1400 2100 50  0001 C CNN "Description"
+F 6 "10022538" H 1400 2100 50  0001 C CNN "Item Number"
+F 7 "MOLEX_RMS1" H 1400 2100 50  0001 C CNN "Manufacturer"
+F 8 "436500212" H 1400 2100 50  0001 C CNN "Manufacturer_No"
+	1    1400 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Blower_Driver_Components:2pinConnector_Unpopulated J11
+L Connector:2pinConnector_Power_MiniFit J11
 U 1 1 5FD2E324
-P 1550 2600
-F 0 "J11" H 1450 2550 50  0000 C CNN
-F 1 "DNP" H 1500 2250 50  0000 C CNN
-F 2 "AllModules:MOL5566-2_1" H 1550 2600 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf" H 1550 2600 50  0001 C CNN
-F 4 "" H 1450 2150 50  0000 C CNN "MPN"
-F 5 "0039281023" H 1550 2600 50  0001 C CNN "Manufacturer_No"
-F 6 " CONN HEADER VERT 2 CONTACTS Mini Fit Jr  5.5PIN PITCH" H 1550 2600 50  0001 C CNN "Description"
-F 7 "MOLEX" H 1550 2600 50  0001 C CNN "Manufacturer"
-	1    1550 2600
+P 1400 2600
+F 0 "J11" H 1300 2550 50  0000 C CNN
+F 1 "DNP" H 1350 2250 50  0000 C CNN
+F 2 "AllModules:MOL5566-2_1" H 1400 2600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf" H 1400 2600 50  0001 C CNN
+F 4 "" H 1300 2150 50  0000 C CNN "MPN"
+F 5 "0039281023" H 1400 2600 50  0001 C CNN "Manufacturer_No"
+F 6 " CONN HEADER VERT 2 CONTACTS Mini Fit Jr  5.5PIN PITCH" H 1400 2600 50  0001 C CNN "Description"
+F 7 "MOLEX" H 1400 2600 50  0001 C CNN "Manufacturer"
+	1    1400 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2813,66 +2809,62 @@ Wire Wire Line
 	2200 1700 2200 2150
 Connection ~ 2200 2150
 Wire Wire Line
-	2200 2150 2350 2150
+	2200 2150 2300 2150
 Wire Wire Line
 	2400 2850 2200 2850
 Wire Wire Line
 	2200 2850 2200 2450
 Connection ~ 2200 2450
 Wire Wire Line
-	2200 2450 2000 2450
+	3300 2150 3300 1700
+Connection ~ 3300 2150
 Wire Wire Line
-	3200 2150 3200 1700
+	3200 2350 3300 2350
 Wire Wire Line
-	3200 1700 2800 1700
-Connection ~ 3200 2150
-Wire Wire Line
-	3200 2400 3300 2400
-Wire Wire Line
-	3300 2400 3300 2450
+	3300 2350 3300 2450
 Wire Wire Line
 	3300 3750 4800 3750
 Wire Wire Line
 	3200 2450 3300 2450
 Connection ~ 3300 2450
 Wire Wire Line
-	3300 2450 3300 2500
+	3300 2450 3300 2550
 Wire Wire Line
-	3200 2500 3300 2500
-Connection ~ 3300 2500
+	3200 2550 3300 2550
+Connection ~ 3300 2550
 Wire Wire Line
-	3300 2500 3300 2850
+	3300 2550 3300 2850
 Wire Wire Line
 	3000 2850 3300 2850
 Connection ~ 3300 2850
 Wire Wire Line
 	3300 2850 3300 3750
 Wire Wire Line
+	1450 2250 1600 2250
+Wire Wire Line
+	1750 2250 1750 2150
+Wire Wire Line
+	1750 2150 1950 2150
+Connection ~ 1950 2150
+Wire Wire Line
+	1450 2350 1750 2350
+Wire Wire Line
+	1750 2350 1750 2450
+Wire Wire Line
+	1750 2450 1950 2450
+Connection ~ 1950 2450
+Wire Wire Line
+	1450 2750 1600 2750
+Wire Wire Line
+	1600 2750 1600 2250
+Connection ~ 1600 2250
+Wire Wire Line
 	1600 2250 1750 2250
 Wire Wire Line
-	1900 2250 1900 2150
+	1450 2850 1750 2850
 Wire Wire Line
-	1900 2150 2000 2150
-Connection ~ 2000 2150
-Wire Wire Line
-	1600 2350 1900 2350
-Wire Wire Line
-	1900 2350 1900 2450
-Wire Wire Line
-	1900 2450 2000 2450
-Connection ~ 2000 2450
-Wire Wire Line
-	1600 2750 1750 2750
-Wire Wire Line
-	1750 2750 1750 2250
-Connection ~ 1750 2250
-Wire Wire Line
-	1750 2250 1900 2250
-Wire Wire Line
-	1600 2850 1900 2850
-Wire Wire Line
-	1900 2850 1900 2450
-Connection ~ 1900 2450
+	1750 2850 1750 2450
+Connection ~ 1750 2450
 $Comp
 L Connector:8pinConnector J6
 U 1 1 5FF3C397
@@ -3787,7 +3779,7 @@ Wire Wire Line
 	17900 10050 19450 10050
 Connection ~ 16550 10550
 $Comp
-L Blower_Driver_Components:9pinConnector_Unpopulated J22
+L Connector:9pinConnector_Unpopulated J22
 U 1 1 601E1979
 P 1750 9650
 F 0 "J22" H 1708 10075 50  0000 C CNN
@@ -3801,11 +3793,11 @@ F 7 "MOLEX" H 1750 9650 50  0001 C CNN "Manufacturer"
 	1    1750 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 1350 2400 2    50   ~ 0
+Text Notes 1200 2400 2    50   ~ 0
 24V from\npower supply
-Text Notes 1600 2250 0    50   ~ 0
+Text Notes 1450 2250 0    50   ~ 0
 24V
-Text Notes 1600 2350 0    50   ~ 0
+Text Notes 1450 2350 0    50   ~ 0
 GND
 Wire Notes Line
 	22750 6800 22750 7050
@@ -4091,4 +4083,14 @@ $EndComp
 Connection ~ 8800 2550
 Wire Wire Line
 	6950 2250 8800 2250
+Wire Wire Line
+	3300 2150 3450 2150
+Wire Wire Line
+	2800 1700 3300 1700
+Wire Wire Line
+	2300 2450 2200 2450
+Wire Wire Line
+	1950 2150 2200 2150
+Wire Wire Line
+	1950 2450 2200 2450
 $EndSCHEMATC

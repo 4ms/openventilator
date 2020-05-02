@@ -8,7 +8,6 @@
   (lib (name Crystal)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Crystal.lib)(options "")(descr ""))
   (lib (name CT)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/CT.lib)(options "")(descr ""))
   (lib (name Diode)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Diode.lib)(options "")(descr ""))
-  (lib (name FL)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/FL.lib)(options "")(descr ""))
   (lib (name FLTR)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/FLTR.lib)(options "")(descr ""))
   (lib (name Fuse)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Fuse.lib)(options "")(descr ""))
   (lib (name IC)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/IC.lib)(options "")(descr ""))
