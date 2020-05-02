@@ -1133,7 +1133,7 @@ F 3 "" H 3900 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:C_Small C67
+L Capacitor:C0805_220nF_25V_10% C67
 U 1 1 6998622D
 P 1550 7000
 F 0 "C67" H 1243 7013 64  0000 L BNN

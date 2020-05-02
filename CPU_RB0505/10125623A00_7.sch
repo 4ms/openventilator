@@ -1215,7 +1215,7 @@ F 3 "" H 11700 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:L L36
+L Inductor:L_10022907 L36
 U 1 1 99D0EAD2
 P 4950 9800
 AR Path="/99D0EAD2" Ref="L36"  Part="1" 
@@ -1229,7 +1229,7 @@ F 4 "10022907" H 4950 9800 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L38
+L Inductor:L_10022907 L38
 U 1 1 FD4FC626
 P 4950 9400
 AR Path="/FD4FC626" Ref="L38"  Part="1" 
@@ -1243,7 +1243,7 @@ F 4 "10022907" H 4950 9400 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L39
+L Inductor:L_10022907 L39
 U 1 1 37C2E7A2
 P 4950 9200
 AR Path="/37C2E7A2" Ref="L39"  Part="1" 
@@ -1257,7 +1257,7 @@ F 4 "10022907" H 4950 9200 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L40
+L Inductor:L_10022907 L40
 U 1 1 D8418348
 P 4950 9000
 AR Path="/D8418348" Ref="L40"  Part="1" 
@@ -1271,7 +1271,7 @@ F 4 "10022907" H 4950 9000 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L41
+L Inductor:L_10022907 L41
 U 1 1 D7B52F8F
 P 4950 8800
 AR Path="/D7B52F8F" Ref="L41"  Part="1" 

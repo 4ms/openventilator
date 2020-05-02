@@ -327,7 +327,7 @@ F 3 "" H 7600 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Flipped_Devices:Crystal_Small_Pin1Pin4 Q3
+L Crystal:Crystal_Small_Pin1Pin4 Q3
 U 1 1 7ABFF94E
 P 6350 5550
 AR Path="/7ABFF94E" Ref="Q3"  Part="1" 
