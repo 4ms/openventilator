@@ -1,6 +1,22 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# +24V-Power
+#
+DEF +24V-Power ~ 0 40 Y Y 1 L P
+F0 "" 0 0 50 H I C CNN
+F1 "+24V-Power" -112 -137 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 50 0 -50 N
+P 2 1 0 0 -50 100 0 0 N
+P 2 1 0 0 0 -50 50 50 N
+P 2 1 0 0 0 0 50 100 N
+X +24V 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
 # R1206_6k8_5%-Resistor
 #
 DEF R1206_6k8_5%-Resistor RS 0 40 Y Y 1 L N
