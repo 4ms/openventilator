@@ -664,7 +664,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 B91119A5
 P 13600 5600
 AR Path="/B91119A5" Ref="L?"  Part="1" 
@@ -1715,7 +1715,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 10550 7300 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flipped_Devices:L L?
+L Inductor:L_10022907 L?
 U 1 1 BACB79CB
 P 13600 5800
 AR Path="/BACB79CB" Ref="L?"  Part="1" 
