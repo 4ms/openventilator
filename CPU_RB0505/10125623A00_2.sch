@@ -405,7 +405,7 @@ F 8 "UART" H 12200 3000 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R1206_6k8_5% RS8
+L 10125623A00-rescue:R1206_6k8_5%-Resistor RS8
 U 1 1 887C726F
 P 13350 3200
 F 0 "RS8" V 13425 3425 59  0000 L BNN
