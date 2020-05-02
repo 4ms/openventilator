@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name GR106768_Buzzer)(type Legacy)(uri "${KIPRJMOD}/GR106768 Buzzer.lib")(options "")(descr ""))
-  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/Symbols/power.lib)(options "")(descr ""))
-  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/Symbols/Resistor.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/power.lib)(options "")(descr ""))
+  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Resistor.lib)(options "")(descr ""))
 )

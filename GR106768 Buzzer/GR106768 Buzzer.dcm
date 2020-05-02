@@ -300,6 +300,12 @@ K comparator
 F http://www.ti.com/lit/ds/symlink/tlv3012.pdf
 $ENDCMP
 #
+$CMP Via
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
 $CMP bq2002_SN
 D BQ2002C ACTIVE  NiCd/NiMH charge controller
 K charge controller
