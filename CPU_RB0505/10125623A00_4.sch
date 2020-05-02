@@ -141,7 +141,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4650 2150 50  0001 C CNN "Manufacturer_Des
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0130
+L Power:0VANA #U$0130
 U 1 1 A92F6304
 P 4650 2350
 F 0 "#U$0130" H 4650 2350 50  0001 C CNN
@@ -171,7 +171,7 @@ F 11 "" H 3550 2100 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0169
+L Power:0VANA #U$0169
 U 1 1 960C894E
 P 1500 2575
 F 0 "#U$0169" H 1500 2575 50  0001 C CNN
@@ -242,7 +242,7 @@ F 11 "IC DIFFERENTIAL PRESSURE SENSOR WITH ANALOGUE OUTPUT -10 TO 100 MBAR" H 25
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$07
+L Power:+5VREF #U$07
 U 1 1 63C62AE7
 P 3500 1250
 F 0 "#U$07" H 3500 1250 50  0001 C CNN
@@ -253,7 +253,7 @@ F 3 "" H 3500 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$030
+L Power:+5VREF #U$030
 U 1 1 A87AFBDE
 P 2500 2850
 F 0 "#U$030" H 2500 2850 50  0001 C CNN
@@ -264,7 +264,7 @@ F 3 "" H 2500 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$058
+L Power:+5VREF #U$058
 U 1 1 039D6C76
 P 8050 1950
 F 0 "#U$058" H 8050 1950 50  0001 C CNN
@@ -275,7 +275,7 @@ F 3 "" H 8050 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$059
+L Power:0VANA #U$059
 U 1 1 072A72F1
 P 7550 2050
 F 0 "#U$059" H 7550 2050 50  0001 C CNN
@@ -320,7 +320,7 @@ F 3 "" H 7550 9550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$0164
+L Power:+5VREF #U$0164
 U 1 1 BB97410A
 P 8050 8050
 F 0 "#U$0164" H 8050 8050 50  0001 C CNN
@@ -331,7 +331,7 @@ F 3 "" H 8050 8050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0171
+L Power:0VANA #U$0171
 U 1 1 1AC4EF2D
 P 7550 8150
 F 0 "#U$0171" H 7550 8150 50  0001 C CNN
@@ -354,7 +354,7 @@ F 4 "10022607" V 7800 8450 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0276
+L Power:0VANA #U$0276
 U 1 1 A87F6502
 P 7550 5100
 F 0 "#U$0276" H 7550 5100 50  0001 C CNN
@@ -409,7 +409,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$076
+L Power:0VANA #U$076
 U 1 1 299EB625
 P 11450 2450
 F 0 "#U$076" H 11450 2450 50  0001 C CNN
@@ -420,7 +420,7 @@ F 3 "" H 11450 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$096
+L Power:0VANA #U$096
 U 1 1 5F4A551C
 P 10050 2700
 F 0 "#U$096" H 10050 2700 50  0001 C CNN
@@ -535,7 +535,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0104
+L Power:0VANA #U$0104
 U 1 1 891FCEC7
 P 14750 2450
 F 0 "#U$0104" H 14750 2450 50  0001 C CNN
@@ -546,7 +546,7 @@ F 3 "" H 14750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0105
+L Power:0VANA #U$0105
 U 1 1 BED1FF17
 P 13350 2700
 F 0 "#U$0105" H 13350 2700 50  0001 C CNN
@@ -617,7 +617,7 @@ F 11 "AIR FLOW SENSOR" H 13350 2050 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+10VREF #U$159
+L Power:+10VREF #U$159
 U 1 1 2E2820CB
 P 10050 1400
 AR Path="/2E2820CB" Ref="#U$159"  Part="1" 
@@ -630,7 +630,7 @@ F 3 "" H 10050 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+10VREF #U$162
+L Power:+10VREF #U$162
 U 1 1 B9994C73
 P 13350 1400
 AR Path="/B9994C73" Ref="#U$162"  Part="1" 
@@ -675,7 +675,7 @@ F 8 "EMC,FLOW SENSOR HOUSING,IC15 & IC17 (CUSTOM PART)" H 13800 2450 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$0305
+L Power:+5VREF #U$0305
 U 1 1 7484700F
 P 11950 3900
 F 0 "#U$0305" H 11950 3900 50  0001 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 11950 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0306
+L Power:0VANA #U$0306
 U 1 1 6A5A32D7
 P 11450 4000
 F 0 "#U$0306" H 11450 4000 50  0001 C CNN
@@ -720,7 +720,7 @@ F 3 "https://www.first-sensor.com/cms/upload/datasheets/DS_Standard-HCLA_E_11629
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$0316
+L Power:+5VREF #U$0316
 U 1 1 940283FA
 P 14400 3900
 F 0 "#U$0316" H 14400 3900 50  0001 C CNN
@@ -731,7 +731,7 @@ F 3 "" H 14400 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0317
+L Power:0VANA #U$0317
 U 1 1 24749F8E
 P 13900 4000
 F 0 "#U$0317" H 13900 4000 50  0001 C CNN
@@ -810,7 +810,7 @@ Text Notes 15987 10775 0    59   ~ 0
 Text Notes 16487 10788 0    59   ~ 0
 JR
 $Comp
-L cpu-board:0VANA #U$0303
+L Power:0VANA #U$0303
 U 1 1 25FC8843
 P 1550 10050
 F 0 "#U$0303" H 1550 10050 50  0001 C CNN
@@ -857,7 +857,7 @@ $EndComp
 Text Notes 925  8663 0    59   ~ 0
 Barometric Pressure Measurement
 $Comp
-L cpu-board:+5VREF #U$0304
+L Power:+5VREF #U$0304
 U 1 1 3E8E06BF
 P 2550 8550
 F 0 "#U$0304" H 2550 8550 50  0001 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 2550 8550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0302
+L Power:0VANA #U$0302
 U 1 1 7B65148C
 P 4300 9800
 F 0 "#U$0302" H 4300 9800 50  0001 C CNN
@@ -960,7 +960,7 @@ Wire Wire Line
 	3600 9775 3600 10050
 Connection ~ 3600 9775
 $Comp
-L cpu-board:0VANA #U$0179
+L Power:0VANA #U$0179
 U 1 1 BD41952C
 P 4550 6025
 F 0 "#U$0179" H 4550 6025 50  0001 C CNN
@@ -1078,7 +1078,7 @@ Wire Wire Line
 Connection ~ 1800 6700
 Connection ~ 2550 6700
 $Comp
-L cpu-board:0VANA #U$0114
+L Power:0VANA #U$0114
 U 1 1 5ED84200
 P 4300 7775
 F 0 "#U$0114" H 4300 7775 50  0001 C CNN
@@ -1089,7 +1089,7 @@ F 3 "" H 4300 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$0115
+L Power:+5VREF #U$0115
 U 1 1 5ED841FA
 P 2550 6500
 F 0 "#U$0115" H 2550 6500 50  0001 C CNN
@@ -1100,7 +1100,7 @@ F 3 "" H 2550 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0118
+L Power:0VANA #U$0118
 U 1 1 5ED841E1
 P 1550 8000
 F 0 "#U$0118" H 1550 8000 50  0001 C CNN
@@ -1185,7 +1185,7 @@ Wire Wire Line
 Connection ~ 1725 4900
 Connection ~ 2500 4900
 $Comp
-L cpu-board:+5VREF #U$0119
+L Power:+5VREF #U$0119
 U 1 1 5EAFF2A8
 P 2500 4750
 F 0 "#U$0119" H 2500 4750 50  0001 C CNN
@@ -1196,7 +1196,7 @@ F 3 "" H 2500 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0120
+L Power:0VANA #U$0120
 U 1 1 5EAFF2AE
 P 1500 6200
 F 0 "#U$0120" H 1500 6200 50  0001 C CNN
@@ -1235,7 +1235,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 4450 3950 4550
 $Comp
-L cpu-board:0VANA #U$0121
+L Power:0VANA #U$0121
 U 1 1 5EBBB586
 P 4550 4150
 F 0 "#U$0121" H 4550 4150 50  0001 C CNN
@@ -1282,7 +1282,7 @@ Wire Wire Line
 Connection ~ 1750 3050
 Connection ~ 2500 3050
 $Comp
-L cpu-board:0VANA #U$0122
+L Power:0VANA #U$0122
 U 1 1 5EBBB5D1
 P 1500 4350
 F 0 "#U$0122" H 1500 4350 50  0001 C CNN
@@ -1830,7 +1830,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 8750 3250 9250
 $Comp
-L cpu-board:+5VREF #U$0123
+L Power:+5VREF #U$0123
 U 1 1 5F382422
 P 8050 5000
 F 0 "#U$0123" H 8050 5000 50  0001 C CNN

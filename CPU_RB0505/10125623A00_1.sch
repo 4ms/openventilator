@@ -42,7 +42,7 @@ MRST_SPI_1_E
 Text Label 8300 7050 0    50   ~ 0
 MRST_SPI_1_E
 $Comp
-L cpu-board:0VANA #U$?
+L Power:0VANA #U$?
 U 1 1 CA2824D4
 P 7300 8950
 AR Path="/CA2824D4" Ref="#U$?"  Part="1" 
@@ -55,7 +55,7 @@ F 3 "" H 7300 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 585CEF8C
 P 15000 1850
 AR Path="/585CEF8C" Ref="#U$?"  Part="1" 
@@ -68,7 +68,7 @@ F 3 "" H 15000 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 3E99C09D
 P 14400 1850
 AR Path="/3E99C09D" Ref="#U$?"  Part="1" 
@@ -294,7 +294,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 10800 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 B0198CF4
 P 7600 9500
 AR Path="/B0198CF4" Ref="#U$?"  Part="1" 
@@ -307,7 +307,7 @@ F 3 "" H 7600 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 F6E78796
 P 10900 5675
 AR Path="/F6E78796" Ref="#U$?"  Part="1" 
@@ -444,7 +444,7 @@ F 3 "" H 7300 11000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 3711C17C
 P 9050 7240
 AR Path="/3711C17C" Ref="#U$?"  Part="1" 
@@ -499,7 +499,7 @@ F 14 "THICK FILM CHIP RESISTOR" H 5550 1350 50  0001 C CNN "Manufacturer_Desc3"
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 B3D80E13
 P 5950 1450
 AR Path="/B3D80E13" Ref="#U$?"  Part="1" 
@@ -536,7 +536,7 @@ F 14 "CERAMIC SURFACE MOUNT - X7R DIELECTRIC" H 6550 1300 50  0001 C CNN "Manufa
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 30D71842
 P 6550 800
 AR Path="/30D71842" Ref="#U$?"  Part="1" 
@@ -570,7 +570,7 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$?
+L Power:+5VREF #U$?
 U 1 1 CE08125E
 P 8800 950
 AR Path="/CE08125E" Ref="#U$?"  Part="1" 
@@ -583,7 +583,7 @@ F 3 "" H 8800 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$?
+L Power:0VANA #U$?
 U 1 1 1DEA58DA
 P 8350 1550
 AR Path="/1DEA58DA" Ref="#U$?"  Part="1" 
@@ -683,7 +683,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 5210CFB4
 P 5650 750
 AR Path="/5210CFB4" Ref="#U$?"  Part="1" 
@@ -696,7 +696,7 @@ F 3 "" H 5650 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$?
+L Power:0VANA #U$?
 U 1 1 DBF96AF7
 P 1800 9950
 AR Path="/DBF96AF7" Ref="#U$?"  Part="1" 
@@ -778,7 +778,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 FF51A810
 P 2925 3550
 AR Path="/FF51A810" Ref="#U$?"  Part="1" 
@@ -791,7 +791,7 @@ F 3 "" H 2925 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 03A5157B
 P 1350 3750
 AR Path="/03A5157B" Ref="#U$?"  Part="1" 
@@ -804,7 +804,7 @@ F 3 "" H 1350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 4D1E3263
 P 6150 1150
 AR Path="/4D1E3263" Ref="#U$?"  Part="1" 
@@ -883,7 +883,7 @@ F 14 "RESISTOR, NETWORK, FILM, ISOLATED, SURFACE MOUNT" H 2500 2650 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 8E84819C
 P 2350 2100
 AR Path="/8E84819C" Ref="#U$?"  Part="1" 
@@ -896,7 +896,7 @@ F 3 "" H 2350 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 3AC17802
 P 1450 5650
 AR Path="/3AC17802" Ref="#U$?"  Part="1" 
@@ -922,7 +922,7 @@ F 3 "" H 1700 7000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 B2DD8134
 P 1600 7400
 AR Path="/B2DD8134" Ref="#U$?"  Part="1" 
@@ -935,7 +935,7 @@ F 3 "" H 1600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 5DD0B675
 P 10800 1200
 AR Path="/5DD0B675" Ref="#U$?"  Part="1" 
@@ -1017,7 +1017,7 @@ F 11 "INVERTER" H 12200 4350 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 0EB7FF6B
 P 12400 4550
 AR Path="/0EB7FF6B" Ref="#U$?"  Part="1" 
@@ -1057,7 +1057,7 @@ F 17 "THICK FILM CHIP RESISTOR" H 12050 7250 50  0001 C CNN "Manufacturer_Desc4"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 79870E22
 P 12050 7850
 AR Path="/79870E22" Ref="#U$?"  Part="1" 
@@ -1070,7 +1070,7 @@ F 3 "" H 12050 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24V #U$?
+L Power:+24V #U$?
 U 1 1 F573D045
 P 12850 3700
 AR Path="/F573D045" Ref="#U$?"  Part="1" 
@@ -1131,7 +1131,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 12200 7250 50  0001 C CNN "Manufacturer_De
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 3DB762BB
 P 13300 6750
 AR Path="/3DB762BB" Ref="#U$?"  Part="1" 
@@ -1144,7 +1144,7 @@ F 3 "" H 13300 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 F33B4A72
 P 14900 6700
 AR Path="/F33B4A72" Ref="#U$?"  Part="1" 
@@ -1178,7 +1178,7 @@ F 11 "SCHOTTKY BARRIER DOUBLE DIODE" H 13950 7700 50  0001 C CNN "Manufacturer_D
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 A9A82E2E
 P 6200 9050
 AR Path="/A9A82E2E" Ref="#U$?"  Part="1" 
@@ -1212,7 +1212,7 @@ F 11 "PC TEST POINT MINIATURE SMT" H 6500 8975 50  0001 C CNN "Manufacturer_Desc
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$?
+L Power:0VANA #U$?
 U 1 1 F8BE309A
 P 5100 10750
 AR Path="/F8BE309A" Ref="#U$?"  Part="1" 
@@ -1273,7 +1273,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    -1   1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 9A674123
 P 3025 3450
 AR Path="/9A674123" Ref="#U$?"  Part="1" 
@@ -1286,7 +1286,7 @@ F 3 "" H 3025 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 4EFC6875
 P 3225 3500
 AR Path="/4EFC6875" Ref="#U$?"  Part="1" 
@@ -1299,7 +1299,7 @@ F 3 "" H 3225 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 399C0C7A
 P 9900 4400
 AR Path="/399C0C7A" Ref="#U$?"  Part="1" 
@@ -1312,7 +1312,7 @@ F 3 "" H 9900 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 28129727
 P 9900 3050
 AR Path="/28129727" Ref="#U$?"  Part="1" 
@@ -1338,7 +1338,7 @@ F 3 "" H 10200 3250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 C3CF0A31
 P 10600 3400
 AR Path="/C3CF0A31" Ref="#U$?"  Part="1" 
@@ -1351,7 +1351,7 @@ F 3 "" H 10600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 5B2D5D04
 P 11900 2900
 AR Path="/5B2D5D04" Ref="#U$?"  Part="1" 
@@ -1728,7 +1728,7 @@ D10
 Text Label 9850 7300 0    50   ~ 0
 D11
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 15650906
 P 10500 8050
 AR Path="/15650906" Ref="#U$?"  Part="1" 
@@ -1777,7 +1777,7 @@ F 8 "BUS SWITCH" H 9900 3950 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 53BDAA82
 P 7400 1350
 AR Path="/53BDAA82" Ref="#U$?"  Part="1" 
@@ -2095,11 +2095,6 @@ Connection ~ 6350 1500
 Connection ~ 6150 1500
 Wire Wire Line
 	6150 1500 6150 1250
-Wire Wire Line
-	5750 850  5650 850 
-Wire Wire Line
-	5650 850  5550 850 
-Connection ~ 5650 850 
 Wire Wire Line
 	5350 1600 5350 1300
 Wire Wire Line
@@ -2680,7 +2675,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 2750 10450 2750
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 2FA4E625
 P 12000 3450
 AR Path="/2FA4E625" Ref="#U$?"  Part="1" 
@@ -2974,7 +2969,7 @@ F 3 "" H 3100 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$?
+L Power:+5V #U$?
 U 1 1 BCE09641
 P 1950 7600
 AR Path="/BCE09641" Ref="#U$?"  Part="1" 
@@ -3264,7 +3259,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 8050 7300 8350
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 EC169927
 P 6950 11200
 AR Path="/EC169927" Ref="#U$?"  Part="1" 
@@ -3529,7 +3524,7 @@ F 17 "THICK FILM CHIP RESISTOR" H 13800 7700 50  0001 C CNN "Manufacturer_Desc4"
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 85C4BE71
 P 13800 8100
 AR Path="/85C4BE71" Ref="#U$?"  Part="1" 
@@ -3578,7 +3573,7 @@ F 11 "CMOS LOGIC OCTAL-BUS TRANSCEIVER" H 11150 2850 50  0001 C CNN "Manufacture
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 34D6357D
 P 10950 3500
 AR Path="/34D6357D" Ref="#U$?"  Part="1" 
@@ -3853,6 +3848,8 @@ Wire Wire Line
 Connection ~ 6500 8350
 Wire Wire Line
 	6500 8350 6500 8800
+Wire Wire Line
+	5550 850  5750 850 
 Wire Bus Line
 	15950 2650 15950 4250
 Wire Bus Line

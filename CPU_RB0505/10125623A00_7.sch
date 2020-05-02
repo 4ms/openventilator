@@ -195,7 +195,7 @@ F 14 "N-CHANNEL TRENCHMOS FET" H 5700 3000 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$035
+L Power:GND #U$035
 U 1 1 B9D1E2C2
 P 5600 3350
 F 0 "#U$035" H 5600 3350 50  0001 C CNN
@@ -294,7 +294,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0126
+L Power:GND #U$0126
 U 1 1 3570AE0B
 P 5100 4900
 F 0 "#U$0126" H 5100 4900 50  0001 C CNN
@@ -321,7 +321,7 @@ F 8 "THICK FILM CHIP RESISTOR" H 3350 3400 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0216
+L Power:GND #U$0216
 U 1 1 B370812A
 P 3400 1600
 F 0 "#U$0216" H 3400 1600 50  0001 C CNN
@@ -332,7 +332,7 @@ F 3 "" H 3400 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0218
+L Power:+5V #U$0218
 U 1 1 DA379590
 P 3400 4400
 F 0 "#U$0218" H 3400 4400 50  0001 C CNN
@@ -343,7 +343,7 @@ F 3 "" H 3400 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0220
+L Power:+5V #U$0220
 U 1 1 2F8C19EB
 P 3400 3800
 F 0 "#U$0220" H 3400 3800 50  0001 C CNN
@@ -398,7 +398,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0230
+L Power:GND #U$0230
 U 1 1 3125B463
 P 5100 3850
 F 0 "#U$0230" H 5100 3850 50  0001 C CNN
@@ -409,7 +409,7 @@ F 3 "" H 5100 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0232
+L Power:GND #U$0232
 U 1 1 10CAE392
 P 10450 3025
 F 0 "#U$0232" H 10450 3025 50  0001 C CNN
@@ -420,7 +420,7 @@ F 3 "" H 10450 3025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0234
+L Power:GND #U$0234
 U 1 1 D70CEC43
 P 10450 950
 F 0 "#U$0234" H 10450 950 50  0001 C CNN
@@ -431,7 +431,7 @@ F 3 "" H 10450 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0236
+L Power:+5V #U$0236
 U 1 1 F484FC7A
 P 14200 925
 F 0 "#U$0236" H 14200 925 50  0001 C CNN
@@ -442,7 +442,7 @@ F 3 "" H 14200 925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0261
+L Power:GND #U$0261
 U 1 1 C1A8A136
 P 14675 1300
 F 0 "#U$0261" H 14675 1300 50  0001 C CNN
@@ -453,7 +453,7 @@ F 3 "" H 14675 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0285
+L Power:+5V #U$0285
 U 1 1 A0DF6488
 P 10800 3075
 F 0 "#U$0285" H 10800 3075 50  0001 C CNN
@@ -464,7 +464,7 @@ F 3 "" H 10800 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$0287
+L Power:+5V #U$0287
 U 1 1 603F22EA
 P 10800 925
 F 0 "#U$0287" H 10800 925 50  0001 C CNN
@@ -513,7 +513,7 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:+24V #U$0532
+L Power:+24V #U$0532
 U 1 1 BA196D3F
 P 11000 1375
 F 0 "#U$0532" H 11000 1375 50  0001 C CNN
@@ -524,7 +524,7 @@ F 3 "" H 11000 1375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0534
+L Power:GND #U$0534
 U 1 1 524CC2B7
 P 3200 5800
 F 0 "#U$0534" H 3200 5800 50  0001 C CNN
@@ -535,7 +535,7 @@ F 3 "" H 3200 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$0539
+L Power:GND #U$0539
 U 1 1 26F7E790
 P 6200 9750
 F 0 "#U$0539" H 6200 9750 50  0001 C CNN
@@ -558,7 +558,7 @@ F 4 "10023185" H 6050 8600 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0541
+L Power:GND #U$0541
 U 1 1 E7081248
 P 6400 8600
 F 0 "#U$0541" H 6400 8600 50  0001 C CNN
@@ -581,7 +581,7 @@ F 4 "10022607" H 5950 9900 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0547
+L Power:GND #U$0547
 U 1 1 7F698F3F
 P 7050 7600
 F 0 "#U$0547" H 7050 7600 50  0001 C CNN
@@ -592,7 +592,7 @@ F 3 "" H 7050 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$0550
+L Power:+3,3V #U$0550
 U 1 1 D00D651F
 P 7350 9100
 F 0 "#U$0550" H 7350 9100 50  0001 C CNN
@@ -625,7 +625,7 @@ F 14 "THICK FILM RECTANGULAR CHIP RESISTOR" H 7750 7900 50  0001 C CNN "Manufact
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0555
+L Power:+5V #U$0555
 U 1 1 EA4574B7
 P 7750 7600
 F 0 "#U$0555" H 7750 7600 50  0001 C CNN
@@ -636,7 +636,7 @@ F 3 "" H 7750 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0142
+L Power:GND #U$0142
 U 1 1 7A98F0EE
 P 4500 5500
 F 0 "#U$0142" H 4500 5500 50  0001 C CNN
@@ -691,7 +691,7 @@ F 14 "N-CHANNEL TRENCHMOS FET" H 5750 2100 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0146
+L Power:GND #U$0146
 U 1 1 1CE3BB42
 P 5650 2450
 F 0 "#U$0146" H 5650 2450 50  0001 C CNN
@@ -724,7 +724,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0147
+L Power:GND #U$0147
 U 1 1 197E97CB
 P 3700 5200
 F 0 "#U$0147" H 3700 5200 50  0001 C CNN
@@ -785,7 +785,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.125 W, 5 %, 100 PPM, 180 OHM, SURFACE 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24VUTIL #U$0371
+L Power:+24VUTIL #U$0371
 U 1 1 DC4F3C73
 P 15050 3900
 F 0 "#U$0371" H 15050 3900 50  0001 C CNN
@@ -796,7 +796,7 @@ F 3 "" H 15050 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0374
+L Power:0VANA #U$0374
 U 1 1 FB537956
 P 10900 4000
 F 0 "#U$0374" H 10900 4000 50  0001 C CNN
@@ -1110,7 +1110,7 @@ F 11 "" H 11250 4650 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24VUTIL #U$0378
+L Power:+24VUTIL #U$0378
 U 1 1 E2B064DA
 P 15050 5400
 F 0 "#U$0378" H 15050 5400 50  0001 C CNN
@@ -1121,7 +1121,7 @@ F 3 "" H 15050 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0379
+L Power:0VANA #U$0379
 U 1 1 A6CF7D7B
 P 10950 5475
 F 0 "#U$0379" H 10950 5475 50  0001 C CNN
@@ -1164,7 +1164,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 10100 63
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0388
+L Power:GND #U$0388
 U 1 1 5F813E21
 P 11250 6750
 F 0 "#U$0388" H 11250 6750 50  0001 C CNN
@@ -1193,7 +1193,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 14550 5150 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0372
+L Power:GND #U$0372
 U 1 1 C1E0916E
 P 11700 5575
 F 0 "#U$0372" H 11700 5575 50  0001 C CNN
@@ -1204,7 +1204,7 @@ F 3 "" H 11700 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0390
+L Power:GND #U$0390
 U 1 1 EC60E719
 P 11700 3900
 F 0 "#U$0390" H 11700 3900 50  0001 C CNN
@@ -1301,7 +1301,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 2900 105
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0269
+L Power:GND #U$0269
 U 1 1 2392FE28
 P 2900 10850
 F 0 "#U$0269" H 2900 10850 50  0001 C CNN
@@ -1312,7 +1312,7 @@ F 3 "" H 2900 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0270
+L Power:GND #U$0270
 U 1 1 CD82BA79
 P 3250 8700
 F 0 "#U$0270" H 3250 8700 50  0001 C CNN
@@ -1339,7 +1339,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 3750 105
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$0363
+L Power:+3,3V #U$0363
 U 1 1 769C1ACA
 P 3200 8100
 F 0 "#U$0363" H 3200 8100 50  0001 C CNN
@@ -1384,7 +1384,7 @@ F 8 "CONNECTOR" H 2250 10100 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0408
+L Power:GND #U$0408
 U 1 1 CEE6CBD5
 P 4700 10600
 F 0 "#U$0408" H 4700 10600 50  0001 C CNN
@@ -1469,7 +1469,7 @@ F 4 "10022607" H 5950 7750 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$045
+L Power:GND #U$045
 U 1 1 1641756A
 P 6650 9850
 F 0 "#U$045" H 6650 9850 50  0001 C CNN
@@ -1480,7 +1480,7 @@ F 3 "" H 6650 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0410
+L Power:GND #U$0410
 U 1 1 B9730BBC
 P 5950 8025
 F 0 "#U$0410" H 5950 8025 50  0001 C CNN
@@ -2302,7 +2302,7 @@ Wire Wire Line
 	7050 9250 6650 9250
 Connection ~ 6650 9250
 $Comp
-L cpu-board:GND #U$0364
+L Power:GND #U$0364
 U 1 1 5A12D295
 P 7050 9700
 F 0 "#U$0364" H 7050 9700 50  0001 C CNN
@@ -2506,7 +2506,7 @@ Wire Wire Line
 Wire Wire Line
 	14400 5150 12150 5150
 $Comp
-L cpu-board:GND #U$0387
+L Power:GND #U$0387
 U 1 1 FCA1AC8A
 P 10725 5575
 F 0 "#U$0387" H 10725 5575 50  0001 C CNN
@@ -2517,7 +2517,7 @@ F 3 "" H 10725 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0373
+L Power:GND #U$0373
 U 1 1 30A05D14
 P 10500 3900
 F 0 "#U$0373" H 10500 3900 50  0001 C CNN
@@ -3024,7 +3024,7 @@ F 14 "N-CHANNEL TRENCHMOS FET" H 5950 4050 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$087
+L Power:GND #U$087
 U 1 1 EC139480
 P 5850 4400
 F 0 "#U$087" H 5850 4400 50  0001 C CNN
@@ -3233,7 +3233,7 @@ Wire Wire Line
 	3850 7450 3850 7800
 Connection ~ 7350 7450
 $Comp
-L cpu-board:+3,3V #U$0540
+L Power:+3,3V #U$0540
 U 1 1 EB8893E1
 P 6075 10050
 F 0 "#U$0540" H 6075 10050 50  0001 C CNN

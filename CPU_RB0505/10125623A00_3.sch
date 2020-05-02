@@ -52,7 +52,7 @@ PFI
 Text HLabel 4150 2650 2    56   Output ~ 0
 POWER-FAIL
 $Comp
-L cpu-board:GND #U$94
+L Power:GND #U$94
 U 1 1 6D0D8D91
 P 2900 4600
 AR Path="/6D0D8D91" Ref="#U$94"  Part="1" 
@@ -65,7 +65,7 @@ F 3 "" H 2900 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$99
+L Power:+5V #U$99
 U 1 1 B1452B4B
 P 3250 4600
 AR Path="/B1452B4B" Ref="#U$99"  Part="1" 
@@ -102,7 +102,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$100
+L Power:GND #U$100
 U 1 1 1B0C7F6A
 P 4550 7300
 AR Path="/1B0C7F6A" Ref="#U$100"  Part="1" 
@@ -115,7 +115,7 @@ F 3 "" H 4550 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$102
+L Power:+5V #U$102
 U 1 1 E9A68DEF
 P 4300 6550
 AR Path="/E9A68DEF" Ref="#U$102"  Part="1" 
@@ -173,7 +173,7 @@ F 14 "BATTERY" H 4550 6750 50  0001 C CNN "Manufacturer_Desc3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+24V #U$217
+L Power:+24V #U$217
 U 1 1 82B40965
 P 13550 2100
 AR Path="/82B40965" Ref="#U$217"  Part="1" 
@@ -252,7 +252,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$228
+L Power:GND #U$228
 U 1 1 0966E2B7
 P 11350 6400
 AR Path="/0966E2B7" Ref="#U$228"  Part="1" 
@@ -301,7 +301,7 @@ F 8 "3 WAY PROPORTIONAL VALVE" H 13550 5250 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$289
+L Power:+5V #U$289
 U 1 1 8B09CC94
 P 7000 4600
 AR Path="/8B09CC94" Ref="#U$289"  Part="1" 
@@ -314,7 +314,7 @@ F 3 "" H 7000 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$290
+L Power:GND #U$290
 U 1 1 22942F50
 P 7600 4600
 AR Path="/22942F50" Ref="#U$290"  Part="1" 
@@ -440,7 +440,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$298
+L Power:0VANA #U$298
 U 1 1 9D64A308
 P 13000 6625
 AR Path="/9D64A308" Ref="#U$298"  Part="1" 
@@ -453,7 +453,7 @@ F 3 "" H 13000 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$299
+L Power:GND #U$299
 U 1 1 03BA1079
 P 11900 7350
 AR Path="/03BA1079" Ref="#U$299"  Part="1" 
@@ -514,7 +514,7 @@ F 14 "CERAMIC CHIP CAPACITOR" H 14550 6750 50  0001 C CNN "Manufacturer_Desc3"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$324
+L Power:0VANA #U$324
 U 1 1 CBB6799F
 P 14550 7250
 AR Path="/CBB6799F" Ref="#U$324"  Part="1" 
@@ -671,7 +671,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$327
+L Power:+5V #U$327
 U 1 1 36B5ECB2
 P 7300 1975
 AR Path="/36B5ECB2" Ref="#U$327"  Part="1" 
@@ -708,7 +708,7 @@ F 14 "CAP, CER, 0.001UF, 50V, 10%, X7R, 0402" H 8050 3000 50  0001 C CNN "Manufa
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$334
+L Power:0VANA #U$334
 U 1 1 03007719
 P 8050 3225
 AR Path="/03007719" Ref="#U$334"  Part="1" 
@@ -721,7 +721,7 @@ F 3 "" H 8050 3225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$335
+L Power:0VANA #U$335
 U 1 1 0B15C6BC
 P 6400 4050
 AR Path="/0B15C6BC" Ref="#U$335"  Part="1" 
@@ -734,7 +734,7 @@ F 3 "" H 6400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$341
+L Power:0VANA #U$341
 U 1 1 860440EB
 P 7300 3200
 AR Path="/860440EB" Ref="#U$341"  Part="1" 
@@ -747,7 +747,7 @@ F 3 "" H 7300 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$342
+L Power:0VANA #U$342
 U 1 1 C1C3A0AE
 P 7925 2200
 AR Path="/C1C3A0AE" Ref="#U$342"  Part="1" 
@@ -784,7 +784,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 100000 OHM, SURFACE
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$344
+L Power:GND #U$344
 U 1 1 B42825EF
 P 13550 3725
 AR Path="/B42825EF" Ref="#U$344"  Part="1" 
@@ -797,7 +797,7 @@ F 3 "" H 13550 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24V #U$222
+L Power:+24V #U$222
 U 1 1 D3678DB3
 P 11050 2050
 AR Path="/D3678DB3" Ref="#U$222"  Part="1" 
@@ -849,7 +849,7 @@ F 5 "M41T94MQ6E" H 7300 6150 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$409
+L Power:GND #U$409
 U 1 1 8319BA5C
 P 2850 1950
 AR Path="/8319BA5C" Ref="#U$409"  Part="1" 
@@ -886,7 +886,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$416
+L Power:GND #U$416
 U 1 1 D741E609
 P 1700 4150
 AR Path="/D741E609" Ref="#U$416"  Part="1" 
@@ -947,7 +947,7 @@ F 14 "THICK FILM CHIP RESISTOR" H 1700 3750 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+24V #U$417
+L Power:+24V #U$417
 U 1 1 BC8B8B46
 P 1700 2950
 AR Path="/BC8B8B46" Ref="#U$417"  Part="1" 
@@ -1098,7 +1098,7 @@ F 14 "THICK FILM RECTANGULAR CHIP RESISTOR" H 3850 3850 50  0001 C CNN "Manufact
 	0    1    1    0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$427
+L Power:+5V #U$427
 U 1 1 9B2D83E4
 P 3350 2100
 AR Path="/9B2D83E4" Ref="#U$427"  Part="1" 
@@ -1111,7 +1111,7 @@ F 3 "" H 3350 2100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$428
+L Power:+5V #U$428
 U 1 1 05DF9F3B
 P 2450 1950
 AR Path="/05DF9F3B" Ref="#U$428"  Part="1" 
@@ -1124,7 +1124,7 @@ F 3 "" H 2450 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$429
+L Power:+5V #U$429
 U 1 1 CEC9B6D3
 P 3850 2950
 AR Path="/CEC9B6D3" Ref="#U$429"  Part="1" 
@@ -1417,7 +1417,7 @@ F 11 "IC OPAMP DUAL RAIL-RAIL 8SOIC" H 7300 2625 50  0001 C CNN "Manufacturer_De
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24V #U$227
+L Power:+24V #U$227
 U 1 1 CA42F55C
 P 11900 4550
 AR Path="/CA42F55C" Ref="#U$227"  Part="1" 
@@ -1528,7 +1528,7 @@ V-BATTERY
 Text Label 8100 6950 0    50   ~ 0
 V-BATTERY
 $Comp
-L cpu-board:+24V #U$?
+L Power:+24V #U$?
 U 1 1 5EA7FA28
 P 14250 2350
 AR Path="/5EA7FA28" Ref="#U$?"  Part="1" 
@@ -1751,7 +1751,7 @@ Connection ~ 3500 4050
 Wire Wire Line
 	3500 4050 3500 4100
 $Comp
-L cpu-board:GND #U$422
+L Power:GND #U$422
 U 1 1 3A460F9A
 P 3500 4200
 AR Path="/3A460F9A" Ref="#U$422"  Part="1" 
@@ -1775,7 +1775,7 @@ Wire Wire Line
 	10550 3300 10250 3300
 Connection ~ 10550 3300
 $Comp
-L cpu-board:GND #U$345
+L Power:GND #U$345
 U 1 1 7FAE653E
 P 11050 3800
 AR Path="/7FAE653E" Ref="#U$345"  Part="1" 

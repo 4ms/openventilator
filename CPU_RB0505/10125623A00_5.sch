@@ -121,7 +121,7 @@ Text HLabel 9850 6950 2    56   Output ~ 0
 Text HLabel 15275 2500 2    56   Output ~ 0
 MES-24V
 $Comp
-L cpu-board:+24V #U$37
+L Power:+24V #U$37
 U 1 1 29820D38
 P 1600 1750
 AR Path="/29820D38" Ref="#U$37"  Part="1" 
@@ -134,7 +134,7 @@ F 3 "" H 1600 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+24V #U$430
+L Power:+24V #U$430
 U 1 1 A729E0A6
 P 1700 8500
 AR Path="/A729E0A6" Ref="#U$430"  Part="1" 
@@ -147,7 +147,7 @@ F 3 "" H 1700 8500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$157
+L Power:+5V #U$157
 U 1 1 E8E1CB51
 P 2100 6150
 AR Path="/E8E1CB51" Ref="#U$157"  Part="1" 
@@ -160,7 +160,7 @@ F 3 "" H 2100 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$64
+L Power:+5VREF #U$64
 U 1 1 E60C17AF
 P 3950 2000
 AR Path="/E60C17AF" Ref="#U$64"  Part="1" 
@@ -173,7 +173,7 @@ F 3 "" H 3950 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+10VREF #U$67
+L Power:+10VREF #U$67
 U 1 1 5FFDB1B2
 P 3950 4500
 AR Path="/5FFDB1B2" Ref="#U$67"  Part="1" 
@@ -186,7 +186,7 @@ F 3 "" H 3950 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+24V #U$148
+L Power:+24V #U$148
 U 1 1 D319FAF3
 P 14500 1700
 AR Path="/D319FAF3" Ref="#U$148"  Part="1" 
@@ -308,7 +308,7 @@ F 3 "" H 2450 6750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$136
+L Power:+3,3V #U$136
 U 1 1 6DF59C4C
 P 4000 6350
 AR Path="/6DF59C4C" Ref="#U$136"  Part="1" 
@@ -334,7 +334,7 @@ F 3 "" H 6050 8400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$189
+L Power:GND #U$189
 U 1 1 3F673420
 P 3200 8350
 AR Path="/3F673420" Ref="#U$189"  Part="1" 
@@ -347,7 +347,7 @@ F 3 "" H 3200 8350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$38
+L Power:0VANA #U$38
 U 1 1 D00605AD
 P 2900 2800
 AR Path="/D00605AD" Ref="#U$38"  Part="1" 
@@ -360,7 +360,7 @@ F 3 "" H 2900 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$163
+L Power:GND #U$163
 U 1 1 C2734EFA
 P 2950 7250
 AR Path="/C2734EFA" Ref="#U$163"  Part="1" 
@@ -373,7 +373,7 @@ F 3 "" H 2950 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$188
+L Power:GND #U$188
 U 1 1 E9CEE54B
 P 3700 10500
 AR Path="/E9CEE54B" Ref="#U$188"  Part="1" 
@@ -386,7 +386,7 @@ F 3 "" H 3700 10500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$183
+L Power:GND #U$183
 U 1 1 A3030CF0
 P 4750 10500
 AR Path="/A3030CF0" Ref="#U$183"  Part="1" 
@@ -399,7 +399,7 @@ F 3 "" H 4750 10500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$192
+L Power:GND #U$192
 U 1 1 AFF65876
 P 5500 8900
 AR Path="/AFF65876" Ref="#U$192"  Part="1" 
@@ -412,7 +412,7 @@ F 3 "" H 5500 8900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$194
+L Power:+5V #U$194
 U 1 1 B988052F
 P 6350 7925
 AR Path="/B988052F" Ref="#U$194"  Part="1" 
@@ -425,7 +425,7 @@ F 3 "" H 6350 7925 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$213
+L Power:GND #U$213
 U 1 1 ECE78060
 P 2700 9825
 AR Path="/ECE78060" Ref="#U$213"  Part="1" 
@@ -438,7 +438,7 @@ F 3 "" H 2700 9825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$376
+L Power:0VANA #U$376
 U 1 1 CFE99AB5
 P 8750 3050
 AR Path="/CFE99AB5" Ref="#U$376"  Part="1" 
@@ -451,7 +451,7 @@ F 3 "" H 8750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$377
+L Power:0VANA #U$377
 U 1 1 BA815124
 P 8750 5300
 AR Path="/BA815124" Ref="#U$377"  Part="1" 
@@ -464,7 +464,7 @@ F 3 "" H 8750 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$389
+L Power:GND #U$389
 U 1 1 F567780A
 P 8750 7700
 AR Path="/F567780A" Ref="#U$389"  Part="1" 
@@ -1028,7 +1028,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5200 1600 5050
 $Comp
-L cpu-board:+24V #U$?
+L Power:+24V #U$?
 U 1 1 5EAD48BA
 P 1600 4150
 AR Path="/5EAD48BA" Ref="#U$?"  Part="1" 
@@ -1041,7 +1041,7 @@ F 3 "" H 1600 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$?
+L Power:0VANA #U$?
 U 1 1 5EAD48D2
 P 2900 5200
 AR Path="/5EAD48D2" Ref="#U$?"  Part="1" 
@@ -1207,7 +1207,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 1800 8750 1900
 $Comp
-L cpu-board:+24VUTIL #U$166
+L Power:+24VUTIL #U$166
 U 1 1 4F99660B
 P 11650 1375
 AR Path="/4F99660B" Ref="#U$166"  Part="1" 
@@ -1380,7 +1380,7 @@ Wire Wire Line
 	15150 2500 15275 2500
 Connection ~ 15150 2500
 $Comp
-L cpu-board:0VANA #U$?
+L Power:0VANA #U$?
 U 1 1 5EB67D38
 P 15150 3050
 AR Path="/5EB67D38" Ref="#U$?"  Part="1" 
@@ -1419,7 +1419,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 3000 15150 3000
 $Comp
-L cpu-board:GND #U$?
+L Power:GND #U$?
 U 1 1 5EBA76AF
 P 13650 3150
 AR Path="/5EBA76AF" Ref="#U$?"  Part="1" 
@@ -1439,7 +1439,7 @@ Connection ~ 12700 2000
 Wire Wire Line
 	12700 2000 13000 2000
 $Comp
-L cpu-board:+3,3V #U$?
+L Power:+3,3V #U$?
 U 1 1 5E9E0DC3
 P 7850 6300
 AR Path="/5E9E0DC3" Ref="#U$?"  Part="1" 
@@ -1454,7 +1454,7 @@ $EndComp
 Wire Wire Line
 	7850 6200 7850 6250
 $Comp
-L cpu-board:+10VREF #U$?
+L Power:+10VREF #U$?
 U 1 1 5E9E8B84
 P 7850 3875
 AR Path="/5E9E8B84" Ref="#U$?"  Part="1" 
@@ -1467,7 +1467,7 @@ F 3 "" H 7850 3875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$?
+L Power:+5VREF #U$?
 U 1 1 5E9E93B2
 P 7850 1650
 AR Path="/5E9E93B2" Ref="#U$?"  Part="1" 

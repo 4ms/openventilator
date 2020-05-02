@@ -169,7 +169,7 @@ RF
 Text HLabel 10050 1500 0    56   Input ~ 0
 SUPPLY-AL-RP
 $Comp
-L cpu-board:GND #U$043
+L Power:GND #U$043
 U 1 1 8B1A1718
 P 9000 8100
 F 0 "#U$043" H 9000 8100 50  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 9000 8100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0180
+L Power:0VANA #U$0180
 U 1 1 3541E6BB
 P 14800 2100
 F 0 "#U$0180" H 14800 2100 50  0001 C CNN
@@ -207,7 +207,7 @@ F 8 "ZH CONNECTOR" H 13600 1900 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0226
+L Power:GND #U$0226
 U 1 1 71043D71
 P 2400 7300
 F 0 "#U$0226" H 2400 7300 50  0001 C CNN
@@ -304,7 +304,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 11100 2700 50  0001 C CNN "Manufacturer_Desc"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0247
+L Power:GND #U$0247
 U 1 1 B682350D
 P 11600 3350
 F 0 "#U$0247" H 11600 3350 50  0001 C CNN
@@ -355,7 +355,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0248
+L Power:0VANA #U$0248
 U 1 1 27C1F247
 P 14000 1325
 F 0 "#U$0248" H 14000 1325 50  0001 C CNN
@@ -400,7 +400,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 2700 6650 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0252
+L Power:GND #U$0252
 U 1 1 9A2BCF0A
 P 3400 5150
 F 0 "#U$0252" H 3400 5150 50  0001 C CNN
@@ -449,7 +449,7 @@ F 8 "CONNECTOR" H 1850 3700 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24V #U$0253
+L Power:+24V #U$0253
 U 1 1 4F666574
 P 2900 3800
 F 0 "#U$0253" H 2900 3800 50  0001 C CNN
@@ -460,7 +460,7 @@ F 3 "" H 2900 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$0254
+L Power:GND #U$0254
 U 1 1 169273E9
 P 2300 4300
 F 0 "#U$0254" H 2300 4300 50  0001 C CNN
@@ -551,7 +551,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.00015 UF, SURFACE MOUNT, 0402
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+24V #U$0258
+L Power:+24V #U$0258
 U 1 1 D53A7098
 P 14700 3850
 F 0 "#U$0258" H 14700 3850 50  0001 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 14700 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$0259
+L Power:GND #U$0259
 U 1 1 2CF06972
 P 14125 4375
 F 0 "#U$0259" H 14125 4375 50  0001 C CNN
@@ -631,7 +631,7 @@ F 8 "MULTILAYER-SMD-FERRITE" H 14400 3850 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0262
+L Power:GND #U$0262
 U 1 1 52ADF2D3
 P 14125 3125
 F 0 "#U$0262" H 14125 3125 50  0001 C CNN
@@ -690,7 +690,7 @@ F 4 "10022975" H 13225 6000 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+10VREF #U$?
+L Power:+10VREF #U$?
 U 1 1 5F7ACB82
 P 13975 5200
 AR Path="/5F7ACB82" Ref="#U$?"  Part="1" 
@@ -743,7 +743,7 @@ F 4 "10022607" H 14175 6100 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0272
+L Power:0VANA #U$0272
 U 1 1 573EEE1A
 P 14175 6300
 F 0 "#U$0272" H 14175 6300 50  0001 C CNN
@@ -766,7 +766,7 @@ F 4 "10022607" H 6550 6700 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$065
+L Power:0VANA #U$065
 U 1 1 92CBB1CF
 P 6350 7150
 F 0 "#U$065" H 6350 7150 50  0001 C CNN
@@ -847,7 +847,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 11600 29
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0268
+L Power:GND #U$0268
 U 1 1 6D17203A
 P 11300 1000
 F 0 "#U$0268" H 11300 1000 50  0001 C CNN
@@ -1039,7 +1039,7 @@ F 14 "CHIP RESISTOR" H 9300 5450 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$0167
+L Power:+5VREF #U$0167
 U 1 1 5D80D2F4
 P 9300 5050
 F 0 "#U$0167" H 9300 5050 50  0001 C CNN
@@ -1170,7 +1170,7 @@ F 11 "" H 10225 2400 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0520
+L Power:GND #U$0520
 U 1 1 F1C50A96
 P 10700 4400
 F 0 "#U$0520" H 10700 4400 50  0001 C CNN
@@ -1200,7 +1200,7 @@ F 11 "SCHOTTKY BARRIER DOUBLE DIODE" H 9800 3750 50  0001 C CNN "Manufacturer_De
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0525
+L Power:GND #U$0525
 U 1 1 09CA47E4
 P 10900 3150
 F 0 "#U$0525" H 10900 3150 50  0001 C CNN
@@ -1233,7 +1233,7 @@ F 14 "" H 9300 3850 50  0001 C CNN "Manufacturer_Desc3"
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0527
+L Power:+5V #U$0527
 U 1 1 29A8FB04
 P 9050 3500
 F 0 "#U$0527" H 9050 3500 50  0001 C CNN
@@ -1266,7 +1266,7 @@ F 3 "" H 5050 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$0244
+L Power:+3,3V #U$0244
 U 1 1 5E91CB51
 P 8600 3150
 F 0 "#U$0244" H 8600 3150 50  0001 C CNN
@@ -1277,7 +1277,7 @@ F 3 "" H 8600 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0245
+L Power:GND #U$0245
 U 1 1 F2C6DEAE
 P 5100 3400
 F 0 "#U$0245" H 5100 3400 50  0001 C CNN
@@ -1316,7 +1316,7 @@ F 4 "10022607" H 7950 2775 50  0001 C CNN "Item Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0413
+L Power:GND #U$0413
 U 1 1 D8F75EB2
 P 5100 2600
 F 0 "#U$0413" H 5100 2600 50  0001 C CNN
@@ -1390,7 +1390,7 @@ F 14 "CERAMIC CAPACITOR X7R" H 10300 7750 50  0001 C CNN "Manufacturer_Desc3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0432
+L Power:GND #U$0432
 U 1 1 28434D00
 P 10300 8100
 F 0 "#U$0432" H 10300 8100 50  0001 C CNN
@@ -1585,7 +1585,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	1    0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5VREF #U$0407
+L Power:+5VREF #U$0407
 U 1 1 6E26571B
 P 2700 1250
 F 0 "#U$0407" H 2700 1250 50  0001 C CNN
@@ -1618,7 +1618,7 @@ F 14 "THICK FILM RECTANGULAR CHIP RESISTOR" H 2700 1600 50  0001 C CNN "Manufact
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0405
+L Power:0VANA #U$0405
 U 1 1 F4807D6B
 P 2600 2400
 F 0 "#U$0405" H 2600 2400 50  0001 C CNN
@@ -1633,7 +1633,7 @@ FLOW-TEMP
 Wire Wire Line
 	2600 2400 2600 2300
 $Comp
-L cpu-board:GND #U$0256
+L Power:GND #U$0256
 U 1 1 7293558A
 P 2300 3050
 F 0 "#U$0256" H 2300 3050 50  0001 C CNN
@@ -1666,7 +1666,7 @@ F 14 "THICK FILM RECTANGULAR CHIP RESISTOR" H 6350 6700 50  0001 C CNN "Manufact
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0132
+L Power:0VANA #U$0132
 U 1 1 30C30973
 P 9050 6000
 F 0 "#U$0132" H 9050 6000 50  0001 C CNN
@@ -1740,7 +1740,7 @@ F 3 "" H 12775 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:0VANA #U$0263
+L Power:0VANA #U$0263
 U 1 1 DEDC7F62
 P 13225 6300
 F 0 "#U$0263" H 13225 6300 50  0001 C CNN
@@ -1803,7 +1803,7 @@ Wire Wire Line
 Wire Wire Line
 	14400 1900 14500 1900
 $Comp
-L cpu-board:GND #U$0267
+L Power:GND #U$0267
 U 1 1 65AF9A20
 P 11950 2200
 F 0 "#U$0267" H 11950 2200 50  0001 C CNN
@@ -1898,7 +1898,7 @@ NoConn ~ 6650 2750
 NoConn ~ 6650 3050
 NoConn ~ 6650 3150
 $Comp
-L cpu-board:GND #U$0246
+L Power:GND #U$0246
 U 1 1 7FB4A0FD
 P 8100 2450
 F 0 "#U$0246" H 8100 2450 50  0001 C CNN
@@ -1974,7 +1974,7 @@ Connection ~ 9800 6700
 Text Notes 1900 8025 0    50   ~ 0
 *Note: in earlier version, L22 connects to +5V instead of +5VSUPPLYBOARD
 $Comp
-L cpu-board:+5V #0101
+L Power:+5V #0101
 U 1 1 5E99C70E
 P 3100 6500
 F 0 "#0101" H 3150 6550 50  0001 C CNN
@@ -2105,7 +2105,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 6150 4000 7200
 $Comp
-L cpu-board:GND #U$0251
+L Power:GND #U$0251
 U 1 1 E87EA68E
 P 3600 7750
 F 0 "#U$0251" H 3600 7750 50  0001 C CNN
@@ -2184,7 +2184,7 @@ Wire Wire Line
 Wire Wire Line
 	12975 6200 13075 6200
 $Comp
-L cpu-board:0VANA #U$0265
+L Power:0VANA #U$0265
 U 1 1 3BAA26EC
 P 13225 5200
 F 0 "#U$0265" H 13225 5200 50  0001 C CNN

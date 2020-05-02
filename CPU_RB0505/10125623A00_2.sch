@@ -150,7 +150,7 @@ Wire Wire Line
 Connection ~ 7200 6800
 Connection ~ 7300 6800
 $Comp
-L cpu-board:+5V #U$033
+L Power:+5V #U$033
 U 1 1 6953EFA5
 P 3300 6600
 F 0 "#U$033" H 3300 6600 50  0001 C CNN
@@ -161,7 +161,7 @@ F 3 "" H 3300 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$073
+L Power:+3,3V #U$073
 U 1 1 0D6BAA89
 P 4700 6750
 F 0 "#U$073" H 4700 6750 50  0001 C CNN
@@ -172,7 +172,7 @@ F 3 "" H 4700 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$078
+L Power:GND #U$078
 U 1 1 7A2675AF
 P 4750 5150
 F 0 "#U$078" H 4750 5150 50  0001 C CNN
@@ -183,7 +183,7 @@ F 3 "" H 4750 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$079
+L Power:+5V #U$079
 U 1 1 A488A5D8
 P 4750 1250
 F 0 "#U$079" H 4750 1250 50  0001 C CNN
@@ -238,7 +238,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$080
+L Power:GND #U$080
 U 1 1 6E5A9549
 P 5550 1700
 F 0 "#U$080" H 5550 1700 50  0001 C CNN
@@ -274,7 +274,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 12300 1300 50  0001 C CNN "Manufacturer_De
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$031
+L Power:+5V #U$031
 U 1 1 BD08BF3C
 P 12550 1000
 F 0 "#U$031" H 12550 1000 50  0001 C CNN
@@ -285,7 +285,7 @@ F 3 "" H 12550 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$050
+L Power:GND #U$050
 U 1 1 1C85CEBD
 P 12100 1000
 F 0 "#U$050" H 12100 1000 50  0001 C CNN
@@ -356,7 +356,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 1500 OHM, SURFACE M
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$052
+L Power:GND #U$052
 U 1 1 065004B8
 P 11250 5450
 F 0 "#U$052" H 11250 5450 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 11250 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$053
+L Power:+5V #U$053
 U 1 1 2725C90F
 P 11250 1550
 F 0 "#U$053" H 11250 1550 50  0001 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 11250 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$061
+L Power:GND #U$061
 U 1 1 95A06B3D
 P 11050 2250
 F 0 "#U$061" H 11050 2250 50  0001 C CNN
@@ -427,7 +427,7 @@ F 14 "RESISTOR, NETWORK, FILM, ISOLATED, SURFACE MOUNT" H 13350 3200 50  0001 C 
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$066
+L Power:+5V #U$066
 U 1 1 32421C70
 P 13200 2625
 F 0 "#U$066" H 13200 2625 50  0001 C CNN
@@ -460,7 +460,7 @@ F 14 "BUFFER WITH OPEN DRAIN OUTPUT" H 14250 6650 50  0001 C CNN "Manufacturer_D
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$068
+L Power:GND #U$068
 U 1 1 BE4DCE1E
 P 14400 4850
 F 0 "#U$068" H 14400 4850 50  0001 C CNN
@@ -471,7 +471,7 @@ F 3 "" H 14400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$069
+L Power:GND #U$069
 U 1 1 82C3E2B3
 P 14250 6050
 F 0 "#U$069" H 14250 6050 50  0001 C CNN
@@ -526,7 +526,7 @@ F 14 "THICK FILM RECTANGULAR CHIP RESISTOR" H 15250 6350 50  0001 C CNN "Manufac
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$072
+L Power:+3,3V #U$072
 U 1 1 12B0E286
 P 14300 5300
 F 0 "#U$072" H 14300 5300 50  0001 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 14300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+5V #U$0116
+L Power:+5V #U$0116
 U 1 1 3927A1D0
 P 13600 3700
 F 0 "#U$0116" H 13600 3700 50  0001 C CNN
@@ -548,7 +548,7 @@ F 3 "" H 13600 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0124
+L Power:+5V #U$0124
 U 1 1 3DC1F79A
 P 14550 5100
 F 0 "#U$0124" H 14550 5100 50  0001 C CNN
@@ -571,7 +571,7 @@ F 4 "10022607" V 3150 1750 50  0001 C CNN "Item Number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L cpu-board:GND #U$054
+L Power:GND #U$054
 U 1 1 7B689AD0
 P 2850 9600
 F 0 "#U$054" H 2850 9600 50  0001 C CNN
@@ -582,7 +582,7 @@ F 3 "" H 2850 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0134
+L Power:GND #U$0134
 U 1 1 8BC7A6EC
 P 4600 10150
 F 0 "#U$0134" H 4600 10150 50  0001 C CNN
@@ -593,7 +593,7 @@ F 3 "" H 4600 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0106
+L Power:GND #U$0106
 U 1 1 4085D8D9
 P 7800 10300
 F 0 "#U$0106" H 7800 10300 50  0001 C CNN
@@ -604,7 +604,7 @@ F 3 "" H 7800 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$0155
+L Power:+3,3V #U$0155
 U 1 1 696DB67A
 P 6150 9000
 F 0 "#U$0155" H 6150 9000 50  0001 C CNN
@@ -640,7 +640,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 6900 6800 50  0001 C CNN "Manufacturer_Des
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$077
+L Power:+3,3V #U$077
 U 1 1 9A1B0C17
 P 7300 6700
 F 0 "#U$077" H 7300 6700 50  0001 C CNN
@@ -651,7 +651,7 @@ F 3 "" H 7300 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$085
+L Power:GND #U$085
 U 1 1 B088C125
 P 6600 6500
 F 0 "#U$085" H 6600 6500 50  0001 C CNN
@@ -662,7 +662,7 @@ F 3 "" H 6600 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0293
+L Power:+5V #U$0293
 U 1 1 EE6706A4
 P 10950 6400
 F 0 "#U$0293" H 10950 6400 50  0001 C CNN
@@ -673,7 +673,7 @@ F 3 "" H 10950 6400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0294
+L Power:GND #U$0294
 U 1 1 6EBC0E60
 P 10550 6400
 F 0 "#U$0294" H 10550 6400 50  0001 C CNN
@@ -684,7 +684,7 @@ F 3 "" H 10550 6400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0326
+L Power:GND #U$0326
 U 1 1 E28CED9F
 P 1850 1250
 F 0 "#U$0326" H 1850 1250 50  0001 C CNN
@@ -745,7 +745,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 4550 6900 50  0001 C CNN "Manufacturer_Des
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:GND #U$032
+L Power:GND #U$032
 U 1 1 F4AAF165
 P 3700 6600
 F 0 "#U$032" H 3700 6600 50  0001 C CNN
@@ -819,7 +819,7 @@ F 11 "INVERTER" H 1650 2200 50  0001 C CNN "Manufacturer_Desc2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$0433
+L Power:GND #U$0433
 U 1 1 69397AC8
 P 3000 1250
 F 0 "#U$0433" H 3000 1250 50  0001 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 3000 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0434
+L Power:+5V #U$0434
 U 1 1 EB37BF0C
 P 3300 1250
 F 0 "#U$0434" H 3300 1250 50  0001 C CNN
@@ -841,7 +841,7 @@ F 3 "" H 3300 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$0437
+L Power:+5V #U$0437
 U 1 1 70A3BE0B
 P 2200 7400
 F 0 "#U$0437" H 2200 7400 50  0001 C CNN
@@ -852,7 +852,7 @@ F 3 "" H 2200 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:GND #U$0438
+L Power:GND #U$0438
 U 1 1 AC44E056
 P 1900 7400
 F 0 "#U$0438" H 1900 7400 50  0001 C CNN
@@ -863,7 +863,7 @@ F 3 "" H 1900 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cpu-board:+5V #U$08
+L Power:+5V #U$08
 U 1 1 59F585D1
 P 8850 1100
 F 0 "#U$08" H 8850 1100 50  0001 C CNN
@@ -896,7 +896,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L cpu-board:+5V #U$09
+L Power:+5V #U$09
 U 1 1 9E0009A5
 P 8650 5000
 F 0 "#U$09" H 8650 5000 50  0001 C CNN
@@ -907,7 +907,7 @@ F 3 "" H 8650 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:GND #U$027
+L Power:GND #U$027
 U 1 1 88B45EA1
 P 8250 1100
 F 0 "#U$027" H 8250 1100 50  0001 C CNN
@@ -1342,7 +1342,7 @@ F 14 "TRANSCEIVER 3.3V TO 5V" H 3200 7700 50  0001 C CNN "Manufacturer_Desc3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cpu-board:+3,3V #U$0435
+L Power:+3,3V #U$0435
 U 1 1 35824EB4
 P 6150 10500
 F 0 "#U$0435" H 6150 10500 50  0001 C CNN
@@ -2049,7 +2049,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5050 4750 4900
 $Comp
-L cpu-board:GND #U$082
+L Power:GND #U$082
 U 1 1 C66F0688
 P 3900 1250
 F 0 "#U$082" H 3900 1250 50  0001 C CNN
@@ -2100,7 +2100,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1350 1850 1450
 $Comp
-L cpu-board:+5V #U$0325
+L Power:+5V #U$0325
 U 1 1 444B25E3
 P 2150 1250
 F 0 "#U$0325" H 2150 1250 50  0001 C CNN
@@ -2182,7 +2182,7 @@ Connection ~ 13550 1950
 Wire Wire Line
 	13550 1500 13550 1600
 $Comp
-L cpu-board:GND #U$051
+L Power:GND #U$051
 U 1 1 773EFA15
 P 14550 1750
 F 0 "#U$051" H 14550 1750 50  0001 C CNN
