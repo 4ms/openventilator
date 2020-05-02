@@ -1,3 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2pinConnector_Power_MiniFit
+F https://www.molex.com/pdm_docs/sd/039281023_sd.pdf
+$ENDCMP
+#
+$CMP 9pinConnector_Unpopulated
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0022057098_PCB_HEADERS.pdf
+$ENDCMP
+#
+$CMP Conn_01x07
+D Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library

@@ -334,7 +334,7 @@ F 3 "" H 6325 4225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small SJ1
+L Jumper:JUMP_0U SJ1
 U 1 1 5EA158D9
 P 5850 3700
 F 0 "SJ1" V 5900 3900 50  0000 R CNN
@@ -345,7 +345,7 @@ F 3 "~" H 5850 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5850 3800 5850 4125
+	5850 3900 5850 4125
 Wire Wire Line
 	5850 4125 6325 4125
 Wire Wire Line
@@ -355,8 +355,6 @@ Wire Wire Line
 Connection ~ 6325 4125
 Wire Wire Line
 	6425 3400 6425 3625
-Wire Wire Line
-	5850 3400 5850 3600
 $Comp
 L power:GND #PWR056
 U 1 1 5EA31DDC
@@ -548,7 +546,7 @@ F 3 "" H 6100 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R48
+L Resistor:R0402_NC R48
 U 1 1 5E9BACF2
 P 8350 5400
 F 0 "R48" V 8250 5400 50  0000 C CNN
@@ -559,7 +557,7 @@ F 3 "~" H 8350 5400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R60
+L Resistor:R0402_NC R60
 U 1 1 5E9BBB0B
 P 8100 4750
 F 0 "R60" H 7950 4750 50  0000 C CNN
@@ -592,17 +590,6 @@ F 3 "" H 9300 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper JP1
-U 1 1 5E9C0175
-P 9550 5375
-F 0 "JP1" V 9700 5325 50  0000 R CNN
-F 1 "Jumper" V 9550 5400 50  0000 R CNN
-F 2 "AllModules:TB-CMS-AIROX_1" H 9550 5375 50  0001 C CNN
-F 3 "~" H 9550 5375 50  0001 C CNN
-	1    9550 5375
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Capacitor:C0402_4n7F_16V_10% C35
 U 1 1 5E9C4E7A
 P 10000 5400
@@ -614,7 +601,7 @@ F 3 "~" H 10000 5400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C34
+L Capacitor:C0402_NC C34
 U 1 1 5EA224D5
 P 12275 8350
 F 0 "C34" H 12160 8304 50  0000 R CNN
@@ -1082,7 +1069,7 @@ Connection ~ 11250 2400
 Wire Wire Line
 	11775 2400 12025 2400
 $Comp
-L Device:R R50
+L Resistor:R0402_NC R50
 U 1 1 5F4E8BA1
 P 10425 1275
 F 0 "R50" V 10325 1275 50  0000 C CNN
@@ -2438,7 +2425,7 @@ Connection ~ 2350 4100
 Wire Wire Line
 	2350 4100 2350 4375
 $Comp
-L GR106768_Buzzer:LED-pins_AK LD1
+L Diode:LED_AK LD1
 U 1 1 607B7825
 P 4825 4000
 F 0 "LD1" H 4825 4100 50  0000 C CNN
@@ -2572,4 +2559,17 @@ Wire Wire Line
 Connection ~ 14700 3400
 Wire Wire Line
 	14700 3400 15000 3400
+$Comp
+L Connector:JumperBypass JP1
+U 1 1 5E9C0175
+P 9550 5375
+F 0 "JP1" H 9736 5528 50  0000 R CNN
+F 1 "Jumper" H 9796 5376 50  0000 R CNN
+F 2 "AllModules:TB-CMS-AIROX_1" H 9550 5375 50  0001 C CNN
+F 3 "~" H 9550 5375 50  0001 C CNN
+	1    9550 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3400 5850 3500
 $EndSCHEMATC
