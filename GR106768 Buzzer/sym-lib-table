@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name GR106768_Buzzer)(type Legacy)(uri "${KIPRJMOD}/GR106768 Buzzer.lib")(options "")(descr ""))
   (lib (name Battery)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Battery.lib)(options "")(descr ""))
   (lib (name BL)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/BL.lib)(options "")(descr ""))
   (lib (name Buzzer)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Buzzer.lib)(options "")(descr ""))
@@ -18,9 +17,7 @@
   (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Resistor.lib)(options "")(descr ""))
   (lib (name Switch)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Switch.lib)(options "")(descr ""))
   (lib (name Transistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Transistor.lib)(options "")(descr ""))
-  (lib (name Unknown)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Unknown.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Valve.lib)(options "")(descr ""))
   (lib (name Varistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Varistor.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KIPRJMOD}/Symbols/power.lib)(options "")(descr ""))
-  (lib (name ResistorOld)(type Legacy)(uri ${KIPRJMOD}/Symbols/Resistor.lib)(options "")(descr ""))
 )

@@ -80,7 +80,7 @@ F 3 "~" H 14325 6575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R25
+L Resistor:R0402_NC R25
 U 1 1 5EA20431
 P 13250 7900
 F 0 "R25" V 13150 7825 50  0000 L CNN
@@ -266,7 +266,7 @@ F 3 "" H 8700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J1
+L Connector:Conn_01x07 J1
 U 1 1 5EFBAE64
 P 1800 2500
 F 0 "J1" H 1800 2075 50  0000 C CNN
@@ -2941,7 +2941,7 @@ NoConn ~ 10400 2300
 Text Notes 3475 2025 0    76   ~ 0
 Should FI1 have the BLA2AAG102 part\nnumber?  I thought the Master BOM\nsaid it was obsolete, but maybe there\nis stock available?
 $Comp
-L GR106768_Buzzer:MBRM120 D1
+L Diode:MBRM120 D1
 U 1 1 5ECDFA95
 P 2950 2300
 F 0 "D1" H 3075 2350 50  0000 C CNN
