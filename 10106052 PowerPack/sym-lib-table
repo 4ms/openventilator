@@ -20,4 +20,5 @@
   (lib (name Unknown)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Unknown.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Valve.lib)(options "")(descr ""))
   (lib (name Varistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Varistor.lib)(options "")(descr ""))
+  (lib (name Power)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Power.lib)(options "")(descr ""))
 )

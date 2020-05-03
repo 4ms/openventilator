@@ -40,7 +40,7 @@ F 15 "AT part not available" H 9000 2400 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L Power:+5V #PWR?
 U 1 1 5E8CB2D2
 P 9000 2000
 AR Path="/5E878266/5E8CB2D2" Ref="#PWR?"  Part="1" 
@@ -57,7 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 2700 9000 2750
 $Comp
-L power:GNDA #PWR?
+L Power:GNDA #PWR?
 U 1 1 5E8CB2DA
 P 9000 2800
 AR Path="/5E878266/5E8CB2DA" Ref="#PWR?"  Part="1" 
@@ -191,7 +191,7 @@ Wire Wire Line
 	8500 5250 8600 5250
 Connection ~ 8600 5250
 $Comp
-L power:+5V #PWR?
+L Power:+5V #PWR?
 U 1 1 5E8CDD8E
 P 9000 4350
 AR Path="/5E87821E/5E8CDD8E" Ref="#PWR?"  Part="1" 
@@ -284,7 +284,7 @@ Connection ~ 3350 6100
 Wire Wire Line
 	4600 6100 5000 6100
 $Comp
-L power:GNDA #PWR?
+L Power:GNDA #PWR?
 U 1 1 5E8CF8BF
 P 3350 6100
 AR Path="/5E8781F8/5E8CF8BF" Ref="#PWR?"  Part="1" 
@@ -297,7 +297,7 @@ F 3 "" H 3350 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L Power:+5V #PWR?
 U 1 1 5E8CF8CB
 P 5000 5450
 AR Path="/5E8781F8/5E8CF8CB" Ref="#PWR?"  Part="1" 
@@ -354,7 +354,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3000 4700 2700
 $Comp
-L power:GND #PWR?
+L Power:GND #PWR?
 U 1 1 5E8D1CDF
 P 4700 3000
 AR Path="/5E87819A/5E8D1CDF" Ref="#PWR?"  Part="1" 
@@ -367,7 +367,7 @@ F 3 "" H 4700 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L Power:+5V #PWR?
 U 1 1 5E8D1CE6
 P 5400 2100
 AR Path="/5E87819A/5E8D1CE6" Ref="#PWR?"  Part="1" 
@@ -533,7 +533,7 @@ Wire Wire Line
 	4150 2600 4150 2250
 Connection ~ 4150 2250
 $Comp
-L power:GND #PWR?
+L Power:GND #PWR?
 U 1 1 5E8D1D2F
 P 4150 3025
 AR Path="/5E87819A/5E8D1D2F" Ref="#PWR?"  Part="1" 
@@ -588,7 +588,7 @@ V_DC_CHARGER
 Wire Wire Line
 	1800 4050 2500 4050
 $Comp
-L 10106052_PowerPack:+VDC_PERM #PWR?
+L Power:+VDC_PERM #PWR?
 U 1 1 5E8D1D50
 P 3650 1600
 AR Path="/5E87819A/5E8D1D50" Ref="#PWR?"  Part="1" 
@@ -601,7 +601,7 @@ F 3 "" H 3650 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0131
+L Power:GNDA #PWR0131
 U 1 1 5E905EEE
 P 4600 6150
 F 0 "#PWR0131" H 4600 5900 50  0001 C CNN
@@ -624,7 +624,7 @@ Cooling Fan option
 Text Notes 2500 750  0    100  ~ 0
 +5V Power Supply
 $Comp
-L power:PWR_FLAG #FLG0101
+L Power:PWR_FLAG #FLG0101
 U 1 1 5E972989
 P 2950 6100
 F 0 "#FLG0101" H 2950 6175 50  0001 C CNN
@@ -636,7 +636,7 @@ F 3 "~" H 2950 6100 50  0001 C CNN
 $EndComp
 Connection ~ 2950 6100
 $Comp
-L power:PWR_FLAG #FLG0102
+L Power:PWR_FLAG #FLG0102
 U 1 1 5E9753B6
 P 5400 3000
 F 0 "#FLG0102" H 5400 3075 50  0001 C CNN
@@ -661,7 +661,7 @@ Connection ~ 3650 1750
 Wire Wire Line
 	3650 1750 4150 1750
 $Comp
-L power:GND #PWR?
+L Power:GND #PWR?
 U 1 1 5E8CDD85
 P 9000 5800
 AR Path="/5E87821E/5E8CDD85" Ref="#PWR?"  Part="1" 
