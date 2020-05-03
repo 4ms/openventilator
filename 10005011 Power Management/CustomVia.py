@@ -29,8 +29,9 @@ for item in pcb.GetTracks():
         via_pos = item.GetPosition()
         via_drill = item.GetDrillValue()
         via_width = item.GetWidth()
-        via_net = item.GetNetname()
-        print(' * Via:   ', ToUnits(via_pos), ' - ', ToUnits(via_drill), '/', ToUnits(via_width), '  Net= ', via_net)
+        via_net = item.GetNet()
+        via_netname = item.GetNetname()
+        print(' * Via:   ', ToUnits(via_pos), ' - ', ToUnits(via_drill), '/', ToUnits(via_width), via_netname)
         
         for mod in pcb.GetModules():
             mod_pos = mod.GetPosition()
@@ -39,19 +40,17 @@ for item in pcb.GetTracks():
             if 'REF' in mod.GetReference():
                 if abs(diff_x) <= 0.1 and abs(diff_y)  <= 0.1:
                     print('x', diff_x, 'y', diff_y)
-                    print('* Module: ', mod.GetReference(),' at', ToUnits(mod.GetPosition()))
                     for pad in mod.Pads():
-                        print("pad {}({}) on {}({}) at {},{} size {},{}"
-                            .format(pad.GetPadName(),
-                                    pad.GetNet().GetNetname(),
+                        print("pad ({}) on {}({}) at {},{} size {},{}"
+                            .format(pad.GetNet().GetNetname(),
                                     mod.GetReference(),
                                     mod.GetValue(),
                                     ToUnits(pad.GetPosition().x), ToUnits(pad.GetPosition().y),
                                     ToUnits(pad.GetSize().x), ToUnits(pad.GetSize().y)
                             ))
-                        print(pad.GetNet().GetNetname())    
+                        pad.SetNet(via_net)   
                 
-
+#pcb.Save("mod2_"+filename)
 
 #print("")
 #print("LIST ZONES:", pcb.GetAreaCount())
