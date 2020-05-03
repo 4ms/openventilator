@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 10005011_Power_Management:VALIM #PWR0145
+L Power:VALIM #PWR0145
 U 1 1 5E92A2E7
 P 650 1200
 F 0 "#PWR0145" H 650 1050 50  0001 C CNN
@@ -41,7 +41,7 @@ F 8 "BOM lists 223858615636, this is the same" H 850 1500 50  0001 C CNN "Note"
 	1    0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management:PGND #PWR0146
+L Power:PGND #PWR0146
 U 1 1 5E92BE89
 P 850 1800
 F 0 "#PWR0146" H 850 1550 50  0001 C CNN
@@ -99,7 +99,7 @@ F 7 "EEEFK1V331P" H 2900 1500 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:PGND1 #PWR0147
+L Power:PGND1 #PWR0147
 U 1 1 5E9521DF
 P 4700 1750
 AR Path="/5E9521DF" Ref="#PWR0147"  Part="1" 
@@ -205,7 +205,7 @@ Wire Wire Line
 	4700 1650 4700 1700
 Connection ~ 4700 1700
 $Comp
-L 10005011_Power_Management:PGND1 #PWR0148
+L Power:PGND1 #PWR0148
 U 1 1 5E96A05D
 P 2450 1750
 AR Path="/5E96A05D" Ref="#PWR0148"  Part="1" 
@@ -251,7 +251,7 @@ Connection ~ 850  1750
 Wire Wire Line
 	850  1750 850  1800
 $Comp
-L 10005011_Power_Management:+24VUTIL #PWR0149
+L Power:+24VUTIL #PWR0149
 U 1 1 5E97F1EF
 P 15650 1150
 AR Path="/5E97F1EF" Ref="#PWR0149"  Part="1" 
@@ -280,7 +280,7 @@ F 8 "BOM lists 223858615636, this is the same" H 15000 1450 50  0001 C CNN "Note
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management:PGND #PWR0150
+L Power:PGND #PWR0150
 U 1 1 5E98354C
 P 15000 1750
 F 0 "#PWR0150" H 15000 1500 50  0001 C CNN
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 1250 13300 1250
 $Comp
-L 10005011_Power_Management:PGND1 #PWR0151
+L Power:PGND1 #PWR0151
 U 1 1 5E98356D
 P 13300 1700
 AR Path="/5E98356D" Ref="#PWR0151"  Part="1" 
@@ -579,7 +579,7 @@ $EndComp
 Wire Wire Line
 	11250 1250 11300 1250
 $Comp
-L 10005011_Power_Management:PGND1 #PWR0152
+L Power:PGND1 #PWR0152
 U 1 1 5E9FC942
 P 9500 1700
 AR Path="/5E9FC942" Ref="#PWR0152"  Part="1" 
@@ -640,7 +640,7 @@ F 7 "PCF0603R-1K62BT1" H 12900 2550 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:PGND1 #PWR0153
+L Power:PGND1 #PWR0153
 U 1 1 5EA0A895
 P 12900 2800
 AR Path="/5EA0A895" Ref="#PWR0153"  Part="1" 
@@ -879,7 +879,7 @@ Wire Wire Line
 	7150 4550 7150 5100
 Connection ~ 7150 4550
 $Comp
-L 10005011_Power_Management:PGND1 #PWR0154
+L Power:PGND1 #PWR0154
 U 1 1 5EB49E53
 P 7150 5100
 AR Path="/5EB49E53" Ref="#PWR0154"  Part="1" 
@@ -907,7 +907,7 @@ F 7 "LTC3780IG#TRPBF" H 3550 7250 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:GND1 #PWR0155
+L Power:GND1 #PWR0155
 U 1 1 5EB6C815
 P 4500 8400
 AR Path="/5EB6C815" Ref="#PWR0155"  Part="1" 
@@ -1095,7 +1095,7 @@ Wire Wire Line
 	2550 8000 2750 8000
 Connection ~ 2750 8200
 $Comp
-L 10005011_Power_Management:GND1 #PWR0156
+L Power:GND1 #PWR0156
 U 1 1 5ECA47DB
 P 2100 8100
 AR Path="/5ECA47DB" Ref="#PWR0156"  Part="1" 
@@ -1176,7 +1176,7 @@ Wire Wire Line
 Wire Wire Line
 	950  8650 950  8800
 $Comp
-L 10005011_Power_Management:GND1 #PWR0157
+L Power:GND1 #PWR0157
 U 1 1 5ED079CB
 P 1200 8900
 AR Path="/5ED079CB" Ref="#PWR0157"  Part="1" 
@@ -1219,7 +1219,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 7600 2100 7600
 $Comp
-L 10005011_Power_Management:GND1 #PWR0158
+L Power:GND1 #PWR0158
 U 1 1 5ED2D773
 P 2100 7600
 AR Path="/5ED2D773" Ref="#PWR0158"  Part="1" 
@@ -1287,7 +1287,7 @@ Connection ~ 1200 6800
 Text Label 1200 6050 3    50   ~ 0
 INTVCC-1
 $Comp
-L 10005011_Power_Management:GND1 #PWR0159
+L Power:GND1 #PWR0159
 U 1 1 5ED49862
 P 2100 6600
 AR Path="/5ED49862" Ref="#PWR0159"  Part="1" 
@@ -1339,7 +1339,7 @@ F 7 "" H 2200 5650 50  0001 C CNN "Manufacturer_No"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:GND1 #PWR0160
+L Power:GND1 #PWR0160
 U 1 1 5ED89E27
 P 2200 5800
 AR Path="/5ED89E27" Ref="#PWR0160"  Part="1" 
@@ -1421,7 +1421,7 @@ F 7 "0805YC105KAT2A" H 4000 5900 50  0001 C CNN "Manufacturer_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L 10005011_Power_Management:GND1 #PWR0161
+L Power:GND1 #PWR0161
 U 1 1 5EE1190D
 P 4400 6000
 AR Path="/5EE1190D" Ref="#PWR0161"  Part="1" 
@@ -1522,7 +1522,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 3850 10950 3850
 $Comp
-L 10005011_Power_Management:GND1 #PWR0162
+L Power:GND1 #PWR0162
 U 1 1 5EFF4A7B
 P 11550 4000
 AR Path="/5EFF4A7B" Ref="#PWR0162"  Part="1" 
@@ -1586,7 +1586,7 @@ Connection ~ 10900 3850
 Wire Wire Line
 	10900 4500 12250 4500
 $Comp
-L 10005011_Power_Management:GND1 #PWR0163
+L Power:GND1 #PWR0163
 U 1 1 5F050F00
 P 10900 5050
 AR Path="/5F050F00" Ref="#PWR0163"  Part="1" 
@@ -1625,7 +1625,7 @@ Connection ~ 10900 2200
 Wire Wire Line
 	10900 2200 10900 1250
 $Comp
-L 10005011_Power_Management:GND1 #PWR0164
+L Power:GND1 #PWR0164
 U 1 1 5F0E6F75
 P 12100 2050
 AR Path="/5F0E6F75" Ref="#PWR0164"  Part="1" 
@@ -1697,7 +1697,7 @@ F 8 "BOM lists 223858615636, this is the same" H 15250 2650 50  0001 C CNN "Note
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10005011_Power_Management:PGND #PWR0165
+L Power:PGND #PWR0165
 U 1 1 5F1684BE
 P 15650 2950
 F 0 "#PWR0165" H 15650 2700 50  0001 C CNN
@@ -1943,8 +1943,6 @@ F 9 "" H 5200 6600 50  0001 C CNN "Item Number"
 	1    5200 6600
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5200 6450
-Connection ~ 5200 6750
 Wire Wire Line
 	4650 6600 4300 6600
 Wire Wire Line
@@ -1991,7 +1989,7 @@ Connection ~ 8000 1250
 Wire Wire Line
 	8000 1250 8900 1250
 $Comp
-L power:PWR_FLAG #FLG0107
+L Power:PWR_FLAG #FLG0107
 U 1 1 5ED2132B
 P 2400 9000
 F 0 "#FLG0107" H 2400 9075 50  0001 C CNN
@@ -2007,7 +2005,7 @@ Wire Wire Line
 	2400 9200 2650 9200
 Connection ~ 2650 9200
 $Comp
-L power:PWR_FLAG #FLG0108
+L Power:PWR_FLAG #FLG0108
 U 1 1 5ED37A93
 P 5900 1600
 F 0 "#FLG0108" H 5900 1675 50  0001 C CNN
@@ -2023,7 +2021,7 @@ Wire Wire Line
 	5900 1700 5900 1600
 Connection ~ 5300 1700
 $Comp
-L power:PWR_FLAG #FLG0109
+L Power:PWR_FLAG #FLG0109
 U 1 1 5ED6C771
 P 5900 1000
 F 0 "#FLG0109" H 5900 1075 50  0001 C CNN
@@ -2039,7 +2037,7 @@ Connection ~ 5900 1300
 Wire Wire Line
 	5900 1300 6400 1300
 $Comp
-L power:PWR_FLAG #FLG0118
+L Power:PWR_FLAG #FLG0118
 U 1 1 5EF9BB30
 P 12500 4300
 F 0 "#FLG0118" H 12500 4375 50  0001 C CNN
@@ -2054,4 +2052,6 @@ Wire Wire Line
 Wire Wire Line
 	12500 4500 12250 4500
 Connection ~ 12250 4500
+Connection ~ 5200 6450
+Connection ~ 5200 6750
 $EndSCHEMATC
