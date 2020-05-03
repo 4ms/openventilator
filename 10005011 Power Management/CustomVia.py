@@ -35,9 +35,19 @@ for item in pcb.GetTracks():
         
 print("LIST MODULES:")
 
-for module in pcb.GetModules():
-    if 'REF' in module.GetReference():
-        print('* Module: ', module.GetReference(),' at', ToUnits(module.GetPosition()))
+for mod in pcb.GetModules():
+    if 'REF' in mod.GetReference():    
+        print('* Module: ', mod.GetReference(),' at', ToUnits(mod.GetPosition()))
+        for pad in mod.Pads():
+            print("pad {}({}) on {}({}) at {},{} size {},{}"
+                .format(pad.GetPadName(),
+                        pad.GetNet().GetNetname(),
+                        mod.GetReference(),
+                        mod.GetValue(),
+                        ToUnits(pad.GetPosition().x), ToUnits(pad.GetPosition().y),
+                        ToUnits(pad.GetSize().x), ToUnits(pad.GetSize().y)
+                ))
+            print(pad.GetNet().GetNetname())    
 
 
 
