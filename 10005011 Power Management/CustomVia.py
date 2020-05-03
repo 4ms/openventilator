@@ -12,6 +12,10 @@ pcb = LoadBoard(filename)
 
 #pcb.Save("mod_"+filename)
 
+# Ofset between PCAD vs Zuken import
+x_offset = 185.69
+y_offset = 230.20919
+        
 ToUnits = ToMM
 FromUnits = FromMM
 #ToUnits=ToMils
@@ -25,46 +29,22 @@ for item in pcb.GetTracks():
         pos = item.GetPosition()
         drill = item.GetDrillValue()
         width = item.GetWidth()
-        print(' * Via:   ', ToUnits(pos), ' - ', ToUnits(drill), '/', ToUnits(width))
-
-    elif type(item) is TRACK:
-
-        start = item.GetStart()
-        end = item.GetEnd()
-        width = item.GetWidth()
-
-        print(' * Track: ', ToUnits(start), 'to ', ToUnits(end), 'width ', ToUnits(width))
-
-    else:
-        print('Unknown type ', type(item))
-
-print("")
-print("LIST DRAWINGS:")
-
-for item in pcb.GetDrawings():
-    if type(item) is TEXTE_PCB:
-        print('* Text:    ', item.GetText(), ' at ', item.GetPosition())
-    elif type(item) is DRAWSEGMENT:
-        print('* Drawing: ', item.GetShapeStr()) # dir(item)
-    else:
-        print(type(item))
-
-print("")
+        net = item.GetNetname()
+        print(' * Via:   ', ToUnits(pos), ' - ', ToUnits(drill), '/', ToUnits(width), '  Net= ', net)
+        
+        
 print("LIST MODULES:")
 
 for module in pcb.GetModules():
-    print('* Module: ', module.GetReference(),' at', ToUnits(module.GetPosition()))
+    if 'REF' in module.GetReference():
+        print('* Module: ', module.GetReference(),' at', ToUnits(module.GetPosition()))
 
-print("")
-print("track w cnt:",len(pcb.GetTrackWidthList()))
-print("via s cnt:",len(pcb.GetViasDimensionsList()))
 
-print("")
-print("LIST ZONES:", pcb.GetAreaCount())
 
-for idx in range(0, pcb.GetAreaCount()):
-    zone=pcb.GetArea(idx)
-    print("zone:", idx, "priority:", zone.GetPriority(), "netname", zone.GetNetname())
+#print("")
+#print("LIST ZONES:", pcb.GetAreaCount())
 
-print("")
-print("NetClasses:", pcb.GetNetClasses().GetCount())
+#for idx in range(0, pcb.GetAreaCount()):
+#    zone=pcb.GetArea(idx)
+#    print("zone:", idx, "priority:", zone.GetPriority(), "netname", zone.GetNetname())
+
