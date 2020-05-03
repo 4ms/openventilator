@@ -1128,11 +1128,11 @@ Wire Wire Line
 Wire Wire Line
 	14200 6650 15100 6650
 $Comp
-L Device:Varistor ML5
+L Varistor:Varistor_10022926 ML5
 U 1 1 5E931E5C
 P 12800 7400
 F 0 "ML5" H 12903 7446 50  0000 L CNN
-F 1 "NC" H 12903 7355 50  0000 L CNN
+F 1 "DNP" H 12903 7355 50  0000 L CNN
 F 2 "AllModules:R0603_1" V 12730 7400 50  0001 C CNN
 F 3 "https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Standard_series.pdf" H 12800 7400 50  0001 C CNN
 F 4 "Digi-Key" H 12800 7400 50  0001 C CNN "Source"
