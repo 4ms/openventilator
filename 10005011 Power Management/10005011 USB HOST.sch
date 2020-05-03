@@ -1874,7 +1874,7 @@ F 7 "GRM155R71C104JA88J" V 14100 1850 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead L10
+L Inductor:Ferrite_Bead_Small_10039587 L10
 U 1 1 5F5A4BA1
 P 14950 1050
 F 0 "L10" V 14676 1050 50  0000 C CNN
@@ -1937,8 +1937,6 @@ F 7 "" V 12300 1850 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15100 2350 15500 2350
-Wire Wire Line
 	15500 2350 15500 2000
 Wire Wire Line
 	15600 1650 15600 1850
@@ -1949,8 +1947,6 @@ Wire Wire Line
 	15500 1850 15500 1650
 Wire Wire Line
 	15200 1050 15150 1050
-Wire Wire Line
-	14800 1050 14600 1050
 Wire Wire Line
 	13250 1050 10850 1050
 Wire Wire Line
@@ -1977,8 +1973,6 @@ Connection ~ 14600 1550
 Connection ~ 14600 1050
 Wire Wire Line
 	14600 1050 13550 1050
-Wire Wire Line
-	14800 2350 14600 2350
 Wire Wire Line
 	12300 2350 12300 2000
 Wire Wire Line
@@ -2041,7 +2035,7 @@ F 9 "10022946" H 13700 1850 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead L25
+L Inductor:Ferrite_Bead_Small_10039587 L25
 U 1 1 5F8F9603
 P 14950 2350
 F 0 "L25" V 14676 2350 50  0000 C CNN
@@ -2162,7 +2156,7 @@ F 7 "GRM155R71C104JA88J" V 14100 3750 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead L24
+L Inductor:Ferrite_Bead_Small_10039587 L24
 U 1 1 5F94AF5B
 P 14950 2950
 F 0 "L24" V 14676 2950 50  0000 C CNN
@@ -2224,8 +2218,6 @@ F 7 "" V 12300 3750 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15100 4250 15500 4250
-Wire Wire Line
 	15500 4250 15500 3900
 Wire Wire Line
 	15600 3550 15600 3750
@@ -2236,8 +2228,6 @@ Wire Wire Line
 	15500 3750 15500 3550
 Wire Wire Line
 	15200 2950 15150 2950
-Wire Wire Line
-	14800 2950 14600 2950
 Wire Wire Line
 	13250 2950 10850 2950
 Wire Wire Line
@@ -2272,8 +2262,6 @@ Connection ~ 14600 3450
 Connection ~ 14600 2950
 Wire Wire Line
 	14600 2950 13550 2950
-Wire Wire Line
-	14800 4250 14600 4250
 Wire Wire Line
 	12300 4250 12300 3900
 Wire Wire Line
@@ -2334,7 +2322,7 @@ F 9 "10022946" H 13700 3750 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead L26
+L Inductor:Ferrite_Bead_Small_10039587 L26
 U 1 1 5F94AFCA
 P 14950 4250
 F 0 "L26" V 14676 4250 50  0000 C CNN
@@ -2701,12 +2689,8 @@ Wire Wire Line
 	15150 800  15150 1050
 Connection ~ 15150 1050
 Wire Wire Line
-	15150 1050 15100 1050
-Wire Wire Line
 	15150 2750 15150 2950
 Connection ~ 15150 2950
-Wire Wire Line
-	15150 2950 15100 2950
 Wire Wire Line
 	15200 3750 15200 3900
 Wire Wire Line
@@ -2714,6 +2698,22 @@ Wire Wire Line
 Connection ~ 15500 3900
 Wire Wire Line
 	15500 3900 15500 3750
+Wire Wire Line
+	15050 1050 15150 1050
+Wire Wire Line
+	14600 1050 14850 1050
+Wire Wire Line
+	15050 2350 15500 2350
+Wire Wire Line
+	14600 2350 14850 2350
+Wire Wire Line
+	15050 2950 15150 2950
+Wire Wire Line
+	14600 2950 14850 2950
+Wire Wire Line
+	15050 4250 15500 4250
+Wire Wire Line
+	14600 4250 14850 4250
 Wire Bus Line
 	9750 5850 9750 7350
 Wire Bus Line
