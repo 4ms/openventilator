@@ -18,5 +18,5 @@
   (lib (name Transistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Transistor.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Valve.lib)(options "")(descr ""))
   (lib (name Varistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Varistor.lib)(options "")(descr ""))
-  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/Symbols/power.lib)(options "")(descr ""))
+  (lib (name Power)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols.scripts/Symbols/Power.lib)(options "")(descr ""))
 )
