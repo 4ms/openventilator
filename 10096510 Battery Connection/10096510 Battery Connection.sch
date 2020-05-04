@@ -47,13 +47,14 @@ F 0 "C3" H 6715 4041 50  0000 L CNN
 F 1 "0402_47pF_C0402C470J5GAC" H 6950 3750 50  0001 L CNN
 F 2 "AllModules:C0402_1b" H 7600 3850 50  0001 C CNN
 F 3 "" H 6600 3950 50  0001 C CNN
-F 4 "Kemet" H 7070 4150 50  0001 C CNN "Manufacturer"
-F 5 "0402" H 7050 3950 50  0001 C CNN "Size"
-F 6 "50V" H 6715 3950 50  0000 L CNN "Voltage"
-F 7 "47pF" H 6715 3859 50  0000 L CNN "CAP_VAL"
-F 8 "${KIPRJMOD}/Datasheets/KEMET_C0402C470J5GAC.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 9 "10022623" H 0   0   50  0001 C CNN "Item Number"
-F 10 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "KEMET_RMS1" H 7070 4150 50  0001 C CNN "Manufacturer"
+F 5 "10022623" H 0   0   50  0001 C CNN "Item Number"
+F 6 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "CAPACITOR,47 PF,+/-5%,50V,0402" H 0   0   50  0001 C CNN "Description"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CL05C470JB5NNNC" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM1555C1H470JA01D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6600 3950
 	-1   0    0    -1  
 $EndComp
@@ -65,13 +66,14 @@ F 0 "C4" H 6715 4891 50  0000 L CNN
 F 1 "0402_47pF_C0402C470J5GAC" H 6950 4600 50  0001 L CNN
 F 2 "AllModules:C0402_1b" H 7600 4700 50  0001 C CNN
 F 3 "" H 6600 4800 50  0001 C CNN
-F 4 "Kemet" H 7070 5000 50  0001 C CNN "Manufacturer"
-F 5 "0402" H 7050 4800 50  0001 C CNN "Size"
-F 6 "50V" H 6715 4800 50  0000 L CNN "Voltage"
-F 7 "47pF" H 6715 4709 50  0000 L CNN "CAP_VAL"
-F 8 "${KIPRJMOD}/Datasheets/KEMET_C0402C470J5GAC.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 9 "10022623" H 0   0   50  0001 C CNN "Item Number"
-F 10 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "KEMET_RMS1" H 7070 5000 50  0001 C CNN "Manufacturer"
+F 5 "10022623" H 0   0   50  0001 C CNN "Item Number"
+F 6 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "CAPACITOR,47 PF,+/-5%,50V,0402" H 0   0   50  0001 C CNN "Description"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CL05C470JB5NNNC" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM1555C1H470JA01D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6600 4800
 	1    0    0    -1  
 $EndComp
@@ -142,10 +144,10 @@ F 0 "J1" H 2800 4200 50  0000 R CNN
 F 1 "09185107323" H 3000 4300 50  0000 R CNN
 F 2 "AllModules:BP2X5C_1" H 2700 4600 50  0001 C CNN
 F 3 "" H 2700 4600 50  0001 C CNN
-F 4 "Harting" H 3450 4650 50  0001 C CNN "Manufacturer"
-F 5 "${KIPRJMOD}/Datasheets/HARTING_09185107323.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 6 "10023418" H 0   0   50  0001 C CNN "Item Number"
-F 7 "09185107323" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "HARTING" H 3450 4650 50  0001 C CNN "Manufacturer"
+F 5 "10023418" H 0   0   50  0001 C CNN "Item Number"
+F 6 "09185107323" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "CONNECTOR, 10 CONTACTS, HE10" H 0   0   50  0001 C CNN "Description"
 	1    2700 4600
 	-1   0    0    1   
 $EndComp
@@ -156,7 +158,7 @@ P 2650 5000
 F 0 "#PWR0104" H 2650 4750 50  0001 C CNN
 F 1 "Earth" H 2650 4850 50  0001 C CNN
 F 2 "" H 2650 5000 50  0001 C CNN
-F 3 "~" H 2650 5000 50  0001 C CNN
+F 3 "" H 2650 5000 50  0001 C CNN
 	1    2650 5000
 	1    0    0    -1  
 $EndComp
@@ -239,7 +241,7 @@ P 4850 3050
 F 0 "#PWR0107" H 4850 2800 50  0001 C CNN
 F 1 "Earth" H 4850 2900 50  0001 C CNN
 F 2 "" H 4850 3050 50  0001 C CNN
-F 3 "~" H 4850 3050 50  0001 C CNN
+F 3 "" H 4850 3050 50  0001 C CNN
 	1    4850 3050
 	1    0    0    -1  
 $EndComp
@@ -293,13 +295,14 @@ F 0 "C1" H 4736 2359 50  0000 R CNN
 F 1 "10nF" H 4736 2450 50  0000 R CNN
 F 2 "AllModules:C0603_1b" H 5850 2250 50  0001 C CNN
 F 3 "" H 4850 2450 50  0001 C CNN
-F 4 "Yageo" H 5300 2550 50  0001 C CNN "Manufacturer"
-F 5 "0603" H 5300 2350 50  0001 C CNN "Size"
-F 6 "50V" H 4736 2541 50  0000 R CNN "Voltage"
-F 7 "10nF" H 4850 2450 50  0000 C CNN "CAP_VAL"
-F 8 "${KIPRJMOD}/Datasheets/YAGEO_CC0603KRX7R9BB103.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 9 "10022508" H 0   0   50  0001 C CNN "Item Number"
-F 10 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "YAGEO_RMS1" H 5300 2550 50  0001 C CNN "Manufacturer"
+F 5 "10022508" H 0   0   50  0001 C CNN "Item Number"
+F 6 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 0   0   50  0001 C CNN "Description"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0603JRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4850 2450
 	1    0    0    1   
 $EndComp
@@ -312,9 +315,13 @@ F 1 "BNX002-11" H 5575 2674 50  0000 C CNN
 F 2 "AllModules:BNX002_1" H 5490 2370 50  0001 C CNN
 F 3 "" H 5490 2370 50  0001 C CNN
 F 4 "10022532" H 5425 1975 50  0001 C CNN "Item Number"
-F 5 "Murata" H 5350 2050 50  0001 C CNN "Manufacturer"
-F 6 "${KIPRJMOD}/Datasheets/MURATA_BNX002-11.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 7 "BNX002-11" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 5 "MURATA MANUFACTURING CO., LTD." H 5350 2050 50  0001 C CNN "Manufacturer"
+F 6 "BNX002-01" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 0   0   50  0001 C CNN "Description"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "BNX00201" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "BNX002-11" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5600 2350
 	1    0    0    -1  
 $EndComp
@@ -330,12 +337,10 @@ F 0 "J4" H 8078 3721 50  0000 L CNN
 F 1 "811-S1-002-30-014101" H 8078 3630 50  0000 L CNN
 F 2 "AllModules:811S1-02_1" H 8100 3850 50  0001 L CNN
 F 3 "" H 8100 3750 50  0001 L CNN
-F 4 "CONN SPRING PISTON 2POS SMD" H 8100 3750 50  0001 L CNN "Description"
-F 5 "6mm" H 8100 3650 50  0001 L CNN "Height"
-F 6 "Preci-Dip" H 8100 3550 50  0001 L CNN "Manufacturer"
-F 7 "${KIPRJMOD}/Datasheets/PRECI-DIP_811-S1-002-30-014101.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 8 "10023420" H 0   0   50  0001 C CNN "Item Number"
-F 9 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "CONNECTOR, 2 CONTACTS, PIN SPACE 2.54, SM" H 8100 3750 50  0001 L CNN "Description"
+F 5 "PRECI-DIP                       (015220)" H 8100 3550 50  0001 L CNN "Manufacturer"
+F 6 "10023420" H 0   0   50  0001 C CNN "Item Number"
+F 7 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    7450 3750
 	1    0    0    -1  
 $EndComp
@@ -347,12 +352,10 @@ F 0 "J5" H 8078 4571 50  0000 L CNN
 F 1 "811-S1-002-30-014101" H 8078 4480 50  0000 L CNN
 F 2 "AllModules:811S1-02_1" H 8100 4700 50  0001 L CNN
 F 3 "" H 8100 4600 50  0001 L CNN
-F 4 "CONN SPRING PISTON 2POS SMD" H 8100 4600 50  0001 L CNN "Description"
-F 5 "6mm" H 8100 4500 50  0001 L CNN "Height"
-F 6 "Preci-Dip" H 8100 4400 50  0001 L CNN "Manufacturer"
-F 7 "${KIPRJMOD}/Datasheets/PRECI-DIP_811-S1-002-30-014101.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 8 "10023420" H 0   0   50  0001 C CNN "Item Number"
-F 9 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "CONNECTOR, 2 CONTACTS, PIN SPACE 2.54, SM" H 8100 4600 50  0001 L CNN "Description"
+F 5 "PRECI-DIP                       (015220)" H 8100 4400 50  0001 L CNN "Manufacturer"
+F 6 "10023420" H 0   0   50  0001 C CNN "Item Number"
+F 7 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    7450 4600
 	1    0    0    -1  
 $EndComp
@@ -372,11 +375,12 @@ F 0 "J6" H 8150 5600 50  0000 C CNN
 F 1 "GKS-913-0024" H 8400 5500 50  0000 C CNN
 F 2 "AllModules:GKS913_1" H 7650 4950 50  0001 L CNN
 F 3 "" H 8100 5500 50  0001 L CNN
-F 4 "Test probe" H 7650 5050 50  0001 L CNN "Description"
-F 5 "Ingun" H 7750 5250 50  0001 C CNN "Manufacturer"
-F 6 "${KIPRJMOD}/Datasheets/INGUN_GKS-913 305 230 A 1502 S.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 7 "10023419" H 0   0   50  0001 C CNN "Item Number"
-F 8 "GKS-913 305 230 A 1502 S" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "CONNECTOR, 1 CONTACTS, TEST PROBE" H 7650 5050 50  0001 L CNN "Description"
+F 5 "INGUN" H 7750 5250 50  0001 C CNN "Manufacturer"
+F 6 "10023419" H 0   0   50  0001 C CNN "Item Number"
+F 7 "GKS-913 305 230 A 15 02 S" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 8 "INGUN" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "GKS-913-0024" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    7450 5500
 	1    0    0    -1  
 $EndComp
@@ -396,14 +400,10 @@ F 0 "FI3" H 3350 4874 50  0000 C CNN
 F 1 "74279266" H 3350 4783 50  0000 C CNN
 F 2 "AllModules:C0603_1b" H 4750 4250 50  0001 C CNN
 F 3 "" V 3350 4600 50  0001 C CNN
-F 4 "Wurth Elektronik" H 4100 4850 50  0001 C CNN "Manufacturer"
-F 5 "0603" H 3900 4550 50  0001 C CNN "Package"
-F 6 "1.00mm" H 3950 4450 50  0001 C CNN "Height"
-F 7 "200mA" H 3950 4350 50  0001 C CNN "Current Rating"
-F 8 "1kohm_at_100MHz" H 4150 4650 50  0001 C CNN "Impedance"
-F 9 "${KIPRJMOD}/Datasheets/WURTH_74279266.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 10 "10022907" H 0   0   50  0001 C CNN "Item Number"
-F 11 "74279266" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "WURTH ELEKTRONIK GMBH" H 4100 4850 50  0001 C CNN "Manufacturer"
+F 5 "10022907" H 0   0   50  0001 C CNN "Item Number"
+F 6 "74279266" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "SMD FERRITE 200MA" H 0   0   50  0001 C CNN "Description"
 	1    3350 4600
 	1    0    0    -1  
 $EndComp
@@ -417,13 +417,14 @@ F 0 "C2" H 6665 2541 50  0000 L CNN
 F 1 "10nF" H 6665 2450 50  0000 L CNN
 F 2 "AllModules:C0603_1b" H 7550 2250 50  0001 C CNN
 F 3 "" H 6550 2450 50  0001 C CNN
-F 4 "Yageo" H 7000 2550 50  0001 C CNN "Manufacturer"
-F 5 "0603" H 7000 2350 50  0001 C CNN "Size"
-F 6 "50V" H 6665 2359 50  0000 L CNN "Voltage"
-F 7 "10nF" H 6550 2450 50  0000 C CNN "CAP_VAL"
-F 8 "${KIPRJMOD}/Datasheets/YAGEO_CC0603KRX7R9BB103.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 9 "10022508" H 0   0   50  0001 C CNN "Item Number"
-F 10 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "YAGEO_RMS1" H 7000 2550 50  0001 C CNN "Manufacturer"
+F 5 "10022508" H 0   0   50  0001 C CNN "Item Number"
+F 6 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 0   0   50  0001 C CNN "Description"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0603JRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6550 2450
 	1    0    0    1   
 $EndComp
@@ -435,14 +436,10 @@ F 0 "FI2" H 1800 4874 50  0000 C CNN
 F 1 "74279266" H 1800 4783 50  0000 C CNN
 F 2 "AllModules:C0603_1b" H 3200 4250 50  0001 C CNN
 F 3 "" V 1800 4600 50  0001 C CNN
-F 4 "Wurth Elektronik" H 2550 4850 50  0001 C CNN "Manufacturer"
-F 5 "0603" H 2350 4550 50  0001 C CNN "Package"
-F 6 "1.00mm" H 2400 4450 50  0001 C CNN "Height"
-F 7 "200mA" H 2400 4350 50  0001 C CNN "Current Rating"
-F 8 "1kohm_at_100MHz" H 2600 4650 50  0001 C CNN "Impedance"
-F 9 "${KIPRJMOD}/Datasheets/WURTH_74279266.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 10 "10022907" H 0   0   50  0001 C CNN "Item Number"
-F 11 "74279266" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "WURTH ELEKTRONIK GMBH" H 2550 4850 50  0001 C CNN "Manufacturer"
+F 5 "10022907" H 0   0   50  0001 C CNN "Item Number"
+F 6 "74279266" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "SMD FERRITE 200MA" H 0   0   50  0001 C CNN "Description"
 	1    1800 4600
 	1    0    0    -1  
 $EndComp
@@ -454,12 +451,10 @@ F 0 "J3" H 8078 2221 50  0000 L CNN
 F 1 "811-S1-002-30-014101" H 8078 2130 50  0000 L CNN
 F 2 "AllModules:811S1-02_1" H 8100 2350 50  0001 L CNN
 F 3 "" H 8100 2250 50  0001 L CNN
-F 4 "CONN SPRING PISTON 2POS SMD" H 8100 2250 50  0001 L CNN "Description"
-F 5 "6mm" H 8100 2150 50  0001 L CNN "Height"
-F 6 "Preci-Dip" H 8100 2050 50  0001 L CNN "Manufacturer"
-F 7 "${KIPRJMOD}/Datasheets/PRECI-DIP_811-S1-002-30-014101.pdf" H 0   0   50  0001 C CNN "Documentation"
-F 8 "10023420" H 0   0   50  0001 C CNN "Item Number"
-F 9 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "CONNECTOR, 2 CONTACTS, PIN SPACE 2.54, SM" H 8100 2250 50  0001 L CNN "Description"
+F 5 "PRECI-DIP                       (015220)" H 8100 2050 50  0001 L CNN "Manufacturer"
+F 6 "10023420" H 0   0   50  0001 C CNN "Item Number"
+F 7 "811-S1-002-30-014101" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    7450 2250
 	1    0    0    -1  
 $EndComp
@@ -470,7 +465,13 @@ P 1650 6550
 F 0 "PT1" H 1708 6668 50  0000 L CNN
 F 1 "TestPoint" H 1708 6577 50  0000 L CNN
 F 2 "AllModules:MIRECMS_D-1.5_1" H 1850 6550 50  0001 C CNN
-F 3 "~" H 1850 6550 50  0001 C CNN
+F 3 "" H 1850 6550 50  0001 C CNN
+F 4 "TEST POINT" H 0   0   50  0001 C CNN "Description"
+F 5 "10022924" H 0   0   50  0001 C CNN "Item Number"
+F 6 "NICOMATIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "KEYSTONE ELECTRONICS CORP" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "C12000B" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "5015" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    1650 6550
 	1    0    0    -1  
 $EndComp
@@ -481,7 +482,13 @@ P 1650 7000
 F 0 "PT2" H 1708 7118 50  0000 L CNN
 F 1 "TestPoint" H 1708 7027 50  0000 L CNN
 F 2 "AllModules:MIRECMS_D-1.5_1" H 1850 7000 50  0001 C CNN
-F 3 "~" H 1850 7000 50  0001 C CNN
+F 3 "" H 1850 7000 50  0001 C CNN
+F 4 "TEST POINT" H 0   0   50  0001 C CNN "Description"
+F 5 "10022924" H 0   0   50  0001 C CNN "Item Number"
+F 6 "NICOMATIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "KEYSTONE ELECTRONICS CORP" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "C12000B" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "5015" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    1650 7000
 	1    0    0    -1  
 $EndComp
@@ -657,7 +664,7 @@ P 6550 3050
 F 0 "#FLG0103" H 6550 3125 50  0001 C CNN
 F 1 "PWR_FLAG" V 6550 3178 50  0000 L CNN
 F 2 "" H 6550 3050 50  0001 C CNN
-F 3 "~" H 6550 3050 50  0001 C CNN
+F 3 "" H 6550 3050 50  0001 C CNN
 	1    6550 3050
 	0    1    1    0   
 $EndComp
