@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Power:+12V #PWR019
+L V_Power:+12V #PWR019
 U 1 1 5E881F7D
 P 1475 5175
 F 0 "#PWR019" H 1475 5025 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 1475 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_680pF_50V_5% C4
+L V_Capacitor:C0402_680pF_50V_5% C4
 U 1 1 5E88308B
 P 6000 3250
 F 0 "C4" H 6050 3350 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 6000 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C10
+L V_Capacitor:C0402_100nF_16V_10% C10
 U 1 1 5E8CCB53
 P 1875 5350
 F 0 "C10" V 2025 5300 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 1875 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C9
+L V_Capacitor:C0402_100nF_16V_10% C9
 U 1 1 5E8DEB54
 P 8050 4300
 F 0 "C9" V 8200 4225 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 8050 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C30
+L V_Capacitor:C0402_100nF_16V_10% C30
 U 1 1 5EA0990A
 P 14325 6575
 F 0 "C30" V 14475 6425 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "~" H 14325 6575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_NC R25
+L V_Resistor:R0402_NC R25
 U 1 1 5EA20431
 P 13250 7900
 F 0 "R25" V 13150 7825 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "~" H 13250 7900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:GND #PWR032
+L V_Power:GND #PWR032
 U 1 1 5EA22D9C
 P 13500 8500
 F 0 "#PWR032" H 13500 8250 50  0001 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 13500 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0603_33nF_16V_10% C13
+L V_Capacitor:C0603_33nF_16V_10% C13
 U 1 1 5EA46C5B
 P 11800 7050
 F 0 "C13" H 11625 6950 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "~" H 11800 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR025
+L V_Power:GND #PWR025
 U 1 1 5EA48DDB
 P 11800 7500
 F 0 "#PWR025" H 11800 7250 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 11800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0603_33nF_16V_10% C14
+L V_Capacitor:C0603_33nF_16V_10% C14
 U 1 1 5EA56715
 P 12250 5500
 F 0 "C14" V 12100 5425 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "~" H 12250 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Power:GND #PWR017
+L V_Power:GND #PWR017
 U 1 1 5EA70AEB
 P 13325 6300
 F 0 "#PWR017" H 13325 6050 50  0001 C CNN
@@ -139,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	14475 6575 14525 6575
 $Comp
-L Power:+5V #PWR018
+L V_Power:+5V #PWR018
 U 1 1 5EA917AB
 P 14100 6525
 F 0 "#PWR018" H 14100 6375 50  0001 C CNN
@@ -168,7 +168,7 @@ Connection ~ 13600 7900
 Wire Wire Line
 	13400 7000 13600 7000
 $Comp
-L Power:GND #PWR026
+L V_Power:GND #PWR026
 U 1 1 5EAE4D06
 P 12500 7600
 F 0 "#PWR026" H 12500 7350 50  0001 C CNN
@@ -179,7 +179,7 @@ F 3 "" H 12500 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC:LM358 IC2
+L V_IC:LM358 IC2
 U 2 1 5EA35D87
 P 12200 6500
 F 0 "IC2" H 12275 6675 50  0000 C CNN
@@ -203,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2050 9300 2400
 $Comp
-L Power:GND #PWR03
+L V_Power:GND #PWR03
 U 1 1 5ED65B6D
 P 7825 2175
 F 0 "#PWR03" H 7825 1925 50  0001 C CNN
@@ -218,7 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	7825 2050 7825 2175
 $Comp
-L IC:LM358 IC2
+L V_IC:LM358 IC2
 U 1 1 5EDFDF3B
 P 6725 3000
 F 0 "IC2" H 6800 3175 50  0000 C CNN
@@ -233,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3000 7150 3475
 $Comp
-L Power:GND #PWR013
+L V_Power:GND #PWR013
 U 1 1 5EF0B672
 P 7800 4900
 F 0 "#PWR013" H 7800 4650 50  0001 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 7800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR014
+L V_Power:GND #PWR014
 U 1 1 5EF0B9B2
 P 8700 4900
 F 0 "#PWR014" H 8700 4650 50  0001 C CNN
@@ -255,7 +255,7 @@ F 3 "" H 8700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x07 J1
+L V_Connector:Conn_01x07 J1
 U 1 1 5EFBAE64
 P 1800 2500
 F 0 "J1" H 1800 2075 50  0000 C CNN
@@ -304,7 +304,7 @@ Wire Wire Line
 Wire Wire Line
 	6325 3475 7150 3475
 $Comp
-L Power:GND #PWR06
+L V_Power:GND #PWR06
 U 1 1 5F3608D2
 P 6000 3500
 F 0 "#PWR06" H 6000 3250 50  0001 C CNN
@@ -317,7 +317,7 @@ $EndComp
 Wire Wire Line
 	6000 3400 6000 3500
 $Comp
-L Capacitor:C0402_680pF_50V_5% C6
+L V_Capacitor:C0402_680pF_50V_5% C6
 U 1 1 5F37E1A4
 P 6600 2400
 F 0 "C6" V 6750 2325 50  0000 L CNN
@@ -333,7 +333,7 @@ Connection ~ 7150 3000
 Wire Wire Line
 	6750 2400 7150 2400
 $Comp
-L Power:GND #PWR07
+L V_Power:GND #PWR07
 U 1 1 5F3CF03A
 P 4900 3500
 F 0 "#PWR07" H 4900 3250 50  0001 C CNN
@@ -357,7 +357,7 @@ Wire Wire Line
 	5500 2900 5600 2900
 Connection ~ 7150 3475
 $Comp
-L IC:LM358 IC3
+L V_IC:LM358 IC3
 U 3 1 5F9FC870
 P 1575 5825
 F 0 "IC3" H 1275 5975 50  0000 C CNN
@@ -372,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	1475 5175 1475 5350
 $Comp
-L Capacitor:C0402_100nF_16V_10% C11
+L V_Capacitor:C0402_100nF_16V_10% C11
 U 1 1 5FA59D9B
 P 1875 6250
 F 0 "C11" V 2025 6200 50  0000 L CNN
@@ -391,7 +391,7 @@ Connection ~ 1475 5350
 Wire Wire Line
 	1475 5350 1475 5525
 $Comp
-L Power:GND #PWR022
+L V_Power:GND #PWR022
 U 1 1 5FAA2BE8
 P 2200 5475
 F 0 "#PWR022" H 2200 5225 50  0001 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 2200 5475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR028
+L V_Power:GND #PWR028
 U 1 1 5FAA3129
 P 2175 6350
 F 0 "#PWR028" H 2175 6100 50  0001 C CNN
@@ -421,7 +421,7 @@ Wire Wire Line
 Wire Wire Line
 	2175 6250 2175 6350
 $Comp
-L Power:+12V #PWR020
+L V_Power:+12V #PWR020
 U 1 1 5FB28637
 P 3050 5175
 F 0 "#PWR020" H 3050 5025 50  0001 C CNN
@@ -432,7 +432,7 @@ F 3 "" H 3050 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C7
+L V_Capacitor:C0402_100nF_16V_10% C7
 U 1 1 5FB28643
 P 3450 5350
 F 0 "C7" V 3600 5300 50  0000 L CNN
@@ -447,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 5175 3050 5350
 $Comp
-L Capacitor:C0402_100nF_16V_10% C8
+L V_Capacitor:C0402_100nF_16V_10% C8
 U 1 1 5FB28651
 P 3450 6250
 F 0 "C8" V 3600 6200 50  0000 L CNN
@@ -466,7 +466,7 @@ Connection ~ 3050 5350
 Wire Wire Line
 	3050 5350 3050 5525
 $Comp
-L Power:GND #PWR023
+L V_Power:GND #PWR023
 U 1 1 5FB2865D
 P 3775 5475
 F 0 "#PWR023" H 3775 5225 50  0001 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 3775 5475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR030
+L V_Power:GND #PWR030
 U 1 1 5FB28663
 P 3750 6350
 F 0 "#PWR030" H 3750 6100 50  0001 C CNN
@@ -509,7 +509,7 @@ Connection ~ 4250 3300
 Wire Wire Line
 	4250 3200 4250 3300
 $Comp
-L Power:+5V #PWR05
+L V_Power:+5V #PWR05
 U 1 1 5F8D454B
 P 4250 3200
 F 0 "#PWR05" H 4250 3050 50  0001 C CNN
@@ -520,7 +520,7 @@ F 3 "" H 4250 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR08
+L V_Power:GND #PWR08
 U 1 1 5F26F747
 P 4250 3900
 F 0 "#PWR08" H 4250 3650 50  0001 C CNN
@@ -533,7 +533,7 @@ $EndComp
 Wire Wire Line
 	4000 3300 4150 3300
 $Comp
-L Capacitor:C0402_220pF_50V_5% C2
+L V_Capacitor:C0402_220pF_50V_5% C2
 U 1 1 5E87D053
 P 4250 3525
 F 0 "C2" H 4365 3571 50  0000 L CNN
@@ -544,7 +544,7 @@ F 3 "~" H 4250 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductor:L_Core_Ferrite L1
+L V_Inductor:L_Core_Ferrite L1
 U 1 1 5E87AB3F
 P 3850 3300
 F 0 "L1" V 3950 3300 50  0000 C CNN
@@ -555,7 +555,7 @@ F 3 "https://katalog.we-online.de/pbs/datasheet/74279218.pdf" H 3850 3300 50  00
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse:Fuse_10022141 FU1
+L V_Fuse:Fuse_10022141 FU1
 U 1 1 5E879854
 P 3450 3300
 F 0 "FU1" V 3375 3300 50  0000 C CNN
@@ -587,7 +587,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 6225 14700 7100
 $Comp
-L Power:GND #PWR021
+L V_Power:GND #PWR021
 U 1 1 5EA0E815
 P 14525 6650
 F 0 "#PWR021" H 14525 6400 50  0001 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 14525 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR027
+L V_Power:GND #PWR027
 U 1 1 5E9F8A01
 P 14100 7500
 F 0 "#PWR027" H 14100 7250 50  0001 C CNN
@@ -609,7 +609,7 @@ F 3 "" H 14100 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC:LMV321 IC4
+L V_IC:LMV321 IC4
 U 1 1 5E9F6105
 P 14200 7100
 F 0 "IC4" H 14350 7250 50  0000 L CNN
@@ -636,7 +636,7 @@ Connection ~ 14100 6575
 Wire Wire Line
 	14500 7100 14700 7100
 $Comp
-L IC:LM358 IC3
+L V_IC:LM358 IC3
 U 1 1 5E8962E9
 P 8800 2500
 F 0 "IC3" H 8875 2325 50  0000 C CNN
@@ -647,7 +647,7 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC33171-D.PDF" H 8800 2500 50  0001 C 
 	1    0    0    1   
 $EndComp
 $Comp
-L IC:LM358 IC2
+L V_IC:LM358 IC2
 U 3 1 5FB28649
 P 3150 5825
 F 0 "IC2" H 2850 5975 50  0000 C CNN
@@ -658,12 +658,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3150 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_200k_1% R69
+L V_Resistor:R0402_200k_1% R69
 U 1 1 5EA89989
 P 13850 7900
 F 0 "R69" H 13850 8000 50  0000 C CNN
 F 1 "200k" H 13850 7900 50  0000 C CNN
-F 2 "GR106768 Buzzer:R0402_1" H 13850 8100 50  0001 C CNN
+F 2 "GR106768 V_Buzzer:R0402_1" H 13850 8100 50  0001 C CNN
 F 3 "~" H 13850 7900 50  0001 C CNN
 F 4 "RESISTOR, 200k, +/-1%, 0.063W, 0402" H 13850 8100 50  0001 C CNN "Description"
 F 5 "10023292" H 13850 8100 50  0001 C CNN "Item Number"
@@ -671,7 +671,7 @@ F 5 "10023292" H 13850 8100 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R0402_100k_1% R59
+L V_Resistor:R0402_100k_1% R59
 U 1 1 5EA8B1EB
 P 13500 8250
 F 0 "R59" H 13500 8350 50  0000 C CNN
@@ -684,7 +684,7 @@ F 5 "10022149" H 13500 8450 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor:R0402_100k_1% R24
+L V_Resistor:R0402_100k_1% R24
 U 1 1 5EA8E1A5
 P 13250 7000
 F 0 "R24" H 13250 7100 50  0000 C CNN
@@ -697,7 +697,7 @@ F 5 "10022149" H 13325 6900 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R0402_100k_1% R29
+L V_Resistor:R0402_100k_1% R29
 U 1 1 5EA90255
 P 14400 6225
 F 0 "R29" H 14400 6125 50  0000 C CNN
@@ -710,7 +710,7 @@ F 5 "10022149" H 14400 6425 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R0402_68k_1% R27
+L V_Resistor:R0402_68k_1% R27
 U 1 1 5EA91372
 P 13550 6225
 F 0 "R27" H 13550 6125 50  0000 C CNN
@@ -723,7 +723,7 @@ F 5 "10021556" H 13550 6425 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R0402_2k2_1% R23
+L V_Resistor:R0402_2k2_1% R23
 U 1 1 5EA9CBEC
 P 12700 6750
 F 0 "R23" H 12700 6850 50  0000 C CNN
@@ -797,7 +797,7 @@ Wire Wire Line
 Wire Wire Line
 	14225 2600 14350 2600
 $Comp
-L Power:-12V #PWR010
+L V_Power:-12V #PWR010
 U 1 1 5E99DE51
 P 12900 3525
 F 0 "#PWR010" H 12900 3625 50  0001 C CNN
@@ -808,7 +808,7 @@ F 3 "" H 12900 3525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:+12V #PWR01
+L V_Power:+12V #PWR01
 U 1 1 5E99DE4B
 P 12900 1425
 F 0 "#PWR01" H 12900 1275 50  0001 C CNN
@@ -819,7 +819,7 @@ F 3 "" H 12900 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C_470uF_40V_20% C12
+L V_Capacitor:C_470uF_40V_20% C12
 U 1 1 5E95457C
 P 12450 2950
 F 0 "C12" H 12475 3075 50  0000 L CNN
@@ -830,7 +830,7 @@ F 3 "~" H 12450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR04
+L V_Power:GND #PWR04
 U 1 1 5E939516
 P 14350 2725
 F 0 "#PWR04" H 14350 2475 50  0001 C CNN
@@ -841,7 +841,7 @@ F 3 "" H 14350 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC:LM358 IC3
+L V_IC:LM358 IC3
 U 2 1 5E906CDE
 P 13925 2500
 F 0 "IC3" H 14000 2675 50  0000 C CNN
@@ -852,7 +852,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 13925 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R0402_33R_1% R15
+L V_Resistor:R0402_33R_1% R15
 U 1 1 5EADE678
 P 11500 2450
 F 0 "R15" H 11500 2550 50  0000 C CNN
@@ -865,7 +865,7 @@ F 5 "10022745" H 11500 2650 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_150k_1% R21
+L V_Resistor:R0402_150k_1% R21
 U 1 1 5EADFF19
 P 12250 5900
 F 0 "R21" H 12250 6000 50  0000 C CNN
@@ -878,7 +878,7 @@ F 5 "10022881" H 12250 6100 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_10k_1% R16
+L V_Resistor:R0402_10k_1% R16
 U 1 1 5EAE2485
 P 11700 4850
 F 0 "R16" H 11700 4950 50  0000 C CNN
@@ -891,7 +891,7 @@ F 5 "10022150" H 11700 5050 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor:R0402_10k_1% R17
+L V_Resistor:R0402_10k_1% R17
 U 1 1 5EAE3A2A
 P 11300 5150
 F 0 "R17" H 11300 5250 50  0000 C CNN
@@ -904,7 +904,7 @@ F 5 "10022150" H 11300 5350 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor:R0402_32k4_1% R28
+L V_Resistor:R0402_32k4_1% R28
 U 1 1 5EAE478D
 P 14700 2400
 F 0 "R28" H 14700 2500 50  0000 C CNN
@@ -917,7 +917,7 @@ F 5 "10022154" H 14700 2600 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_137k_1% R26
+L V_Resistor:R0402_137k_1% R26
 U 1 1 5EAE68B0
 P 13975 1950
 F 0 "R26" H 13975 2050 50  0000 C CNN
@@ -930,7 +930,7 @@ F 5 "10021468" H 13975 2150 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_470R_1% R22
+L V_Resistor:R0402_470R_1% R22
 U 1 1 5EAE98B3
 P 13150 2500
 F 0 "R22" H 13150 2600 50  0000 C CNN
@@ -943,7 +943,7 @@ F 5 "10022156" H 13150 2700 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_1R5_1% R19
+L V_Resistor:R0402_1R5_1% R19
 U 1 1 5EAEB7F1
 P 12900 2225
 F 0 "R19" H 12900 2325 50  0000 C CNN
@@ -956,7 +956,7 @@ F 5 "10022725" H 12900 2425 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_1R5_1% R20
+L V_Resistor:R0402_1R5_1% R20
 U 1 1 5EAEDC7F
 P 12900 2775
 F 0 "R20" H 12900 2875 50  0000 C CNN
@@ -969,7 +969,7 @@ F 5 "10022725" H 12900 2975 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_32k4_1% R9
+L V_Resistor:R0402_32k4_1% R9
 U 1 1 5EAF2BD4
 P 8050 2050
 F 0 "R9" H 8050 2150 50  0000 C CNN
@@ -982,7 +982,7 @@ F 5 "10022154" H 8050 2250 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_105k_1% R11
+L V_Resistor:R0402_105k_1% R11
 U 1 1 5EAF4C77
 P 8825 2050
 F 0 "R11" H 8825 2150 50  0000 C CNN
@@ -995,7 +995,7 @@ F 5 "10022155" H 8825 2250 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_100k_1% R10
+L V_Resistor:R0402_100k_1% R10
 U 1 1 5EAF61C9
 P 8700 4650
 F 0 "R10" H 8700 4750 50  0000 C CNN
@@ -1088,7 +1088,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 2400 15000 4300
 $Comp
-L Resistor:R0402_1k_1% R8
+L V_Resistor:R0402_1k_1% R8
 U 1 1 5EE632F2
 P 7800 4650
 F 0 "R8" H 7800 4750 50  0000 C CNN
@@ -1101,7 +1101,7 @@ F 5 "10022153" H 7800 4850 50  0001 C CNN "Item Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor:R0402_100k_1% R1
+L V_Resistor:R0402_100k_1% R1
 U 1 1 5EE68B27
 P 4900 3250
 F 0 "R1" H 4900 3350 50  0000 C CNN
@@ -1114,7 +1114,7 @@ F 5 "10022149" H 4900 3450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_10k_1% R4
+L V_Resistor:R0402_10k_1% R4
 U 1 1 5EE69FB2
 P 5250 2900
 F 0 "R4" H 5250 3000 50  0000 C CNN
@@ -1127,7 +1127,7 @@ F 5 "10022150" H 5250 3100 50  0001 C CNN "Item Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R0402_10k_1% R5
+L V_Resistor:R0402_10k_1% R5
 U 1 1 5EE6DF49
 P 5750 2900
 F 0 "R5" H 5750 3000 50  0000 C CNN
@@ -1221,7 +1221,7 @@ Text Label 15200 7100 2    50   ~ 0
 TESTBUZ
 Connection ~ 14700 7100
 $Comp
-L Connector:Fiducial J2
+L V_Connector:Fiducial J2
 U 1 1 5EA28D60
 P 7150 7500
 F 0 "J2" H 7150 7700 50  0000 C CNN
@@ -2402,7 +2402,7 @@ F 3 "~" H 10200 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:PWR_FLAG #FLG0103
+L V_Power:PWR_FLAG #FLG0103
 U 1 1 5EA400AD
 P 3850 3900
 F 0 "#FLG0103" H 3850 3975 50  0001 C CNN
@@ -2413,7 +2413,7 @@ F 3 "~" H 3850 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:PWR_FLAG #FLG0105
+L V_Power:PWR_FLAG #FLG0105
 U 1 1 5EA6C177
 P 4150 3200
 F 0 "#FLG0105" H 4150 3275 50  0001 C CNN
@@ -2432,7 +2432,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 2300 4900 2300
 $Comp
-L Resistor:R0402_150k_1% R18
+L V_Resistor:R0402_150k_1% R18
 U 1 1 5EA9EA69
 P 11300 7050
 F 0 "R18" H 11300 7150 50  0000 C CNN
@@ -2445,7 +2445,7 @@ F 5 "10022881" H 11300 7250 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor:BC857 T4
+L V_Transistor:BC857 T4
 U 1 1 5ED1DCB7
 P 13000 3200
 F 0 "T4" H 13200 3275 50  0000 L CNN
@@ -2456,7 +2456,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 1
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor:BC847 T3
+L V_Transistor:BC847 T3
 U 1 1 5ED662DA
 P 13000 1800
 F 0 "T3" H 13200 1875 50  0000 L CNN
@@ -2485,7 +2485,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 2300 10300 2500
 $Comp
-L Diode:BAT54S D4
+L V_Diode:BAT54S D4
 U 1 1 5EBC356D
 P 12000 2500
 F 0 "D4" V 12125 2300 50  0000 L CNN
@@ -2497,7 +2497,7 @@ F 4 "10022518" H 12000 2700 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:BAT54S D3
+L V_Diode:BAT54S D3
 U 1 1 5EBCBDC4
 P 11000 2500
 F 0 "D3" V 11125 2300 50  0000 L CNN
@@ -2509,7 +2509,7 @@ F 4 "10022518" H 11000 2700 50  0001 C CNN "Item Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Inductor:BK3216xxxxx FI1
+L V_Inductor:BK3216xxxxx FI1
 U 1 1 5EB5F4EF
 P 3700 2700
 F 0 "FI1" H 3575 3100 50  0000 L BNN
@@ -2540,7 +2540,7 @@ Connection ~ 4150 3300
 Wire Wire Line
 	4150 3300 4250 3300
 $Comp
-L Diode:BAT54C D2
+L V_Diode:BAT54C D2
 U 1 1 5F042781
 P 7500 4300
 F 0 "D2" H 7350 4525 50  0000 L CNN
@@ -2567,7 +2567,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 5500 4600 5500
 $Comp
-L Resistor:R0402_51k1_1% R7
+L V_Resistor:R0402_51k1_1% R7
 U 1 1 5EE6575D
 P 6600 5450
 F 0 "R7" H 6600 5550 50  0000 C CNN
@@ -2582,7 +2582,7 @@ $EndComp
 Wire Wire Line
 	5700 5400 5700 5500
 $Comp
-L IC:LMC7211 IC1
+L V_IC:LMC7211 IC1
 U 1 1 5ED9EC08
 P 5800 5100
 F 0 "IC1" H 5800 5300 50  0000 L CNN
@@ -2596,7 +2596,7 @@ $EndComp
 Text Label 4000 4500 0    50   ~ 0
 SUPPLY-BUZ
 $Comp
-L Resistor:R0402_100k_1% R3
+L V_Resistor:R0402_100k_1% R3
 U 1 1 5EAFA9E8
 P 5000 5250
 F 0 "R3" H 5000 5350 50  0000 C CNN
@@ -2609,7 +2609,7 @@ F 5 "10022149" H 5000 5450 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_100k_1% R2
+L V_Resistor:R0402_100k_1% R2
 U 1 1 5EAF8964
 P 5000 4750
 F 0 "R2" H 5000 4850 50  0000 C CNN
@@ -2652,7 +2652,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5200 5350 5200
 $Comp
-L Power:GND #PWR024
+L V_Power:GND #PWR024
 U 1 1 5EE6AC54
 P 5350 6350
 F 0 "#PWR024" H 5350 6100 50  0001 C CNN
@@ -2663,7 +2663,7 @@ F 3 "" H 5350 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR016
+L V_Power:GND #PWR016
 U 1 1 5EE6684B
 P 5700 5500
 F 0 "#PWR016" H 5700 5250 50  0001 C CNN
@@ -2676,7 +2676,7 @@ $EndComp
 Wire Wire Line
 	5000 5400 5000 5500
 $Comp
-L Power:GND #PWR015
+L V_Power:GND #PWR015
 U 1 1 5EE5EBD1
 P 5000 5600
 F 0 "#PWR015" H 5000 5350 50  0001 C CNN
@@ -2694,7 +2694,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5000 5300 5000
 $Comp
-L Capacitor:C0805_10nF_16V_2% C3
+L V_Capacitor:C0805_10nF_16V_2% C3
 U 1 1 5E8D63CA
 P 5350 6100
 F 0 "C3" H 5235 6054 50  0000 R CNN
@@ -2705,7 +2705,7 @@ F 3 "~" H 5350 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C5
+L V_Capacitor:C0402_100nF_16V_10% C5
 U 1 1 5E8CCB59
 P 4600 4950
 F 0 "C5" V 4525 5025 50  0000 L CNN
@@ -2722,7 +2722,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4200 5300 4200
 $Comp
-L Resistor:R0402_59k_1% R6
+L V_Resistor:R0402_59k_1% R6
 U 1 1 5EE74830
 P 5850 4200
 F 0 "R6" H 5850 4300 50  0000 C CNN
@@ -2735,7 +2735,7 @@ F 5 "10022151" H 5850 4400 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor:BC847 T1
+L V_Transistor:BC847 T1
 U 1 1 5EB8903A
 P 9800 1700
 F 0 "T1" H 10000 1775 50  0000 L CNN
@@ -2747,7 +2747,7 @@ F 4 "10024443" H 10000 1850 50  0001 L CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor:BC857 T2
+L V_Transistor:BC857 T2
 U 1 1 5EB8423D
 P 9800 3200
 F 0 "T2" H 10000 3275 50  0000 L CNN
@@ -2758,7 +2758,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 9
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_470R_1% R12
+L V_Resistor:R0402_470R_1% R12
 U 1 1 5EAF15D6
 P 9650 2400
 F 0 "R12" H 9650 2500 50  0000 C CNN
@@ -2771,7 +2771,7 @@ F 5 "10022156" H 9650 2600 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0402_1R5_1% R14
+L V_Resistor:R0402_1R5_1% R14
 U 1 1 5EAF08D9
 P 9900 2750
 F 0 "R14" H 9900 2850 50  0000 C CNN
@@ -2784,7 +2784,7 @@ F 5 "10022725" H 9900 2950 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0402_1R5_1% R13
+L V_Resistor:R0402_1R5_1% R13
 U 1 1 5EAEECA2
 P 9900 2150
 F 0 "R13" H 9900 2250 50  0000 C CNN
@@ -2797,7 +2797,7 @@ F 5 "10022725" H 9900 2350 50  0001 C CNN "Item Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Power:+12V #PWR02
+L V_Power:+12V #PWR02
 U 1 1 5EB6F4DC
 P 9900 1400
 F 0 "#PWR02" H 9900 1250 50  0001 C CNN
@@ -2880,7 +2880,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4300 8700 4300
 $Comp
-L Buzzer:Buzzer BUZ2
+L V_Buzzer:Buzzer BUZ2
 U 1 1 5F18A730
 P 10400 2800
 F 0 "BUZ2" V 10575 2800 50  0000 C CNN
@@ -2893,7 +2893,7 @@ F 4 "10022130" H 10400 3050 50  0001 C CNN "Item Number"
 $EndComp
 NoConn ~ 10400 2700
 $Comp
-L Buzzer:Buzzer BUZ1
+L V_Buzzer:Buzzer BUZ1
 U 1 1 5F1A6F3E
 P 10400 2200
 F 0 "BUZ1" V 10575 2200 50  0000 C CNN
@@ -2908,7 +2908,7 @@ NoConn ~ 10400 2300
 Text Notes 3475 2025 0    76   ~ 0
 Should FI1 have the BLA2AAG102 part\nnumber?  I thought the Master BOM\nsaid it was obsolete, but maybe there\nis stock available?
 $Comp
-L Diode:MBRM120 D1
+L V_Diode:MBRM120 D1
 U 1 1 5ECDFA95
 P 2950 2300
 F 0 "D1" H 3075 2350 50  0000 C CNN
@@ -2920,7 +2920,7 @@ F 4 "10022140" H 2950 2500 50  0001 C CNN "Item Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BZX84C2V7 D5
+L V_Diode:BZX84C2V7 D5
 U 1 1 5ED68B8C
 P 12500 7350
 F 0 "D5" H 12500 7450 50  0000 C CNN
@@ -2988,7 +2988,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 2600 3000 3400
 $Comp
-L Capacitor:C0612_47pF_50V_10% C1
+L V_Capacitor:C0612_47pF_50V_10% C1
 U 1 1 5EC82919
 P 2900 3550
 F 0 "C1" H 3400 3550 50  0000 C CNN
@@ -3008,7 +3008,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3400 3200 2450
 $Comp
-L Power:-12V #PWR?
+L V_Power:-12V #PWR?
 U 1 1 5EB01B2E
 P 9900 3500
 F 0 "#PWR?" H 9900 3600 50  0001 C CNN
@@ -3019,7 +3019,7 @@ F 3 "" H 9900 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:-12V #PWR?
+L V_Power:-12V #PWR?
 U 1 1 5EB0B682
 P 1475 6375
 F 0 "#PWR?" H 1475 6475 50  0001 C CNN
@@ -3030,7 +3030,7 @@ F 3 "" H 1475 6375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:-12V #PWR?
+L V_Power:-12V #PWR?
 U 1 1 5EB0F511
 P 3050 6375
 F 0 "#PWR?" H 3050 6475 50  0001 C CNN

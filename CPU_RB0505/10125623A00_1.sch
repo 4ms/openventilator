@@ -42,7 +42,7 @@ MRST_SPI_1_E
 Text Label 8300 7050 0    50   ~ 0
 MRST_SPI_1_E
 $Comp
-L Power:0VANA #U$?
+L V_Power:0VANA #U$?
 U 1 1 CA2824D4
 P 7300 8950
 AR Path="/CA2824D4" Ref="#U$?"  Part="1" 
@@ -55,7 +55,7 @@ F 3 "" H 7300 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 CB1F8FE5
 P 14700 2150
 AR Path="/CB1F8FE5" Ref="C?"  Part="1" 
@@ -79,7 +79,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 A05C1986
 P 7300 9650
 AR Path="/A05C1986" Ref="C?"  Part="1" 
@@ -106,7 +106,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 9650 50  0001 C CNN "Manufacturer_Des
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 93AA069D
 P 7300 9850
 AR Path="/93AA069D" Ref="C?"  Part="1" 
@@ -133,7 +133,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 9850 50  0001 C CNN "Manufacturer_Des
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 5F5D481B
 P 7300 10050
 AR Path="/5F5D481B" Ref="C?"  Part="1" 
@@ -160,7 +160,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 10050 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 0EABB629
 P 7300 10250
 AR Path="/0EABB629" Ref="C?"  Part="1" 
@@ -187,7 +187,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 10250 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 C9504634
 P 7300 10450
 AR Path="/C9504634" Ref="C?"  Part="1" 
@@ -214,7 +214,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 10450 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 AB97CB13
 P 7300 10650
 AR Path="/AB97CB13" Ref="C?"  Part="1" 
@@ -241,7 +241,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 10650 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 BCAFF6B0
 P 7300 10800
 AR Path="/BCAFF6B0" Ref="C?"  Part="1" 
@@ -268,7 +268,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 7300 10800 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor:R1206_ARRAY_6K8_5% RS?
+L V_Resistor:R1206_ARRAY_6K8_5% RS?
 U 1 1 3DF3A440
 P 10200 6550
 AR Path="/3DF3A440" Ref="RS?"  Part="1" 
@@ -298,7 +298,7 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 6550 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor:R1206_ARRAY_15K_5% RS?
+L V_Resistor:R1206_ARRAY_15K_5% RS?
 U 1 1 0530E82D
 P 10200 5975
 AR Path="/0530E82D" Ref="RS?"  Part="1" 
@@ -322,7 +322,7 @@ F 14 "RESISTOR, NETWORK, FILM, ISOLATED, SURFACE MOUNT" H 10200 5975 50  0001 C 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor:R1206_ARRAY_6K8_5% RS?
+L V_Resistor:R1206_ARRAY_6K8_5% RS?
 U 1 1 133E079A
 P 10200 7150
 AR Path="/133E079A" Ref="RS?"  Part="1" 
@@ -352,7 +352,7 @@ F 20 "RESISTOR, NETWORK, FILM, ISOLATED, 0.0625 W, SURFACE MOUNT" H 10200 7150 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor:R1206_ARRAY_6K8_5% RS?
+L V_Resistor:R1206_ARRAY_6K8_5% RS?
 U 1 1 2A0E722A
 P 10200 7750
 AR Path="/2A0E722A" Ref="RS?"  Part="1" 
@@ -379,7 +379,7 @@ F 17 "CHIP RESISTOR ARRAY" H 10200 7750 50  0001 C CNN "Manufacturer_Desc4"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 284AD347
 P 7300 11000
 AR Path="/284AD347" Ref="C?"  Part="1" 
@@ -392,7 +392,7 @@ F 3 "" H 7300 11000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Crystal:Crystal_Small_10020993 Q?
+L V_Crystal:Crystal_Small_10020993 Q?
 U 1 1 F8782F37
 P 5650 1150
 AR Path="/F8782F37" Ref="Q?"  Part="1" 
@@ -410,7 +410,7 @@ F 8 "" H 5650 1150 50  0001 C CNN "Manufacturer_Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R_100R_5% R?
+L V_Resistor:R_100R_5% R?
 U 1 1 E6C7F8B8
 P 5550 1350
 AR Path="/E6C7F8B8" Ref="R?"  Part="1" 
@@ -434,7 +434,7 @@ F 14 "THICK FILM CHIP RESISTOR" H 5550 1350 50  0001 C CNN "Manufacturer_Desc3"
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor:C0805_330nF_16V_10% C?
+L V_Capacitor:C0805_330nF_16V_10% C?
 U 1 1 967579EA
 P 6550 1300
 AR Path="/967579EA" Ref="C?"  Part="1" 
@@ -458,7 +458,7 @@ F 14 "CERAMIC SURFACE MOUNT - X7R DIELECTRIC" H 6550 1300 50  0001 C CNN "Manufa
 	1    0    0    1   
 $EndComp
 $Comp
-L Capacitor:C_1uF_35V_10% C?
+L V_Capacitor:C_1uF_35V_10% C?
 U 1 1 6D37B6AD
 P 7400 1100
 AR Path="/6D37B6AD" Ref="C?"  Part="1" 
@@ -479,7 +479,7 @@ F 11 "Cap, Tantalum, Polarized, 35V, 10% +/-Tol, 1uF, Surface Mount, 1206 (Case 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:0VANA #U$?
+L V_Power:0VANA #U$?
 U 1 1 1DEA58DA
 P 8350 1550
 AR Path="/1DEA58DA" Ref="#U$?"  Part="1" 
@@ -492,7 +492,7 @@ F 3 "" H 8350 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:PAST01 PST?
+L V_Connector:PAST01 PST?
 U 1 1 AD296153
 P 8350 5850
 AR Path="/AD296153" Ref="PST?"  Part="1" 
@@ -505,7 +505,7 @@ F 3 "" H 8350 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:PAST01 PST?
+L V_Connector:PAST01 PST?
 U 1 1 AD815FBB
 P 8350 5950
 AR Path="/AD815FBB" Ref="PST?"  Part="1" 
@@ -518,7 +518,7 @@ F 3 "" H 8350 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:PAST01 PST?
+L V_Connector:PAST01 PST?
 U 1 1 66851D94
 P 8350 6050
 AR Path="/66851D94" Ref="PST?"  Part="1" 
@@ -531,7 +531,7 @@ F 3 "" H 8350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0603_22pF_50V_5% C?
+L V_Capacitor:C0603_22pF_50V_5% C?
 U 1 1 7EE2FFE3
 P 5750 1000
 AR Path="/7EE2FFE3" Ref="C?"  Part="1" 
@@ -555,7 +555,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    1   
 $EndComp
 $Comp
-L Capacitor:C0603_22pF_50V_5% C?
+L V_Capacitor:C0603_22pF_50V_5% C?
 U 1 1 5ADCC44B
 P 5550 1000
 AR Path="/5ADCC44B" Ref="C?"  Part="1" 
@@ -579,7 +579,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 50 V, C0G, 0.000022 UF, SURFACE MOUNT, 060
 	1    0    0    1   
 $EndComp
 $Comp
-L Power:0VANA #U$?
+L V_Power:0VANA #U$?
 U 1 1 DBF96AF7
 P 1800 9950
 AR Path="/DBF96AF7" Ref="#U$?"  Part="1" 
@@ -592,7 +592,7 @@ F 3 "" H 1800 9950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor:R0603_56k_1% R?
+L V_Resistor:R0603_56k_1% R?
 U 1 1 C54AB7D0
 P 2200 9550
 AR Path="/C54AB7D0" Ref="R?"  Part="1" 
@@ -616,7 +616,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 1 %, 100 PPM, 56000 OHM, SURFACE 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0603_10k5_0.1% R?
+L V_Resistor:R0603_10k5_0.1% R?
 U 1 1 BAB36D42
 P 2200 9850
 AR Path="/BAB36D42" Ref="R?"  Part="1" 
@@ -637,7 +637,7 @@ F 11 "PRECISION SURFACE MOUNT RESISTOR" H 2200 9850 50  0001 C CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 597E8BEF
 P 2200 10050
 AR Path="/597E8BEF" Ref="C?"  Part="1" 
@@ -661,7 +661,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    1    -1   0   
 $EndComp
 $Comp
-L Resistor:R0603_1k5_5% R?
+L V_Resistor:R0603_1k5_5% R?
 U 1 1 D628991E
 P 3100 5950
 AR Path="/D628991E" Ref="R?"  Part="1" 
@@ -685,7 +685,7 @@ F 14 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 1500 OHM, SURFACE M
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0612_47pF_50V_10% C?
+L V_Capacitor:C0612_47pF_50V_10% C?
 U 1 1 8BD8962D
 P 2150 3950
 AR Path="/8BD8962D" Ref="C?"  Part="1" 
@@ -703,7 +703,7 @@ F 8 "ISOLATED C NETWORK, 50V, C0G, 0.000047UF, SURFACE MOUNT, CHIP-8" H 2150 395
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistor:R1206_ARRAY_15K_5% RS?
+L V_Resistor:R1206_ARRAY_15K_5% RS?
 U 1 1 3858CF0B
 P 2500 2650
 AR Path="/3858CF0B" Ref="RS?"  Part="1" 
@@ -727,7 +727,7 @@ F 14 "RESISTOR, NETWORK, FILM, ISOLATED, SURFACE MOUNT" H 2500 2650 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:JUMP_0U JP?
+L V_Jumper:JUMP_0U JP?
 U 1 1 357D3C8D
 P 1700 7000
 AR Path="/357D3C8D" Ref="JP?"  Part="1" 
@@ -740,7 +740,7 @@ F 3 "" H 1700 7000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:D_Zener_A1K3_10022655 D?
+L V_Diode:D_Zener_A1K3_10022655 D?
 U 1 1 8A392F19
 P 12400 4250
 AR Path="/8A392F19" Ref="D?"  Part="1" 
@@ -761,7 +761,7 @@ F 11 "" H 12400 4250 50  0001 C CNN "Manufacturer_Desc2"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R_4k7_5% R?
+L V_Resistor:R_4k7_5% R?
 U 1 1 CEF2471C
 P 12650 4050
 AR Path="/CEF2471C" Ref="R?"  Part="1" 
@@ -788,7 +788,7 @@ F 17 "RESISTOR, METAL GLAZE/THICK FILM, 0.1 W, 5 %, 100 PPM, 4700 OHM, SURFACE M
 	-1   0    0    -1  
 $EndComp
 $Comp
-L IC:74HCT1G04GW IC?
+L V_IC:74HCT1G04GW IC?
 U 1 1 3D34EBB1
 P 12200 4350
 AR Path="/3D34EBB1" Ref="IC?"  Part="1" 
@@ -809,7 +809,7 @@ F 11 "INVERTER" H 12200 4350 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor:R_100k_5% R?
+L V_Resistor:R_100k_5% R?
 U 1 1 CCBE402C
 P 12050 7250
 AR Path="/CCBE402C" Ref="R?"  Part="1" 
@@ -836,7 +836,7 @@ F 17 "THICK FILM CHIP RESISTOR" H 12050 7250 50  0001 C CNN "Manufacturer_Desc4"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L IC:74HCT1G32GW IC?
+L V_IC:74HCT1G32GW IC?
 U 1 1 6E981591
 P 15100 7600
 AR Path="/6E981591" Ref="IC?"  Part="1" 
@@ -857,7 +857,7 @@ F 11 "" H 15100 7600 50  0001 C CNN "Manufacturer_Desc2"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Capacitor:C0805_1uF_16V_10% C?
+L V_Capacitor:C0805_1uF_16V_10% C?
 U 1 1 9A495DAC
 P 12200 7250
 AR Path="/9A495DAC" Ref="C?"  Part="1" 
@@ -884,7 +884,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 12200 7250 50  0001 C CNN "Manufacturer_De
 	1    0    0    1   
 $EndComp
 $Comp
-L Diode:D_Schottky_A1K3_10022652 D?
+L V_Diode:D_Schottky_A1K3_10022652 D?
 U 1 1 59396773
 P 13950 7700
 AR Path="/59396773" Ref="D?"  Part="1" 
@@ -905,7 +905,7 @@ F 11 "SCHOTTKY BARRIER DOUBLE DIODE" H 13950 7700 50  0001 C CNN "Manufacturer_D
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:PINHD-1X1 PT?
+L V_Connector:PINHD-1X1 PT?
 U 1 1 D711CC1B
 P 6500 8975
 AR Path="/D711CC1B" Ref="PT?"  Part="1" 
@@ -926,7 +926,7 @@ F 11 "PC TEST POINT MINIATURE SMT" H 6500 8975 50  0001 C CNN "Manufacturer_Desc
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:0VANA #U$?
+L V_Power:0VANA #U$?
 U 1 1 F8BE309A
 P 5100 10750
 AR Path="/F8BE309A" Ref="#U$?"  Part="1" 
@@ -939,7 +939,7 @@ F 3 "" H 5100 10750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistor:R0603_10k_5% R?
+L V_Resistor:R0603_10k_5% R?
 U 1 1 F7CB6097
 P 4800 10950
 AR Path="/F7CB6097" Ref="R?"  Part="1" 
@@ -963,7 +963,7 @@ F 14 "THICK FILM RECTANGULAR CHIP RESISTOR" H 4800 10950 50  0001 C CNN "Manufac
 	-1   0    0    1   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 7614D321
 P 4800 10550
 AR Path="/7614D321" Ref="C?"  Part="1" 
@@ -987,7 +987,7 @@ F 14 "CAPACITOR, CERAMIC, MULTILAYER, 16 V, X7R, 0.1 UF, SURFACE MOUNT, 0402" H 
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 150190AD
 P 10200 3250
 AR Path="/150190AD" Ref="C?"  Part="1" 
@@ -1000,7 +1000,7 @@ F 3 "" H 10200 3250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Resistor:R0603_0R_5% R?
+L V_Resistor:R0603_0R_5% R?
 U 1 1 C18C78EC
 P 8500 950
 AR Path="/C18C78EC" Ref="R?"  Part="1" 
@@ -1024,7 +1024,7 @@ F 14 "JUMPER, METAL GLAZE/THICK FILM, 0.1 W, 0 OHM, SURFACE MOUNT, 0603" H 8500 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:LIAISON_MASSES JPL?
+L V_Connector:LIAISON_MASSES JPL?
 U 1 1 BCD438C6
 P 6900 8350
 AR Path="/BCD438C6" Ref="JPL?"  Part="1" 
@@ -1037,7 +1037,7 @@ F 3 "" H 6900 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:PINHD-1X1 PT?
+L V_Connector:PINHD-1X1 PT?
 U 1 1 7DBB10B8
 P 7700 9000
 AR Path="/7DBB10B8" Ref="PT?"  Part="1" 
@@ -1382,7 +1382,7 @@ WR\
 Text Label 14800 4950 3    50   ~ 0
 RD\
 $Comp
-L IC:NC7SZ66 IC?
+L V_IC:NC7SZ66 IC?
 U 1 1 4B983B5C
 P 9900 3950
 AR Path="/4B983B5C" Ref="IC?"  Part="1" 
@@ -1550,7 +1550,7 @@ D[0..15]
 Text HLabel 15950 2650 1    50   BiDi ~ 0
 D[0..15]
 $Comp
-L Resistor:R1206_ARRAY_6K8_5% RS?
+L V_Resistor:R1206_ARRAY_6K8_5% RS?
 U 1 1 1544B106
 P 3075 3900
 AR Path="/1544B106" Ref="RS?"  Part="1" 
@@ -1574,7 +1574,7 @@ F 14 "RESISTOR, NETWORK, FILM, ISOLATED, SURFACE MOUNT" H 3075 3900 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:PAST01 PST?
+L V_Connector:PAST01 PST?
 U 1 1 368C0019
 P 5150 1450
 AR Path="/368C0019" Ref="PST?"  Part="1" 
@@ -1587,7 +1587,7 @@ F 3 "" H 5150 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L IC:ST10F269-273-276 IC?
+L V_IC:ST10F269-273-276 IC?
 U 1 1 BB7ED445
 P 6300 4650
 AR Path="/BB7ED445" Ref="IC?"  Part="1" 
@@ -1620,7 +1620,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 1500 7950 1100
 $Comp
-L Capacitor:C_1uF_35V_10% C?
+L V_Capacitor:C_1uF_35V_10% C?
 U 1 1 6F4029DE
 P 8250 1300
 AR Path="/6F4029DE" Ref="C?"  Part="1" 
@@ -1886,7 +1886,7 @@ Connection ~ 1450 5850
 Wire Wire Line
 	1450 5850 1500 5850
 $Comp
-L Jumper:JUMP_0U JP?
+L V_Jumper:JUMP_0U JP?
 U 1 1 ADC4B3B7
 P 1500 7000
 AR Path="/ADC4B3B7" Ref="JP?"  Part="1" 
@@ -2286,7 +2286,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 3800 12850 4050
 $Comp
-L IC:K6R4016C1DTCT000(256KX16) IC?
+L V_IC:K6R4016C1DTCT000(256KX16) IC?
 U 1 1 A6F2AB71
 P 14800 3550
 AR Path="/A6F2AB71" Ref="IC?"  Part="1" 
@@ -2511,7 +2511,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 8450 1700 8300
 $Comp
-L Diode:NUR30 D?
+L V_Diode:NUR30 D?
 U 1 1 C78C3FBD
 P 1700 8200
 AR Path="/C78C3FBD" Ref="D?"  Part="1" 
@@ -2524,7 +2524,7 @@ F 3 "" H 1700 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:NUR30 D?
+L V_Diode:NUR30 D?
 U 1 1 0CADE672
 P 2400 8200
 AR Path="/0CADE672" Ref="D?"  Part="1" 
@@ -2537,7 +2537,7 @@ F 3 "" H 2400 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:NUR30 D?
+L V_Diode:NUR30 D?
 U 1 1 93886C31
 P 3100 8200
 AR Path="/93886C31" Ref="D?"  Part="1" 
@@ -2569,7 +2569,7 @@ Wire Wire Line
 	4050 7750 4050 7800
 Connection ~ 3350 7750
 $Comp
-L Diode:NUR30 D?
+L V_Diode:NUR30 D?
 U 1 1 A8F36FED
 P 3800 8200
 AR Path="/A8F36FED" Ref="D?"  Part="1" 
@@ -2888,7 +2888,7 @@ Connection ~ 12050 7700
 Wire Wire Line
 	12200 7700 12050 7700
 $Comp
-L Transistor:Q_NMOS_GSD_10097274 T?
+L V_Transistor:Q_NMOS_GSD_10097274 T?
 U 1 1 78F4DB2D
 P 11850 6700
 AR Path="/78F4DB2D" Ref="T?"  Part="1" 
@@ -2912,7 +2912,7 @@ F 14 "N-CHANNEL TRENCHMOS FET" H 11850 6700 50  0001 C CNN "Manufacturer_Desc3"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor:R0603_22k_1%_10095983 R?
+L V_Resistor:R0603_22k_1%_10095983 R?
 U 1 1 CBBF32AF
 P 12450 6700
 AR Path="/CBBF32AF" Ref="R?"  Part="1" 
@@ -2940,7 +2940,7 @@ Wire Wire Line
 Connection ~ 12200 6700
 Connection ~ 12050 6700
 $Comp
-L Diode:D_Schottky_A1K3_10022652 D?
+L V_Diode:D_Schottky_A1K3_10022652 D?
 U 1 1 13A4EF58
 P 12450 6400
 AR Path="/13A4EF58" Ref="D?"  Part="1" 
@@ -2989,7 +2989,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 6850 14900 6800
 $Comp
-L Capacitor:C0805_1uF_16V_10% C?
+L V_Capacitor:C0805_1uF_16V_10% C?
 U 1 1 C17297D4
 P 14150 7300
 AR Path="/C17297D4" Ref="C?"  Part="1" 
@@ -3016,7 +3016,7 @@ F 17 "MONOLITHIC CERAMIC CAPACITOR" H 14150 7300 50  0001 C CNN "Manufacturer_De
 	0    -1   1    0   
 $EndComp
 $Comp
-L IC:74HCT1G32GW IC?
+L V_IC:74HCT1G32GW IC?
 U 1 1 28A53036
 P 13500 7650
 AR Path="/28A53036" Ref="IC?"  Part="1" 
@@ -3050,7 +3050,7 @@ Wire Wire Line
 	13650 7500 13600 7500
 Connection ~ 13650 7300
 $Comp
-L Resistor:R_100k_5% R?
+L V_Resistor:R_100k_5% R?
 U 1 1 CC254D70
 P 13800 7700
 AR Path="/CC254D70" Ref="R?"  Part="1" 
@@ -3092,7 +3092,7 @@ Connection ~ 13950 7300
 NoConn ~ 10450 2250
 NoConn ~ 10450 2650
 $Comp
-L IC:CD74HCT245M IC?
+L V_IC:CD74HCT245M IC?
 U 1 1 15424B03
 P 11150 2850
 AR Path="/15424B03" Ref="IC?"  Part="1" 
@@ -3127,7 +3127,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1550 5950 1600
 $Comp
-L Resistor:R0603_220k_5% R?
+L V_Resistor:R0603_220k_5% R?
 U 1 1 E7C109B0
 P 7150 1200
 AR Path="/E7C109B0" Ref="R?"  Part="1" 
@@ -3152,7 +3152,7 @@ F 14 "THICK FILM CHIP RESISTOR" H 7150 1200 50  0001 C CNN "Manufacturer_Desc3"
 $EndComp
 NoConn ~ 8100 7550
 $Comp
-L Power:PWR_FLAG #FLG0103
+L V_Power:PWR_FLAG #FLG0103
 U 1 1 5ED7A82D
 P 15000 1975
 F 0 "#FLG0103" H 15000 2050 50  0001 C CNN
@@ -3168,7 +3168,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 2350 12000 2350
 $Comp
-L Power:PWR_FLAG #FLG0112
+L V_Power:PWR_FLAG #FLG0112
 U 1 1 600E17E9
 P 11950 3250
 F 0 "#FLG0112" H 11950 3325 50  0001 C CNN
@@ -3281,7 +3281,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 1450 6550 1600
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 662809D9
 P 11150 1200
 AR Path="/662809D9" Ref="C?"  Part="1" 
@@ -3304,7 +3304,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 1100 8450 1150
 $Comp
-L Capacitor:C0402_100nF_16V_10% C?
+L V_Capacitor:C0402_100nF_16V_10% C?
 U 1 1 501DA122
 P 8450 1300
 AR Path="/501DA122" Ref="C?"  Part="1" 
@@ -3336,7 +3336,7 @@ Wire Wire Line
 	5550 1200 5550 1150
 Connection ~ 5550 1150
 $Comp
-L Resistor:R1206_ARRAY_6K8_5% RS?
+L V_Resistor:R1206_ARRAY_6K8_5% RS?
 U 1 1 D0D8FBF3
 P 1450 6150
 AR Path="/D0D8FBF3" Ref="RS?"  Part="1" 
@@ -3378,7 +3378,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 850  5650 850 
 $Comp
-L Power:GND #PWR0191
+L V_Power:GND #PWR0191
 U 1 1 5EEB6F91
 P 9900 4300
 F 0 "#PWR0191" H 10050 4250 50  0001 C CNN
@@ -3389,7 +3389,7 @@ F 3 "" H 9900 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0192
+L V_Power:GND #PWR0192
 U 1 1 5EEB85ED
 P 10950 3400
 F 0 "#PWR0192" H 11100 3350 50  0001 C CNN
@@ -3400,7 +3400,7 @@ F 3 "" H 10950 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0193
+L V_Power:GND #PWR0193
 U 1 1 5EEBA224
 P 10600 3300
 F 0 "#PWR0193" H 10750 3250 50  0001 C CNN
@@ -3411,7 +3411,7 @@ F 3 "" H 10600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0194
+L V_Power:GND #PWR0194
 U 1 1 5EEBA480
 P 12000 3550
 F 0 "#PWR0194" H 12150 3500 50  0001 C CNN
@@ -3422,7 +3422,7 @@ F 3 "" H 12000 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:GND #PWR0195
+L V_Power:GND #PWR0195
 U 1 1 5EEBBE3A
 P 12400 4450
 F 0 "#PWR0195" H 12550 4400 50  0001 C CNN
@@ -3433,7 +3433,7 @@ F 3 "" H 12400 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0196
+L V_Power:GND #PWR0196
 U 1 1 5EEBD45A
 P 11900 2800
 F 0 "#PWR0196" H 12050 2750 50  0001 C CNN
@@ -3444,7 +3444,7 @@ F 3 "" H 11900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0197
+L V_Power:GND #PWR0197
 U 1 1 5EEC17E6
 P 10900 1200
 F 0 "#PWR0197" H 11050 1150 50  0001 C CNN
@@ -3455,7 +3455,7 @@ F 3 "" H 10900 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:GND #PWR0198
+L V_Power:GND #PWR0198
 U 1 1 5EEC40CF
 P 14400 1950
 F 0 "#PWR0198" H 14550 1900 50  0001 C CNN
@@ -3466,7 +3466,7 @@ F 3 "" H 14400 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:GND #PWR0199
+L V_Power:GND #PWR0199
 U 1 1 5EEC6646
 P 13800 8000
 F 0 "#PWR0199" H 13950 7950 50  0001 C CNN
@@ -3477,7 +3477,7 @@ F 3 "" H 13800 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0200
+L V_Power:GND #PWR0200
 U 1 1 5EECAEBA
 P 12050 7750
 F 0 "#PWR0200" H 12200 7700 50  0001 C CNN
@@ -3488,7 +3488,7 @@ F 3 "" H 12050 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0201
+L V_Power:GND #PWR0201
 U 1 1 5EECB3A8
 P 10500 7950
 F 0 "#PWR0201" H 10650 7900 50  0001 C CNN
@@ -3499,7 +3499,7 @@ F 3 "" H 10500 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0202
+L V_Power:GND #PWR0202
 U 1 1 5EECC77B
 P 6950 11100
 F 0 "#PWR0202" H 7100 11050 50  0001 C CNN
@@ -3510,7 +3510,7 @@ F 3 "" H 6950 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0203
+L V_Power:GND #PWR0203
 U 1 1 5EECFDDC
 P 6200 8950
 F 0 "#PWR0203" H 6350 8900 50  0001 C CNN
@@ -3521,7 +3521,7 @@ F 3 "" H 6200 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0204
+L V_Power:GND #PWR0204
 U 1 1 5EED44A1
 P 1600 7300
 F 0 "#PWR0204" H 1750 7250 50  0001 C CNN
@@ -3532,7 +3532,7 @@ F 3 "" H 1600 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0205
+L V_Power:GND #PWR0205
 U 1 1 5EED8EE0
 P 3025 3550
 F 0 "#PWR0205" H 3175 3500 50  0001 C CNN
@@ -3543,7 +3543,7 @@ F 3 "" H 3025 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:GND #PWR0206
+L V_Power:GND #PWR0206
 U 1 1 5EEE040A
 P 5650 850
 F 0 "#PWR0206" H 5800 800 50  0001 C CNN
@@ -3557,7 +3557,7 @@ Connection ~ 5650 850
 Wire Wire Line
 	5650 850  5750 850 
 $Comp
-L Power:GND #PWR0207
+L V_Power:GND #PWR0207
 U 1 1 5EEE522E
 P 6550 900
 F 0 "#PWR0207" H 6700 850 50  0001 C CNN
@@ -3568,7 +3568,7 @@ F 3 "" H 6550 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:GND #PWR0208
+L V_Power:GND #PWR0208
 U 1 1 5EEE55CB
 P 7400 1250
 F 0 "#PWR0208" H 7550 1200 50  0001 C CNN
@@ -3579,7 +3579,7 @@ F 3 "" H 7400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #0122
+L V_Power:+5V #0122
 U 1 1 5EEEC5AD
 P 9900 3150
 F 0 "#0122" H 9950 3200 50  0001 C CNN
@@ -3590,7 +3590,7 @@ F 3 "" H 9900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0143
+L V_Power:+5V #U0143
 U 1 1 5EEEE95A
 P 15000 1950
 F 0 "#U0143" H 15050 2000 50  0001 C CNN
@@ -3601,7 +3601,7 @@ F 3 "" H 15000 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0144
+L V_Power:+5V #U0144
 U 1 1 5EEF1FCA
 P 10900 5775
 F 0 "#U0144" H 10950 5825 50  0001 C CNN
@@ -3612,7 +3612,7 @@ F 3 "" H 10900 5875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0209
+L V_Power:GND #PWR0209
 U 1 1 5EEF6AD5
 P 13300 6850
 F 0 "#PWR0209" H 13450 6800 50  0001 C CNN
@@ -3623,7 +3623,7 @@ F 3 "" H 13300 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:GND #PWR0210
+L V_Power:GND #PWR0210
 U 1 1 5EEF6F02
 P 14900 6800
 F 0 "#PWR0210" H 15050 6750 50  0001 C CNN
@@ -3634,7 +3634,7 @@ F 3 "" H 14900 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:+5V #U0145
+L V_Power:+5V #U0145
 U 1 1 5EEFD6E4
 P 9050 7340
 F 0 "#U0145" H 9100 7390 50  0001 C CNN
@@ -3648,7 +3648,7 @@ Wire Wire Line
 	9050 7450 9050 7340
 Connection ~ 9050 7450
 $Comp
-L Power:+5V #U0146
+L V_Power:+5V #U0146
 U 1 1 5EFABAAB
 P 7600 9600
 F 0 "#U0146" H 7650 9650 50  0001 C CNN
@@ -3659,7 +3659,7 @@ F 3 "" H 7600 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0147
+L V_Power:+5V #U0147
 U 1 1 5EFAF7FE
 P 1950 7700
 F 0 "#U0147" H 2000 7750 50  0001 C CNN
@@ -3670,7 +3670,7 @@ F 3 "" H 1950 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0148
+L V_Power:+5V #U0148
 U 1 1 5EFB49D3
 P 1450 5750
 F 0 "#U0148" H 1500 5800 50  0001 C CNN
@@ -3681,7 +3681,7 @@ F 3 "" H 1450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0149
+L V_Power:+5V #U0149
 U 1 1 5EFB7038
 P 2925 3650
 F 0 "#U0149" H 2975 3700 50  0001 C CNN
@@ -3692,7 +3692,7 @@ F 3 "" H 2925 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0211
+L V_Power:GND #PWR0211
 U 1 1 5EFBD71C
 P 1350 3650
 F 0 "#PWR0211" H 1500 3600 50  0001 C CNN
@@ -3703,7 +3703,7 @@ F 3 "" H 1350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0150
+L V_Power:+5V #U0150
 U 1 1 5EFBEF62
 P 2350 2200
 F 0 "#U0150" H 2400 2250 50  0001 C CNN
@@ -3714,7 +3714,7 @@ F 3 "" H 2350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:+5V #U0151
+L V_Power:+5V #U0151
 U 1 1 5EFC1A0F
 P 6150 1250
 F 0 "#U0151" H 6200 1300 50  0001 C CNN
@@ -3725,7 +3725,7 @@ F 3 "" H 6150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0212
+L V_Power:GND #PWR0212
 U 1 1 5EFC7675
 P 5950 1550
 F 0 "#PWR0212" H 6100 1500 50  0001 C CNN
@@ -3736,7 +3736,7 @@ F 3 "" H 5950 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Power:+5VREF #0123
+L V_Power:+5VREF #0123
 U 1 1 5EFC99B5
 P 8700 950
 F 0 "#0123" H 8750 1000 50  0001 C CNN
@@ -3747,7 +3747,7 @@ F 3 "" H 8700 1050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:+5V #U0152
+L V_Power:+5V #U0152
 U 1 1 5F1C6FDF
 P 3225 3625
 F 0 "#U0152" H 3275 3675 50  0001 C CNN
@@ -3771,7 +3771,7 @@ Wire Wire Line
 Wire Wire Line
 	3025 3700 3025 3550
 $Comp
-L Power:+24V #PWR0215
+L V_Power:+24V #PWR0215
 U 1 1 5F3DE8AF
 P 12850 3800
 F 0 "#PWR0215" H 13000 3700 50  0001 C CNN
