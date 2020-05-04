@@ -21,7 +21,7 @@ FromUnits = FromMM
 #ToUnits=ToMils
 #FromUnits=FromMils
 
-print("LISTING VIAS:")
+netchanges = []
 
 for item in pcb.GetTracks():
     if type(item) is VIA:
@@ -38,7 +38,7 @@ for item in pcb.GetTracks():
             diff_x = ToUnits(via_pos.x) - ToUnits(mod_pos.x) - x_offset
             diff_y = ToUnits(via_pos.y) - ToUnits(mod_pos.y) - y_offset
             if 'REF' in mod.GetReference():
-                if abs(diff_x) <= 0.1 and abs(diff_y)  <= 0.1:
+                if abs(diff_x) <= 0.1 and abs(diff_y)  <= 0.1: #tolerance
                     print('x', diff_x, 'y', diff_y)
                     for pad in mod.Pads():
                         print("pad ({}) on {}({}) at {},{} size {},{}"
@@ -48,14 +48,38 @@ for item in pcb.GetTracks():
                                     ToUnits(pad.GetPosition().x), ToUnits(pad.GetPosition().y),
                                     ToUnits(pad.GetSize().x), ToUnits(pad.GetSize().y)
                             ))
-                        pad.SetNet(via_net)   
-                
-#pcb.Save("mod2_"+filename)
+                        if pad.GetNet().GetNetname() != via_netname:
+                            netchanges.append([pad.GetNet().GetNetname(), via_netname])
+                            pad.SetNet(via_net)   
 
-#print("")
-#print("LIST ZONES:", pcb.GetAreaCount())
+#print(netchanges)
+netchanges.sort()
+#print(netchanges)
+unique_netchanges = []
+for x in netchanges:
+    if x not in unique_netchanges:
+        unique_netchanges.append(x)
 
-#for idx in range(0, pcb.GetAreaCount()):
-#    zone=pcb.GetArea(idx)
-#    print("zone:", idx, "priority:", zone.GetPriority(), "netname", zone.GetNetname())
+for unique in unique_netchanges:
+    print(unique)
+    
+
+print("LIST ZONES:", pcb.GetAreaCount())
+print("LIST ZONES:", pcb.GetAreaCount())
+print("LIST ZONES:", pcb.GetAreaCount())
+print("LIST ZONES:", pcb.GetAreaCount())
+
+for idx in range(0, pcb.GetAreaCount()):
+    zone=pcb.GetArea(idx)
+    zone_netname = zone.GetNetname()
+    print("zone:", idx, "priority:", zone.GetPriority(), "netname", zone_netname)
+    for unique in unique_netchanges:
+        if unique[0] is zone_netname:
+            print("here")
+            print("here")
+            print("here")
+            print(unique[0], zone_netname)
+            #zone.SetNet(unique[1])
+
+pcb.Save("mod2_"+filename)
 
