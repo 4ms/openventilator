@@ -53,15 +53,15 @@ P 3200 3650
 F 0 "R79" H 3270 3696 50  0000 L CNN
 F 1 "1.5M" H 3270 3605 50  0000 L CNN
 F 2 "AllModules:R0603_1" V 3130 3650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3200 3650 50  0001 C CNN
-F 4 "Yageo" H 3200 3650 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-071M5L" H 3200 3650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 3200 3650 50  0001 C CNN "Source"
-F 7 "311-1.50MHRCT-ND" H 3200 3650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 3270 3559 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 1.5M OHM 1% 1/10W 0603" H 3200 3650 50  0001 C CNN "Description"
-F 10 "1%" H 3200 3650 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 3200 3650 50  0001 C CNN "Wattage"
+F 3 "" H 3200 3650 50  0001 C CNN
+F 4 "RESISTOR,1.5M OHM,0.063W,+/-1%,0603" H 3200 3650 50  0001 C CNN "Description"
+F 5 "10022722" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-071M5L" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CRCW06031M50FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-071M5L" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    3200 3650
 	1    0    0    -1  
 $EndComp
@@ -72,15 +72,15 @@ P 1450 5200
 F 0 "R91" V 1335 5200 50  0000 C CNN
 F 1 "16.2k" V 1244 5200 50  0000 C CNN
 F 2 "AllModules:R0603_1" V 1380 5200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 1450 5200 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 1450 5200 50  0001 C CNN "Mfgr"
-F 5 "ERA-3AEB1622V" H 1450 5200 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 1450 5200 50  0001 C CNN "Source"
-F 7 "P16.2KDBCT-ND" H 1450 5200 50  0001 C CNN "Source_PN"
-F 8 "0603" V 1657 5200 50  0001 C CNN "Bom_Footprint"
-F 9 "RES SMD 16.2KOHM 0.1% 1/10W 0603" H 1450 5200 50  0001 C CNN "Description"
-F 10 "0.1%" V 1566 5200 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 1450 5200 50  0001 C CNN "Wattage"
+F 3 "" H 1450 5200 50  0001 C CNN
+F 4 "RESISTOR,16.2K OHM,0.063W,+/-0.1%,0603" H 1450 5200 50  0001 C CNN "Description"
+F 5 "10022730" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RT0603BRD0716K2L" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "ERA-3AEB1622V " H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "TNPW060316K2BEEA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1450 5200
 	0    -1   -1   0   
 $EndComp
@@ -135,11 +135,13 @@ P 2350 4900
 F 0 "IC14" H 2000 5350 50  0000 R CNN
 F 1 "LT1620CMS8" H 2000 5450 50  0000 R CNN
 F 2 "AllModules:uSO08_1" H 2450 5000 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/16201f.pdf" H 2450 5000 50  0001 C CNN
+F 3 "" H 2450 5000 50  0001 C CNN
 F 4 "IC,CURRENT AMPLIFIER,MSOP" H 2450 5000 50  0001 C CNN "Description"
 F 5 "10022893" H 2450 5000 50  0001 C CNN "Item Number"
 F 6 "LINEAR TECHNOLOGY_RMS1" H 2450 5000 50  0001 C CNN "Manufacturer"
 F 7 "LT1620CMS8#TRPBF" H 2450 5000 50  0001 C CNN "Manufacturer_No"
+F 8 "LINEAR TECHNOLOGY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "LT1620CMS8#PBF" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    2350 4900
 	-1   0    0    1   
 $EndComp
@@ -209,15 +211,15 @@ P 1250 4650
 F 0 "R85" H 1180 4604 50  0000 R CNN
 F 1 "2.87k" H 1180 4695 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 1180 4650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/414/PCF-1528243.pdf" H 1250 4650 50  0001 C CNN
-F 4 "IRC / TT Electronics" H 1250 4650 50  0001 C CNN "Mfgr"
-F 5 "PCF0603R-2K87BI" H 1250 4650 50  0001 C CNN "Mfgr_PN"
-F 6 "Mouser" H 1250 4650 50  0001 C CNN "Source"
-F 7 "756-PCF0603R2K87BI" H 1250 4650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 1320 4650 50  0001 L CNN "Bom_Footprint"
-F 9 "Thin Film Resistors - SMD 0603 2K87Ohms 0.1% 25 PPM" H 1250 4650 50  0001 C CNN "Description"
-F 10 "0.1%" H 1320 4559 50  0001 L CNN "Tolerance"
-F 11 "1/16W" H 1320 4468 50  0001 L CNN "Wattage"
+F 3 "" H 1250 4650 50  0001 C CNN
+F 4 "RESISTOR,2.87K OHM,0.063W,+/-0.1%,0603" H 1250 4650 50  0001 C CNN "Description"
+F 5 "10022726" H 0   0   50  0001 C CNN "Item Number"
+F 6 "WELWYN" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "PCF0603R-2K87BI" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RT0603BRD072K87L" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RT0603BRD072K87L" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1250 4650
 	-1   0    0    1   
 $EndComp
@@ -264,11 +266,15 @@ P 6300 4500
 F 0 "IC13" H 5900 5300 50  0000 C CNN
 F 1 "LTC1435CS" H 6450 5300 50  0000 L CNN
 F 2 "AllModules:SSOP16_1" V 6250 4550 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1435f.pdf" H 6300 4500 50  0001 C CNN
+F 3 "" H 6300 4500 50  0001 C CNN
 F 4 "IC,SWITCHING REGULATOR,SSOP" H 6300 4500 50  0001 C CNN "Description"
 F 5 "10022897" H 6300 4500 50  0001 C CNN "Item Number"
-F 6 "LINEAR TECHNOLOGY" H 6300 4500 50  0001 C CNN "Manufacturer"
+F 6 "LINEAR TECHNOLOGY_RMS1" H 6300 4500 50  0001 C CNN "Manufacturer"
 F 7 "LTC1435IG#TRPBF" H 6300 4500 50  0001 C CNN "Manufacturer_No"
+F 8 "LINEAR TECHNOLOGY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "LINEAR TECHNOLOGY_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "LTC1435IG#PBF" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "LTC1435IG#PBF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6300 4500
 	1    0    0    -1  
 $EndComp
@@ -374,15 +380,15 @@ P 3700 4550
 F 0 "R82" H 3630 4641 50  0000 R CNN
 F 1 "1k" H 3630 4550 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 3630 4550 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 3700 4550 50  0001 C CNN
-F 4 "Bourns Inc." H 3700 4550 50  0001 C CNN "Mfgr"
-F 5 "CR0603-FX-1001ELF" H 3700 4550 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 3700 4550 50  0001 C CNN "Source"
-F 7 "CR0603-FX-1001ELFCT-ND" H 3700 4550 50  0001 C CNN "Source_PN"
-F 8 "0603" H 3630 4459 50  0000 R CNN "Bom_Footprint"
-F 9 "RES SMD 1K OHM 1% 1/10W 0603" H 3700 4550 50  0001 C CNN "Description"
-F 10 "1%" H 3700 4550 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 3700 4550 50  0001 C CNN "Wattage"
+F 3 "" H 3700 4550 50  0001 C CNN
+F 4 "RESISTOR, 1K OHM, 0.063W,+/-1%, 0603" H 3700 4550 50  0001 C CNN "Description"
+F 5 "10022554" H 0   0   50  0001 C CNN "Item Number"
+F 6 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CR0603-FX-1001ELF" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CRCW06031K00FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-071KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    3700 4550
 	1    0    0    -1  
 $EndComp
@@ -466,7 +472,7 @@ P 7650 4200
 F 0 "D8" H 7650 4300 50  0000 C CNN
 F 1 "PMEG4005ET" H 7650 4100 50  0000 C CNN
 F 2 "AllModules:SOT23-1G_1" H 7650 4025 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf" H 7650 4200 50  0001 C CNN
+F 3 "" H 7650 4200 50  0001 C CNN
 F 4 "DIODE SCHOTTKY, 40V, 500MA" H 7650 4200 50  0001 C CNN "Description"
 F 5 "10039586" H 7650 4200 50  0001 C CNN "Item Number"
 F 6 "PHILIPS" H 7650 4200 50  0001 C CNN "Manufacturer"
@@ -492,13 +498,11 @@ P 8400 3550
 F 0 "T24" H 8605 3596 50  0000 L CNN
 F 1 "IRFR024NTRPBF" H 8605 3505 50  0000 L CNN
 F 2 "AllModules:DPAK-GDS_1" H 9250 3475 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c" H 8725 3250 50  0001 L CNN
-F 4 "IRFR024NTRPBF" H 8925 3475 50  0001 C CNN "Mfgr_PN"
-F 5 "Infineon Technologies" H 9050 3475 50  0001 C CNN "Mfgr"
-F 6 "Digi-Key" H 8800 3475 50  0001 C CNN "Source"
-F 7 "IRFR024NPBFCT-ND" H 9000 3475 50  0001 C CNN "Source_PN"
-F 8 "MOSFET N-CH 55V 17A DPAK" H 9200 3475 50  0001 C CNN "Description"
-F 9 "10022559" H 8400 3550 50  0001 C CNN "Item Number"
+F 3 "" H 8725 3250 50  0001 L CNN
+F 4 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" H 9200 3475 50  0001 C CNN "Description"
+F 5 "10022559" H 8400 3550 50  0001 C CNN "Item Number"
+F 6 "INTERNATIONAL RECTIFIER_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "IRFR024NTRPBF" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    8400 3550
 	1    0    0    -1  
 $EndComp
@@ -524,13 +528,11 @@ P 8400 5000
 F 0 "T27" H 8600 5075 50  0000 L CNN
 F 1 "IRFR024NTRPBF" H 8600 5000 50  0000 L CNN
 F 2 "AllModules:DPAK-GDS_1" H 9250 4925 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c" H 8725 4700 50  0001 L CNN
-F 4 "IRFR024NTRPBF" H 8925 4925 50  0001 C CNN "Mfgr_PN"
-F 5 "Infineon Technologies" H 9050 4925 50  0001 C CNN "Mfgr"
-F 6 "Digi-Key" H 8800 4925 50  0001 C CNN "Source"
-F 7 "IRFR024NPBFCT-ND" H 9000 4925 50  0001 C CNN "Source_PN"
-F 8 "MOSFET N-CH 55V 17A DPAK" H 9200 4925 50  0001 C CNN "Description"
-F 9 "10022559" H 8400 5000 50  0001 C CNN "Item Number"
+F 3 "" H 8725 4700 50  0001 L CNN
+F 4 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" H 9200 4925 50  0001 C CNN "Description"
+F 5 "10022559" H 8400 5000 50  0001 C CNN "Item Number"
+F 6 "INTERNATIONAL RECTIFIER_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "IRFR024NTRPBF" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    8400 5000
 	1    0    0    -1  
 $EndComp
@@ -566,7 +568,11 @@ AR Path="/5FEC1BCD/5E93C62C" Ref="L12"  Part="1"
 F 0 "L12" V 9275 3900 50  0000 C CNN
 F 1 "47uH" V 9184 3900 50  0000 C CNN
 F 2 "AllModules:WEPD-XXL_1" H 9050 3900 50  0001 C CNN
-F 3 "~" H 9050 3900 50  0001 C CNN
+F 3 "" H 9050 3900 50  0001 C CNN
+F 4 "INDUCTOR, 47UH +/-20%,3.8A,WE-PD-XXL" H 0   0   50  0001 C CNN "Description"
+F 5 "10022912" H 0   0   50  0001 C CNN "Item Number"
+F 6 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "7447709470" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    9050 3900
 	0    -1   -1   0   
 $EndComp
@@ -577,16 +583,15 @@ P 9550 3900
 F 0 "R80" V 9665 3900 50  0000 C CNN
 F 1 "0.05_2010" V 9750 3900 50  0000 C CNN
 F 2 "AllModules:R2010_1" V 9480 3900 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-csr_csrn.pdf" H 9550 3900 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 9550 3900 50  0001 C CNN "Mfgr"
-F 5 "CSRN2010FK50L0" H 9550 3900 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 9550 3900 50  0001 C CNN "Source"
-F 7 "CSRN2010FK50L0CT-ND" H 9550 3900 50  0001 C CNN "Source_PN"
-F 8 "2010" V 9847 3900 50  0001 C CNN "Bom_Footprint"
-F 9 "RES 0.05 OHM 1% 1W 2010" H 9550 3900 50  0001 C CNN "Description"
-F 10 "1%" H 9550 3900 50  0001 C CNN "Tolerance"
-F 11 "1W" V 9938 3900 50  0001 C CNN "Wattage"
-F 12 "10022723" V 9550 3900 50  0001 C CNN "Item Number"
+F 3 "" H 9550 3900 50  0001 C CNN
+F 4 "RESISTOR,0.05 OHM,1W,+/-1%,2010" H 9550 3900 50  0001 C CNN "Description"
+F 5 "10022723" V 9550 3900 50  0001 C CNN "Item Number"
+F 6 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "WELWYN" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "WELWYN" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "WSLT2010R0500FEB18" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "LRC-LR2010LF-01-R050-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "LR2010-R05FW" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    9550 3900
 	0    -1   -1   0   
 $EndComp
@@ -639,15 +644,15 @@ P 11100 4150
 F 0 "R81" H 11030 4104 50  0000 R CNN
 F 1 "13.7k" H 11030 4195 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 11030 4150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 11100 4150 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 11100 4150 50  0001 C CNN "Mfgr"
-F 5 "ERA-3AEB1372V" H 11100 4150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 11100 4150 50  0001 C CNN "Source"
-F 7 "P13.7KDBCT-ND" H 11100 4150 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11170 4105 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 13.7KOHM 0.1% 1/10W 0603" H 11100 4150 50  0001 C CNN "Description"
-F 10 "0.1%" H 11170 4014 50  0001 L CNN "Tolerance"
-F 11 "1/10W" H 11100 4150 50  0001 C CNN "Wattage"
+F 3 "" H 11100 4150 50  0001 C CNN
+F 4 "RESISTOR,13.7K OHM,0.063W,+/-0.1%,0603" H 11100 4150 50  0001 C CNN "Description"
+F 5 "10022724" H 0   0   50  0001 C CNN "Item Number"
+F 6 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CPF0603B13K7E" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "2-1879220-0" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "TNPW060313K7BEEA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11100 4150
 	-1   0    0    1   
 $EndComp
@@ -658,15 +663,15 @@ P 11100 4650
 F 0 "R90" H 11030 4604 50  0000 R CNN
 F 1 "1.37k" H 11030 4695 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 11030 4650 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 11100 4650 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 11100 4650 50  0001 C CNN "Mfgr"
-F 5 "ERA-3AEB1371V" H 11100 4650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 11100 4650 50  0001 C CNN "Source"
-F 7 "P1.37KDBCT-ND" H 11100 4650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11170 4605 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 1.37KOHM 0.1% 1/10W 0603" H 11100 4650 50  0001 C CNN "Description"
-F 10 "0.1%" H 11170 4514 50  0001 L CNN "Tolerance"
-F 11 "1/10W" H 11100 4650 50  0001 C CNN "Wattage"
+F 3 "" H 11100 4650 50  0001 C CNN
+F 4 "RESISTOR,1.37K OHM,0.063W,+/-0.1%,0603" H 11100 4650 50  0001 C CNN "Description"
+F 5 "10022729" H 0   0   50  0001 C CNN "Item Number"
+F 6 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "3-1879219-4" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CPF0603B1K37E" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "TNPW06031K37BEEA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11100 4650
 	-1   0    0    1   
 $EndComp
@@ -712,15 +717,13 @@ P 12000 3950
 F 0 "R87" H 12069 3859 50  0000 L CNN
 F 1 "86.6k" H 12069 3950 50  0000 L CNN
 F 2 "AllModules:R0603_1" V 11930 3950 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12000 3950 50  0001 C CNN
-F 4 "Panasonic Electronic Components" H 12000 3950 50  0001 C CNN "Mfgr"
-F 5 "ERJ-3EKF8662V" H 12000 3950 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 12000 3950 50  0001 C CNN "Source"
-F 7 "P86.6KHCT-ND" H 12000 3950 50  0001 C CNN "Source_PN"
-F 8 "0603" H 12069 4041 50  0000 L CNN "Bom_Footprint"
-F 9 "RES SMD 86.6K OHM 1% 1/10W 0603" H 12000 3950 50  0001 C CNN "Description"
-F 10 "1%" H 12000 3950 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 12000 3950 50  0001 C CNN "Wattage"
+F 3 "" H 12000 3950 50  0001 C CNN
+F 4 "RESISTOR,86.6K OHM,0.063W,+/-1%,0603" H 12000 3950 50  0001 C CNN "Description"
+F 5 "10022727" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "RC0603FR-0786K6L" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "ERJ-3EKF8662V" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    12000 3950
 	-1   0    0    1   
 $EndComp
@@ -731,15 +734,15 @@ P 12000 4650
 F 0 "R92" H 11930 4604 50  0000 R CNN
 F 1 "3.3k" H 11930 4695 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 11930 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 12000 4650 50  0001 C CNN
-F 4 "Yageo" H 12000 4650 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-073K3L" H 12000 4650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 12000 4650 50  0001 C CNN "Source"
-F 7 "311-3.30KHRCT-ND" H 12000 4650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11930 4559 50  0001 R CNN "Bom_Footprint"
-F 9 "RES SMD 3.3K OHM 1% 1/10W 0603" H 12000 4650 50  0001 C CNN "Description"
-F 10 "1%" H 12000 4650 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 12000 4650 50  0001 C CNN "Wattage"
+F 3 "" H 12000 4650 50  0001 C CNN
+F 4 "RESISTOR,3.3K OHM,0.063W,+/-1%,0603" H 12000 4650 50  0001 C CNN "Description"
+F 5 "10022731" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-073K3L" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC0603FR-073K3L" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-3301ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    12000 4650
 	-1   0    0    1   
 $EndComp
@@ -750,15 +753,15 @@ P 12000 5150
 F 0 "R95" H 11930 5104 50  0000 R CNN
 F 1 "33" H 11930 5195 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 11930 5150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 12000 5150 50  0001 C CNN
-F 4 "Yageo" H 12000 5150 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-0733RL" H 12000 5150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 12000 5150 50  0001 C CNN "Source"
-F 7 "311-33.0HRCT-ND" H 12000 5150 50  0001 C CNN "Source_PN"
-F 8 "0603" H 12070 5059 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 33 OHM 1% 1/10W 0603" H 12000 5150 50  0001 C CNN "Description"
-F 10 "1%" H 12000 5150 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 12000 5150 50  0001 C CNN "Wattage"
+F 3 "" H 12000 5150 50  0001 C CNN
+F 4 "RESISTOR,33 OHM,0.063W,+/-1%,0603" H 12000 5150 50  0001 C CNN "Description"
+F 5 "10022733" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-0733RL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC0603FR-0733RL" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-33R0ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    12000 5150
 	-1   0    0    1   
 $EndComp
@@ -789,15 +792,11 @@ P 12200 4250
 F 0 "R88" H 12270 4296 50  0000 L CNN
 F 1 "390_2616" H 12270 4205 50  0000 L CNN
 F 2 "AllModules:SM2_1" V 12130 4250 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English" H 12200 4250 50  0001 C CNN
-F 4 "TE Connectivity Passive Product" H 12200 4250 50  0001 C CNN "Mfgr"
-F 5 "SMF2390RJT" H 12200 4250 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 12200 4250 50  0001 C CNN "Source"
-F 7 "A131672CT-ND" H 12200 4250 50  0001 C CNN "Source_PN"
-F 8 "2616" H 12270 4250 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 390 OHM 5% 2W 2616" H 12200 4250 50  0001 C CNN "Description"
-F 10 "5%" H 12270 4159 50  0001 L CNN "Tolerance"
-F 11 "2W" H 12270 4068 50  0001 L CNN "Wattage"
+F 3 "" H 12200 4250 50  0001 C CNN
+F 4 "RESISTOR,390 OHM,2W,+.-5%,SM2" H 12200 4250 50  0001 C CNN "Description"
+F 5 "10022728" H 0   0   50  0001 C CNN "Item Number"
+F 6 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "SMF2390RJT" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    12200 4250
 	1    0    0    -1  
 $EndComp
@@ -808,15 +807,11 @@ P 12700 4250
 F 0 "R126" H 12770 4296 50  0000 L CNN
 F 1 "390_2616" H 12770 4205 50  0000 L CNN
 F 2 "AllModules:SM2_1" V 12630 4250 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English" H 12700 4250 50  0001 C CNN
-F 4 "TE Connectivity Passive Product" H 12700 4250 50  0001 C CNN "Mfgr"
-F 5 "SMF2390RJT" H 12700 4250 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 12700 4250 50  0001 C CNN "Source"
-F 7 "A131672CT-ND" H 12700 4250 50  0001 C CNN "Source_PN"
-F 8 "2616" H 12770 4250 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 390 OHM 5% 2W 2616" H 12700 4250 50  0001 C CNN "Description"
-F 10 "5%" H 12770 4159 50  0001 L CNN "Tolerance"
-F 11 "2W" H 12770 4068 50  0001 L CNN "Wattage"
+F 3 "" H 12700 4250 50  0001 C CNN
+F 4 "RESISTOR,390 OHM,2W,+.-5%,SM2" H 12700 4250 50  0001 C CNN "Description"
+F 5 "10022728" H 0   0   50  0001 C CNN "Item Number"
+F 6 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "SMF2390RJT" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    12700 4250
 	1    0    0    -1  
 $EndComp
@@ -865,15 +860,15 @@ P 11050 5300
 F 0 "R93" V 11165 5300 50  0000 C CNN
 F 1 "1k" V 11256 5300 50  0000 C CNN
 F 2 "AllModules:R0603_1" V 10980 5300 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 11050 5300 50  0001 C CNN
-F 4 "Bourns Inc." H 11050 5300 50  0001 C CNN "Mfgr"
-F 5 "CR0603-FX-1001ELF" H 11050 5300 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 11050 5300 50  0001 C CNN "Source"
-F 7 "CR0603-FX-1001ELFCT-ND" H 11050 5300 50  0001 C CNN "Source_PN"
-F 8 "0603" V 11347 5300 50  0001 C CNN "Bom_Footprint"
-F 9 "RES SMD 1K OHM 1% 1/10W 0603" H 11050 5300 50  0001 C CNN "Description"
-F 10 "1%" H 11050 5300 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 11050 5300 50  0001 C CNN "Wattage"
+F 3 "" H 11050 5300 50  0001 C CNN
+F 4 "RESISTOR, 1K OHM, 0.063W,+/-1%, 0603" H 11050 5300 50  0001 C CNN "Description"
+F 5 "10022554" H 0   0   50  0001 C CNN "Item Number"
+F 6 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CR0603-FX-1001ELF" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CRCW06031K00FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-071KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11050 5300
 	0    1    1    0   
 $EndComp
@@ -903,15 +898,15 @@ P 11800 6050
 F 0 "R96" H 11869 6004 50  0000 L CNN
 F 1 "100k" H 11869 6095 50  0000 L CNN
 F 2 "AllModules:R0603_1" V 11730 6050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 11800 6050 50  0001 C CNN
-F 4 "Yageo" H 11800 6050 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-07100KL" H 11800 6050 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 11800 6050 50  0001 C CNN "Source"
-F 7 "311-100KHRTR-ND" H 11800 6050 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11730 5959 50  0001 R CNN "Bom_Footprint"
-F 9 "RES SMD 100K OHM 1% 1/10W 0603" H 11800 6050 50  0001 C CNN "Description"
-F 10 "1%" H 11800 6050 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 11800 6050 50  0001 C CNN "Wattage"
+F 3 "" H 11800 6050 50  0001 C CNN
+F 4 "RESISTOR,100KOHM,0.063W,+/-1%,0603" H 11800 6050 50  0001 C CNN "Description"
+F 5 "10022549" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CR0603-FX-1003ELF" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11800 6050
 	-1   0    0    1   
 $EndComp
@@ -950,15 +945,15 @@ P 13250 4100
 F 0 "R83" V 13043 4100 50  0000 C CNN
 F 1 "10k" V 13134 4100 50  0000 C CNN
 F 2 "AllModules:R0603_1" V 13180 4100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13250 4100 50  0001 C CNN
-F 4 "Yageo" H 13250 4100 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-0710KL" H 13250 4100 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 13250 4100 50  0001 C CNN "Source"
-F 7 "311-10.0KHRCT-ND" H 13250 4100 50  0001 C CNN "Source_PN"
-F 8 "0603" V 13135 4100 50  0001 C CNN "Bom_Footprint"
-F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 13250 4100 50  0001 C CNN "Description"
-F 10 "1%" H 13250 4100 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 13250 4100 50  0001 C CNN "Wattage"
+F 3 "" H 13250 4100 50  0001 C CNN
+F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 13250 4100 50  0001 C CNN "Description"
+F 5 "10022548" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13250 4100
 	0    1    1    0   
 $EndComp
@@ -969,15 +964,15 @@ P 13600 4450
 F 0 "R86" H 13530 4404 50  0000 R CNN
 F 1 "10k" H 13530 4495 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 13530 4450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13600 4450 50  0001 C CNN
-F 4 "Yageo" H 13600 4450 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-0710KL" H 13600 4450 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 13600 4450 50  0001 C CNN "Source"
-F 7 "311-10.0KHRCT-ND" H 13600 4450 50  0001 C CNN "Source_PN"
-F 8 "0603" H 13670 4359 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 13600 4450 50  0001 C CNN "Description"
-F 10 "1%" H 13600 4450 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 13600 4450 50  0001 C CNN "Wattage"
+F 3 "" H 13600 4450 50  0001 C CNN
+F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 13600 4450 50  0001 C CNN "Description"
+F 5 "10022548" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13600 4450
 	-1   0    0    1   
 $EndComp
@@ -988,13 +983,15 @@ P 13500 5000
 F 0 "T28" H 13706 5046 50  0000 L CNN
 F 1 "2N7002" H 13706 4955 50  0000 L CNN
 F 2 "AllModules:SOT23-GSD_1" H 13700 4925 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/2N7002AQ.pdf" H 13725 4875 50  0001 L CNN
-F 4 "MOSFET N-CH 60V 350MA SOT23" H 14375 4875 50  0001 C CNN "Description"
-F 5 "Diodes Incorporated" H 14075 4875 50  0001 C CNN "Mfgr"
-F 6 "2N7002AQ-7" H 14000 4900 50  0001 C CNN "Mfgr_PN"
-F 7 "Digi-Key" H 14300 5675 50  0001 C CNN "Source"
-F 8 "2N7002AQ-7DICT-ND" H 14400 5775 50  0001 C CNN "Source_PN"
-F 9 "10022882" H 13500 5000 50  0001 C CNN "Item Number"
+F 3 "" H 13725 4875 50  0001 L CNN
+F 4 "TRANSISTOR MOSFET N CHANNEL 60V, 0.18A" H 14375 4875 50  0001 C CNN "Description"
+F 5 "10022882" H 13500 5000 50  0001 C CNN "Item Number"
+F 6 "ON SEMICONDUCTOR_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "2N7002LT1G" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "2N7002" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002,215" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13500 5000
 	1    0    0    -1  
 $EndComp
@@ -1009,15 +1006,15 @@ P 13200 5200
 F 0 "R94" H 13131 5246 50  0000 R CNN
 F 1 "100k" H 13131 5155 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 13130 5200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13200 5200 50  0001 C CNN
-F 4 "Yageo" H 13200 5200 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-07100KL" H 13200 5200 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 13200 5200 50  0001 C CNN "Source"
-F 7 "311-100KHRTR-ND" H 13200 5200 50  0001 C CNN "Source_PN"
-F 8 "0603" H 13130 5109 50  0001 R CNN "Bom_Footprint"
-F 9 "RES SMD 100K OHM 1% 1/10W 0603" H 13200 5200 50  0001 C CNN "Description"
-F 10 "1%" H 13200 5200 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 13200 5200 50  0001 C CNN "Wattage"
+F 3 "" H 13200 5200 50  0001 C CNN
+F 4 "RESISTOR,100KOHM,0.063W,+/-1%,0603" H 13200 5200 50  0001 C CNN "Description"
+F 5 "10022549" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CR0603-FX-1003ELF" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13200 5200
 	1    0    0    -1  
 $EndComp
@@ -1048,13 +1045,13 @@ P 13600 3800
 F 0 "T25" V 13942 3800 50  0000 C CNN
 F 1 "SUD50P06-15L" V 13851 3800 50  0000 C CNN
 F 2 "AllModules:DPAK-GDS_1" H 13895 3725 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 13600 3800 50  0001 C CNN
-F 4 "Vishay Siliconix" H 14200 3725 50  0001 C CNN "Mfgr"
-F 5 "SUD50P06-15L-E3" H 14275 3725 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 14050 3725 50  0001 C CNN "Source"
-F 7 "SUD50P06-15L-E3CT-ND" H 14375 3725 50  0001 C CNN "Source_PN"
-F 8 "MOSFET P-CH 60V 50A TO252" H 14475 3725 50  0001 C CNN "Description"
-F 9 "10022560" H 13600 3800 50  0001 C CNN "Item Number"
+F 3 "" H 13600 3800 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 14475 3725 50  0001 C CNN "Description"
+F 5 "10022560" H 13600 3800 50  0001 C CNN "Item Number"
+F 6 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "SUD50P06 - 15L" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "SUD50P06-15L-E3" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    13600 3800
 	0    -1   -1   0   
 $EndComp
@@ -1065,13 +1062,13 @@ P 14350 3800
 F 0 "T26" V 14692 3800 50  0000 C CNN
 F 1 "SUD50P06-15L" V 14601 3800 50  0000 C CNN
 F 2 "AllModules:DPAK-GDS_1" H 14645 3725 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 14350 3800 50  0001 C CNN
-F 4 "Vishay Siliconix" H 14950 3725 50  0001 C CNN "Mfgr"
-F 5 "SUD50P06-15L-E3" H 15025 3725 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 14800 3725 50  0001 C CNN "Source"
-F 7 "SUD50P06-15L-E3CT-ND" H 15125 3725 50  0001 C CNN "Source_PN"
-F 8 "MOSFET P-CH 60V 50A TO252" H 15225 3725 50  0001 C CNN "Description"
-F 9 "10022560" H 14350 3800 50  0001 C CNN "Item Number"
+F 3 "" H 14350 3800 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 15225 3725 50  0001 C CNN "Description"
+F 5 "10022560" H 14350 3800 50  0001 C CNN "Item Number"
+F 6 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "SUD50P06 - 15L" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "SUD50P06-15L-E3" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    14350 3800
 	0    1    -1   0   
 $EndComp
@@ -1101,13 +1098,15 @@ P 14250 5800
 F 0 "T30" H 14456 5846 50  0000 L CNN
 F 1 "2N7002" H 14456 5755 50  0000 L CNN
 F 2 "AllModules:SOT23-GSD_1" H 14450 5725 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/2N7002AQ.pdf" H 14475 5675 50  0001 L CNN
-F 4 "MOSFET N-CH 60V 350MA SOT23" H 15125 5675 50  0001 C CNN "Description"
-F 5 "Diodes Incorporated" H 14825 5675 50  0001 C CNN "Mfgr"
-F 6 "2N7002AQ-7" H 14750 5700 50  0001 C CNN "Mfgr_PN"
-F 7 "Digi-Key" H 15050 6475 50  0001 C CNN "Source"
-F 8 "2N7002AQ-7DICT-ND" H 15150 6575 50  0001 C CNN "Source_PN"
-F 9 "10022882" H 14250 5800 50  0001 C CNN "Item Number"
+F 3 "" H 14475 5675 50  0001 L CNN
+F 4 "TRANSISTOR MOSFET N CHANNEL 60V, 0.18A" H 15125 5675 50  0001 C CNN "Description"
+F 5 "10022882" H 14250 5800 50  0001 C CNN "Item Number"
+F 6 "ON SEMICONDUCTOR_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "2N7002LT1G" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "2N7002" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002,215" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    14250 5800
 	1    0    0    -1  
 $EndComp
@@ -1122,15 +1121,15 @@ P 13800 6050
 F 0 "R97" H 13869 6004 50  0000 L CNN
 F 1 "100k" H 13869 6095 50  0000 L CNN
 F 2 "AllModules:R0603_1" V 13730 6050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 13800 6050 50  0001 C CNN
-F 4 "Yageo" H 13800 6050 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-07100KL" H 13800 6050 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 13800 6050 50  0001 C CNN "Source"
-F 7 "311-100KHRTR-ND" H 13800 6050 50  0001 C CNN "Source_PN"
-F 8 "0603" H 13730 5959 50  0001 R CNN "Bom_Footprint"
-F 9 "RES SMD 100K OHM 1% 1/10W 0603" H 13800 6050 50  0001 C CNN "Description"
-F 10 "1%" H 13800 6050 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 13800 6050 50  0001 C CNN "Wattage"
+F 3 "" H 13800 6050 50  0001 C CNN
+F 4 "RESISTOR,100KOHM,0.063W,+/-1%,0603" H 13800 6050 50  0001 C CNN "Description"
+F 5 "10022549" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CR0603-FX-1003ELF" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13800 6050
 	-1   0    0    1   
 $EndComp
@@ -1169,15 +1168,15 @@ P 14350 4650
 F 0 "R89" H 14280 4604 50  0000 R CNN
 F 1 "10k" H 14280 4695 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 14280 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 14350 4650 50  0001 C CNN
-F 4 "Yageo" H 14350 4650 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-0710KL" H 14350 4650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 14350 4650 50  0001 C CNN "Source"
-F 7 "311-10.0KHRCT-ND" H 14350 4650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 14420 4559 50  0001 L CNN "Bom_Footprint"
-F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 14350 4650 50  0001 C CNN "Description"
-F 10 "1%" H 14350 4650 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 14350 4650 50  0001 C CNN "Wattage"
+F 3 "" H 14350 4650 50  0001 C CNN
+F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 14350 4650 50  0001 C CNN "Description"
+F 5 "10022548" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    14350 4650
 	-1   0    0    1   
 $EndComp
@@ -1194,15 +1193,15 @@ P 14750 4150
 F 0 "R84" H 14680 4059 50  0000 R CNN
 F 1 "10k" H 14680 4150 50  0000 R CNN
 F 2 "AllModules:R0603_1" V 14680 4150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 14750 4150 50  0001 C CNN
-F 4 "Yageo" H 14750 4150 50  0001 C CNN "Mfgr"
-F 5 "RC0603FR-0710KL" H 14750 4150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 14750 4150 50  0001 C CNN "Source"
-F 7 "311-10.0KHRCT-ND" H 14750 4150 50  0001 C CNN "Source_PN"
-F 8 "0603" H 14680 4241 50  0000 R CNN "Bom_Footprint"
-F 9 "RES SMD 10K OHM 1% 1/10W 0603" H 14750 4150 50  0001 C CNN "Description"
-F 10 "1%" H 14750 4150 50  0001 C CNN "Tolerance"
-F 11 "1/10W" H 14750 4150 50  0001 C CNN "Wattage"
+F 3 "" H 14750 4150 50  0001 C CNN
+F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 14750 4150 50  0001 C CNN "Description"
+F 5 "10022548" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    14750 4150
 	-1   0    0    1   
 $EndComp
@@ -1235,18 +1234,15 @@ P 1000 4650
 F 0 "C78" H 1114 4513 50  0000 L CNN
 F 1 "100nF" H 1114 4604 50  0000 L CNN
 F 2 "AllModules:C0402_1" H 1038 4500 50  0001 C CNN
-F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 1000 4650 50  0001 C CNN
-F 4 "Murata Electronics" H 1000 4650 50  0001 C CNN "Mfgr"
-F 5 "GCM155R71C104KA55J" H 1000 4650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 1000 4650 50  0001 C CNN "Source"
-F 7 "490-7998-1-ND" H 1000 4650 50  0001 C CNN "Source_PN"
-F 8 "" H 1114 4695 50  0000 L CNN "Bom_Footprint"
-F 9 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 1000 4650 50  0001 C CNN "Description"
-F 10 "X7R" H 1000 4650 50  0001 C CNN "Dielectric"
-F 11 "16V" H 1114 4786 50  0000 L CNN "Voltage"
-F 12 "10022607" H 1000 4650 50  0001 C CNN "Item Number"
-F 13 "MURATA" H 1000 4650 50  0001 C CNN "Manufacturer"
-F 14 "GRM155R71C104JA88J" H 1000 4650 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 1000 4650 50  0001 C CNN
+F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 1000 4650 50  0001 C CNN "Description"
+F 5 "10022607" H 1000 4650 50  0001 C CNN "Item Number"
+F 6 "MURATA" H 1000 4650 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 1000 4650 50  0001 C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1000 4650
 	-1   0    0    1   
 $EndComp
@@ -1257,18 +1253,15 @@ P 1600 4450
 F 0 "C75" H 1485 4313 50  0000 R CNN
 F 1 "100nF" H 1485 4404 50  0000 R CNN
 F 2 "AllModules:C0402_1" H 1638 4300 50  0001 C CNN
-F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 1600 4450 50  0001 C CNN
-F 4 "Murata Electronics" H 1600 4450 50  0001 C CNN "Mfgr"
-F 5 "GCM155R71C104KA55J" H 1600 4450 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 1600 4450 50  0001 C CNN "Source"
-F 7 "490-7998-1-ND" H 1600 4450 50  0001 C CNN "Source_PN"
-F 8 "" H 1485 4495 50  0000 R CNN "Bom_Footprint"
-F 9 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 1600 4450 50  0001 C CNN "Description"
-F 10 "X7R" H 1600 4450 50  0001 C CNN "Dielectric"
-F 11 "16V" H 1485 4586 50  0000 R CNN "Voltage"
-F 12 "10022607" H 1600 4450 50  0001 C CNN "Item Number"
-F 13 "MURATA" H 1600 4450 50  0001 C CNN "Manufacturer"
-F 14 "GRM155R71C104JA88J" H 1600 4450 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 1600 4450 50  0001 C CNN
+F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 1600 4450 50  0001 C CNN "Description"
+F 5 "10022607" H 1600 4450 50  0001 C CNN "Item Number"
+F 6 "MURATA" H 1600 4450 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 1600 4450 50  0001 C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1600 4450
 	-1   0    0    1   
 $EndComp
@@ -1279,18 +1272,15 @@ P 2450 4100
 F 0 "C71" V 2884 4100 50  0000 C CNN
 F 1 "100nF" V 2793 4100 50  0000 C CNN
 F 2 "AllModules:C0402_1" H 2488 3950 50  0001 C CNN
-F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 2450 4100 50  0001 C CNN
-F 4 "Murata Electronics" H 2450 4100 50  0001 C CNN "Mfgr"
-F 5 "GCM155R71C104KA55J" H 2450 4100 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 2450 4100 50  0001 C CNN "Source"
-F 7 "490-7998-1-ND" H 2450 4100 50  0001 C CNN "Source_PN"
-F 8 "" V 2702 4100 50  0000 C CNN "Bom_Footprint"
-F 9 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 2450 4100 50  0001 C CNN "Description"
-F 10 "X7R" H 2450 4100 50  0001 C CNN "Dielectric"
-F 11 "16V" V 2611 4100 50  0000 C CNN "Voltage"
-F 12 "10022607" H 2450 4100 50  0001 C CNN "Item Number"
-F 13 "MURATA" H 2450 4100 50  0001 C CNN "Manufacturer"
-F 14 "GRM155R71C104JA88J" H 2450 4100 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 2450 4100 50  0001 C CNN
+F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 2450 4100 50  0001 C CNN "Description"
+F 5 "10022607" H 2450 4100 50  0001 C CNN "Item Number"
+F 6 "MURATA" H 2450 4100 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 2450 4100 50  0001 C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2450 4100
 	0    -1   -1   0   
 $EndComp
@@ -1301,15 +1291,15 @@ P 2450 5500
 F 0 "C83" V 2290 5500 50  0000 C CNN
 F 1 "0.01uF" V 2199 5500 50  0000 C CNN
 F 2 "AllModules:C0603_1" H 2488 5350 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2450 5500 50  0001 C CNN
-F 4 "Yageo" H 2450 5500 50  0001 C CNN "Mfgr"
-F 5 "CC0603KRX7R9BB103" H 2450 5500 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 2450 5500 50  0001 C CNN "Source"
-F 7 "311-1085-1-ND" H 2450 5500 50  0001 C CNN "Source_PN"
-F 8 "0603" V 2108 5500 50  0000 C CNN "Bom_Footprint"
-F 9 "CAP CER 10000PF 50V X7R 0603" H 2450 5500 50  0001 C CNN "Description"
-F 10 "X7R" H 2450 5500 50  0001 C CNN "Dielectric"
-F 11 "50V" H 2450 5500 50  0001 C CNN "Voltage"
+F 3 "" H 2450 5500 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 2450 5500 50  0001 C CNN "Description"
+F 5 "10022508" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0603KRX7R9BB103" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CC0603KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2450 5500
 	0    -1   -1   0   
 $EndComp
@@ -1320,18 +1310,15 @@ P 1300 3350
 F 0 "C66" H 1415 3259 50  0000 L CNN
 F 1 "10uF" H 1415 3350 50  0000 L CNN
 F 2 "AllModules:C2220_1" H 1338 3200 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 1300 3350 50  0001 C CNN
-F 4 "TDK Corporation" H 1300 3350 50  0001 C CNN "Mfgr"
-F 5 "CGA9N3X7R1H106K230KB" H 1300 3350 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 1300 3350 50  0001 C CNN "Source"
-F 7 "445-7932-1-ND" H 1300 3350 50  0001 C CNN "Source_PN"
-F 8 "" H 1415 3441 50  0000 L CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 1300 3350 50  0001 C CNN "Description"
-F 10 "X7R" H 1300 3350 50  0001 C CNN "Dielectric"
-F 11 "50V" H 1300 3350 50  0001 C CNN "Voltage"
-F 12 "10039581" H 1300 3350 50  0001 C CNN "Item Number"
-F 13 "AVX" H 1300 3350 50  0001 C CNN "Manufacturer"
-F 14 "22205C106K4Z4A" H 1300 3350 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 1300 3350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V 2220" H 1300 3350 50  0001 C CNN "Description"
+F 5 "10039581" H 1300 3350 50  0001 C CNN "Item Number"
+F 6 "AVX" H 1300 3350 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 1300 3350 50  0001 C CNN "Manufacturer_No"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "C2220X106K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C2220X106K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1300 3350
 	-1   0    0    1   
 $EndComp
@@ -1342,18 +1329,15 @@ P 1700 3350
 F 0 "C67" H 1585 3259 50  0000 R CNN
 F 1 "10uF" H 1585 3350 50  0000 R CNN
 F 2 "AllModules:C2220_1" H 1738 3200 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 1700 3350 50  0001 C CNN
-F 4 "TDK Corporation" H 1700 3350 50  0001 C CNN "Mfgr"
-F 5 "CGA9N3X7R1H106K230KB" H 1700 3350 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 1700 3350 50  0001 C CNN "Source"
-F 7 "445-7932-1-ND" H 1700 3350 50  0001 C CNN "Source_PN"
-F 8 "" H 1585 3441 50  0000 R CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 1700 3350 50  0001 C CNN "Description"
-F 10 "X7R" H 1700 3350 50  0001 C CNN "Dielectric"
-F 11 "50V" H 1700 3350 50  0001 C CNN "Voltage"
-F 12 "10039581" H 1700 3350 50  0001 C CNN "Item Number"
-F 13 "AVX" H 1700 3350 50  0001 C CNN "Manufacturer"
-F 14 "22205C106K4Z4A" H 1700 3350 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 1700 3350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V 2220" H 1700 3350 50  0001 C CNN "Description"
+F 5 "10039581" H 1700 3350 50  0001 C CNN "Item Number"
+F 6 "AVX" H 1700 3350 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 1700 3350 50  0001 C CNN "Manufacturer_No"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "C2220X106K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C2220X106K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1700 3350
 	-1   0    0    1   
 $EndComp
@@ -1364,18 +1348,15 @@ P 2100 3350
 F 0 "C11" H 1985 3259 50  0000 R CNN
 F 1 "10uF" H 1985 3350 50  0000 R CNN
 F 2 "AllModules:C2220_1" H 2138 3200 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 2100 3350 50  0001 C CNN
-F 4 "TDK Corporation" H 2100 3350 50  0001 C CNN "Mfgr"
-F 5 "CGA9N3X7R1H106K230KB" H 2100 3350 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 2100 3350 50  0001 C CNN "Source"
-F 7 "445-7932-1-ND" H 2100 3350 50  0001 C CNN "Source_PN"
-F 8 "" H 1985 3441 50  0000 R CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 2100 3350 50  0001 C CNN "Description"
-F 10 "X7R" H 2100 3350 50  0001 C CNN "Dielectric"
-F 11 "50V" H 2100 3350 50  0001 C CNN "Voltage"
-F 12 "10039581" H 2100 3350 50  0001 C CNN "Item Number"
-F 13 "AVX" H 2100 3350 50  0001 C CNN "Manufacturer"
-F 14 "22205C106K4Z4A" H 2100 3350 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 2100 3350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V 2220" H 2100 3350 50  0001 C CNN "Description"
+F 5 "10039581" H 2100 3350 50  0001 C CNN "Item Number"
+F 6 "AVX" H 2100 3350 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 2100 3350 50  0001 C CNN "Manufacturer_No"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "C2220X106K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C2220X106K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2100 3350
 	-1   0    0    1   
 $EndComp
@@ -1386,18 +1367,15 @@ P 2500 3350
 F 0 "C20" H 2385 3259 50  0000 R CNN
 F 1 "10uF" H 2385 3350 50  0000 R CNN
 F 2 "AllModules:C2220_1" H 2538 3200 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 2500 3350 50  0001 C CNN
-F 4 "TDK Corporation" H 2500 3350 50  0001 C CNN "Mfgr"
-F 5 "CGA9N3X7R1H106K230KB" H 2500 3350 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 2500 3350 50  0001 C CNN "Source"
-F 7 "445-7932-1-ND" H 2500 3350 50  0001 C CNN "Source_PN"
-F 8 "" H 2385 3441 50  0000 R CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 2500 3350 50  0001 C CNN "Description"
-F 10 "X7R" H 2500 3350 50  0001 C CNN "Dielectric"
-F 11 "50V" H 2500 3350 50  0001 C CNN "Voltage"
-F 12 "10039581" H 2500 3350 50  0001 C CNN "Item Number"
-F 13 "AVX" H 2500 3350 50  0001 C CNN "Manufacturer"
-F 14 "22205C106K4Z4A" H 2500 3350 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 2500 3350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V 2220" H 2500 3350 50  0001 C CNN "Description"
+F 5 "10039581" H 2500 3350 50  0001 C CNN "Item Number"
+F 6 "AVX" H 2500 3350 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 2500 3350 50  0001 C CNN "Manufacturer_No"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "C2220X106K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C2220X106K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2500 3350
 	-1   0    0    1   
 $EndComp
@@ -1408,15 +1386,15 @@ P 2900 3350
 F 0 "C21" H 2785 3259 50  0000 R CNN
 F 1 "4.7uF" H 2785 3350 50  0000 R CNN
 F 2 "AllModules:C1210_1" H 2938 3200 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf" H 2900 3350 50  0001 C CNN
-F 4 "KEMET" H 2900 3350 50  0001 C CNN "Mfgr"
-F 5 "C1210C475K5RACAUTO" H 2900 3350 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 2900 3350 50  0001 C CNN "Source"
-F 7 "399-7049-1-ND" H 2900 3350 50  0001 C CNN "Source_PN"
-F 8 "1210" H 2785 3441 50  0000 R CNN "Bom_Footprint"
-F 9 "CAP CER 4.7UF 50V X7R 1210" H 2900 3350 50  0001 C CNN "Description"
-F 10 "X7R" H 2900 3350 50  0001 C CNN "Dielectric"
-F 11 "50V" H 2900 3350 50  0001 C CNN "Voltage"
+F 3 "" H 2900 3350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 4.7UF,+/-10%,50V" H 2900 3350 50  0001 C CNN "Description"
+F 5 "10039582" H 0   0   50  0001 C CNN "Item Number"
+F 6 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "TDK" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "C1210C475K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CNA6P1X7R1H475K250AE" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C1210C475K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2900 3350
 	-1   0    0    1   
 $EndComp
@@ -1427,18 +1405,15 @@ P 4700 3650
 F 0 "C69" H 4815 3787 50  0000 L CNN
 F 1 "100nF" H 4815 3696 50  0000 L CNN
 F 2 "AllModules:C0402_1" H 4738 3500 50  0001 C CNN
-F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 4700 3650 50  0001 C CNN
-F 4 "Murata Electronics" H 4700 3650 50  0001 C CNN "Mfgr"
-F 5 "GCM155R71C104KA55J" H 4700 3650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 4700 3650 50  0001 C CNN "Source"
-F 7 "490-7998-1-ND" H 4700 3650 50  0001 C CNN "Source_PN"
-F 8 "" H 4815 3605 50  0000 L CNN "Bom_Footprint"
-F 9 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 4700 3650 50  0001 C CNN "Description"
-F 10 "X7R" H 4700 3650 50  0001 C CNN "Dielectric"
-F 11 "16V" H 4815 3514 50  0000 L CNN "Voltage"
-F 12 "10022607" H 4700 3650 50  0001 C CNN "Item Number"
-F 13 "MURATA" H 4700 3650 50  0001 C CNN "Manufacturer"
-F 14 "GRM155R71C104JA88J" H 4700 3650 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 4700 3650 50  0001 C CNN
+F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 4700 3650 50  0001 C CNN "Description"
+F 5 "10022607" H 4700 3650 50  0001 C CNN "Item Number"
+F 6 "MURATA" H 4700 3650 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 4700 3650 50  0001 C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4700 3650
 	1    0    0    -1  
 $EndComp
@@ -1449,15 +1424,15 @@ P 5100 3650
 F 0 "C68" H 4985 3559 50  0000 R CNN
 F 1 "56pF" H 4985 3650 50  0000 R CNN
 F 2 "AllModules:C0603_1" H 5138 3500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 5100 3650 50  0001 C CNN
-F 4 "Yageo" H 5100 3650 50  0001 C CNN "Mfgr"
-F 5 "CC0603JRNPO9BN560" H 5100 3650 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 5100 3650 50  0001 C CNN "Source"
-F 7 "311-1066-1-ND" H 5100 3650 50  0001 C CNN "Source_PN"
-F 8 "0603" H 4985 3741 50  0000 R CNN "Bom_Footprint"
-F 9 "CAP CER 56PF 50V C0G/NPO 0603" H 5100 3650 50  0001 C CNN "Description"
-F 10 "C0G/NPO" H 5100 3650 50  0001 C CNN "Dielectric"
-F 11 "50V" H 5100 3650 50  0001 C CNN "Voltage"
+F 3 "" H 5100 3650 50  0001 C CNN
+F 4 "CAPACITOR,56PF,50V,+/-5%,0603,NPO" H 5100 3650 50  0001 C CNN "Description"
+F 5 "10022626" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0603JRNPO9BN560" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CC0603JRNPO9BN560" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "06035A560JAT2A" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5100 3650
 	-1   0    0    1   
 $EndComp
@@ -1468,11 +1443,15 @@ P 4200 5150
 F 0 "C77" H 4315 5241 50  0000 L CNN
 F 1 "100pF" H 4315 5150 50  0000 L CNN
 F 2 "AllModules:C0402_1" H 4238 5000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C101JB81PNC.jsp" H 4200 5150 50  0001 C CNN
-F 4 "YAGEO/PHYCOMP" H 4200 5150 50  0001 C CNN "Mfgr"
-F 5 "CC0402JRNPO9BN101" H 4200 5150 50  0001 C CNN "Mfgr_PN"
-F 6 "CAPACITOR,100PF,50V,+/-5%,C0G,0402" H 4200 5150 50  0001 C CNN "Description"
-F 7 "10022629" H 4200 5150 50  0001 C CNN "Item Number"
+F 3 "" H 4200 5150 50  0001 C CNN
+F 4 "CAPACITOR,100PF,50V,+/-5%,C0G,0402" H 4200 5150 50  0001 C CNN "Description"
+F 5 "10022629" H 4200 5150 50  0001 C CNN "Item Number"
+F 6 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO/PHYCOMP_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO/PHYCOMP_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "GRM1555C1H101JD01D" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CC0402JRNPO9BN101" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0402JRNPO9BN101" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4200 5150
 	1    0    0    -1  
 $EndComp
@@ -1483,15 +1462,13 @@ P 4000 4550
 F 0 "C74" H 3885 4459 50  0000 R CNN
 F 1 "1000pF" H 3885 4550 50  0000 R CNN
 F 2 "AllModules:C0603_1" H 4038 4400 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4000 4550 50  0001 C CNN
-F 4 "AVX Corporation" H 4000 4550 50  0001 C CNN "Mfgr"
-F 5 "06035C102KAT2A" H 4000 4550 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 4000 4550 50  0001 C CNN "Source"
-F 7 "478-1215-1-ND" H 4000 4550 50  0001 C CNN "Source_PN"
-F 8 "0603" H 3885 4641 50  0000 R CNN "Bom_Footprint"
-F 9 "CAP CER 1000PF 50V X7R 0603" H 4000 4550 50  0001 C CNN "Description"
-F 10 "X7R" H 4000 4550 50  0001 C CNN "Dielectric"
-F 11 "50V" H 4000 4550 50  0001 C CNN "Voltage"
+F 3 "" H 4000 4550 50  0001 C CNN
+F 4 "CAPACITOR,1NF,+/-10%,50V,X7R,0603" H 4000 4550 50  0001 C CNN "Description"
+F 5 "10022628" H 0   0   50  0001 C CNN "Item Number"
+F 6 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "06035C102KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "GRM188R71H102KA01D" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    4000 4550
 	-1   0    0    1   
 $EndComp
@@ -1502,15 +1479,15 @@ P 4350 4300
 F 0 "C72" V 3900 4300 50  0000 C CNN
 F 1 "0.033uF" V 4000 4300 50  0000 C CNN
 F 2 "AllModules:C0603_1" H 4388 4150 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4350 4300 50  0001 C CNN
-F 4 "AVX Corporation" H 4350 4300 50  0001 C CNN "Mfgr"
-F 5 "0603YC333KAT2A" H 4350 4300 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 4350 4300 50  0001 C CNN "Source"
-F 7 "478-5898-1-ND" H 4350 4300 50  0001 C CNN "Source_PN"
-F 8 "0603" V 4100 4300 50  0000 C CNN "Bom_Footprint"
-F 9 "CAP CER 0.033UF 16V X7R 0603" H 4350 4300 50  0001 C CNN "Description"
-F 10 "X7R" H 4350 4300 50  0001 C CNN "Dielectric"
-F 11 "16V" V 4200 4300 50  0000 C CNN "Voltage"
+F 3 "" H 4350 4300 50  0001 C CNN
+F 4 "CAPACITOR,33NF,+/-10%,16V,X7R,0603" H 4350 4300 50  0001 C CNN "Description"
+F 5 "10022627" H 0   0   50  0001 C CNN "Item Number"
+F 6 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "0603YC333KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CC0603KRX7R7BB333" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0603KRX7R7BB333" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4350 4300
 	0    1    1    0   
 $EndComp
@@ -1521,16 +1498,15 @@ P 7000 3350
 F 0 "C79" H 6885 3259 50  0000 R CNN
 F 1 "100nF" H 6885 3350 50  0000 R CNN
 F 2 "AllModules:C0805_1" H 7038 3200 50  0001 C CNN
-F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 7000 3350 50  0001 C CNN
-F 4 "Murata Electronics" H 7000 3350 50  0001 C CNN "Mfgr"
-F 5 "GCM155R71C104KA55J" H 7000 3350 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 7000 3350 50  0001 C CNN "Source"
-F 7 "490-7998-1-ND" H 7000 3350 50  0001 C CNN "Source_PN"
-F 8 "" H 7114 3395 50  0000 L CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 7000 3350 50  0001 C CNN "Description"
-F 10 "X7R" H 7000 3350 50  0001 C CNN "Dielectric"
-F 11 "16V" H 6885 3441 50  0000 R CNN "Voltage"
-F 12 "10022135" H 7000 3350 50  0001 C CNN "Item Number"
+F 3 "" H 7000 3350 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 7000 3350 50  0001 C CNN "Description"
+F 5 "10022135" H 7000 3350 50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "GRM21BR71H104KA01L" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7000 3350
 	-1   0    0    1   
 $EndComp
@@ -1541,11 +1517,15 @@ P 7300 5250
 F 0 "C80" H 7185 5159 50  0000 R CNN
 F 1 "4.7uF" H 7185 5250 50  0000 R CNN
 F 2 "AllModules:C0805_1" H 7338 5100 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf" H 7300 5250 50  0001 C CNN
-F 4 "AVX_RMS1" H 7300 5250 50  0001 C CNN "Mfgr"
-F 5 "0805YD475KAT2A" H 7300 5250 50  0001 C CNN "Mfgr_PN"
-F 6 "CAPACITOR,4.7UF,+/-10%,16V, X5R, 0805" H 7300 5250 50  0001 C CNN "Description"
-F 7 "10022616" H 7300 5250 50  0001 C CNN "Item Number"
+F 3 "" H 7300 5250 50  0001 C CNN
+F 4 "CAPACITOR,4.7UF,+/-10%,16V, X5R, 0805" H 7300 5250 50  0001 C CNN "Description"
+F 5 "10022616" H 7300 5250 50  0001 C CNN "Item Number"
+F 6 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "0805YD475KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "C0805C475K4PAC" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0805C475K4PACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7300 5250
 	-1   0    0    1   
 $EndComp
@@ -1556,16 +1536,15 @@ P 7650 3900
 F 0 "C70" V 7300 3900 50  0000 C CNN
 F 1 "100nF" V 7400 3900 50  0000 C CNN
 F 2 "AllModules:C0805_1" H 7688 3750 50  0001 C CNN
-F 3 "https://psearch.en.murata.com/capacitor/product/GCM155R71C104KA55%23.pdf" H 7650 3900 50  0001 C CNN
-F 4 "Murata Electronics" H 7650 3900 50  0001 C CNN "Mfgr"
-F 5 "GCM155R71C104KA55J" H 7650 3900 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 7650 3900 50  0001 C CNN "Source"
-F 7 "490-7998-1-ND" H 7650 3900 50  0001 C CNN "Source_PN"
-F 8 "" V 7400 3900 50  0000 C CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 7650 3900 50  0001 C CNN "Description"
-F 10 "X7R" H 7650 3900 50  0001 C CNN "Dielectric"
-F 11 "16V" V 7500 3900 50  0000 C CNN "Voltage"
-F 12 "10022135" V 7650 3900 50  0001 C CNN "Item Number"
+F 3 "" H 7650 3900 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 7650 3900 50  0001 C CNN "Description"
+F 5 "10022135" V 7650 3900 50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "GRM21BR71H104KA01L" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7650 3900
 	0    1    1    0   
 $EndComp
@@ -1576,15 +1555,15 @@ P 8150 4500
 F 0 "C76" V 7716 4500 50  0000 C CNN
 F 1 "0.33uF" V 7807 4500 50  0000 C CNN
 F 2 "AllModules:C0805_1" H 8188 4350 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8150 4500 50  0001 C CNN
-F 4 "Yageo" H 8150 4500 50  0001 C CNN "Mfgr"
-F 5 "CC0805JKX7R7BB334" H 8150 4500 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 8150 4500 50  0001 C CNN "Source"
-F 7 "311-4215-1-ND" H 8150 4500 50  0001 C CNN "Source_PN"
-F 8 "0805" V 7898 4500 50  0000 C CNN "Bom_Footprint"
-F 9 "CAP CER 0.33UF 16V X7R 0805" H 8150 4500 50  0001 C CNN "Description"
-F 10 "X7R" H 8150 4500 50  0001 C CNN "Dielectric"
-F 11 "16V" V 7989 4500 50  0000 C CNN "Voltage"
+F 3 "" H 8150 4500 50  0001 C CNN
+F 4 "CAPACITOR,330NF,+/-10%,16V,0805,X7R" H 8150 4500 50  0001 C CNN "Description"
+F 5 "10022510" H 0   0   50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0805KKX7R7BB334" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "0805YC334KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0805C334K4RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    8150 4500
 	0    1    1    0   
 $EndComp
@@ -1595,15 +1574,15 @@ P 11600 5150
 F 0 "C84" H 11715 5332 50  0000 L CNN
 F 1 "1uF" H 11715 5241 50  0000 L CNN
 F 2 "AllModules:C0603_1" H 11638 5000 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C105K9PACTU.pdf" H 11600 5150 50  0001 C CNN
-F 4 "KEMET" H 11600 5150 50  0001 C CNN "Mfgr"
-F 5 "C0603C105K9PACTU" H 11600 5150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 11600 5150 50  0001 C CNN "Source"
-F 7 "399-7848-1-ND" H 11600 5150 50  0001 C CNN "Source_PN"
-F 8 "0603" H 11715 5150 50  0000 L CNN "Bom_Footprint"
-F 9 "CAP CER 1UF 6.3V X5R 0603" H 11600 5150 50  0001 C CNN "Description"
-F 10 "X5R" H 11715 5059 50  0000 L CNN "Dielectric"
-F 11 "6.3V" H 11715 4968 50  0000 L CNN "Voltage"
+F 3 "" H 11600 5150 50  0001 C CNN
+F 4 "CAPACITOR,1UF,+/-10%,6.3V,X5R,0603" H 11600 5150 50  0001 C CNN "Description"
+F 5 "10022630" H 0   0   50  0001 C CNN "Item Number"
+F 6 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "GRM188B11A105KA61D" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "GRM188R60J105KA01D" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "06036D105KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11600 5150
 	1    0    0    -1  
 $EndComp
@@ -1614,7 +1593,7 @@ P 7650 4500
 F 0 "D9" H 7650 4600 50  0000 C CNN
 F 1 "PMEG4005ET" H 7650 4400 50  0000 C CNN
 F 2 "AllModules:SOT23-1G_1" H 7650 4325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEGXX05ET_SER.pdf" H 7650 4500 50  0001 C CNN
+F 3 "" H 7650 4500 50  0001 C CNN
 F 4 "DIODE SCHOTTKY, 40V, 500MA" H 7650 4500 50  0001 C CNN "Description"
 F 5 "10039586" H 7650 4500 50  0001 C CNN "Item Number"
 F 6 "PHILIPS" H 7650 4500 50  0001 C CNN "Manufacturer"
@@ -1631,15 +1610,15 @@ P 10700 4150
 F 0 "C90" H 10815 4241 50  0000 L CNN
 F 1 "4.7uF" H 10815 4150 50  0000 L CNN
 F 2 "AllModules:C1210_1" H 10738 4000 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C475K5RACAUTO.pdf" H 10700 4150 50  0001 C CNN
-F 4 "KEMET" H 10700 4150 50  0001 C CNN "Mfgr"
-F 5 "C1210C475K5RACAUTO" H 10700 4150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 10700 4150 50  0001 C CNN "Source"
-F 7 "399-7049-1-ND" H 10700 4150 50  0001 C CNN "Source_PN"
-F 8 "1210" H 10815 4059 50  0000 L CNN "Bom_Footprint"
-F 9 "CAP CER 4.7UF 50V X7R 1210" H 10700 4150 50  0001 C CNN "Description"
-F 10 "X7R" H 10700 4150 50  0001 C CNN "Dielectric"
-F 11 "50V" H 10700 4150 50  0001 C CNN "Voltage"
+F 3 "" H 10700 4150 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 4.7UF,+/-10%,50V" H 10700 4150 50  0001 C CNN "Description"
+F 5 "10039582" H 0   0   50  0001 C CNN "Item Number"
+F 6 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "TDK" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "C1210C475K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CNA6P1X7R1H475K250AE" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C1210C475K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10700 4150
 	1    0    0    -1  
 $EndComp
@@ -1650,18 +1629,15 @@ P 10300 4150
 F 0 "C51" H 10415 4241 50  0000 L CNN
 F 1 "10uF" H 10415 4150 50  0000 L CNN
 F 2 "AllModules:C2220_1" H 10338 4000 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 10300 4150 50  0001 C CNN
-F 4 "TDK Corporation" H 10300 4150 50  0001 C CNN "Mfgr"
-F 5 "CGA9N3X7R1H106K230KB" H 10300 4150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 10300 4150 50  0001 C CNN "Source"
-F 7 "445-7932-1-ND" H 10300 4150 50  0001 C CNN "Source_PN"
-F 8 "" H 10415 4059 50  0000 L CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 10300 4150 50  0001 C CNN "Description"
-F 10 "X7R" H 10300 4150 50  0001 C CNN "Dielectric"
-F 11 "50V" H 10300 4150 50  0001 C CNN "Voltage"
-F 12 "10039581" H 10300 4150 50  0001 C CNN "Item Number"
-F 13 "AVX" H 10300 4150 50  0001 C CNN "Manufacturer"
-F 14 "22205C106K4Z4A" H 10300 4150 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 10300 4150 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V 2220" H 10300 4150 50  0001 C CNN "Description"
+F 5 "10039581" H 10300 4150 50  0001 C CNN "Item Number"
+F 6 "AVX" H 10300 4150 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 10300 4150 50  0001 C CNN "Manufacturer_No"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "C2220X106K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C2220X106K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10300 4150
 	1    0    0    -1  
 $EndComp
@@ -1672,18 +1648,15 @@ P 9900 4150
 F 0 "C73" H 9800 4100 50  0000 R CNN
 F 1 "10uF" H 9791 4026 50  0000 R CNN
 F 2 "AllModules:C2220_1" H 9938 4000 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf?ref_disty=digikey" H 9900 4150 50  0001 C CNN
-F 4 "TDK Corporation" H 9900 4150 50  0001 C CNN "Mfgr"
-F 5 "CGA9N3X7R1H106K230KB" H 9900 4150 50  0001 C CNN "Mfgr_PN"
-F 6 "Digi-Key" H 9900 4150 50  0001 C CNN "Source"
-F 7 "445-7932-1-ND" H 9900 4150 50  0001 C CNN "Source_PN"
-F 8 "" H 9785 4059 50  0000 R CNN "Bom_Footprint"
-F 9 "CAPACITOR CERAMIC, 10UF,+/-10%,50V" H 9900 4150 50  0001 C CNN "Description"
-F 10 "X7R" H 9900 4150 50  0001 C CNN "Dielectric"
-F 11 "50V" H 9900 4150 50  0001 C CNN "Voltage"
-F 12 "10039581" H 9900 4150 50  0001 C CNN "Item Number"
-F 13 "AVX" H 9900 4150 50  0001 C CNN "Manufacturer"
-F 14 "22205C106K4Z4A" H 9900 4150 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 9900 4150 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC, 10UF,+/-10%,50V 2220" H 9900 4150 50  0001 C CNN "Description"
+F 5 "10039581" H 9900 4150 50  0001 C CNN "Item Number"
+F 6 "AVX" H 9900 4150 50  0001 C CNN "Manufacturer"
+F 7 "22205C106K4Z4A" H 9900 4150 50  0001 C CNN "Manufacturer_No"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "C2220X106K5RACAUTO" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C2220X106K5RAC" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    9900 4150
 	1    0    0    -1  
 $EndComp
@@ -1697,13 +1670,13 @@ P 12200 5800
 F 0 "T29" H 12404 5846 50  0000 L CNN
 F 1 "IRLML2803" H 12404 5755 50  0000 L CNN
 F 2 "AllModules:SOT23-GSD_1" H 13150 5725 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" H 12525 5500 50  0001 L CNN
-F 4 "IRLML2803TRPBF" H 12825 5725 50  0001 C CNN "Mfgr_PN"
-F 5 "Infineon Technologies" H 12950 5725 50  0001 C CNN "Mfgr"
-F 6 "Digi-Key" H 12700 5725 50  0001 C CNN "Source"
-F 7 "IRLML2803PBFCT-ND" H 12900 5725 50  0001 C CNN "Source_PN"
-F 8 "TRANSISTOR MOSFET, 30V, 0.93A, 0.25 OHM, N CHANNEL" H 13000 5725 50  0001 C CNN "Description"
-F 9 "10022558" H 12200 5800 50  0001 C CNN "Item Number"
+F 3 "" H 12525 5500 50  0001 L CNN
+F 4 "TRANSISTOR MOSFET, 30V, 0.93A, 0.25 OHM, N CHANNEL" H 13000 5725 50  0001 C CNN "Description"
+F 5 "10022558" H 12200 5800 50  0001 C CNN "Item Number"
+F 6 "INTERNATIONAL RECTIFIER_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "INTERNATIONAL RECTIFIER_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "IRLML2803PBF" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "IRLML2803TRPBF" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    12200 5800
 	1    0    0    -1  
 $EndComp
@@ -1727,11 +1700,15 @@ P 4700 5150
 F 0 "C81" H 4585 5104 50  0000 R CNN
 F 1 "100pF" H 4585 5195 50  0000 R CNN
 F 2 "AllModules:C0402_1" H 4738 5000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C101JB81PNC.jsp" H 4700 5150 50  0001 C CNN
-F 4 "YAGEO/PHYCOMP" H 4700 5150 50  0001 C CNN "Mfgr"
-F 5 "CC0402JRNPO9BN101" H 4700 5150 50  0001 C CNN "Mfgr_PN"
-F 6 "CAPACITOR,100PF,50V,+/-5%,C0G,0402" H 4700 5150 50  0001 C CNN "Description"
-F 7 "10022629" H 4700 5150 50  0001 C CNN "Item Number"
+F 3 "" H 4700 5150 50  0001 C CNN
+F 4 "CAPACITOR,100PF,50V,+/-5%,C0G,0402" H 4700 5150 50  0001 C CNN "Description"
+F 5 "10022629" H 4700 5150 50  0001 C CNN "Item Number"
+F 6 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO/PHYCOMP_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO/PHYCOMP_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "GRM1555C1H101JD01D" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "CC0402JRNPO9BN101" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0402JRNPO9BN101" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4700 5150
 	-1   0    0    1   
 $EndComp
@@ -1743,11 +1720,8 @@ F 0 "ZR80" V 9450 3900 50  0000 C CNN
 F 1 "0.05_2512" V 9368 3891 50  0000 C CNN
 F 2 "AllModules:R2512_1" V 9480 3900 50  0001 C CNN
 F 3 "" H 9550 3900 50  0001 C CNN
-F 4 "" V 9847 3900 50  0001 C CNN "Bom_Footprint"
-F 5 "RESISTOR,0.05 OHM,1W,+/-1%,2512" H 9550 3900 50  0001 C CNN "Description"
-F 6 "" H 9550 3900 50  0001 C CNN "Tolerance"
-F 7 "" V 9938 3900 50  0001 C CNN "Wattage"
-F 8 "10022723_A" H 9550 3900 50  0001 C CNN "Item Number"
+F 4 "RESISTOR,0.05 OHM,1W,+/-1%,2512" H 9550 3900 50  0001 C CNN "Description"
+F 5 "10022723_A" H 9550 3900 50  0001 C CNN "Item Number"
 	1    9550 3900
 	0    1    -1   0   
 $EndComp
@@ -1759,15 +1733,8 @@ F 0 "ZR88" H 12469 4016 50  0000 R CNN
 F 1 "390_2512" H 12643 4105 50  0000 R CNN
 F 2 "AllModules:R2512_1" V 12130 4250 50  0001 C CNN
 F 3 "" H 12200 4250 50  0001 C CNN
-F 4 "" H 12200 4250 50  0001 C CNN "Mfgr"
-F 5 "" H 12200 4250 50  0001 C CNN "Mfgr_PN"
-F 6 "" H 12200 4250 50  0001 C CNN "Source"
-F 7 "" H 12200 4250 50  0001 C CNN "Source_PN"
-F 8 "" V 12497 4250 50  0001 C CNN "Bom_Footprint"
-F 9 "RESISTOR,390 OHM,2W,+/-1%,2512" H 12200 4250 50  0001 C CNN "Description"
-F 10 "" H 12200 4250 50  0001 C CNN "Tolerance"
-F 11 "" V 12588 4250 50  0001 C CNN "Wattage"
-F 12 "10022728_A" H 12200 4250 50  0001 C CNN "Item Number"
+F 4 "RESISTOR,390 OHM,2W,+/-1%,2512" H 12200 4250 50  0001 C CNN "Description"
+F 5 "10022728_A" H 12200 4250 50  0001 C CNN "Item Number"
 	1    12200 4250
 	1    0    0    1   
 $EndComp
