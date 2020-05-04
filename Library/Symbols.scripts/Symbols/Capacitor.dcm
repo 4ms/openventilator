@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP C0402_NC
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-#End Doc Library
