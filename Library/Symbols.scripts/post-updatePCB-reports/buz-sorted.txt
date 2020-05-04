@@ -77,6 +77,7 @@ Add net /VCHARG.
 Add net /VCHARG.
 Add net /VCHARG.
 Add net /VCHARG.
+Add net /VCHARG.
 Add net Net-(BAT1-Pad-).
 Add net Net-(BAT1-Pad-).
 Add net Net-(BAT1-Pad-).
@@ -232,6 +233,7 @@ Add net Net-(IC3-Pad7).
 Add net Net-(IC3-Pad7).
 Add net Net-(IC3-Pad7).
 Add net Net-(IC3-Pad7).
+Add net Net-(IC4-Pad1).
 Add net Net-(IC4-Pad1).
 Add net Net-(IC4-Pad1).
 Add net Net-(IC4-Pad1).
@@ -539,6 +541,7 @@ Change R65 value from R-BC-R0402 to 2.2k.
 Change R66 value from R-BC-R0402 to 10k.
 Change R67 value from R-BC-R0402 to 100k.
 Change R68 value from R-BC-R0402 to 10k.
+Change R69 value from R-BC-R0402 to 200k.
 Change R7 value from R-BC-R0402 to 51.1k.
 Change R70 value from R-BC-R0402 to 10k.
 Change R71 value from R-BC-R0805 to 470.
@@ -675,7 +678,6 @@ Disconnect H96 pin .
 Disconnect H97 pin .
 Disconnect H98 pin .
 Disconnect H99 pin .
-Error: Cannot update R69 (footprint “GR106768 Buzzer:R0402_1” not found).
 Info: Change symbol path “BAT1:” to “/5E89C6B8/603E4DAA”.
 Info: Change symbol path “BUZ1:” to “/5F1A6F3E”.
 Info: Change symbol path “BUZ2:” to “/5F18A730”.
@@ -920,6 +922,7 @@ Info: Change symbol path “R65:” to “/5E89C6B8/5F7FBFEE”.
 Info: Change symbol path “R66:” to “/5E89C6B8/5F79A593”.
 Info: Change symbol path “R67:” to “/5E89C6B8/5F7D65CC”.
 Info: Change symbol path “R68:” to “/5E89C6B8/5F7AA4CB”.
+Info: Change symbol path “R69:” to “/5EA89989”.
 Info: Change symbol path “R6:” to “/5EE74830”.
 Info: Change symbol path “R70:” to “/5E89C6B8/5F7A4F68”.
 Info: Change symbol path “R71:” to “/5E89C6B8/5EA99BE9”.
@@ -1185,7 +1188,7 @@ Info: Processing component “R65:/5E89C6B8/5F7FBFEE:AllModules:R0402_1”.
 Info: Processing component “R66:/5E89C6B8/5F79A593:AllModules:R0402_1”.
 Info: Processing component “R67:/5E89C6B8/5F7D65CC:AllModules:R0402_1”.
 Info: Processing component “R68:/5E89C6B8/5F7AA4CB:AllModules:R0402_1”.
-Info: Processing component “R69:/5EA89989:GR106768 Buzzer:R0402_1”.
+Info: Processing component “R69:/5EA89989:AllModules:R0402_1”.
 Info: Processing component “R6:/5EE74830:AllModules:R0402_1”.
 Info: Processing component “R70:/5E89C6B8/5F7A4F68:AllModules:R0402_1”.
 Info: Processing component “R71:/5E89C6B8/5EA99BE9:AllModules:R0805_1b”.
@@ -1456,6 +1459,8 @@ Reconnect R67 pin 1 from N$43 to Net-(R67-Pad1).
 Reconnect R67 pin 2 from BATTV to +BATTV.
 Reconnect R68 pin 1 from N$44 to Net-(R68-Pad1).
 Reconnect R68 pin 2 from N$43 to Net-(R67-Pad1).
+Reconnect R69 pin 1 from VCHARG to /VCHARG.
+Reconnect R69 pin 2 from N$45 to Net-(IC4-Pad1).
 Reconnect R7 pin 1 from N$11 to Net-(C3-Pad2).
 Reconnect R7 pin 2 from N$30 to Net-(D2-Pad1).
 Reconnect R70 pin 2 from N$53 to Net-(D16-Pad3).
