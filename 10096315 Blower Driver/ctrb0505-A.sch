@@ -826,25 +826,6 @@ F 11 "CR1206-FX-1001ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    0    0    -1  
 $EndComp
 $Comp
-L V_Capacitor:C0805_100nF_50V_10% C12
-U 1 1 5E993A1A
-P 13800 6750
-F 0 "C12" H 13917 6662 50  0000 L CNN
-F 1 "100nF" H 13800 7200 50  0001 C CNN
-F 2 "AllModules:C0805_1" H 13850 6300 50  0001 C CNN
-F 3 "" H 13800 7200 50  0001 C CNN
-F 4 "10022135" H 13800 6750 50  0001 C CNN "Item Number"
-F 5 "YAGEO_RMS1" H 13800 6750 50  0001 C CNN "Manufacturer"
-F 6 "CC0805KRX7R9BB104" H 13800 6750 50  0001 C CNN "Manufacturer_No"
-F 7 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 13800 6750 50  0001 C CNN "Description"
-F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
-F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 10 "GRM21BR71H104KA01L" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
-	1    13800 6750
-	1    0    0    1   
-$EndComp
-$Comp
 L V_Diode:DiodeSchottky D3
 U 1 1 5E993A21
 P 14700 6600
@@ -2462,7 +2443,7 @@ Connection ~ 3500 10800
 Wire Wire Line
 	3500 10800 3300 10800
 $Comp
-L V_FLTR:BNX002-11 FI1
+L V_Filter:BNX002-11 FI1
 U 1 1 5FB69A1D
 P 2800 2300
 F 0 "FI1" H 2650 2650 50  0000 C CNN
@@ -3268,7 +3249,7 @@ Connection ~ 2000 14000
 Wire Wire Line
 	2000 14000 2000 14100
 $Comp
-L Mechanical:MountingHole_Pad ZM4
+L V_Mechanical:MountingHole_Pad ZM4
 U 1 1 5EBA598C
 P 4000 6550
 F 0 "ZM4" H 4100 6599 50  0000 L CNN
@@ -3279,7 +3260,7 @@ F 3 "~" H 4000 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad ZM3
+L V_Mechanical:MountingHole_Pad ZM3
 U 1 1 5EBA68DE
 P 5000 6550
 F 0 "ZM3" H 5100 6599 50  0000 L CNN
@@ -3290,7 +3271,7 @@ F 3 "~" H 5000 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad ZM1
+L V_Mechanical:MountingHole_Pad ZM1
 U 1 1 5EBA76DD
 P 4000 7050
 F 0 "ZM1" H 4100 7099 50  0000 L CNN
@@ -3301,7 +3282,7 @@ F 3 "~" H 4000 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad ZM2
+L V_Mechanical:MountingHole_Pad ZM2
 U 1 1 5EBA76E3
 P 5000 7050
 F 0 "ZM2" H 5100 7099 50  0000 L CNN
@@ -3312,7 +3293,7 @@ F 3 "~" H 5000 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR1
+L V_Mechanical:Fiducial MIR1
 U 1 1 5EC71D6D
 P 6000 6500
 F 0 "MIR1" H 6085 6546 50  0000 L CNN
@@ -3323,7 +3304,7 @@ F 3 "~" H 6000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR3
+L V_Mechanical:Fiducial MIR3
 U 1 1 5EC73A94
 P 6500 6500
 F 0 "MIR3" H 6585 6546 50  0000 L CNN
@@ -3334,7 +3315,7 @@ F 3 "~" H 6500 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR4
+L V_Mechanical:Fiducial MIR4
 U 1 1 5EC73C69
 P 6500 7000
 F 0 "MIR4" H 6585 7046 50  0000 L CNN
@@ -3345,7 +3326,7 @@ F 3 "~" H 6500 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR2
+L V_Mechanical:Fiducial MIR2
 U 1 1 5EC73F8D
 P 6000 7000
 F 0 "MIR2" H 6085 7046 50  0000 L CNN
@@ -3603,7 +3584,7 @@ F 7 "CAPACITOR,100UF,+/-20%,50V" H 8800 2400 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole TH1
+L V_Mechanical:MountingHole TH1
 U 1 1 5E9B8648
 P 1000 6500
 F 0 "TH1" H 1100 6546 50  0000 L CNN
@@ -3614,7 +3595,7 @@ F 3 "~" H 1000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole TH2
+L V_Mechanical:MountingHole TH2
 U 1 1 5E9C0F88
 P 1000 7000
 F 0 "TH2" H 1100 7046 50  0000 L CNN
@@ -3625,7 +3606,7 @@ F 3 "~" H 1000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole TH3
+L V_Mechanical:MountingHole TH3
 U 1 1 5EA021CD
 P 2000 6500
 F 0 "TH3" H 2100 6546 50  0000 L CNN
@@ -3636,7 +3617,7 @@ F 3 "~" H 2000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole TH4
+L V_Mechanical:MountingHole TH4
 U 1 1 5EA021D7
 P 2000 7000
 F 0 "TH4" H 2100 7046 50  0000 L CNN
@@ -3647,7 +3628,7 @@ F 3 "~" H 2000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole TH5
+L V_Mechanical:MountingHole TH5
 U 1 1 5EAC8D45
 P 3000 6500
 F 0 "TH5" H 3100 6546 50  0000 L CNN
@@ -3658,7 +3639,7 @@ F 3 "~" H 3000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole TH6
+L V_Mechanical:MountingHole TH6
 U 1 1 5EAC8D4F
 P 3000 7000
 F 0 "TH6" H 3100 7046 50  0000 L CNN
@@ -4149,5 +4130,24 @@ F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 9 "RC0603FR-074K7L" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    6850 10350
 	1    0    0    -1  
+$EndComp
+$Comp
+L V_Capacitor:C0805_100nF_50V_10% C12
+U 1 1 5E993A1A
+P 13800 6750
+F 0 "C12" H 13917 6662 50  0000 L CNN
+F 1 "100nF" H 13800 7200 50  0001 C CNN
+F 2 "AllModules:C0805_1" H 13850 6300 50  0001 C CNN
+F 3 "" H 13800 7200 50  0001 C CNN
+F 4 "10022135" H 13800 6750 50  0001 C CNN "Item Number"
+F 5 "YAGEO_RMS1" H 13800 6750 50  0001 C CNN "Manufacturer"
+F 6 "CC0805KRX7R9BB104" H 13800 6750 50  0001 C CNN "Manufacturer_No"
+F 7 "CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805" H 13800 6750 50  0001 C CNN "Description"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "GRM21BR71H104KA01L" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+	1    13800 6750
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -1,36 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Mechanical_Fiducial
-#
-DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
-F0 "FID" 0 200 50 H V C CNN
-F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Fiducial*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
 # V_Capacitor_C0402_1uF_10V_10%
 #
 DEF V_Capacitor_C0402_1uF_10V_10% C 0 10 N Y 1 F N
@@ -621,11 +591,11 @@ X K 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# V_FLTR_BNX002-11
+# V_Filter_BNX002-11
 #
-DEF V_FLTR_BNX002-11 FL 0 40 Y N 1 F N
+DEF V_Filter_BNX002-11 FL 0 40 Y N 1 F N
 F0 "FL" -70 315 50 H V C CNN
-F1 "V_FLTR_BNX002-11" 0 -350 50 H V C CNN
+F1 "V_Filter_BNX002-11" 0 -350 50 H V C CNN
 F2 "" -110 20 50 H I C CNN
 F3 "" -110 20 50 H I C CNN
 F4 "10022532" 550 50 50 H I L CNN "Item Number"
@@ -857,6 +827,36 @@ X VSS 6 100 -1300 150 U 50 50 1 1 W
 X VDD 7 100 1300 150 D 50 50 1 1 W
 X RB0/AN12 8 -1200 350 150 R 50 50 1 1 B
 X RB1/AN10 9 -1200 250 150 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# V_Mechanical_Fiducial
+#
+DEF V_Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "V_Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# V_Mechanical_MountingHole
+#
+DEF V_Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "V_Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #

@@ -1,36 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Mechanical_Fiducial
-#
-DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
-F0 "FID" 0 200 50 H V C CNN
-F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Fiducial*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
 # V_CT_Thermistor_NTC
 #
 DEF V_CT_Thermistor_NTC TH 0 0 N Y 1 F N
@@ -1737,11 +1707,11 @@ X K K -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# V_FLTR_BNX002-01
+# V_Filter_BNX002-01
 #
-DEF V_FLTR_BNX002-01 FL 0 40 Y N 1 F N
+DEF V_Filter_BNX002-01 FL 0 40 Y N 1 F N
 F0 "FL" -50 450 50 H V C CNN
-F1 "V_FLTR_BNX002-01" 475 -420 50 H V C CNN
+F1 "V_Filter_BNX002-01" 475 -420 50 H V C CNN
 F2 "10005011 Power Management:BNX002+SF-AIROX_1" -110 20 50 H I C CNN
 F3 "" -110 20 50 H I C CNN
 F4 "10022532" 400 50 50 H I L CNN "Item Number"
@@ -1810,11 +1780,11 @@ X PSG PSG -450 -150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# V_FLTR_BNX002-11
+# V_Filter_BNX002-11
 #
-DEF V_FLTR_BNX002-11 FL 0 40 Y N 1 F N
+DEF V_Filter_BNX002-11 FL 0 40 Y N 1 F N
 F0 "FL" -70 315 50 H V C CNN
-F1 "V_FLTR_BNX002-11" 0 -350 50 H V C CNN
+F1 "V_Filter_BNX002-11" 0 -350 50 H V C CNN
 F2 "" -110 20 50 H I C CNN
 F3 "" -110 20 50 H I C CNN
 F4 "10022532" 550 50 50 H I L CNN "Item Number"
@@ -3083,6 +3053,36 @@ P 2 1 0 0 -100 0 -65 0 N
 P 2 1 0 0 100 0 65 0 N
 X 1 1 -200 0 100 R 0 0 1 0 P
 X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# V_Mechanical_Fiducial
+#
+DEF V_Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "V_Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# V_Mechanical_MountingHole
+#
+DEF V_Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "V_Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #

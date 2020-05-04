@@ -1,8 +1,8 @@
 Info: Processing component “ANT1:/5E9258C0/9927FDA6:AllModules:PT-1.0MM_TEST_1”.
-Info: Processing component “BL1:/5E924D33/AAFF44B7:10125623A00:BLIN-AWM”.
+Info: Processing component “BL1:/5E924D33/AAFF44B7:AllModules:BLIN-AWM”.
 Info: Change symbol path “ZM13:” to “/5EA87776”.
 Info: Processing component “BL2:/5E924D33/04E96AC4:AllModules:B2CAP-RB0505_1”.
-Info: Processing component “BL3:/5E924D33/6617CE3C:10125623A00:BLIN-AWM”.
+Info: Processing component “BL3:/5E924D33/6617CE3C:AllModules:BLIN-AWM”.
 Info: Processing component “ZM13:/5EA87776:AllModules:FIX30_1”.
 Info: Processing component “BL4:/5E924D33/2C3F9162:AllModules:B3CAP-RB0505_1”.
 Info: Processing component “BUZ1:/5E924756/A198C796:AllModules:HMB12_1”.
@@ -41,11 +41,13 @@ Info: Processing component “C32:/5E926050/FD532AD7:AllModules:C3216_1”.
 Info: Processing component “C33:/5E924110/C9502F30:AllModules:C0402_1”.
 Info: Processing component “C34:/5E926050/555B33A9:AllModules:C3216_1”.
 Info: Processing component “C35:/5E926050/31890B0B:AllModules:C0402_1”.
+Info: Change symbol path “ZM12:” to “/5EA85DF5”.
 Info: Processing component “C36:/5E923584/597E8BEF:AllModules:C0402_1”.
 Info: Processing component “C37:/5E924110/235E1F38:AllModules:C0402_1”.
 Info: Processing component “C38:/5E9258C0/897E4B72:AllModules:C0612-4_1”.
 Info: Processing component “C39:/5E924756/849D34A1:AllModules:C0603_1”.
 Info: Processing component “C40:/5E924D33/001A6BB2:AllModules:C0402_1”.
+Info: Processing component “ZM12:/5EA85DF5:AllModules:FIX30_1”.
 Info: Processing component “C41:/5E926050/25C7D5B9:AllModules:C0612-4_1”.
 Info: Processing component “C42:/5E924756/E64E96FA:AllModules:C0402_1”.
 Info: Processing component “C43:/5E924756/A25B9E4F:AllModules:C0603_1”.
@@ -54,6 +56,7 @@ Info: Processing component “C45:/5E924756/72A1248A:AllModules:C0603_1”.
 Info: Processing component “C46:/5E92540F/5EB01C7B:AllModules:C0805_1”.
 Info: Processing component “C47:/5E92540F/5EB01229:AllModules:C0402_1”.
 Info: Processing component “C48:/5E924D33/8B0D254A:AllModules:C0402_1”.
+Info: Change symbol path “ZM11:” to “/5EA85DEB”.
 Info: Processing component “C49:/5E924756/36DDF578:AllModules:C0402_1”.
 Info: Processing component “C50:/5E924756/38BC030E:AllModules:C0603_1”.
 Info: Processing component “C51:/5E923584/7614D321:AllModules:C0402_1”.
@@ -63,6 +66,7 @@ Info: Processing component “C54:/5E924756/B2D23927:AllModules:C0805_1”.
 Info: Processing component “C55:/5E926050/BAACCAAE:AllModules:C0612-4_1”.
 Info: Processing component “C56:/5E9258C0/A4E15BB6:AllModules:C0612-4_1”.
 Info: Processing component “C57:/5E924D33/676BBC9D:AllModules:C0402_1”.
+Info: Processing component “ZM11:/5EA85DEB:AllModules:FIX35_1_controller”.
 Info: Processing component “C58:/5E926050/6DB6649E:AllModules:C0612-4_1”.
 Info: Processing component “C59:/5E924D33/079CFDA5:AllModules:C0805_1”.
 Info: Processing component “C60:/5E924D33/74AE98EE:AllModules:C0402_1”.
@@ -115,10 +119,12 @@ Info: Processing component “C106:/5E92540F/F8977F3B:AllModules:C-SC8_1”.
 Info: Processing component “C107:/5E92540F/21969A4D:AllModules:C0402_1”.
 Info: Processing component “C108:/5E92540F/1DA7F1EB:AllModules:C6032_1”.
 Info: Processing component “C109:/5E924D33/FBCF1DE2:AllModules:C0402_1”.
+Info: Change symbol path “ZM10:” to “/5EA85DE1”.
 Info: Processing component “C110:/5E923584/662809D9:AllModules:C0402_1”.
 Info: Processing component “C111:/5E926050/C2212B5B:AllModules:C0612-4_1”.
 Info: Processing component “C112:/5E923584/C17297D4:AllModules:C0805_1”.
 Info: Processing component “C113:/5E924D33/8719094B:AllModules:C0402_1”.
+Info: Processing component “ZM10:/5EA85DE1:AllModules:FIX35_1_controller”.
 Info: Processing component “C114:/5E923584/9A495DAC:AllModules:C0805_1”.
 Info: Processing component “C115:/5E9258C0/D42B91C8:AllModules:C0402_1”.
 Info: Processing component “C116:/5E923584/150190AD:AllModules:C0402_1”.
@@ -133,13 +139,13 @@ Info: Processing component “C127:/5E9258C0/6407AC1D:AllModules:C0402_1”.
 Info: Processing component “C130:/5E9258C0/A2A653D3:AllModules:C0402_1”.
 Info: Processing component “C140:/5E924110/63F00A8C:AllModules:C0402_1”.
 Info: Processing component “CAM1:/5E9C1ED0:AllModules:A3_EQFS_COVIDIEN_1”.
-Info: Change symbol path “ZM12:” to “/5EA85DF5”.
+Info: Change symbol path “ZM9:” to “/5EA85DD7”.
 Info: Change symbol path “CAM1:” to “/5E9C1ED0”.
 Info: Processing component “CAM2:/5E9C238F:AllModules:A3_EQFC_COVIDIEN_1”.
-Info: Processing component “ZM12:/5EA85DF5:AllModules:FIX30_1”.
+Info: Processing component “ZM9:/5EA85DD7:AllModules:FIX35_1_controller”.
 Info: Change symbol path “CAM2:” to “/5E9C238F”.
 Info: Processing component “CAM3:/5E9C260F:AllModules:PER-COVIDIEN_TEXTE_1”.
-Info: Change symbol path “ZM11:” to “/5EA85DEB”.
+Info: Change symbol path “ZM8:” to “/5EA7E66D”.
 Info: Change symbol path “CAM3:” to “/5E9C260F”.
 Info: Processing component “D1:/5E923584/C78C3FBD:AllModules:SC70-5_1”.
 Info: Processing component “D2:/5E923584/0CADE672:AllModules:SC70-5_1”.
@@ -168,6 +174,7 @@ Info: Processing component “IC3:/5E923584/A6F2AB71:AllModules:TSOP2-44_1”.
 Info: Processing component “IC4:/5E923584/BB7ED445:AllModules:TQFP144_1”.
 Info: Processing component “IC5:/5E924110/E8297B24:AllModules:SC70-5_1”.
 Info: Processing component “IC6:/5E926050/BE050152:AllModules:SOT23-5_1”.
+Info: Processing component “ZM8:/5EA7E66D:AllModules:FIX35_1_controller”.
 Info: Processing component “IC7:/5E924110/270F9871:AllModules:TSOP48-ENT9.965_1”.
 Info: Processing component “IC8:/5E924110/45D38355:AllModules:SOT23-5_1”.
 Info: Processing component “IC9:/5E924110/5F7D4A82:AllModules:SOT23-5_1”.
@@ -177,11 +184,11 @@ Info: Change symbol path “IC11:/5E924756/D9B46218” to “/5E924756/D9B4621C�
 Info: Processing component “IC12:/5E924756/EEDDF45D:AllModules:MX.A8_COMPOSANT_1”.
 Info: Processing component “IC13:/5E924110/B5257A37:AllModules:TSOP48-ENT9.965_1”.
 Info: Processing component “IC14:/5E924110/6BA2D255:AllModules:SSOP48_1”.
-Info: Processing component “IC15:/5E924D33/90D2B56F:10125623A00:AWM3300V”.
-Info: Processing component “ZM11:/5EA85DEB:AllModules:FIX35_1_controller”.
+Info: Processing component “IC15:/5E924D33/90D2B56F:AllModules:AWM3300V”.
+Info: Change symbol path “ZM7:” to “/5EA7E663”.
 Info: Processing component “IC16:/5E924D33/9EF2916C:AllModules:ASDX001D44R_1”.
-Info: Processing component “IC17:/5E924D33/93EF86A4:10125623A00:AWM3300V”.
-Info: Change symbol path “ZM10:” to “/5EA85DE1”.
+Info: Processing component “IC17:/5E924D33/93EF86A4:AllModules:AWM3300V”.
+Info: Processing component “ZM7:/5EA7E663:AllModules:FIX35_1”.
 Info: Processing component “IC18:/5E924D33/CEEB9070:AllModules:ASDX001D44R_1”.
 Info: Processing component “IC19:/5E924D33/3DB6F2B4:AllModules:ASDX100D44R_1”.
 Info: Processing component “IC20:/5E926050/7427DFBC:AllModules:SOT23-5_1”.
@@ -192,20 +199,26 @@ Info: Processing component “IC24:/5E92540F/7AE97733:AllModules:SOT23-1G_1”.
 Info: Processing component “IC25:/5E92540F/6D5019AB:AllModules:SOT23-1G_1”.
 Info: Processing component “IC26:/5E92540F/694A8893:AllModules:DPAK_1”.
 Info: Processing component “IC27:/5E924D33/3A3F7DCF:AllModules:SQ276-05856_1”.
+Info: Change symbol path “ZM6:” to “/5EA7E659”.
 Info: Processing component “IC28:/5E924D33/9F4013D5:AllModules:SQ276-05856_1”.
+Info: Processing component “ZM6:/5EA7E659:AllModules:FIX35_1”.
 Info: Processing component “IC29:/5E92540F/408852E0:AllModules:SO08-PPAD_COMPOSANT_1”.
 Info: Processing component “IC30:/5E924D33/BCFB88DB:AllModules:SQ276-05856_1”.
+Info: Change symbol path “ZM5:” to “/5EA7E64F”.
 Info: Processing component “IC31:/5E924756/E249C229:AllModules:MX.A16_COMPOSANT_1”.
+Info: Processing component “ZM5:/5EA7E64F:AllModules:FIX35_1”.
 Info: Processing component “IC32:/5E924110/1703D4A9:AllModules:MX.A8_COMPOSANT_1”.
 Info: Processing component “IC33:/5E924D33/B100278E:AllModules:BSDX-A2_1”.
 Info: Processing component “IC34:/5E924D33/47725143:AllModules:SQ276-05856_1”.
+Info: Change symbol path “ZM4:” to “/5EA7DBE9”.
 Info: Processing component “IC35:/5E924D33/AFF057CF:AllModules:SQ276-05856_1”.
+Info: Processing component “ZM4:/5EA7DBE9:AllModules:FIX35_1_display”.
 Info: Processing component “IC36:/5E92540F/28D53763:AllModules:SOT23-1G_1”.
 Info: Processing component “IC37:/5E9258C0/629CAE50:AllModules:ARF7151A_1”.
 Info: Processing component “IC38:/5E924110/E1DA1C65:AllModules:SC70-5_1”.
 Info: Processing component “IC39:/5E924110/6BD6C1A1:AllModules:SC70-5_1”.
 Info: Processing component “IC40:/5E923584/15424B03:AllModules:MX.A20_COMPOSANT_1”.
-Info: Processing component “ZM10:/5EA85DE1:AllModules:FIX35_1_controller”.
+Info: Change symbol path “ZM3:” to “/5EA7DBDF”.
 Info: Processing component “IC41:/5E923584/3D34EBB1:AllModules:SC70-5_1”.
 Info: Processing component “IC42:/5E923584/28A53036:AllModules:SC70-5_1”.
 Info: Processing component “IC43:/5E923584/6E981591:AllModules:SC70-5_1”.
@@ -216,6 +229,7 @@ Info: Processing component “J3:/5E926050/7D94D0D3:AllModules:B12BZR-SM3TF_1”
 Info: Processing component “J4:/5E9258C0/FA7CA15B:AllModules:BP2X5C_1”.
 Info: Processing component “J5:/5E9258C0/7C49DE93:AllModules:B2BZR-SM3TF_1”.
 Info: Processing component “J6:/5E926050/C649B669:AllModules:SPO2-16_1”.
+Info: Processing component “ZM3:/5EA7DBDF:AllModules:FIX35_1_display”.
 Info: Processing component “J7:/5E926050/916830BC:AllModules:BP2X13C_1”.
 Info: Processing component “J11:/5E9258C0/54BD1E4C:AllModules:B3BZR-SM3TF_1”.
 Info: Processing component “J17:/5E926050/E8FF25C4:AllModules:AMP177983-40_1”.
@@ -228,12 +242,13 @@ Info: Processing component “JP2:/5E924D33/BAFA783C:AllModules:R0603_1”.
 Info: Processing component “JP3:/5E924D33/8182258E:AllModules:R0603_1”.
 Info: Processing component “JP4:/5E924D33/193933AB:AllModules:R0603_1”.
 Info: Processing component “JP5:/5E924110/056852D9:AllModules:R0603_1”.
+Info: Change symbol path “ZM2:” to “/5EA7D06E”.
 Info: Processing component “JP6:/5E924110/A21E5090:AllModules:R0603_1”.
 Info: Processing component “JP7:/5E923584/ADC4B3B7:AllModules:R0603_1”.
 Info: Processing component “JP8:/5E923584/357D3C8D:AllModules:R0603_1”.
 Info: Processing component “JP9:/5E92540F/C8B46213:AllModules:R0603_1”.
-Info: Processing component “JPL1:/5E923584/BCD438C6:10125623A00:LIAISONS_MASSES”.
-Info: Change symbol path “ZM9:” to “/5EA85DD7”.
+Info: Processing component “JPL1:/5E923584/BCD438C6:AllModules:C12000_0”.
+Info: Processing component “ZM2:/5EA7D06E:AllModules:FIX35_1_display”.
 Info: Processing component “L1:/5E926050/63106439:AllModules:C0603_1”.
 Info: Processing component “L2:/5E92540F/86B7B564:AllModules:WE-PD4_1”.
 Info: Processing component “L3:/5E926050/5E88F353:AllModules:C0603_1”.
@@ -247,6 +262,7 @@ Info: Processing component “L10:/5E9258C0/0E380C20:AllModules:C0603_1”.
 Info: Processing component “L11:/5E9258C0/0A232DEA:AllModules:RC1206_1”.
 Info: Processing component “L12:/5E9258C0/9CA3DB02:AllModules:C0603_1”.
 Info: Processing component “L13:/5E9258C0/4AF5E44F:AllModules:C0603_1”.
+Info: Change symbol path “ZM1:” to “/5EA72855”.
 Info: Processing component “L14:/5E9258C0/1FFF9411:AllModules:C0603_1”.
 Info: Processing component “L15:/5E9258C0/3DD13E20:AllModules:C0603_1”.
 Info: Processing component “L16:/5E926050/3E1ECFE2:AllModules:C0603_1”.
@@ -270,11 +286,16 @@ Info: Processing component “L33:/5E9258C0/0382B5B7:AllModules:C0603_1”.
 Info: Processing component “L34:/5E9258C0/04EF688F:AllModules:C0603_1”.
 Info: Processing component “L35:/5E926050/3EE6CC19:AllModules:C0603_1”.
 Info: Processing component “L36:/5E926050/99D0EAD2:AllModules:C0603_1”.
+Info: Processing component “ZM1:/5EA72855:AllModules:FIX35_1_display”.
 Info: Processing component “L37:/5E9258C0/A9F7421E:AllModules:C0603_1”.
 Info: Processing component “L38:/5E926050/FD4FC626:AllModules:C0603_1”.
+Info: Change symbol path “ZC106:” to “/5E92540F/5EA53F33”.
 Info: Processing component “L39:/5E926050/37C2E7A2:AllModules:C0603_1”.
+Info: Processing component “ZC106:/5E92540F/5EA53F33:AllModules:03512_1”.
 Info: Processing component “L40:/5E926050/D8418348:AllModules:C0603_1”.
+Info: Change symbol path “ZC21:” to “/5E92540F/5EA4EF1D”.
 Info: Processing component “L41:/5E926050/D7B52F8F:AllModules:C0603_1”.
+Info: Processing component “ZC21:/5E92540F/5EA4EF1D:AllModules:03513_1”.
 Info: Processing component “L42:/5E926050/68BA90A5:AllModules:C0603_1”.
 Info: Processing component “L43:/5E926050/B8451C4A:AllModules:C0603_1”.
 Info: Processing component “L44:/5E926050/C8827D52:AllModules:C0603_1”.
@@ -289,16 +310,16 @@ Info: Processing component “L52:/5E926050/5D3B4218:AllModules:C0603_1”.
 Info: Processing component “L53:/5E926050/983C8A5F:AllModules:C0603_1”.
 Info: Processing component “L61:/5E926050/D3E71165:AllModules:RC1206_1”.
 Info: Processing component “MIR1:/5E9BC652:AllModules:MIRECMS_D-1.5_1”.
-Info: Processing component “ZM9:/5EA85DD7:AllModules:FIX35_1_controller”.
+Info: Processing component “V2:/5E924756/F1FC2759:AllModules:S142.0011-SANS-FIX_1”.
 Info: Change symbol path “MIR1:” to “/5E9BC652”.
 Info: Processing component “MIR2:/5E9BE4E3:AllModules:MIRECMS_D-1.5_1”.
-Info: Change symbol path “ZM8:” to “/5EA7E66D”.
+Info: Processing component “T21:/5E924756/2CDC58F9:AllModules:SOT23-GSD_1”.
 Info: Change symbol path “MIR2:” to “/5E9BE4E3”.
 Info: Processing component “MIR3:/5E9BE6CC:AllModules:MIRECMS_D-1.5_1”.
-Info: Processing component “ZM8:/5EA7E66D:AllModules:FIX35_1_controller”.
+Info: Processing component “T20:/5E924756/71F1869B:AllModules:SOT23-GSD_1”.
 Info: Change symbol path “MIR3:” to “/5E9BE6CC”.
 Info: Processing component “MIR4:/5E9BE945:AllModules:MIRECMS_D-1.5_1”.
-Info: Change symbol path “ZM7:” to “/5EA7E663”.
+Info: Processing component “T19:/5E9258C0/EE28C6DF:AllModules:SOT23-GSD_1”.
 Info: Change symbol path “MIR4:” to “/5E9BE945”.
 Info: Processing component “PST1:/5E923584/368C0019:AllModules:PT-1.0MM_TEST_1”.
 Info: Processing component “PST3:/5E923584/AD296153:AllModules:PT-1.0MM_TEST_1”.
@@ -309,6 +330,7 @@ Info: Processing component “PT2:/5E923584/D711CC1B:AllModules:C12000_1”.
 Info: Processing component “Q1:/5E923584/F8782F37:AllModules:HC49-4HSMX_1”.
 Info: Processing component “Q2:/5E924110/53ABB1EB:AllModules:HC49-4HSMX_1”.
 Info: Processing component “Q3:/5E924756/7ABFF94E:AllModules:85SMX_1”.
+Info: Processing component “T17:/5E9258C0/E3A7CA7E:AllModules:SOT23-GSD_1”.
 Info: Processing component “Q5:/5E924756/4396189E:AllModules:85SMX_1”.
 Info: Processing component “R1:/5E923584/E6C7F8B8:AllModules:R0603_1”.
 Info: Processing component “R2:/5E924110/986554BD:AllModules:R0603_1”.
@@ -340,6 +362,7 @@ Info: Processing component “R27:/5E926050/4A61E0AF:AllModules:R0805_1”.
 Info: Processing component “R28:/5E924756/29F9BCC2:AllModules:R0603_1”.
 Info: Processing component “R29:/5E924756/437CF36C:AllModules:R0603_1”.
 Info: Processing component “R30:/5E926050/A2E2AA66:AllModules:R0603_1”.
+Info: Processing component “T16:/5E926050/0F564599:AllModules:SOT23-GSD_1”.
 Info: Processing component “R31:/5E926050/63ABC06C:AllModules:R0805_1”.
 Info: Processing component “R32:/5E926050/2A092FBD:AllModules:R0603_1”.
 Info: Processing component “R33:/5E924D33/05E5179D:AllModules:R0603_1”.
@@ -357,6 +380,7 @@ Info: Processing component “R44:/5E92540F/84674E91:AllModules:R0805_1”.
 Info: Processing component “R45:/5E923584/C18C78EC:AllModules:R0603_1”.
 Info: Processing component “R46:/5E923584/CBBF32AF:AllModules:R0603_1”.
 Info: Processing component “R47:/5E926050/65CD8F11:AllModules:R0603_1”.
+Info: Processing component “T14:/5E924756/B63BD651:AllModules:SOT23-GSD_1”.
 Info: Processing component “R48:/5E9258C0/19AB9E8C:AllModules:R0603_1”.
 Info: Processing component “R49:/5E9258C0/8EE7C6AB:AllModules:R0603_1”.
 Info: Processing component “R51:/5E924D33/C00D2805:AllModules:R0603_1”.
@@ -376,6 +400,7 @@ Info: Processing component “R66:/5E92540F/DA816598:AllModules:R0805_1”.
 Info: Processing component “R67:/5E92540F/2547CA40:AllModules:R0805_1”.
 Info: Processing component “R68:/5E9258C0/49CDDF81:AllModules:R0603_1”.
 Info: Processing component “R69:/5E9258C0/E29E9980:AllModules:R0603_1”.
+Info: Processing component “T12:/5E92540F/28298AA4:AllModules:SOT223_1”.
 Info: Processing component “R70:/5E9258C0/AC81A314:AllModules:R0603_1”.
 Info: Processing component “R71:/5E92540F/58DA2A05:AllModules:R0603_1”.
 Info: Processing component “R72:/5E923584/CEF2471C:AllModules:R0603_1”.
@@ -399,57 +424,57 @@ Info: Processing component “T8:/5E926050/39E804CC:AllModules:SOT23-GSD_1”.
 Info: Processing component “T9:/5E926050/7B8E4CC8:AllModules:SOT23-GSD_1”.
 Info: Processing component “T10:/5E92540F/97227110:AllModules:SOT223_1”.
 Info: Processing component “T11:/5E92540F/64295267:AllModules:SOT223_1”.
-Info: Processing component “T12:/5E92540F/28298AA4:AllModules:SOT223_1”.
-Info: Processing component “T14:/5E924756/B63BD651:AllModules:SOT23-GSD_1”.
-Info: Processing component “T16:/5E926050/0F564599:AllModules:SOT23-GSD_1”.
-Info: Processing component “T17:/5E9258C0/E3A7CA7E:AllModules:SOT23-GSD_1”.
-Info: Processing component “T19:/5E9258C0/EE28C6DF:AllModules:SOT23-GSD_1”.
-Info: Processing component “T20:/5E924756/71F1869B:AllModules:SOT23-GSD_1”.
-Info: Processing component “T21:/5E924756/2CDC58F9:AllModules:SOT23-GSD_1”.
-Info: Processing component “V2:/5E924756/F1FC2759:AllModules:S142.0011-SANS-FIX_1”.
-Info: Processing component “ZC21:/5E92540F/5EA4EF1D:AllModules:03513_1”.
-Info: Processing component “ZM7:/5EA7E663:AllModules:FIX35_1”.
-Info: Change symbol path “ZC21:” to “/5E92540F/5EA4EF1D”.
-Info: Processing component “ZC106:/5E92540F/5EA53F33:AllModules:03512_1”.
-Info: Change symbol path “ZM6:” to “/5EA7E659”.
-Info: Change symbol path “ZC106:” to “/5E92540F/5EA53F33”.
-Info: Processing component “ZM1:/5EA72855:AllModules:FIX35_1_display”.
-Info: Processing component “ZM6:/5EA7E659:AllModules:FIX35_1”.
-Info: Change symbol path “ZM1:” to “/5EA72855”.
-Info: Processing component “ZM2:/5EA7D06E:AllModules:FIX35_1_display”.
-Info: Change symbol path “ZM5:” to “/5EA7E64F”.
-Info: Change symbol path “ZM2:” to “/5EA7D06E”.
-Info: Processing component “ZM3:/5EA7DBDF:AllModules:FIX35_1_display”.
-Info: Processing component “ZM5:/5EA7E64F:AllModules:FIX35_1”.
-Info: Change symbol path “ZM3:” to “/5EA7DBDF”.
-Info: Processing component “ZM4:/5EA7DBE9:AllModules:FIX35_1_display”.
-Info: Change symbol path “ZM4:” to “/5EA7DBE9”.
-Change ZM4 value from FIX-0035 to MountingHole.
-Change ZM3 value from FIX-0035 to MountingHole.
-Change ZM5 value from FIX-0035 to MountingHole.
-Change ZM2 value from FIX-0035 to MountingHole.
-Change ZM1 value from FIX-0035 to MountingHole.
-Change ZM6 value from FIX-0035 to MountingHole.
-Change ZC106 value from C-BTP-801 to 220uF.
-Change ZC21 value from C-BTP-802 to 100uF.
-Change ZM7 value from FIX-0035 to MountingHole.
+Change R69 value from 0 to 0R.
+Change R47 value from 10k to DNP.
+Change R30 value from 0 to DNP.
+Change T16 value from IRLML5103 to DNP.
+Change Q3 value from 32,768KHz to DNP.
 Change MIR4 value from MIRECMS to Fiducial.
 Change MIR3 value from MIRECMS to Fiducial.
-Change ZM8 value from FIX-0035 to MountingHole.
 Change MIR2 value from MIRECMS to Fiducial.
 Change MIR1 value from MIRECMS to Fiducial.
-Change ZM9 value from FIX-0035 to MountingHole.
-Change ZM13 value from FIX-0030 to SmallHole.
+Change L41 value from Ferrite 200mA to DNP.
+Change ZC21 value from C-BTP-802 to 100uF.
+Change L40 value from Ferrite 200mA to DNP.
+Change L39 value from Ferrite 200mA to DNP.
+Change ZC106 value from C-BTP-801 to 220uF.
+Change L38 value from Ferrite 200mA to DNP.
+Change L36 value from Ferrite 200mA to DNP.
+Change ZM1 value from FIX-0035 to MountingHole.
+Change L13 value from   to DNP.
+Add JPL1 (footprint “AllModules:C12000_0”).
+Change ZM2 value from FIX-0035 to MountingHole.
+Change JP5 value from JUMP_0U to DNP.
+Change J6 value from 87606-408 to DNP.
+Change ZM3 value from FIX-0035 to MountingHole.
 Reconnect IC40 pin 15 from /LED_PRESENCE_LED to /LED_PRESENCE_AC.
-Change ZM10 value from FIX-0035 to MountingHole.
-Change CAM1 value from A3_EQFS_COVIDIEN to Fiducial.
-Change ZM12 value from FIX-0030 to SmallHole.
-Change ZM11 value from FIX-0035 to MountingHole.
+Change IC35 value from SQ276 to DNP.
+Change ZM4 value from FIX-0035 to MountingHole.
+Change IC34 value from SQ276 to DNP.
+Change IC31 value from M41T94MQ6E to DNP.
+Change ZM5 value from FIX-0035 to MountingHole.
+Change IC30 value from SQ276 to DNP.
+Change IC28 value from SQ276 to DNP.
+Change ZM6 value from FIX-0035 to MountingHole.
+Change IC27 value from SQ276 to DNP.
+Add IC17 (footprint “AllModules:AWM3300V”).
+Change ZM7 value from FIX-0035 to MountingHole.
+Add IC15 (footprint “AllModules:AWM3300V”).
+Change IC6 value from SN74LVC1G07DBVT to DNP.
+Change ZM8 value from FIX-0035 to MountingHole.
 Change CAM3 value from PER-COVIDIEN_TEXTE to Fiducial.
 Change CAM2 value from A3_EQFC_COVIDIEN to Fiducial.
-Warning: Copper zone (+3.3V) has no pads connected.
-Error: Cannot add IC15 (footprint “10125623A00:AWM3300V” not found).
-Error: Cannot add IC17 (footprint “10125623A00:AWM3300V” not found).
-Error: Cannot add BL3 (footprint “10125623A00:BLIN-AWM” not found).
-Error: Cannot add JPL1 (footprint “10125623A00:LIAISONS_MASSES” not found).
-Error: Cannot add BL1 (footprint “10125623A00:BLIN-AWM” not found).
+Change ZM9 value from FIX-0035 to MountingHole.
+Change CAM1 value from A3_EQFS_COVIDIEN to Fiducial.
+Change C113 value from 100nF to DNP.
+Change ZM10 value from FIX-0035 to MountingHole.
+Change C109 value from 100nF to DNP.
+Change C57 value from 100nF to DNP.
+Change ZM11 value from FIX-0035 to MountingHole.
+Change C48 value from 100nF to DNP.
+Change C40 value from 100nF to DNP.
+Change ZM12 value from FIX-0030 to SmallHole.
+Change C35 value from 100nF to DNP.
+Add BL3 (footprint “AllModules:BLIN-AWM”).
+Change ZM13 value from FIX-0030 to SmallHole.
+Add BL1 (footprint “AllModules:BLIN-AWM”).

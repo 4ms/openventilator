@@ -493,7 +493,7 @@ F 9 "5015" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM1
+L V_Mechanical:Fiducial CAM1
 U 1 1 5E9EFCDE
 P 2700 6400
 F 0 "CAM1" H 2785 6400 50  0000 L CNN
@@ -504,7 +504,7 @@ F 3 "~" H 2700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM2
+L V_Mechanical:Fiducial CAM2
 U 1 1 5E9F043D
 P 2700 6550
 F 0 "CAM2" H 2785 6550 50  0000 L CNN
@@ -515,7 +515,7 @@ F 3 "~" H 2700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM3
+L V_Mechanical:Fiducial CAM3
 U 1 1 5E9F1828
 P 2700 6700
 F 0 "CAM3" H 2785 6700 50  0000 L CNN
@@ -526,7 +526,7 @@ F 3 "~" H 2700 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM4
+L V_Mechanical:Fiducial CAM4
 U 1 1 5E9F1832
 P 2700 6850
 F 0 "CAM4" H 2785 6850 50  0000 L CNN
@@ -537,7 +537,7 @@ F 3 "~" H 2700 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM6
+L V_Mechanical:Fiducial CAM6
 U 1 1 5E9F54AD
 P 2700 7150
 F 0 "CAM6" H 2785 7150 50  0000 L CNN
@@ -548,7 +548,7 @@ F 3 "~" H 2700 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM7
+L V_Mechanical:Fiducial CAM7
 U 1 1 5E9F54B7
 P 2700 7300
 F 0 "CAM7" H 2785 7300 50  0000 L CNN
@@ -559,7 +559,7 @@ F 3 "~" H 2700 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM8
+L V_Mechanical:Fiducial CAM8
 U 1 1 5E9F54C1
 P 2700 7450
 F 0 "CAM8" H 2785 7450 50  0000 L CNN
@@ -570,7 +570,7 @@ F 3 "~" H 2700 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM9
+L V_Mechanical:Fiducial CAM9
 U 1 1 5E9FC9D9
 P 3150 6400
 F 0 "CAM9" H 3235 6400 50  0000 L CNN
@@ -581,7 +581,7 @@ F 3 "~" H 3150 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM10
+L V_Mechanical:Fiducial CAM10
 U 1 1 5E9FC9E3
 P 3150 6550
 F 0 "CAM10" H 3235 6550 50  0000 L CNN
@@ -592,7 +592,7 @@ F 3 "~" H 3150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM11
+L V_Mechanical:Fiducial CAM11
 U 1 1 5E9FC9ED
 P 3150 6700
 F 0 "CAM11" H 3235 6700 50  0000 L CNN
@@ -603,7 +603,7 @@ F 3 "~" H 3150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM12
+L V_Mechanical:Fiducial CAM12
 U 1 1 5E9FC9F7
 P 3150 6850
 F 0 "CAM12" H 3235 6850 50  0000 L CNN
@@ -614,7 +614,7 @@ F 3 "~" H 3150 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM14
+L V_Mechanical:Fiducial CAM14
 U 1 1 5E9FCA0B
 P 3150 7150
 F 0 "CAM14" H 3235 7150 50  0000 L CNN
@@ -625,7 +625,7 @@ F 3 "~" H 3150 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM16
+L V_Mechanical:Fiducial CAM16
 U 1 1 5E9FCA1F
 P 3150 7450
 F 0 "CAM16" H 3235 7450 50  0000 L CNN
