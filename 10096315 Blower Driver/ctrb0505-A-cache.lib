@@ -1,11 +1,57 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Capacitor_C0603_10nF_50V_10%
+# Mechanical_Fiducial
 #
-DEF Capacitor_C0603_10nF_50V_10% C 0 10 N Y 1 F N
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V_Capacitor_C0603_10nF_50V_10%
+#
+DEF V_Capacitor_C0603_10nF_50V_10% C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Capacitor_C0603_10nF_50V_10%" 25 -100 50 H V L CNN
+F1 "V_Capacitor_C0603_10nF_50V_10%" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022508" 400 50 50 H I L CNN "Item Number"
@@ -29,11 +75,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C0603_2n2F_50V_10%
+# V_Capacitor_C0603_2n2F_50V_10%
 #
-DEF Capacitor_C0603_2n2F_50V_10% C 0 40 N Y 1 F N
+DEF V_Capacitor_C0603_2n2F_50V_10% C 0 40 N Y 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C0603_2n2F_50V_10%" 0 450 50 H I C CNN
+F1 "V_Capacitor_C0603_2n2F_50V_10%" 0 450 50 H I C CNN
 F2 "Capacitors_SMD:C_0603" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10022507" 400 50 50 H I L CNN "Item Number"
@@ -52,11 +98,11 @@ X ~ 2 0 150 110 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C0612_47pF_50V_10%
+# V_Capacitor_C0612_47pF_50V_10%
 #
-DEF Capacitor_C0612_47pF_50V_10% C 0 40 N Y 1 F N
+DEF V_Capacitor_C0612_47pF_50V_10% C 0 40 N Y 1 F N
 F0 "C" -500 150 50 H V C CNN
-F1 "Capacitor_C0612_47pF_50V_10%" -50 500 50 H I C CNN
+F1 "V_Capacitor_C0612_47pF_50V_10%" -50 500 50 H I C CNN
 F2 "" 100 0 50 H I C CNN
 F3 "" 100 0 50 H I C CNN
 F4 "10095973" 475 50 50 H I L CNN "Item Number"
@@ -86,11 +132,11 @@ X ~ 8 -300 150 110 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C0805_100nF_50V_10%
+# V_Capacitor_C0805_100nF_50V_10%
 #
-DEF Capacitor_C0805_100nF_50V_10% C 0 10 N Y 1 F N
+DEF V_Capacitor_C0805_100nF_50V_10% C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Capacitor_C0805_100nF_50V_10%" 25 -100 50 H V L CNN
+F1 "V_Capacitor_C0805_100nF_50V_10%" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022135" 400 50 50 H I L CNN "Item Number"
@@ -118,11 +164,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C0805_330nF_16V_10%
+# V_Capacitor_C0805_330nF_16V_10%
 #
-DEF Capacitor_C0805_330nF_16V_10% C 0 10 N Y 1 F N
+DEF V_Capacitor_C0805_330nF_16V_10% C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Capacitor_C0805_330nF_16V_10%" 25 -100 50 H V L CNN
+F1 "V_Capacitor_C0805_330nF_16V_10%" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022510" 400 50 50 H I L CNN "Item Number"
@@ -148,11 +194,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C1206_220nF_50V_10%
+# V_Capacitor_C1206_220nF_50V_10%
 #
-DEF Capacitor_C1206_220nF_50V_10% C 0 40 N Y 1 F N
+DEF V_Capacitor_C1206_220nF_50V_10% C 0 40 N Y 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C1206_220nF_50V_10%" 0 450 50 H I C CNN
+F1 "V_Capacitor_C1206_220nF_50V_10%" 0 450 50 H I C CNN
 F2 "Capacitors_SMD:C_1206" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10022509" 400 50 50 H I L CNN "Item Number"
@@ -173,11 +219,11 @@ X ~ 2 0 150 110 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C_1000uF_20%
+# V_Capacitor_C_1000uF_20%
 #
-DEF Capacitor_C_1000uF_20% C 0 40 N N 1 F N
+DEF V_Capacitor_C_1000uF_20% C 0 40 N N 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C_1000uF_20%" 0 450 50 H I C CNN
+F1 "V_Capacitor_C_1000uF_20%" 0 450 50 H I C CNN
 F2 "10096315 Blower Driver:HT-13X27" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10095974" 400 50 50 H I L CNN "Item Number"
@@ -194,11 +240,11 @@ X ~ - 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C_100uF_20%
+# V_Capacitor_C_100uF_20%
 #
-DEF Capacitor_C_100uF_20% C 0 40 N Y 1 F N
+DEF V_Capacitor_C_100uF_20% C 0 40 N Y 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C_100uF_20%" 0 450 50 H I C CNN
+F1 "V_Capacitor_C_100uF_20%" 0 450 50 H I C CNN
 F2 "" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10022506" 400 50 50 H I L CNN "Item Number"
@@ -215,11 +261,11 @@ X ~ - 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C_100uF_50V_20%_SMD
+# V_Capacitor_C_100uF_50V_20%_SMD
 #
-DEF Capacitor_C_100uF_50V_20%_SMD C 0 40 N N 1 F N
+DEF V_Capacitor_C_100uF_50V_20%_SMD C 0 40 N N 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C_100uF_50V_20%_SMD" 0 450 50 H I C CNN
+F1 "V_Capacitor_C_100uF_50V_20%_SMD" 0 450 50 H I C CNN
 F2 "Capacitors_SMD:CP_Elec_8x10" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10022506" 400 50 50 H I L CNN "Item Number"
@@ -236,11 +282,11 @@ X ~ - 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C_22uF_10%
+# V_Capacitor_C_22uF_10%
 #
-DEF Capacitor_C_22uF_10% C 0 40 N Y 1 F N
+DEF V_Capacitor_C_22uF_10% C 0 40 N Y 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C_22uF_10%" 0 450 50 H I C CNN
+F1 "V_Capacitor_C_22uF_10%" 0 450 50 H I C CNN
 F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-X_EIA-7343-43_Reflow" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10022561" 400 50 50 H I L CNN "Item Number"
@@ -261,11 +307,11 @@ X ~ - 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitor_C_470uF_20%_10095969
+# V_Capacitor_C_470uF_20%_10095969
 #
-DEF Capacitor_C_470uF_20%_10095969 C 0 40 N Y 1 F N
+DEF V_Capacitor_C_470uF_20%_10095969 C 0 40 N Y 1 F N
 F0 "C" -200 50 50 H V C CNN
-F1 "Capacitor_C_470uF_20%_10095969" 0 450 50 H I C CNN
+F1 "V_Capacitor_C_470uF_20%_10095969" 0 450 50 H I C CNN
 F2 "Capacitors_SMD:CP_Elec_10x10" 50 -450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 F4 "10095969" 400 50 50 H I L CNN "Item Number"
@@ -284,11 +330,11 @@ X ~ - 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_10pinConnector
+# V_Connector_10pinConnector
 #
-DEF Connector_10pinConnector J 0 40 Y Y 1 F N
+DEF V_Connector_10pinConnector J 0 40 Y Y 1 F N
 F0 "J" 350 450 50 H V C CNN
-F1 "Connector_10pinConnector" 50 600 50 H V C CNN
+F1 "V_Connector_10pinConnector" 50 600 50 H V C CNN
 F2 "" 50 500 50 H I C CNN
 F3 "" 50 500 50 H I C CNN
 F4 "10052305" 400 50 50 H I L CNN "Item Number"
@@ -310,11 +356,11 @@ X ~ 9 50 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_2pinConnector
+# V_Connector_2pinConnector
 #
-DEF Connector_2pinConnector J 0 40 Y Y 1 F N
+DEF V_Connector_2pinConnector J 0 40 Y Y 1 F N
 F0 "J" 350 200 50 H V C CNN
-F1 "Connector_2pinConnector" 50 350 50 H V C CNN
+F1 "V_Connector_2pinConnector" 50 350 50 H V C CNN
 F2 "" 50 250 50 H I C CNN
 F3 "" 50 250 50 H I C CNN
 F4 "10022542" 400 50 50 H I L CNN "Item Number"
@@ -330,11 +376,11 @@ X ~ 2 50 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_2pinConnector_Power
+# V_Connector_2pinConnector_Power
 #
-DEF Connector_2pinConnector_Power J 0 40 Y Y 1 F N
+DEF V_Connector_2pinConnector_Power J 0 40 Y Y 1 F N
 F0 "J" -300 -50 50 H V C CNN
-F1 "Connector_2pinConnector_Power" 0 100 50 H V C CNN
+F1 "V_Connector_2pinConnector_Power" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022538" 400 50 50 H I L CNN "Item Number"
@@ -350,11 +396,11 @@ X ~ 2 50 -150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_2pinConnector_Power_MiniFit
+# V_Connector_2pinConnector_Power_MiniFit
 #
-DEF Connector_2pinConnector_Power_MiniFit J 0 40 Y Y 1 F N
+DEF V_Connector_2pinConnector_Power_MiniFit J 0 40 Y Y 1 F N
 F0 "J" -300 -50 50 H V C CNN
-F1 "Connector_2pinConnector_Power_MiniFit" 0 100 50 H V C CNN
+F1 "V_Connector_2pinConnector_Power_MiniFit" 0 100 50 H V C CNN
 F2 "AllModules:MOL5566-2_1" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 " CONN HEADER VERT 2 CONTACTS Mini Fit Jr  5.5PIN PITCH" 400 -10 50 H I L CNN "Description"
@@ -369,11 +415,11 @@ X ~ 2 50 -150 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_8pinConnector
+# V_Connector_8pinConnector
 #
-DEF Connector_8pinConnector J 0 40 Y Y 1 F N
+DEF V_Connector_8pinConnector J 0 40 Y Y 1 F N
 F0 "J" 350 450 50 H V C CNN
-F1 "Connector_8pinConnector" 50 600 50 H V C CNN
+F1 "V_Connector_8pinConnector" 50 600 50 H V C CNN
 F2 "" 50 500 50 H I C CNN
 F3 "" 50 500 50 H I C CNN
 F4 "10022543" 400 50 50 H I L CNN "Item Number"
@@ -401,11 +447,11 @@ X ~ 8 50 350 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_9pinConnector_Unpopulated
+# V_Connector_9pinConnector_Unpopulated
 #
-DEF Connector_9pinConnector_Unpopulated J 0 40 Y Y 1 F N
+DEF V_Connector_9pinConnector_Unpopulated J 0 40 Y Y 1 F N
 F0 "J" 350 450 50 H V C CNN
-F1 "Connector_9pinConnector_Unpopulated" 50 600 50 H V C CNN
+F1 "V_Connector_9pinConnector_Unpopulated" 50 600 50 H V C CNN
 F2 "10096315 Blower Driver:MOL7395-9" 50 500 50 H I C CNN
 F3 "" 50 500 50 H I C CNN
 F4 "0022057098" -50 400 50 H V C CNN "MPN"
@@ -432,11 +478,11 @@ X ~ 9 50 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_JumperBypass
+# V_Connector_JumperBypass
 #
-DEF Connector_JumperBypass JP 0 40 Y Y 1 F N
+DEF V_Connector_JumperBypass JP 0 40 Y Y 1 F N
 F0 "JP" 200 100 50 H V C CNN
-F1 "Connector_JumperBypass" -50 650 50 H V C CNN
+F1 "V_Connector_JumperBypass" -50 650 50 H V C CNN
 F2 "" 0 500 50 H I C CNN
 F3 "" 0 500 50 H I C CNN
 F4 "10022541" 400 50 50 H I L CNN "Item Number"
@@ -452,11 +498,11 @@ X ~ 2 0 300 165 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_LIAISON_MASSES
+# V_Connector_LIAISON_MASSES
 #
-DEF Connector_LIAISON_MASSES JPL 0 40 Y Y 1 L N
+DEF V_Connector_LIAISON_MASSES JPL 0 40 Y Y 1 L N
 F0 "JPL" -50 100 50 H I C CNN
-F1 "Connector_LIAISON_MASSES" 0 -100 50 H I C CNN
+F1 "V_Connector_LIAISON_MASSES" 0 -100 50 H I C CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -467,11 +513,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Connector_TestPoint
+# V_Connector_TestPoint
 #
-DEF Connector_TestPoint TP 0 30 N N 1 F N
+DEF V_Connector_TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F1 "V_Connector_TestPoint" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "10022924" 400 50 50 H I L CNN "Item Number"
@@ -490,11 +536,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_DiodeSchottky
+# V_Diode_DiodeSchottky
 #
-DEF Diode_DiodeSchottky D 0 40 Y Y 1 F N
+DEF V_Diode_DiodeSchottky D 0 40 Y Y 1 F N
 F0 "D" -300 150 50 H V C CNN
-F1 "Diode_DiodeSchottky" 0 350 50 H I C CNN
+F1 "V_Diode_DiodeSchottky" 0 350 50 H I C CNN
 F2 "Diodes_SMD:D_SOD-323" 50 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 F4 "10022515" 400 50 50 H I L CNN "Item Number"
@@ -512,11 +558,11 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_DiodeSchottkyParallelPair
+# V_Diode_DiodeSchottkyParallelPair
 #
-DEF Diode_DiodeSchottkyParallelPair D 0 40 Y Y 1 F N
+DEF V_Diode_DiodeSchottkyParallelPair D 0 40 Y Y 1 F N
 F0 "D" -300 200 50 H V C CNN
-F1 "Diode_DiodeSchottkyParallelPair" 50 400 50 H I C CNN
+F1 "V_Diode_DiodeSchottkyParallelPair" 50 400 50 H I C CNN
 F2 "TO_SOT_Packages_SMD:TO-252-2" -200 -250 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 F4 "10022519" 400 50 50 H I L CNN "Item Number"
@@ -538,11 +584,11 @@ X ~ K 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_DiodeSchottkySeriesPair
+# V_Diode_DiodeSchottkySeriesPair
 #
-DEF Diode_DiodeSchottkySeriesPair D 0 40 Y Y 1 F N
+DEF V_Diode_DiodeSchottkySeriesPair D 0 40 Y Y 1 F N
 F0 "D" -200 150 50 H V C CNN
-F1 "Diode_DiodeSchottkySeriesPair" 0 500 50 H I C CNN
+F1 "V_Diode_DiodeSchottkySeriesPair" 0 500 50 H I C CNN
 F2 "TO_SOT_Packages_SMD:SOT-323_SC-70" 50 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022518" 400 50 50 H I L CNN "Item Number"
@@ -570,11 +616,11 @@ X ~ 3 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_DiodeZener_200V
+# V_Diode_DiodeZener_200V
 #
-DEF Diode_DiodeZener_200V Z 0 40 Y Y 1 F N
+DEF V_Diode_DiodeZener_200V Z 0 40 Y Y 1 F N
 F0 "Z" -300 100 50 H V C CNN
-F1 "Diode_DiodeZener_200V" 0 250 50 H I C CNN
+F1 "V_Diode_DiodeZener_200V" 0 250 50 H I C CNN
 F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 F4 "10022562" 400 50 50 H I L CNN "Item Number"
@@ -594,11 +640,11 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_DiodeZener_30V_10022514
+# V_Diode_DiodeZener_30V_10022514
 #
-DEF Diode_DiodeZener_30V_10022514 Z 0 40 Y Y 1 F N
+DEF V_Diode_DiodeZener_30V_10022514 Z 0 40 Y Y 1 F N
 F0 "Z" -300 100 50 H V C CNN
-F1 "Diode_DiodeZener_30V_10022514" 0 250 50 H I C CNN
+F1 "V_Diode_DiodeZener_30V_10022514" 0 250 50 H I C CNN
 F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 F4 "10022514" 400 50 50 H I L CNN "Item Number"
@@ -624,11 +670,11 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_DiodeZener_30V_10022517
+# V_Diode_DiodeZener_30V_10022517
 #
-DEF Diode_DiodeZener_30V_10022517 Z 0 40 Y Y 1 F N
+DEF V_Diode_DiodeZener_30V_10022517 Z 0 40 Y Y 1 F N
 F0 "Z" -300 100 50 H V C CNN
-F1 "Diode_DiodeZener_30V_10022517" 0 250 50 H I C CNN
+F1 "V_Diode_DiodeZener_30V_10022517" 0 250 50 H I C CNN
 F2 "Diodes_SMD:D_SMA" 0 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 F4 "10022517" 400 50 50 H I L CNN "Item Number"
@@ -646,11 +692,11 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FLTR_BNX002-11
+# V_FLTR_BNX002-11
 #
-DEF FLTR_BNX002-11 FL 0 40 Y N 1 F N
+DEF V_FLTR_BNX002-11 FL 0 40 Y N 1 F N
 F0 "FL" -70 315 50 H V C CNN
-F1 "FLTR_BNX002-11" 0 -350 50 H V C CNN
+F1 "V_FLTR_BNX002-11" 0 -350 50 H V C CNN
 F2 "" -110 20 50 H I C CNN
 F3 "" -110 20 50 H I C CNN
 F4 "10022532" 550 50 50 H I L CNN "Item Number"
@@ -708,11 +754,11 @@ X ~ PSG -500 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Fuse_Fuse_5A
+# V_Fuse_Fuse_5A
 #
-DEF Fuse_Fuse_5A F 0 40 Y Y 1 F N
+DEF V_Fuse_Fuse_5A F 0 40 Y Y 1 F N
 F0 "F" 100 50 50 H V C CNN
-F1 "Fuse_Fuse_5A" 0 450 50 H I C CNN
+F1 "V_Fuse_Fuse_5A" 0 450 50 H I C CNN
 F2 "" 0 400 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 F4 "10022531" 400 50 50 H I L CNN "Item Number"
@@ -727,11 +773,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# IC_HighSideDriver
+# V_IC_HighSideDriver
 #
-DEF IC_HighSideDriver U 0 40 Y Y 1 F N
+DEF V_IC_HighSideDriver U 0 40 Y Y 1 F N
 F0 "U" -200 250 50 H V C CNN
-F1 "IC_HighSideDriver" 0 400 50 H V C CNN
+F1 "V_IC_HighSideDriver" 0 400 50 H V C CNN
 F2 "SMD_Packages:SOIC-8-N" -300 -550 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 F4 "10022536" 400 50 50 H I L CNN "Item Number"
@@ -755,11 +801,11 @@ X VB 8 400 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# IC_LinearRegulator
+# V_IC_LinearRegulator
 #
-DEF IC_LinearRegulator U 0 40 Y Y 1 F N
+DEF V_IC_LinearRegulator U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V C CNN
-F1 "IC_LinearRegulator" 50 350 50 H V C CNN
+F1 "V_IC_LinearRegulator" 50 350 50 H V C CNN
 F2 "TO_SOT_Packages_SMD:TO-252-2" -200 250 50 H I C CNN
 F3 "" -200 250 50 H I C CNN
 F4 "10022537" 400 50 50 H I L CNN "Item Number"
@@ -776,11 +822,11 @@ X VOUT 3 350 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# IC_MotorDriver
+# V_IC_MotorDriver
 #
-DEF IC_MotorDriver U 0 40 Y Y 1 F N
+DEF V_IC_MotorDriver U 0 40 Y Y 1 F N
 F0 "U" -600 900 50 H V C CNN
-F1 "IC_MotorDriver" 350 900 50 H V C CNN
+F1 "V_IC_MotorDriver" 350 900 50 H V C CNN
 F2 "SMD_Packages:SOIC-24" -1150 850 50 H I C CNN
 F3 "" -450 400 50 H I C CNN
 F4 "10022534" 400 50 50 H I L CNN "Item Number"
@@ -818,11 +864,11 @@ X +SENSE 9 650 -550 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# IC_NE555D
+# V_IC_NE555D
 #
-DEF IC_NE555D U 0 40 Y Y 1 F N
+DEF V_IC_NE555D U 0 40 Y Y 1 F N
 F0 "U" -350 450 50 H V C CNN
-F1 "IC_NE555D" 0 -150 50 H I C CNN
+F1 "V_IC_NE555D" 0 -150 50 H I C CNN
 F2 "SMD_Packages:SOIC-8-N" 350 600 50 H I C CNN
 F3 "" 350 600 50 H I C CNN
 F4 "10095970" 400 50 50 H I L CNN "Item Number"
@@ -845,11 +891,11 @@ X VCC 8 -100 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Inductor_FerriteBead
+# V_Inductor_FerriteBead
 #
-DEF Inductor_FerriteBead FB 0 40 N Y 1 F N
+DEF V_Inductor_FerriteBead FB 0 40 N Y 1 F N
 F0 "FB" 200 50 50 H V C CNN
-F1 "Inductor_FerriteBead" 0 450 50 H I C CNN
+F1 "V_Inductor_FerriteBead" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022533" 400 50 50 H I L CNN "Item Number"
@@ -863,11 +909,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Inductor_Inductor_22uH
+# V_Inductor_Inductor_22uH
 #
-DEF Inductor_Inductor_22uH L 0 40 Y Y 1 F N
+DEF V_Inductor_Inductor_22uH L 0 40 Y Y 1 F N
 F0 "L" 150 -300 50 H V C CNN
-F1 "Inductor_Inductor_22uH" 0 100 50 H I C CNN
+F1 "V_Inductor_Inductor_22uH" 0 100 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095971" 400 50 50 H I L CNN "Item Number"
@@ -884,57 +930,11 @@ X ~ 2 0 -250 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_Fiducial
+# V_Power_+15V
 #
-DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
-F0 "FID" 0 200 50 H V C CNN
-F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Fiducial*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole_Pad
-#
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Power_+15V
-#
-DEF Power_+15V #PWR 0 0 Y Y 1 F P
+DEF V_Power_+15V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 175 -50 50 H I C CNN
-F1 "Power_+15V" 0 140 50 H V C CNN
+F1 "V_Power_+15V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -945,11 +945,11 @@ X +15V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Power_+24V
+# V_Power_+24V
 #
-DEF Power_+24V #PWR 0 0 Y Y 1 F P
+DEF V_Power_+24V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 150 -100 50 H I C CNN
-F1 "Power_+24V" 0 140 50 H V C CNN
+F1 "V_Power_+24V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -960,11 +960,11 @@ X +24V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Power_GND
+# V_Power_GND
 #
-DEF Power_GND #PWR 0 0 Y Y 1 F P
+DEF V_Power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 150 -50 50 H I C CNN
-F1 "Power_GND" 0 -140 50 H V C CNN
+F1 "V_Power_GND" 0 -140 50 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
@@ -973,11 +973,11 @@ X GND 1 0 0 100 D 0 0 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Power_PGND
+# V_Power_PGND
 #
-DEF Power_PGND #PWR 0 0 Y Y 1 F P
+DEF V_Power_PGND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 140 -50 50 H I C CNN
-F1 "Power_PGND" 0 -140 50 H V C CNN
+F1 "V_Power_PGND" 0 -140 50 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
@@ -986,11 +986,11 @@ X PGND 1 0 0 100 D 0 0 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Power_PWR_FLAG
+# V_Power_PWR_FLAG
 #
-DEF Power_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF V_Power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 125 25 50 H I C CNN
-F1 "Power_PWR_FLAG" 0 150 50 H V C CNN
+F1 "V_Power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -999,11 +999,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_100R_1%
+# V_Resistor_R0603_100R_1%
 #
-DEF Resistor_R0603_100R_1% R 0 0 N Y 1 F N
+DEF V_Resistor_R0603_100R_1% R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_R0603_100R_1%" 0 0 50 V V C CNN
+F1 "V_Resistor_R0603_100R_1%" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022552" 400 50 50 H I L CNN "Item Number"
@@ -1028,11 +1028,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_100k_1%_10022549
+# V_Resistor_R0603_100k_1%_10022549
 #
-DEF Resistor_R0603_100k_1%_10022549 R 0 0 N Y 1 F N
+DEF V_Resistor_R0603_100k_1%_10022549 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Resistor_R0603_100k_1%_10022549" 0 0 50 V V C CNN
+F1 "V_Resistor_R0603_100k_1%_10022549" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022549" 400 50 50 H I L CNN "Item Number"
@@ -1053,11 +1053,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_10R_1%
+# V_Resistor_R0603_10R_1%
 #
-DEF Resistor_R0603_10R_1% R 0 40 N Y 1 F N
+DEF V_Resistor_R0603_10R_1% R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R0603_10R_1%" 0 450 50 H I C CNN
+F1 "V_Resistor_R0603_10R_1%" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095980" 400 50 50 H I L CNN "Item Number"
@@ -1073,11 +1073,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_10k_1%_10095975
+# V_Resistor_R0603_10k_1%_10095975
 #
-DEF Resistor_R0603_10k_1%_10095975 R 0 40 N Y 1 F N
+DEF V_Resistor_R0603_10k_1%_10095975 R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R0603_10k_1%_10095975" 0 450 50 H I C CNN
+F1 "V_Resistor_R0603_10k_1%_10095975" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095975" 400 50 50 H I L CNN "Item Number"
@@ -1095,11 +1095,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_1k_1%_10095981
+# V_Resistor_R0603_1k_1%_10095981
 #
-DEF Resistor_R0603_1k_1%_10095981 R 0 40 N Y 1 F N
+DEF V_Resistor_R0603_1k_1%_10095981 R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R0603_1k_1%_10095981" 0 450 50 H I C CNN
+F1 "V_Resistor_R0603_1k_1%_10095981" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095981" 400 50 50 H I L CNN "Item Number"
@@ -1115,11 +1115,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_22k_1%_10095983
+# V_Resistor_R0603_22k_1%_10095983
 #
-DEF Resistor_R0603_22k_1%_10095983 R 0 40 N Y 1 F N
+DEF V_Resistor_R0603_22k_1%_10095983 R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R0603_22k_1%_10095983" 0 450 50 H I C CNN
+F1 "V_Resistor_R0603_22k_1%_10095983" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095983" 400 50 50 H I L CNN "Item Number"
@@ -1137,11 +1137,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R0603_680R_1%
+# V_Resistor_R0603_680R_1%
 #
-DEF Resistor_R0603_680R_1% R 0 40 N Y 1 F N
+DEF V_Resistor_R0603_680R_1% R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R0603_680R_1%" 0 450 50 H I C CNN
+F1 "V_Resistor_R0603_680R_1%" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022550" 400 50 50 H I L CNN "Item Number"
@@ -1159,11 +1159,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R1206_1k_1%_10095984
+# V_Resistor_R1206_1k_1%_10095984
 #
-DEF Resistor_R1206_1k_1%_10095984 R 0 40 N Y 1 F N
+DEF V_Resistor_R1206_1k_1%_10095984 R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R1206_1k_1%_10095984" 0 450 50 H I C CNN
+F1 "V_Resistor_R1206_1k_1%_10095984" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_1206" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095984" 400 50 50 H I L CNN "Item Number"
@@ -1181,11 +1181,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R2512_100m_5%
+# V_Resistor_R2512_100m_5%
 #
-DEF Resistor_R2512_100m_5% R 0 40 N Y 1 F N
+DEF V_Resistor_R2512_100m_5% R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R2512_100m_5%" 0 450 50 H I C CNN
+F1 "V_Resistor_R2512_100m_5%" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022555" 400 50 50 H I L CNN "Item Number"
@@ -1207,11 +1207,11 @@ X ~ 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R2512_47m_5%
+# V_Resistor_R2512_47m_5%
 #
-DEF Resistor_R2512_47m_5% R 0 40 N Y 1 F N
+DEF V_Resistor_R2512_47m_5% R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R2512_47m_5%" 0 450 50 H I C CNN
+F1 "V_Resistor_R2512_47m_5%" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_2512" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022547" 400 50 50 H I L CNN "Item Number"
@@ -1231,11 +1231,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_R_4k7_1%_10095977
+# V_Resistor_R_4k7_1%_10095977
 #
-DEF Resistor_R_4k7_1%_10095977 R 0 40 N Y 1 F N
+DEF V_Resistor_R_4k7_1%_10095977 R 0 40 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Resistor_R_4k7_1%_10095977" 0 450 50 H I C CNN
+F1 "V_Resistor_R_4k7_1%_10095977" 0 450 50 H I C CNN
 F2 "Resistors_SMD:R_0603" 0 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10095977" 400 50 50 H I L CNN "Item Number"
@@ -1251,11 +1251,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_MOSFET_NMOS_30V
+# V_Transistor_MOSFET_NMOS_30V
 #
-DEF Transistor_MOSFET_NMOS_30V Q 0 40 Y N 1 F N
+DEF V_Transistor_MOSFET_NMOS_30V Q 0 40 Y N 1 F N
 F0 "Q" 150 -100 50 H V C CNN
-F1 "Transistor_MOSFET_NMOS_30V" 0 500 50 H I C CNN
+F1 "V_Transistor_MOSFET_NMOS_30V" 0 500 50 H I C CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 50 -650 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 F4 "10022558" 400 50 50 H I L CNN "Item Number"
@@ -1285,11 +1285,11 @@ X 2 S 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_MOSFET_NMOS_55V_10022559
+# V_Transistor_MOSFET_NMOS_55V_10022559
 #
-DEF Transistor_MOSFET_NMOS_55V_10022559 Q 0 40 Y Y 1 F N
+DEF V_Transistor_MOSFET_NMOS_55V_10022559 Q 0 40 Y Y 1 F N
 F0 "Q" 150 -100 50 H V C CNN
-F1 "Transistor_MOSFET_NMOS_55V_10022559" 0 500 50 H I C CNN
+F1 "V_Transistor_MOSFET_NMOS_55V_10022559" 0 500 50 H I C CNN
 F2 "TO_SOT_Packages_SMD:TO-252-2" 50 -650 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 F4 "10022559" 400 50 50 H I L CNN "Item Number"
@@ -1317,11 +1317,11 @@ X ~ S 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_MOSFET_PMOS_60V
+# V_Transistor_MOSFET_PMOS_60V
 #
-DEF Transistor_MOSFET_PMOS_60V Q 0 40 Y Y 1 F N
+DEF V_Transistor_MOSFET_PMOS_60V Q 0 40 Y Y 1 F N
 F0 "Q" 150 -50 50 H V C CNN
-F1 "Transistor_MOSFET_PMOS_60V" 0 500 50 H I C CNN
+F1 "V_Transistor_MOSFET_PMOS_60V" 0 500 50 H I C CNN
 F2 "TO_SOT_Packages_SMD:TO-252-2" 0 -550 50 H I C CNN
 F3 "" 0 500 50 H I C CNN
 F4 "10095972" 400 50 50 H I L CNN "Item Number"

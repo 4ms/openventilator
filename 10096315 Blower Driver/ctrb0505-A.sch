@@ -404,7 +404,7 @@ F 7 "10095979" H 15200 3800 50  0001 C CNN "Item Number"
 F 8 "TYCO ELECTRONICS" H 15200 3800 50  0001 C CNN "Manufacturer"
 F 9 "CRG0603F100R" H 15200 3800 50  0001 C CNN "Manufacturer_No"
 	1    15200 3800
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L V_Capacitor:C1206_220nF_50V_10% C10
@@ -849,7 +849,7 @@ F 7 "10095979" H 15200 6600 50  0001 C CNN "Item Number"
 F 8 "TYCO ELECTRONICS" H 15200 6600 50  0001 C CNN "Manufacturer"
 F 9 "CRG0603F100R" H 15200 6600 50  0001 C CNN "Manufacturer_No"
 	1    15200 6600
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L V_Capacitor:C1206_220nF_50V_10% C13
@@ -1294,7 +1294,7 @@ F 7 "10095979" H 15200 9500 50  0001 C CNN "Item Number"
 F 8 "TYCO ELECTRONICS" H 15200 9500 50  0001 C CNN "Manufacturer"
 F 9 "CRG0603F100R" H 15200 9500 50  0001 C CNN "Manufacturer_No"
 	1    15200 9500
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L V_Capacitor:C1206_220nF_50V_10% C16
