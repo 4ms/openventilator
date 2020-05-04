@@ -454,7 +454,8 @@ F0 "J" 350 450 50 H V C CNN
 F1 "V_Connector_9pinConnector_Unpopulated" 50 600 50 H V C CNN
 F2 "10096315 Blower Driver:MOL7395-9" 50 500 50 H I C CNN
 F3 "" 50 500 50 H I C CNN
-F4 "0022057098" -50 400 50 H V C CNN "MPN"
+F4 "0022057098" -50 400 50 H I C CNN "Manufacturer_No"
+F5 "Molex" 0 0 50 H I C CNN "Manufacturer"
 DRAW
 S -50 -650 -150 250 1 1 10 f
 S -50 -605 -100 -595 1 1 6 N
