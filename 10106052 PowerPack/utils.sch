@@ -23,19 +23,13 @@ AR Path="/5E8CA2BD/5E8CB2CC" Ref="U6"  Part="1"
 F 0 "U6" H 9175 2650 60  0000 R CNN
 F 1 "MCP9700A-E_TO" H 9825 2150 60  0000 R CNN
 F 2 "AllModules:TO-92" H 9200 2600 60  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001942G.pdf" H 9200 2700 60  0001 L CNN
-F 4 "MCP9700A-E/TO-ND" H 9200 2800 60  0001 L CNN "Digi-Key_PN"
-F 5 "" H 9200 2900 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9200 3000 60  0001 L CNN "Category"
-F 7 "Temperature Sensors - Analog and Digital Output" H 9200 3100 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en022859" H 9200 3200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP9700A-E-TO/MCP9700A-E-TO-ND/1212508" H 9200 3300 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC LINEAR ACTIVE THERMISTOR MCP9700 TO-92" H 9200 3400 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9200 3500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9200 3600 60  0001 L CNN "Status"
-F 13 "MCP9700A-E/TO" H 9000 2400 50  0001 C CNN "Manufacturer_No"
-F 14 "10107900" H 9000 2400 50  0001 C CNN "Item Number"
-F 15 "AT part not available" H 9000 2400 50  0001 C CNN "Note"
+F 3 "" H 9200 2700 60  0001 L CNN
+F 4 "IC LINEAR ACTIVE THERMISTOR MCP9700 TO-92" H 9200 3400 60  0001 L CNN "Description"
+F 5 "MICROCHIP" H 9200 3500 60  0001 L CNN "Manufacturer"
+F 6 "MCP9700A-E/TO" H 9000 2400 50  0001 C CNN "Manufacturer_No"
+F 7 "10107900" H 9000 2400 50  0001 C CNN "Item Number"
+F 8 "MICROCHIP" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "MCP9700A-E/TO" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    9000 2400
 	1    0    0    -1  
 $EndComp
@@ -78,10 +72,10 @@ AR Path="/5E8CA2BD/5E8CB2E0" Ref="C30"  Part="1"
 F 0 "C30" H 8485 2354 50  0000 R CNN
 F 1 "100n" H 8485 2445 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 8638 2250 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 8600 2400 50  0001 C CNN
+F 3 "" H 8600 2400 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 8600 2400 50  0001 C CNN "Description"
 F 5 "10021386" H 8600 2400 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 8600 2400 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 8600 2400 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 8600 2400 50  0001 C CNN "Manufacturer_No"
 	1    8600 2400
 	1    0    0    1   
@@ -113,10 +107,10 @@ AR Path="/5E8CA2BD/5E8CDD62" Ref="J10"  Part="1"
 F 0 "J10" H 9422 4824 50  0000 R CNN
 F 1 "S2B-ZR-SM4A-TF" H 9422 4733 50  0000 R CNN
 F 2 "AllModules:CON-S2B-ZR-SM4A-TF" H 9450 4850 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" H 9450 4850 50  0001 C CNN
+F 3 "" H 9450 4850 50  0001 C CNN
 F 4 "CONNECTOR, ZH, 2 CIRCUITS, 1.5 MM" H 9450 4850 50  0001 C CNN "Description"
 F 5 "10107891" H 9450 4850 50  0001 C CNN "Item Number"
-F 6 "JST" H 9450 4850 50  0001 C CNN "Manufacturer"
+F 6 "JST_RMS1" H 9450 4850 50  0001 C CNN "Manufacturer"
 F 7 "S2B-ZR-SM4A-TF(LF)(SN)" H 9450 4850 50  0001 C CNN "Manufacturer_No"
 	1    9450 4850
 	-1   0    0    -1  
@@ -130,10 +124,10 @@ AR Path="/5E8CA2BD/5E8CDD68" Ref="T11"  Part="1"
 F 0 "T11" H 9104 5296 50  0000 L CNN
 F 1 "SI2300DS-T1-GE3" H 9104 5205 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 9100 5350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/65701/si2300ds.pdf" H 8900 5250 50  0001 C CNN
+F 3 "" H 8900 5250 50  0001 C CNN
 F 4 "MOSFET N-CH 30V SOT-23" H 8900 5250 50  0001 C CNN "Description"
 F 5 "GR102887" H 8900 5250 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 8900 5250 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 8900 5250 50  0001 C CNN "Manufacturer"
 F 7 "SI2300DS-T1-GE3" H 8900 5250 50  0001 C CNN "Manufacturer_No"
 	1    8900 5250
 	1    0    0    -1  
@@ -151,10 +145,10 @@ AR Path="/5E8CA2BD/5E8CDD70" Ref="R31"  Part="1"
 F 0 "R31" H 8531 5546 50  0000 R CNN
 F 1 "22k" H 8531 5455 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 8530 5500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8600 5500 50  0001 C CNN
+F 3 "" H 8600 5500 50  0001 C CNN
 F 4 "RESISTOR 22 KOHM 0.063W +/-1% 0603" H 8600 5500 50  0001 C CNN "Description"
 F 5 "10113300" H 8600 5500 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 8600 5500 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 8600 5500 50  0001 C CNN "Manufacturer"
 F 7 "RC0603JR-0722KL" H 8600 5500 50  0001 C CNN "Manufacturer_No"
 	1    8600 5500
 	1    0    0    -1  
@@ -168,12 +162,13 @@ AR Path="/5E8CA2BD/5E8CDD76" Ref="R26"  Part="1"
 F 0 "R26" H 8930 4554 50  0000 R CNN
 F 1 "68" H 8930 4645 50  0000 R CNN
 F 2 "AllModules:RESC3216X60N" V 8930 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9000 4600 50  0001 C CNN
+F 3 "" H 9000 4600 50  0001 C CNN
 F 4 "RESISTOR 68 OHM 1/4W 5% 1206" H 9000 4600 50  0001 C CNN "Description"
 F 5 "10126895" H 9000 4600 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 9000 4600 50  0001 C CNN "Manufacturer"
-F 7 "RC1206JR-0768RL" H 9000 4600 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM has CRCW120668RJKEA" H 9000 4600 50  0001 C CNN "Note"
+F 6 "VISHAY_RMS1" H 9000 4600 50  0001 C CNN "Manufacturer"
+F 7 "CRCW120668R0FKEA" H 9000 4600 50  0001 C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "RC1206JR-0768RL" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    9000 4600
 	-1   0    0    1   
 $EndComp
@@ -218,10 +213,10 @@ AR Path="/5E8CA2BD/5E8CF89F" Ref="C7"  Part="1"
 F 0 "C7" H 4885 5854 50  0000 R CNN
 F 1 "100n" H 4885 5945 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 5038 5750 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 5000 5900 50  0001 C CNN "Description"
 F 5 "10021386" H 5000 5900 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 5000 5900 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 5000 5900 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 5000 5900 50  0001 C CNN "Manufacturer_No"
 	1    5000 5900
 	-1   0    0    1   
@@ -235,10 +230,10 @@ AR Path="/5E8CA2BD/5E8CF8A5" Ref="C6"  Part="1"
 F 0 "C6" H 3465 5946 50  0000 L CNN
 F 1 "1u" H 3465 5855 50  0000 L CNN
 F 2 "AllModules:CAPC1005X60N" H 3388 5750 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0402C105K8PACTU.pdf" H 3350 5900 50  0001 C CNN
+F 3 "" H 3350 5900 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 1UF 10V 10% X5R 0402" H 3350 5900 50  0001 C CNN "Description"
 F 5 "10021369" H 3350 5900 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 3350 5900 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 3350 5900 50  0001 C CNN "Manufacturer"
 F 7 "C0402C105K8PACTU" H 3350 5900 50  0001 C CNN "Manufacturer_No"
 	1    3350 5900
 	1    0    0    1   
@@ -252,10 +247,10 @@ AR Path="/5E8CA2BD/5E8CF8AB" Ref="C5"  Part="1"
 F 0 "C5" H 3065 5946 50  0000 L CNN
 F 1 "100n" H 3065 5855 50  0000 L CNN
 F 2 "AllModules:CAPC1608X86N" H 2988 5750 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 2950 5900 50  0001 C CNN
+F 3 "" H 2950 5900 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 2950 5900 50  0001 C CNN "Description"
 F 5 "10021386" H 2950 5900 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 2950 5900 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 2950 5900 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 2950 5900 50  0001 C CNN "Manufacturer_No"
 	1    2950 5900
 	1    0    0    1   
@@ -321,10 +316,10 @@ AR Path="/5E8CA2BD/5E8D1CCE" Ref="U1"  Part="1"
 F 0 "U1" H 4700 2765 50  0000 C CNN
 F 1 "NCV87722DT50RKG" H 4700 2674 50  0000 C CNN
 F 2 "AllModules:TO170P1420X457-8NA" H 4700 2200 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/NCV8772-D.PDF" H 4700 2200 50  0001 C CNN
+F 3 "" H 4700 2200 50  0001 C CNN
 F 4 "IC REG LINEAR 5V/3.3V 350MA D2PAK-7" H 4700 2350 50  0001 C CNN "Description"
 F 5 "10113304" H 4700 2350 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 4700 2350 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR_RMS1" H 4700 2350 50  0001 C CNN "Manufacturer"
 F 7 "NCV87725D7S50R4G" H 4700 2350 50  0001 C CNN "Manufacturer_No"
 	1    4700 2350
 	1    0    0    -1  
@@ -338,12 +333,15 @@ AR Path="/5E8CA2BD/5E8D1CD4" Ref="C2"  Part="1"
 F 0 "C2" H 5285 2504 50  0000 R CNN
 F 1 "10u" H 5285 2595 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 5438 2400 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C106M9PACTU.pdf" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603" H 5400 2550 50  0001 C CNN "Description"
 F 5 "10021370" H 5400 2550 50  0001 C CNN "Item Number"
 F 6 "C0603C106M9PACTM" H 5400 2550 50  0001 C CNN "Manufacturer_No"
-F 7 "BOM lists C0603C106M9PACTM but only TU was found" H 5400 2550 50  0001 C CNN "Note"
-F 8 "Kemet" H 5400 2550 50  0001 C CNN "Manufacturer"
+F 7 "KEMET_RMS1" H 5400 2550 50  0001 C CNN "Manufacturer"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "MURATA_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0603MRX5R5BB106" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM188R60J106ME47D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5400 2550
 	-1   0    0    1   
 $EndComp
@@ -392,10 +390,10 @@ AR Path="/5E8CA2BD/5E8D1CEF" Ref="T3"  Part="1"
 F 0 "T3" H 3306 2146 50  0000 L CNN
 F 1 "SI2309CDS-T1-GE3" H 3306 2055 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 3300 2200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/68980/si2309cd.pdf" H 3100 2100 50  0001 C CNN
+F 3 "" H 3100 2100 50  0001 C CNN
 F 4 "TRANSISTOR MOS P CHANNEL, 60V, 1.6A, SOT23" H 3100 2100 50  0001 C CNN "Description"
 F 5 "10060356" H 3100 2100 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 3100 2100 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 3100 2100 50  0001 C CNN "Manufacturer"
 F 7 "SI2309CDS-T1-GE3" H 3100 2100 50  0001 C CNN "Manufacturer_No"
 	1    3100 2100
 	1    0    0    1   
@@ -409,10 +407,10 @@ AR Path="/5E8CA2BD/5E8D1CF5" Ref="T5"  Part="1"
 F 0 "T5" H 2604 2746 50  0000 L CNN
 F 1 "SI2300DS-T1-GE3" H 2604 2655 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 2600 2800 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/65701/si2300ds.pdf" H 2400 2700 50  0001 C CNN
+F 3 "" H 2400 2700 50  0001 C CNN
 F 4 "MOSFET N-CH 30V SOT-23" H 2400 2700 50  0001 C CNN "Description"
 F 5 "GR102887" H 2400 2700 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 2400 2700 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 2400 2700 50  0001 C CNN "Manufacturer"
 F 7 "SI2300DS-T1-GE3" H 2400 2700 50  0001 C CNN "Manufacturer_No"
 	1    2400 2700
 	1    0    0    -1  
@@ -426,11 +424,15 @@ AR Path="/5E8CA2BD/5E8D1CFB" Ref="R9"  Part="1"
 F 0 "R9" H 2570 2346 50  0000 L CNN
 F 1 "10k" H 2570 2255 50  0000 L CNN
 F 2 "AllModules:RESC1608X50AN" V 2430 2300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2500 2300 50  0001 C CNN
+F 3 "" H 2500 2300 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 2500 2300 50  0001 C CNN "Description"
 F 5 "10022548" H 2500 2300 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 2500 2300 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 2500 2300 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 2500 2300 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2500 2300
 	1    0    0    -1  
 $EndComp
@@ -449,11 +451,15 @@ AR Path="/5E8CA2BD/5E8D1D04" Ref="R6"  Part="1"
 F 0 "R6" V 2593 1750 50  0000 C CNN
 F 1 "10k" V 2684 1750 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 2730 1750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2800 1750 50  0001 C CNN
+F 3 "" H 2800 1750 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 2800 1750 50  0001 C CNN "Description"
 F 5 "10022548" H 2800 1750 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 2800 1750 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 2800 1750 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 2800 1750 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2800 1750
 	0    1    1    0   
 $EndComp
@@ -488,11 +494,13 @@ AR Path="/5E8CA2BD/5E8D1D18" Ref="R11"  Part="1"
 F 0 "R11" V 2085 3000 50  0000 C CNN
 F 1 "10k" V 1994 3000 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 2130 3000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2200 3000 50  0001 C CNN
-F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 2200 3000 50  0001 C CNN "Description"
-F 5 "10022548" H 2200 3000 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 2200 3000 50  0001 C CNN "Manufacturer"
-F 7 "RC0603FR-0710KL" H 2200 3000 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 2200 3000 50  0001 C CNN
+F 4 "RES 100K OHM 1/10W 1% 0603 SMD" H 2200 3000 50  0001 C CNN "Description"
+F 5 "10001204" H 2200 3000 50  0001 C CNN "Item Number"
+F 6 "YAGEO_RMS1" H 2200 3000 50  0001 C CNN "Manufacturer"
+F 7 "RC0603FR-07100KL" H 2200 3000 50  0001 C CNN "Manufacturer_No"
+F 8 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "ERJ-3EKF1003V" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    2200 3000
 	0    1    -1   0   
 $EndComp
@@ -521,11 +529,11 @@ AR Path="/5E8CA2BD/5E8D1D27" Ref="C3"  Part="1"
 F 0 "C3" H 4265 2796 50  0000 L CNN
 F 1 "1u" H 4265 2705 50  0000 L CNN
 F 2 "AllModules:CAPC3225X155N" H 4188 2600 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C1210C105K5PACTU.pdf" H 4150 2750 50  0001 C CNN
-F 4 "CAPACITOR CERAMIC 1UF 50V X5R 10% 1210" H 4150 2750 50  0001 C CNN "Description"
+F 3 "" H 4150 2750 50  0001 C CNN
+F 4 "CAP CER 1UF 50V X5R 10% 1210" H 4150 2750 50  0001 C CNN "Description"
 F 5 "10107885" H 4150 2750 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 4150 2750 50  0001 C CNN "Manufacturer"
-F 7 "C1210C105K5PACTU" H 4150 2750 50  0001 C CNN "Manufacturer_No"
+F 6 "KEMET_RMS1" H 4150 2750 50  0001 C CNN "Manufacturer"
+F 7 "C1210C105K5PAC" H 4150 2750 50  0001 C CNN "Manufacturer_No"
 	1    4150 2750
 	1    0    0    1   
 $EndComp
@@ -564,18 +572,11 @@ AR Path="/5E8CA2BD/5E8D1D46" Ref="D5"  Part="1"
 F 0 "D5" V 2553 3829 60  0000 L CNN
 F 1 "BAS70-05" V 2447 3829 60  0000 L CNN
 F 2 "AllModules:SOT92P240X120-3N" H 2700 3950 60  0001 L CNN
-F 3 "http://www.vishay.com/docs/85702/bas70.pdf" H 2700 4050 60  0001 L CNN
-F 4 "" H 2700 4150 60  0001 L CNN "Digi-Key_PN"
-F 5 "" H 2700 4250 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 2700 4350 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Arrays" H 2700 4450 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2700 4550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/BAT54C-7-F/BAT54C-FDICT-ND/717821" H 2700 4650 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY DUAL 70V 100MA SOT-23" H 2700 4750 60  0001 L CNN "Description"
-F 11 "Vishay" H 2700 4850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2700 4950 60  0001 L CNN "Status"
-F 13 "BAS70-05-E3-08" H 2500 3750 50  0001 C CNN "Manufacturer_No"
-F 14 "10107888" H 2500 3750 50  0001 C CNN "Item Number"
+F 3 "" H 2700 4050 60  0001 L CNN
+F 4 "DIODE SCHOTTKY DUAL 70V 100MA SOT-23" H 2700 4750 60  0001 L CNN "Description"
+F 5 "VISHAY_RMS1" H 2700 4850 60  0001 L CNN "Manufacturer"
+F 6 "BAS70-05-E3-08" H 2500 3750 50  0001 C CNN "Manufacturer_No"
+F 7 "10107888" H 2500 3750 50  0001 C CNN "Item Number"
 	1    2500 3750
 	0    -1   -1   0   
 $EndComp
@@ -630,7 +631,7 @@ P 2950 6100
 F 0 "#FLG0101" H 2950 6175 50  0001 C CNN
 F 1 "PWR_FLAG" H 2950 6273 50  0000 C CNN
 F 2 "" H 2950 6100 50  0001 C CNN
-F 3 "~" H 2950 6100 50  0001 C CNN
+F 3 "" H 2950 6100 50  0001 C CNN
 	1    2950 6100
 	-1   0    0    1   
 $EndComp
@@ -642,7 +643,7 @@ P 5400 3000
 F 0 "#FLG0102" H 5400 3075 50  0001 C CNN
 F 1 "PWR_FLAG" H 5400 3173 50  0000 C CNN
 F 2 "" H 5400 3000 50  0001 C CNN
-F 3 "~" H 5400 3000 50  0001 C CNN
+F 3 "" H 5400 3000 50  0001 C CNN
 	1    5400 3000
 	-1   0    0    1   
 $EndComp
@@ -693,10 +694,10 @@ AR Path="/5E8CA2BD/5E8CF891" Ref="U2"  Part="1"
 F 0 "U2" H 4100 6350 50  0000 C CNN
 F 1 "LM4120AIM5-3.0" H 4100 6250 50  0000 C CNN
 F 2 "AllModules:SOT95P279X142-5N" H 4100 5900 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4120" H 4100 5900 50  0001 C CNN
+F 3 "" H 4100 5900 50  0001 C CNN
 F 4 "IC,VOLTAGE REFERENCE,5MA,3V +/-2%,SOT23" H 4100 5900 50  0001 C CNN "Description"
 F 5 "10022896" H 4100 5900 50  0001 C CNN "Item Number"
-F 6 "Texas Instruments" H 4100 5900 50  0001 C CNN "Manufacturer"
+F 6 "NATIONAL SEMICONDUCTOR_RMS1" H 4100 5900 50  0001 C CNN "Manufacturer"
 F 7 "LM4120AIM5-3.0/NOPB" H 4100 5900 50  0001 C CNN "Manufacturer_No"
 	1    4100 5900
 	-1   0    0    -1  

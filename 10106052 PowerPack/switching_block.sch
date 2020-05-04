@@ -20,12 +20,13 @@ P 11400 1450
 F 0 "J1" H 11300 1450 50  0000 R CNN
 F 1 "811-S1-002-10-015101" H 11600 1275 50  0000 R CNN
 F 2 "AllModules:CON254W80L508T254H600P" H 11400 1450 50  0001 C CNN
-F 3 "http://www.antelec.fr/page.php?lang=en&id=454&t=0" H 11400 1450 50  0001 C CNN
+F 3 "" H 11400 1450 50  0001 C CNN
 F 4 "CONNECTOR 2 CONTACTS, 3.5A, HT 6.5MM" H 11400 1450 50  0001 C CNN "Description"
 F 5 "10021350" H 11400 1450 50  0001 C CNN "Item Number"
-F 6 "Antelec" H 11400 1450 50  0001 C CNN "Manufacturer"
+F 6 "ANTELEC" H 11400 1450 50  0001 C CNN "Manufacturer"
 F 7 "ACPD25410265" H 11400 1450 50  0001 C CNN "Manufacturer_No"
-F 8 "Need to request datasheet" H 11400 1450 50  0001 C CNN "Note"
+F 8 "PRECI-DIP                       (015220)" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "811-S1-002-10-015101" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 1450
 	-1   0    0    -1  
 $EndComp
@@ -36,12 +37,13 @@ P 11400 1850
 F 0 "J2" H 11300 1850 50  0000 R CNN
 F 1 "811-S1-002-10-015101" H 11600 1675 50  0000 R CNN
 F 2 "AllModules:CON254W80L508T254H600P" H 11400 1850 50  0001 C CNN
-F 3 "http://www.antelec.fr/page.php?lang=en&id=454&t=0" H 11400 1850 50  0001 C CNN
+F 3 "" H 11400 1850 50  0001 C CNN
 F 4 "CONNECTOR 2 CONTACTS, 3.5A, HT 6.5MM" H 11400 1850 50  0001 C CNN "Description"
 F 5 "10021350" H 11400 1850 50  0001 C CNN "Item Number"
-F 6 "Antelec" H 11400 1850 50  0001 C CNN "Manufacturer"
+F 6 "ANTELEC" H 11400 1850 50  0001 C CNN "Manufacturer"
 F 7 "ACPD25410265" H 11400 1850 50  0001 C CNN "Manufacturer_No"
-F 8 "Need to request datasheet" H 11400 1850 50  0001 C CNN "Note"
+F 8 "PRECI-DIP                       (015220)" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "811-S1-002-10-015101" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 1850
 	-1   0    0    -1  
 $EndComp
@@ -52,12 +54,13 @@ P 11400 2250
 F 0 "J3" H 11300 2250 50  0000 R CNN
 F 1 "811-S1-002-10-015101" H 11600 2075 50  0000 R CNN
 F 2 "AllModules:CON254W80L508T254H600P" H 11400 2250 50  0001 C CNN
-F 3 "http://www.antelec.fr/page.php?lang=en&id=454&t=0" H 11400 2250 50  0001 C CNN
+F 3 "" H 11400 2250 50  0001 C CNN
 F 4 "CONNECTOR 2 CONTACTS, 3.5A, HT 6.5MM" H 11400 2250 50  0001 C CNN "Description"
 F 5 "10021350" H 11400 2250 50  0001 C CNN "Item Number"
-F 6 "Antelec" H 11400 2250 50  0001 C CNN "Manufacturer"
+F 6 "ANTELEC" H 11400 2250 50  0001 C CNN "Manufacturer"
 F 7 "ACPD25410265" H 11400 2250 50  0001 C CNN "Manufacturer_No"
-F 8 "Need to request datasheet" H 11400 2250 50  0001 C CNN "Note"
+F 8 "PRECI-DIP                       (015220)" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "811-S1-002-10-015101" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 2250
 	-1   0    0    -1  
 $EndComp
@@ -68,11 +71,13 @@ P 11400 2700
 F 0 "J4" H 11300 2675 50  0000 R CNN
 F 1 "GKS 913 305 230 A 15 02 S" H 11600 2775 50  0000 R CNN
 F 2 "AllModules:GKS-913-305-230-A-15-02-S" H 11400 2700 50  0001 C CNN
-F 3 "https://worbis.shop/gks-913-306-230-a-1502-s.html" H 11400 2700 50  0001 C CNN
+F 3 "" H 11400 2700 50  0001 C CNN
 F 4 "CONNECTOR, 1 CONTACTS, TEST PROBE" H 11400 2700 50  0001 C CNN "Description"
 F 5 "10023419" H 11400 2700 50  0001 C CNN "Item Number"
-F 6 "Ingun" H 11400 2700 50  0001 C CNN "Manufacturer"
+F 6 "INGUN" H 11400 2700 50  0001 C CNN "Manufacturer"
 F 7 "GKS 913 305 230 A 15 02 S" H 11400 2700 50  0001 C CNN "Manufacturer_No"
+F 8 "INGUN" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "GKS-913-0024" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 2700
 	-1   0    0    1   
 $EndComp
@@ -83,10 +88,10 @@ P 10650 1650
 F 0 "R5" H 10580 1604 50  0000 R CNN
 F 1 "18k" H 10580 1695 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10580 1650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10650 1650 50  0001 C CNN
+F 3 "" H 10650 1650 50  0001 C CNN
 F 4 "RESISTOR 18 KOHM 0.063W +/-1% 0603" H 10650 1650 50  0001 C CNN "Description"
 F 5 "10113299" H 10650 1650 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 10650 1650 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 10650 1650 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0718KL" H 10650 1650 50  0001 C CNN "Manufacturer_No"
 	1    10650 1650
 	-1   0    0    1   
@@ -98,11 +103,15 @@ P 10100 1650
 F 0 "R4" H 10050 1600 50  0000 R CNN
 F 1 "DNP" H 10050 1700 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10030 1650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 10100 1650 50  0001 C CNN
+F 3 "" H 10100 1650 50  0001 C CNN
 F 4 "RESISTOR, 1K OHM, 0.063W,+/-1%, 0603" H 10100 1650 50  0001 C CNN "Description"
 F 5 "10022554" H 10100 1650 50  0001 C CNN "Item Number"
-F 6 "Bourns" H 10100 1650 50  0001 C CNN "Manufacturer"
+F 6 "BOURNS_RMS1" H 10100 1650 50  0001 C CNN "Manufacturer"
 F 7 "CR0603-FX-1001ELF" H 10100 1650 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW06031K00FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-071KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10100 1650
 	1    0    0    1   
 $EndComp
@@ -113,11 +122,15 @@ P 10350 1850
 F 0 "R50" V 10075 1850 50  0000 C CNN
 F 1 "DNP" V 10175 1850 50  0000 C CNN
 F 2 "AllModules:CAPC1608X86N" V 10280 1850 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10350 1850 50  0001 C CNN
-F 4 "RESISTOR 100 OHM 0.063W +/-1% 0603" H 10350 1850 50  0001 C CNN "Description"
-F 5 "Yageo" H 10350 1850 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-07100RL" H 10350 1850 50  0001 C CNN "Manufacturer_No"
-F 7 "10095979" V 10350 1850 50  0001 C CNN "Item Number"
+F 3 "" H 10350 1850 50  0001 C CNN
+F 4 "RESISTOR,100 OHM,0.063W,+/-1%, 0603" H 10350 1850 50  0001 C CNN "Description"
+F 5 "BOURNS_RMS1" H 10350 1850 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-FX-1000ELF" H 10350 1850 50  0001 C CNN "Manufacturer_No"
+F 7 "10022552" V 10350 1850 50  0001 C CNN "Item Number"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F1000CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CRG0603F100R" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10350 1850
 	0    1    1    0   
 $EndComp
@@ -128,11 +141,8 @@ P 10750 3100
 F 0 "R57" H 10825 2900 50  0000 R CNN
 F 1 "DNP" H 10825 3000 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10680 3100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10750 3100 50  0001 C CNN
-F 4 "RES SMD 0 OHM JUMPER 1/10W 0603" H 10750 3100 50  0001 C CNN "Description"
-F 5 "Yageo" H 10750 3100 50  0001 C CNN "Manufacturer"
-F 6 "RC0603JR-070RL" H 10750 3100 50  0001 C CNN "Manufacturer_No"
-F 7 "10023185" H 10750 3100 50  0001 C CNN "Item Number"
+F 3 "" H 10750 3100 50  0001 C CNN
+F 4 "10023185" H 10750 3100 50  0001 C CNN "Item Number"
 	1    10750 3100
 	0    -1   -1   0   
 $EndComp
@@ -143,11 +153,15 @@ P 9600 2350
 F 0 "T12" H 9806 2396 50  0000 L CNN
 F 1 "DNP" H 9806 2305 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 9800 2450 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 9600 2350 50  0001 C CNN
+F 3 "" H 9600 2350 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 9600 2350 50  0001 C CNN "Description"
 F 5 "10002095" H 9600 2350 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 9600 2350 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 9600 2350 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 9600 2350 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    9600 2350
 	1    0    0    -1  
 $EndComp
@@ -234,10 +248,10 @@ P 10300 3100
 F 0 "D2" V 10125 2925 50  0000 L CNN
 F 1 "SP0502BAHTG" V 10025 2550 50  0000 L CNN
 F 2 "AllModules:SOT65P220X110-3N" H 10300 3100 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10300 3100 50  0001 C CNN
+F 3 "" H 10300 3100 50  0001 C CNN
 F 4 "TVS AVAL DIODE ARRAY 2CH SC70-3" H 10300 3100 50  0001 C CNN "Description"
 F 5 "GR101899" H 10300 3100 50  0001 C CNN "Item Number"
-F 6 "Littelfuse Inc." H 10300 3100 50  0001 C CNN "Manufacturer"
+F 6 "LITTLEFUSE" H 10300 3100 50  0001 C CNN "Manufacturer"
 F 7 "SP0502BAJTG" H 10300 3100 50  0001 C CNN "Manufacturer_No"
 	1    10300 3100
 	0    1    1    0   
@@ -266,10 +280,13 @@ P 8950 3200
 F 0 "D15" V 9150 2925 50  0000 L CNN
 F 1 "DNP" V 8750 2925 50  0000 L CNN
 F 2 "AllModules:SOT65P220X110-3N" H 8950 3200 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/BAT54CWT1-D.PDF" H 8950 3200 50  0001 C CNN
-F 4 "DIODE ARRAY SCHOTTKY 30V SOT323" H 8950 3200 50  0001 C CNN "Description"
-F 5 "ON Semiconductor" H 8950 3200 50  0001 C CNN "Manufacturer"
-F 6 "BAT54CWT1G" H 8950 3200 50  0001 C CNN "Manufacturer_No"
+F 3 "" H 8950 3200 50  0001 C CNN
+F 4 "DIODE SCHOTTKY DOUBLE,30V, 200MA,SOT23" H 8950 3200 50  0001 C CNN "Description"
+F 5 "NXP SEMICONDUCTORS_RMS1" H 8950 3200 50  0001 C CNN "Manufacturer"
+F 6 "BAT54C,215" H 8950 3200 50  0001 C CNN "Manufacturer_No"
+F 7 "10022653" H 0   0   50  0001 C CNN "Item Number"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BAT54C" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    8950 3200
 	-1   0    0    -1  
 $EndComp
@@ -289,12 +306,13 @@ P 11400 4600
 F 0 "J6" H 11300 4600 50  0000 R CNN
 F 1 "811-S1-002-10-015101" H 11600 4425 50  0000 R CNN
 F 2 "AllModules:CON254W80L508T254H600P" H 11400 4600 50  0001 C CNN
-F 3 "http://www.antelec.fr/page.php?lang=en&id=454&t=0" H 11400 4600 50  0001 C CNN
+F 3 "" H 11400 4600 50  0001 C CNN
 F 4 "CONNECTOR 2 CONTACTS, 3.5A, HT 6.5MM" H 11400 4600 50  0001 C CNN "Description"
 F 5 "10021350" H 11400 4600 50  0001 C CNN "Item Number"
-F 6 "Antelec" H 11400 4600 50  0001 C CNN "Manufacturer"
+F 6 "ANTELEC" H 11400 4600 50  0001 C CNN "Manufacturer"
 F 7 "ACPD25410265" H 11400 4600 50  0001 C CNN "Manufacturer_No"
-F 8 "Need to request datasheet" H 11400 4600 50  0001 C CNN "Note"
+F 8 "PRECI-DIP                       (015220)" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "811-S1-002-10-015101" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 4600
 	-1   0    0    -1  
 $EndComp
@@ -305,12 +323,13 @@ P 11400 5000
 F 0 "J7" H 11300 5000 50  0000 R CNN
 F 1 "811-S1-002-10-015101" H 11600 4825 50  0000 R CNN
 F 2 "AllModules:CON254W80L508T254H600P" H 11400 5000 50  0001 C CNN
-F 3 "http://www.antelec.fr/page.php?lang=en&id=454&t=0" H 11400 5000 50  0001 C CNN
+F 3 "" H 11400 5000 50  0001 C CNN
 F 4 "CONNECTOR 2 CONTACTS, 3.5A, HT 6.5MM" H 11400 5000 50  0001 C CNN "Description"
 F 5 "10021350" H 11400 5000 50  0001 C CNN "Item Number"
-F 6 "Antelec" H 11400 5000 50  0001 C CNN "Manufacturer"
+F 6 "ANTELEC" H 11400 5000 50  0001 C CNN "Manufacturer"
 F 7 "ACPD25410265" H 11400 5000 50  0001 C CNN "Manufacturer_No"
-F 8 "Need to request datasheet" H 11400 5000 50  0001 C CNN "Note"
+F 8 "PRECI-DIP                       (015220)" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "811-S1-002-10-015101" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 5000
 	-1   0    0    -1  
 $EndComp
@@ -321,11 +340,13 @@ P 11400 5450
 F 0 "J8" H 11300 5425 50  0000 R CNN
 F 1 "GKS 913 305 230 A 15 02 S" H 11600 5525 50  0000 R CNN
 F 2 "AllModules:GKS-913-305-230-A-15-02-S" H 11400 5450 50  0001 C CNN
-F 3 "https://worbis.shop/gks-913-306-230-a-1502-s.html" H 11400 5450 50  0001 C CNN
+F 3 "" H 11400 5450 50  0001 C CNN
 F 4 "CONNECTOR, 1 CONTACTS, TEST PROBE" H 11400 5450 50  0001 C CNN "Description"
 F 5 "10023419" H 11400 5450 50  0001 C CNN "Item Number"
-F 6 "Ingun" H 11400 5450 50  0001 C CNN "Manufacturer"
+F 6 "INGUN" H 11400 5450 50  0001 C CNN "Manufacturer"
 F 7 "GKS 913 305 230 A 15 02 S" H 11400 5450 50  0001 C CNN "Manufacturer_No"
+F 8 "INGUN" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "GKS-913-0024" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 5450
 	-1   0    0    1   
 $EndComp
@@ -340,10 +361,10 @@ P 10650 4400
 F 0 "R15" H 10580 4354 50  0000 R CNN
 F 1 "18k" H 10580 4445 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10580 4400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10650 4400 50  0001 C CNN
+F 3 "" H 10650 4400 50  0001 C CNN
 F 4 "RESISTOR 18 KOHM 0.063W +/-1% 0603" H 10650 4400 50  0001 C CNN "Description"
 F 5 "10113299" H 10650 4400 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 10650 4400 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 10650 4400 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0718KL" H 10650 4400 50  0001 C CNN "Manufacturer_No"
 	1    10650 4400
 	-1   0    0    1   
@@ -355,11 +376,15 @@ P 10100 4400
 F 0 "R14" H 10031 4354 50  0000 R CNN
 F 1 "DNP" H 10031 4445 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10030 4400 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 10100 4400 50  0001 C CNN
+F 3 "" H 10100 4400 50  0001 C CNN
 F 4 "RESISTOR, 1K OHM, 0.063W,+/-1%, 0603" H 10100 4400 50  0001 C CNN "Description"
 F 5 "10022554" H 10100 4400 50  0001 C CNN "Item Number"
-F 6 "Bourns" H 10100 4400 50  0001 C CNN "Manufacturer"
+F 6 "BOURNS_RMS1" H 10100 4400 50  0001 C CNN "Manufacturer"
 F 7 "CR0603-FX-1001ELF" H 10100 4400 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW06031K00FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-071KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10100 4400
 	1    0    0    1   
 $EndComp
@@ -415,10 +440,10 @@ P 8700 5050
 F 0 "D7" V 8625 5500 50  0000 R CNN
 F 1 "SMA6J28A" V 8750 5525 50  0000 R CNN
 F 2 "AllModules:DIOM5126X203N_SWP" H 8700 5050 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 8700 5050 50  0001 C CNN
+F 3 "" H 8700 5050 50  0001 C CNN
 F 4 "DIODE TRANSIL 33V, SMA" H 8700 5050 50  0001 C CNN "Description"
 F 5 "10060347" H 8700 5050 50  0001 C CNN "Item Number"
-F 6 "STMicroelectronics" H 8700 5050 50  0001 C CNN "Manufacturer"
+F 6 "ST MICROELECTRONICS_RMS1" H 8700 5050 50  0001 C CNN "Manufacturer"
 F 7 "SMA6J28A-TR" H 8700 5050 50  0001 C CNN "Manufacturer_No"
 	1    8700 5050
 	0    -1   1    0   
@@ -439,10 +464,10 @@ P 7750 2700
 F 0 "T4" H 7956 2746 50  0000 L CNN
 F 1 "SUD50P06-15" H 7956 2655 50  0000 L CNN
 F 2 "AllModules:TO228P1003X238-3_4N" H 7950 2800 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 7750 2700 50  0001 C CNN
-F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 7750 2700 50  0001 C CNN "Description"
+F 3 "" H 7750 2700 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 7750 2700 50  0001 C CNN "Description"
 F 5 "10095972" H 7750 2700 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 7750 2700 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 7750 2700 50  0001 C CNN "Manufacturer"
 F 7 "SUD50P06-15L-E3" H 7750 2700 50  0001 C CNN "Manufacturer_No"
 	1    7750 2700
 	1    0    0    -1  
@@ -454,12 +479,15 @@ P 7575 1450
 F 0 "R2" V 7368 1450 50  0000 C CNN
 F 1 "15k" V 7459 1450 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 7505 1450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 7575 1450 50  0001 C CNN
+F 3 "" H 7575 1450 50  0001 C CNN
 F 4 "RESISTOR, 15K OHM, 0603, +/-1%" H 7575 1450 50  0001 C CNN "Description"
 F 5 "10023238" H 7575 1450 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 7575 1450 50  0001 C CNN "Manufacturer"
-F 7 "CRCW060315K0FKEAHP" H 7575 1450 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM listed ASJ CR16153FL" H 7575 1450 50  0001 C CNN "Note"
+F 6 "PANASONIC_RMS1" H 7575 1450 50  0001 C CNN "Manufacturer"
+F 7 "ERJ3EKF1502V" H 7575 1450 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW060315K0FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-0715KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7575 1450
 	0    1    1    0   
 $EndComp
@@ -470,11 +498,15 @@ P 7050 1450
 F 0 "R1" V 6843 1450 50  0000 C CNN
 F 1 "10k" V 6934 1450 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6980 1450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7050 1450 50  0001 C CNN
+F 3 "" H 7050 1450 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 7050 1450 50  0001 C CNN "Description"
 F 5 "10022548" H 7050 1450 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 7050 1450 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 7050 1450 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 7050 1450 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7050 1450
 	0    1    1    0   
 $EndComp
@@ -497,11 +529,15 @@ P 6650 3050
 F 0 "T6" H 6856 3096 50  0000 L CNN
 F 1 "2N7002TA" H 6856 3005 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 6850 3150 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 6650 3050 50  0001 C CNN
+F 3 "" H 6650 3050 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 6650 3050 50  0001 C CNN "Description"
 F 5 "10002095" H 6650 3050 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 6650 3050 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 6650 3050 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 6650 3050 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6650 3050
 	1    0    0    -1  
 $EndComp
@@ -512,12 +548,15 @@ P 7550 3100
 F 0 "R12" V 7665 3100 50  0000 C CNN
 F 1 "15k" V 7756 3100 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 7480 3100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 7550 3100 50  0001 C CNN
+F 3 "" H 7550 3100 50  0001 C CNN
 F 4 "RESISTOR, 15K OHM, 0603, +/-1%" H 7550 3100 50  0001 C CNN "Description"
 F 5 "10023238" H 7550 3100 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 7550 3100 50  0001 C CNN "Manufacturer"
-F 7 "CRCW060315K0FKEAHP" H 7550 3100 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM listed ASJ CR16153FL" H 7550 3100 50  0001 C CNN "Note"
+F 6 "PANASONIC_RMS1" H 7550 3100 50  0001 C CNN "Manufacturer"
+F 7 "ERJ3EKF1502V" H 7550 3100 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW060315K0FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-0715KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7550 3100
 	0    1    1    0   
 $EndComp
@@ -528,11 +567,15 @@ P 7050 2700
 F 0 "R10" V 6843 2700 50  0000 C CNN
 F 1 "10k" V 6934 2700 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6980 2700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7050 2700 50  0001 C CNN
+F 3 "" H 7050 2700 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 7050 2700 50  0001 C CNN "Description"
 F 5 "10022548" H 7050 2700 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 7050 2700 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 7050 2700 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 7050 2700 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7050 2700
 	0    1    1    0   
 $EndComp
@@ -556,10 +599,10 @@ P 6450 3350
 F 0 "R13" V 6335 3350 50  0000 C CNN
 F 1 "22k" V 6244 3350 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6380 3350 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6450 3350 50  0001 C CNN
+F 3 "" H 6450 3350 50  0001 C CNN
 F 4 "RESISTOR 22 KOHM 0.063W +/-1% 0603" H 6450 3350 50  0001 C CNN "Description"
 F 5 "10113300" H 6450 3350 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6450 3350 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 6450 3350 50  0001 C CNN "Manufacturer"
 F 7 "RC0603JR-0722KL" H 6450 3350 50  0001 C CNN "Manufacturer_No"
 	1    6450 3350
 	0    1    -1   0   
@@ -605,11 +648,15 @@ P 5950 4550
 F 0 "T7" H 6156 4596 50  0000 L CNN
 F 1 "2N7002TA" H 6156 4505 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 6150 4650 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 5950 4550 50  0001 C CNN
+F 3 "" H 5950 4550 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 5950 4550 50  0001 C CNN "Description"
 F 5 "10002095" H 5950 4550 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 5950 4550 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 5950 4550 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 5950 4550 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5950 4550
 	1    0    0    -1  
 $EndComp
@@ -620,10 +667,10 @@ P 7050 4550
 F 0 "T8" H 7254 4504 50  0000 L CNN
 F 1 "SUD50P06-15" H 7254 4595 50  0000 L CNN
 F 2 "AllModules:TO228P1003X238-3_4N" H 7250 4650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 7050 4550 50  0001 C CNN
-F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 7050 4550 50  0001 C CNN "Description"
+F 3 "" H 7050 4550 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 7050 4550 50  0001 C CNN "Description"
 F 5 "10095972" H 7050 4550 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 7050 4550 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 7050 4550 50  0001 C CNN "Manufacturer"
 F 7 "SUD50P06-15L-E3" H 7050 4550 50  0001 C CNN "Manufacturer_No"
 	1    7050 4550
 	1    0    0    1   
@@ -635,10 +682,10 @@ P 7050 5450
 F 0 "T9" H 7254 5496 50  0000 L CNN
 F 1 "SUD50P06-15" H 7254 5405 50  0000 L CNN
 F 2 "AllModules:TO228P1003X238-3_4N" H 7250 5550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 7050 5450 50  0001 C CNN
-F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 7050 5450 50  0001 C CNN "Description"
+F 3 "" H 7050 5450 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 7050 5450 50  0001 C CNN "Description"
 F 5 "10095972" H 7050 5450 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 7050 5450 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 7050 5450 50  0001 C CNN "Manufacturer"
 F 7 "SUD50P06-15L-E3" H 7050 5450 50  0001 C CNN "Manufacturer_No"
 	1    7050 5450
 	1    0    0    -1  
@@ -650,12 +697,15 @@ P 6850 4200
 F 0 "R18" V 6643 4200 50  0000 C CNN
 F 1 "15k" V 6734 4200 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6780 4200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 6850 4200 50  0001 C CNN
+F 3 "" H 6850 4200 50  0001 C CNN
 F 4 "RESISTOR, 15K OHM, 0603, +/-1%" H 6850 4200 50  0001 C CNN "Description"
 F 5 "10023238" H 6850 4200 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6850 4200 50  0001 C CNN "Manufacturer"
-F 7 "CRCW060315K0FKEAHP" H 6850 4200 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM listed ASJ CR16153FL" H 6850 4200 50  0001 C CNN "Note"
+F 6 "PANASONIC_RMS1" H 6850 4200 50  0001 C CNN "Manufacturer"
+F 7 "ERJ3EKF1502V" H 6850 4200 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW060315K0FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-0715KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6850 4200
 	0    1    1    0   
 $EndComp
@@ -666,11 +716,15 @@ P 6300 4200
 F 0 "R17" V 6093 4200 50  0000 C CNN
 F 1 "10k" V 6184 4200 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6230 4200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6300 4200 50  0001 C CNN
+F 3 "" H 6300 4200 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 6300 4200 50  0001 C CNN "Description"
 F 5 "10022548" H 6300 4200 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6300 4200 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 6300 4200 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 6300 4200 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6300 4200
 	0    1    1    0   
 $EndComp
@@ -701,10 +755,10 @@ P 5750 4800
 F 0 "R20" V 5635 4800 50  0000 C CNN
 F 1 "22k" V 5544 4800 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 5680 4800 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5750 4800 50  0001 C CNN
+F 3 "" H 5750 4800 50  0001 C CNN
 F 4 "RESISTOR 22 KOHM 0.063W +/-1% 0603" H 5750 4800 50  0001 C CNN "Description"
 F 5 "10113300" H 5750 4800 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 5750 4800 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 5750 4800 50  0001 C CNN "Manufacturer"
 F 7 "RC0603JR-0722KL" H 5750 4800 50  0001 C CNN "Manufacturer_No"
 	1    5750 4800
 	0    1    -1   0   
@@ -743,12 +797,15 @@ P 6850 5850
 F 0 "R22" V 6965 5850 50  0000 C CNN
 F 1 "15k" V 7056 5850 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6780 5850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 6850 5850 50  0001 C CNN
+F 3 "" H 6850 5850 50  0001 C CNN
 F 4 "RESISTOR, 15K OHM, 0603, +/-1%" H 6850 5850 50  0001 C CNN "Description"
 F 5 "10023238" H 6850 5850 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6850 5850 50  0001 C CNN "Manufacturer"
-F 7 "CRCW060315K0FKEAHP" H 6850 5850 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM listed ASJ CR16153FL" H 6850 5850 50  0001 C CNN "Note"
+F 6 "PANASONIC_RMS1" H 6850 5850 50  0001 C CNN "Manufacturer"
+F 7 "ERJ3EKF1502V" H 6850 5850 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW060315K0FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-0715KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6850 5850
 	0    1    1    0   
 $EndComp
@@ -759,11 +816,15 @@ P 6300 5450
 F 0 "R21" V 6093 5450 50  0000 C CNN
 F 1 "10k" V 6184 5450 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6230 5450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6300 5450 50  0001 C CNN
+F 3 "" H 6300 5450 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 6300 5450 50  0001 C CNN "Description"
 F 5 "10022548" H 6300 5450 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6300 5450 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 6300 5450 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 6300 5450 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6300 5450
 	0    1    1    0   
 $EndComp
@@ -807,11 +868,13 @@ P 4900 1200
 F 0 "R3" H 4830 1154 50  0000 R CNN
 F 1 "100k" H 4830 1245 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 4830 1200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4900 1200 50  0001 C CNN
+F 3 "" H 4900 1200 50  0001 C CNN
 F 4 "RES 100K OHM 1/10W 1% 0603 SMD" H 4900 1200 50  0001 C CNN "Description"
 F 5 "10001204" H 4900 1200 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 4900 1200 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 4900 1200 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-07100KL" H 4900 1200 50  0001 C CNN "Manufacturer_No"
+F 8 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "ERJ-3EKF1003V" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    4900 1200
 	-1   0    0    1   
 $EndComp
@@ -822,11 +885,15 @@ P 4900 1650
 F 0 "R7" H 4830 1604 50  0000 R CNN
 F 1 "10k" H 4830 1695 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 4830 1650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4900 1650 50  0001 C CNN
+F 3 "" H 4900 1650 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 4900 1650 50  0001 C CNN "Description"
 F 5 "10022548" H 4900 1650 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 4900 1650 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 4900 1650 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 4900 1650 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4900 1650
 	-1   0    0    1   
 $EndComp
@@ -837,10 +904,10 @@ P 4550 1650
 F 0 "C1" H 4665 1604 50  0000 L CNN
 F 1 "100n" H 4665 1695 50  0000 L CNN
 F 2 "AllModules:CAPC1608X86N" H 4588 1500 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 4550 1650 50  0001 C CNN
+F 3 "" H 4550 1650 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 4550 1650 50  0001 C CNN "Description"
 F 5 "10021386" H 4550 1650 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 4550 1650 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 4550 1650 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 4550 1650 50  0001 C CNN "Manufacturer_No"
 	1    4550 1650
 	-1   0    0    1   
@@ -881,11 +948,13 @@ P 4150 4050
 F 0 "R16" H 4220 4096 50  0000 L CNN
 F 1 "100k" H 4220 4005 50  0000 L CNN
 F 2 "AllModules:RESC1608X50AN" V 4080 4050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4150 4050 50  0001 C CNN
+F 3 "" H 4150 4050 50  0001 C CNN
 F 4 "RES 100K OHM 1/10W 1% 0603 SMD" H 4150 4050 50  0001 C CNN "Description"
 F 5 "10001204" H 4150 4050 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 4150 4050 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 4150 4050 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-07100KL" H 4150 4050 50  0001 C CNN "Manufacturer_No"
+F 8 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "ERJ-3EKF1003V" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    4150 4050
 	1    0    0    1   
 $EndComp
@@ -896,11 +965,15 @@ P 4150 4550
 F 0 "R19" H 4220 4596 50  0000 L CNN
 F 1 "10k" H 4220 4505 50  0000 L CNN
 F 2 "AllModules:RESC1608X50AN" V 4080 4550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4150 4550 50  0001 C CNN
+F 3 "" H 4150 4550 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 4150 4550 50  0001 C CNN "Description"
 F 5 "10022548" H 4150 4550 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 4150 4550 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 4150 4550 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 4150 4550 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4150 4550
 	1    0    0    1   
 $EndComp
@@ -911,10 +984,10 @@ P 3800 4550
 F 0 "C4" H 3525 4625 50  0000 L CNN
 F 1 "100n" H 3525 4475 50  0000 L CNN
 F 2 "AllModules:CAPC1608X86N" H 3838 4400 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 3800 4550 50  0001 C CNN
+F 3 "" H 3800 4550 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 3800 4550 50  0001 C CNN "Description"
 F 5 "10021386" H 3800 4550 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 3800 4550 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 3800 4550 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 3800 4550 50  0001 C CNN "Manufacturer_No"
 	1    3800 4550
 	1    0    0    1   
@@ -957,11 +1030,13 @@ P 3050 2200
 F 0 "D3" H 2925 2275 50  0000 C CNN
 F 1 "PMEG4005AEA" H 3375 2275 50  0000 C CNN
 F 2 "AllModules:SOD2512X110N_SWP" H 3050 2200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf" H 3050 2200 50  0001 C CNN
+F 3 "" H 3050 2200 50  0001 C CNN
 F 4 "DIODE SCHOTTKY, 500MA,40V,SOD323" H 3050 2200 50  0001 C CNN "Description"
 F 5 "10022515" H 3050 2200 50  0001 C CNN "Item Number"
-F 6 "Nexperia USA Inc." H 3050 2200 50  0001 C CNN "Manufacturer"
+F 6 "NXP SEMICONDUCTORS_RMS1" H 3050 2200 50  0001 C CNN "Manufacturer"
 F 7 "PMEG4005AEA,115" H 3050 2200 50  0001 C CNN "Manufacturer_No"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "PMEG4005AEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    3050 2200
 	1    0    0    -1  
 $EndComp
@@ -972,11 +1047,13 @@ P 3050 2450
 F 0 "D4" H 2925 2525 50  0000 C CNN
 F 1 "PMEG4005AEA" H 3375 2525 50  0000 C CNN
 F 2 "AllModules:SOD2512X110N_SWP" H 3050 2450 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf" H 3050 2450 50  0001 C CNN
+F 3 "" H 3050 2450 50  0001 C CNN
 F 4 "DIODE SCHOTTKY, 500MA,40V,SOD323" H 3050 2450 50  0001 C CNN "Description"
 F 5 "10022515" H 3050 2450 50  0001 C CNN "Item Number"
-F 6 "Nexperia USA Inc." H 3050 2450 50  0001 C CNN "Manufacturer"
+F 6 "NXP SEMICONDUCTORS_RMS1" H 3050 2450 50  0001 C CNN "Manufacturer"
 F 7 "PMEG4005AEA,115" H 3050 2450 50  0001 C CNN "Manufacturer_No"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "PMEG4005AEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    3050 2450
 	1    0    0    -1  
 $EndComp
@@ -987,11 +1064,13 @@ P 3050 2700
 F 0 "D6" H 2925 2775 50  0000 C CNN
 F 1 "PMEG4005AEA" H 3375 2775 50  0000 C CNN
 F 2 "AllModules:SOD2512X110N_SWP" H 3050 2700 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf" H 3050 2700 50  0001 C CNN
+F 3 "" H 3050 2700 50  0001 C CNN
 F 4 "DIODE SCHOTTKY, 500MA,40V,SOD323" H 3050 2700 50  0001 C CNN "Description"
 F 5 "10022515" H 3050 2700 50  0001 C CNN "Item Number"
-F 6 "Nexperia USA Inc." H 3050 2700 50  0001 C CNN "Manufacturer"
+F 6 "NXP SEMICONDUCTORS_RMS1" H 3050 2700 50  0001 C CNN "Manufacturer"
 F 7 "PMEG4005AEA,115" H 3050 2700 50  0001 C CNN "Manufacturer_No"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "PMEG4005AEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    3050 2700
 	1    0    0    -1  
 $EndComp
@@ -1119,7 +1198,7 @@ P 7650 6150
 F 0 "#FLG0103" H 7650 6225 50  0001 C CNN
 F 1 "PWR_FLAG" H 7650 6323 50  0000 C CNN
 F 2 "" H 7650 6150 50  0001 C CNN
-F 3 "~" H 7650 6150 50  0001 C CNN
+F 3 "" H 7650 6150 50  0001 C CNN
 	1    7650 6150
 	1    0    0    -1  
 $EndComp
@@ -1130,7 +1209,7 @@ P 2750 2700
 F 0 "#FLG0104" H 2750 2775 50  0001 C CNN
 F 1 "PWR_FLAG" V 2750 2827 50  0000 L CNN
 F 2 "" H 2750 2700 50  0001 C CNN
-F 3 "~" H 2750 2700 50  0001 C CNN
+F 3 "" H 2750 2700 50  0001 C CNN
 	1    2750 2700
 	0    -1   -1   0   
 $EndComp
@@ -1159,11 +1238,15 @@ P 4400 8600
 F 0 "R30" H 4330 8554 50  0000 R CNN
 F 1 "10k" H 4330 8645 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 4330 8600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4400 8600 50  0001 C CNN
+F 3 "" H 4400 8600 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 4400 8600 50  0001 C CNN "Description"
 F 5 "10022548" H 4400 8600 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 4400 8600 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 4400 8600 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 4400 8600 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4400 8600
 	-1   0    0    1   
 $EndComp
@@ -1190,10 +1273,10 @@ P 4750 8600
 F 0 "C14" H 4635 8554 50  0000 R CNN
 F 1 "100n" H 4635 8645 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 4788 8450 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104K5RACTU.pdf" H 4750 8600 50  0001 C CNN
+F 3 "" H 4750 8600 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 4750 8600 50  0001 C CNN "Description"
 F 5 "10021386" H 4750 8600 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 4750 8600 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 4750 8600 50  0001 C CNN "Manufacturer"
 F 7 "C0603C104K5RACTU" H 4750 8600 50  0001 C CNN "Manufacturer_No"
 	1    4750 8600
 	-1   0    0    1   
@@ -1223,11 +1306,15 @@ P 6550 8400
 F 0 "T15" H 6755 8446 50  0000 L CNN
 F 1 "2N7002TA" H 6755 8355 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 6750 8500 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 6550 8400 50  0001 C CNN
+F 3 "" H 6550 8400 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 6550 8400 50  0001 C CNN "Description"
 F 5 "10002095" H 6550 8400 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 6550 8400 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 6550 8400 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 6550 8400 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6550 8400
 	1    0    0    -1  
 $EndComp
@@ -1238,12 +1325,15 @@ P 6900 7500
 F 0 "R54" H 6970 7546 50  0000 L CNN
 F 1 "15k" H 6970 7455 50  0000 L CNN
 F 2 "AllModules:RESC1608X50AN" V 6830 7500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20043/crcwhpe3.pdf" H 6900 7500 50  0001 C CNN
+F 3 "" H 6900 7500 50  0001 C CNN
 F 4 "RESISTOR, 15K OHM, 0603, +/-1%" H 6900 7500 50  0001 C CNN "Description"
 F 5 "10023238" H 6900 7500 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6900 7500 50  0001 C CNN "Manufacturer"
-F 7 "CRCW060315K0FKEAHP" H 6900 7500 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM listed ASJ CR16153FL" H 6900 7500 50  0001 C CNN "Note"
+F 6 "PANASONIC_RMS1" H 6900 7500 50  0001 C CNN "Manufacturer"
+F 7 "ERJ3EKF1502V" H 6900 7500 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CRCW060315K0FKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0603FR-0715KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6900 7500
 	1    0    0    -1  
 $EndComp
@@ -1254,11 +1344,15 @@ P 6650 8000
 F 0 "R53" H 6720 8046 50  0000 L CNN
 F 1 "10k" H 6720 7955 50  0000 L CNN
 F 2 "AllModules:RESC1608X50AN" V 6580 8000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6650 8000 50  0001 C CNN
+F 3 "" H 6650 8000 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 6650 8000 50  0001 C CNN "Description"
 F 5 "10022548" H 6650 8000 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6650 8000 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 6650 8000 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 6650 8000 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6650 8000
 	1    0    0    -1  
 $EndComp
@@ -1280,10 +1374,10 @@ P 6325 8700
 F 0 "R52" V 6210 8700 50  0000 C CNN
 F 1 "22k" V 6119 8700 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6255 8700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6325 8700 50  0001 C CNN
+F 3 "" H 6325 8700 50  0001 C CNN
 F 4 "RESISTOR 22 KOHM 0.063W +/-1% 0603" H 6325 8700 50  0001 C CNN "Description"
 F 5 "10113300" H 6325 8700 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6325 8700 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 6325 8700 50  0001 C CNN "Manufacturer"
 F 7 "RC0603JR-0722KL" H 6325 8700 50  0001 C CNN "Manufacturer_No"
 	1    6325 8700
 	0    1    -1   0   
@@ -1327,11 +1421,15 @@ P 5800 8600
 F 0 "R56" H 5730 8554 50  0000 R CNN
 F 1 "10k" H 5730 8645 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 5730 8600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5800 8600 50  0001 C CNN
+F 3 "" H 5800 8600 50  0001 C CNN
 F 4 "RESISTOR,10K OHM.0.063W,+/-1%,0603" H 5800 8600 50  0001 C CNN "Description"
 F 5 "10022548" H 5800 8600 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 5800 8600 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 5800 8600 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0710KL" H 5800 8600 50  0001 C CNN "Manufacturer_No"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F103CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CR0603-FX-1002ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5800 8600
 	-1   0    0    1   
 $EndComp
@@ -1342,11 +1440,15 @@ P 5800 8100
 F 0 "R55" H 5730 8054 50  0000 R CNN
 F 1 "47k" H 5730 8145 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 5730 8100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5800 8100 50  0001 C CNN
+F 3 "" H 5800 8100 50  0001 C CNN
 F 4 "RESISTOR,47K OHM,0.063W,+/-1%,0603" H 5800 8100 50  0001 C CNN "Description"
 F 5 "10022734" H 5800 8100 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 5800 8100 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 5800 8100 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-0747KL" H 5800 8100 50  0001 C CNN "Manufacturer_No"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC0603FR-0747KL" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CRCW060347K0FKEA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5800 8100
 	-1   0    0    1   
 $EndComp
@@ -1380,11 +1482,13 @@ P 4400 8100
 F 0 "R27" H 4330 8054 50  0000 R CNN
 F 1 "100k" H 4330 8145 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 4330 8100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4400 8100 50  0001 C CNN
+F 3 "" H 4400 8100 50  0001 C CNN
 F 4 "RES 100K OHM 1/10W 1% 0603 SMD" H 4400 8100 50  0001 C CNN "Description"
 F 5 "10001204" H 4400 8100 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 4400 8100 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 4400 8100 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-07100KL" H 4400 8100 50  0001 C CNN "Manufacturer_No"
+F 8 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "ERJ-3EKF1003V" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    4400 8100
 	-1   0    0    1   
 $EndComp
@@ -1395,11 +1499,11 @@ P 4800 7750
 F 0 "R25" V 4593 7750 50  0000 C CNN
 F 1 "0" V 4684 7750 50  0000 C CNN
 F 2 "AllModules:RESC3216X60N" V 4730 7750 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ8GEY0R00V+7+WW" H 4800 7750 50  0001 C CNN
+F 3 "" H 4800 7750 50  0001 C CNN
 F 4 "RES,0OHM 1/8W 5% 1206" H 4800 7750 50  0001 C CNN "Description"
 F 5 "312937" H 4800 7750 50  0001 C CNN "Item Number"
-F 6 "Panasonic" H 4800 7750 50  0001 C CNN "Manufacturer"
-F 7 "ERJ-8GEY0R00V" H 4800 7750 50  0001 C CNN "Manufacturer_No"
+F 6 "PANASONIC                       (017670)" H 4800 7750 50  0001 C CNN "Manufacturer"
+F 7 "ERJ8GEY0R00V" H 4800 7750 50  0001 C CNN "Manufacturer_No"
 	1    4800 7750
 	0    1    1    0   
 $EndComp
@@ -1417,10 +1521,10 @@ P 2750 7250
 F 0 "F1" V 2947 7250 50  0000 C CNN
 F 1 "Fuse" V 2856 7250 50  0000 C CNN
 F 2 "AllModules:FUS4755X155N" V 2680 7250 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2016l_datasheet.pdf.pdf" H 2750 7250 50  0001 C CNN
+F 3 "" H 2750 7250 50  0001 C CNN
 F 4 "PTC RESETTABLE 33V 1.1A 2016 SMD" H 2750 7250 50  0001 C CNN "Description"
 F 5 "10107889" H 2750 7250 50  0001 C CNN "Item Number"
-F 6 "Littelfuse Inc." H 2750 7250 50  0001 C CNN "Manufacturer"
+F 6 "LITTELFUSE, INC." H 2750 7250 50  0001 C CNN "Manufacturer"
 F 7 "2016L100/33" H 2750 7250 50  0001 C CNN "Manufacturer_No"
 	1    2750 7250
 	0    -1   -1   0   
@@ -1470,10 +1574,10 @@ P 3150 7650
 F 0 "D9" V 3104 7571 50  0000 R CNN
 F 1 "SMA6J28A" V 3195 7571 50  0000 R CNN
 F 2 "AllModules:DIOM5126X203N_SWP" H 3150 7650 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 3150 7650 50  0001 C CNN
+F 3 "" H 3150 7650 50  0001 C CNN
 F 4 "DIODE TRANSIL 33V, SMA" H 3150 7650 50  0001 C CNN "Description"
 F 5 "10060347" H 3150 7650 50  0001 C CNN "Item Number"
-F 6 "STMicroelectronics" H 3150 7650 50  0001 C CNN "Manufacturer"
+F 6 "ST MICROELECTRONICS_RMS1" H 3150 7650 50  0001 C CNN "Manufacturer"
 F 7 "SMA6J28A-TR" H 3150 7650 50  0001 C CNN "Manufacturer_No"
 	1    3150 7650
 	0    -1   1    0   
@@ -1485,10 +1589,10 @@ P 6650 7350
 F 0 "T14" V 6992 7350 50  0000 C CNN
 F 1 "SUD50P06-15" V 6901 7350 50  0000 C CNN
 F 2 "AllModules:TO228P1003X238-3_4N" H 6850 7450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 6650 7350 50  0001 C CNN
-F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 6650 7350 50  0001 C CNN "Description"
+F 3 "" H 6650 7350 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 6650 7350 50  0001 C CNN "Description"
 F 5 "10095972" H 6650 7350 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 6650 7350 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 6650 7350 50  0001 C CNN "Manufacturer"
 F 7 "SUD50P06-15L-E3" H 6650 7350 50  0001 C CNN "Manufacturer_No"
 	1    6650 7350
 	0    -1   -1   0   
@@ -1548,10 +1652,10 @@ P 7900 8075
 F 0 "C9" V 7737 8075 50  0000 C CNN
 F 1 "100u" V 7646 8075 50  0000 C CNN
 F 2 "AllModules:CAPPRD350W60D800H1250" H 7938 7925 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/ESW107M050AG3AA.pdf" H 7900 8075 50  0001 C CNN
+F 3 "" H 7900 8075 50  0001 C CNN
 F 4 "CAP EL 100UF 20% 50V LOW ESR" H 7900 8075 50  0001 C CNN "Description"
 F 5 "10107886" H 7900 8075 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 7900 8075 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 7900 8075 50  0001 C CNN "Manufacturer"
 F 7 "ESW107M050AG3AA" H 7900 8075 50  0001 C CNN "Manufacturer_No"
 	1    7900 8075
 	0    -1   -1   0   
@@ -1563,10 +1667,10 @@ P 7900 7750
 F 0 "C8" V 8155 7750 50  0000 C CNN
 F 1 "100u" V 8064 7750 50  0000 C CNN
 F 2 "AllModules:CAPPRD350W60D800H1250" H 7938 7600 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/ESW107M050AG3AA.pdf" H 7900 7750 50  0001 C CNN
+F 3 "" H 7900 7750 50  0001 C CNN
 F 4 "CAP EL 100UF 20% 50V LOW ESR" H 7900 7750 50  0001 C CNN "Description"
 F 5 "10107886" H 7900 7750 50  0001 C CNN "Item Number"
-F 6 "Kemet" H 7900 7750 50  0001 C CNN "Manufacturer"
+F 6 "KEMET_RMS1" H 7900 7750 50  0001 C CNN "Manufacturer"
 F 7 "ESW107M050AG3AA" H 7900 7750 50  0001 C CNN "Manufacturer_No"
 	1    7900 7750
 	0    -1   -1   0   
@@ -1605,10 +1709,10 @@ P 8650 9150
 F 0 "RL1" V 9417 9150 50  0000 C CNN
 F 1 "41.52.9.024.0010" V 9326 9150 50  0000 C CNN
 F 2 "AllModules:RLY-41-52-9-024-0010" H 10000 9120 50  0001 C CNN
-F 3 "http://gfinder.findernet.com/assets/Series/357/S41EN.pdf" H 8450 9150 50  0001 C CNN
+F 3 "" H 8450 9150 50  0001 C CNN
 F 4 "RELAY 24V 2POLES 8A RT2" H 8650 9150 50  0001 C CNN "Description"
 F 5 "10021053" H 8650 9150 50  0001 C CNN "Item Number"
-F 6 "Finder" H 8650 9150 50  0001 C CNN "Manufacturer"
+F 6 "FINDER" H 8650 9150 50  0001 C CNN "Manufacturer"
 F 7 "41.52.9.024.0010" H 8650 9150 50  0001 C CNN "Manufacturer_No"
 	1    8650 9150
 	0    1    -1   0   
@@ -1626,11 +1730,11 @@ P 11100 9050
 F 0 "J11" H 11072 9024 50  0000 R CNN
 F 1 "43650-0229" H 11072 8933 50  0000 R CNN
 F 2 "AllModules:CON-43650-0229" H 11100 9050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/436500229_sd.pdf" H 11100 9050 50  0001 C CNN
+F 3 "" H 11100 9050 50  0001 C CNN
 F 4 "HEADER TH MOLEX MICRO-FIT 2 CIRCUITS 3MM 5A 250V" H 11100 9050 50  0001 C CNN "Description"
 F 5 "10107892" H 11100 9050 50  0001 C CNN "Item Number"
-F 6 "Molex" H 11100 9050 50  0001 C CNN "Manufacturer"
-F 7 "0436500229" H 11100 9050 50  0001 C CNN "Manufacturer_No"
+F 6 "MOLEX_RMS1" H 11100 9050 50  0001 C CNN "Manufacturer"
+F 7 "43650-0229" H 11100 9050 50  0001 C CNN "Manufacturer_No"
 	1    11100 9050
 	-1   0    0    -1  
 $EndComp
@@ -1687,12 +1791,15 @@ P 11850 7850
 F 0 "C12" H 11735 7804 50  0000 R CNN
 F 1 "10n" H 11735 7895 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 11888 7700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 11850 7850 50  0001 C CNN
+F 3 "" H 11850 7850 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 11850 7850 50  0001 C CNN "Description"
 F 5 "10022508" H 11850 7850 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 11850 7850 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 11850 7850 50  0001 C CNN "Manufacturer"
 F 7 "CC0603KRX7R9BB103" H 11850 7850 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM lists 223858615636, this is the same" H 11850 7850 50  0001 C CNN "Note"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0603KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11850 7850
 	-1   0    0    1   
 $EndComp
@@ -1703,11 +1810,11 @@ P 11450 7850
 F 0 "R29" H 11380 7804 50  0000 R CNN
 F 1 "40.2k" H 11380 7895 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 11380 7850 50  0001 C CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Resistors/Datasheets/PCF.pdf" H 11450 7850 50  0001 C CNN
+F 3 "" H 11450 7850 50  0001 C CNN
 F 4 "RESISTOR 40.2KOHM  0.1% 0.063W 0603" H 11450 7850 50  0001 C CNN "Description"
 F 5 "10021070" H 11450 7850 50  0001 C CNN "Item Number"
-F 6 "Welwyn" H 11450 7850 50  0001 C CNN "Manufacturer"
-F 7 "PCF0603-R-40K2BT1" H 11450 7850 50  0001 C CNN "Manufacturer_No"
+F 6 "WELWYN" H 11450 7850 50  0001 C CNN "Manufacturer"
+F 7 "PCF0603R-40K2BT1" H 11450 7850 50  0001 C CNN "Manufacturer_No"
 	1    11450 7850
 	-1   0    0    1   
 $EndComp
@@ -1718,10 +1825,10 @@ P 10700 7850
 F 0 "R28" H 10630 7804 50  0000 R CNN
 F 1 "66.5k" H 10630 7895 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10630 7850 50  0001 C CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Resistors/Datasheets/PCF.pdf" H 10700 7850 50  0001 C CNN
+F 3 "" H 10700 7850 50  0001 C CNN
 F 4 "RESISTOR 66,5K OHM, 0,063W, +/-0,1%, 0603" H 10700 7850 50  0001 C CNN "Description"
 F 5 "10000836" H 10700 7850 50  0001 C CNN "Item Number"
-F 6 "Welwyn" H 10700 7850 50  0001 C CNN "Manufacturer"
+F 6 "WELWYN" H 10700 7850 50  0001 C CNN "Manufacturer"
 F 7 "PCF0603R-66K5BT1" H 10700 7850 50  0001 C CNN "Manufacturer_No"
 	1    10700 7850
 	-1   0    0    1   
@@ -1733,12 +1840,11 @@ P 11100 7850
 F 0 "C11" H 10985 7804 50  0000 R CNN
 F 1 "10n" H 10985 7895 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 11138 7700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 11100 7850 50  0001 C CNN
-F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 11100 7850 50  0001 C CNN "Description"
-F 5 "10022508" H 11100 7850 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 11100 7850 50  0001 C CNN "Manufacturer"
-F 7 "CC0603KRX7R9BB103" H 11100 7850 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM lists 223858615636, this is the same" H 11100 7850 50  0001 C CNN "Note"
+F 3 "" H 11100 7850 50  0001 C CNN
+F 4 "CAPACITOR CERAMIC 100NF 50V 10% X7R 0603" H 11100 7850 50  0001 C CNN "Description"
+F 5 "10021386" H 11100 7850 50  0001 C CNN "Item Number"
+F 6 "KEMET_RMS1" H 11100 7850 50  0001 C CNN "Manufacturer"
+F 7 "C0603C104K5RACTU" H 11100 7850 50  0001 C CNN "Manufacturer_No"
 	1    11100 7850
 	-1   0    0    1   
 $EndComp
@@ -1766,12 +1872,15 @@ P 10050 8000
 F 0 "C10" H 9935 7954 50  0000 R CNN
 F 1 "10n" H 9935 8045 50  0000 R CNN
 F 2 "AllModules:CAPC1608X86N" H 10088 7850 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10050 8000 50  0001 C CNN
+F 3 "" H 10050 8000 50  0001 C CNN
 F 4 "CAPACITOR CERAMIC,10NF,+/-10%,50V,0603" H 10050 8000 50  0001 C CNN "Description"
 F 5 "10022508" H 10050 8000 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 10050 8000 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 10050 8000 50  0001 C CNN "Manufacturer"
 F 7 "CC0603KRX7R9BB103" H 10050 8000 50  0001 C CNN "Manufacturer_No"
-F 8 "BOM lists 223858615636, this is the same" H 10050 8000 50  0001 C CNN "Note"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "CC0603KRX7R9BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10050 8000
 	-1   0    0    1   
 $EndComp
@@ -1784,7 +1893,7 @@ AR Path="/5E87816A/5EC48738" Ref="STAR1"  Part="1"
 F 0 "STAR1" H 2350 9700 50  0000 C CNN
 F 1 "Net-Tie_2" H 2350 9450 50  0000 C CNN
 F 2 "AllModules:STAR" H 2325 9575 50  0001 C CNN
-F 3 "~" H 2325 9575 50  0001 C CNN
+F 3 "" H 2325 9575 50  0001 C CNN
 	1    2325 9575
 	1    0    0    -1  
 $EndComp
@@ -1825,11 +1934,13 @@ P 9250 9550
 F 0 "R32" V 9135 9550 50  0000 C CNN
 F 1 "470" V 9044 9550 50  0000 C CNN
 F 2 "AllModules:RESC3216X60N" V 9180 9550 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9250 9550 50  0001 C CNN
+F 3 "" H 9250 9550 50  0001 C CNN
 F 4 "RESISTOR 470 OHM 1/8W 5% 1206" H 9250 9550 50  0001 C CNN "Description"
 F 5 "10107895" H 9250 9550 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 9250 9550 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 9250 9550 50  0001 C CNN "Manufacturer"
 F 7 "RC1206JR-07470RL" H 9250 9550 50  0001 C CNN "Manufacturer_No"
+F 8 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "CRCW1206470RFKEA" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    9250 9550
 	0    -1   -1   0   
 $EndComp
@@ -1840,10 +1951,10 @@ P 7600 6900
 F 0 "R24" H 7530 6854 50  0000 R CNN
 F 1 "0.015" H 7530 6945 50  0000 R CNN
 F 2 "AllModules:RESC6533X80N" V 7530 6900 50  0001 C CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Resistors/Datasheets/LR.pdf" H 7600 6900 50  0001 C CNN
+F 3 "" H 7600 6900 50  0001 C CNN
 F 4 "RESISTOR 0,015 OHM, 2W, +/-1%, 2512" H 7600 6900 50  0001 C CNN "Description"
 F 5 "10000838" H 7600 6900 50  0001 C CNN "Item Number"
-F 6 "Welwyn" H 7600 6900 50  0001 C CNN "Manufacturer"
+F 6 "WELWYN" H 7600 6900 50  0001 C CNN "Manufacturer"
 F 7 "LRF2512-R015FW" H 7600 6900 50  0001 C CNN "Manufacturer_No"
 	1    7600 6900
 	-1   0    0    1   
@@ -1936,11 +2047,15 @@ P 9600 5050
 F 0 "T13" H 9806 5096 50  0000 L CNN
 F 1 "DNP" H 9806 5005 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 9800 5150 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 9600 5050 50  0001 C CNN
+F 3 "" H 9600 5050 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 9600 5050 50  0001 C CNN "Description"
 F 5 "10002095" H 9600 5050 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 9600 5050 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 9600 5050 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 9600 5050 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    9600 5050
 	1    0    0    -1  
 $EndComp
@@ -1957,12 +2072,13 @@ P 11400 4200
 F 0 "J5" H 11300 4200 50  0000 R CNN
 F 1 "811-S1-002-10-015101" H 11600 4025 50  0000 R CNN
 F 2 "AllModules:CON254W80L508T254H600P" H 11400 4200 50  0001 C CNN
-F 3 "http://www.antelec.fr/page.php?lang=en&id=454&t=0" H 11400 4200 50  0001 C CNN
+F 3 "" H 11400 4200 50  0001 C CNN
 F 4 "CONNECTOR 2 CONTACTS, 3.5A, HT 6.5MM" H 11400 4200 50  0001 C CNN "Description"
 F 5 "10021350" H 11400 4200 50  0001 C CNN "Item Number"
-F 6 "Antelec" H 11400 4200 50  0001 C CNN "Manufacturer"
+F 6 "ANTELEC" H 11400 4200 50  0001 C CNN "Manufacturer"
 F 7 "ACPD25410265" H 11400 4200 50  0001 C CNN "Manufacturer_No"
-F 8 "Need to request datasheet" H 11400 4200 50  0001 C CNN "Note"
+F 8 "PRECI-DIP                       (015220)" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "811-S1-002-10-015101" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11400 4200
 	-1   0    0    -1  
 $EndComp
@@ -2001,11 +2117,8 @@ P 10750 5825
 F 0 "R58" H 10825 5625 50  0000 R CNN
 F 1 "DNP" H 10825 5725 50  0000 R CNN
 F 2 "AllModules:RESC1608X50AN" V 10680 5825 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10750 5825 50  0001 C CNN
-F 4 "RES SMD 0 OHM JUMPER 1/10W 0603" H 10750 5825 50  0001 C CNN "Description"
-F 5 "Yageo" H 10750 5825 50  0001 C CNN "Manufacturer"
-F 6 "RC0603JR-070RL" H 10750 5825 50  0001 C CNN "Manufacturer_No"
-F 7 "10023185" H 10750 5825 50  0001 C CNN "Item Number"
+F 3 "" H 10750 5825 50  0001 C CNN
+F 4 "10023185" H 10750 5825 50  0001 C CNN "Item Number"
 	1    10750 5825
 	0    -1   -1   0   
 $EndComp
@@ -2048,10 +2161,10 @@ P 5750 6050
 F 0 "R23" V 5635 6050 50  0000 C CNN
 F 1 "22k" V 5544 6050 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 5680 6050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5750 6050 50  0001 C CNN
+F 3 "" H 5750 6050 50  0001 C CNN
 F 4 "RESISTOR 22 KOHM 0.063W +/-1% 0603" H 5750 6050 50  0001 C CNN "Description"
 F 5 "10113300" H 5750 6050 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 5750 6050 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 5750 6050 50  0001 C CNN "Manufacturer"
 F 7 "RC0603JR-0722KL" H 5750 6050 50  0001 C CNN "Manufacturer_No"
 	1    5750 6050
 	0    1    -1   0   
@@ -2067,11 +2180,15 @@ P 5950 5800
 F 0 "T10" H 6156 5846 50  0000 L CNN
 F 1 "2N7002TA" H 6156 5755 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 6150 5900 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 5950 5800 50  0001 C CNN
+F 3 "" H 5950 5800 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 5950 5800 50  0001 C CNN "Description"
 F 5 "10002095" H 5950 5800 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 5950 5800 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 5950 5800 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 5950 5800 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5950 5800
 	1    0    0    -1  
 $EndComp
@@ -2115,10 +2232,10 @@ P 6425 2100
 F 0 "R8" V 6310 2100 50  0000 C CNN
 F 1 "22k" V 6219 2100 50  0000 C CNN
 F 2 "AllModules:RESC1608X50AN" V 6355 2100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6425 2100 50  0001 C CNN
+F 3 "" H 6425 2100 50  0001 C CNN
 F 4 "RESISTOR 22 KOHM 0.063W +/-1% 0603" H 6425 2100 50  0001 C CNN "Description"
 F 5 "10113300" H 6425 2100 50  0001 C CNN "Item Number"
-F 6 "Yageo" H 6425 2100 50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 6425 2100 50  0001 C CNN "Manufacturer"
 F 7 "RC0603JR-0722KL" H 6425 2100 50  0001 C CNN "Manufacturer_No"
 	1    6425 2100
 	0    1    -1   0   
@@ -2132,11 +2249,15 @@ P 6650 1800
 F 0 "T1" H 6855 1846 50  0000 L CNN
 F 1 "2N7002TA" H 6855 1755 50  0000 L CNN
 F 2 "AllModules:SOT95P237X112-3N" H 6850 1900 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 6650 1800 50  0001 C CNN
+F 3 "" H 6650 1800 50  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT23-3" H 6650 1800 50  0001 C CNN "Description"
 F 5 "10002095" H 6650 1800 50  0001 C CNN "Item Number"
-F 6 "ON Semiconductor" H 6650 1800 50  0001 C CNN "Manufacturer"
+F 6 "ON SEMICONDUCTOR" H 6650 1800 50  0001 C CNN "Manufacturer"
 F 7 "2N7002LT1G" H 6650 1800 50  0001 C CNN "Manufacturer_No"
+F 8 "DIODES INC" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "DIODES INC_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "2N7002-7-F" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "2N7002TA" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6650 1800
 	1    0    0    -1  
 $EndComp
@@ -2147,10 +2268,10 @@ P 7750 1800
 F 0 "T2" H 7954 1754 50  0000 L CNN
 F 1 "SUD50P06-15" H 7954 1845 50  0000 L CNN
 F 2 "AllModules:TO228P1003X238-3_4N" H 7950 1900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/72250/sud50p06.pdf" H 7750 1800 50  0001 C CNN
-F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL, TO252" H 7750 1800 50  0001 C CNN "Description"
+F 3 "" H 7750 1800 50  0001 C CNN
+F 4 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" H 7750 1800 50  0001 C CNN "Description"
 F 5 "10095972" H 7750 1800 50  0001 C CNN "Item Number"
-F 6 "Vishay Siliconix" H 7750 1800 50  0001 C CNN "Manufacturer"
+F 6 "VISHAY_RMS1" H 7750 1800 50  0001 C CNN "Manufacturer"
 F 7 "SUD50P06-15L-E3" H 7750 1800 50  0001 C CNN "Manufacturer_No"
 	1    7750 1800
 	1    0    0    1   
@@ -2190,10 +2311,10 @@ P 10300 5850
 F 0 "D8" V 10150 5675 50  0000 L CNN
 F 1 "SP0502BAHTG" V 10025 5300 50  0000 L CNN
 F 2 "AllModules:SOT65P220X110-3N" H 10300 5850 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10300 5850 50  0001 C CNN
+F 3 "" H 10300 5850 50  0001 C CNN
 F 4 "TVS AVAL DIODE ARRAY 2CH SC70-3" H 10300 5850 50  0001 C CNN "Description"
 F 5 "GR101899" H 10300 5850 50  0001 C CNN "Item Number"
-F 6 "Littelfuse Inc." H 10300 5850 50  0001 C CNN "Manufacturer"
+F 6 "LITTLEFUSE" H 10300 5850 50  0001 C CNN "Manufacturer"
 F 7 "SP0502BAJTG" H 10300 5850 50  0001 C CNN "Manufacturer_No"
 	1    10300 5850
 	0    1    1    0   
@@ -2205,11 +2326,15 @@ P 10350 4600
 F 0 "R51" V 10125 4600 50  0000 C CNN
 F 1 "DNP" V 10275 4600 50  0000 C CNN
 F 2 "AllModules:CAPC1608X86N" V 10280 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 10350 4600 50  0001 C CNN
-F 4 "RESISTOR 100 OHM 0.063W +/-1% 0603" H 10350 4600 50  0001 C CNN "Description"
-F 5 "Yageo" H 10350 4600 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-07100RL" H 10350 4600 50  0001 C CNN "Manufacturer_No"
-F 7 "10095979" V 10350 4600 50  0001 C CNN "Item Number"
+F 3 "" H 10350 4600 50  0001 C CNN
+F 4 "RESISTOR,100 OHM,0.063W,+/-1%, 0603" H 10350 4600 50  0001 C CNN "Description"
+F 5 "BOURNS_RMS1" H 10350 4600 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-FX-1000ELF" H 10350 4600 50  0001 C CNN "Manufacturer_No"
+F 7 "10022552" V 10350 4600 50  0001 C CNN "Item Number"
+F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "RC1608F1000CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "CRG0603F100R" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    10350 4600
 	0    1    1    0   
 $EndComp
@@ -2222,10 +2347,10 @@ P 8700 2350
 F 0 "D1" V 8654 2428 50  0000 L CNN
 F 1 "SMA6J28A" V 8745 2428 50  0000 L CNN
 F 2 "AllModules:DIOM5126X203N_SWP" H 8700 2350 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/56/26/d7/6f/22/8c/4e/b3/CD00152688.pdf/files/CD00152688.pdf/_jcr_content/translations/en.CD00152688.pdf" H 8700 2350 50  0001 C CNN
+F 3 "" H 8700 2350 50  0001 C CNN
 F 4 "DIODE TRANSIL 33V, SMA" H 8700 2350 50  0001 C CNN "Description"
 F 5 "10060347" H 8700 2350 50  0001 C CNN "Item Number"
-F 6 "STMicroelectronics" H 8700 2350 50  0001 C CNN "Manufacturer"
+F 6 "ST MICROELECTRONICS_RMS1" H 8700 2350 50  0001 C CNN "Manufacturer"
 F 7 "SMA6J28A-TR" H 8700 2350 50  0001 C CNN "Manufacturer_No"
 	1    8700 2350
 	0    -1   1    0   
@@ -2237,11 +2362,11 @@ P 1950 7250
 F 0 "J9" H 1850 7200 50  0000 C CNN
 F 1 "26-61-4020" H 1775 7075 50  0000 C CNN
 F 2 "AllModules:CON2PHDR1000W777L396P" H 1950 7250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/026614020_sd.pdf" H 1950 7250 50  0001 C CNN
+F 3 "" H 1950 7250 50  0001 C CNN
 F 4 "HEADER 2 PIN FRICTION LOCK MOLEX KK 156 SERIES" H 1950 7250 50  0001 C CNN "Description"
 F 5 "10107890" H 1950 7250 50  0001 C CNN "Item Number"
-F 6 "Molex" H 1950 7250 50  0001 C CNN "Manufacturer"
-F 7 "0026614020" H 1950 7250 50  0001 C CNN "Manufacturer_No"
+F 6 "MOLEX_RMS1" H 1950 7250 50  0001 C CNN "Manufacturer"
+F 7 "26-61-4020" H 1950 7250 50  0001 C CNN "Manufacturer_No"
 	1    1950 7250
 	1    0    0    -1  
 $EndComp
@@ -2252,11 +2377,13 @@ P 10050 7350
 F 0 "U3" H 9900 7800 50  0000 C CNN
 F 1 "INA170" H 10000 7700 50  0000 C CNN
 F 2 "AllModules:SOP65P490X110-8N" H 10050 7350 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina170" H 10200 7300 50  0001 C CNN
+F 3 "" H 10200 7300 50  0001 C CNN
 F 4 "IC,CURRENT SHUNT MONITOR,MSOP" H 10050 7350 50  0001 C CNN "Description"
 F 5 "10022891" H 10050 7350 50  0001 C CNN "Item Number"
-F 6 "Texas Instruments" H 10050 7350 50  0001 C CNN "Manufacturer"
+F 6 "TEXAS INSTRUMENTS_RMS1" H 10050 7350 50  0001 C CNN "Manufacturer"
 F 7 "INA170EA/2K5" H 10050 7350 50  0001 C CNN "Manufacturer_No"
+F 8 "TEXAS INSTRUMENTS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "INA170EA/250" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    10050 7350
 	1    0    0    -1  
 $EndComp
@@ -2298,12 +2425,15 @@ P 9750 9100
 F 0 "FL1" H 9725 9473 50  0000 C CNN
 F 1 "BNX002-11" H 9725 9382 50  0000 C CNN
 F 2 "AllModules:BNX00201" H 9680 9145 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/BNX00x_Series.pdf" H 9680 9145 50  0001 C CNN
+F 3 "" H 9680 9145 50  0001 C CNN
 F 4 "FILTER CC, 1MHZ-1GHZ, 10A, 50V" H 9750 9100 50  0001 C CNN "Description"
 F 5 "10022532" H 9750 9100 50  0001 C CNN "Item Number"
-F 6 "Murata Electronics" H 9750 9100 50  0001 C CNN "Manufacturer"
+F 6 "MURATA MANUFACTURING CO., LTD." H 9750 9100 50  0001 C CNN "Manufacturer"
 F 7 "BNX002-01" H 9750 9100 50  0001 C CNN "Manufacturer_No"
-F 8 "BNX002-11 is also on BOM" H 9750 9100 50  0001 C CNN "Note"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "BNX00201" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "BNX002-11" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    9750 9100
 	1    0    0    -1  
 $EndComp
