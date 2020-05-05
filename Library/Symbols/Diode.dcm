@@ -1,9 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAT54S
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
+$ENDCMP
+#
+$CMP BZG03C30
+F http://www.vishay.com/docs/86138/bzg03c-m-series.pdf
+$ENDCMP
+#
+$CMP BZV55C15
+F https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf
+$ENDCMP
+#
+$CMP ES1D
+F http://www.vishay.com/docs/88586/es1.pdf
+$ENDCMP
+#
 $CMP LED_AK
 D Light emitting diode
 K LED diode
 F ~
+$ENDCMP
+#
+$CMP PMEG4005AEA
+F https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf
+$ENDCMP
+#
+$CMP STPS15L45CB
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/b7/c8/02/28/2f/f6/47/20/CD00002833.pdf/files/CD00002833.pdf/jcr:content/translations/en.CD00002833.pdf
 $ENDCMP
 #
 #End Doc Library
