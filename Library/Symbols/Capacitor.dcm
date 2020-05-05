@@ -6,4 +6,8 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP C_1000uF_20%
+F https://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf
+$ENDCMP
+#
 #End Doc Library
