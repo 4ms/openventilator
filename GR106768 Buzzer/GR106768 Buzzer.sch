@@ -2241,23 +2241,6 @@ Wire Wire Line
 	3200 3700 3200 3800
 Wire Wire Line
 	3000 2600 3000 3400
-$Comp
-L V_Capacitor:C0612_47pF_50V_10% C1
-U 1 1 5EC82919
-P 2900 3550
-F 0 "C1" H 3400 3550 50  0000 C CNN
-F 1 "47pF" H 3450 3450 50  0000 C CNN
-F 2 "AllModules:C0612-4_1" H 2900 3550 50  0001 C CNN
-F 3 "" H 2800 3550 50  0001 C CNN
-F 4 "10095973" H 2925 3925 50  0001 C CNN "Item Number"
-F 5 "CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612" H 0   0   50  0001 C CNN "Description"
-F 6 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "W3A45A470KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 9 "CA0612JRNPO9BN470" H 0   0   50  0001 C CNN "Manufacturer_No2"
-	1    2900 3550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 3400 2600 2900
 Wire Wire Line
@@ -2296,5 +2279,22 @@ F 2 "" H 3050 6375 50  0001 C CNN
 F 3 "" H 3050 6375 50  0001 C CNN
 	1    3050 6375
 	-1   0    0    1   
+$EndComp
+$Comp
+L V_Capacitor:C0612_47pF_50V_10% C1
+U 1 1 5EC82919
+P 2900 3550
+F 0 "C1" H 3400 3550 50  0000 C CNN
+F 1 "47pF" H 3450 3450 50  0000 C CNN
+F 2 "AllModules:C0612-4_1" H 2900 3550 50  0001 C CNN
+F 3 "" H 2800 3550 50  0001 C CNN
+F 4 "10095973" H 2925 3925 50  0001 C CNN "Item Number"
+F 5 "CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612" H 0   0   50  0001 C CNN "Description"
+F 6 "AVX_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "W3A45A470KAT2A" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 9 "CA0612JRNPO9BN470" H 0   0   50  0001 C CNN "Manufacturer_No2"
+	1    2900 3550
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
