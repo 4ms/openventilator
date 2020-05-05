@@ -10,4 +10,16 @@ $CMP C_1000uF_20%
 F https://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf
 $ENDCMP
 #
+$CMP C_100uF_20%
+F https://www.nichicon.co.jp/english/products/pdfs/e-urz.pdf
+$ENDCMP
+#
+$CMP C_100uF_50V_20%_SMD
+F https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf
+$ENDCMP
+#
+$CMP C_470uF_20%_10095969
+F https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf
+$ENDCMP
+#
 #End Doc Library

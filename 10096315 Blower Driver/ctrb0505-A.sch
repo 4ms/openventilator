@@ -2446,9 +2446,9 @@ F 0 "J11" H 1300 2550 50  0000 C CNN
 F 1 "DNP" H 1350 2250 50  0000 C CNN
 F 2 "AllModules:MOL5566-2_1" H 1400 2600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf" H 1400 2600 50  0001 C CNN
-F 4 "0039281023" H 1400 2600 50  0001 C CNN "Manufacturer_No"
-F 5 " CONN HEADER VERT 2 CONTACTS Mini Fit Jr  5.5PIN PITCH" H 1400 2600 50  0001 C CNN "Description"
-F 6 "MOLEX" H 1400 2600 50  0001 C CNN "Manufacturer"
+F 4 " CONN HEADER VERT 2 CONTACTS Mini Fit Jr  5.5PIN PITCH" H 1400 2600 50  0001 C CNN "Description"
+F 5 "MOLEX" H 1400 2600 50  0001 C CNN "Manufacturer"
+F 6 "0039281023" H 1400 2600 50  0001 C CNN "Manufacturer_No"
 	1    1400 2600
 	1    0    0    -1  
 $EndComp
@@ -3295,13 +3295,11 @@ P 11150 2400
 F 0 "C27" H 11275 2500 50  0000 L CNN
 F 1 "DNP" H 11150 2850 50  0001 C CNN
 F 2 "AllModules:03515_1" H 11200 1950 50  0001 C CNN
-F 3 "" H 11150 2850 50  0001 C CNN
-F 4 "CAPACITOR,470UF, +/-20%,25V" H 11150 2400 50  0001 C CNN "Description"
-F 5 "10095969" H 11150 2400 50  0001 C CNN "Item Number"
+F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/models/ECA1EHG471B" H 11150 2850 50  0001 C CNN
+F 4 "CAPACITOR,470UF, +/-20%,25V TH" H 11150 2400 50  0001 C CNN "Description"
+F 5 "10095969_TH" H 11150 2400 50  0001 C CNN "Item Number"
 F 6 "PANASONIC_RMS1" H 11150 2400 50  0001 C CNN "Manufacturer"
-F 7 "EEEFK1E471P" H 11150 2400 50  0001 C CNN "Manufacturer_No"
-F 8 "NICHICON_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 9 "UCD1E471MNL1GS" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 7 "ECA1EHG471" H 11150 2400 50  0001 C CNN "Manufacturer_No"
 	1    11150 2400
 	1    0    0    -1  
 $EndComp
@@ -3312,11 +3310,11 @@ P 11150 2400
 F 0 "ZC27" H 11275 2425 50  0000 L CNN
 F 1 "470uF" H 11375 2325 50  0000 C CNN
 F 2 "AllModules:C-SC10_1" H 11200 1950 50  0001 C CNN
-F 3 "" H 11150 2850 50  0001 C CNN
-F 4 "EEEFK1E471P" H 11150 2400 50  0001 C CNN "Manufacturer_No"
-F 5 "CAPACITOR,470UF, +/-20%,25V" H 11150 2400 50  0001 C CNN "Description"
-F 6 "10095969" H 11150 2400 50  0001 C CNN "Item Number"
-F 7 "PANASONIC_RMS1" H 11150 2400 50  0001 C CNN "Manufacturer"
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 11150 2850 50  0001 C CNN
+F 4 "CAPACITOR,470UF, +/-20%,25V" H 11150 2400 50  0001 C CNN "Description"
+F 5 "10095969" H 11150 2400 50  0001 C CNN "Item Number"
+F 6 "PANASONIC_RMS1" H 11150 2400 50  0001 C CNN "Manufacturer"
+F 7 "EEEFK1E471P" H 11150 2400 50  0001 C CNN "Manufacturer_No"
 F 8 "NICHICON_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 9 "UCD1E471MNL1GS" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11150 2400
@@ -3346,7 +3344,7 @@ P 19225 4650
 F 0 "ZT3" H 19275 4800 50  0000 L CNN
 F 1 "DNP" H 19225 5150 50  0001 C CNN
 F 2 "AllModules:TO220ABGDS-INV_COUCHE_1" H 19275 4000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/91406/sihfz24.pdf" H 19225 5050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/91406/sihfz24.pdf" H 19225 5050 50  0001 C CNN
 F 4 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" H 19225 4650 50  0001 C CNN "Description"
 F 5 "10022559_TH" H 19225 4650 50  0001 C CNN "Item Number"
 F 6 "INTERNATIONAL RECTIFIER_RMS1" H -225 0   50  0001 C CNN "Manufacturer"
@@ -3361,7 +3359,7 @@ P 19225 6850
 F 0 "ZT4" H 19275 7000 50  0000 L CNN
 F 1 "DNP" H 19225 7350 50  0001 C CNN
 F 2 "AllModules:TO220ABGDS-INV_COUCHE_1" H 19275 6200 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/91406/sihfz24.pdf" H 19225 7250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/91406/sihfz24.pdf" H 19225 7250 50  0001 C CNN
 F 4 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" H 19225 6850 50  0001 C CNN "Description"
 F 5 "10022559_TH" H 19225 6850 50  0001 C CNN "Item Number"
 F 6 "INTERNATIONAL RECTIFIER_RMS1" H -225 0   50  0001 C CNN "Manufacturer"
@@ -3452,7 +3450,7 @@ F 0 "C2" H 8916 2484 50  0000 L CNN
 F 1 "100uF" H 8800 2850 50  0001 C CNN
 F 2 "AllModules:03515_1" H 8850 1950 50  0001 C CNN
 F 3 "" H 8800 2850 50  0001 C CNN
-F 4 "10022506" H 8800 2400 50  0001 C CNN "Item Number"
+F 4 "10022506_TH" H 8800 2400 50  0001 C CNN "Item Number"
 F 5 "NICHICON_RMS1" H 8800 2400 50  0001 C CNN "Manufacturer"
 F 6 "URZ1H101MPD" H 8800 2400 50  0001 C CNN "Manufacturer_No"
 F 7 "CAPACITOR,100UF,+/-20%,50V" H 8800 2400 50  0001 C CNN "Description"
@@ -3467,6 +3465,7 @@ F 0 "TH1" H 1100 6546 50  0000 L CNN
 F 1 "ThroughHole" H 1100 6455 50  0000 L CNN
 F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 1000 6500 50  0001 C CNN
 F 3 "~" H 1000 6500 50  0001 C CNN
+F 4 "" H 1000 6500 50  0001 C CNN "Manufacturer"
 	1    1000 6500
 	1    0    0    -1  
 $EndComp
@@ -3478,6 +3477,7 @@ F 0 "TH2" H 1100 7046 50  0000 L CNN
 F 1 "ThroughHole" H 1100 6955 50  0000 L CNN
 F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 1000 7000 50  0001 C CNN
 F 3 "~" H 1000 7000 50  0001 C CNN
+F 4 "" H 1000 7000 50  0001 C CNN "Manufacturer"
 	1    1000 7000
 	1    0    0    -1  
 $EndComp
@@ -3486,9 +3486,10 @@ L V_Mechanical:MountingHole TH3
 U 1 1 5EA021CD
 P 2000 6500
 F 0 "TH3" H 2100 6546 50  0000 L CNN
-F 1 "MountingHole" H 2100 6455 50  0000 L CNN
+F 1 "ThroughHole" H 2100 6455 50  0000 L CNN
 F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 2000 6500 50  0001 C CNN
 F 3 "~" H 2000 6500 50  0001 C CNN
+F 4 "" H 2000 6500 50  0001 C CNN "Manufacturer"
 	1    2000 6500
 	1    0    0    -1  
 $EndComp
@@ -3497,9 +3498,10 @@ L V_Mechanical:MountingHole TH4
 U 1 1 5EA021D7
 P 2000 7000
 F 0 "TH4" H 2100 7046 50  0000 L CNN
-F 1 "MountingHole" H 2100 6955 50  0000 L CNN
+F 1 "ThroughHole" H 2100 6955 50  0000 L CNN
 F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 2000 7000 50  0001 C CNN
 F 3 "~" H 2000 7000 50  0001 C CNN
+F 4 "" H 2000 7000 50  0001 C CNN "Manufacturer"
 	1    2000 7000
 	1    0    0    -1  
 $EndComp
@@ -3511,6 +3513,7 @@ F 0 "TH5" H 3100 6546 50  0000 L CNN
 F 1 "ThroughHole" H 3100 6455 50  0000 L CNN
 F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 3000 6500 50  0001 C CNN
 F 3 "~" H 3000 6500 50  0001 C CNN
+F 4 "" H 3000 6500 50  0001 C CNN "Manufacturer"
 	1    3000 6500
 	1    0    0    -1  
 $EndComp
@@ -3522,6 +3525,7 @@ F 0 "TH6" H 3100 7046 50  0000 L CNN
 F 1 "ThroughHole" H 3100 6955 50  0000 L CNN
 F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 3000 7000 50  0001 C CNN
 F 3 "~" H 3000 7000 50  0001 C CNN
+F 4 "" H 3000 7000 50  0001 C CNN "Manufacturer"
 	1    3000 7000
 	1    0    0    -1  
 $EndComp
