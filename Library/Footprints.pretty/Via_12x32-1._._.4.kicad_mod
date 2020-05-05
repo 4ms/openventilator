@@ -1,0 +1,11 @@
+(module Via_12x32-1._._.4 (layer F.Cu) (tedit 5EA5AD6F)
+  (descr "4 layer Via, 32mil pads on top and bottom layers only, 12mil hole.")
+  (fp_text reference Ref** (at 0 -1.5) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 1.5) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F.Cu B.Cu)
+    (zone_connect 2))
+)
