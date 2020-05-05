@@ -1,0 +1,14 @@
+(module VIA-091X03-VE_001001 (layer F.Cu) (tedit 5EAB763A)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VIA-091X03-VE_001001 (at 0 2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0.85344 -0.85344) (end -0.85344 -0.85344) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 0.85344 0.85344) (end 0.85344 -0.85344) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -0.85344 0.85344) (end 0.85344 0.85344) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -0.85344 -0.85344) (end -0.85344 0.85344) (layer F.CrtYd) (width 0.05))
+  (pad "" thru_hole circle (at 0 0) (size 0.9144 0.9144) (drill 0.3048) (layers *.Mask In2.Cu B.Cu)
+    (solder_mask_margin 0.1016) (zone_connect 2))
+)
