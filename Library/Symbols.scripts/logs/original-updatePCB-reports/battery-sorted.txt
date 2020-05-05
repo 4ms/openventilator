@@ -1,0 +1,153 @@
+Add net /+.
+Add net /+.
+Add net /+.
+Add net /BAT_EEPROM.
+Add net /BAT_EEPROM.
+Add net /BAT_EEPROM.
+Add net /BAT_EEPROM.
+Add net /T.
+Add net /T.
+Add net /T.
+Add net /T.
+Add net Earth.
+Add net Earth.
+Add net Earth.
+Add net Earth.
+Add net Earth.
+Add net GND.
+Add net GND.
+Add net GND.
+Add net GND.
+Add net GND.
+Add net GND.
+Add net Net-(FI2-Pad2).
+Add net Net-(FI2-Pad2).
+Add net Net-(FI3-Pad1).
+Add net Net-(FI3-Pad1).
+Add net VDD.
+Add net VDD.
+Add net VDD.
+Add net VDD.
+Add net VDD.
+Change C1 value from C-BC-C0603 to 10nF.
+Change C2 value from C-BC-C0603 to 10nF.
+Change C3 value from C-BC-C0402 to 0402_47pF_C0402C470J5GAC.
+Change C4 value from C-BC-C0402 to 0402_47pF_C0402C470J5GAC.
+Change CAM1 value from FILM18_HORIZONTAL to Fiducial.
+Change CAM10 value from A3_PER_COVIDIEN to Fiducial.
+Change CAM11 value from FEE_COMP to Fiducial.
+Change CAM12 value from FABRICATION-FEE to Fiducial.
+Change CAM14 value from PERCAGE-MC_TABLEAU to Fiducial.
+Change CAM16 value from FEE_COMP to Fiducial.
+Change CAM2 value from A3_EQFC_COVIDIEN to Fiducial.
+Change CAM3 value from PER-COVIDIEN_TEXTE to Fiducial.
+Change CAM4 value from A3_EQFS_COVIDIEN to Fiducial.
+Change CAM6 value from COIN_EXTERNE to Fiducial.
+Change CAM7 value from COIN_EXTERNE to Fiducial.
+Change CAM8 value from COIN_EXTERNE to Fiducial.
+Change CAM9 value from COIN_EXTERNE to Fiducial.
+Change FI1 value from FL-10-BNX002-01 to BNX002-11.
+Change FI2 value from SF-BC-S0603 to 74279266.
+Change FI3 value from SF-BC-S0603 to 74279266.
+Change J1 value from F-CO-HE10-2010C to 09185107323.
+Change J3 value from BAR-CMS254-811S1-02 to 811-S1-002-30-014101.
+Change J4 value from BAR-CMS254-811S1-02 to 811-S1-002-30-014101.
+Change J5 value from BAR-CMS254-811S1-02 to 811-S1-002-30-014101.
+Change J6 value from PT-10-GKS913 to GKS-913-0024.
+Change PT1 value from MIRECMS to TestPoint.
+Change PT2 value from MIRECMS to TestPoint.
+Connect PT1 pin 1 to GND.
+Connect PT2 pin 1 to GND.
+Disconnect FI1 pin B.
+Disconnect FI1 pin CB.
+Disconnect FI1 pin CG1.
+Disconnect FI1 pin CG2.
+Disconnect FI1 pin CG3.
+Disconnect FI1 pin PSG.
+Info: Change symbol path “C1:” to “/5E8FB3FB”.
+Info: Change symbol path “C2:” to “/5E90C557”.
+Info: Change symbol path “C3:” to “/5E91F4F8”.
+Info: Change symbol path “C4:” to “/5E9213A5”.
+Info: Change symbol path “CAM10:” to “/5E9FC9E3”.
+Info: Change symbol path “CAM11:” to “/5E9FC9ED”.
+Info: Change symbol path “CAM12:” to “/5E9FC9F7”.
+Info: Change symbol path “CAM14:” to “/5E9FCA0B”.
+Info: Change symbol path “CAM16:” to “/5E9FCA1F”.
+Info: Change symbol path “CAM1:” to “/5E9EFCDE”.
+Info: Change symbol path “CAM2:” to “/5E9F043D”.
+Info: Change symbol path “CAM3:” to “/5E9F1828”.
+Info: Change symbol path “CAM4:” to “/5E9F1832”.
+Info: Change symbol path “CAM6:” to “/5E9F54AD”.
+Info: Change symbol path “CAM7:” to “/5E9F54B7”.
+Info: Change symbol path “CAM8:” to “/5E9F54C1”.
+Info: Change symbol path “CAM9:” to “/5E9FC9D9”.
+Info: Change symbol path “FI1:” to “/5E8EDF96”.
+Info: Change symbol path “FI2:” to “/5E9D0294”.
+Info: Change symbol path “FI3:” to “/5E9C95BC”.
+Info: Change symbol path “J1:” to “/5E95772A”.
+Info: Change symbol path “J3:” to “/5E99A69C”.
+Info: Change symbol path “J4:” to “/5E99CA09”.
+Info: Change symbol path “J5:” to “/5E99E657”.
+Info: Change symbol path “J6:” to “/5E9A6A5B”.
+Info: Change symbol path “PT1:” to “/5E9E685B”.
+Info: Change symbol path “PT2:” to “/5E9E73E6”.
+Info: Processing component “C1:/5E8FB3FB:AllModules:C0603_1b”.
+Info: Processing component “C2:/5E90C557:AllModules:C0603_1b”.
+Info: Processing component “C3:/5E91F4F8:AllModules:C0402_1b”.
+Info: Processing component “C4:/5E9213A5:AllModules:C0402_1b”.
+Info: Processing component “CAM10:/5E9FC9E3:AllModules:A3_PER_COVIDIEN_1”.
+Info: Processing component “CAM11:/5E9FC9ED:AllModules:FEE_COMP_2”.
+Info: Processing component “CAM12:/5E9FC9F7:AllModules:FABRICATION-FEE_1”.
+Info: Processing component “CAM14:/5E9FCA0B:AllModules:PERCAGE-MC_TABLEAU_1”.
+Info: Processing component “CAM16:/5E9FCA1F:AllModules:FEE_COMP_1”.
+Info: Processing component “CAM1:/5E9EFCDE:AllModules:FILM18_HORIZONTAL_1”.
+Info: Processing component “CAM2:/5E9F043D:AllModules:A3_EQFC_COVIDIEN_1”.
+Info: Processing component “CAM3:/5E9F1828:AllModules:PER-COVIDIEN_TEXTE_1”.
+Info: Processing component “CAM4:/5E9F1832:AllModules:A3_EQFS_COVIDIEN_1”.
+Info: Processing component “CAM6:/5E9F54AD:AllModules:COIN_EXTERNE_1”.
+Info: Processing component “CAM7:/5E9F54B7:AllModules:COIN_EXTERNE_1”.
+Info: Processing component “CAM8:/5E9F54C1:AllModules:COIN_EXTERNE_1”.
+Info: Processing component “CAM9:/5E9FC9D9:AllModules:COIN_EXTERNE_1”.
+Info: Processing component “FI1:/5E8EDF96:AllModules:BNX002_1”.
+Info: Processing component “FI2:/5E9D0294:AllModules:C0603_1b”.
+Info: Processing component “FI3:/5E9C95BC:AllModules:C0603_1b”.
+Info: Processing component “J1:/5E95772A:AllModules:BP2X5C_1”.
+Info: Processing component “J3:/5E99A69C:AllModules:811S1-02_1”.
+Info: Processing component “J4:/5E99CA09:AllModules:811S1-02_1”.
+Info: Processing component “J5:/5E99E657:AllModules:811S1-02_1”.
+Info: Processing component “J6:/5E9A6A5B:AllModules:GKS913_1”.
+Info: Processing component “PT1:/5E9E685B:AllModules:MIRECMS_D-1.5_1”.
+Info: Processing component “PT2:/5E9E73E6:AllModules:MIRECMS_D-1.5_1”.
+Reconnect C1 pin 1 from PSG to Earth.
+Reconnect C1 pin 2 from B to VDD.
+Reconnect C2 pin 1 from CG to GND.
+Reconnect C2 pin 2 from CB to /+.
+Reconnect C3 pin 1 from CG to /BAT_EEPROM.
+Reconnect C3 pin 2 from EEPROM_BAT to GND.
+Reconnect C4 pin 1 from CG to /T.
+Reconnect C4 pin 2 from T to GND.
+Reconnect FI2 pin 1 from EEPROM_BAT to /BAT_EEPROM.
+Reconnect FI2 pin 2 from N$5 to Net-(FI2-Pad2).
+Reconnect FI3 pin 1 from N$4 to Net-(FI3-Pad1).
+Reconnect FI3 pin 2 from T to /T.
+Reconnect J1 pin 1 from PSG to Earth.
+Reconnect J1 pin 10 from B to VDD.
+Reconnect J1 pin 2 from PSG to Earth.
+Reconnect J1 pin 3 from PSG to Earth.
+Reconnect J1 pin 4 from PSG to Earth.
+Reconnect J1 pin 5 from N$4 to Net-(FI3-Pad1).
+Reconnect J1 pin 6 from N$5 to Net-(FI2-Pad2).
+Reconnect J1 pin 7 from B to VDD.
+Reconnect J1 pin 8 from B to VDD.
+Reconnect J1 pin 9 from B to VDD.
+Reconnect J3 pin 1 from CB to /+.
+Reconnect J3 pin 2 from CB to /+.
+Reconnect J4 pin 1 from EEPROM_BAT to /BAT_EEPROM.
+Reconnect J4 pin 2 from EEPROM_BAT to /BAT_EEPROM.
+Reconnect J5 pin 1 from T to /T.
+Reconnect J5 pin 2 from T to /T.
+Reconnect J6 pin 1 from CG to GND.
+Reconnect copper zone from CG to GND.
+Warning: Copper zone (CG) has no pads connected.
+Warning: Copper zone (CG) has no pads connected.
+Warning: Copper zone (CG) has no pads connected.

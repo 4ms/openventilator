@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GR106768_Buzzer:Via H1
+L V_Mechanical:Via H1
 U 1 1 5EA9C65C
 P 7100 4750
 F 0 "H1" H 7149 4785 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 7100 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H2
+L V_Mechanical:Via H2
 U 1 1 5EA9C65D
 P 7100 4900
 F 0 "H2" H 7051 4935 50  0000 R CNN
@@ -36,7 +36,7 @@ F 3 "~" H 7100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H3
+L V_Mechanical:Via H3
 U 1 1 5EA9C65E
 P 4250 4450
 F 0 "H3" H 4299 4485 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 4250 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H4
+L V_Mechanical:Via H4
 U 1 1 5EA9C65F
 P 3500 2400
 F 0 "H4" H 3549 2435 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 3500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H5
+L V_Mechanical:Via H5
 U 1 1 5EA9C660
 P 6700 3950
 F 0 "H5" H 6749 3985 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "~" H 6700 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H6
+L V_Mechanical:Via H6
 U 1 1 5EA9C661
 P 6150 3900
 F 0 "H6" H 6199 3935 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "~" H 6150 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H7
+L V_Mechanical:Via H7
 U 1 1 5EA9C662
 P 3200 1600
 F 0 "H7" H 3249 1635 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "~" H 3200 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H8
+L V_Mechanical:Via H8
 U 1 1 5EA9C663
 P 4250 2800
 F 0 "H8" H 4299 2835 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "~" H 4250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H9
+L V_Mechanical:Via H9
 U 1 1 5EA9C664
 P 7100 3400
 F 0 "H9" H 7149 3435 50  0000 L CNN
@@ -113,7 +113,7 @@ F 3 "~" H 7100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H10
+L V_Mechanical:Via H10
 U 1 1 5EA9C665
 P 8200 2050
 F 0 "H10" H 8249 2085 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "~" H 8200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H11
+L V_Mechanical:Via H11
 U 1 1 5EB1BA4B
 P 3750 4500
 F 0 "H11" H 3799 4535 50  0000 L CNN
@@ -135,7 +135,7 @@ F 3 "~" H 3750 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H12
+L V_Mechanical:Via H12
 U 1 1 5EA9C666
 P 8050 3050
 F 0 "H12" H 8099 3085 50  0000 L CNN
@@ -146,7 +146,7 @@ F 3 "~" H 8050 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H13
+L V_Mechanical:Via H13
 U 1 1 5EA9C667
 P 9350 1100
 F 0 "H13" H 9399 1135 50  0000 L CNN
@@ -157,7 +157,7 @@ F 3 "~" H 9350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H14
+L V_Mechanical:Via H14
 U 1 1 5EA9C668
 P 9350 800
 F 0 "H14" H 9399 835 50  0000 L CNN
@@ -168,7 +168,7 @@ F 3 "~" H 9350 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H15
+L V_Mechanical:Via H15
 U 1 1 5EA9C669
 P 8800 800
 F 0 "H15" H 8849 835 50  0000 L CNN
@@ -179,7 +179,7 @@ F 3 "~" H 8800 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H16
+L V_Mechanical:Via H16
 U 1 1 5EA9C66A
 P 8300 800
 F 0 "H16" H 8349 835 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "~" H 8300 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H17
+L V_Mechanical:Via H17
 U 1 1 5EA9C66B
 P 7300 800
 F 0 "H17" H 7349 835 50  0000 L CNN
@@ -201,7 +201,7 @@ F 3 "~" H 7300 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H18
+L V_Mechanical:Via H18
 U 1 1 5EA9C66C
 P 6800 800
 F 0 "H18" H 6849 835 50  0000 L CNN
@@ -212,7 +212,7 @@ F 3 "~" H 6800 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H19
+L V_Mechanical:Via H19
 U 1 1 5EA9C66D
 P 6300 800
 F 0 "H19" H 6349 835 50  0000 L CNN
@@ -223,7 +223,7 @@ F 3 "~" H 6300 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H20
+L V_Mechanical:Via H20
 U 1 1 5EA9C66E
 P 5750 800
 F 0 "H20" H 5799 835 50  0000 L CNN
@@ -234,7 +234,7 @@ F 3 "~" H 5750 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H21
+L V_Mechanical:Via H21
 U 1 1 5EA9C66F
 P 5250 800
 F 0 "H21" H 5299 835 50  0000 L CNN
@@ -245,7 +245,7 @@ F 3 "~" H 5250 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H22
+L V_Mechanical:Via H22
 U 1 1 5EA9C65A
 P 4750 800
 F 0 "H22" H 4799 835 50  0000 L CNN
@@ -256,7 +256,7 @@ F 3 "~" H 4750 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H23
+L V_Mechanical:Via H23
 U 1 1 5EA9C65B
 P 4250 800
 F 0 "H23" H 4299 835 50  0000 L CNN
@@ -267,7 +267,7 @@ F 3 "~" H 4250 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H24
+L V_Mechanical:Via H24
 U 1 1 5EA9C5D1
 P 3750 800
 F 0 "H24" H 3799 835 50  0000 L CNN
@@ -278,7 +278,7 @@ F 3 "~" H 3750 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H25
+L V_Mechanical:Via H25
 U 1 1 5EA9C5F9
 P 3250 800
 F 0 "H25" H 3299 835 50  0000 L CNN
@@ -289,7 +289,7 @@ F 3 "~" H 3250 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H26
+L V_Mechanical:Via H26
 U 1 1 5EA9C600
 P 2000 800
 F 0 "H26" H 2049 835 50  0000 L CNN
@@ -300,7 +300,7 @@ F 3 "~" H 2000 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H27
+L V_Mechanical:Via H27
 U 1 1 5EA9C5F7
 P 3200 1200
 F 0 "H27" H 3249 1235 50  0000 L CNN
@@ -311,7 +311,7 @@ F 3 "~" H 3200 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H28
+L V_Mechanical:Via H28
 U 1 1 5EA9C602
 P 2500 1200
 F 0 "H28" H 2549 1235 50  0000 L CNN
@@ -322,7 +322,7 @@ F 3 "~" H 2500 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H29
+L V_Mechanical:Via H29
 U 1 1 5EA9C603
 P 7400 1250
 F 0 "H29" H 7449 1285 50  0000 L CNN
@@ -333,7 +333,7 @@ F 3 "~" H 7400 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H30
+L V_Mechanical:Via H30
 U 1 1 5EA9C604
 P 2000 1300
 F 0 "H30" H 2049 1335 50  0000 L CNN
@@ -344,7 +344,7 @@ F 3 "~" H 2000 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H31
+L V_Mechanical:Via H31
 U 1 1 5EA9C605
 P 9350 1550
 F 0 "H31" H 9399 1585 50  0000 L CNN
@@ -355,7 +355,7 @@ F 3 "~" H 9350 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H32
+L V_Mechanical:Via H32
 U 1 1 5EA9C606
 P 6750 1600
 F 0 "H32" H 6799 1635 50  0000 L CNN
@@ -366,7 +366,7 @@ F 3 "~" H 6750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H33
+L V_Mechanical:Via H33
 U 1 1 5EA9C5ED
 P 2000 1800
 F 0 "H33" H 2049 1835 50  0000 L CNN
@@ -377,7 +377,7 @@ F 3 "~" H 2000 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H34
+L V_Mechanical:Via H34
 U 1 1 5EA9C5E4
 P 7450 1950
 F 0 "H34" H 7499 1985 50  0000 L CNN
@@ -388,7 +388,7 @@ F 3 "~" H 7450 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H35
+L V_Mechanical:Via H35
 U 1 1 5EA9C5EB
 P 2550 1900
 F 0 "H35" H 2599 1935 50  0000 L CNN
@@ -399,7 +399,7 @@ F 3 "~" H 2550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H36
+L V_Mechanical:Via H36
 U 1 1 5EA9C5EC
 P 6800 2050
 F 0 "H36" H 6849 2085 50  0000 L CNN
@@ -410,7 +410,7 @@ F 3 "~" H 6800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H37
+L V_Mechanical:Via H37
 U 1 1 5EA9C5EE
 P 9350 2050
 F 0 "H37" H 9399 2085 50  0000 L CNN
@@ -421,7 +421,7 @@ F 3 "~" H 9350 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H38
+L V_Mechanical:Via H38
 U 1 1 5EA9C5EF
 P 5050 2100
 F 0 "H38" H 5099 2135 50  0000 L CNN
@@ -432,7 +432,7 @@ F 3 "~" H 5050 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H39
+L V_Mechanical:Via H39
 U 1 1 5EA9C5CB
 P 4975 2100
 F 0 "H39" H 4975 2250 50  0000 L CNN
@@ -443,7 +443,7 @@ F 3 "~" H 4975 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H40
+L V_Mechanical:Via H40
 U 1 1 5EA9C5F6
 P 4900 2100
 F 0 "H40" H 4825 2250 50  0000 L CNN
@@ -454,7 +454,7 @@ F 3 "~" H 4900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H41
+L V_Mechanical:Via H41
 U 1 1 5EA9C5F5
 P 4750 2100
 F 0 "H41" H 4750 2264 50  0000 C CNN
@@ -465,7 +465,7 @@ F 3 "~" H 4750 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H42
+L V_Mechanical:Via H42
 U 1 1 5EA9C5F4
 P 5050 2200
 F 0 "H42" H 5025 2125 50  0000 L CNN
@@ -476,7 +476,7 @@ F 3 "~" H 5050 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H43
+L V_Mechanical:Via H43
 U 1 1 5EA9C5F3
 P 4975 2200
 F 0 "H43" H 4875 2125 50  0000 L CNN
@@ -487,7 +487,7 @@ F 3 "~" H 4975 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H44
+L V_Mechanical:Via H44
 U 1 1 5EA9C5F2
 P 4900 2200
 F 0 "H44" H 4800 2150 50  0000 C CNN
@@ -498,7 +498,7 @@ F 3 "~" H 4900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H45
+L V_Mechanical:Via H45
 U 1 1 5EA9C5F1
 P 5200 2300
 F 0 "H45" H 5249 2335 50  0000 L CNN
@@ -509,7 +509,7 @@ F 3 "~" H 5200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H46
+L V_Mechanical:Via H46
 U 1 1 5EA9C5F0
 P 4250 2250
 F 0 "H46" H 4299 2285 50  0000 L CNN
@@ -520,7 +520,7 @@ F 3 "~" H 4250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H47
+L V_Mechanical:Via H47
 U 1 1 5EA9C5E3
 P 2000 2300
 F 0 "H47" H 2049 2335 50  0000 L CNN
@@ -531,7 +531,7 @@ F 3 "~" H 2000 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H48
+L V_Mechanical:Via H48
 U 1 1 5EA9C5EA
 P 9350 2550
 F 0 "H48" H 9399 2585 50  0000 L CNN
@@ -542,7 +542,7 @@ F 3 "~" H 9350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H49
+L V_Mechanical:Via H49
 U 1 1 5EA9C5E9
 P 4900 2650
 F 0 "H49" H 4949 2685 50  0000 L CNN
@@ -553,7 +553,7 @@ F 3 "~" H 4900 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H50
+L V_Mechanical:Via H50
 U 1 1 5EA9C5E8
 P 2450 2800
 F 0 "H50" H 2499 2835 50  0000 L CNN
@@ -564,7 +564,7 @@ F 3 "~" H 2450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H51
+L V_Mechanical:Via H51
 U 1 1 5EA9C5E7
 P 2000 2800
 F 0 "H51" H 2049 2835 50  0000 L CNN
@@ -575,7 +575,7 @@ F 3 "~" H 2000 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H52
+L V_Mechanical:Via H52
 U 1 1 5EA9C5E6
 P 6800 2950
 F 0 "H52" H 6849 2985 50  0000 L CNN
@@ -586,7 +586,7 @@ F 3 "~" H 6800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H53
+L V_Mechanical:Via H53
 U 1 1 5EA9C5E5
 P 7550 2950
 F 0 "H53" H 7599 2985 50  0000 L CNN
@@ -597,7 +597,7 @@ F 3 "~" H 7550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H54
+L V_Mechanical:Via H54
 U 1 1 5EA9C60A
 P 3450 3000
 F 0 "H54" H 3499 3035 50  0000 L CNN
@@ -608,7 +608,7 @@ F 3 "~" H 3450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H55
+L V_Mechanical:Via H55
 U 1 1 5EA9C609
 P 4800 3050
 F 0 "H55" H 4849 3085 50  0000 L CNN
@@ -619,7 +619,7 @@ F 3 "~" H 4800 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H56
+L V_Mechanical:Via H56
 U 1 1 5EA9C608
 P 3150 3000
 F 0 "H56" H 3199 3035 50  0000 L CNN
@@ -630,7 +630,7 @@ F 3 "~" H 3150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H57
+L V_Mechanical:Via H57
 U 1 1 5EA9C607
 P 9350 3050
 F 0 "H57" H 9399 3085 50  0000 L CNN
@@ -641,7 +641,7 @@ F 3 "~" H 9350 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H58
+L V_Mechanical:Via H58
 U 1 1 5EA9C5FF
 P 6050 3050
 F 0 "H58" H 6099 3085 50  0000 L CNN
@@ -652,7 +652,7 @@ F 3 "~" H 6050 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H59
+L V_Mechanical:Via H59
 U 1 1 5EA9C5FE
 P 5500 3050
 F 0 "H59" H 5549 3085 50  0000 L CNN
@@ -663,7 +663,7 @@ F 3 "~" H 5500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H60
+L V_Mechanical:Via H60
 U 1 1 5EA9C5FD
 P 5250 3050
 F 0 "H60" H 5299 3085 50  0000 L CNN
@@ -674,7 +674,7 @@ F 3 "~" H 5250 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H61
+L V_Mechanical:Via H61
 U 1 1 5EA9C5FC
 P 5800 3300
 F 0 "H61" H 5849 3335 50  0000 L CNN
@@ -685,7 +685,7 @@ F 3 "~" H 5800 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H62
+L V_Mechanical:Via H62
 U 1 1 5EA9C5FB
 P 2450 3300
 F 0 "H62" H 2499 3335 50  0000 L CNN
@@ -696,7 +696,7 @@ F 3 "~" H 2450 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H63
+L V_Mechanical:Via H63
 U 1 1 5EA9C5FA
 P 2000 3300
 F 0 "H63" H 2049 3335 50  0000 L CNN
@@ -707,7 +707,7 @@ F 3 "~" H 2000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H64
+L V_Mechanical:Via H64
 U 1 1 5EA9C5F8
 P 5650 3400
 F 0 "H64" H 5650 3564 50  0000 C CNN
@@ -718,7 +718,7 @@ F 3 "~" H 5650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H65
+L V_Mechanical:Via H65
 U 1 1 5EA9C601
 P 7700 3450
 F 0 "H65" H 7749 3485 50  0000 L CNN
@@ -729,7 +729,7 @@ F 3 "~" H 7700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H66
+L V_Mechanical:Via H66
 U 1 1 5EA9C5C5
 P 9350 3550
 F 0 "H66" H 9399 3585 50  0000 L CNN
@@ -740,7 +740,7 @@ F 3 "~" H 9350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H67
+L V_Mechanical:Via H67
 U 1 1 5EA9C5C8
 P 2950 3550
 F 0 "H67" H 2999 3585 50  0000 L CNN
@@ -751,7 +751,7 @@ F 3 "~" H 2950 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H68
+L V_Mechanical:Via H68
 U 1 1 5EA9C5C4
 P 7150 3750
 F 0 "H68" H 7199 3785 50  0000 L CNN
@@ -762,7 +762,7 @@ F 3 "~" H 7150 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H69
+L V_Mechanical:Via H69
 U 1 1 5EA9C5C6
 P 2450 3800
 F 0 "H69" H 2499 3835 50  0000 L CNN
@@ -773,7 +773,7 @@ F 3 "~" H 2450 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H70
+L V_Mechanical:Via H70
 U 1 1 5EA9C5C7
 P 2000 3800
 F 0 "H70" H 2049 3835 50  0000 L CNN
@@ -784,7 +784,7 @@ F 3 "~" H 2000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H71
+L V_Mechanical:Via H71
 U 1 1 5EA9C5D7
 P 5200 3850
 F 0 "H71" H 5249 3885 50  0000 L CNN
@@ -795,7 +795,7 @@ F 3 "~" H 5200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H72
+L V_Mechanical:Via H72
 U 1 1 5EA9C5E2
 P 4500 3850
 F 0 "H72" H 4549 3885 50  0000 L CNN
@@ -806,7 +806,7 @@ F 3 "~" H 4500 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H73
+L V_Mechanical:Via H73
 U 1 1 5EA9C5E1
 P 9350 4050
 F 0 "H73" H 9450 4096 50  0000 L CNN
@@ -817,7 +817,7 @@ F 3 "~" H 9350 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H74
+L V_Mechanical:Via H74
 U 1 1 5EA9C5E0
 P 8700 4100
 F 0 "H74" H 8800 4146 50  0000 L CNN
@@ -828,7 +828,7 @@ F 3 "~" H 8700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H75
+L V_Mechanical:Via H75
 U 1 1 5EA9C5DF
 P 8050 4100
 F 0 "H75" H 8150 4146 50  0000 L CNN
@@ -839,7 +839,7 @@ F 3 "~" H 8050 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H76
+L V_Mechanical:Via H76
 U 1 1 5EA9C5DE
 P 8750 4300
 F 0 "H76" H 8799 4335 50  0000 L CNN
@@ -850,7 +850,7 @@ F 3 "~" H 8750 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H77
+L V_Mechanical:Via H77
 U 1 1 5EA9C5DD
 P 2450 4300
 F 0 "H77" H 2499 4335 50  0000 L CNN
@@ -861,7 +861,7 @@ F 3 "~" H 2450 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H78
+L V_Mechanical:Via H78
 U 1 1 5EA9C5DC
 P 2000 4300
 F 0 "H78" H 2049 4335 50  0000 L CNN
@@ -872,7 +872,7 @@ F 3 "~" H 2000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H79
+L V_Mechanical:Via H79
 U 1 1 5EA9C5DB
 P 7600 4400
 F 0 "H79" H 7600 4564 50  0000 C CNN
@@ -883,7 +883,7 @@ F 3 "~" H 7600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H81
+L V_Mechanical:Via H81
 U 1 1 5EA9C5DA
 P 9350 4600
 F 0 "H81" H 9399 4635 50  0000 L CNN
@@ -894,7 +894,7 @@ F 3 "~" H 9350 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H82
+L V_Mechanical:Via H82
 U 1 1 5EA9C5D9
 P 2000 4850
 F 0 "H82" H 2049 4885 50  0000 L CNN
@@ -905,7 +905,7 @@ F 3 "~" H 2000 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H83
+L V_Mechanical:Via H83
 U 1 1 5EA9C5D8
 P 9350 5100
 F 0 "H83" H 9399 5135 50  0000 L CNN
@@ -916,7 +916,7 @@ F 3 "~" H 9350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H84
+L V_Mechanical:Via H84
 U 1 1 5EA9C5CA
 P 7050 5100
 F 0 "H84" H 7099 5135 50  0000 L CNN
@@ -927,7 +927,7 @@ F 3 "~" H 7050 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H85
+L V_Mechanical:Via H85
 U 1 1 5EA9C5D6
 P 2000 5350
 F 0 "H85" H 2049 5385 50  0000 L CNN
@@ -938,7 +938,7 @@ F 3 "~" H 2000 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H86
+L V_Mechanical:Via H86
 U 1 1 5EA9C5D5
 P 9200 5400
 F 0 "H86" H 9249 5435 50  0000 L CNN
@@ -949,7 +949,7 @@ F 3 "~" H 9200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H87
+L V_Mechanical:Via H87
 U 1 1 5EA9C5D4
 P 8700 5400
 F 0 "H87" H 8749 5435 50  0000 L CNN
@@ -960,7 +960,7 @@ F 3 "~" H 8700 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H88
+L V_Mechanical:Via H88
 U 1 1 5EA9C5D3
 P 8450 5400
 F 0 "H88" H 8499 5435 50  0000 L CNN
@@ -971,7 +971,7 @@ F 3 "~" H 8450 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H89
+L V_Mechanical:Via H89
 U 1 1 5EA9C5D2
 P 2900 5400
 F 0 "H89" H 2949 5435 50  0000 L CNN
@@ -982,7 +982,7 @@ F 3 "~" H 2900 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H90
+L V_Mechanical:Via H90
 U 1 1 5EA9C5D0
 P 2400 5400
 F 0 "H90" H 2449 5435 50  0000 L CNN
@@ -993,7 +993,7 @@ F 3 "~" H 2400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H91
+L V_Mechanical:Via H91
 U 1 1 5EA9C5CF
 P 6000 5450
 F 0 "H91" H 6049 5485 50  0000 L CNN
@@ -1004,7 +1004,7 @@ F 3 "~" H 6000 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H92
+L V_Mechanical:Via H92
 U 1 1 5EA9C5CE
 P 8450 5700
 F 0 "H92" H 8499 5735 50  0000 L CNN
@@ -1015,7 +1015,7 @@ F 3 "~" H 8450 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H93
+L V_Mechanical:Via H93
 U 1 1 5EA9C5CD
 P 2900 5950
 F 0 "H93" H 2949 5985 50  0000 L CNN
@@ -1026,7 +1026,7 @@ F 3 "~" H 2900 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H94
+L V_Mechanical:Via H94
 U 1 1 5EA9C5CC
 P 8450 6200
 F 0 "H94" H 8499 6235 50  0000 L CNN
@@ -1037,7 +1037,7 @@ F 3 "~" H 8450 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H95
+L V_Mechanical:Via H95
 U 1 1 5EA9C5C9
 P 8050 6350
 F 0 "H95" H 8099 6385 50  0000 L CNN
@@ -1048,7 +1048,7 @@ F 3 "~" H 8050 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H96
+L V_Mechanical:Via H96
 U 1 1 5EA9C651
 P 7550 6350
 F 0 "H96" H 7599 6385 50  0000 L CNN
@@ -1059,7 +1059,7 @@ F 3 "~" H 7550 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H97
+L V_Mechanical:Via H97
 U 1 1 5EA9C646
 P 7050 6350
 F 0 "H97" H 7099 6385 50  0000 L CNN
@@ -1070,7 +1070,7 @@ F 3 "~" H 7050 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H98
+L V_Mechanical:Via H98
 U 1 1 5EA9C645
 P 6550 6350
 F 0 "H98" H 6599 6385 50  0000 L CNN
@@ -1081,7 +1081,7 @@ F 3 "~" H 6550 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H99
+L V_Mechanical:Via H99
 U 1 1 5EA9C644
 P 6000 6350
 F 0 "H99" H 5925 6500 50  0000 L CNN
@@ -1092,7 +1092,7 @@ F 3 "~" H 6000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H100
+L V_Mechanical:Via H100
 U 1 1 5EA9C643
 P 5500 6350
 F 0 "H100" H 5549 6385 50  0000 L CNN
@@ -1103,7 +1103,7 @@ F 3 "~" H 5500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H101
+L V_Mechanical:Via H101
 U 1 1 5EA9C642
 P 5000 6350
 F 0 "H101" H 5049 6385 50  0000 L CNN
@@ -1114,7 +1114,7 @@ F 3 "~" H 5000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H102
+L V_Mechanical:Via H102
 U 1 1 5EA9C641
 P 4500 6350
 F 0 "H102" H 4549 6385 50  0000 L CNN
@@ -1125,7 +1125,7 @@ F 3 "~" H 4500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H103
+L V_Mechanical:Via H103
 U 1 1 5EA9C640
 P 4000 6350
 F 0 "H103" H 4049 6385 50  0000 L CNN
@@ -1136,7 +1136,7 @@ F 3 "~" H 4000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H104
+L V_Mechanical:Via H104
 U 1 1 5EA9C63F
 P 3500 6350
 F 0 "H104" H 3549 6385 50  0000 L CNN
@@ -1147,7 +1147,7 @@ F 3 "~" H 3500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H105
+L V_Mechanical:Via H105
 U 1 1 5EA9C63E
 P 3000 6350
 F 0 "H105" H 3049 6385 50  0000 L CNN
@@ -1158,7 +1158,7 @@ F 3 "~" H 3000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V1
+L V_Mechanical:Via V1
 U 1 1 5EA9C633
 P 4700 4100
 F 0 "V1" H 4749 4135 50  0000 L CNN
@@ -1169,7 +1169,7 @@ F 3 "~" H 4700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V2
+L V_Mechanical:Via V2
 U 1 1 5EA9C63C
 P 3600 1150
 F 0 "V2" H 3649 1185 50  0000 L CNN
@@ -1180,7 +1180,7 @@ F 3 "~" H 3600 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V3
+L V_Mechanical:Via V3
 U 1 1 5EA9C63B
 P 8500 3250
 F 0 "V3" H 8452 3285 50  0000 R CNN
@@ -1191,7 +1191,7 @@ F 3 "~" H 8500 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V4
+L V_Mechanical:Via V4
 U 1 1 5EA9C63A
 P 4850 3450
 F 0 "V4" H 4899 3485 50  0000 L CNN
@@ -1202,7 +1202,7 @@ F 3 "~" H 4850 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V5
+L V_Mechanical:Via V5
 U 1 1 5EA9C639
 P 7800 4350
 F 0 "V5" H 7849 4385 50  0000 L CNN
@@ -1213,7 +1213,7 @@ F 3 "~" H 7800 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V6
+L V_Mechanical:Via V6
 U 1 1 5EA9C638
 P 3150 4850
 F 0 "V6" H 3199 4885 50  0000 L CNN
@@ -1224,7 +1224,7 @@ F 3 "~" H 3150 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V7
+L V_Mechanical:Via V7
 U 1 1 5EA9C637
 P 8600 3500
 F 0 "V7" H 8649 3535 50  0000 L CNN
@@ -1235,7 +1235,7 @@ F 3 "~" H 8600 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V8
+L V_Mechanical:Via V8
 U 1 1 5EA9C636
 P 7100 4450
 F 0 "V8" H 7149 4485 50  0000 L CNN
@@ -1246,7 +1246,7 @@ F 3 "~" H 7100 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V9
+L V_Mechanical:Via V9
 U 1 1 5EA9C635
 P 8450 4700
 F 0 "V9" H 8499 4735 50  0000 L CNN
@@ -1257,7 +1257,7 @@ F 3 "~" H 8450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V10
+L V_Mechanical:Via V10
 U 1 1 5EA9C634
 P 2900 1950
 F 0 "V10" H 2949 1985 50  0000 L CNN
@@ -1268,7 +1268,7 @@ F 3 "~" H 2900 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V11
+L V_Mechanical:Via V11
 U 1 1 5EA9C63D
 P 2800 2850
 F 0 "V11" H 2800 2756 50  0000 C CNN
@@ -1279,7 +1279,7 @@ F 3 "~" H 2800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V12
+L V_Mechanical:Via V12
 U 1 1 5EA9C659
 P 6000 1550
 F 0 "V12" H 6049 1585 50  0000 L CNN
@@ -1290,7 +1290,7 @@ F 3 "~" H 6000 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V13
+L V_Mechanical:Via V13
 U 1 1 5EA9C658
 P 7400 1650
 F 0 "V13" H 7449 1685 50  0000 L CNN
@@ -1301,7 +1301,7 @@ F 3 "~" H 7400 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V14
+L V_Mechanical:Via V14
 U 1 1 5EA9C657
 P 5300 2550
 F 0 "V14" H 5349 2585 50  0000 L CNN
@@ -1312,7 +1312,7 @@ F 3 "~" H 5300 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V15
+L V_Mechanical:Via V15
 U 1 1 5EA9C656
 P 7700 4100
 F 0 "V15" H 7749 4135 50  0000 L CNN
@@ -1323,7 +1323,7 @@ F 3 "~" H 7700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V16
+L V_Mechanical:Via V16
 U 1 1 5EA9C655
 P 3350 3150
 F 0 "V16" H 3350 3056 50  0000 C CNN
@@ -1334,7 +1334,7 @@ F 3 "~" H 3350 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V17
+L V_Mechanical:Via V17
 U 1 1 5EA9C652
 P 2850 3150
 F 0 "V17" H 2899 3185 50  0000 L CNN
@@ -1345,7 +1345,7 @@ F 3 "~" H 2850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V18
+L V_Mechanical:Via V18
 U 1 1 5EA9C647
 P 4250 4300
 F 0 "V18" H 4250 4464 50  0000 C CNN
@@ -1356,7 +1356,7 @@ F 3 "~" H 4250 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V19
+L V_Mechanical:Via V19
 U 1 1 5EA9C650
 P 3050 4600
 F 0 "V19" H 3050 4506 50  0000 C CNN
@@ -1367,7 +1367,7 @@ F 3 "~" H 3050 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V20
+L V_Mechanical:Via V20
 U 1 1 5EA9C64F
 P 8650 1500
 F 0 "V20" H 8699 1535 50  0000 L CNN
@@ -1378,7 +1378,7 @@ F 3 "~" H 8650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V21
+L V_Mechanical:Via V21
 U 1 1 5EA9C64E
 P 8750 2450
 F 0 "V21" H 8799 2485 50  0000 L CNN
@@ -1389,7 +1389,7 @@ F 3 "~" H 8750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V22
+L V_Mechanical:Via V22
 U 1 1 5EA9C64D
 P 9100 1050
 F 0 "V22" H 9149 1085 50  0000 L CNN
@@ -1400,7 +1400,7 @@ F 3 "~" H 9100 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V23
+L V_Mechanical:Via V23
 U 1 1 5EA9C64C
 P 6000 1100
 F 0 "V23" H 6049 1135 50  0000 L CNN
@@ -1411,7 +1411,7 @@ F 3 "~" H 6000 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V24
+L V_Mechanical:Via V24
 U 1 1 5EA9C610
 P 8400 1150
 F 0 "V24" H 8449 1185 50  0000 L CNN
@@ -1422,7 +1422,7 @@ F 3 "~" H 8400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V25
+L V_Mechanical:Via V25
 U 1 1 5EA9C60F
 P 6750 1250
 F 0 "V25" H 6799 1285 50  0000 L CNN
@@ -1433,7 +1433,7 @@ F 3 "~" H 6750 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V26
+L V_Mechanical:Via V26
 U 1 1 5EA9C60E
 P 4400 2650
 F 0 "V26" H 4449 2685 50  0000 L CNN
@@ -1444,7 +1444,7 @@ F 3 "~" H 4400 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V27
+L V_Mechanical:Via V27
 U 1 1 5EA9C60D
 P 4500 3400
 F 0 "V27" H 4549 3435 50  0000 L CNN
@@ -1455,7 +1455,7 @@ F 3 "~" H 4500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V28
+L V_Mechanical:Via V28
 U 1 1 5EA9C60C
 P 8050 3450
 F 0 "V28" H 8099 3485 50  0000 L CNN
@@ -1466,7 +1466,7 @@ F 3 "~" H 8050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V29
+L V_Mechanical:Via V29
 U 1 1 5EA9C615
 P 3900 4850
 F 0 "V29" H 3949 4885 50  0000 L CNN
@@ -1477,7 +1477,7 @@ F 3 "~" H 3900 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V30
+L V_Mechanical:Via V30
 U 1 1 5EA9C632
 P 6500 2550
 F 0 "V30" H 6549 2585 50  0000 L CNN
@@ -1488,7 +1488,7 @@ F 3 "~" H 6500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V31
+L V_Mechanical:Via V31
 U 1 1 5EA9C631
 P 7650 1300
 F 0 "V31" H 7699 1335 50  0000 L CNN
@@ -1499,7 +1499,7 @@ F 3 "~" H 7650 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V32
+L V_Mechanical:Via V32
 U 1 1 5EA9C630
 P 8350 1950
 F 0 "V32" H 8350 2114 50  0000 C CNN
@@ -1510,7 +1510,7 @@ F 3 "~" H 8350 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V33
+L V_Mechanical:Via V33
 U 1 1 5EA9C62F
 P 6800 4150
 F 0 "V33" H 6849 4185 50  0000 L CNN
@@ -1521,7 +1521,7 @@ F 3 "~" H 6800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V34
+L V_Mechanical:Via V34
 U 1 1 5EA9C62E
 P 5150 1600
 F 0 "V34" H 5199 1635 50  0000 L CNN
@@ -1532,7 +1532,7 @@ F 3 "~" H 5150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V35
+L V_Mechanical:Via V35
 U 1 1 5EA9C62D
 P 4800 1600
 F 0 "V35" H 4849 1635 50  0000 L CNN
@@ -1543,7 +1543,7 @@ F 3 "~" H 4800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V36
+L V_Mechanical:Via V36
 U 1 1 5EA9C62C
 P 4800 1550
 F 0 "V36" H 4800 1714 50  0000 C CNN
@@ -1554,7 +1554,7 @@ F 3 "~" H 4800 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V37
+L V_Mechanical:Via V37
 U 1 1 5EA9C62B
 P 4450 1300
 F 0 "V37" H 4499 1335 50  0000 L CNN
@@ -1565,7 +1565,7 @@ F 3 "~" H 4450 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V38
+L V_Mechanical:Via V38
 U 1 1 5EA9C62A
 P 5000 1300
 F 0 "V38" H 5000 1464 50  0000 C CNN
@@ -1576,7 +1576,7 @@ F 3 "~" H 5000 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V39
+L V_Mechanical:Via V39
 U 1 1 5EA9C61F
 P 5550 1300
 F 0 "V39" H 5599 1335 50  0000 L CNN
@@ -1587,7 +1587,7 @@ F 3 "~" H 5550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V40
+L V_Mechanical:Via V40
 U 1 1 5EA9C628
 P 5150 1550
 F 0 "V40" H 5150 1714 50  0000 C CNN
@@ -1598,7 +1598,7 @@ F 3 "~" H 5150 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V41
+L V_Mechanical:Via V41
 U 1 1 5EA9C627
 P 4100 900
 F 0 "V41" H 4100 1064 50  0000 C CNN
@@ -1609,7 +1609,7 @@ F 3 "~" H 4100 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V42
+L V_Mechanical:Via V42
 U 1 1 5EA9C626
 P 4100 1100
 F 0 "V42" H 4051 1135 50  0000 R CNN
@@ -1620,7 +1620,7 @@ F 3 "~" H 4100 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V43
+L V_Mechanical:Via V43
 U 1 1 5EA9C625
 P 4100 1200
 F 0 "V43" H 4149 1235 50  0000 L CNN
@@ -1631,7 +1631,7 @@ F 3 "~" H 4100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V44
+L V_Mechanical:Via V44
 U 1 1 5EA9C624
 P 4100 1400
 F 0 "V44" H 4051 1435 50  0000 R CNN
@@ -1642,7 +1642,7 @@ F 3 "~" H 4100 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V45
+L V_Mechanical:Via V45
 U 1 1 5EA9C623
 P 4100 1550
 F 0 "V45" H 4149 1585 50  0000 L CNN
@@ -1653,7 +1653,7 @@ F 3 "~" H 4100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V46
+L V_Mechanical:Via V46
 U 1 1 5EA9C622
 P 4100 1700
 F 0 "V46" H 4051 1735 50  0000 R CNN
@@ -1664,7 +1664,7 @@ F 3 "~" H 4100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V47
+L V_Mechanical:Via V47
 U 1 1 5EA9C621
 P 8600 3150
 F 0 "V47" H 8600 3314 50  0000 C CNN
@@ -1675,7 +1675,7 @@ F 3 "~" H 8600 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V48
+L V_Mechanical:Via V48
 U 1 1 5EA9C620
 P 7350 5600
 F 0 "V48" H 7399 5635 50  0000 L CNN
@@ -1686,7 +1686,7 @@ F 3 "~" H 7350 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V49
+L V_Mechanical:Via V49
 U 1 1 5EA9C611
 P 4150 2850
 F 0 "V49" H 4101 2885 50  0000 R CNN
@@ -1697,7 +1697,7 @@ F 3 "~" H 4150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V50
+L V_Mechanical:Via V50
 U 1 1 5EA9C612
 P 7050 4600
 F 0 "V50" H 7001 4635 50  0000 R CNN
@@ -1708,7 +1708,7 @@ F 3 "~" H 7050 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V51
+L V_Mechanical:Via V51
 U 1 1 5EA9C613
 P 4300 4900
 F 0 "V51" H 4349 4935 50  0000 L CNN
@@ -1719,7 +1719,7 @@ F 3 "~" H 4300 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V52
+L V_Mechanical:Via V52
 U 1 1 5EA9C614
 P 5200 3500
 F 0 "V52" H 5249 3535 50  0000 L CNN
@@ -1730,7 +1730,7 @@ F 3 "~" H 5200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V53
+L V_Mechanical:Via V53
 U 1 1 5EA9C60B
 P 7850 2150
 F 0 "V53" H 7899 2185 50  0000 L CNN
@@ -1741,7 +1741,7 @@ F 3 "~" H 7850 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V54
+L V_Mechanical:Via V54
 U 1 1 5EA9C616
 P 5050 3350
 F 0 "V54" H 5099 3385 50  0000 L CNN
@@ -1752,7 +1752,7 @@ F 3 "~" H 5050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V55
+L V_Mechanical:Via V55
 U 1 1 5EA9C617
 P 7250 4200
 F 0 "V55" H 7299 4235 50  0000 L CNN
@@ -1763,7 +1763,7 @@ F 3 "~" H 7250 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V56
+L V_Mechanical:Via V56
 U 1 1 5EA9C618
 P 3450 1450
 F 0 "V56" H 3499 1485 50  0000 L CNN
@@ -1774,7 +1774,7 @@ F 3 "~" H 3450 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V57
+L V_Mechanical:Via V57
 U 1 1 5EA9C619
 P 7700 2800
 F 0 "V57" H 7700 2964 50  0000 C CNN
@@ -1785,7 +1785,7 @@ F 3 "~" H 7700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V58
+L V_Mechanical:Via V58
 U 1 1 5EA9C61A
 P 7000 2850
 F 0 "V58" H 7049 2885 50  0000 L CNN
@@ -1796,7 +1796,7 @@ F 3 "~" H 7000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V59
+L V_Mechanical:Via V59
 U 1 1 5EA9C61B
 P 6300 2850
 F 0 "V59" H 6300 3014 50  0000 C CNN
@@ -1807,7 +1807,7 @@ F 3 "~" H 6300 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V60
+L V_Mechanical:Via V60
 U 1 1 5EA9C61C
 P 3650 4500
 F 0 "V60" H 3602 4535 50  0000 R CNN
@@ -1818,7 +1818,7 @@ F 3 "~" H 3650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V61
+L V_Mechanical:Via V61
 U 1 1 5EA9C61D
 P 6450 3550
 F 0 "V61" H 6499 3585 50  0000 L CNN
@@ -1829,7 +1829,7 @@ F 3 "~" H 6450 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V62
+L V_Mechanical:Via V62
 U 1 1 5EA9C61E
 P 5050 1800
 F 0 "V62" H 5099 1835 50  0000 L CNN
@@ -1840,7 +1840,7 @@ F 3 "~" H 5050 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V63
+L V_Mechanical:Via V63
 U 1 1 5EA9C629
 P 5900 3550
 F 0 "V63" H 5949 3585 50  0000 L CNN
@@ -1851,7 +1851,7 @@ F 3 "~" H 5900 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V64
+L V_Mechanical:Via V64
 U 1 1 5EA9C648
 P 4900 1800
 F 0 "V64" H 4852 1835 50  0000 R CNN
@@ -1862,7 +1862,7 @@ F 3 "~" H 4900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V65
+L V_Mechanical:Via V65
 U 1 1 5EA9C649
 P 4750 5550
 F 0 "V65" H 4799 5585 50  0000 L CNN
@@ -1873,7 +1873,7 @@ F 3 "~" H 4750 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V66
+L V_Mechanical:Via V66
 U 1 1 5EA9C64A
 P 4750 4700
 F 0 "V66" H 4799 4735 50  0000 L CNN
@@ -1884,7 +1884,7 @@ F 3 "~" H 4750 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V67
+L V_Mechanical:Via V67
 U 1 1 5EA9C653
 P 8700 3250
 F 0 "V67" H 8749 3285 50  0000 L CNN
@@ -1895,7 +1895,7 @@ F 3 "~" H 8700 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via V68
+L V_Mechanical:Via V68
 U 1 1 5EA9C654
 P 7150 5600
 F 0 "V68" H 7150 5764 50  0000 C CNN
@@ -1906,7 +1906,7 @@ F 3 "~" H 7150 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GR106768_Buzzer:Via H80
+L V_Mechanical:Via H80
 U 1 1 5EA9C64B
 P 2950 4500
 F 0 "H80" H 2950 4664 50  0000 C CNN

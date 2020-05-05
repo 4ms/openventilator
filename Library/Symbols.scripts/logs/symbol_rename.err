@@ -1,0 +1,27 @@
+renameSchSyms.py ran: 2020-04-30 16:28:06.114929
+ERROR: Ref FLTR2 with library 10005011_Power_Management:BNX002-01 not found in any .sch file in ../../10005011 Power Management. Please manually change this part's lib to FLTR:BNX002-01
+ERROR: Ref SW2 with library 10005011_Power_Management:MCDM(R)-02-T not found in any .sch file in ../../10005011 Power Management. Please manually change this part's lib to Switch:MCDM(R)-02-T
+ERROR: Ref L10 with library Device:Ferrite_Bead_Small not found in any .sch file in ../../10005011 Power Management. Please manually change this part's lib to Inductor:Ferrite_Bead_Small_10039587
+ERROR: Ref L24 with library Device:Ferrite_Bead_Small not found in any .sch file in ../../10005011 Power Management. Please manually change this part's lib to Inductor:Ferrite_Bead_Small_10039587
+ERROR: Ref L25 with library Device:Ferrite_Bead_Small not found in any .sch file in ../../10005011 Power Management. Please manually change this part's lib to Inductor:Ferrite_Bead_Small_10039587
+ERROR: Ref L26 with library Device:Ferrite_Bead_Small not found in any .sch file in ../../10005011 Power Management. Please manually change this part's lib to Inductor:Ferrite_Bead_Small_10039587
+ERROR: Ref C17 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C18 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C38 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C41 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C52 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C55 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C56 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C58 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C100 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref C111 with library cpu-board:RES_4CB not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Capacitor:RES_4CB
+ERROR: Ref IC41 with library cpu-board:74HCT1G04GW not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to IC:74HCT1G04GW
+ERROR: Ref IC42 with library cpu-board:74HCT1G32GW not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to IC:74HCT1G32GW
+ERROR: Ref IC43 with library cpu-board:74HCT1G32GW not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to IC:74HCT1G32GW
+ERROR: Ref R45 with library cpu-board:JUMP_0U not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Jumper:JUMP_0U
+ERROR: Ref R69 with library cpu-board:JUMP_0U not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Jumper:JUMP_0U
+ERROR: Ref RS1 with library cpu-board:RES_4R_BCN not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Resistor:R1206_6k8_5%
+ERROR: Ref RS3 with library cpu-board:RES_4R_BCN not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Resistor:R1206_6k8_5%
+ERROR: Ref RS4 with library cpu-board:RES_4R_BCN not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Resistor:R1206_6k8_5%
+ERROR: Ref RS5 with library cpu-board:RES_4R_BCN not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Resistor:R1206_6k8_5%
+ERROR: Ref RS6 with library cpu-board:RES_4R_BCN not found in any .sch file in ../../CPU_RB0505. Please manually change this part's lib to Resistor:R1206_6k8_5%

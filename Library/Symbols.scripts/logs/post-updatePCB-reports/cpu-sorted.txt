@@ -1,0 +1,480 @@
+Add BL1 (footprint “AllModules:BLIN-AWM”).
+Add BL3 (footprint “AllModules:BLIN-AWM”).
+Add IC15 (footprint “AllModules:AWM3300V”).
+Add IC17 (footprint “AllModules:AWM3300V”).
+Add JPL1 (footprint “AllModules:C12000_0”).
+Change C109 value from 100nF to DNP.
+Change C113 value from 100nF to DNP.
+Change C35 value from 100nF to DNP.
+Change C40 value from 100nF to DNP.
+Change C48 value from 100nF to DNP.
+Change C57 value from 100nF to DNP.
+Change CAM1 value from A3_EQFS_COVIDIEN to Fiducial.
+Change CAM2 value from A3_EQFC_COVIDIEN to Fiducial.
+Change CAM3 value from PER-COVIDIEN_TEXTE to Fiducial.
+Change IC27 value from SQ276 to DNP.
+Change IC28 value from SQ276 to DNP.
+Change IC30 value from SQ276 to DNP.
+Change IC31 value from M41T94MQ6E to DNP.
+Change IC34 value from SQ276 to DNP.
+Change IC35 value from SQ276 to DNP.
+Change IC6 value from SN74LVC1G07DBVT to DNP.
+Change J6 value from 87606-408 to DNP.
+Change JP5 value from JUMP_0U to DNP.
+Change L13 value from   to DNP.
+Change L36 value from Ferrite 200mA to DNP.
+Change L38 value from Ferrite 200mA to DNP.
+Change L39 value from Ferrite 200mA to DNP.
+Change L40 value from Ferrite 200mA to DNP.
+Change L41 value from Ferrite 200mA to DNP.
+Change MIR1 value from MIRECMS to Fiducial.
+Change MIR2 value from MIRECMS to Fiducial.
+Change MIR3 value from MIRECMS to Fiducial.
+Change MIR4 value from MIRECMS to Fiducial.
+Change Q3 value from 32,768KHz to DNP.
+Change R30 value from 0 to DNP.
+Change R47 value from 10k to DNP.
+Change R69 value from 0 to 0R.
+Change T16 value from IRLML5103 to DNP.
+Change ZC106 value from C-BTP-801 to 220uF.
+Change ZC21 value from C-BTP-802 to 100uF.
+Change ZM1 value from FIX-0035 to MountingHole.
+Change ZM10 value from FIX-0035 to MountingHole.
+Change ZM11 value from FIX-0035 to MountingHole.
+Change ZM12 value from FIX-0030 to SmallHole.
+Change ZM13 value from FIX-0030 to SmallHole.
+Change ZM2 value from FIX-0035 to MountingHole.
+Change ZM3 value from FIX-0035 to MountingHole.
+Change ZM4 value from FIX-0035 to MountingHole.
+Change ZM5 value from FIX-0035 to MountingHole.
+Change ZM6 value from FIX-0035 to MountingHole.
+Change ZM7 value from FIX-0035 to MountingHole.
+Change ZM8 value from FIX-0035 to MountingHole.
+Change ZM9 value from FIX-0035 to MountingHole.
+Info: Change symbol path “CAM1:” to “/5E9C1ED0”.
+Info: Change symbol path “CAM2:” to “/5E9C238F”.
+Info: Change symbol path “CAM3:” to “/5E9C260F”.
+Info: Change symbol path “IC11:/5E924756/D9B46218” to “/5E924756/D9B4621C”.
+Info: Change symbol path “MIR1:” to “/5E9BC652”.
+Info: Change symbol path “MIR2:” to “/5E9BE4E3”.
+Info: Change symbol path “MIR3:” to “/5E9BE6CC”.
+Info: Change symbol path “MIR4:” to “/5E9BE945”.
+Info: Change symbol path “ZC106:” to “/5E92540F/5EA53F33”.
+Info: Change symbol path “ZC21:” to “/5E92540F/5EA4EF1D”.
+Info: Change symbol path “ZM10:” to “/5EA85DE1”.
+Info: Change symbol path “ZM11:” to “/5EA85DEB”.
+Info: Change symbol path “ZM12:” to “/5EA85DF5”.
+Info: Change symbol path “ZM13:” to “/5EA87776”.
+Info: Change symbol path “ZM1:” to “/5EA72855”.
+Info: Change symbol path “ZM2:” to “/5EA7D06E”.
+Info: Change symbol path “ZM3:” to “/5EA7DBDF”.
+Info: Change symbol path “ZM4:” to “/5EA7DBE9”.
+Info: Change symbol path “ZM5:” to “/5EA7E64F”.
+Info: Change symbol path “ZM6:” to “/5EA7E659”.
+Info: Change symbol path “ZM7:” to “/5EA7E663”.
+Info: Change symbol path “ZM8:” to “/5EA7E66D”.
+Info: Change symbol path “ZM9:” to “/5EA85DD7”.
+Info: Processing component “ANT1:/5E9258C0/9927FDA6:AllModules:PT-1.0MM_TEST_1”.
+Info: Processing component “BL1:/5E924D33/AAFF44B7:AllModules:BLIN-AWM”.
+Info: Processing component “BL2:/5E924D33/04E96AC4:AllModules:B2CAP-RB0505_1”.
+Info: Processing component “BL3:/5E924D33/6617CE3C:AllModules:BLIN-AWM”.
+Info: Processing component “BL4:/5E924D33/2C3F9162:AllModules:B3CAP-RB0505_1”.
+Info: Processing component “BUZ1:/5E924756/A198C796:AllModules:HMB12_1”.
+Info: Processing component “C100:/5E9258C0/809CF3B7:AllModules:C0612-4_1”.
+Info: Processing component “C101:/5E9258C0/D5229C91:AllModules:C0402_1”.
+Info: Processing component “C102:/5E924D33/DC61BB42:AllModules:C0805_1”.
+Info: Processing component “C103:/5E924D33/0E789015:AllModules:C0402_1”.
+Info: Processing component “C104:/5E924D33/CA435796:AllModules:C0603_1”.
+Info: Processing component “C105:/5E92540F/DFA69215:AllModules:C0805_1”.
+Info: Processing component “C106:/5E92540F/F8977F3B:AllModules:C-SC8_1”.
+Info: Processing component “C107:/5E92540F/21969A4D:AllModules:C0402_1”.
+Info: Processing component “C108:/5E92540F/1DA7F1EB:AllModules:C6032_1”.
+Info: Processing component “C109:/5E924D33/FBCF1DE2:AllModules:C0402_1”.
+Info: Processing component “C10:/5E923584/CB1F8FE5:AllModules:C0402_1”.
+Info: Processing component “C110:/5E923584/662809D9:AllModules:C0402_1”.
+Info: Processing component “C111:/5E926050/C2212B5B:AllModules:C0612-4_1”.
+Info: Processing component “C112:/5E923584/C17297D4:AllModules:C0805_1”.
+Info: Processing component “C113:/5E924D33/8719094B:AllModules:C0402_1”.
+Info: Processing component “C114:/5E923584/9A495DAC:AllModules:C0805_1”.
+Info: Processing component “C115:/5E9258C0/D42B91C8:AllModules:C0402_1”.
+Info: Processing component “C116:/5E923584/150190AD:AllModules:C0402_1”.
+Info: Processing component “C117:/5E92540F/E481EE55:AllModules:C7343_1”.
+Info: Processing component “C11:/5E9258C0/F1735AC7:AllModules:C0402_1”.
+Info: Processing component “C120:/5E923584/284AD347:AllModules:C0402_1”.
+Info: Processing component “C121:/5E9258C0/84C1574D:AllModules:C0402_1”.
+Info: Processing component “C122:/5E9258C0/AE0F7B61:AllModules:C0402_1”.
+Info: Processing component “C123:/5E9258C0/E72891DF:AllModules:C0402_1”.
+Info: Processing component “C124:/5E9258C0/F26774BC:AllModules:C0402_1”.
+Info: Processing component “C126:/5E9258C0/D8DBD313:AllModules:C0402_1”.
+Info: Processing component “C127:/5E9258C0/6407AC1D:AllModules:C0402_1”.
+Info: Processing component “C12:/5E9258C0/DF23C80B:AllModules:C0402_1”.
+Info: Processing component “C130:/5E9258C0/A2A653D3:AllModules:C0402_1”.
+Info: Processing component “C13:/5E9258C0/F7DD181D:AllModules:C0402_1”.
+Info: Processing component “C140:/5E924110/63F00A8C:AllModules:C0402_1”.
+Info: Processing component “C14:/5E923584/8BD8962D:AllModules:C0612-4_1”.
+Info: Processing component “C15:/5E924110/58269073:AllModules:C0402_1”.
+Info: Processing component “C16:/5E924110/8F520983:AllModules:C0603_1”.
+Info: Processing component “C17:/5E926050/D8976320:AllModules:C0612-4_1”.
+Info: Processing component “C18:/5E926050/03290900:AllModules:C0612-4_1”.
+Info: Processing component “C19:/5E926050/9CA42FFB:AllModules:C3528_1”.
+Info: Processing component “C1:/5E923584/7EE2FFE3:AllModules:C0603_1”.
+Info: Processing component “C20:/5E924110/D1510C23:AllModules:C0402_1”.
+Info: Processing component “C21:/5E92540F/967DA045:AllModules:C-SC8_1”.
+Info: Processing component “C22:/5E923584/A05C1986:AllModules:C0402_1”.
+Info: Processing component “C23:/5E923584/93AA069D:AllModules:C0402_1”.
+Info: Processing component “C24:/5E924110/7752927D:AllModules:C0402_1”.
+Info: Processing component “C25:/5E923584/5F5D481B:AllModules:C0402_1”.
+Info: Processing component “C26:/5E923584/0EABB629:AllModules:C0402_1”.
+Info: Processing component “C27:/5E923584/C9504634:AllModules:C0402_1”.
+Info: Processing component “C28:/5E923584/AB97CB13:AllModules:C0402_1”.
+Info: Processing component “C29:/5E923584/BCAFF6B0:AllModules:C0402_1”.
+Info: Processing component “C2:/5E924110/6D294609:AllModules:C0402_1”.
+Info: Processing component “C30:/5E924110/107458DA:AllModules:C0402_1”.
+Info: Processing component “C31:/5E926050/0C4556A5:AllModules:C3216_1”.
+Info: Processing component “C32:/5E926050/FD532AD7:AllModules:C3216_1”.
+Info: Processing component “C33:/5E924110/C9502F30:AllModules:C0402_1”.
+Info: Processing component “C34:/5E926050/555B33A9:AllModules:C3216_1”.
+Info: Processing component “C35:/5E926050/31890B0B:AllModules:C0402_1”.
+Info: Processing component “C36:/5E923584/597E8BEF:AllModules:C0402_1”.
+Info: Processing component “C37:/5E924110/235E1F38:AllModules:C0402_1”.
+Info: Processing component “C38:/5E9258C0/897E4B72:AllModules:C0612-4_1”.
+Info: Processing component “C39:/5E924756/849D34A1:AllModules:C0603_1”.
+Info: Processing component “C3:/5E923584/5ADCC44B:AllModules:C0603_1”.
+Info: Processing component “C40:/5E924D33/001A6BB2:AllModules:C0402_1”.
+Info: Processing component “C41:/5E926050/25C7D5B9:AllModules:C0612-4_1”.
+Info: Processing component “C42:/5E924756/E64E96FA:AllModules:C0402_1”.
+Info: Processing component “C43:/5E924756/A25B9E4F:AllModules:C0603_1”.
+Info: Processing component “C44:/5E924756/43269358:AllModules:C0402_1”.
+Info: Processing component “C45:/5E924756/72A1248A:AllModules:C0603_1”.
+Info: Processing component “C46:/5E92540F/5EB01C7B:AllModules:C0805_1”.
+Info: Processing component “C47:/5E92540F/5EB01229:AllModules:C0402_1”.
+Info: Processing component “C48:/5E924D33/8B0D254A:AllModules:C0402_1”.
+Info: Processing component “C49:/5E924756/36DDF578:AllModules:C0402_1”.
+Info: Processing component “C4:/5E924110/A60240AA:AllModules:C0402_1”.
+Info: Processing component “C50:/5E924756/38BC030E:AllModules:C0603_1”.
+Info: Processing component “C51:/5E923584/7614D321:AllModules:C0402_1”.
+Info: Processing component “C52:/5E926050/D9AC599B:AllModules:C0612-4_1”.
+Info: Processing component “C53:/5E924756/EE013C0B:AllModules:C0603_1”.
+Info: Processing component “C54:/5E924756/B2D23927:AllModules:C0805_1”.
+Info: Processing component “C55:/5E926050/BAACCAAE:AllModules:C0612-4_1”.
+Info: Processing component “C56:/5E9258C0/A4E15BB6:AllModules:C0612-4_1”.
+Info: Processing component “C57:/5E924D33/676BBC9D:AllModules:C0402_1”.
+Info: Processing component “C58:/5E926050/6DB6649E:AllModules:C0612-4_1”.
+Info: Processing component “C59:/5E924D33/079CFDA5:AllModules:C0805_1”.
+Info: Processing component “C5:/5E924110/8E04CE4C:AllModules:C0402_1”.
+Info: Processing component “C60:/5E924D33/74AE98EE:AllModules:C0402_1”.
+Info: Processing component “C61:/5E924D33/4189E79D:AllModules:C0603_1”.
+Info: Processing component “C62:/5E924D33/3872CC01:AllModules:C0805_1”.
+Info: Processing component “C63:/5E924D33/2FAB5BC8:AllModules:C0402_1”.
+Info: Processing component “C64:/5E924D33/680B2917:AllModules:C0603_1”.
+Info: Processing component “C65:/5E924D33/6EB094ED:AllModules:C0805_1”.
+Info: Processing component “C66:/5E924D33/5B12AA4C:AllModules:C0402_1”.
+Info: Processing component “C67:/5E924D33/6998622D:AllModules:C0805_1”.
+Info: Processing component “C68:/5E924D33/F44D85A5:AllModules:C0603_1”.
+Info: Processing component “C69:/5E924D33/1015ED7D:AllModules:C0805_1”.
+Info: Processing component “C6:/5E923584/967579EA:AllModules:C0805_1”.
+Info: Processing component “C70:/5E924D33/5F8D81F9:AllModules:C0402_1”.
+Info: Processing component “C71:/5E924D33/13BC9B95:AllModules:C0603_1”.
+Info: Processing component “C72:/5E924D33/16847C85:AllModules:C0402_1”.
+Info: Processing component “C73:/5E924D33/936D7BF6:AllModules:C0603_1”.
+Info: Processing component “C74:/5E92540F/5EB68398:AllModules:C0402_1”.
+Info: Processing component “C75:/5E9258C0/C2D1BC15:AllModules:C3528_1”.
+Info: Processing component “C76:/5E9258C0/D58B9C26:AllModules:C0402_1”.
+Info: Processing component “C77:/5E924756/28576E5F:AllModules:C0402_1”.
+Info: Processing component “C78:/5E924756/7765160B:AllModules:C0402_1”.
+Info: Processing component “C79:/5E92540F/5EA262E6:AllModules:C0805_1”.
+Info: Processing component “C7:/5E923584/6F4029DE:AllModules:C3216_1”.
+Info: Processing component “C80:/5E92540F/5EA262E8:AllModules:C0402_1”.
+Info: Processing component “C81:/5E92540F/5EA262E9:AllModules:C6032_1”.
+Info: Processing component “C82:/5E92540F/3B4E26FC:AllModules:C0805_1”.
+Info: Processing component “C83:/5E92540F/5EA9F004:AllModules:C0402_1”.
+Info: Processing component “C84:/5E924756/86B4EA67:AllModules:C0402_1”.
+Info: Processing component “C85:/5E92540F/2D7C5423:AllModules:C6032_1”.
+Info: Processing component “C86:/5E9258C0/908E3118:AllModules:C0402_1”.
+Info: Processing component “C87:/5E926050/DE7D17FD:AllModules:C0402_1”.
+Info: Processing component “C88:/5E92540F/2D29FFA4:AllModules:CO31D1_1”.
+Info: Processing component “C89:/5E9258C0/71EBD326:AllModules:C3216_1”.
+Info: Processing component “C8:/5E923584/6D37B6AD:AllModules:C3216_1”.
+Info: Processing component “C90:/5E92540F/8D21F230:AllModules:C0402_1”.
+Info: Processing component “C91:/5E92540F/3BD8044E:AllModules:C0402_1”.
+Info: Processing component “C92:/5E92540F/939B92B5:AllModules:C3216_1”.
+Info: Processing component “C93:/5E9258C0/F2D14F41:AllModules:C0402_1”.
+Info: Processing component “C94:/5E924D33/84DA4059:AllModules:C0805_1”.
+Info: Processing component “C95:/5E924D33/A1AFAF59:AllModules:C0402_1”.
+Info: Processing component “C96:/5E924D33/C9A1B3F0:AllModules:C0603_1”.
+Info: Processing component “C97:/5E92540F/F034F2C9:AllModules:C0603_1”.
+Info: Processing component “C98:/5E9258C0/57D09F0C:AllModules:C0402_1”.
+Info: Processing component “C99:/5E9258C0/155BCB57:AllModules:C0402_1”.
+Info: Processing component “C9:/5E923584/501DA122:AllModules:C0402_1”.
+Info: Processing component “CAM1:/5E9C1ED0:AllModules:A3_EQFS_COVIDIEN_1”.
+Info: Processing component “CAM2:/5E9C238F:AllModules:A3_EQFC_COVIDIEN_1”.
+Info: Processing component “CAM3:/5E9C260F:AllModules:PER-COVIDIEN_TEXTE_1”.
+Info: Processing component “D10:/5E923584/13A4EF58:AllModules:SOT23-1G_1”.
+Info: Processing component “D11:/5E92540F/84A4DC5F:AllModules:SMB_1”.
+Info: Processing component “D12:/5E924756/6864D7E9:AllModules:SOD80_1”.
+Info: Processing component “D13:/5E9258C0/7D634AE3:AllModules:SOT23-1G_1”.
+Info: Processing component “D14:/5E924756/DDBEAB72:AllModules:SOT23-1G_1”.
+Info: Processing component “D15:/5E924756/557FCCAF:AllModules:SOD87_1”.
+Info: Processing component “D16:/5E924756/16F46E82:AllModules:SOD87_1”.
+Info: Processing component “D1:/5E923584/C78C3FBD:AllModules:SC70-5_1”.
+Info: Processing component “D2:/5E923584/0CADE672:AllModules:SC70-5_1”.
+Info: Processing component “D3:/5E923584/93886C31:AllModules:SC70-5_1”.
+Info: Processing component “D4:/5E92540F/C08B3BB7:AllModules:SMB_1”.
+Info: Processing component “D5:/5E923584/A8F36FED:AllModules:SC70-5_1”.
+Info: Processing component “D6:/5E9258C0/D13B7196:AllModules:SOD87_1”.
+Info: Processing component “D7:/5E92540F/11F28FEE:AllModules:SOD87_1”.
+Info: Processing component “D8:/5E923584/8A392F19:AllModules:SOT23-1G_1”.
+Info: Processing component “D9:/5E923584/59396773:AllModules:SOT23-1G_1”.
+Info: Processing component “FU2:/5E92540F/2106B4DB:AllModules:FU154000_1”.
+Info: Processing component “G1:/5E924756/7E939E76:AllModules:CR1220-3000_1”.
+Info: Processing component “H1:/5E9B6535:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
+Info: Processing component “H2:/5E9B69D4:AllModules:ThroughHole_60milx6mm_Pad_Cu_Mask”.
+Info: Processing component “H3:/5E9B6C7F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
+Info: Processing component “IC10:/5E924756/E884BF5E:AllModules:TSSOP20_SANS-MIRE_1”.
+Info: Processing component “IC11:/5E924756/D9B4621C:AllModules:MX.A8_COMPOSANT_1”.
+Info: Processing component “IC12:/5E924756/EEDDF45D:AllModules:MX.A8_COMPOSANT_1”.
+Info: Processing component “IC13:/5E924110/B5257A37:AllModules:TSOP48-ENT9.965_1”.
+Info: Processing component “IC14:/5E924110/6BA2D255:AllModules:SSOP48_1”.
+Info: Processing component “IC15:/5E924D33/90D2B56F:AllModules:AWM3300V”.
+Info: Processing component “IC16:/5E924D33/9EF2916C:AllModules:ASDX001D44R_1”.
+Info: Processing component “IC17:/5E924D33/93EF86A4:AllModules:AWM3300V”.
+Info: Processing component “IC18:/5E924D33/CEEB9070:AllModules:ASDX001D44R_1”.
+Info: Processing component “IC19:/5E924D33/3DB6F2B4:AllModules:ASDX100D44R_1”.
+Info: Processing component “IC1:/5E924110/22F7723E:AllModules:TQFP64_1”.
+Info: Processing component “IC20:/5E926050/7427DFBC:AllModules:SOT23-5_1”.
+Info: Processing component “IC21:/5E92540F/88F14A94:AllModules:MX.A8_COMPOSANT_1”.
+Info: Processing component “IC22:/5E924D33/2C1B848F:AllModules:ASDX001D44R_1”.
+Info: Processing component “IC23:/5E92540F/44FE90A9:AllModules:MX.A8_COMPOSANT_1”.
+Info: Processing component “IC24:/5E92540F/7AE97733:AllModules:SOT23-1G_1”.
+Info: Processing component “IC25:/5E92540F/6D5019AB:AllModules:SOT23-1G_1”.
+Info: Processing component “IC26:/5E92540F/694A8893:AllModules:DPAK_1”.
+Info: Processing component “IC27:/5E924D33/3A3F7DCF:AllModules:SQ276-05856_1”.
+Info: Processing component “IC28:/5E924D33/9F4013D5:AllModules:SQ276-05856_1”.
+Info: Processing component “IC29:/5E92540F/408852E0:AllModules:SO08-PPAD_COMPOSANT_1”.
+Info: Processing component “IC2:/5E924110/BC34DC86:AllModules:TSSOP48_1”.
+Info: Processing component “IC30:/5E924D33/BCFB88DB:AllModules:SQ276-05856_1”.
+Info: Processing component “IC31:/5E924756/E249C229:AllModules:MX.A16_COMPOSANT_1”.
+Info: Processing component “IC32:/5E924110/1703D4A9:AllModules:MX.A8_COMPOSANT_1”.
+Info: Processing component “IC33:/5E924D33/B100278E:AllModules:BSDX-A2_1”.
+Info: Processing component “IC34:/5E924D33/47725143:AllModules:SQ276-05856_1”.
+Info: Processing component “IC35:/5E924D33/AFF057CF:AllModules:SQ276-05856_1”.
+Info: Processing component “IC36:/5E92540F/28D53763:AllModules:SOT23-1G_1”.
+Info: Processing component “IC37:/5E9258C0/629CAE50:AllModules:ARF7151A_1”.
+Info: Processing component “IC38:/5E924110/E1DA1C65:AllModules:SC70-5_1”.
+Info: Processing component “IC39:/5E924110/6BD6C1A1:AllModules:SC70-5_1”.
+Info: Processing component “IC3:/5E923584/A6F2AB71:AllModules:TSOP2-44_1”.
+Info: Processing component “IC40:/5E923584/15424B03:AllModules:MX.A20_COMPOSANT_1”.
+Info: Processing component “IC41:/5E923584/3D34EBB1:AllModules:SC70-5_1”.
+Info: Processing component “IC42:/5E923584/28A53036:AllModules:SC70-5_1”.
+Info: Processing component “IC43:/5E923584/6E981591:AllModules:SC70-5_1”.
+Info: Processing component “IC44:/5E923584/4B983B5C:AllModules:SC70-5_1”.
+Info: Processing component “IC4:/5E923584/BB7ED445:AllModules:TQFP144_1”.
+Info: Processing component “IC5:/5E924110/E8297B24:AllModules:SC70-5_1”.
+Info: Processing component “IC6:/5E926050/BE050152:AllModules:SOT23-5_1”.
+Info: Processing component “IC7:/5E924110/270F9871:AllModules:TSOP48-ENT9.965_1”.
+Info: Processing component “IC8:/5E924110/45D38355:AllModules:SOT23-5_1”.
+Info: Processing component “IC9:/5E924110/5F7D4A82:AllModules:SOT23-5_1”.
+Info: Processing component “J11:/5E9258C0/54BD1E4C:AllModules:B3BZR-SM3TF_1”.
+Info: Processing component “J17:/5E926050/E8FF25C4:AllModules:AMP177983-40_1”.
+Info: Processing component “J18:/5E9258C0/CDC055CB:AllModules:B7BZR-SM3TF_1”.
+Info: Processing component “J19:/5E9258C0/69705732:AllModules:B2BZR-SM3TF_1”.
+Info: Processing component “J1:/5E926050/449C7C68:AllModules:MOL52610-22_1”.
+Info: Processing component “J20:/5E9258C0/DB725FC6:AllModules:B4BZR-SM3TF_1”.
+Info: Processing component “J21:/5E9258C0/46F3F097:AllModules:MOL7395-2_1”.
+Info: Processing component “J2:/5E9258C0/C3E76336:AllModules:B8BZR-SM3TF_1”.
+Info: Processing component “J3:/5E926050/7D94D0D3:AllModules:B12BZR-SM3TF_1”.
+Info: Processing component “J4:/5E9258C0/FA7CA15B:AllModules:BP2X5C_1”.
+Info: Processing component “J5:/5E9258C0/7C49DE93:AllModules:B2BZR-SM3TF_1”.
+Info: Processing component “J6:/5E926050/C649B669:AllModules:SPO2-16_1”.
+Info: Processing component “J7:/5E926050/916830BC:AllModules:BP2X13C_1”.
+Info: Processing component “JP1:/5E926050/0B60073D:AllModules:R0603_1”.
+Info: Processing component “JP2:/5E924D33/BAFA783C:AllModules:R0603_1”.
+Info: Processing component “JP3:/5E924D33/8182258E:AllModules:R0603_1”.
+Info: Processing component “JP4:/5E924D33/193933AB:AllModules:R0603_1”.
+Info: Processing component “JP5:/5E924110/056852D9:AllModules:R0603_1”.
+Info: Processing component “JP6:/5E924110/A21E5090:AllModules:R0603_1”.
+Info: Processing component “JP7:/5E923584/ADC4B3B7:AllModules:R0603_1”.
+Info: Processing component “JP8:/5E923584/357D3C8D:AllModules:R0603_1”.
+Info: Processing component “JP9:/5E92540F/C8B46213:AllModules:R0603_1”.
+Info: Processing component “JPL1:/5E923584/BCD438C6:AllModules:C12000_0”.
+Info: Processing component “L10:/5E9258C0/0E380C20:AllModules:C0603_1”.
+Info: Processing component “L11:/5E9258C0/0A232DEA:AllModules:RC1206_1”.
+Info: Processing component “L12:/5E9258C0/9CA3DB02:AllModules:C0603_1”.
+Info: Processing component “L13:/5E9258C0/4AF5E44F:AllModules:C0603_1”.
+Info: Processing component “L14:/5E9258C0/1FFF9411:AllModules:C0603_1”.
+Info: Processing component “L15:/5E9258C0/3DD13E20:AllModules:C0603_1”.
+Info: Processing component “L16:/5E926050/3E1ECFE2:AllModules:C0603_1”.
+Info: Processing component “L17:/5E9258C0/DF33D3D6:AllModules:C0603_1”.
+Info: Processing component “L18:/5E926050/C853FF9C:AllModules:C0603_1”.
+Info: Processing component “L19:/5E9258C0/1E5F25AC:AllModules:RC1206_1”.
+Info: Processing component “L1:/5E926050/63106439:AllModules:C0603_1”.
+Info: Processing component “L20:/5E9258C0/19F4C54D:AllModules:RC1206_1”.
+Info: Processing component “L21:/5E9258C0/4DF659C7:AllModules:C0603_1”.
+Info: Processing component “L22:/5E9258C0/60EE4B83:AllModules:RC1206_1”.
+Info: Processing component “L23:/5E9258C0/2891A197:AllModules:C0603_1”.
+Info: Processing component “L24:/5E9258C0/AE3312F6:AllModules:C0603_1”.
+Info: Processing component “L25:/5E9258C0/6491CA69:AllModules:C0603_1”.
+Info: Processing component “L26:/5E9258C0/5FB96120:AllModules:C0603_1”.
+Info: Processing component “L27:/5E9258C0/B91119A5:AllModules:C0603_1”.
+Info: Processing component “L28:/5E9258C0/BACB79CB:AllModules:C0603_1”.
+Info: Processing component “L29:/5E9258C0/2B9F3777:AllModules:C0603_1”.
+Info: Processing component “L2:/5E92540F/86B7B564:AllModules:WE-PD4_1”.
+Info: Processing component “L30:/5E92540F/5EAF932D:AllModules:WE-7427504_ENT-12.7X3_1”.
+Info: Processing component “L31:/5E9258C0/4B3EEFE3:AllModules:C0603_1”.
+Info: Processing component “L32:/5E9258C0/324ADF67:AllModules:C0603_1”.
+Info: Processing component “L33:/5E9258C0/0382B5B7:AllModules:C0603_1”.
+Info: Processing component “L34:/5E9258C0/04EF688F:AllModules:C0603_1”.
+Info: Processing component “L35:/5E926050/3EE6CC19:AllModules:C0603_1”.
+Info: Processing component “L36:/5E926050/99D0EAD2:AllModules:C0603_1”.
+Info: Processing component “L37:/5E9258C0/A9F7421E:AllModules:C0603_1”.
+Info: Processing component “L38:/5E926050/FD4FC626:AllModules:C0603_1”.
+Info: Processing component “L39:/5E926050/37C2E7A2:AllModules:C0603_1”.
+Info: Processing component “L3:/5E926050/5E88F353:AllModules:C0603_1”.
+Info: Processing component “L40:/5E926050/D8418348:AllModules:C0603_1”.
+Info: Processing component “L41:/5E926050/D7B52F8F:AllModules:C0603_1”.
+Info: Processing component “L42:/5E926050/68BA90A5:AllModules:C0603_1”.
+Info: Processing component “L43:/5E926050/B8451C4A:AllModules:C0603_1”.
+Info: Processing component “L44:/5E926050/C8827D52:AllModules:C0603_1”.
+Info: Processing component “L45:/5E926050/27E57B0C:AllModules:C0603_1”.
+Info: Processing component “L46:/5E926050/17AB747C:AllModules:C0603_1”.
+Info: Processing component “L47:/5E926050/58FFAA19:AllModules:C0603_1”.
+Info: Processing component “L48:/5E926050/7A9C51D5:AllModules:C0603_1”.
+Info: Processing component “L49:/5E926050/B59E7860:AllModules:C0603_1”.
+Info: Processing component “L4:/5E926050/AC576572:AllModules:C0603_1”.
+Info: Processing component “L50:/5E926050/39D83C75:AllModules:C0603_1”.
+Info: Processing component “L51:/5E926050/49C38A30:AllModules:C0603_1”.
+Info: Processing component “L52:/5E926050/5D3B4218:AllModules:C0603_1”.
+Info: Processing component “L53:/5E926050/983C8A5F:AllModules:C0603_1”.
+Info: Processing component “L5:/5E926050/E13C76CE:AllModules:C0603_1”.
+Info: Processing component “L61:/5E926050/D3E71165:AllModules:RC1206_1”.
+Info: Processing component “L6:/5E926050/76104BF1:AllModules:C0603_1”.
+Info: Processing component “L7:/5E9258C0/769AA1BD:AllModules:RC1206_1”.
+Info: Processing component “L8:/5E926050/8A653321:AllModules:RC1206_1”.
+Info: Processing component “L9:/5E9258C0/FB4D7CA5:AllModules:C0603_1”.
+Info: Processing component “MIR1:/5E9BC652:AllModules:MIRECMS_D-1.5_1”.
+Info: Processing component “MIR2:/5E9BE4E3:AllModules:MIRECMS_D-1.5_1”.
+Info: Processing component “MIR3:/5E9BE6CC:AllModules:MIRECMS_D-1.5_1”.
+Info: Processing component “MIR4:/5E9BE945:AllModules:MIRECMS_D-1.5_1”.
+Info: Processing component “PST1:/5E923584/368C0019:AllModules:PT-1.0MM_TEST_1”.
+Info: Processing component “PST3:/5E923584/AD296153:AllModules:PT-1.0MM_TEST_1”.
+Info: Processing component “PST4:/5E923584/AD815FBB:AllModules:PT-1.0MM_TEST_1”.
+Info: Processing component “PST6:/5E923584/66851D94:AllModules:PT-1.0MM_TEST_1”.
+Info: Processing component “PT1:/5E923584/7DBB10B8:AllModules:C12000_1”.
+Info: Processing component “PT2:/5E923584/D711CC1B:AllModules:C12000_1”.
+Info: Processing component “Q1:/5E923584/F8782F37:AllModules:HC49-4HSMX_1”.
+Info: Processing component “Q2:/5E924110/53ABB1EB:AllModules:HC49-4HSMX_1”.
+Info: Processing component “Q3:/5E924756/7ABFF94E:AllModules:85SMX_1”.
+Info: Processing component “Q5:/5E924756/4396189E:AllModules:85SMX_1”.
+Info: Processing component “R10:/5E923584/D628991E:AllModules:R0603_1”.
+Info: Processing component “R11:/5E9258C0/D126BCF1:AllModules:R0603_1”.
+Info: Processing component “R12:/5E926050/0C5252B0:AllModules:R0603_1”.
+Info: Processing component “R13:/5E926050/486842E0:AllModules:R0805_1”.
+Info: Processing component “R14:/5E923584/C54AB7D0:AllModules:R0603_1”.
+Info: Processing component “R15:/5E923584/BAB36D42:AllModules:R0603_1”.
+Info: Processing component “R16:/5E926050/BF9499E8:AllModules:R0805_1”.
+Info: Processing component “R17:/5E924756/73F99271:AllModules:R0603_1”.
+Info: Processing component “R18:/5E924756/2BB405CC:AllModules:R0603_1”.
+Info: Processing component “R19:/5E924756/9DB3FBAD:AllModules:R0603_1”.
+Info: Processing component “R1:/5E923584/E6C7F8B8:AllModules:R0603_1”.
+Info: Processing component “R20:/5E926050/9FEA229A:AllModules:R0603_1”.
+Info: Processing component “R21:/5E926050/F84F2443:AllModules:R0603_1”.
+Info: Processing component “R22:/5E926050/50E1B837:AllModules:R0805_1”.
+Info: Processing component “R23:/5E926050/AE8C3E2E:AllModules:R0805_1”.
+Info: Processing component “R24:/5E926050/84932BAC:AllModules:R0603_1”.
+Info: Processing component “R25:/5E926050/D4C34F44:AllModules:R0805_1”.
+Info: Processing component “R26:/5E926050/AD264776:AllModules:R0603_1”.
+Info: Processing component “R27:/5E926050/4A61E0AF:AllModules:R0805_1”.
+Info: Processing component “R28:/5E924756/29F9BCC2:AllModules:R0603_1”.
+Info: Processing component “R29:/5E924756/437CF36C:AllModules:R0603_1”.
+Info: Processing component “R2:/5E924110/986554BD:AllModules:R0603_1”.
+Info: Processing component “R30:/5E926050/A2E2AA66:AllModules:R0603_1”.
+Info: Processing component “R31:/5E926050/63ABC06C:AllModules:R0805_1”.
+Info: Processing component “R32:/5E926050/2A092FBD:AllModules:R0603_1”.
+Info: Processing component “R33:/5E924D33/05E5179D:AllModules:R0603_1”.
+Info: Processing component “R34:/5E924D33/EFB8A895:AllModules:R0603_1”.
+Info: Processing component “R35:/5E92540F/AB7C9AB4:AllModules:R0805_1”.
+Info: Processing component “R36:/5E92540F/5EB4CA51:AllModules:R0603_1”.
+Info: Processing component “R37:/5E924D33/11FD54D7:AllModules:R0603_1”.
+Info: Processing component “R38:/5E924D33/6C0A03D3:AllModules:R0603_1”.
+Info: Processing component “R39:/5E924D33/63F37C0C:AllModules:R0603_1”.
+Info: Processing component “R3:/5E923584/E7C109B0:AllModules:R0603_1”.
+Info: Processing component “R40:/5E92540F/7FF0BFE4:AllModules:R0603_1”.
+Info: Processing component “R41:/5E92540F/5EAEEA7B:AllModules:R0603_1”.
+Info: Processing component “R42:/5E924D33/83169F00:AllModules:R0603_1”.
+Info: Processing component “R43:/5E9258C0/DA0B1885:AllModules:R0603_1”.
+Info: Processing component “R44:/5E92540F/84674E91:AllModules:R0805_1”.
+Info: Processing component “R45:/5E923584/C18C78EC:AllModules:R0603_1”.
+Info: Processing component “R46:/5E923584/CBBF32AF:AllModules:R0603_1”.
+Info: Processing component “R47:/5E926050/65CD8F11:AllModules:R0603_1”.
+Info: Processing component “R48:/5E9258C0/19AB9E8C:AllModules:R0603_1”.
+Info: Processing component “R49:/5E9258C0/8EE7C6AB:AllModules:R0603_1”.
+Info: Processing component “R4:/5E924110/BADBB996:AllModules:R0603_1”.
+Info: Processing component “R51:/5E924D33/C00D2805:AllModules:R0603_1”.
+Info: Processing component “R52:/5E924756/9AA44C7C:AllModules:R0805_1”.
+Info: Processing component “R53:/5E924756/CFBE9597:AllModules:R0603_1”.
+Info: Processing component “R54:/5E924756/E78706DF:AllModules:R0603_1”.
+Info: Processing component “R55:/5E924756/19D405B0:AllModules:R0603_1”.
+Info: Processing component “R56:/5E924756/D165D9D0:AllModules:R0603_1”.
+Info: Processing component “R57:/5E924756/E37BEEA0:AllModules:R0603_1”.
+Info: Processing component “R58:/5E924756/699A423E:AllModules:R0603_1”.
+Info: Processing component “R59:/5E924756/C270A6BB:AllModules:R0603_1”.
+Info: Processing component “R5:/5E924110/40871C63:AllModules:R0603_1”.
+Info: Processing component “R60:/5E923584/CCBE402C:AllModules:R0603_1”.
+Info: Processing component “R61:/5E923584/CC254D70:AllModules:R0603_1”.
+Info: Processing component “R62:/5E923584/F7CB6097:AllModules:R0603_1”.
+Info: Processing component “R65:/5E924756/3D749CE4:AllModules:R0603_1”.
+Info: Processing component “R66:/5E92540F/DA816598:AllModules:R0805_1”.
+Info: Processing component “R67:/5E92540F/2547CA40:AllModules:R0805_1”.
+Info: Processing component “R68:/5E9258C0/49CDDF81:AllModules:R0603_1”.
+Info: Processing component “R69:/5E9258C0/E29E9980:AllModules:R0603_1”.
+Info: Processing component “R6:/5E924110/91847459:AllModules:R0603_1”.
+Info: Processing component “R70:/5E9258C0/AC81A314:AllModules:R0603_1”.
+Info: Processing component “R71:/5E92540F/58DA2A05:AllModules:R0603_1”.
+Info: Processing component “R72:/5E923584/CEF2471C:AllModules:R0603_1”.
+Info: Processing component “R73:/5E92540F/EBEFFEA5:AllModules:R0603_1”.
+Info: Processing component “R7:/5E926050/184A3E63:AllModules:R0603_1”.
+Info: Processing component “R8:/5E924756/C507FD3A:AllModules:R0603_1”.
+Info: Processing component “R9:/5E924756/D76F26ED:AllModules:R0603_1”.
+Info: Processing component “RL1:/5E9258C0/AE3C6605:AllModules:G6K2G_1”.
+Info: Processing component “RS1:/5E923584/1544B106:AllModules:BCN16_1”.
+Info: Processing component “RS2:/5E923584/0530E82D:AllModules:BCN16_1”.
+Info: Processing component “RS3:/5E923584/3DF3A440:AllModules:BCN16_1”.
+Info: Processing component “RS4:/5E923584/133E079A:AllModules:BCN16_1”.
+Info: Processing component “RS5:/5E923584/2A0E722A:AllModules:BCN16_1”.
+Info: Processing component “RS6:/5E923584/D0D8FBF3:AllModules:BCN16_1”.
+Info: Processing component “RS7:/5E923584/3858CF0B:AllModules:BCN16_1”.
+Info: Processing component “RS8:/5E924110/887C726F:AllModules:BCN16_1”.
+Info: Processing component “T10:/5E92540F/97227110:AllModules:SOT223_1”.
+Info: Processing component “T11:/5E92540F/64295267:AllModules:SOT223_1”.
+Info: Processing component “T12:/5E92540F/28298AA4:AllModules:SOT223_1”.
+Info: Processing component “T14:/5E924756/B63BD651:AllModules:SOT23-GSD_1”.
+Info: Processing component “T16:/5E926050/0F564599:AllModules:SOT23-GSD_1”.
+Info: Processing component “T17:/5E9258C0/E3A7CA7E:AllModules:SOT23-GSD_1”.
+Info: Processing component “T19:/5E9258C0/EE28C6DF:AllModules:SOT23-GSD_1”.
+Info: Processing component “T1:/5E926050/C746FFC6:AllModules:SOT23-GSD_1”.
+Info: Processing component “T20:/5E924756/71F1869B:AllModules:SOT23-GSD_1”.
+Info: Processing component “T21:/5E924756/2CDC58F9:AllModules:SOT23-GSD_1”.
+Info: Processing component “T2:/5E926050/4E5B5821:AllModules:SOT23-GSD_1”.
+Info: Processing component “T3:/5E924756/22208D74:AllModules:SOT23-GSD_1”.
+Info: Processing component “T4:/5E926050/4AEDAEDD:AllModules:SOT23-GSD_1”.
+Info: Processing component “T5:/5E926050/58A3FA22:AllModules:SOT23-GSD_1”.
+Info: Processing component “T6:/5E923584/78F4DB2D:AllModules:SOT23-GSD_1”.
+Info: Processing component “T8:/5E926050/39E804CC:AllModules:SOT23-GSD_1”.
+Info: Processing component “T9:/5E926050/7B8E4CC8:AllModules:SOT23-GSD_1”.
+Info: Processing component “V2:/5E924756/F1FC2759:AllModules:S142.0011-SANS-FIX_1”.
+Info: Processing component “ZC106:/5E92540F/5EA53F33:AllModules:03512_1”.
+Info: Processing component “ZC21:/5E92540F/5EA4EF1D:AllModules:03513_1”.
+Info: Processing component “ZM10:/5EA85DE1:AllModules:FIX35_1_controller”.
+Info: Processing component “ZM11:/5EA85DEB:AllModules:FIX35_1_controller”.
+Info: Processing component “ZM12:/5EA85DF5:AllModules:FIX30_1”.
+Info: Processing component “ZM13:/5EA87776:AllModules:FIX30_1”.
+Info: Processing component “ZM1:/5EA72855:AllModules:FIX35_1_display”.
+Info: Processing component “ZM2:/5EA7D06E:AllModules:FIX35_1_display”.
+Info: Processing component “ZM3:/5EA7DBDF:AllModules:FIX35_1_display”.
+Info: Processing component “ZM4:/5EA7DBE9:AllModules:FIX35_1_display”.
+Info: Processing component “ZM5:/5EA7E64F:AllModules:FIX35_1”.
+Info: Processing component “ZM6:/5EA7E659:AllModules:FIX35_1”.
+Info: Processing component “ZM7:/5EA7E663:AllModules:FIX35_1”.
+Info: Processing component “ZM8:/5EA7E66D:AllModules:FIX35_1_controller”.
+Info: Processing component “ZM9:/5EA85DD7:AllModules:FIX35_1_controller”.
+Reconnect IC40 pin 15 from /LED_PRESENCE_LED to /LED_PRESENCE_AC.

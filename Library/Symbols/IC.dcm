@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IR2118S
+F https://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d
+$ENDCMP
+#
+$CMP LinearRegulator
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf
+$ENDCMP
+#
+$CMP MotorDriver
+F https://www.onsemi.com/pub/Collateral/MC33035-D.PDF
+$ENDCMP
+#
+$CMP NE555D
+F http://www.ti.com/lit/ds/symlink/se555.pdf
+$ENDCMP
+#
+#End Doc Library

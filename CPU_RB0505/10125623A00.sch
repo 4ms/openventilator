@@ -665,7 +665,7 @@ Wire Bus Line
 Wire Bus Line
 	7150 5000 6950 5000
 $Comp
-L Mechanical:MountingHole_Pad H1
+L V_Mechanical:MountingHole_Pad H1
 U 1 1 5E9B6535
 P 3050 1850
 F 0 "H1" H 3150 1899 50  0000 L CNN
@@ -676,7 +676,7 @@ F 3 "~" H 3050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L V_Mechanical:MountingHole_Pad H2
 U 1 1 5E9B69D4
 P 3050 2150
 F 0 "H2" H 3150 2199 50  0000 L CNN
@@ -687,7 +687,7 @@ F 3 "~" H 3050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L V_Mechanical:MountingHole_Pad H3
 U 1 1 5E9B6C7F
 P 3050 2450
 F 0 "H3" H 3150 2499 50  0000 L CNN
@@ -698,7 +698,7 @@ F 3 "~" H 3050 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM1
+L V_Mechanical:MountingHole ZM1
 U 1 1 5EA72855
 P 3050 2750
 F 0 "ZM1" H 3150 2796 50  0000 L CNN
@@ -709,7 +709,7 @@ F 3 "~" H 3050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM2
+L V_Mechanical:MountingHole ZM2
 U 1 1 5EA7D06E
 P 3050 2950
 F 0 "ZM2" H 3150 2996 50  0000 L CNN
@@ -720,7 +720,7 @@ F 3 "~" H 3050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM3
+L V_Mechanical:MountingHole ZM3
 U 1 1 5EA7DBDF
 P 3050 3150
 F 0 "ZM3" H 3150 3196 50  0000 L CNN
@@ -731,7 +731,7 @@ F 3 "~" H 3050 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM4
+L V_Mechanical:MountingHole ZM4
 U 1 1 5EA7DBE9
 P 3050 3350
 F 0 "ZM4" H 3150 3396 50  0000 L CNN
@@ -742,7 +742,7 @@ F 3 "~" H 3050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM5
+L V_Mechanical:MountingHole ZM5
 U 1 1 5EA7E64F
 P 3050 3600
 F 0 "ZM5" H 3150 3646 50  0000 L CNN
@@ -753,7 +753,7 @@ F 3 "~" H 3050 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM6
+L V_Mechanical:MountingHole ZM6
 U 1 1 5EA7E659
 P 3050 3800
 F 0 "ZM6" H 3150 3846 50  0000 L CNN
@@ -764,7 +764,7 @@ F 3 "~" H 3050 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM7
+L V_Mechanical:MountingHole ZM7
 U 1 1 5EA7E663
 P 3050 4000
 F 0 "ZM7" H 3150 4046 50  0000 L CNN
@@ -775,7 +775,7 @@ F 3 "~" H 3050 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM8
+L V_Mechanical:MountingHole ZM8
 U 1 1 5EA7E66D
 P 3050 4250
 F 0 "ZM8" H 3150 4296 50  0000 L CNN
@@ -786,7 +786,7 @@ F 3 "~" H 3050 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM9
+L V_Mechanical:MountingHole ZM9
 U 1 1 5EA85DD7
 P 3050 4450
 F 0 "ZM9" H 3150 4496 50  0000 L CNN
@@ -797,7 +797,7 @@ F 3 "~" H 3050 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM10
+L V_Mechanical:MountingHole ZM10
 U 1 1 5EA85DE1
 P 3050 4650
 F 0 "ZM10" H 3150 4696 50  0000 L CNN
@@ -808,7 +808,7 @@ F 3 "~" H 3050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM11
+L V_Mechanical:MountingHole ZM11
 U 1 1 5EA85DEB
 P 3050 4850
 F 0 "ZM11" H 3150 4896 50  0000 L CNN
@@ -819,7 +819,7 @@ F 3 "~" H 3050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM12
+L V_Mechanical:MountingHole ZM12
 U 1 1 5EA85DF5
 P 3050 5150
 F 0 "ZM12" H 3150 5196 50  0000 L CNN
@@ -830,7 +830,7 @@ F 3 "~" H 3050 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM13
+L V_Mechanical:MountingHole ZM13
 U 1 1 5EA87776
 P 3050 5350
 F 0 "ZM13" H 3150 5396 50  0000 L CNN
@@ -841,7 +841,7 @@ F 3 "~" H 3050 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR1
+L V_Mechanical:Fiducial MIR1
 U 1 1 5E9BC652
 P 7850 2750
 F 0 "MIR1" H 7935 2750 50  0000 L CNN
@@ -852,7 +852,7 @@ F 3 "~" H 7850 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR2
+L V_Mechanical:Fiducial MIR2
 U 1 1 5E9BE4E3
 P 7850 2900
 F 0 "MIR2" H 7935 2900 50  0000 L CNN
@@ -863,7 +863,7 @@ F 3 "~" H 7850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR3
+L V_Mechanical:Fiducial MIR3
 U 1 1 5E9BE6CC
 P 7850 3050
 F 0 "MIR3" H 7935 3050 50  0000 L CNN
@@ -874,7 +874,7 @@ F 3 "~" H 7850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR4
+L V_Mechanical:Fiducial MIR4
 U 1 1 5E9BE945
 P 7850 3200
 F 0 "MIR4" H 7935 3200 50  0000 L CNN
@@ -885,7 +885,7 @@ F 3 "~" H 7850 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM1
+L V_Mechanical:Fiducial CAM1
 U 1 1 5E9C1ED0
 P 7850 3450
 F 0 "CAM1" H 7935 3450 50  0000 L CNN
@@ -896,7 +896,7 @@ F 3 "~" H 7850 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM2
+L V_Mechanical:Fiducial CAM2
 U 1 1 5E9C238F
 P 7850 3600
 F 0 "CAM2" H 7935 3600 50  0000 L CNN
@@ -907,7 +907,7 @@ F 3 "~" H 7850 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial CAM3
+L V_Mechanical:Fiducial CAM3
 U 1 1 5E9C260F
 P 7850 3750
 F 0 "CAM3" H 7935 3750 50  0000 L CNN

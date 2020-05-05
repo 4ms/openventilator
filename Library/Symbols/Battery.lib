@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# KEY_3000
+#
+DEF KEY_3000 G 0 40 Y Y 1 L N
+F0 "G" -50 125 59 H V L BNN
+F1 "KEY_3000" -50 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F 4 "10022884" 400 50 50 H I L CNN "Item Number"
+F 5 "LITHIUM, 3V, 35MAH" 400 -10 50 H I L CNN "Description"
+F 6 "SONY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F 7 "CR1220-B1A" 400 -130 50 H I L CNN "Manufacturer_No"
+F 8 "MAXELL" 400 -190 50 H I L CNN "Manufacturer2"
+F 9 "CR1220" 400 -250 50 H I L CNN "Manufacturer_No2"
+F 11 "VARTA                           (917650)" 400 -310 50 H I L CNN "Manufacturer3"
+F 12 "CR 1220" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+P 2 1 0 0 -100 0 -25 0 N
+P 2 1 0 0 -25 0 -25 -25 N
+P 2 1 0 0 -25 25 -25 0 N
+P 2 1 0 0 25 0 25 -100 N
+P 2 1 0 0 25 0 100 0 N
+P 2 1 0 0 25 100 25 0 N
+P 2 1 0 0 100 -100 100 0 N
+X + + 200 0 100 L 50 0 1 0 P
+X - - -200 0 100 R 50 0 1 0 P
+X PLUS PLUS 200 -100 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#
+# BuzzBattery
+#
+DEF BuzzBattery BAT 0 0 N N 1 F N
+F0 "BAT" 100 100 50 H V L CNN
+F1 "BuzzBattery" 100 0 50 H V L CNN
+F2 "AllModules:BT-4-V150H-4.8V_1" 100 -75 50 H I L CIN
+F3 "" 0 60 50 V I C CNN
+F 4 "10022129" 400 50 50 H I L CNN "Item Number"
+F 5 "BATTERY NI-MH TYPE V150H 4.8V" 400 -10 50 H I L CNN "Description"
+F 6 "VARTA                           (917650)" 400 -70 50 H I L CNN "Manufacturer"
+F 7 "55615 604 059" 400 -130 50 H I L CNN "Manufacturer_No"
+F 8 "" 400 -190 50 H I L CNN "Manufacturer2"
+F 9 "" 400 -250 50 H I L CNN "Manufacturer_No2"
+F 11 "VARTA_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
+F 12 "55615604940" 400 -370 50 H I L CNN "Manufacturer_No3"
+DRAW
+S -80 -55 80 -65 0 1 0 F
+S -80 70 80 60 0 1 0 F
+S -52 -78 50 -98 0 1 0 F
+S -52 47 50 27 0 1 0 F
+P 2 0 1 0 0 -60 0 -50 N
+P 2 0 1 0 0 -40 0 -30 N
+P 2 0 1 0 0 -20 0 -10 N
+P 2 0 1 0 0 0 0 10 N
+P 2 0 1 0 0 20 0 30 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 10 105 50 105 N
+P 2 0 1 10 30 125 30 85 N
+X + + 0 200 100 D 50 50 1 1 P
+X - - 0 -200 100 U 50 50 1 1 P
+X NC 3 -100 100 100 D 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+#End Library

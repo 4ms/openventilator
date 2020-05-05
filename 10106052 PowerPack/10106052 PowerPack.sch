@@ -227,7 +227,7 @@ V_EN
 Text Label 4750 6225 0    50   ~ 0
 FAN_EN
 $Comp
-L Mechanical:Fiducial FID1
+L V_Mechanical:Fiducial FID1
 U 1 1 5EA07F53
 P 6950 4950
 F 0 "FID1" H 7035 4996 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "~" H 6950 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
+L V_Mechanical:Fiducial FID2
 U 1 1 5EA08287
 P 6950 5175
 F 0 "FID2" H 7035 5221 50  0000 L CNN
@@ -249,7 +249,7 @@ F 3 "~" H 6950 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MT1
+L V_Mechanical:MountingHole MT1
 U 1 1 5EA08596
 P 6950 5400
 F 0 "MT1" H 7050 5446 50  0000 L CNN

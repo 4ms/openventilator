@@ -1,48 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP C0603_10nF
-D CAPACITOR CERAMIC,10NF,+/-10%,50V,0603
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$CMP C0402_NC
+D Unpolarized capacitor
+K cap capacitor
+F ~
 $ENDCMP
 #
-$CMP C0603_2.2nF
-D CAPACITOR CERAMIC, 2.2NF, +/-10%,50V, X7R, 0603
-F https://api.kemet.com/component-edge/download/datasheet/C0603C222K5RAC7411.pdf
+$CMP C_1000uF_20%
+F https://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf
 $ENDCMP
 #
-$CMP C0612_47pf_Array4
-D CAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf
+$CMP C_100uF_20%
+F https://www.nichicon.co.jp/english/products/pdfs/e-urz.pdf
 $ENDCMP
 #
-$CMP C0805_100nF
-D CAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805
-F https://api.kemet.com/component-edge/download/datasheet/C0805C104Z5VACTU.pdf
-$ENDCMP
-#
-$CMP C0805_330nF
-D CAPACITOR,330NF,+/-10%,16V,0805,X7R
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
-$ENDCMP
-#
-$CMP C1206_220nF
-D CAPACITOR,220NF,+/-10% ,50V, X7R,1206
-F https://api.kemet.com/component-edge/download/datasheet/C1206C224K5RACTU.pdf
-$ENDCMP
-#
-$CMP C1206_22uF
-D CAPACITOR TANTALUM,22UF,+/-10%,35V
-F https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf
-$ENDCMP
-#
-$CMP C_100uF_Elec_10x9_TH
-D CAPACITOR,100UF,+/-20%,50V SMD
+$CMP C_100uF_50V_20%_SMD
 F https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf
 $ENDCMP
 #
-$CMP C_100uF_Elec_8x10_SMD
-D CAPACITOR,100UF,+/-20%,50V SMD
-F https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf
+$CMP C_470uF_20%_10095969
+F https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf
 $ENDCMP
 #
 #End Doc Library

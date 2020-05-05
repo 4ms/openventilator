@@ -1,0 +1,2518 @@
+Power Management:
+Using input directory: ../../10005011 Power Management/
+Will look for bom file: master_bom/powerman_bom.csv
+Reading file: ../../10005011 Power Management/10005011 USB HOST.sch
+Reading file: ../../10005011 Power Management/10005011 FTDI.sch
+Reading file: ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Reading file: ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Reading file: ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Reading file: ../../10005011 Power Management/10005011 PIC-Micro.sch
+Reading file: ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Reading file: ../../10005011 Power Management/10005011 Power Management.sch
+Using bom csv file: master_bom/powerman_bom.csv
+Found new item number 10022131 on row 1
+Attempting to create new symbol based on refs: R1
+Searching for ref R1
+Found library part name for R1: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022135 on row 3
+Attempting to create new symbol based on refs: C23
+Searching for ref C23
+Found library part name for C23: Device:C in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022136 on row 9
+Attempting to create new symbol based on refs: C53
+Searching for ref C53
+Found library part name for C53: 10005011_Power_Management:47pF_array in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022508 on row 11
+Attempting to create new symbol based on refs: C18
+Searching for ref C18
+Found library part name for C18: Device:C in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022510 on row 15
+Attempting to create new symbol based on refs: C76
+Searching for ref C76
+Found library part name for C76: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022532 on row 20
+Attempting to create new symbol based on refs: FLTR1
+Searching for ref FLTR1
+Found library part name for FLTR1: 10005011_Power_Management:BNX002-01 in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022539 on row 23
+Attempting to create new symbol based on refs: R121
+Searching for ref R121
+Found library part name for R121: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022546 on row 26
+Attempting to create new symbol based on refs: C32
+Searching for ref C32
+Found library part name for C32: Device:C in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022548 on row 28
+Attempting to create new symbol based on refs: R10
+Searching for ref R10
+Found library part name for R10: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022549 on row 32
+Attempting to create new symbol based on refs: R15
+Searching for ref R15
+Found library part name for R15: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022551 on row 35
+Attempting to create new symbol based on refs: R17
+Searching for ref R17
+Found library part name for R17: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022552 on row 39
+Attempting to create new symbol based on refs: R11
+Searching for ref R11
+Found library part name for R11: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022554 on row 44
+Attempting to create new symbol based on refs: R82
+Searching for ref R82
+Found library part name for R82: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022556 on row 47
+Attempting to create new symbol based on refs: R119
+Searching for ref R119
+Found library part name for R119: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022557 on row 51
+Attempting to create new symbol based on refs: R69
+Searching for ref R69
+Found library part name for R69: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022558 on row 56
+Attempting to create new symbol based on refs: T23
+Searching for ref T23
+Found library part name for T23: 10005011_Power_Management:IRLML2803TRPBF in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022559 on row 58
+Attempting to create new symbol based on refs: T24
+Searching for ref T24
+Found library part name for T24: 10005011_Power_Management:IRFR024NTRPBF in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022560 on row 59
+Attempting to create new symbol based on refs: T3
+Searching for ref T3
+Found library part name for T3: 10005011_Power_Management:SUD50P06-15L-E3 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022607 on row 61
+Attempting to create new symbol based on refs: C1
+Searching for ref C1
+Found library part name for C1: Device:C in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022609 on row 65
+Attempting to create new symbol based on refs: C7
+Searching for ref C7
+Found library part name for C7: Device:C in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022610 on row 69
+Attempting to create new symbol based on refs: C16
+Searching for ref C16
+Found library part name for C16: Device:C in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022613 on row 73
+Attempting to create new symbol based on refs: C24
+Searching for ref C24
+Found library part name for C24: Device:C in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022616 on row 75
+Attempting to create new symbol based on refs: C30
+Searching for ref C30
+Found library part name for C30: Device:C in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022618 on row 78
+Attempting to create new symbol based on refs: C33
+Searching for ref C33
+Found library part name for C33: Device:C in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022620 on row 81
+Attempting to create new symbol based on refs: C38
+Searching for ref C38
+Found library part name for C38: Device:C in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022621 on row 84
+Attempting to create new symbol based on refs: C42
+Searching for ref C42
+Found library part name for C42: 10005011_Power_Management:CP in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022622 on row 86
+Attempting to create new symbol based on refs: C44
+Searching for ref C44
+Found library part name for C44: 10005011_Power_Management:CP in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022623 on row 88
+Attempting to create new symbol based on refs: C48
+Searching for ref C48
+Found library part name for C48: Device:C in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022625 on row 93
+Attempting to create new symbol based on refs: C54
+Searching for ref C54
+Found library part name for C54: 10005011_Power_Management:CP in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022626 on row 94
+Attempting to create new symbol based on refs: C68
+Searching for ref C68
+Found library part name for C68: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022627 on row 97
+Attempting to create new symbol based on refs: C72
+Searching for ref C72
+Found library part name for C72: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022628 on row 101
+Attempting to create new symbol based on refs: C74
+Searching for ref C74
+Found library part name for C74: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022629 on row 103
+Attempting to create new symbol based on refs: C77
+Searching for ref C77
+Found library part name for C77: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022630 on row 107
+Attempting to create new symbol based on refs: C84
+Searching for ref C84
+Found library part name for C84: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022632 on row 110
+Attempting to create new symbol based on refs: C94
+Searching for ref C94
+Found library part name for C94: Device:C in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022634 on row 113
+Attempting to create new symbol based on refs: C50
+Searching for ref C50
+Found library part name for C50: Device:C in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022650 on row 117
+Attempting to create new symbol based on refs: CR1
+Searching for ref CR1
+Found library part name for CR1: 10005011_Power_Management:1N5819 in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022652 on row 121
+Attempting to create new symbol based on refs: D1
+Searching for ref D1
+Found library part name for D1: 10005011_Power_Management:BAT54 in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022653 on row 123
+Attempting to create new symbol based on refs: D2
+Searching for ref D2
+Found library part name for D2: 10005011_Power_Management:BAT54C in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022654 on row 125
+Attempting to create new symbol based on refs: D3
+Searching for ref D3
+Found library part name for D3: 10005011_Power_Management:SZ1SMB in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022655 on row 128
+Attempting to create new symbol based on refs: D4
+Searching for ref D4
+Found library part name for D4: 10005011_Power_Management:BZX84C4V7 in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022656 on row 130
+Attempting to create new symbol based on refs: D5
+Searching for ref D5
+Found library part name for D5: 10005011_Power_Management:STPS340U in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022657 on row 131
+Attempting to create new symbol based on refs: D10
+Searching for ref D10
+Found library part name for D10: 10005011_Power_Management:BZX84C5V1 in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022658 on row 133
+Attempting to create new symbol based on refs: D13
+Searching for ref D13
+Found library part name for D13: Device:D_TVS in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022695 on row 134
+Attempting to create new symbol based on refs: R18
+Searching for ref R18
+Found library part name for R18: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022696 on row 137
+Attempting to create new symbol based on refs: R2
+Searching for ref R2
+Found library part name for R2: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022697 on row 140
+Attempting to create new symbol based on refs: R3
+Searching for ref R3
+Found library part name for R3: Device:R in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022698 on row 145
+Attempting to create new symbol based on refs: R4
+Searching for ref R4
+Found library part name for R4: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022699 on row 148
+Attempting to create new symbol based on refs: R5
+Searching for ref R5
+Found library part name for R5: Device:R in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022700 on row 151
+Attempting to create new symbol based on refs: R7
+Searching for ref R7
+Found library part name for R7: Device:R in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022701 on row 155
+Attempting to create new symbol based on refs: R9
+Searching for ref R9
+Found library part name for R9: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022704 on row 160
+Attempting to create new symbol based on refs: R14
+Searching for ref R14
+Found library part name for R14: Device:R in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022708 on row 163
+Attempting to create new symbol based on refs: R19
+Searching for ref R19
+Found library part name for R19: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022709 on row 165
+Attempting to create new symbol based on refs: R44
+Searching for ref R44
+Found library part name for R44: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022710 on row 169
+Attempting to create new symbol based on refs: R45
+Searching for ref R45
+Found library part name for R45: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022711 on row 173
+Attempting to create new symbol based on refs: R48
+Searching for ref R48
+Found library part name for R48: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022712 on row 176
+Attempting to create new symbol based on refs: R52
+Searching for ref R52
+Found library part name for R52: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022713 on row 179
+Attempting to create new symbol based on refs: R55
+Searching for ref R55
+Found library part name for R55: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022714 on row 183
+Attempting to create new symbol based on refs: R59
+Searching for ref R59
+Found library part name for R59: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022716 on row 186
+Attempting to create new symbol based on refs: R62
+Searching for ref R62
+Found library part name for R62: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022717 on row 189
+Attempting to create new symbol based on refs: R63
+Searching for ref R63
+Found library part name for R63: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022718 on row 192
+Attempting to create new symbol based on refs: R67
+Searching for ref R67
+Found library part name for R67: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022719 on row 196
+Attempting to create new symbol based on refs: R73
+Searching for ref R73
+Found library part name for R73: Device:R in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022720 on row 200
+Attempting to create new symbol based on refs: R74
+Searching for ref R74
+Found library part name for R74: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022721 on row 203
+Attempting to create new symbol based on refs: R75
+Searching for ref R75
+Found library part name for R75: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022722 on row 206
+Attempting to create new symbol based on refs: R79
+Searching for ref R79
+Found library part name for R79: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022723 on row 209
+Attempting to create new symbol based on refs: R80
+Searching for ref R80
+Found library part name for R80: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022724 on row 213
+Attempting to create new symbol based on refs: R81
+Searching for ref R81
+Found library part name for R81: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022726 on row 217
+Attempting to create new symbol based on refs: R85
+Searching for ref R85
+Found library part name for R85: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022727 on row 220
+Attempting to create new symbol based on refs: R87
+Searching for ref R87
+Found library part name for R87: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022728 on row 222
+Attempting to create new symbol based on refs: R88
+Searching for ref R88
+Found library part name for R88: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022729 on row 223
+Attempting to create new symbol based on refs: R90
+Searching for ref R90
+Found library part name for R90: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022730 on row 229
+Attempting to create new symbol based on refs: R91
+Searching for ref R91
+Found library part name for R91: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022731 on row 233
+Attempting to create new symbol based on refs: R92
+Searching for ref R92
+Found library part name for R92: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022733 on row 237
+Attempting to create new symbol based on refs: R95
+Searching for ref R95
+Found library part name for R95: Device:R in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022734 on row 240
+Attempting to create new symbol based on refs: R8
+Searching for ref R8
+Found library part name for R8: Device:R in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022735 on row 243
+Attempting to create new symbol based on refs: R103
+Searching for ref R103
+Found ref des R103: Device:R in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022736 on row 246
+Attempting to create new symbol based on refs: R104
+Searching for ref R104
+Found ref des R104: Device:R in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022737 on row 250
+Attempting to create new symbol based on refs: R107
+Searching for ref R107
+Found library part name for R107: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022739 on row 253
+Attempting to create new symbol based on refs: IC6
+Searching for ref IC6
+Found library part name for IC6: 10005011_Power_Management:TLV3012AIDBV in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022740 on row 255
+Attempting to create new symbol based on refs: R114
+Searching for ref R114
+Found library part name for R114: Device:R in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022741 on row 258
+Attempting to create new symbol based on refs: L3
+Searching for ref L3
+Found library part name for L3: Device:L_Core_Iron in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022742 on row 259
+Attempting to create new symbol based on refs: R116
+Searching for ref R116
+Found library part name for R116: Device:R in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022743 on row 262
+Attempting to create new symbol based on refs: R117
+Searching for ref R117
+Found library part name for R117: Device:R in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022744 on row 265
+Attempting to create new symbol based on refs: R118
+Searching for ref R118
+Found library part name for R118: Device:R in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022867 on row 267
+Attempting to create new symbol based on refs: J1
+Searching for ref J1
+Found library part name for J1: 10005011_Power_Management:USB_B_Mini_2shield in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022868 on row 268
+Attempting to create new symbol based on refs: J2
+Searching for ref J2
+Found library part name for J2: 10005011_Power_Management:Conn_01x06_Female_x02_SidePads in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022869 on row 269
+Attempting to create new symbol based on refs: J3
+Searching for ref J3
+Found library part name for J3: Connector:Conn_01x12_Female in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022870 on row 271
+Attempting to create new symbol based on refs: J4
+Searching for ref J4
+Found library part name for J4: Connector:Conn_01x03_Female in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022871 on row 273
+Attempting to create new symbol based on refs: J5
+Searching for ref J5
+Found library part name for J5: Connector:Conn_01x10_Male in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022872 on row 274
+Attempting to create new symbol based on refs: J6
+Searching for ref J6
+Found library part name for J6: Connector:Conn_01x02_Male in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022874 on row 275
+Attempting to create new symbol based on refs: J9
+Searching for ref J9
+Found library part name for J9: Connector:Conn_01x04_Male in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022875 on row 276
+Attempting to create new symbol based on refs: J10
+Searching for ref J10
+Found library part name for J10: Connector:Conn_01x10_Female in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022876 on row 278
+Attempting to create new symbol based on refs: J12
+Searching for ref J12
+Found library part name for J12: 10005011_Power_Management:USB_A_4shield in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022877 on row 279
+Attempting to create new symbol based on refs: J14
+Searching for ref J14
+Found library part name for J14: Connector:Conn_01x06_Male in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022878 on row 280
+Attempting to create new symbol based on refs: F1
+Searching for ref F1
+Found library part name for F1: Device:Fuse in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022882 on row 282
+Attempting to create new symbol based on refs: T7
+Searching for ref T7
+Found library part name for T7: 10005011_Power_Management:2N7002 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022883 on row 287
+Attempting to create new symbol based on refs: T19
+Searching for ref T19
+Found library part name for T19: 10005011_Power_Management:SI7884BDP in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022886 on row 289
+Attempting to create new symbol based on refs: IC1
+Searching for ref IC1
+Found library part name for IC1: Comparator:LM393 in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022887 on row 291
+Attempting to create new symbol based on refs: IC2
+Searching for ref IC2
+Found library part name for IC2: 74xGxx:74AHC1G08 in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022888 on row 292
+Attempting to create new symbol based on refs: IC3
+Searching for ref IC3
+Found library part name for IC3: 10005011_Power_Management:PIC18F6622 in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022889 on row 293
+Attempting to create new symbol based on refs: IC4
+Searching for ref IC4
+Found library part name for IC4: Interface_USB:FT2232D in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022890 on row 295
+Attempting to create new symbol based on refs: IC5
+Searching for ref IC5
+Found library part name for IC5: 10005011_Power_Management:DS2480B in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022891 on row 297
+Attempting to create new symbol based on refs: IC7
+Searching for ref IC7
+Found library part name for IC7: 10005011_Power_Management:INA170 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022892 on row 299
+Attempting to create new symbol based on refs: IC8
+Searching for ref IC8
+Found library part name for IC8: Regulator_Linear:LF33_TO252 in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022893 on row 301
+Attempting to create new symbol based on refs: IC9
+Searching for ref IC9
+Found library part name for IC9: 10005011_Power_Management:LT1620CMS8 in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022894 on row 303
+Attempting to create new symbol based on refs: IC10
+Searching for ref IC10
+Found library part name for IC10: 10005011_Power_Management:LTC3780 in sheet ../../10005011 Power Management/10005011 Buck-Boost 24V.sch
+Found new item number 10022895 on row 305
+Attempting to create new symbol based on refs: IC11
+Searching for ref IC11
+Found library part name for IC11: Regulator_Switching:TPS5430DDA in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022896 on row 307
+Attempting to create new symbol based on refs: IC12
+Searching for ref IC12
+Found library part name for IC12: 10005011_Power_Management:LM4120AIM5-3.0 in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022897 on row 308
+Attempting to create new symbol based on refs: IC13
+Searching for ref IC13
+Found library part name for IC13: 10005011_Power_Management:LTC1435CS in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022898 on row 311
+Attempting to create new symbol based on refs: IC15
+Searching for ref IC15
+Found library part name for IC15: 10005011_Power_Management:CY7C67300-100AXI in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022899 on row 312
+Attempting to create new symbol based on refs: IC16
+Searching for ref IC16
+Found library part name for IC16: 10005011_Power_Management:CY7C1021DV33 in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022900 on row 316
+Attempting to create new symbol based on refs: IC17
+Searching for ref IC17
+Found library part name for IC17: Memory_EEPROM:24LC512 in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022901 on row 318
+Attempting to create new symbol based on refs: IC18
+Searching for ref IC18
+Found library part name for IC18: 10005011_Power_Management:SN74LVC2T45 in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022902 on row 320
+Attempting to create new symbol based on refs: IC21
+Searching for ref IC21
+Found library part name for IC21: 10005011_Power_Management:LT1716IS5 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022903 on row 323
+Attempting to create new symbol based on refs: IC23
+Searching for ref IC23
+Found library part name for IC23: 10005011_Power_Management:LM4040DIM3-5.0 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022904 on row 324
+Attempting to create new symbol based on refs: IC25
+Searching for ref IC25
+Found library part name for IC25: Regulator_Linear:LM78M05_TO252 in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022905 on row 326
+Attempting to create new symbol based on refs: IC26
+Searching for ref IC26
+Found library part name for IC26: 10005011_Power_Management:NC7SZ66 in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022906 on row 327
+Attempting to create new symbol based on refs: IC28
+Searching for ref IC28
+Found library part name for IC28: Regulator_Linear:L7805 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022907 on row 331
+Attempting to create new symbol based on refs: L6
+Searching for ref L6
+Found library part name for L6: Device:Ferrite_Bead_Small in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022908 on row 332
+Attempting to create new symbol based on refs: L2
+Searching for ref L2
+Found library part name for L2: Device:L in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022910 on row 333
+Attempting to create new symbol based on refs: L4
+Searching for ref L4
+Found library part name for L4: Device:L_Core_Iron in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022911 on row 334
+Attempting to create new symbol based on refs: L5
+Searching for ref L5
+Found library part name for L5: Device:Ferrite_Bead_Small in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022912 on row 335
+Attempting to create new symbol based on refs: L12
+Searching for ref L12
+Found ref des L12: Device:L_Core_Iron in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10022913 on row 336
+Attempting to create new symbol based on refs: L13
+Searching for ref L13
+Found library part name for L13: Device:L_Core_Iron in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022922 on row 337
+Attempting to create new symbol based on refs: Q1
+Searching for ref Q1
+Found library part name for Q1: Device:Crystal_GND2 in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022923 on row 338
+Attempting to create new symbol based on refs: Q3
+Searching for ref Q3
+Found library part name for Q3: Device:Crystal in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022924 on row 340
+Attempting to create new symbol based on refs: PT1
+Searching for ref PT1
+Found library part name for PT1: Connector:TestPoint in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022926 on row 342
+Attempting to create new symbol based on refs: ML1
+Searching for ref ML1
+Found library part name for ML1: Device:Varistor in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10022927 on row 343
+Attempting to create new symbol based on refs: ML4
+Searching for ref ML4
+Found library part name for ML4: Device:Varistor in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022928 on row 344
+Attempting to create new symbol based on refs: PCT1
+Searching for ref PCT1
+Found library part name for PCT1: Device:Polyfuse in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022929 on row 345
+Attempting to create new symbol based on refs: CT1
+Searching for ref CT1
+Found library part name for CT1: Device:Thermistor_NTC in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022930 on row 346
+Attempting to create new symbol based on refs: SW1
+Searching for ref SW1
+Found library part name for SW1: 10005011_Power_Management:CMF2 in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10022931 on row 347
+Attempting to create new symbol based on refs: SW2
+Searching for ref SW2
+Found library part name for SW2: 10005011_Power_Management:MCDM(R)-02-T in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10022932 on row 350
+Attempting to create new symbol based on refs: ALIM1
+Searching for ref ALIM1
+ERROR: Ref ALIM1 not found in any schematics
+Found new item number 10022933 on row 351
+Attempting to create new symbol based on refs: T2
+Searching for ref T2
+Found library part name for T2: 10005011_Power_Management:IRLML5103TRPBF in sheet ../../10005011 Power Management/10005011 PIC-Micro.sch
+Found new item number 10022946 on row 352
+Attempting to create new symbol based on refs: PG1
+Searching for ref PG1
+Found library part name for PG1: Device:D_TVS in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10039579 on row 353
+Attempting to create new symbol based on refs: C2
+Searching for ref C2
+Found library part name for C2: Device:C in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10039581 on row 355
+Attempting to create new symbol based on refs: C10
+Searching for ref C10
+Found library part name for C10: Device:C in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10039582 on row 361
+Attempting to create new symbol based on refs: C21
+Searching for ref C21
+Found library part name for C21: Device:C in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10039583 on row 364
+Attempting to create new symbol based on refs: C107
+Searching for ref C107
+Found library part name for C107: Device:C in sheet ../../10005011 Power Management/10005011 Switching-ExtPWR.sch
+Found new item number 10039584 on row 366
+Attempting to create new symbol based on refs: C34
+Searching for ref C34
+Found library part name for C34: Device:C in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10039585 on row 370
+Attempting to create new symbol based on refs: C89
+Searching for ref C89
+Found library part name for C89: Device:C in sheet ../../10005011 Power Management/10005011 USB HOST.sch
+Found new item number 10039586 on row 373
+Attempting to create new symbol based on refs: D8
+Searching for ref D8
+Found library part name for D8: 10005011_Power_Management:PMEG4005ET in sheet ../../10005011 Power Management/10005011 Const-I-Gen.sch
+Found new item number 10039587 on row 374
+Attempting to create new symbol based on refs: L1
+Searching for ref L1
+Found library part name for L1: Device:Ferrite_Bead_Small in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10039588 on row 378
+Attempting to create new symbol based on refs: L8
+Searching for ref L8
+Found library part name for L8: 10005011_Power_Management:DLP31SN551ML2L in sheet ../../10005011 Power Management/10005011 FTDI.sch
+Found new item number 10039639 on row 380
+Found new item number 10039642 on row 381
+Found new item number 10052332 on row 382
+Attempting to create new symbol based on refs: J7
+Searching for ref J7
+Found library part name for J7: Connector_Generic:Conn_02x13_Odd_Even in sheet ../../10005011 Power Management/10005011 Connectors-FAN.sch
+Found new item number 10022925 on row 384
+Found new item number 10022738 on row 385
+Found new item number 10022707 on row 388
+Found new item number 10023294 on row 389
+Found new item number 3838600 on row 391
+Found new item number 3826300 on row 392
+Found new item number 10022909 on row 393
+R formatted to R0603_27k_0.1% based on description fieldRESISTOR, 27K OHM, 0.063W, +/-0.1%,0603
+C formatted to C0805_100nF_50V_10% based on description fieldCAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805
+C formatted to C0603_10nF_50V_10% based on description fieldCAPACITOR CERAMIC,10NF,+/-10%,50V,0603
+C formatted to C0805_330nF_16V_10% based on description fieldCAPACITOR,330NF,+/-10%,16V,0805,X7R
+R formatted to R0603_39k_0.1% based on description fieldRES SMD 39K OHM 0.1% 1/10W 0603
+C formatted to C0805_1uF_16V_10% based on description fieldCAPACITOR, 1UF, +/-10%, 16V, 0805
+R formatted to R0603_10k_1% based on description fieldRESISTOR,10K OHM.0.063W,+/-1%,0603
+R formatted to R0603_100k_1% based on description fieldRESISTOR,100KOHM,0.063W,+/-1%,0603
+R formatted to R_4k7_1% based on description fieldRESISTOR,4.7KOHM,0.063W,+/-1%
+R formatted to R0603_100R_1% based on description fieldRESISTOR,100 OHM,0.063W,+/-1%, 0603
+R formatted to R0603_1k_1% based on description fieldRESISTOR, 1K OHM, 0.063W,+/-1%, 0603
+R formatted to R0603_22k_1% based on description fieldRESISTOR, 22 K OHM,0.063W, +/-1%,0603
+R formatted to R1206_1k_1% based on description fieldRESISTOR,1 KOHM,0.25W,+/-1%,1206
+C formatted to C0402_100nF_16V_10% based on description fieldCAPACITOR,100NF,16V,+/-10%,X7R,0402
+C formatted to C0603_33pF_50V_5% based on description fieldCAPACITOR, 33PF, +/-5%,50V,NPO, 0603
+C formatted to C0402_470pF_50V_10% based on description fieldCAPACITOR,470PF,+/-10%,50V,0402
+C formatted to C0603_4n7F_50V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,+/-10%,50V,0603
+C formatted to C0805_4u7F_16V_10% based on description fieldCAPACITOR,4.7UF,+/-10%,16V, X5R, 0805
+C formatted to C1206_2u2F_16V_10% based on description fieldCAPACITOR,2.2UF,+/-10%,16V,1206
+C formatted to C0603_220nF_16V_20% based on description fieldCAPACITOR,220NF,+/-20%,16V,0603
+CP formatted to C_330uF based on description fieldCAPACITOR ELECTROLYTIC, 330UF,35V
+CP formatted to C_220uF_20% based on description fieldCAPACITOR ELECTROLYTIC, 220UF,16V+/-20%
+C formatted to C0402_47pF_50V_5% based on description fieldCAPACITOR,47 PF,+/-5%,50V,0402
+CP formatted to C_100uF_35V_10% based on description fieldCAPACITOR ELECTROLYTIC, 100UF,35V,+/-10%
+C formatted to C0603_56pF_50V_5% based on description fieldCAPACITOR,56PF,50V,+/-5%,0603,NPO
+C formatted to C0603_33nF_16V_10% based on description fieldCAPACITOR,33NF,+/-10%,16V,X7R,0603
+C formatted to C0603_1nF_50V_10% based on description fieldCAPACITOR,1NF,+/-10%,50V,X7R,0603
+C formatted to C0402_100pF_50V_5% based on description fieldCAPACITOR,100PF,50V,+/-5%,C0G,0402
+C formatted to C0603_1uF_10% based on description fieldCAPACITOR,1UF,+/-10%,6.3V,X5R,0603
+C formatted to C0603_22pF_50V_5% based on description fieldCAPACITOR CERAMIC,22PF,+/-5%,50V,0603
+C formatted to C1206_220nF_16V_10% based on description fieldCAPACITOR,220NF,+/-10%,16V,X7R,1206
+R formatted to R0603_27k_1% based on description fieldRESISTOR,27K OHM, 0.063W, +/-1%, 0603
+R formatted to R0603_10k2_0.1% based on description fieldRESISTOR,10.2K OHM, 0.063W, +/-0.1%,0603
+R formatted to R0805_470R_1% based on description fieldRESISTOR,470 OHM, 0.125W,+/-1%, 0805
+R formatted to R0603_12k_1% based on description fieldRESISTOR,12K OHM,0.063W,+/-1%,0603
+R formatted to R0603_27R_1% based on description fieldRESISTOR,27 OHM,0.063W,+/-1%,0603
+R formatted to R0603_1k5_1% based on description fieldRESISTOR,1.5K OHM,0.063W,+/-1%,0603
+R formatted to R0603_10k_0.1% based on description fieldRESISTOR, PRECISION,10K OHM, 0.063W,+/-0.1%,0603
+R formatted to R0603_470R_1% based on description fieldRESISTOR,470 OHM, 0.063W,+/-1%,0603
+R formatted to R0603_110k_0.1% based on description fieldRESISTOR,110K OHM,0.603W,+/-0.1%,0603
+R formatted to R0603_100k_0.1% based on description fieldRESISTOR, 100K OHM, 0.063W,+/-0.1%,0603
+R formatted to R2010_15m_1% based on description fieldRESISTOR, 0.015 OHM, 1W,+/-1%,2010
+R formatted to R0603_39k_1% based on description fieldRESISTOR,39K OHM,0.063W,+/-1%,0603
+R formatted to R0603_33k_1% based on description fieldRESISTOR,33K OHM,0.063W,+/-1%,0603
+R formatted to R0603_40k2_0.1% based on description fieldRESISTOR,40.2K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_5k6_1% based on description fieldRESISTOR,5.6K OHM,0.063W,+/-1%,0603
+R formatted to R1206_15m_1% based on description fieldRESISTOR,0.015 OHM, 0.5W,+/-1%,1206
+R formatted to R0603_47k_0.1% based on description fieldRESISTOR,47K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_1k62_0.1% based on description fieldRESISTOR,1.62K OHM,0.063W,+/0.1%,0603
+R formatted to R0603_3k24_0.1% based on description fieldRESISTOR,PRECISION, 3.24K OHM, 0.063W,+/-0.1%,0603
+R formatted to R0603_1k24_1% based on description fieldRESISTOR,1.24K OHM,0.063W.+/-1%,0603
+R formatted to R2512_15m_1% based on description fieldRESISTOR,0.015 OHM,2W,+/-1%,2512
+R formatted to R0603_1M5_1% based on description fieldRESISTOR,1.5M OHM,0.063W,+/-1%,0603
+R formatted to R2010_50m_1% based on description fieldRESISTOR,0.05 OHM,1W,+/-1%,2010
+R formatted to R0603_13k7_0.1% based on description fieldRESISTOR,13.7K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_2k87_0.1% based on description fieldRESISTOR,2.87K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_86k6_1% based on description fieldRESISTOR,86.6K OHM,0.063W,+/-1%,0603
+R formatted to R_390R_5% based on description fieldRESISTOR,390 OHM,2W,+.-5%,SM2
+R formatted to R0603_1k37_0.1% based on description fieldRESISTOR,1.37K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_16k2_0.1% based on description fieldRESISTOR,16.2K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_3k3_1% based on description fieldRESISTOR,3.3K OHM,0.063W,+/-1%,0603
+R formatted to R0603_33R_1% based on description fieldRESISTOR,33 OHM,0.063W,+/-1%,0603
+R formatted to R0603_47k_1% based on description fieldRESISTOR,47K OHM,0.063W,+/-1%,0603
+R formatted to R0603_2k7_1% based on description fieldRESISTOR,2.7K OHM,0.063W,+/-1%,0603
+R formatted to R0603_1M_1% based on description fieldRESISTOR,1M OHM,0.063W,+/-1%,0603
+R formatted to R0603_66k5_0.1% based on description fieldRESISTOR,66.5K OHM,0.063W,+/-0.1%,0603
+R formatted to R1206_1k5_1% based on description fieldRESISTOR,1.5K OHM,0.250W,+/-1%,1206
+R formatted to R1206_100R_1% based on description fieldRESISTOR,100 OHM,0.25W,+/-1%,1206
+R formatted to R0805_270R_1% based on description fieldRESISTOR,270 OHM,0.125W,+/-1%,0805
+R formatted to R0603_470k_1% based on description fieldRESISTOR,470K OHM,0.063W,+/-1%,0603
+C formatted to C_10uF_10% based on description fieldCAPACITOR CERAMIC, 10UF,+/-10%,16V
+C formatted to C_10uF_50V_10% based on description fieldCAPACITOR CERAMIC, 10UF,+/-10%,50V 2220
+C formatted to C_4u7F_10% based on description fieldCAPACITOR CERAMIC, 4.7UF,+/-10%,50V
+C formatted to C_22uF_25V_10% based on description fieldCAPACITOR CERAMIC, 22UF,+/-10%,25V 2220
+C formatted to C1210_22uF_16V_10% based on description fieldCAPACITOR CERAMIC, 22UF,+/-10%,16V 1210
+C formatted to C1206_100uF_20% based on description fieldCAPACITOR CERAMIC, 100UF,+/-20%,6.3V 1206
+Found cache library: 10005011 Power Management-cache.lib
+Renaming cache libary symbol name Device_R to R0603_27k_0.1%
+Renaming cache libary symbol name Device_R to R0603_39k_0.1%
+Renaming cache libary symbol name Device_R to R0603_10k_1%
+Renaming cache libary symbol name Device_R to R0603_100k_1%
+Renaming cache libary symbol name Device_R to R_4k7_1%
+Renaming cache libary symbol name Device_R to R0603_100R_1%
+Renaming cache libary symbol name Device_R to R0603_1k_1%
+Renaming cache libary symbol name Device_R to R0603_22k_1%
+Renaming cache libary symbol name Device_R to R1206_1k_1%
+Renaming cache libary symbol name Device_R to R0603_27k_1%
+Renaming cache libary symbol name Device_R to R0603_10k2_0.1%
+Renaming cache libary symbol name Device_R to R0805_470R_1%
+Renaming cache libary symbol name Device_R to R0603_12k_1%
+Renaming cache libary symbol name Device_R to R0603_27R_1%
+Renaming cache libary symbol name Device_R to R0603_1k5_1%
+Renaming cache libary symbol name Device_R to R0603_10k_0.1%
+Renaming cache libary symbol name Device_R to R0603_470R_1%
+Renaming cache libary symbol name Device_R to R0603_110k_0.1%
+Renaming cache libary symbol name Device_R to R0603_100k_0.1%
+Renaming cache libary symbol name Device_R to R2010_15m_1%
+Renaming cache libary symbol name Device_R to R0603_39k_1%
+Renaming cache libary symbol name Device_R to R0603_33k_1%
+Renaming cache libary symbol name Device_R to R0603_40k2_0.1%
+Renaming cache libary symbol name Device_R to R0603_5k6_1%
+Renaming cache libary symbol name Device_R to R1206_15m_1%
+Renaming cache libary symbol name Device_R to R0603_47k_0.1%
+Renaming cache libary symbol name Device_R to R0603_1k62_0.1%
+Renaming cache libary symbol name Device_R to R0603_3k24_0.1%
+Renaming cache libary symbol name Device_R to R0603_1k24_1%
+Renaming cache libary symbol name Device_R to R2512_15m_1%
+Renaming cache libary symbol name Device_R to R0603_1M5_1%
+Renaming cache libary symbol name Device_R to R2010_50m_1%
+Renaming cache libary symbol name Device_R to R0603_13k7_0.1%
+Renaming cache libary symbol name Device_R to R0603_2k87_0.1%
+Renaming cache libary symbol name Device_R to R0603_86k6_1%
+Renaming cache libary symbol name Device_R to R_390R_5%
+Renaming cache libary symbol name Device_R to R0603_1k37_0.1%
+Renaming cache libary symbol name Device_R to R0603_16k2_0.1%
+Renaming cache libary symbol name Device_R to R0603_3k3_1%
+Renaming cache libary symbol name Device_R to R0603_33R_1%
+Renaming cache libary symbol name Device_R to R0603_47k_1%
+Renaming cache libary symbol name Device_R to R0603_2k7_1%
+Renaming cache libary symbol name Device_R to R0603_1M_1%
+Renaming cache libary symbol name Device_R to R0603_66k5_0.1%
+Renaming cache libary symbol name Device_R to R1206_1k5_1%
+Renaming cache libary symbol name Device_R to R1206_100R_1%
+Renaming cache libary symbol name Device_R to R0805_270R_1%
+Renaming cache libary symbol name Device_R to R0603_470k_1%
+Writing library file: Resistor.lib
+Renaming cache libary symbol name Device_C to C0805_100nF_50V_10%
+Renaming cache libary symbol name 10005011_Power_Management_47pF_array to 47pF_array
+Renaming cache libary symbol name Device_C to C0603_10nF_50V_10%
+Renaming cache libary symbol name Device_C to C0805_330nF_16V_10%
+Renaming cache libary symbol name Device_C to C0805_1uF_16V_10%
+Renaming cache libary symbol name Device_C to C0402_100nF_16V_10%
+Renaming cache libary symbol name Device_C to C0603_33pF_50V_5%
+Renaming cache libary symbol name Device_C to C0402_470pF_50V_10%
+Renaming cache libary symbol name Device_C to C0603_4n7F_50V_10%
+Renaming cache libary symbol name Device_C to C0805_4u7F_16V_10%
+Renaming cache libary symbol name Device_C to C1206_2u2F_16V_10%
+Renaming cache libary symbol name Device_C to C0603_220nF_16V_20%
+Renaming cache libary symbol name 10005011_Power_Management_CP to C_330uF
+Renaming cache libary symbol name 10005011_Power_Management_CP to C_220uF_20%
+Renaming cache libary symbol name Device_C to C0402_47pF_50V_5%
+Renaming cache libary symbol name 10005011_Power_Management_CP to C_100uF_35V_10%
+Renaming cache libary symbol name Device_C to C0603_56pF_50V_5%
+Renaming cache libary symbol name Device_C to C0603_33nF_16V_10%
+Renaming cache libary symbol name Device_C to C0603_1nF_50V_10%
+Renaming cache libary symbol name Device_C to C0402_100pF_50V_5%
+Renaming cache libary symbol name Device_C to C0603_1uF_10%
+Renaming cache libary symbol name Device_C to C0603_22pF_50V_5%
+Renaming cache libary symbol name Device_C to C1206_220nF_16V_10%
+Renaming cache libary symbol name Device_C to C_10uF_10%
+Renaming cache libary symbol name Device_C to C_10uF_50V_10%
+Renaming cache libary symbol name Device_C to C_4u7F_10%
+Renaming cache libary symbol name Device_C to C_22uF_25V_10%
+Renaming cache libary symbol name Device_C to C1210_22uF_16V_10%
+Renaming cache libary symbol name Device_C to C1206_100uF_20%
+Writing library file: Capacitor.lib
+Renaming cache libary symbol name 10005011_Power_Management_BNX002-01 to BNX002-01
+Writing library file: FLTR.lib
+Renaming cache libary symbol name 10005011_Power_Management_IRLML2803TRPBF to IRLML2803TRPBF
+Renaming cache libary symbol name 10005011_Power_Management_IRFR024NTRPBF to IRFR024NTRPBF
+Renaming cache libary symbol name 10005011_Power_Management_SUD50P06-15L-E3 to SUD50P06-15L-E3
+Renaming cache libary symbol name 10005011_Power_Management_2N7002 to 2N7002
+Renaming cache libary symbol name 10005011_Power_Management_SI7884BDP to SI7884BDP
+Renaming cache libary symbol name 10005011_Power_Management_IRLML5103TRPBF to IRLML5103TRPBF
+Writing library file: Transistor.lib
+Renaming cache libary symbol name 10005011_Power_Management_1N5819 to 1N5819
+Renaming cache libary symbol name 10005011_Power_Management_BAT54 to BAT54
+Renaming cache libary symbol name 10005011_Power_Management_BAT54C to BAT54C
+Renaming cache libary symbol name 10005011_Power_Management_SZ1SMB to SZ1SMB
+Renaming cache libary symbol name 10005011_Power_Management_BZX84C4V7 to BZX84C4V7
+Renaming cache libary symbol name 10005011_Power_Management_STPS340U to STPS340U
+Renaming cache libary symbol name 10005011_Power_Management_BZX84C5V1 to BZX84C5V1
+Renaming cache libary symbol name Device_D_TVS to D_TVS_10022658
+Renaming cache libary symbol name Device_D_TVS to D_TVS_10022946
+Renaming cache libary symbol name 10005011_Power_Management_PMEG4005ET to PMEG4005ET
+Writing library file: Diode.lib
+Renaming cache libary symbol name 10005011_Power_Management_TLV3012AIDBV to TLV3012AIDBV
+Renaming cache libary symbol name Comparator_LM393 to LM393
+Renaming cache libary symbol name 74xGxx_74AHC1G08 to 74AHC1G08
+Renaming cache libary symbol name 10005011_Power_Management_PIC18F6622 to PIC18F6622
+Renaming cache libary symbol name Interface_USB_FT2232D to FT2232D
+Renaming cache libary symbol name 10005011_Power_Management_DS2480B to DS2480B
+Renaming cache libary symbol name 10005011_Power_Management_INA170 to INA170
+Renaming cache libary symbol name Regulator_Linear_LF33_TO252 to LF33_TO252
+Renaming cache libary symbol name 10005011_Power_Management_LT1620CMS8 to LT1620CMS8
+Renaming cache libary symbol name 10005011_Power_Management_LTC3780 to LTC3780
+Renaming cache libary symbol name Regulator_Switching_TPS5430DDA to TPS5430DDA
+Renaming cache libary symbol name 10005011_Power_Management_LM4120AIM5-3.0 to LM4120AIM5-3.0
+Renaming cache libary symbol name 10005011_Power_Management_LTC1435CS to LTC1435CS
+Renaming cache libary symbol name 10005011_Power_Management_CY7C67300-100AXI to CY7C67300-100AXI
+Renaming cache libary symbol name 10005011_Power_Management_CY7C1021DV33 to CY7C1021DV33
+Renaming cache libary symbol name Memory_EEPROM_24LC512 to 24LC512
+Renaming cache libary symbol name 10005011_Power_Management_SN74LVC2T45 to SN74LVC2T45
+Renaming cache libary symbol name 10005011_Power_Management_LT1716IS5 to LT1716IS5
+Renaming cache libary symbol name 10005011_Power_Management_LM4040DIM3-5.0 to LM4040DIM3-5.0
+Renaming cache libary symbol name Regulator_Linear_LM78M05_TO252 to LM78M05_TO252
+Renaming cache libary symbol name 10005011_Power_Management_NC7SZ66 to NC7SZ66
+Renaming cache libary symbol name Regulator_Linear_L7805 to L7805
+Writing library file: IC.lib
+Renaming cache libary symbol name Device_L_Core_Iron to L_Core_Iron_10022741
+Renaming cache libary symbol name Device_Ferrite_Bead_Small to Ferrite_Bead_Small_10022907
+Renaming cache libary symbol name Device_L to L
+Renaming cache libary symbol name Device_L_Core_Iron to L_Core_Iron_10022910
+Renaming cache libary symbol name Device_Ferrite_Bead_Small to Ferrite_Bead_Small_10022911
+Renaming cache libary symbol name Device_L_Core_Iron to L_Core_Iron_10022912
+Renaming cache libary symbol name Device_L_Core_Iron to L_Core_Iron_10022913
+Renaming cache libary symbol name Device_Ferrite_Bead_Small to Ferrite_Bead_Small_10039587
+Renaming cache libary symbol name 10005011_Power_Management_DLP31SN551ML2L to DLP31SN551ML2L
+Writing library file: Inductor.lib
+Renaming cache libary symbol name 10005011_Power_Management_USB_B_Mini_2shield to USB_B_Mini_2shield
+Renaming cache libary symbol name 10005011_Power_Management_Conn_01x06_Female_x02_SidePads to Conn_01x06_Female_x02_SidePads
+Renaming cache libary symbol name Connector_Conn_01x12_Female to Conn_01x12_Female
+Renaming cache libary symbol name Connector_Conn_01x03_Female to Conn_01x03_Female
+Renaming cache libary symbol name Connector_Conn_01x10_Male to Conn_01x10_Male
+Renaming cache libary symbol name Connector_Conn_01x02_Male to Conn_01x02_Male
+Renaming cache libary symbol name Connector_Conn_01x04_Male to Conn_01x04_Male
+Renaming cache libary symbol name Connector_Conn_01x10_Female to Conn_01x10_Female
+Renaming cache libary symbol name 10005011_Power_Management_USB_A_4shield to USB_A_4shield
+Renaming cache libary symbol name Connector_Conn_01x06_Male to Conn_01x06_Male
+Renaming cache libary symbol name Connector_Generic_Conn_02x13_Odd_Even to Conn_02x13_Odd_Even
+Writing library file: Connector.lib
+Renaming cache libary symbol name Device_Fuse to Fuse
+Renaming cache libary symbol name Device_Polyfuse to Polyfuse
+Writing library file: Fuse.lib
+Renaming cache libary symbol name Device_Crystal_GND2 to Crystal_GND2
+Renaming cache libary symbol name Device_Crystal to Crystal
+Writing library file: Crystal.lib
+Renaming cache libary symbol name Connector_TestPoint to TestPoint
+Writing library file: Jumper.lib
+Renaming cache libary symbol name Device_Varistor to Varistor_10022926
+Renaming cache libary symbol name Device_Varistor to Varistor_10022927
+Writing library file: Varistor.lib
+Renaming cache libary symbol name Device_Thermistor_NTC to Thermistor_NTC
+Writing library file: CT.lib
+Renaming cache libary symbol name 10005011_Power_Management_CMF2 to CMF2
+ERROR: Failed to extract symbol data from cache for ref SW2, lib: 10005011_Power_Management_MCDM(R)-02-T
+Writing library file: Switch.lib
+Writing library file: Unknown.lib
+Exporting CSV file:Symbols/library_bom.csv
+*********************
+
+Blower Driver:
+Using input directory: ../../10096315 Blower Driver//
+Will look for bom file: master_bom/blower_bom.csv
+Reading file: ../../10096315 Blower Driver//ctrb0505-A.sch
+Using bom csv file: master_bom/blower_bom.csv
+Found new item number 10022135 on row 1
+Attempting to create new symbol based on refs: C1
+Searching for ref C1
+Found library part name for C1: Blower_Driver_Components:Capacitor_100nF in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022506 on row 6
+Attempting to create new symbol based on refs: ZC2
+Searching for ref ZC2
+Found library part name for ZC2: Blower_Driver_Components:Capacitor_100uF_CheckFootprint in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022507 on row 7
+Attempting to create new symbol based on refs: C7
+Searching for ref C7
+Found library part name for C7: Blower_Driver_Components:Capacitor_2.2nF in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022508 on row 10
+Attempting to create new symbol based on refs: C8
+Searching for ref C8
+Found library part name for C8: Blower_Driver_Components:Capacitor_10nF in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022509 on row 14
+Attempting to create new symbol based on refs: C10
+Searching for ref C10
+Found library part name for C10: Blower_Driver_Components:Capacitor_220nF in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022510 on row 18
+Attempting to create new symbol based on refs: C18
+Searching for ref C18
+Found library part name for C18: Blower_Driver_Components:Capacitor_330nF in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022514 on row 23
+Attempting to create new symbol based on refs: D1
+Searching for ref D1
+Found library part name for D1: Blower_Driver_Components:DiodeZener_30V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022515 on row 29
+Attempting to create new symbol based on refs: D2
+Searching for ref D2
+Found library part name for D2: Blower_Driver_Components:DiodeSchottky in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022517 on row 31
+Attempting to create new symbol based on refs: D11
+Searching for ref D11
+Found library part name for D11: Blower_Driver_Components:DiodeZener_30V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022518 on row 33
+Attempting to create new symbol based on refs: D14
+Searching for ref D14
+Found library part name for D14: Blower_Driver_Components:DiodeSchottkySeriesPair in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022519 on row 35
+Attempting to create new symbol based on refs: D17
+Searching for ref D17
+Found library part name for D17: Blower_Driver_Components:DiodeSchottkyParallelPair in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022531 on row 36
+Attempting to create new symbol based on refs: F1
+Searching for ref F1
+Found library part name for F1: Blower_Driver_Components:Fuse_5A in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022533 on row 37
+Attempting to create new symbol based on refs: FI3
+Searching for ref FI3
+Found library part name for FI3: Blower_Driver_Components:FerriteBead in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022534 on row 38
+Attempting to create new symbol based on refs: IC1
+Searching for ref IC1
+Found library part name for IC1: Blower_Driver_Components:MotorDriver in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022536 on row 40
+Attempting to create new symbol based on refs: IC3
+Searching for ref IC3
+Found library part name for IC3: Blower_Driver_Components:HighSideDriver in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022537 on row 43
+Attempting to create new symbol based on refs: IC6
+Searching for ref IC6
+Found library part name for IC6: Blower_Driver_Components:LinearRegulator in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022538 on row 45
+Attempting to create new symbol based on refs: J1
+Searching for ref J1
+Found library part name for J1: Blower_Driver_Components:2pinConnector_Power in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022541 on row 46
+Attempting to create new symbol based on refs: J4
+Searching for ref J4
+Found library part name for J4: Blower_Driver_Components:JumperBypass in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022542 on row 47
+Attempting to create new symbol based on refs: J3
+Searching for ref J3
+Found library part name for J3: Blower_Driver_Components:2pinConnector in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022543 on row 48
+Attempting to create new symbol based on refs: J6
+Searching for ref J6
+Found library part name for J6: Blower_Driver_Components:8pinConnector in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022547 on row 49
+Attempting to create new symbol based on refs: R1
+Searching for ref R1
+Found library part name for R1: Blower_Driver_Components:Resistor_0R047 in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022549 on row 53
+Attempting to create new symbol based on refs: R3
+Searching for ref R3
+Found library part name for R3: Blower_Driver_Components:Resistor_100k in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022550 on row 56
+Attempting to create new symbol based on refs: R6
+Searching for ref R6
+Found library part name for R6: Blower_Driver_Components:Resistor_680R in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022555 on row 59
+Attempting to create new symbol based on refs: R40
+Searching for ref R40
+Found library part name for R40: Blower_Driver_Components:Resistor_0R100 in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022558 on row 64
+Attempting to create new symbol based on refs: T1
+Searching for ref T1
+Found library part name for T1: Blower_Driver_Components:MOSFET_NMOS_30V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022559 on row 66
+Attempting to create new symbol based on refs: T2
+Searching for ref T2
+Found library part name for T2: Blower_Driver_Components:MOSFET_NMOS_55V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022561 on row 67
+Attempting to create new symbol based on refs: C4
+Searching for ref C4
+Found library part name for C4: Blower_Driver_Components:Capacitor_22uF_CheckFootprint in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022562 on row 70
+Attempting to create new symbol based on refs: D8
+Searching for ref D8
+Found library part name for D8: Blower_Driver_Components:DiodeZener_200V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022924 on row 73
+Attempting to create new symbol based on refs: PT1
+Searching for ref PT1
+Found library part name for PT1: Blower_Driver_Components:TestPoint in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10052305 on row 75
+Attempting to create new symbol based on refs: J2
+Searching for ref J2
+Found library part name for J2: Blower_Driver_Components:10pinConnector in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095969 on row 76
+Attempting to create new symbol based on refs: ZC27
+Searching for ref ZC27
+Found library part name for ZC27: Blower_Driver_Components:Capacitor_470uF_CheckFootprint in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095970 on row 78
+Attempting to create new symbol based on refs: IC2
+Searching for ref IC2
+Found library part name for IC2: Blower_Driver_Components:NE555D in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095971 on row 80
+Attempting to create new symbol based on refs: L1
+Searching for ref L1
+Found library part name for L1: Blower_Driver_Components:Inductor_22uH in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095972 on row 81
+Attempting to create new symbol based on refs: T9
+Searching for ref T9
+Found library part name for T9: Blower_Driver_Components:MOSFET_PMOS_60V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095973 on row 82
+Attempting to create new symbol based on refs: C22
+Searching for ref C22
+Found library part name for C22: Blower_Driver_Components:CapacitorArray_47pf in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095974 on row 84
+Attempting to create new symbol based on refs: C28
+Searching for ref C28
+Found library part name for C28: Blower_Driver_Components:Capacitor_1000uF in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095975 on row 85
+Attempting to create new symbol based on refs: R2
+Searching for ref R2
+Found library part name for R2: Blower_Driver_Components:Resistor_10k in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095977 on row 88
+Attempting to create new symbol based on refs: R8
+Searching for ref R8
+Found library part name for R8: Blower_Driver_Components:Resistor_4k7 in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095979 on row 90
+Attempting to create new symbol based on refs: R11
+Searching for ref R11
+Found library part name for R11: Blower_Driver_Components:Resistor_100R in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095980 on row 94
+Attempting to create new symbol based on refs: R20
+Searching for ref R20
+Found library part name for R20: Blower_Driver_Components:Resistor_10R in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095981 on row 96
+Attempting to create new symbol based on refs: R38
+Searching for ref R38
+Found library part name for R38: Blower_Driver_Components:Resistor_1k in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095983 on row 98
+Attempting to create new symbol based on refs: R41
+Searching for ref R41
+Found library part name for R41: Blower_Driver_Components:Resistor_22k in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095984 on row 101
+Attempting to create new symbol based on refs: R58
+Searching for ref R58
+Found library part name for R58: Blower_Driver_Components:Resistor_1k_0.5W in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10096505 on row 104
+Found new item number 4096600.E00.001 on row 105
+Found new item number 3846100 on row 106
+Found new item number 3838600 on row 107
+Found new item number 10022506 on row 110
+Attempting to create new symbol based on refs: C2
+Searching for ref C2
+Found library part name for C2: Blower_Driver_Components:Capacitor_100uF_CheckFootprint in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10095969 on row 111
+Attempting to create new symbol based on refs: C27
+Searching for ref C27
+Found library part name for C27: Blower_Driver_Components:Capacitor_470uF_CheckFootprint in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Found new item number 10022559 on row 113
+Attempting to create new symbol based on refs: ZT2
+Searching for ref ZT2
+Found library part name for ZT2: Blower_Driver_Components:MOSFET_NMOS_55V in sheet ../../10096315 Blower Driver//ctrb0505-A.sch
+Capacitor_100nF formatted to C0805_100nF_50V_10% based on description fieldCAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805
+Capacitor_100uF_CheckFootprint formatted to C_100uF_50V_20% based on description fieldCAPACITOR,100UF,+/-20%,50V SMD
+Capacitor_2.2nF formatted to C0603_2n2F_50V_10% based on description fieldCAPACITOR CERAMIC, 2.2NF, +/-10%,50V, X7R, 0603
+Capacitor_10nF formatted to C0603_10nF_50V_10% based on description fieldCAPACITOR CERAMIC,10NF,+/-10%,50V,0603
+Capacitor_220nF formatted to C1206_220nF_50V_10% based on description fieldCAPACITOR,220NF,+/-10% ,50V, X7R,1206
+Capacitor_330nF formatted to C0805_330nF_16V_10% based on description fieldCAPACITOR,330NF,+/-10%,16V,0805,X7R
+Resistor_0R047 formatted to R2512_47m_5% based on description fieldRESISTOR, 0.047 OHM, 1W, +/-5%,2512
+Resistor_100k formatted to R0603_100k_1% based on description fieldRESISTOR,100KOHM,0.063W,+/-1%,0603
+Resistor_680R formatted to R0603_680R_1% based on description fieldRESISTOR,680OHM, 0.063W, +/-1%,0603
+Resistor_0R100 formatted to R2512_100m_5% based on description fieldRESISTOR,0.1 OHM,1W,+/-5%,2512
+Capacitor_22uF_CheckFootprint formatted to C_22uF_10% based on description fieldCAPACITOR TANTALUM,22UF,+/-10%,35V
+Capacitor_470uF_CheckFootprint formatted to C_470uF_20% based on description fieldCAPACITOR,470UF, +/-20%,25V
+CapacitorArray_47pf formatted to C0612_47pF_50V_10% based on description fieldCAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612
+Capacitor_1000uF formatted to C_1kF_20% based on description fieldCAPACITOR,1000UF,+/-20%,35V
+Resistor_10k formatted to R0603_10k_1% based on description fieldRESISTOR,10K OHM.0.063W,+/-1%,0603
+Resistor_4k7 formatted to R_4k7_1% based on description fieldRESISTOR,4.7KOHM,0.063W,+/-1%
+Resistor_100R formatted to R0603_100R_1% based on description fieldRESISTOR,100 OHM,0.063W,+/-1%, 0603
+Resistor_10R formatted to R0603_10R_1% based on description fieldRESISTOR, 10 OHM,0.063W, +/-1%, 0603
+Resistor_1k formatted to R0603_1k_1% based on description fieldRESISTOR, 1K OHM, 0.063W,+/-1%, 0603
+Resistor_22k formatted to R0603_22k_1% based on description fieldRESISTOR, 22 K OHM,0.063W, +/-1%,0603
+Resistor_1k_0.5W formatted to R1206_1k_1% based on description fieldRESISTOR,1 KOHM,0.25W,+/-1%,1206
+Capacitor_100uF_CheckFootprint formatted to C_100uF_20% based on description fieldCAPACITOR,100UF,+/-20%,50V
+Capacitor_470uF_CheckFootprint formatted to C_470uF_20% based on description fieldCAPACITOR,470UF, +/-20%,25V
+Found cache library: ctrb0505-A-cache.lib
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_100nF to C0805_100nF_50V_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_100uF_CheckFootprint to C_100uF_50V_20%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_2.2nF to C0603_2n2F_50V_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_10nF to C0603_10nF_50V_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_220nF to C1206_220nF_50V_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_330nF to C0805_330nF_16V_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_22uF_CheckFootprint to C_22uF_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_470uF_CheckFootprint to C_470uF_20%_10095969
+Renaming cache libary symbol name Blower_Driver_Components_CapacitorArray_47pf to C0612_47pF_50V_10%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_1000uF to C_1kF_20%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_100uF_CheckFootprint to C_100uF_20%
+Renaming cache libary symbol name Blower_Driver_Components_Capacitor_470uF_CheckFootprint to C_470uF_20%_10095969
+Writing library file: Capacitor.lib
+Renaming cache libary symbol name Blower_Driver_Components_DiodeZener_30V to DiodeZener_30V_10022514
+Renaming cache libary symbol name Blower_Driver_Components_DiodeSchottky to DiodeSchottky
+Renaming cache libary symbol name Blower_Driver_Components_DiodeZener_30V to DiodeZener_30V_10022517
+Renaming cache libary symbol name Blower_Driver_Components_DiodeSchottkySeriesPair to DiodeSchottkySeriesPair
+Renaming cache libary symbol name Blower_Driver_Components_DiodeSchottkyParallelPair to DiodeSchottkyParallelPair
+Renaming cache libary symbol name Blower_Driver_Components_DiodeZener_200V to DiodeZener_200V
+Writing library file: Diode.lib
+Renaming cache libary symbol name Blower_Driver_Components_Fuse_5A to Fuse_5A
+Writing library file: Fuse.lib
+Renaming cache libary symbol name Blower_Driver_Components_FerriteBead to FerriteBead
+Renaming cache libary symbol name Blower_Driver_Components_Inductor_22uH to Inductor_22uH
+Writing library file: Inductor.lib
+Renaming cache libary symbol name Blower_Driver_Components_MotorDriver to MotorDriver
+Renaming cache libary symbol name Blower_Driver_Components_HighSideDriver to HighSideDriver
+Renaming cache libary symbol name Blower_Driver_Components_LinearRegulator to LinearRegulator
+Renaming cache libary symbol name Blower_Driver_Components_NE555D to NE555D
+Writing library file: IC.lib
+Renaming cache libary symbol name Blower_Driver_Components_2pinConnector_Power to 2pinConnector_Power
+Renaming cache libary symbol name Blower_Driver_Components_JumperBypass to JumperBypass
+Renaming cache libary symbol name Blower_Driver_Components_2pinConnector to 2pinConnector
+Renaming cache libary symbol name Blower_Driver_Components_8pinConnector to 8pinConnector
+Renaming cache libary symbol name Blower_Driver_Components_10pinConnector to 10pinConnector
+Writing library file: Connector.lib
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_0R047 to R2512_47m_5%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_100k to R0603_100k_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_680R to R0603_680R_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_0R100 to R2512_100m_5%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_10k to R0603_10k_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_4k7 to R_4k7_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_100R to R0603_100R_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_10R to R0603_10R_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_1k to R0603_1k_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_22k to R0603_22k_1%
+Renaming cache libary symbol name Blower_Driver_Components_Resistor_1k_0.5W to R1206_1k_1%
+Writing library file: Resistor.lib
+Renaming cache libary symbol name Blower_Driver_Components_MOSFET_NMOS_30V to MOSFET_NMOS_30V
+Renaming cache libary symbol name Blower_Driver_Components_MOSFET_NMOS_55V to MOSFET_NMOS_55V_10022559
+Renaming cache libary symbol name Blower_Driver_Components_MOSFET_PMOS_60V to MOSFET_PMOS_60V
+Renaming cache libary symbol name Blower_Driver_Components_MOSFET_NMOS_55V to MOSFET_NMOS_55V_10022559
+Writing library file: Transistor.lib
+Renaming cache libary symbol name Blower_Driver_Components_TestPoint to TestPoint
+Writing library file: Jumper.lib
+Exporting CSV file:Symbols/library_bom.csv
+*********************
+
+Power Pack:
+Using input directory: ../../10106052 PowerPack//
+Will look for bom file: master_bom/powerpack_bom.csv
+Reading file: ../../10106052 PowerPack//switching_block.sch
+Reading file: ../../10106052 PowerPack//10106052 PowerPack.sch
+Reading file: ../../10106052 PowerPack//microcontroller_block.sch
+Reading file: ../../10106052 PowerPack//utils.sch
+Using bom csv file: master_bom/powerpack_bom.csv
+Found new item number 10000836 on row 1
+Attempting to create new symbol based on refs: R28
+Searching for ref R28
+Found library part name for R28: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10000838 on row 2
+Attempting to create new symbol based on refs: R24
+Searching for ref R24
+Found library part name for R24: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10001204 on row 3
+Attempting to create new symbol based on refs: R3
+Searching for ref R3
+Found library part name for R3: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10002095 on row 5
+Attempting to create new symbol based on refs: T1
+Searching for ref T1
+Found library part name for T1: Device:Q_NMOS_GSD in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10021053 on row 8
+Attempting to create new symbol based on refs: RL1
+Searching for ref RL1
+Found library part name for RL1: Relay:FINDER-41.52 in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10021070 on row 9
+Attempting to create new symbol based on refs: R29
+Searching for ref R29
+Found library part name for R29: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10021350 on row 10
+Attempting to create new symbol based on refs: J1
+Searching for ref J1
+Found library part name for J1: Connector:Conn_01x02_Male in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10021365 on row 12
+Attempting to create new symbol based on refs: D10
+Searching for ref D10
+Found library part name for D10: 10106052_PowerPack:PESD5V0S4UD in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10021369 on row 13
+Attempting to create new symbol based on refs: C6
+Searching for ref C6
+Found ref des C6: Device:C in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10021370 on row 14
+Attempting to create new symbol based on refs: C2
+Searching for ref C2
+Found ref des C2: Device:C in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10021386 on row 17
+Attempting to create new symbol based on refs: C1
+Searching for ref C1
+Found library part name for C1: Device:C in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022508 on row 18
+Attempting to create new symbol based on refs: C10
+Searching for ref C10
+Found library part name for C10: Device:C in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022515 on row 22
+Attempting to create new symbol based on refs: D3
+Searching for ref D3
+Found library part name for D3: 10106052_PowerPack:PMEG4005AEA in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022532 on row 24
+Attempting to create new symbol based on refs: FL1
+Searching for ref FL1
+Found library part name for FL1: 10106052_PowerPack:BNX002-11 in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022548 on row 27
+Attempting to create new symbol based on refs: R1
+Searching for ref R1
+Found library part name for R1: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022551 on row 31
+Attempting to create new symbol based on refs: R41
+Searching for ref R41
+Found library part name for R41: Device:R in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10022554 on row 35
+Attempting to create new symbol based on refs: R33
+Searching for ref R33
+Found library part name for R33: Device:R in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10022734 on row 38
+Attempting to create new symbol based on refs: R55
+Searching for ref R55
+Found library part name for R55: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022891 on row 41
+Attempting to create new symbol based on refs: U3
+Searching for ref U3
+Found library part name for U3: 10106052_PowerPack:INA170 in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10022896 on row 44
+Attempting to create new symbol based on refs: U2
+Searching for ref U2
+Found ref des U2: 10106052_PowerPack:LM4120AIM5-3.0 in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10023238 on row 45
+Attempting to create new symbol based on refs: R2
+Searching for ref R2
+Found library part name for R2: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10023419 on row 50
+Attempting to create new symbol based on refs: J4
+Searching for ref J4
+Found library part name for J4: Connector:Conn_01x01_Male in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10049136 on row 52
+Attempting to create new symbol based on refs: R44
+Searching for ref R44
+Found library part name for R44: Device:R in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10060347 on row 55
+Attempting to create new symbol based on refs: D1
+Searching for ref D1
+Found library part name for D1: 10106052_PowerPack:SMA6J28A in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10060350 on row 56
+Attempting to create new symbol based on refs: J13
+Searching for ref J13
+Found library part name for J13: Connector_Generic:Conn_01x05 in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10060356 on row 57
+Attempting to create new symbol based on refs: T3
+Searching for ref T3
+Found ref des T3: Device:Q_PMOS_GSD in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10095972 on row 58
+Attempting to create new symbol based on refs: T2
+Searching for ref T2
+Found library part name for T2: 10106052_PowerPack:Q_PMOS_GDSD in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10105965 on row 59
+Found new item number 10106054 on row 60
+Found new item number 10107885 on row 61
+Attempting to create new symbol based on refs: C3
+Searching for ref C3
+Found ref des C3: Device:C in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10107886 on row 62
+Attempting to create new symbol based on refs: C8
+Searching for ref C8
+Found library part name for C8: Device:CP in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10107888 on row 63
+Attempting to create new symbol based on refs: D5
+Searching for ref D5
+Found ref des D5: Device:D_x2_KCom_AAK in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10107889 on row 64
+Attempting to create new symbol based on refs: F1
+Searching for ref F1
+Found library part name for F1: Device:Fuse in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10107890 on row 65
+Attempting to create new symbol based on refs: J9
+Searching for ref J9
+Found library part name for J9: Connector:Conn_01x02_Male in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10107891 on row 66
+Attempting to create new symbol based on refs: J10
+Searching for ref J10
+Found ref des J10: Connector:Conn_01x02_Male in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10107892 on row 67
+Attempting to create new symbol based on refs: J11
+Searching for ref J11
+Found library part name for J11: Connector:Conn_01x02_Male in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10107894 on row 68
+Attempting to create new symbol based on refs: J12
+Searching for ref J12
+Found library part name for J12: 10106052_PowerPack:Molex_52207-1933_1x19-1MP_P1.00mm_Horizontal in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10107895 on row 70
+Attempting to create new symbol based on refs: R32
+Searching for ref R32
+Found library part name for R32: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10107900 on row 72
+Attempting to create new symbol based on refs: U6
+Searching for ref U6
+Found ref des U6: 10106052_PowerPack:MCP9700A-E_TO in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10113299 on row 74
+Attempting to create new symbol based on refs: R5
+Searching for ref R5
+Found library part name for R5: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10113300 on row 75
+Attempting to create new symbol based on refs: R8
+Searching for ref R8
+Found library part name for R8: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 10113301 on row 76
+Attempting to create new symbol based on refs: R48
+Searching for ref R48
+Found library part name for R48: Device:R in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10113304 on row 77
+Attempting to create new symbol based on refs: U1
+Searching for ref U1
+Found ref des U1: 10106052_PowerPack:NCV87722DT50RKG in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 10126894 on row 78
+Attempting to create new symbol based on refs: U4
+Searching for ref U4
+Found library part name for U4: 10106052_PowerPack:PIC18F43K22T-IPT in sheet ../../10106052 PowerPack//microcontroller_block.sch
+Found new item number 10126895 on row 79
+Attempting to create new symbol based on refs: R26
+Searching for ref R26
+Found ref des R26: Device:R in sheet ../../10106052 PowerPack//utils.sch
+Found new item number 312937 on row 81
+Attempting to create new symbol based on refs: R25
+Searching for ref R25
+Found library part name for R25: Device:R in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number 3838600 on row 82
+Found new item number GR101899 on row 83
+Attempting to create new symbol based on refs: D2
+Searching for ref D2
+Found library part name for D2: Device:D_Schottky_x2_ACom_KKA in sheet ../../10106052 PowerPack//switching_block.sch
+Found new item number GR102887 on row 84
+Attempting to create new symbol based on refs: T5
+Searching for ref T5
+Found ref des T5: Device:Q_NMOS_GSD in sheet ../../10106052 PowerPack//utils.sch
+R formatted to R0603_5k_1% based on description fieldRESISTOR 66,5K OHM, 0,063W, +/-0,1%, 0603
+R formatted to R2512_15R_1% based on description fieldRESISTOR 0,015 OHM, 2W, +/-1%, 2512
+R formatted to R0603_100k_1% based on description fieldRES 100K OHM 1/10W 1% 0603 SMD
+R formatted to R0603_40k2_0.1% based on description fieldRESISTOR 40.2KOHM  0.1% 0.063W 0603
+C formatted to C0402_1uF_10V_10% based on description fieldCAPACITOR CERAMIC 1UF 10V 10% X5R 0402
+C formatted to C0603_10uF_20% based on description fieldCAPACITOR CERAMIC 10UF 6.3V 20% X5R 0603
+C formatted to C0603_100nF_50V_10% based on description fieldCAPACITOR CERAMIC 100NF 50V 10% X7R 0603
+C formatted to C0603_10nF_50V_10% based on description fieldCAPACITOR CERAMIC,10NF,+/-10%,50V,0603
+R formatted to R0603_10k_1% based on description fieldRESISTOR,10K OHM.0.063W,+/-1%,0603
+R formatted to R_4k7_1% based on description fieldRESISTOR,4.7KOHM,0.063W,+/-1%
+R formatted to R0603_1k_1% based on description fieldRESISTOR, 1K OHM, 0.063W,+/-1%, 0603
+R formatted to R0603_47k_1% based on description fieldRESISTOR,47K OHM,0.063W,+/-1%,0603
+R formatted to R0603_15k_1% based on description fieldRESISTOR, 15K OHM, 0603, +/-1%
+R formatted to R1206_4k7_5% based on description fieldRESISTOR 4.7K OHM 1/4W 5% 1206
+C formatted to C1210_1uF_50V_10% based on description fieldCAP CER 1UF 50V X5R 10% 1210
+CP formatted to C_100uF_50V_20% based on description fieldCAP EL 100UF 20% 50V LOW ESR
+R formatted to R1206_470R_5% based on description fieldRESISTOR 470 OHM 1/8W 5% 1206
+R formatted to R0603_18k_1% based on description fieldRESISTOR 18 KOHM 0.063W +/-1% 0603
+R formatted to R0603_22k_1% based on description fieldRESISTOR 22 KOHM 0.063W +/-1% 0603
+R formatted to R0603_62k_1% based on description fieldRESISTOR 62 KOHM 0.063W +/-1% 0603
+R formatted to R1206_68R_5% based on description fieldRESISTOR 68 OHM 1/4W 5% 1206
+R formatted to R1206_0R_5% based on description fieldRES,0OHM 1/8W 5% 1206
+Found cache library: 10106052 PowerPack-cache.lib
+Renaming cache libary symbol name Device_R to R0603_5k_1%
+Renaming cache libary symbol name Device_R to R2512_15R_1%
+Renaming cache libary symbol name Device_R to R0603_100k_1%
+Renaming cache libary symbol name Device_R to R0603_40k2_0.1%
+Renaming cache libary symbol name Device_R to R0603_10k_1%
+Renaming cache libary symbol name Device_R to R_4k7_1%
+Renaming cache libary symbol name Device_R to R0603_1k_1%
+Renaming cache libary symbol name Device_R to R0603_47k_1%
+Renaming cache libary symbol name Device_R to R0603_15k_1%
+Renaming cache libary symbol name Device_R to R1206_4k7_5%
+Renaming cache libary symbol name Device_R to R1206_470R_5%
+Renaming cache libary symbol name Device_R to R0603_18k_1%
+Renaming cache libary symbol name Device_R to R0603_22k_1%
+Renaming cache libary symbol name Device_R to R0603_62k_1%
+Renaming cache libary symbol name Device_R to R1206_68R_5%
+Renaming cache libary symbol name Device_R to R1206_0R_5%
+Writing library file: Resistor.lib
+Renaming cache libary symbol name Device_Q_NMOS_GSD to Q_NMOS_GSD_10002095
+Renaming cache libary symbol name Device_Q_PMOS_GSD to Q_PMOS_GSD
+Renaming cache libary symbol name 10106052_PowerPack_Q_PMOS_GDSD to Q_PMOS_GDSD
+Renaming cache libary symbol name Device_Q_NMOS_GSD to Q_NMOS_GSD_GR102887
+Writing library file: Transistor.lib
+Renaming cache libary symbol name Relay_FINDER-41.52 to FINDER-41.52
+Writing library file: Relay.lib
+Renaming cache libary symbol name Connector_Conn_01x02_Male to Conn_01x02_Male_10021350
+Renaming cache libary symbol name Connector_Conn_01x01_Male to Conn_01x01_Male
+Renaming cache libary symbol name Connector_Generic_Conn_01x05 to Conn_01x05
+Renaming cache libary symbol name Connector_Conn_01x02_Male to Conn_01x02_Male_10107890
+Renaming cache libary symbol name Connector_Conn_01x02_Male to Conn_01x02_Male_10107891
+Renaming cache libary symbol name Connector_Conn_01x02_Male to Conn_01x02_Male_10107892
+Renaming cache libary symbol name 10106052_PowerPack_Molex_52207-1933_1x19-1MP_P1.00mm_Horizontal to Molex_52207-1933_1x19-1MP_P1.00mm_Horizontal
+Writing library file: Connector.lib
+Renaming cache libary symbol name 10106052_PowerPack_PESD5V0S4UD to PESD5V0S4UD
+Renaming cache libary symbol name 10106052_PowerPack_PMEG4005AEA to PMEG4005AEA
+Renaming cache libary symbol name 10106052_PowerPack_SMA6J28A to SMA6J28A
+Renaming cache libary symbol name Device_D_x2_KCom_AAK to D_x2_KCom_AAK
+Renaming cache libary symbol name Device_D_Schottky_x2_ACom_KKA to D_Schottky_x2_ACom_KKA
+Writing library file: Diode.lib
+Renaming cache libary symbol name Device_C to C0402_1uF_10V_10%
+Renaming cache libary symbol name Device_C to C0603_10uF_20%
+Renaming cache libary symbol name Device_C to C0603_100nF_50V_10%
+Renaming cache libary symbol name Device_C to C0603_10nF_50V_10%
+Renaming cache libary symbol name Device_C to C1210_1uF_50V_10%
+Renaming cache libary symbol name Device_CP to C_100uF_50V_20%
+Writing library file: Capacitor.lib
+Renaming cache libary symbol name 10106052_PowerPack_BNX002-11 to BNX002-11
+Writing library file: FL.lib
+Renaming cache libary symbol name 10106052_PowerPack_INA170 to INA170
+Renaming cache libary symbol name 10106052_PowerPack_LM4120AIM5-3.0 to LM4120AIM5-3.0
+Renaming cache libary symbol name 10106052_PowerPack_MCP9700A-E_TO to MCP9700A-E_TO
+Renaming cache libary symbol name 10106052_PowerPack_NCV87722DT50RKG to NCV87722DT50RKG
+Renaming cache libary symbol name 10106052_PowerPack_PIC18F43K22T-IPT to PIC18F43K22T-IPT
+Writing library file: IC.lib
+Renaming cache libary symbol name Device_Fuse to Fuse
+Writing library file: Fuse.lib
+Exporting CSV file:Symbols/library_bom.csv
+*********************
+
+Battery Connection:
+Using input directory: ../../10096510 Battery Connection//
+Will look for bom file: master_bom/batteryconn_bom.csv
+Reading file: ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Using bom csv file: master_bom/batteryconn_bom.csv
+Found new item number 10022508 on row 1
+Attempting to create new symbol based on refs: C1
+Searching for ref C1
+Found library part name for C1: 10096510_Battery_Connection:0603_10nF_CC0603KRX7R9BB103 in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10022532 on row 5
+Attempting to create new symbol based on refs: FI1
+Searching for ref FI1
+Found library part name for FI1: 10096510_Battery_Connection:BNX002-11 in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10022623 on row 8
+Attempting to create new symbol based on refs: C3
+Searching for ref C3
+Found library part name for C3: 10096510_Battery_Connection:0402_47pF_C0402C470J5GAC in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10022907 on row 13
+Attempting to create new symbol based on refs: FI2
+Searching for ref FI2
+Found library part name for FI2: 10096510_Battery_Connection:74279266 in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10023418 on row 14
+Attempting to create new symbol based on refs: J1
+Searching for ref J1
+Found library part name for J1: 10096510_Battery_Connection:09185107323 in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10023419 on row 15
+Attempting to create new symbol based on refs: J6
+Searching for ref J6
+Found library part name for J6: 10096510_Battery_Connection:GKS-913-0024 in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10023420 on row 17
+Attempting to create new symbol based on refs: J3
+Searching for ref J3
+Found library part name for J3: 10096510_Battery_Connection:811-S1-002-30-014101 in sheet ../../10096510 Battery Connection//10096510 Battery Connection.sch
+Found new item number 10096506 on row 19
+Found new item number 4096600.E01.001 on row 20
+Found new item number 3838600 on row 21
+Found cache library: 10096510 Battery Connection-cache.lib
+Renaming cache libary symbol name 10096510_Battery_Connection_0603_10nF_CC0603KRX7R9BB103 to 0603_10nF_CC0603KRX7R9BB103
+Renaming cache libary symbol name 10096510_Battery_Connection_0402_47pF_C0402C470J5GAC to 0402_47pF_C0402C470J5GAC
+Writing library file: Capacitor.lib
+Renaming cache libary symbol name 10096510_Battery_Connection_BNX002-11 to BNX002-11
+Renaming cache libary symbol name 10096510_Battery_Connection_74279266 to 74279266
+Writing library file: Inductor.lib
+Renaming cache libary symbol name 10096510_Battery_Connection_09185107323 to 09185107323
+Renaming cache libary symbol name 10096510_Battery_Connection_GKS-913-0024 to GKS-913-0024
+Renaming cache libary symbol name 10096510_Battery_Connection_811-S1-002-30-014101 to 811-S1-002-30-014101
+Writing library file: Connector.lib
+Exporting CSV file:Symbols/library_bom.csv
+*********************
+CPU:
+Using input directory: ../../CPU_RB0505/
+Will look for bom file: master_bom/cpu_bom.csv
+Reading file: ../../CPU_RB0505/10125623A00.sch
+Reading file: ../../CPU_RB0505/10125623A00_1.sch
+Reading file: ../../CPU_RB0505/10125623A00_3.sch
+Reading file: ../../CPU_RB0505/10125623A00_2.sch
+Reading file: ../../CPU_RB0505/10125623A00_6.sch
+Reading file: ../../CPU_RB0505/10125623A00_7.sch
+Reading file: ../../CPU_RB0505/10125623A00_5.sch
+Reading file: ../../CPU_RB0505/10125623A00_4.sch
+Using bom csv file: master_bom/cpu_bom.csv
+Found new item number 4096600.M00.023 on row 1
+Attempting to create new symbol based on refs: BL1
+Searching for ref BL1
+Found library part name for BL1: cpu-board:BLIN-AWM33 in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 4096600.M00.002 on row 2
+Attempting to create new symbol based on refs: BL2
+Searching for ref BL2
+Found library part name for BL2: cpu-board:2XBL-AWM in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 4096600.M00.003 on row 3
+Attempting to create new symbol based on refs: BL4
+Searching for ref BL4
+Found library part name for BL4: cpu-board:3XBL-ADSX in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10023244 on row 4
+Attempting to create new symbol based on refs: BUZ1
+Searching for ref BUZ1
+Found library part name for BUZ1: cpu-board:F_HMB in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022632 on row 5
+Attempting to create new symbol based on refs: C1
+Searching for ref C1
+Found ref des C1: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022976 on row 8
+Attempting to create new symbol based on refs: C101
+Searching for ref C101
+Found library part name for C101: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022622 on row 11
+Attempting to create new symbol based on refs: C106
+Searching for ref C106
+Found library part name for C106: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022978 on row 14
+Attempting to create new symbol based on refs: C117
+Searching for ref C117
+Found library part name for C117: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022623 on row 15
+Attempting to create new symbol based on refs: C12
+Searching for ref C12
+Found library part name for C12: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10095973 on row 20
+Attempting to create new symbol based on refs: C14
+Searching for ref C14
+Found ref des C14: cpu-board:RES_4CB in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022962 on row 21
+Attempting to create new symbol based on refs: C19
+Searching for ref C19
+Found library part name for C19: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10022607 on row 22
+Attempting to create new symbol based on refs: C2
+Searching for ref C2
+Found library part name for C2: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022963 on row 26
+Attempting to create new symbol based on refs: C21
+Searching for ref C21
+Found library part name for C21: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022508 on row 28
+Attempting to create new symbol based on refs: C39
+Searching for ref C39
+Found library part name for C39: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022135 on row 32
+Attempting to create new symbol based on refs: C46
+Searching for ref C46
+Found library part name for C46: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022966 on row 38
+Attempting to create new symbol based on refs: C47
+Searching for ref C47
+Found library part name for C47: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022967 on row 41
+Attempting to create new symbol based on refs: C54
+Searching for ref C54
+Found library part name for C54: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022968 on row 45
+Attempting to create new symbol based on refs: C59
+Searching for ref C59
+Found library part name for C59: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10022510 on row 49
+Attempting to create new symbol based on refs: C6
+Searching for ref C6
+Found ref des C6: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022613 on row 54
+Attempting to create new symbol based on refs: C61
+Searching for ref C61
+Found library part name for C61: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10022959 on row 56
+Attempting to create new symbol based on refs: C7
+Searching for ref C7
+Found ref des C7: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022608 on row 58
+Attempting to create new symbol based on refs: C81
+Searching for ref C81
+Found library part name for C81: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022971 on row 60
+Attempting to create new symbol based on refs: C84
+Searching for ref C84
+Found library part name for C84: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10097252 on row 64
+Attempting to create new symbol based on refs: C88
+Searching for ref C88
+Found library part name for C88: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022973 on row 65
+Attempting to create new symbol based on refs: C89
+Searching for ref C89
+Found library part name for C89: Flipped_Devices:CP_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022975 on row 66
+Attempting to create new symbol based on refs: C99
+Searching for ref C99
+Found library part name for C99: Flipped_Devices:C_Small in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022656 on row 69
+Attempting to create new symbol based on refs: D11
+Searching for ref D11
+Found library part name for D11: Flipped_Devices:D_Schottky_A1K3 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10020994 on row 70
+Attempting to create new symbol based on refs: D12
+Searching for ref D12
+Found library part name for D12: Flipped_Devices:D_Zener_A1K3 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022653 on row 72
+Attempting to create new symbol based on refs: D14
+Searching for ref D14
+Found library part name for D14: cpu-board:BAT54C in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022654 on row 74
+Attempting to create new symbol based on refs: D4
+Searching for ref D4
+Found library part name for D4: Flipped_Devices:D_Schottky_Small in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10097253 on row 77
+Attempting to create new symbol based on refs: D6
+Searching for ref D6
+Found library part name for D6: Flipped_Devices:D_Schottky in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022655 on row 78
+Attempting to create new symbol based on refs: D8
+Searching for ref D8
+Found ref des D8: Flipped_Devices:D_Zener_A1K3 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022652 on row 80
+Attempting to create new symbol based on refs: D9
+Searching for ref D9
+Found ref des D9: Flipped_Devices:D_Schottky_A1K3 in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10023295 on row 82
+Attempting to create new symbol based on refs: FER1
+Searching for ref FER1
+ERROR: Ref FER1 not found in any schematics
+Found new item number 10022703 on row 83
+Attempting to create new symbol based on refs: FU2
+Searching for ref FU2
+Found library part name for FU2: cpu-board:SLOBLO in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022884 on row 84
+Attempting to create new symbol based on refs: G1
+Searching for ref G1
+Found library part name for G1: cpu-board:KEY_3000 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022505 on row 87
+Attempting to create new symbol based on refs: IC1
+Searching for ref IC1
+Found library part name for IC1: cpu-board:TL16C750IPM in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022965 on row 88
+Attempting to create new symbol based on refs: IC10
+Searching for ref IC10
+Found library part name for IC10: cpu-board:DS1305E in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022969 on row 90
+Attempting to create new symbol based on refs: IC11
+Searching for ref IC11
+Found library part name for IC11: Device:Opamp_Dual_Generic in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022970 on row 92
+Attempting to create new symbol based on refs: IC12
+Searching for ref IC12
+Found library part name for IC12: cpu-board:MAX690ACSA in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10023251 on row 94
+Attempting to create new symbol based on refs: IC13
+Searching for ref IC13
+Found library part name for IC13: cpu-board:K9F4G08U0M-PCB000 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022705 on row 98
+Attempting to create new symbol based on refs: IC14
+Searching for ref IC14
+Found library part name for IC14: cpu-board:74ACT16373 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022706 on row 100
+Attempting to create new symbol based on refs: IC15
+Searching for ref IC15
+Found library part name for IC15: cpu-board:AWM3300V in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10023117 on row 103
+Attempting to create new symbol based on refs: IC16
+Searching for ref IC16
+Found library part name for IC16: cpu-board:ASDX in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10022511 on row 106
+Attempting to create new symbol based on refs: IC2
+Searching for ref IC2
+Found library part name for IC2: cpu-board:SN74ALVC164245 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023039 on row 110
+Attempting to create new symbol based on refs: IC21
+Searching for ref IC21
+Found library part name for IC21: cpu-board:LT1236 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10023040 on row 111
+Attempting to create new symbol based on refs: IC23
+Searching for ref IC23
+Found library part name for IC23: cpu-board:LT1236 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022974 on row 112
+Attempting to create new symbol based on refs: IC24
+Searching for ref IC24
+Found library part name for IC24: cpu-board:STM809 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022892 on row 113
+Attempting to create new symbol based on refs: IC26
+Searching for ref IC26
+Found library part name for IC26: cpu-board:LF33CDT in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022895 on row 115
+Attempting to create new symbol based on refs: IC29
+Searching for ref IC29
+Found library part name for IC29: cpu-board:TPS5430DDA in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10097255 on row 118
+Attempting to create new symbol based on refs: IC3
+Searching for ref IC3
+ERROR: Ref IC3 not found in any schematics
+Found new item number 10023158 on row 119
+Attempting to create new symbol based on refs: IC32
+Searching for ref IC32
+Found library part name for IC32: cpu-board:AT25--- in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023159 on row 123
+Attempting to create new symbol based on refs: IC33
+Searching for ref IC33
+Found library part name for IC33: cpu-board:ASDX in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10023041 on row 126
+Attempting to create new symbol based on refs: IC36
+Searching for ref IC36
+Found library part name for IC36: cpu-board:STM809 in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10023119 on row 127
+Attempting to create new symbol based on refs: IC38
+Searching for ref IC38
+Found library part name for IC38: cpu-board:74HCT1G08GW in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023118 on row 129
+Attempting to create new symbol based on refs: IC39
+Searching for ref IC39
+Found library part name for IC39: cpu-board:74HCT1G04GW in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022612 on row 131
+Attempting to create new symbol based on refs: IC4
+Searching for ref IC4
+ERROR: Ref IC4 not found in any schematics
+Found new item number 10022879 on row 132
+Attempting to create new symbol based on refs: IC40
+Searching for ref IC40
+ERROR: Ref IC40 not found in any schematics
+Found new item number 10022905 on row 134
+Attempting to create new symbol based on refs: IC44
+Searching for ref IC44
+ERROR: Ref IC44 not found in any schematics
+Found new item number 10022960 on row 135
+Attempting to create new symbol based on refs: IC5
+Searching for ref IC5
+Found library part name for IC5: cpu-board:74HCT1G32GW in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022961 on row 137
+Attempting to create new symbol based on refs: IC7
+Searching for ref IC7
+Found library part name for IC7: cpu-board:29F800 in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10022964 on row 143
+Attempting to create new symbol based on refs: IC8
+Searching for ref IC8
+Found library part name for IC8: cpu-board:LVC1G07DBVT in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10097256 on row 146
+Attempting to create new symbol based on refs: J1
+Searching for ref J1
+Found library part name for J1: cpu-board:ZIF-52610-2290 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10097262 on row 148
+Attempting to create new symbol based on refs: J11
+Searching for ref J11
+Found library part name for J11: cpu-board:B3B_ZR in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10097263 on row 149
+Attempting to create new symbol based on refs: J17
+Searching for ref J17
+Found library part name for J17: cpu-board:FH_40BR in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10097265 on row 151
+Attempting to create new symbol based on refs: J18
+Searching for ref J18
+Found library part name for J18: cpu-board:B7B_ZR_SM3_TF in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10097257 on row 152
+Attempting to create new symbol based on refs: J2
+Searching for ref J2
+Found library part name for J2: cpu-board:B8B_ZR in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022542 on row 153
+Attempting to create new symbol based on refs: J21
+Searching for ref J21
+Found library part name for J21: cpu-board:2BR254C in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10097259 on row 154
+Attempting to create new symbol based on refs: J3
+Searching for ref J3
+Found library part name for J3: cpu-board:B12B-ZR in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10052329 on row 155
+Attempting to create new symbol based on refs: J4
+Searching for ref J4
+Found library part name for J4: cpu-board:10BRMF in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10097260 on row 157
+Attempting to create new symbol based on refs: J5
+Searching for ref J5
+Found library part name for J5: cpu-board:B2B_ZR in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10052331 on row 158
+Attempting to create new symbol based on refs: J7
+Searching for ref J7
+Found library part name for J7: cpu-board:26BR-HE10 in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10023185 on row 160
+Attempting to create new symbol based on refs: JP1
+Searching for ref JP1
+Found library part name for JP1: cpu-board:JUMP_0U in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10022907 on row 165
+Attempting to create new symbol based on refs: L1
+Searching for ref L1
+Found library part name for L1: Flipped_Devices:L in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10022908 on row 166
+Attempting to create new symbol based on refs: L2
+Searching for ref L2
+Found library part name for L2: cpu-board:WE-TPC-MH in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10023186 on row 167
+Attempting to create new symbol based on refs: L30
+Searching for ref L30
+Found library part name for L30: Flipped_Devices:L in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022544 on row 169
+Attempting to create new symbol based on refs: L5
+Searching for ref L5
+Found library part name for L5: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10022911 on row 174
+Attempting to create new symbol based on refs: L7
+Searching for ref L7
+Found ref des L7: Flipped_Devices:L in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022924 on row 175
+Attempting to create new symbol based on refs: PT1
+Searching for ref PT1
+ERROR: Ref PT1 not found in any schematics
+Searching for ref PT2
+ERROR: Ref PT2 not found in any schematics
+Found new item number 10020993 on row 177
+Attempting to create new symbol based on refs: Q1
+Searching for ref Q1
+Found ref des Q1: Device:Crystal_Small in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10023291 on row 178
+Attempting to create new symbol based on refs: Q2
+Searching for ref Q2
+Found library part name for Q2: Device:Crystal_Small in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023250 on row 179
+Attempting to create new symbol based on refs: Q5
+Searching for ref Q5
+Found library part name for Q5: Flipped_Devices:Crystal_Small_Pin1Pin4 in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10023189 on row 180
+Attempting to create new symbol based on refs: R1
+Searching for ref R1
+Found ref des R1: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022731 on row 184
+Attempting to create new symbol based on refs: R11
+Searching for ref R11
+Found library part name for R11: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10023190 on row 188
+Attempting to create new symbol based on refs: R13
+Searching for ref R13
+Found library part name for R13: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10023235 on row 190
+Attempting to create new symbol based on refs: R14
+Searching for ref R14
+Found ref des R14: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10097268 on row 194
+Attempting to create new symbol based on refs: R15
+Searching for ref R15
+Found ref des R15: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10023237 on row 196
+Attempting to create new symbol based on refs: R16
+Searching for ref R16
+Found library part name for R16: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10023238 on row 200
+Attempting to create new symbol based on refs: R17
+Searching for ref R17
+Found library part name for R17: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022700 on row 205
+Attempting to create new symbol based on refs: R18
+Searching for ref R18
+Found library part name for R18: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10023239 on row 209
+Attempting to create new symbol based on refs: R19
+Searching for ref R19
+Found library part name for R19: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10023187 on row 210
+Attempting to create new symbol based on refs: R2
+Searching for ref R2
+Found library part name for R2: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023240 on row 214
+Attempting to create new symbol based on refs: R22
+Searching for ref R22
+Found library part name for R22: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10023188 on row 218
+Attempting to create new symbol based on refs: R3
+Searching for ref R3
+Found ref des R3: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10022617 on row 222
+Attempting to create new symbol based on refs: R33
+Searching for ref R33
+Found library part name for R33: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_4.sch
+Found new item number 10022736 on row 226
+Attempting to create new symbol based on refs: R4
+Searching for ref R4
+Found library part name for R4: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10095983 on row 230
+Attempting to create new symbol based on refs: R46
+Searching for ref R46
+Found ref des R46: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_1.sch
+Found new item number 10097266 on row 233
+Attempting to create new symbol based on refs: R5
+Searching for ref R5
+Found library part name for R5: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023242 on row 238
+Attempting to create new symbol based on refs: R52
+Searching for ref R52
+Found library part name for R52: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10097270 on row 242
+Attempting to create new symbol based on refs: R57
+Searching for ref R57
+Found library part name for R57: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10097271 on row 247
+Attempting to create new symbol based on refs: R58
+Searching for ref R58
+Found library part name for R58: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022697 on row 250
+Attempting to create new symbol based on refs: R66
+Searching for ref R66
+Found library part name for R66: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022732 on row 255
+Attempting to create new symbol based on refs: R7
+Searching for ref R7
+Found library part name for R7: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10097272 on row 259
+Attempting to create new symbol based on refs: R71
+Searching for ref R71
+Found library part name for R71: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10097273 on row 263
+Attempting to create new symbol based on refs: R73
+Searching for ref R73
+Found library part name for R73: Flipped_Devices:R in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10023252 on row 267
+Attempting to create new symbol based on refs: RL1
+Searching for ref RL1
+Found library part name for RL1: cpu-board:G6K2G in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10023253 on row 269
+Attempting to create new symbol based on refs: RS1
+Searching for ref RS1
+ERROR: Ref RS1 not found in any schematics
+Searching for ref RS3
+ERROR: Ref RS3 not found in any schematics
+Searching for ref RS4
+ERROR: Ref RS4 not found in any schematics
+Searching for ref RS5
+ERROR: Ref RS5 not found in any schematics
+Searching for ref RS6
+ERROR: Ref RS6 not found in any schematics
+Searching for ref RS8
+Found library part name for RS8: cpu-board:RES_4R_BCN in sheet ../../CPU_RB0505/10125623A00_2.sch
+Found new item number 10023254 on row 274
+Attempting to create new symbol based on refs: RS2
+Searching for ref RS2
+ERROR: Ref RS2 not found in any schematics
+Searching for ref RS7
+ERROR: Ref RS7 not found in any schematics
+Found new item number 10097274 on row 279
+Attempting to create new symbol based on refs: T1
+Searching for ref T1
+Found library part name for T1: Flipped_Devices:Q_NMOS_GSD in sheet ../../CPU_RB0505/10125623A00_7.sch
+Found new item number 10023243 on row 282
+Attempting to create new symbol based on refs: T10
+Searching for ref T10
+Found library part name for T10: Device:Q_PNP_BCEC in sheet ../../CPU_RB0505/10125623A00_5.sch
+Found new item number 10022933 on row 284
+Attempting to create new symbol based on refs: T17
+Searching for ref T17
+Found library part name for T17: Flipped_Devices:Q_PMOS_GSD in sheet ../../CPU_RB0505/10125623A00_6.sch
+Found new item number 10022956 on row 285
+Attempting to create new symbol based on refs: T20
+Searching for ref T20
+Found library part name for T20: Flipped_Devices:Q_NMOS_GSD in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10022157 on row 287
+Attempting to create new symbol based on refs: T3
+Searching for ref T3
+Found library part name for T3: Flipped_Devices:Q_PMOS_GSD in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10025112 on row 290
+Attempting to create new symbol based on refs: V2
+Searching for ref V2
+Found library part name for V2: cpu-board:FAS-PPS-1P-3NIP-INJ in sheet ../../CPU_RB0505/10125623A00_3.sch
+Found new item number 10099516 on row 291
+Found new item number 10099517 on row 292
+Found new item number 10099518 on row 293
+Found new item number 10099519 on row 294
+Found new item number 10099520 on row 295
+Found new item number 10099521 on row 296
+Found new item number 10103067 on row 297
+Found new item number 10125623 on row 298
+Found new item number GR106772 on row 299
+Found new item number 10025113 on row 300
+Found new item number 10023293 on row 301
+Found new item number 10023294 on row 303
+Found new item number 10022161 on row 305
+Found new item number 3838600 on row 306
+Found new item number 10022885 on row 307
+Found new item number 3821600 on row 308
+Found new item number 10029086 on row 309
+C_Small formatted to C0603_22pF_50V_5% based on description fieldCAPACITOR CERAMIC,22PF,+/-5%,50V,0603
+C_Small formatted to C0402_4n7F_25V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,25V,+/-10%,0402
+CP_Small formatted to C_220uF_20% based on description fieldCAPACITOR ELECTROLYTIC, 220UF,16V+/-20%
+CP_Small formatted to C_10uF_50V_10% based on description fieldCAPACITOR TANTALUM,10UF, 50V,+/-10%
+C_Small formatted to C0402_47pF_50V_5% based on description fieldCAPACITOR,47 PF,+/-5%,50V,0402
+CP_Small formatted to C_47uF_10V_10% based on description fieldCAPACITOR TANALUM, 47UF, 10V +/-10%
+C_Small formatted to C0402_100nF_16V_10% based on description fieldCAPACITOR,100NF,16V,+/-10%,X7R,0402
+CP_Small formatted to C_100uF_35V_20% based on description fieldCAPACITOR ELECTROLYTIC, 100UF, 35V +/-20%
+C_Small formatted to C0603_10nF_50V_10% based on description fieldCAPACITOR CERAMIC,10NF,+/-10%,50V,0603
+C_Small formatted to C0805_100nF_50V_10% based on description fieldCAPACITOR CERAMIC, 100NF, +/-10%, 50V, X7R,0805
+C_Small formatted to C0402_220pF_50V_5% based on description fieldCAPACITOR CERAMIC, 220PF, 50V,+/-5%, NPO,0402
+C_Small formatted to C0805_1uF_16V_10% based on description fieldCAPACITOR CERAMIC,1UF,16V,+/-10%, 0805
+C_Small formatted to C0805_220nF_25V_10% based on description fieldCAP CERAMIC,220NF,25V,X7R,+/-10%,0805
+C_Small formatted to C0805_330nF_16V_10% based on description fieldCAPACITOR,330NF,+/-10%,16V,0805,X7R
+C_Small formatted to C0603_4n7F_50V_10% based on description fieldCAPACITOR CERAMIC,4.7NF,+/-10%,50V,0603
+CP_Small formatted to C_1uF_35V_10% based on description fieldCAPACITOR TANTALUM, 1UF,35V, +/-10%
+CP_Small formatted to C_10uF_25V_10% based on description fieldCAPACITOR TANTALUM, 10UF, 25V, +/-10%
+C_Small formatted to C0402_1nF_50V_10% based on description fieldCAPACITOR CERAMIC, 1NF,50V,+/-10%, 0402
+CP_Small formatted to C_1kF_35V_20% based on description fieldCAPACITOR ELECTROLYTIC, 1000UF,35V,+/-20%
+CP_Small formatted to C_22uF_10V_10% based on description fieldCAPACITOR TANTALUM, 22UF, 10V,+/-10%
+C_Small formatted to C0402_150pF_50V based on description fieldCAPACITOR CERAMIC, 150PF,50V,+/-5,NPO, 0402
+R formatted to R_470R_5% based on description fieldRESISTOR, 470 OHM, 0.063W, +/-5%
+R formatted to R_100R_5% based on description fieldRESISTOR, 100 OHM, 0.063W +/-5%
+R formatted to R0603_3k3_1% based on description fieldRESISTOR,3.3K OHM,0.063W,+/-1%,0603
+R formatted to R0805_620R_5% based on description fieldRESISTOR, 620 OHM, 0.125W,+/-5%,0805
+R formatted to R0603_56k_1% based on description fieldRESISTOR, 56K OHM, 0603, +/-1%
+R formatted to R0603_10k5_0.1% based on description fieldRESISTOR, 10.5K OHM, 0603, +/-0.1%
+R formatted to R0805_150R_5% based on description fieldRESISTOR, 150 OHM, 0805, +/-5%
+R formatted to R0603_15k_1% based on description fieldRESISTOR, 15K OHM, 0603, +/-1%
+R formatted to R0603_1k5_1% based on description fieldRESISTOR,1.5K OHM,0.063W,+/-1%,0603
+R formatted to R0603_75k_1% based on description fieldRESISTOR, 75K OHM, 0603, +/-1%
+R formatted to R0603_1k5_5% based on description fieldRESISTOR 1.5K OHM, 0603, +/-5%
+R formatted to R0805_180R_5% based on description fieldRESISTOR, 180 OHM, 0805, +/-5%
+R formatted to R0603_220k_5% based on description fieldRESISTOR, 220 K OHM, 0603,+/-5%
+R formatted to R_4k7_5% based on description fieldRESISTOR, 4.7 K OHM, 0.063W +/-5%
+R formatted to R0603_1M_1% based on description fieldRESISTOR,1M OHM,0.063W,+/-1%,0603
+R formatted to R0603_22k_1% based on description fieldRESISTOR, 22 K OHM,0.063W, +/-1%,0603
+R formatted to R0603_10k_5% based on description fieldRESISTOR,10K OHM, 0.063W,+/-5%,0603
+R formatted to R0805_10R_5% based on description fieldRESISTOR 10 OHM, 0.125W, +/-5%,0805
+R formatted to R0603_1k37_0.1% based on description fieldRESISTOR,1.37K OHM,0.063W,+/-0.1%,0603
+R formatted to R0603_100k_0.1% based on description fieldRESISTOR, 100K OHM, 0.063W,+/-0.1%,0603
+R formatted to R0805_470R_1% based on description fieldRESISTOR,470 OHM, 0.125W,+/-1%, 0805
+R formatted to R_100k_5% based on description fieldRESISTOR,100 K OHM, 0.063W +/-5%
+R formatted to R0603_10k_0.1% based on description fieldRESISTOR, PRECISION,10K OHM, 0.063W,+/-0.1%,0603
+R formatted to R0603_3k24_0.1% based on description fieldRESISTOR,PRECISION, 3.24K OHM, 0.063W,+/-0.1%,0603
+RES_4R_BCN formatted to R1206_6k8_5% based on description fieldRESISTOR ARRAY, 6.8K OHM, +/-5%, 1206
+Found cache library: 10125623A00-cache.lib
+Renaming cache libary symbol name cpu-board_BLIN-AWM33 to BLIN-AWM33
+Renaming cache libary symbol name cpu-board_2XBL-AWM to 2XBL-AWM
+Renaming cache libary symbol name cpu-board_3XBL-ADSX to 3XBL-ADSX
+Writing library file: BL.lib
+Renaming cache libary symbol name cpu-board_F_HMB to F_HMB
+Writing library file: Buzzer.lib
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0603_22pF_50V_5%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_4n7F_25V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_220uF_20%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_10uF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_47pF_50V_5%
+Renaming cache libary symbol name cpu-board_RES_4CB to RES_4CB
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_47uF_10V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_100nF_16V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_100uF_35V_20%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0603_10nF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_100nF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_220pF_50V_5%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_1uF_16V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_220nF_25V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0805_330nF_16V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0603_4n7F_50V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_1uF_35V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_10uF_25V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_1nF_50V_10%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_1kF_35V_20%
+Renaming cache libary symbol name Flipped_Devices_CP_Small to C_22uF_10V_10%
+Renaming cache libary symbol name Flipped_Devices_C_Small to C0402_150pF_50V
+Writing library file: Capacitor.lib
+Renaming cache libary symbol name Flipped_Devices_D_Schottky_A1K3 to D_Schottky_A1K3_10022656
+Renaming cache libary symbol name Flipped_Devices_D_Zener_A1K3 to D_Zener_A1K3_10020994
+Renaming cache libary symbol name cpu-board_BAT54C to BAT54C
+Renaming cache libary symbol name Flipped_Devices_D_Schottky_Small to D_Schottky_Small
+Renaming cache libary symbol name Flipped_Devices_D_Schottky to D_Schottky
+Renaming cache libary symbol name Flipped_Devices_D_Zener_A1K3 to D_Zener_A1K3_10022655
+Renaming cache libary symbol name Flipped_Devices_D_Schottky_A1K3 to D_Schottky_A1K3_10022652
+Writing library file: Diode.lib
+Writing library file: Unknown.lib
+Renaming cache libary symbol name cpu-board_SLOBLO to SLOBLO
+Writing library file: Fuse.lib
+Renaming cache libary symbol name cpu-board_KEY_3000 to KEY_3000
+Writing library file: Battery.lib
+Renaming cache libary symbol name cpu-board_TL16C750IPM to TL16C750IPM
+Renaming cache libary symbol name cpu-board_DS1305E to DS1305E
+Renaming cache libary symbol name Device_Opamp_Dual_Generic to Opamp_Dual_Generic
+Renaming cache libary symbol name cpu-board_MAX690ACSA to MAX690ACSA
+Renaming cache libary symbol name cpu-board_K9F4G08U0M-PCB000 to K9F4G08U0M-PCB000
+Renaming cache libary symbol name cpu-board_74ACT16373 to 74ACT16373
+Renaming cache libary symbol name cpu-board_AWM3300V to AWM3300V
+Renaming cache libary symbol name cpu-board_ASDX to ASDX_10023117
+Renaming cache libary symbol name cpu-board_SN74ALVC164245 to SN74ALVC164245
+Renaming cache libary symbol name cpu-board_LT1236 to LT1236_10023039
+Renaming cache libary symbol name cpu-board_LT1236 to LT1236_10023040
+Renaming cache libary symbol name cpu-board_STM809 to STM809_10022974
+Renaming cache libary symbol name cpu-board_LF33CDT to LF33CDT
+Renaming cache libary symbol name cpu-board_TPS5430DDA to TPS5430DDA
+Renaming cache libary symbol name cpu-board_AT25--- to AT25---
+Renaming cache libary symbol name cpu-board_ASDX to ASDX_10023159
+Renaming cache libary symbol name cpu-board_STM809 to STM809_10023041
+Renaming cache libary symbol name cpu-board_74HCT1G08GW to 74HCT1G08GW
+Renaming cache libary symbol name cpu-board_74HCT1G04GW to 74HCT1G04GW
+Renaming cache libary symbol name cpu-board_74HCT1G32GW to 74HCT1G32GW
+Renaming cache libary symbol name cpu-board_29F800 to 29F800
+Renaming cache libary symbol name cpu-board_LVC1G07DBVT to LVC1G07DBVT
+Writing library file: IC.lib
+Renaming cache libary symbol name cpu-board_ZIF-52610-2290 to ZIF-52610-2290
+Renaming cache libary symbol name cpu-board_B3B_ZR to B3B_ZR
+Renaming cache libary symbol name cpu-board_FH_40BR to FH_40BR
+Renaming cache libary symbol name cpu-board_B7B_ZR_SM3_TF to B7B_ZR_SM3_TF
+Renaming cache libary symbol name cpu-board_B8B_ZR to B8B_ZR
+Renaming cache libary symbol name cpu-board_2BR254C to 2BR254C
+Renaming cache libary symbol name cpu-board_B12B-ZR to B12B-ZR
+Renaming cache libary symbol name cpu-board_10BRMF to 10BRMF
+Renaming cache libary symbol name cpu-board_B2B_ZR to B2B_ZR
+Renaming cache libary symbol name cpu-board_26BR-HE10 to 26BR-HE10
+Writing library file: Connector.lib
+Renaming cache libary symbol name cpu-board_JUMP_0U to JUMP_0U
+Writing library file: Jumper.lib
+Renaming cache libary symbol name Flipped_Devices_L to L_10022907
+Renaming cache libary symbol name cpu-board_WE-TPC-MH to WE-TPC-MH
+Renaming cache libary symbol name Flipped_Devices_L to L_10023186
+Renaming cache libary symbol name Flipped_Devices_R to R_470R_5%
+Renaming cache libary symbol name Flipped_Devices_L to L_10022911
+Writing library file: Inductor.lib
+Renaming cache libary symbol name Device_Crystal_Small to Crystal_Small_10020993
+Renaming cache libary symbol name Device_Crystal_Small to Crystal_Small_10023291
+Renaming cache libary symbol name Flipped_Devices_Crystal_Small_Pin1Pin4 to Crystal_Small_Pin1Pin4
+Writing library file: Crystal.lib
+Renaming cache libary symbol name Flipped_Devices_R to R_100R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_3k3_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_620R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_56k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_10k5_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_150R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_15k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1k5_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_75k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1k5_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_180R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_220k_5%
+Renaming cache libary symbol name Flipped_Devices_R to R_4k7_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1M_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_22k_1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_10k_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_10R_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_1k37_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_100k_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0805_470R_1%
+Renaming cache libary symbol name Flipped_Devices_R to R_100k_5%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_10k_0.1%
+Renaming cache libary symbol name Flipped_Devices_R to R0603_3k24_0.1%
+Renaming cache libary symbol name cpu-board_RES_4R_BCN to R1206_6k8_5%
+Writing library file: Resistor.lib
+Renaming cache libary symbol name cpu-board_G6K2G to G6K2G
+Writing library file: Relay.lib
+Renaming cache libary symbol name Flipped_Devices_Q_NMOS_GSD to Q_NMOS_GSD_10097274
+Renaming cache libary symbol name Device_Q_PNP_BCEC to Q_PNP_BCEC
+Renaming cache libary symbol name Flipped_Devices_Q_PMOS_GSD to Q_PMOS_GSD_10022933
+Renaming cache libary symbol name Flipped_Devices_Q_NMOS_GSD to Q_NMOS_GSD_10022956
+Renaming cache libary symbol name Flipped_Devices_Q_PMOS_GSD to Q_PMOS_GSD_10022157
+Writing library file: Transistor.lib
+Renaming cache libary symbol name cpu-board_FAS-PPS-1P-3NIP-INJ to FAS-PPS-1P-3NIP-INJ
+Writing library file: Valve.lib
+Exporting CSV file:Symbols/library_bom.csv
+*********************
+Buzzer:
+Using input directory: ../../GR106768 Buzzer/
+Will look for bom file: master_bom/buzzer_bom.csv
+Reading file: ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Reading file: ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Using bom csv file: master_bom/buzzer_bom.csv
+Found new item number 10021385 on row 1
+Attempting to create new symbol based on refs: R40
+Searching for ref R40
+Found library part name for R40: GR106768_Buzzer:R0402_4.7k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021387 on row 4
+Attempting to create new symbol based on refs: R37
+Searching for ref R37
+Found library part name for R37: GR106768_Buzzer:R0402_220Ohm_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021388 on row 7
+Attempting to create new symbol based on refs: R41
+Searching for ref R41
+Found library part name for R41: GR106768_Buzzer:R0402_180k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021389 on row 10
+Attempting to create new symbol based on refs: R43
+Searching for ref R43
+Found library part name for R43: GR106768_Buzzer:R0402_1.5M_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021390 on row 13
+Attempting to create new symbol based on refs: C35
+Searching for ref C35
+Found library part name for C35: Device:C in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021391 on row 15
+Attempting to create new symbol based on refs: R44
+Searching for ref R44
+Found library part name for R44: GR106768_Buzzer:R0402_680k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021462 on row 18
+Attempting to create new symbol based on refs: R46
+Searching for ref R46
+Found library part name for R46: GR106768_Buzzer:R0402_1M_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021463 on row 21
+Attempting to create new symbol based on refs: C21
+Searching for ref C21
+Found library part name for C21: Device:C in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021468 on row 24
+Attempting to create new symbol based on refs: R26
+Searching for ref R26
+Found library part name for R26: GR106768_Buzzer:R0402_137k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10021556 on row 27
+Attempting to create new symbol based on refs: R27
+Searching for ref R27
+Found library part name for R27: GR106768_Buzzer:R0402_68k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10021557 on row 30
+Attempting to create new symbol based on refs: R30
+Searching for ref R30
+Found library part name for R30: GR106768_Buzzer:R0402_0Ohm in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10021558 on row 33
+Attempting to create new symbol based on refs: R35
+Searching for ref R35
+Found library part name for R35: GR106768_Buzzer:R0402_33k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022129 on row 36
+Attempting to create new symbol based on refs: BAT1
+Searching for ref BAT1
+Found library part name for BAT1: GR106768_Buzzer:BuzzBattery in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022130 on row 39
+Attempting to create new symbol based on refs: BUZ1
+Searching for ref BUZ1
+Found library part name for BUZ1: GR106768_Buzzer:Buzzer in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022132 on row 40
+Attempting to create new symbol based on refs: C4
+Searching for ref C4
+Found library part name for C4: Device:C in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022133 on row 43
+Attempting to create new symbol based on refs: C12
+Searching for ref C12
+Found library part name for C12: GR106768_Buzzer:Celec-axial-10x30_470u in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022134 on row 45
+Attempting to create new symbol based on refs: C20
+Searching for ref C20
+Found library part name for C20: Device:C in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022137 on row 47
+Attempting to create new symbol based on refs: C22
+Searching for ref C22
+Found library part name for C22: Device:C in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022139 on row 52
+Attempting to create new symbol based on refs: D5
+Searching for ref D5
+Found library part name for D5: GR106768_Buzzer:BZX84C2V7 in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022140 on row 54
+Attempting to create new symbol based on refs: D8
+Searching for ref D8
+Found library part name for D8: GR106768_Buzzer:MBRM120 in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022141 on row 55
+Attempting to create new symbol based on refs: FU1
+Searching for ref FU1
+Found library part name for FU1: Device:Fuse in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022144 on row 56
+Attempting to create new symbol based on refs: IC2
+Searching for ref IC2
+Found library part name for IC2: Amplifier_Operational:LM358 in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022145 on row 58
+Attempting to create new symbol based on refs: IC4
+Searching for ref IC4
+Found library part name for IC4: Amplifier_Operational:LMV321 in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022147 on row 60
+Attempting to create new symbol based on refs: IC6
+Searching for ref IC6
+Found library part name for IC6: GR106768_Buzzer:bq2002_SN in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022148 on row 62
+Attempting to create new symbol based on refs: IC7
+Searching for ref IC7
+Found library part name for IC7: GR106768_Buzzer:TLV3011AIDBV in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022149 on row 64
+Attempting to create new symbol based on refs: R1
+Searching for ref R1
+Found library part name for R1: GR106768_Buzzer:R0402_100k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022150 on row 67
+Attempting to create new symbol based on refs: R4
+Searching for ref R4
+Found library part name for R4: GR106768_Buzzer:R0402_10k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022151 on row 70
+Attempting to create new symbol based on refs: R6
+Searching for ref R6
+Found library part name for R6: GR106768_Buzzer:R0402_59k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022152 on row 73
+Attempting to create new symbol based on refs: R7
+Searching for ref R7
+Found library part name for R7: GR106768_Buzzer:R0402_51.1k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022153 on row 76
+Attempting to create new symbol based on refs: R8
+Searching for ref R8
+Found library part name for R8: GR106768_Buzzer:R0402_1k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022154 on row 79
+Attempting to create new symbol based on refs: R9
+Searching for ref R9
+Found library part name for R9: GR106768_Buzzer:R0402_32.4k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022155 on row 82
+Attempting to create new symbol based on refs: R11
+Searching for ref R11
+Found library part name for R11: GR106768_Buzzer:R0402_105k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022156 on row 85
+Attempting to create new symbol based on refs: R12
+Searching for ref R12
+Found library part name for R12: GR106768_Buzzer:R0402_470Ohm_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022158 on row 88
+Attempting to create new symbol based on refs: IC8
+Searching for ref IC8
+Found library part name for IC8: GR106768_Buzzer:LT3471 in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022162 on row 90
+Attempting to create new symbol based on refs: L2
+Searching for ref L2
+Found library part name for L2: Device:L in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022518 on row 92
+Attempting to create new symbol based on refs: D3
+Searching for ref D3
+Found library part name for D3: GR106768_Buzzer:BAT54S in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022607 on row 94
+Attempting to create new symbol based on refs: C5
+Searching for ref C5
+Found library part name for C5: Device:C in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022624 on row 98
+Attempting to create new symbol based on refs: L3
+Searching for ref L3
+Found library part name for L3: Device:L in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022627 on row 100
+Attempting to create new symbol based on refs: C13
+Searching for ref C13
+Found library part name for C13: Device:C in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022653 on row 104
+Attempting to create new symbol based on refs: D2
+Searching for ref D2
+Found library part name for D2: GR106768_Buzzer:BAT54C in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022657 on row 106
+Attempting to create new symbol based on refs: D7
+Searching for ref D7
+Found library part name for D7: GR106768_Buzzer:BZX84C5V1 in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022697 on row 108
+Attempting to create new symbol based on refs: R71
+Searching for ref R71
+Found library part name for R71: GR106768_Buzzer:R0805_470Ohm_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10022725 on row 113
+Attempting to create new symbol based on refs: R13
+Searching for ref R13
+Found library part name for R13: GR106768_Buzzer:R0402_1.5Ohm_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022745 on row 116
+Attempting to create new symbol based on refs: R15
+Searching for ref R15
+Found library part name for R15: GR106768_Buzzer:R0402_33Ohm_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022881 on row 119
+Attempting to create new symbol based on refs: R18
+Searching for ref R18
+Found library part name for R18: GR106768_Buzzer:R0402_150k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022911 on row 122
+Attempting to create new symbol based on refs: L1
+Searching for ref L1
+Found library part name for L1: Device:L_Core_Ferrite in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022957 on row 123
+Attempting to create new symbol based on refs: R23
+Searching for ref R23
+Found library part name for R23: GR106768_Buzzer:R0402_2.2k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022958 on row 126
+Attempting to create new symbol based on refs: C3
+Searching for ref C3
+Found library part name for C3: Device:C in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10022966 on row 127
+Attempting to create new symbol based on refs: C2
+Searching for ref C2
+Found library part name for C2: Device:C in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10023292 on row 130
+Attempting to create new symbol based on refs: R69
+Searching for ref R69
+Found library part name for R69: GR106768_Buzzer:R0402_200k_1% in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10024439 on row 133
+Attempting to create new symbol based on refs: R55
+Searching for ref R55
+Found library part name for R55: GR106768_Buzzer:R0402_15k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10024440 on row 136
+Attempting to create new symbol based on refs: R56
+Searching for ref R56
+Found library part name for R56: GR106768_Buzzer:R0402_182k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10024441 on row 139
+Attempting to create new symbol based on refs: R57
+Searching for ref R57
+Found library part name for R57: GR106768_Buzzer:R0402_54.9k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10024442 on row 142
+Attempting to create new symbol based on refs: R58
+Searching for ref R58
+Found library part name for R58: GR106768_Buzzer:R0402_4.99k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10024443 on row 145
+Attempting to create new symbol based on refs: T1
+Searching for ref T1
+Found library part name for T1: GR106768_Buzzer:BC847 in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10024444 on row 147
+Attempting to create new symbol based on refs: T2
+Searching for ref T2
+Found library part name for T2: GR106768_Buzzer:BC857 in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10024445 on row 149
+Attempting to create new symbol based on refs: T5
+Searching for ref T5
+Found library part name for T5: GR106768_Buzzer:Si2312BDS in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10024446 on row 150
+Attempting to create new symbol based on refs: T6
+Searching for ref T6
+Found library part name for T6: GR106768_Buzzer:Si2315BDS in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10025553 on row 151
+Attempting to create new symbol based on refs: SW1
+Searching for ref SW1
+Found library part name for SW1: GR106768_Buzzer:NK236-slideswitch in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10025554 on row 152
+Attempting to create new symbol based on refs: R53
+Searching for ref R53
+Found library part name for R53: GR106768_Buzzer:R0402_47k_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10025604 on row 155
+Attempting to create new symbol based on refs: R36
+Searching for ref R36
+Found library part name for R36: GR106768_Buzzer:R0805_33Ohm_1% in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10025605 on row 158
+Attempting to create new symbol based on refs: D15
+Searching for ref D15
+Found library part name for D15: GR106768_Buzzer:BZX84B6V8 in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10095973 on row 161
+Attempting to create new symbol based on refs: C1
+Searching for ref C1
+Found library part name for C1: GR106768_Buzzer:C-array4-0612_47p in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10098981 on row 162
+Attempting to create new symbol based on refs: C27
+Searching for ref C27
+Found library part name for C27: Device:C in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10099021 on row 165
+Attempting to create new symbol based on refs: C24
+Searching for ref C24
+Found library part name for C24: Device:C in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10099024 on row 168
+Attempting to create new symbol based on refs: FI1
+Searching for ref FI1
+Found library part name for FI1: GR106768_Buzzer:BK3216xxxxx in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10099025 on row 170
+Attempting to create new symbol based on refs: IC1
+Searching for ref IC1
+Found library part name for IC1: GR106768_Buzzer:LMC7211 in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10099026 on row 172
+Attempting to create new symbol based on refs: IC5
+Searching for ref IC5
+Found library part name for IC5: Regulator_Linear:LM317L_SO8 in sheet ../../GR106768 Buzzer/GR106768_buzzer_charger.sch
+Found new item number 10099028 on row 176
+Attempting to create new symbol based on refs: J2
+Searching for ref J2
+Found library part name for J2: Mechanical:Fiducial in sheet ../../GR106768 Buzzer/GR106768 Buzzer.sch
+Found new item number 10125624 on row 177
+Found new item number GR106771 on row 178
+Found new item number 10099027 on row 179
+Found new item number 10022165 on row 180
+Found new item number 10022161 on row 182
+Found new item number 3838600 on row 183
+R0402_4.7k_1% formatted to R0402_4k7_1% based on description fieldRESISTOR,4.7 KOHM,+/-1%.0.063W,0402
+R0402_220Ohm_1% formatted to R0402_220R_1% based on description fieldRESISTOR, 220 OHM,+/-1%, 0.063W, 0402
+R0402_1.5M_1% formatted to R0402_1M5 based on description fieldRESISTOR, 1.5 MOHM,0.063W, 0402
+C formatted to C0402_4n7F_16V_10% based on description fieldCAPACITOR,4.7NF,16V,+/-10%,0402
+C formatted to C1210_47uF_16V based on description fieldCAPACITOR,47UF,16V,1210,X5R
+R0402_0Ohm formatted to R0402_0R based on description fieldRESISTOR,0 OHM,0.063W,0402
+C formatted to C0402_680pF_50V_5% based on description fieldCAPACITOR, CERAMIC, 680 PF, 50V, +/-5%, 0402
+Celec-axial-10x30_470u formatted to C_470uF_40V_20% based on description fieldCAPACITOR ELECTROLYTIC,470UF,40V,+/-20%
+C formatted to C0603_330nF_16V_10% based on description fieldCAPACITOR CERAMIC, 330 NF, 16V, X7R, 0603,+/-10%
+C formatted to C1206_10uF_16V_10% based on description fieldCAPACITOR CERAMIC,10UF,16V,X5R,+/-10%,1206
+R0402_51.1k_1% formatted to R0402_51k1_1% based on description fieldRESISTOR, 51.1 KOHM, 0.063W, +/-1%,0402
+R0402_32.4k_1% formatted to R0402_32k4_1% based on description fieldRESISTOR,32.4 KOHMS,0.063W,+/-1%,0402
+R0402_470Ohm_1% formatted to R0402_470R_1% based on description fieldRESISTOR, 470 OHM, 0.063W, +/-1%, 0402
+C formatted to C0402_100nF_16V_10% based on description fieldCAPACITOR,100NF,16V,+/-10%,X7R,0402
+C formatted to C0603_33nF_16V_10% based on description fieldCAPACITOR,33NF,+/-10%,16V,X7R,0603
+R0805_470Ohm_1% formatted to R0805_470R_1% based on description fieldRESISTOR,470 OHM, 0.125W,+/-1%, 0805
+R0402_1.5Ohm_1% formatted to R0402_1R5_1% based on description fieldRESISTOR, 1.5 OHM,+/-1%,0.063W,0402
+R0402_33Ohm_1% formatted to R0402_33R_1% based on description fieldRESISTOR, 33 OHM, +/-1%,0.063W, 0402
+R0402_2.2k_1% formatted to R0402_2k2_1% based on description fieldRESISTOR, 2.2 KOHM, +/-1%, 0.063W, 0402
+C formatted to C0805_10nF_16V_2% based on description fieldCAPACITOR, 10NF, 16V +/2%, 0805
+C formatted to C0402_220pF_50V_5% based on description fieldCAPACITOR CERAMIC, 220PF, 50V,+/-5%, NPO,0402
+R0402_54.9k_1% formatted to R0402_54k9_1% based on description fieldRESISTOR, 54.9 KOHM, +/-1%, 0.063W,0402
+R0402_4.99k_1% formatted to R0402_4k99_1% based on description fieldRESISTOR, 4.99 KOHM, +/-1%, 1/16W,0402
+R0805_33Ohm_1% formatted to R0805_33R_1% based on description fieldRESISTOR 33 OHM +/- 1% 0,125W,0805
+C-array4-0612_47p formatted to C0612_47pF_50V_10% based on description fieldCAPACITOR ARRAY, 47PF, 50V, +/-10%,NPO,0612
+C formatted to C0402_100pF_50V_5% based on description fieldCAPACITOR,100PF,50V,+/-5%,C0G,0402
+C formatted to C0805_1uF_25V_10% based on description fieldCAPACITOR CERAMIC,X7R,1UF,25V,+/10%, 0805
+Found cache library: GR106768 Buzzer-cache.lib
+Renaming cache libary symbol name GR106768_Buzzer_R0402_4.7k_1% to R0402_4k7_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_220Ohm_1% to R0402_220R_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_180k_1% to R0402_180k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_1.5M_1% to R0402_1M5
+Renaming cache libary symbol name GR106768_Buzzer_R0402_680k_1% to R0402_680k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_1M_1% to R0402_1M_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_137k_1% to R0402_137k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_68k_1% to R0402_68k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_0Ohm to R0402_0R
+Renaming cache libary symbol name GR106768_Buzzer_R0402_33k_1% to R0402_33k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_100k_1% to R0402_100k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_10k_1% to R0402_10k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_59k_1% to R0402_59k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_51.1k_1% to R0402_51k1_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_1k_1% to R0402_1k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_32.4k_1% to R0402_32k4_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_105k_1% to R0402_105k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_470Ohm_1% to R0402_470R_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0805_470Ohm_1% to R0805_470R_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_1.5Ohm_1% to R0402_1R5_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_33Ohm_1% to R0402_33R_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_150k_1% to R0402_150k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_2.2k_1% to R0402_2k2_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_200k_1% to R0402_200k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_15k_1% to R0402_15k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_182k_1% to R0402_182k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_54.9k_1% to R0402_54k9_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_4.99k_1% to R0402_4k99_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0402_47k_1% to R0402_47k_1%
+Renaming cache libary symbol name GR106768_Buzzer_R0805_33Ohm_1% to R0805_33R_1%
+Writing library file: Resistor.lib
+Renaming cache libary symbol name Device_C to C0402_4n7F_16V_10%
+Renaming cache libary symbol name Device_C to C1210_47uF_16V
+Renaming cache libary symbol name Device_C to C0402_680pF_50V_5%
+Renaming cache libary symbol name GR106768_Buzzer_Celec-axial-10x30_470u to C_470uF_40V_20%
+Renaming cache libary symbol name Device_C to C0603_330nF_16V_10%
+Renaming cache libary symbol name Device_C to C1206_10uF_16V_10%
+Renaming cache libary symbol name Device_C to C0402_100nF_16V_10%
+Renaming cache libary symbol name Device_C to C0603_33nF_16V_10%
+Renaming cache libary symbol name Device_C to C0805_10nF_16V_2%
+Renaming cache libary symbol name Device_C to C0402_220pF_50V_5%
+Renaming cache libary symbol name GR106768_Buzzer_C-array4-0612_47p to C0612_47pF_50V_10%
+Renaming cache libary symbol name Device_C to C0402_100pF_50V_5%
+Renaming cache libary symbol name Device_C to C0805_1uF_25V_10%
+Writing library file: Capacitor.lib
+Renaming cache libary symbol name GR106768_Buzzer_BuzzBattery to BuzzBattery
+Writing library file: Battery.lib
+Renaming cache libary symbol name GR106768_Buzzer_Buzzer to Buzzer
+Writing library file: Buzzer.lib
+Renaming cache libary symbol name GR106768_Buzzer_BZX84C2V7 to BZX84C2V7
+Renaming cache libary symbol name GR106768_Buzzer_MBRM120 to MBRM120
+Renaming cache libary symbol name GR106768_Buzzer_BAT54S to BAT54S
+Renaming cache libary symbol name GR106768_Buzzer_BAT54C to BAT54C
+Renaming cache libary symbol name GR106768_Buzzer_BZX84C5V1 to BZX84C5V1
+Renaming cache libary symbol name GR106768_Buzzer_BZX84B6V8 to BZX84B6V8
+Writing library file: Diode.lib
+Renaming cache libary symbol name Device_Fuse to Fuse
+Writing library file: Fuse.lib
+Renaming cache libary symbol name Amplifier_Operational_LM358 to LM358
+Renaming cache libary symbol name Amplifier_Operational_LMV321 to LMV321
+Renaming cache libary symbol name GR106768_Buzzer_bq2002_SN to bq2002_SN
+Renaming cache libary symbol name GR106768_Buzzer_TLV3011AIDBV to TLV3011AIDBV
+Renaming cache libary symbol name GR106768_Buzzer_LT3471 to LT3471
+Renaming cache libary symbol name GR106768_Buzzer_LMC7211 to LMC7211
+Renaming cache libary symbol name Regulator_Linear_LM317L_SO8 to LM317L_SO8
+Writing library file: IC.lib
+Renaming cache libary symbol name Device_L to L_10022162
+Renaming cache libary symbol name Device_L to L_10022624
+Renaming cache libary symbol name Device_L_Core_Ferrite to L_Core_Ferrite
+Renaming cache libary symbol name GR106768_Buzzer_BK3216xxxxx to BK3216xxxxx
+Writing library file: Inductor.lib
+Renaming cache libary symbol name GR106768_Buzzer_BC847 to BC847
+Renaming cache libary symbol name GR106768_Buzzer_BC857 to BC857
+Renaming cache libary symbol name GR106768_Buzzer_Si2312BDS to Si2312BDS
+Renaming cache libary symbol name GR106768_Buzzer_Si2315BDS to Si2315BDS
+Writing library file: Transistor.lib
+Renaming cache libary symbol name GR106768_Buzzer_NK236-slideswitch to NK236-slideswitch
+Writing library file: Switch.lib
+Renaming cache libary symbol name Mechanical_Fiducial to Fiducial
+Writing library file: Connector.lib
+Exporting CSV file:Symbols/library_bom.csv

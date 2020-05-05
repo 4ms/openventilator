@@ -70,7 +70,7 @@ $EndSheet
 Text Notes 1250 4700 0    118  ~ 0
 SHEET1
 $Comp
-L Mechanical:MountingHole ZM1
+L V_Mechanical:MountingHole ZM1
 U 1 1 5E973F3B
 P 2200 3350
 F 0 "ZM1" H 2200 3500 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "~" H 2200 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM2
+L V_Mechanical:MountingHole ZM2
 U 1 1 5E974299
 P 1200 3000
 F 0 "ZM2" H 1200 3150 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "~" H 1200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM5
+L V_Mechanical:MountingHole ZM5
 U 1 1 5E974965
 P 1350 2550
 F 0 "ZM5" H 1350 2700 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "~" H 1350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM6
+L V_Mechanical:MountingHole ZM6
 U 1 1 5E97496F
 P 2200 2550
 F 0 "ZM6" H 2200 2700 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "~" H 2200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM3
+L V_Mechanical:MountingHole ZM3
 U 1 1 5E97529B
 P 1350 1350
 F 0 "ZM3" H 1350 1500 50  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "~" H 1350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM4
+L V_Mechanical:MountingHole ZM4
 U 1 1 5E9752A5
 P 2250 1350
 F 0 "ZM4" H 2250 1500 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "~" H 2250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM7
+L V_Mechanical:MountingHole ZM7
 U 1 1 5E9752AF
 P 2050 1650
 F 0 "ZM7" H 2050 1800 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "~" H 2050 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole ZM8
+L V_Mechanical:MountingHole ZM8
 U 1 1 5E9752B9
 P 1550 1650
 F 0 "ZM8" H 1550 1800 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "~" H 1550 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR3
+L V_Mechanical:Fiducial MIR3
 U 1 1 5EA84F61
 P 3650 2400
 F 0 "MIR3" H 3735 2446 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "~" H 3850 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR4
+L V_Mechanical:Fiducial MIR4
 U 1 1 5EA8549D
 P 3650 2900
 F 0 "MIR4" H 3735 2946 50  0000 L CNN
@@ -196,7 +196,7 @@ Wire Notes Line
 Wire Notes Line
 	1450 3200 1450 2650
 $Comp
-L Mechanical:Fiducial MIR2
+L V_Mechanical:Fiducial MIR2
 U 1 1 5EA84D93
 P 3650 1900
 F 0 "MIR2" H 3735 1946 50  0000 L CNN
@@ -207,7 +207,7 @@ F 3 "~" H 3850 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial MIR1
+L V_Mechanical:Fiducial MIR1
 U 1 1 5EA84054
 P 3650 1400
 F 0 "MIR1" H 3735 1446 50  0000 L CNN
@@ -222,7 +222,7 @@ Mounting Holes
 Text Notes 3300 950  0    118  ~ 0
 Fiducials
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5ECB2867
 P 5000 1500
 AR Path="/5FEC5422/5ECB2867" Ref="#FLG?"  Part="1" 
@@ -235,7 +235,7 @@ F 3 "~" H 5000 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:VACDC #PWR?
+L V_Power:VACDC #PWR?
 U 1 1 5ECB286D
 P 5400 1500
 AR Path="/5FEC5422/5ECB286D" Ref="#PWR?"  Part="1" 
@@ -248,7 +248,7 @@ F 3 "" H 5400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5ECB2873
 P 5100 1950
 AR Path="/5FEC5422/5ECB2873" Ref="#FLG?"  Part="1" 
@@ -273,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 2000 5400 2100
 $Comp
-L 10005011_Power_Management:PGND #PWR?
+L V_Power:PGND #PWR?
 U 1 1 5ECB287F
 P 5400 2100
 AR Path="/5FEC5422/5ECB287F" Ref="#PWR?"  Part="1" 
@@ -286,7 +286,7 @@ F 3 "" H 5400 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5ECB2885
 P 5800 1500
 AR Path="/5FEC5422/5ECB2885" Ref="#FLG?"  Part="1" 
@@ -299,7 +299,7 @@ F 3 "~" H 5800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5ECB288B
 P 5900 1950
 AR Path="/5FEC5422/5ECB288B" Ref="#FLG?"  Part="1" 
@@ -324,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 2000 6200 2100
 $Comp
-L 10005011_Power_Management:VDCEXT #PWR?
+L V_Power:VDCEXT #PWR?
 U 1 1 5ECB2897
 P 6200 1500
 AR Path="/5FEC5422/5ECB2897" Ref="#PWR?"  Part="1" 
@@ -337,7 +337,7 @@ F 3 "" H 6200 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L V_Power:GND #PWR?
 U 1 1 5ECB289D
 P 6200 2100
 AR Path="/5FEC5422/5ECB289D" Ref="#PWR?"  Part="1" 
@@ -350,7 +350,7 @@ F 3 "" H 6200 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5ECB28A3
 P 6600 1500
 AR Path="/5FEC5422/5ECB28A3" Ref="#FLG?"  Part="1" 
@@ -363,7 +363,7 @@ F 3 "~" H 6600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5ECB28A9
 P 6700 1950
 AR Path="/5FEC5422/5ECB28A9" Ref="#FLG?"  Part="1" 
@@ -388,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2000 7000 2100
 $Comp
-L 10005011_Power_Management:0VANA #PWR?
+L V_Power:0VANA #PWR?
 U 1 1 5ECB28B5
 P 7000 2100
 AR Path="/5FEC5422/5ECB28B5" Ref="#PWR?"  Part="1" 
@@ -401,7 +401,7 @@ F 3 "" H 7000 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:VBAT #PWR?
+L V_Power:VBAT #PWR?
 U 1 1 5ECB28BB
 P 7000 1500
 AR Path="/5FEC5422/5ECB28BB" Ref="#PWR?"  Part="1" 
@@ -418,7 +418,7 @@ Power Flags for ERC
 Text Notes 4900 1100 0    50   ~ 0
 There are more power flags on sheets 2, 3, 6, and 7
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5EF4C4B6
 P 5000 2700
 AR Path="/5FEC5422/5EF4C4B6" Ref="#FLG?"  Part="1" 
@@ -437,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 2800 5400 2700
 $Comp
-L 10005011_Power_Management:+24VUTIL #PWR0301
+L V_Power:+24VUTIL #PWR0301
 U 1 1 5EF4DC2C
 P 5400 2700
 F 0 "#PWR0301" H 5400 2550 50  0001 C CNN
@@ -448,7 +448,7 @@ F 3 "" H 5400 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5F1FF805
 P 5800 2700
 AR Path="/5FEC5422/5F1FF805" Ref="#FLG?"  Part="1" 
@@ -467,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 2800 6200 2700
 $Comp
-L power:PWR_FLAG #FLG?
+L V_Power:PWR_FLAG #FLG?
 U 1 1 5F200164
 P 6600 2700
 AR Path="/5FEC5422/5F200164" Ref="#FLG?"  Part="1" 
@@ -486,7 +486,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2800 7000 2700
 $Comp
-L 10005011_Power_Management:VALIM_PERM #PWR0302
+L V_Power:VALIM_PERM #PWR0302
 U 1 1 5F20200F
 P 6200 2700
 F 0 "#PWR0302" H 6200 2550 50  0001 C CNN
@@ -497,7 +497,7 @@ F 3 "" H 6200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10005011_Power_Management:VALIM #PWR0303
+L V_Power:VALIM #PWR0303
 U 1 1 5F2029A2
 P 7000 2700
 F 0 "#PWR0303" H 7000 2550 50  0001 C CNN
