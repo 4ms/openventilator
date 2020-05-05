@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP IRLML2803TRPBF
+F https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f
+$ENDCMP
+#
+$CMP MOSFET_NMOS_55V_10022559
+F https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c
+$ENDCMP
+#
+$CMP SUD50P06
+F http://www.vishay.com/docs/72250/sud50p06.pdf
+$ENDCMP
+#
 #End Doc Library
