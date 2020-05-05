@@ -31,8 +31,8 @@ Add net VDD.
 Add net VDD.
 Change C1 value from C-BC-C0603 to 10nF.
 Change C2 value from C-BC-C0603 to 10nF.
-Change C3 value from C-BC-C0402 to 0402_47pF_C0402C470J5GAC.
-Change C4 value from C-BC-C0402 to 0402_47pF_C0402C470J5GAC.
+Change C3 value from C-BC-C0402 to 47pF.
+Change C4 value from C-BC-C0402 to 47pF.
 Change CAM1 value from FILM18_HORIZONTAL to Fiducial.
 Change CAM10 value from A3_PER_COVIDIEN to Fiducial.
 Change CAM11 value from FEE_COMP to Fiducial.

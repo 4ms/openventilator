@@ -1,949 +1,405 @@
-Add net +BATTV.
-Add net +BATTV.
-Add net +BATTV.
-Add net +BATTV.
-Add net /+5V_CPU.
-Add net /+5V_CPU.
-Add net /BUZ-ACT.
-Add net /BUZ-ACT.
-Add net /BUZ-ACT.
-Add net /BUZ-ACT.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/GT1.
-Add net /GR106768_buzzer_charger/SHDN1.
-Add net /GR106768_buzzer_charger/SHDN1.
-Add net /GR106768_buzzer_charger/SHDN1.
-Add net /GR106768_buzzer_charger/SHDN1.
-Add net /GR106768_buzzer_charger/SHDN1.
-Add net /GR106768_buzzer_charger/SHDN2.
-Add net /GR106768_buzzer_charger/SHDN2.
-Add net /GR106768_buzzer_charger/SHDN2.
-Add net /GR106768_buzzer_charger/SHDN2.
-Add net /GR106768_buzzer_charger/SHDN2.
-Add net /INHIB-STOP-INV-CPU.
-Add net /INHIB-STOP-INV-CPU.
-Add net /INHIB-STOP-INV-CPU.
-Add net /INHIB-STOP-INV.
-Add net /INHIB-STOP-INV.
-Add net /INHIB-STOP-INV.
-Add net /PWM-BUZ.
-Add net /PWM-BUZ.
-Add net /PWM-BUZ.
-Add net /PWM-BUZZER-CPU.
-Add net /PWM-BUZZER-CPU.
-Add net /PWM-BUZZER-CPU.
-Add net /STOP-INV-CPU.
-Add net /STOP-INV-CPU.
-Add net /STOP-INV-CPU.
-Add net /STOP-INV.
-Add net /STOP-INV.
-Add net /STOP-INV.
-Add net /STOP-INV.
-Add net /SUPPLY-BUZ-CPU.
-Add net /SUPPLY-BUZ-CPU.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /SUPPLY-BUZ.
-Add net /TEST-BUZZER-CPU.
-Add net /TEST-BUZZER-CPU.
-Add net /TEST-BUZZER-CPU.
-Add net /TESTBUZ.
-Add net /TESTBUZ.
-Add net /TESTBUZ.
-Add net /VBAT.
-Add net /VBAT.
-Add net /VBAT.
-Add net /VBAT.
-Add net /VBAT.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net /VCHARG.
-Add net Net-(BAT1-Pad-).
-Add net Net-(BAT1-Pad-).
-Add net Net-(BAT1-Pad-).
-Add net Net-(BAT1-Pad3).
-Add net Net-(BUZ1-Pad1).
-Add net Net-(BUZ1-Pad1).
-Add net Net-(BUZ1-Pad1).
-Add net Net-(BUZ1-Pad1).
-Add net Net-(BUZ1-Pad1).
-Add net Net-(BUZ1-Pad2).
-Add net Net-(BUZ1-Pad2).
-Add net Net-(BUZ1-Pad2).
-Add net Net-(BUZ1-Pad3).
-Add net Net-(BUZ2-Pad3).
-Add net Net-(C13-Pad1).
-Add net Net-(C13-Pad1).
-Add net Net-(C13-Pad1).
-Add net Net-(C13-Pad1).
-Add net Net-(C14-Pad1).
-Add net Net-(C14-Pad1).
-Add net Net-(C14-Pad1).
-Add net Net-(C14-Pad1).
-Add net Net-(C14-Pad2).
-Add net Net-(C14-Pad2).
-Add net Net-(C14-Pad2).
-Add net Net-(C14-Pad2).
-Add net Net-(C16-Pad1).
-Add net Net-(C16-Pad1).
-Add net Net-(C16-Pad1).
-Add net Net-(C16-Pad1).
-Add net Net-(C16-Pad1).
-Add net Net-(C16-Pad1).
-Add net Net-(C17-Pad2).
-Add net Net-(C17-Pad2).
-Add net Net-(C17-Pad2).
-Add net Net-(C17-Pad2).
-Add net Net-(C18-Pad1).
-Add net Net-(C18-Pad1).
-Add net Net-(C18-Pad1).
-Add net Net-(C18-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C22-Pad1).
-Add net Net-(C24-Pad1).
-Add net Net-(C24-Pad1).
-Add net Net-(C24-Pad1).
-Add net Net-(C24-Pad2).
-Add net Net-(C24-Pad2).
-Add net Net-(C24-Pad2).
-Add net Net-(C25-Pad2).
-Add net Net-(C25-Pad2).
-Add net Net-(C25-Pad2).
-Add net Net-(C25-Pad2).
-Add net Net-(C27-Pad2).
-Add net Net-(C27-Pad2).
-Add net Net-(C27-Pad2).
-Add net Net-(C27-Pad2).
-Add net Net-(C28-Pad1).
-Add net Net-(C28-Pad1).
-Add net Net-(C28-Pad1).
-Add net Net-(C28-Pad1).
-Add net Net-(C3-Pad2).
-Add net Net-(C3-Pad2).
-Add net Net-(C3-Pad2).
-Add net Net-(C34-Pad2).
-Add net Net-(C34-Pad2).
-Add net Net-(C34-Pad2).
-Add net Net-(C34-Pad2).
-Add net Net-(C4-Pad1).
-Add net Net-(C4-Pad1).
-Add net Net-(C4-Pad1).
-Add net Net-(C6-Pad1).
-Add net Net-(C6-Pad1).
-Add net Net-(C6-Pad1).
-Add net Net-(C6-Pad1).
-Add net Net-(C6-Pad2).
-Add net Net-(C6-Pad2).
-Add net Net-(C6-Pad2).
-Add net Net-(C9-Pad1).
-Add net Net-(C9-Pad1).
-Add net Net-(C9-Pad1).
-Add net Net-(C9-Pad1).
-Add net Net-(C9-Pad2).
-Add net Net-(C9-Pad2).
-Add net Net-(C9-Pad2).
-Add net Net-(D13-PadA).
-Add net Net-(D13-PadA).
-Add net Net-(D13-PadA).
-Add net Net-(D15-Pad2).
-Add net Net-(D16-Pad3).
-Add net Net-(D16-Pad3).
-Add net Net-(D16-Pad3).
-Add net Net-(D17-Pad3).
-Add net Net-(D17-Pad3).
-Add net Net-(D2-Pad1).
-Add net Net-(D2-Pad1).
-Add net Net-(D2-Pad1).
-Add net Net-(D2-Pad1).
-Add net Net-(D3-Pad1).
-Add net Net-(D3-Pad1).
-Add net Net-(D3-Pad1).
-Add net Net-(D3-Pad1).
-Add net Net-(D3-Pad2).
-Add net Net-(D3-Pad2).
-Add net Net-(D3-Pad2).
-Add net Net-(D3-Pad2).
-Add net Net-(D4-Pad3).
-Add net Net-(D4-Pad3).
-Add net Net-(D4-Pad3).
-Add net Net-(D4-Pad3).
-Add net Net-(D5-Pad2).
-Add net Net-(D6-Pad1).
-Add net Net-(D6-Pad1).
-Add net Net-(D6-Pad2).
-Add net Net-(D6-Pad2).
-Add net Net-(D6-Pad3).
-Add net Net-(D6-Pad3).
-Add net Net-(D6-Pad3).
-Add net Net-(D6-Pad3).
-Add net Net-(D7-Pad2).
-Add net Net-(D8-PadA).
-Add net Net-(D8-PadA).
-Add net Net-(D8-PadA).
-Add net Net-(D8-PadA).
-Add net Net-(FU1-Pad2).
-Add net Net-(FU1-Pad2).
-Add net Net-(IC1-Pad3).
-Add net Net-(IC1-Pad3).
-Add net Net-(IC1-Pad3).
-Add net Net-(IC1-Pad3).
-Add net Net-(IC3-Pad1).
-Add net Net-(IC3-Pad1).
-Add net Net-(IC3-Pad1).
-Add net Net-(IC3-Pad1).
-Add net Net-(IC3-Pad1).
-Add net Net-(IC3-Pad2).
-Add net Net-(IC3-Pad2).
-Add net Net-(IC3-Pad2).
-Add net Net-(IC3-Pad6).
-Add net Net-(IC3-Pad6).
-Add net Net-(IC3-Pad6).
-Add net Net-(IC3-Pad7).
-Add net Net-(IC3-Pad7).
-Add net Net-(IC3-Pad7).
-Add net Net-(IC3-Pad7).
-Add net Net-(IC3-Pad7).
-Add net Net-(IC4-Pad1).
-Add net Net-(IC4-Pad1).
-Add net Net-(IC4-Pad1).
-Add net Net-(IC4-Pad1).
-Add net Net-(IC4-Pad1).
-Add net Net-(IC4-Pad3).
-Add net Net-(IC4-Pad3).
-Add net Net-(IC4-Pad3).
-Add net Net-(IC5-Pad2).
-Add net Net-(IC5-Pad2).
-Add net Net-(IC5-Pad2).
-Add net Net-(IC5-Pad2).
-Add net Net-(IC5-Pad2).
-Add net Net-(IC5-Pad4).
-Add net Net-(IC5-Pad4).
-Add net Net-(IC5-Pad4).
-Add net Net-(IC5-Pad4).
-Add net Net-(IC5-Pad5).
-Add net Net-(IC5-Pad8).
-Add net Net-(IC6-Pad1).
-Add net Net-(IC6-Pad1).
-Add net Net-(IC6-Pad1).
-Add net Net-(IC6-Pad2).
-Add net Net-(IC6-Pad2).
-Add net Net-(IC6-Pad5).
-Add net Net-(IC6-Pad5).
-Add net Net-(IC6-Pad5).
-Add net Net-(IC7-Pad1).
-Add net Net-(IC7-Pad1).
-Add net Net-(IC7-Pad1).
-Add net Net-(IC7-Pad1).
-Add net Net-(IC7-Pad3).
-Add net Net-(IC7-Pad3).
-Add net Net-(IC7-Pad3).
-Add net Net-(IC7-Pad5).
-Add net Net-(IC7-Pad5).
-Add net Net-(IC9-Pad1).
-Add net Net-(IC9-Pad1).
-Add net Net-(IC9-Pad1).
-Add net Net-(IC9-Pad1).
-Add net Net-(IC9-Pad1).
-Add net Net-(IC9-Pad3).
-Add net Net-(IC9-Pad3).
-Add net Net-(LD1-PadA).
-Add net Net-(LD1-PadA).
-Add net Net-(R13-Pad2).
-Add net Net-(R13-Pad2).
-Add net Net-(R14-Pad1).
-Add net Net-(R14-Pad1).
-Add net Net-(R19-Pad2).
-Add net Net-(R19-Pad2).
-Add net Net-(R20-Pad1).
-Add net Net-(R20-Pad1).
-Add net Net-(R51-Pad1).
-Add net Net-(R51-Pad1).
-Add net Net-(R51-Pad1).
-Add net Net-(R67-Pad1).
-Add net Net-(R67-Pad1).
-Add net Net-(R67-Pad1).
-Add net Net-(R67-Pad1).
-Add net Net-(R68-Pad1).
-Add net Net-(R68-Pad1).
-Add net Net-(SW1-Pad2).
-Add net Net-(T11-PadD).
-Add net Net-(T11-PadD).
-Change BAT1 value from BAT-BT-4-V150H-4.8V to BT-4-V150H-4.8V_1.
-Change BUZ1 value from BZ-10-PKM33EPH-1201C to PKM33EPH.
-Change BUZ2 value from BZ-10-PKM33EPH-1201C to PKM33EPH.
-Change C1 value from CC-BC-C0612 to 47pF.
-Change C10 value from C-BC-C0402 to 100nF.
-Change C11 value from C-BC-C0402 to 100nF.
-Change C12 value from C-BTP-AX10X30 to 470μF.
-Change C13 value from C-BC-C0603 to 33nF.
-Change C14 value from C-BC-C0603 to 33nF.
-Change C15 value from C-BC-C0402 to 100nF.
-Change C16 value from C-BC-C0402 to 100nF.
-Change C17 value from C-BC-C0402 to 100nF.
-Change C18 value from C-BC-C0402 to 100nF.
-Change C19 value from C-BC-C0402 to 100nF.
-Change C2 value from C-BC-C0402 to 220pF.
-Change C20 value from C-BC-C0603 to 330nF.
-Change C21 value from C-BC-C1210 to 47μF.
-Change C22 value from C-BC-C1206 to 10μF.
-Change C23 value from C-BC-C1210 to 47μF.
-Change C24 value from C-BC-C0805 to 1uF.
-Change C25 value from C-BC-C0402 to 100nF.
-Change C26 value from C-BC-C1206 to 10μF.
-Change C27 value from C-BC-C0402 to 100pF.
-Change C28 value from C-BC-C0402 to 100pF.
-Change C29 value from C-BC-C1206 to 10μF.
-Change C3 value from C-BC-C0805 to 10nF.
-Change C30 value from C-BC-C0402 to 100nF.
-Change C31 value from C-BC-C0402 to 100nF.
-Change C32 value from C-BC-C0402 to 100nF.
-Change C33 value from C-BC-C0402 to 100nF.
-Change C34 value from C-BC-C0402 to NC.
-Change C35 value from C-BC-C0402 to 4.7nF.
-Change C4 value from C-BC-C0402 to 680pF.
-Change C5 value from C-BC-C0402 to 100nF.
-Change C6 value from C-BC-C0402 to 680pF.
-Change C7 value from C-BC-C0402 to 100nF.
-Change C8 value from C-BC-C0402 to 100nF.
-Change C9 value from C-BC-C0402 to 100nF.
-Change D1 value from D-BC-POWERMITE to NC.
-Change D10 value from D-BC-POWERMITE to MBRM120.
-Change D11 value from D-BC-POWERMITE to MBRM120.
-Change D12 value from D-BC-POWERMITE to MBRM120.
-Change D13 value from D-BC-POWERMITE to MBRM120.
-Change D14 value from D-BC-POWERMITE to MBRM120.
-Change D15 value from D-BC-SOT23 to BZX84B6V8.
-Change D16 value from D-BC-SOT23 to BAT54C.
-Change D17 value from D-BC-SOT23 to BAT54C.
-Change D2 value from D-BC-SOT23 to BAT54C.
-Change D3 value from D-BC-SOT23 to BAT54S.
-Change D4 value from D-BC-SOT23 to BAT54S.
-Change D5 value from D-BC-SOT23 to BZX84C2V7.
-Change D6 value from D-BC-SOT23 to BAT54C.
-Change D7 value from D-BC-SOT23 to BZX84C5V1.
-Change D8 value from D-BC-POWERMITE to MBRM120.
-Change D9 value from D-BC-SOT23 to BAT54S.
-Change FI1 value from SF-BC-WEFA to BK32164M102-T.
-Change FU1 value from FU-BC-R451 to 500mA.
-Change H1 value from  to PadHole.
-Change H10 value from  to PadHole.
-Change H100 value from  to PadHole.
-Change H101 value from  to PadHole.
-Change H102 value from  to PadHole.
-Change H103 value from  to PadHole.
-Change H104 value from  to PadHole.
-Change H105 value from  to PadHole.
-Change H11 value from  to PadHole.
-Change H12 value from  to PadHole.
-Change H13 value from  to PadHole.
-Change H14 value from  to PadHole.
-Change H15 value from  to PadHole.
-Change H16 value from  to PadHole.
-Change H17 value from  to PadHole.
-Change H18 value from  to PadHole.
-Change H19 value from  to PadHole.
-Change H2 value from  to PadHole.
-Change H20 value from  to PadHole.
-Change H21 value from  to PadHole.
-Change H22 value from  to PadHole.
-Change H23 value from  to PadHole.
-Change H24 value from  to PadHole.
-Change H25 value from  to PadHole.
-Change H26 value from  to PadHole.
-Change H27 value from  to PadHole.
-Change H28 value from  to PadHole.
-Change H29 value from  to PadHole.
-Change H3 value from  to PadHole.
-Change H30 value from  to PadHole.
-Change H31 value from  to PadHole.
-Change H32 value from  to PadHole.
-Change H33 value from  to PadHole.
-Change H34 value from  to PadHole.
-Change H35 value from  to PadHole.
-Change H36 value from  to PadHole.
-Change H37 value from  to PadHole.
-Change H38 value from  to PadHole.
-Change H39 value from  to PadHole.
-Change H4 value from  to PadHole.
-Change H40 value from  to PadHole.
-Change H41 value from  to PadHole.
-Change H42 value from  to PadHole.
-Change H43 value from  to PadHole.
-Change H44 value from  to PadHole.
-Change H45 value from  to PadHole.
-Change H46 value from  to PadHole.
-Change H47 value from  to PadHole.
-Change H48 value from  to PadHole.
-Change H49 value from  to PadHole.
-Change H5 value from  to PadHole.
-Change H50 value from  to PadHole.
-Change H51 value from  to PadHole.
-Change H52 value from  to PadHole.
-Change H53 value from  to PadHole.
-Change H54 value from  to PadHole.
-Change H55 value from  to PadHole.
-Change H56 value from  to PadHole.
-Change H57 value from  to PadHole.
-Change H58 value from  to PadHole.
-Change H59 value from  to PadHole.
-Change H6 value from  to PadHole.
-Change H60 value from  to PadHole.
-Change H61 value from  to PadHole.
-Change H62 value from  to PadHole.
-Change H63 value from  to PadHole.
-Change H64 value from  to PadHole.
-Change H65 value from  to PadHole.
-Change H66 value from  to PadHole.
-Change H67 value from  to PadHole.
-Change H68 value from  to PadHole.
-Change H69 value from  to PadHole.
-Change H7 value from  to PadHole.
-Change H70 value from  to PadHole.
-Change H71 value from  to PadHole.
-Change H72 value from  to PadHole.
-Change H73 value from  to PadHole.
-Change H74 value from  to PadHole.
-Change H75 value from  to PadHole.
-Change H76 value from  to PadHole.
-Change H77 value from  to PadHole.
-Change H78 value from  to PadHole.
-Change H79 value from  to PadHole.
-Change H8 value from  to PadHole.
-Change H80 value from  to PadHole.
-Change H81 value from  to PadHole.
-Change H82 value from  to PadHole.
-Change H83 value from  to PadHole.
-Change H84 value from  to PadHole.
-Change H85 value from  to PadHole.
-Change H86 value from  to PadHole.
-Change H87 value from  to PadHole.
-Change H88 value from  to PadHole.
-Change H89 value from  to PadHole.
-Change H9 value from  to PadHole.
-Change H90 value from  to PadHole.
-Change H91 value from  to PadHole.
-Change H92 value from  to PadHole.
-Change H93 value from  to PadHole.
-Change H94 value from  to PadHole.
-Change H95 value from  to PadHole.
-Change H96 value from  to PadHole.
-Change H97 value from  to PadHole.
-Change H98 value from  to PadHole.
-Change H99 value from  to PadHole.
-Change IC1 value from L-BC-SOT23-5 to LMC7211.
-Change IC2 value from L-BC-SO08 to MC33172.
-Change IC3 value from L-BC-SO08 to MC33172.
-Change IC4 value from L-BC-SOT23-5 to LMV321.
-Change IC5 value from L-BC-SO08 to LM317L_SO8.
-Change IC6 value from L-BC-SO08 to BQ2002C.
-Change IC7 value from L-BC-SOT23-6 to TLV3011.
-Change IC8 value from L-BC-DFN10 to LT3471.
-Change IC9 value from L-BC-SOT23-6 to TLV3011.
-Change J1 value from BAR-10-1007 to to CPU board.
-Change JP1 value from TB-CMS-AIROX to Jumper.
-Change L1 value from SF-BC-S1206 to Core_Ferrite.
-Change L2 value from SF-BC-WETPCS to 10μH.
-Change L3 value from SF-BC-WETPCS to 15μH.
-Change L4 value from SF-BC-WETPCS to 15μH.
-Change LD1 value from LED-BC-D0603 to NC.
-Change R1 value from R-BC-R0402 to 100k.
-Change R10 value from R-BC-R0402 to 100k.
-Change R11 value from R-BC-R0402 to 105k.
-Change R12 value from R-BC-R0402 to 470.
-Change R13 value from R-BC-R0402 to 1.5.
-Change R14 value from R-BC-R0402 to 1.5.
-Change R15 value from R-BC-R0402 to 33.
-Change R16 value from R-BC-R0402 to 10k.
-Change R17 value from R-BC-R0402 to 10k.
-Change R18 value from R-BC-R0402 to 150k.
-Change R19 value from R-BC-R0402 to 1.5.
-Change R2 value from R-BC-R0402 to 100k.
-Change R20 value from R-BC-R0402 to 1.5.
-Change R21 value from R-BC-R0402 to 150k.
-Change R22 value from R-BC-R0402 to 470.
-Change R23 value from R-BC-R0402 to 2.2k.
-Change R24 value from R-BC-R0402 to 100k.
-Change R25 value from R-BC-R0402 to NC.
-Change R26 value from R-BC-R0402 to 137k.
-Change R27 value from R-BC-R0402 to 68k.
-Change R28 value from R-BC-R0402 to 32.4k.
-Change R29 value from R-BC-R0402 to 100k.
-Change R3 value from R-BC-R0402 to 100k.
-Change R30 value from R-BC-R0402 to 0.
-Change R31 value from R-BC-R0402 to 0.
-Change R32 value from R-BC-R0402 to 10k.
-Change R33 value from R-BC-R0402 to 1k.
-Change R34 value from R-BC-R0402 to 10k.
-Change R35 value from R-BC-R0402 to 33k.
-Change R36 value from R-BC-R0805 to 33.
-Change R37 value from R-BC-R0402 to 220.
-Change R38 value from R-BC-R0402 to 100k.
-Change R39 value from R-BC-R0402 to 100k.
-Change R4 value from R-BC-R0402 to 10k.
-Change R40 value from R-BC-R0402 to 4.7k.
-Change R41 value from R-BC-R0402 to 180k.
-Change R42 value from R-BC-R0402 to 100k.
-Change R43 value from R-BC-R0402 to 1.5M.
-Change R44 value from R-BC-R0402 to 680k.
-Change R45 value from R-BC-R0402 to 59k.
-Change R46 value from R-BC-R0402 to 1M.
-Change R47 value from R-BC-R0402 to 100k.
-Change R48 value from R-BC-R0402 to NC.
-Change R49 value from R-BC-R0402 to 10k.
-Change R5 value from R-BC-R0402 to 10k.
-Change R50 value from R-BC-R0402 to NC.
-Change R51 value from R-BC-R0402 to 10k.
-Change R52 value from R-BC-R0402 to 10k.
-Change R53 value from R-BC-R0402 to 47k.
-Change R54 value from R-BC-R0402 to 47k.
-Change R55 value from R-BC-R0402 to 15k.
-Change R56 value from R-BC-R0402 to 182k.
-Change R57 value from R-BC-R0402 to 54.9k.
-Change R58 value from R-BC-R0402 to 4.99k.
-Change R59 value from R-BC-R0402 to 100k.
-Change R6 value from R-BC-R0402 to 59k.
-Change R60 value from R-BC-R0402 to NC.
-Change R61 value from R-BC-R0402 to 10k.
-Change R62 value from R-BC-R0402 to 10k.
-Change R63 value from R-BC-R0402 to 100k.
-Change R64 value from R-BC-R0402 to 100k.
-Change R65 value from R-BC-R0402 to 2.2k.
-Change R66 value from R-BC-R0402 to 10k.
-Change R67 value from R-BC-R0402 to 100k.
-Change R68 value from R-BC-R0402 to 10k.
-Change R69 value from R-BC-R0402 to 200k.
-Change R7 value from R-BC-R0402 to 51.1k.
-Change R70 value from R-BC-R0402 to 10k.
-Change R71 value from R-BC-R0805 to 470.
-Change R8 value from R-BC-R0402 to 1k.
-Change R9 value from R-BC-R0402 to 32.4k.
-Change SJ1 value from TB-CMS-AIROX to Jumper_Small.
-Change SW1 value from SI-10-NK236 to NK236_.
-Change T1 value from Q-BC-SOT23-BEC to BC847.
-Change T10 value from Q-BC-SOT23-GSD to Si2312BDS.
-Change T11 value from Q-BC-SOT23-GSD to Si2315BDS.
-Change T12 value from Q-BC-SOT23-GSD to Si2315BDS.
-Change T13 value from Q-BC-SOT23-GSD to Si2312BDS.
-Change T2 value from Q-BC-SOT23-BEC to BC857.
-Change T3 value from Q-BC-SOT23-BEC to BC847.
-Change T4 value from Q-BC-SOT23-BEC to BC857.
-Change T5 value from Q-BC-SOT23-GSD to Si2312BDS.
-Change T6 value from Q-BC-SOT23-GSD to Si2315BDS.
-Change T7 value from Q-BC-SOT23-GSD to Si2312BDS.
-Change T8 value from Q-BC-SOT23-GSD to Si2315BDS.
-Change T9 value from Q-BC-SOT23-GSD to Si2312BDS.
-Connect BAT1 pin + to +BATTV.
-Connect BAT1 pin - to Net-(BAT1-Pad-).
-Connect BAT1 pin 3 to Net-(BAT1-Pad3).
-Connect BUZ1 pin 3 to Net-(BUZ1-Pad3).
-Connect BUZ2 pin 3 to Net-(BUZ2-Pad3).
-Connect D15 pin 2 to Net-(D15-Pad2).
-Connect D5 pin 2 to Net-(D5-Pad2).
-Connect D7 pin 2 to Net-(D7-Pad2).
-Connect IC5 pin 5 to Net-(IC5-Pad5).
-Connect IC5 pin 8 to Net-(IC5-Pad8).
-Connect SW1 pin 2 to Net-(SW1-Pad2).
-Disconnect H1 pin .
-Disconnect H10 pin .
-Disconnect H100 pin .
-Disconnect H101 pin .
-Disconnect H102 pin .
-Disconnect H103 pin .
-Disconnect H104 pin .
-Disconnect H105 pin .
-Disconnect H11 pin .
-Disconnect H12 pin .
-Disconnect H13 pin .
-Disconnect H14 pin .
-Disconnect H15 pin .
-Disconnect H16 pin .
-Disconnect H17 pin .
-Disconnect H18 pin .
-Disconnect H19 pin .
-Disconnect H2 pin .
-Disconnect H20 pin .
-Disconnect H21 pin .
-Disconnect H22 pin .
-Disconnect H23 pin .
-Disconnect H24 pin .
-Disconnect H25 pin .
-Disconnect H26 pin .
-Disconnect H27 pin .
-Disconnect H28 pin .
-Disconnect H29 pin .
-Disconnect H3 pin .
-Disconnect H30 pin .
-Disconnect H31 pin .
-Disconnect H32 pin .
-Disconnect H33 pin .
-Disconnect H34 pin .
-Disconnect H35 pin .
-Disconnect H36 pin .
-Disconnect H37 pin .
-Disconnect H38 pin .
-Disconnect H39 pin .
-Disconnect H4 pin .
-Disconnect H40 pin .
-Disconnect H41 pin .
-Disconnect H42 pin .
-Disconnect H43 pin .
-Disconnect H44 pin .
-Disconnect H45 pin .
-Disconnect H46 pin .
-Disconnect H47 pin .
-Disconnect H48 pin .
-Disconnect H49 pin .
-Disconnect H5 pin .
-Disconnect H50 pin .
-Disconnect H51 pin .
-Disconnect H52 pin .
-Disconnect H53 pin .
-Disconnect H54 pin .
-Disconnect H55 pin .
-Disconnect H56 pin .
-Disconnect H57 pin .
-Disconnect H58 pin .
-Disconnect H59 pin .
-Disconnect H6 pin .
-Disconnect H60 pin .
-Disconnect H61 pin .
-Disconnect H62 pin .
-Disconnect H63 pin .
-Disconnect H64 pin .
-Disconnect H65 pin .
-Disconnect H66 pin .
-Disconnect H67 pin .
-Disconnect H68 pin .
-Disconnect H69 pin .
-Disconnect H7 pin .
-Disconnect H70 pin .
-Disconnect H71 pin .
-Disconnect H72 pin .
-Disconnect H73 pin .
-Disconnect H74 pin .
-Disconnect H75 pin .
-Disconnect H76 pin .
-Disconnect H77 pin .
-Disconnect H78 pin .
-Disconnect H79 pin .
-Disconnect H8 pin .
-Disconnect H80 pin .
-Disconnect H81 pin .
-Disconnect H82 pin .
-Disconnect H83 pin .
-Disconnect H84 pin .
-Disconnect H85 pin .
-Disconnect H86 pin .
-Disconnect H87 pin .
-Disconnect H88 pin .
-Disconnect H89 pin .
-Disconnect H9 pin .
-Disconnect H90 pin .
-Disconnect H91 pin .
-Disconnect H92 pin .
-Disconnect H93 pin .
-Disconnect H94 pin .
-Disconnect H95 pin .
-Disconnect H96 pin .
-Disconnect H97 pin .
-Disconnect H98 pin .
-Disconnect H99 pin .
-Info: Change symbol path “BAT1:” to “/5E89C6B8/603E4DAA”.
-Info: Change symbol path “BUZ1:” to “/5F1A6F3E”.
-Info: Change symbol path “BUZ2:” to “/5F18A730”.
-Info: Change symbol path “C10:” to “/5E8CCB53”.
-Info: Change symbol path “C11:” to “/5FA59D9B”.
-Info: Change symbol path “C12:” to “/5E95457C”.
-Info: Change symbol path “C13:” to “/5EA46C5B”.
-Info: Change symbol path “C14:” to “/5EA56715”.
-Info: Change symbol path “C15:” to “/5E89C6B8/5E8A0888”.
-Info: Change symbol path “C16:” to “/5E89C6B8/5E9712FB”.
-Info: Change symbol path “C17:” to “/5E89C6B8/5E9BFCE7”.
-Info: Change symbol path “C18:” to “/5E89C6B8/5EA7B49D”.
-Info: Change symbol path “C19:” to “/5E89C6B8/5EA920AC”.
-Info: Change symbol path “C1:” to “/5EC82919”.
-Info: Change symbol path “C20:” to “/5E89C6B8/5E9BC806”.
-Info: Change symbol path “C21:” to “/5E89C6B8/5EBD18AF”.
-Info: Change symbol path “C22:” to “/5E89C6B8/5E96C675”.
-Info: Change symbol path “C23:” to “/5E89C6B8/5EFCD4D1”.
-Info: Change symbol path “C24:” to “/5E89C6B8/5E93D7C9”.
-Info: Change symbol path “C25:” to “/5E89C6B8/5E96DA27”.
-Info: Change symbol path “C26:” to “/5E89C6B8/5E946687”.
-Info: Change symbol path “C27:” to “/5E89C6B8/5ED70130”.
-Info: Change symbol path “C28:” to “/5E89C6B8/5E966C43”.
-Info: Change symbol path “C29:” to “/5E89C6B8/5EF41CB7”.
-Info: Change symbol path “C2:” to “/5E87D053”.
-Info: Change symbol path “C30:” to “/5EA0990A”.
-Info: Change symbol path “C31:” to “/5E89C6B8/5E8A58B8”.
-Info: Change symbol path “C32:” to “/5E89C6B8/5E9480AB”.
-Info: Change symbol path “C33:” to “/5E89C6B8/5EAC1081”.
-Info: Change symbol path “C34:” to “/5E89C6B8/5EA224D5”.
-Info: Change symbol path “C35:” to “/5E89C6B8/5E9C4E7A”.
-Info: Change symbol path “C3:” to “/5E8D63CA”.
-Info: Change symbol path “C4:” to “/5E88308B”.
-Info: Change symbol path “C5:” to “/5E8CCB59”.
-Info: Change symbol path “C6:” to “/5F37E1A4”.
-Info: Change symbol path “C7:” to “/5FB28643”.
-Info: Change symbol path “C8:” to “/5FB28651”.
-Info: Change symbol path “C9:” to “/5E8DEB54”.
-Info: Change symbol path “D10:” to “/5E89C6B8/5EDA2635”.
-Info: Change symbol path “D11:” to “/5E89C6B8/5EDA4D8D”.
-Info: Change symbol path “D12:” to “/5E89C6B8/5ECE2CDB”.
-Info: Change symbol path “D13:” to “/5E89C6B8/5EDABE43”.
-Info: Change symbol path “D14:” to “/5E89C6B8/5EDA4FFA”.
-Info: Change symbol path “D15:” to “/5E89C6B8/5EDA7004”.
-Info: Change symbol path “D16:” to “/5E89C6B8/5EA7338A”.
-Info: Change symbol path “D17:” to “/5E89C6B8/5ED7AFF0”.
-Info: Change symbol path “D1:” to “/5ECDFA95”.
-Info: Change symbol path “D2:” to “/5F042781”.
-Info: Change symbol path “D3:” to “/5EBCBDC4”.
-Info: Change symbol path “D4:” to “/5EBC356D”.
-Info: Change symbol path “D5:” to “/5ED68B8C”.
-Info: Change symbol path “D6:” to “/5E89C6B8/5EFB9F08”.
-Info: Change symbol path “D7:” to “/5E89C6B8/5EDA94D6”.
-Info: Change symbol path “D8:” to “/5E89C6B8/5EDAA652”.
-Info: Change symbol path “D9:” to “/5E89C6B8/5F3B7224”.
-Info: Change symbol path “FI1:” to “/5EB5F4EF”.
-Info: Change symbol path “FU1:” to “/5E879854”.
-Info: Change symbol path “H100:” to “/5EB065CF”.
-Info: Change symbol path “H101:” to “/5EB065D5”.
-Info: Change symbol path “H102:” to “/5EB065DB”.
-Info: Change symbol path “H103:” to “/5EB065E1”.
-Info: Change symbol path “H104:” to “/5EB065E7”.
-Info: Change symbol path “H105:” to “/5EB065ED”.
-Info: Change symbol path “H10:” to “/5EA7973E”.
-Info: Change symbol path “H11:” to “/5EA79744”.
-Info: Change symbol path “H12:” to “/5EA7974A”.
-Info: Change symbol path “H13:” to “/5EA79750”.
-Info: Change symbol path “H14:” to “/5EA79756”.
-Info: Change symbol path “H15:” to “/5EA7975C”.
-Info: Change symbol path “H16:” to “/5EA79762”.
-Info: Change symbol path “H17:” to “/5EAC22AB”.
-Info: Change symbol path “H18:” to “/5EAC22B1”.
-Info: Change symbol path “H19:” to “/5EAC22B7”.
-Info: Change symbol path “H1:” to “/5EA3F179”.
-Info: Change symbol path “H20:” to “/5EAC22BD”.
-Info: Change symbol path “H21:” to “/5EAC22C3”.
-Info: Change symbol path “H22:” to “/5EAC22C9”.
-Info: Change symbol path “H23:” to “/5EAC22CF”.
-Info: Change symbol path “H24:” to “/5EAC22D5”.
-Info: Change symbol path “H25:” to “/5EAC22DB”.
-Info: Change symbol path “H26:” to “/5EAC22E1”.
-Info: Change symbol path “H27:” to “/5EAC22E7”.
-Info: Change symbol path “H28:” to “/5EAC22ED”.
-Info: Change symbol path “H29:” to “/5EAC22F3”.
-Info: Change symbol path “H2:” to “/5EA41143”.
-Info: Change symbol path “H30:” to “/5EAC22F9”.
-Info: Change symbol path “H31:” to “/5EAC22FF”.
-Info: Change symbol path “H32:” to “/5EAC2305”.
-Info: Change symbol path “H33:” to “/5EAE2F39”.
-Info: Change symbol path “H34:” to “/5EAE2F3F”.
-Info: Change symbol path “H35:” to “/5EAE2F45”.
-Info: Change symbol path “H36:” to “/5EAE2F4B”.
-Info: Change symbol path “H37:” to “/5EAE2F51”.
-Info: Change symbol path “H38:” to “/5EAE2F57”.
-Info: Change symbol path “H39:” to “/5EAE2F5D”.
-Info: Change symbol path “H3:” to “/5EA441E6”.
-Info: Change symbol path “H40:” to “/5EAE2F63”.
-Info: Change symbol path “H41:” to “/5EAE2F69”.
-Info: Change symbol path “H42:” to “/5EAE2F6F”.
-Info: Change symbol path “H43:” to “/5EAE2F75”.
-Info: Change symbol path “H44:” to “/5EAE2F7B”.
-Info: Change symbol path “H45:” to “/5EAE2F81”.
-Info: Change symbol path “H46:” to “/5EAE2F87”.
-Info: Change symbol path “H47:” to “/5EAE2F8D”.
-Info: Change symbol path “H48:” to “/5EAE2F93”.
-Info: Change symbol path “H49:” to “/5EAE2F99”.
-Info: Change symbol path “H4:” to “/5EA441F0”.
-Info: Change symbol path “H50:” to “/5EAE2F9F”.
-Info: Change symbol path “H51:” to “/5EAE2FA5”.
-Info: Change symbol path “H52:” to “/5EAE2FAB”.
-Info: Change symbol path “H53:” to “/5EAE2FB1”.
-Info: Change symbol path “H54:” to “/5EAE2FB7”.
-Info: Change symbol path “H55:” to “/5EAE2FBD”.
-Info: Change symbol path “H56:” to “/5EAE2FC3”.
-Info: Change symbol path “H57:” to “/5EAE2FC9”.
-Info: Change symbol path “H58:” to “/5EAE2FCF”.
-Info: Change symbol path “H59:” to “/5EAE2FD5”.
-Info: Change symbol path “H5:” to “/5EA60AEA”.
-Info: Change symbol path “H60:” to “/5EAE2FDB”.
-Info: Change symbol path “H61:” to “/5EAE2FE1”.
-Info: Change symbol path “H62:” to “/5EAE2FE7”.
-Info: Change symbol path “H63:” to “/5EAE2FED”.
-Info: Change symbol path “H64:” to “/5EAE2FF3”.
-Info: Change symbol path “H65:” to “/5EB064FD”.
-Info: Change symbol path “H66:” to “/5EB06503”.
-Info: Change symbol path “H67:” to “/5EB06509”.
-Info: Change symbol path “H68:” to “/5EB0650F”.
-Info: Change symbol path “H69:” to “/5EB06515”.
-Info: Change symbol path “H6:” to “/5EA60AF0”.
-Info: Change symbol path “H70:” to “/5EB0651B”.
-Info: Change symbol path “H71:” to “/5EB06521”.
-Info: Change symbol path “H72:” to “/5EB06527”.
-Info: Change symbol path “H73:” to “/5EB0652D”.
-Info: Change symbol path “H74:” to “/5EB06533”.
-Info: Change symbol path “H75:” to “/5EB06539”.
-Info: Change symbol path “H76:” to “/5EB0653F”.
-Info: Change symbol path “H77:” to “/5EB06545”.
-Info: Change symbol path “H78:” to “/5EB0654B”.
-Info: Change symbol path “H79:” to “/5EB06551”.
-Info: Change symbol path “H7:” to “/5EA60AF6”.
-Info: Change symbol path “H80:” to “/5EB06557”.
-Info: Change symbol path “H81:” to “/5EB0655D”.
-Info: Change symbol path “H82:” to “/5EB06563”.
-Info: Change symbol path “H83:” to “/5EB06569”.
-Info: Change symbol path “H84:” to “/5EB0656F”.
-Info: Change symbol path “H85:” to “/5EB06575”.
-Info: Change symbol path “H86:” to “/5EB0657B”.
-Info: Change symbol path “H87:” to “/5EB06581”.
-Info: Change symbol path “H88:” to “/5EB06587”.
-Info: Change symbol path “H89:” to “/5EB0658D”.
-Info: Change symbol path “H8:” to “/5EA60AFC”.
-Info: Change symbol path “H90:” to “/5EB06593”.
-Info: Change symbol path “H91:” to “/5EB06599”.
-Info: Change symbol path “H92:” to “/5EB0659F”.
-Info: Change symbol path “H93:” to “/5EB065A5”.
-Info: Change symbol path “H94:” to “/5EB065AB”.
-Info: Change symbol path “H95:” to “/5EB065B1”.
-Info: Change symbol path “H96:” to “/5EB065B7”.
-Info: Change symbol path “H97:” to “/5EB065BD”.
-Info: Change symbol path “H98:” to “/5EB065C3”.
-Info: Change symbol path “H99:” to “/5EB065C9”.
-Info: Change symbol path “H9:” to “/5EA79738”.
-Info: Change symbol path “IC1:” to “/5ED9EC08”.
-Info: Change symbol path “IC2:” to “/5EA35D87”.
-Info: Change symbol path “IC3:” to “/5F9FC870”.
-Info: Change symbol path “IC4:” to “/5E9F6105”.
-Info: Change symbol path “IC5:” to “/5E89C6B8/5E89DE00”.
-Info: Change symbol path “IC6:” to “/5E89C6B8/5EAF2236”.
-Info: Change symbol path “IC7:” to “/5E89C6B8/5EB4E57D”.
-Info: Change symbol path “IC8:” to “/5E89C6B8/5EA71527”.
-Info: Change symbol path “IC9:” to “/5E89C6B8/5EA33A5F”.
-Info: Change symbol path “J1:” to “/5EFBAE64”.
-Info: Change symbol path “J2:” to “/5EA28D60”.
-Info: Change symbol path “J3:” to “/5EA29F64”.
-Info: Change symbol path “JP1:” to “/5E89C6B8/5E9C0175”.
-Info: Change symbol path “L1:” to “/5E87AB3F”.
-Info: Change symbol path “L2:” to “/5E89C6B8/5E8C0A82”.
-Info: Change symbol path “L3:” to “/5E89C6B8/5E96380A”.
-Info: Change symbol path “L4:” to “/5E89C6B8/5E96440E”.
-Info: Change symbol path “LD1:” to “/5E89C6B8/607B7825”.
-Info: Change symbol path “R10:” to “/5EAF61C9”.
-Info: Change symbol path “R11:” to “/5EAF4C77”.
-Info: Change symbol path “R12:” to “/5EAF15D6”.
-Info: Change symbol path “R13:” to “/5EAEECA2”.
-Info: Change symbol path “R14:” to “/5EAF08D9”.
-Info: Change symbol path “R15:” to “/5EADE678”.
-Info: Change symbol path “R16:” to “/5EAE2485”.
-Info: Change symbol path “R17:” to “/5EAE3A2A”.
-Info: Change symbol path “R18:” to “/5EA9EA69”.
-Info: Change symbol path “R19:” to “/5EAEB7F1”.
-Info: Change symbol path “R1:” to “/5EE68B27”.
-Info: Change symbol path “R20:” to “/5EAEDC7F”.
-Info: Change symbol path “R21:” to “/5EADFF19”.
-Info: Change symbol path “R22:” to “/5EAE98B3”.
-Info: Change symbol path “R23:” to “/5EA9CBEC”.
-Info: Change symbol path “R24:” to “/5EA8E1A5”.
-Info: Change symbol path “R25:” to “/5EA20431”.
-Info: Change symbol path “R26:” to “/5EAE68B0”.
-Info: Change symbol path “R27:” to “/5EA91372”.
-Info: Change symbol path “R28:” to “/5EAE478D”.
-Info: Change symbol path “R29:” to “/5EA90255”.
-Info: Change symbol path “R2:” to “/5EAF8964”.
-Info: Change symbol path “R30:” to “/5E89C6B8/5F7D13B9”.
-Info: Change symbol path “R31:” to “/5E89C6B8/5F7D0109”.
-Info: Change symbol path “R32:” to “/5E89C6B8/5F7AD158”.
-Info: Change symbol path “R33:” to “/5E89C6B8/5F797D1C”.
-Info: Change symbol path “R34:” to “/5E89C6B8/5F7D1FCC”.
-Info: Change symbol path “R35:” to “/5E89C6B8/5F7D3642”.
-Info: Change symbol path “R36:” to “/5E89C6B8/5EA94404”.
-Info: Change symbol path “R37:” to “/5E89C6B8/5F79CD23”.
-Info: Change symbol path “R38:” to “/5E89C6B8/5F79AE7D”.
-Info: Change symbol path “R39:” to “/5E89C6B8/5F79C30E”.
-Info: Change symbol path “R3:” to “/5EAFA9E8”.
-Info: Change symbol path “R40:” to “/5E89C6B8/5F7A36E0”.
-Info: Change symbol path “R41:” to “/5E89C6B8/5F7A2080”.
-Info: Change symbol path “R42:” to “/5E89C6B8/5F7A03FF”.
-Info: Change symbol path “R43:” to “/5E89C6B8/5F806711”.
-Info: Change symbol path “R44:” to “/5E89C6B8/5F807891”.
-Info: Change symbol path “R45:” to “/5E89C6B8/5EE70D4C”.
-Info: Change symbol path “R46:” to “/5E89C6B8/5F804D9A”.
-Info: Change symbol path “R47:” to “/5E89C6B8/5F7FDDA7”.
-Info: Change symbol path “R48:” to “/5E89C6B8/5E9BACF2”.
-Info: Change symbol path “R49:” to “/5E89C6B8/5F7D92D0”.
-Info: Change symbol path “R4:” to “/5EE69FB2”.
-Info: Change symbol path “R50:” to “/5E89C6B8/5F4E8BA1”.
-Info: Change symbol path “R51:” to “/5E89C6B8/5F7F446A”.
-Info: Change symbol path “R52:” to “/5E89C6B8/5F7FA2B9”.
-Info: Change symbol path “R53:” to “/5E89C6B8/5F7F0C36”.
-Info: Change symbol path “R54:” to “/5E89C6B8/5F7ED945”.
-Info: Change symbol path “R55:” to “/5E89C6B8/5F7E7532”.
-Info: Change symbol path “R56:” to “/5E89C6B8/5F7F2636”.
-Info: Change symbol path “R57:” to “/5E89C6B8/5F7EBE0F”.
-Info: Change symbol path “R58:” to “/5E89C6B8/5F7E993E”.
-Info: Change symbol path “R59:” to “/5EA8B1EB”.
-Info: Change symbol path “R5:” to “/5EE6DF49”.
-Info: Change symbol path “R60:” to “/5E89C6B8/5E9BBB0B”.
-Info: Change symbol path “R61:” to “/5E89C6B8/5F7DF763”.
-Info: Change symbol path “R62:” to “/5E89C6B8/5F7DCC49”.
-Info: Change symbol path “R63:” to “/5E89C6B8/5F7E1CDC”.
-Info: Change symbol path “R64:” to “/5E89C6B8/5F7E4EAE”.
-Info: Change symbol path “R65:” to “/5E89C6B8/5F7FBFEE”.
-Info: Change symbol path “R66:” to “/5E89C6B8/5F79A593”.
-Info: Change symbol path “R67:” to “/5E89C6B8/5F7D65CC”.
-Info: Change symbol path “R68:” to “/5E89C6B8/5F7AA4CB”.
-Info: Change symbol path “R69:” to “/5EA89989”.
-Info: Change symbol path “R6:” to “/5EE74830”.
-Info: Change symbol path “R70:” to “/5E89C6B8/5F7A4F68”.
-Info: Change symbol path “R71:” to “/5E89C6B8/5EA99BE9”.
-Info: Change symbol path “R7:” to “/5EE6575D”.
-Info: Change symbol path “R8:” to “/5EE632F2”.
-Info: Change symbol path “R9:” to “/5EAF2BD4”.
-Info: Change symbol path “SJ1:” to “/5E89C6B8/5EA158D9”.
-Info: Change symbol path “SW1:” to “/5E89C6B8/603BE3EF”.
-Info: Change symbol path “T10:” to “/5E89C6B8/5EBA07D3”.
-Info: Change symbol path “T11:” to “/5E89C6B8/5EBAB0F6”.
-Info: Change symbol path “T12:” to “/5E89C6B8/5EBB039C”.
-Info: Change symbol path “T13:” to “/5E89C6B8/5EBA2D5F”.
-Info: Change symbol path “T1:” to “/5EB8903A”.
-Info: Change symbol path “T2:” to “/5EB8423D”.
-Info: Change symbol path “T3:” to “/5ED662DA”.
-Info: Change symbol path “T4:” to “/5ED1DCB7”.
-Info: Change symbol path “T5:” to “/5E89C6B8/5F15BC4B”.
-Info: Change symbol path “T6:” to “/5E89C6B8/5EB4B38F”.
-Info: Change symbol path “T7:” to “/5E89C6B8/5EBA11BD”.
-Info: Change symbol path “T8:” to “/5E89C6B8/5EB4CC82”.
-Info: Change symbol path “T9:” to “/5E89C6B8/5EB4DE23”.
+Add H1 (footprint “AllModules:Via_12x32”).
+Add H10 (footprint “AllModules:Via_12x32”).
+Add H100 (footprint “AllModules:Via_12x32”).
+Add H101 (footprint “AllModules:Via_12x32”).
+Add H102 (footprint “AllModules:Via_12x32”).
+Add H103 (footprint “AllModules:Via_12x32”).
+Add H104 (footprint “AllModules:Via_12x32”).
+Add H105 (footprint “AllModules:Via_12x32”).
+Add H11 (footprint “AllModules:Via_12x32”).
+Add H12 (footprint “AllModules:Via_12x32”).
+Add H13 (footprint “AllModules:Via_12x32”).
+Add H14 (footprint “AllModules:Via_12x32”).
+Add H15 (footprint “AllModules:Via_12x32”).
+Add H16 (footprint “AllModules:Via_12x32”).
+Add H17 (footprint “AllModules:Via_12x32”).
+Add H18 (footprint “AllModules:Via_12x32”).
+Add H19 (footprint “AllModules:Via_12x32”).
+Add H2 (footprint “AllModules:Via_12x32”).
+Add H20 (footprint “AllModules:Via_12x32”).
+Add H21 (footprint “AllModules:Via_12x32”).
+Add H22 (footprint “AllModules:Via_12x32”).
+Add H23 (footprint “AllModules:Via_12x32”).
+Add H24 (footprint “AllModules:Via_12x32”).
+Add H25 (footprint “AllModules:Via_12x32”).
+Add H26 (footprint “AllModules:Via_12x32”).
+Add H27 (footprint “AllModules:Via_12x32”).
+Add H28 (footprint “AllModules:Via_12x32”).
+Add H29 (footprint “AllModules:Via_12x32”).
+Add H3 (footprint “AllModules:Via_12x32”).
+Add H30 (footprint “AllModules:Via_12x32”).
+Add H31 (footprint “AllModules:Via_12x32”).
+Add H32 (footprint “AllModules:Via_12x32”).
+Add H33 (footprint “AllModules:Via_12x32”).
+Add H34 (footprint “AllModules:Via_12x32”).
+Add H35 (footprint “AllModules:Via_12x32”).
+Add H36 (footprint “AllModules:Via_12x32”).
+Add H37 (footprint “AllModules:Via_12x32”).
+Add H38 (footprint “AllModules:Via_12x32”).
+Add H39 (footprint “AllModules:Via_12x32”).
+Add H4 (footprint “AllModules:Via_12x32”).
+Add H40 (footprint “AllModules:Via_12x32”).
+Add H41 (footprint “AllModules:Via_12x32”).
+Add H42 (footprint “AllModules:Via_12x32”).
+Add H43 (footprint “AllModules:Via_12x32”).
+Add H44 (footprint “AllModules:Via_12x32”).
+Add H45 (footprint “AllModules:Via_12x32”).
+Add H46 (footprint “AllModules:Via_12x32”).
+Add H47 (footprint “AllModules:Via_12x32”).
+Add H48 (footprint “AllModules:Via_12x32”).
+Add H49 (footprint “AllModules:Via_12x32”).
+Add H5 (footprint “AllModules:Via_12x32”).
+Add H50 (footprint “AllModules:Via_12x32”).
+Add H51 (footprint “AllModules:Via_12x32”).
+Add H52 (footprint “AllModules:Via_12x32”).
+Add H53 (footprint “AllModules:Via_12x32”).
+Add H54 (footprint “AllModules:Via_12x32”).
+Add H55 (footprint “AllModules:Via_12x32”).
+Add H56 (footprint “AllModules:Via_12x32”).
+Add H57 (footprint “AllModules:Via_12x32”).
+Add H58 (footprint “AllModules:Via_12x32”).
+Add H59 (footprint “AllModules:Via_12x32”).
+Add H6 (footprint “AllModules:Via_12x32”).
+Add H60 (footprint “AllModules:Via_12x32”).
+Add H61 (footprint “AllModules:Via_12x32”).
+Add H62 (footprint “AllModules:Via_12x32”).
+Add H63 (footprint “AllModules:Via_12x32”).
+Add H64 (footprint “AllModules:Via_12x32”).
+Add H65 (footprint “AllModules:Via_12x32”).
+Add H66 (footprint “AllModules:Via_12x32”).
+Add H67 (footprint “AllModules:Via_12x32”).
+Add H68 (footprint “AllModules:Via_12x32”).
+Add H69 (footprint “AllModules:Via_12x32”).
+Add H7 (footprint “AllModules:Via_12x32”).
+Add H70 (footprint “AllModules:Via_12x32”).
+Add H71 (footprint “AllModules:Via_12x32”).
+Add H72 (footprint “AllModules:Via_12x32”).
+Add H73 (footprint “AllModules:Via_12x32”).
+Add H74 (footprint “AllModules:Via_12x32”).
+Add H75 (footprint “AllModules:Via_12x32”).
+Add H76 (footprint “AllModules:Via_12x32”).
+Add H77 (footprint “AllModules:Via_12x32”).
+Add H78 (footprint “AllModules:Via_12x32”).
+Add H79 (footprint “AllModules:Via_12x32”).
+Add H8 (footprint “AllModules:Via_12x32”).
+Add H80 (footprint “AllModules:Via_12x32”).
+Add H81 (footprint “AllModules:Via_12x32”).
+Add H82 (footprint “AllModules:Via_12x32”).
+Add H83 (footprint “AllModules:Via_12x32”).
+Add H84 (footprint “AllModules:Via_12x32”).
+Add H85 (footprint “AllModules:Via_12x32”).
+Add H86 (footprint “AllModules:Via_12x32”).
+Add H87 (footprint “AllModules:Via_12x32”).
+Add H88 (footprint “AllModules:Via_12x32”).
+Add H89 (footprint “AllModules:Via_12x32”).
+Add H9 (footprint “AllModules:Via_12x32”).
+Add H90 (footprint “AllModules:Via_12x32”).
+Add H91 (footprint “AllModules:Via_12x32”).
+Add H92 (footprint “AllModules:Via_12x32”).
+Add H93 (footprint “AllModules:Via_12x32”).
+Add H94 (footprint “AllModules:Via_12x32”).
+Add H95 (footprint “AllModules:Via_12x32”).
+Add H96 (footprint “AllModules:Via_12x32”).
+Add H97 (footprint “AllModules:Via_12x32”).
+Add H98 (footprint “AllModules:Via_12x32”).
+Add H99 (footprint “AllModules:Via_12x32”).
+Change BAT1 footprint from “BT-4-V150H-4.8V_1” to “AllModules:BT-4-V150H-4.8V_1”.
+Change BUZ1 footprint from “PKM33EPH-1201C_1” to “AllModules:PKM33EPH-1201C_1”.
+Change BUZ2 footprint from “PKM33EPH-1201C_1” to “AllModules:PKM33EPH-1201C_1”.
+Change C1 footprint from “C0612-4_1” to “AllModules:C0612-4_1”.
+Change C10 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C11 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C12 footprint from “AX10X30_1” to “AllModules:AX10X30_1”.
+Change C13 footprint from “C0603_1” to “AllModules:C0603_1b”.
+Change C14 footprint from “C0603_1” to “AllModules:C0603_1b”.
+Change C15 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C16 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C17 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C18 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C19 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C2 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C20 footprint from “C0603_1” to “AllModules:C0603_1b”.
+Change C21 footprint from “C1210_1” to “AllModules:C1210_1”.
+Change C22 footprint from “RC1206_1” to “AllModules:RC1206_1”.
+Change C23 footprint from “C1210_1” to “AllModules:C1210_1”.
+Change C24 footprint from “C0805_1” to “AllModules:C0805_1b”.
+Change C25 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C26 footprint from “RC1206_1” to “AllModules:RC1206_1”.
+Change C27 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C28 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C29 footprint from “RC1206_1” to “AllModules:RC1206_1”.
+Change C3 footprint from “C0805_1” to “AllModules:C0805_1b”.
+Change C30 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C31 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C32 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C33 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C34 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C35 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C4 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C5 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C6 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C7 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C8 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change C9 footprint from “C0402_1” to “AllModules:C0402_1b”.
+Change D1 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D10 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D11 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D12 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D13 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D14 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D15 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D16 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D17 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D2 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D3 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D4 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D5 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D6 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D7 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change D8 footprint from “DO216AA_1” to “AllModules:DO216AA_1”.
+Change D9 footprint from “SOT23-1G_1” to “AllModules:SOT23-1G_1”.
+Change FI1 footprint from “WE-FA_1” to “AllModules:WE-FA_1”.
+Change FU1 footprint from “F6126_1” to “AllModules:F6126_1”.
+Change IC1 footprint from “SOT23-5_1” to “AllModules:SOT23-5_1”.
+Change IC2 footprint from “MX.A8_COMPOSANT_1” to “AllModules:MX.A8_COMPOSANT_1”.
+Change IC3 footprint from “MX.A8_COMPOSANT_1” to “AllModules:MX.A8_COMPOSANT_1”.
+Change IC4 footprint from “SOT23-5_1” to “AllModules:SOT23-5_1”.
+Change IC5 footprint from “MX.A8_COMPOSANT_1” to “AllModules:MX.A8_COMPOSANT_1”.
+Change IC6 footprint from “MX.A8_COMPOSANT_1” to “AllModules:MX.A8_COMPOSANT_1”.
+Change IC7 footprint from “SOT23-6_1” to “AllModules:SOT23-6_1”.
+Change IC8 footprint from “DFN10_1” to “AllModules:DFN10_1”.
+Change IC9 footprint from “SOT23-6_1” to “AllModules:SOT23-6_1”.
+Change J1 footprint from “BAR7-3-2-COVIDIEN_1” to “AllModules:BAR7-3-2-COVIDIEN_1”.
+Change J2 footprint from “MIRECMS-SAFT_1” to “AllModules:MIRECMS-SAFT_1”.
+Change J3 footprint from “MIRECMS-SAFT_1” to “AllModules:MIRECMS-SAFT_1”.
+Change JP1 footprint from “TB-CMS-AIROX_1” to “AllModules:TB-CMS-AIROX_1”.
+Change L1 footprint from “RC1206_1” to “AllModules:RC1206_1”.
+Change L2 footprint from “WETPC-S_1” to “AllModules:WETPC-S_1”.
+Change L3 footprint from “WETPC-S_1” to “AllModules:WETPC-S_1”.
+Change L4 footprint from “WETPC-S_1” to “AllModules:WETPC-S_1”.
+Change LD1 footprint from “D0603_1” to “AllModules:D0603_1”.
+Change R1 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R10 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R11 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R12 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R13 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R14 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R15 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R16 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R17 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R18 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R19 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R2 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R20 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R21 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R22 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R23 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R24 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R25 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R26 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R27 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R28 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R29 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R3 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R30 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R31 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R32 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R33 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R34 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R35 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R36 footprint from “R0805_1” to “AllModules:R0805_1b”.
+Change R37 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R38 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R39 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R4 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R40 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R41 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R42 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R43 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R44 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R45 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R46 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R47 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R48 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R49 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R5 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R50 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R51 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R52 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R53 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R54 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R55 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R56 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R57 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R58 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R59 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R6 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R60 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R61 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R62 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R63 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R64 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R65 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R66 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R67 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R68 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R69 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R7 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R70 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R71 footprint from “R0805_1” to “AllModules:R0805_1b”.
+Change R8 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change R9 footprint from “R0402_1” to “AllModules:R0402_1”.
+Change SJ1 footprint from “TB-CMS-AIROX-2_1” to “AllModules:TB-CMS-AIROX-2_1”.
+Change SW1 footprint from “NK236_1_1” to “AllModules:NK236_1_1”.
+Change T1 footprint from “SOT23-BEC_1” to “AllModules:SOT23-BEC_1”.
+Change T10 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T11 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T12 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T13 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T2 footprint from “SOT23-BEC_1” to “AllModules:SOT23-BEC_1”.
+Change T3 footprint from “SOT23-BEC_1” to “AllModules:SOT23-BEC_1”.
+Change T4 footprint from “SOT23-BEC_1” to “AllModules:SOT23-BEC_1”.
+Change T5 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T6 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T7 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T8 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Change T9 footprint from “SOT23-GSD_1” to “AllModules:SOT23-GSD_1”.
+Disconnect V1 pin .
+Disconnect V10 pin .
+Disconnect V11 pin .
+Disconnect V12 pin .
+Disconnect V13 pin .
+Disconnect V14 pin .
+Disconnect V15 pin .
+Disconnect V16 pin .
+Disconnect V17 pin .
+Disconnect V18 pin .
+Disconnect V19 pin .
+Disconnect V2 pin .
+Disconnect V20 pin .
+Disconnect V21 pin .
+Disconnect V22 pin .
+Disconnect V23 pin .
+Disconnect V24 pin .
+Disconnect V25 pin .
+Disconnect V26 pin .
+Disconnect V27 pin .
+Disconnect V28 pin .
+Disconnect V29 pin .
+Disconnect V3 pin .
+Disconnect V30 pin .
+Disconnect V31 pin .
+Disconnect V32 pin .
+Disconnect V33 pin .
+Disconnect V34 pin .
+Disconnect V35 pin .
+Disconnect V36 pin .
+Disconnect V37 pin .
+Disconnect V38 pin .
+Disconnect V39 pin .
+Disconnect V4 pin .
+Disconnect V40 pin .
+Disconnect V41 pin .
+Disconnect V42 pin .
+Disconnect V43 pin .
+Disconnect V44 pin .
+Disconnect V45 pin .
+Disconnect V46 pin .
+Disconnect V47 pin .
+Disconnect V48 pin .
+Disconnect V49 pin .
+Disconnect V5 pin .
+Disconnect V50 pin .
+Disconnect V51 pin .
+Disconnect V52 pin .
+Disconnect V53 pin .
+Disconnect V54 pin .
+Disconnect V55 pin .
+Disconnect V56 pin .
+Disconnect V57 pin .
+Disconnect V58 pin .
+Disconnect V59 pin .
+Disconnect V6 pin .
+Disconnect V60 pin .
+Disconnect V61 pin .
+Disconnect V62 pin .
+Disconnect V63 pin .
+Disconnect V64 pin .
+Disconnect V65 pin .
+Disconnect V66 pin .
+Disconnect V67 pin .
+Disconnect V68 pin .
+Disconnect V7 pin .
+Disconnect V8 pin .
+Disconnect V9 pin .
+Info: Change symbol path “V10:” to “/5EA82184/5EA9C634”.
+Info: Change symbol path “V11:” to “/5EA82184/5EA9C63D”.
+Info: Change symbol path “V12:” to “/5EA82184/5EA9C659”.
+Info: Change symbol path “V13:” to “/5EA82184/5EA9C658”.
+Info: Change symbol path “V14:” to “/5EA82184/5EA9C657”.
+Info: Change symbol path “V15:” to “/5EA82184/5EA9C656”.
+Info: Change symbol path “V16:” to “/5EA82184/5EA9C655”.
+Info: Change symbol path “V17:” to “/5EA82184/5EA9C652”.
+Info: Change symbol path “V18:” to “/5EA82184/5EA9C647”.
+Info: Change symbol path “V19:” to “/5EA82184/5EA9C650”.
+Info: Change symbol path “V1:” to “/5EA82184/5EA9C633”.
+Info: Change symbol path “V20:” to “/5EA82184/5EA9C64F”.
+Info: Change symbol path “V21:” to “/5EA82184/5EA9C64E”.
+Info: Change symbol path “V22:” to “/5EA82184/5EA9C64D”.
+Info: Change symbol path “V23:” to “/5EA82184/5EA9C64C”.
+Info: Change symbol path “V24:” to “/5EA82184/5EA9C610”.
+Info: Change symbol path “V25:” to “/5EA82184/5EA9C60F”.
+Info: Change symbol path “V26:” to “/5EA82184/5EA9C60E”.
+Info: Change symbol path “V27:” to “/5EA82184/5EA9C60D”.
+Info: Change symbol path “V28:” to “/5EA82184/5EA9C60C”.
+Info: Change symbol path “V29:” to “/5EA82184/5EA9C615”.
+Info: Change symbol path “V2:” to “/5EA82184/5EA9C63C”.
+Info: Change symbol path “V30:” to “/5EA82184/5EA9C632”.
+Info: Change symbol path “V31:” to “/5EA82184/5EA9C631”.
+Info: Change symbol path “V32:” to “/5EA82184/5EA9C630”.
+Info: Change symbol path “V33:” to “/5EA82184/5EA9C62F”.
+Info: Change symbol path “V34:” to “/5EA82184/5EA9C62E”.
+Info: Change symbol path “V35:” to “/5EA82184/5EA9C62D”.
+Info: Change symbol path “V36:” to “/5EA82184/5EA9C62C”.
+Info: Change symbol path “V37:” to “/5EA82184/5EA9C62B”.
+Info: Change symbol path “V38:” to “/5EA82184/5EA9C62A”.
+Info: Change symbol path “V39:” to “/5EA82184/5EA9C61F”.
+Info: Change symbol path “V3:” to “/5EA82184/5EA9C63B”.
+Info: Change symbol path “V40:” to “/5EA82184/5EA9C628”.
+Info: Change symbol path “V41:” to “/5EA82184/5EA9C627”.
+Info: Change symbol path “V42:” to “/5EA82184/5EA9C626”.
+Info: Change symbol path “V43:” to “/5EA82184/5EA9C625”.
+Info: Change symbol path “V44:” to “/5EA82184/5EA9C624”.
+Info: Change symbol path “V45:” to “/5EA82184/5EA9C623”.
+Info: Change symbol path “V46:” to “/5EA82184/5EA9C622”.
+Info: Change symbol path “V47:” to “/5EA82184/5EA9C621”.
+Info: Change symbol path “V48:” to “/5EA82184/5EA9C620”.
+Info: Change symbol path “V49:” to “/5EA82184/5EA9C611”.
+Info: Change symbol path “V4:” to “/5EA82184/5EA9C63A”.
+Info: Change symbol path “V50:” to “/5EA82184/5EA9C612”.
+Info: Change symbol path “V51:” to “/5EA82184/5EA9C613”.
+Info: Change symbol path “V52:” to “/5EA82184/5EA9C614”.
+Info: Change symbol path “V53:” to “/5EA82184/5EA9C60B”.
+Info: Change symbol path “V54:” to “/5EA82184/5EA9C616”.
+Info: Change symbol path “V55:” to “/5EA82184/5EA9C617”.
+Info: Change symbol path “V56:” to “/5EA82184/5EA9C618”.
+Info: Change symbol path “V57:” to “/5EA82184/5EA9C619”.
+Info: Change symbol path “V58:” to “/5EA82184/5EA9C61A”.
+Info: Change symbol path “V59:” to “/5EA82184/5EA9C61B”.
+Info: Change symbol path “V5:” to “/5EA82184/5EA9C639”.
+Info: Change symbol path “V60:” to “/5EA82184/5EA9C61C”.
+Info: Change symbol path “V61:” to “/5EA82184/5EA9C61D”.
+Info: Change symbol path “V62:” to “/5EA82184/5EA9C61E”.
+Info: Change symbol path “V63:” to “/5EA82184/5EA9C629”.
+Info: Change symbol path “V64:” to “/5EA82184/5EA9C648”.
+Info: Change symbol path “V65:” to “/5EA82184/5EA9C649”.
+Info: Change symbol path “V66:” to “/5EA82184/5EA9C64A”.
+Info: Change symbol path “V67:” to “/5EA82184/5EA9C653”.
+Info: Change symbol path “V68:” to “/5EA82184/5EA9C654”.
+Info: Change symbol path “V6:” to “/5EA82184/5EA9C638”.
+Info: Change symbol path “V7:” to “/5EA82184/5EA9C637”.
+Info: Change symbol path “V8:” to “/5EA82184/5EA9C636”.
+Info: Change symbol path “V9:” to “/5EA82184/5EA9C635”.
 Info: Processing component “BAT1:/5E89C6B8/603E4DAA:AllModules:BT-4-V150H-4.8V_1”.
 Info: Processing component “BUZ1:/5F1A6F3E:AllModules:PKM33EPH-1201C_1”.
 Info: Processing component “BUZ2:/5F18A730:AllModules:PKM33EPH-1201C_1”.
@@ -1001,111 +457,111 @@ Info: Processing component “D8:/5E89C6B8/5EDAA652:AllModules:DO216AA_1”.
 Info: Processing component “D9:/5E89C6B8/5F3B7224:AllModules:SOT23-1G_1”.
 Info: Processing component “FI1:/5EB5F4EF:AllModules:WE-FA_1”.
 Info: Processing component “FU1:/5E879854:AllModules:F6126_1”.
-Info: Processing component “H100:/5EB065CF:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H101:/5EB065D5:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H102:/5EB065DB:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H103:/5EB065E1:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H104:/5EB065E7:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H105:/5EB065ED:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H10:/5EA7973E:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H11:/5EA79744:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H12:/5EA7974A:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H13:/5EA79750:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H14:/5EA79756:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H15:/5EA7975C:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H16:/5EA79762:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H17:/5EAC22AB:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H18:/5EAC22B1:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H19:/5EAC22B7:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H1:/5EA3F179:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H20:/5EAC22BD:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H21:/5EAC22C3:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H22:/5EAC22C9:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H23:/5EAC22CF:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H24:/5EAC22D5:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H25:/5EAC22DB:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H26:/5EAC22E1:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H27:/5EAC22E7:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H28:/5EAC22ED:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H29:/5EAC22F3:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H2:/5EA41143:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H30:/5EAC22F9:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H31:/5EAC22FF:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H32:/5EAC2305:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H33:/5EAE2F39:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H34:/5EAE2F3F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H35:/5EAE2F45:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H36:/5EAE2F4B:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H37:/5EAE2F51:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H38:/5EAE2F57:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H39:/5EAE2F5D:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H3:/5EA441E6:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H40:/5EAE2F63:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H41:/5EAE2F69:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H42:/5EAE2F6F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H43:/5EAE2F75:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H44:/5EAE2F7B:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H45:/5EAE2F81:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H46:/5EAE2F87:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H47:/5EAE2F8D:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H48:/5EAE2F93:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H49:/5EAE2F99:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H4:/5EA441F0:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H50:/5EAE2F9F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H51:/5EAE2FA5:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H52:/5EAE2FAB:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H53:/5EAE2FB1:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H54:/5EAE2FB7:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H55:/5EAE2FBD:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H56:/5EAE2FC3:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H57:/5EAE2FC9:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H58:/5EAE2FCF:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H59:/5EAE2FD5:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H5:/5EA60AEA:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H60:/5EAE2FDB:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H61:/5EAE2FE1:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H62:/5EAE2FE7:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H63:/5EAE2FED:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H64:/5EAE2FF3:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H65:/5EB064FD:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H66:/5EB06503:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H67:/5EB06509:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H68:/5EB0650F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H69:/5EB06515:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H6:/5EA60AF0:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H70:/5EB0651B:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H71:/5EB06521:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H72:/5EB06527:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H73:/5EB0652D:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H74:/5EB06533:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H75:/5EB06539:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H76:/5EB0653F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H77:/5EB06545:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H78:/5EB0654B:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H79:/5EB06551:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H7:/5EA60AF6:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H80:/5EB06557:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H81:/5EB0655D:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H82:/5EB06563:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H83:/5EB06569:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H84:/5EB0656F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H85:/5EB06575:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H86:/5EB0657B:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H87:/5EB06581:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H88:/5EB06587:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H89:/5EB0658D:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H8:/5EA60AFC:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H90:/5EB06593:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H91:/5EB06599:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H92:/5EB0659F:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H93:/5EB065A5:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H94:/5EB065AB:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H95:/5EB065B1:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H96:/5EB065B7:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H97:/5EB065BD:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H98:/5EB065C3:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H99:/5EB065C9:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
-Info: Processing component “H9:/5EA79738:AllModules:ThroughHole_60milx12mil_Pad_Cu_Mask”.
+Info: Processing component “H100:/5EA82184/5EA9C643:AllModules:Via_12x32”.
+Info: Processing component “H101:/5EA82184/5EA9C642:AllModules:Via_12x32”.
+Info: Processing component “H102:/5EA82184/5EA9C641:AllModules:Via_12x32”.
+Info: Processing component “H103:/5EA82184/5EA9C640:AllModules:Via_12x32”.
+Info: Processing component “H104:/5EA82184/5EA9C63F:AllModules:Via_12x32”.
+Info: Processing component “H105:/5EA82184/5EA9C63E:AllModules:Via_12x32”.
+Info: Processing component “H10:/5EA82184/5EA9C665:AllModules:Via_12x32”.
+Info: Processing component “H11:/5EA82184/5EB1BA4B:AllModules:Via_12x32”.
+Info: Processing component “H12:/5EA82184/5EA9C666:AllModules:Via_12x32”.
+Info: Processing component “H13:/5EA82184/5EA9C667:AllModules:Via_12x32”.
+Info: Processing component “H14:/5EA82184/5EA9C668:AllModules:Via_12x32”.
+Info: Processing component “H15:/5EA82184/5EA9C669:AllModules:Via_12x32”.
+Info: Processing component “H16:/5EA82184/5EA9C66A:AllModules:Via_12x32”.
+Info: Processing component “H17:/5EA82184/5EA9C66B:AllModules:Via_12x32”.
+Info: Processing component “H18:/5EA82184/5EA9C66C:AllModules:Via_12x32”.
+Info: Processing component “H19:/5EA82184/5EA9C66D:AllModules:Via_12x32”.
+Info: Processing component “H1:/5EA82184/5EA9C65C:AllModules:Via_12x32”.
+Info: Processing component “H20:/5EA82184/5EA9C66E:AllModules:Via_12x32”.
+Info: Processing component “H21:/5EA82184/5EA9C66F:AllModules:Via_12x32”.
+Info: Processing component “H22:/5EA82184/5EA9C65A:AllModules:Via_12x32”.
+Info: Processing component “H23:/5EA82184/5EA9C65B:AllModules:Via_12x32”.
+Info: Processing component “H24:/5EA82184/5EA9C5D1:AllModules:Via_12x32”.
+Info: Processing component “H25:/5EA82184/5EA9C5F9:AllModules:Via_12x32”.
+Info: Processing component “H26:/5EA82184/5EA9C600:AllModules:Via_12x32”.
+Info: Processing component “H27:/5EA82184/5EA9C5F7:AllModules:Via_12x32”.
+Info: Processing component “H28:/5EA82184/5EA9C602:AllModules:Via_12x32”.
+Info: Processing component “H29:/5EA82184/5EA9C603:AllModules:Via_12x32”.
+Info: Processing component “H2:/5EA82184/5EA9C65D:AllModules:Via_12x32”.
+Info: Processing component “H30:/5EA82184/5EA9C604:AllModules:Via_12x32”.
+Info: Processing component “H31:/5EA82184/5EA9C605:AllModules:Via_12x32”.
+Info: Processing component “H32:/5EA82184/5EA9C606:AllModules:Via_12x32”.
+Info: Processing component “H33:/5EA82184/5EA9C5ED:AllModules:Via_12x32”.
+Info: Processing component “H34:/5EA82184/5EA9C5E4:AllModules:Via_12x32”.
+Info: Processing component “H35:/5EA82184/5EA9C5EB:AllModules:Via_12x32”.
+Info: Processing component “H36:/5EA82184/5EA9C5EC:AllModules:Via_12x32”.
+Info: Processing component “H37:/5EA82184/5EA9C5EE:AllModules:Via_12x32”.
+Info: Processing component “H38:/5EA82184/5EA9C5EF:AllModules:Via_12x32”.
+Info: Processing component “H39:/5EA82184/5EA9C5CB:AllModules:Via_12x32”.
+Info: Processing component “H3:/5EA82184/5EA9C65E:AllModules:Via_12x32”.
+Info: Processing component “H40:/5EA82184/5EA9C5F6:AllModules:Via_12x32”.
+Info: Processing component “H41:/5EA82184/5EA9C5F5:AllModules:Via_12x32”.
+Info: Processing component “H42:/5EA82184/5EA9C5F4:AllModules:Via_12x32”.
+Info: Processing component “H43:/5EA82184/5EA9C5F3:AllModules:Via_12x32”.
+Info: Processing component “H44:/5EA82184/5EA9C5F2:AllModules:Via_12x32”.
+Info: Processing component “H45:/5EA82184/5EA9C5F1:AllModules:Via_12x32”.
+Info: Processing component “H46:/5EA82184/5EA9C5F0:AllModules:Via_12x32”.
+Info: Processing component “H47:/5EA82184/5EA9C5E3:AllModules:Via_12x32”.
+Info: Processing component “H48:/5EA82184/5EA9C5EA:AllModules:Via_12x32”.
+Info: Processing component “H49:/5EA82184/5EA9C5E9:AllModules:Via_12x32”.
+Info: Processing component “H4:/5EA82184/5EA9C65F:AllModules:Via_12x32”.
+Info: Processing component “H50:/5EA82184/5EA9C5E8:AllModules:Via_12x32”.
+Info: Processing component “H51:/5EA82184/5EA9C5E7:AllModules:Via_12x32”.
+Info: Processing component “H52:/5EA82184/5EA9C5E6:AllModules:Via_12x32”.
+Info: Processing component “H53:/5EA82184/5EA9C5E5:AllModules:Via_12x32”.
+Info: Processing component “H54:/5EA82184/5EA9C60A:AllModules:Via_12x32”.
+Info: Processing component “H55:/5EA82184/5EA9C609:AllModules:Via_12x32”.
+Info: Processing component “H56:/5EA82184/5EA9C608:AllModules:Via_12x32”.
+Info: Processing component “H57:/5EA82184/5EA9C607:AllModules:Via_12x32”.
+Info: Processing component “H58:/5EA82184/5EA9C5FF:AllModules:Via_12x32”.
+Info: Processing component “H59:/5EA82184/5EA9C5FE:AllModules:Via_12x32”.
+Info: Processing component “H5:/5EA82184/5EA9C660:AllModules:Via_12x32”.
+Info: Processing component “H60:/5EA82184/5EA9C5FD:AllModules:Via_12x32”.
+Info: Processing component “H61:/5EA82184/5EA9C5FC:AllModules:Via_12x32”.
+Info: Processing component “H62:/5EA82184/5EA9C5FB:AllModules:Via_12x32”.
+Info: Processing component “H63:/5EA82184/5EA9C5FA:AllModules:Via_12x32”.
+Info: Processing component “H64:/5EA82184/5EA9C5F8:AllModules:Via_12x32”.
+Info: Processing component “H65:/5EA82184/5EA9C601:AllModules:Via_12x32”.
+Info: Processing component “H66:/5EA82184/5EA9C5C5:AllModules:Via_12x32”.
+Info: Processing component “H67:/5EA82184/5EA9C5C8:AllModules:Via_12x32”.
+Info: Processing component “H68:/5EA82184/5EA9C5C4:AllModules:Via_12x32”.
+Info: Processing component “H69:/5EA82184/5EA9C5C6:AllModules:Via_12x32”.
+Info: Processing component “H6:/5EA82184/5EA9C661:AllModules:Via_12x32”.
+Info: Processing component “H70:/5EA82184/5EA9C5C7:AllModules:Via_12x32”.
+Info: Processing component “H71:/5EA82184/5EA9C5D7:AllModules:Via_12x32”.
+Info: Processing component “H72:/5EA82184/5EA9C5E2:AllModules:Via_12x32”.
+Info: Processing component “H73:/5EA82184/5EA9C5E1:AllModules:Via_12x32”.
+Info: Processing component “H74:/5EA82184/5EA9C5E0:AllModules:Via_12x32”.
+Info: Processing component “H75:/5EA82184/5EA9C5DF:AllModules:Via_12x32”.
+Info: Processing component “H76:/5EA82184/5EA9C5DE:AllModules:Via_12x32”.
+Info: Processing component “H77:/5EA82184/5EA9C5DD:AllModules:Via_12x32”.
+Info: Processing component “H78:/5EA82184/5EA9C5DC:AllModules:Via_12x32”.
+Info: Processing component “H79:/5EA82184/5EA9C5DB:AllModules:Via_12x32”.
+Info: Processing component “H7:/5EA82184/5EA9C662:AllModules:Via_12x32”.
+Info: Processing component “H80:/5EA82184/5EA9C64B:AllModules:Via_12x32”.
+Info: Processing component “H81:/5EA82184/5EA9C5DA:AllModules:Via_12x32”.
+Info: Processing component “H82:/5EA82184/5EA9C5D9:AllModules:Via_12x32”.
+Info: Processing component “H83:/5EA82184/5EA9C5D8:AllModules:Via_12x32”.
+Info: Processing component “H84:/5EA82184/5EA9C5CA:AllModules:Via_12x32”.
+Info: Processing component “H85:/5EA82184/5EA9C5D6:AllModules:Via_12x32”.
+Info: Processing component “H86:/5EA82184/5EA9C5D5:AllModules:Via_12x32”.
+Info: Processing component “H87:/5EA82184/5EA9C5D4:AllModules:Via_12x32”.
+Info: Processing component “H88:/5EA82184/5EA9C5D3:AllModules:Via_12x32”.
+Info: Processing component “H89:/5EA82184/5EA9C5D2:AllModules:Via_12x32”.
+Info: Processing component “H8:/5EA82184/5EA9C663:AllModules:Via_12x32”.
+Info: Processing component “H90:/5EA82184/5EA9C5D0:AllModules:Via_12x32”.
+Info: Processing component “H91:/5EA82184/5EA9C5CF:AllModules:Via_12x32”.
+Info: Processing component “H92:/5EA82184/5EA9C5CE:AllModules:Via_12x32”.
+Info: Processing component “H93:/5EA82184/5EA9C5CD:AllModules:Via_12x32”.
+Info: Processing component “H94:/5EA82184/5EA9C5CC:AllModules:Via_12x32”.
+Info: Processing component “H95:/5EA82184/5EA9C5C9:AllModules:Via_12x32”.
+Info: Processing component “H96:/5EA82184/5EA9C651:AllModules:Via_12x32”.
+Info: Processing component “H97:/5EA82184/5EA9C646:AllModules:Via_12x32”.
+Info: Processing component “H98:/5EA82184/5EA9C645:AllModules:Via_12x32”.
+Info: Processing component “H99:/5EA82184/5EA9C644:AllModules:Via_12x32”.
+Info: Processing component “H9:/5EA82184/5EA9C664:AllModules:Via_12x32”.
 Info: Processing component “IC1:/5ED9EC08:AllModules:SOT23-5_1”.
 Info: Processing component “IC2:/5EA35D87:AllModules:MX.A8_COMPOSANT_1”.
 Info: Processing component “IC3:/5F9FC870:AllModules:MX.A8_COMPOSANT_1”.
@@ -1210,296 +666,74 @@ Info: Processing component “T6:/5E89C6B8/5EB4B38F:AllModules:SOT23-GSD_1”.
 Info: Processing component “T7:/5E89C6B8/5EBA11BD:AllModules:SOT23-GSD_1”.
 Info: Processing component “T8:/5E89C6B8/5EB4CC82:AllModules:SOT23-GSD_1”.
 Info: Processing component “T9:/5E89C6B8/5EB4DE23:AllModules:SOT23-GSD_1”.
-Reconnect BUZ1 pin 1 from N$19 to Net-(BUZ1-Pad1).
-Reconnect BUZ1 pin 2 from N$31 to Net-(BUZ1-Pad2).
-Reconnect BUZ2 pin 1 from N$19 to Net-(BUZ1-Pad1).
-Reconnect BUZ2 pin 2 from N$31 to Net-(BUZ1-Pad2).
-Reconnect C1 pin 5 from PWM-BUZZER-CPU to /PWM-BUZZER-CPU.
-Reconnect C1 pin 6 from STOP-INV-CPU to /STOP-INV-CPU.
-Reconnect C1 pin 7 from TEST-BUZZER-CPU to /TEST-BUZZER-CPU.
-Reconnect C1 pin 8 from INHIB-STOP-INV-CPU to /INHIB-STOP-INV-CPU.
-Reconnect C13 pin 1 from N$26 to Net-(C13-Pad1).
-Reconnect C14 pin 1 from N$25 to Net-(C14-Pad1).
-Reconnect C14 pin 2 from N$28 to Net-(C14-Pad2).
-Reconnect C16 pin 1 from N$58 to Net-(C16-Pad1).
-Reconnect C17 pin 2 from N$33 to Net-(C17-Pad2).
-Reconnect C18 pin 1 from N$57 to Net-(C18-Pad1).
-Reconnect C19 pin 1 from VCHARG to /VCHARG.
-Reconnect C20 pin 1 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect C20 pin 2 from STOP-INV to /STOP-INV.
-Reconnect C21 pin 2 from SHDN1 to /GR106768_buzzer_charger/SHDN1.
-Reconnect C22 pin 1 from N$10 to Net-(C22-Pad1).
-Reconnect C23 pin 2 from SHDN2 to /GR106768_buzzer_charger/SHDN2.
-Reconnect C24 pin 1 from N$47 to Net-(C24-Pad1).
-Reconnect C24 pin 2 from N$46 to Net-(C24-Pad2).
-Reconnect C25 pin 2 from N$50 to Net-(C25-Pad2).
-Reconnect C27 pin 2 from N$48 to Net-(C27-Pad2).
-Reconnect C28 pin 1 from N$51 to Net-(C28-Pad1).
-Reconnect C3 pin 2 from N$11 to Net-(C3-Pad2).
-Reconnect C33 pin 1 from N$10 to Net-(C22-Pad1).
-Reconnect C34 pin 2 from N$9 to Net-(C34-Pad2).
-Reconnect C35 pin 2 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect C4 pin 1 from N$37 to Net-(C4-Pad1).
-Reconnect C5 pin 1 from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect C6 pin 1 from N$35 to Net-(C6-Pad1).
-Reconnect C6 pin 2 from N$39 to Net-(C6-Pad2).
-Reconnect C9 pin 1 from N$21 to Net-(C9-Pad1).
-Reconnect C9 pin 2 from N$4 to Net-(C9-Pad2).
-Reconnect D1 pin A from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect D1 pin K from SUPPLY-BUZ-CPU to /SUPPLY-BUZ-CPU.
-Reconnect D10 pin K from N$10 to Net-(C22-Pad1).
-Reconnect D11 pin A from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect D11 pin K from N$10 to Net-(C22-Pad1).
-Reconnect D12 pin A from N$47 to Net-(C24-Pad1).
-Reconnect D13 pin A from N$42 to Net-(D13-PadA).
-Reconnect D14 pin A from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect D14 pin K from N$10 to Net-(C22-Pad1).
-Reconnect D15 pin 3 from VCHARG to /VCHARG.
-Reconnect D16 pin 2 from INHIB-STOP-INV to /INHIB-STOP-INV.
-Reconnect D16 pin 3 from N$53 to Net-(D16-Pad3).
-Reconnect D17 pin 3 from N$34 to Net-(D17-Pad3).
-Reconnect D2 pin 1 from N$30 to Net-(D2-Pad1).
-Reconnect D2 pin 2 from N$35 to Net-(C6-Pad1).
-Reconnect D2 pin 3 from N$4 to Net-(C9-Pad2).
-Reconnect D3 pin 1 from N$32 to Net-(D3-Pad1).
-Reconnect D3 pin 2 from N$24 to Net-(D3-Pad2).
-Reconnect D3 pin 3 from N$31 to Net-(BUZ1-Pad2).
-Reconnect D4 pin 1 from N$32 to Net-(D3-Pad1).
-Reconnect D4 pin 2 from N$24 to Net-(D3-Pad2).
-Reconnect D4 pin 3 from N$7 to Net-(D4-Pad3).
-Reconnect D5 pin 3 from BUZ-ACT to /BUZ-ACT.
-Reconnect D6 pin 1 from N$52 to Net-(D6-Pad1).
-Reconnect D6 pin 2 from N$49 to Net-(D6-Pad2).
-Reconnect D6 pin 3 from N$36 to Net-(D6-Pad3).
-Reconnect D7 pin 3 from N$58 to Net-(C16-Pad1).
-Reconnect D8 pin A from N$6 to Net-(D8-PadA).
-Reconnect D8 pin K from VCHARG to /VCHARG.
-Reconnect D9 pin 2 from INHIB-STOP-INV to /INHIB-STOP-INV.
-Reconnect D9 pin 3 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect FI1 pin L1A from PWM-BUZ to /PWM-BUZ.
-Reconnect FI1 pin L1B from PWM-BUZZER-CPU to /PWM-BUZZER-CPU.
-Reconnect FI1 pin L2A from STOP-INV to /STOP-INV.
-Reconnect FI1 pin L2B from STOP-INV-CPU to /STOP-INV-CPU.
-Reconnect FI1 pin L3A from TESTBUZ to /TESTBUZ.
-Reconnect FI1 pin L3B from TEST-BUZZER-CPU to /TEST-BUZZER-CPU.
-Reconnect FI1 pin L4A from INHIB-STOP-INV to /INHIB-STOP-INV.
-Reconnect FI1 pin L4B from INHIB-STOP-INV-CPU to /INHIB-STOP-INV-CPU.
-Reconnect FU1 pin 1 from +5V_CPU to /+5V_CPU.
-Reconnect FU1 pin 2 from N$5 to Net-(FU1-Pad2).
-Reconnect IC1 pin 1 from N$30 to Net-(D2-Pad1).
-Reconnect IC1 pin 2 from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect IC1 pin 3 from N$13 to Net-(IC1-Pad3).
-Reconnect IC1 pin 4 from N$11 to Net-(C3-Pad2).
-Reconnect IC2 pin 1 from N$35 to Net-(C6-Pad1).
-Reconnect IC2 pin 2 from N$35 to Net-(C6-Pad1).
-Reconnect IC2 pin 3 from N$37 to Net-(C4-Pad1).
-Reconnect IC2 pin 5 from N$26 to Net-(C13-Pad1).
-Reconnect IC2 pin 6 from N$25 to Net-(C14-Pad1).
-Reconnect IC2 pin 7 from N$28 to Net-(C14-Pad2).
-Reconnect IC3 pin 1 from N$2 to Net-(IC3-Pad1).
-Reconnect IC3 pin 2 from N$3 to Net-(IC3-Pad2).
-Reconnect IC3 pin 3 from N$21 to Net-(C9-Pad1).
-Reconnect IC3 pin 6 from N$12 to Net-(IC3-Pad6).
-Reconnect IC3 pin 7 from N$14 to Net-(IC3-Pad7).
-Reconnect IC4 pin 1 from N$45 to Net-(IC4-Pad1).
-Reconnect IC4 pin 3 from N$27 to Net-(IC4-Pad3).
-Reconnect IC4 pin 4 from TESTBUZ to /TESTBUZ.
-Reconnect IC5 pin 2 from N$1 to Net-(IC5-Pad2).
-Reconnect IC5 pin 3 from N$1 to Net-(IC5-Pad2).
-Reconnect IC5 pin 4 from N$23 to Net-(IC5-Pad4).
-Reconnect IC5 pin 6 from N$1 to Net-(IC5-Pad2).
-Reconnect IC5 pin 7 from N$1 to Net-(IC5-Pad2).
-Reconnect IC6 pin 1 from N$40 to Net-(IC6-Pad1).
-Reconnect IC6 pin 2 from N$78 to Net-(IC6-Pad2).
-Reconnect IC6 pin 3 from N$33 to Net-(C17-Pad2).
-Reconnect IC6 pin 5 from N$54 to Net-(IC6-Pad5).
-Reconnect IC6 pin 6 from N$58 to Net-(C16-Pad1).
-Reconnect IC6 pin 7 from N$36 to Net-(D6-Pad3).
-Reconnect IC6 pin 8 from N$23 to Net-(IC5-Pad4).
-Reconnect IC7 pin 1 from N$56 to Net-(IC7-Pad1).
-Reconnect IC7 pin 3 from N$38 to Net-(IC7-Pad3).
-Reconnect IC7 pin 4 from N$57 to Net-(C18-Pad1).
-Reconnect IC7 pin 5 from N$59 to Net-(IC7-Pad5).
-Reconnect IC7 pin 6 from VCHARG to /VCHARG.
-Reconnect IC8 pin 1 from N$51 to Net-(C28-Pad1).
-Reconnect IC8 pin 10 from N$42 to Net-(D13-PadA).
-Reconnect IC8 pin 2 from N$50 to Net-(C25-Pad2).
-Reconnect IC8 pin 3 from N$50 to Net-(C25-Pad2).
-Reconnect IC8 pin 4 from N$48 to Net-(C27-Pad2).
-Reconnect IC8 pin 6 from N$46 to Net-(C24-Pad2).
-Reconnect IC8 pin 7 from SHDN2 to /GR106768_buzzer_charger/SHDN2.
-Reconnect IC8 pin 8 from N$10 to Net-(C22-Pad1).
-Reconnect IC8 pin 9 from SHDN1 to /GR106768_buzzer_charger/SHDN1.
-Reconnect IC9 pin 1 from N$22 to Net-(IC9-Pad1).
-Reconnect IC9 pin 3 from N$8 to Net-(IC9-Pad3).
-Reconnect IC9 pin 4 from N$9 to Net-(C34-Pad2).
-Reconnect IC9 pin 5 from N$8 to Net-(IC9-Pad3).
-Reconnect IC9 pin 6 from N$10 to Net-(C22-Pad1).
-Reconnect J1 pin 2 from +5V_CPU to /+5V_CPU.
-Reconnect J1 pin 3 from PWM-BUZZER-CPU to /PWM-BUZZER-CPU.
-Reconnect J1 pin 4 from STOP-INV-CPU to /STOP-INV-CPU.
-Reconnect J1 pin 5 from TEST-BUZZER-CPU to /TEST-BUZZER-CPU.
-Reconnect J1 pin 6 from SUPPLY-BUZ-CPU to /SUPPLY-BUZ-CPU.
-Reconnect J1 pin 7 from INHIB-STOP-INV-CPU to /INHIB-STOP-INV-CPU.
-Reconnect JP1 pin 2 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect L1 pin 1 from N$5 to Net-(FU1-Pad2).
-Reconnect L2 pin 1 from N$10 to Net-(C22-Pad1).
-Reconnect L2 pin 2 from N$42 to Net-(D13-PadA).
-Reconnect L3 pin 1 from N$10 to Net-(C22-Pad1).
-Reconnect L3 pin 2 from N$46 to Net-(C24-Pad2).
-Reconnect L4 pin 1 from N$47 to Net-(C24-Pad1).
-Reconnect LD1 pin A from N$55 to Net-(LD1-PadA).
-Reconnect LD1 pin K from N$78 to Net-(IC6-Pad2).
-Reconnect R1 pin 2 from PWM-BUZ to /PWM-BUZ.
-Reconnect R10 pin 2 from N$21 to Net-(C9-Pad1).
-Reconnect R11 pin 1 from N$3 to Net-(IC3-Pad2).
-Reconnect R11 pin 2 from N$2 to Net-(IC3-Pad1).
-Reconnect R12 pin 1 from N$2 to Net-(IC3-Pad1).
-Reconnect R12 pin 2 from N$19 to Net-(BUZ1-Pad1).
-Reconnect R13 pin 1 from N$19 to Net-(BUZ1-Pad1).
-Reconnect R13 pin 2 from N$16 to Net-(R13-Pad2).
-Reconnect R14 pin 1 from N$17 to Net-(R14-Pad1).
-Reconnect R14 pin 2 from N$19 to Net-(BUZ1-Pad1).
-Reconnect R15 pin 1 from N$32 to Net-(D3-Pad1).
-Reconnect R15 pin 2 from N$24 to Net-(D3-Pad2).
-Reconnect R16 pin 1 from N$32 to Net-(D3-Pad1).
-Reconnect R16 pin 2 from N$25 to Net-(C14-Pad1).
-Reconnect R17 pin 1 from N$24 to Net-(D3-Pad2).
-Reconnect R17 pin 2 from N$26 to Net-(C13-Pad1).
-Reconnect R18 pin 2 from N$26 to Net-(C13-Pad1).
-Reconnect R19 pin 1 from N$7 to Net-(D4-Pad3).
-Reconnect R19 pin 2 from N$15 to Net-(R19-Pad2).
-Reconnect R2 pin 1 from N$13 to Net-(IC1-Pad3).
-Reconnect R2 pin 2 from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect R20 pin 1 from N$18 to Net-(R20-Pad1).
-Reconnect R20 pin 2 from N$7 to Net-(D4-Pad3).
-Reconnect R21 pin 1 from N$25 to Net-(C14-Pad1).
-Reconnect R21 pin 2 from N$28 to Net-(C14-Pad2).
-Reconnect R22 pin 1 from N$7 to Net-(D4-Pad3).
-Reconnect R22 pin 2 from N$14 to Net-(IC3-Pad7).
-Reconnect R23 pin 1 from N$28 to Net-(C14-Pad2).
-Reconnect R23 pin 2 from BUZ-ACT to /BUZ-ACT.
-Reconnect R24 pin 1 from N$45 to Net-(IC4-Pad1).
-Reconnect R24 pin 2 from BUZ-ACT to /BUZ-ACT.
-Reconnect R25 pin 1 from N$45 to Net-(IC4-Pad1).
-Reconnect R25 pin 2 from VBAT to /VBAT.
-Reconnect R26 pin 1 from N$14 to Net-(IC3-Pad7).
-Reconnect R26 pin 2 from N$12 to Net-(IC3-Pad6).
-Reconnect R27 pin 1 from N$27 to Net-(IC4-Pad3).
-Reconnect R28 pin 1 from N$12 to Net-(IC3-Pad6).
-Reconnect R28 pin 2 from N$21 to Net-(C9-Pad1).
-Reconnect R29 pin 1 from TESTBUZ to /TESTBUZ.
-Reconnect R29 pin 2 from N$27 to Net-(IC4-Pad3).
-Reconnect R3 pin 2 from N$13 to Net-(IC1-Pad3).
-Reconnect R30 pin 1 from BUZ-ACT to /BUZ-ACT.
-Reconnect R30 pin 2 from N$52 to Net-(D6-Pad1).
-Reconnect R31 pin 1 from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect R31 pin 2 from N$49 to Net-(D6-Pad2).
-Reconnect R32 pin 2 from N$36 to Net-(D6-Pad3).
-Reconnect R33 pin 1 from N$58 to Net-(C16-Pad1).
-Reconnect R34 pin 1 from N$54 to Net-(IC6-Pad5).
-Reconnect R34 pin 2 from N$58 to Net-(C16-Pad1).
-Reconnect R35 pin 2 from N$54 to Net-(IC6-Pad5).
-Reconnect R36 pin 1 from N$6 to Net-(D8-PadA).
-Reconnect R36 pin 2 from N$1 to Net-(IC5-Pad2).
-Reconnect R37 pin 1 from N$6 to Net-(D8-PadA).
-Reconnect R37 pin 2 from N$23 to Net-(IC5-Pad4).
-Reconnect R38 pin 1 from N$40 to Net-(IC6-Pad1).
-Reconnect R38 pin 2 from N$58 to Net-(C16-Pad1).
-Reconnect R39 pin 2 from N$40 to Net-(IC6-Pad1).
-Reconnect R4 pin 1 from N$39 to Net-(C6-Pad2).
-Reconnect R4 pin 2 from PWM-BUZ to /PWM-BUZ.
-Reconnect R40 pin 2 from N$55 to Net-(LD1-PadA).
-Reconnect R41 pin 1 from VCHARG to /VCHARG.
-Reconnect R41 pin 2 from N$33 to Net-(C17-Pad2).
-Reconnect R42 pin 1 from N$33 to Net-(C17-Pad2).
-Reconnect R43 pin 1 from N$57 to Net-(C18-Pad1).
-Reconnect R43 pin 2 from VCHARG to /VCHARG.
-Reconnect R44 pin 2 from N$57 to Net-(C18-Pad1).
-Reconnect R45 pin 1 from N$38 to Net-(IC7-Pad3).
-Reconnect R45 pin 2 from N$59 to Net-(IC7-Pad5).
-Reconnect R46 pin 1 from N$38 to Net-(IC7-Pad3).
-Reconnect R46 pin 2 from N$56 to Net-(IC7-Pad1).
-Reconnect R47 pin 1 from N$56 to Net-(IC7-Pad1).
-Reconnect R47 pin 2 from VCHARG to /VCHARG.
-Reconnect R48 pin 1 from STOP-INV to /STOP-INV.
-Reconnect R48 pin 2 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect R49 pin 2 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect R5 pin 1 from N$37 to Net-(C4-Pad1).
-Reconnect R5 pin 2 from N$39 to Net-(C6-Pad2).
-Reconnect R50 pin 1 from VBAT to /VBAT.
-Reconnect R51 pin 1 from N$41 to Net-(R51-Pad1).
-Reconnect R51 pin 2 from VBAT to /VBAT.
-Reconnect R52 pin 1 from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect R52 pin 2 from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect R53 pin 1 from N$10 to Net-(C22-Pad1).
-Reconnect R53 pin 2 from SHDN2 to /GR106768_buzzer_charger/SHDN2.
-Reconnect R54 pin 1 from N$10 to Net-(C22-Pad1).
-Reconnect R54 pin 2 from SHDN1 to /GR106768_buzzer_charger/SHDN1.
-Reconnect R55 pin 1 from N$50 to Net-(C25-Pad2).
-Reconnect R55 pin 2 from N$48 to Net-(C27-Pad2).
-Reconnect R56 pin 1 from N$48 to Net-(C27-Pad2).
-Reconnect R57 pin 2 from N$51 to Net-(C28-Pad1).
-Reconnect R58 pin 1 from N$51 to Net-(C28-Pad1).
-Reconnect R59 pin 1 from GND to Net-(IC4-Pad1).
-Reconnect R59 pin 2 from N$45 to GND.
-Reconnect R6 pin 1 from N$13 to Net-(IC1-Pad3).
-Reconnect R6 pin 2 from N$30 to Net-(D2-Pad1).
-Reconnect R60 pin 1 from STOP-INV to /STOP-INV.
-Reconnect R61 pin 1 from N$9 to Net-(C34-Pad2).
-Reconnect R61 pin 2 from N$10 to Net-(C22-Pad1).
-Reconnect R62 pin 2 from N$9 to Net-(C34-Pad2).
-Reconnect R63 pin 1 from N$22 to Net-(IC9-Pad1).
-Reconnect R63 pin 2 from SHDN1 to /GR106768_buzzer_charger/SHDN1.
-Reconnect R64 pin 1 from N$22 to Net-(IC9-Pad1).
-Reconnect R64 pin 2 from SHDN2 to /GR106768_buzzer_charger/SHDN2.
-Reconnect R65 pin 2 from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect R66 pin 1 from N$6 to Net-(D8-PadA).
-Reconnect R67 pin 1 from N$43 to Net-(R67-Pad1).
-Reconnect R67 pin 2 from BATTV to +BATTV.
-Reconnect R68 pin 1 from N$44 to Net-(R68-Pad1).
-Reconnect R68 pin 2 from N$43 to Net-(R67-Pad1).
-Reconnect R69 pin 1 from VCHARG to /VCHARG.
-Reconnect R69 pin 2 from N$45 to Net-(IC4-Pad1).
-Reconnect R7 pin 1 from N$11 to Net-(C3-Pad2).
-Reconnect R7 pin 2 from N$30 to Net-(D2-Pad1).
-Reconnect R70 pin 2 from N$53 to Net-(D16-Pad3).
-Reconnect R71 pin 1 from N$34 to Net-(D17-Pad3).
-Reconnect R71 pin 2 from BATTV to +BATTV.
-Reconnect R8 pin 1 from N$4 to Net-(C9-Pad2).
-Reconnect R9 pin 2 from N$3 to Net-(IC3-Pad2).
-Reconnect SJ1 pin 2 from N$20 to Net-(BAT1-Pad-).
-Reconnect SW1 pin 1 from N$20 to Net-(BAT1-Pad-).
-Reconnect T1 pin B from N$2 to Net-(IC3-Pad1).
-Reconnect T1 pin E from N$16 to Net-(R13-Pad2).
-Reconnect T10 pin D from SHDN1 to /GR106768_buzzer_charger/SHDN1.
-Reconnect T10 pin G from N$22 to Net-(IC9-Pad1).
-Reconnect T11 pin D from N$29 to Net-(T11-PadD).
-Reconnect T11 pin G from N$43 to Net-(R67-Pad1).
-Reconnect T11 pin S from BATTV to +BATTV.
-Reconnect T12 pin D from N$29 to Net-(T11-PadD).
-Reconnect T12 pin G from N$43 to Net-(R67-Pad1).
-Reconnect T12 pin S from VCHARG to /VCHARG.
-Reconnect T13 pin D from N$44 to Net-(R68-Pad1).
-Reconnect T13 pin G from N$53 to Net-(D16-Pad3).
-Reconnect T2 pin B from N$2 to Net-(IC3-Pad1).
-Reconnect T2 pin E from N$17 to Net-(R14-Pad1).
-Reconnect T3 pin B from N$14 to Net-(IC3-Pad7).
-Reconnect T3 pin E from N$15 to Net-(R19-Pad2).
-Reconnect T4 pin B from N$14 to Net-(IC3-Pad7).
-Reconnect T4 pin E from N$18 to Net-(R20-Pad1).
-Reconnect T5 pin D from N$23 to Net-(IC5-Pad4).
-Reconnect T5 pin G from N$36 to Net-(D6-Pad3).
-Reconnect T6 pin D from VBAT to /VBAT.
-Reconnect T6 pin G from N$56 to Net-(IC7-Pad1).
-Reconnect T6 pin S from VCHARG to /VCHARG.
-Reconnect T7 pin D from N$41 to Net-(R51-Pad1).
-Reconnect T7 pin G from GT1 to /GR106768_buzzer_charger/GT1.
-Reconnect T8 pin D from SUPPLY-BUZ to /SUPPLY-BUZ.
-Reconnect T8 pin G from N$41 to Net-(R51-Pad1).
-Reconnect T8 pin S from VBAT to /VBAT.
-Reconnect T9 pin D from SHDN2 to /GR106768_buzzer_charger/SHDN2.
-Reconnect T9 pin G from N$22 to Net-(IC9-Pad1).
-Reconnect copper zone from N$42 to Net-(D13-PadA).
-Reconnect copper zone from N$46 to Net-(C24-Pad2).
+Info: Processing component “V10:/5EA82184/5EA9C634:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V11:/5EA82184/5EA9C63D:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V12:/5EA82184/5EA9C659:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V13:/5EA82184/5EA9C658:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V14:/5EA82184/5EA9C657:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V15:/5EA82184/5EA9C656:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V16:/5EA82184/5EA9C655:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V17:/5EA82184/5EA9C652:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V18:/5EA82184/5EA9C647:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V19:/5EA82184/5EA9C650:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V1:/5EA82184/5EA9C633:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V20:/5EA82184/5EA9C64F:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V21:/5EA82184/5EA9C64E:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V22:/5EA82184/5EA9C64D:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V23:/5EA82184/5EA9C64C:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V24:/5EA82184/5EA9C610:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V25:/5EA82184/5EA9C60F:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V26:/5EA82184/5EA9C60E:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V27:/5EA82184/5EA9C60D:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V28:/5EA82184/5EA9C60C:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V29:/5EA82184/5EA9C615:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V2:/5EA82184/5EA9C63C:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V30:/5EA82184/5EA9C632:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V31:/5EA82184/5EA9C631:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V32:/5EA82184/5EA9C630:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V33:/5EA82184/5EA9C62F:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V34:/5EA82184/5EA9C62E:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V35:/5EA82184/5EA9C62D:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V36:/5EA82184/5EA9C62C:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V37:/5EA82184/5EA9C62B:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V38:/5EA82184/5EA9C62A:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V39:/5EA82184/5EA9C61F:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V3:/5EA82184/5EA9C63B:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V40:/5EA82184/5EA9C628:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V41:/5EA82184/5EA9C627:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V42:/5EA82184/5EA9C626:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V43:/5EA82184/5EA9C625:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V44:/5EA82184/5EA9C624:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V45:/5EA82184/5EA9C623:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V46:/5EA82184/5EA9C622:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V47:/5EA82184/5EA9C621:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V48:/5EA82184/5EA9C620:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V49:/5EA82184/5EA9C611:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V4:/5EA82184/5EA9C63A:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V50:/5EA82184/5EA9C612:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V51:/5EA82184/5EA9C613:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V52:/5EA82184/5EA9C614:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V53:/5EA82184/5EA9C60B:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V54:/5EA82184/5EA9C616:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V55:/5EA82184/5EA9C617:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V56:/5EA82184/5EA9C618:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V57:/5EA82184/5EA9C619:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V58:/5EA82184/5EA9C61A:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V59:/5EA82184/5EA9C61B:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V5:/5EA82184/5EA9C639:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V60:/5EA82184/5EA9C61C:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V61:/5EA82184/5EA9C61D:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V62:/5EA82184/5EA9C61E:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V63:/5EA82184/5EA9C629:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V64:/5EA82184/5EA9C648:AllModules:Via_12x32-1._._.4”.
+Info: Processing component “V65:/5EA82184/5EA9C649:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V66:/5EA82184/5EA9C64A:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V67:/5EA82184/5EA9C653:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V68:/5EA82184/5EA9C654:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V6:/5EA82184/5EA9C638:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V7:/5EA82184/5EA9C637:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V8:/5EA82184/5EA9C636:AllModules:Via_12x32-1._.3.4”.
+Info: Processing component “V9:/5EA82184/5EA9C635:AllModules:Via_12x32-1._.3.4”.
 Warning: Copper zone (N$10) has no pads connected.
+Warning: Copper zone (N$42) has no pads connected.
+Warning: Copper zone (N$46) has no pads connected.

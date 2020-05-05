@@ -267,30 +267,30 @@ Change C6 value from C-BC-C0805 to 100nF.
 Change C7 value from C-BC-C0603 to 2.2nF.
 Change C8 value from C-BC-C0603 to 10nF.
 Change C9 value from C-BC-C0805 to 100nF.
-Change D1 value from D-BC-SMB to DiodeZener_30Vr.
-Change D10 value from D-BC-SMA to Diode_200V.
-Change D11 value from D-BC-SOD80 to DiodeZener_15Vr.
-Change D12 value from D-BC-SOD80 to DiodeZener_15Vr.
-Change D13 value from D-BC-SOD80 to DiodeZener_15Vr.
-Change D14 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
-Change D15 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
-Change D16 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
-Change D17 value from D-BC-DPAK-2ANODES to DiodeSchottkyParallelPair.
-Change D18 value from D-BC-SMB to DiodeZener_30Vr.
-Change D19 value from D-BC-SMB to DiodeZener_30Vr.
-Change D2 value from D-BC-SOD323 to DiodeSchottky.
-Change D20 value from D-BC-SMB to DiodeZener_30Vr.
-Change D21 value from D-BC-SMB to DiodeZener_30Vr.
-Change D22 value from D-BC-SMB to DiodeZener_30Vr.
-Change D23 value from D-BC-SMB to DiodeZener_30Vr.
-Change D24 value from D-BC-SOT23 to DiodeSchottkySeriesPair.
-Change D3 value from D-BC-SOD323 to DiodeSchottky.
-Change D4 value from D-BC-SOD323 to DiodeSchottky.
-Change D5 value from D-BC-SOD323 to DiodeSchottky.
-Change D6 value from D-BC-SOD323 to DiodeSchottky.
-Change D7 value from D-BC-SOD323 to DiodeSchottky.
-Change D8 value from D-BC-SMA to Diode_200V.
-Change D9 value from D-BC-SMA to Diode_200V.
+Change D1 value from D-BC-SMB to BZG03C30.
+Change D10 value from D-BC-SMA to ES1D.
+Change D11 value from D-BC-SOD80 to BZV55C15.
+Change D12 value from D-BC-SOD80 to BZV55C15.
+Change D13 value from D-BC-SOD80 to BZV55C15.
+Change D14 value from D-BC-SOT23 to BAT54S.
+Change D15 value from D-BC-SOT23 to BAT54S.
+Change D16 value from D-BC-SOT23 to BAT54S.
+Change D17 value from D-BC-DPAK-2ANODES to STPS15L45CB.
+Change D18 value from D-BC-SMB to BZG03C30.
+Change D19 value from D-BC-SMB to BZG03C30.
+Change D2 value from D-BC-SOD323 to PMEG4005AEA.
+Change D20 value from D-BC-SMB to BZG03C30.
+Change D21 value from D-BC-SMB to BZG03C30.
+Change D22 value from D-BC-SMB to BZG03C30.
+Change D23 value from D-BC-SMB to BZG03C30.
+Change D24 value from D-BC-SOT23 to BAT54S.
+Change D3 value from D-BC-SOD323 to PMEG4005AEA.
+Change D4 value from D-BC-SOD323 to PMEG4005AEA.
+Change D5 value from D-BC-SOD323 to PMEG4005AEA.
+Change D6 value from D-BC-SOD323 to PMEG4005AEA.
+Change D7 value from D-BC-SOD323 to PMEG4005AEA.
+Change D8 value from D-BC-SMA to ES1D.
+Change D9 value from D-BC-SMA to ES1D.
 Change F1 value from FU-BC-154000 to 5A.
 Change FI1 value from FL-10-BNX002-01 to DNP.
 Change FI3 value from SF-BC-S0603 to FerriteBead.
@@ -302,9 +302,9 @@ Change FI8 value from SF-BC-S0603 to FerriteBead.
 Change FI9 value from SF-BC-S0603 to FerriteBead.
 Change IC1 value from L-BC-SO24 to MotorDriver.
 Change IC2 value from L-BC-SO08 to NE555D.
-Change IC3 value from L-BC-SO08 to HighSideDriver.
-Change IC4 value from L-BC-SO08 to HighSideDriver.
-Change IC5 value from L-BC-SO08 to HighSideDriver.
+Change IC3 value from L-BC-SO08 to IR2118S.
+Change IC4 value from L-BC-SO08 to IR2118S.
+Change IC5 value from L-BC-SO08 to IR2118S.
 Change IC6 value from REG-BC-DPAK to LinearRegulator.
 Change J1 value from F-COCMS-MOL43650-0212 to 2pinConnector_Power.
 Change J11 value from F-CO-MOL5566-02 to DNP.
@@ -348,20 +348,20 @@ Change R60 value from R-BC-R1206 to 1k.
 Change R7 value from R-BC-R0603 to 100K.
 Change R8 value from R-BC-R0603 to 4k7.
 Change R9 value from R-BC-R0603 to 680R.
-Change T1 value from Q-SOT23-IRLML2803 to MOSFET_NMOS_30V.
-Change T10 value from Q-SOT23-IRLML2803 to MOSFET_NMOS_30V.
+Change T1 value from Q-SOT23-IRLML2803 to IRLML2803.
+Change T10 value from Q-SOT23-IRLML2803 to IRLML2803.
 Change T2 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
 Change T3 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
 Change T4 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
 Change T5 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
 Change T6 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
 Change T7 value from Q-BC-DPAK-GDS to MOSFET_NMOS_55V.
-Change T8 value from Q-SOT23-IRLML2803 to MOSFET_NMOS_30V.
-Change T9 value from Q-BC-DPAK-GDS to MOSFET_PMOS_60V.
+Change T8 value from Q-SOT23-IRLML2803 to IRLML2803.
+Change T9 value from Q-BC-DPAK-GDS to SUD50P06.
 Change TH1 value from  to ThroughHole.
 Change TH2 value from  to ThroughHole.
-Change TH3 value from  to MountingHole.
-Change TH4 value from  to MountingHole.
+Change TH3 value from  to ThroughHole.
+Change TH4 value from  to ThroughHole.
 Change TH5 value from  to ThroughHole.
 Change TH6 value from  to ThroughHole.
 Change ZC2 value from C-BCP-WX8 to 100uF.
