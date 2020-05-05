@@ -323,6 +323,9 @@ F 1 "to CPU board" H 1825 2925 50  0000 C CNN
 F 2 "AllModules:BAR7-3-2-COVIDIEN_1" H 1800 2500 50  0001 C CNN
 F 3 "~" H 1800 2500 50  0001 C CNN
 F 4 "10099028" H 1800 2500 50  0001 C CNN "Item Number"
+F 5 "CONNECTOR,FEMALE 7-PIN CPU" H 1800 2500 50  0001 C CNN "Description"
+F 6 "J.S.T. CORPORATION" H 1800 2500 50  0001 C CNN "Manufacturer"
+F 7 "ZHR-7" H 1800 2500 50  0001 C CNN "Manufacturer_No"
 	1    1800 2500
 	-1   0    0    1   
 $EndComp
@@ -1505,10 +1508,10 @@ F 0 "J2" H 7150 7700 50  0000 C CNN
 F 1 "MIRECMS" H 7150 7625 50  0000 C CNN
 F 2 "AllModules:MIRECMS-SAFT_1" H 7150 7500 50  0001 C CNN
 F 3 "" H 7150 7500 50  0001 C CNN
-F 4 "CONNECTOR,FEMALE 7-PIN CPU" H 0   0   50  0001 C CNN "Description"
-F 5 "10099028" H 0   0   50  0001 C CNN "Item Number"
-F 6 "J.S.T. CORPORATION" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "ZHR-7" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "" H 0   0   50  0001 C CNN "Description"
+F 5 "" H 0   0   50  0001 C CNN "Item Number"
+F 6 "" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    7150 7500
 	1    0    0    -1  
 $EndComp
