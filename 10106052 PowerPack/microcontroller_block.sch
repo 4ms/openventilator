@@ -855,8 +855,6 @@ Text HLabel 8850 3550 0    50   Input ~ 0
 V_DC_CHARGER
 Text HLabel 8850 3350 0    50   Output ~ 0
 BP
-Text HLabel 2250 2500 0    50   Input ~ 0
-TEMP_MEAS
 Text HLabel 2250 2600 0    50   Input ~ 0
 V_CH
 Text HLabel 2250 2700 0    50   Output ~ 0
@@ -1088,8 +1086,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 4350 5400 4350
 Wire Wire Line
-	2600 2500 2250 2500
-Wire Wire Line
 	2600 2600 2250 2600
 Wire Wire Line
 	2600 2700 2250 2700
@@ -1244,46 +1240,50 @@ Wire Wire Line
 Connection ~ 10550 3450
 Wire Wire Line
 	10550 3450 10600 3450
-$Comp
-L V_Connector:TestPoint TX1
-U 1 1 5ED5F142
-P 1625 2150
-F 0 "TX1" H 1575 2350 50  0000 L CNN
-F 1 "TestPoint" H 1683 2177 50  0001 L CNN
-F 2 "AllModules:TP-40R-NSA" H 1825 2150 50  0001 C CNN
-F 3 "" H 1825 2150 50  0001 C CNN
-F 4 "TEST POINT" H 0   0   50  0001 C CNN "Description"
-F 5 "10022924" H 0   0   50  0001 C CNN "Item Number"
-F 6 "NICOMATIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "KEYSTONE ELECTRONICS CORP" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "C12000B" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 9 "5015" H 0   0   50  0001 C CNN "Manufacturer_No2"
-	1    1625 2150
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	2600 2500 2250 2500
+Wire Wire Line
+	1725 2900 2600 2900
+Wire Wire Line
+	1575 2800 2600 2800
+Wire Wire Line
+	1725 2150 1725 2900
+Wire Wire Line
+	1575 2150 1575 2800
 $Comp
 L V_Connector:TestPoint RX1
 U 1 1 5ED5FB52
-P 1775 2150
-F 0 "RX1" H 1725 2350 50  0000 L CNN
-F 1 "TestPoint" H 1833 2177 50  0001 L CNN
-F 2 "AllModules:TP-40R-NSA" H 1975 2150 50  0001 C CNN
-F 3 "" H 1975 2150 50  0001 C CNN
-F 4 "TEST POINT" H 0   0   50  0001 C CNN "Description"
-F 5 "10022924" H 0   0   50  0001 C CNN "Item Number"
-F 6 "NICOMATIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "KEYSTONE ELECTRONICS CORP" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "C12000B" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 9 "5015" H 0   0   50  0001 C CNN "Manufacturer_No2"
-	1    1775 2150
+P 1725 2150
+F 0 "RX1" H 1675 2350 50  0000 L CNN
+F 1 "TestPoint" H 1783 2177 50  0001 L CNN
+F 2 "AllModules:TP-40R-NSA" H 1925 2150 50  0001 C CNN
+F 3 "" H 1925 2150 50  0001 C CNN
+F 4 "TEST POINT" H -50 0   50  0001 C CNN "Description"
+F 5 "10022924" H -50 0   50  0001 C CNN "Item Number"
+F 6 "NICOMATIC_RMS1" H -50 0   50  0001 C CNN "Manufacturer"
+F 7 "KEYSTONE ELECTRONICS CORP" H -50 0   50  0001 C CNN "Manufacturer2"
+F 8 "C12000B" H -50 0   50  0001 C CNN "Manufacturer_No"
+F 9 "5015" H -50 0   50  0001 C CNN "Manufacturer_No2"
+	1    1725 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1625 2150 1625 2800
-Wire Wire Line
-	1775 2150 1775 2900
-Wire Wire Line
-	1625 2800 2600 2800
-Wire Wire Line
-	1775 2900 2600 2900
+$Comp
+L V_Connector:TestPoint TX1
+U 1 1 5ED5F142
+P 1575 2150
+F 0 "TX1" H 1525 2350 50  0000 L CNN
+F 1 "TestPoint" H 1633 2177 50  0001 L CNN
+F 2 "AllModules:TP-40R-NSA" H 1775 2150 50  0001 C CNN
+F 3 "" H 1775 2150 50  0001 C CNN
+F 4 "TEST POINT" H -50 0   50  0001 C CNN "Description"
+F 5 "10022924" H -50 0   50  0001 C CNN "Item Number"
+F 6 "NICOMATIC_RMS1" H -50 0   50  0001 C CNN "Manufacturer"
+F 7 "KEYSTONE ELECTRONICS CORP" H -50 0   50  0001 C CNN "Manufacturer2"
+F 8 "C12000B" H -50 0   50  0001 C CNN "Manufacturer_No"
+F 9 "5015" H -50 0   50  0001 C CNN "Manufacturer_No2"
+	1    1575 2150
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 2500 0    50   Input ~ 0
+TEMP_MEAS
 $EndSCHEMATC
