@@ -2476,18 +2476,20 @@ $Comp
 L V_Diode:BAT54S D9
 U 1 1 5F3B7224
 P 8600 5800
-F 0 "D9" H 8450 5650 50  0000 L CNN
-F 1 "BAT54S" H 8350 5925 50  0000 L CNN
+AR Path="/5F3B7224" Ref="D9"  Part="1" 
+AR Path="/5E89C6B8/5F3B7224" Ref="D9"  Part="1" 
+F 0 "D9" H 8550 5700 50  0000 L CNN
+F 1 "BAT54S" H 8400 5600 50  0000 L CNN
 F 2 "AllModules:SOT23-1G_1" H 8675 5925 50  0001 L CNN
-F 3 "" H 8480 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 8480 5800 50  0001 C CNN
 F 4 "10022518" H 8600 6000 50  0001 C CNN "Item Number"
 F 5 "DIODE SCHOTTKY, 200MA,30V,SOD23DIO" H 0   0   50  0001 C CNN "Description"
 F 6 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "BAT54S,215" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "BAT54S,215" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 9 "BAT54S" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    8600 5800
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text Label 8750 5000 0    50   ~ 0
 GT1

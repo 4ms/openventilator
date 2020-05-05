@@ -2787,26 +2787,26 @@ L V_Diode:BAT54S D4
 U 1 1 5EBC356D
 P 12000 2500
 F 0 "D4" V 12125 2300 50  0000 L CNN
-F 1 "BAT54S" H 11750 2625 50  0000 L CNN
+F 1 "BAT54S" V 11875 2575 50  0000 L CNN
 F 2 "AllModules:SOT23-1G_1" H 12075 2625 50  0001 L CNN
-F 3 "" H 11880 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 11880 2500 50  0001 C CNN
 F 4 "10022518" H 12000 2700 50  0001 C CNN "Item Number"
 F 5 "DIODE SCHOTTKY, 200MA,30V,SOD23DIO" H 0   0   50  0001 C CNN "Description"
 F 6 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "BAT54S,215" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 7 "BAT54S,215" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 8 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 9 "BAT54S" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    12000 2500
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L V_Diode:BAT54S D3
 U 1 1 5EBCBDC4
 P 11000 2500
 F 0 "D3" V 11125 2300 50  0000 L CNN
-F 1 "BAT54S" H 10750 2625 50  0000 L CNN
+F 1 "BAT54S" V 10875 2575 50  0000 L CNN
 F 2 "AllModules:SOT23-1G_1" H 11075 2625 50  0001 L CNN
-F 3 "" H 10880 2500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" H 10880 2500 50  0001 C CNN
 F 4 "10022518" H 11000 2700 50  0001 C CNN "Item Number"
 F 5 "DIODE SCHOTTKY, 200MA,30V,SOD23DIO" H 0   0   50  0001 C CNN "Description"
 F 6 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
@@ -2814,7 +2814,7 @@ F 7 "NXP SEMICONDUCTORS_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 8 "BAT54S,215" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 9 "BAT54S" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    11000 2500
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L V_Inductor:BK3216xxxxx FI1
