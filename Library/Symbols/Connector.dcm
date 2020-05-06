@@ -14,4 +14,8 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Via
+D Symbol for script-generated vias with Pad and Net (compared to Via Symbol with no pad)
+$ENDCMP
+#
 #End Doc Library
