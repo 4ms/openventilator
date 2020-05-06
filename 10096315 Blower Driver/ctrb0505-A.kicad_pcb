@@ -633,7 +633,7 @@
       (net 22 N47))
     (pad S thru_hole circle (at 2.54 17.78) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 70 ISENS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO-220-HFLIP.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
       (offset (xyz 0 17.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -687,7 +687,7 @@
       (net 13 N63))
     (pad S thru_hole circle (at 2.54 17.78 180) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 27 N38))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO-220-HFLIP.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
       (offset (xyz 0 17.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -741,7 +741,7 @@
       (net 19 N50))
     (pad S thru_hole circle (at 2.54 17.78) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 70 ISENS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO-220-HFLIP.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
       (offset (xyz 0 17.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -795,7 +795,7 @@
       (net 11 N65))
     (pad S thru_hole circle (at 2.54 17.78 180) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 25 N43))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO-220-HFLIP.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
       (offset (xyz 0 17.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -849,7 +849,7 @@
       (net 23 N46))
     (pad S thru_hole circle (at 2.54 17.78) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 70 ISENS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO-220-HFLIP.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
       (offset (xyz 0 17.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -903,7 +903,7 @@
       (net 7 N70))
     (pad S thru_hole circle (at 2.54 17.78 180) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 62 N7))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO-220-HFLIP.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO-220-HFLIP.stp"
       (offset (xyz 0 17.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1170,7 +1170,7 @@
       (net 39 N10))
     (pad S smd rect (at -2.286 4.8768) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 68 N1))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1273,7 +1273,7 @@
       (net 22 N47))
     (pad S smd rect (at -2.286 4.8768) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 70 ISENS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1324,7 +1324,7 @@
       (net 13 N63))
     (pad S smd rect (at -2.286 4.8768 180) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 27 N38))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1375,7 +1375,7 @@
       (net 19 N50))
     (pad S smd rect (at -2.286 4.8768) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 70 ISENS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1426,7 +1426,7 @@
       (net 11 N65))
     (pad S smd rect (at -2.286 4.8768 180) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 25 N43))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1477,7 +1477,7 @@
       (net 23 N46))
     (pad S smd rect (at -2.286 4.8768) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 70 ISENS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1528,7 +1528,7 @@
       (net 7 N70))
     (pad S smd rect (at -2.286 4.8768 180) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 62 N7))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2707,7 +2707,7 @@
     (pad 8 thru_hole circle (at 17.78 0 270) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask))
     (pad 9 thru_hole circle (at 20.32 0 270) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask)
       (net 59 OE))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/22-05-7098-recenter.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/22-05-7098-recenter.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2759,7 +2759,7 @@
       (net 67 N2))
     (pad 2 thru_hole circle (at 0 -5.4864 270) (size 2.286 2.286) (drill 1.4224) (layers *.Cu *.Mask)
       (net 63 N6))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/039281023-recenter.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/039281023-recenter.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2848,7 +2848,7 @@
       (net 43 SENSOR2))
     (pad 8 thru_hole circle (at 17.78 0 90) (size 1.905 1.905) (drill 1.2192) (layers *.Cu *.Mask)
       (net 42 SENSOR3))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/22-05-7088-recenter.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/22-05-7088-recenter.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2958,7 +2958,7 @@
       (net 57 TEMPMEASURE-))
     (pad 10 thru_hole circle (at 10.16 -2.54 180) (size 1.5748 1.5748) (drill 0.9144) (layers *.Cu *.Mask)
       (net 58 TEMPMEASURE+))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/7810-0000xxSE-recenter.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/7810-0000xxSE-recenter.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3024,7 +3024,7 @@
       (net 63 N6))
     (pad 3 smd rect (at -4.9276 5.1562 270) (size 1.6764 4.2926) (layers F.Cu F.Paste F.Mask))
     (pad 4 smd rect (at 4.9276 5.1562 270) (size 1.6764 4.2926) (layers F.Cu F.Paste F.Mask))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/MOLEX_43650-0213.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/MOLEX_43650-0213.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3075,7 +3075,7 @@
       (net 55 GND))
     (pad 3 smd rect (at -2.286 4.8768) (size 1.5748 3.175) (layers B.Cu B.Paste B.Mask)
       (net 52 +15V))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P972X240-3N-R540X510.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P972X240-3N-R540X510.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3664,7 +3664,7 @@
       (net 56 GND-PUIS))
     (pad PSG thru_hole circle (at -2.4892 -2.4892) (size 2.2352 2.2352) (drill 1.2192) (layers *.Cu *.Mask)
       (net 67 N2))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/BNX002.step"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/BNX002.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4119,7 +4119,7 @@
       (net 60 N9))
     (pad K smd rect (at 0 -1.778 180) (size 6.7056 6.7056) (layers B.Cu B.Paste B.Mask)
       (net 26 +24V))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/TO228P991X239-3N-R552X520.stp"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/TO228P991X239-3N-R552X520.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4894,7 +4894,7 @@
       (net 26 +24V))
     (pad - thru_hole circle (at 30.48 0) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask)
       (net 56 GND-PUIS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/CP_Axial_L27.0mm_D13.0mm_P30.48mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/CP_Axial_L27.0mm_D13.0mm_P30.48mm_Horizontal.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4928,7 +4928,7 @@
       (net 26 +24V))
     (pad - thru_hole circle (at 30.48 0) (size 1.4732 1.4732) (drill 0.8128) (layers *.Cu *.Mask)
       (net 56 GND-PUIS))
-    (model "${KIPRJMOD}/../Library/Footprints.pretty/CP_Axial_L27.0mm_D13.0mm_P30.48mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/../Library/Footprints.3dshapes/CP_Axial_L27.0mm_D13.0mm_P30.48mm_Horizontal.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
