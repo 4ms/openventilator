@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev "1"
@@ -3139,7 +3139,7 @@ U 1 1 5EBA598C
 P 4000 6550
 F 0 "ZM4" H 4100 6599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4100 6508 50  0000 L CNN
-F 2 "save10096315 Blower Driver:FIX35M" H 4000 6550 50  0001 C CNN
+F 2 "AllModules:FIX35M" H 4000 6550 50  0001 C CNN
 F 3 "~" H 4000 6550 50  0001 C CNN
 	1    4000 6550
 	1    0    0    -1  
@@ -3150,7 +3150,7 @@ U 1 1 5EBA68DE
 P 5000 6550
 F 0 "ZM3" H 5100 6599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5100 6508 50  0000 L CNN
-F 2 "save10096315 Blower Driver:FIX35M" H 5000 6550 50  0001 C CNN
+F 2 "AllModules:FIX35M" H 5000 6550 50  0001 C CNN
 F 3 "~" H 5000 6550 50  0001 C CNN
 	1    5000 6550
 	1    0    0    -1  
@@ -3161,7 +3161,7 @@ U 1 1 5EBA76DD
 P 4000 7050
 F 0 "ZM1" H 4100 7099 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4100 7008 50  0000 L CNN
-F 2 "save10096315 Blower Driver:FIX35M" H 4000 7050 50  0001 C CNN
+F 2 "AllModules:FIX35M" H 4000 7050 50  0001 C CNN
 F 3 "~" H 4000 7050 50  0001 C CNN
 	1    4000 7050
 	1    0    0    -1  
@@ -3172,7 +3172,7 @@ U 1 1 5EBA76E3
 P 5000 7050
 F 0 "ZM2" H 5100 7099 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5100 7008 50  0000 L CNN
-F 2 "save10096315 Blower Driver:FIX35M" H 5000 7050 50  0001 C CNN
+F 2 "AllModules:FIX35M" H 5000 7050 50  0001 C CNN
 F 3 "~" H 5000 7050 50  0001 C CNN
 	1    5000 7050
 	1    0    0    -1  
@@ -3455,78 +3455,6 @@ F 5 "NICHICON_RMS1" H 8800 2400 50  0001 C CNN "Manufacturer"
 F 6 "URZ1H101MPD" H 8800 2400 50  0001 C CNN "Manufacturer_No"
 F 7 "CAPACITOR,100UF,+/-20%,50V" H 8800 2400 50  0001 C CNN "Description"
 	1    8800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L V_Mechanical:MountingHole TH1
-U 1 1 5E9B8648
-P 1000 6500
-F 0 "TH1" H 1100 6546 50  0000 L CNN
-F 1 "ThroughHole" H 1100 6455 50  0000 L CNN
-F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 1000 6500 50  0001 C CNN
-F 3 "~" H 1000 6500 50  0001 C CNN
-F 4 "" H 1000 6500 50  0001 C CNN "Manufacturer"
-	1    1000 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L V_Mechanical:MountingHole TH2
-U 1 1 5E9C0F88
-P 1000 7000
-F 0 "TH2" H 1100 7046 50  0000 L CNN
-F 1 "ThroughHole" H 1100 6955 50  0000 L CNN
-F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 1000 7000 50  0001 C CNN
-F 3 "~" H 1000 7000 50  0001 C CNN
-F 4 "" H 1000 7000 50  0001 C CNN "Manufacturer"
-	1    1000 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L V_Mechanical:MountingHole TH3
-U 1 1 5EA021CD
-P 2000 6500
-F 0 "TH3" H 2100 6546 50  0000 L CNN
-F 1 "ThroughHole" H 2100 6455 50  0000 L CNN
-F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 2000 6500 50  0001 C CNN
-F 3 "~" H 2000 6500 50  0001 C CNN
-F 4 "" H 2000 6500 50  0001 C CNN "Manufacturer"
-	1    2000 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L V_Mechanical:MountingHole TH4
-U 1 1 5EA021D7
-P 2000 7000
-F 0 "TH4" H 2100 7046 50  0000 L CNN
-F 1 "ThroughHole" H 2100 6955 50  0000 L CNN
-F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 2000 7000 50  0001 C CNN
-F 3 "~" H 2000 7000 50  0001 C CNN
-F 4 "" H 2000 7000 50  0001 C CNN "Manufacturer"
-	1    2000 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L V_Mechanical:MountingHole TH5
-U 1 1 5EAC8D45
-P 3000 6500
-F 0 "TH5" H 3100 6546 50  0000 L CNN
-F 1 "ThroughHole" H 3100 6455 50  0000 L CNN
-F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 3000 6500 50  0001 C CNN
-F 3 "~" H 3000 6500 50  0001 C CNN
-F 4 "" H 3000 6500 50  0001 C CNN "Manufacturer"
-	1    3000 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L V_Mechanical:MountingHole TH6
-U 1 1 5EAC8D4F
-P 3000 7000
-F 0 "TH6" H 3100 7046 50  0000 L CNN
-F 1 "ThroughHole" H 3100 6955 50  0000 L CNN
-F 2 "AllModules:ThroughHole_36milx12mil_Pad_Cu_Mask" H 3000 7000 50  0001 C CNN
-F 3 "~" H 3000 7000 50  0001 C CNN
-F 4 "" H 3000 7000 50  0001 C CNN "Manufacturer"
-	1    3000 7000
 	1    0    0    -1  
 $EndComp
 Connection ~ 8800 2550
@@ -4175,4 +4103,10 @@ Text Label 9525 2850 0    50   ~ 0
 GND
 Text Label 5225 2150 0    50   ~ 0
 N9
+$Sheet
+S 14100 14350 1825 975 
+U 5EBEB280
+F0 "GND_Vias" 50
+F1 "ctrb0505-B.sch" 50
+$EndSheet
 $EndSCHEMATC
