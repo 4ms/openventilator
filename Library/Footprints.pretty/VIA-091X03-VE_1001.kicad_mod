@@ -1,0 +1,10 @@
+(module VIA-091X03-VE_1001 locked (layer F.Cu) (tedit 5EB49CEB)
+  (fp_text reference V3 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VIA-091X03-VE_1001 (at 0 2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad ~ thru_hole circle (at 0 0) (size 0.9144 0.9144) (drill 0.3048) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1016) (zone_connect 2))
+)
