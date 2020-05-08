@@ -1,4 +1,4 @@
-(module FEE_COMP_0.3 placed (layer F.Cu) (tedit 5EB49CF3)
+(module FEE_COMP_0.3 placed (layer F.Cu) (tedit 5EB57CE7)
   (fp_text reference cam14 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,8 +1,8 @@
-(module FIX35M_1101 locked placed (layer F.Cu) (tedit 5EB49CEB)
+(module FIX35M_1101 locked placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference ZM1 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FIX-0035M (at 0 2) (layer F.Fab) hide
+  (fp_text value MountingHole_Pad (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 0 0) (end 3.175 0) (angle 360) (layer B.Fab) (width 0.02))

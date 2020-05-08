@@ -1,4 +1,4 @@
-(module COIN_EXTERNE locked placed (layer F.Cu) (tedit 5EB49CEB)
+(module COIN_EXTERNE locked placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference cam1 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

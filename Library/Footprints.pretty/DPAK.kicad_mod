@@ -1,8 +1,8 @@
-(module DPAK placed (layer F.Cu) (tedit 5EB49CEB)
+(module DPAK placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference IC6 (at -1.27 0.9525 180) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value REG-BC-DPAK (at 0 2) (layer F.Fab) hide
+  (fp_text value LinearRegulator (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -3.2 6.6) (xy -3.2 2.4) (xy -3.8 2.4) (xy -3.8 -5.2)

@@ -1,8 +1,8 @@
-(module MOL5566-2_10111011 placed (layer F.Cu) (tedit 5EB49CEB)
+(module MOL5566-2_10111011 placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference J11 (at -2.85012 -1.7984 -90) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value F-CO-MOL5566-02 (at 0 2) (layer F.Fab) hide
+  (fp_text value DNP (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 0 -5.5) (end 1.143 -5.5) (angle 360) (layer B.Fab) (width 0.02))

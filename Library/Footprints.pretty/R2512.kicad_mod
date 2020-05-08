@@ -1,8 +1,8 @@
-(module R2512 placed (layer F.Cu) (tedit 5EB49CEC)
+(module R2512 placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference R1 (at -0.635 0.635) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value R-BC-R2512 (at 0 2) (layer F.Fab) hide
+  (fp_text value 0R047 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 4.28625 1.905) (xy -4.28625 1.905) (xy -4.28625 -1.905) (xy 4.28625 -1.905)

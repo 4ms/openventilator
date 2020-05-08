@@ -1,8 +1,8 @@
-(module 03515_10111101 placed (layer F.Cu) (tedit 5EB49CEB)
+(module 03515_10111101 placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference C2 (at -0.9525 0.635) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value C-BTP-803 (at 0 2) (layer F.Fab) hide
+  (fp_text value 100uF (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 0 0) (end 5.08 0) (angle 360) (layer F.Fab) (width 0.18))
