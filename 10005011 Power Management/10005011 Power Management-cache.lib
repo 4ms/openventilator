@@ -1237,6 +1237,30 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# V_Connector_TestPoint_2
+#
+DEF V_Connector_TestPoint_2 TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "V_Connector_TestPoint_2" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "10022924" 400 50 50 H I L CNN "Item Number"
+F5 "TEST POINT" 400 -10 50 H I L CNN "Description"
+F6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
+F7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
+F9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+X 2 2 0 0 100 U 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
 # V_Connector_TestPoint_Alt
 #
 DEF V_Connector_TestPoint_Alt TP 0 30 N N 1 F N
