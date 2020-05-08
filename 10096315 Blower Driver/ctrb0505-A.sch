@@ -4174,7 +4174,7 @@ Text GLabel 18325 13375 2    50   Input ~ 0
 TEMPMEASURE-
 Text GLabel 18325 13275 2    50   Input ~ 0
 TEMPMEASURE+
-Text GLabel 18325 13725 2    50   Input ~ 0
+Text GLabel 19475 13725 2    50   Input ~ 0
 OE
 Text GLabel 17225 13250 2    50   Input ~ 0
 N10
@@ -4195,10 +4195,10 @@ V-REF-M
 Text Label 17675 13600 0    50   ~ 0
 SPEED-SETPOINT
 Wire Wire Line
-	18325 13725 17675 13725
+	19475 13725 19275 13725
 Wire Wire Line
 	17225 13250 16975 13250
-Text Label 17675 13725 0    50   ~ 0
+Text Label 19275 13725 0    50   ~ 0
 OE
 Text Label 16975 13250 0    50   ~ 0
 N10
@@ -4289,4 +4289,10 @@ Text Label 9950 12250 0    50   ~ 0
 N56
 Text Label 10950 12900 0    50   ~ 0
 PGND
+Text GLabel 19475 14125 2    50   Input ~ 0
+GND-PUIS
+Wire Wire Line
+	19475 14125 19075 14125
+Text Label 19075 14125 0    50   ~ 0
+GND-PUIS
 $EndSCHEMATC
