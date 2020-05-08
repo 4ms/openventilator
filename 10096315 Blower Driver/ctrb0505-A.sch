@@ -4109,4 +4109,16 @@ U 5EBEB280
 F0 "GND_Vias" 50
 F1 "ctrb0505-B.sch" 50
 $EndSheet
+Text Label 3550 11550 0    50   ~ 0
+TEMPMEASURE+
+Text Label 3550 11900 0    50   ~ 0
+TEMPMEASURE-
+Text Label 2650 12650 0    50   ~ 0
+SPEED-SETPOINT
+Text Label 2650 13000 0    50   ~ 0
+BRAKE
+Text Label 2650 13350 0    50   ~ 0
+FAULT
+Text Label 2675 12300 0    50   ~ 0
+SPEED-MEASURE
 $EndSCHEMATC
