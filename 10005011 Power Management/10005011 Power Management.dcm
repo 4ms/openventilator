@@ -250,6 +250,12 @@ K single comparator
 F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 $CMP USB_A_4shield
 D USB Type A connector
 K connector USB
