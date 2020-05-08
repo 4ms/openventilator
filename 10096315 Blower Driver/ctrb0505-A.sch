@@ -4089,23 +4089,23 @@ TEMPMEASURE-
 Text Label 2650 12650 0    50   ~ 0
 SPEED-SETPOINT
 Text Label 2650 13000 0    50   ~ 0
-BRAKE
+~BRAKE~
 Text Label 2650 13350 0    50   ~ 0
-FAULT
+~FAULT~
 Text Label 2675 12300 0    50   ~ 0
 SPEED-MEASURE
 Text Label 19175 13300 0    50   ~ 0
-FAULT
+~FAULT~
 Wire Wire Line
 	19175 13300 19475 13300
 Text GLabel 19475 13300 2    50   Input ~ 0
-FAULT
+~FAULT~
 Text Label 19175 13425 0    50   ~ 0
-BRAKE
+~BRAKE~
 Wire Wire Line
 	19175 13425 19475 13425
 Text GLabel 19475 13425 2    50   Input ~ 0
-BRAKE
+~BRAKE~
 Text Label 19175 13575 0    50   ~ 0
 ISENS
 Wire Wire Line
@@ -4287,4 +4287,6 @@ Text Label 6500 12450 0    50   ~ 0
 N14
 Text Label 9950 12250 0    50   ~ 0
 N56
+Text Label 10950 12900 0    50   ~ 0
+PGND
 $EndSCHEMATC

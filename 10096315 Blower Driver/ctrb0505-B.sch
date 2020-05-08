@@ -1389,7 +1389,7 @@ N14
 Wire Wire Line
 	8175 1325 8450 1325
 Text Label 8750 1325 2    50   ~ 0
-FAULT
+~FAULT~
 Wire Wire Line
 	9650 1025 10475 1025
 Text Label 10475 1025 2    50   ~ 0
@@ -1415,7 +1415,7 @@ Wire Wire Line
 Wire Wire Line
 	8225 900  8450 900 
 Text Label 8775 900  2    50   ~ 0
-BRAKE
+~BRAKE~
 Wire Wire Line
 	9625 2025 9850 2025
 Text Label 10525 2025 2    50   ~ 0
@@ -1615,17 +1615,17 @@ $EndComp
 Wire Wire Line
 	2575 4550 2575 4500
 Text Label 4375 7375 0    50   ~ 0
-FAULT
+~FAULT~
 Wire Wire Line
 	4375 7375 4675 7375
 Text GLabel 4675 7375 2    50   Input ~ 0
-FAULT
+~FAULT~
 Text Label 4375 7500 0    50   ~ 0
-BRAKE
+~BRAKE~
 Wire Wire Line
 	4375 7500 4675 7500
 Text GLabel 4675 7500 2    50   Input ~ 0
-BRAKE
+~BRAKE~
 Text Label 4375 7650 0    50   ~ 0
 ISENS
 Wire Wire Line
