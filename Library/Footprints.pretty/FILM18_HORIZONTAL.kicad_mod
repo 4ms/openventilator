@@ -1,4 +1,4 @@
-(module FILM18_HORIZONTAL locked placed (layer F.Cu) (tedit 5EB49CEB)
+(module FILM18_HORIZONTAL locked placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference cam5 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

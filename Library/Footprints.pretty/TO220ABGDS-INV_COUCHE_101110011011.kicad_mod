@@ -1,8 +1,8 @@
-(module TO220ABGDS-INV_COUCHE_101110011011 placed (layer F.Cu) (tedit 5EB49CEC)
+(module TO220ABGDS-INV_COUCHE_101110011011 placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference ZT3 (at -1.27 0.635 180) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value Q-BT-TO220AB-GDS-INV (at 0 2) (layer F.Fab) hide
+  (fp_text value DNP (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 0 17.78) (end 1.1176 17.78) (angle 360) (layer B.Fab) (width 0.02))

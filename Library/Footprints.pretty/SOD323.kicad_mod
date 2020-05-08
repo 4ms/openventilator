@@ -1,8 +1,8 @@
-(module SOD323 placed (layer F.Cu) (tedit 5EB49CEC)
+(module SOD323 placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference D2 (at -0.635 1.905) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value D-BC-SOD323 (at 0 2) (layer F.Fab) hide
+  (fp_text value PMEG4005AEA (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 1.3 0.2) (xy 0.9 0.2) (xy 0.9 -0.2) (xy 1.3 -0.2)

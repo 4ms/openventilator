@@ -1,8 +1,8 @@
-(module MX.A8_COMPOSANT placed (layer F.Cu) (tedit 5EB49CEC)
+(module MX.A8_COMPOSANT placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference IC2 (at -0.5 -1.0672 90) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value L-BC-SO08 (at 0 2) (layer F.Fab) hide
+  (fp_text value NE555D (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 2.667 -3.462) (xy 2.667 3.462) (xy -2.667 3.462) (xy -2.667 -3.462)

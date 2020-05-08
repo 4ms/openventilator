@@ -1,8 +1,8 @@
-(module SOT23-GSD placed (layer F.Cu) (tedit 5EB49CEC)
+(module SOT23-GSD placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference T1 (at 3.175 -0.635 -180) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value Q-SOT23-IRLML2803 (at 0 2) (layer F.Fab) hide
+  (fp_text value IRLML2803 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -1.74625 1.905) (xy -1.74625 -0.9525) (xy -0.9525 -0.9525) (xy -0.9525 -1.905)

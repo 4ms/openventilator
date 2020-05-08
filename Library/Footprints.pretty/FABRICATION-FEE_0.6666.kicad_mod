@@ -1,4 +1,4 @@
-(module FABRICATION-FEE_0.6666 placed (layer F.Cu) (tedit 5EB49CF3)
+(module FABRICATION-FEE_0.6666 placed (layer F.Cu) (tedit 5EB57CE7)
   (fp_text reference cam12 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

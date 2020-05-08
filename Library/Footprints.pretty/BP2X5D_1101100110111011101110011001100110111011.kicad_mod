@@ -1,8 +1,8 @@
-(module BP2X5D_1101100110111011101110011001100110111011 placed (layer F.Cu) (tedit 5EB49CEB)
+(module BP2X5D_1101100110111011101110011001100110111011 placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference J2 (at 6.6425 -1.96 -180) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value F-CO-HE10-2010D (at 0 2) (layer F.Fab) hide
+  (fp_text value 10pinConnector (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 0 -2.54) (end 0.7874 -2.54) (angle 360) (layer B.Fab) (width 0.02))

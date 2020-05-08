@@ -1,8 +1,8 @@
-(module VIA-091X03-VE_1101 locked (layer F.Cu) (tedit 5EB49CEB)
+(module VIA-091X03-VE_1101 locked (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference V9 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VIA-091X03-VE_1101 (at 0 2) (layer F.Fab) hide
+  (fp_text value Via (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad ~ thru_hole circle (at 0 0) (size 0.9144 0.9144) (drill 0.3048) (layers *.Mask F.Cu In1.Cu B.Cu)

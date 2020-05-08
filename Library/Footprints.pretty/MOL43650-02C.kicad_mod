@@ -1,8 +1,8 @@
-(module MOL43650-02C placed (layer F.Cu) (tedit 5EB49CEB)
+(module MOL43650-02C placed (layer F.Cu) (tedit 5EB57CE0)
   (fp_text reference J1 (at 0.95 4.225 -180) (layer F.SilkS)
-    (effects (font (size 1.25 1.25) (thickness 0.05)) (justify left bottom))
+    (effects (font (size 1 1) (thickness 0.05)) (justify left bottom))
   )
-  (fp_text value F-COCMS-MOL43650-0212 (at 0 2) (layer F.Fab) hide
+  (fp_text value 2pinConnector_Power (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -1 9.61) (xy -1 8.11) (xy 1 8.11) (xy 1 9.61)) (layer F.Fab) (width 0.02))
