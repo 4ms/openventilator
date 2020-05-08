@@ -1,1867 +1,1211 @@
-Cmp-Mod V01 Created by PcbNew   date = Fri 08 May 2020 06:11:53 CEST
+Cmp-Mod V01 Created by PcbNew   date = Sun 19 Apr 2020 07:11:52 PM EDT
 
 BeginCmp
-TimeStamp = 5EB74938
+TimeStamp = 5E9D9332
 Path = 
 Reference = J4;
 ValeurCmp = JUMPER2_NoCopper;
-IdModule  = 10096315 Blower Driver:JUMPER2_NoCopper;
+IdModule  = ctrb0505-A:JUMPER2_NoCopper_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7491E
+TimeStamp = 5E9D90A5
 Path = 
 Reference = L1;
 ValeurCmp = ELC09DxxxxF_NoCopper;
-IdModule  = 10096315 Blower Driver:ELC09DxxxxF_NoCopper;
+IdModule  = ctrb0505-A:ELC09DxxxxF_NoCopper_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB74908
+TimeStamp = 00000000
 Path = 
-Reference = NT1;
-ValeurCmp = NetTie-2_SMD_Pad_2.5x5mm;
-IdModule  = 10096315 Blower Driver:NetTie-2_SMD_Pad_2.5x5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB748DF
-Path = 
-Reference = cam15;
+Reference = CAM15;
 ValeurCmp = FEE_COMP;
-IdModule  = 10096315 Blower Driver:FEE_COMP_0.3;
+IdModule  = ctrb0505-A:FEE_COMP_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7465D
+TimeStamp = 00000000
 Path = 
-Reference = cam14;
+Reference = CAM14;
 ValeurCmp = FEE_COMP;
-IdModule  = 10096315 Blower Driver:FEE_COMP_0.3;
+IdModule  = ctrb0505-A:FEE_COMP_2;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB743CB
+TimeStamp = 00000000
 Path = 
-Reference = cam13;
+Reference = CAM13;
 ValeurCmp = PERCAGE_TABLEAU;
-IdModule  = 10096315 Blower Driver:PERCAGE_TABLEAU_0.666;
+IdModule  = ctrb0505-A:PERCAGE_TABLEAU_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB740AA
+TimeStamp = 00000000
 Path = 
-Reference = cam12;
+Reference = CAM12;
 ValeurCmp = FABRICATION-FEE;
-IdModule  = 10096315 Blower Driver:FABRICATION-FEE_0.6666;
+IdModule  = ctrb0505-A:FABRICATION-FEE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB73D44
+TimeStamp = 00000000
 Path = 
-Reference = cam9;
+Reference = CAM9;
 ValeurCmp = A3_EQFS_COVIDIEN;
-IdModule  = 10096315 Blower Driver:A3_EQFS_COVIDIEN;
+IdModule  = ctrb0505-A:A3_EQFS_COVIDIEN_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB73A79
+TimeStamp = 00000000
 Path = 
-Reference = cam8;
+Reference = CAM8;
 ValeurCmp = PER-COVIDIEN_TEXTE;
-IdModule  = 10096315 Blower Driver:PER-COVIDIEN_TEXTE;
+IdModule  = ctrb0505-A:PER-COVIDIEN_TEXTE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB73772
+TimeStamp = 00000000
 Path = 
-Reference = cam7;
+Reference = CAM7;
 ValeurCmp = A3_EQFC_COVIDIEN;
-IdModule  = 10096315 Blower Driver:A3_EQFC_COVIDIEN;
+IdModule  = ctrb0505-A:A3_EQFC_COVIDIEN_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB733CE
+TimeStamp = 00000000
 Path = 
-Reference = cam6;
+Reference = CAM6;
 ValeurCmp = A3_PER_COVIDIEN;
-IdModule  = 10096315 Blower Driver:A3_PER_COVIDIEN;
+IdModule  = ctrb0505-A:A3_PER_COVIDIEN_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7305D
+TimeStamp = 00000000
 Path = 
-Reference = cam5;
+Reference = CAM5;
 ValeurCmp = FILM18_HORIZONTAL;
-IdModule  = 10096315 Blower Driver:FILM18_HORIZONTAL;
+IdModule  = ctrb0505-A:FILM18_HORIZONTAL_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB72D87
+TimeStamp = 00000000
 Path = 
-Reference = cam4;
+Reference = CAM4;
 ValeurCmp = COIN_EXTERNE;
-IdModule  = 10096315 Blower Driver:COIN_EXTERNE;
+IdModule  = ctrb0505-A:COIN_EXTERNE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB72B19
+TimeStamp = 00000000
 Path = 
-Reference = cam3;
+Reference = CAM3;
 ValeurCmp = COIN_EXTERNE;
-IdModule  = 10096315 Blower Driver:COIN_EXTERNE;
+IdModule  = ctrb0505-A:COIN_EXTERNE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB728AB
+TimeStamp = 00000000
 Path = 
-Reference = cam2;
+Reference = CAM2;
 ValeurCmp = COIN_EXTERNE;
-IdModule  = 10096315 Blower Driver:COIN_EXTERNE;
+IdModule  = ctrb0505-A:COIN_EXTERNE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7263D
+TimeStamp = 00000000
 Path = 
-Reference = cam1;
+Reference = CAM1;
 ValeurCmp = COIN_EXTERNE;
-IdModule  = 10096315 Blower Driver:COIN_EXTERNE;
+IdModule  = ctrb0505-A:COIN_EXTERNE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB723BE
+TimeStamp = 00000000
 Path = 
 Reference = ZT7;
 ValeurCmp = Q-BT-TO220AB-GDS-INV;
-IdModule  = 10096315 Blower Driver:TO220ABGDS-INV_COUCHE_101110011011;
+IdModule  = ctrb0505-A:TO220ABGDS-INV_COUCHE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7212E
+TimeStamp = 00000000
 Path = 
 Reference = ZT6;
 ValeurCmp = Q-BT-TO220AB-GDS-INV;
-IdModule  = 10096315 Blower Driver:TO220ABGDS-INV_COUCHE_101110011001;
+IdModule  = ctrb0505-A:TO220ABGDS-INV_COUCHE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB71E9E
+TimeStamp = 00000000
 Path = 
 Reference = ZT5;
 ValeurCmp = Q-BT-TO220AB-GDS-INV;
-IdModule  = 10096315 Blower Driver:TO220ABGDS-INV_COUCHE_101110011011;
+IdModule  = ctrb0505-A:TO220ABGDS-INV_COUCHE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB71C0E
+TimeStamp = 00000000
 Path = 
 Reference = ZT4;
 ValeurCmp = Q-BT-TO220AB-GDS-INV;
-IdModule  = 10096315 Blower Driver:TO220ABGDS-INV_COUCHE_101110011001;
+IdModule  = ctrb0505-A:TO220ABGDS-INV_COUCHE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7197E
+TimeStamp = 00000000
 Path = 
 Reference = ZT3;
 ValeurCmp = Q-BT-TO220AB-GDS-INV;
-IdModule  = 10096315 Blower Driver:TO220ABGDS-INV_COUCHE_101110011011;
+IdModule  = ctrb0505-A:TO220ABGDS-INV_COUCHE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB70F82
+TimeStamp = 00000000
 Path = 
 Reference = ZT2;
 ValeurCmp = Q-BT-TO220AB-GDS-INV;
-IdModule  = 10096315 Blower Driver:TO220ABGDS-INV_COUCHE_101110011001;
+IdModule  = ctrb0505-A:TO220ABGDS-INV_COUCHE_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7059D
+TimeStamp = 00000000
 Path = 
 Reference = ZM4;
 ValeurCmp = FIX-0035M;
-IdModule  = 10096315 Blower Driver:FIX35M_1101;
+IdModule  = ctrb0505-A:FIX35M_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB7033B
+TimeStamp = 00000000
 Path = 
 Reference = ZM3;
 ValeurCmp = FIX-0035M;
-IdModule  = 10096315 Blower Driver:FIX35M_1101;
+IdModule  = ctrb0505-A:FIX35M_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB700D9
+TimeStamp = 00000000
 Path = 
 Reference = ZM2;
 ValeurCmp = FIX-0035M;
-IdModule  = 10096315 Blower Driver:FIX35M_1101;
+IdModule  = ctrb0505-A:FIX35M_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6FE77
+TimeStamp = 00000000
 Path = 
 Reference = ZM1;
 ValeurCmp = FIX-0035M;
-IdModule  = 10096315 Blower Driver:FIX35M_1101;
+IdModule  = ctrb0505-A:FIX35M_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6F4E3
+TimeStamp = 00000000
 Path = 
 Reference = ZC27;
 ValeurCmp = C-BCP-WX10;
-IdModule  = 10096315 Blower Driver:C-SC10;
+IdModule  = ctrb0505-A:C-SC10_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6F23D
+TimeStamp = 00000000
 Path = 
 Reference = ZC2;
 ValeurCmp = C-BCP-WX8;
-IdModule  = 10096315 Blower Driver:C-SC8;
+IdModule  = ctrb0505-A:C-SC8_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6EF98
+TimeStamp = 00000000
 Path = 
 Reference = T10;
 ValeurCmp = Q-SOT23-IRLML2803;
-IdModule  = 10096315 Blower Driver:SOT23-GSD;
+IdModule  = ctrb0505-A:SOT23-GSD_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6ECEC
+TimeStamp = 00000000
 Path = 
 Reference = T9;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6EA40
+TimeStamp = 00000000
 Path = 
 Reference = T8;
 ValeurCmp = Q-SOT23-IRLML2803;
-IdModule  = 10096315 Blower Driver:SOT23-GSD;
+IdModule  = ctrb0505-A:SOT23-GSD_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6E794
+TimeStamp = 00000000
 Path = 
 Reference = T7;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6E4E0
+TimeStamp = 00000000
 Path = 
 Reference = T6;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6E22C
+TimeStamp = 00000000
 Path = 
 Reference = T5;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6DF78
+TimeStamp = 00000000
 Path = 
 Reference = T4;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6DCC4
+TimeStamp = 00000000
 Path = 
 Reference = T3;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6DA10
+TimeStamp = 00000000
 Path = 
 Reference = T2;
 ValeurCmp = Q-BC-DPAK-GDS;
-IdModule  = 10096315 Blower Driver:DPAK-GDS;
+IdModule  = ctrb0505-A:DPAK-GDS_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6D764
+TimeStamp = 00000000
 Path = 
 Reference = T1;
 ValeurCmp = Q-SOT23-IRLML2803;
-IdModule  = 10096315 Blower Driver:SOT23-GSD;
+IdModule  = ctrb0505-A:SOT23-GSD_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6D4D2
+TimeStamp = 00000000
 Path = 
 Reference = R60;
 ValeurCmp = R-BC-R1206;
-IdModule  = 10096315 Blower Driver:RC1206;
+IdModule  = ctrb0505-A:RC1206_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6D252
+TimeStamp = 00000000
 Path = 
 Reference = R59;
 ValeurCmp = R-BC-R1206;
-IdModule  = 10096315 Blower Driver:RC1206;
+IdModule  = ctrb0505-A:RC1206_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6CFD2
+TimeStamp = 00000000
 Path = 
 Reference = R58;
 ValeurCmp = R-BC-R1206;
-IdModule  = 10096315 Blower Driver:RC1206;
+IdModule  = ctrb0505-A:RC1206_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6CD52
+TimeStamp = 00000000
 Path = 
 Reference = R50;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6CAD2
+TimeStamp = 00000000
 Path = 
 Reference = R42;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6C852
+TimeStamp = 00000000
 Path = 
 Reference = R41;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6C5D2
+TimeStamp = 00000000
 Path = 
 Reference = R40;
 ValeurCmp = R-BC-R2512;
-IdModule  = 10096315 Blower Driver:R2512;
+IdModule  = ctrb0505-A:R2512_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6C352
+TimeStamp = 00000000
 Path = 
 Reference = R39;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6C0D2
+TimeStamp = 00000000
 Path = 
 Reference = R38;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6BE52
+TimeStamp = 00000000
 Path = 
 Reference = R37;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6BBD2
+TimeStamp = 00000000
 Path = 
 Reference = R35;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6B952
+TimeStamp = 00000000
 Path = 
 Reference = R33;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6B6D2
+TimeStamp = 00000000
 Path = 
 Reference = R32;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6B452
+TimeStamp = 00000000
 Path = 
 Reference = R31;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6B1D2
+TimeStamp = 00000000
 Path = 
 Reference = R30;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6AF52
+TimeStamp = 00000000
 Path = 
 Reference = R20;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6ACD2
+TimeStamp = 00000000
 Path = 
 Reference = R13;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6AA52
+TimeStamp = 00000000
 Path = 
 Reference = R12;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6A7D2
+TimeStamp = 00000000
 Path = 
 Reference = R11;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6A552
+TimeStamp = 00000000
 Path = 
 Reference = R10;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6A2D2
+TimeStamp = 00000000
 Path = 
 Reference = R9;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6A052
+TimeStamp = 00000000
 Path = 
 Reference = R8;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB69DD2
+TimeStamp = 00000000
 Path = 
 Reference = R7;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB69B52
+TimeStamp = 00000000
 Path = 
 Reference = R6;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB698D2
+TimeStamp = 00000000
 Path = 
 Reference = R5;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB69652
+TimeStamp = 00000000
 Path = 
 Reference = R4;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB693D2
+TimeStamp = 00000000
 Path = 
 Reference = R3;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB69152
+TimeStamp = 00000000
 Path = 
 Reference = R2;
 ValeurCmp = R-BC-R0603;
-IdModule  = 10096315 Blower Driver:R0603;
+IdModule  = ctrb0505-A:R0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB68ED2
+TimeStamp = 00000000
 Path = 
 Reference = R1;
 ValeurCmp = R-BC-R2512;
-IdModule  = 10096315 Blower Driver:R2512;
+IdModule  = ctrb0505-A:R2512_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB68C51
+TimeStamp = 00000000
 Path = 
 Reference = PT1;
 ValeurCmp = PT-CMS-C12000;
-IdModule  = 10096315 Blower Driver:C12000;
+IdModule  = ctrb0505-A:C12000_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB689E0
+TimeStamp = 00000000
 Path = 
 Reference = MIR4;
 ValeurCmp = MIRECMS;
-IdModule  = 10096315 Blower Driver:MIRECMS-SAFT;
+IdModule  = ctrb0505-A:MIRECMS-SAFT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB68780
+TimeStamp = 00000000
 Path = 
 Reference = MIR3;
 ValeurCmp = MIRECMS;
-IdModule  = 10096315 Blower Driver:MIRECMS-SAFT;
+IdModule  = ctrb0505-A:MIRECMS-SAFT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB68520
+TimeStamp = 00000000
 Path = 
 Reference = MIR2;
 ValeurCmp = MIRECMS;
-IdModule  = 10096315 Blower Driver:MIRECMS-SAFT;
+IdModule  = ctrb0505-A:MIRECMS-SAFT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB682C0
+TimeStamp = 00000000
 Path = 
 Reference = MIR1;
 ValeurCmp = MIRECMS;
-IdModule  = 10096315 Blower Driver:MIRECMS-SAFT;
+IdModule  = ctrb0505-A:MIRECMS-SAFT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB68024
+TimeStamp = 00000000
 Path = 
 Reference = J22;
 ValeurCmp = F-CO-MOL7395M09;
-IdModule  = 10096315 Blower Driver:MOL7395-9_110110011001100110011001100110011011;
+IdModule  = ctrb0505-A:MOL7395-9_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6756D
+TimeStamp = 00000000
 Path = 
 Reference = J11;
 ValeurCmp = F-CO-MOL5566-02;
-IdModule  = 10096315 Blower Driver:MOL5566-2_10111011;
+IdModule  = ctrb0505-A:MOL5566-2_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB66B2E
+TimeStamp = 00000000
 Path = 
 Reference = J6;
 ValeurCmp = F-CO-MOL7395M08;
-IdModule  = 10096315 Blower Driver:MOL7395-8_10111011101110111101101110111011;
+IdModule  = ctrb0505-A:MOL7395-8_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6608A
+TimeStamp = 00000000
 Path = 
 Reference = J3;
 ValeurCmp = F-CO-MOL7395M02;
-IdModule  = 10096315 Blower Driver:MOL7395-2_10011001;
+IdModule  = ctrb0505-A:MOL7395-2_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB65658
+TimeStamp = 00000000
 Path = 
 Reference = J2;
 ValeurCmp = F-CO-HE10-2010D;
-IdModule  = 10096315 Blower Driver:BP2X5D_1101100110111011101110011001100110111011;
+IdModule  = ctrb0505-A:BP2X5D_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB64BF9
+TimeStamp = 00000000
 Path = 
 Reference = J1;
 ValeurCmp = F-COCMS-MOL43650-0212;
-IdModule  = 10096315 Blower Driver:MOL43650-02C;
+IdModule  = ctrb0505-A:MOL43650-02C_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6493A
+TimeStamp = 00000000
 Path = 
 Reference = IC6;
 ValeurCmp = REG-BC-DPAK;
-IdModule  = 10096315 Blower Driver:DPAK;
+IdModule  = ctrb0505-A:DPAK_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB64675
+TimeStamp = 00000000
 Path = 
 Reference = IC5;
 ValeurCmp = L-BC-SO08;
-IdModule  = 10096315 Blower Driver:MX.A8_COMPOSANT;
+IdModule  = ctrb0505-A:MX.A8_COMPOSANT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6439F
+TimeStamp = 00000000
 Path = 
 Reference = IC4;
 ValeurCmp = L-BC-SO08;
-IdModule  = 10096315 Blower Driver:MX.A8_COMPOSANT;
+IdModule  = ctrb0505-A:MX.A8_COMPOSANT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB640C9
+TimeStamp = 00000000
 Path = 
 Reference = IC3;
 ValeurCmp = L-BC-SO08;
-IdModule  = 10096315 Blower Driver:MX.A8_COMPOSANT;
+IdModule  = ctrb0505-A:MX.A8_COMPOSANT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB63DF3
+TimeStamp = 00000000
 Path = 
 Reference = IC2;
 ValeurCmp = L-BC-SO08;
-IdModule  = 10096315 Blower Driver:MX.A8_COMPOSANT;
+IdModule  = ctrb0505-A:MX.A8_COMPOSANT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB63ABE
+TimeStamp = 00000000
 Path = 
 Reference = IC1;
 ValeurCmp = L-BC-SO24;
-IdModule  = 10096315 Blower Driver:MX.A24_COMPOSANT;
+IdModule  = ctrb0505-A:MX.A24_COMPOSANT_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB637B4
+TimeStamp = 00000000
 Path = 
 Reference = FI9;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB63534
+TimeStamp = 00000000
 Path = 
 Reference = FI8;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB632B4
+TimeStamp = 00000000
 Path = 
 Reference = FI7;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB63034
+TimeStamp = 00000000
 Path = 
 Reference = FI6;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB62DB4
+TimeStamp = 00000000
 Path = 
 Reference = FI5;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB62B34
+TimeStamp = 00000000
 Path = 
 Reference = FI4;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB628B4
+TimeStamp = 00000000
 Path = 
 Reference = FI3;
 ValeurCmp = SF-BC-S0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6262E
+TimeStamp = 00000000
 Path = 
 Reference = FI1;
 ValeurCmp = FL-10-BNX002-01;
-IdModule  = 10096315 Blower Driver:BNX002_101110011011101110111011;
+IdModule  = ctrb0505-A:BNX002_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB61C20
+TimeStamp = 00000000
 Path = 
 Reference = F1;
 ValeurCmp = FU-BC-154000;
-IdModule  = 10096315 Blower Driver:FU154000;
+IdModule  = ctrb0505-A:FU154000_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6196A
+TimeStamp = 00000000
 Path = 
 Reference = D24;
 ValeurCmp = D-BC-SOT23;
-IdModule  = 10096315 Blower Driver:SOT23-1G;
+IdModule  = ctrb0505-A:SOT23-1G_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB616CD
+TimeStamp = 00000000
 Path = 
 Reference = D23;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB61437
+TimeStamp = 00000000
 Path = 
 Reference = D22;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB611A1
+TimeStamp = 5E9BBA01
 Path = 
 Reference = D21;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB60F0B
+TimeStamp = 00000000
 Path = 
 Reference = D20;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB60C75
+TimeStamp = 00000000
 Path = 
 Reference = D19;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB609DF
+TimeStamp = 00000000
 Path = 
 Reference = D18;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6073A
+TimeStamp = 00000000
 Path = 
 Reference = D17;
 ValeurCmp = D-BC-DPAK-2ANODES;
-IdModule  = 10096315 Blower Driver:DPAK-2ANODES;
+IdModule  = ctrb0505-A:DPAK-2ANODES_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB6048E
+TimeStamp = 00000000
 Path = 
 Reference = D16;
 ValeurCmp = D-BC-SOT23;
-IdModule  = 10096315 Blower Driver:SOT23-1G;
+IdModule  = ctrb0505-A:SOT23-1G_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB601EA
+TimeStamp = 00000000
 Path = 
 Reference = D15;
 ValeurCmp = D-BC-SOT23;
-IdModule  = 10096315 Blower Driver:SOT23-1G;
+IdModule  = ctrb0505-A:SOT23-1G_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5FF46
+TimeStamp = 00000000
 Path = 
 Reference = D14;
 ValeurCmp = D-BC-SOT23;
-IdModule  = 10096315 Blower Driver:SOT23-1G;
+IdModule  = ctrb0505-A:SOT23-1G_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5FCB1
+TimeStamp = 00000000
 Path = 
 Reference = D13;
 ValeurCmp = D-BC-SOD80;
-IdModule  = 10096315 Blower Driver:SOD80;
+IdModule  = ctrb0505-A:SOD80_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5FA2B
+TimeStamp = 00000000
 Path = 
 Reference = D12;
 ValeurCmp = D-BC-SOD80;
-IdModule  = 10096315 Blower Driver:SOD80;
+IdModule  = ctrb0505-A:SOD80_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5F7A5
+TimeStamp = 00000000
 Path = 
 Reference = D11;
 ValeurCmp = D-BC-SOD80;
-IdModule  = 10096315 Blower Driver:SOD80;
+IdModule  = ctrb0505-A:SOD80_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5F517
+TimeStamp = 00000000
 Path = 
 Reference = D10;
 ValeurCmp = D-BC-SMA;
-IdModule  = 10096315 Blower Driver:SMA;
+IdModule  = ctrb0505-A:SMA_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5F281
+TimeStamp = 00000000
 Path = 
 Reference = D9;
 ValeurCmp = D-BC-SMA;
-IdModule  = 10096315 Blower Driver:SMA;
+IdModule  = ctrb0505-A:SMA_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5EFEB
+TimeStamp = 00000000
 Path = 
 Reference = D8;
 ValeurCmp = D-BC-SMA;
-IdModule  = 10096315 Blower Driver:SMA;
+IdModule  = ctrb0505-A:SMA_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5ED5B
+TimeStamp = 00000000
 Path = 
 Reference = D7;
 ValeurCmp = D-BC-SOD323;
-IdModule  = 10096315 Blower Driver:SOD323;
+IdModule  = ctrb0505-A:SOD323_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5EAD1
+TimeStamp = 00000000
 Path = 
 Reference = D6;
 ValeurCmp = D-BC-SOD323;
-IdModule  = 10096315 Blower Driver:SOD323;
+IdModule  = ctrb0505-A:SOD323_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5E847
+TimeStamp = 00000000
 Path = 
 Reference = D5;
 ValeurCmp = D-BC-SOD323;
-IdModule  = 10096315 Blower Driver:SOD323;
+IdModule  = ctrb0505-A:SOD323_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5E5BD
+TimeStamp = 00000000
 Path = 
 Reference = D4;
 ValeurCmp = D-BC-SOD323;
-IdModule  = 10096315 Blower Driver:SOD323;
+IdModule  = ctrb0505-A:SOD323_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5E333
+TimeStamp = 00000000
 Path = 
 Reference = D3;
 ValeurCmp = D-BC-SOD323;
-IdModule  = 10096315 Blower Driver:SOD323;
+IdModule  = ctrb0505-A:SOD323_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5E0A9
+TimeStamp = 00000000
 Path = 
 Reference = D2;
 ValeurCmp = D-BC-SOD323;
-IdModule  = 10096315 Blower Driver:SOD323;
+IdModule  = ctrb0505-A:SOD323_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5DE19
+TimeStamp = 00000000
 Path = 
 Reference = D1;
 ValeurCmp = D-BC-SMB;
-IdModule  = 10096315 Blower Driver:SMB;
+IdModule  = ctrb0505-A:SMB_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5DB8C
+TimeStamp = 00000000
 Path = 
 Reference = C29;
 ValeurCmp = C-BTP-HT1327;
-IdModule  = 10096315 Blower Driver:HT-13X27_10011011;
+IdModule  = ctrb0505-A:HT-13X27_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5D1B4
+TimeStamp = 00000000
 Path = 
 Reference = C28;
 ValeurCmp = C-BTP-HT1327;
-IdModule  = 10096315 Blower Driver:HT-13X27_10111011;
+IdModule  = ctrb0505-A:HT-13X27_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5C7E3
+TimeStamp = 00000000
 Path = 
 Reference = C27;
 ValeurCmp = C-BTP-803;
-IdModule  = 10096315 Blower Driver:03515_10111101;
+IdModule  = ctrb0505-A:03515_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5C568
+TimeStamp = 00000000
 Path = 
 Reference = C26;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5C2E8
+TimeStamp = 00000000
 Path = 
 Reference = C25;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5C068
+TimeStamp = 00000000
 Path = 
 Reference = C24;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5BDAA
+TimeStamp = 00000000
 Path = 
 Reference = C23;
 ValeurCmp = CC-BC-C0612;
-IdModule  = 10096315 Blower Driver:C0612-4;
+IdModule  = ctrb0505-A:C0612-4_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5BAAE
+TimeStamp = 00000000
 Path = 
 Reference = C22;
 ValeurCmp = CC-BC-C0612;
-IdModule  = 10096315 Blower Driver:C0612-4;
+IdModule  = ctrb0505-A:C0612-4_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5B7F0
+TimeStamp = 00000000
 Path = 
 Reference = C21;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5B570
+TimeStamp = 00000000
 Path = 
 Reference = C20;
 ValeurCmp = C-BC-C0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5B2F0
+TimeStamp = 00000000
 Path = 
 Reference = C19;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5B070
+TimeStamp = 00000000
 Path = 
 Reference = C18;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5ADF0
+TimeStamp = 00000000
 Path = 
 Reference = C17;
 ValeurCmp = C-BC-C0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5AB70
+TimeStamp = 00000000
 Path = 
 Reference = C16;
 ValeurCmp = C-BC-C1206;
-IdModule  = 10096315 Blower Driver:RC1206;
+IdModule  = ctrb0505-A:RC1206_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5A8F0
+TimeStamp = 00000000
 Path = 
 Reference = C15;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5A670
+TimeStamp = 00000000
 Path = 
 Reference = C14;
 ValeurCmp = C-BC-C0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5A3F0
+TimeStamp = 00000000
 Path = 
 Reference = C13;
 ValeurCmp = C-BC-C1206;
-IdModule  = 10096315 Blower Driver:RC1206;
+IdModule  = ctrb0505-A:RC1206_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5A170
+TimeStamp = 00000000
 Path = 
 Reference = C12;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB59EF0
+TimeStamp = 00000000
 Path = 
 Reference = C11;
 ValeurCmp = C-BC-C0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB59C70
+TimeStamp = 00000000
 Path = 
 Reference = C10;
 ValeurCmp = C-BC-C1206;
-IdModule  = 10096315 Blower Driver:RC1206;
+IdModule  = ctrb0505-A:RC1206_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB599F0
+TimeStamp = 00000000
 Path = 
 Reference = C9;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB59770
+TimeStamp = 00000000
 Path = 
 Reference = C8;
 ValeurCmp = C-BC-C0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB594F0
+TimeStamp = 00000000
 Path = 
 Reference = C7;
 ValeurCmp = C-BC-C0603;
-IdModule  = 10096315 Blower Driver:C0603;
+IdModule  = ctrb0505-A:C0603_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB59270
+TimeStamp = 00000000
 Path = 
 Reference = C6;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB58FF0
+TimeStamp = 00000000
 Path = 
 Reference = C5;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB58D6C
+TimeStamp = 00000000
 Path = 
 Reference = C4;
 ValeurCmp = C-BCP-C7343;
-IdModule  = 10096315 Blower Driver:C7343;
+IdModule  = ctrb0505-A:C7343_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB58AE8
+TimeStamp = 00000000
 Path = 
 Reference = C3;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB5886D
+TimeStamp = 00000000
 Path = 
 Reference = C2;
 ValeurCmp = C-BTP-803;
-IdModule  = 10096315 Blower Driver:03515_10111101;
+IdModule  = ctrb0505-A:03515_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB57EBA
+TimeStamp = 00000000
 Path = 
 Reference = C1;
 ValeurCmp = C-BC-C0805;
-IdModule  = 10096315 Blower Driver:C0805;
+IdModule  = ctrb0505-A:C0805_1;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB57C50
+TimeStamp = 00000000
 Path = 
-Reference = V87;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
+Reference = TH1;
+ValeurCmp = [NoVal];
+IdModule  = ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB579FC
+TimeStamp = 00000000
 Path = 
-Reference = V86;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
+Reference = TH2;
+ValeurCmp = [NoVal];
+IdModule  = ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB577A8
+TimeStamp = 00000000
 Path = 
-Reference = V85;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
+Reference = TH3;
+ValeurCmp = [NoVal];
+IdModule  = ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB57554
+TimeStamp = 00000000
 Path = 
-Reference = V84;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
+Reference = TH4;
+ValeurCmp = [NoVal];
+IdModule  = ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB57300
+TimeStamp = 00000000
 Path = 
-Reference = V83;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
+Reference = TH5;
+ValeurCmp = [NoVal];
+IdModule  = ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EB570AC
+TimeStamp = 00000000
 Path = 
-Reference = V82;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB56E58
-Path = 
-Reference = V81;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB56C04
-Path = 
-Reference = V80;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB569B0
-Path = 
-Reference = V79;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB5675C
-Path = 
-Reference = V78;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB56508
-Path = 
-Reference = V77;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB562B4
-Path = 
-Reference = V76;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB56060
-Path = 
-Reference = V75;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB55E0C
-Path = 
-Reference = V74;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB55BB8
-Path = 
-Reference = V73;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB55964
-Path = 
-Reference = V72;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB55710
-Path = 
-Reference = V71;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB554BC
-Path = 
-Reference = V70;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB55268
-Path = 
-Reference = V69;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB55014
-Path = 
-Reference = V68;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB54DC0
-Path = 
-Reference = V67;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB54B6C
-Path = 
-Reference = V66;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB54918
-Path = 
-Reference = V65;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB546C4
-Path = 
-Reference = V64;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB54470
-Path = 
-Reference = V63;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB5421C
-Path = 
-Reference = V62;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB53FC8
-Path = 
-Reference = V61;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB53D74
-Path = 
-Reference = V60;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB53B20
-Path = 
-Reference = V59;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB538CC
-Path = 
-Reference = V58;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB53678
-Path = 
-Reference = V57;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB53424
-Path = 
-Reference = V56;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB531D0
-Path = 
-Reference = V55;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB52F7C
-Path = 
-Reference = V54;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB52D28
-Path = 
-Reference = V53;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB52AD4
-Path = 
-Reference = V52;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB52880
-Path = 
-Reference = V51;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB5262C
-Path = 
-Reference = V50;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB523D8
-Path = 
-Reference = V49;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB52184
-Path = 
-Reference = V48;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB51F30
-Path = 
-Reference = V47;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB51CDC
-Path = 
-Reference = V46;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB51A88
-Path = 
-Reference = V45;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB51834
-Path = 
-Reference = V44;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB515E0
-Path = 
-Reference = V43;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB5138C
-Path = 
-Reference = V42;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB51138
-Path = 
-Reference = V41;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB50EE4
-Path = 
-Reference = V40;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB50C90
-Path = 
-Reference = V39;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB50A3C
-Path = 
-Reference = V38;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB507E8
-Path = 
-Reference = V37;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB50594
-Path = 
-Reference = V36;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB50340
-Path = 
-Reference = V35;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB500EC
-Path = 
-Reference = V34;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4FE98
-Path = 
-Reference = V33;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4FC44
-Path = 
-Reference = V32;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4F9F0
-Path = 
-Reference = V31;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4F79C
-Path = 
-Reference = V30;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4F548
-Path = 
-Reference = V29;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4F2F4
-Path = 
-Reference = V28;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4F0A0
-Path = 
-Reference = V27;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4EE4C
-Path = 
-Reference = V26;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4EBF8
-Path = 
-Reference = V25;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4E9A4
-Path = 
-Reference = V24;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4E750
-Path = 
-Reference = V23;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4E4FC
-Path = 
-Reference = V22;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4E2A8
-Path = 
-Reference = V21;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4E054
-Path = 
-Reference = V20;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4DE00
-Path = 
-Reference = V19;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4DBAC
-Path = 
-Reference = V18;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4D958
-Path = 
-Reference = V17;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4D704
-Path = 
-Reference = V16;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4D4B0
-Path = 
-Reference = V15;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4D25C
-Path = 
-Reference = V14;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4D008
-Path = 
-Reference = V13;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4CDB4
-Path = 
-Reference = V12;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4CB60
-Path = 
-Reference = V11;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4C90C
-Path = 
-Reference = V10;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4C6B8
-Path = 
-Reference = V9;
-ValeurCmp = VIA-091X03-VE_1101;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1101;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4BD70
-Path = 
-Reference = V8;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4BB1C
-Path = 
-Reference = V7;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4B8C8
-Path = 
-Reference = V6;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4B674
-Path = 
-Reference = V5;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4B420
-Path = 
-Reference = V4;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4B1CC
-Path = 
-Reference = V3;
-ValeurCmp = VIA-091X03-VE_1001;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1001;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4A884
-Path = 
-Reference = V2;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB4A630
-Path = 
-Reference = V1;
-ValeurCmp = VIA-091X03-VE_1011;
-IdModule  = 10096315 Blower Driver:VIA-091X03-VE_1011;
+Reference = TH6;
+ValeurCmp = [NoVal];
+IdModule  = ctrb0505-A:ThroughHole_36milx12mil_Pad_Cu_Mask;
 EndCmp
 
 EndListe
