@@ -296,8 +296,6 @@ F 3 "" H 2525 3000 50  0001 C CNN
 	1    2525 3100
 	1    0    0    -1  
 $EndComp
-Text Label 2400 3050 0    50   ~ 0
-GND
 Wire Wire Line
 	2350 2675 2350 2800
 Connection ~ 2350 2800
@@ -589,8 +587,6 @@ F 3 "" H 2600 3725 50  0001 C CNN
 	1    2600 3825
 	1    0    0    -1  
 $EndComp
-Text Label 2450 3775 0    50   ~ 0
-GND
 Wire Wire Line
 	2350 3525 2350 3650
 Connection ~ 2350 3650

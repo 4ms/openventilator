@@ -4078,8 +4078,6 @@ Connection ~ 19225 7650
 Connection ~ 19225 10550
 Text Label 6100 3750 0    50   ~ 0
 GND-PUIS
-Text Label 9525 2850 0    50   ~ 0
-GND
 Text Label 5225 2150 0    50   ~ 0
 N9
 Text Label 3550 11550 0    50   ~ 0
@@ -4094,155 +4092,155 @@ Text Label 2650 13350 0    50   ~ 0
 ~FAULT~
 Text Label 2675 12300 0    50   ~ 0
 SPEED-MEASURE
-Text Label 19175 13300 0    50   ~ 0
+Text Label 19825 13750 0    50   ~ 0
 ~FAULT~
 Wire Wire Line
-	19175 13300 19475 13300
-Text GLabel 19475 13300 2    50   Input ~ 0
+	19825 13750 20125 13750
+Text GLabel 20125 13750 2    50   Input ~ 0
 ~FAULT~
-Text Label 19175 13425 0    50   ~ 0
+Text Label 19825 13875 0    50   ~ 0
 ~BRAKE~
 Wire Wire Line
-	19175 13425 19475 13425
-Text GLabel 19475 13425 2    50   Input ~ 0
+	19825 13875 20125 13875
+Text GLabel 20125 13875 2    50   Input ~ 0
 ~BRAKE~
-Text Label 19175 13575 0    50   ~ 0
+Text Label 19825 14025 0    50   ~ 0
 ISENS
 Wire Wire Line
-	19175 13575 19475 13575
-Text GLabel 19475 13575 2    50   Input ~ 0
+	19825 14025 20125 14025
+Text GLabel 20125 14025 2    50   Input ~ 0
 ISENS
-Text GLabel 20425 13500 2    50   Input ~ 0
+Text GLabel 21075 13950 2    50   Input ~ 0
 TOP-DR-C
-Text GLabel 20425 13625 2    50   Input ~ 0
+Text GLabel 21075 14075 2    50   Input ~ 0
 BOT-DR-A
-Text GLabel 20425 13400 2    50   Input ~ 0
+Text GLabel 21075 13850 2    50   Input ~ 0
 TOP-DR-B
-Text GLabel 20425 13300 2    50   Input ~ 0
+Text GLabel 21075 13750 2    50   Input ~ 0
 TOP-DR-A
-Text GLabel 20425 13750 2    50   Input ~ 0
+Text GLabel 21075 14200 2    50   Input ~ 0
 BOT-DR-B
-Text GLabel 20425 13875 2    50   Input ~ 0
+Text GLabel 21075 14325 2    50   Input ~ 0
 BOT-DR-C
 Wire Wire Line
-	20425 13300 19950 13300
+	21075 13750 20600 13750
 Wire Wire Line
-	20425 13400 19950 13400
+	21075 13850 20600 13850
 Wire Wire Line
-	20425 13500 19950 13500
+	21075 13950 20600 13950
 Wire Wire Line
-	20425 13625 19950 13625
-Text Label 19950 13300 0    50   ~ 0
+	21075 14075 20600 14075
+Text Label 20600 13750 0    50   ~ 0
 TOP-DR-A
-Text Label 19950 13400 0    50   ~ 0
+Text Label 20600 13850 0    50   ~ 0
 TOP-DR-B
-Text Label 19950 13500 0    50   ~ 0
+Text Label 20600 13950 0    50   ~ 0
 TOP-DR-C
-Text Label 19950 13625 0    50   ~ 0
+Text Label 20600 14075 0    50   ~ 0
 BOT-DR-A
 Wire Wire Line
-	20425 13750 19950 13750
+	21075 14200 20600 14200
 Wire Wire Line
-	20425 13875 19950 13875
-Text Label 19950 13750 0    50   ~ 0
+	21075 14325 20600 14325
+Text Label 20600 14200 0    50   ~ 0
 BOT-DR-B
-Text Label 19950 13875 0    50   ~ 0
+Text Label 20600 14325 0    50   ~ 0
 BOT-DR-C
-Text GLabel 21725 13300 2    50   Input ~ 0
+Text GLabel 22375 13750 2    50   Input ~ 0
 SENSOR1
 Wire Wire Line
-	21725 13300 21250 13300
-Text Label 21250 13300 0    50   ~ 0
+	22375 13750 21900 13750
+Text Label 21900 13750 0    50   ~ 0
 SENSOR1
-Text GLabel 21725 13425 2    50   Input ~ 0
+Text GLabel 22375 13875 2    50   Input ~ 0
 SENSOR2
 Wire Wire Line
-	21725 13425 21250 13425
-Text Label 21250 13425 0    50   ~ 0
+	22375 13875 21900 13875
+Text Label 21900 13875 0    50   ~ 0
 SENSOR2
-Text GLabel 21725 13575 2    50   Input ~ 0
+Text GLabel 22375 14025 2    50   Input ~ 0
 SENSOR3
 Wire Wire Line
-	21725 13575 21250 13575
-Text Label 21250 13575 0    50   ~ 0
+	22375 14025 21900 14025
+Text Label 21900 14025 0    50   ~ 0
 SENSOR3
-Text GLabel 18325 13475 2    50   Input ~ 0
+Text GLabel 18975 13925 2    50   Input ~ 0
 V-REF-M
-Text GLabel 18325 13600 2    50   Input ~ 0
+Text GLabel 18975 14050 2    50   Input ~ 0
 SPEED-SETPOINT
-Text GLabel 18325 13375 2    50   Input ~ 0
+Text GLabel 18975 13825 2    50   Input ~ 0
 TEMPMEASURE-
-Text GLabel 18325 13275 2    50   Input ~ 0
+Text GLabel 18975 13725 2    50   Input ~ 0
 TEMPMEASURE+
-Text GLabel 19475 13725 2    50   Input ~ 0
+Text GLabel 20125 14175 2    50   Input ~ 0
 OE
-Text GLabel 17225 13250 2    50   Input ~ 0
+Text GLabel 17875 13700 2    50   Input ~ 0
 N10
 Wire Wire Line
-	18325 13275 17675 13275
+	18975 13725 18325 13725
 Wire Wire Line
-	18325 13375 17675 13375
+	18975 13825 18325 13825
 Wire Wire Line
-	18325 13475 17675 13475
+	18975 13925 18325 13925
 Wire Wire Line
-	18325 13600 17675 13600
-Text Label 17675 13275 0    50   ~ 0
+	18975 14050 18325 14050
+Text Label 18325 13725 0    50   ~ 0
 TEMPMEASURE+
-Text Label 17675 13375 0    50   ~ 0
+Text Label 18325 13825 0    50   ~ 0
 TEMPMEASURE-
-Text Label 17675 13475 0    50   ~ 0
+Text Label 18325 13925 0    50   ~ 0
 V-REF-M
-Text Label 17675 13600 0    50   ~ 0
+Text Label 18325 14050 0    50   ~ 0
 SPEED-SETPOINT
 Wire Wire Line
-	19475 13725 19275 13725
+	20125 14175 19925 14175
 Wire Wire Line
-	17225 13250 16975 13250
-Text Label 19275 13725 0    50   ~ 0
+	17875 13700 17625 13700
+Text Label 19925 14175 0    50   ~ 0
 OE
-Text Label 16975 13250 0    50   ~ 0
+Text Label 17625 13700 0    50   ~ 0
 N10
-Text GLabel 17225 13375 2    50   Input ~ 0
+Text GLabel 17875 13825 2    50   Input ~ 0
 N8
 Wire Wire Line
-	17225 13375 16975 13375
-Text Label 16975 13375 0    50   ~ 0
+	17875 13825 17625 13825
+Text Label 17625 13825 0    50   ~ 0
 N8
-Text GLabel 17225 13500 2    50   Input ~ 0
+Text GLabel 17875 13950 2    50   Input ~ 0
 N70
 Wire Wire Line
-	17225 13500 16975 13500
-Text Label 16975 13500 0    50   ~ 0
+	17875 13950 17625 13950
+Text Label 17625 13950 0    50   ~ 0
 N70
-Text GLabel 17225 13625 2    50   Input ~ 0
+Text GLabel 17875 14075 2    50   Input ~ 0
 N65
 Wire Wire Line
-	17225 13625 16975 13625
-Text Label 16975 13625 0    50   ~ 0
+	17875 14075 17625 14075
+Text Label 17625 14075 0    50   ~ 0
 N65
-Text GLabel 17225 13750 2    50   Input ~ 0
+Text GLabel 17875 14200 2    50   Input ~ 0
 N63
 Wire Wire Line
-	17225 13750 16975 13750
-Text Label 16975 13750 0    50   ~ 0
+	17875 14200 17625 14200
+Text Label 17625 14200 0    50   ~ 0
 N63
-Text GLabel 17225 13875 2    50   Input ~ 0
+Text GLabel 17875 14325 2    50   Input ~ 0
 N14
 Wire Wire Line
-	17225 13875 16975 13875
-Text Label 16975 13875 0    50   ~ 0
+	17875 14325 17625 14325
+Text Label 17625 14325 0    50   ~ 0
 N14
-Text GLabel 17225 14000 2    50   Input ~ 0
+Text GLabel 17875 14450 2    50   Input ~ 0
 N1
 Wire Wire Line
-	17225 14000 16975 14000
-Text Label 16975 14000 0    50   ~ 0
+	17875 14450 17625 14450
+Text Label 17625 14450 0    50   ~ 0
 N1
-Text GLabel 17225 14125 2    50   Input ~ 0
+Text GLabel 17875 14575 2    50   Input ~ 0
 N56
 Wire Wire Line
-	17225 14125 16975 14125
-Text Label 16975 14125 0    50   ~ 0
+	17875 14575 17625 14575
+Text Label 17625 14575 0    50   ~ 0
 N56
 $Sheet
 S 13150 14200 1825 975 
@@ -4289,10 +4287,10 @@ Text Label 9950 12250 0    50   ~ 0
 N56
 Text Label 10950 12900 0    50   ~ 0
 PGND
-Text GLabel 19475 14125 2    50   Input ~ 0
+Text GLabel 22325 14150 2    50   Input ~ 0
 GND-PUIS
 Wire Wire Line
-	19475 14125 19075 14125
-Text Label 19075 14125 0    50   ~ 0
+	22325 14150 21900 14150
+Text Label 21900 14150 0    50   ~ 0
 GND-PUIS
 $EndSCHEMATC
