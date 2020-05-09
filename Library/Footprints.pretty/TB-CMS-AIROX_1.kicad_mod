@@ -1,4 +1,4 @@
-(module TB-CMS-AIROX_1 (layer F.Cu) (tedit 0)
+(module TB-CMS-AIROX_1 (layer F.Cu) (tedit 5EAD7804)
   (attr smd)
   (fp_text reference JP1 (at 0.027 -2.867 unlocked) (layer F.SilkS)
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
@@ -7,5 +7,10 @@
     (effects (font (size 1.0496 1.104) (thickness 0.18)))
   )
   (pad 2 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd circle (at 0 0) (size 0.00508 0.00508) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd custom (at 0 -2.0828 90) (size 0.48 0.48) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_circle (center -2.0828 0) (end 0 0) (width 0.4826))
+    ))
 )
