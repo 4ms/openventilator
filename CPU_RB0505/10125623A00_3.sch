@@ -396,7 +396,7 @@ F 11 "RC0805JR-0710RL" H 11900 6500 50  0001 C CNN "Manufacturer_No3"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L V_Resistor:R0603_1k37_0.1%_0 R57
+L V_Resistor:R0603_1k37_0.1%_10097270 R57
 U 1 1 E37BEEA0
 P 6650 3950
 AR Path="/E37BEEA0" Ref="R57"  Part="1" 
