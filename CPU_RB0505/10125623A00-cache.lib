@@ -3017,11 +3017,11 @@ X Vcc 5 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# V_IC_Opamp_Dual_Generic
+# V_IC_OP295
 #
-DEF V_IC_Opamp_Dual_Generic U 0 20 Y Y 3 L N
+DEF V_IC_OP295 U 0 20 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "V_IC_Opamp_Dual_Generic" 0 -200 50 H V L CNN
+F1 "V_IC_OP295" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10022969" 400 50 50 H I L CNN "Item Number"
