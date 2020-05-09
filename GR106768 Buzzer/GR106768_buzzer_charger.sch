@@ -2509,12 +2509,12 @@ $EndComp
 $Comp
 L V_Power:+BATTV #PWR0104
 U 1 1 5F588533
-P 6100 2700
-F 0 "#PWR0104" H 6100 2550 50  0001 C CNN
-F 1 "+BATTV" H 6100 2840 50  0000 C CNN
-F 2 "" H 6100 2700 50  0001 C CNN
-F 3 "" H 6100 2700 50  0001 C CNN
-	1    6100 2700
+P 6200 2700
+F 0 "#PWR0104" H 6200 2550 50  0001 C CNN
+F 1 "+BATTV" H 6200 2840 50  0000 C CNN
+F 2 "" H 6200 2700 50  0001 C CNN
+F 3 "" H 6200 2700 50  0001 C CNN
+	1    6200 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2847,7 +2847,7 @@ Connection ~ 6100 3400
 Wire Wire Line
 	6100 3400 6425 3400
 Wire Wire Line
-	6100 2700 6100 2850
+	6200 2700 6200 2850
 Wire Wire Line
 	2100 2850 2100 3000
 Wire Wire Line
@@ -2882,25 +2882,6 @@ F 6 "APEM COMPONENTS INC" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "NK236" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    6425 3825
 	0    1    1    0   
-$EndComp
-$Comp
-L V_Battery:BuzzBattery BAT1
-U 1 1 603E4DAA
-P 6100 3050
-F 0 "BAT1" H 6200 3150 50  0000 L CNN
-F 1 "BT-4-V150H-4.8V_1" H 6200 3050 50  0000 L CNN
-F 2 "AllModules:BT-4-V150H-4.8V_1" H 6200 2975 50  0001 L CIN
-F 3 "" V 6100 3110 50  0001 C CNN
-F 4 "10022129" H 6200 3250 50  0001 L CNN "Item Number"
-F 5 "BATTERY NI-MH TYPE V150H 4.8V" H 0   0   50  0001 C CNN "Description"
-F 6 "VARTA                           (917650)" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "VARTA_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "55615 604 059" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "55615604940" H 0   0   50  0001 C CNN "Manufacturer_No3"
-	1    6100 3050
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 4100 2150 4100
@@ -3079,4 +3060,22 @@ F 3 "" H 13900 6100 50  0001 C CNN
 	1    13900 6100
 	-1   0    0    1   
 $EndComp
+$Comp
+L V_Battery:BT-4-V150H BAT1
+U 1 1 5EC2DBAB
+P 6100 3050
+F 0 "BAT1" H 6200 3150 50  0000 L CNN
+F 1 "BT-4-V150H-4.8V_1" H 5750 3040 50  0000 L CNN
+F 2 "AllModules:BT-4-V150H-4.8V_1" V 5950 3050 50  0001 C CIN
+F 3 "" V 6100 3110 50  0001 C CNN
+F 4 "10022129" H 6350 3300 50  0001 L CNN "Item Number"
+F 5 "BATTERY NI-MH TYPE V150H 4.8V" H 6350 3225 50  0001 L CNN "Description"
+F 6 "VARTA                           (917650)" H 6500 2980 50  0001 L CNN "Manufacturer"
+F 7 "55615 604 059" H 6500 2920 50  0001 L CNN "Manufacturer_No"
+F 8 "VARTA_RMS1" H 6500 2740 50  0001 L CNN "Manufacturer3"
+F 9 "55615604940" H 6500 2680 50  0001 L CNN "Manufacturer_No3"
+	1    6100 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 2850
 $EndSCHEMATC
