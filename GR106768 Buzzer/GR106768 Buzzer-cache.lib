@@ -1129,16 +1129,17 @@ ENDDEF
 #
 # V_Mechanical_Via
 #
-DEF V_Mechanical_Via H 0 40 Y Y 1 F N
-F0 "H" 30 30 50 H V L CNN
+DEF V_Mechanical_Via V 0 40 N N 1 F N
+F0 "V" 30 30 50 H V L CNN
 F1 "V_Mechanical_Via" 30 -30 35 H V L CNN
-F2 "" 0 0 50 H I C CNN
+F2 "AllModules:Via_12x32" 0 -100 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  MountingHole*
 $ENDFPLIST
 DRAW
 C 0 0 18 0 1 12 N
+X # 1 0 0 0 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1203,13 +1204,13 @@ ENDDEF
 # V_Power_GND
 #
 DEF V_Power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 150 -50 50 H I C CNN
-F1 "V_Power_GND" 0 -140 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "V_Power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 1 1 0 -100 -100 100 -100 N
-X GND 1 0 0 100 D 0 0 1 1 W
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
