@@ -900,8 +900,6 @@ Wire Wire Line
 	5625 7850 5175 7850
 Text Label 5175 7675 0    50   ~ 0
 EEPROM_BAT
-Text Label 6375 2950 2    50   ~ 0
-CG
 NoConn ~ 1650 6550
 NoConn ~ 1650 7000
 $Comp
@@ -1091,10 +1089,4 @@ F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4850 2450
 	1    0    0    1   
 $EndComp
-Text Label 4900 2250 0    50   ~ 0
-B
-Text Label 4900 2650 0    50   ~ 0
-PSG
-Text Label 6375 2250 0    50   ~ 0
-CB
 $EndSCHEMATC
