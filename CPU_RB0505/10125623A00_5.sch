@@ -872,7 +872,7 @@ Connection ~ 3900 6400
 Wire Wire Line
 	4000 6250 4000 6400
 $Comp
-L V_Capacitor:C_10uF_50V_10%_0 C117
+L V_Capacitor:C_10uF_50V_10%_TANT C117
 U 1 1 E481EE55
 P 2700 9300
 AR Path="/E481EE55" Ref="C117"  Part="1" 
@@ -1431,9 +1431,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 8550 6050 8650
 Wire Wire Line
-	2700 9050 2700 9200
-Wire Wire Line
-	2700 9400 2700 9700
+	2700 9450 2700 9700
 Wire Wire Line
 	2400 4050 2400 4650
 $Comp
@@ -1793,4 +1791,6 @@ F 3 "" H 7850 6200 50  0001 C CNN
 	1    7850 6200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2700 9050 2700 9150
 $EndSCHEMATC
