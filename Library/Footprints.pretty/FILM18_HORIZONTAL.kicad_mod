@@ -1,15 +1,9 @@
-(module FILM18_HORIZONTAL locked placed (layer F.Cu) (tedit 5EB57CE0)
-  (fp_text reference cam5 (at 0 0) (layer F.SilkS) hide
+(module FILM18_HORIZONTAL placed (layer F.Cu) (tedit 5EB5A52B)
+  (fp_text reference cam1 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value FILM18_HORIZONTAL (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "Face 3" (at 18 78.99594) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.05)) (justify left mirror))
-  )
-  (fp_text user "Face 2" (at -18 78.99594) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.05)) (justify left))
   )
   (fp_text user Detourage (at -18 78.99594) (layer Dwgs.User)
     (effects (font (size 1 1) (thickness 0.05)) (justify left))
@@ -61,9 +55,6 @@
   )
   (fp_text user "France Etudes Electroniques " (at -99.695 82.22992) (layer F.Cu)
     (effects (font (size 1 1) (thickness 0.05)))
-  )
-  (fp_text user "Pate a braser face soudures" (at 18 78.99594) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.05)) (justify left mirror))
   )
   (fp_text user "Vernis epargne face soudures" (at 18 78.99594) (layer B.Mask)
     (effects (font (size 1 1) (thickness 0.05)) (justify left mirror))

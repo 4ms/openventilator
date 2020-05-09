@@ -1,10 +1,10 @@
-(module VIA-100X04-VE (layer F.Cu) (tedit 5EB64E85)
-  (fp_text reference V1 (at 0 2.54) (layer F.SilkS)
+(module VIA-100X04-VE locked (layer F.Cu) (tedit 5EB5A52A)
+  (fp_text reference V1 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VIA-100X04-VE (at 0 -2.54) (layer F.Fab)
+  (fp_text value VIA-100X04-VE (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad ~ thru_hole circle (at 0 0) (size 1.06 1.06) (drill 0.4) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.1016))
+  (pad ~ thru_hole circle (at 0 0) (size 1.016 1.016) (drill 0.4) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016) (zone_connect 2))
 )
