@@ -1208,7 +1208,7 @@ F 7 "74279266" H 14550 5050 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L V_Inductor:R_470R_5% L5
+L V_Resistor:R0603_470R_5% L5
 U 1 1 E13C76CE
 P 8650 4950
 F 0 "L5" H 8588 4928 43  0000 L BNN
