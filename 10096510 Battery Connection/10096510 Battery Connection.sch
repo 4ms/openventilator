@@ -1089,4 +1089,8 @@ F 11 "C0603C103K5RACTU" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4850 2450
 	1    0    0    1   
 $EndComp
+Text Label 2200 4600 0    50   ~ 0
+N$5
+Text Label 2975 4600 0    50   ~ 0
+N$4
 $EndSCHEMATC
