@@ -1,17 +1,148 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +10VREF
+D Power symbol creates a global label with name "+10VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +15V
+D Power symbol creates a global label with name "+15V"
+K power-flag
+$ENDCMP
+#
+$CMP +24V
+D Power symbol creates a global label with name "+24V"
+K power-flag
+$ENDCMP
+#
+$CMP +24VUTIL
+D Power symbol creates a global label with name "+24VUTIL"
+K power-flag
+$ENDCMP
+#
+$CMP +3,3V
+D Power symbol creates a global label with name "+3,3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3.0VREF
+D Power symbol creates a global label with name "+3.0VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +5VPIC
+D Power symbol creates a global label with name "+5VPIC"
+K power-flag
+$ENDCMP
+#
+$CMP +5VREF
+D Power symbol creates a global label with name "+5VREF"
+K power-flag
+$ENDCMP
+#
+$CMP +BATTV
+D Power symbol creates a global label with name "+BATTV"
+K power-flag
+$ENDCMP
+#
+$CMP +VDC_PERM
+D Power symbol creates a global label with name "+VDC_PERM"
+K power-flag
+$ENDCMP
+#
+$CMP -12V
+D Power symbol creates a global label with name "-12V"
+K power-flag
+$ENDCMP
+#
 $CMP 0VANA
 D Power symbol creates a global label with name "0VANA" , analog ground
+K power-flag ground gnd
+$ENDCMP
+#
+$CMP B
+D Power symbol creates a global label with name "B"
 K power-flag
+$ENDCMP
+#
+$CMP CB
+D Power symbol creates a global label with name "CB"
+K power-flag
+$ENDCMP
+#
+$CMP CG
+D Power symbol creates a global label with name "CG"
+K power-flag ground gnd
 $ENDCMP
 #
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
+K power-flag ground gnd
+$ENDCMP
+#
+$CMP GNDA
+D Power symbol creates a global label with name "GNDA" , analog ground
+K power-flag ground gnd
+$ENDCMP
+#
+$CMP PGND
+D Power symbol creates a global label with name "PGND" , power ground
+K power-flag ground gnd
+$ENDCMP
+#
+$CMP PGND1
+D Power symbol creates a global label with name "PGND1" , power ground
+K power-flag ground gnd
+$ENDCMP
+#
+$CMP PSG
+D Power symbol creates a global label with name "GNDS" , power signal ground?
+K power-flag ground gnd
+$ENDCMP
+#
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
 K power-flag
 $ENDCMP
 #
-$CMP GND-CPU
-D Power symbol creates a global label with name "GND" , ground
+$CMP VACDC
+D Power symbol creates a global label with name "VACDC"
+K power-flag
+$ENDCMP
+#
+$CMP VALIM
+D Power symbol creates a global label with name "VALIM"
+K power-flag
+$ENDCMP
+#
+$CMP VALIM_PERM
+D Power symbol creates a global label with name "VALIM_PERM"
+K power-flag
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VBAT"
+K power-flag
+$ENDCMP
+#
+$CMP VDCEXT
+D Power symbol creates a global label with name "VDCEXT"
+K power-flag
 $ENDCMP
 #
 #End Doc Library
