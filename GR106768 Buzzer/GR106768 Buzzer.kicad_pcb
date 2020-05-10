@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -62,7 +62,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFF7B7A7)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -6484,7 +6484,7 @@
 
   (module NR4012 placed (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB84628)
     (at 147.719 79.487 180)
-    (fp_text reference L4-2 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference ZL4 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SF-BC-NR4012 (at 0 2 180) (layer F.Fab) hide
@@ -6521,7 +6521,7 @@
 
   (module NR4012 placed (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB843C4)
     (at 146.195 71.74)
-    (fp_text reference L3-2 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference ZL3 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SF-BC-NR4012 (at 0 2) (layer F.Fab) hide
@@ -6558,7 +6558,7 @@
 
   (module NR4018 placed (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB84160)
     (at 136.3525 71.74 180)
-    (fp_text reference L2-2 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference ZL2 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SF-BC-NR4018 (at 0 2 180) (layer F.Fab) hide
@@ -6634,7 +6634,7 @@
       (net 78 /-12V) (zone_connect 2))
   )
 
-  (module WETPC-S placed (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB83C8F)
+  (module WETPC-S placed (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB88980)
     (at 146.195 71.74)
     (fp_text reference L3 (at -0.5365 0.5635) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))

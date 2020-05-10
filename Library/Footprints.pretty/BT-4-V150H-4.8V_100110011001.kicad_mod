@@ -1,4 +1,4 @@
-(module BT-4-V150H-4.8V_100110011001 locked placed (layer F.Cu) (tedit 5EB76E8B)
+(module BT-4-V150H-4.8V_100110011001 locked placed (layer F.Cu) (tedit 5EB8037B)
   (fp_text reference BAT1 (at -3.041 0.703 180) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left bottom))
   )
@@ -52,4 +52,9 @@
     (solder_mask_margin 0.1016) (zone_connect 2))
   (pad + thru_hole rect (at -5 -12.4) (size 2.667 2.667) (drill 1.3208) (layers F&B.Cu *.Mask)
     (solder_mask_margin 0.1016) (zone_connect 2))
+  (model ${KIPRJMOD}/../Library/Footprints.3dshapes/VARTA_Battery.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

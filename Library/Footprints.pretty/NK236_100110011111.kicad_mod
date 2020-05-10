@@ -1,5 +1,5 @@
-(module NK236_100110011111 placed (layer F.Cu) (tedit 5EB770EA)
-  (fp_text reference SW1 (at 1.486 1.148) (layer F.SilkS)
+(module NK236_100110011111 placed (layer F.Cu) (tedit 5EB801F5)
+  (fp_text reference Ref** (at -5.5 -1.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.1)) (justify left bottom))
   )
   (fp_text value SI-10-NK236 (at 0 2) (layer F.Fab) hide
@@ -35,4 +35,9 @@
     (solder_mask_margin 0.1016) (clearance 0.1524) (zone_connect 2) (thermal_width 0.2032) (thermal_gap 0.2032))
   (pad 1 thru_hole circle (at 0 0) (size 1.4732 1.4732) (drill 0.8128) (layers F&B.Cu *.Mask)
     (solder_mask_margin 0.1016) (clearance 0.1524) (zone_connect 2) (thermal_width 0.2032) (thermal_gap 0.2032))
+  (model ${KIPRJMOD}/../Library/Footprints.3dshapes/NK_1511073_cp.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
