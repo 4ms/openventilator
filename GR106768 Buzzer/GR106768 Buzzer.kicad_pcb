@@ -62,7 +62,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFF6B7A7)
+    (visible_elements FFF7B7A7)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -265,6 +265,201 @@
     (add_net /VBAT)
     (add_net /VCHARG)
     (add_net GND)
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB7654C)
+    (at 132.7965 83.7415)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V173 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 8 /VCHARG) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB76318)
+    (at 130.447 103.807501)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V172 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 22 /BATTV) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB73DB4)
+    (at 150.3225 90.663)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V161 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 3 /SHDN1) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB73B80)
+    (at 155.72 90.663)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V160 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 4 /SHDN2) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB7394C)
+    (at 159.276 96.7375)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V159 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 12 /N$10) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB732B0)
+    (at 142.0675 73.3275)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V156 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 4 /SHDN2) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB7307C)
+    (at 140.48 73.3275)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V155 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 3 /SHDN1) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._._.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB646F4)
+    (at 143.528 90.27289)
+    (descr "4 layer Via with 32mil pads on only the front and back layers, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V49 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
+      (net 8 /VCHARG) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB75A50)
+    (at 161.435 101.077)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V171 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
+      (net 8 /VCHARG) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB753B4)
+    (at 139.083 110.602)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V168 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
+      (net 2 /INHIB-STOP-INV) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB75180)
+    (at 138.1813 96.251)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V167 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
+      (net 82 /+5V) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB74F4C)
+    (at 139.083 102.22)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V166 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
+      (net 2 /INHIB-STOP-INV) (solder_mask_margin 0.1016) (zone_connect 2))
+  )
+
+  (module AllModules:Via_12x32-1._.3.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB74D18)
+    (at 134.638 103.998001)
+    (descr "4 layer Via, 32mil pads except on layer 2, 12mil hole.")
+    (tags via)
+    (attr virtual)
+    (fp_text reference V165 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
+      (net 8 /VCHARG) (solder_mask_margin 0.1016) (zone_connect 2))
   )
 
   (module AllModules:Via_12x32-1._.3.4 locked (layer F.Cu) (tedit 5EB6C3FA) (tstamp 5EB74450)
@@ -10078,162 +10273,6 @@
       (net 23 /N$20) (solder_mask_margin 0.1016) (zone_connect 2))
     (pad + thru_hole rect (at -5 12.4 180) (size 2.667 2.667) (drill 1.3208) (layers F&B.Cu *.Mask)
       (net 22 /BATTV) (solder_mask_margin 0.1016) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB7654C)
-    (at 132.7965 83.7415)
-    (fp_text reference V173 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 8 /VCHARG) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB76318)
-    (at 130.447 103.807501)
-    (fp_text reference V172 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 22 /BATTV) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1011 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB75A50)
-    (at 161.435 101.077)
-    (fp_text reference V171 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1011 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
-      (net 8 /VCHARG) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1011 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB753B4)
-    (at 139.083 110.602)
-    (fp_text reference V168 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1011 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
-      (net 2 /INHIB-STOP-INV) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1011 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB75180)
-    (at 138.1813 96.251)
-    (fp_text reference V167 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1011 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
-      (net 82 /+5V) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1011 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB74F4C)
-    (at 139.083 102.22)
-    (fp_text reference V166 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1011 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
-      (net 2 /INHIB-STOP-INV) (zone_connect 2))
-  )
-
-  (module VIA-08X03_1011 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB74D18)
-    (at 134.638 103.998001)
-    (fp_text reference V165 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03_1011 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu In2.Cu B.Cu)
-      (net 8 /VCHARG) (zone_connect 2))
-  )
-
-  (module VIA-08X03-VE_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB73DB4)
-    (at 150.3225 90.663)
-    (fp_text reference V161 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03-VE_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 3 /SHDN1) (solder_mask_margin 0.1016) (zone_connect 2))
-  )
-
-  (module VIA-08X03-VE_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB73B80)
-    (at 155.72 90.663)
-    (fp_text reference V160 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03-VE_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 4 /SHDN2) (solder_mask_margin 0.1016) (zone_connect 2))
-  )
-
-  (module VIA-08X03-VE_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB7394C)
-    (at 159.276 96.7375)
-    (fp_text reference V159 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03-VE_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 12 /N$10) (solder_mask_margin 0.1016) (zone_connect 2))
-  )
-
-  (module VIA-08X03-VE_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB732B0)
-    (at 142.0675 73.3275)
-    (fp_text reference V156 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03-VE_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 4 /SHDN2) (solder_mask_margin 0.1016) (zone_connect 2))
-  )
-
-  (module VIA-08X03-VE_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB7307C)
-    (at 140.48 73.3275)
-    (fp_text reference V155 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03-VE_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 3 /SHDN1) (solder_mask_margin 0.1016) (zone_connect 2))
-  )
-
-  (module VIA-08X03-VE_1001 locked (layer F.Cu) (tedit 5EB5CDDC) (tstamp 5EB646F4)
-    (at 143.528 90.27289)
-    (fp_text reference V49 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VIA-08X03-VE_1001 (at 0 2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers F&B.Cu *.Mask)
-      (net 8 /VCHARG) (solder_mask_margin 0.1016) (zone_connect 2))
   )
 
   (gr_poly (pts (xy 139.53801 112.15196) (xy 139.488025 112.138567) (xy 139.451433 112.101975) (xy 139.43804 112.05199) (xy 139.43804 111.20625) (xy 139.442757 111.175901) (xy 139.456465 111.148417) (xy 139.47787 111.12639) (xy 139.555935 111.057235) (xy 139.622063 110.976589) (xy 139.674584 110.886488) (xy 139.712173 110.789206) (xy 139.733881 110.687199) (xy 139.739159 110.583041) (xy 139.727876 110.479362) (xy 139.700314 110.378778) (xy 139.657172 110.283829) (xy 139.599536 110.19691) (xy 139.528862 110.120217) (xy 139.446934 110.055684) (xy 139.35582 110.00494) (xy 139.300207 109.937568) (xy 139.318786 109.852205) (xy 139.39737 109.81404) (xy 149.497 109.81404) (xy 149.58889 109.801942) (xy 149.674519 109.766473) (xy 149.74805 109.71005) (xy 161.11785 98.34025) (xy 161.174272 98.26672) (xy 161.209741 98.181091) (xy 161.22184 98.0892) (xy 161.22184 89.9678) (xy 161.209741 89.87591) (xy 161.174272 89.790281) (xy 161.11785 89.71675) (xy 160.54305 89.14195) (xy 160.469519 89.085528) (xy 160.38389 89.050059) (xy 160.292 89.03796) (xy 157.55947 89.03796) (xy 157.533595 89.034554) (xy 157.509484 89.024567) (xy 157.48878 89.00868) (xy 157.24732 88.76722) (xy 157.231433 88.746516) (xy 157.221446 88.722405) (xy 157.21804 88.69653) (xy 157.21804 88.49451) (xy 157.231433 88.444525) (xy 157.268025 88.407934) (xy 157.31801 88.39454) (xy 158.133 88.39454) (xy 158.25802 88.361041) (xy 158.34954 88.26952) (xy 158.38304 88.1445) (xy 158.38304 85.1445) (xy 158.34954 85.01948) (xy 158.25802 84.92796) (xy 158.133 84.89446) (xy 157.70119 84.89446) (xy 157.626695 84.861164) (xy 157.601826 84.78345) (xy 157.64315 84.71309) (xy 157.699402 84.657672) (xy 157.735567 84.587475) (xy 157.74804 84.5095) (xy 157.74804 84.21451) (xy 157.761433 84.164525) (xy 157.798025 84.127934) (xy 157.84801 84.11454) (xy 159.55872 84.11454) (xy 159.627733 84.142184) (xy 159.65858 84.209827) (xy 159.6342 84.28006) (xy 159.600832 84.32927) (xy 159.580027 84.384967) (xy 159.57296 84.444) (xy 159.57296 84.944) (xy 159.589195 85.032636) (xy 159.635796 85.109762) (xy 159.70671 85.16536) (xy 159.749749 85.208313) (xy 159.759939 85.268259) (xy 159.73351 85.32302) (xy 159.696256 85.373887) (xy 159.672912 85.432455) (xy 159.66496 85.495) (xy 159.66496 87.195) (xy 159.672912 87.257546) (xy 159.696256 87.316114) (xy 159.73351 87.36698) (xy 159.759939 87.421742) (xy 159.749749 87.481688) (xy 159.70671 87.52464) (xy 159.635796 87.580239) (xy 159.589195 87.657365) (xy 159.57296 87.746001) (xy 159.57296 88.246) (xy 159.606459 88.37102) (xy 159.69798 88.462541) (xy 159.823 88.49604) (xy 161.523 88.49604) (xy 161.600201 88.483829) (xy 161.66986 88.448377) (xy 161.72517 88.39315) (xy 161.747335 88.370571) (xy 161.775447 88.356049) (xy 161.80669 88.35104) (xy 161.943 88.35104) (xy 162.03489 88.338942) (xy 162.120519 88.303473) (xy 162.19405 88.24705) (xy 162.31478 88.12632) (xy 162.335484 88.110434) (xy 162.359595 88.100447) (xy 162.38547 88.09704) (xy 162.96831 88.09704) (xy 162.999552 88.102049) (xy 163.027664 88.116571) (xy 163.04983 88.13915) (xy 163.07089 88.164408) (xy 163.095083 88.186683) (xy 163.12199 88.20559) (xy 163.168727 88.275148) (xy 163.146105 88.355837) (xy 163.07002 88.39096) (xy 162.602 88.39096) (xy 162.47698 88.42446) (xy 162.385459 88.51598) (xy 162.35196 88.641) (xy 162.35196 89.891) (xy 162.385459 90.01602) (xy 162.47698 90.107541) (xy 162.602 90.14104) (xy 163.07002 90.14104) (xy 163.146105 90.176164) (xy 163.168727 90.256853) (xy 163.12199 90.32641) (xy 163.095083 90.345318) (xy 163.07089 90.367593) (xy 163.04983 90.39285) (xy 163.027664 90.41543) (xy 162.999552 90.429952) (xy 162.96831 90.43496) (xy 162.324 90.43496) (xy 162.232109 90.447059) (xy 162.14648 90.482528) (xy 162.07295 90.53895) (xy 161.56495 91.04695) (xy 161.508527 91.120481) (xy 161.473058 91.20611) (xy 161.46096 91.298) (xy 161.46096 94.727) (xy 161.473058 94.818891) (xy 161.508527 94.90452) (xy 161.56495 94.97805) (xy 161.94595 95.35905) (xy 162.01948 95.415473) (xy 162.105109 95.450942) (xy 162.197 95.46304) (xy 162.96831 95.46304) (xy 162.999552 95.468049) (xy 163.027664 95.482571) (xy 163.04983 95.50515) (xy 163.105139 95.560377) (xy 163.174798 95.595829) (xy 163.252 95.60804) (xy 163.852 95.60804) (xy 163.917531 95.599299) (xy 163.978481 95.573689) (xy 164.03059 95.533) (xy 164.075796 95.506487) (xy 164.128203 95.506487) (xy 164.17341 95.533) (xy 164.225518 95.573689) (xy 164.286468 95.599299) (xy 164.352 95.60804) (xy 164.952 95.60804) (xy 164.974138 95.607059) (xy 164.996102 95.604121) (xy 165.01772 95.59925) (xy 165.077925 95.601673) (xy 165.125803 95.638257) (xy 165.14396 95.69571) (xy 165.14396 96.886) (xy 165.156058 96.977891) (xy 165.191527 97.06352) (xy 165.24795 97.13705) (xy 165.62895 97.51805) (xy 165.70248 97.574473) (xy 165.788109 97.609942) (xy 165.88 97.62204) (xy 170.13653 97.62204) (xy 170.162404 97.625447) (xy 170.186515 97.635434) (xy 170.20722 97.65132) (xy 171.21068 98.65478) (xy 171.226566 98.675485) (xy 171.236553 98.699596) (xy 171.23996 101.31434) (xy 170.452 101.31434) (xy 170.57702 101.280841) (xy 170.66854 101.18932) (xy 170.70204 101.0643) (xy 170.70204 100.4547) (xy 170.66854 100.32968) (xy 170.57702 100.23816) (xy 170.452 100.20466) (xy 170.27201 100.20466) (xy 170.222025 100.191267) (xy 170.185433 100.154675) (xy 170.17204 100.10469) (xy 170.17204 99.5647) (xy 170.159941 99.47281) (xy 170.124472 99.387181) (xy 170.06805 99.31365) (xy 169.92935 99.17495) (xy 169.864159 99.123495) (xy 169.788797 99.088591) (xy 169.70739 99.07215) (xy 169.645012 99.043438) (xy 169.615873 98.981259) (xy 169.63372 98.91495) (xy 169.685225 98.828386) (xy 169.72288 98.73496) (xy 169.745798 98.636873) (xy 169.75344 98.536434) (xy 169.745625 98.436009) (xy 169.722538 98.337962) (xy 169.684721 98.244601) (xy 169.633066 98.158126) (xy 169.568789 98.080571) (xy 169.493404 98.013763) (xy 169.408684 97.959275) (xy 169.316626 97.918391) (xy 169.219396 97.892072) (xy 169.119284 97.880939) (xy 169.018648 97.885254) (xy 168.919856 97.904914) (xy 168.825236 97.939458) (xy 168.737015 97.988071) (xy 168.657269 98.04961) (xy 168.587878 98.122624) (xy 168.530474 98.205396) (xy 168.48641 98.295975) (xy 168.456723 98.39223) (xy 168.442112 98.491893) (xy 168.442921 98.592619) (xy 168.45913 98.692035) (xy 168.49036 98.7878) (xy 168.494523 98.851912) (xy 168.458809 98.905318) (xy 168.39797 98.92596) (xy 167.697 98.92596) (xy 167.57198 98.95946) (xy 167.480459 99.05098) (xy 167.44696 99.176) (xy 167.44696 99.676) (xy 167.480459 99.80102) (xy 167.57198 99.892541) (xy 167.697 99.92604) (xy 169.36199 99.92604) (xy 169.411975 99.939434) (xy 169.448566 99.976025) (xy 169.46196 100.02601) (xy 169.46196 100.10469) (xy 169.448566 100.154675) (xy 169.411975 100.191267) (xy 169.36199 100.20466) (xy 169.182 100.20466) (xy 169.05698 100.23816) (xy 168.965459 100.32968) (xy 168.93196 100.4547) (xy 168.93196 101.0643) (xy 168.965459 101.18932) (xy 169.05698 101.280841) (xy 169.182 101.31434) (xy 170.452 101.31434) (xy 171.23996 101.31434) (xy 171.23996 98.72547) (xy 171.23996 105.33353) (xy 171.236553 105.359405) (xy 171.226566 105.383516) (xy 171.21068 105.40422) (xy 165.65742 110.95748) (xy 165.596695 110.986265) (xy 165.531466 110.9701) (xy 165.49121 110.91629) (xy 165.451768 110.817692) (xy 165.396945 110.726744) (xy 165.328174 110.645826) (xy 165.247256 110.577055) (xy 165.156308 110.522232) (xy 165.05771 110.48279) (xy 165.0039 110.442534) (xy 164.987735 110.377305) (xy 165.01652 110.31658) (xy 169.34805 105.98505) (xy 169.404472 105.91152) (xy 169.439941 105.825891) (xy 169.45204 105.734) (xy 169.45204 104.56181) (xy 169.45883 104.525598) (xy 169.478277 104.494304) (xy 169.50774 104.47218) (xy 169.546897 104.448127) (xy 169.580991 104.417313) (xy 169.60887 104.38078) (xy 169.623915 104.362171) (xy 169.642952 104.347671) (xy 169.66489 104.33811) (xy 169.719297 104.316789) (xy 169.76947 104.286832) (xy 169.81405 104.24905) (xy 170.06805 103.99505) (xy 170.124472 103.92152) (xy 170.159941 103.835891) (xy 170.17204 103.744) (xy 170.17204 103.319311) (xy 170.185433 103.269325) (xy 170.222025 103.232734) (xy 170.27201 103.21934) (xy 170.452 103.21934) (xy 170.57702 103.185841) (xy 170.66854 103.09432) (xy 170.70204 102.9693) (xy 170.70204 102.3597) (xy 170.66854 102.23468) (xy 170.57702 102.14316) (xy 170.452 102.10966) (xy 169.182 102.10966) (xy 169.05698 102.14316) (xy 168.965459 102.23468) (xy 168.93196 102.3597) (xy 168.93196 102.9693) (xy 168.965459 103.09432) (xy 169.05698 103.185841) (xy 169.182 103.21934) (xy 169.36199 103.21934) (xy 169.411975 103.232734) (xy 169.448566 103.269325) (xy 169.46196 103.319311) (xy 169.46196 103.39799) (xy 169.448566 103.447975) (xy 169.411975 103.484567) (xy 169.36199 103.49796) (xy 168.797 103.49796) (xy 168.752141 103.502019) (xy 168.708738 103.514059) (xy 168.6682 103.53369) (xy 168.65199 103.541538) (xy 168.634636 103.54635) (xy 168.6167 103.54797) (xy 168.4773 103.54797) (xy 168.459363 103.54635) (xy 168.442009 103.541538) (xy 168.4258 103.53369) (xy 168.385261 103.514059) (xy 168.341858 103.502019) (xy 168.297 103.49796) (xy 167.73201 103.49796) (xy 167.682025 103.484567) (xy 167.645433 103.447975) (xy 167.63204 103.39799) (xy 167.63204 103.319311) (xy 167.645433 103.269325) (xy 167.682025 103.232734) (xy 167.73201 103.21934) (xy 167.912 103.21934) (xy 168.03702 103.185841) (xy 168.12854 103.09432) (xy 168.16204 102.9693) (xy 168.16204 100.4547) (xy 168.12854 100.32968) (xy 168.03702 100.23816) (xy 167.912 100.20466) (xy 166.642 100.20466) (xy 166.550245 100.222105) (xy 166.471293 100.272002) (xy 166.41616 100.34739) (xy 166.394116 100.377535) (xy 166.362547 100.397486) (xy 166.32586 100.40446) (xy 165.82701 100.40446) (xy 165.777025 100.391067) (xy 165.740433 100.354475) (xy 165.72704 100.30449) (xy 165.72704 98.6005) (xy 165.714941 98.50861) (xy 165.679472 98.422981) (xy 165.62305 98.34945) (xy 165.30555 98.03195) (xy 165.279318 98.008209) (xy 165.250854 97.987196) (xy 165.22044 97.96912) (xy 165.202927 97.957345) (xy 165.188276 97.942157) (xy 165.17714 97.92423) (xy 165.121915 97.849567) (xy 165.043251 97.800207) (xy 164.952 97.78296) (xy 164.18376 97.78296) (xy 164.118015 97.758298) (xy 164.084708 97.696482) (xy 164.10027 97.62801) (xy 164.149313 97.539304) (xy 164.184116 97.444104) (xy 164.203848 97.344682) (xy 164.208039 97.243407) (xy 164.19659 97.142694) (xy 164.169773 97.044945) (xy 164.128228 96.952489) (xy 164.072944 96.86753) (xy 164.005241 96.792095) (xy 163.926732 96.727982) (xy 163.839289 96.67672) (xy 163.744997 96.63953) (xy 163.646103 96.617299) (xy 163.544966 96.610557) (xy 163.443997 96.619465) (xy 163.345602 96.643811) (xy 163.252129 96.683014) (xy 163.165805 96.73614) (xy 163.088688 96.801921) (xy 163.022618 96.87879) (xy 162.969168 96.964914) (xy 162.929614 97.058239) (xy 162.904899 97.156541) (xy 162.895612 97.257477) (xy 162.901973 97.358638) (xy 162.923833 97.457615) (xy 162.960668 97.552046) (xy 163.011602 97.639681) (xy 163.07542 97.71843) (xy 163.099864 97.763081) (xy 163.099152 97.81398) (xy 163.07347 97.85793) (xy 163.034646 97.909394) (xy 163.010269 97.969073) (xy 163.00196 98.033) (xy 163.00196 98.533) (xy 163.035459 98.65802) (xy 163.12698 98.749541) (xy 163.252 98.78304) (xy 164.91699 98.78304) (xy 164.966975 98.796434) (xy 165.003566 98.833025) (xy 165.01696 98.88301) (xy 165.01696 99.07999) (xy 165.003566 99.129975) (xy 164.966975 99.166567) (xy 164.91699 99.17996) (xy 163.252 99.17996) (xy 163.174798 99.192172) (xy 163.105139 99.227624) (xy 163.04983 99.28285) (xy 163.027664 99.30543) (xy 162.999552 99.319952) (xy 162.96831 99.32496) (xy 162.92825 99.32496) (xy 162.8979 99.320243) (xy 162.870416 99.306535) (xy 162.84839 99.28513) (xy 162.780666 99.208446) (xy 162.70185 99.143216) (xy 162.613856 99.091024) (xy 162.518822 99.053139) (xy 162.419054 99.03048) (xy 162.316978 99.023598) (xy 162.215072 99.03266) (xy 162.115812 99.057446) (xy 162.021609 99.097354) (xy 161.93475 99.151414) (xy 161.857347 99.218314) (xy 161.791278 99.296429) (xy 161.738149 99.38386) (xy 161.69925 99.478484) (xy 161.675526 99.578004) (xy 161.667554 99.68) (xy 161.675526 99.781997) (xy 161.69925 99.881517) (xy 161.738149 99.976141) (xy 161.791278 100.063572) (xy 161.857347 100.141687) (xy 161.93475 100.208587) (xy 162.021609 100.262647) (xy 162.115812 100.302555) (xy 162.215072 100.327341) (xy 162.316978 100.336403) (xy 162.419054 100.329521) (xy 162.518822 100.306862) (xy 162.613856 100.268977) (xy 162.70185 100.216785) (xy 162.780666 100.151555) (xy 162.84839 100.07487) (xy 162.870416 100.053466) (xy 162.8979 100.039758) (xy 162.92825 100.03504) (xy 162.96831 100.03504) (xy 162.999552 100.040049) (xy 163.027664 100.054571) (xy 163.04983 100.07715) (xy 163.105139 100.132377) (xy 163.174798 100.167829) (xy 163.252 100.18004) (xy 164.91699 100.18004) (xy 164.966975 100.193434) (xy 165.003566 100.230025) (xy 165.01696 100.28001) (xy 165.01696 100.47699) (xy 165.003566 100.526975) (xy 164.966975 100.563567) (xy 164.91699 100.57696) (xy 163.252 100.57696) (xy 163.166485 100.592042) (xy 163.091285 100.635461) (xy 163.03547 100.70198) (xy 163.01315 100.728575) (xy 162.983081 100.745932) (xy 162.94889 100.75196) (xy 162.06072 100.75196) (xy 162.028824 100.746737) (xy 162.000262 100.73161) (xy 161.97802 100.70816) (xy 161.914909 100.629116) (xy 161.840405 100.560706) (xy 161.756275 100.504553) (xy 161.664517 100.461992) (xy 161.56731 100.434033) (xy 161.466962 100.421339) (xy 161.365854 100.424212) (xy 161.266389 100.442584) (xy 161.170926 100.476019) (xy 161.081734 100.523722) (xy 161.000929 100.584562) (xy 160.930429 100.657093) (xy 160.87191 100.739594) (xy 160.826759 100.830106) (xy 160.79605 100.926479) (xy 160.780511 101.026426) (xy 160.780511 101.127575) (xy 160.79605 101.227522) (xy 160.826759 101.323895) (xy 160.87191 101.414407) (xy 160.930429 101.496908) (xy 161.000929 101.569439) (xy 161.081734 101.630279) (xy 161.170926 101.677982) (xy 161.266389 101.711417) (xy 161.365854 101.729789) (xy 161.466962 101.732662) (xy 161.56731 101.719968) (xy 161.664517 101.692009) (xy 161.756275 101.649448) (xy 161.840405 101.593295) (xy 161.914909 101.524885) (xy 161.97802 101.44584) (xy 162.000262 101.422391) (xy 162.028824 101.407264) (xy 162.06072 101.40204) (xy 162.94889 101.40204) (xy 162.983081 101.408069) (xy 163.01315 101.425426) (xy 163.03547 101.45202) (xy 163.091285 101.51854) (xy 163.166485 101.561959) (xy 163.252 101.57704) (xy 164.91699 101.57704) (xy 164.966975 101.590434) (xy 165.003566 101.627025) (xy 165.01696 101.67701) (xy 165.01696 101.87399) (xy 165.003566 101.923975) (xy 164.966975 101.960567) (xy 164.91699 101.97396) (xy 163.252 101.97396) (xy 163.12698 102.00746) (xy 163.035459 102.09898) (xy 163.00196 102.224) (xy 163.00196 102.724) (xy 163.035459 102.84902) (xy 163.12698 102.940541) (xy 163.252 102.97404) (xy 164.952 102.97404) (xy 165.029467 102.961739) (xy 165.099312 102.926041) (xy 165.15466 102.87046) (xy 165.176788 102.848235) (xy 165.204715 102.83396) (xy 165.23569 102.82904) (xy 165.245 102.82904) (xy 165.337123 102.81688) (xy 165.422935 102.781233) (xy 165.49656 102.72454) (xy 165.496606 102.724494) (xy 165.496653 102.724447) (xy 165.4967 102.7244) (xy 165.6224 102.5987) (xy 165.622446 102.598654) (xy 165.622493 102.598607) (xy 165.62254 102.59856) (xy 165.679232 102.524936) (xy 165.714879 102.439124) (xy 165.72704 102.347) (xy 165.72704 101.21451) (xy 165.740433 101.164525) (xy 165.777025 101.127934) (xy 165.82701 101.11454) (xy 166.29199 101.11454) (xy 166.341975 101.127934) (xy 166.378566 101.164525) (xy 166.39196 101.21451) (xy 166.39196 102.9693) (xy 166.425459 103.09432) (xy 166.51698 103.185841) (xy 166.642 103.21934) (xy 166.82199 103.21934) (xy 166.871975 103.232734) (xy 166.908566 103.269325) (xy 166.92196 103.319311) (xy 166.92196 103.57299) (xy 166.908566 103.622975) (xy 166.871975 103.659567) (xy 166.82199 103.67296) (xy 165.25511 103.67296) (xy 165.220918 103.666932) (xy 165.190849 103.649575) (xy 165.16853 103.62298) (xy 165.112714 103.556461) (xy 165.037514 103.513042) (xy 164.952 103.49796) (xy 163.252 103.49796) (xy 163.12698 103.53146) (xy 163.035459 103.62298) (xy 163.00196 103.748001) (xy 163.00196 104.248) (xy 163.035459 104.37302) (xy 163.12698 104.464541) (xy 163.252 104.49804) (xy 164.952 104.49804) (xy 165.037514 104.482959) (xy 165.112714 104.43954) (xy 165.16853 104.37302) (xy 165.190849 104.346426) (xy 165.220918 104.329069) (xy 165.25511 104.32304) (xy 167.39389 104.32304) (xy 167.428081 104.329069) (xy 167.45815 104.346426) (xy 167.48047 104.37302) (xy 167.536285 104.43954) (xy 167.611485 104.482959) (xy 167.697 104.49804) (xy 168.297 104.49804) (xy 168.341858 104.493982) (xy 168.385261 104.481942) (xy 168.4258 104.46231) (xy 168.442009 104.454463) (xy 168.459363 104.449651) (xy 168.4773 104.44803) (xy 168.6167 104.44803) (xy 168.634636 104.449651) (xy 168.65199 104.454463) (xy 168.6682 104.46231) (xy 168.674128 104.465765) (xy 168.68015 104.469056) (xy 168.68626 104.47218) (xy 168.715722 104.494304) (xy 168.735169 104.525598) (xy 168.74196 104.56181) (xy 168.74196 105.54553) (xy 168.738553 105.571405) (xy 168.728566 105.595516) (xy 168.71268 105.61622) (xy 163.37142 110.95748) (xy 163.310695 110.986265) (xy 163.245466 110.9701) (xy 163.20521 110.91629) (xy 163.167224 110.820635) (xy 163.114753 110.732092) (xy 163.049088 110.652839) (xy 162.971842 110.584824) (xy 162.884915 110.529719) (xy 162.790442 110.488879) (xy 162.690748 110.463307) (xy 162.588281 110.453632) (xy 162.485562 110.460092) (xy 162.385116 110.482529) (xy 162.28941 110.52039) (xy 162.200799 110.572745) (xy 162.121461 110.638306) (xy 162.053345 110.715464) (xy 161.998127 110.802319) (xy 161.957163 110.896738) (xy 161.931461 110.996399) (xy 161.921653 111.098853) (xy 161.92798 111.20158) (xy 161.927543 111.232292) (xy 161.917803 111.261422) (xy 161.89968 111.28622) (xy 161.06322 112.12268) (xy 161.042515 112.138567) (xy 161.018404 112.148554) (xy 160.99253 112.15196) (xy 139.53801 112.15196)) (layer F.Cu) (width 0))
