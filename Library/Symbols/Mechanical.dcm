@@ -18,10 +18,4 @@ K mounting hole
 F ~
 $ENDCMP
 #
-$CMP Via
-D Via symbol to use when making custom multi-layer vias
-K via
-F ~
-$ENDCMP
-#
 #End Doc Library
