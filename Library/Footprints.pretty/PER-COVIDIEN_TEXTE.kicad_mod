@@ -1,4 +1,4 @@
-(module PER-COVIDIEN_TEXTE placed (layer F.Cu) (tedit 5EB5F6F6)
+(module AllModules:PER-COVIDIEN_TEXTE placed (layer F.Cu) (tedit 5EB5F6F6)
   (fp_text reference cam2 (at 1.5 20.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
