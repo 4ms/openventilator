@@ -398,7 +398,7 @@ F 9 "RC0603JR-070RL" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 10 "RC0603JR-070RL" H 0   0   50  0001 C CNN "Manufacturer_No2"
 F 11 "RC0603JR-070RL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5850 3700
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5850 3900 5850 4125
@@ -3317,4 +3317,34 @@ Text Label 4200 10250 2    50   ~ 0
 VBAT
 Wire Wire Line
 	3800 10250 4200 10250
+$Comp
+L V_Power:PWR_FLAG #FLG0110
+U 1 1 5EC37679
+P 5850 3400
+F 0 "#FLG0110" H 5850 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 3573 50  0000 C CNN
+F 2 "" H 5850 3400 50  0001 C CNN
+F 3 "" H 5850 3400 50  0001 C CNN
+	1    5850 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 3400
+Text Label 4200 10050 2    50   ~ 0
++BATTV
+Wire Wire Line
+	3800 10050 4200 10050
+Text GLabel 3800 10050 0    50   Input ~ 0
++BATTV
+Text Label 5000 10650 2    50   ~ 0
+SHDN1
+Wire Wire Line
+	4700 10650 5000 10650
+Text Label 5000 10450 2    50   ~ 0
+SHDN2
+Wire Wire Line
+	4700 10450 5000 10450
+Text GLabel 4700 10650 0    50   Input ~ 0
+SHDN1
+Text GLabel 4700 10450 0    50   Input ~ 0
+SHDN2
 $EndSCHEMATC

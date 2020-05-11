@@ -813,25 +813,6 @@ F 11 "RC0402FR-07200KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	-1   0    0    1   
 $EndComp
 $Comp
-L V_Resistor:R0402_100k_1% R59
-U 1 1 5EA8B1EB
-P 13500 8250
-F 0 "R59" H 13500 8350 50  0000 C CNN
-F 1 "100k" H 13500 8250 50  0000 C CNN
-F 2 "AllModules:R0402_1" H 13500 8450 50  0001 C CNN
-F 3 "" H 13500 8250 50  0001 C CNN
-F 4 "RESISTOR 100K OHM, 0.063W, +/-1%, 0402" H 13500 8450 50  0001 C CNN "Description"
-F 5 "10022149" H 13500 8450 50  0001 C CNN "Item Number"
-F 6 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "CRCW0402100KFKED" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "RC0402FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "RC0402FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
-	1    13500 8250
-	0    1    1    0   
-$EndComp
-$Comp
 L V_Resistor:R0402_100k_1% R24
 U 1 1 5EA8E1A5
 P 13250 7000
@@ -2439,4 +2420,41 @@ Text Label 4250 10450 2    50   ~ 0
 VBAT
 Wire Wire Line
 	3850 10450 4250 10450
+Text Label 4250 10300 2    50   ~ 0
++BATTV
+Wire Wire Line
+	3850 10300 4250 10300
+Text GLabel 3850 10300 0    50   Input ~ 0
++BATTV
+Text Label 5250 10750 2    50   ~ 0
+SHDN1
+Wire Wire Line
+	4950 10750 5250 10750
+Text Label 5250 10550 2    50   ~ 0
+SHDN2
+Wire Wire Line
+	4950 10550 5250 10550
+Text GLabel 4950 10750 0    50   Input ~ 0
+SHDN1
+Text GLabel 4950 10550 0    50   Input ~ 0
+SHDN2
+$Comp
+L V_Resistor:R0402_100k_1% R59
+U 1 1 5EA8B1EB
+P 13500 8250
+F 0 "R59" H 13500 8350 50  0000 C CNN
+F 1 "100k" H 13500 8250 50  0000 C CNN
+F 2 "AllModules:R0402_1" H 13500 8450 50  0001 C CNN
+F 3 "" H 13500 8250 50  0001 C CNN
+F 4 "RESISTOR 100K OHM, 0.063W, +/-1%, 0402" H 13500 8450 50  0001 C CNN "Description"
+F 5 "10022149" H 13500 8450 50  0001 C CNN "Item Number"
+F 6 "VISHAY_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CRCW0402100KFKED" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "RC0402FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "RC0402FR-07100KL" H 0   0   50  0001 C CNN "Manufacturer_No3"
+	1    13500 8250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
