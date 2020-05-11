@@ -387,7 +387,7 @@ U 1 1 5EA158D9
 P 5850 3700
 F 0 "SJ1" V 5900 3900 50  0000 R CNN
 F 1 "Jumper_Small" H 6075 3600 50  0000 R CNN
-F 2 "AllModules:TB-CMS-AIROX-2_1" H 5850 3700 50  0001 C CNN
+F 2 "AllModules:TB-CMS-AIROX-2" H 5850 3700 50  0001 C CNN
 F 3 "" H 5850 3700 50  0001 C CNN
 F 4 "RESISTANCE, 0 OHM,0603" H 0   0   50  0001 C CNN "Description"
 F 5 "10023185" H 0   0   50  0001 C CNN "Item Number"
@@ -398,7 +398,7 @@ F 9 "RC0603JR-070RL" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 10 "RC0603JR-070RL" H 0   0   50  0001 C CNN "Manufacturer_No2"
 F 11 "RC0603JR-070RL" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5850 3700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5850 3900 5850 4125
