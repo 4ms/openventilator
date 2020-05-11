@@ -3233,4 +3233,88 @@ Text Label 8100 3500 2    50   ~ 0
 N$59
 Text Label 4825 3825 0    50   ~ 0
 N$55
+Text GLabel 3000 10550 0    50   Input ~ 0
+N$18
+Wire Wire Line
+	3000 10550 3300 10550
+Text Label 3300 10550 2    50   ~ 0
+N$18
+Text GLabel 1650 10550 0    50   Input ~ 0
+STOP-INV
+Wire Wire Line
+	1650 10550 2450 10550
+Text Label 2450 10550 2    50   ~ 0
+STOP-INV
+Text GLabel 3800 10550 0    50   Input ~ 0
+GT1
+Wire Wire Line
+	3800 10550 4200 10550
+Text Label 4200 10550 2    50   ~ 0
+GT1
+Text GLabel 3800 10700 0    50   Input ~ 0
+BUZ-ACT
+Wire Wire Line
+	3800 10700 4200 10700
+Text Label 4200 10700 2    50   ~ 0
+BUZ-ACT
+Text GLabel 1650 10400 0    50   Input ~ 0
+INHIB-STOP-INV
+Wire Wire Line
+	1650 10400 2450 10400
+Text Label 2450 10400 2    50   ~ 0
+INHIB-STOP-INV
+Text GLabel 3000 10400 0    50   Input ~ 0
+N$10
+Text Label 3300 10400 2    50   ~ 0
+N$10
+Wire Wire Line
+	3000 10400 3300 10400
+Text GLabel 3000 10250 0    50   Input ~ 0
+N$31
+Wire Wire Line
+	3000 10250 3300 10250
+Text Label 3300 10250 2    50   ~ 0
+N$31
+Text GLabel 3000 10700 0    50   Input ~ 0
+N$19
+Text Label 3300 10700 2    50   ~ 0
+N$19
+Wire Wire Line
+	3000 10700 3300 10700
+Text GLabel 3000 10100 0    50   Input ~ 0
+N$78
+Wire Wire Line
+	3000 10100 3300 10100
+Text Label 3300 10100 2    50   ~ 0
+N$78
+Text GLabel 3000 9950 0    50   Input ~ 0
+N$58
+Text Label 3300 9950 2    50   ~ 0
+N$58
+Wire Wire Line
+	3000 9950 3300 9950
+Text GLabel 1650 10250 0    50   Input ~ 0
+SUPPLY-BUZ-CPU
+Wire Wire Line
+	1650 10250 2450 10250
+Text Label 2450 10250 2    50   ~ 0
+SUPPLY-BUZ-CPU
+Text GLabel 1650 10700 0    50   Input ~ 0
+SUPPLY-BUZ
+Text Label 2450 10700 2    50   ~ 0
+SUPPLY-BUZ
+Wire Wire Line
+	1650 10700 2450 10700
+Text GLabel 3800 10400 0    50   Input ~ 0
+VCHARG
+Wire Wire Line
+	3800 10400 4200 10400
+Text Label 4200 10400 2    50   ~ 0
+VCHARG
+Text GLabel 3800 10250 0    50   Input ~ 0
+VBAT
+Text Label 4200 10250 2    50   ~ 0
+VBAT
+Wire Wire Line
+	3800 10250 4200 10250
 $EndSCHEMATC

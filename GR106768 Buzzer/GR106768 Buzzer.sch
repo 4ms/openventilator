@@ -2355,4 +2355,88 @@ U 5EBD289A
 F0 "Vias" 50
 F1 "Holes.sch" 50
 $EndSheet
+Text GLabel 3050 10750 0    50   Input ~ 0
+N$18
+Wire Wire Line
+	3050 10750 3350 10750
+Text Label 3350 10750 2    50   ~ 0
+N$18
+Text GLabel 1700 10750 0    50   Input ~ 0
+STOP-INV
+Wire Wire Line
+	1700 10750 2500 10750
+Text Label 2500 10750 2    50   ~ 0
+STOP-INV
+Text GLabel 3850 10750 0    50   Input ~ 0
+GT1
+Wire Wire Line
+	3850 10750 4250 10750
+Text Label 4250 10750 2    50   ~ 0
+GT1
+Text GLabel 3850 10900 0    50   Input ~ 0
+BUZ-ACT
+Wire Wire Line
+	3850 10900 4250 10900
+Text Label 4250 10900 2    50   ~ 0
+BUZ-ACT
+Text GLabel 1700 10600 0    50   Input ~ 0
+INHIB-STOP-INV
+Wire Wire Line
+	1700 10600 2500 10600
+Text Label 2500 10600 2    50   ~ 0
+INHIB-STOP-INV
+Text GLabel 3050 10600 0    50   Input ~ 0
+N$10
+Text Label 3350 10600 2    50   ~ 0
+N$10
+Wire Wire Line
+	3050 10600 3350 10600
+Text GLabel 3050 10450 0    50   Input ~ 0
+N$31
+Wire Wire Line
+	3050 10450 3350 10450
+Text Label 3350 10450 2    50   ~ 0
+N$31
+Text GLabel 3050 10900 0    50   Input ~ 0
+N$19
+Text Label 3350 10900 2    50   ~ 0
+N$19
+Wire Wire Line
+	3050 10900 3350 10900
+Text GLabel 3050 10300 0    50   Input ~ 0
+N$78
+Wire Wire Line
+	3050 10300 3350 10300
+Text Label 3350 10300 2    50   ~ 0
+N$78
+Text GLabel 3050 10150 0    50   Input ~ 0
+N$58
+Text Label 3350 10150 2    50   ~ 0
+N$58
+Wire Wire Line
+	3050 10150 3350 10150
+Text GLabel 1700 10450 0    50   Input ~ 0
+SUPPLY-BUZ-CPU
+Wire Wire Line
+	1700 10450 2500 10450
+Text Label 2500 10450 2    50   ~ 0
+SUPPLY-BUZ-CPU
+Text GLabel 1700 10900 0    50   Input ~ 0
+SUPPLY-BUZ
+Text Label 2500 10900 2    50   ~ 0
+SUPPLY-BUZ
+Wire Wire Line
+	1700 10900 2500 10900
+Text GLabel 3850 10600 0    50   Input ~ 0
+VCHARG
+Wire Wire Line
+	3850 10600 4250 10600
+Text Label 4250 10600 2    50   ~ 0
+VCHARG
+Text GLabel 3850 10450 0    50   Input ~ 0
+VBAT
+Text Label 4250 10450 2    50   ~ 0
+VBAT
+Wire Wire Line
+	3850 10450 4250 10450
 $EndSCHEMATC
