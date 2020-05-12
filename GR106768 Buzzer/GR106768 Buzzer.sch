@@ -53,12 +53,12 @@ F 2 "AllModules:C0402_1b" H 1913 5200 50  0001 C CNN
 F 3 "" H 1875 5350 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1875 5350
 	0    1    1    0   
 $EndComp
@@ -72,12 +72,12 @@ F 2 "AllModules:C0402_1b" H 8088 4150 50  0001 C CNN
 F 3 "" H 8050 4300 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    8050 4300
 	0    1    1    0   
 $EndComp
@@ -91,12 +91,12 @@ F 2 "AllModules:C0402_1b" H 14363 6425 50  0001 C CNN
 F 3 "" H 14325 6575 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    14325 6575
 	0    -1   -1   0   
 $EndComp
@@ -459,12 +459,12 @@ F 2 "AllModules:C0402_1b" H 1913 6100 50  0001 C CNN
 F 3 "" H 1875 6250 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1875 6250
 	0    1    1    0   
 $EndComp
@@ -527,12 +527,12 @@ F 2 "AllModules:C0402_1b" H 3488 5200 50  0001 C CNN
 F 3 "" H 3450 5350 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    3450 5350
 	0    -1   -1   0   
 $EndComp
@@ -550,12 +550,12 @@ F 2 "AllModules:C0402_1b" H 3488 6100 50  0001 C CNN
 F 3 "" H 3450 6250 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    3450 6250
 	0    -1   -1   0   
 $EndComp
@@ -1442,10 +1442,10 @@ F 0 "J2" H 7150 7700 50  0000 C CNN
 F 1 "MIRECMS" H 7150 7625 50  0000 C CNN
 F 2 "AllModules:MIRECMS-SAFT_1" H 7150 7500 50  0001 C CNN
 F 3 "" H 7150 7500 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Description"
-F 5 "" H 0   0   50  0001 C CNN "Item Number"
-F 6 "" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 4 "CONNECTOR,FEMALE 7-PIN CPU" H 0   0   50  0001 C CNN "Description"
+F 5 "10099028" H 0   0   50  0001 C CNN "Item Number"
+F 6 "J.S.T. CORPORATION" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ZHR-7" H 0   0   50  0001 C CNN "Manufacturer_No"
 	1    7150 7500
 	1    0    0    -1  
 $EndComp
@@ -1839,12 +1839,12 @@ F 2 "AllModules:C0402_1b" H 4638 4800 50  0001 C CNN
 F 3 "" H 4600 4950 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    4600 4950
 	1    0    0    -1  
 $EndComp

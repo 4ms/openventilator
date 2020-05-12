@@ -26,9 +26,9 @@ F 5 "10022551" H 1350 1900 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" V 1400 2000 50  0001 C CNN "Manufacturer"
 F 7 "RC0603FR-074K7L" V 1400 2000 50  0001 C CNN "Manufacturer_No"
 F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 9 "BOURNS_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
 F 10 "RC1608F472CS" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CR0603-FX-4701ELF" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 11 "RC1608F4701CS" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1400 2000
 	-1   0    0    1   
 $EndComp
