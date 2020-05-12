@@ -134,18 +134,20 @@ def updateSymbolLibrary(field_dict, libs_dict):
     for itemnum, d in field_dict.items():
         fields = d['fields']
         for field_name, field_val, field_idx in fields:
-            isfound = updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict)
-            if not isfound:
-                break
+            updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict)
     return libs_dict
 
 def updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict):
     global notfound
     lib, symbol_name = findSymbolByItemnum(itemnum, libs_dict)
     if lib is None:
-        print("****ERROR****: Item Number: "+itemnum+" not found in any libraries")
         if itemnum not in notfound:
+            print("****ERROR****: Item Number: "+itemnum+" not found in any libraries")
+            print("**** (not found: "+itemnum+") "+field_name+" = "+field_val)
             notfound.append(itemnum)
+        else:
+            print("**** (not found: "+itemnum+") "+field_name+" = "+field_val)
+
         return False
     if checkSymbolNeedsUpdating(symbol_name, field_name, field_val, libs_dict[lib]):
         libs_dict[lib], num = updateSymbolField(symbol_name, field_name, field_val, libs_dict[lib])
@@ -195,10 +197,9 @@ def updateSymbolField(symbol_name, field_name, field_val, libfiledata):
     """
     e_symbol = re.escape(symbol_name)
     e_name = re.escape(field_name)
-    e_val = re.escape(field_val)
     libfiledata, num = re.subn(
             r'^(DEF '+e_symbol+r' .*(?:\n(?!ENDDEF).*)+\nF ?\d+ ")[^"]*(" .* "'+e_name+r'"\n)',
-            r'\g<1>'+e_val+r'\g<2>',
+            r'\g<1>'+field_val+r'\g<2>',
             libfiledata, flags=re.MULTILINE)
     return libfiledata, num
 
@@ -218,11 +219,11 @@ def createFieldText(field_name, field_val, field_idx):
     field_text = "F "+str(field_idx)+" \""+field_val+"\" "+ lib_tags + " \""+field_name+"\"\n"
     return field_text
 
-def writeLibraryFiles(lib_dict):
+def writeLibraryFiles(libs_dict):
     """ Given a dict of library file data
         Write the file data
     """
-    for lib_file_name, file_data in lib_data.items():
+    for lib_file_name, file_data in libs_dict.items():
         print("Writing library file: "+lib_file_name)
         with open(lib_file_name, "w") as f:
             f.write(file_data)
@@ -231,7 +232,6 @@ def appendSlash(pathname):
     if pathname[:len(pathname)-1] != "/":
         pathname = pathname+"/"
     return pathname
-
 
 
 if __name__ == "__main__":
