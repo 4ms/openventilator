@@ -25816,28 +25816,6 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer Eco2.User) (tstamp 0) (hatch edge 0.508)
-    (connect_pads yes (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 178.067 -59.704) (xy 178.321 -59.704) (xy 178.702 -60.085) (xy 180.353 -60.085) (xy 180.353 -59.323)
-        (xy 178.956 -59.323) (xy 178.448 -58.815) (xy 178.067 -58.815)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer Eco2.User) (tstamp 0) (hatch edge 0.508)
-    (connect_pads yes (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 186.068 -58.688) (xy 185.433 -59.323) (xy 182.131 -59.323) (xy 182.131 -60.085) (xy 185.433 -60.085)
-        (xy 186.195 -59.323) (xy 187.084 -59.323) (xy 187.084 -58.688)
-      )
-    )
-  )
   (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
