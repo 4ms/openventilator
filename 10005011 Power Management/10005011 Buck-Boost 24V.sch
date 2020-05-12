@@ -2251,4 +2251,6 @@ F 3 "" H 4400 6000 50  0001 C CNN
 	1    4400 6000
 	1    0    0    -1  
 $EndComp
+Text Notes 600  4900 0    50   ~ 0
+Note:\nC131, C30, C32 originally connected to GND1. This has been changed to PGND1\nto match PCB/Gerbers, which follow this:\nhttps://www.analog.com/media/en/technical-documentation/eval-board-schematic/1046asch.pdf
 $EndSCHEMATC
