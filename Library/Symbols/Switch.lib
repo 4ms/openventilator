@@ -59,6 +59,10 @@ F4 "DIL SWITCH, 2 WAY, SMD, 25MA" 0 0 50 H I C CNN "Description"
 F5 "10022931" 0 0 50 H I C CNN "Item Number"
 F6 "MULTICOMP                       (920630)" 0 0 50 H I C CNN "Manufacturer"
 F7 "MCDM(R)-02-T" 0 0 50 H I C CNN "Manufacturer_No"
+F8 "APEM COMPONENTS INC" 400 50 50 H I L CNN "Manufacturer2"
+F9 "IKD0204101" 400 50 50 H I L CNN "Manufacturer_No2"
+F11 "APEM COMPONENTS INC" 400 50 50 H I L CNN "Manufacturer3"
+F12 "IKD0203101" 400 50 50 H I L CNN "Manufacturer_No3"
 $FPLIST
  SW?DIP?x2*
 $ENDFPLIST

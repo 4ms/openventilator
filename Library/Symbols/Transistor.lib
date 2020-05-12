@@ -285,8 +285,12 @@ F2 "TO_SOT_Packages_SMD:TO-252-2" 50 -650 50 H I C CNN
 F3 "http://www.vishay.com/docs/91406/sihfz24.pdf" 0 400 50 H I C CNN
 F4 "10022559_TH" 400 50 50 H I L CNN "Item Number"
 F5 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" 400 -10 50 H I L CNN "Description"
-F6 "INTERNATIONAL RECTIFIER_RMS1" 400 -70 50 H I L CNN "Manufacturer"
-F7 "IRFZ24PBF" 400 -130 50 H I L CNN "Manufacturer_No"
+F6 "INFINEON" 400 -70 50 H I L CNN "Manufacturer"
+F7 "IRFZ24NPBF" 400 -130 50 H I L CNN "Manufacturer_No"
+F8 "MOLEX" 400 50 50 H I L CNN "Manufacturer2"
+F9 "39281023" 400 50 50 H I L CNN "Manufacturer_No2"
+F11 "MOLEX" 400 50 50 H I L CNN "Manufacturer3"
+F12 "22057098" 400 50 50 H I L CNN "Manufacturer_No3"
 DRAW
 C -35 0 110 1 1 10 N
 C 0 -70 10 1 1 0 F
