@@ -1,14 +1,15 @@
-(module FIX40_1 (layer F.Cu) (tedit 5E9869F8)
+(module FIX40_1 (layer F.Cu) (tedit 5EA2150C)
   (attr smd)
-  (fp_text reference ZM5 (at 1.524 -1.016 unlocked) (layer F.SilkS) hide
+  (fp_text reference ZM5 (at 0 5.3 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
-  (fp_text value FIX-0040 (at 4.064 -1.016 unlocked) (layer F.SilkS) hide
+  (fp_text value FIX-0040 (at 0 -4.9 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
   (fp_circle (center 0 0) (end 2 0) (layer F.Fab) (width 0.1))
   (fp_circle (center 0 0) (end 3.65 0) (layer F.CrtYd) (width 0.12))
-  (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 4.0132) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 4.0132 4.0132) (drill 4.0132) (layers *.Cu *.Mask)
+    (clearance 1.4))
   (model "${KIPRJMOD}/../Library/Footprints.3dshapes/entretoise richco - recenter.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

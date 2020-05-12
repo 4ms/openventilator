@@ -1,8 +1,8 @@
-(module C0603 placed (layer F.Cu) (tedit 5EB871EA)
-  (fp_text reference C13 (at 1.259 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+(module C0603 placed (layer F.Cu) (tedit 5EB5A52B)
+  (fp_text reference C1 (at 3.286 -0.727 -180) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value 33nF (at 0 2) (layer F.Fab) hide
+  (fp_text value C-BC-C0603 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 1.42875 -0.635) (xy 1.42875 0.635) (xy -1.42875 0.635) (xy -1.42875 -0.635)) (layer F.Fab) (width 0.02))

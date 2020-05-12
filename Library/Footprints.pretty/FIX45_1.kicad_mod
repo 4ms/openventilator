@@ -1,4 +1,4 @@
-(module FIX45_1 (layer F.Cu) (tedit 0)
+(module FIX45_1 (layer F.Cu) (tedit 5EA213A2)
   (attr smd)
   (fp_text reference ZM3 (at 1.524 -1.016 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -7,6 +7,7 @@
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
   (fp_circle (center 0 0) (end 2.25 0) (layer F.Fab) (width 0.1))
-  (fp_circle (center 0 0) (end 3.6 0) (layer F.CrtYd) (width 0.12))
-  (pad 1 thru_hole circle (at 0 0) (size 3.81 3.81) (drill 4.6228) (layers *.Cu *.Mask))
+  (fp_circle (center 0 0) (end 3.5 0) (layer F.CrtYd) (width 0.12))
+  (pad 1 thru_hole circle (at 0 0 90) (size 4.6228 4.6228) (drill 4.6228) (layers *.Cu *.Mask)
+    (clearance 1.4386))
 )

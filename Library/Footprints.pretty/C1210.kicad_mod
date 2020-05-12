@@ -1,8 +1,8 @@
-(module C1210 placed (layer F.Cu) (tedit 5EB871EA)
+(module C1210 placed (layer F.Cu) (tedit 5EB7DA4C)
   (fp_text reference C21 (at -0.73187 0.83645) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value 47μF (at 0 2) (layer F.Fab) hide
+  (fp_text value C-BC-C1210 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -2.54 -1.905) (xy 2.54 -1.905) (xy 2.54 1.905) (xy -2.54 1.905)

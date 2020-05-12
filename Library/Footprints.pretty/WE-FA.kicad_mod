@@ -1,8 +1,8 @@
-(module WE-FA placed (layer F.Cu) (tedit 5EB871EA)
+(module WE-FA placed (layer F.Cu) (tedit 5EB7DA4C)
   (fp_text reference FI1 (at -0.74161 0.64263) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value BK32164M102-T (at 0 2) (layer F.Fab) hide
+  (fp_text value SF-BC-WEFA (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 1.778 -1.524) (xy 1.778 1.524) (xy -1.778 1.524) (xy -1.778 -1.524)) (layer F.Fab) (width 0.02))

@@ -1,8 +1,8 @@
-(module DFN10 placed (layer F.Cu) (tedit 5EB871EA)
+(module DFN10 placed (layer F.Cu) (tedit 5EB7DA4C)
   (fp_text reference IC8 (at -0.9 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value LT3471 (at 0 2) (layer F.Fab) hide
+  (fp_text value L-BC-DFN10 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -1.55 -1.85) (xy 1.55 -1.85) (xy 1.55 1.85) (xy -1.55 1.85)) (layer F.Fab) (width 0.02))

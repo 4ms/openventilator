@@ -1,8 +1,8 @@
-(module D0603 placed (layer F.Cu) (tedit 5EB871EA)
+(module D0603 placed (layer F.Cu) (tedit 5EB7DA4C)
   (fp_text reference LD1 (at 0.9 -1.77 -180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value DNP (at 0 2) (layer F.Fab) hide
+  (fp_text value LED-BC-D0603 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user K (at 0.625 -0.8) (layer F.SilkS)

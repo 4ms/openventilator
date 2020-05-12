@@ -1,8 +1,8 @@
-(module TB-CMS-AIROX-2 placed (layer F.Cu) (tedit 5EB871EA)
+(module TB-CMS-AIROX-2 placed (layer F.Cu) (tedit 5EB7DA4C)
   (fp_text reference SJ1 (at -3.58158 -1.37344 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value Jumper_Small (at 0 2) (layer F.Fab) hide
+  (fp_text value TB-CMS-AIROX (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 1.34812 -0.20002) (xy 1.34812 0.20002) (xy -0.96542 0.20002) (xy -0.96542 -0.20002)) (layer F.Fab) (width 0.02))

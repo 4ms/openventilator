@@ -1,8 +1,8 @@
-(module NR4018 placed (layer F.Cu) (tedit 5EB871EA)
-  (fp_text reference ZL2 (at 0 0) (layer F.SilkS) hide
+(module NR4018 placed (layer F.Cu) (tedit 5EB7DA4C)
+  (fp_text reference L2-2 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value DNP (at 0 2) (layer F.Fab) hide
+  (fp_text value SF-BC-NR4018 (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -2.6 -2.1) (xy 2.6 -2.1) (xy 2.6 2.1) (xy -2.6 2.1)) (layer F.Fab) (width 0.02))

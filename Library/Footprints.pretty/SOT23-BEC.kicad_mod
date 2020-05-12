@@ -1,8 +1,8 @@
-(module SOT23-BEC placed (layer F.Cu) (tedit 5EB871EA)
+(module SOT23-BEC placed (layer F.Cu) (tedit 5EB7DA4C)
   (fp_text reference T1 (at -0.5365 0.627) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
   )
-  (fp_text value BC847 (at 0 2) (layer F.Fab) hide
+  (fp_text value Q-BC-SOT23-BEC (at 0 2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy -1.74625 1.905) (xy -1.74625 -0.9525) (xy -0.9525 -0.9525) (xy -0.9525 -1.905)
