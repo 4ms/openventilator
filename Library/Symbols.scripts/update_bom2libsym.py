@@ -229,7 +229,7 @@ def writeLibraryFiles(libs_dict):
             f.write(file_data)
 
 def appendSlash(pathname):
-    if pathname[:len(pathname)-1] != "/":
+    if pathname[-1:] != "/":
         pathname = pathname+"/"
     return pathname
 
