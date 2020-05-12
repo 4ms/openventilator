@@ -19,16 +19,8 @@ import sys
 import csv
 import re
 from pathlib import Path
-
+from bom2libsym import loadFileList, pullFieldFromList
 notfound = []
-
-def loadFileList(file_name_list):
-    dat = {}
-    for fil in file_name_list:
-        with open(fil) as f:
-            print("Reading file: "+fil)
-            dat[fil] = f.read()
-    return dat
 
 def loadLibraryFiles(symbol_dir):
     lib_filenames = [symbol_dir+f for f in os.listdir(symbol_dir) if f.endswith('.lib')]
@@ -233,7 +225,6 @@ def appendSlash(pathname):
         pathname = pathname+"/"
     return pathname
 
-
 if __name__ == "__main__":
     if len(sys.argv) > 2:
         boms_dir = appendSlash(sys.argv[1])
@@ -249,10 +240,12 @@ if __name__ == "__main__":
         if len(notfound)>0:
             print("")
             print("The following item numbers were not found in any libraries. You must correct this, or manually create new library symbols:")
-            print(', '.join(notfound))
+            for nf in notfound:
+                filen = os.path.basename(flds[nf]['filename'])
+                fl = flds[nf]['fields']
+                desc = pullFieldFromList(fl, "Description")
+                print(nf +", "+ filen + ", "+ desc)
 
-        #print("Exporting CSV file:"+csv_output_filename)
-        #exportSymbolListCSV(syms, csv_output_filename)
     else:
         print("""
 Please specify a dir with BOM csv files, and a symbol library dir.
