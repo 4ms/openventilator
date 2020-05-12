@@ -1,20 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# V_Battery_BuzzBattery
+# V_Battery_BT-4-V150H
 #
-DEF V_Battery_BuzzBattery BAT 0 0 N N 1 F N
+DEF V_Battery_BT-4-V150H BAT 0 0 N N 1 F N
 F0 "BAT" 100 100 50 H V L CNN
-F1 "V_Battery_BuzzBattery" 100 0 50 H V L CNN
-F2 "AllModules:BT-4-V150H-4.8V_1" 100 -75 50 H I L CIN
+F1 "V_Battery_BT-4-V150H" 100 0 50 H V L CNN
+F2 "AllModules:BT-4-V150H-4.8V_1" -150 0 50 V I C CIN
 F3 "" 0 60 50 V I C CNN
-F4 "10022129" 400 50 50 H I L CNN "Item Number"
-F5 "BATTERY NI-MH TYPE V150H 4.8V" 400 -10 50 H I L CNN "Description"
+F4 "10022129" 250 250 50 H I L CNN "Item Number"
+F5 "BATTERY NI-MH TYPE V150H 4.8V" 250 175 50 H I L CNN "Description"
 F6 "VARTA                           (917650)" 400 -70 50 H I L CNN "Manufacturer"
 F7 "55615 604 059" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "VARTA_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F9 "55615604940" 400 -370 50 H I L CNN "Manufacturer_No3"
 DRAW
+C 0 150 11 0 1 0 F
 S -80 -55 80 -65 0 1 0 F
 S -80 70 80 60 0 1 0 F
 S -52 -78 50 -98 0 1 0 F
@@ -24,12 +25,13 @@ P 2 0 1 0 0 -40 0 -30 N
 P 2 0 1 0 0 -20 0 -10 N
 P 2 0 1 0 0 0 0 10 N
 P 2 0 1 0 0 20 0 30 N
-P 2 0 1 0 0 70 0 100 N
+P 2 0 1 0 0 70 0 150 N
 P 2 0 1 10 10 105 50 105 N
 P 2 0 1 10 30 125 30 85 N
-X + + 0 200 100 D 50 50 1 1 P
-X - - 0 -200 100 U 50 50 1 1 P
-X NC 3 -100 100 100 D 50 50 1 1 N N
+P 2 1 1 0 100 150 -100 150 N
+X + + 100 200 50 D 50 50 1 1 W
+X - - 0 -200 100 U 50 50 1 1 W
+X + 3 -100 200 50 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -485,6 +487,18 @@ C 0 -100 35 1 1 0 N
 C 0 100 35 1 1 0 N
 X ~ 1 0 -300 165 U 50 50 1 1 P
 X ~ 2 0 300 165 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# V_Connector_Via
+#
+DEF V_Connector_Via V 0 40 N N 1 F N
+F0 "V" 0 -50 50 H V C CNN
+F1 "V_Connector_Via" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X ~ ~ 0 0 0 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1125,21 +1139,6 @@ C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
-# V_Mechanical_Via
-#
-DEF V_Mechanical_Via H 0 40 Y Y 1 F N
-F0 "H" 30 30 50 H V L CNN
-F1 "V_Mechanical_Via" 30 -30 35 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 18 0 1 12 N
-ENDDRAW
-ENDDEF
-#
 # V_Power_+12V
 #
 DEF V_Power_+12V #PWR 0 0 Y Y 1 F P
@@ -1157,29 +1156,31 @@ ENDDEF
 #
 # V_Power_+5V
 #
-DEF V_Power_+5V ~ 0 40 Y Y 1 L P
-F0 "" 0 100 50 H I C CNN
-F1 "V_Power_+5V" -100 110 59 H V L BNN
-F2 "" 0 100 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
+DEF V_Power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "V_Power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 1 0 0 0 100 -50 0 N
-P 2 1 0 0 50 0 0 100 N
-X +5V 1 0 0 100 U 0 0 1 0 W
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
 # V_Power_+BATTV
 #
-DEF V_Power_+BATTV ~ 0 40 Y Y 1 L P
-F0 "" 0 100 50 H I C CNN
-F1 "V_Power_+BATTV" -190 110 59 H V L BNN
-F2 "" 0 100 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
+DEF V_Power_+BATTV #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "V_Power_+BATTV" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 1 0 0 0 100 -50 0 N
-P 2 1 0 0 50 0 0 100 N
-X +BATTV 1 0 0 100 U 0 0 1 0 W
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATTV 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1201,13 +1202,13 @@ ENDDEF
 # V_Power_GND
 #
 DEF V_Power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 150 -50 50 H I C CNN
-F1 "V_Power_GND" 0 -140 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "V_Power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 1 1 0 -100 -100 100 -100 N
-X GND 1 0 0 100 D 0 0 1 1 W
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

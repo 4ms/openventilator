@@ -18,9 +18,4 @@ K mounting hole
 F ~
 $ENDCMP
 #
-$CMP Via
-D Custom multi-layer via
-F ~
-$ENDCMP
-#
 #End Doc Library

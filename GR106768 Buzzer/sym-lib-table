@@ -1,4 +1,5 @@
 (sym_lib_table
+  (lib (name V_Power)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Power.lib)(options "")(descr ""))
   (lib (name V_Battery)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Battery.lib)(options "")(descr ""))
   (lib (name V_BL)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/BL.lib)(options "")(descr ""))
   (lib (name V_Buzzer)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Buzzer.lib)(options "")(descr ""))
@@ -19,5 +20,4 @@
   (lib (name V_Transistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Transistor.lib)(options "")(descr ""))
   (lib (name V_Valve)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Valve.lib)(options "")(descr ""))
   (lib (name V_Varistor)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Varistor.lib)(options "")(descr ""))
-  (lib (name V_Power)(type Legacy)(uri ${KIPRJMOD}/../Library/Symbols/Power.lib)(options "")(descr ""))
 )

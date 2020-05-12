@@ -1,0 +1,12 @@
+(module ViaVE_12x32-1001 locked (layer F.Cu) (tedit 5EB6C3FA)
+  (descr "4 layer un-tented Via with 32mil pads on only the front and back layers, 12mil hole.")
+  (tags via)
+  (fp_text reference Ref** (at 0 -1.27) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ViaVE_12x32-1001 (at 0 1.27) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad ~ thru_hole circle (at 0 0) (size 0.8128 0.8128) (drill 0.3048) (layers *.Mask F.Cu B.Cu)
+    (solder_mask_margin 0.1016) (zone_connect 2))
+)
