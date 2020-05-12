@@ -376,12 +376,12 @@ F 2 "AllModules:C0402_1" H 5950 9900 50  0001 C CNN
 F 3 "" H 5950 9900 50  0001 C CNN
 F 4 "10022607" H 5950 9900 50  0001 C CNN "Item Number"
 F 5 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5950 9900
 	1    0    0    1   
 $EndComp
@@ -1094,12 +1094,12 @@ F 2 "AllModules:C0402_1" H 5950 7750 50  0001 C CNN
 F 3 "" H 5950 7750 50  0001 C CNN
 F 4 "10022607" H 5950 7750 50  0001 C CNN "Item Number"
 F 5 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5950 7750
 	1    0    0    1   
 $EndComp
@@ -1208,7 +1208,7 @@ F 7 "74279266" H 14550 5050 50  0001 C CNN "Manufacturer_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L V_Inductor:R_470R_5% L5
+L V_Resistor:R0603_470R_5% L5
 U 1 1 E13C76CE
 P 8650 4950
 F 0 "L5" H 8588 4928 43  0000 L BNN

@@ -500,17 +500,15 @@ if __name__ == "__main__":
         exportSymbolListCSV(syms, csv_output_filename)
     else:
         print("""
-Please specify an input dir with .sch and .lib files
+Please specify an input dir with .sch files and a *-cache.lib file.
 The default BOM file name is input_dir/bom.csv
-You can specify a different file with the second argument.
+You can specify a different BOM file with the second argument.
 
 Example:
 $ python3 bom2libsym.py ../myProjectFolder ../myBOMs/projectBOM.csv
 
 **********************************************************************
 Usage:
-$ cp /Full/Path/To/Kicad/Libraries/Device.lib ../myProjectFolder/
-# ^^^ optional if your schematics use Device.lib, for example
 
 $ python3 bom2libsym.py ../myProjectFolder/ ../myBOMs/myProjectBOM.csv
 $ ls Symbols/
@@ -546,9 +544,6 @@ might just consider renaming your BOM
 
 Todo: Create unique names for symbols with same name from different projects
 Workaround: Open library in kicad, accept warning about duplicate names, save library.
-
-Todo: Allow components in schematics files to be optionally updated with new
-library part name
 
 Todo: Preserve ALIAS (remove current symbol from list, though)
 Workaround: Paste ALIAS field back into lib file, if needed.

@@ -95,6 +95,11 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag ground gnd
 $ENDCMP
 #
+$CMP GND1
+D Power symbol creates a global label with name "GND1" , ground
+K power-flag ground gnd
+$ENDCMP
+#
 $CMP GNDA
 D Power symbol creates a global label with name "GNDA" , analog ground
 K power-flag ground gnd

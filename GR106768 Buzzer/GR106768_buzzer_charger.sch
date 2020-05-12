@@ -34,12 +34,12 @@ F 2 "AllModules:C0402_1b" H 1638 2525 50  0001 C CNN
 F 3 "" H 1600 2675 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    1600 2675
 	-1   0    0    1   
 $EndComp
@@ -53,12 +53,12 @@ F 2 "AllModules:C0402_1b" H 15638 3500 50  0001 C CNN
 F 3 "" H 15600 3650 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    15600 3650
 	-1   0    0    1   
 $EndComp
@@ -276,12 +276,12 @@ F 2 "AllModules:C0402_1b" H 2688 4875 50  0001 C CNN
 F 3 "" H 2650 5025 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    2650 5025
 	1    0    0    -1  
 $EndComp
@@ -321,12 +321,12 @@ F 2 "AllModules:C0402_1b" H 5138 4725 50  0001 C CNN
 F 3 "" H 5100 4875 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    5100 4875
 	-1   0    0    1   
 $EndComp
@@ -455,12 +455,12 @@ F 2 "AllModules:C0402_1b" H 7313 3325 50  0001 C CNN
 F 3 "" H 7275 3475 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    7275 3475
 	1    0    0    -1  
 $EndComp
@@ -518,12 +518,12 @@ F 2 "AllModules:C0402_1b" H 8438 2550 50  0001 C CNN
 F 3 "" H 8400 2700 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    8400 2700
 	0    -1   -1   0   
 $EndComp
@@ -772,12 +772,12 @@ F 2 "AllModules:C0402_1b" H 13513 7550 50  0001 C CNN
 F 3 "" H 13475 7700 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13475 7700
 	0    -1   -1   0   
 $EndComp
@@ -1056,12 +1056,12 @@ F 2 "AllModules:C0402_1b" H 13488 6100 50  0001 C CNN
 F 3 "" H 13450 6250 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    13450 6250
 	-1   0    0    1   
 $EndComp
@@ -1330,9 +1330,9 @@ F 2 "AllModules:WETPC-S_1" H 12650 6000 50  0001 C CNN
 F 3 "" H 12650 6000 50  0001 C CNN
 F 4 "INDUCTOR, STORAGE, 15UH, WE-TPC" H 0   0   50  0001 C CNN "Description"
 F 5 "10022624" H 0   0   50  0001 C CNN "Item Number"
-F 6 "TAIYO YUDEN_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "NR 4012T 150M" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 8 "744031150" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 9 "744031150" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    12650 6000
 	0    -1   -1   0   
@@ -2392,9 +2392,9 @@ F 2 "AllModules:WETPC-S_1" H 13350 3400 50  0001 C CNN
 F 3 "" H 13350 3400 50  0001 C CNN
 F 4 "INDUCTOR, STORAGE 10UH, WE-TPC" H 0   0   50  0001 C CNN "Description"
 F 5 "10022162" H 0   0   50  0001 C CNN "Item Number"
-F 6 "TAIYO YUDEN_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "NR 4018T 100M" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 8 "744031100" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 9 "744031100" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    13350 3400
 	0    -1   -1   0   
@@ -2685,9 +2685,9 @@ F 2 "AllModules:WETPC-S_1" H 12850 3500 50  0001 C CNN
 F 3 "" H 12850 3500 50  0001 C CNN
 F 4 "INDUCTOR, STORAGE, 15UH, WE-TPC" H 0   0   50  0001 C CNN "Description"
 F 5 "10022624" H 0   0   50  0001 C CNN "Item Number"
-F 6 "TAIYO YUDEN_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "WURTH ELEKTRONIK GMBH" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "NR 4012T 150M" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 8 "744031150" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 9 "744031150" H 0   0   50  0001 C CNN "Manufacturer_No2"
 	1    12850 3500
 	0    1    -1   0   
@@ -2738,12 +2738,12 @@ F 2 "AllModules:C0402_1b" H 14138 4650 50  0001 C CNN
 F 3 "" H 14100 4800 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 0   0   50  0001 C CNN "Description"
 F 5 "10022607" H 0   0   50  0001 C CNN "Item Number"
-F 6 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer"
 F 7 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 9 "GRM155R71C104JA88J" H 0   0   50  0001 C CNN "Manufacturer_No"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 9 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    14100 4800
 	-1   0    0    1   
 $EndComp
@@ -3074,9 +3074,9 @@ F 2 "AllModules:NR4018_1" H 13350 3100 50  0001 C CNN
 F 3 "" H 13350 3100 50  0001 C CNN
 F 4 "INDUCTOR, STORAGE 10UH, WE-TPC" H 0   -300 50  0001 C CNN "Description"
 F 5 "10022162" H 0   -300 50  0001 C CNN "Item Number"
-F 6 "TAIYO YUDEN_RMS1" H 0   -300 50  0001 C CNN "Manufacturer"
+F 6 "WURTH ELEKTRONIK GMBH" H 0   -300 50  0001 C CNN "Manufacturer"
 F 7 "WURTH ELEKTRONIK GMBH" H 0   -300 50  0001 C CNN "Manufacturer2"
-F 8 "NR 4018T 100M" H 0   -300 50  0001 C CNN "Manufacturer_No"
+F 8 "744031100" H 0   -300 50  0001 C CNN "Manufacturer_No"
 F 9 "744031100" H 0   -300 50  0001 C CNN "Manufacturer_No2"
 	1    13350 3100
 	0    -1   -1   0   
@@ -3091,9 +3091,9 @@ F 2 "AllModules:NR4012_1" H 12850 3200 50  0001 C CNN
 F 3 "" H 12850 3200 50  0001 C CNN
 F 4 "INDUCTOR, STORAGE, 15UH, WE-TPC" H 0   -300 50  0001 C CNN "Description"
 F 5 "10022624" H 0   -300 50  0001 C CNN "Item Number"
-F 6 "TAIYO YUDEN_RMS1" H 0   -300 50  0001 C CNN "Manufacturer"
+F 6 "WURTH ELEKTRONIK GMBH" H 0   -300 50  0001 C CNN "Manufacturer"
 F 7 "WURTH ELEKTRONIK GMBH" H 0   -300 50  0001 C CNN "Manufacturer2"
-F 8 "NR 4012T 150M" H 0   -300 50  0001 C CNN "Manufacturer_No"
+F 8 "744031150" H 0   -300 50  0001 C CNN "Manufacturer_No"
 F 9 "744031150" H 0   -300 50  0001 C CNN "Manufacturer_No2"
 	1    12850 3200
 	0    1    -1   0   
@@ -3108,9 +3108,9 @@ F 2 "AllModules:NR4012_1" H 12450 5700 50  0001 C CNN
 F 3 "" H 12450 5700 50  0001 C CNN
 F 4 "INDUCTOR, STORAGE, 15UH, WE-TPC" H -200 -300 50  0001 C CNN "Description"
 F 5 "10022624" H -200 -300 50  0001 C CNN "Item Number"
-F 6 "TAIYO YUDEN_RMS1" H -200 -300 50  0001 C CNN "Manufacturer"
+F 6 "WURTH ELEKTRONIK GMBH" H -200 -300 50  0001 C CNN "Manufacturer"
 F 7 "WURTH ELEKTRONIK GMBH" H -200 -300 50  0001 C CNN "Manufacturer2"
-F 8 "NR 4012T 150M" H -200 -300 50  0001 C CNN "Manufacturer_No"
+F 8 "744031150" H -200 -300 50  0001 C CNN "Manufacturer_No"
 F 9 "744031150" H -200 -300 50  0001 C CNN "Manufacturer_No2"
 	1    12450 5700
 	0    -1   -1   0   

@@ -705,10 +705,10 @@ F 4 "RESISTOR,1.62K OHM,0.063W,+/0.1%,0603" H 12900 2550 50  0001 C CNN "Descrip
 F 5 "10022718" H 12900 2550 50  0001 C CNN "Item Number"
 F 6 "YAGEO_RMS1" H 12900 2550 50  0001 C CNN "Manufacturer"
 F 7 "RT0603BRE071K62L" H 12900 2550 50  0001 C CNN "Manufacturer_No"
-F 8 "WELWYN" H 0   0   50  0001 C CNN "Manufacturer2"
-F 9 "TYCO ELECTRONICS" H 0   0   50  0001 C CNN "Manufacturer3"
-F 10 "PCF0603R-1K62BT1" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "RN73C1J1K62BTG" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 8 "PANASONIC_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 9 "WELWYN" H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "ERA-3AEB473V " H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "PCF0603R-1K62BT1" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    12900 2550
 	1    0    0    -1  
 $EndComp
@@ -1637,12 +1637,12 @@ F 2 "AllModules:C0402_1" H 11138 3700 50  0001 C CNN
 F 3 "" H 11100 3850 50  0001 C CNN
 F 4 "CAPACITOR,100NF,16V,+/-10%,X7R,0402" H 11100 3850 50  0001 C CNN "Description"
 F 5 "10022607" H 11100 3850 50  0001 C CNN "Item Number"
-F 6 "MURATA" H 11100 3850 50  0001 C CNN "Manufacturer"
-F 7 "GRM155R71C104JA88J" H 11100 3850 50  0001 C CNN "Manufacturer_No"
+F 6 "YAGEO_RMS1" H 11100 3850 50  0001 C CNN "Manufacturer"
+F 7 "CC0402KRX7R7BB104" H 11100 3850 50  0001 C CNN "Manufacturer_No"
 F 8 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
-F 9 "YAGEO_RMS1" H 0   0   50  0001 C CNN "Manufacturer3"
-F 10 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "CC0402KRX7R7BB104" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
+F 10 "223878715649" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM155R71C104KA88D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    11100 3850
 	0    -1   -1   0   
 $EndComp
@@ -2251,4 +2251,6 @@ F 3 "" H 4400 6000 50  0001 C CNN
 	1    4400 6000
 	1    0    0    -1  
 $EndComp
+Text Notes 600  4900 0    50   ~ 0
+Note:\nC131, C30, C32 originally connected to GND1. This has been changed to PGND1\nto match PCB/Gerbers, which follow this:\nhttps://www.analog.com/media/en/technical-documentation/eval-board-schematic/1046asch.pdf
 $EndSCHEMATC

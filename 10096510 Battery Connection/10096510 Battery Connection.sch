@@ -47,14 +47,14 @@ F 0 "C3" H 6375 4000 50  0000 L CNN
 F 1 "47pF" H 6300 3925 50  0000 L CNN
 F 2 "AllModules:C0402" H 7600 3850 50  0001 C CNN
 F 3 "" H 6600 3950 50  0001 C CNN
-F 4 "KEMET_RMS1" H 7070 4150 50  0001 C CNN "Manufacturer"
+F 4 "SAMSUNG_RMS1" H 7070 4150 50  0001 C CNN "Manufacturer"
 F 5 "10022623" H 0   0   50  0001 C CNN "Item Number"
-F 6 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 6 "CL05C470JB5NNNC" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 7 "CAPACITOR,47 PF,+/-5%,50V,0402" H 0   0   50  0001 C CNN "Description"
-F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
-F 10 "CL05C470JB5NNNC" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "GRM1555C1H470JA01D" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 10 "C0402C470J5GACTU" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM1555C1H470JZ01D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6600 3950
 	1    0    0    1   
 $EndComp
@@ -66,14 +66,14 @@ F 0 "C4" H 6725 4850 50  0000 L CNN
 F 1 "47pF" H 6725 4775 50  0000 L CNN
 F 2 "AllModules:C0402" H 7600 4700 50  0001 C CNN
 F 3 "" H 6600 4800 50  0001 C CNN
-F 4 "KEMET_RMS1" H 7070 5000 50  0001 C CNN "Manufacturer"
+F 4 "SAMSUNG_RMS1" H 7070 5000 50  0001 C CNN "Manufacturer"
 F 5 "10022623" H 0   0   50  0001 C CNN "Item Number"
-F 6 "C0402C470J5GAC" H 0   0   50  0001 C CNN "Manufacturer_No"
+F 6 "CL05C470JB5NNNC" H 0   0   50  0001 C CNN "Manufacturer_No"
 F 7 "CAPACITOR,47 PF,+/-5%,50V,0402" H 0   0   50  0001 C CNN "Description"
-F 8 "SAMSUNG_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
+F 8 "KEMET_RMS1" H 0   0   50  0001 C CNN "Manufacturer2"
 F 9 "MURATA MANUFACTURING CO., LTD." H 0   0   50  0001 C CNN "Manufacturer3"
-F 10 "CL05C470JB5NNNC" H 0   0   50  0001 C CNN "Manufacturer_No2"
-F 11 "GRM1555C1H470JA01D" H 0   0   50  0001 C CNN "Manufacturer_No3"
+F 10 "C0402C470J5GACTU" H 0   0   50  0001 C CNN "Manufacturer_No2"
+F 11 "GRM1555C1H470JZ01D" H 0   0   50  0001 C CNN "Manufacturer_No3"
 	1    6600 4800
 	-1   0    0    1   
 $EndComp
@@ -195,7 +195,7 @@ P 5600 2350
 F 0 "FI1" H 5575 2765 50  0000 C CNN
 F 1 "BNX002-11" H 5575 2674 50  0000 C CNN
 F 2 "AllModules:BNX002" H 5490 2370 50  0001 C CNN
-F 3 "" H 5490 2370 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-11" H 5490 2370 50  0001 C CNN
 F 4 "10022532" H 5425 1975 50  0001 C CNN "Item Number"
 F 5 "MURATA MANUFACTURING CO., LTD." H 5350 2050 50  0001 C CNN "Manufacturer"
 F 6 "BNX002-01" H 0   0   50  0001 C CNN "Manufacturer_No"

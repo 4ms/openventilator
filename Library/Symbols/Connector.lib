@@ -804,7 +804,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "10023419" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR, 1 CONTACTS, TEST PROBE" 400 -10 50 H I L CNN "Description"
 F6 "INGUN" 400 -70 50 H I L CNN "Manufacturer"
-F7 "GKS 913 305 230 A 15 02 S" 400 -130 50 H I L CNN "Manufacturer_No"
+F7 "GKS-913 305 230 A 15 02 S" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "INGUN" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "GKS-913-0024" 400 -250 50 H I L CNN "Manufacturer_No2"
 $FPLIST
