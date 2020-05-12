@@ -215,8 +215,8 @@ def insertSymbolField(symbol_name, field_name, field_val, field_idx, libfiledata
     return libfiledata, num
 
 def createFieldText(field_name, field_val, field_idx):
-    lib_tags = "400 50 50 H I L LNN"
-    field_text = "F "+str(field_idx)+" \""+field_val+"\" "+ lib_tags + " \""+field_name+"\"\n"
+    lib_tags = "400 50 50 H I L CNN"
+    field_text = "F"+str(field_idx)+" \""+field_val+"\" "+ lib_tags + " \""+field_name+"\"\n"
     return field_text
 
 def writeLibraryFiles(libs_dict):
