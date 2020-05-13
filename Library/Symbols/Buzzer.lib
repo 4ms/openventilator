@@ -38,6 +38,7 @@ F 4 "10022130" 400 50 50 H I L CNN "Item Number"
 F 5 "BUZZER" 400 -10 50 H I L CNN "Description"
 F 6 "MURATA MANUFACTURING CO., LTD." 400 -70 50 H I L CNN "Manufacturer"
 F 7 "PKM33EPH1201C" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://static6.arrow.com/aropdfconversion/7b70aa7e830c779afe0b0b228e977929034d7c7b/p37e.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *Buzzer*
 $ENDFPLIST

@@ -58,6 +58,7 @@ F4 "10022141" 400 50 50 H I L CNN "Item Number"
 F5 "FUSE, FAST ACTING, SMD, 500MA" 400 -10 50 H I L CNN "Description"
 F6 "LITTELFUSE_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "0451.500MRL" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -80,6 +81,7 @@ F4 "10022531" 400 50 50 H I L CNN "Item Number"
 F5 "FUSE 5A + SUPPORT CMS" 400 -10 50 H I L CNN "Description"
 F6 "LITTELFUSE_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "0154005.DR" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -30 -100 30 100 1 1 10 N
 P 2 1 1 0 0 100 0 -100 N

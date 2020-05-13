@@ -66,7 +66,9 @@ def extractFieldsFromBoms(bom_dir):
                             field_dict[last_itemnum] = {}
                             field_dict[last_itemnum]['filename'] = bom_filename
                             field_dict[last_itemnum]['fields'] = field_list
-                            #print("Extracted fields for Item Number: "+last_itemnum + " ("+bom_filename+")")
+                            for n,v,i in field_list:
+                                print(n+" "+v)
+                            print("Extracted fields for Item Number: "+last_itemnum + " ("+bom_filename+")")
 
                         if found_duplicate_itemnum:
                             print("**Item Number "+last_itemnum+" found in file: "+bom_filename+" and in file: "+other_filename)
@@ -103,16 +105,17 @@ def extractFieldsFromBoms(bom_dir):
                                 print(diffs)
 
 
-                    print("Found Item Number: "+itemnum+" in file "+bom_filename+" on row "+str(i))
-                    last_itemnum = itemnum
-                    last_bom_filename = bom_filename
-                    field_list = []
-                    field_list.append(('Datasheet', datasheet, 3))
-                    field_list.append(('Description', desc, 5))
-                    field_list.append(('Manufacturer', manu, 6))
-                    field_list.append(('Manufacturer_No', manuNo, 7))
-                    f_idx = 8
-                    extras_idx = 2
+                    if not lastline:
+                        print("Found Item Number: "+itemnum+" in file "+bom_filename+" on row "+str(i))
+                        last_itemnum = itemnum
+                        last_bom_filename = bom_filename
+                        field_list = []
+                        field_list.append(('Datasheet', datasheet, 3))
+                        field_list.append(('Description', desc, 5))
+                        field_list.append(('Manufacturer', manu, 6))
+                        field_list.append(('Manufacturer_No', manuNo, 7))
+                        f_idx = 8
+                        extras_idx = 2
 
                 else:
                     field_list.append(('Manufacturer'+str(extras_idx), manu, f_idx))
@@ -132,6 +135,7 @@ def updateSymbolLibrary(field_dict, libs_dict):
 def updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict):
     global notfound
     lib, symbol_name = findSymbolByItemnum(itemnum, libs_dict)
+    print(itemnum+": "+field_name + " " +field_val)
     if lib is None:
         if itemnum not in notfound:
             print("****ERROR****: Item Number: "+itemnum+" not found in any libraries")
@@ -139,20 +143,23 @@ def updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict):
             notfound.append(itemnum)
         else:
             print("**** (not found: "+itemnum+") "+field_name+" = "+field_val)
-
         return False
+
     if checkSymbolNeedsUpdating(symbol_name, field_name, field_val, libs_dict[lib]):
+        print("Needs updating")
         libs_dict[lib], num = updateSymbolField(symbol_name, field_name, field_val, libs_dict[lib])
         if num > 1:
             print("ERROR: Symbol "+symbol_name+" found more than once in a single library file " + lib)
         if num > 0:
             print("Updated field "+field_name+" = "+field_val+ " into symbol "+symbol_name+" in library "+lib+".")
-        elif field_val!="" and field_name!="" and field_idx>=4:
+        elif field_val!="" and field_name!="" and field_idx>=3:
             libs_dict[lib], num = insertSymbolField(symbol_name, field_name, field_val, field_idx, libs_dict[lib])
             if num>0:
                 print("Inserted field "+field_name+" = "+field_val+ " into symbol "+symbol_name+" in library "+lib+".")
             else:
                 print("ERROR: could not insert field "+field_name+" = "+field_val+ " into symbol "+symbol_name+" in library "+lib+".")
+        else:
+            print("Can't update")
     # else:
     #     print("No update necessary")
     return True

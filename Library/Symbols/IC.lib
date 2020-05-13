@@ -361,6 +361,7 @@ F8 "First Sensor" -450 -590 50 H I L CNN "Manufacturer2"
 F9 "SQ274-P001BDM8C5" -450 -650 50 H I L CNN "Manufacturer_No2"
 F10 "HONEYWELL_RMS1" -450 -710 50 H I L CNN "Manufacturer3"
 F11 "XZ209766-ASDX" -450 -770 50 H I L CNN "Manufacturer_No3"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/24053.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -450 350 400 -300 0 1 0 f
 X +VS1 1 500 250 100 L 50 50 1 0 W
@@ -419,6 +420,7 @@ F10 "MICROCHIP TECHNOLOGY_RMS1" 0 -1200 50 H I L CNN "Manufacturer3"
 F11 "25LC320T-I/SN" 0 -1300 50 H I L CNN "Manufacturer_No3"
 F12 "MICROCHIP TECHNOLOGY_RMS1" 0 -1400 50 H I L CNN "Manufacturer4"
 F13 "25LC320-E/SN" 0 -1500 50 H I L CNN "Manufacturer_No4"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-14/279193.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -100 600 800 -400 0 1 0 f
 X CS/ 1 -200 -200 100 R 50 50 1 0 I
@@ -447,6 +449,7 @@ F8 "HONEYWELL_RMS1" 350 -340 50 H I L CNN "Manufacturer2"
 F9 "FBAL001DU" 350 -400 50 H I L CNN "Manufacturer_No2"
 F10 "First Sensor" 350 -460 50 H I L CNN "Manufacturer3"
 F11 "WBAL001DU" 350 -520 50 H I L CNN "Manufacturer_No3"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-10/193556.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 T 0 -325 437 59 0 1 0 P1 Normal 0 L B
 T 0 -325 -500 59 0 1 0 P2 Normal 0 L B
@@ -731,6 +734,7 @@ F6 "MAXIM_RMS1" 325 -570 50 H I L CNN "Manufacturer"
 F7 "DS1305E+" 325 -630 50 H I L CNN "Manufacturer_No"
 F8 "MAXIM_RMS1" 325 -690 50 H I L CNN "Manufacturer2"
 F9 "DS1305E+T&R" 325 -750 50 H I L CNN "Manufacturer_No2"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-7/134798.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -500 1050 750 -400 0 1 0 f
 X VCC2 1 300 1150 100 D 50 50 1 0 W
@@ -795,6 +799,7 @@ F6 "FTDI_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "FT2232D-REEL" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "FTDI_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "FT2232D-TRAY" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  LQFP*7x7mm*P0.5mm*
 $ENDFPLIST
@@ -864,6 +869,7 @@ F6 "TEXAS INSTRUMENTS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "INA170EA/2K5" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "TEXAS INSTRUMENTS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "INA170EA/250" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.ti.com/lit/ds/symlink/ina170.pdf?ts=1587878656747" 400 50 50 H I L CNN "Datasheet"
 DRAW
 P 4 0 1 10 200 0 -200 200 -200 -200 200 0 f
 X - 1 -300 -100 100 R 50 50 1 1 I
@@ -892,6 +898,7 @@ F8 "INFINEON_RMS1" 650 10 50 H I L CNN "Manufacturer2"
 F9 "IR2118STRPBF" 650 -50 50 H I L CNN "Manufacturer_No2"
 F10 "INFINEON_RMS1" 650 -110 50 H I L CNN "Manufacturer3"
 F11 "IR2118STRPBF" 650 -170 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.infineon.com/dgdl/ir2117.pdf?fileId=5546d462533600a4015355c84331168d" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -200 -350 300 200 0 1 0 f
 X VCC 1 -300 150 100 R 50 50 1 1 W
@@ -1078,6 +1085,7 @@ F6 "ST MICROELECTRONIC" 350 -220 50 H I L CNN "Manufacturer"
 F7 "LF33CDT" 350 -280 50 H I L CNN "Manufacturer_No"
 F8 "STMICROELECTRONICS" 350 -340 50 H I L CNN "Manufacturer2"
 F9 "LF33CDT-TR" 350 -400 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 T 0 -75 -175 51 0 1 0 COM Normal 0 L B
 T 0 -275 -25 51 0 1 0 Vin Normal 0 L B
@@ -1130,6 +1138,7 @@ F10 "ON SEMICONDUCTOR_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "LM317LBDG" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "ON SEMICONDUCTOR_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "LM317LBDR2G" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm317l-n" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
 $ENDFPLIST
@@ -1159,6 +1168,7 @@ F6 "ON SEMICONDUCTOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "MC33172DG" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "ON SEMICONDUCTOR_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "MC33172DR2G" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.mouser.ca/datasheet/2/308/MC33171-D-1811126.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
  DIP*W7.62mm*
@@ -1254,6 +1264,7 @@ F4 "10022896" 400 50 50 H I L CNN "Item Number"
 F5 "IC,VOLTAGE REFERENCE,5MA,3V +/-2%,SOT23" 400 -10 50 H I L CNN "Description"
 F6 "NATIONAL SEMICONDUCTOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "LM4120AIM5-3.0/NOPB" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://www.ti.com/lit/ds/symlink/lm4120.pdf?ts=1587880612626" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -1304,6 +1315,7 @@ F6 "NATIONAL SEMICONDUCTOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "LMC7211AIM5 NOPB" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NATIONAL SEMICONDUCTOR_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "LMC7211BIM5 NOPB" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmc7211-n" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -1330,6 +1342,7 @@ F6 "NATIONAL SEMICONDUCTOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "LMV321M5 NOPB" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "TEXAS INSTRUMENTS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "LMV321IDBVT" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmv321-n" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
  *SC*70*
@@ -1355,6 +1368,7 @@ F4 "10023039" 450 -100 50 H I L CNN "Item Number"
 F5 "IC,REFERENCE VOLTAGE 5V FIXED - 10 MA,SO8" 450 -160 50 H I L CNN "Description"
 F6 "LINEAR TECHNOLOGY_RMS1" 450 -220 50 H I L CNN "Manufacturer"
 F7 "LT1236CCS8-5#TRPBF" 450 -280 50 H I L CNN "Manufacturer_No"
+F3 "http://www.linear.com/docs/2948" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -350 250 398 -350 0 1 0 f
 X IN 2 -450 0 100 R 50 50 1 0 W
@@ -1374,6 +1388,7 @@ F4 "10023040" 450 -100 50 H I L CNN "Item Number"
 F5 "IC,REFERENCE VOLTAGE 10V FIXED - 10 MA,SO8" 450 -160 50 H I L CNN "Description"
 F6 "LINEAR TECHNOLOGY_RMS1" 450 -220 50 H I L CNN "Manufacturer"
 F7 "LT1236CCS8-10#TRPBF" 450 -280 50 H I L CNN "Manufacturer_No"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-14/268053.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -350 250 400 -350 0 1 0 f
 X IN 2 -450 0 100 R 50 50 1 0 W
@@ -1449,6 +1464,7 @@ F6 "LINEAR TECHNOLOGY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "LT3471EDD#PBF" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "LINEAR TECHNOLOGY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "LT3471EDD#TRPBF" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.linear.com/docs/5130" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  DFN*1EP*3x3mm*P0.5mm*
 $ENDFPLIST
@@ -1483,6 +1499,7 @@ F8 "LINEAR TECHNOLOGY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "LTC1435IG#PBF" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "LINEAR TECHNOLOGY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "LTC1435IG#PBF" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1435f.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SO*16*
 $ENDFPLIST
@@ -1564,6 +1581,7 @@ F8 "NXP SEMICONDUCTORS_RMS1" 550 360 50 H I L CNN "Manufacturer2"
 F9 "74LVC1G07GV,125" 550 300 50 H I L CNN "Manufacturer_No2"
 F10 "NXP SEMICONDUCTORS_RMS1" 550 240 50 H I L CNN "Manufacturer3"
 F11 "74LVC1G07GV" 550 180 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -200 350 500 -300 0 1 0 f
 P 2 1 0 0 50 -100 250 0 N
@@ -1595,6 +1613,7 @@ F6 "STMICROELECTRONICS" 400 -70 50 H I L CNN "Manufacturer"
 F7 "L78M15CDT" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "STMICROELECTRONICS" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "L78M15CDT-TR" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -250 -150 250 150 0 1 0 f
 X VIN 1 -350 100 100 R 50 50 1 1 W
@@ -1644,6 +1663,7 @@ F6 "MAXIM_RMS1" -300 -770 50 H I L CNN "Manufacturer"
 F7 "MAX690ACSA+T" -300 -830 50 H I L CNN "Manufacturer_No"
 F8 "MAXIM_RMS1" -300 -890 50 H I L CNN "Manufacturer2"
 F9 "MAX690ACSA+" -300 -950 50 H I L CNN "Manufacturer_No2"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS41/DSANUWW0037327.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -300 500 400 -500 0 1 0 f
 X VOUT 1 600 150 200 L 50 50 1 0 B
@@ -1691,6 +1711,7 @@ F6 "ON SEMICONDUCTOR_RMS1" 1100 150 50 H I L CNN "Manufacturer"
 F7 "MC33035DWR2G" 1100 50 50 H I L CNN "Manufacturer_No"
 F8 "ON SEMICONDUCTOR_RMS1" 1100 -50 50 H I L CNN "Manufacturer2"
 F9 "MC33035DWG" 1100 -150 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.onsemi.com/pub/Collateral/MC33035-D.PDF" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -600 850 550 -750 0 1 0 f
 X BT 1 650 200 100 L 50 50 1 1 O
@@ -1780,6 +1801,7 @@ F6 "TEXAS INSTRUMENTS_RMS1" 650 200 50 H I L CNN "Manufacturer"
 F7 "SE555DRG4" 650 100 50 H I L CNN "Manufacturer_No"
 F8 "TEXAS INSTRUMENTS_RMS1" 650 0 50 H I L CNN "Manufacturer2"
 F9 "SE555DG4" 650 -100 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.ti.com/lit/ds/symlink/se555.pdf?ts=1587916432838" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -700 -350 -700 -350 0 1 0 N
 S -350 400 350 -400 0 1 0 f
@@ -1807,6 +1829,7 @@ F6 "ANALOG DEVICES, INC." 400 -70 50 H I L CNN "Manufacturer"
 F7 "OP295GSZ-REEL7" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "ANALOG DEVICES, INC." 400 -190 50 H I L CNN "Manufacturer2"
 F9 "OP295GSZ" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-11/218856.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
  DIP*W7.62mm*
@@ -1904,6 +1927,7 @@ F4 "10022888" 850 -1575 50 H I L CNN "Item Number"
 F5 "MICROCON,8 BIT, FLASH 64K,RAM3966 BYTES,TQFP64" 850 -1650 50 H I L CNN "Description"
 F6 "MICROCHIP TECHNOLOGY_RMS1" 850 -1725 50 H I L CNN "Manufacturer"
 F7 "PIC18F6622-I/PT" 850 -1800 50 H I L CNN "Manufacturer_No"
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39646c.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -800 1850 800 -1750 0 1 10 f
 X RE1/~WR~/P2C 1 -900 950 100 R 50 50 1 1 B
@@ -1990,6 +2014,7 @@ F10 "TEXAS INSTRUMENTS_RMS1" 1750 -2060 50 H I L CNN "Manufacturer3"
 F11 "SN74ALVC164245DGGT" 1750 -2120 50 H I L CNN "Manufacturer_No3"
 F12 "TEXAS INSTRUMENTS_RMS1" 1750 -2180 50 H I L CNN "Manufacturer4"
 F13 "74ALVC164245DGGRG4" 1750 -2240 50 H I L CNN "Manufacturer_No4"
+F3 "http://www.ti.com/lit/ds/symlink/sn74alvc164245.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S 0 500 1700 -2000 0 1 0 f
 X 1DIR 1 300 -2200 200 U 50 50 1 0 B
@@ -2296,6 +2321,7 @@ F4 "10022974" 375 -100 50 H I L CNN "Item Number"
 F5 "RESET CIRCUIT, SUPERVISOR VOLTAGE 5V,SOT23" 375 -175 50 H I L CNN "Description"
 F6 "STMICROELECTRONICS" 375 -250 50 H I L CNN "Manufacturer"
 F7 "STM809LWX6F" 375 -325 50 H I L CNN "Manufacturer_No"
+F3 "https://www.st.com/resource/en/datasheet/stm809.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -300 300 300 -300 0 1 0 f
 X VSS 1 -200 -500 200 U 50 50 1 0 W
@@ -2334,6 +2360,7 @@ F4 "10022505" 850 -2200 50 H I L CNN "Item Number"
 F5 "UART, LQFP64" 850 -2300 50 H I L CNN "Description"
 F6 "TEXAS INSTRUMENTS_RMS1" 850 -2400 50 H I L CNN "Manufacturer"
 F7 "TL16C750IPM" 850 -2500 50 H I L CNN "Manufacturer_No"
+F3 "http://www.ti.com/lit/ds/symlink/tl16c750.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -600 1500 750 -2500 0 1 0 f
 X XIN 1 850 1200 100 L 50 50 1 0 I
@@ -2416,6 +2443,7 @@ F6 "TEXAS INSTRUMENTS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "TLV3011AIDBVR" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "TEXAS INSTRUMENTS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "TLV3011AIDBVT" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv3011" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT*23*6*
  SC*74*
@@ -2472,6 +2500,7 @@ F6 "TEXAS INSTRUMENTS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "TPS5430DDA" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "TEXAS INSTRUMENTS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "TPS5430DDAR" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.ti.com/lit/ds/symlink/tps5430.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TI*SO*PowerPAD*ThermalVias*
 $ENDFPLIST
@@ -2502,6 +2531,7 @@ F6 "TEXAS INSTRUMENTS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BQ2002CSNTR" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "TEXAS INSTRUMENTS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BQ2002CSN" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq2002c" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S 200 250 -200 -250 0 1 0 f
 X TM 1 -350 150 150 R 50 50 1 1 I

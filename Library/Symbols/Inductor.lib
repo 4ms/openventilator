@@ -12,6 +12,7 @@ F4 "10022907" 400 50 50 H I L CNN "Item Number"
 F5 "SMD FERRITE 200MA" 400 -10 50 H I L CNN "Description"
 F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "74279266" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.we-online.fr/catalog/datasheet/74279266.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Inductor_*
  L_*
@@ -39,6 +40,7 @@ F6 "TAIYO YUDEN_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BK32164M102-T" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "ILAS-1206-ER-102V" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.yuden.co.jp/productdata/catalog/mlci09_e.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A -75 100 25 1 1799 0 1 0 N -50 100 -100 100
 A -75 250 25 1 1799 0 1 0 N -50 250 -100 250
@@ -83,6 +85,7 @@ F8 "MURATA MANUFACTURING CO., LTD." 800 -250 50 H I L CNN "Manufacturer2"
 F9 "BNX00201" 800 -350 50 H I L CNN "Manufacturer_No2"
 F10 "MURATA MANUFACTURING CO., LTD." 800 -450 50 H I L CNN "Manufacturer3"
 F11 "BNX002-11" 800 -550 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luNoiseSupprFilteBlockType&partno=BNX002-01" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A -310 -300 25 1 1799 1 1 0 N -285 -300 -335 -300
 A -310 100 25 1 1799 1 1 0 N -285 100 -335 100
@@ -143,6 +146,7 @@ F6 "MURATA_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "DLP31SN551ML2L" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "MURATA_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "DLP31SN551ML2L" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.murata.com/en-us/products/productdata/8796756410398/EFLE0007.pdf?1441769419000" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  L_*
  L_CommonMode*
@@ -184,6 +188,7 @@ F4 "10022533" 400 50 50 H I L CNN "Item Number"
 F5 "FILTER, 1K, 100MHZ, 0.8OHM, 50MA, 0603" 400 -10 50 H I L CNN "Description"
 F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "74279266" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.we-online.de/katalog/datasheet/74279266.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -40 -100 40 100 1 1 10 N
 X ~ 1 0 -150 50 U 50 50 1 1 P
@@ -227,6 +232,7 @@ F4 "10022911" 400 50 50 H I L CNN "Item Number"
 F5 "SMD FERRITE, 1A,1206" 400 -10 50 H I L CNN "Description"
 F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "74279218" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://katalog.we-online.de/pbs/datasheet/74279218.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Inductor_*
  L_*
@@ -258,6 +264,7 @@ F10 "MURATA_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "BLM21PG221SH1D" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "TDK_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "MPZ2012S221A" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796740354078/QNFA9102.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Inductor_*
  L_*
@@ -283,6 +290,7 @@ F4 "10095971" 400 50 50 H I L CNN "Item Number"
 F5 "INDUCTOR 22UH,1.8-2A" 400 -10 50 H I L CNN "Description"
 F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "744772220" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.we-online.de/katalog/datasheet/744772220.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A 0 -475 25 901 -901 1 1 0 N 0 -450 0 -500
 A 0 -425 25 901 -901 1 1 0 N 0 -400 0 -450
@@ -304,6 +312,7 @@ F4 "10022908" 400 50 50 H I L CNN "Item Number"
 F5 "INDUCTOR,33UH +/-10%" 400 -10 50 H I L CNN "Description"
 F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "74456133" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://katalog.we-online.de/pbs/datasheet/74456133.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Choke_*
  *Coil*
@@ -333,6 +342,7 @@ F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "744031100" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "WURTH ELEKTRONIK GMBH" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "744031100" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Choke_*
  *Coil*
@@ -362,6 +372,7 @@ F6 "WURTH ELEKTRONIK GMBH" 400 -70 50 H I L CNN "Manufacturer"
 F7 "744031150" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "WURTH ELEKTRONIK GMBH" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "744031150" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://katalog.we-online.de/pbs/datasheet/744031150.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Choke_*
  *Coil*

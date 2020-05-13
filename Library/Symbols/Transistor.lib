@@ -60,6 +60,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BC847,215" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BC847" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -88,6 +89,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BC857,215" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BC857" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -114,6 +116,7 @@ F4 "10022559" 400 50 50 H I L CNN "Item Number"
 F5 "TRANSISTOR MOSFET, 60V, 16.7A,  N CHANNEL" 400 -10 50 H I L CNN "Description"
 F6 "INTERNATIONAL RECTIFIER_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "IRFR024NTRPBF" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.infineon.com/dgdl/irfr024npbf.pdf?fileId=5546d462533600a40153562cf721203c" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  DirectFET*MF*
 $ENDFPLIST
@@ -151,6 +154,7 @@ F6 "INTERNATIONAL RECTIFIER_RMS1" 250 -220 50 H I L CNN "Manufacturer"
 F7 "IRLML2803PBF" 250 -280 50 H I L CNN "Manufacturer_No"
 F8 "INTERNATIONAL RECTIFIER_RMS1" 250 -340 50 H I L CNN "Manufacturer2"
 F9 "IRLML2803TRPBF" 250 -400 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  DirectFET*MF*
 $ENDFPLIST
@@ -186,6 +190,7 @@ F4 "10022933" 400 50 50 H I L CNN "Item Number"
 F5 "RSPTRANSISTOR MOSFET, P CHANNEL, 30V,0.6A" 400 -10 50 H I L CNN "Description"
 F6 "INTERNATIONAL RECTIFIER_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "IRLML5103TRPBF" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.infineon.com/dgdl/irlml5103pbf.pdf?fileId=5546d462533600a401535668505d2617" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -291,6 +296,7 @@ F8 "MOLEX" 400 50 50 H I L CNN "Manufacturer2"
 F9 "39281023" 400 50 50 H I L CNN "Manufacturer_No2"
 F11 "MOLEX" 400 50 50 H I L CNN "Manufacturer3"
 F12 "22057098" 400 50 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.infineon.com/dgdl/irfz24npbf.pdf?fileId=5546d462533600a40153563af6ce21f7" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C -35 0 110 1 1 10 N
 C 0 -70 10 1 1 0 F
@@ -327,6 +333,7 @@ F8 "DIODES INC" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "2N7002-7-F" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "DIODES INC_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "2N7002TA" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 65 0 110 0 1 10 N
 C 100 -70 10 0 1 0 F
@@ -461,6 +468,7 @@ F4 "10095972" 400 50 50 H I L CNN "Item Number"
 F5 "TRANSISTOR MOSFET, 60V, 50A, P CHANNEL" 400 -10 50 H I L CNN "Description"
 F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "SUD50P06-15L-E3" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://www.vishay.com/docs/72250/sud50p06.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 65 0 110 0 1 10 N
 C 100 -70 10 0 1 0 F
@@ -594,6 +602,7 @@ F6 "ZETEX /Diodes inc." 400 -70 50 H I L CNN "Manufacturer"
 F7 "FZT953" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "ZETEX /Diodes inc." 400 -190 50 H I L CNN "Manufacturer2"
 F9 "FZT953TA" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.diodes.com/assets/Datasheets/FZT951_FZT953.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -621,6 +630,7 @@ F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "SI7848BDP-T1-E3" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "SI7884BDP-T1-E3 " 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.vishay.com/docs/74632/si7848bdp.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  DirectFET*MF*
 $ENDFPLIST
@@ -696,6 +706,7 @@ F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "SUD50P06 - 15L" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "SUD50P06-15L-E3" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.vishay.com/docs/72250/sud50p06.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO?252*
 $ENDFPLIST
@@ -731,6 +742,7 @@ F4 "10024445" 400 50 50 H I L CNN "Item Number"
 F5 "TRANSISTOR, MOSFET, N CHANNEL, 20V, 5A, SOT23" 400 -10 50 H I L CNN "Description"
 F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "SI2312BDS-T1-E3" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://www.vishay.com/docs/73235/si2312bds.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 65 0 110 0 1 10 N
 C 100 -70 10 0 1 0 F
@@ -763,6 +775,7 @@ F4 "10024446" 400 50 50 H I L CNN "Item Number"
 F5 "TRANSISTOR, MOSFET, P CHANNEL, 12V, 3.8A, SOT23" 400 -10 50 H I L CNN "Description"
 F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "SI2315BDS-T1-E3" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://www.vishay.com/docs/72014/72014.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 65 0 110 0 1 10 N
 C 100 -70 10 0 1 0 F

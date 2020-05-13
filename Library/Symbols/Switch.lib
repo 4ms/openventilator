@@ -93,6 +93,7 @@ F 4 "10025553" 400 50 50 H I L CNN "Item Number"
 F 5 "DIL, SLIDE SWITCH" 400 -10 50 H I L CNN "Description"
 F 6 "APEM COMPONENTS INC" 400 -70 50 H I L CNN "Manufacturer"
 F 7 "NK236" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.apem.com/int/index.php?controller=attachment&id_attachment=808" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C -80 0 20 0 0 0 N
 C 80 -100 20 0 0 0 N

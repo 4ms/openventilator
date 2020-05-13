@@ -48,6 +48,7 @@ F10 "KEMET_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "C0603C103K5RACTU" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "CC0603KRX7R9BB103" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -72,6 +73,7 @@ F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "CA0612KRNPO9BN470" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "AVX_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "W3A45A470KAT2A" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-4C-Array_16V-to-50V_5.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -75 -325 -75 -275 0 1 0 N
 S -75 -275 -75 275 0 1 0 N
@@ -117,6 +119,7 @@ F10 "MURATA MANUFACTURING CO., LTD." 400 -310 50 H I L CNN "Manufacturer3"
 F11 "GRM155R71C104KA88D" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "MURATA" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "GRM155R71C104JA88J" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -247,6 +250,7 @@ F4 "10021369" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR CERAMIC 1UF 10V 10% X5R 0402" 400 -10 50 H I L CNN "Description"
 F6 "KEMET_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "C0402C105K8PACTU" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://assets.nexperia.com/documents/data-sheet/PESDXS4UD_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -301,6 +305,7 @@ F10 "KEMET_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "C0402C471K5RAC" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "TDK" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "CGA2B2C0G1H471J050BA" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -355,6 +360,7 @@ F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "CC0402KRX7R7BB472" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CC0402KRX7R7BB472" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -407,6 +413,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CC0402JRX7R9BB681" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CC0402JRX7R9BB681" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H681JA01-01.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -603,6 +610,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CC0603JRNPO9BN220" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CC0603JRNPO9BN220" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://static6.arrow.com/aropdfconversion/8bc1e5bbd83c2f034a2b39f6d114eb01dba9a95e/cl10c220jb8nnnc-19.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -650,6 +658,7 @@ F6 "KEMET_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "C0603C334K4RACTU" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "KEMET_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "C0603C334K4RAC" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://api.kemet.com/component-edge/download/datasheet/C0603C334K4RACTU.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -678,6 +687,7 @@ F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CC0603KRX7R7BB333" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "SAMSUNG_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "CL10B333KO8NNNC" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -780,6 +790,7 @@ F6 "AVX_RMS1" 475 -70 50 H I L CNN "Manufacturer"
 F7 "W3A45A470KAT2A" 475 -130 50 H I L CNN "Manufacturer_No"
 F8 "YAGEO_RMS1" 475 -190 50 H I L CNN "Manufacturer2"
 F9 "CA0612JRNPO9BN470" 475 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://datasheets.avx.com/CapArray.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -425 100 425 -100 0 1 0 N
 P 2 1 1 20 -380 -30 -220 -30 N
@@ -822,6 +833,7 @@ F14 "YAGEO_RMS1" 400 -550 50 H I L CNN "Manufacturer5"
 F15 "CC0805KRX7R9BB104" 400 -610 50 H I L CNN "Manufacturer_No5"
 F16 "AVX_RMS1" 400 -670 50 H I L CNN "Manufacturer6"
 F17 "08055C104KAT2A" 400 -730 50 H I L CNN "Manufacturer_No6"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -844,6 +856,7 @@ F4 "10022958" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR, 10NF, 16V +/2%, 0805" 400 -10 50 H I L CNN "Description"
 F6 "PANASONIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "ECHU1C103GX5" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0013+ECHU1C103GX5+7+WW" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -922,6 +935,7 @@ F8 "KEMET_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "C0805C105K3RACTU" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "AVX_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "08053C105KAZ2A" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -1062,6 +1076,7 @@ F12 "Samsung Electro-Mechanics" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "CL31A106KOHNNNE" 400 -490 50 H I L CNN "Manufacturer_No4"
 F14 "AVX CORPORATION" 400 -550 50 H I L CNN "Manufacturer5"
 F15 "1206YD106KAT2A" 400 -610 50 H I L CNN "Manufacturer_No5"
+F3 "https://api.kemet.com/component-edge/download/datasheet/C1206C106K4PACTU.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -1217,6 +1232,7 @@ F8 "TAIYO YUDEN_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "EMK325BJ476MM-T" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CC1210KKX5R7BB476" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://api.kemet.com/component-edge/download/datasheet/C1210C476M4PACTU.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -1239,6 +1255,7 @@ F4 "10095974" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR,1000UF,+/-20%,35V" 400 -10 50 H I L CNN "Description"
 F6 "ILLINOIS_CAPACITOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "108TTA035M" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.illinoiscapacitor.com/pdf/seriesDocuments/TTA%20series.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
 P 2 1 1 0 -120 90 -80 90 N
@@ -1371,11 +1388,12 @@ DEF C_100uF_50V_20%_SMD C 0 40 N N 1 F N
 F0 "C" -200 50 50 H V C CNN
 F1 "C_100uF_50V_20%_SMD" 0 450 50 H I C CNN
 F2 "AllModules:C-SC8_1" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
+F3 "" 400 50 50 H I L CNN
 F4 "10022506" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR,100UF,+/-20%,50V SMD" 400 -10 50 H I L CNN "Description"
 F6 "NICHICON_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "UWT1H101MNL1GS" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -90 20 90 40 1 1 0 N
 S 90 -20 -90 -40 1 1 0 F
@@ -1447,6 +1465,7 @@ F6 "KEMET" 400 -70 50 H I L CNN "Manufacturer"
 F7 "T491C106K025AT" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "KEMET" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "T495C106K025ATE275" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://api.kemet.com/component-edge/download/datasheet/T491C106K025AT.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -1503,6 +1522,7 @@ F4 "10022978" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR TANTALUM,10UF, 50V,+/-10%" 400 -10 50 H I L CNN "Description"
 F6 "AVX CORPORATION" 400 -70 50 H I L CNN "Manufacturer"
 F7 "TAJD106K050RNJ" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://datasheets.avx.com/TAJ.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -1529,6 +1549,7 @@ F6 "KEMET" 400 -70 50 H I L CNN "Manufacturer"
 F7 "T491A105M035AT" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "KEMET" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "T495A105K035ATE3K0" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://4donline.ihs.com/images/VipMasterIC/IC/KEME/KEME-S-A0006487387/KEME-S-A0006487387-1.pdf?hkey=52A5661711E402568146F3353EA87419" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -1598,7 +1619,7 @@ DEF C_22uF_10% C 0 40 N Y 1 F N
 F0 "C" -200 50 50 H V C CNN
 F1 "C_22uF_10%" 0 450 50 H I C CNN
 F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-X_EIA-7343-43_Reflow" 50 -450 50 H I C CNN
-F3 "" 0 450 50 H I C CNN
+F3 "" 400 50 50 H I L CNN
 F4 "10022561" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR TANTALUM,22UF,+/-10%,35V" 400 -10 50 H I L CNN "Description"
 F6 "AVX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
@@ -1607,6 +1628,7 @@ F8 "AVX_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "TAJD226K035RNJ" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "KEMET_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "T491D226K035AT" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://datasheets.avx.com/TAJ.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
 P 2 1 1 0 -120 90 -80 90 N
@@ -1628,6 +1650,7 @@ F4 "10022973" 400 50 50 H I L CNN "Item Number"
 F5 "CAPACITOR TANTALUM, 22UF, 10V,+/-10%" 400 -10 50 H I L CNN "Description"
 F6 "KEMET" 400 -70 50 H I L CNN "Manufacturer"
 F7 "T495A226K010ATE1K2" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://api.kemet.com/component-edge/download/datasheet/T495A226K010ATE1K2.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -1704,6 +1727,7 @@ F6 "PANASONIC_RMS1" 400 -50 50 H I L CNN "Manufacturer"
 F7 "EEEFK1E471P" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NICHICON_RMS1" 400 50 50 H I L CNN "Manufacturer2"
 F9 "UCD1E471MNL1GS" 400 -200 50 H I L CNN "Manufacturer_No2"
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
 P 2 1 1 0 -120 90 -80 90 N
@@ -1750,6 +1774,7 @@ F6 "VISHAY_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "222202117471" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "MAL202117471E3" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "http://www.vishay.com/docs/28325/021asm.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  CP_*
 $ENDFPLIST

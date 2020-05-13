@@ -22,6 +22,10 @@ $CMP C_100uF_50V_20%_SMD
 F https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf
 $ENDCMP
 #
+$CMP C_22uF_10%
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
 $CMP C_470uF_20%_SMD
 F https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf
 $ENDCMP

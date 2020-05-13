@@ -41,6 +41,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-07100KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-07100KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -66,6 +67,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-07105KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CRCW0402105KFKED" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -91,6 +93,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CRCW040210K0FKED" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0710KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -116,6 +119,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-07137KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-07137KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -291,6 +295,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-071R5L" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CRCW04021R50FKED" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -341,6 +346,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CRCW0402200KFKED" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-07200KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -391,6 +397,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "232270672202L" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CRCW04022K20FKED" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -416,6 +423,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CRCW040232K4FKED" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0732K4L" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -441,6 +449,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-0733RL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0733RL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -466,6 +475,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-0733KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0733KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -491,6 +501,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-07470RL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CRCW0402470RFKED" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -516,6 +527,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "232270674703L" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0747KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -566,6 +578,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-074K99L" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CRCW04024K99FKED" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -591,6 +604,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CRCW040251K1FKED" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0751K1L" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -616,6 +630,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "CRCW040254K9FKED" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0754K9L" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -641,6 +656,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-0759KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0402FR-0759KL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -666,6 +682,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0402FR-07680KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "CRCW0402680KFKED" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0402*
 $ENDFPLIST
@@ -927,6 +944,7 @@ F8 "WELWYN" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "PCF0603R-10K2BI" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "TYCO ELECTRONICS" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RN73C1J10K2BTG" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/28758/tnpw_e3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1456,6 +1474,7 @@ F12 "TYCO ELECTRONICS" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "RN73C1J1K62BTG" 400 -490 50 H I L CNN "Manufacturer_No4"
 F14 "PANASONIC_RMS1" 400 50 50 H I L CNN "Manufacturer5"
 F15 "ERA-3AEB1621V " 400 50 50 H I L CNN "Manufacturer_No5"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1555,6 +1574,7 @@ F10 "SAMSUNG_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC1608F223CS" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "RC0603FR-0722KL" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1646,6 +1666,7 @@ F6 "SUSUMU CO." 400 -70 50 H I L CNN "Manufacturer"
 F7 "RG1608P-273-B-T5" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RT0603BRE0727KL" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.mouser.ca/datasheet/2/392/n_catalog_partition01_en-1140338.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1696,6 +1717,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0603FR-072K7L" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0603FR-072K7L" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1796,6 +1818,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RT0603BRD0739KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "VISHAY_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "TNPW060339K0BEEA" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1821,6 +1844,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0603FR-0739KL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "SAMSUNG_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC1608F393CS" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1875,6 +1899,7 @@ F10 "PANASONIC_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "ERA-3AEB3241V " 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "RT0603BRD073K24L" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Susumu%20PDFs/RG_RM_RGH_Oct2012.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2027,6 +2052,7 @@ F6 "BOURNS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "CR0603-FX-4703ELF" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0603FR-07470KL" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2052,6 +2078,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "MCT06030D4702BP500" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "PANASONIC_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "ERA-3AEB473V " 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2239,6 +2266,7 @@ F4 "10023239" 400 50 50 H I L CNN "Item Number"
 F5 "RESISTOR, 75K OHM, 0603, +/-1%" 400 -10 50 H I L CNN "Description"
 F6 "BOURNS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "CR0603-FX-7502ELF " 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2262,6 +2290,7 @@ F6 "YAGEO_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "RC0603FR-0786K6L" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "PANASONIC_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "ERJ-3EKF8662V" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2393,6 +2422,7 @@ F8 "YAGEO_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "RC0805FR-0733RL" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0805FR-0733RL" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  *0805*
 $ENDFPLIST
@@ -2805,6 +2835,7 @@ F10 "WELWYN" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "LR2010-R05FW" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "RL2010FK-070R05L" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "http://www.vishay.com/docs/30138/wslt2010.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2940,6 +2971,7 @@ F4 "10022723_A" 400 50 50 H I L CNN "Item Number"
 F5 "RESISTOR,0.05 OHM,1W,+/-1%,2512" 400 -10 50 H I L CNN "Description"
 F6 "VISHAY_RMS1" 400 50 50 H I L CNN "Manufacturer"
 F7 "WSL2512R0500FEA" 400 50 50 H I L CNN "Manufacturer_No"
+F3 "http://www.vishay.com/docs/30100/wsl.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -40 -100 40 100 1 1 10 N
 X ~ 1 0 -150 50 U 50 50 1 1 P
@@ -3086,6 +3118,7 @@ F10 "YAGEO_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "RC0603JR-074K7L" 400 -370 50 H I L CNN "Manufacturer_No3"
 F12 "YAGEO_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "RC0603JR-074K7L" 400 -490 50 H I L CNN "Manufacturer_No4"
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  R_*
 $ENDFPLIST

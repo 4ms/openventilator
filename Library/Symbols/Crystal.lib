@@ -42,6 +42,7 @@ F 6 "JAUSCH" 400 -70 50 H I L CNN "Manufacturer"
 F 7 "J49SML-P-G-G-K-12M0" 400 -130 50 H I L CNN "Manufacturer_No"
 F 8 "ABRACON" 400 -190 50 H I L CNN "Manufacturer2"
 F 9 "XTAL036839" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.jauch.com/downloadfile/5d5283ee24bc6cf48597071bde5f675e0/jauch_datasheet_j49sml.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Crystal*
 $ENDFPLIST

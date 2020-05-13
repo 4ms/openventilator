@@ -12,6 +12,7 @@ F4 "10023418" 600 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR, 10 CONTACTS, HE10" 600 0 50 H I L CNN "Description"
 F6 "HARTING" 600 -50 50 H I L CNN "Manufacturer"
 F7 "09185107323" 600 -100 50 H I L CNN "Manufacturer_No"
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA22/2091831.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_2x??_*
 $ENDFPLIST
@@ -216,6 +217,7 @@ F4 "10022542" 200 -110 50 H I L CNN "Item Number"
 F5 "CONNECTOR, O2 VALVE, 2 CONTACTS" 200 -170 50 H I L CNN "Description"
 F6 "MOLEX_RMS1" 200 -230 50 H I L CNN "Manufacturer"
 F7 "22057028" 200 -290 50 H I L CNN "Manufacturer_No"
+F3 "https://www.molex.com/pdm_docs/sd/022057028_sd.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 T 0 87 62 85 0 1 0 1 Normal 0 L B
 T 0 62 250 85 0 1 0 2 Normal 0 L B
@@ -257,6 +259,7 @@ F4 "10022538" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR, 2 CONTACTS,MICROFIT 3.0" 400 -10 50 H I L CNN "Description"
 F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "436500212" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.molex.com/pdm_docs/ps/PS-43650.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -50 -245 -100 -255 1 1 6 N
 S -50 -145 -100 -155 1 1 6 N
@@ -296,6 +299,7 @@ F4 "10023420" 650 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR, 2 CONTACTS, PIN SPACE 2.54, SM" 650 0 50 H I L CNN "Description"
 F6 "PRECI-DIP                       (015220)" 650 -50 50 H I L CNN "Manufacturer"
 F7 "811-S1-002-30-014101" 650 -100 50 H I L CNN "Manufacturer_No"
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-18/351118.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A 550 0 50 -899 899 0 1 0 N 550 -50 550 50
 A 550 -150 50 -899 899 1 1 0 N 550 -200 550 -100
@@ -409,6 +413,7 @@ F4 "10022543" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR,8 CONTACTS, 2.54PIN PITCH" 400 -10 50 H I L CNN "Description"
 F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "22057088" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.molex.com/pdm_docs/sd/022057088_sd.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 S -50 -345 -100 -355 1 1 6 N
 S -50 -245 -100 -255 1 1 6 N
@@ -828,6 +833,7 @@ F4 "10022872" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR HEADER, 2 CIRCUITS, 2.54MM, 4A, 250V" 400 -10 50 H I L CNN "Description"
 F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "22-27-2021" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.molex.com/pdm_docs/sd/022272021_sd.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -854,6 +860,7 @@ F6 "ANTELEC" 400 -70 50 H I L CNN "Manufacturer"
 F7 "ACPD25410265" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "PRECI-DIP                       (015220)" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "811-S1-002-10-015101" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://drive.google.com/open?id=17-JdgQ0m7W0xIH35IB8MGvRs-WXN5HV4" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -952,6 +959,7 @@ F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "9482033" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "MOLEX_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "09-48-4038" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://www.molex.com/pdm_docs/sd/009484038_sd.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -979,6 +987,7 @@ F4 "10022874" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR MICRO-FIT, 2 CIRCUITS,3MM,5A,250V" 400 -10 50 H I L CNN "Description"
 F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "43650-0224" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.molex.com/pdm_docs/sd/436500224_sd.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -1038,6 +1047,7 @@ F4 "10022868" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR, ZH RIGHT, PINS 6 / 1.5 MM 1A/50V" 400 -10 50 H I L CNN "Description"
 F6 "J.S.T. CORPORATION" 400 -70 50 H I L CNN "Manufacturer"
 F7 "B6B-ZR-SM4-TF(LF)(SN)" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -1143,6 +1153,7 @@ F6 "HARWIN                          (012775)" 400 -70 50 H I L CNN "Manufacturer
 F7 "M20-7830546" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "MOLEX_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "90151-2210 " 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://cdn.harwin.com/pdfs/M20-783.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -1191,6 +1202,7 @@ F4 "10022871" 400 50 50 H I L CNN "Item Number"
 F5 "IC SOCKET CONNECTOR SIZE 1, 6 CIRCUITS, 4.5 A" 400 -10 50 H I L CNN "Description"
 F6 "LEMO                            (019850)" 400 -70 50 H I L CNN "Manufacturer"
 F7 "EPG.1B.306.HLN" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.lemo.com/pdf/EPG.1B.306.HLN.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -1567,6 +1579,7 @@ F4 "10099028" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR,FEMALE 7-PIN CPU" 400 -10 50 H I L CNN "Description"
 F6 "J.S.T. CORPORATION" 400 -70 50 H I L CNN "Manufacturer"
 F7 "ZHR-7" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "http://www.jst-mfg.com/product/pdf/eng/eZH.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Fiducial*
 $ENDFPLIST
@@ -1609,6 +1622,7 @@ F4 "10022541" 400 50 50 H I L CNN "Item Number"
 F5 "COPPER WIRE, SWG20 DIA: 0.91" 400 -10 50 H I L CNN "Description"
 F6 "RS COMPONENTS LIMITED" 400 -70 50 H I L CNN "Manufacturer"
 F7 "355063" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.alliedelec.com/m/d/594d7670840e338766677370df3c5f93.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A 26 0 125 -1274 1273 1 1 0 N -50 -98 -50 99
 C 0 -100 35 1 1 0 N
@@ -1755,6 +1769,7 @@ F6 "NICOMATIC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "C12000B" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "KEYSTONE ELECTRONICS CORP" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "5015" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://nicomatic.com/product-smd_test_terminals-69-en-1-47-334.htm" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Pin*
  Test*
@@ -1817,6 +1832,7 @@ F4 "10022876" 400 50 50 H I L CNN "Item Number"
 F5 "CONNECTOR USB A" 400 -10 50 H I L CNN "Description"
 F6 "MOLEX_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "67329-8001" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.molex.com/pdm_docs/sd/673298001_sd.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  USB*
 $ENDFPLIST

@@ -20,6 +20,7 @@ F12 "PANASONIC_RMS1" 400 -430 50 H I L CNN "Manufacturer4"
 F13 "ERJ-3GEY0R00V " 400 -490 50 H I L CNN "Manufacturer_No4"
 F14 "KAMAYA                          (049580)" 400 -550 50 H I L CNN "Manufacturer5"
 F15 "RMC1/16JPTP" 400 -610 50 H I L CNN "Manufacturer_No5"
+F3 "RoHS3 Compliant with exemptions" 400 50 50 H I L CNN "Datasheet"
 DRAW
 A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
 A 14 0 49 -888 888 1 0 1 F 15 -49 15 49

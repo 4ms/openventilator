@@ -14,6 +14,7 @@ F6 "NEXPERIA" 400 -70 50 H I L CNN "Manufacturer"
 F7 "PMEG4010CEGW" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "DIODES INC_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "1N5819HW-7-F" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG4010CEGW.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -42,6 +43,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BAT54,215" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BAT54" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -73,6 +75,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BAT54C,215" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BAT54C" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -204,6 +207,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 300 -220 50 H I L CNN "Manufacturer"
 F7 "BAT54S,215" 300 -280 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 300 -340 50 H I L CNN "Manufacturer2"
 F9 "BAT54S" 300 -400 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 0 0 10 1 1 0 F
 P 2 1 1 0 -150 0 150 0 N
@@ -244,6 +248,7 @@ F17 "VISHAY_RMS1" 400 50 50 H I L CNN "Manufacturer5"
 F18 "BZG03C30TR" 400 50 50 H I L CNN "Manufacturer_No5"
 F20 "VISHAY" 400 50 50 H I L CNN "Manufacturer6"
 F21 "BZG03C30-M3-18" 400 50 50 H I L CNN "Manufacturer_No6"
+F3 "http://www.vishay.com/docs/86138/bzg03c-m-series.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 P 2 1 1 0 -50 0 50 0 N
 P 3 1 1 8 50 50 50 -50 30 -50 N
@@ -266,6 +271,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BZV55-C15" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BZV55-C15,115" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 P 2 1 1 0 -50 0 50 0 N
 P 3 1 1 8 50 50 50 -50 30 -50 N
@@ -290,6 +296,7 @@ F8 "ON SEMICONDUCTOR_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BZX84B6V8LT1G" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "NXP SEMICONDUCTORS_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "BZX84-B6V8,215" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.digikey.com/products/en?keywords=112-BZX84B6V8-E3-08CT-ND" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Diode_*
  D-Pak_TO252AA
@@ -322,6 +329,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BZX84-C2V7" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BZX84-C2V7,215" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Diode_*
  D-Pak_TO252AA
@@ -354,6 +362,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BZX84-C4V7" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BZX84-C4V7,215" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Diode_*
  D-Pak_TO252AA
@@ -385,6 +394,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "BZX84-C5V1" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "BZX84-C5V1,215" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  Diode_*
  D-Pak_TO252AA
@@ -446,6 +456,7 @@ F4 "10097253" 400 50 50 H I L CNN "Item Number"
 F5 "DIODE SCHOTTKY, 40V, 1A" 400 -10 50 H I L CNN "Description"
 F6 "DIODES INC_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "1N5819HW-7-F" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -500,6 +511,7 @@ F4 "10022656" 400 50 50 H I L CNN "Item Number"
 F5 "DIODE SCHOTTKY, 3A, 40V" 400 -10 50 H I L CNN "Description"
 F6 "STMICROELECTRONICS" 400 -70 50 H I L CNN "Manufacturer"
 F7 "STPS340U" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/bb/db/21/0c/04/d9/41/a5/CD00000844.pdf/files/CD00000844.pdf/jcr:content/translations/en.CD00000844.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -530,6 +542,7 @@ F8 "LITTLEFUSE" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "1SMB36AT3G" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "ON SEMICONDUCTOR_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "1SMB36AT3G" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sz1smb_datasheet.pdf.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -585,6 +598,7 @@ F4 "10022658" 400 50 50 H I L CNN "Item Number"
 F5 "DIODE, 33V, VCL 53.3V, 1500W" 400 -10 50 H I L CNN "Description"
 F6 "BOURNS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "SMCJ33CA" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.bourns.com/docs/Product-Datasheets/SMCJ.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -724,6 +738,7 @@ F8 "VISHAY_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "ES1D-E3/61T" 400 -250 50 H I L CNN "Manufacturer_No2"
 F10 "FAIRCHILD SEMICONDUCTOR_RMS1" 400 -310 50 H I L CNN "Manufacturer3"
 F11 "ES1D" 400 -370 50 H I L CNN "Manufacturer_No3"
+F3 "http://www.vishay.com/docs/88586/es1.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 P 2 0 1 0 50 50 50 -50 N
 P 2 1 1 0 -50 0 50 0 N
@@ -767,6 +782,7 @@ F4 "10022140" 400 50 50 H I L CNN "Item Number"
 F5 "DIODE SCHOTTKY, 20V, 1A, DO216AA" 400 -10 50 H I L CNN "Description"
 F6 "ON SEMICONDUCTOR_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "MBRM120LT1G" 400 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.onsemi.com/pub/Collateral/MBRM120L-D.PDF" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -891,6 +907,7 @@ F6 "NXP SEMICONDUCTORS_RMS1" 400 -70 50 H I L CNN "Manufacturer"
 F7 "PMEG4005AEA,115" 400 -130 50 H I L CNN "Manufacturer_No"
 F8 "NXP SEMICONDUCTORS_RMS1" 400 -190 50 H I L CNN "Manufacturer2"
 F9 "PMEG4005AEA" 400 -250 50 H I L CNN "Manufacturer_No2"
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG4005AEA.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 P 2 1 1 0 -50 0 50 0 N
 P 4 1 1 8 -50 -50 -50 50 50 0 -50 -50 N
@@ -932,6 +949,7 @@ F4 "10022650_A" 400 50 50 H I L CNN "Item Number"
 F5 "DIODE SCHOTTKY, 40V, 1A SOD87" 400 -10 50 H I L CNN "Description"
 F6 "NXP SEMICONDUCTORS_RMS1" 400 -310 50 H I L CNN "Manufacturer"
 F7 "PRLL5819" 400 -490 50 H I L CNN "Manufacturer_No"
+F3 "https://assets.nexperia.com/documents/data-sheet/PRLL5817_18_19.pdf" 400 50 50 H I L CNN "Datasheet"
 $FPLIST
  TO-???*
  *_Diode_*
@@ -981,6 +999,7 @@ F4 "10022519" 500 50 50 H I L CNN "Item Number"
 F5 "DIODE SCHOTTKY, 15A, 45V,TO-252" 500 -10 50 H I L CNN "Description"
 F6 "ST MICROELECTRONIC" 500 -70 50 H I L CNN "Manufacturer"
 F7 "STPS15L45CB-TR" 500 -130 50 H I L CNN "Manufacturer_No"
+F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/b7/c8/02/28/2f/f6/47/20/CD00002833.pdf/files/CD00002833.pdf/jcr:content/translations/en.CD00002833.pdf" 400 50 50 H I L CNN "Datasheet"
 DRAW
 C 150 0 10 1 1 0 F
 P 5 0 1 0 50 100 150 100 150 0 150 -100 50 -100 N
