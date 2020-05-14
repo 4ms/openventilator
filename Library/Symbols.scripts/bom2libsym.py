@@ -57,14 +57,7 @@ import csv
 import re
 from pathlib import Path
 from autoSymbolName import *
-
-def loadFileList(file_name_list):
-    dat = {}
-    for fil in file_name_list:
-        with open(fil) as f:
-            print("Reading file: "+fil)
-            dat[fil] = f.read()
-    return dat
+from fileUtil import *
 
 def readCacheLib(dirname):
     for path in Path(dirname).glob('*-cache.lib'):
@@ -134,7 +127,14 @@ def removeExtraFields(symdat):
     return symdat
 
 def extractFieldFromLibSymbol(field_name, libsymbol_data):
-    m = re.search(r'^F ?[\d]+ "(.*?)" .* "'+field_name+r'"$', libsymbol_data)
+    m = re.search(r'^F ?[\d]+ "(.*?)" .* "'+field_name+r'"$', libsymbol_data, flags=re.MULTILINE)
+    if m is None:
+        return ""
+    else:
+        return m.group(1)
+
+def extractFieldFromLibSymbolByNum(field_num, libsymbol_data):
+    m = re.search(r'\nF ?'+str(field_num)+r' "(.*?)" ', libsymbol_data)
     if m is None:
         return ""
     else:
@@ -423,8 +423,7 @@ def createSymbolsFromBom(input_dir, csv_filename):
     field_list=[]
     refslist=[]
 
-    sch_files = [input_dir+f for f in os.listdir(input_dir) if f.endswith('.sch')]
-    schdat = loadFileList(sch_files)
+    schdat = loadFilesWithExt(input_dir, '.sch')
 
     with open(csv_filename) as csvfile:
         print("Using bom csv file: "+csv_filename)
