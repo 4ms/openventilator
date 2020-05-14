@@ -18,14 +18,9 @@ import os
 import sys
 import csv
 import re
-from pathlib import Path
-from bom2libsym import loadFileList, pullFieldFromList
+from bom2libsym import pullFieldFromList
+from fileUtil import *
 notfound = []
-
-def loadLibraryFiles(symbol_dir):
-    lib_filenames = [symbol_dir+f for f in os.listdir(symbol_dir) if f.endswith('.lib')]
-    libdat = loadFileList(lib_filenames)
-    return libdat
 
 def extractFieldsFromBoms(bom_dir):
     field_dict={}
@@ -145,14 +140,16 @@ def updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict):
             print("**** (not found: "+itemnum+") "+field_name+" = "+field_val)
         return False
 
+    if field_idx<3:
+        return False
+
     if checkSymbolNeedsUpdating(symbol_name, field_name, field_val, libs_dict[lib]):
-        print("Needs updating")
         libs_dict[lib], num = updateSymbolField(symbol_name, field_name, field_val, libs_dict[lib])
         if num > 1:
             print("ERROR: Symbol "+symbol_name+" found more than once in a single library file " + lib)
         if num > 0:
             print("Updated field "+field_name+" = "+field_val+ " into symbol "+symbol_name+" in library "+lib+".")
-        elif field_val!="" and field_name!="" and field_idx>=3:
+        elif field_val!="" and field_name!="":
             libs_dict[lib], num = insertSymbolField(symbol_name, field_name, field_val, field_idx, libs_dict[lib])
             if num>0:
                 print("Inserted field "+field_name+" = "+field_val+ " into symbol "+symbol_name+" in library "+lib+".")
@@ -160,8 +157,7 @@ def updateOrInsertField(itemnum, field_name, field_val, field_idx, libs_dict):
                 print("ERROR: could not insert field "+field_name+" = "+field_val+ " into symbol "+symbol_name+" in library "+lib+".")
         else:
             print("Can't update")
-    # else:
-    #     print("No update necessary")
+    
     return True
 
 def findSymbolByItemnum(itemnum, libs_dict):
@@ -194,6 +190,9 @@ def updateSymbolField(symbol_name, field_name, field_val, libfiledata):
     """ Substitute the given field value for a given symbol
         with the given name in libfiledata
     """
+    if field_name=="Datasheet":
+        return updateUnnamedSymbolField(symbol_name, field_val, 3, libfiledata)
+
     e_symbol = re.escape(symbol_name)
     e_name = re.escape(field_name)
     libfiledata, num = re.subn(
@@ -202,11 +201,37 @@ def updateSymbolField(symbol_name, field_name, field_val, libfiledata):
             libfiledata, flags=re.MULTILINE)
     return libfiledata, num
 
+def updateUnnamedSymbolField(symbol_name, field_val, field_idx, libfiledata):
+    if field_idx>=4:
+        return libfiledata, 0
+    e_symbol = re.escape(symbol_name)
+    libfiledata, num = re.subn(
+            r'^(DEF '+e_symbol+r' .*(?:\n(?!ENDDEF).*)+\nF ?'+str(field_idx)+r') ".*?" )',
+            r'\g<1> "'+field_val+r'" ',
+            libfiledata, flags=re.MULTILINE)
+    return libfiledata, num
+
 def insertSymbolField(symbol_name, field_name, field_val, field_idx, libfiledata):
     """ Insert a field into a symbol within a library
     """
+    if field_name=="Datasheet":
+        return insertSymbolFieldByNum(symbol_name, field_val, field_idx, libfiledata)
+
     e_symbol = re.escape(symbol_name)
     field_txt = createFieldText(field_name, field_val, field_idx)
+    libfiledata, num = re.subn(
+            r'^(DEF '+e_symbol+r' .*(?:\nF.*)+\n)',
+            r'\1'+field_txt,
+            libfiledata, flags=re.MULTILINE)
+    return libfiledata, num
+
+def insertSymbolFieldByNum(symbol_name, field_val, field_idx, libfiledata):
+    """ Insert an unnamed field (F0 - F3) into a symbol within a library
+    """
+    if field_idx>=4:
+        return libfiledata, 0
+    e_symbol = re.escape(symbol_name)
+    field_txt = createUnnamedFieldText(field_val, field_idx)
     libfiledata, num = re.subn(
             r'^(DEF '+e_symbol+r' .*(?:\nF.*)+\n)',
             r'\1'+field_txt,
@@ -216,6 +241,11 @@ def insertSymbolField(symbol_name, field_name, field_val, field_idx, libfiledata
 def createFieldText(field_name, field_val, field_idx):
     lib_tags = "400 50 50 H I L CNN"
     field_text = "F"+str(field_idx)+" \""+field_val+"\" "+ lib_tags + " \""+field_name+"\"\n"
+    return field_text
+
+def createUnnamedFieldText(field_val, field_idx):
+    lib_tags = "400 50 50 H I L CNN"
+    field_text = "F"+str(field_idx)+" \""+field_val+"\" "+ lib_tags + "\n"
     return field_text
 
 def writeLibraryFiles(libs_dict):
@@ -240,7 +270,7 @@ if __name__ == "__main__":
         print("Will update symbol library files in: "+libs_dir)
 
         flds = extractFieldsFromBoms(boms_dir)
-        libs_dict = loadLibraryFiles(libs_dir)
+        libs_dict = loadFilesWithExt(libs_dir, '.lib')
         libs_dict = updateSymbolLibrary(flds, libs_dict)
         writeLibraryFiles(libs_dict)
 
